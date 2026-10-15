@@ -734,13 +734,6 @@ const dashboardData = {
     "updated_at": "2026-10-14T22:05:36.917033",
     "price_14d_ago": 606.56
   },
-  "SMP-500": {
-    "price": 7718.94,
-    "change_pct": -0.32,
-    "name": "S&P 500",
-    "updated_at": "2026-10-14T22:05:37.116624",
-    "price_14d_ago": 7743.41
-  },
   "SMR": {
     "price": 5.83,
     "change_pct": -30.76,
@@ -7695,7 +7688,7 @@ const dashboardData = {
       "key_takeaway": "",
       "tickers_mentioned": [
         "MGM",
-        "TALEN ENERGY"
+        "TLN"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -17519,7 +17512,7 @@ const dashboardData = {
     "contrarian_signals": null,
     "catalysts": [
       "Q2 2026: Expected update on Starlink-xAI integration progress",
-      "H2 2026: Potential IPO of combined entity per management comments",
+      "Happened: SpaceX, which took over xAI effective Feb 2, 2026, began trading on Nasdaq as SPCX on Jun 12, 2026 (SpaceX pricing release, Jun 11; prospectus 424B4)",
       "Ongoing: Monthly Starlink launch cadence and capacity additions"
     ],
     "related_insights": null,
@@ -37142,7 +37135,7 @@ const dashboardData = {
     "source_date": "2026-06-12",
     "key_tickers": [
       "MGM",
-      "TALEN ENERGY"
+      "TLN"
     ]
   },
   "299": {

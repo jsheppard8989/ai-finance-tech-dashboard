@@ -30,12 +30,12 @@
     },
     {
       "trap_id": "hims",
-      "date_label": "By Nov 9",
-      "what": "Hims & Hers Q3 report (filing deadline)"
+      "date_label": "Mon Nov 9",
+      "what": "Hims & Hers Q3 results, after the close"
     },
     {
       "trap_id": "tsat",
-      "date_label": "Sun Dec 6",
+      "date_label": "Dec 6 (Sunday; payment due next business day, Dec 7)",
       "what": "Telesat December 2026 debt maturity, or a refinancing filing"
     }
   ]

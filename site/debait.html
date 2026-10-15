@@ -263,6 +263,9 @@
       margin-top: 0.35rem;
     }
     .bet-status.open { color: #fbbf24; border: 1px solid rgba(251,191,36,0.45); background: rgba(251,191,36,0.08); }
+    .bet-status.resolved-yes { color: #22c55e; border: 1px solid rgba(34,197,94,0.45); background: rgba(34,197,94,0.08); }
+    .bet-status.resolved-no { color: #f97373; border: 1px solid rgba(248,113,113,0.45); background: rgba(248,113,113,0.08); }
+    .bet-status.resolved-void { color: #a8b2d1; border: 1px solid rgba(168,178,209,0.45); background: rgba(168,178,209,0.08); }
     .history-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 0.5rem; }
     .history-table th, .history-table td {
       text-align: left; padding: 0.45rem 0.35rem; border-bottom: 1px solid rgba(255,255,255,0.08); vertical-align: top;
@@ -343,7 +346,7 @@
     </header>
 
     <div class="card" id="debate-hero">
-      <div class="pill"><strong>This week’s contract</strong><span id="hero-date">—</span></div>
+      <div class="pill"><strong id="hero-label">This week’s contract</strong><span id="hero-date">—</span></div>
       <div id="week-label" style="color:#8892b0;font-size:0.85rem;margin-bottom:0.35rem;"></div>
       <div class="editorial-note" id="editorial-note" style="display:none;">
         <span class="lbl">Why we picked this</span>
@@ -373,7 +376,7 @@
     <div class="card" id="listen-card">
       <h2>Listen — weekly pundit episode</h2>
       <p class="tagline" style="margin-bottom: 0.6rem;">
-        Short host + two pundit voices on this week’s contract (ElevenLabs). Regenerate after contract changes.
+        Short host + two pundit voices on <span id="listen-contract-ref">this week’s contract</span> (ElevenLabs). Regenerate after contract changes.
       </p>
       <div class="methodology" style="margin: 0.25rem 0 0.85rem;">
         <strong>Cast:</strong> <span style="color:#a8b2d1;">Host</span> introduces the contract and assigns sides ·
@@ -394,7 +397,7 @@
     </div>
 
     <div class="card" id="debaters-card">
-      <h2>This week’s debaters</h2>
+      <h2 id="debaters-heading">This week’s debaters</h2>
       <p class="tagline" id="opening-tagline">
         The two voices in this episode—assigned to yes and no for color. Full pundit roster lives on the main dashboard.
       </p>
@@ -406,7 +409,7 @@
     <div class="card" id="history-card">
       <h2>Prior weeks &amp; call status</h2>
       <p class="tagline">Outcomes use the same Affirmative green / Negative red as debater tags above. Contracts resolve based on publicly verifiable facts — official market closes (Yahoo Finance for equities, CoinGecko for crypto), government announcements, election results, or other documented sources cited in each resolution. You can also set status via <code style="font-size:0.75rem;">debate_weekly.py --mark-resolved</code>. Listen controls appear only when that week’s archive MP3 is on the server.</p>
-      <div id="history-empty" style="color:#8892b0;font-size:0.85rem;">No prior weeks recorded yet. After the first Friday rollover, history appears here.</div>
+      <div id="history-empty" style="color:#8892b0;font-size:0.85rem;">Loading prior weeks…</div>
       <table class="history-table" id="history-table" style="display:none;">
         <thead>
           <tr>
@@ -668,7 +671,7 @@
         archiveByFriday = archiveByFriday || {};
         if (!weeks || !weeks.length) {
           if (table) table.style.display = 'none';
-          if (empty) empty.style.display = 'block';
+          if (empty) { empty.textContent = 'No prior weeks recorded yet.'; empty.style.display = 'block'; }
           return;
         }
         if (empty) empty.style.display = 'none';
@@ -755,12 +758,25 @@
         if (weekLabelEl) {
           weekLabelEl.textContent = contract && contract.week_label ? contract.week_label : '';
         }
+        // A graded contract is no longer "this week's": label it as the last (resolved) contract.
+        var heroSt = String((contract && (contract.resolution_status || contract.bet_status)) || 'open').toLowerCase();
+        var heroResolved = (heroSt === 'yes' || heroSt === 'no' || heroSt === 'void');
+        if (heroResolved) {
+          var heroLabelEl = document.getElementById('hero-label');
+          if (heroLabelEl) heroLabelEl.textContent = 'Last contract (resolved)';
+          var listenRef = document.getElementById('listen-contract-ref');
+          if (listenRef) listenRef.textContent = 'the last contract';
+          var debHead = document.getElementById('debaters-heading');
+          if (debHead) debHead.textContent = 'Debaters (last contract)';
+          if (weekLabelEl) weekLabelEl.textContent = (weekLabelEl.textContent ? weekLabelEl.textContent + ' · ' : '') + 'No newer contract has been posted yet.';
+        }
         if (betRow) {
           var bs = (contract && contract.bet_status) ? String(contract.bet_status).toLowerCase() : 'open';
           var exp = contract && contract.expires_rule ? contract.expires_rule : '';
           var bsLabel = bs === 'open' ? 'OPEN' : ((bs === 'yes' || bs === 'no') ? 'RESOLVED ' + bs.toUpperCase() : bs.toUpperCase());
           var bsNote = (bs !== 'open' && contract && contract.resolution_notes) ? '<div style="font-size:0.78rem;opacity:0.85;margin-top:0.3rem;">' + String(contract.resolution_notes).replace(/</g, '&lt;') + '</div>' : '';
-          betRow.innerHTML = '<span class="bet-status open">Call status: ' + bsLabel + '</span>' +
+          var bsClass = bs === 'yes' ? 'resolved-yes' : (bs === 'no' ? 'resolved-no' : (bs === 'void' ? 'resolved-void' : 'open'));
+          betRow.innerHTML = '<span class="bet-status ' + bsClass + '">Call status: ' + bsLabel + '</span>' +
             (exp ? '<span class="pill" style="margin-left:0.5rem;">' + exp.replace(/</g, '&lt;') + '</span>' : '') + bsNote;
         }
 
