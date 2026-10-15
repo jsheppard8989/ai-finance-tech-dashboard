@@ -66,7 +66,8 @@
     "Building the Cloud for an Agentic World | AWS CEO Matt Garman": "Matt Garman",
     "Can AI Break Cryptography? What the Experts Actually Think": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics": "Jason Ma",
-    "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live": "Cathie Wood"
+    "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live": "Cathie Wood",
+    "The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO": "Ben Inker"
   },
   "insight_guest_by_id": {
     "564": "Alex Atallah & Amjad Masad",
@@ -82,7 +83,8 @@
     "573": "Matt Garman",
     "585": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "586": "Jason Ma",
-    "550": "Cathie Wood"
+    "550": "Cathie Wood",
+    "588": "Ben Inker"
   },
   "overrides": {
     "Graham Allison": {
@@ -120,6 +122,10 @@
     "Ray Dalio": {
       "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
       "known_for": "Macro investing at Bridgewater and analysis of global debt cycles."
+    },
+    "Nathan Lambert": {
+      "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
+      "known_for": "Open-model research and post-training; co-founder of Trillium Labs."
     }
   }
 }

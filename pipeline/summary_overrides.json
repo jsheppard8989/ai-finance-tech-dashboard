@@ -428,6 +428,55 @@
           "Happened: SpaceX, which took over xAI effective Feb 2, 2026, began trading on Nasdaq as SPCX on Jun 12, 2026 (SpaceX pricing release, Jun 11; prospectus 424B4)"
         ]
       ]
+    },
+    {
+      "insight_id": 588,
+      "episode_title": "Equity Supply Says This $80 Billion Asset Manager | Ben Inker",
+      "_note": "Oct 15 2026 (G(ai)ndolf): ASR fixes, closet-indexing gloss, SMCI key ticker.",
+      "replacements": [
+        [
+          "becomes a \"wash\" in compute",
+          "becomes awash in compute"
+        ],
+        [
+          "suddenly a wash in compute",
+          "suddenly awash in compute"
+        ],
+        [
+          "passive ownership, closet indexing, and",
+          "passive ownership, closet indexing (active funds that mostly track the index), and"
+        ]
+      ],
+      "add_key_tickers": [
+        "SMCI"
+      ]
+    },
+    {
+      "insight_id": 587,
+      "episode_title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
+      "_note": "Oct 15 2026 (G(ai)ndolf): Trillium Labs name, China compute wording, RL / fast-takeoff glosses.",
+      "replacements": [
+        [
+          "introduces Trillium, Lambert",
+          "introduces Trillium Labs, Lambert"
+        ],
+        [
+          "Lambert says Trillium will",
+          "Lambert says Trillium Labs will"
+        ],
+        [
+          "compute scarcity remains a real constraint, particularly relative to top labs and China, even when talent is strong",
+          "compute scarcity remains a real constraint, especially for Chinese labs, which have strong talent but less compute"
+        ],
+        [
+          "modern reasoning and RL-heavy post-training make",
+          "modern reasoning and post-training that leans on reinforcement learning (RL) make"
+        ],
+        [
+          "does not imply a fast-takeoff dynamic",
+          "does not imply a sudden runaway jump in AI ability (fast takeoff)"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -436,6 +485,13 @@
       "set": {
         "term": "Photonic matrix-multiplication cores",
         "definition": "Photonic/analog optical compute cores that use light to do matrix multiplication very efficiently. Shkreli treats this as a potential successor architecture to GPU-centric computing."
+      }
+    },
+    {
+      "term": "Compute wash",
+      "_note": "Oct 15 2026: term id 902 renamed (name only).",
+      "set": {
+        "term": "Compute glut"
       }
     }
   ],
@@ -663,6 +719,34 @@
     [
       "into an increasingly concentrated bet that can break",
       "into an increasingly concentrated position that can break"
+    ],
+    [
+      "per percent of market gap that comes in",
+      "per percent of market cap that comes in"
+    ],
+    [
+      "coming in, let's 24% worse than normal",
+      "coming in, that's 24% worse than normal"
+    ],
+    [
+      "SpaceX soon to be anthropic and then soon to be open AI",
+      "SpaceX, soon to be Anthropic and then soon to be OpenAI"
+    ],
+    [
+      "AI researcher and founder of the nonprofit research lab Trillium. ",
+      "AI researcher and co-founder of the nonprofit research lab Trillium Labs. "
+    ],
+    [
+      "Kathy Wood predicts an entrepreneurial explosion",
+      "Cathie Wood predicts an entrepreneurial explosion"
+    ],
+    [
+      "Liquid AI, led by Ramine Hassani,",
+      "Liquid AI, led by Ramin Hasani,"
+    ],
+    [
+      "Hemanthus is an early bet on photonics",
+      "Hemanthus is early exposure to photonics"
     ]
   ],
   "name_replacements": [

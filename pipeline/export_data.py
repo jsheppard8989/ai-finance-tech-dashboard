@@ -219,6 +219,28 @@ def _rename_ticker_analysis(value, renames):
     return value
 
 
+def _add_key_tickers(value, add):
+    """Append symbols to a key_tickers list (or JSON list string) if missing. Idempotent."""
+    add = [str(a) for a in (add or []) if a]
+    if not add:
+        return value
+
+    def merge(items):
+        have = {str(t).upper() for t in items}
+        return list(items) + [a for a in add if a.upper() not in have]
+
+    if isinstance(value, list):
+        return merge(value)
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except Exception:
+            return value
+        if isinstance(parsed, list):
+            return json.dumps(merge(parsed))
+    return value
+
+
 def _apply_ticker_fixes_to_record(o, drop=None, renames=None):
     drop = drop or []
     renames = renames or []
@@ -245,6 +267,7 @@ def _apply_summary_overrides(obj):
       Deep Dive overview/evidence/falsification tracks, ...) except the title fields.
       Optional 'drop_tickers' removes symbols from tickers_mentioned / key_tickers.
       Optional 'rename_tickers' renames symbols in those fields and ticker_analysis keys.
+      Optional 'add_key_tickers' appends missing symbols to key_tickers (idempotent).
     - 'global_replacements': exact swaps applied to every string anywhere (except title
       fields), e.g. mis-transcribed speaker names in pundits/overton/podcastGuests.
     - 'ticker_renames' / 'global_drop_tickers': applied to every record that has
@@ -265,6 +288,8 @@ def _apply_summary_overrides(obj):
         _apply_ticker_fixes_to_record(
             o, drop=r.get("drop_tickers") or [], renames=r.get("rename_tickers") or []
         )
+        if r.get("add_key_tickers") and "key_tickers" in o:
+            o["key_tickers"] = _add_key_tickers(o["key_tickers"], r["add_key_tickers"])
 
     def walk(o):
         if isinstance(o, dict):
@@ -377,6 +402,32 @@ def _apply_term_overrides(terms):
     return terms
 
 
+CURATED_OVERTON_PATH = Path(__file__).parent.parent / "site" / "data" / "curated_overton.json"
+
+
+def _drop_terms_pinned_as_curated(terms, path=None):
+    """Drop suggested terms superseded by an active curated Overton seed (one term, not two).
+
+    A seed supersedes a pipeline term when it lists the term id in 'pipeline_term_ids' or
+    has the same term text (case-insensitive). E.g. 'Compute glut' seed replaces term 902.
+    """
+    try:
+        cur = json.loads(Path(path or CURATED_OVERTON_PATH).read_text(encoding="utf-8")).get("curated") or []
+    except Exception:
+        return terms
+    ids, names = set(), set()
+    for c in cur:
+        if isinstance(c, dict) and c.get("status") == "active":
+            ids.update(int(i) for i in c.get("pipeline_term_ids") or [])
+            if c.get("term"):
+                names.add(str(c["term"]).strip().lower())
+    if not isinstance(terms, list):
+        return terms
+    terms[:] = [t for t in terms if not (isinstance(t, dict) and (
+        t.get("id") in ids or str(t.get("term") or "").strip().lower() in names))]
+    return terms
+
+
 def _apply_summary_overrides_to_files(site_dir: Path) -> None:
     for name in ("podcast_summaries.json", "archive.json", "pundits.json", "podcast_guests.json"):
         f = site_dir / name
@@ -396,6 +447,7 @@ def _apply_summary_overrides_to_files(site_dir: Path) -> None:
             for g in data:
                 if isinstance(g, dict) and fixes.get(g.get("name") or ""):
                     g["name"] = fixes[g["name"]]
+            _apply_guest_bio_overrides(data, gov)
         _apply_summary_overrides(data)
         apply_style_gate(data)  # warn-only 'bet' wording check
         if json.dumps(data) != before:
@@ -1362,7 +1414,28 @@ def _apply_guest_export_overrides(main_content: dict, podcast_guests: list) -> t
         fixed = fixes.get(g.get("name") or "")
         if fixed:
             g["name"] = fixed
+    _apply_guest_bio_overrides(filtered, ov)
     return main_content, filtered
+
+
+def _apply_guest_bio_overrides(guests, ov=None):
+    """Fill empty podcastGuests bio/known_for from guest_overrides.json 'overrides' (by exact name).
+
+    extract_guests.grokipedia_lookup only applies these at extraction time, so guests already
+    in the DB with bio=None stay blank on a re-export without this export-time pass.
+    """
+    ov = ov if ov is not None else load_overrides()
+    curated = ov.get("overrides") or {}
+    for g in guests if isinstance(guests, list) else []:
+        if not isinstance(g, dict):
+            continue
+        entry = curated.get(g.get("name") or "")
+        if not isinstance(entry, dict):
+            continue
+        for field in ("bio", "known_for"):
+            if entry.get(field) and not g.get(field):
+                g[field] = entry[field]
+    return guests
 
 
 def generate_website_js():
@@ -1386,6 +1459,7 @@ def generate_website_js():
     _apply_summary_overrides(deepdives)
     _apply_summary_overrides(podcast_guests)
     _apply_term_overrides(suggested_terms)
+    _drop_terms_pinned_as_curated(suggested_terms)
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
     try:
