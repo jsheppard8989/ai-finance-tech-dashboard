@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-09-04T12:48:25.160269",
+  "generated_at": "2026-10-15T10:06:28.321375",
   "archives": [
+    {
+      "friday_iso": "2026-09-04",
+      "audio_href": "./audio/archive/debate_2026-09-04.mp3"
+    },
     {
       "friday_iso": "2026-08-21",
       "audio_href": "./audio/archive/debate_2026-08-21.mp3"
@@ -52,6 +56,22 @@
     {
       "friday_iso": "2026-05-29",
       "audio_href": "./audio/archive/debate_2026-05-29.mp3"
+    },
+    {
+      "friday_iso": "2026-05-22",
+      "audio_href": "./audio/archive/debate_2026-05-22.mp3"
+    },
+    {
+      "friday_iso": "2026-05-15",
+      "audio_href": "./audio/archive/debate_2026-05-15.mp3"
+    },
+    {
+      "friday_iso": "2026-05-08",
+      "audio_href": "./audio/archive/debate_2026-05-08.mp3"
+    },
+    {
+      "friday_iso": "2026-05-01",
+      "audio_href": "./audio/archive/debate_2026-05-01.mp3"
     }
   ]
 }
