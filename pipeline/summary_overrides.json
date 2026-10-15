@@ -745,8 +745,16 @@
       "Liquid AI, led by Ramin Hasani,"
     ],
     [
-      "Hemanthus is an early bet on photonics",
-      "Hemanthus is early exposure to photonics"
+      "Hemanthus is an early bet on photonics-enabled diagnostics hardware",
+      "Haemanthus is an early-stage company building light-based (photonics) diagnostics hardware"
+    ],
+    [
+      "Haemanthus is an early bet on photonics-enabled diagnostics hardware",
+      "Haemanthus is an early-stage company building light-based (photonics) diagnostics hardware"
+    ],
+    [
+      "my company is called Hemanthus.",
+      "my company is called Haemanthus."
     ]
   ],
   "name_replacements": [
@@ -1229,6 +1237,10 @@
     [
       "Ben Harwitz",
       "Ben Horowitz"
+    ],
+    [
+      "Hemanthus",
+      "Haemanthus"
     ]
   ],
   "ticker_renames": [
