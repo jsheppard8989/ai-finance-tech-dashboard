@@ -29,6 +29,18 @@ origin/main, i.e. what is live):
      data.js, site/data/*.json and the Trap Map card text.
   5. data.js generatedAt present and non-empty.
   6. data.js priceSnapshot present and non-empty.
+  7. Staleness (check_staleness, Oct 15 2026; warn-only, prints
+     "WARN publish guard staleness: ..."):
+       a. debate contract: friday_iso > 7 days old and NOT resolved. A
+          resolved last contract (resolution_status yes/no/void/resolved, or
+          resolved_at set) is fine: debates are paused by Jared's decision.
+          Becomes BLOCKING on CONTRACT_AGE_BLOCK_FROM (2026-10-29).
+       b. "As of <date>, nothing new / checked ..." check-dates on live
+          surfaces (trap-map.html, trap_map_home.json, debait.html) older
+          than ASOF_MAX_DAYS. Reference dates ("cash as of Jun 30") are
+          ignored. Warn-only.
+       c. signed % moves on live surfaces with no date/period nearby.
+          Warn-only.
 
 CLI: python3 publish_guard.py [--site DIR] [--repo DIR]   (exit 1 = blocked)
 """
@@ -42,6 +54,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from datetime import date, datetime, timedelta
 from typing import Iterable
 
 _HERE = Path(__file__).resolve().parent
@@ -128,6 +141,128 @@ def _walk(obj, parent_title: str = ""):
     elif isinstance(obj, list):
         for v in obj:
             yield from _walk(v, parent_title)
+
+
+# ---------------------------------------------------------------- staleness
+WARN_STALE = "WARN publish guard staleness"
+CONTRACT_AGE_BLOCK_FROM = date(2026, 10, 29)  # contract-age check blocks from this date
+CONTRACT_MAX_AGE_DAYS = 7
+ASOF_MAX_DAYS = 14
+RESOLVED_STATUSES = {"yes", "no", "void", "resolved", "resolved_yes", "resolved_no", "resolved_void"}
+_MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+_MON = r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
+ASOF_RE = re.compile(r"(?i)\bas of (?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*,?\s+)?" + _MON
+                     + r"\s+(\d{1,2})(?:,?\s+(\d{4}))?")
+# Only "as of" dates that describe when we last checked count as check-dates.
+CHECK_CUE_RE = re.compile(r"(?i)nothing new|no new|hasn.t|has not|haven.t|no filing|not yet|checked|no change|still")
+PCT_RE = re.compile(r"(?<![\w.])[+\-\u2212]\d+(?:\.\d+)?%")
+PERIOD_RE = re.compile(r"(?i)\b(since|from|through|to|between|as of|ytd|year[- ]to[- ]date|\d+[- ]day|week|month|quarter|q[1-4]|"
+                       r"close|closes|session|intraday|today|yesterday)\b|" + _MON + r"\s+\d{1,2}|\b20\d\d\b")
+TAG_RE = re.compile(r"<(script|style)\b.*?</\1>|<[^>]+>", re.S | re.I)
+
+
+def _today() -> date:
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("America/Chicago")).date()
+    except Exception:
+        return date.today()
+
+
+def _md_date(mon: str, day: str, year: str | None, today: date) -> date | None:
+    m = _MONTHS.get(mon[:3].lower())
+    try:
+        if year:
+            return date(int(year), m, int(day))
+        d = date(today.year, m, int(day))
+        return date(today.year - 1, m, int(day)) if d > today + timedelta(days=60) else d
+    except (TypeError, ValueError):
+        return None
+
+
+def _text(html_text: str) -> str:
+    return re.sub(r"\s+", " ", html.unescape(TAG_RE.sub(" ", html_text or "")))
+
+
+def _strings(obj):
+    if isinstance(obj, str):
+        yield obj
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            if not str(k).startswith("_"):
+                yield from _strings(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from _strings(v)
+
+
+def _live_texts(site: Path) -> list[tuple[str, str]]:
+    out = []
+    for name in ("trap-map.html", "debait.html"):
+        p = site / name
+        if p.exists():
+            out.append((name, _text(p.read_text(encoding="utf-8"))))
+    p = site / "data" / "trap_map_home.json"
+    if p.exists():
+        try:
+            out += [("trap_map_home.json", s) for s in _strings(json.loads(p.read_text(encoding="utf-8")))]
+        except Exception:
+            pass
+    return out
+
+
+def contract_is_resolved(c: dict) -> bool:
+    st = str(c.get("resolution_status") or "").strip().lower()
+    return st in RESOLVED_STATUSES or bool(str(c.get("resolved_at") or "").strip())
+
+
+def check_contract_age(site: Path, today: date) -> list[str]:
+    p = site / "audio" / "debate_contract.json"
+    if not p.exists():
+        return []
+    try:
+        c = json.loads(p.read_text(encoding="utf-8"))
+        fri = date.fromisoformat(str(c.get("friday_iso") or "")[:10])
+    except Exception:
+        return []
+    age = (today - fri).days
+    if age <= CONTRACT_MAX_AGE_DAYS or contract_is_resolved(c) or c.get("paused") is True:
+        return []
+    return [f"debate contract friday_iso {fri} is {age} days old and not resolved "
+            f"(still shown as this week's contract)"]
+
+
+def check_asof_age(site: Path, today: date, max_days: int = ASOF_MAX_DAYS) -> list[str]:
+    out = []
+    for src, t in _live_texts(site):
+        for m in ASOF_RE.finditer(t):
+            if not CHECK_CUE_RE.search(t[m.end():m.end() + 120]):
+                continue
+            d = _md_date(m.group(1), m.group(2), m.group(3), today)
+            if d and (today - d).days > max_days:
+                out.append(f"{src}: '{m.group(0)}' is {(today - d).days} days old (> {max_days})")
+    return out
+
+
+def check_undated_pct(site: Path) -> list[str]:
+    out = []
+    for src, t in _live_texts(site):
+        for m in PCT_RE.finditer(t):
+            a, b = max(0, m.start() - 120), m.end() + 120
+            if not PERIOD_RE.search(t[a:b]):
+                out.append(f"{src}: % move {m.group(0)!r} has no date or period nearby: ...{t[max(0, m.start() - 50):m.end() + 30].strip()}...")
+    return out
+
+
+def check_staleness(site: Path, today: date | None = None) -> tuple[list[str], list[str]]:
+    """Return (blocking, warnings). Only the contract-age check can block, from CONTRACT_AGE_BLOCK_FROM."""
+    today = today or _today()
+    contract = check_contract_age(site, today)
+    warnings = check_asof_age(site, today) + check_undated_pct(site)
+    if today >= CONTRACT_AGE_BLOCK_FROM:
+        return [f"staleness: {r}" for r in contract], warnings
+    return [], contract + warnings
 
 
 # ---------------------------------------------------------------- checks
@@ -262,7 +397,7 @@ def load_baselines(repo: Path, site_rel: str = "site", refs: Iterable[str] = BAS
 
 
 def run_publish_guard(site: Path, pipeline: Path | None = None, repo: Path | None = None,
-                      baselines: dict | None = None) -> tuple[bool, list[str]]:
+                      baselines: dict | None = None, today: date | None = None) -> tuple[bool, list[str]]:
     """Return (ok, reasons). Prints one 'ALERT publish guard: ...' line per reason."""
     site = Path(site)
     pipeline = Path(pipeline) if pipeline else site.parent / "pipeline"
@@ -281,6 +416,13 @@ def run_publish_guard(site: Path, pipeline: Path | None = None, repo: Path | Non
         reasons += check_data(site)
     except Exception as e:
         reasons.append(f"check_data crashed: {e}")
+    try:
+        stale_block, stale_warn = check_staleness(site, today)
+        reasons += stale_block
+        for w in stale_warn:
+            print(f"{WARN_STALE}: {w}")
+    except Exception as e:
+        print(f"{WARN_STALE}: check_staleness crashed: {e}")
     for r in reasons:
         print(f"{ALERT}: {r}")
     if not reasons:
