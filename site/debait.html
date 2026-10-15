@@ -374,9 +374,9 @@
     </div>
 
     <div class="card" id="listen-card">
-      <h2>Listen — weekly pundit episode</h2>
+      <h2>Listen — pundit episode</h2>
       <p class="tagline" style="margin-bottom: 0.6rem;">
-        Short host + two pundit voices on <span id="listen-contract-ref">this week’s contract</span> (ElevenLabs). Regenerate after contract changes.
+        Short host + two pundit voices on <span id="listen-contract-ref">this week’s contract</span> (ElevenLabs).
       </p>
       <div class="methodology" style="margin: 0.25rem 0 0.85rem;">
         <strong>Cast:</strong> <span style="color:#a8b2d1;">Host</span> introduces the contract and assigns sides ·
@@ -768,7 +768,6 @@
           if (listenRef) listenRef.textContent = 'the last contract';
           var debHead = document.getElementById('debaters-heading');
           if (debHead) debHead.textContent = 'Debaters (last contract)';
-          if (weekLabelEl) weekLabelEl.textContent = (weekLabelEl.textContent ? weekLabelEl.textContent + ' · ' : '') + 'No newer contract has been posted yet.';
         }
         if (betRow) {
           var bs = (contract && contract.bet_status) ? String(contract.bet_status).toLowerCase() : 'open';
