@@ -1,5 +1,79 @@
 [
   {
+    "id": 581,
+    "podcast_name": "The a16z Show",
+    "episode_title": "When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
+    "episode_date": "2026-10-15",
+    "summary": "The episode argues that AI agents are rapidly shifting from recommending purchases to actually spending money, which makes payment credentials the key bottleneck for agentic commerce. Terry Angelos says the change has happened extremely fast: agents were effectively zero three months ago and now are generating a few million agentic tokens per week. The guests frame this as a coming phase of \"wallet wars,\" where wallets, merchants, and infrastructure providers race to connect agents while preserving security, chargeback rights, and consumer protections.\n\nA central claim is that VGS sits at the middle of this transition because it vaults payment credentials, updates tokenized credentials across networks, and provisions agentic tokens. Angelos says VGS secures credentials for about a third of all e-commerce by GMV and is by far the largest provisioner of these tokens. The discussion emphasizes that this matters because merchants often use multiple processors, so a neutral infrastructure layer that can manage token updates across networks and processors becomes more valuable as agent-to-merchant transactions scale.\n\nThe episode also explores which merchants will welcome or resist agents. Alex Rampell says Amazon recently blocked agents because it is effectively an advertising company that wants users and eyeballs on its site, while Walmart is portrayed as more receptive. Shopify and PayPal are described as large wallet ecosystems that can participate in this new flow, and Stripe Link is used as a bridging example when wallet and merchant integrations do not line up. Angelos says Stripe handled a Walmart-style purchase by issuing a one-time virtual Visa card and completing the transaction anyway.\n\nThe guests also caution that some parts of agentic finance are likely overhyped. Angelos does not expect agents to trigger dramatic bank-run behavior from yield optimization because integration friction remains high, and he argues the bigger risk may be economic breakage in rewards, subscriptions, and liability allocation when agents transact on behalf of users. The long-term prediction is that open standards for agentic tokens will replace closed \"walled garden\" integrations, but the exact liability framework and merchant economics still need to be worked out.",
+    "key_takeaways": [
+      "Terry Angelos said VGS secures credentials for about a third of all e-commerce by GMV, positioning it as core infrastructure for agentic payments.",
+      "Terry Angelos said agentic tokens went from zero three months ago to a few million per week, showing a rapid adoption inflection.",
+      "Alex Rampell argued Amazon blocked agents because it is an advertising business that wants consumer attention on Amazon's site.",
+      "Terry Angelos said VGS is the largest provisioner of agentic tokens and services agents, wallets, and some merchants.",
+      "Alex Rampell said Stripe Link has about 300 million consumers and about 1 million merchants, making it a major wallet in this ecosystem.",
+      "Terry Angelos described a Walmart transaction where Stripe issued a one-time virtual Visa card to complete the purchase when direct integration was missing.",
+      "Terry Angelos said the bigger risk may be breakage in rewards and liability frameworks, not whether the technology can work at all."
+    ],
+    "investment_thesis": "Agentic commerce could create a large infrastructure winner in payment vaulting and token provisioning, and VGS claims to already sit at the center of that shift.",
+    "key_tickers": null
+  },
+  {
+    "id": 580,
+    "podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+    "episode_title": "Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
+    "episode_date": "2026-10-15",
+    "summary": "The episode argues that AI is moving from model improvement to agentic capability, where memory, knowledge graphs, and tool-use \u201charnesses\u201d matter as much as raw scaling. Jensen Huang says the current wave of progress has already happened with only \u201ctwo, three gigawatts\u201d of compute each at OpenAI and Anthropic, implying that far larger buildouts should unlock much bigger jumps in long-running tasks, scientific discovery, and enterprise deployment.\n\nA major theme is that compute demand is accelerating faster than linear intuition, with claims that next year could see 43 gigawatts of new AI compute and roughly 40 gigawatts the year after. The speakers frame the long-run buildout as potentially $2 trillion over five years, with infrastructure spending eventually reaching $3\u20134 trillion per year and annual economic activity tied to AI possibly reaching $10 trillion. They repeatedly tie this to falling cost of intelligence, arguing that cheaper intelligence will come from both more compute and better efficiency.\n\nNvidia is presented as the central infrastructure winner because its compute is described as durable, fungible, and unusually financeable at scale. Huang says Nvidia serves hyperscalers, enterprises, and many customer types across the full lifecycle from training to inference to agent processing, and that constraints in power and land are key bottlenecks rather than lack of demand. He also argues that Nvidia\u2019s productivity is so high that even space deployment could make economic sense, and that customers can justify very large checks because the return on capital is strong.\n\nThe episode also emphasizes safety, security, and regulation as inseparable from capability. Huang says alignment is a \u201cforever problem\u201d and that capability cannot be separated from safety and security, pointing to frontier-model review, oversight, and coordination frameworks as the practical path forward. The discussion extends into physical AI and robotics, where the speakers say revenues are already at significant annualized levels and the addressable market could exceed $100 billion as robots, logistics, healthcare, and other physical systems become more capable.",
+    "key_takeaways": [
+      "Jensen Huang said OpenAI and Anthropic each had only \"two, three gigawatts of compute each,\" arguing that this relatively small base already produced major progress.",
+      "Huang argued that agentic AI depends on memory, knowledge graphs, and tool use, not just larger models, calling these systems a kind of \"harness\" or exoskeleton.",
+      "The speakers cited a forecast of 43 gigawatts of new AI compute next year and roughly 40 gigawatts the year after, showing how quickly capacity could scale.",
+      "Huang said Nvidia\u2019s compute is so productive that customers can finance very large deployments, even describing the return on invested capital as good enough to justify space deployment.",
+      "Huang stated that \"Alignment is going to be a forever problem\" and that capability and safety/security cannot be separated.",
+      "The episode claimed physical AI revenues were $10 billion in the first six months and $10 billion in the last year, up from $5 billion the year before.",
+      "Huang said land and power are the main near-term bottlenecks for buildout, not demand, and that supply constraints will shape next year\u2019s expansion."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 578,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
+    "episode_date": "2026-10-15",
+    "summary": "Billy Evans frames the episode around Elizabeth Holmes\u2019s public silence, arguing that following the judge\u2019s instruction to litigate in court rather than the media was her \u201csingle biggest mistake\u201d because it prevented her from shaping the narrative. He also disputes the common framing of the Theranos case, saying the missing revenue issue was tied to Walgreens contractual obligations and subsequent default after bad press, rather than fabricated numbers.\n\nEvans says Holmes faced 13 counts and claims the government focused heavily on patient fraud allegations, while the convictions centered on investor fraud and conspiracy. He says Holmes ran about 12.5 million tests over 18 months and that the case\u2019s sentencing math expanded the punishment from roughly 4.5\u20135 years to 11 years by incorporating more investors through conspiracy counts.\n\nA substantial portion of the discussion is about Holmes\u2019s prison status and expected release path. Evans says she has been at the Brian Federal Prison Camp for 1,205 days, with the facility housing about 800 women and only around 30 visitors getting in on a given weekend. He says the First Step Act can allow 16 days off for every 30 days of programming participation, and he expects a halfway-house transfer in the second quarter of next year.\n\nBeyond the Holmes narrative, Evans describes building a new diagnostics company, Haemanthus, using Raman spectroscopy and photonics to make biological sensing devices cheaper, smaller, and more widely distributed than million-dollar lab instruments. He positions the company as focused on generating useful biological data for AI, while emphasizing that it is not intended to be a \u201cTheranos 2.0\u201d replay.",
+    "key_takeaways": [
+      "Billy Evans says Elizabeth Holmes followed the judge\u2019s order to avoid media engagement, and he calls that her \u201csingle biggest mistake\u201d because it left the public narrative uncontested.",
+      "Billy Evans claims Theranos\u2019s revenue shortfall came from Walgreens contractual obligations and then default after negative press, not from fabricated revenue figures.",
+      "Billy Evans says Holmes was sentenced to 135 months, and that the sentence increased to about 11 years because conspiracy counts pulled in more investors and victims.",
+      "Billy Evans says Holmes ran about 12.5 million blood tests over an 18-month period, which he uses to argue the scale of the government\u2019s case was enormous.",
+      "Billy Evans says the First Step Act lets Holmes earn 16 days off for every 30 days of programming, and he expects a halfway-house placement in Q2 of next year.",
+      "Billy Evans says the Brian Federal Prison Camp has about 800 women and that on a given weekend only around 30 get visitors, highlighting harsh conditions for families.",
+      "Billy Evans says his company Haemanthus uses Raman spectroscopy and photonics to build cheaper, widely distributed diagnostic sensors for biology and AI datasets."
+    ],
+    "investment_thesis": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
+    "key_tickers": null
+  },
+  {
+    "id": 579,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Lab-in-the-Loop at Compute Speed \u2014 Ian Quigley, Leash Bio",
+    "episode_date": "2026-10-14",
+    "summary": "The episode centers on Leash Bio\u2019s claim that DNA-encoded library screening paired with machine learning can produce physically grounded, reproducible signals for small-molecule discovery. Ian Quigley says that in their hands, rerunning experiments with fresh protein batches and newly made libraries yields \u201cthe same hits in the same order for the most part,\u201d which he presents as evidence that DELs can scale to millions of measurements while preserving signal.\n\nA major theme is that many public small-molecule datasets teach models \u201csociology\u201d rather than chemistry. Quigley describes a leakage experiment using 1,815 chemists, where a model predicting creator identity from molecules alone reached 60% top-5 accuracy, and says a representation built from creator probabilities can match structure-based models on activity prediction. His broader argument is that models can appear strong while actually learning dataset artifacts, labels, or creator fingerprints.\n\nThe discussion also covers evaluation design: chemistry splits, hub/builder splits, clustered building blocks, and mutation-based protein perturbations are used to expose memorization. Quigley says their Hermes model uses cross-attention over protein-ligand embeddings, but attention maps initially highlighted non-functional regions, so they introduced protein mutants to force more meaningful pocket-level learning. He also claims a language-model/reasoning-agent approach could be even more resistant to memorization and more useful for exploring activity cliffs.\n\nFinally, Quigley contrasts Leash\u2019s data scale with public repositories, saying their released dataset has about 4 billion physical interactions versus roughly under 3 million in a referenced binding dataset. He also says a difficult Kaggle-style competition with around 2,000 teams produced near-chance results on the hardest split, underscoring his view that benchmark performance often collapses once memorization is removed.",
+    "key_takeaways": [
+      "Ian Quigley says Leash Bio\u2019s DEL screens are reproducible across fresh protein batches and newly made libraries, recovering the same hits in the same order most of the time.",
+      "Ian Quigley argues that public small-molecule datasets often teach models \u201csociology\u201d rather than chemistry, because creator fingerprints can be predictive.",
+      "Ian Quigley reports a creator-identity leakage test with 1,815 chemists where top-5 accuracy reached 60%.",
+      "Ian Quigley says a vector of creator probabilities, not chemical structure, can match structure-based models on activity prediction.",
+      "Ian Quigley says the hardest benchmark splits can push performance to near chance, showing how fragile many ML results are when memorization is removed.",
+      "Ian Quigley says Hermes\u2019 attention initially highlighted non-functional protein regions, so they added protein mutants to force mechanistic learning.",
+      "Ian Quigley claims language-model-based reasoning agents may be more resistant to memorization and better for activity-cliff exploration than pure embedding/attention approaches."
+    ],
+    "investment_thesis": "Large-scale DEL screening plus rigorous split design may create a defensible drug-discovery data moat because many apparent ML gains disappear once creator leakage and memorization are controlled.",
+    "key_tickers": null
+  },
+  {
     "id": 577,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO",
@@ -4948,7 +5022,7 @@
     "investment_thesis": "",
     "key_tickers": [
       "MGM",
-      "TLN"
+      "TALEN ENERGY"
     ]
   },
   {

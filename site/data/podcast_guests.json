@@ -1,6 +1,42 @@
 [
   {
-    "id": 87617,
+    "id": 88326,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
+    "last_episode_title": "Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
+    "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+    "last_episode_date": "2026-10-15",
+    "appearance_count": 2
+  },
+  {
+    "id": 88325,
+    "name": "Husband Billy Evans",
+    "slug": "husband-billy-evans",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
+    "last_episode_title": "Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 88327,
+    "name": "Alex Rampell & Terry Angelos",
+    "slug": "alex-rampell--terry-angelos",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Agentic commerce could create a large infrastructure winner in payment vaulting and token provisioning, and VGS claims to already sit at the center of that shift.",
+    "last_episode_title": "When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 88328,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -12,7 +48,19 @@
     "appearance_count": 1
   },
   {
-    "id": 87618,
+    "id": 88329,
+    "name": "Ben Inker",
+    "slug": "ben-inker",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
+    "last_episode_title": "The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 88330,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -24,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87619,
+    "id": 88331,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -36,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87620,
+    "id": 88332,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -48,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87621,
+    "id": 88333,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -60,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87622,
+    "id": 88334,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -72,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87623,
+    "id": 88335,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -84,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87624,
+    "id": 88336,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -96,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87625,
+    "id": 88337,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -108,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87626,
+    "id": 88338,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -120,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87627,
+    "id": 88339,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -132,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87628,
+    "id": 88340,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -144,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87629,
+    "id": 88341,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -156,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87630,
+    "id": 88342,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -168,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87631,
+    "id": 88343,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -180,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87632,
+    "id": 88344,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -192,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87633,
+    "id": 88345,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -204,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87634,
+    "id": 88346,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -216,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87635,
+    "id": 88347,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -228,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87636,
+    "id": 88348,
     "name": "Maggie Landers",
     "slug": "maggie-landers",
     "bio": null,
@@ -240,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87637,
+    "id": 88349,
     "name": "Eddy Lazzarin",
     "slug": "eddy-lazzarin",
     "bio": null,
@@ -252,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87638,
+    "id": 88350,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -264,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87639,
+    "id": 88351,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -276,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87640,
+    "id": 88352,
     "name": "Clocktower Group",
     "slug": "clocktower-group",
     "bio": null,
@@ -288,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87641,
+    "id": 88353,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -300,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 87642,
+    "id": 88354,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -309,54 +357,6 @@
     "last_episode_title": "\ud83d\udd2c An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-22",
-    "appearance_count": 1
-  },
-  {
-    "id": 87643,
-    "name": "Steven Sinofsky",
-    "slug": "steven-sinofsky",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
-    "last_episode_title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-21",
-    "appearance_count": 2
-  },
-  {
-    "id": 87644,
-    "name": "Diogo Almeida",
-    "slug": "diogo-almeida",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in companies that develop system one AI models and prioritize developer engagement could yield significant returns as the AI-driven economic revolution unfolds.",
-    "last_episode_title": "Jev: System One models for Prod, not God \u2014 with Diogo Almeida, CEO, TypeSafe AI",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 87645,
-    "name": "Naveen Rao",
-    "slug": "naveen-rao",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "",
-    "last_episode_title": "Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 87646,
-    "name": "Outlook on 5 Key Commodities",
-    "slug": "outlook-on-5-key-commodities",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "",
-    "last_episode_title": "Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-09-20",
     "appearance_count": 1
   }
 ]
