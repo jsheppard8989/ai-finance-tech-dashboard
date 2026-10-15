@@ -1,5 +1,25 @@
 [
   {
+    "id": 582,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
+    "episode_date": "2026-10-15",
+    "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Alo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Alo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Alo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Alo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
+    "key_takeaways": [
+      "Yasir Arafat said nuclear transition is inevitable and time-sensitive because demand growth, especially from AI data centers, is outpacing available power supply.",
+      "Yasir Arafat said Alo Atomics wants to move from one-off reactors to 100 reactors per year from its first factory, implying about 1 GW/year of capacity.",
+      "Yasir Arafat said the cost path starts in the mid-teens cents per kWh for first-of-a-kind plants and drops below 10 cents by the 10th reactor.",
+      "Yasir Arafat said Alo\u2019s long-run target is coal- and gas-competitive power at roughly 50 reactors per year of production.",
+      "Yasir Arafat said the design avoids near-term HALEU dependence by using LEU in the 5\u20138% enrichment range.",
+      "Yasir Arafat said spent fuel should be viewed as recoverable fuel, and recycling could extend uranium resource life from about 117 years to roughly 12,000 years.",
+      "Patrick Suresna said Centrus Energy (LEU) has a long-term thesis because domestic enrichment capacity is strategically important for existing reactors and advanced designs."
+    ],
+    "investment_thesis": "Alo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
+    "key_tickers": [
+      "LEU"
+    ]
+  },
+  {
     "id": 581,
     "podcast_name": "The a16z Show",
     "episode_title": "When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
