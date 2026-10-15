@@ -105,3 +105,22 @@ def test_site_data_has_no_known_bad_strings():
         text = (data_dir / name).read_text(encoding="utf-8")
         for s in bad:
             assert s not in text, (name, s)
+
+
+def test_transcript_snippet_mistranscriptions_fixed_by_global_replacements():
+    """Raw transcript fields (last_proof_snippet, episode_evidence speaker lines) are
+    quote-protected from name_replacements, so the mis-transcriptions the publish guard
+    checks must also be in global_replacements (Oct 14 evening-run guard block)."""
+    from export_data import _apply_summary_overrides
+    rec = [{
+        "last_proof_snippet": "Jensen Wong's CEO of NVIDIA. And Thropic was silent. Where's in Thropic in this? "
+                              "Daria Amade, CEO of Enthropic. Join today by Jim Weederhold, product manager.",
+        "episode_evidence": 'Host: Alex Weesner - "Better data produces 12x improvement."',
+        "summary": "markets into an increasingly concentrated bet that can break if returns fall",
+    }]
+    _apply_summary_overrides(rec)
+    blob = " ".join(rec[0].values())
+    for bad in ("Jensen Wong", "Thropic", "Enthropic", "Weederhold", "Weesner", "concentrated bet"):
+        assert bad not in blob, bad
+    assert "Where's Anthropic in this" in blob
+    assert "Alex Wissner-Gross" in blob
