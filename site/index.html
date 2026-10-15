@@ -2490,15 +2490,23 @@
         const basketChange = basket.basket_change_pct || 0;
         const basketIndex = basket.basket_index_value || 100;
         const disclaimer = esc(basket.disclaimer);
+        // % moves are since the basket started (inception price), not daily (fetch_portfolio_prices.py).
+        const startDate = esc((basket.as_of_label || '').split(',')[0]);
+        const sinceLabel = startDate ? `since ${startDate}` : 'since start';
+        let markedLabel = '';
+        if (basket.last_updated) {
+          const md = new Date(basket.last_updated);
+          if (!isNaN(md)) markedLabel = md.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'America/Chicago' });
+        }
 
         html += `
           <div class="portfolio-basket" style="margin-bottom: 1rem;">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
               <h3 style="font-size: 1rem; color: #00d4ff; margin: 0;">${title}</h3>
-              <span style="font-size: 0.85rem; font-weight: 600;">${formatChange(basketChange)}</span>
+              <span style="font-size: 0.85rem; font-weight: 600;">${formatChange(basketChange)} <span style="color: #8892b0; font-weight: 400; font-size: 0.7rem;">${sinceLabel}</span></span>
             </div>
             <p style="color: #8892b0; font-size: 0.75rem; margin-bottom: 0.5rem;">${subtitle}</p>
-            <p style="color: #6b7280; font-size: 0.65rem; margin-bottom: 0.75rem;">As of: ${asOfLabel}</p>
+            <p style="color: #6b7280; font-size: 0.65rem; margin-bottom: 0.75rem;">Started: ${asOfLabel}${markedLabel ? ` · Prices as of ${markedLabel}` : ''} · % change ${sinceLabel}</p>
             
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.5rem; margin-bottom: 0.75rem;">
         `;
@@ -2515,7 +2523,7 @@
             <div class="portfolio-name" style="background: rgba(255,255,255,0.03); padding: 0.5rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
                 <span style="font-weight: 600; color: #00d4ff; font-size: 0.85rem;" onclick="showChart('${ticker}')" title="View ${ticker} chart" class="clickable-ticker">${ticker}</span>
-                <span style="font-size: 0.7rem;">${formatChange(change)}</span>
+                <span style="font-size: 0.7rem;" title="Change ${sinceLabel}">${formatChange(change)}</span>
               </div>
               <div style="font-size: 0.7rem; color: #a8b2d1; margin-bottom: 0.15rem;">${companyName}</div>
               <div style="font-size: 0.65rem; color: #6b7280;">${role}</div>

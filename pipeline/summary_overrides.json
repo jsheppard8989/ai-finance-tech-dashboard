@@ -417,6 +417,17 @@
         "PERPLEXITY"
       ],
       "_note": "Red Team 2026-10-14 H-5 same-card check: Perplexity is private."
+    },
+    {
+      "insight_id": 1,
+      "episode_title": "SpaceX/xAI $1.25T Super-Entity",
+      "_note": "Red Team Oct 15 (F-12): the H2 2026 IPO catalyst happened. Sources: SpaceX IR pricing release Jun 11, 2026; Nasdaq newsroom Jun 12, 2026; 424B4 Acc. 0001628280-26-042639 (xAI merger effective Feb 2, 2026).",
+      "replacements": [
+        [
+          "H2 2026: Potential IPO of combined entity per management comments",
+          "Happened: SpaceX, which took over xAI effective Feb 2, 2026, began trading on Nasdaq as SPCX on Jun 12, 2026 (SpaceX pricing release, Jun 11; prospectus 424B4)"
+        ]
+      ]
     }
   ],
   "terms": [

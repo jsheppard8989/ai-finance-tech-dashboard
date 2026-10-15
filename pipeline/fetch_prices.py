@@ -52,7 +52,6 @@ YAHOO_SYMBOL_MAP = {
     'S&P': ('^GSPC', 'S&P 500'),
     'S&P 500': ('^GSPC', 'S&P 500'),
     'SPX': ('^GSPC', 'S&P 500'),
-    'SMP-500': ('^GSPC', 'S&P 500'),
     'Semiconductors': 'SMH',
     'Nasdaq': 'QQQ',
     # WTI Crude Oil - CL=F is front-month futures contract
@@ -81,6 +80,9 @@ YAHOO_SYMBOL_MAP = {
     'SQUARE': 'XYZ',   # Block Inc trades as XYZ now (was SQ)
 }
 SKIP_TICKERS = {'N/A', 'n/a', ''}
+# Bad symbols that must not be fetched or kept from the cache (Red Team Oct 15: 'SMP-500' is not a
+# ticker; the S&P 500 is already stored under 'SPX' and 'S&P 500').
+RETIRED_KEYS = {'SMP-500'}
 
 def fetch_price_data(ticker):
     """Fetch price and 2-week (14 day) change from Yahoo Finance."""
@@ -194,9 +196,11 @@ def main():
     # Fetch new prices; seed with prior cache so a thin ticker list (empty DB) cannot wipe the file
     new_prices = {
         k: v for k, v in existing.items()
-        if not str(k).startswith('_') and isinstance(v, dict)
+        if not str(k).startswith('_') and isinstance(v, dict) and k not in RETIRED_KEYS
     }
     for ticker in tickers:
+        if ticker in RETIRED_KEYS:
+            continue
         print(f"  Fetching {ticker}...", end=' ')
         data = fetch_price_data(ticker)
         if data:
