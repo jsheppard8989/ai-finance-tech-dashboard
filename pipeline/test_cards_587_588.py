@@ -63,10 +63,27 @@ def test_guest_overrides_name_and_bio():
 
 def test_site_data_has_fixes():
     js = (DATA / "data.js").read_text(encoding="utf-8")
-    for s in ("awash in compute", "Compute glut", "Trillium Labs", '"SMCI"', '"guest_name": "Ben Inker"'):
+    for s in ("awash in compute", "Trillium Labs", '"SMCI"', '"guest_name": "Ben Inker"'):
         assert s in js, s
     for name in ("data.js", "archive.json", "podcast_summaries.json", "pundits.json"):
         t = (DATA / name).read_text(encoding="utf-8")
         for bad in ("a wash in compute", "market gap that comes in", "let's 24% worse", "Compute wash",
                     "Trillium Labs Labs", "soon to be anthropic", "RL-heavy post-training", "fast-takeoff dynamic"):
             assert bad not in t, (name, bad)
+    assert "Compute glut" in (DATA / "curated_overton.json").read_text(encoding="utf-8")
+
+
+def test_compute_glut_seed_pinned_and_supersedes_902(tmp_path):
+    cur = json.loads((DATA / "curated_overton.json").read_text(encoding="utf-8"))["curated"]
+    names = [c["term"] for c in cur if c["status"] == "active"]
+    assert names.count("Compute glut") == 1
+    assert {"Reserve scarcity regime", "Treasury basis trade"} <= set(names)
+    seed = next(c for c in cur if c["term"] == "Compute glut")
+    assert 902 in seed["pipeline_term_ids"]
+    assert " bet" not in seed["description"].lower()
+    terms = [{"id": 902, "term": "Compute wash"}, {"id": 5, "term": "compute glut"}, {"id": 7, "term": "Other"}]
+    export_data._apply_term_overrides(terms)
+    export_data._drop_terms_pinned_as_curated(terms)
+    assert terms == [{"id": 7, "term": "Other"}]
+    js = (DATA / "data.js").read_text(encoding="utf-8")
+    assert '"id": 902' not in js

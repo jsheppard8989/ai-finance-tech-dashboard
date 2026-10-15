@@ -402,6 +402,32 @@ def _apply_term_overrides(terms):
     return terms
 
 
+CURATED_OVERTON_PATH = Path(__file__).parent.parent / "site" / "data" / "curated_overton.json"
+
+
+def _drop_terms_pinned_as_curated(terms, path=None):
+    """Drop suggested terms superseded by an active curated Overton seed (one term, not two).
+
+    A seed supersedes a pipeline term when it lists the term id in 'pipeline_term_ids' or
+    has the same term text (case-insensitive). E.g. 'Compute glut' seed replaces term 902.
+    """
+    try:
+        cur = json.loads(Path(path or CURATED_OVERTON_PATH).read_text(encoding="utf-8")).get("curated") or []
+    except Exception:
+        return terms
+    ids, names = set(), set()
+    for c in cur:
+        if isinstance(c, dict) and c.get("status") == "active":
+            ids.update(int(i) for i in c.get("pipeline_term_ids") or [])
+            if c.get("term"):
+                names.add(str(c["term"]).strip().lower())
+    if not isinstance(terms, list):
+        return terms
+    terms[:] = [t for t in terms if not (isinstance(t, dict) and (
+        t.get("id") in ids or str(t.get("term") or "").strip().lower() in names))]
+    return terms
+
+
 def _apply_summary_overrides_to_files(site_dir: Path) -> None:
     for name in ("podcast_summaries.json", "archive.json", "pundits.json", "podcast_guests.json"):
         f = site_dir / name
@@ -1433,6 +1459,7 @@ def generate_website_js():
     _apply_summary_overrides(deepdives)
     _apply_summary_overrides(podcast_guests)
     _apply_term_overrides(suggested_terms)
+    _drop_terms_pinned_as_curated(suggested_terms)
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
     try:

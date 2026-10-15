@@ -1,6 +1,6 @@
 {
   "_comment": "Curated Overton seeds from niche/plumbing sources (Fed plumbing, macro). These bypass the podcast mention pipeline and are merged at render time into the Overton Window with a 'Curated' badge. Do NOT modify featured_overton.json - that file is for debated theses.",
-  "_updated": "2026-10-08",
+  "_updated": "2026-10-15",
   "_source": "site/data/curated_sources.json overton_seeds.fed_plumbing",
   "schema_version": 1,
   "curated": [
@@ -35,6 +35,36 @@
       "display_order": 2
     },
     {
+      "id": "curated-compute-glut",
+      "term": "Compute glut",
+      "description": "Too much AI computing capacity could push AI-linked loans into default and send stocks down much harder than in a normal down year. The trigger to watch is a wave of big listings over the next 12 to 18 months: SpaceX, then Anthropic and OpenAI.",
+      "first_source": "Ben Inker (GMO) on Monetary Matters, Oct 14, 2026",
+      "source_type": "podcast",
+      "category": "ai_capex_credit",
+      "provenance": {
+        "author": "Ben Inker (GMO)",
+        "source_url": "",
+        "note": "Hand-picked seed (Jared, Oct 15 2026). Sources: Monetary Matters with Jack Farley, Oct 14, 2026 (Ben Inker, GMO; card #588); Monetary Matters, Aug 31, 2026 (Jeff Keller; card #462, compute gluts). Supersedes pipeline term 902 ('Compute wash'), which export drops so there is one Compute glut term.",
+        "sources": [
+          {
+            "card_id": 588,
+            "date": "2026-10-14",
+            "label": "Monetary Matters: Ben Inker (GMO)"
+          },
+          {
+            "card_id": 462,
+            "date": "2026-08-31",
+            "label": "Monetary Matters: Jeff Keller, The Certainty Premium"
+          }
+        ]
+      },
+      "pipeline_term_ids": [
+        902
+      ],
+      "status": "active",
+      "display_order": 3
+    },
+    {
       "id": "curated-private-credit-gating",
       "term": "Gating mechanism",
       "description": "A cap on how much investors can pull out of a fund in a given period. When redemption requests run past the cap, the fund holds back money, which shows its assets are harder to sell than its payouts promised.",
@@ -48,7 +78,7 @@
         "note": "Curated seed (Jared yes 2026-09-28). Promoted from the pipeline extract so it pins beside the Fed plumbing seeds."
       },
       "status": "active",
-      "display_order": 3
+      "display_order": 4
     },
     {
       "id": "curated-shipping-ton-miles",
@@ -64,7 +94,7 @@
         "note": "Curated seed (Jared yes 2026-10-08). From Insight 569. Example in the episode: China moving iron ore and bauxite buying from Australia to Guinea more than triples the voyage to China."
       },
       "status": "active",
-      "display_order": 4
+      "display_order": 5
     }
   ]
 }

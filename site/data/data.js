@@ -53017,18 +53017,6 @@ const dashboardData = {
     "priority_score": 80
   },
   {
-    "id": 902,
-    "term": "Compute glut",
-    "definition": "A scenario in which compute becomes abundant rather than scarce, reducing the economic value of additional GPUs and data-center buildouts. Inker says this could trigger defaults and impair capital invested in AI infrastructure.",
-    "investment_implications": "A shift from scarcity to abundance would hurt hardware, infrastructure, and credit tied to AI capex.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-14 18:46:25",
-    "priority_score": 80
-  },
-  {
     "id": 899,
     "term": "RL post-training",
     "definition": "Post-training that uses reinforcement learning or similar feedback mechanisms to improve model behavior after pretraining. Lambert says this is harder to copy via simple distillation because the workflow is more complex.",

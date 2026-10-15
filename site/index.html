@@ -2801,6 +2801,16 @@
         console.warn('Could not load overton_demote.json:', e);
       }
 
+      // A term pinned as a curated seed (e.g. Compute glut) shows once, as the seed.
+      try {
+        const curatedResp2 = await fetch('./data/curated_overton.json', { cache: 'no-cache' });
+        if (curatedResp2.ok) {
+          ((await curatedResp2.json()).curated || []).forEach(function(c) {
+            if (c && c.status === 'active' && c.term) demoteSet.add(String(c.term).trim().toLowerCase());
+          });
+        }
+      } catch (e) { /* seeds optional */ }
+
       // Sort new ideas by novelty score (already sorted in backend, but re-sort for safety)
       const rows = overton.slice().filter(function(o) {
         const t = (o && o.term) ? String(o.term).trim().toLowerCase() : '';
