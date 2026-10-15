@@ -1,6 +1,106 @@
 {
   "insights": [
     {
+      "id": 589,
+      "title": "Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-10-15",
+      "summary": "Billy Evans frames the episode around Elizabeth Holmes\u2019s public silence, arguing that following the judge\u2019s instruction to litigate in court rather than the media was her \u201csingle biggest mistake\u201d because it prevented her from shaping the narrative. He also disputes the common framing of the Theranos case, saying the missing revenue issue was tied to Walgreens contractual obligations and subsequent default after bad press, rather than fabricated numbers.\n\nEvans says Holmes faced 13 counts and claims the government focused heavily on patient fraud allegations, while the convictions centered on investor fraud and conspiracy. He says Holmes ran about 12.5 million tests over 18 months and that the case\u2019s sentencing math expanded the punishment from roughly 4.5\u20135 years to 11 years by incorporating more investors through conspiracy counts.\n\nA substantial portion of the discussion is about Holmes\u2019s prison status and expected release path. Evans says she has been at the Brian Federal Prison Camp for 1,205 days, with the facility housing about 800 women and only around 30 visitors getting in on a given weekend. He says the First Step Act can allow 16 days off for every 30 days of programming participation, and he expects a halfway-house transfer in the second quarter of next year.\n\nBeyond the Holmes narrative, Evans describes building a new diagnostics company, Haemanthus, using Raman spectroscopy and photonics to make biological sensing devices cheaper, smaller, and more widely distributed than million-dollar lab instruments. He positions the company as focused on generating useful biological data for AI, while emphasizing that it is not intended to be a \u201cTheranos 2.0\u201d replay.",
+      "key_takeaway": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 578,
+      "notable_quotes": [
+        {
+          "speaker": "Billy Evans",
+          "quote": "the single biggest mistake that Elizabeth has ever made to be like really clear is that she followed the rules of not going against with the judge had asked her to do."
+        },
+        {
+          "speaker": "Billy Evans",
+          "quote": "So there's 13 counts, um, Liz ran about 12 and a half million tests on patients at Theranos over an 18 month period. The government spent years investigating 12 and a half million blood tests."
+        },
+        {
+          "speaker": "Billy Evans",
+          "quote": "The problem is these devices are millions of dollars, many feet long, super complicated to use. So I'm taking a lot of the learnings from my work in the photonics space to make these cheaper and widely distributed."
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "title": "When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-15",
+      "summary": "The episode argues that AI agents are rapidly shifting from recommending purchases to actually spending money, which makes payment credentials the key bottleneck for agentic commerce. Terry Angelos says the change has happened extremely fast: agents were effectively zero three months ago and now are generating a few million agentic tokens per week. The guests frame this as a coming phase of \"wallet wars,\" where wallets, merchants, and infrastructure providers race to connect agents while preserving security, chargeback rights, and consumer protections.\n\nA central claim is that VGS sits at the middle of this transition because it vaults payment credentials, updates tokenized credentials across networks, and provisions agentic tokens. Angelos says VGS secures credentials for about a third of all e-commerce by GMV and is by far the largest provisioner of these tokens. The discussion emphasizes that this matters because merchants often use multiple processors, so a neutral infrastructure layer that can manage token updates across networks and processors becomes more valuable as agent-to-merchant transactions scale.\n\nThe episode also explores which merchants will welcome or resist agents. Alex Rampell says Amazon recently blocked agents because it is effectively an advertising company that wants users and eyeballs on its site, while Walmart is portrayed as more receptive. Shopify and PayPal are described as large wallet ecosystems that can participate in this new flow, and Stripe Link is used as a bridging example when wallet and merchant integrations do not line up. Angelos says Stripe handled a Walmart-style purchase by issuing a one-time virtual Visa card and completing the transaction anyway.\n\nThe guests also caution that some parts of agentic finance are likely overhyped. Angelos does not expect agents to trigger dramatic bank-run behavior from yield optimization because integration friction remains high, and he argues the bigger risk may be economic breakage in rewards, subscriptions, and liability allocation when agents transact on behalf of users. The long-term prediction is that open standards for agentic tokens will replace closed \"walled garden\" integrations, but the exact liability framework and merchant economics still need to be worked out.",
+      "key_takeaway": "Agentic commerce could create a large infrastructure winner in payment vaulting and token provisioning, and VGS claims to already sit at the center of that shift.",
+      "tickers_mentioned": [
+        "VGS",
+        "AMZN",
+        "SHOP",
+        "PYPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 581,
+      "notable_quotes": [
+        {
+          "speaker": "Terry Angelos",
+          "quote": "If you look at VGS today, it's a payment infrastructure business. We secure credentials for about a third of all e-commerce by GMV."
+        },
+        {
+          "speaker": "Terry Angelos",
+          "quote": "This was, you know, zero three months ago. Now we're doing a few million of these tokens per week. So I expect that as we make this transition from the from the world garden to the sort of open standards, this will be the way that that agent to commerce evolves."
+        },
+        {
+          "speaker": "Alex Rampell",
+          "quote": "You saw that Amazon recently blocked mues. And there are many reasons for this. It's mainly that Amazon is an advertising company. And they want you and your eyeballs going to their website."
+        }
+      ]
+    },
+    {
+      "id": 592,
+      "title": "Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
+      "source_type": "podcast",
+      "source_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+      "source_date": "2026-10-15",
+      "summary": "The episode argues that AI is moving from model improvement to agentic capability, where memory, knowledge graphs, and tool-use \u201charnesses\u201d matter as much as raw scaling. Jensen Huang says the current wave of progress has already happened with only \u201ctwo, three gigawatts\u201d of compute each at OpenAI and Anthropic, implying that far larger buildouts should unlock much bigger jumps in long-running tasks, scientific discovery, and enterprise deployment.\n\nA major theme is that compute demand is accelerating faster than linear intuition, with claims that next year could see 43 gigawatts of new AI compute and roughly 40 gigawatts the year after. The speakers frame the long-run buildout as potentially $2 trillion over five years, with infrastructure spending eventually reaching $3\u20134 trillion per year and annual economic activity tied to AI possibly reaching $10 trillion. They repeatedly tie this to falling cost of intelligence, arguing that cheaper intelligence will come from both more compute and better efficiency.\n\nNvidia is presented as the central infrastructure winner because its compute is described as durable, fungible, and unusually financeable at scale. Huang says Nvidia serves hyperscalers, enterprises, and many customer types across the full lifecycle from training to inference to agent processing, and that constraints in power and land are key bottlenecks rather than lack of demand. He also argues that Nvidia\u2019s productivity is so high that even space deployment could make economic sense, and that customers can justify very large checks because the return on capital is strong.\n\nThe episode also emphasizes safety, security, and regulation as inseparable from capability. Huang says alignment is a \u201cforever problem\u201d and that capability cannot be separated from safety and security, pointing to frontier-model review, oversight, and coordination frameworks as the practical path forward. The discussion extends into physical AI and robotics, where the speakers say revenues are already at significant annualized levels and the addressable market could exceed $100 billion as robots, logistics, healthcare, and other physical systems become more capable.",
+      "key_takeaway": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 580,
+      "notable_quotes": [
+        {
+          "speaker": "Jensen Huang",
+          "quote": "all of this occurred this year with opening eye and anthropic having, I don't know, two, three gigawatts of compute each."
+        },
+        {
+          "speaker": "Jensen Huang",
+          "quote": "You can't separate capability, functionality from safety and security."
+        },
+        {
+          "speaker": "Jensen Huang",
+          "quote": "the productivity of Nvidia's compute is so good, meaning the return on investment invested capital was so good, that you could put it out in space, and the launch cost is a small percentage of it."
+        }
+      ]
+    },
+    {
       "id": 587,
       "title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
       "source_type": "podcast",
@@ -64,6 +164,37 @@
         {
           "speaker": "Ben Inker",
           "quote": "We are suddenly for the first time in years getting significant supply. In particular, what we are getting is SpaceX, soon to be Anthropic and then soon to be OpenAI coming public as the largest IPOs in history."
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "title": "Lab-in-the-Loop at Compute Speed \u2014 Ian Quigley, Leash Bio",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-14",
+      "summary": "The episode centers on Leash Bio\u2019s claim that DNA-encoded library screening paired with machine learning can produce physically grounded, reproducible signals for small-molecule discovery. Ian Quigley says that in their hands, rerunning experiments with fresh protein batches and newly made libraries yields \u201cthe same hits in the same order for the most part,\u201d which he presents as evidence that DELs can scale to millions of measurements while preserving signal.\n\nA major theme is that many public small-molecule datasets teach models \u201csociology\u201d rather than chemistry. Quigley describes a leakage experiment using 1,815 chemists, where a model predicting creator identity from molecules alone reached 60% top-5 accuracy, and says a representation built from creator probabilities can match structure-based models on activity prediction. His broader argument is that models can appear strong while actually learning dataset artifacts, labels, or creator fingerprints.\n\nThe discussion also covers evaluation design: chemistry splits, hub/builder splits, clustered building blocks, and mutation-based protein perturbations are used to expose memorization. Quigley says their Hermes model uses cross-attention over protein-ligand embeddings, but attention maps initially highlighted non-functional regions, so they introduced protein mutants to force more meaningful pocket-level learning. He also claims a language-model/reasoning-agent approach could be even more resistant to memorization and more useful for exploring activity cliffs.\n\nFinally, Quigley contrasts Leash\u2019s data scale with public repositories, saying their released dataset has about 4 billion physical interactions versus roughly under 3 million in a referenced binding dataset. He also says a difficult Kaggle-style competition with around 2,000 teams produced near-chance results on the hardest split, underscoring his view that benchmark performance often collapses once memorization is removed.",
+      "key_takeaway": "Large-scale DEL screening plus rigorous split design may create a defensible drug-discovery data moat because many apparent ML gains disappear once creator leakage and memorization are controlled.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 579,
+      "notable_quotes": [
+        {
+          "speaker": "Ian Quigley",
+          "quote": "And we got a top five accuracy of 60%. And we chose to represent the molecules, not with any chemical structures are formulas at all, but just a vector of the probability of creator."
+        },
+        {
+          "speaker": "Ian Quigley",
+          "quote": "We really think that it's learning a lot of sociology. It's not learning ground truth. When you train models on the exhaust, you might be in trouble."
+        },
+        {
+          "speaker": "Ian Quigley",
+          "quote": "In our hands, when we rerun experiments, so make fresh protein batches, make a new batch of the chemical library over many, many months of time, we get back the same hits in the same order for the most part."
         }
       ]
     },
@@ -271,7 +402,7 @@
       "key_takeaway": "Biology AI winners will be those that pair better biological data with calibrated, trustworthy models that solve dynamics and whole-system problems, not just static structure prediction.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-09",
       "archived_date": null,
@@ -302,7 +433,7 @@
       "key_takeaway": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-10",
       "archived_date": null,
@@ -336,7 +467,7 @@
         "HUBS"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-10",
       "archived_date": null,
@@ -371,7 +502,7 @@
         "ORCL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-09",
       "archived_date": null,
@@ -6487,7 +6618,7 @@
       "key_takeaway": "",
       "tickers_mentioned": [
         "MGM",
-        "TLN"
+        "TALEN ENERGY"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -12515,6 +12646,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 302,
+      "term": "Agentic harness",
+      "description": "A layer of memory, working memory, knowledge graph construction, and tool access wrapped around a model so it can perform long-running tasks rather than just generate text. It is presented as the practical path from chatbots to useful AI agents.",
+      "first_detected_date": "2026-10-13",
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Creates demand for enterprise orchestration, security, and infrastructure software that makes agents reliable and deployable.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 575,
+      "first_detected_speaker": "Jason Ma",
+      "last_mentioned_episode_id": 580,
+      "last_mentioned_speaker": "Jensen Huang"
+    },
+    {
       "id": 300,
       "term": "Scaling law",
       "description": "A relationship showing how performance improves as compute, data, or model size increases for a specific task. In biology, the episode argues these laws are task-dependent and must be discovered, not assumed.",
@@ -12677,12 +12826,30 @@
       "last_mentioned_speaker": "Nick Bostrom"
     },
     {
+      "id": 303,
+      "term": "Tokenization",
+      "description": "Tokenization is the process of converting physical or digital assets into digital tokens that can be traded on blockchain platforms.",
+      "first_detected_date": "2026-09-29",
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Tokenization can democratize access to investments and improve liquidity in financial markets.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 535,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 581,
+      "last_mentioned_speaker": "Terry Angelos"
+    },
+    {
       "id": 292,
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-11",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -12691,8 +12858,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 570,
-      "last_mentioned_speaker": "Nick Bostrom"
+      "last_mentioned_episode_id": 580,
+      "last_mentioned_speaker": "Jensen Huang"
     },
     {
       "id": 286,
@@ -12825,8 +12992,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-10",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-10-14",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -12835,8 +13002,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 568,
-      "last_mentioned_speaker": "Jason Calacanis"
+      "last_mentioned_episode_id": 579,
+      "last_mentioned_speaker": "Ian Quigley"
     },
     {
       "id": 284,
@@ -12897,8 +13064,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-13",
-      "mention_count": 31,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -12907,8 +13074,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 575,
-      "last_mentioned_speaker": "Jason Ma"
+      "last_mentioned_episode_id": 580,
+      "last_mentioned_speaker": "Jensen Huang"
     },
     {
       "id": 272,
@@ -13761,8 +13928,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-07",
-      "mention_count": 80,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 81,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -13771,8 +13938,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 561,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 580,
+      "last_mentioned_speaker": "Jensen Huang"
     },
     {
       "id": 97,
@@ -13887,8 +14054,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-14",
-      "mention_count": 116,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 117,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -13897,8 +14064,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 576,
-      "last_mentioned_speaker": "Nathan Lambert"
+      "last_mentioned_episode_id": 580,
+      "last_mentioned_speaker": "Jensen Huang"
     },
     {
       "id": 162,
@@ -14697,8 +14864,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-09",
-      "mention_count": 46,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 47,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -14707,8 +14874,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 566,
-      "last_mentioned_speaker": "Pat Gelsinger"
+      "last_mentioned_episode_id": 580,
+      "last_mentioned_speaker": "Jensen Huang"
     },
     {
       "id": 26,
@@ -14967,8 +15134,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-14",
-      "mention_count": 120,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 122,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -14977,8 +15144,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 576,
-      "last_mentioned_speaker": "Nathan Lambert"
+      "last_mentioned_episode_id": 581,
+      "last_mentioned_speaker": "Terry Angelos"
     },
     {
       "id": 38,
