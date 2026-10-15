@@ -1207,7 +1207,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-14",
-      "summary": "The episode centers on Nathan Lambert\u2019s argument that AI progress is primarily a function of capital inputs: compute, data, and talent, plus the organizational ability to deploy them. He says closed frontier labs, especially Google and OpenAI, have advantages because they combine product, inference, and post-training inside one loop, while open-model ecosystems are more fragmented and slower to convert user feedback into better models.\n\nA major theme is Lambert\u2019s skepticism that distillation is the simple answer for open models to catch up. He argues that distillation is often overstated because modern reasoning and RL-heavy post-training make it hard to translate teacher outputs into reliable gains, especially when reasoning traces are unavailable or limited. He also says compute scarcity remains a real constraint, particularly relative to top labs and China, even when talent is strong.\n\nLambert repeatedly emphasizes that open-source models can still move quickly, but the lag to frontier models has narrowed only to roughly 2\u20133 months in some cases, not enough to erase structural disadvantages. He suggests inference costs will keep falling over time, potentially dramatically over a 3- to 4-year window, but that this does not imply a fast-takeoff dynamic. In his view, more spending does not automatically produce runaway progress.\n\nThe episode also introduces Trillium, Lambert\u2019s nonprofit lab, which aims to document how AI is actually used to improve AI, track where models get stuck, and publish open environments and stacks. Lambert says this transparency could improve grounded debate about capabilities and safety. He closes by downplaying panic about recursive self-improvement and arguing that the more immediate concern is society\u2019s readiness for diffusion of powerful capabilities, especially in cybersecurity.",
+      "summary": "The episode centers on Nathan Lambert\u2019s argument that AI progress is primarily a function of capital inputs: compute, data, and talent, plus the organizational ability to deploy them. He says closed frontier labs, especially Google and OpenAI, have advantages because they combine product, inference, and post-training inside one loop, while open-model ecosystems are more fragmented and slower to convert user feedback into better models.\n\nA major theme is Lambert\u2019s skepticism that distillation is the simple answer for open models to catch up. He argues that distillation is often overstated because modern reasoning and post-training that leans on reinforcement learning (RL) make it hard to translate teacher outputs into reliable gains, especially when reasoning traces are unavailable or limited. He also says compute scarcity remains a real constraint, especially for Chinese labs, which have strong talent but less compute.\n\nLambert repeatedly emphasizes that open-source models can still move quickly, but the lag to frontier models has narrowed only to roughly 2\u20133 months in some cases, not enough to erase structural disadvantages. He suggests inference costs will keep falling over time, potentially dramatically over a 3- to 4-year window, but that this does not imply a sudden runaway jump in AI ability (fast takeoff). In his view, more spending does not automatically produce runaway progress.\n\nThe episode also introduces Trillium Labs, Lambert\u2019s nonprofit lab, which aims to document how AI is actually used to improve AI, track where models get stuck, and publish open environments and stacks. Lambert says this transparency could improve grounded debate about capabilities and safety. He closes by downplaying panic about recursive self-improvement and arguing that the more immediate concern is society\u2019s readiness for diffusion of powerful capabilities, especially in cybersecurity.",
       "key_takeaway": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1238,7 +1238,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-10-14",
-      "summary": "Ben Inker argues that AI is exhibiting classic bubble behavior: transformational technologies attract massive capital before the end beneficiaries and returns are clear, and that capital will eventually be impaired when oversupply and competition catch up. His central timing call is that equity supply will be the catalyst, with large IPOs and unlocks from SpaceX, Anthropic, and OpenAI creating a meaningful new supply over the next 12 to 18 months.\n\nHe says the market is less able to absorb that supply than in the past because passive ownership, closet indexing, and concentrated index exposure reduce the willingness of investors to sell into rising prices. Inker uses a rule of thumb that markets do about 4% worse for every 1% of IPO market-cap supply, implying that a 6% influx could mean roughly 24% worse-than-normal returns, which he loosely translates into about a 20% down year before even considering valuation effects.\n\nInker extends the argument into credit, warning that AI-related leverage and data-center capex could create systemic risk if compute demand disappoints. He says credit spreads are still unusually tight, around the 13th percentile versus history for high yield and investment grade, while lower-rated debt is only around the 74th percentile, leaving the market vulnerable if refinancing stress emerges from 2020-2021-era structures now facing roughly 5% rates.\n\nHe also argues that if the world becomes a \"wash\" in compute, defaults could spike and equity drawdowns could be far larger, potentially in the minus 35% to 50% range. At the same time, he says non-AI sectors are being squeezed by higher capital costs, while resources and energy may help diversify risk and inflation exposure. The broader theme is that AI may be forcing the economy and capital markets into an increasingly concentrated position that can break if returns on capital disappoint.",
+      "summary": "Ben Inker argues that AI is exhibiting classic bubble behavior: transformational technologies attract massive capital before the end beneficiaries and returns are clear, and that capital will eventually be impaired when oversupply and competition catch up. His central timing call is that equity supply will be the catalyst, with large IPOs and unlocks from SpaceX, Anthropic, and OpenAI creating a meaningful new supply over the next 12 to 18 months.\n\nHe says the market is less able to absorb that supply than in the past because passive ownership, closet indexing (active funds that mostly track the index), and concentrated index exposure reduce the willingness of investors to sell into rising prices. Inker uses a rule of thumb that markets do about 4% worse for every 1% of IPO market-cap supply, implying that a 6% influx could mean roughly 24% worse-than-normal returns, which he loosely translates into about a 20% down year before even considering valuation effects.\n\nInker extends the argument into credit, warning that AI-related leverage and data-center capex could create systemic risk if compute demand disappoints. He says credit spreads are still unusually tight, around the 13th percentile versus history for high yield and investment grade, while lower-rated debt is only around the 74th percentile, leaving the market vulnerable if refinancing stress emerges from 2020-2021-era structures now facing roughly 5% rates.\n\nHe also argues that if the world becomes awash in compute, defaults could spike and equity drawdowns could be far larger, potentially in the minus 35% to 50% range. At the same time, he says non-AI sectors are being squeezed by higher capital costs, while resources and energy may help diversify risk and inflation exposure. The broader theme is that AI may be forcing the economy and capital markets into an increasingly concentrated position that can break if returns on capital disappoint.",
       "key_takeaway": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
       "tickers_mentioned": [
         "NVDA",
@@ -1256,15 +1256,15 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Ben Inker",
-          "quote": "In general, the market does about 4% worse per percent of market gap that comes in in an IPO in a given year. So if we are seeing 6% coming in, let's 24% worse than normal."
+          "quote": "In general, the market does about 4% worse per percent of market cap that comes in in an IPO in a given year. So if we are seeing 6% coming in, that's 24% worse than normal."
         },
         {
           "speaker": "Ben Inker",
-          "quote": "If we're all short of compute, then sure, I'm going to pay for a five-year-old GPU that is less energy efficient. But, man, if now the world is suddenly a wash in compute, we will have massive defaults on the credit side."
+          "quote": "If we're all short of compute, then sure, I'm going to pay for a five-year-old GPU that is less energy efficient. But, man, if now the world is suddenly awash in compute, we will have massive defaults on the credit side."
         },
         {
           "speaker": "Ben Inker",
-          "quote": "We are suddenly for the first time in years getting significant supply. In particular, what we are getting is SpaceX soon to be anthropic and then soon to be open AI coming public as the largest IPOs in history."
+          "quote": "We are suddenly for the first time in years getting significant supply. In particular, what we are getting is SpaceX, soon to be Anthropic and then soon to be OpenAI coming public as the largest IPOs in history."
         }
       ]
     },
@@ -16449,7 +16449,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-10-14",
-      "summary": "Ben Inker argues that AI is exhibiting classic bubble behavior: transformational technologies attract massive capital before the end beneficiaries and returns are clear, and that capital will eventually be impaired when oversupply and competition catch up. His central timing call is that equity supply will be the catalyst, with large IPOs and unlocks from SpaceX, Anthropic, and OpenAI creating a meaningful new supply over the next 12 to 18 months.\n\nHe says the market is less able to absorb that supply than in the past because passive ownership, closet indexing, and concentrated index exposure reduce the willingness of investors to sell into rising prices. Inker uses a rule of thumb that markets do about 4% worse for every 1% of IPO market-cap supply, implying that a 6% influx could mean roughly 24% worse-than-normal returns, which he loosely translates into about a 20% down year before even considering valuation effects.\n\nInker extends the argument into credit, warning that AI-related leverage and data-center capex could create systemic risk if compute demand disappoints. He says credit spreads are still unusually tight, around the 13th percentile versus history for high yield and investment grade, while lower-rated debt is only around the 74th percentile, leaving the market vulnerable if refinancing stress emerges from 2020-2021-era structures now facing roughly 5% rates.\n\nHe also argues that if the world becomes a \"wash\" in compute, defaults could spike and equity drawdowns could be far larger, potentially in the minus 35% to 50% range. At the same time, he says non-AI sectors are being squeezed by higher capital costs, while resources and energy may help diversify risk and inflation exposure. The broader theme is that AI may be forcing the economy and capital markets into an increasingly concentrated position that can break if returns on capital disappoint.",
+      "summary": "Ben Inker argues that AI is exhibiting classic bubble behavior: transformational technologies attract massive capital before the end beneficiaries and returns are clear, and that capital will eventually be impaired when oversupply and competition catch up. His central timing call is that equity supply will be the catalyst, with large IPOs and unlocks from SpaceX, Anthropic, and OpenAI creating a meaningful new supply over the next 12 to 18 months.\n\nHe says the market is less able to absorb that supply than in the past because passive ownership, closet indexing (active funds that mostly track the index), and concentrated index exposure reduce the willingness of investors to sell into rising prices. Inker uses a rule of thumb that markets do about 4% worse for every 1% of IPO market-cap supply, implying that a 6% influx could mean roughly 24% worse-than-normal returns, which he loosely translates into about a 20% down year before even considering valuation effects.\n\nInker extends the argument into credit, warning that AI-related leverage and data-center capex could create systemic risk if compute demand disappoints. He says credit spreads are still unusually tight, around the 13th percentile versus history for high yield and investment grade, while lower-rated debt is only around the 74th percentile, leaving the market vulnerable if refinancing stress emerges from 2020-2021-era structures now facing roughly 5% rates.\n\nHe also argues that if the world becomes awash in compute, defaults could spike and equity drawdowns could be far larger, potentially in the minus 35% to 50% range. At the same time, he says non-AI sectors are being squeezed by higher capital costs, while resources and energy may help diversify risk and inflation exposure. The broader theme is that AI may be forcing the economy and capital markets into an increasingly concentrated position that can break if returns on capital disappoint.",
       "key_takeaway": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
       "tickers_mentioned": "[\"NVDA\", \"MSFT\", \"ORCL\", \"TSM\"]",
       "sentiment": "neutral",
@@ -16462,24 +16462,25 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Ben Inker",
-          "quote": "In general, the market does about 4% worse per percent of market gap that comes in in an IPO in a given year. So if we are seeing 6% coming in, let's 24% worse than normal."
+          "quote": "In general, the market does about 4% worse per percent of market cap that comes in in an IPO in a given year. So if we are seeing 6% coming in, that's 24% worse than normal."
         },
         {
           "speaker": "Ben Inker",
-          "quote": "If we're all short of compute, then sure, I'm going to pay for a five-year-old GPU that is less energy efficient. But, man, if now the world is suddenly a wash in compute, we will have massive defaults on the credit side."
+          "quote": "If we're all short of compute, then sure, I'm going to pay for a five-year-old GPU that is less energy efficient. But, man, if now the world is suddenly awash in compute, we will have massive defaults on the credit side."
         },
         {
           "speaker": "Ben Inker",
-          "quote": "We are suddenly for the first time in years getting significant supply. In particular, what we are getting is SpaceX soon to be anthropic and then soon to be open AI coming public as the largest IPOs in history."
+          "quote": "We are suddenly for the first time in years getting significant supply. In particular, what we are getting is SpaceX, soon to be Anthropic and then soon to be OpenAI coming public as the largest IPOs in history."
         }
       ],
       "episode_release_date": "2026-10-14",
-      "guest_name": null,
+      "guest_name": "Ben Inker",
       "key_tickers": [
         "NVDA",
         "MSFT",
         "ORCL",
-        "TSM"
+        "TSM",
+        "SMCI"
       ]
     },
     {
@@ -16488,7 +16489,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-14",
-      "summary": "The episode centers on Nathan Lambert\u2019s argument that AI progress is primarily a function of capital inputs: compute, data, and talent, plus the organizational ability to deploy them. He says closed frontier labs, especially Google and OpenAI, have advantages because they combine product, inference, and post-training inside one loop, while open-model ecosystems are more fragmented and slower to convert user feedback into better models.\n\nA major theme is Lambert\u2019s skepticism that distillation is the simple answer for open models to catch up. He argues that distillation is often overstated because modern reasoning and RL-heavy post-training make it hard to translate teacher outputs into reliable gains, especially when reasoning traces are unavailable or limited. He also says compute scarcity remains a real constraint, particularly relative to top labs and China, even when talent is strong.\n\nLambert repeatedly emphasizes that open-source models can still move quickly, but the lag to frontier models has narrowed only to roughly 2\u20133 months in some cases, not enough to erase structural disadvantages. He suggests inference costs will keep falling over time, potentially dramatically over a 3- to 4-year window, but that this does not imply a fast-takeoff dynamic. In his view, more spending does not automatically produce runaway progress.\n\nThe episode also introduces Trillium, Lambert\u2019s nonprofit lab, which aims to document how AI is actually used to improve AI, track where models get stuck, and publish open environments and stacks. Lambert says this transparency could improve grounded debate about capabilities and safety. He closes by downplaying panic about recursive self-improvement and arguing that the more immediate concern is society\u2019s readiness for diffusion of powerful capabilities, especially in cybersecurity.",
+      "summary": "The episode centers on Nathan Lambert\u2019s argument that AI progress is primarily a function of capital inputs: compute, data, and talent, plus the organizational ability to deploy them. He says closed frontier labs, especially Google and OpenAI, have advantages because they combine product, inference, and post-training inside one loop, while open-model ecosystems are more fragmented and slower to convert user feedback into better models.\n\nA major theme is Lambert\u2019s skepticism that distillation is the simple answer for open models to catch up. He argues that distillation is often overstated because modern reasoning and post-training that leans on reinforcement learning (RL) make it hard to translate teacher outputs into reliable gains, especially when reasoning traces are unavailable or limited. He also says compute scarcity remains a real constraint, especially for Chinese labs, which have strong talent but less compute.\n\nLambert repeatedly emphasizes that open-source models can still move quickly, but the lag to frontier models has narrowed only to roughly 2\u20133 months in some cases, not enough to erase structural disadvantages. He suggests inference costs will keep falling over time, potentially dramatically over a 3- to 4-year window, but that this does not imply a sudden runaway jump in AI ability (fast takeoff). In his view, more spending does not automatically produce runaway progress.\n\nThe episode also introduces Trillium Labs, Lambert\u2019s nonprofit lab, which aims to document how AI is actually used to improve AI, track where models get stuck, and publish open environments and stacks. Lambert says this transparency could improve grounded debate about capabilities and safety. He closes by downplaying panic about recursive self-improvement and arguing that the more immediate concern is society\u2019s readiness for diffusion of powerful capabilities, especially in cybersecurity.",
       "key_takeaway": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
       "tickers_mentioned": "[]",
       "sentiment": "neutral",
@@ -52975,7 +52976,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-14T13:46:53.003501",
     "updated_at": "2026-10-14 18:46:53",
-    "episode_evidence": "Ben Inker: \"In general, the market does about 4% worse per percent of market gap that comes in in an IPO in a given year. So if we are seeing 6% coming in, let's 24% worse than normal.\"\nBen Inker: \"We are suddenly for the first time in years getting significant supply. In particular, what we are getting is SpaceX soon to be anthropic and then soon to be open AI coming public as the largest IPOs in history.\"\nBen Inker: \"Now over the next 12 months, the other $2 trillion worth of SpaceX becomes available to sell. And a decent chunk of that will be sold.\"\nBen Inker: \"If we're all short of compute, then sure, I'm going to pay for a five-year-old GPU that is less energy efficient. But, man, if now the world is suddenly a wash in compute, we will have massive defaults on the credit side.\"\nBen Inker: \"Credit spreads are sort of weirdly tight these days from our perspective. They widened out in September, but still I think we're something like the 13th percentile versus history for high yield in the 13th percentile versus history for investment grade.\"",
+    "episode_evidence": "Ben Inker: \"In general, the market does about 4% worse per percent of market cap that comes in in an IPO in a given year. So if we are seeing 6% coming in, that's 24% worse than normal.\"\nBen Inker: \"We are suddenly for the first time in years getting significant supply. In particular, what we are getting is SpaceX, soon to be Anthropic and then soon to be OpenAI coming public as the largest IPOs in history.\"\nBen Inker: \"Now over the next 12 months, the other $2 trillion worth of SpaceX becomes available to sell. And a decent chunk of that will be sold.\"\nBen Inker: \"If we're all short of compute, then sure, I'm going to pay for a five-year-old GPU that is less energy efficient. But, man, if now the world is suddenly awash in compute, we will have massive defaults on the credit side.\"\nBen Inker: \"Credit spreads are sort of weirdly tight these days from our perspective. They widened out in September, but still I think we're something like the 13th percentile versus history for high yield in the 13th percentile versus history for investment grade.\"",
     "falsification_tracks": [
       "By 12-18 months from the episode date, if SpaceX, OpenAI, and Anthropic do not add meaningful public-market supply and AI-linked equities still trade down mainly on macro factors rather than issuance pressure, the core supply thesis is weakened.",
       "If measured additional investable float from major AI-related listings and unlocks stays well below the implied 6%+ of U.S. aggregate market cap, the cited market-supply mechanism fails.",
@@ -52997,7 +52998,8 @@ const dashboardData = {
       "NVDA",
       "MSFT",
       "ORCL",
-      "TSM"
+      "TSM",
+      "SMCI"
     ]
   }
 },
@@ -53016,7 +53018,7 @@ const dashboardData = {
   },
   {
     "id": 902,
-    "term": "Compute wash",
+    "term": "Compute glut",
     "definition": "A scenario in which compute becomes abundant rather than scarce, reducing the economic value of additional GPUs and data-center buildouts. Inker says this could trigger defaults and impair capital invested in AI infrastructure.",
     "investment_implications": "A shift from scarcity to abundance would hurt hardware, infrastructure, and credit tied to AI capex.",
     "source_type": "auto_extracted",
@@ -53056,8 +53058,8 @@ const dashboardData = {
     "id": 87617,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
-    "bio": null,
-    "known_for": null,
+    "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
+    "known_for": "Open-model research and post-training; co-founder of Trillium Labs.",
     "last_main_idea": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
     "last_episode_title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
     "last_podcast_name": "The a16z Show",
@@ -54310,7 +54312,7 @@ const dashboardData = {
     "mention_score_decayed": 1,
     "last_main_idea": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-14 \u2022 The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO",
-    "last_proof_snippet": "In general, the market does about 4% worse per percent of market gap that comes in in an IPO in a given year. So if we are seeing 6% coming in, let's 24% worse than normal. If we're all short of compute, then sure, I'm going to pay for a fi",
+    "last_proof_snippet": "In general, the market does about 4% worse per percent of market cap that comes in in an IPO in a given year. So if we are seeing 6% coming in, that's 24% worse than normal. If we're all short of compute, then sure, I'm going to pay for a fi",
     "supporting_takeaway": "Ben Inker argues the most important catalyst is equity supply, not just valuation, because large IPOs and unlocks can pressure a supply-constrained market.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -54320,7 +54322,7 @@ const dashboardData = {
     "id": 534,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
-    "bio": "AI researcher and founder of the nonprofit research lab Trillium. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
+    "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
