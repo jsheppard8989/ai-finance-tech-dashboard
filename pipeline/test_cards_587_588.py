@@ -87,3 +87,15 @@ def test_compute_glut_seed_pinned_and_supersedes_902(tmp_path):
     assert terms == [{"id": 7, "term": "Other"}]
     js = (DATA / "data.js").read_text(encoding="utf-8")
     assert '"id": 902' not in js
+
+
+def test_card_589_haemanthus_and_no_bet():
+    want = "Haemanthus is an early-stage company building light-based (photonics) diagnostics hardware"
+    for start in ("Hemanthus", "Haemanthus"):
+        rec = {"title": "Card 589", "investment_thesis": f"Second, {start} is an early bet on photonics-enabled diagnostics hardware.",
+               "summary": "Billy Evans runs Hemanthus in Austin. Hemanthus raised."}
+        for _ in range(2):
+            export_data._apply_summary_overrides([rec])
+        assert want in rec["investment_thesis"]
+        assert "Haeemanthus" not in json.dumps(rec) and "Hemanthus" not in json.dumps(rec)
+        assert " bet " not in rec["investment_thesis"]
