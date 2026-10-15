@@ -4,7 +4,7 @@
 import json
 import sqlite3
 import tempfile
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from unittest import mock
 
@@ -316,8 +316,10 @@ class TestStaleEpisodesDetection:
         conn = sqlite3.connect(str(db_path))
         conn.row_factory = sqlite3.Row
 
-        # Episode from yesterday — no insight/DD yet, but too fresh to be stale
-        ep_date = date.today() - timedelta(days=1)
+        # Episode from yesterday — no insight/DD yet, but too fresh to be stale.
+        # SQLite's date('now')/julianday('now') are UTC, so take "yesterday" in UTC too;
+        # a local date.today() is a day behind UTC in the evening CT and made this flake.
+        ep_date = datetime.now(timezone.utc).date() - timedelta(days=1)
         _insert_episode(
             conn,
             "Recent Podcast",
