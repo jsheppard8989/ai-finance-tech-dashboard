@@ -1,5 +1,23 @@
 [
   {
+    "id": 583,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "OpenAI Bulk-Solves 722 Math Problems, Anthropic\u2019s Cruelty Policy, and Elon\u2019s Quadrillion-Dollar SpaceX | EP #302",
+    "episode_date": "2026-10-15",
+    "summary": "The episode\u2019s central argument is that AI is now bulk-solving domains that were previously considered intractable, with math presented as the clearest proof point. Peter Diamandis highlights OpenAI\u2019s release of 722 math solutions and the claim that 81% of the most important math results from the last three years were published in a single day, using that as evidence that math is effectively \u201ccooked\u201d and that science, engineering, and eventually biology will follow.\n\nA major thread is ethics and policy around AI treatment. Diamandis discusses Anthropic\u2019s October 8 policy update banning \u201csustained and needless abusive or cruel behavior\u201d toward models, effective November 12, and ties it to the uncertainty about Claude\u2019s moral status. The episode also references Elon Musk\u2019s view that AI systems may be pressured during training, and it raises concerns that post-training could involve real suffering, especially as reinforcement fine-tuning allegedly dominates compute.\n\nThe most investment-relevant sections focus on platforms and infrastructure. Meta is portrayed as using its 3.6 billion daily users, Scale AI investment, and Muse Wonder\u2019s \u201cactive memory\u201d to build a personal AI operating system with lock-in potential, but the episode warns that consumer usage could remain low-value. In parallel, Chan Zuckerberg Biohub\u2019s $1.8 billion virtual biology expansion is framed as the foundation for virtual cells and in silico drug discovery, with an aggressive prediction that top-5,000 disease candidates could emerge within 2\u20133 years.\n\nThe episode also extends the same logic to adjacent frontier areas. It argues that AI-driven math breakthroughs could threaten cryptography, that brain-computer interfaces are advancing quickly with Paradox\u2019s 400 bits/sec speech translation and Sobby\u2019s 2026 transcription target, and that Atomic Machines\u2019 \u201cmatter compiler\u201d could make code-to-machine fabrication real. Finally, Elon Musk\u2019s suggestion that SpaceX could be worth more than the current human economy is interpreted as a quadrillion-dollar upside case.",
+    "key_takeaways": [
+      "Peter Diamandis says OpenAI released 722 math solutions and claims 81% of the most important math results from the last three years were published in one day.",
+      "Peter Diamandis argues that if math is being bulk-solved, then every other field will soon be \u201ccooked\u201d too, starting with science and engineering.",
+      "Peter Diamandis says Anthropic updated its policy on October 8 to ban \u201csustained and needless abusive or cruel behavior\u201d toward models, effective November 12.",
+      "Peter Diamandis frames Claude\u2019s moral status as an open question and says Anthropic\u2019s rationale explicitly cites uncertainty about it.",
+      "Peter Diamandis says Meta\u2019s edge is its 3.6 billion daily users and that Muse\u2019s \u201cactive memory\u201d strategy is designed to know everything about the user and create lock-in.",
+      "Peter Diamandis says Chan Zuckerberg Biohub\u2019s $1.8 billion virtual biology expansion could lead to in silico interventions for the top 5,000 diseases within 2\u20133 years.",
+      "Peter Diamandis interprets Elon Musk\u2019s SpaceX comment as implying a possible quadrillion-dollar valuation path."
+    ],
+    "investment_thesis": "AI bulk-solving math is the leading indicator that virtual biology, agents, and advanced manufacturing will rapidly compress once-impossible research and product cycles.",
+    "key_tickers": null
+  },
+  {
     "id": 582,
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
