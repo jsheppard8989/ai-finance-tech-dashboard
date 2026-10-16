@@ -161,8 +161,11 @@ class TestExtractionDeepDive(unittest.TestCase):
             ],
         }
         ok, reason = deep_dive_structural_ok(content)
-        self.assertFalse(ok)
+        self.assertFalse(ok)  # only 1 compliant line
         self.assertIn("named source", reason)
+        content["falsification_tracks"].append("If TSMC's Q4 2026 earnings release shows AI revenue under $20B, reassess.")
+        ok, reason = deep_dive_structural_ok(content)
+        self.assertTrue(ok, reason)  # 2 compliant + 1 vague line is accepted (softened 2026-10-16)
 
     def test_normalize_extraction_response(self):
         """Response from extraction-mode should normalize correctly (v2 format)."""
@@ -452,7 +455,7 @@ def _make_fallback_test_db() -> str:
 
 
 class TestExtractionFallbackToLegacy(unittest.TestCase):
-    """When extraction mode fails, fall back to gpt-5.5 once."""
+    """When extraction mode fails: no gpt-5.5 unless high-profile (once per episode per day); never on billing errors."""
 
     def test_extraction_failed_generation_mode_truncates(self):
         long_err = "x" * 80
@@ -471,64 +474,78 @@ class TestExtractionFallbackToLegacy(unittest.TestCase):
             generated, need, quarantined = generate_missing_deepdives([101])
         return generated, need, quarantined, mock_extract, mock_legacy
 
-    def test_extraction_fails_legacy_succeeds_stores_mode(self):
+    def _fail_row(self, tmp_db):
+        conn = sqlite3.connect(tmp_db)
+        conn.row_factory = sqlite3.Row
+        stored = conn.execute("SELECT id FROM deep_dive_content WHERE insight_id = 101").fetchone()
+        row = conn.execute(
+            "SELECT failure_reason, failure_detail, status, retry_count FROM deep_dive_generation_failures WHERE insight_id = 101"
+        ).fetchone()
+        conn.close()
+        return stored, row
+
+    def test_validation_failure_not_high_profile_skips_gpt55(self):
+        """Cost fix 2026-10-16: no gpt-5.5 fallback unless high-profile; next run retries on mini."""
         tmp_db = _make_fallback_test_db()
         self.addCleanup(lambda: os.path.exists(tmp_db) and os.unlink(tmp_db))
         err = "Structural check failed: contains Investors should. rewrite this please"
         extract_return = (None, err, {"model": "gpt-5.4-mini", "input_tokens": 10, "output_tokens": 5, "cost_usd": 0.01})
-        legacy_return = (_OK_DEEP_DIVE, None, {"model": "gpt-5.5", "input_tokens": 100, "output_tokens": 20, "cost_usd": 0.14, "attempt_count": 1})
-
         generated, need, quarantined, mock_extract, mock_legacy = self._run_generate(
-            tmp_db, extract_return, legacy_return
+            tmp_db, extract_return, (_OK_DEEP_DIVE, None, {"model": "gpt-5.5"})
         )
-        self.assertEqual((generated, need, quarantined), (1, 1, 0))
+        self.assertEqual((generated, need), (0, 1))
         mock_extract.assert_called_once()
-        mock_legacy.assert_called_once()
+        mock_legacy.assert_not_called()
+        stored, row = self._fail_row(tmp_db)
+        self.assertIsNone(stored)
+        self.assertEqual((row["failure_reason"], row["status"], row["retry_count"]), ("generation_failed", "pending_retry", 1))
 
-        conn = sqlite3.connect(tmp_db)
-        conn.row_factory = sqlite3.Row
-        row = conn.execute(
-            "SELECT generation_mode, model_used FROM deep_dive_content WHERE insight_id = 101"
-        ).fetchone()
-        fail_row = conn.execute(
-            "SELECT insight_id FROM deep_dive_generation_failures WHERE insight_id = 101 AND status != 'resolved'"
-        ).fetchone()
-        conn.close()
-
-        expected_mode = extraction_failed_generation_mode(err)
-        self.assertIsNotNone(row)
-        self.assertEqual(row["generation_mode"], expected_mode)
-        self.assertEqual(row["model_used"], "gpt-5.5")
-        self.assertIsNone(fail_row)
-
-    def test_extraction_and_legacy_both_fail_records_failure(self):
+    def test_quota_error_fails_fast_and_does_not_count_toward_block(self):
         tmp_db = _make_fallback_test_db()
         self.addCleanup(lambda: os.path.exists(tmp_db) and os.unlink(tmp_db))
-        extract_return = (None, "quote_validation: Quote not found", {"model": "gpt-5.4-mini"})
-        legacy_return = (None, "generation failed after retries", {"model": "gpt-5.5"})
+        err = "Error code: 429 - {'error': {'type': 'insufficient_quota', 'code': 'credit_balance_exhausted'}}"
+        with patch("generate_deepdives.legacy_fallback_decision", wraps=__import__("generate_deepdives").legacy_fallback_decision) as dec:
+            generated, need, quarantined, mock_extract, mock_legacy = self._run_generate(
+                tmp_db, (None, err, {"model": "gpt-5.4-mini"}), (_OK_DEEP_DIVE, None, {"model": "gpt-5.5"})
+            )
+        mock_legacy.assert_not_called()
+        self.assertEqual(dec.call_count, 1)
+        stored, row = self._fail_row(tmp_db)
+        self.assertEqual((row["failure_reason"], row["status"], row["retry_count"]), ("billing_or_rate_error", "pending_retry", 0))
 
-        generated, need, quarantined, mock_extract, mock_legacy = self._run_generate(
-            tmp_db, extract_return, legacy_return
-        )
-        self.assertEqual(generated, 0)
-        self.assertEqual(need, 1)
-        mock_extract.assert_called_once()
+    def test_high_profile_validation_failure_gets_one_gpt55_attempt(self):
+        tmp_db = _make_fallback_test_db()
+        self.addCleanup(lambda: os.path.exists(tmp_db) and os.unlink(tmp_db))
+        err = "Structural check failed: contains Investors should. rewrite this please"
+        legacy_return = (_OK_DEEP_DIVE, None, {"model": "gpt-5.5", "input_tokens": 100, "output_tokens": 20, "cost_usd": 0.14, "attempt_count": 1})
+        with patch("generate_deepdives.check_high_profile_match", side_effect=[None, "show='x'"]):
+            generated, need, quarantined, mock_extract, mock_legacy = self._run_generate(
+                tmp_db, (None, err, {"model": "gpt-5.4-mini"}), legacy_return
+            )
+        self.assertEqual((generated, need, quarantined), (1, 1, 0))
         mock_legacy.assert_called_once()
-
+        self.assertEqual(mock_legacy.call_args.kwargs.get("max_attempts"), 1)
         conn = sqlite3.connect(tmp_db)
-        conn.row_factory = sqlite3.Row
-        stored = conn.execute(
-            "SELECT id FROM deep_dive_content WHERE insight_id = 101"
-        ).fetchone()
-        fail_row = conn.execute(
-            "SELECT failure_reason, failure_detail, status FROM deep_dive_generation_failures WHERE insight_id = 101"
-        ).fetchone()
+        row = conn.execute("SELECT generation_mode, model_used FROM deep_dive_content WHERE insight_id = 101").fetchone()
+        used = conn.execute("SELECT COUNT(*) FROM deep_dive_legacy_fallbacks").fetchone()[0]
         conn.close()
+        self.assertEqual(row, (extraction_failed_generation_mode(err), "gpt-5.5"))
+        self.assertEqual(used, 1)
 
-        self.assertIsNone(stored)
-        self.assertIsNotNone(fail_row)
-        self.assertEqual(fail_row["failure_reason"], "generation_failed")
-        self.assertIn("generation failed after retries", fail_row["failure_detail"])
+    def test_legacy_fallback_decision_rules(self):
+        import generate_deepdives as gd
+        conn = sqlite3.connect(":memory:")
+        q = "Error code: 429 - insufficient_quota"
+        self.assertEqual(gd.legacy_fallback_decision(conn, 5, q, "show='x'"), (False, "billing_or_rate_error"))
+        self.assertEqual(gd.legacy_fallback_decision(conn, 5, "Error code: 401 invalid_api_key", "show='x'")[0], False)
+        self.assertEqual(gd.legacy_fallback_decision(conn, 5, "Rate limit reached", "show='x'")[0], False)
+        self.assertEqual(gd.legacy_fallback_decision(conn, 5, "Structural check failed", None), (False, "not_high_profile"))
+        ok, why = gd.legacy_fallback_decision(conn, 5, "Structural check failed", "show='x'", today="2026-10-19")
+        self.assertTrue(ok)
+        gd.record_legacy_fallback(conn, 5, 9, why, today="2026-10-19")
+        self.assertEqual(gd.legacy_fallback_decision(conn, 5, "Structural check failed", "show='x'", today="2026-10-19"),
+                         (False, "already_used_today"))
+        self.assertTrue(gd.legacy_fallback_decision(conn, 5, "Structural check failed", "show='x'", today="2026-10-20")[0])
 
     def test_extraction_succeeds_legacy_never_called(self):
         tmp_db = _make_fallback_test_db()

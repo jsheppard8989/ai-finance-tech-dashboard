@@ -1024,7 +1024,9 @@ def call_openai_json(
     from openai import RateLimitError
     
     try:
-        response = client.chat.completions.create(
+        from openai_flex import create_chat
+        response, _tier = create_chat(
+            client,
             model=model,
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -1034,7 +1036,8 @@ def call_openai_json(
             max_completion_tokens=16000,
         )
     except RateLimitError as e:
-        if "insufficient_quota" in str(e).lower() or "429" in str(e):
+        from openai_flex import is_flex_unavailable
+        if not is_flex_unavailable(e) and ("insufficient_quota" in str(e).lower() or "429" in str(e)):
             raise InsufficientQuotaError(f"Rate limit / quota exceeded: {e}")
         raise
     
@@ -1071,7 +1074,9 @@ def call_openai_text(
     from openai import RateLimitError
     
     try:
-        response = client.chat.completions.create(
+        from openai_flex import create_chat
+        response, _tier = create_chat(
+            client,
             model=model,
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -1080,7 +1085,8 @@ def call_openai_text(
             max_completion_tokens=max_tokens,
         )
     except RateLimitError as e:
-        if "insufficient_quota" in str(e).lower() or "429" in str(e):
+        from openai_flex import is_flex_unavailable
+        if not is_flex_unavailable(e) and ("insufficient_quota" in str(e).lower() or "429" in str(e)):
             raise InsufficientQuotaError(f"Rate limit / quota exceeded: {e}")
         raise
     
@@ -1333,6 +1339,8 @@ def analyze_transcript_two_pass(
                 episode_title=episode_title, episode_date=episode_date
             )
     
+    import openai_flex as _flex
+    _ledger_start = len(_flex.LEDGER)
     print(f"    Pass 1: Extracting with {PASS1_MODEL}...", flush=True)
     extraction, p1_in, p1_out = pass1_extract(
         client, transcript,
@@ -1353,10 +1361,10 @@ def analyze_transcript_two_pass(
     if was_truncated:
         print(f"    ⚠ Brief may be incomplete - check sections", flush=True)
     
-    total_cost = (
-        (p1_in / 1_000_000 * 0.20) + (p1_out / 1_000_000 * 1.25) +
-        (p2_in / 1_000_000 * 0.75) + (p2_out / 1_000_000 * 4.50)
-    )
+    # Priced per call from the tier OpenAI actually used (flex = half price); see openai_flex.PRICES.
+    total_cost = _flex.ledger_cost(_ledger_start)
+    if not total_cost:  # e.g. calls mocked in tests: standard-tier estimate
+        total_cost = _flex.price(PASS1_MODEL, p1_in, p1_out) + _flex.price(PASS2_MODEL, p2_in, p2_out)
     print(f"    Total tokens: {p1_in + p2_in:,} in / {p1_out + p2_out:,} out", flush=True)
     print(f"    Estimated cost: ${total_cost:.4f}", flush=True)
     

@@ -387,6 +387,10 @@ def is_transcript_processed(transcript_path: Path) -> bool:
             meta = json.load(f)
         episode_id = meta.get("episode_id") or 0
         if not episode_id or episode_id <= 0:
+            # A duplicate of a stored episode is done for good (cost fix 2026-10-16: the old -1 marker
+            # made the same transcript re-run pass 1 + pass 2 on every pipeline run).
+            episode_id = meta.get("duplicate_of") or 0
+        if not episode_id or episode_id <= 0:
             return False
         import sqlite3 as _sqlite3
         conn = _sqlite3.connect(str(DB_PATH))
@@ -399,15 +403,19 @@ def is_transcript_processed(transcript_path: Path) -> bool:
         return False
 
 
-def mark_transcript_processed(transcript_path: Path, episode_id: int):
-    """Mark transcript as processed (file marker + DB flag)."""
+def mark_transcript_processed(transcript_path: Path, episode_id: int, duplicate_of: int = 0):
+    """Mark transcript as processed (file marker + DB flag). duplicate_of = id of the stored episode
+    this transcript duplicates (episode_id stays -1); is_transcript_processed honors it."""
     marker_file = PROCESSED_MARKER_DIR / f"{transcript_path.stem}.processed"
+    meta = {
+        'processed_at': datetime.now().isoformat(),
+        'episode_id': episode_id,
+        'transcript_path': str(transcript_path)
+    }
+    if duplicate_of and duplicate_of > 0:
+        meta['duplicate_of'] = int(duplicate_of)
     with open(marker_file, 'w') as f:
-        f.write(json.dumps({
-            'processed_at': datetime.now().isoformat(),
-            'episode_id': episode_id,
-            'transcript_path': str(transcript_path)
-        }))
+        f.write(json.dumps(meta))
     # Also set is_processed=1 in the database so the pipeline can query it
     if episode_id and episode_id > 0:
         try:
@@ -765,6 +773,102 @@ def episode_exists_in_db(
         return False
 
 
+def transcript_content_sha256(content: str) -> str:
+    import hashlib
+    return hashlib.sha256((content or "").encode("utf-8")).hexdigest()
+
+
+def _ensure_hash_table(conn) -> None:
+    conn.execute(
+        """CREATE TABLE IF NOT EXISTS transcript_hashes (
+               sha256 TEXT PRIMARY KEY, episode_id INTEGER NOT NULL, transcript_path TEXT,
+               created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)"""
+    )
+
+
+def record_transcript_hash(content: str, episode_id: int, transcript_path) -> None:
+    """Remember raw-transcript sha256 -> stored episode, so a copy under any path/name is skipped pre-analysis."""
+    if not episode_id or episode_id <= 0:
+        return
+    import sqlite3 as _sqlite3
+    try:
+        conn = _sqlite3.connect(str(DB_PATH))
+        _ensure_hash_table(conn)
+        conn.execute("INSERT OR IGNORE INTO transcript_hashes (sha256, episode_id, transcript_path) VALUES (?, ?, ?)",
+                     (transcript_content_sha256(content), int(episode_id), str(transcript_path)))
+        conn.commit()
+        conn.close()
+    except Exception as e:
+        print(f"    ⚠ Could not record transcript hash: {e}")
+
+
+def find_prior_episode(transcript_path: Path, content: str, rss_guid: str = "", podcast_name: str = "",
+                       sidecar_title: str = "") -> tuple:
+    """Pre-analysis duplicate check (cost fix 2026-10-16). Runs BEFORE pass 1, so a transcript that is already
+    a stored episode never reaches the API. Returns (episode_id, reason) or (0, None).
+      1. raw content sha256 in transcript_hashes, or in two_pass_cache (row tied to a live episode)
+      2. rss_guid match
+      3. same transcript file name (stem) on any stored episode, whatever directory it was stored from
+      4. sidecar podcast_name + episode_title exact match
+    """
+    import sqlite3 as _sqlite3
+    try:
+        conn = _sqlite3.connect(str(DB_PATH))
+    except Exception:
+        return 0, None
+    try:
+        sha = transcript_content_sha256(content)
+        live = lambda eid: eid and conn.execute("SELECT 1 FROM podcast_episodes WHERE id = ?", (eid,)).fetchone()  # noqa: E731
+        try:
+            _ensure_hash_table(conn)
+            row = conn.execute("SELECT episode_id FROM transcript_hashes WHERE sha256 = ?", (sha,)).fetchone()
+            if row and live(row[0]):
+                return int(row[0]), "content_sha256"
+        except Exception:
+            pass
+        try:
+            row = conn.execute("SELECT episode_id FROM two_pass_cache WHERE transcript_sha256 = ? AND episode_id > 0",
+                               (sha,)).fetchone()
+            if row and live(row[0]):
+                return int(row[0]), "content_sha256(two_pass_cache)"
+        except Exception:
+            pass
+        if (rss_guid or "").strip():
+            row = conn.execute("SELECT id FROM podcast_episodes WHERE rss_guid = ?", (rss_guid,)).fetchone()
+            if row:
+                return int(row[0]), "rss_guid"
+        stem = transcript_path.stem
+        for eid, tp in conn.execute("SELECT id, transcript_path FROM podcast_episodes WHERE transcript_path LIKE ?",
+                                    (f"%{stem}%",)).fetchall():
+            if tp and Path(str(tp)).stem == stem:
+                return int(eid), "transcript_stem"
+        if podcast_name and (sidecar_title or "").strip():
+            row = conn.execute("SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?",
+                               (podcast_name, sidecar_title.strip())).fetchone()
+            if row:
+                return int(row[0]), "sidecar_title"
+        return 0, None
+    except Exception as e:
+        print(f"    ⚠ Pre-analysis duplicate check failed: {e}")
+        return 0, None
+    finally:
+        conn.close()
+
+
+def find_existing_episode_id(podcast_name: str, episode_title: str) -> int:
+    import sqlite3 as _sqlite3
+    try:
+        conn = _sqlite3.connect(str(DB_PATH))
+        row = conn.execute("SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?",
+                           (podcast_name, episode_title)).fetchone() or conn.execute(
+            "SELECT id FROM podcast_episodes WHERE podcast_name = ? AND LOWER(SUBSTR(episode_title,1,50)) = LOWER(SUBSTR(?,1,50))",
+            (podcast_name, episode_title)).fetchone()
+        conn.close()
+        return int(row[0]) if row else 0
+    except Exception:
+        return 0
+
+
 def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[int]:
     """Process a single transcript file and add to database."""
     
@@ -837,7 +941,19 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         db, podcast_name, lookup_title_for_dedupe, rss_guid, transcript_stem=transcript_stem
     ):
         print(f"    ⏭ Episode already in database (duplicate), skipping")
-        mark_transcript_processed(transcript_path, -1)  # Mark as processed to avoid re-checking
+        dup = find_existing_episode_id(podcast_name, lookup_title_for_dedupe)
+        mark_transcript_processed(transcript_path, -1, duplicate_of=dup)  # Mark as processed to avoid re-checking
+        return None
+
+    # Pre-analysis duplicate check by content hash / GUID / file stem / sidecar title, before any API call.
+    prior_id, prior_why = find_prior_episode(
+        transcript_path, content, rss_guid=rss_guid, podcast_name=podcast_name,
+        sidecar_title=(sidecar.get("episode_title") or ""),
+    )
+    if prior_id:
+        print(f"    ⏭ Already stored as episode {prior_id} ({prior_why}); skipping before analysis (no API call)")
+        mark_transcript_processed(transcript_path, -1, duplicate_of=prior_id)
+        record_transcript_hash(content, prior_id, transcript_path)
         return None
     
     # Do not swap in the Stage A mini digest. Those files are a few thousand
@@ -962,7 +1078,9 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         db, podcast_name, episode_title, rss_guid, transcript_stem=transcript_stem
     ):
         print(f"    ⏭ Episode '{episode_title[:60]}...' already in database, skipping")
-        mark_transcript_processed(transcript_path, -1)
+        dup = find_existing_episode_id(podcast_name, episode_title)
+        mark_transcript_processed(transcript_path, -1, duplicate_of=dup)
+        record_transcript_hash(content, dup, transcript_path)  # never pay for this transcript again
         return None
     
     # Use published date from sidecar if available (more accurate than AI-extracted date).
@@ -1236,6 +1354,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     
     # Mark as processed
     mark_transcript_processed(transcript_path, episode_id)
+    record_transcript_hash(content, episode_id, transcript_path)
     
     return episode_id
 
