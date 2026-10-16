@@ -7,7 +7,7 @@
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-16T12:25:10",
+    "last_updated": "2026-10-16T15:00:33",
     "as_of_date": "2026-10-16",
     "next_refunding_announcement": {
       "date": "2026-11-04",
@@ -288,13 +288,13 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-10-16T12:25:09.450823",
-    "as_of_date": "2026-10-15",
+    "last_updated": "2026-10-16T15:00:32.470394",
+    "as_of_date": "2026-10-16",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
-        "value_bps": 33.0,
+        "value_bps": 35.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "10Y - 2Y from Treasury daily curve"
@@ -302,7 +302,7 @@
       "10s30s": {
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
-        "value_bps": 33.0,
+        "value_bps": 34.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "30Y - 10Y from Treasury daily curve"
@@ -310,18 +310,18 @@
     },
     "levels": {
       "2y": {
-        "value": 4.77,
-        "change_1d_bps": -5.0,
+        "value": 4.74,
+        "change_1d_bps": -3.0,
         "source": "Treasury.gov"
       },
       "10y": {
-        "value": 5.1,
-        "change_1d_bps": -9.0,
+        "value": 5.09,
+        "change_1d_bps": -1.0,
         "source": "Treasury.gov"
       },
       "30y": {
         "value": 5.43,
-        "change_1d_bps": -9.0,
+        "change_1d_bps": 0.0,
         "source": "Treasury.gov"
       }
     },
@@ -329,8 +329,8 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 100.33,
-      "change_1d": -2.16,
+      "value": 101.1,
+      "change_1d": -1.39,
       "as_of": "2026-10-16",
       "signal": "elevated",
       "yahoo_symbol": "^MOVE",
@@ -348,19 +348,19 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-10-16T12:25:09.683580",
-    "report_date": "2026-10-06",
-    "prior_report_date": "2026-09-29",
+    "last_updated": "2026-10-16T15:00:32.723509",
+    "report_date": "2026-10-13",
+    "prior_report_date": "2026-10-06",
     "change_source": "cftc_changes_row",
     "rates_positioning": {
       "10y_note": {
         "label": "10-Year T-Note Futures",
         "contract": "TY",
         "asset_manager_net": null,
-        "leveraged_funds_net": -2139785,
-        "prior_week_net": -2036432,
+        "leveraged_funds_net": -2205937,
+        "prior_week_net": -2139785,
         "dealer_net": null,
-        "change_1w": -103353,
+        "change_1w": -66152,
         "signal": null,
         "percentile_1y": null
       },
@@ -368,10 +368,10 @@
         "label": "2-Year T-Note Futures",
         "contract": "TU",
         "asset_manager_net": null,
-        "leveraged_funds_net": -1257484,
-        "prior_week_net": -1165980,
+        "leveraged_funds_net": -1367408,
+        "prior_week_net": -1257484,
         "dealer_net": null,
-        "change_1w": -91504,
+        "change_1w": -109924,
         "signal": null,
         "percentile_1y": null
       },
@@ -379,10 +379,10 @@
         "label": "30-Year T-Bond Futures",
         "contract": "US",
         "asset_manager_net": null,
-        "leveraged_funds_net": -189678,
-        "prior_week_net": -251395,
+        "leveraged_funds_net": -154020,
+        "prior_week_net": -189678,
         "dealer_net": null,
-        "change_1w": 61717,
+        "change_1w": 35658,
         "signal": null,
         "percentile_1y": null
       }
@@ -392,10 +392,10 @@
         "label": "CME Bitcoin Futures",
         "contract": "BTC",
         "asset_manager_net": null,
-        "leveraged_funds_net": -6852,
-        "prior_week_net": -6856,
+        "leveraged_funds_net": -5844,
+        "prior_week_net": -6852,
         "dealer_net": null,
-        "change_1w": 4,
+        "change_1w": 1008,
         "signal": null,
         "percentile_1y": null
       }
@@ -405,10 +405,10 @@
         "label": "CME E-mini Nasdaq-100",
         "contract": "NQ",
         "asset_manager_net": null,
-        "leveraged_funds_net": -26738,
-        "prior_week_net": -33782,
+        "leveraged_funds_net": -21891,
+        "prior_week_net": -26739,
         "dealer_net": null,
-        "change_1w": 7044,
+        "change_1w": 4848,
         "signal": null,
         "percentile_1y": null
       }
@@ -438,7 +438,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-16T12:24:52.701935",
+    "last_fetched": "2026-10-16T15:00:16.332186",
     "h100": {
       "daily_date": "Oct 16, 2026",
       "daily_date_iso": "2026-10-16",
@@ -587,7 +587,7 @@
     "as_of": "2026-10-16T16:54:47.251Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-10-16T12:24:53.262710",
+    "last_fetched": "2026-10-16T15:00:16.599240",
     "b200": {
       "points": [
         {
