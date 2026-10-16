@@ -1,6 +1,39 @@
 {
   "insights": [
     {
+      "id": 595,
+      "title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-16",
+      "summary": "The episode centers on the idea that AI has already transformed coding, but that production operations remains a much harder problem. Jad Naous argues software creation and running software are fundamentally different because operations involves unpredictable workloads, failures, and a much larger state space. Mart\u00edn Casado reinforces that view, emphasizing that distributed systems and operational troubleshooting are not solved by simply applying code-generation-style AI.\n\nNaous describes Grepper as a two-layer system: first, it reduces observability and telemetry spend by extracting signal from logs upstream, and second, it feeds those signals into an AI layer for troubleshooting. He claims the company can reduce telemetry costs by about 90%, and says observability historically consumed roughly 5% to 20% of infrastructure spend. He frames this as a practical wedge because many buyers care about cost savings before reliability benefits.\n\nA major part of the conversation is about how to make AI useful in operations without asking it to infer causality from lagging indicators. Naous says they prefer detecting changes in the environment and early warning messages, then using AI to reason through hypotheses and experiments. He argues that backtracking from metric spikes is the wrong abstraction for complex systems, and that full autonomous control of distributed clusters is still not solved.\n\nThe episode also includes hands-on workflow details from Naous about using Claude Code, WSL, and multiple concurrent agent sessions. He says recent AI-assisted workflows let his team ship production work much faster, citing an auto-promotion/shredding project that took about 10 days versus about six months for one person previously. His broader thesis is that AI will continue to excel in constrained digital domains, while real-world operations and security remain much harder because the solution space diverges from training data and economic constraints matter.",
+      "key_takeaway": "Grepper\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
+      "tickers_mentioned": [
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-10-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 584,
+      "notable_quotes": [
+        {
+          "speaker": "Jad Naous",
+          "quote": "We put us in the data stream, plug and play, pass the data through reduce your cost by 90%."
+        },
+        {
+          "speaker": "Jad Naous",
+          "quote": "But writing software and running it are two very different problems."
+        },
+        {
+          "speaker": "Jad Naous",
+          "quote": "And instead, what we're doing is doing it the other way around, which is, can we actually start by figuring out if there's something different in your environment that has changed?"
+        }
+      ]
+    },
+    {
       "id": 589,
       "title": "Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
       "source_type": "podcast",
@@ -6684,7 +6717,7 @@
       "key_takeaway": "",
       "tickers_mentioned": [
         "MGM",
-        "TALEN ENERGY"
+        "TLN"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -13148,8 +13181,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-15",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-10-16",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -13158,8 +13191,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 580,
-      "last_mentioned_speaker": "Jensen Huang"
+      "last_mentioned_episode_id": 584,
+      "last_mentioned_speaker": "Jad Naous"
     },
     {
       "id": 272,
