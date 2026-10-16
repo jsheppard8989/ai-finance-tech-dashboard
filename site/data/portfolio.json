@@ -29,9 +29,9 @@
           "current_price": 27.74,
           "current_value": 987.54,
           "change_pct": -1.25,
-          "exit": null,
-          "exit_date": null,
-          "expiry": null
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         },
         {
           "ticker": "GDRX",
@@ -43,9 +43,9 @@
           "current_price": 3.35,
           "current_value": 1006.01,
           "change_pct": 0.6,
-          "exit": null,
-          "exit_date": null,
-          "expiry": null
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         },
         {
           "ticker": "TEM",
@@ -57,9 +57,9 @@
           "current_price": 65.18,
           "current_value": 835.96,
           "change_pct": -16.4,
-          "exit": null,
-          "exit_date": null,
-          "expiry": null
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         },
         {
           "ticker": "GH",
@@ -71,9 +71,9 @@
           "current_price": 158.6,
           "current_value": 866.19,
           "change_pct": -13.38,
-          "exit": null,
-          "exit_date": null,
-          "expiry": null
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         },
         {
           "ticker": "ABT",
@@ -85,9 +85,9 @@
           "current_price": 104.62,
           "current_value": 1023.68,
           "change_pct": 2.37,
-          "exit": null,
-          "exit_date": null,
-          "expiry": null
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
