@@ -304,10 +304,39 @@ def normalize_for_analysis(content: str, sidecar: dict, episode_id: str = "", lo
         return content, []
 
 
-def apply_to_cards(obj):
-    """Export backstop: exact known misspellings only, quote-safe (reuses #406 logic)."""
+# Context-gated short-name fixes (Oct 16 2026): a bare word that is only a misspelling when
+# the same card is about the company. (old, new, context) -> replace whole-word, case-sensitive
+# `old` with `new` only inside a card whose text already contains `context`. Never touches
+# "Halo", "Along", "Aalo" (whole-word match) or quoted spans (quote-safe export replace).
+COMPANY_CONTEXT_FIXES = (
+    ("Alo", "Aalo", "Aalo"),
+)
+_CARD_KEYS = ("id", "insight_id", "episode_title", "title", "insight_title")
+
+
+def _apply_context_fixes(obj, fixes=COMPANY_CONTEXT_FIXES):
     import export_data
-    return export_data._apply_name_replacements(obj, known_replacements())
+    if isinstance(obj, dict):
+        if any(k in obj for k in _CARD_KEYS):
+            blob = json.dumps(obj, ensure_ascii=False)
+            reps = [(o, n) for o, n, ctx in fixes if ctx in blob and re.search(r"(?<![\w])" + re.escape(o) + r"(?![\w])", blob)]
+            if reps:
+                export_data._apply_name_replacements(obj, reps)
+            return obj
+        for v in obj.values():
+            _apply_context_fixes(v, fixes)
+    elif isinstance(obj, list):
+        for v in obj:
+            _apply_context_fixes(v, fixes)
+    return obj
+
+
+def apply_to_cards(obj):
+    """Export backstop: exact known misspellings only, quote-safe (reuses #406 logic),
+    then context-gated company short names (COMPANY_CONTEXT_FIXES)."""
+    import export_data
+    export_data._apply_name_replacements(obj, known_replacements())
+    return _apply_context_fixes(obj)
 
 
 # ---------------------------------------------------------------- CLI
