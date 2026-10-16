@@ -116,7 +116,7 @@ COMPANIES_AND_ASSETS RULES:
   - falsification: What would prove the speaker's thesis about this company wrong? If the speaker states a date or condition, include it. If not stated, describe what evidence would falsify the claim.
 
 FALSIFICATION_TRACKS:
-- Include 3-5 top-level falsification tracks that would disprove the episode's overall thesis.
+- Include 3-5 top-level falsification tracks that would disprove the episode's overall thesis. Each track needs a date or "by <date>", a numeric threshold, and the named source that would grade it (e.g. 10-Q, 8-K, EIA, FERC docket).
 - Be specific: include timeframes, metrics, or observable conditions where stated or inferable.
 - Example: "If HBM supply exceeds demand by Q3 2027, the capacity shortage thesis fails."
 

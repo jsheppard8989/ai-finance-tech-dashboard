@@ -2,7 +2,8 @@
   "_metadata": {
     "schema_version": 1,
     "note": "Inception shares fixed; daily marks update current_* only.",
-    "last_updated": "2026-10-16T13:57:25.270648"
+    "last_updated": "2026-10-16T13:57:25.270648",
+    "exit_fields_note": "Each position carries exit (price or condition), exit_date (ISO), expiry (ISO; cards default 21 days). null until G fills them. publish_guard process_checks STALE reads them (Red Team Fix 4, 2026-10-16)."
   },
   "baskets": [
     {
@@ -27,7 +28,10 @@
           "notional": 1000,
           "current_price": 27.74,
           "current_value": 987.54,
-          "change_pct": -1.25
+          "change_pct": -1.25,
+          "exit": null,
+          "exit_date": null,
+          "expiry": null
         },
         {
           "ticker": "GDRX",
@@ -38,7 +42,10 @@
           "notional": 1000,
           "current_price": 3.35,
           "current_value": 1006.01,
-          "change_pct": 0.6
+          "change_pct": 0.6,
+          "exit": null,
+          "exit_date": null,
+          "expiry": null
         },
         {
           "ticker": "TEM",
@@ -49,7 +56,10 @@
           "notional": 1000,
           "current_price": 65.18,
           "current_value": 835.96,
-          "change_pct": -16.4
+          "change_pct": -16.4,
+          "exit": null,
+          "exit_date": null,
+          "expiry": null
         },
         {
           "ticker": "GH",
@@ -60,7 +70,10 @@
           "notional": 1000,
           "current_price": 158.6,
           "current_value": 866.19,
-          "change_pct": -13.38
+          "change_pct": -13.38,
+          "exit": null,
+          "exit_date": null,
+          "expiry": null
         },
         {
           "ticker": "ABT",
@@ -71,7 +84,10 @@
           "notional": 1000,
           "current_price": 104.62,
           "current_value": 1023.68,
-          "change_pct": 2.37
+          "change_pct": 2.37,
+          "exit": null,
+          "exit_date": null,
+          "expiry": null
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",

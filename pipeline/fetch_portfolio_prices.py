@@ -40,6 +40,9 @@ def fetch_yahoo_price(ticker: str) -> float | None:
         return None
 
 
+EXIT_FIELDS = ("exit", "exit_date", "expiry")
+
+
 def update_portfolio():
     """Update portfolio prices and compute current values."""
     print("=" * 60)
@@ -60,6 +63,8 @@ def update_portfolio():
         basket_current_value = 0.0
         
         for name in basket.get("names", []):
+            for k in EXIT_FIELDS:  # Red Team Fix 4: keep exit fields on every position (null until G fills them)
+                name.setdefault(k, None)
             ticker = name.get("ticker")
             shares = name.get("shares", 0)
             inception_price = name.get("inception_price", 0)

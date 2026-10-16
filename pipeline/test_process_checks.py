@@ -14,6 +14,8 @@ import ungraded_sweep as us
 
 REPO = Path(__file__).resolve().parent.parent
 TODAY = date(2026, 10, 16)
+# Never read the real box tickets file (/workspace/cos/tickets.json) from tests.
+pc.TICKETS_BOX_PATH = Path(tempfile.mkdtemp()) / "no_box_tickets.json"
 
 CARD = ('<details class="ev" id="{id}"><summary><span class="date">{d}</span></summary><div class="body"><dl>'
         '<dt>What would prove us wrong</dt><dd>{w}</dd><dt>Date source</dt><dd>{src}</dd>{extra}</dl></div></details>')
@@ -51,8 +53,37 @@ class WrongIf(unittest.TestCase):
                  data={"deepDives": {"1": {"falsification_tracks": ["Share falls."]}}})
         try:
             r = pc.check_wrong_if(s.site)
-            self.assertEqual((r["lines"], r["failures"], r["pct_compliant"]), (4, 2, 50.0))
-            self.assertEqual(r["by_surface"]["data.js"]["failures"], 1)
+            # nothing carries a publish date >= 2026-10-19: all backlog, scope N/A
+            self.assertEqual((r["lines"], r["pct_compliant"]), (0, None))
+            self.assertEqual((r["backlog"]["lines"], r["backlog"]["failures"], r["backlog"]["pct_compliant"]), (4, 2, 50.0))
+            self.assertEqual(r["backlog"]["by_surface"]["data.js"]["failures"], 1)
+        finally:
+            s.close()
+
+    def test_scope_counts_only_new_items(self):
+        page = ('<details class="ev" id="n" data-published="2026-10-19"><summary></summary><dl>'
+                '<dt>What would prove us wrong</dt><dd>A refinancing is filed.</dd></dl></details>')
+        s = Site(html_extra=page,
+                 traps=[{"id": "old", "updated_at": "2026-10-01", "drop_if": "vibes"},
+                        {"id": "new", "updated_at": "2026-10-20", "drop_if": "PJM BRA under $100/MW-day by Dec 2026"}],
+                 data={"deepDives": {"1": {"created_at": "2026-10-19T05:00:00", "falsification_tracks": ["Share falls."]},
+                                     "2": {"created_at": "2026-10-10T05:00:00", "falsification_tracks": ["x"]}}})
+        try:
+            r = pc.check_wrong_if(s.site)
+            self.assertEqual((r["lines"], r["failures"], r["pct_compliant"]), (3, 2, 33.3))
+            self.assertEqual(r["backlog"]["lines"], 2)
+            b, w, rep = pc.run_process_checks(s.site, TODAY, emit=lambda *_: None)
+            self.assertTrue(any("in-scope lines" in x for x in w))
+            self.assertTrue(any("backlog (info only)" in x for x in rep["info"]))
+        finally:
+            s.close()
+
+    def test_backlog_only_is_info_not_warning(self):
+        s = Site(traps=[{"id": "old", "updated_at": "2026-10-01", "drop_if": "vibes"}])
+        try:
+            b, w, rep = pc.run_process_checks(s.site, TODAY, emit=lambda *_: None)
+            self.assertFalse(any("wrong-if" in x for x in w))
+            self.assertTrue(any("(N/A)" in x for x in rep["info"]))
         finally:
             s.close()
 
@@ -145,15 +176,84 @@ class FactGate(unittest.TestCase):
 
 
 class Stale(unittest.TestCase):
+    def setUp(self):
+        self._box = pc.TICKETS_BOX_PATH
+        pc.TICKETS_BOX_PATH = Path(tempfile.mkdtemp()) / "missing_tickets.json"
+
+    def tearDown(self):
+        pc.TICKETS_BOX_PATH = self._box
+
     def test_cards_and_tickets(self):
+        tickets = {"tickets": [
+            {"id": "k", "created": "2026-10-01"},                                        # no exit fields, 15d -> STALE
+            {"id": "k2", "created": "2026-10-14"},                                       # young
+            {"id": "k3", "created": "2026-10-10", "exit": "close < $5", "exit_date": "2026-10-20", "expiry": "2026-10-15"},  # expired
+            {"id": "k4", "created": "2026-10-10", "exit": "x", "exit_date": "2026-10-20", "expiry": "2026-10-17"},  # fine
+            {"id": "k5", "created": "2026-09-01", "status": "CLOSED"}]}                  # closed: skipped
         s = Site(traps=[{"id": "old", "updated_at": "2026-09-01"}, {"id": "new", "updated_at": "2026-10-10"},
-                        {"id": "exp", "updated_at": "2026-09-01", "expiry": "2026-11-01"}],
-                 extra_json={"tickets.json": {"tickets": [{"id": "k", "as_of": "2026-10-01"}, {"id": "k2", "as_of": "2026-10-14"}]}})
+                        {"id": "exp", "updated_at": "2026-09-01", "exit": "x", "exit_date": "2026-11-01", "expiry": "2026-11-01"}],
+                 extra_json={"tickets.json": tickets})
         try:
             got = sorted((x["where"], x["label"]) for x in pc.check_stale(s.site, TODAY))
-            self.assertEqual(got, [("tickets.json k", "STALE"), ("trap_map.json old", "STALE")])
+            self.assertEqual(got, [("tickets.json k", "STALE"), ("tickets.json k3", "STALE"), ("trap_map.json old", "STALE")])
         finally:
             s.close()
+
+    def test_bare_list_and_env_path(self):
+        p = Path(tempfile.mkdtemp()) / "jg.json"
+        p.write_text(json.dumps([{"ticker": "BE", "as_of": "2026-10-01"}]))
+        s = Site()
+        try:
+            import os
+            os.environ["TICKETS_JSON"] = str(p)
+            got = [x["where"] for x in pc.check_stale(s.site, TODAY)]
+            self.assertEqual(got, ["jg.json BE"])
+        finally:
+            os.environ.pop("TICKETS_JSON", None)
+            s.close()
+
+    def test_missing_tickets_is_silent_info(self):
+        s = Site()
+        try:
+            b, w, rep = pc.run_process_checks(s.site, TODAY, emit=lambda *_: None)
+            self.assertEqual(b, [])
+            self.assertFalse(any("ticket" in x for x in w))
+            self.assertTrue(any("tickets.json not found" in x for x in rep["info"]))
+        finally:
+            s.close()
+
+    def test_portfolio_positions(self):
+        pf = {"baskets": [{"id": "b", "as_of": "2026-09-18T09:30:00-05:00", "names": [
+            {"ticker": "A", "exit": None, "exit_date": None, "expiry": None},
+            {"ticker": "B", "exit": "close < $10", "exit_date": "2026-11-01", "expiry": "2026-11-01"},
+            {"ticker": "C", "exit": "x", "exit_date": "2026-10-10", "expiry": "2026-10-09"}]}]}
+        s = Site(extra_json={"portfolio.json": pf})
+        try:
+            got = sorted(x["where"] for x in pc.check_stale(s.site, TODAY))
+            self.assertEqual(got, ["portfolio.json b/A", "portfolio.json b/C"])
+        finally:
+            s.close()
+
+    def test_shipped_portfolio_has_exit_fields(self):
+        pf = json.loads((REPO / "site" / "data" / "portfolio.json").read_text())
+        for b in pf["baskets"]:
+            for n in b["names"]:
+                for k in ("exit", "exit_date", "expiry"):
+                    self.assertIn(k, n)
+
+    def test_price_update_keeps_exit_fields(self):
+        import fetch_portfolio_prices as fpp
+        from unittest import mock
+        d = Path(tempfile.mkdtemp()) / "portfolio.json"
+        d.write_text(json.dumps({"_metadata": {}, "baskets": [{"names": [
+            {"ticker": "A", "shares": 1, "inception_price": 10, "exit": "close < $8", "exit_date": "2026-11-01", "expiry": None},
+            {"ticker": "B", "shares": 1, "inception_price": 10}]}]}))
+        with mock.patch.object(fpp, "PORTFOLIO_FILE", d), mock.patch.object(fpp, "fetch_yahoo_price", return_value=11.0), \
+                redirect_stdout(io.StringIO()):
+            fpp.update_portfolio()
+        names = json.loads(d.read_text())["baskets"][0]["names"]
+        self.assertEqual(names[0]["exit"], "close < $8")
+        self.assertEqual({k: names[1][k] for k in ("exit", "exit_date", "expiry")}, {"exit": None, "exit_date": None, "expiry": None})
 
 
 class Wiring(unittest.TestCase):
@@ -165,7 +265,7 @@ class Wiring(unittest.TestCase):
             with redirect_stdout(buf):
                 ok, reasons = g.run_publish_guard(s.site, REPO / "pipeline", s.root, baselines={}, today=TODAY)
             self.assertEqual([r for r in reasons if "process" in r or "FACT" in r], [])
-            self.assertIn("WARN publish guard process: wrong-if lint", buf.getvalue())
+            self.assertIn("INFO publish guard process: wrong-if lint scope", buf.getvalue())
             self.assertIn("WARN publish guard process: ungraded", buf.getvalue())
             self.assertIn("WARN publish guard process: STALE card", buf.getvalue())
         finally:

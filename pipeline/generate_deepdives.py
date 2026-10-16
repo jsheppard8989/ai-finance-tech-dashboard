@@ -555,6 +555,14 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     good = [str(x).strip() for x in ft if len(str(x).strip()) >= 25]
     if len(good) < 2:
         return False, "falsification_tracks items too short"
+    # Red Team Fix 1 (2026-10-16): each falsifier needs a date / 'by <date>', a number and a named source.
+    try:
+        from process_checks import lint_line
+        bad = [x for x in good if lint_line(x)]
+    except Exception:
+        bad = []
+    if bad:
+        return False, f"falsification_tracks need a date or 'by <date>', a number and a named source: {bad[0][:80]!r}"
     return True, ""
 
 
@@ -785,14 +793,14 @@ Your job is to produce a rich Deep Dive with:
 - overview: What's new and non-obvious? NOT a summary of the insight card.
 - investment_thesis: Distinct from overview - practical implications for investors
 - ticker_analysis: For each mentioned ticker, provide rationale, positioning, risk
-- falsification_tracks: 3-5 specific conditions that would prove the thesis wrong
+- falsification_tracks: 3-5 specific conditions that would prove the thesis wrong; each with a date or "by <date>", a number, and a named source
 
 CRITICAL RULES:
 1. Quotes in episode_evidence MUST be VERBATIM from the extraction's high_value_quotes or companies_and_assets[].key_quotes. Do NOT invent quotes.
 2. Each quote line MUST start with "Speaker Name: " using the speaker's full name.
 3. overview MUST NOT paraphrase the insight card summary - add new substance.
 4. Investment thesis MUST be actionable - what should investors watch or do?
-5. falsification_tracks MUST be testable - include dates, metrics, or conditions.
+5. falsification_tracks MUST be testable - EVERY line needs (i) a date or "by <date>", (ii) a numeric threshold, and (iii) the named source that grades it (e.g. "10-Q", "8-K", "EIA", "FERC docket"). Example: "Revenue under $318M in the Q3 2026 10-Q, due by Nov 9, 2026."
 6. NEVER use the phrase "Investors should" anywhere in the output. Say what is worth watching, not what investors "should" do.
 
 Return ONLY this JSON:
@@ -989,7 +997,7 @@ Return ONLY valid JSON with these keys:
   "source_quotes": "Exactly 2 or 3 lines. Each line MUST be: - Full Name: \"verbatim quote from the source\". Use the SPEAKERS names above when attributing quotes (e.g., 'J Mintzmyer: \"quote\"' not 'Guest: \"quote\"'). Never write Host or Guest when the name is known. Never invent a phonetic misspelling. NO opening sentence summarizing the episode.",
   "whats_new": "ONE paragraph (80–180 words): mechanisms, numbers, disagreements, or second-order effects that are NOT already on the Insight card. Plain language. If a sentence could appear on 50 unrelated podcast Deep Dives, delete it.",
   "falsification_tracks": [
-    "3–5 bullets: specific, observable data, events, or market outcomes that would materially REDUCE conviction in the thesis (or flip it). Each bullet must be testable — not vibes."
+    "3–5 bullets: specific, observable data, events, or market outcomes that would materially REDUCE conviction in the thesis (or flip it). EVERY bullet must carry all three: (1) a date or 'by <date>' (e.g. 'by Dec 31, 2026', 'in the Q3 2026 10-Q'), (2) a number/threshold (e.g. 'below $135', 'under 20% growth'), and (3) the named source that will grade it (e.g. 'company 10-Q', 'FERC docket', 'EIA STEO'). Example: 'Q4 2026 data-center revenue under $40B in Nvidia's 10-K, filed by Feb 28, 2027.'"
   ],
   "investment_implication": {{
     "prose": "2–4 sentences: if the thesis is directionally true, what follows for allocators — include timeframe and what would prove/disprove it. No bullet list.",

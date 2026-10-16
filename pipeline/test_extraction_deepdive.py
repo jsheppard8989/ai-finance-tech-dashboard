@@ -137,13 +137,32 @@ class TestExtractionDeepDive(unittest.TestCase):
             "overview": "The semiconductor supply chain faces structural constraints that may persist through 2027.",
             "investment_thesis": "Long exposure to capacity constrained suppliers offers asymmetric upside.",
             "falsification_tracks": [
-                "If HBM supply exceeds demand by Q3 2027, the capacity shortage thesis fails.",
-                "If NVIDIA loses more than 5% share to AMD in datacenter GPUs, reassess positioning.",
-                "If hyperscaler capex guidance declines for two consecutive quarters, the demand story weakens.",
+                "If SK Hynix reports HBM inventory above 8 weeks in its Q3 2027 earnings release, the shortage thesis fails.",
+                "If NVIDIA's datacenter share falls more than 5 points per Mercury Research by Dec 31, 2026, reassess positioning.",
+                "If hyperscaler capex guidance in the 10-Q filings declines 2 quarters in a row by Q2 2027, the demand story weakens.",
             ],
         }
         ok, reason = deep_dive_structural_ok(content)
         self.assertTrue(ok, f"Should pass: {reason}")
+
+    def test_structural_check_rejects_undated_falsifier(self):
+        """Red Team Fix 1: every falsifier needs a date / 'by <date>', a number and a named source."""
+        content = {
+            "episode_evidence": (
+                '- John Smith: "The market opportunity is significant."\n'
+                '- Jane Doe: "We expect margins to expand."\n'
+                '- Bob Wilson: "Competition is intensifying."'
+            ),
+            "overview": "The semiconductor supply chain faces structural constraints that may persist through 2027.",
+            "investment_thesis": "Long exposure to capacity constrained suppliers offers asymmetric upside.",
+            "falsification_tracks": [
+                "If NVIDIA's datacenter share falls more than 5 points per Mercury Research by Dec 31, 2026, reassess.",
+                "If hyperscaler capex guidance declines, the demand story weakens.",
+            ],
+        }
+        ok, reason = deep_dive_structural_ok(content)
+        self.assertFalse(ok)
+        self.assertIn("named source", reason)
 
     def test_normalize_extraction_response(self):
         """Response from extraction-mode should normalize correctly (v2 format)."""
