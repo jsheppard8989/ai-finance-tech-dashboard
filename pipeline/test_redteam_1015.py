@@ -61,7 +61,7 @@ class RedTeam1015Tests(unittest.TestCase):
         self.assertIn("Dec 6 (Sunday; payment due next business day, Dec 7)", t)
         self.assertIn("§113", t)
         self.assertNotIn("−15.2%", t)
-        self.assertIn("Oct 14 close ($42.14)", t)
+        self.assertIn("Oct 15 close ($44.46)", t)  # refreshed Oct 16 (Red Team N-3)
         self.assertNotIn("As of Oct 12, Telesat", t)
         self.assertNotIn("checked Oct 3", t)
         for f in (SITE / "data" / "trap_map_home.json", ROOT / "pipeline" / "trap_home_override.json"):

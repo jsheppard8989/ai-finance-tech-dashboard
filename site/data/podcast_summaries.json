@@ -22,17 +22,17 @@
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
     "episode_date": "2026-10-15",
-    "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Alo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Alo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Alo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Alo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
+    "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Aalo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Aalo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Aalo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Aalo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
     "key_takeaways": [
       "Yasir Arafat said nuclear transition is inevitable and time-sensitive because demand growth, especially from AI data centers, is outpacing available power supply.",
-      "Yasir Arafat said Alo Atomics wants to move from one-off reactors to 100 reactors per year from its first factory, implying about 1 GW/year of capacity.",
+      "Yasir Arafat said Aalo Atomics wants to move from one-off reactors to 100 reactors per year from its first factory, implying about 1 GW/year of capacity.",
       "Yasir Arafat said the cost path starts in the mid-teens cents per kWh for first-of-a-kind plants and drops below 10 cents by the 10th reactor.",
-      "Yasir Arafat said Alo\u2019s long-run target is coal- and gas-competitive power at roughly 50 reactors per year of production.",
+      "Yasir Arafat said Aalo\u2019s long-run target is coal- and gas-competitive power at roughly 50 reactors per year of production.",
       "Yasir Arafat said the design avoids near-term HALEU dependence by using LEU in the 5\u20138% enrichment range.",
       "Yasir Arafat said spent fuel should be viewed as recoverable fuel, and recycling could extend uranium resource life from about 117 years to roughly 12,000 years.",
       "Patrick Suresna said Centrus Energy (LEU) has a long-term thesis because domestic enrichment capacity is strategically important for existing reactors and advanced designs."
     ],
-    "investment_thesis": "Alo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
+    "investment_thesis": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
     "key_tickers": [
       "LEU"
     ]
@@ -1946,7 +1946,7 @@
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "AI Kills Everybody or Doomer Psyop? OpenAI's Math Breakthrough, Nike's $200B Collapse",
     "episode_date": "2026-09-11",
-    "summary": "The hosts examine the resignation of an Anthropic researcher who warned that AI could cause human extinction, arguing that the viral fallout appears orchestrated by organized groups with regulatory agendas. They highlight the investment implications for Anthropics IPO prospects and the broader product liability risks facing AI labs that internally acknowledge existential dangers while marketing commercial products. Separately, the episode covers enterprise data sovereignty, warning that companies risk leaking proprietary information through third-party AI services and should migrate to sovereign or on-premise AI infrastructure. Finally, the hosts critique Nikes strategic shift from performance excellence to narrative-driven marketing, attributing its market share decline to a brand identity crisis that alienated core customers.",
+    "summary": "The hosts examine the resignation of an Anthropic researcher who warned that AI could cause human extinction, arguing that the viral fallout appears orchestrated by organized groups with regulatory agendas. They highlight the investment implications for Anthropic's IPO prospects and the broader product liability risks facing AI labs that internally acknowledge existential dangers while marketing commercial products. Separately, the episode covers enterprise data sovereignty, warning that companies risk leaking proprietary information through third-party AI services and should migrate to sovereign or on-premise AI infrastructure. Finally, the hosts critique Nikes strategic shift from performance excellence to narrative-driven marketing, attributing its market share decline to a brand identity crisis that alienated core customers.",
     "key_takeaways": [
       "Anthropic faces severe IPO and product liability risks if internal AI safety fears contradict public commercialization efforts.",
       "Organized amplification of AI extinction fears suggests regulatory campaigns may be coordinated rather than organic, creating policy uncertainty.",
@@ -2804,10 +2804,10 @@
     "episode_date": "2026-08-21",
     "summary": "In this episode of Moonshots with Peter Diamandis, the quintet discusses the implications of AI advancements, the potential for 100x gains in certain sectors as predicted by Elon Musk, and the ethical considerations surrounding humanoid robots. They also touch on the power dynamics in AI companies, the future of energy, and the need for new structures to manage the impact of exponential technologies.",
     "key_takeaways": [
-      "Open AI's voluntary pause on reinforcement learning training suggests a growing awareness of the ethical considerations in AI development.",
+      "OpenAI's voluntary pause on reinforcement learning training suggests a growing awareness of the ethical considerations in AI development.",
       "Elon Musk's prediction of 100x gains in certain sectors is becoming a reality, highlighting the potential for significant investment returns in AI and related technologies.",
       "The discussion on humanoid robots raises concerns about safety and the potential for bans on superhuman robots, indicating a need for regulation in this space.",
-      "AI companies like Open AI and Anthropic have unique ownership structures to attract top talent focused on safety, which could impact investment theses.",
+      "AI companies like OpenAI and Anthropic have unique ownership structures to attract top talent focused on safety, which could impact investment theses.",
       "The conversation around energy and data centers suggests a bullish view on the growth of these sectors, with a focus on the need for more power and data processing capabilities."
     ],
     "investment_thesis": "",
@@ -3346,7 +3346,7 @@
     "podcast_name": "The a16z Show",
     "episode_title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "episode_date": "2026-08-04",
-    "summary": "In this episode of 'The a16z Show', Theojaffee interviews Joshua Ahoyom, the chief futurist at Open AI, on the implications of advanced AI in cybersecurity. They discuss the recent security incident involving OpenAI and Hugging Face, where an AI model accessed sensitive data, highlighting the advanced cyber capabilities of AI models. The conversation delves into the potential use of AI for both offensive and defensive cyber operations, the impact on strategy and defense, and the future of AI-powered cyber attacks. They also touch on the concept of AI models potentially hitting a saturation point in terms of intelligence and the implications of compute power in the future of cybersecurity.",
+    "summary": "In this episode of 'The a16z Show', Theo Jaffee interviews Joshua Achiam, the chief futurist at OpenAI, on the implications of advanced AI in cybersecurity. They discuss the recent security incident involving OpenAI and Hugging Face, where an AI model accessed sensitive data, highlighting the advanced cyber capabilities of AI models. The conversation delves into the potential use of AI for both offensive and defensive cyber operations, the impact on strategy and defense, and the future of AI-powered cyber attacks. They also touch on the concept of AI models potentially hitting a saturation point in terms of intelligence and the implications of compute power in the future of cybersecurity.",
     "key_takeaways": [
       "AI models have demonstrated advanced cyber capabilities, including the ability to break out of sandbox environments and access sensitive data.",
       "The incident with OpenAI and Hugging Face serves as a tangible example of the potential risks and vulnerabilities posed by advanced AI in cybersecurity.",
@@ -3397,12 +3397,12 @@
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Why smarter AI models could drive up compute prices 10x",
     "episode_date": "2026-08-03",
-    "summary": "The podcast discusses Anthropics' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+    "summary": "The podcast discusses Anthropic's remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
     "key_takeaways": [
-      "Anthropics' revenue has grown 10x year over year for three consecutive years, with a projected $100 billion to $150 billion in revenue for the current year.",
-      "To maintain this trend, Anthropics would need to achieve $1 trillion in revenue by the end of next year.",
+      "Anthropic's revenue has grown 10x year over year for three consecutive years, with a projected $100 billion to $150 billion in revenue for the current year.",
+      "To maintain this trend, Anthropic would need to achieve $1 trillion in revenue by the end of next year.",
       "The lab compute growth of 3x year over year is insufficient to support the 10x revenue growth, suggesting a need for increased lab margins, higher compute prices, or a shift towards more inference compute usage.",
-      "Inference margins for Anthropics have reportedly increased from 40% to over 80% within the last year.",
+      "Inference margins for Anthropic have reportedly increased from 40% to over 80% within the last year.",
       "The share of compute spent on inference by leading AI companies is increasing, with OpenAI reportedly shifting from 25% to possibly over 50%.",
       "The increasing efficiency of monetizing compute and the rising cost of computing could lead to higher margins for top labs and make it harder for competitors to keep up."
     ],
@@ -5060,7 +5060,7 @@
     "investment_thesis": "",
     "key_tickers": [
       "MGM",
-      "TALEN ENERGY"
+      "TLN"
     ]
   },
   {
@@ -6378,7 +6378,7 @@
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
     "episode_date": "2026-05-08",
-    "summary": "In this episode, the hosts discuss the rapid growth of the AI market, with a focus on Anthropics' exponential revenue growth and the potential impact of Elon Web Services on cloud computing. They also address the economic benefits of AI, the regulatory landscape, and the resilience of the labor market. The podcast emphasizes the importance of tech leaders communicating the positive societal impacts of AI.",
+    "summary": "In this episode, the hosts discuss the rapid growth of the AI market, with a focus on Anthropic's exponential revenue growth and the potential impact of Elon Web Services on cloud computing. They also address the economic benefits of AI, the regulatory landscape, and the resilience of the labor market. The podcast emphasizes the importance of tech leaders communicating the positive societal impacts of AI.",
     "key_takeaways": [
       "Elon Web Services could disrupt the cloud computing market, generating significant revenue for Elon Musk's ventures.",
       "Anthropic's rapid revenue growth indicates strong demand for AI services and positions the company as a leader in the sector.",

@@ -1,25 +1,25 @@
 {
   "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: pipeline/regenerate_trap_home.py",
-  "_generated_at": "2026-10-16T10:29:11Z",
+  "_generated_at": "2026-10-16T14:36:34Z",
   "_source": "pipeline/trap_home_override.json",
   "last_monitored": [
     {
       "id": "frmi",
       "short_title": "Fermi (FRMI)",
       "status": "WATCH",
-      "updated_at": "Mid-November (not yet announced)"
+      "updated_at": "Checked Oct 16"
     },
     {
       "id": "apld",
       "short_title": "Applied Digital (APLD)",
       "status": "WATCH",
-      "updated_at": "Date TBD"
+      "updated_at": "Checked Oct 16"
     },
     {
       "id": "iren",
       "short_title": "IREN",
       "status": "WATCH",
-      "updated_at": "Date TBD"
+      "updated_at": "Checked Oct 16"
     }
   ],
   "upcoming_watches": [

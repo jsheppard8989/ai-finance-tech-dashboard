@@ -1,6 +1,18 @@
 [
   {
-    "id": 88863,
+    "id": 89041,
+    "name": "Grepr CEO Jad Naous",
+    "slug": "grepr-ceo-jad-naous",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Grepper\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
+    "last_episode_title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-16",
+    "appearance_count": 1
+  },
+  {
+    "id": 89043,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -12,8 +24,8 @@
     "appearance_count": 2
   },
   {
-    "id": 88862,
-    "name": "Husband Billy Evans",
+    "id": 89042,
+    "name": "Billy Evans",
     "slug": "husband-billy-evans",
     "bio": null,
     "known_for": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88864,
+    "id": 89044,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88865,
+    "id": 89045,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88866,
+    "id": 89046,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88867,
+    "id": 89047,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88868,
+    "id": 89048,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88869,
+    "id": 89049,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88870,
+    "id": 89050,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88871,
+    "id": 89051,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88872,
+    "id": 89052,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88873,
+    "id": 89053,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88874,
+    "id": 89054,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88875,
+    "id": 89055,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88876,
+    "id": 89056,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88877,
+    "id": 89057,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88878,
+    "id": 89058,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88879,
+    "id": 89059,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88880,
+    "id": 89060,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88881,
+    "id": 89061,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88882,
+    "id": 89062,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88883,
+    "id": 89063,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88884,
+    "id": 89064,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88885,
+    "id": 89065,
     "name": "Maggie Landers",
     "slug": "maggie-landers",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88886,
+    "id": 89066,
     "name": "Eddy Lazzarin",
     "slug": "eddy-lazzarin",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88887,
+    "id": 89067,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88888,
+    "id": 89068,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88889,
+    "id": 89069,
     "name": "Clocktower Group",
     "slug": "clocktower-group",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 88890,
+    "id": 89070,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -344,18 +356,6 @@
     "last_main_idea": "Boom Supersonic presents a compelling investment opportunity through its innovative technologies and strong legislative support, positioning itself for significant growth in both aerospace and energy sectors.",
     "last_episode_title": "Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-22",
-    "appearance_count": 1
-  },
-  {
-    "id": 88891,
-    "name": "John Platt",
-    "slug": "john-platt",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI tools and climate resilience technologies presents a significant opportunity for enhancing scientific research and addressing global challenges.",
-    "last_episode_title": "\ud83d\udd2c An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-22",
     "appearance_count": 1
   }

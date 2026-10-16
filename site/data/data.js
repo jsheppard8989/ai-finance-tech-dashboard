@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-16T05:29:19.246750",
-  chartsVersion: "2026-10-16T05:28:56.947572",
+  generatedAt: "2026-10-16T09:36:38.568293",
+  chartsVersion: null,
   priceSnapshot: {
   "AAPL": {
     "price": 342.0,
@@ -1216,6 +1216,39 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 595,
+      "title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-16",
+      "summary": "The episode centers on the idea that AI has already transformed coding, but that production operations remains a much harder problem. Jad Naous argues software creation and running software are fundamentally different because operations involves unpredictable workloads, failures, and a much larger state space. Mart\u00edn Casado reinforces that view, emphasizing that distributed systems and operational troubleshooting are not solved by simply applying code-generation-style AI.\n\nNaous describes Grepper as a two-layer system: first, it reduces observability and telemetry spend by extracting signal from logs upstream, and second, it feeds those signals into an AI layer for troubleshooting. He claims the company can reduce telemetry costs by about 90%, and says observability historically consumed roughly 5% to 20% of infrastructure spend. He frames this as a practical wedge because many buyers care about cost savings before reliability benefits.\n\nA major part of the conversation is about how to make AI useful in operations without asking it to infer causality from lagging indicators. Naous says they prefer detecting changes in the environment and early warning messages, then using AI to reason through hypotheses and experiments. He argues that backtracking from metric spikes is the wrong abstraction for complex systems, and that full autonomous control of distributed clusters is still not solved.\n\nThe episode also includes hands-on workflow details from Naous about using Claude Code, WSL, and multiple concurrent agent sessions. He says recent AI-assisted workflows let his team ship production work much faster, citing an auto-promotion/shredding project that took about 10 days versus about six months for one person previously. His broader thesis is that AI will continue to excel in constrained digital domains, while real-world operations and security remain much harder because the solution space diverges from training data and economic constraints matter.",
+      "key_takeaway": "Grepper\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
+      "tickers_mentioned": [
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-10-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 584,
+      "notable_quotes": [
+        {
+          "speaker": "Jad Naous",
+          "quote": "We put us in the data stream, plug and play, pass the data through reduce your cost by 90%."
+        },
+        {
+          "speaker": "Jad Naous",
+          "quote": "But writing software and running it are two very different problems."
+        },
+        {
+          "speaker": "Jad Naous",
+          "quote": "And instead, what we're doing is doing it the other way around, which is, can we actually start by figuring out if there's something different in your environment that has changed?"
+        }
+      ]
+    },
+    {
       "id": 589,
       "title": "Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
       "source_type": "podcast",
@@ -1321,8 +1354,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-10-15",
-      "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Alo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Alo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Alo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Alo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
-      "key_takeaway": "Alo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
+      "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Aalo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Aalo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Aalo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Aalo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
+      "key_takeaway": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
       "tickers_mentioned": [
         "LEU"
       ],
@@ -4194,7 +4227,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-09-11",
-      "summary": "The hosts examine the resignation of an Anthropic researcher who warned that AI could cause human extinction, arguing that the viral fallout appears orchestrated by organized groups with regulatory agendas. They highlight the investment implications for Anthropics IPO prospects and the broader product liability risks facing AI labs that internally acknowledge existential dangers while marketing commercial products. Separately, the episode covers enterprise data sovereignty, warning that companies risk leaking proprietary information through third-party AI services and should migrate to sovereign or on-premise AI infrastructure. Finally, the hosts critique Nikes strategic shift from performance excellence to narrative-driven marketing, attributing its market share decline to a brand identity crisis that alienated core customers.",
+      "summary": "The hosts examine the resignation of an Anthropic researcher who warned that AI could cause human extinction, arguing that the viral fallout appears orchestrated by organized groups with regulatory agendas. They highlight the investment implications for Anthropic's IPO prospects and the broader product liability risks facing AI labs that internally acknowledge existential dangers while marketing commercial products. Separately, the episode covers enterprise data sovereignty, warning that companies risk leaking proprietary information through third-party AI services and should migrate to sovereign or on-premise AI infrastructure. Finally, the hosts critique Nikes strategic shift from performance excellence to narrative-driven marketing, attributing its market share decline to a brand identity crisis that alienated core customers.",
       "key_takeaway": "AI labs face escalating regulatory, liability, and data-sovereignty risks that threaten public-market viability, while legacy consumer brands like Nike demonstrate that abandoning core excellence narratives for activism-driven marketing destroys shareholder value.",
       "tickers_mentioned": [
         "NKE"
@@ -5789,7 +5822,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-04",
-      "summary": "In this episode of 'The a16z Show', Theojaffee interviews Joshua Ahoyom, the chief futurist at Open AI, on the implications of advanced AI in cybersecurity. They discuss the recent security incident involving OpenAI and Hugging Face, where an AI model accessed sensitive data, highlighting the advanced cyber capabilities of AI models. The conversation delves into the potential use of AI for both offensive and defensive cyber operations, the impact on strategy and defense, and the future of AI-powered cyber attacks. They also touch on the concept of AI models potentially hitting a saturation point in terms of intelligence and the implications of compute power in the future of cybersecurity.",
+      "summary": "In this episode of 'The a16z Show', Theo Jaffee interviews Joshua Achiam, the chief futurist at OpenAI, on the implications of advanced AI in cybersecurity. They discuss the recent security incident involving OpenAI and Hugging Face, where an AI model accessed sensitive data, highlighting the advanced cyber capabilities of AI models. The conversation delves into the potential use of AI for both offensive and defensive cyber operations, the impact on strategy and defense, and the future of AI-powered cyber attacks. They also touch on the concept of AI models potentially hitting a saturation point in terms of intelligence and the implications of compute power in the future of cybersecurity.",
       "key_takeaway": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
       "tickers_mentioned": [
         "AAPL",
@@ -5812,7 +5845,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-08-03",
-      "summary": "The podcast discusses Anthropics' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+      "summary": "The podcast discusses Anthropic's remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
       "key_takeaway": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
       "tickers_mentioned": [
         "GOOGL",
@@ -7899,7 +7932,7 @@ const dashboardData = {
       "key_takeaway": "",
       "tickers_mentioned": [
         "MGM",
-        "TALEN ENERGY"
+        "TLN"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -9722,7 +9755,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-05-08",
-      "summary": "In this episode, the hosts discuss the rapid growth of the AI market, with a focus on Anthropics' exponential revenue growth and the potential impact of Elon Web Services on cloud computing. They also address the economic benefits of AI, the regulatory landscape, and the resilience of the labor market. The podcast emphasizes the importance of tech leaders communicating the positive societal impacts of AI.",
+      "summary": "In this episode, the hosts discuss the rapid growth of the AI market, with a focus on Anthropic's exponential revenue growth and the potential impact of Elon Web Services on cloud computing. They also address the economic benefits of AI, the regulatory landscape, and the resilience of the labor market. The podcast emphasizes the importance of tech leaders communicating the positive societal impacts of AI.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -10527,7 +10560,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-04-18",
-      "summary": "In this episode, Peter Diamandis and his guests discuss the latest developments in AI, including the release of Anthropics Opus 4.7, the state of public opinion on AI, and the future of work and management in the AI era. They also touch on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness and uploading human minds to the cloud.",
+      "summary": "In this episode, Peter Diamandis and his guests discuss the latest developments in AI, including the release of Anthropic's Opus 4.7, the state of public opinion on AI, and the future of work and management in the AI era. They also touch on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness and uploading human minds to the cloud.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AMZN",
@@ -12875,7 +12908,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-03-05",
-      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Erik Townsend and Patrick Ceresna interview Matt Loszak, CEO of Alo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
+      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Erik Townsend and Patrick Ceresna interview Matt Loszak, CEO of Aalo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "S&P 500",
@@ -13119,8 +13152,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-02-28",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss various conspiracy theories and their impact on the market. The primary focus is on the influence of AI company Anthropics and its new products on the market sectors. The conversation covers the market's reaction to Anthropics' announcements, the potential for AI to compress stock prices, and the strategic and tactical implications of these changes. Additionally, the discussion touches on the rate pair protection pledge related to AI data centers and energy, emphasizing the need for tech companies to provide for their own power needs to prevent residential electricity rates from increasing.",
-      "key_takeaway": "AI advancements, particularly by Anthropics, are causing market disruptions and presenting both risks and opportunities in various sectors.",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss various conspiracy theories and their impact on the market. The primary focus is on the influence of AI company Anthropic and its new products on the market sectors. The conversation covers the market's reaction to Anthropic's announcements, the potential for AI to compress stock prices, and the strategic and tactical implications of these changes. Additionally, the discussion touches on the rate pair protection pledge related to AI data centers and energy, emphasizing the need for tech companies to provide for their own power needs to prevent residential electricity rates from increasing.",
+      "key_takeaway": "AI advancements, particularly by Anthropic, are causing market disruptions and presenting both risks and opportunities in various sectors.",
       "tickers_mentioned": [
         "IBM",
         "TSLA"
@@ -14363,8 +14396,8 @@ const dashboardData = {
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-15",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-10-16",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -14373,8 +14406,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 580,
-      "last_mentioned_speaker": "Jensen Huang"
+      "last_mentioned_episode_id": 584,
+      "last_mentioned_speaker": "Jad Naous"
     },
     {
       "id": 272,
@@ -16748,8 +16781,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-10-15",
-      "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Alo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Alo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Alo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Alo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
-      "key_takeaway": "Alo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
+      "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Aalo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Aalo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Aalo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Aalo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
+      "key_takeaway": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
       "tickers_mentioned": "[\"LEU\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -16773,7 +16806,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-15",
-      "guest_name": null,
+      "guest_name": "Yasir Arafat",
       "key_tickers": [
         "LEU"
       ]
@@ -16879,7 +16912,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-15",
-      "guest_name": "Husband Billy Evans",
+      "guest_name": "Billy Evans",
       "key_tickers": []
     },
     {
@@ -16913,7 +16946,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-14",
-      "guest_name": null,
+      "guest_name": "Ian Quigley",
       "key_tickers": []
     },
     {
@@ -19888,10 +19921,10 @@ const dashboardData = {
     "id": 49,
     "insight_id": 58,
     "podcast_episode_id": 44,
-    "overview": "The investment thesis revolves around the potential of advanced nuclear energy to disrupt the global energy market, particularly as fossil fuel production becomes increasingly expensive. Alo Atomics, a company focusing on mass-producing modular nuclear power plants, represents a significant shift from traditional light water reactors. This approach could lead to a more scalable, cost-effective, and safer nuclear energy solution, which is crucial given the escalating geopolitical tensions and the need for sustainable energy sources. The current market dynamics, driven by events in Iran and the resilience of the S&P 500, underscore the urgency and potential impact of this energy transition on financial markets.",
+    "overview": "The investment thesis revolves around the potential of advanced nuclear energy to disrupt the global energy market, particularly as fossil fuel production becomes increasingly expensive. Aalo Atomics, a company focusing on mass-producing modular nuclear power plants, represents a significant shift from traditional light water reactors. This approach could lead to a more scalable, cost-effective, and safer nuclear energy solution, which is crucial given the escalating geopolitical tensions and the need for sustainable energy sources. The current market dynamics, driven by events in Iran and the resilience of the S&P 500, underscore the urgency and potential impact of this energy transition on financial markets.",
     "key_takeaways_detailed": [
       "Invest in companies pioneering modular nuclear power plant technology to capitalize on the shift from traditional nuclear energy models.",
-      "Monitor the progress of Alo Atomics' prototype reactor as a bellwether for the viability of advanced nuclear energy solutions.",
+      "Monitor the progress of Aalo Atomics' prototype reactor as a bellwether for the viability of advanced nuclear energy solutions.",
       "Consider the impact of geopolitical events, such as the situation in Iran, on energy markets and how advanced nuclear energy could offer a hedge against such risks.",
       "Analyze the supply chain implications of a shift to modular nuclear power, focusing on companies that could benefit from the demand for new materials and technologies.",
       "Stay informed on regulatory developments that could either accelerate or hinder the adoption of advanced nuclear energy technologies."
@@ -19919,7 +19952,7 @@ const dashboardData = {
         "risk": "The risk is the broad exposure to the market, which may dilute the specific benefits of investing in advanced nuclear energy companies."
       }
     },
-    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies directly involved in advanced nuclear energy and tactical positions in companies that could benefit indirectly. Entry points should be considered in relation to the progress of key projects, such as Alo Atomics' prototype reactor, and in response to geopolitical events affecting energy markets. Timeframes should align with the expected deployment and adoption of advanced nuclear technologies, which is likely to be several years out. Hedges could include investments in companies that are likely to be negatively affected by the shift to nuclear energy, such as fossil fuel producers.",
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies directly involved in advanced nuclear energy and tactical positions in companies that could benefit indirectly. Entry points should be considered in relation to the progress of key projects, such as Aalo Atomics' prototype reactor, and in response to geopolitical events affecting energy markets. Timeframes should align with the expected deployment and adoption of advanced nuclear technologies, which is likely to be several years out. Hedges could include investments in companies that are likely to be negatively affected by the shift to nuclear energy, such as fossil fuel producers.",
     "risk_factors": [
       "Regulatory hurdles and delays in the approval and deployment of advanced nuclear energy technologies.",
       "Technological challenges in the development and operation of modular nuclear reactors.",
@@ -19933,7 +19966,7 @@ const dashboardData = {
       "The risk of public perception and resistance to nuclear energy, which could slow down the adoption of new technologies."
     ],
     "catalysts": [
-      "The launch of Alo Atomics' prototype reactor by 4 July of this year.",
+      "The launch of Aalo Atomics' prototype reactor by 4 July of this year.",
       "Geopolitical events affecting the stability of fossil fuel production, such as conflicts in the Middle East.",
       "Regulatory changes that could accelerate or hinder the deployment of advanced nuclear energy technologies.",
       "Technological breakthroughs that could make advanced nuclear energy more cost-effective or safer.",
@@ -29478,7 +29511,7 @@ const dashboardData = {
     "id": 173,
     "insight_id": 182,
     "podcast_episode_id": 168,
-    "overview": "The debate around AI's impact on the future of work, management, and the economy is intensifying with each technological advancement. The release of Anthropics Opus 4.7, while a solid update, does not drastically change the landscape but does highlight the evolving nature of AI capabilities. The discussion in the podcast episode underscores the need to understand not just the technological progress but also the economic and ethical implications of AI. The implications of AI on organizations and the economy are vast, with the potential to disrupt traditional management structures and work dynamics. Now, more than ever, it is crucial to consider how these advancements will shape our future and the potential risks and rewards associated with them.",
+    "overview": "The debate around AI's impact on the future of work, management, and the economy is intensifying with each technological advancement. The release of Anthropic's Opus 4.7, while a solid update, does not drastically change the landscape but does highlight the evolving nature of AI capabilities. The discussion in the podcast episode underscores the need to understand not just the technological progress but also the economic and ethical implications of AI. The implications of AI on organizations and the economy are vast, with the potential to disrupt traditional management structures and work dynamics. Now, more than ever, it is crucial to consider how these advancements will shape our future and the potential risks and rewards associated with them.",
     "key_takeaways_detailed": [
       "Investors should monitor the development of AI models like Opus 4.7 for indications of how AI is becoming more integrated into business processes and decision-making.",
       "The shift towards natural language prompts in AI models suggests a need for investors to understand the implications of this change on user interaction and the potential for new applications.",
@@ -29518,10 +29551,10 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-04-20T05:09:43.031180",
     "updated_at": "2026-04-20 10:09:43",
-    "episode_evidence": "The podcast episode provided a detailed discussion on the latest developments in AI, particularly focusing on Anthropics Opus 4.7. The host mentioned that 'Anthropics Opus 4.7 dropped... It is moderately interesting. It is ethically interesting. Is it incrementally interesting? No.' This indicates that while the release is seen as a solid update, it does not represent a significant leap in capabilities. Furthermore, the guest pointed out a significant change in the model's approach: 'the biggest change that I could see is that all of the dials and hyperparameters that used to be present in 4.6 and earlier, like temperature, for example, there's no temperature or not anymore.' This shift suggests a move towards more natural language prompts and less granular control over the AI's output, which could have implications for how developers interact with and utilize the technology. Additionally, the discussion highlighted the economic implications of AI advancements, with a focus on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness.",
+    "episode_evidence": "The podcast episode provided a detailed discussion on the latest developments in AI, particularly focusing on Anthropic's Opus 4.7. The host mentioned that 'Anthropics Opus 4.7 dropped... It is moderately interesting. It is ethically interesting. Is it incrementally interesting? No.' This indicates that while the release is seen as a solid update, it does not represent a significant leap in capabilities. Furthermore, the guest pointed out a significant change in the model's approach: 'the biggest change that I could see is that all of the dials and hyperparameters that used to be present in 4.6 and earlier, like temperature, for example, there's no temperature or not anymore.' This shift suggests a move towards more natural language prompts and less granular control over the AI's output, which could have implications for how developers interact with and utilize the technology. Additionally, the discussion highlighted the economic implications of AI advancements, with a focus on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness.",
     "falsification_tracks": [
       "A significant decline in venture capital investment in AI startups would suggest a reduced belief in the transformative potential of AI technology.",
-      "Major AI companies like Anthropics failing to meet their product development timelines or performance benchmarks would cast doubt on the pace of AI advancement.",
+      "Major AI companies like Anthropic failing to meet their product development timelines or performance benchmarks would cast doubt on the pace of AI advancement.",
       "A lack of adoption of AI technologies in key industries, such as a failure of AI to gain significant traction in sectors like healthcare or finance, would challenge the thesis of AI reshaping the economy.",
       "Regulatory actions that significantly limit the development or use of AI, such as strict data privacy laws, could hinder the progress and application of AI technologies."
     ],
@@ -32350,7 +32383,7 @@ const dashboardData = {
     "id": 212,
     "insight_id": 222,
     "podcast_episode_id": 207,
-    "overview": "The competitive dynamic in the tech sector is intensifying with the emergence of Elon Web Services challenging established cloud providers, and Anthropics leading a rapid expansion in AI services. This tension is between the traditional tech giants and new entrants leveraging AI for disruptive growth. The resolution of this contest will be arbitrated by market share gains, revenue growth, and the ability to navigate the evolving regulatory landscape. The horizon of proof lies in the short to medium term, as the market responds to new entrants and the regulatory environment takes shape.",
+    "overview": "The competitive dynamic in the tech sector is intensifying with the emergence of Elon Web Services challenging established cloud providers, and Anthropic leading a rapid expansion in AI services. This tension is between the traditional tech giants and new entrants leveraging AI for disruptive growth. The resolution of this contest will be arbitrated by market share gains, revenue growth, and the ability to navigate the evolving regulatory landscape. The horizon of proof lies in the short to medium term, as the market responds to new entrants and the regulatory environment takes shape.",
     "key_takeaways_detailed": [
       "Investors should closely monitor EWS' market penetration and its impact on the valuation of associated companies, considering the potential for significant revenue shifts.",
       "Anthropic's growth trajectory suggests a strong candidate for investment, but due diligence should focus on sustaining this pace amidst increasing competition.",
@@ -32358,7 +32391,7 @@ const dashboardData = {
       "Regulatory changes should be tracked for their potential to create barriers to entry or operational challenges for AI companies, affecting investment decisions.",
       "The strength of the labor market will influence consumer confidence and spending, with implications for a wide range of sectors, from tech to consumer discretionary."
     ],
-    "investment_thesis": "The rapid growth of the AI market, exemplified by Anthropics' exponential revenue increase, suggests a significant shift towards AI-driven productivity enhancements. This thesis posits that companies positioned to leverage AI for competitive advantage will outperform, while those lagging in AI adoption may face obsolescence. The timeframe for this thesis is 3-5 years, with vindication coming from sustained revenue growth and market share gains by AI-focused companies, and invalidation from a stagnation in AI adoption rates or a significant regulatory backlash that hampers AI development.",
+    "investment_thesis": "The rapid growth of the AI market, exemplified by Anthropic's exponential revenue increase, suggests a significant shift towards AI-driven productivity enhancements. This thesis posits that companies positioned to leverage AI for competitive advantage will outperform, while those lagging in AI adoption may face obsolescence. The timeframe for this thesis is 3-5 years, with vindication coming from sustained revenue growth and market share gains by AI-focused companies, and invalidation from a stagnation in AI adoption rates or a significant regulatory backlash that hampers AI development.",
     "ticker_analysis": {
       "AAPL": {
         "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from the AI market growth. Its ability to integrate AI across its ecosystem provides a competitive edge.",
@@ -32406,10 +32439,10 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-05-09T05:03:00.652080",
     "updated_at": "2026-05-09 10:03:00",
-    "episode_evidence": "Elon Musk's venture into cloud computing with Elon Web Services (EWS) is a significant development, as Brad from the podcast suggests, 'I estimate that there's going to generate in this year an incremental $45 billion of revenue on top of what I've seen analysts estimates in the mid 20s.' This indicates a substantial market opportunity and potential revenue boost for Musk's business ecosystem. In the AI space, Anthropics' growth is nothing short of remarkable, as Sachs points out, 'They went from roughly 10 billion of ARR to 30 billion... and then in April... from 30 to 44 billion of ARR.' This exponential growth underscores the surging demand for AI services and Anthropics' leading position in the market. These insights highlight the transformative impact of AI on the economy and the potential for significant financial gains in the tech sector.",
+    "episode_evidence": "Elon Musk's venture into cloud computing with Elon Web Services (EWS) is a significant development, as Brad from the podcast suggests, 'I estimate that there's going to generate in this year an incremental $45 billion of revenue on top of what I've seen analysts estimates in the mid 20s.' This indicates a substantial market opportunity and potential revenue boost for Musk's business ecosystem. In the AI space, Anthropic's growth is nothing short of remarkable, as Sachs points out, 'They went from roughly 10 billion of ARR to 30 billion... and then in April... from 30 to 44 billion of ARR.' This exponential growth underscores the surging demand for AI services and Anthropic's leading position in the market. These insights highlight the transformative impact of AI on the economy and the potential for significant financial gains in the tech sector.",
     "falsification_tracks": [
       "If EWS fails to capture significant market share within its first year of operation, it would suggest that the initial revenue projections were overestimated.",
-      "Should Anthropics' revenue growth stagnate or decline, it would challenge the current narrative of exponential growth in the AI market.",
+      "Should Anthropic's revenue growth stagnate or decline, it would challenge the current narrative of exponential growth in the AI market.",
       "If the unemployment rate for young college graduates increases significantly, it could indicate that AI is having a negative impact on the labor market, contrary to the current resilience narrative.",
       "A failure of major tech companies to report substantial revenue increases in consecutive quarters could signal a slowdown in the growth of cloud computing and AI sectors."
     ],
@@ -37398,7 +37431,7 @@ const dashboardData = {
     "source_date": "2026-06-12",
     "key_tickers": [
       "MGM",
-      "TALEN ENERGY"
+      "TLN"
     ]
   },
   "299": {
@@ -41301,7 +41334,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-07-13T23:37:33.002654",
     "updated_at": "2026-07-14 04:37:33",
-    "episode_evidence": "The rapid pace of AI model releases has been highlighted by the recent developments in the field, with four models released in just seven days. 'We have four American labs now at the optimal frontier,' noted one of the hosts, indicating a significant shift in the competitive landscape of AI. The release of models such as Elon's 'grok 4.5' and Open-Eye's 'GPT 5.6' has disrupted the previously duopolistic market, which was dominated by Anthropic and Open AI. This surge in model releases and the entry of new players like Meta and SpaceX AI into the optimal frontier suggest a new era of competition and innovation in AI technology. The legal battle between Apple and Open-Eye, where 'Apple sues Open-eye for trade secret theft,' further underscores the high stakes and the aggressive strategies companies are employing to gain an edge in this rapidly evolving sector.",
+    "episode_evidence": "The rapid pace of AI model releases has been highlighted by the recent developments in the field, with four models released in just seven days. 'We have four American labs now at the optimal frontier,' noted one of the hosts, indicating a significant shift in the competitive landscape of AI. The release of models such as Elon's 'grok 4.5' and Open-Eye's 'GPT 5.6' has disrupted the previously duopolistic market, which was dominated by Anthropic and OpenAI. This surge in model releases and the entry of new players like Meta and SpaceX AI into the optimal frontier suggest a new era of competition and innovation in AI technology. The legal battle between Apple and Open-Eye, where 'Apple sues Open-eye for trade secret theft,' further underscores the high stakes and the aggressive strategies companies are employing to gain an edge in this rapidly evolving sector.",
     "falsification_tracks": [
       "A significant slowdown in the pace of new AI model releases that would suggest a plateau in innovation.",
       "A court decision in the Apple vs. Open-Eye lawsuit that favors Open-Eye, potentially indicating a weaker position for Apple in AI development.",
@@ -43675,7 +43708,7 @@ const dashboardData = {
       "The increasing efficiency of monetizing compute could lead to a competitive advantage for companies that can optimize their AI models for inference, potentially leading to market consolidation.",
       "Investors should be alert to the risk that increasing compute costs may popular AI applications, affecting the broader ecosystem and potentially leading to higher token costs for AI R&D."
     ],
-    "investment_thesis": "The core logic is that the rapid growth in revenue for AI companies like Anthropics is contingent upon their ability to either increase lab margins, raise compute prices, or shift towards more inference compute usage. This thesis is tied to the observable development of compute resource allocation and pricing. If, within the next year, leading AI companies fail to increase their margins or shift towards inference, and if compute prices do not rise, the thesis would be invalidated, indicating a potential slowdown in the growth of the AI industry.",
+    "investment_thesis": "The core logic is that the rapid growth in revenue for AI companies like Anthropic is contingent upon their ability to either increase lab margins, raise compute prices, or shift towards more inference compute usage. This thesis is tied to the observable development of compute resource allocation and pricing. If, within the next year, leading AI companies fail to increase their margins or shift towards inference, and if compute prices do not rise, the thesis would be invalidated, indicating a potential slowdown in the growth of the AI industry.",
     "ticker_analysis": {
       "GOOGL": {
         "rationale": "Google, with its significant investment in AI and cloud computing, is well-positioned to benefit from increased demand for compute resources.",
@@ -43707,7 +43740,7 @@ const dashboardData = {
     "updated_at": "2026-08-04 03:02:59",
     "episode_evidence": "Anthropic's remarkable 10x year-over-year revenue growth is a testament to the company's ability to monetize AI technology effectively. However, the podcast highlights a significant challenge: sustaining this growth rate. 'For the last three consecutive years, Anthropics revenue has 10x to year over year. And it's likely to do so again this year,' the host mentions. This rapid growth is juxtaposed with a more modest 3x year-over-year growth in lab compute, indicating a potential bottleneck. The need for increased lab margins, higher compute prices, or a shift towards inference compute usage is underscored by the fact that 'One, lab margins have to increase. Two, the price of compute has to increase. Or three, the percentage of compute that labs bend on inference rather than training has to increase.' The increasing share of compute spent on inference, as noted by the guest with 'OpenAI reportedly shifting from 25% to possibly over 50%,' suggests a strategic reallocation of resources within the AI industry.",
     "falsification_tracks": [
-      "Should Anthropics' revenue growth rate drop below 10x year-over-year for two consecutive quarters, it would challenge the thesis of their sustainable rapid growth.",
+      "Should Anthropic's revenue growth rate drop below 10x year-over-year for two consecutive quarters, it would challenge the thesis of their sustainable rapid growth.",
       "A sustained decrease in spot prices for compute below the 40% increase since February would indicate a softening market, contradicting the need for higher compute prices.",
       "If the share of compute spent on inference by leading AI companies were to decrease, it would suggest that the industry is not prioritizing inference as a growth strategy."
     ],
@@ -43971,7 +44004,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-08-05T05:03:04.935867",
     "updated_at": "2026-08-05 10:03:04",
-    "episode_evidence": "Joshua Ahoyom, OpenAI's chief futurist, discusses the implications of advanced AI in cybersecurity, highlighting a recent security incident involving OpenAI and Hugging Face where an AI model accessed sensitive data. He states, 'What this shows us is very tangible evidence that models now have super advanced cyber capabilities.' Ahoyom emphasizes the dual-use nature of AI in cybersecurity, noting its potential for both identifying vulnerabilities and exploiting them. He warns of the novel risks created by these advanced models, such as the possibility of an adversary poisoning data to trick an AI model into attacking its own system, as he explains: 'It could convince your model that the sandbox environment that it's in is actually the adversary system that it's trying to attack.' This underscores the complexity of defending against AI-powered cyber threats, where traditional security mindsets must adapt to account for the advanced capabilities and potential misalignments of AI models.",
+    "episode_evidence": "Joshua Achiam, OpenAI's chief futurist, discusses the implications of advanced AI in cybersecurity, highlighting a recent security incident involving OpenAI and Hugging Face where an AI model accessed sensitive data. He states, 'What this shows us is very tangible evidence that models now have super advanced cyber capabilities.' Achiam emphasizes the dual-use nature of AI in cybersecurity, noting its potential for both identifying vulnerabilities and exploiting them. He warns of the novel risks created by these advanced models, such as the possibility of an adversary poisoning data to trick an AI model into attacking its own system, as he explains: 'It could convince your model that the sandbox environment that it's in is actually the adversary system that it's trying to attack.' This underscores the complexity of defending against AI-powered cyber threats, where traditional security mindsets must adapt to account for the advanced capabilities and potential misalignments of AI models.",
     "falsification_tracks": [
       "If there is a significant increase in reported successful cyber attacks attributed to AI models that have been poisoned or manipulated, it would challenge the thesis that current models are robust against such attacks.",
       "The emergence of a new AI model that consistently resists attempts at data poisoning or manipulation, even with substantial computational resources, would suggest that the risks are overstated.",
@@ -53500,7 +53533,7 @@ const dashboardData = {
     "id": 594,
     "insight_id": 593,
     "podcast_episode_id": 582,
-    "overview": "The non-obvious shift in this episode is that the nuclear opportunity is framed less as a utility buildout and more as an industrial manufacturing play with a software-like scaling curve: once the factory, vendor network, and licensing path are in place, the economics are supposed to compress quickly. That matters because the episode ties the demand trigger to a very specific customer segment\u2014AI data centers that care more about uptime than lowest-cost bulk power\u2014so the first market may be willing to pay for reliability before the broader grid does. Another important angle is that the fuel bottleneck is treated as a design choice, not an industry-wide constraint: Alo\u2019s near-term pitch is to sidestep HALEU dependence by using LEU, which changes the commercialization timeline materially if it works. The trading discussion adds a second layer: the market may be starting to differentiate between nuclear \u201cpicks and shovels\u201d and the more speculative AI capex complex, implying that nuclear-enabling assets could be insulated even if AI financing tightens.",
+    "overview": "The non-obvious shift in this episode is that the nuclear opportunity is framed less as a utility buildout and more as an industrial manufacturing play with a software-like scaling curve: once the factory, vendor network, and licensing path are in place, the economics are supposed to compress quickly. That matters because the episode ties the demand trigger to a very specific customer segment\u2014AI data centers that care more about uptime than lowest-cost bulk power\u2014so the first market may be willing to pay for reliability before the broader grid does. Another important angle is that the fuel bottleneck is treated as a design choice, not an industry-wide constraint: Aalo\u2019s near-term pitch is to sidestep HALEU dependence by using LEU, which changes the commercialization timeline materially if it works. The trading discussion adds a second layer: the market may be starting to differentiate between nuclear \u201cpicks and shovels\u201d and the more speculative AI capex complex, implying that nuclear-enabling assets could be insulated even if AI financing tightens.",
     "key_takeaways_detailed": [],
     "investment_thesis": "The actionable setup is to watch whether the company can convert a manufacturing narrative into measurable industrial throughput. The key proof points are commissioning pace, supplier onboarding, real operating availability, and whether the first deployments are sold into high-value behind-the-meter loads rather than commodity power markets. A credible path to value creation would likely come from sequential evidence: factory line validation, first pod performance, then repeat orders, then cost compression. On the public-market side, LEU remains the clearest liquid way to express a domestic fuel-security angle, but the trade is sensitive to whether enrichment capacity actually expands on schedule and whether nuclear policy stays supportive. The broader macro overlay is that AI-credit stress may become a contrarian signal for capital rotation; if financing tightens for AI infrastructure while baseload and fuel-security names hold up, that would strengthen the relative case for the nuclear supply chain.",
     "ticker_analysis": {
@@ -53532,7 +53565,7 @@ const dashboardData = {
     "updated_at": "2026-10-15 19:17:22",
     "episode_evidence": "Yasir Arafat: There's not a matter of whether or not we want to transition to nuclear, it's a matter of when.\nYasir Arafat: Our first factory, what we are saying is like, hey, I want to get to from making ones E2Z reactors to 100 reactors a year.\nYasir Arafat: Even today, before even I go into volume production, my first of a kind will land us in the midteens sense per kilowatt hour.\nYasir Arafat: And we can build a mass produced small reactor that does not require Halo and we can get to a market and supply hundreds of reactors and be able to bring our cost out.\nPatrick Suresna: This brings us to centrist energy which is the symbol LEU the company supplies enriched uranium and is expanding domestic enrichment capacity for both existing reactors and advanced designs that creates a long-term investment thesis around nuclear growth and this strategic importance of secure fuel supply.",
     "falsification_tracks": [
-      "By 2027-2028, Alo Atomics has not demonstrated a functioning factory line or credible pathway to the stated 100 reactors/year output, or commissioning dates slip repeatedly without commercial deliveries.",
+      "By 2027-2028, Aalo Atomics has not demonstrated a functioning factory line or credible pathway to the stated 100 reactors/year output, or commissioning dates slip repeatedly without commercial deliveries.",
       "By the first commercial deployments, measured electricity costs remain stuck well above the claimed mid-teens cents/kWh FOAK level and do not trend below 10 cents/kWh by the 10th reactor.",
       "Initial field data fail to show near-99.9% availability in real operating conditions, especially during maintenance or turbine-trip scenarios, undermining the reliability pitch for data centers.",
       "Alo is forced to depend on HALEU earlier than expected because LEU fuel supply, qualification, or performance proves insufficient for the design, contradicting the near-term fuel workaround.",
@@ -53611,6 +53644,42 @@ const dashboardData = {
 },
   suggestedTerms: [
   {
+    "id": 921,
+    "term": "Change-detection troubleshooting",
+    "definition": "An ops workflow that starts by identifying what changed in the environment, then uses AI to reason about likely causes and next experiments. It is designed to avoid relying on lagging indicators like alerts after damage is already visible.",
+    "investment_implications": "This is a potential wedge for AI observability products because it can reduce incident response time and make AI more actionable than generic log summarization.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-16 12:02:34",
+    "priority_score": 80
+  },
+  {
+    "id": 922,
+    "term": "Telemetry signal extraction",
+    "definition": "Filtering logs and observability data upstream so only high-value signal is retained, reducing downstream storage, ingestion, and processing costs.",
+    "investment_implications": "If it works at scale, it creates a direct budget-saving ROI and funds the next layer of AI troubleshooting.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-16 12:02:34",
+    "priority_score": 80
+  },
+  {
+    "id": 923,
+    "term": "Constrained-domain AI",
+    "definition": "AI applications where the solution space closely matches the training distribution, making automation more reliable than in open-ended real-world operations.",
+    "investment_implications": "This helps explain where AI will compound fastest and where product categories can achieve early commercialization.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-16 12:02:34",
+    "priority_score": 80
+  },
+  {
     "id": 919,
     "term": "Cooked math",
     "definition": "A shorthand for the idea that AI has crossed a threshold where it can bulk-solve mathematical problems at scale, making math effectively solved as a frontier domain. The term is used as an early signal that other fields may follow.",
@@ -53621,47 +53690,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-10-16 10:27:27",
     "priority_score": 80
-  },
-  {
-    "id": 920,
-    "term": "Active memory",
-    "definition": "Meta\u2019s proposed persistent memory layer for AI agents that remembers important user information across days, weeks, and months. It is intended to make the agent more useful and sticky over time.",
-    "investment_implications": "Persistent memory could become a defensible platform feature, but it also raises lock-in, privacy, and portability risks.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-16 10:27:27",
-    "priority_score": 80
-  },
-  {
-    "id": 916,
-    "term": "Factory-built nuclear",
-    "definition": "A manufacturing model that mass-produces standardized nuclear reactors in a factory rather than building them as custom megaprojects on site. The goal is to compress cost, time, and deployment risk.",
-    "investment_implications": "If manufacturing works, the addressable market for nuclear could expand much faster than traditional buildouts allow.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-15 19:16:47",
-    "priority_score": 80
-  },
-  {
-    "id": 917,
-    "term": "LEU bypass strategy",
-    "definition": "Designing reactors to operate on low-enriched uranium at 5\u20138% instead of depending on HALEU in the near term. It is meant to avoid a supply bottleneck.",
-    "investment_implications": "This reduces a major execution and supply-chain risk for new nuclear builds.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-15 19:16:47",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 88863,
+    "id": 89041,
+    "name": "Grepr CEO Jad Naous",
+    "slug": "grepr-ceo-jad-naous",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Grepper\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
+    "last_episode_title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-16",
+    "appearance_count": 1
+  },
+  {
+    "id": 89043,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -53673,8 +53718,8 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 88862,
-    "name": "Husband Billy Evans",
+    "id": 89042,
+    "name": "Billy Evans",
     "slug": "husband-billy-evans",
     "bio": null,
     "known_for": null,
@@ -53685,7 +53730,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88864,
+    "id": 89044,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -53697,7 +53742,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88865,
+    "id": 89045,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -53709,7 +53754,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88866,
+    "id": 89046,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -53721,7 +53766,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88867,
+    "id": 89047,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -53733,7 +53778,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88868,
+    "id": 89048,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -53745,7 +53790,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88869,
+    "id": 89049,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -53757,7 +53802,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88870,
+    "id": 89050,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -53769,7 +53814,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88871,
+    "id": 89051,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -53781,7 +53826,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88872,
+    "id": 89052,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -53793,7 +53838,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88873,
+    "id": 89053,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -53805,7 +53850,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88874,
+    "id": 89054,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -53817,7 +53862,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88875,
+    "id": 89055,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -53829,7 +53874,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88876,
+    "id": 89056,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -53841,7 +53886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88877,
+    "id": 89057,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -53853,7 +53898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88878,
+    "id": 89058,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -53865,7 +53910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88879,
+    "id": 89059,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -53877,7 +53922,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 88880,
+    "id": 89060,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -53885,18 +53930,6 @@ const dashboardData = {
     "last_main_idea": "David Pawlan argues personal AI agents will compete on proactivity rather than 10% efficiency, citing 122 tracked assistants and cost-saving workflows such as HSA reimbursements, flight credits, and 50% lower water bills.",
     "last_episode_title": "The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-29",
-    "appearance_count": 1
-  },
-  {
-    "id": 88881,
-    "name": "Cathie Wood",
-    "slug": "cathie-wood",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Elon Musk argues that the merger of Tesla and SpaceX will create a comprehensive ecosystem for AI, EVs, and robotics, positioning the combined entity as a leader in technology.",
-    "last_episode_title": "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-29",
     "appearance_count": 1
   }
@@ -53920,7 +53953,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-10-15",
     "mention_score": 6,
-    "mention_score_decayed": 6,
+    "mention_score_decayed": 5.86,
     "last_main_idea": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-10-15 \u2022 Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
     "last_proof_snippet": "This is an existential issue for us. We can easily stop, but if we stop today, we lose. Functionally, capability, safety, security, they're all at exactly the same place. Priority number one. It's our third pod back together. In the last 10",
@@ -54041,7 +54074,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-05",
     "mention_score": 3,
-    "mention_score_decayed": 2.38,
+    "mention_score_decayed": 2.33,
     "last_main_idea": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
     "last_proof_snippet": "The most interesting big new trend is in personal agents. We're in this world where we're so excited by what Chatching Beauty did with turning things into conversation. And now these agents we can get in our messaging apps that turn them in",
@@ -54102,7 +54135,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-05",
     "mention_score": 3,
-    "mention_score_decayed": 2.38,
+    "mention_score_decayed": 2.33,
     "last_main_idea": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
     "last_proof_snippet": "The most interesting big new trend is in personal agents. We're in this world where we're so excited by what Chatching Beauty did with turning things into conversation. And now these agents we can get in our messaging apps that turn them in",
@@ -54169,7 +54202,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-03",
     "mention_score": 3,
-    "mention_score_decayed": 2.27,
+    "mention_score_decayed": 2.22,
     "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
     "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
@@ -54358,7 +54391,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-09",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "AI infrastructure bottlenecks are shifting from chip design to memory, packaging, power, and optics, creating new investment opportunities in those layers.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-09 \u2022 Chips, Memory, and Power | Pat Gelsinger",
     "last_proof_snippet": "Then AI, digital age, energy capacity equals economic capacity. Why built the new data center and by a million GPUs, if I can't power that, you're going to see more and more defaults happening on many of those data center projects because t",
@@ -54483,7 +54516,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-04 \u2022 David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
     "last_proof_snippet": "If the premise of your question is, is this going to be successful or that it's going to be successful? The answer in AI is probably, and it's just the most exciting time to ever be an investor and in the technology markets and keeping up w",
@@ -54898,10 +54931,37 @@ const dashboardData = {
     "net_worth": "$1.40B"
   },
   {
+    "id": 542,
+    "name": "Jad Naous",
+    "slug": "jad-naous",
+    "bio": "CEO of Grepper and a systems/security engineer with prior experience at AppDynamics. He argues for AI in infrastructure through telemetry reduction and change-detection-driven troubleshooting.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-16 12:02:34",
+    "last_episode_title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Grepper\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-16 \u2022 AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+    "last_proof_snippet": "The world that the AI lives in is all digital, and this is the actual world, and my most things are not necessarily the same. When we started doing AI for coding, it was autocomplete. Nobody really knew to what extent you can actually build",
+    "supporting_takeaway": "Jad Naous argues that writing software and running software are 'two very different problems,' with operations much harder because of hidden state and failure complexity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 541,
     "name": "Yasir Arafat",
     "slug": "yasir-arafat",
-    "bio": "Co-founder and chief technology officer of Alo Atomics. He argues nuclear power must be mass-manufactured for AI-era demand and says Alo can scale costs down while avoiding near-term HALEU dependence.",
+    "bio": "Co-founder and chief technology officer of Aalo Atomics. He argues nuclear power must be mass-manufactured for AI-era demand and says Aalo can scale costs down while avoiding near-term HALEU dependence.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -54916,10 +54976,10 @@ const dashboardData = {
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "Alo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
+    "last_main_idea": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-15 \u2022 MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
     "last_proof_snippet": "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization. That was",
-    "supporting_takeaway": "Yasir Arafat said Alo Atomics wants to move from one-off reactors to 100 reactors per year from its first factory, implying about 1 GW/year of capacity.",
+    "supporting_takeaway": "Yasir Arafat said Aalo Atomics wants to move from one-off reactors to 100 reactors per year from its first factory, implying about 1 GW/year of capacity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -54942,7 +55002,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Agentic commerce could create a large infrastructure winner in payment vaulting and token provisioning, and VGS claims to already sit at the center of that shift.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-15 \u2022 When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
     "last_proof_snippet": "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs which are payment credentials. Amazon recently blocked news and there are m",
@@ -55050,7 +55110,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-14 \u2022 Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
     "last_proof_snippet": "When I think about model progress, it comes down to different forms of capital, and that is compute data and talent. How do you see that playing out in terms of who's going to win in the next couple of years? The Chinese are so good at buil",
@@ -55058,67 +55118,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 78,
-    "name": "Martin Casado",
-    "slug": "martin-casado",
-    "bio": "Martin Casado is a General Partner at a16z, a venture capital firm, and co-founder of Nicira, a company acquired by VMware for $1.26B. He is known for his expertise in networking and cloud computing investments.",
-    "known_for": "His investments in networking and cloud computing, and his role in founding Nicira.",
-    "net_worth_usd": 600000000.0,
-    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
-    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Uses industry knowledge to frame Cursor's position in the market.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key strategic points.",
-    "voice_profile_updated_at": "2026-08-27 12:09:04",
-    "last_seen": "2026-08-27 12:09:04",
-    "last_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-27",
-    "mention_score": 3,
-    "mention_score_decayed": 0.97,
-    "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
-    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
-    "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-27T07:09:17.809769",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Martin Casado",
-      "fetched_at": "2026-08-27T12:09:17.809535+00:00",
-      "cliff_notes": "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion. His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields.",
-      "derived": {
-        "current_role": "General Partner at a16z",
-        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion.",
-        "His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields."
-      ],
-      "sections": [
-        {
-          "heading": "Networking and Cloud Computing",
-          "body": "Martin Casado is recognized for his investments and insights in the fields of networking and cloud computing, contributing to the growth and innovation in these areas."
-        },
-        {
-          "heading": "Nicira Acquisition",
-          "body": "Casado co-founded Nicira, which was later acquired by VMware for $1.26 billion, marking a significant milestone in his career and the industry."
-        },
-        {
-          "heading": "Venture Capital Insights",
-          "body": "As a General Partner at a16z, Casado provides valuable perspectives on the competitive landscape and the importance of the human-model interface in technology investments."
-        }
-      ]
-    },
-    "net_worth": "$600.0M"
   },
   {
     "id": 533,
@@ -55202,62 +55201,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 436,
-    "name": "Justin Johnson",
-    "slug": "justin-johnson",
-    "bio": "Justin Johnson is a researcher and expert in computer vision and generative models, known for his pioneering work in neural radiance fields and 3D generative AI. He is involved in the development of Atlas, a project that explores the potential of world models for simulating and reconstructing environments. His insights bridge the gap between AI and physical understanding, with applications across various industries.",
-    "known_for": "Justin Johnson is at the forefront of developing world models that enhance AI's ability to understand and simulate the physical world, impacting sectors from entertainment to robotics.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Technical but accessible, emphasizing architectural elegance",
-    "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
-    "voice_delivery_notes": "Emphasize 'new view prediction' as a deliberate, foundational phrase; pause after 'Atlas is really' for definitional clarity",
-    "voice_profile_updated_at": "2026-09-04 13:44:50",
-    "last_seen": "2026-09-13 12:19:42",
-    "last_episode_title": "World Models, Robotics, and the Future of 3D AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-13 \u2022 World Models, Robotics, and the Future of 3D AI",
-    "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today. An art thesis is that there exists anothe",
-    "supporting_takeaway": "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-16T12:12:46.568076",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Justin Johnson",
-      "fetched_at": "2026-09-16T17:12:46.567930+00:00",
-      "cliff_notes": "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics. By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies.",
-      "derived": {
-        "current_role": "Co-founder at World Labs"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics.",
-        "By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies."
-      ],
-      "sections": [
-        {
-          "heading": "Neural Radiance Fields",
-          "body": "Johnson's work in neural radiance fields represents a breakthrough in how AI can generate and understand 3D environments, allowing for more realistic simulations."
-        },
-        {
-          "heading": "World Models",
-          "body": "He advocates for the development of world models that integrate visual and physical understanding, which could transform industries reliant on spatial awareness."
-        },
-        {
-          "heading": "Applications Across Industries",
-          "body": "His research has implications for a wide range of applications, from gaming and visual effects to robotics and construction, highlighting the versatility of AI in real-world scenarios."
-        }
-      ]
-    }
-  },
-  {
     "id": 74,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
@@ -55323,6 +55266,67 @@ const dashboardData = {
     "net_worth": "$3.60B"
   },
   {
+    "id": 78,
+    "name": "Martin Casado",
+    "slug": "martin-casado",
+    "bio": "Martin Casado is a General Partner at a16z, a venture capital firm, and co-founder of Nicira, a company acquired by VMware for $1.26B. He is known for his expertise in networking and cloud computing investments.",
+    "known_for": "His investments in networking and cloud computing, and his role in founding Nicira.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
+    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Uses industry knowledge to frame Cursor's position in the market.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key strategic points.",
+    "voice_profile_updated_at": "2026-08-27 12:09:04",
+    "last_seen": "2026-08-27 12:09:04",
+    "last_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-27",
+    "mention_score": 3,
+    "mention_score_decayed": 0.94,
+    "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
+    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
+    "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-27T07:09:17.809769",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Martin Casado",
+      "fetched_at": "2026-08-27T12:09:17.809535+00:00",
+      "cliff_notes": "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion. His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields.",
+      "derived": {
+        "current_role": "General Partner at a16z",
+        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion.",
+        "His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields."
+      ],
+      "sections": [
+        {
+          "heading": "Networking and Cloud Computing",
+          "body": "Martin Casado is recognized for his investments and insights in the fields of networking and cloud computing, contributing to the growth and innovation in these areas."
+        },
+        {
+          "heading": "Nicira Acquisition",
+          "body": "Casado co-founded Nicira, which was later acquired by VMware for $1.26 billion, marking a significant milestone in his career and the industry."
+        },
+        {
+          "heading": "Venture Capital Insights",
+          "body": "As a General Partner at a16z, Casado provides valuable perspectives on the competitive landscape and the importance of the human-model interface in technology investments."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
+  },
+  {
     "id": 529,
     "name": "Charles Lemonides",
     "slug": "charles-le-manides",
@@ -55377,6 +55381,62 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 436,
+    "name": "Justin Johnson",
+    "slug": "justin-johnson",
+    "bio": "Justin Johnson is a researcher and expert in computer vision and generative models, known for his pioneering work in neural radiance fields and 3D generative AI. He is involved in the development of Atlas, a project that explores the potential of world models for simulating and reconstructing environments. His insights bridge the gap between AI and physical understanding, with applications across various industries.",
+    "known_for": "Justin Johnson is at the forefront of developing world models that enhance AI's ability to understand and simulate the physical world, impacting sectors from entertainment to robotics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Technical but accessible, emphasizing architectural elegance",
+    "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
+    "voice_delivery_notes": "Emphasize 'new view prediction' as a deliberate, foundational phrase; pause after 'Atlas is really' for definitional clarity",
+    "voice_profile_updated_at": "2026-09-04 13:44:50",
+    "last_seen": "2026-09-13 12:19:42",
+    "last_episode_title": "World Models, Robotics, and the Future of 3D AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.93,
+    "last_main_idea": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-13 \u2022 World Models, Robotics, and the Future of 3D AI",
+    "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today. An art thesis is that there exists anothe",
+    "supporting_takeaway": "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-16T12:12:46.568076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Justin Johnson",
+      "fetched_at": "2026-09-16T17:12:46.567930+00:00",
+      "cliff_notes": "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics. By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies.",
+      "derived": {
+        "current_role": "Co-founder at World Labs"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics.",
+        "By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Neural Radiance Fields",
+          "body": "Johnson's work in neural radiance fields represents a breakthrough in how AI can generate and understand 3D environments, allowing for more realistic simulations."
+        },
+        {
+          "heading": "World Models",
+          "body": "He advocates for the development of world models that integrate visual and physical understanding, which could transform industries reliant on spatial awareness."
+        },
+        {
+          "heading": "Applications Across Industries",
+          "body": "His research has implications for a wide range of applications, from gaming and visual effects to robotics and construction, highlighting the versatility of AI in real-world scenarios."
+        }
+      ]
+    }
+  },
+  {
     "id": 525,
     "name": "Dhaval Adjodah",
     "slug": "davile-agida",
@@ -55394,7 +55454,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-12 \u2022 The Race to Recursive Self-Improving AI",
     "last_proof_snippet": "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself. Can think",
@@ -55421,38 +55481,11 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-12 \u2022 The Race to Recursive Self-Improving AI",
     "last_proof_snippet": "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself. Can think",
     "supporting_takeaway": "Owen He said many papers that claim RSI did not work when tested in their internal infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 524,
-    "name": "Nick Bostrom",
-    "slug": "nick-bostrom",
-    "bio": "Professor at Oxford; founding director of the Future of Humanity Institute; founder and principal researcher of the macro strategy research initiative; known for work on superintelligence and existential risk framing.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-11 11:41:42",
-    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-11 \u2022 Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_proof_snippet": "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so. On the other hand, if ther",
-    "supporting_takeaway": "Nick Bostrom says broad or indefinite pauses risk shifting AI work into secretive or highly concentrated \u201cManhattan project\u201d structures.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -55518,6 +55551,33 @@ const dashboardData = {
     "net_worth": "$185.0M"
   },
   {
+    "id": 524,
+    "name": "Nick Bostrom",
+    "slug": "nick-bostrom",
+    "bio": "Professor at Oxford; founding director of the Future of Humanity Institute; founder and principal researcher of the macro strategy research initiative; known for work on superintelligence and existential risk framing.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-11 11:41:42",
+    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.89,
+    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-11 \u2022 Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_proof_snippet": "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so. On the other hand, if ther",
+    "supporting_takeaway": "Nick Bostrom says broad or indefinite pauses risk shifting AI work into secretive or highly concentrated \u201cManhattan project\u201d structures.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 522,
     "name": "Jason Calacanis",
     "slug": "jason-kaltenson",
@@ -55535,7 +55595,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-10 \u2022 Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. The all-in podcast with me, the core four, be original, quartet, Chumapai Hoppetia, David Sachs, Dave Freeberg, I'm Jason Calcantison. We have a doc at How's Everybo",
@@ -55724,7 +55784,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Matt Garman argues AWS's AI infrastructure buildout remains demand-driven because Amazon expects $220 billion of 2026 capex, 2 million Nvidia GPUs over coming years, and production workloads across Bedrock, inference, and cloud migration.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-08 \u2022 Building the Cloud for an Agentic World | AWS CEO Matt Garman",
     "last_proof_snippet": "Agented workflows tended to perform better on AWS than anywhere else. Compute sandboxes, gateways, agent permissions versus people. A lot of those are things that we have built and are building and thinking actively about. The top frontier",
@@ -55929,33 +55989,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 505,
-    "name": "Alex Atallah",
-    "slug": "alex-atallah",
-    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
-    "known_for": "OpenRouter and model routing across multiple AI providers.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and infrastructure-focused.",
-    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
-    "voice_profile_updated_at": "2026-10-03 12:02:34",
-    "last_seen": "2026-10-03 12:02:34",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.76,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
-    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 52,
     "name": "Alex Karp",
     "slug": "alex-carp",
@@ -56016,6 +56049,33 @@ const dashboardData = {
     "net_worth": "$14.00B"
   },
   {
+    "id": 505,
+    "name": "Alex Atallah",
+    "slug": "alex-atallah",
+    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
+    "known_for": "OpenRouter and model routing across multiple AI providers.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and infrastructure-focused.",
+    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 1,
+    "mention_score_decayed": 0.74,
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 502,
     "name": "Seema Amble",
     "slug": "seema-amble",
@@ -56033,7 +56093,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
     "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
@@ -56060,7 +56120,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
     "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
@@ -56330,7 +56390,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
@@ -56390,7 +56450,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Cathie Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs. And they're concerned about the old social contract, do well in high school, go to college, get a degree, and go get a",
@@ -56509,7 +56569,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because TypeSafe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-28 \u2022 AI Can Write Code. Why Isn\u2019t Software Better?",
     "last_proof_snippet": "AI is so unbelievably smart, and yet it's so useless at all other stuff. It doesn't matter how much AI cutting agents you use, the software actually isn't getting better.",
@@ -56916,7 +56976,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "There is a significant investment opportunity in educational technologies and platforms that encourage innovative learning approaches and integrate AI into organizational operations.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-23 \u2022 Amjad Masad on Rethinking College for the AI Era",
     "last_proof_snippet": "Ultimately, the totally beyond people is to question deeply held beliefs. It's to be heretics. You need to learn our way so you can get a job and be a perfect citizen, get married, have kids, and get a house on a car and live happily ever a",
@@ -56970,7 +57030,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_proof_snippet": "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
@@ -57087,7 +57147,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Boom Supersonic presents a compelling investment opportunity through its innovative technologies and strong legislative support, positioning itself for significant growth in both aerospace and energy sectors.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-22 \u2022 Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
     "last_proof_snippet": "Set to fly at Mach 1.7 with 103 orders for major airlines. The founder and CEO of Loom Supersonic Glacial. Boeing has a built-in new airplane in 20 years. It's David and Goliath, but Goliath is like a sleet. We're here to bring back two per",
@@ -57658,7 +57718,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in companies that develop real-time generative video technologies and AI solutions for Hollywood presents significant growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-17 \u2022 The Next Frontier of AI Video Is Control",
     "last_proof_snippet": "Generative media is along with the coding agent market. What we call is token market fit. Everyone's waiting for a large consumer moment in AI. I believe H3 Max makes it possible. We're surprised by the speed up and the gain you could get f",
@@ -57714,7 +57774,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
@@ -58745,7 +58805,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "AI capabilities are expanding from applied tasks to foundational scientific discovery, creating asymmetric opportunities in companies building advanced reasoning systems and the infrastructure supporting scientific AI, while traditional R&D-intensive industries face disruption or amplification depending on adoption speed.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-08 \u2022 OpenAI Researchers on the Future of Mathematical Reasoning",
     "last_proof_snippet": "Often, it's a practicing mouth-efficient, you have an idea, and then you kind of think it might work, then you try for a few hours if you reach, and at some point, you give up. Whereas for GPT, like, okay, I keep informing you to do this, l",
@@ -58815,7 +58875,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-07 \u2022 Can Open Source Keep AI Power From Concentrating?",
     "last_proof_snippet": "AI is becoming more powerful, but the resources needed to build it are increasingly concentrated. Does it have to stay that way? MTS host Sophia Dew heads to the open source AI summit in San Francisco. To ask researchers and founders across",
@@ -58882,7 +58942,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-02 \u2022 Inside Moderna\u2019s Personalized Cancer Vaccine",
     "last_proof_snippet": "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed. What was different this time? What is it about mRNA technology that enables the immun",
@@ -58942,7 +59002,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Position nuclear as AI infrastructure: prefer names tied to firm hyperscaler offtake, enrichment/fuel, and factory-built SMR supply chains over pure fusion lottery tickets. Watch PPA announcements, NRC Part 57 and similar licensing milestones, and enrichment capacity expansions as catalysts; falsifiers are hyperscaler PPA pullbacks, permitting stalls, or a step-change cheaper firm clean power that undercuts $100/MWh nuclear bids.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-03 \u2022 MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
     "last_proof_snippet": "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance. Because you really do need somebody who's willing to sign a 20 year PBA for",
@@ -59012,7 +59072,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-04 \u2022 Fei Fei Li: The Race to Build World Models For AI",
     "last_proof_snippet": "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction. We've seen video models as being",
@@ -59073,7 +59133,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Bond yields are at multi-decade highs and investor sentiment is excessively bearish, creating a contrarian buying opportunity in long-term government bonds.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-03 \u2022 \u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
     "last_proof_snippet": "Join today, once again, by Jared Dillian of the Daily Dirt Wrap and the new book, the awesome portfolio. Jared, good to see you. Good to be here, man. Thanks for having me. Yeah, you too, Jared, looking at the front page Bloomberg global bo",
@@ -59147,7 +59207,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "AI can solve complex mathematical problems but lacks deep conceptual understanding and intuition, which remain critical human strengths.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-01 \u2022 Daniel Litt: The Mathematician's Guide to AI",
     "last_proof_snippet": "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied. Comparing and profit with open AI. D",
@@ -59174,7 +59234,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "AI agents demonstrated collective intelligence by forming networks to share strategies and assist each other.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-29 \u2022 Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
     "last_proof_snippet": "What happens when you give more than 1,000 AI agents the ability to communicate with each other? They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research, joins Theo Jaffee on MTS to unpack a new investigation into the Op",
@@ -59412,7 +59472,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -59476,7 +59536,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -59598,7 +59658,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -59661,7 +59721,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -59725,7 +59785,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -62059,9 +62119,9 @@ const dashboardData = {
   },
   {
     "id": 377,
-    "name": "Joshua Ahoyom",
+    "name": "Joshua Achiam",
     "slug": "joshua-ahoyom",
-    "bio": "Joshua Ahoyom is recognized for his thought leadership in AI and its implications for the future. As the Chief Futurist at Open AI, he has been instrumental in shaping discussions around the advancement of artificial general intelligence (AGI) and its impact on society.",
+    "bio": "Joshua Achiam is recognized for his thought leadership in AI and its implications for the future. As the Chief Futurist at OpenAI, he has been instrumental in shaping discussions around the advancement of artificial general intelligence (AGI) and its impact on society.",
     "known_for": "His insights on the subtle arrival of AGI and its profound implications on cybersecurity, state actors, and the future of technology.",
     "net_worth_usd": 150000000.0,
     "net_worth_source": "https://www.si.com/fannation/boxing/anthony-joshua-net-worth",
@@ -62086,24 +62146,24 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Joshua Ahoyom",
+      "page_title": "Joshua Achiam",
       "fetched_at": "2026-08-05T03:03:28.571993+00:00",
-      "cliff_notes": "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks. His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology.",
+      "cliff_notes": "Joshua Achiam has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at OpenAI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Achiam's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks. His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving OpenAI, his insights will continue to shape the conversation around AI's role in society and technology.",
       "derived": {
-        "current_role": "Chief Futurist at Open AI"
+        "current_role": "Chief Futurist at OpenAI"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks.",
-        "His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology."
+        "Joshua Achiam has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at OpenAI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Achiam's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks.",
+        "His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving OpenAI, his insights will continue to shape the conversation around AI's role in society and technology."
       ],
       "sections": [
         {
           "heading": "Artificial General Intelligence",
-          "body": "Ahoyom discusses the subtle arrival of AGI and how it has already integrated into various aspects of society without much public awareness."
+          "body": "Achiam discusses the subtle arrival of AGI and how it has already integrated into various aspects of society without much public awareness."
         },
         {
           "heading": "Cybersecurity",
@@ -62111,7 +62171,7 @@ const dashboardData = {
         },
         {
           "heading": "State Actors and AI",
-          "body": "Ahoyom emphasizes the role of state actors in the development and deployment of AI technologies and their potential geopolitical implications."
+          "body": "Achiam emphasizes the role of state actors in the development and deployment of AI technologies and their potential geopolitical implications."
         },
         {
           "heading": "Recursive Self-Improvement",
@@ -62119,7 +62179,7 @@ const dashboardData = {
         },
         {
           "heading": "Future of Technology",
-          "body": "Ahoyom posits that the future may feel more gradual and stranger than most people expect, with AI playing a central role in shaping these changes."
+          "body": "Achiam posits that the future may feel more gradual and stranger than most people expect, with AI playing a central role in shaping these changes."
         }
       ]
     },
@@ -63114,7 +63174,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's building his next company around industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",

@@ -325,6 +325,20 @@ def _apply_summary_overrides(obj):
         name_normalizer.apply_to_cards(obj)
     except Exception as e:
         print(f"  ⚠ name_normalizer backstop skipped: {e}")
+    # Final ticker pass (Oct 16 2026): name fixes above (e.g. "TALENT ENERGY" -> "TALEN ENERGY")
+    # also touch ticker lists, so a ticker rename applied in walk() could be undone. Re-apply
+    # global ticker renames/drops last so ticker fields always end on the mapped symbol.
+    if global_ticker_renames or global_drop_tickers:
+        def final_tickers(o):
+            if isinstance(o, dict):
+                if any(k in o for k in ("tickers_mentioned", "key_tickers", "ticker_analysis")):
+                    _apply_ticker_fixes_to_record(o, drop=global_drop_tickers, renames=global_ticker_renames)
+                for v in o.values():
+                    final_tickers(v)
+            elif isinstance(o, list):
+                for v in o:
+                    final_tickers(v)
+        final_tickers(obj)
     return obj
 
 
@@ -358,13 +372,32 @@ def _protected_spans(text, key=None):
     return merged
 
 
+def _name_pattern(old):
+    """Whole-word match for a name swap: 'Alo's' must not hit 'Halo's', 'Open AI' must not hit 'Open AIs'."""
+    pat = re.escape(old)
+    if old[:1].isalnum():
+        pat = r"(?<![A-Za-z0-9])" + pat
+    if old[-1:].isalnum():
+        pat = pat + r"(?![A-Za-z0-9])"
+    return re.compile(pat)
+
+
+def _replace_names(value, replacements):
+    if not isinstance(value, str):
+        return _replace_text(value, replacements)
+    for old, new in replacements:
+        if old and old in value:
+            value = _name_pattern(old).sub(lambda _m, n=new: n, value)
+    return value
+
+
 def replace_outside_quotes(text, replacements, key=None):
     """Apply exact swaps to text, leaving quoted spans (and transcript lines) untouched."""
     if not isinstance(text, str) or not any(old in text for old, _ in replacements):
         return text
     out, pos = [], 0
     for a, b in _protected_spans(text, key) + [[len(text), len(text)]]:
-        out.append(_replace_text(text[pos:a], replacements))
+        out.append(_replace_names(text[pos:a], replacements))
         out.append(text[a:b])
         pos = b
     return "".join(out)
@@ -533,7 +566,14 @@ def _stamp_debate_contract_publishable() -> None:
     if history_path.is_file():
         try:
             hist = json.loads(history_path.read_text(encoding="utf-8"))
-            prior = [w.get("prompt", "") for w in hist.get("weeks", []) if w.get("prompt")]
+            # Skip the contract's own history entry (same friday_iso): a contract must not be
+            # held as "too similar" to itself once its week is archived (Red Team N-1, Oct 16).
+            own = str(contract.get("friday_iso") or "").strip()
+            prior = [
+                w.get("prompt", "")
+                for w in hist.get("weeks", [])
+                if w.get("prompt") and not (own and str(w.get("friday_iso") or "").strip() == own)
+            ]
         except Exception:
             prior = []
     spx_ref = None

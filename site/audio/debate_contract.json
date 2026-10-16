@@ -25,7 +25,7 @@
   "week_label": "Week of 2026-09-04",
   "generated_at": "2026-09-04T19:29:58.337746",
   "bet_status": "yes",
-  "publishable": false,
+  "publishable": true,
   "argument_requirements": [
     "Both sides must distinguish DGS10 constant-maturity yield from the on-the-run 10-year cash note and TY futures when discussing price levels, spreads, and market mechanics.",
     "Both sides must weigh auction dynamics, Treasury refunding calendar, foreign demand, and SLR-captivity pressures against soft-landing narratives and the Fed's expected rate path, without treating either as determinative.",
@@ -54,10 +54,7 @@
   "debater_b": "Negative",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "prompt_hash": "7d19b7622c85fe7d",
-  "publish_block_reason": "Prompt too similar to a recent contract (100% overlap).",
-  "publish_block_reasons": [
-    "Prompt too similar to a recent contract (100% overlap)."
-  ],
+  "publish_block_reason": "",
   "resolution_status": "yes",
   "resolution_notes": "Affirmative. FRED DGS10 printed 5.00 on Tue Sep 15, 2026, meeting the 5.00% rule (it was 5.29 on Sep 30). Official daily values from FRED series DGS10.",
   "resolution_source": "https://fred.stlouisfed.org/series/DGS10",

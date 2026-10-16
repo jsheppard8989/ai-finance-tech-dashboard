@@ -218,4 +218,6 @@ def stamp_contract_publishable(
     out["publish_block_reason"] = "" if ok else reason
     if all_errs and not ok:
         out["publish_block_reasons"] = all_errs
+    else:
+        out.pop("publish_block_reasons", None)
     return out
