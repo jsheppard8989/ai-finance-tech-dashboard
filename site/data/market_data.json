@@ -1,14 +1,14 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
-  "_updated": "2026-10-15",
+  "_updated": "2026-10-16",
   "_data_status": "live",
   "schema_version": 1,
   "treasury_calendar": {
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-15T15:27:27",
-    "as_of_date": "2026-10-15",
+    "last_updated": "2026-10-16T03:29:59",
+    "as_of_date": "2026-10-16",
     "next_refunding_announcement": {
       "date": "2026-11-04",
       "status": "scheduled",
@@ -256,7 +256,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-10-15T15:27:25.648251",
+    "last_updated": "2026-10-16T03:29:58.827743",
     "as_of_date": "2026-10-15",
     "spreads": {
       "2s10s": {
@@ -297,8 +297,8 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 102.45,
-      "change_1d": 3.39,
+      "value": 102.49,
+      "change_1d": 3.43,
       "as_of": "2026-10-15",
       "signal": "elevated",
       "yahoo_symbol": "^MOVE",
@@ -316,7 +316,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-10-15T15:27:25.983926",
+    "last_updated": "2026-10-16T03:29:59.040214",
     "report_date": "2026-10-06",
     "prior_report_date": "2026-09-29",
     "change_source": "cftc_changes_row",
@@ -406,10 +406,10 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-15T15:27:09.220969",
+    "last_fetched": "2026-10-16T03:29:42.894150",
     "h100": {
-      "daily_date": "Oct 15, 2026",
-      "daily_date_iso": "2026-10-15",
+      "daily_date": "Oct 16, 2026",
+      "daily_date_iso": "2026-10-16",
       "composite_index": {
         "display": "$3.34",
         "type": "single",
@@ -437,23 +437,23 @@
         "Aug 2026"
       ],
       "daily_trend": {
-        "data_points": 1100,
+        "data_points": 1101,
         "latest_value": 3.34,
-        "latest_date": "Oct 15, 2026",
+        "latest_date": "Oct 16, 2026",
         "short_term": {
-          "change_pct": 1.2,
-          "comparison_date": "Oct 08, 2026",
-          "comparison_value": 3.3,
+          "change_pct": 0.9,
+          "comparison_date": "Oct 09, 2026",
+          "comparison_value": 3.31,
           "days_back": 7
         },
         "long_term": {
           "change_pct": 2.5,
-          "anchor_date": "Sep 15, 2026",
+          "anchor_date": "Sep 16, 2026",
           "anchor_value": 3.26,
           "days_back": 30
         },
-        "change_pct": 1.2,
-        "comparison_date": "Oct 08, 2026"
+        "change_pct": 0.9,
+        "comparison_date": "Oct 09, 2026"
       },
       "contract_trend": {
         "data_points": 21,
@@ -504,18 +504,18 @@
       "period": "Aug 2026"
     },
     "b200": {
-      "daily_date": "Oct 15, 2026",
+      "daily_date": "Oct 16, 2026",
       "composite_index": {
-        "display": "$6.64",
+        "display": "$6.73",
         "type": "single",
-        "value": 6.64
+        "value": 6.73
       }
     },
     "history_summary": {
       "oldest_period": "1H 2023",
       "newest_period": "Aug 2026",
-      "newest_daily": "Oct 15, 2026",
-      "total_daily_points": 1221,
+      "newest_daily": "Oct 16, 2026",
+      "total_daily_points": 1222,
       "total_contract_periods": 22,
       "recent_5": [
         {
@@ -552,10 +552,10 @@
     "_api_url": "https://aicomputetracker.com/forward-curves.json",
     "_settles_on": "Ornn Compute Price Index (OCPI)",
     "_license": "AI Compute Tracker (aicomputetracker.com), CC BY 4.0; third-party terms apply to data from Kalshi (KalshiEX LLC)",
-    "as_of": "2026-10-15T17:19:06.107Z",
+    "as_of": "2026-10-16T04:56:52.079Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-10-15T15:27:09.778706",
+    "last_fetched": "2026-10-16T03:29:43.187150",
     "b200": {
       "points": [
         {
@@ -585,7 +585,7 @@
         {
           "tenor_key": "2027-02",
           "tenor": "Feb '27",
-          "price": 3.79,
+          "price": 3.73,
           "quality": "thin"
         },
         {
@@ -645,8 +645,8 @@
           "quality": "thin"
         }
       ],
-      "two_sided_markets": 63,
-      "liquidity_usd": 106981,
+      "two_sided_markets": 61,
+      "liquidity_usd": 106701,
       "kalshi_series": "KXB200MS"
     },
     "h100": {
@@ -654,13 +654,13 @@
         {
           "tenor_key": "2026-10",
           "tenor": "Oct '26",
-          "price": 2.9,
+          "price": 2.88,
           "quality": "quality-passed"
         },
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 2.97,
+          "price": 2.98,
           "quality": "quality-passed"
         },
         {
@@ -702,7 +702,7 @@
         {
           "tenor_key": "2027-06",
           "tenor": "Jun '27",
-          "price": 3.38,
+          "price": 3.88,
           "quality": "thin"
         },
         {
@@ -722,7 +722,7 @@
         {
           "tenor_key": "2026-10",
           "tenor": "Oct '26",
-          "price": 2.9,
+          "price": 2.88,
           "quality": "quality-passed"
         },
         {
@@ -734,12 +734,12 @@
         {
           "tenor_key": "2027-06",
           "tenor": "Jun '27",
-          "price": 3.38,
+          "price": 3.88,
           "quality": "thin"
         }
       ],
-      "two_sided_markets": 31,
-      "liquidity_usd": 3242,
+      "two_sided_markets": 29,
+      "liquidity_usd": 3131,
       "kalshi_series": "KXH100MS"
     }
   }
