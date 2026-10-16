@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-16T13:57:57.841718",
+  generatedAt: "2026-10-16T15:02:40.655550",
   chartsVersion: "2026-10-16T13:57:40.515763",
   priceSnapshot: {
   "AAPL": {
@@ -53640,6 +53640,65 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-10-15",
     "key_tickers": []
+  },
+  "595": {
+    "id": 596,
+    "insight_id": 595,
+    "podcast_episode_id": 584,
+    "overview": "The non-obvious part of this episode is not that AI helps write code, but that the first durable wedge in infrastructure may be economic rather than magical: strip telemetry cost first, then use the smaller, cleaner signal surface to power troubleshooting. That framing matters because it turns observability from a pure software category into a budget-reallocation problem. Another important nuance is Naous\u2019s operational model: he is not arguing for a generic LLM that reads dashboards and guesses root cause; he is arguing for upstream change detection that narrows the search space before an AI reasons through hypotheses. That is a materially different product shape than classic APM or alerting. The episode also surfaces a constraint investors often miss: operational automation is bounded by hidden state, rare failures, and changing workloads, so the ceiling is likely assistance and guided investigation before full autonomy. In other words, the near-term opportunity is to compress the cost and time to understand incidents, not to eliminate human operators.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "The key investment lens is to separate AI infrastructure products that lower the cost of existing workflows from those that promise broad autonomy. Grepr\u2019s model suggests the former is more financeable today because the ROI can be measured quickly in telemetry spend, storage, and processing reduction. The practical watch item is whether the company can convert cost savings into a repeatable land-and-expand motion inside production environments, then expand into incident triage and remediation. In public markets, the read-through is negative for vendors whose value proposition depends mainly on ingesting more raw data without proving downstream efficiency gains, and positive for tools that can demonstrably compress data volume while preserving incident-relevant signal. The other action point is to watch whether change-detection-based workflows produce lower MTTR and fewer missed incidents than dashboard-centric tools; if not, the AI layer risks remaining a demo rather than a budget line item.",
+    "ticker_analysis": {
+      "CSCO": {
+        "rationale": "Cisco is mentioned as the acquirer of AppDynamics, which is relevant because it anchors the infrastructure-observability heritage behind Naous\u2019s background and highlights how strategically important monitoring software has been to large platform vendors.",
+        "positioning": "Watch",
+        "risk": "The risk is that Cisco\u2019s observability-related assets remain legacy products if AI-native, cost-reducing telemetry pipelines capture the next layer of spend."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is referenced through WSL, which is part of Naous\u2019s AI-assisted development stack. It matters because the conversation shows developer productivity gains are already being operationalized on Microsoft\u2019s platform.",
+        "positioning": "Watch",
+        "risk": "If AI coding workflows increasingly abstract away the underlying OS layer, the value capture may accrue to model and agent layers rather than the workstation/OS layer."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Customers continue paying for raw log retention and broad observability instead of narrowing telemetry, implying the 90% savings pitch is less compelling than it sounds.",
+      "Troubleshooting teams adopt the product for alert routing but still resolve incidents manually, suggesting the AI layer adds workflow veneer rather than operational leverage.",
+      "Model performance degrades sharply when log formats, workload patterns, or service topologies change, indicating the product depends on narrow deployment conditions."
+    ],
+    "catalysts": [
+      "A customer case study showing telemetry spend cut by close to 90% within 90-180 days of deployment.",
+      "A measurable MTTR improvement published in a reference account or technical report after rolling out change detection plus AI investigation.",
+      "Expansion from cost-saving telemetry compression into paid incident-response or remediation workflows over the next 2-4 quarters."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-10-16T15:01:12.407295",
+    "updated_at": "2026-10-16 20:01:12",
+    "episode_evidence": "Jad Naous: We put us in the data stream, plug and play, pass the data through reduce your cost by 90%.\nJad Naous: But writing software and running it are two very different problems.\nJad Naous: A lot of those systems basically start from a lagging indicator, like, hey, this metric spike, or, like, this alert happened.\nJad Naous: And instead, what we're doing is doing it the other way around, which is, can we actually start by figuring out if there's something different in your environment that has changed?\nJad Naous: The domains where the distribution of the solution is the natural world, I think it's going to be much harder to take longer.",
+    "falsification_tracks": [
+      "By Mar 31, 2027, Grepr\u2019s customer deployments do not show at least a 50% reduction in telemetry ingestion and storage spend versus pre-deployment baselines, as evidenced in customer finance reviews and vendor invoices.",
+      "By Jun 30, 2027, a live customer evaluation reported in an 8-K, earnings deck, or customer case study shows MTTR improving by less than 20% after Grepr\u2019s change-detection layer is deployed.",
+      "By Sep 30, 2027, the system misses more than 1 in 5 major incidents that were later confirmed in internal postmortems or customer incident reviews, per the customer\u2019s incident-management source of record.",
+      "By Dec 31, 2027, more than 30% of detected \u201cactionable\u201d alerts are later classified as false positives in customer incident-management records or postmortem dashboards.",
+      "By Mar 31, 2028, a benchmarked rollout in a new environment with a materially different logging schema shows detection quality falling below 0.80 precision on the vendor\u2019s published evaluation, as reported in a technical whitepaper or SOC 2-adjacent performance report."
+    ],
+    "schema_version": 1,
+    "model_used": "gpt-5.4-mini",
+    "input_tokens": 5449,
+    "output_tokens": 1197,
+    "cost_usd": 0.0047366249999999995,
+    "attempt_count": 1,
+    "generation_mode": "extraction",
+    "insight_title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+    "source_name": "The a16z Show",
+    "source_date": "2026-10-16",
+    "key_tickers": [
+      "MSFT"
+    ]
   }
 },
   suggestedTerms: [
@@ -54702,7 +54761,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-30 \u2022 Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
     "last_proof_snippet": "I was a little terrified backstage when Palmer's like, there's something on the screen that says, I'm not supposed to say this. It's like, for the love of God, whatever it is. Please don't make it about colossal. Please don't say it. So, I",
@@ -54975,7 +55034,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-15 \u2022 MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
     "last_proof_snippet": "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization. That was",
@@ -55676,7 +55735,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The episode\u2019s core claim is that structural global dollar demand can keep the US dollar and US rates elevated even under stress, while policy tools and gold revaluation remain underappreciated.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-08 \u2022 MacroVoices #553 Brent Johnson: Disparate Housewives",
     "last_proof_snippet": "I've been doing this for 26 years now, and for 25 of the 26 years, I've been hearing that the Fed is out of bullets. And my point to people is that they have a lot more bullets than you can possibly imagine. That was Santiago Capital founde",
@@ -55703,7 +55762,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-08 \u2022 Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
     "last_proof_snippet": "This episode is brought to you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Theumatics ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclo",
@@ -56363,7 +56422,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-30 \u2022 Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
     "last_proof_snippet": "I'm joined once again by Ben Poladian of BEP Research Ben is a semiconductor auto-diadact enthusiast. He's been an investor in Nvidia since 2016. Ben, great to see you again. Welcome back. Glad to be back with you, Jack. So I'm exciting. Th",
@@ -56625,7 +56684,7 @@ const dashboardData = {
     "last_podcast_name": "Other People's Money with Max Wiethe",
     "last_episode_date": "2026-09-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "James Elbaor argues private credit growth is over and BDC/private credit consolidation should accelerate next fiscal year as redemptions exceed 5% gates and public vehicles trade at large NAV discounts.",
     "last_proof_cite": "Other People's Money with Max Wiethe \u2022 2026-09-27 \u2022 The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
     "last_proof_snippet": "Let's take a quick step back and say one thing that I think is abundantly clear. The private credit boom is over. We all saw in Forbes recently around the blue owl founders, other founders of private credit firms becoming billionaires. That",
@@ -57318,7 +57377,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Gold has decoupled from oil prices, indicating a potential for price increases as central banks, especially in China, increase purchases.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-20 \u2022 Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
     "last_proof_snippet": "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal. As we saw since maybe August and so far, September, there's been a huge spike i",
@@ -57586,60 +57645,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 464,
-    "name": "Harley Bassman",
-    "slug": "harley-bassman",
-    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
-    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and assertive",
-    "voice_style": "Direct and informative, providing clear insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-17 19:01:38",
-    "last_seen": "2026-09-17 19:01:38",
-    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
-    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
-    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Harley Bassman",
-      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
-      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
-        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
-      ],
-      "sections": [
-        {
-          "heading": "Fixed Income Markets",
-          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
-        },
-        {
-          "heading": "Market Volatility",
-          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -57699,6 +57704,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 464,
+    "name": "Harley Bassman",
+    "slug": "harley-bassman",
+    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
+    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and assertive",
+    "voice_style": "Direct and informative, providing clear insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-17 19:01:38",
+    "last_seen": "2026-09-17 19:01:38",
+    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
+    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
+    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Harley Bassman",
+      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
+      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
+        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
+      ],
+      "sections": [
+        {
+          "heading": "Fixed Income Markets",
+          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
+        },
+        {
+          "heading": "Market Volatility",
+          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
+        }
+      ]
+    }
   },
   {
     "id": 462,
@@ -58308,7 +58367,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -75035,7 +75094,10 @@ const dashboardData = {
           "notional": 1000,
           "current_price": 27.74,
           "current_value": 987.54,
-          "change_pct": -1.25
+          "change_pct": -1.25,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         },
         {
           "ticker": "GDRX",
@@ -75046,7 +75108,10 @@ const dashboardData = {
           "notional": 1000,
           "current_price": 3.35,
           "current_value": 1006.01,
-          "change_pct": 0.6
+          "change_pct": 0.6,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         },
         {
           "ticker": "TEM",
@@ -75057,7 +75122,10 @@ const dashboardData = {
           "notional": 1000,
           "current_price": 65.18,
           "current_value": 835.96,
-          "change_pct": -16.4
+          "change_pct": -16.4,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         },
         {
           "ticker": "GH",
@@ -75068,7 +75136,10 @@ const dashboardData = {
           "notional": 1000,
           "current_price": 158.6,
           "current_value": 866.19,
-          "change_pct": -13.38
+          "change_pct": -13.38,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         },
         {
           "ticker": "ABT",
@@ -75079,7 +75150,10 @@ const dashboardData = {
           "notional": 1000,
           "current_price": 104.62,
           "current_value": 1023.68,
-          "change_pct": 2.37
+          "change_pct": 2.37,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
