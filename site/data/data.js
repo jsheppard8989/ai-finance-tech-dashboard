@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-16T09:36:38.568293",
+  generatedAt: "2026-10-16T10:15:06.421882",
   chartsVersion: null,
   priceSnapshot: {
   "AAPL": {
@@ -1221,8 +1221,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-16",
-      "summary": "The episode centers on the idea that AI has already transformed coding, but that production operations remains a much harder problem. Jad Naous argues software creation and running software are fundamentally different because operations involves unpredictable workloads, failures, and a much larger state space. Mart\u00edn Casado reinforces that view, emphasizing that distributed systems and operational troubleshooting are not solved by simply applying code-generation-style AI.\n\nNaous describes Grepper as a two-layer system: first, it reduces observability and telemetry spend by extracting signal from logs upstream, and second, it feeds those signals into an AI layer for troubleshooting. He claims the company can reduce telemetry costs by about 90%, and says observability historically consumed roughly 5% to 20% of infrastructure spend. He frames this as a practical wedge because many buyers care about cost savings before reliability benefits.\n\nA major part of the conversation is about how to make AI useful in operations without asking it to infer causality from lagging indicators. Naous says they prefer detecting changes in the environment and early warning messages, then using AI to reason through hypotheses and experiments. He argues that backtracking from metric spikes is the wrong abstraction for complex systems, and that full autonomous control of distributed clusters is still not solved.\n\nThe episode also includes hands-on workflow details from Naous about using Claude Code, WSL, and multiple concurrent agent sessions. He says recent AI-assisted workflows let his team ship production work much faster, citing an auto-promotion/shredding project that took about 10 days versus about six months for one person previously. His broader thesis is that AI will continue to excel in constrained digital domains, while real-world operations and security remain much harder because the solution space diverges from training data and economic constraints matter.",
-      "key_takeaway": "Grepper\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
+      "summary": "The episode centers on the idea that AI has already transformed coding, but that production operations remains a much harder problem. Jad Naous argues software creation and running software are fundamentally different because operations involves unpredictable workloads, failures, and a much larger state space. Mart\u00edn Casado reinforces that view, emphasizing that distributed systems and operational troubleshooting are not solved by simply applying code-generation-style AI.\n\nNaous describes Grepr as a two-layer system: first, it reduces observability and telemetry spend by extracting signal from logs upstream, and second, it feeds those signals into an AI layer for troubleshooting. He claims the company can reduce telemetry costs by about 90%, and says observability historically consumed roughly 5% to 20% of infrastructure spend. He frames this as a practical wedge because many buyers care about cost savings before reliability benefits.\n\nA major part of the conversation is about how to make AI useful in operations without asking it to infer causality from lagging indicators. Naous says they prefer detecting changes in the environment and early warning messages, then using AI to reason through hypotheses and experiments. He argues that backtracking from metric spikes is the wrong abstraction for complex systems, and that full autonomous control of distributed clusters is still not solved.\n\nThe episode also includes hands-on workflow details from Naous about using Claude Code, WSL, and multiple concurrent agent sessions. He says recent AI-assisted workflows let his team ship production work much faster, citing an auto-promotion/shredding project that took about 10 days versus about six months for one person previously. His broader thesis is that AI will continue to excel in constrained digital domains, while real-world operations and security remain much harder because the solution space diverges from training data and economic constraints matter.",
+      "key_takeaway": "Grepr\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
       "tickers_mentioned": [
         "MSFT"
       ],
@@ -53552,7 +53552,7 @@ const dashboardData = {
       "Credit conditions for AI improve rather than tighten, undermining the rotation argument tied to CoreWeave and similar names."
     ],
     "catalysts": [
-      "First Alo factory commissioning milestones and evidence of repeatable module production, likely a 2027-2028 watch item.",
+      "First Aalo factory commissioning milestones and evidence of repeatable module production, likely a 2027-2028 watch item.",
       "Any announced behind-the-meter data-center customer wins or letters of intent tied to uptime-sensitive loads.",
       "Public updates on LEU domestic enrichment capacity additions, contract wins, or policy support through 2026-2027.",
       "Broader AI financing stress indicators over the next few quarters, including bond yields, equity drawdowns, and new issuance volumes."
@@ -53568,7 +53568,7 @@ const dashboardData = {
       "By 2027-2028, Aalo Atomics has not demonstrated a functioning factory line or credible pathway to the stated 100 reactors/year output, or commissioning dates slip repeatedly without commercial deliveries.",
       "By the first commercial deployments, measured electricity costs remain stuck well above the claimed mid-teens cents/kWh FOAK level and do not trend below 10 cents/kWh by the 10th reactor.",
       "Initial field data fail to show near-99.9% availability in real operating conditions, especially during maintenance or turbine-trip scenarios, undermining the reliability pitch for data centers.",
-      "Alo is forced to depend on HALEU earlier than expected because LEU fuel supply, qualification, or performance proves insufficient for the design, contradicting the near-term fuel workaround.",
+      "Aalo is forced to depend on HALEU earlier than expected because LEU fuel supply, qualification, or performance proves insufficient for the design, contradicting the near-term fuel workaround.",
       "For LEU, if domestic enrichment expansion stalls through 2026-2028 or the stock reprices in a way that makes the long-dated put structure unattractive versus implied downside, the current bullish fuel-security framing loses force."
     ],
     "schema_version": 1,
@@ -53699,7 +53699,7 @@ const dashboardData = {
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Grepper\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
+    "last_main_idea": "Grepr\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
     "last_episode_title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-16",
@@ -54934,7 +54934,7 @@ const dashboardData = {
     "id": 542,
     "name": "Jad Naous",
     "slug": "jad-naous",
-    "bio": "CEO of Grepper and a systems/security engineer with prior experience at AppDynamics. He argues for AI in infrastructure through telemetry reduction and change-detection-driven troubleshooting.",
+    "bio": "CEO of Grepr and a systems/security engineer with prior experience at AppDynamics. He argues for AI in infrastructure through telemetry reduction and change-detection-driven troubleshooting.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -54949,7 +54949,7 @@ const dashboardData = {
     "last_episode_date": "2026-10-16",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "Grepper\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
+    "last_main_idea": "Grepr\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-16 \u2022 AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
     "last_proof_snippet": "The world that the AI lives in is all digital, and this is the actual world, and my most things are not necessarily the same. When we started doing AI for coding, it was autocomplete. Nobody really knew to what extent you can actually build",
     "supporting_takeaway": "Jad Naous argues that writing software and running software are 'two very different problems,' with operations much harder because of hidden state and failure complexity.",
