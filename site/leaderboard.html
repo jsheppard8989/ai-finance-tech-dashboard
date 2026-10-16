@@ -53,6 +53,9 @@
         var cls = b.pnl_usd > 0 ? 'up' : (b.pnl_usd < 0 ? 'down' : '');
         var p = b.position || {};
         var pos = p.side === 'flat' ? 'Flat (cash)' : (p.ticker ? esc(p.ticker) + ' ' + esc(p.side || '') : '—');
+        var pr = p.reason || null;
+        if (pr && pr.why) pos += '<div class="trade">' + esc(pr.why) + (pr.stop ? ' · Stop: ' + esc(pr.stop) : '') +
+          (pr.target ? ' · Target: ' + esc(pr.target) : '') + (pr.wrong_if ? ' · Wrong if: ' + esc(pr.wrong_if) : '') + '</div>';
         var trades = (b.today_trades || []).map(function (t) {
           return '<div class="trade">' + esc(t.time_ct || '') + ' ' + esc(t.action || '') + ' ' + esc(t.ticker || '') +
             (t.fill != null ? ' @ ' + esc(t.fill) : '') + (t.reason ? ' · ' + esc(t.reason) : '') + '</div>';
