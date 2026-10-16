@@ -27,8 +27,6 @@ class DebateHistory1015Tests(unittest.TestCase):
 
     def test_page_does_not_promise_new_contract(self):
         h = (SITE / "debait.html").read_text(encoding="utf-8")
-        # Fix 3 (Oct 16): the one approved pause note is allowed; no other "paused" wording.
-        h = h.replace("Weekly contract paused since Sep 4.", "")
         for phrase in ("No newer contract has been posted yet", "weekly pundit episode",
                        "Regenerate after contract changes", "paused"):
             self.assertNotIn(phrase, h)
