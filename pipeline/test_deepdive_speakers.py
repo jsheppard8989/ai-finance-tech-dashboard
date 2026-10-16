@@ -70,9 +70,9 @@ J Mintzmyer: "And a third quote that is also reasonably long."''',
             "overview": "This is a sufficiently long overview with enough content to pass the length check for validation and contains meaningful content about the topic.",
             "investment_thesis": "This is a sufficiently long investment thesis to pass validation and explains the investment case clearly.",
             "falsification_tracks": [
-                "If tanker rates fall below $50,000 per day by Q2 2027, the thesis would be invalidated",
-                "If China reduces crude imports by more than 15% this year, demand would collapse",
-                "If new VLCC deliveries exceed 50 ships in 2027, supply would overwhelm demand"
+                "If Baltic Exchange VLCC rates fall below $50,000 per day by Q2 2027, the thesis would be invalidated",
+                "If China customs data show crude imports down more than 15% by Dec 31, 2026, demand would collapse",
+                "If Clarksons Research counts more than 50 VLCC deliveries by end of 2027, supply would overwhelm demand"
             ],
         }
         ok, reason = deep_dive_structural_ok(content)
@@ -88,9 +88,9 @@ Patrick O'Shaughnessy: "Another named quote with substantial content."''',
             "overview": "This is a sufficiently long overview with enough content to pass the length check for validation and contains meaningful content about the topic.",
             "investment_thesis": "This is a sufficiently long investment thesis to pass validation and explains the investment case clearly.",
             "falsification_tracks": [
-                "If the Federal Reserve cuts rates by more than 100bps, the thesis would need revision",
-                "If inflation exceeds 5% by end of year, the market outlook changes significantly",
-                "If earnings growth falls below 10% for the sector, valuations become stretched"
+                "If the FOMC cuts rates by more than 100bps by Jun 30, 2027, the thesis would need revision",
+                "If BLS CPI inflation exceeds 5% by Dec 2026, the market outlook changes significantly",
+                "If S&P sector earnings growth falls below 10% in Q4 2026 results, valuations become stretched"
             ],
         }
         ok, reason = deep_dive_structural_ok(content)
