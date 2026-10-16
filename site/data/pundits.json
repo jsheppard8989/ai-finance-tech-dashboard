@@ -998,7 +998,7 @@
     "id": 541,
     "name": "Yasir Arafat",
     "slug": "yasir-arafat",
-    "bio": "Co-founder and chief technology officer of Alo Atomics. He argues nuclear power must be mass-manufactured for AI-era demand and says Alo can scale costs down while avoiding near-term HALEU dependence.",
+    "bio": "Co-founder and chief technology officer of Aalo Atomics. He argues nuclear power must be mass-manufactured for AI-era demand and says Aalo can scale costs down while avoiding near-term HALEU dependence.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -1013,10 +1013,10 @@
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "Alo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
+    "last_main_idea": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-15 \u2022 MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
     "last_proof_snippet": "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization. That was",
-    "supporting_takeaway": "Yasir Arafat said Alo Atomics wants to move from one-off reactors to 100 reactors per year from its first factory, implying about 1 GW/year of capacity.",
+    "supporting_takeaway": "Yasir Arafat said Aalo Atomics wants to move from one-off reactors to 100 reactors per year from its first factory, implying about 1 GW/year of capacity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -8156,9 +8156,9 @@
   },
   {
     "id": 377,
-    "name": "Joshua Ahoyom",
+    "name": "Joshua Achiam",
     "slug": "joshua-ahoyom",
-    "bio": "Joshua Ahoyom is recognized for his thought leadership in AI and its implications for the future. As the Chief Futurist at Open AI, he has been instrumental in shaping discussions around the advancement of artificial general intelligence (AGI) and its impact on society.",
+    "bio": "Joshua Achiam is recognized for his thought leadership in AI and its implications for the future. As the Chief Futurist at OpenAI, he has been instrumental in shaping discussions around the advancement of artificial general intelligence (AGI) and its impact on society.",
     "known_for": "His insights on the subtle arrival of AGI and its profound implications on cybersecurity, state actors, and the future of technology.",
     "net_worth_usd": 150000000.0,
     "net_worth_source": "https://www.si.com/fannation/boxing/anthony-joshua-net-worth",
@@ -8183,24 +8183,24 @@
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Joshua Ahoyom",
+      "page_title": "Joshua Achiam",
       "fetched_at": "2026-08-05T03:03:28.571993+00:00",
-      "cliff_notes": "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks. His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology.",
+      "cliff_notes": "Joshua Achiam has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at OpenAI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Achiam's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks. His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving OpenAI, his insights will continue to shape the conversation around AI's role in society and technology.",
       "derived": {
-        "current_role": "Chief Futurist at Open AI"
+        "current_role": "Chief Futurist at OpenAI"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks.",
-        "His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology."
+        "Joshua Achiam has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at OpenAI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Achiam's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks.",
+        "His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving OpenAI, his insights will continue to shape the conversation around AI's role in society and technology."
       ],
       "sections": [
         {
           "heading": "Artificial General Intelligence",
-          "body": "Ahoyom discusses the subtle arrival of AGI and how it has already integrated into various aspects of society without much public awareness."
+          "body": "Achiam discusses the subtle arrival of AGI and how it has already integrated into various aspects of society without much public awareness."
         },
         {
           "heading": "Cybersecurity",
@@ -8208,7 +8208,7 @@
         },
         {
           "heading": "State Actors and AI",
-          "body": "Ahoyom emphasizes the role of state actors in the development and deployment of AI technologies and their potential geopolitical implications."
+          "body": "Achiam emphasizes the role of state actors in the development and deployment of AI technologies and their potential geopolitical implications."
         },
         {
           "heading": "Recursive Self-Improvement",
@@ -8216,7 +8216,7 @@
         },
         {
           "heading": "Future of Technology",
-          "body": "Ahoyom posits that the future may feel more gradual and stranger than most people expect, with AI playing a central role in shaping these changes."
+          "body": "Achiam posits that the future may feel more gradual and stranger than most people expect, with AI playing a central role in shaping these changes."
         }
       ]
     },

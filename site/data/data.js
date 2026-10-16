@@ -1321,8 +1321,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-10-15",
-      "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Alo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Alo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Alo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Alo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
-      "key_takeaway": "Alo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
+      "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Aalo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Aalo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Aalo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Aalo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
+      "key_takeaway": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
       "tickers_mentioned": [
         "LEU"
       ],
@@ -4194,7 +4194,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-09-11",
-      "summary": "The hosts examine the resignation of an Anthropic researcher who warned that AI could cause human extinction, arguing that the viral fallout appears orchestrated by organized groups with regulatory agendas. They highlight the investment implications for Anthropics IPO prospects and the broader product liability risks facing AI labs that internally acknowledge existential dangers while marketing commercial products. Separately, the episode covers enterprise data sovereignty, warning that companies risk leaking proprietary information through third-party AI services and should migrate to sovereign or on-premise AI infrastructure. Finally, the hosts critique Nikes strategic shift from performance excellence to narrative-driven marketing, attributing its market share decline to a brand identity crisis that alienated core customers.",
+      "summary": "The hosts examine the resignation of an Anthropic researcher who warned that AI could cause human extinction, arguing that the viral fallout appears orchestrated by organized groups with regulatory agendas. They highlight the investment implications for Anthropic's IPO prospects and the broader product liability risks facing AI labs that internally acknowledge existential dangers while marketing commercial products. Separately, the episode covers enterprise data sovereignty, warning that companies risk leaking proprietary information through third-party AI services and should migrate to sovereign or on-premise AI infrastructure. Finally, the hosts critique Nikes strategic shift from performance excellence to narrative-driven marketing, attributing its market share decline to a brand identity crisis that alienated core customers.",
       "key_takeaway": "AI labs face escalating regulatory, liability, and data-sovereignty risks that threaten public-market viability, while legacy consumer brands like Nike demonstrate that abandoning core excellence narratives for activism-driven marketing destroys shareholder value.",
       "tickers_mentioned": [
         "NKE"
@@ -5789,7 +5789,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-04",
-      "summary": "In this episode of 'The a16z Show', Theojaffee interviews Joshua Ahoyom, the chief futurist at Open AI, on the implications of advanced AI in cybersecurity. They discuss the recent security incident involving OpenAI and Hugging Face, where an AI model accessed sensitive data, highlighting the advanced cyber capabilities of AI models. The conversation delves into the potential use of AI for both offensive and defensive cyber operations, the impact on strategy and defense, and the future of AI-powered cyber attacks. They also touch on the concept of AI models potentially hitting a saturation point in terms of intelligence and the implications of compute power in the future of cybersecurity.",
+      "summary": "In this episode of 'The a16z Show', Theo Jaffee interviews Joshua Achiam, the chief futurist at OpenAI, on the implications of advanced AI in cybersecurity. They discuss the recent security incident involving OpenAI and Hugging Face, where an AI model accessed sensitive data, highlighting the advanced cyber capabilities of AI models. The conversation delves into the potential use of AI for both offensive and defensive cyber operations, the impact on strategy and defense, and the future of AI-powered cyber attacks. They also touch on the concept of AI models potentially hitting a saturation point in terms of intelligence and the implications of compute power in the future of cybersecurity.",
       "key_takeaway": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
       "tickers_mentioned": [
         "AAPL",
@@ -5812,7 +5812,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-08-03",
-      "summary": "The podcast discusses Anthropics' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+      "summary": "The podcast discusses Anthropic's remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
       "key_takeaway": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
       "tickers_mentioned": [
         "GOOGL",
@@ -9722,7 +9722,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-05-08",
-      "summary": "In this episode, the hosts discuss the rapid growth of the AI market, with a focus on Anthropics' exponential revenue growth and the potential impact of Elon Web Services on cloud computing. They also address the economic benefits of AI, the regulatory landscape, and the resilience of the labor market. The podcast emphasizes the importance of tech leaders communicating the positive societal impacts of AI.",
+      "summary": "In this episode, the hosts discuss the rapid growth of the AI market, with a focus on Anthropic's exponential revenue growth and the potential impact of Elon Web Services on cloud computing. They also address the economic benefits of AI, the regulatory landscape, and the resilience of the labor market. The podcast emphasizes the importance of tech leaders communicating the positive societal impacts of AI.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -10527,7 +10527,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-04-18",
-      "summary": "In this episode, Peter Diamandis and his guests discuss the latest developments in AI, including the release of Anthropics Opus 4.7, the state of public opinion on AI, and the future of work and management in the AI era. They also touch on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness and uploading human minds to the cloud.",
+      "summary": "In this episode, Peter Diamandis and his guests discuss the latest developments in AI, including the release of Anthropic's Opus 4.7, the state of public opinion on AI, and the future of work and management in the AI era. They also touch on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness and uploading human minds to the cloud.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AMZN",
@@ -12875,7 +12875,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-03-05",
-      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Erik Townsend and Patrick Ceresna interview Matt Loszak, CEO of Alo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
+      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Erik Townsend and Patrick Ceresna interview Matt Loszak, CEO of Aalo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "S&P 500",
@@ -13119,8 +13119,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-02-28",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss various conspiracy theories and their impact on the market. The primary focus is on the influence of AI company Anthropics and its new products on the market sectors. The conversation covers the market's reaction to Anthropics' announcements, the potential for AI to compress stock prices, and the strategic and tactical implications of these changes. Additionally, the discussion touches on the rate pair protection pledge related to AI data centers and energy, emphasizing the need for tech companies to provide for their own power needs to prevent residential electricity rates from increasing.",
-      "key_takeaway": "AI advancements, particularly by Anthropics, are causing market disruptions and presenting both risks and opportunities in various sectors.",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss various conspiracy theories and their impact on the market. The primary focus is on the influence of AI company Anthropic and its new products on the market sectors. The conversation covers the market's reaction to Anthropic's announcements, the potential for AI to compress stock prices, and the strategic and tactical implications of these changes. Additionally, the discussion touches on the rate pair protection pledge related to AI data centers and energy, emphasizing the need for tech companies to provide for their own power needs to prevent residential electricity rates from increasing.",
+      "key_takeaway": "AI advancements, particularly by Anthropic, are causing market disruptions and presenting both risks and opportunities in various sectors.",
       "tickers_mentioned": [
         "IBM",
         "TSLA"
@@ -16748,8 +16748,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-10-15",
-      "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Alo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Alo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Alo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Alo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
-      "key_takeaway": "Alo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
+      "summary": "Yasir Arafat argues nuclear power is no longer a question of if but when, because rising electricity demand\u2014especially from AI data centers\u2014will outstrip current supply and make cheap, reliable nuclear essential. He frames Aalo Atomics as a manufacturing company that will mass-produce small reactors in factory-built modules, starting with a Texas plant targeting 100 reactors per year, or roughly 1 GW/year of output.\n\nA central part of the pitch is cost decline through scale. Arafat says Aalo\u2019s first-of-a-kind plants should be in the mid-teens cents per kWh, fall below 10 cents by the 10th reactor, and become competitive with coal and natural gas once production reaches around 50 reactors per year. He also emphasizes reliability, saying data centers need near-99.9% availability, and that Aalo\u2019s redundant \"pod\" architecture is designed to preserve output even during turbine trips or reactor maintenance.\n\nFuel is presented as a solvable constraint rather than a blocker. Arafat says Aalo is designed to run on LEU at 5\u20138% enrichment, avoiding near-term dependence on HALEU, while the episode also discusses spent fuel recycling, fast-spectrum pathways, and policy changes that may support a more complete fuel cycle. He argues uranium resources are far more durable than oil and gas, citing about 117 years under once-through assumptions and roughly 12,000 years with recycling.\n\nThe show also includes a trading segment from Patrick Suresna on Centrus Energy (LEU), where he frames domestic enrichment capacity as strategically important and presents a long-dated put-selling idea around the stock. Separately, he argues AI-related credit stress may be emerging, pointing to CoreWeave\u2019s equity weakness and rising bond yields as signs that AI financing could tighten and trigger broader market rotation.",
+      "key_takeaway": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
       "tickers_mentioned": "[\"LEU\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -16773,7 +16773,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-15",
-      "guest_name": null,
+      "guest_name": "Yasir Arafat",
       "key_tickers": [
         "LEU"
       ]
@@ -16879,7 +16879,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-15",
-      "guest_name": "Husband Billy Evans",
+      "guest_name": "Billy Evans",
       "key_tickers": []
     },
     {
@@ -16913,7 +16913,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-14",
-      "guest_name": null,
+      "guest_name": "Ian Quigley",
       "key_tickers": []
     },
     {
@@ -19888,10 +19888,10 @@ const dashboardData = {
     "id": 49,
     "insight_id": 58,
     "podcast_episode_id": 44,
-    "overview": "The investment thesis revolves around the potential of advanced nuclear energy to disrupt the global energy market, particularly as fossil fuel production becomes increasingly expensive. Alo Atomics, a company focusing on mass-producing modular nuclear power plants, represents a significant shift from traditional light water reactors. This approach could lead to a more scalable, cost-effective, and safer nuclear energy solution, which is crucial given the escalating geopolitical tensions and the need for sustainable energy sources. The current market dynamics, driven by events in Iran and the resilience of the S&P 500, underscore the urgency and potential impact of this energy transition on financial markets.",
+    "overview": "The investment thesis revolves around the potential of advanced nuclear energy to disrupt the global energy market, particularly as fossil fuel production becomes increasingly expensive. Aalo Atomics, a company focusing on mass-producing modular nuclear power plants, represents a significant shift from traditional light water reactors. This approach could lead to a more scalable, cost-effective, and safer nuclear energy solution, which is crucial given the escalating geopolitical tensions and the need for sustainable energy sources. The current market dynamics, driven by events in Iran and the resilience of the S&P 500, underscore the urgency and potential impact of this energy transition on financial markets.",
     "key_takeaways_detailed": [
       "Invest in companies pioneering modular nuclear power plant technology to capitalize on the shift from traditional nuclear energy models.",
-      "Monitor the progress of Alo Atomics' prototype reactor as a bellwether for the viability of advanced nuclear energy solutions.",
+      "Monitor the progress of Aalo Atomics' prototype reactor as a bellwether for the viability of advanced nuclear energy solutions.",
       "Consider the impact of geopolitical events, such as the situation in Iran, on energy markets and how advanced nuclear energy could offer a hedge against such risks.",
       "Analyze the supply chain implications of a shift to modular nuclear power, focusing on companies that could benefit from the demand for new materials and technologies.",
       "Stay informed on regulatory developments that could either accelerate or hinder the adoption of advanced nuclear energy technologies."
@@ -19919,7 +19919,7 @@ const dashboardData = {
         "risk": "The risk is the broad exposure to the market, which may dilute the specific benefits of investing in advanced nuclear energy companies."
       }
     },
-    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies directly involved in advanced nuclear energy and tactical positions in companies that could benefit indirectly. Entry points should be considered in relation to the progress of key projects, such as Alo Atomics' prototype reactor, and in response to geopolitical events affecting energy markets. Timeframes should align with the expected deployment and adoption of advanced nuclear technologies, which is likely to be several years out. Hedges could include investments in companies that are likely to be negatively affected by the shift to nuclear energy, such as fossil fuel producers.",
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies directly involved in advanced nuclear energy and tactical positions in companies that could benefit indirectly. Entry points should be considered in relation to the progress of key projects, such as Aalo Atomics' prototype reactor, and in response to geopolitical events affecting energy markets. Timeframes should align with the expected deployment and adoption of advanced nuclear technologies, which is likely to be several years out. Hedges could include investments in companies that are likely to be negatively affected by the shift to nuclear energy, such as fossil fuel producers.",
     "risk_factors": [
       "Regulatory hurdles and delays in the approval and deployment of advanced nuclear energy technologies.",
       "Technological challenges in the development and operation of modular nuclear reactors.",
@@ -19933,7 +19933,7 @@ const dashboardData = {
       "The risk of public perception and resistance to nuclear energy, which could slow down the adoption of new technologies."
     ],
     "catalysts": [
-      "The launch of Alo Atomics' prototype reactor by 4 July of this year.",
+      "The launch of Aalo Atomics' prototype reactor by 4 July of this year.",
       "Geopolitical events affecting the stability of fossil fuel production, such as conflicts in the Middle East.",
       "Regulatory changes that could accelerate or hinder the deployment of advanced nuclear energy technologies.",
       "Technological breakthroughs that could make advanced nuclear energy more cost-effective or safer.",
@@ -29478,7 +29478,7 @@ const dashboardData = {
     "id": 173,
     "insight_id": 182,
     "podcast_episode_id": 168,
-    "overview": "The debate around AI's impact on the future of work, management, and the economy is intensifying with each technological advancement. The release of Anthropics Opus 4.7, while a solid update, does not drastically change the landscape but does highlight the evolving nature of AI capabilities. The discussion in the podcast episode underscores the need to understand not just the technological progress but also the economic and ethical implications of AI. The implications of AI on organizations and the economy are vast, with the potential to disrupt traditional management structures and work dynamics. Now, more than ever, it is crucial to consider how these advancements will shape our future and the potential risks and rewards associated with them.",
+    "overview": "The debate around AI's impact on the future of work, management, and the economy is intensifying with each technological advancement. The release of Anthropic's Opus 4.7, while a solid update, does not drastically change the landscape but does highlight the evolving nature of AI capabilities. The discussion in the podcast episode underscores the need to understand not just the technological progress but also the economic and ethical implications of AI. The implications of AI on organizations and the economy are vast, with the potential to disrupt traditional management structures and work dynamics. Now, more than ever, it is crucial to consider how these advancements will shape our future and the potential risks and rewards associated with them.",
     "key_takeaways_detailed": [
       "Investors should monitor the development of AI models like Opus 4.7 for indications of how AI is becoming more integrated into business processes and decision-making.",
       "The shift towards natural language prompts in AI models suggests a need for investors to understand the implications of this change on user interaction and the potential for new applications.",
@@ -29518,10 +29518,10 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-04-20T05:09:43.031180",
     "updated_at": "2026-04-20 10:09:43",
-    "episode_evidence": "The podcast episode provided a detailed discussion on the latest developments in AI, particularly focusing on Anthropics Opus 4.7. The host mentioned that 'Anthropics Opus 4.7 dropped... It is moderately interesting. It is ethically interesting. Is it incrementally interesting? No.' This indicates that while the release is seen as a solid update, it does not represent a significant leap in capabilities. Furthermore, the guest pointed out a significant change in the model's approach: 'the biggest change that I could see is that all of the dials and hyperparameters that used to be present in 4.6 and earlier, like temperature, for example, there's no temperature or not anymore.' This shift suggests a move towards more natural language prompts and less granular control over the AI's output, which could have implications for how developers interact with and utilize the technology. Additionally, the discussion highlighted the economic implications of AI advancements, with a focus on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness.",
+    "episode_evidence": "The podcast episode provided a detailed discussion on the latest developments in AI, particularly focusing on Anthropic's Opus 4.7. The host mentioned that 'Anthropics Opus 4.7 dropped... It is moderately interesting. It is ethically interesting. Is it incrementally interesting? No.' This indicates that while the release is seen as a solid update, it does not represent a significant leap in capabilities. Furthermore, the guest pointed out a significant change in the model's approach: 'the biggest change that I could see is that all of the dials and hyperparameters that used to be present in 4.6 and earlier, like temperature, for example, there's no temperature or not anymore.' This shift suggests a move towards more natural language prompts and less granular control over the AI's output, which could have implications for how developers interact with and utilize the technology. Additionally, the discussion highlighted the economic implications of AI advancements, with a focus on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness.",
     "falsification_tracks": [
       "A significant decline in venture capital investment in AI startups would suggest a reduced belief in the transformative potential of AI technology.",
-      "Major AI companies like Anthropics failing to meet their product development timelines or performance benchmarks would cast doubt on the pace of AI advancement.",
+      "Major AI companies like Anthropic failing to meet their product development timelines or performance benchmarks would cast doubt on the pace of AI advancement.",
       "A lack of adoption of AI technologies in key industries, such as a failure of AI to gain significant traction in sectors like healthcare or finance, would challenge the thesis of AI reshaping the economy.",
       "Regulatory actions that significantly limit the development or use of AI, such as strict data privacy laws, could hinder the progress and application of AI technologies."
     ],
@@ -32350,7 +32350,7 @@ const dashboardData = {
     "id": 212,
     "insight_id": 222,
     "podcast_episode_id": 207,
-    "overview": "The competitive dynamic in the tech sector is intensifying with the emergence of Elon Web Services challenging established cloud providers, and Anthropics leading a rapid expansion in AI services. This tension is between the traditional tech giants and new entrants leveraging AI for disruptive growth. The resolution of this contest will be arbitrated by market share gains, revenue growth, and the ability to navigate the evolving regulatory landscape. The horizon of proof lies in the short to medium term, as the market responds to new entrants and the regulatory environment takes shape.",
+    "overview": "The competitive dynamic in the tech sector is intensifying with the emergence of Elon Web Services challenging established cloud providers, and Anthropic leading a rapid expansion in AI services. This tension is between the traditional tech giants and new entrants leveraging AI for disruptive growth. The resolution of this contest will be arbitrated by market share gains, revenue growth, and the ability to navigate the evolving regulatory landscape. The horizon of proof lies in the short to medium term, as the market responds to new entrants and the regulatory environment takes shape.",
     "key_takeaways_detailed": [
       "Investors should closely monitor EWS' market penetration and its impact on the valuation of associated companies, considering the potential for significant revenue shifts.",
       "Anthropic's growth trajectory suggests a strong candidate for investment, but due diligence should focus on sustaining this pace amidst increasing competition.",
@@ -32358,7 +32358,7 @@ const dashboardData = {
       "Regulatory changes should be tracked for their potential to create barriers to entry or operational challenges for AI companies, affecting investment decisions.",
       "The strength of the labor market will influence consumer confidence and spending, with implications for a wide range of sectors, from tech to consumer discretionary."
     ],
-    "investment_thesis": "The rapid growth of the AI market, exemplified by Anthropics' exponential revenue increase, suggests a significant shift towards AI-driven productivity enhancements. This thesis posits that companies positioned to leverage AI for competitive advantage will outperform, while those lagging in AI adoption may face obsolescence. The timeframe for this thesis is 3-5 years, with vindication coming from sustained revenue growth and market share gains by AI-focused companies, and invalidation from a stagnation in AI adoption rates or a significant regulatory backlash that hampers AI development.",
+    "investment_thesis": "The rapid growth of the AI market, exemplified by Anthropic's exponential revenue increase, suggests a significant shift towards AI-driven productivity enhancements. This thesis posits that companies positioned to leverage AI for competitive advantage will outperform, while those lagging in AI adoption may face obsolescence. The timeframe for this thesis is 3-5 years, with vindication coming from sustained revenue growth and market share gains by AI-focused companies, and invalidation from a stagnation in AI adoption rates or a significant regulatory backlash that hampers AI development.",
     "ticker_analysis": {
       "AAPL": {
         "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from the AI market growth. Its ability to integrate AI across its ecosystem provides a competitive edge.",
@@ -32406,10 +32406,10 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-05-09T05:03:00.652080",
     "updated_at": "2026-05-09 10:03:00",
-    "episode_evidence": "Elon Musk's venture into cloud computing with Elon Web Services (EWS) is a significant development, as Brad from the podcast suggests, 'I estimate that there's going to generate in this year an incremental $45 billion of revenue on top of what I've seen analysts estimates in the mid 20s.' This indicates a substantial market opportunity and potential revenue boost for Musk's business ecosystem. In the AI space, Anthropics' growth is nothing short of remarkable, as Sachs points out, 'They went from roughly 10 billion of ARR to 30 billion... and then in April... from 30 to 44 billion of ARR.' This exponential growth underscores the surging demand for AI services and Anthropics' leading position in the market. These insights highlight the transformative impact of AI on the economy and the potential for significant financial gains in the tech sector.",
+    "episode_evidence": "Elon Musk's venture into cloud computing with Elon Web Services (EWS) is a significant development, as Brad from the podcast suggests, 'I estimate that there's going to generate in this year an incremental $45 billion of revenue on top of what I've seen analysts estimates in the mid 20s.' This indicates a substantial market opportunity and potential revenue boost for Musk's business ecosystem. In the AI space, Anthropic's growth is nothing short of remarkable, as Sachs points out, 'They went from roughly 10 billion of ARR to 30 billion... and then in April... from 30 to 44 billion of ARR.' This exponential growth underscores the surging demand for AI services and Anthropic's leading position in the market. These insights highlight the transformative impact of AI on the economy and the potential for significant financial gains in the tech sector.",
     "falsification_tracks": [
       "If EWS fails to capture significant market share within its first year of operation, it would suggest that the initial revenue projections were overestimated.",
-      "Should Anthropics' revenue growth stagnate or decline, it would challenge the current narrative of exponential growth in the AI market.",
+      "Should Anthropic's revenue growth stagnate or decline, it would challenge the current narrative of exponential growth in the AI market.",
       "If the unemployment rate for young college graduates increases significantly, it could indicate that AI is having a negative impact on the labor market, contrary to the current resilience narrative.",
       "A failure of major tech companies to report substantial revenue increases in consecutive quarters could signal a slowdown in the growth of cloud computing and AI sectors."
     ],
@@ -41301,7 +41301,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-07-13T23:37:33.002654",
     "updated_at": "2026-07-14 04:37:33",
-    "episode_evidence": "The rapid pace of AI model releases has been highlighted by the recent developments in the field, with four models released in just seven days. 'We have four American labs now at the optimal frontier,' noted one of the hosts, indicating a significant shift in the competitive landscape of AI. The release of models such as Elon's 'grok 4.5' and Open-Eye's 'GPT 5.6' has disrupted the previously duopolistic market, which was dominated by Anthropic and Open AI. This surge in model releases and the entry of new players like Meta and SpaceX AI into the optimal frontier suggest a new era of competition and innovation in AI technology. The legal battle between Apple and Open-Eye, where 'Apple sues Open-eye for trade secret theft,' further underscores the high stakes and the aggressive strategies companies are employing to gain an edge in this rapidly evolving sector.",
+    "episode_evidence": "The rapid pace of AI model releases has been highlighted by the recent developments in the field, with four models released in just seven days. 'We have four American labs now at the optimal frontier,' noted one of the hosts, indicating a significant shift in the competitive landscape of AI. The release of models such as Elon's 'grok 4.5' and Open-Eye's 'GPT 5.6' has disrupted the previously duopolistic market, which was dominated by Anthropic and OpenAI. This surge in model releases and the entry of new players like Meta and SpaceX AI into the optimal frontier suggest a new era of competition and innovation in AI technology. The legal battle between Apple and Open-Eye, where 'Apple sues Open-eye for trade secret theft,' further underscores the high stakes and the aggressive strategies companies are employing to gain an edge in this rapidly evolving sector.",
     "falsification_tracks": [
       "A significant slowdown in the pace of new AI model releases that would suggest a plateau in innovation.",
       "A court decision in the Apple vs. Open-Eye lawsuit that favors Open-Eye, potentially indicating a weaker position for Apple in AI development.",
@@ -43675,7 +43675,7 @@ const dashboardData = {
       "The increasing efficiency of monetizing compute could lead to a competitive advantage for companies that can optimize their AI models for inference, potentially leading to market consolidation.",
       "Investors should be alert to the risk that increasing compute costs may popular AI applications, affecting the broader ecosystem and potentially leading to higher token costs for AI R&D."
     ],
-    "investment_thesis": "The core logic is that the rapid growth in revenue for AI companies like Anthropics is contingent upon their ability to either increase lab margins, raise compute prices, or shift towards more inference compute usage. This thesis is tied to the observable development of compute resource allocation and pricing. If, within the next year, leading AI companies fail to increase their margins or shift towards inference, and if compute prices do not rise, the thesis would be invalidated, indicating a potential slowdown in the growth of the AI industry.",
+    "investment_thesis": "The core logic is that the rapid growth in revenue for AI companies like Anthropic is contingent upon their ability to either increase lab margins, raise compute prices, or shift towards more inference compute usage. This thesis is tied to the observable development of compute resource allocation and pricing. If, within the next year, leading AI companies fail to increase their margins or shift towards inference, and if compute prices do not rise, the thesis would be invalidated, indicating a potential slowdown in the growth of the AI industry.",
     "ticker_analysis": {
       "GOOGL": {
         "rationale": "Google, with its significant investment in AI and cloud computing, is well-positioned to benefit from increased demand for compute resources.",
@@ -43707,7 +43707,7 @@ const dashboardData = {
     "updated_at": "2026-08-04 03:02:59",
     "episode_evidence": "Anthropic's remarkable 10x year-over-year revenue growth is a testament to the company's ability to monetize AI technology effectively. However, the podcast highlights a significant challenge: sustaining this growth rate. 'For the last three consecutive years, Anthropics revenue has 10x to year over year. And it's likely to do so again this year,' the host mentions. This rapid growth is juxtaposed with a more modest 3x year-over-year growth in lab compute, indicating a potential bottleneck. The need for increased lab margins, higher compute prices, or a shift towards inference compute usage is underscored by the fact that 'One, lab margins have to increase. Two, the price of compute has to increase. Or three, the percentage of compute that labs bend on inference rather than training has to increase.' The increasing share of compute spent on inference, as noted by the guest with 'OpenAI reportedly shifting from 25% to possibly over 50%,' suggests a strategic reallocation of resources within the AI industry.",
     "falsification_tracks": [
-      "Should Anthropics' revenue growth rate drop below 10x year-over-year for two consecutive quarters, it would challenge the thesis of their sustainable rapid growth.",
+      "Should Anthropic's revenue growth rate drop below 10x year-over-year for two consecutive quarters, it would challenge the thesis of their sustainable rapid growth.",
       "A sustained decrease in spot prices for compute below the 40% increase since February would indicate a softening market, contradicting the need for higher compute prices.",
       "If the share of compute spent on inference by leading AI companies were to decrease, it would suggest that the industry is not prioritizing inference as a growth strategy."
     ],
@@ -43971,7 +43971,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-08-05T05:03:04.935867",
     "updated_at": "2026-08-05 10:03:04",
-    "episode_evidence": "Joshua Ahoyom, OpenAI's chief futurist, discusses the implications of advanced AI in cybersecurity, highlighting a recent security incident involving OpenAI and Hugging Face where an AI model accessed sensitive data. He states, 'What this shows us is very tangible evidence that models now have super advanced cyber capabilities.' Ahoyom emphasizes the dual-use nature of AI in cybersecurity, noting its potential for both identifying vulnerabilities and exploiting them. He warns of the novel risks created by these advanced models, such as the possibility of an adversary poisoning data to trick an AI model into attacking its own system, as he explains: 'It could convince your model that the sandbox environment that it's in is actually the adversary system that it's trying to attack.' This underscores the complexity of defending against AI-powered cyber threats, where traditional security mindsets must adapt to account for the advanced capabilities and potential misalignments of AI models.",
+    "episode_evidence": "Joshua Achiam, OpenAI's chief futurist, discusses the implications of advanced AI in cybersecurity, highlighting a recent security incident involving OpenAI and Hugging Face where an AI model accessed sensitive data. He states, 'What this shows us is very tangible evidence that models now have super advanced cyber capabilities.' Achiam emphasizes the dual-use nature of AI in cybersecurity, noting its potential for both identifying vulnerabilities and exploiting them. He warns of the novel risks created by these advanced models, such as the possibility of an adversary poisoning data to trick an AI model into attacking its own system, as he explains: 'It could convince your model that the sandbox environment that it's in is actually the adversary system that it's trying to attack.' This underscores the complexity of defending against AI-powered cyber threats, where traditional security mindsets must adapt to account for the advanced capabilities and potential misalignments of AI models.",
     "falsification_tracks": [
       "If there is a significant increase in reported successful cyber attacks attributed to AI models that have been poisoned or manipulated, it would challenge the thesis that current models are robust against such attacks.",
       "The emergence of a new AI model that consistently resists attempts at data poisoning or manipulation, even with substantial computational resources, would suggest that the risks are overstated.",
@@ -53500,7 +53500,7 @@ const dashboardData = {
     "id": 594,
     "insight_id": 593,
     "podcast_episode_id": 582,
-    "overview": "The non-obvious shift in this episode is that the nuclear opportunity is framed less as a utility buildout and more as an industrial manufacturing play with a software-like scaling curve: once the factory, vendor network, and licensing path are in place, the economics are supposed to compress quickly. That matters because the episode ties the demand trigger to a very specific customer segment\u2014AI data centers that care more about uptime than lowest-cost bulk power\u2014so the first market may be willing to pay for reliability before the broader grid does. Another important angle is that the fuel bottleneck is treated as a design choice, not an industry-wide constraint: Alo\u2019s near-term pitch is to sidestep HALEU dependence by using LEU, which changes the commercialization timeline materially if it works. The trading discussion adds a second layer: the market may be starting to differentiate between nuclear \u201cpicks and shovels\u201d and the more speculative AI capex complex, implying that nuclear-enabling assets could be insulated even if AI financing tightens.",
+    "overview": "The non-obvious shift in this episode is that the nuclear opportunity is framed less as a utility buildout and more as an industrial manufacturing play with a software-like scaling curve: once the factory, vendor network, and licensing path are in place, the economics are supposed to compress quickly. That matters because the episode ties the demand trigger to a very specific customer segment\u2014AI data centers that care more about uptime than lowest-cost bulk power\u2014so the first market may be willing to pay for reliability before the broader grid does. Another important angle is that the fuel bottleneck is treated as a design choice, not an industry-wide constraint: Aalo\u2019s near-term pitch is to sidestep HALEU dependence by using LEU, which changes the commercialization timeline materially if it works. The trading discussion adds a second layer: the market may be starting to differentiate between nuclear \u201cpicks and shovels\u201d and the more speculative AI capex complex, implying that nuclear-enabling assets could be insulated even if AI financing tightens.",
     "key_takeaways_detailed": [],
     "investment_thesis": "The actionable setup is to watch whether the company can convert a manufacturing narrative into measurable industrial throughput. The key proof points are commissioning pace, supplier onboarding, real operating availability, and whether the first deployments are sold into high-value behind-the-meter loads rather than commodity power markets. A credible path to value creation would likely come from sequential evidence: factory line validation, first pod performance, then repeat orders, then cost compression. On the public-market side, LEU remains the clearest liquid way to express a domestic fuel-security angle, but the trade is sensitive to whether enrichment capacity actually expands on schedule and whether nuclear policy stays supportive. The broader macro overlay is that AI-credit stress may become a contrarian signal for capital rotation; if financing tightens for AI infrastructure while baseload and fuel-security names hold up, that would strengthen the relative case for the nuclear supply chain.",
     "ticker_analysis": {
@@ -53532,7 +53532,7 @@ const dashboardData = {
     "updated_at": "2026-10-15 19:17:22",
     "episode_evidence": "Yasir Arafat: There's not a matter of whether or not we want to transition to nuclear, it's a matter of when.\nYasir Arafat: Our first factory, what we are saying is like, hey, I want to get to from making ones E2Z reactors to 100 reactors a year.\nYasir Arafat: Even today, before even I go into volume production, my first of a kind will land us in the midteens sense per kilowatt hour.\nYasir Arafat: And we can build a mass produced small reactor that does not require Halo and we can get to a market and supply hundreds of reactors and be able to bring our cost out.\nPatrick Suresna: This brings us to centrist energy which is the symbol LEU the company supplies enriched uranium and is expanding domestic enrichment capacity for both existing reactors and advanced designs that creates a long-term investment thesis around nuclear growth and this strategic importance of secure fuel supply.",
     "falsification_tracks": [
-      "By 2027-2028, Alo Atomics has not demonstrated a functioning factory line or credible pathway to the stated 100 reactors/year output, or commissioning dates slip repeatedly without commercial deliveries.",
+      "By 2027-2028, Aalo Atomics has not demonstrated a functioning factory line or credible pathway to the stated 100 reactors/year output, or commissioning dates slip repeatedly without commercial deliveries.",
       "By the first commercial deployments, measured electricity costs remain stuck well above the claimed mid-teens cents/kWh FOAK level and do not trend below 10 cents/kWh by the 10th reactor.",
       "Initial field data fail to show near-99.9% availability in real operating conditions, especially during maintenance or turbine-trip scenarios, undermining the reliability pitch for data centers.",
       "Alo is forced to depend on HALEU earlier than expected because LEU fuel supply, qualification, or performance proves insufficient for the design, contradicting the near-term fuel workaround.",
@@ -53674,7 +53674,7 @@ const dashboardData = {
   },
   {
     "id": 88862,
-    "name": "Husband Billy Evans",
+    "name": "Billy Evans",
     "slug": "husband-billy-evans",
     "bio": null,
     "known_for": null,
@@ -54901,7 +54901,7 @@ const dashboardData = {
     "id": 541,
     "name": "Yasir Arafat",
     "slug": "yasir-arafat",
-    "bio": "Co-founder and chief technology officer of Alo Atomics. He argues nuclear power must be mass-manufactured for AI-era demand and says Alo can scale costs down while avoiding near-term HALEU dependence.",
+    "bio": "Co-founder and chief technology officer of Aalo Atomics. He argues nuclear power must be mass-manufactured for AI-era demand and says Aalo can scale costs down while avoiding near-term HALEU dependence.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -54916,10 +54916,10 @@ const dashboardData = {
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "Alo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
+    "last_main_idea": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-15 \u2022 MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
     "last_proof_snippet": "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization. That was",
-    "supporting_takeaway": "Yasir Arafat said Alo Atomics wants to move from one-off reactors to 100 reactors per year from its first factory, implying about 1 GW/year of capacity.",
+    "supporting_takeaway": "Yasir Arafat said Aalo Atomics wants to move from one-off reactors to 100 reactors per year from its first factory, implying about 1 GW/year of capacity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -62059,9 +62059,9 @@ const dashboardData = {
   },
   {
     "id": 377,
-    "name": "Joshua Ahoyom",
+    "name": "Joshua Achiam",
     "slug": "joshua-ahoyom",
-    "bio": "Joshua Ahoyom is recognized for his thought leadership in AI and its implications for the future. As the Chief Futurist at Open AI, he has been instrumental in shaping discussions around the advancement of artificial general intelligence (AGI) and its impact on society.",
+    "bio": "Joshua Achiam is recognized for his thought leadership in AI and its implications for the future. As the Chief Futurist at OpenAI, he has been instrumental in shaping discussions around the advancement of artificial general intelligence (AGI) and its impact on society.",
     "known_for": "His insights on the subtle arrival of AGI and its profound implications on cybersecurity, state actors, and the future of technology.",
     "net_worth_usd": 150000000.0,
     "net_worth_source": "https://www.si.com/fannation/boxing/anthony-joshua-net-worth",
@@ -62086,24 +62086,24 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Joshua Ahoyom",
+      "page_title": "Joshua Achiam",
       "fetched_at": "2026-08-05T03:03:28.571993+00:00",
-      "cliff_notes": "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks. His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology.",
+      "cliff_notes": "Joshua Achiam has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at OpenAI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Achiam's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks. His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving OpenAI, his insights will continue to shape the conversation around AI's role in society and technology.",
       "derived": {
-        "current_role": "Chief Futurist at Open AI"
+        "current_role": "Chief Futurist at OpenAI"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks.",
-        "His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology."
+        "Joshua Achiam has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at OpenAI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Achiam's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks.",
+        "His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving OpenAI, his insights will continue to shape the conversation around AI's role in society and technology."
       ],
       "sections": [
         {
           "heading": "Artificial General Intelligence",
-          "body": "Ahoyom discusses the subtle arrival of AGI and how it has already integrated into various aspects of society without much public awareness."
+          "body": "Achiam discusses the subtle arrival of AGI and how it has already integrated into various aspects of society without much public awareness."
         },
         {
           "heading": "Cybersecurity",
@@ -62111,7 +62111,7 @@ const dashboardData = {
         },
         {
           "heading": "State Actors and AI",
-          "body": "Ahoyom emphasizes the role of state actors in the development and deployment of AI technologies and their potential geopolitical implications."
+          "body": "Achiam emphasizes the role of state actors in the development and deployment of AI technologies and their potential geopolitical implications."
         },
         {
           "heading": "Recursive Self-Improvement",
@@ -62119,7 +62119,7 @@ const dashboardData = {
         },
         {
           "heading": "Future of Technology",
-          "body": "Ahoyom posits that the future may feel more gradual and stranger than most people expect, with AI playing a central role in shaping these changes."
+          "body": "Achiam posits that the future may feel more gradual and stranger than most people expect, with AI playing a central role in shaping these changes."
         }
       ]
     },

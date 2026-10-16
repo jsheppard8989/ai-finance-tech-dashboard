@@ -724,8 +724,23 @@
         const publishable = !(contract && contract.publishable === false);
         const holdEl = document.getElementById('quality-hold-banner');
         const listenCard = document.getElementById('listen-card');
+        // A graded contract is not "this week's" and is never "held for review" (Red Team N-1, Oct 16).
+        var curSt = String((contract && (contract.resolution_status || contract.bet_status)) || 'open').toLowerCase();
+        var curResolved = (curSt === 'yes' || curSt === 'no' || curSt === 'void');
+        function shortDate(iso) {
+          var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(iso || ''));
+          if (!m) return '';
+          var mons = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+          return mons[parseInt(m[2], 10) - 1] + ' ' + parseInt(m[3], 10);
+        }
         if (holdEl) {
-          if (!publishable) {
+          if (curResolved) {
+            var wk = shortDate(contract.friday_iso);
+            var rd = shortDate(contract.resolved_at);
+            holdEl.style.display = 'block';
+            holdEl.textContent = 'No new contract this week. The last contract' + (wk ? ' (' + wk + ')' : '') +
+              ' resolved ' + curSt.toUpperCase() + (rd ? ' on ' + rd : '') + '.';
+          } else if (!publishable) {
             holdEl.style.display = 'block';
             holdEl.textContent = contract && contract.publish_block_reason
               ? ('This week’s contract is held for editorial review: ' + contract.publish_block_reason + ' Prior weeks remain below.')
