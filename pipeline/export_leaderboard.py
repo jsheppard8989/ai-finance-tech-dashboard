@@ -37,9 +37,10 @@ from site_text_sanitize import find_style_gate_hits, sanitize_public_text  # noq
 START = 1000.0
 DEFAULT_SOURCE = "/workspace/cos/bot_game"
 OUT_REL = "site/data/leaderboard.json"
-# Public bot names (RULES.md). Filing aliases map to the bot they filed for.
-ALIASES = {"Ditka89": "Compound Wealth"}
-PATH_RE = re.compile(r"(?:/[\w.\-]+)+/?|\bproof/\S+|\b[\w.\-]+\.(?:json|md|log|png|py)\b")
+# Public bot names. "Compound Wealth" is the group chat name; the bot is Ditka89 (Oct 16).
+ALIASES = {"Compound Wealth": "Ditka89"}
+REASON_FILE_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_(.+?)_([A-Z.]+)_(entry|exit)\.md$")
+PATH_RE = re.compile(r"(?<![\w/])(?:~|\.)?/(?:[\w.\-]+/)*[\w.\-]*[A-Za-z_][\w.\-]*|\bproof/\S+|\b[\w.\-]+\.(?:json|md|log|png|py)\b")
 PRIVATE_RE = re.compile(r"(?i)dragonfly\s*")
 
 
@@ -62,6 +63,64 @@ def clean(text) -> str | None:
     # Belt and braces: the site never calls anything a bet.
     t = re.sub(r"\b[Bb]ets?\b", lambda m: "call" if m.group(0).islower() else "Call", t)
     return t or None
+
+
+def _key(name: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (name or "").lower())
+
+
+def _first_sentences(text: str, limit: int = 240) -> str:
+    parts = re.split(r"(?<=[.!?])\s+", text.strip())
+    out = ""
+    for p in parts:
+        if out and len(out) + len(p) + 1 > limit:
+            break
+        out = (out + " " + p).strip()
+    return out[:limit].rstrip()
+
+
+def parse_reason_md(text: str) -> dict:
+    """Public reasons channel file -> {why, stop, target, wrong_if}. Bullet lines only."""
+    r = {"why": None, "stop": None, "target": None, "wrong_if": None}
+    for line in text.splitlines():
+        m = re.match(r"\s*-\s*([A-Za-z /]+?):\s*(.+)", line)
+        if not m:
+            continue
+        k, v = m.group(1).strip().lower(), m.group(2).strip()
+        if k == "why":
+            r["why"] = _first_sentences(v)
+        elif k.startswith("stop"):
+            stop, _, rest = v.partition("Target:")
+            r["stop"] = _first_sentences(stop, 120) or None
+            if rest:
+                r["target"] = _first_sentences(rest, 80)
+            if "target" in k and not rest:
+                r["target"] = r["stop"]
+        elif k == "target":
+            r["target"] = _first_sentences(v, 80)
+        elif k.startswith("wrong if"):
+            r["wrong_if"] = _first_sentences(v, 200)
+    return {k: clean(v) for k, v in r.items()}
+
+
+def load_reasons(src: Path, bot_names) -> dict:
+    """(bot, date, TICKER, entry|exit) -> parsed reason, from <src>/reasons/*.md."""
+    keys = {_key(b): b for b in bot_names}
+    out = {}
+    for f in sorted((src / "reasons").glob("*.md")) if (src / "reasons").is_dir() else []:
+        m = REASON_FILE_RE.match(f.name)
+        if not m:
+            continue
+        day, who, tk, kind = m.groups()
+        k = _key(ALIASES.get(who, who))
+        bot = keys.get(k) or next((b for kk, b in keys.items() if kk.startswith(k) or k.startswith(kk)), None)
+        if not bot:
+            continue
+        try:
+            out[(bot, day, tk.upper(), kind)] = parse_reason_md(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+    return out
 
 
 def md_table(md: str, header: str) -> list[list[str]]:
@@ -138,6 +197,7 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
     for name in standings:
         players.setdefault(name, None)
 
+    reasons = load_reasons(src, list(players))
     rows = []
     for name, p in players.items():
         bal = p.get("value") if p else None
@@ -158,7 +218,9 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
         today = []
         for t in trades:
             if t["player"] == name and as_of and t["t"].startswith(as_of):
-                reason, why_null = trade_reason(t["action"])
+                kind = "exit" if t["action"].lower().startswith("exit") else "entry"
+                rf = reasons.get((name, as_of, t["ticker"].upper(), kind))
+                reason, why_null = (rf["why"], None) if rf and rf.get("why") else trade_reason(t["action"])
                 today.append({
                     "time_ct": t["t"][11:16] or None,
                     "action": side_of(t["action"]),
@@ -166,7 +228,15 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
                     "fill": fill_price(t["fill"]),
                     "reason": clean(reason),
                     **({"reason_missing": why_null} if reason is None else {}),
+                    **({k: rf[k] for k in ("stop", "target", "wrong_if") if rf and rf.get(k)}),
                 })
+        if position and position.get("ticker"):
+            cands = sorted(k for k in reasons if k[0] == name and k[2] == position["ticker"].upper() and k[3] == "entry")
+            if cands:
+                position["reason"] = reasons[cands[-1]]
+            else:
+                position["reason"] = None
+                position["reason_missing"] = "no public reason filed yet"
         f = fines.get(name, [])
         row = {
             "bot": name,

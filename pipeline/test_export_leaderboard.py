@@ -50,6 +50,14 @@ class Export(unittest.TestCase):
         (self.src / "scoreboard.md").write_text(MD, encoding="utf-8")
         (self.src / "proof" / "2026-10-16").mkdir(parents=True)
         (self.src / "proof" / "2026-10-16" / "daily_close_marks_2026-10-16.json").write_text(json.dumps(MARKS))
+        (self.src / "reasons").mkdir()
+        (self.src / "reasons" / "2026-10-15_Alpha_AAA_entry.md").write_text(
+            "# Alpha AAA long\n(Rebuilt from his state file at /workspace/cos/x.json.)\n"
+            "- Why: A lean on demand. Dragonfly book says more. Extra sentence here.\n"
+            "- Stop: 9.50. Target: 12.00. Must be out by Tue 10/20.\n- Wrong if: it closes below 9.50.\n"
+            "- Source: Alpha message.\n", encoding="utf-8")
+        (self.src / "reasons" / "2026-10-16_Ditka89_BBB_entry.md").write_text(
+            "# Ditka89 BBB\n- Why: Fallback so the slot isn't flat.\n- Stop / exit: exit on a 3% drop.\n", encoding="utf-8")
         self.out = el.build(self.src)
 
     def tearDown(self):
@@ -57,7 +65,7 @@ class Export(unittest.TestCase):
 
     def test_rank_balance_pnl(self):
         b = self.out["bots"]
-        self.assertEqual([x["bot"] for x in b[:2]], ["Alpha", "Compound Wealth"])
+        self.assertEqual([x["bot"] for x in b[:2]], ["Alpha", "Ditka89"])
         self.assertEqual(b[0]["rank"], 1)
         self.assertEqual(b[0]["pnl_usd"], 100.0)
         self.assertEqual(b[0]["pnl_pct"], 10.0)
@@ -74,17 +82,35 @@ class Export(unittest.TestCase):
         a = [x for x in self.out["bots"] if x["bot"] == "Alpha"][0]
         self.assertEqual(len(a["today_trades"]), 1)  # Oct 15 entry excluded
         self.assertEqual(a["today_trades"][0]["reason"], "Exited on its stop")
-        cw = [x for x in self.out["bots"] if x["bot"] == "Compound Wealth"][0]
-        self.assertEqual(cw["today_trades"][0]["ticker"], "BBB")  # Ditka89 filing -> Compound Wealth
+        cw = [x for x in self.out["bots"] if x["bot"] == "Ditka89"][0]
+        self.assertEqual(cw["today_trades"][0]["ticker"], "BBB")  # group chat name Compound Wealth -> Ditka89
         self.assertEqual(cw["fines_usd"], 250.0)
 
     def test_public_text_clean(self):
         blob = json.dumps(self.out)
-        for bad in ("/workspace", "proof/", ".json", "Dragonfly", "Ditka89"):
+        for bad in ("/workspace", "proof/", ".json", "Dragonfly", "Compound Wealth"):
             self.assertNotIn(bad, blob)
         self.assertEqual(find_style_gate_hits(self.out), [])
         self.assertNotRegex(blob.lower(), r"\bbets?\b")
         self.assertEqual(self.out["as_of"], "2026-10-16")
+
+    def test_reasons_from_channel(self):
+        a = [x for x in self.out["bots"] if x["bot"] == "Alpha"][0]
+        r = a["position"]["reason"]
+        self.assertTrue(r["why"].startswith("A lean on demand."))
+        self.assertEqual(r["stop"], "9.50.")
+        self.assertIn("10/20", r["target"])
+        self.assertEqual(r["wrong_if"], "it closes below 9.50.")
+        cw = [x for x in self.out["bots"] if x["bot"] == "Ditka89"][0]
+        self.assertEqual(cw["today_trades"][0]["reason"], "Fallback so the slot isn't flat.")
+        self.assertEqual(cw["today_trades"][0]["stop"], "exit on a 3% drop.")
+
+    def test_reason_missing_is_null_with_reason(self):
+        shutil.rmtree(self.src / "reasons")
+        out2 = el.build(self.src)
+        a = [x for x in out2["bots"] if x["bot"] == "Alpha"][0]
+        self.assertIsNone(a["position"]["reason"])
+        self.assertTrue(a["position"]["reason_missing"])
 
     def test_no_marks_as_of_null_with_reason(self):
         src = Path(tempfile.mkdtemp())
