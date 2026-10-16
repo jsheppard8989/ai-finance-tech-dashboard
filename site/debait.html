@@ -738,8 +738,14 @@
             var wk = shortDate(contract.friday_iso);
             var rd = shortDate(contract.resolved_at);
             holdEl.style.display = 'block';
-            holdEl.textContent = 'No new contract this week. The last contract' + (wk ? ' (' + wk + ')' : '') +
-              ' resolved ' + curSt.toUpperCase() + (rd ? ' on ' + rd : '') + '.';
+            // Series pause note (Fix 3, Oct 16): exact wording, only while the Sep 4 contract is the last one.
+            // Mirrors debate_history.json series_status.note; replaces the generic "No new contract" line.
+            var PAUSE_FRIDAY = '2026-09-04';
+            var PAUSE_NOTE = 'Weekly contract paused since Sep 4. No contracts were posted for Aug 28, Sep 11, Sep 18, Sep 25, Oct 2, or Oct 9. The last contract (Week of 2026-09-04) resolved YES on Sep 15 (FRED DGS10 \u2265 5.00%).';
+            holdEl.textContent = (String(contract.friday_iso || '').slice(0, 10) === PAUSE_FRIDAY)
+              ? PAUSE_NOTE
+              : 'No new contract this week. The last contract' + (wk ? ' (' + wk + ')' : '') +
+                ' resolved ' + curSt.toUpperCase() + (rd ? ' on ' + rd : '') + '.';
           } else if (!publishable) {
             holdEl.style.display = 'block';
             holdEl.textContent = contract && contract.publish_block_reason

@@ -1,4 +1,19 @@
 {
+  "_comment": "series_status is informational (debait.html renders the pause note in the hero for the Sep 4 contract; the renderer reads only 'weeks'). debate_weekly.load_history/save_history keep extra keys. No stub contracts for paused weeks.",
+  "series_status": {
+    "state": "paused",
+    "paused_since": "2026-09-04",
+    "last_contract_friday": "2026-09-04",
+    "missing_fridays": [
+      "2026-08-28",
+      "2026-09-11",
+      "2026-09-18",
+      "2026-09-25",
+      "2026-10-02",
+      "2026-10-09"
+    ],
+    "note": "Weekly contract paused since Sep 4. No contracts were posted for Aug 28, Sep 11, Sep 18, Sep 25, Oct 2, or Oct 9. The last contract (Week of 2026-09-04) resolved YES on Sep 15 (FRED DGS10 \u2265 5.00%)."
+  },
   "rotation_index": 26,
   "weeks": [
     {
