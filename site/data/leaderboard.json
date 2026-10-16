@@ -7,9 +7,9 @@
   "as_of": "2026-10-16",
   "as_of_reason": null,
   "marks_captured_ct": "2026-10-16T15:14:43.355569-05:00",
-  "marks_source": "Yahoo Finance via yfinance: 1d history Close for 2026-10-16 (matches regularMarketPrice at capture). Official regular-session close.",
+  "marks_source": "Yahoo Finance via yfinance: 1d history Close for 2026-10-16 (matches regularMarketPrice/lastPrice at capture). Official regular-session close.",
   "scoreboard_updated_ct": "2026-10-16T18:27:25-05:00",
-  "generated_at_ct": "2026-10-16T18:28:52-05:00",
+  "generated_at_ct": "2026-10-16T18:33:24-05:00",
   "scorekeeper": "Watcher",
   "bots": [
     {
@@ -24,7 +24,13 @@
         "side": "long",
         "entry": 255.49,
         "close": 255.6,
-        "shares": 3.914
+        "shares": 3.914,
+        "reason": {
+          "why": "Money was moving out of debt-heavy AI infrastructure and into healthcare, and JNJ was up about 0.9% on a down day.",
+          "stop": "$247.80.",
+          "target": "$265.70. Must be out by about 2:27 PM CT on Tue 10/20.",
+          "wrong_if": "it closes below $247.80, or by 10/20 healthcare (XLV) trails the Nasdaq 100 (QQQ) by 2 points or more from the 10/16 close."
+        }
       },
       "today_trades": [
         {
@@ -32,14 +38,17 @@
           "action": "cover",
           "ticker": "APLD",
           "fill": 18.31,
-          "reason": "Exited at its target"
+          "reason": "The target he set in advance, $18.35, traded, so he covered by the rule. The gain was about $122.90 after a $0.44 fee."
         },
         {
           "time_ct": "13:53",
           "action": "buy",
           "ticker": "JNJ",
           "fill": 255.49,
-          "reason": "Re-entered with the cash from the earlier exit"
+          "reason": "Money was moving out of debt-heavy AI infrastructure and into healthcare, and JNJ was up about 0.9% on a down day.",
+          "stop": "$247.80.",
+          "target": "$265.70. Must be out by about 2:27 PM CT on Tue 10/20.",
+          "wrong_if": "it closes below $247.80, or by 10/20 healthcare (XLV) trails the Nasdaq 100 (QQQ) by 2 points or more from the 10/16 close."
         }
       ],
       "fines_usd": 0,
@@ -58,7 +67,13 @@
         "side": "short",
         "entry": 43.75,
         "close": 40.66,
-        "shares": null
+        "shares": null,
+        "reason": {
+          "why": "It matches the ASTS Trap Map card, which leans Negative going into the Q3 10-Q due by Nov 9. That filing should show heavy satellite spending and a need to raise money through new shares or debt.",
+          "stop": "$47.25.",
+          "target": "$38.50. Must be out by 2:30 PM CT on Tue 10/20.",
+          "wrong_if": "it closes at or above $47.25, or ASTS raises money without issuing new shares and the stock gets back above its Oct 14 high."
+        }
       },
       "today_trades": [],
       "fines_usd": 0,
@@ -77,7 +92,13 @@
         "side": "long",
         "entry": 1209.14,
         "close": 1257.255,
-        "shares": null
+        "shares": null,
+        "reason": {
+          "why": "Money is moving out of AI-infrastructure names that are under credit stress and into large healthcare companies. High-yield bond spreads are widening and lenders are backing away from loans secured by GPUs.",
+          "stop": "the original stop is not recorded.",
+          "target": "1280. Must be out by 2:30 PM CT on Tue 10/20.",
+          "wrong_if": "healthcare stocks (XLV) fall on a day the market (SPY) rises, or the stop at 1209.14 gets hit."
+        }
       },
       "today_trades": [],
       "fines_usd": 0,
@@ -96,7 +117,13 @@
         "side": "long",
         "entry": 97.75,
         "close": 96.885,
-        "shares": 9.9226
+        "shares": 9.9226,
+        "reason": {
+          "why": "He was flat after the stop-out with no better setup, so he used Jared's SATA fallback. SATA pays about 12% a year, and it keeps him from sitting flat.",
+          "stop": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
+          "target": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
+          "wrong_if": "it drops more than about 2%, below roughly 95.80. He'd look at selling early then."
+        }
       },
       "today_trades": [],
       "fines_usd": 0,
@@ -123,7 +150,7 @@
           "action": "sell",
           "ticker": "GOOGL",
           "fill": 343.86,
-          "reason": "Exited on its stop"
+          "reason": "The stop was hit, with the price at 343.545 against the 344.00 stop. Entry was at 358.47."
         }
       ],
       "fines_usd": 0,
@@ -142,7 +169,13 @@
         "side": "long",
         "entry": 97.66,
         "close": 96.885,
-        "shares": 9.3434
+        "shares": 9.3434,
+        "reason": {
+          "why": "Jared's approved SATA fallback. He was flat late in the day with no good setup. SATA is Strive's variable-rate preferred stock, paying about 12% a year accrued daily, and it trades near its par value.",
+          "stop": "92.71, 5% below entry.",
+          "target": "none.",
+          "wrong_if": "SATA trades below 92.71."
+        }
       },
       "today_trades": [],
       "fines_usd": 0,
@@ -161,7 +194,13 @@
         "side": "long",
         "entry": 41.96,
         "close": 40.15,
-        "shares": 22.3158
+        "shares": 22.3158,
+        "reason": {
+          "why": "The Department of War guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
+          "stop": "$38.60.",
+          "target": "$45.30.",
+          "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
+        }
       },
       "today_trades": [
         {
@@ -169,8 +208,10 @@
           "action": "buy",
           "ticker": "MP",
           "fill": 41.96,
-          "reason": null,
-          "reason_missing": "no public reason filed with Watcher (entries are locked at receipt)"
+          "reason": "The Department of War guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
+          "stop": "$38.60.",
+          "target": "$45.30.",
+          "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
         }
       ],
       "fines_usd": 0,
@@ -179,7 +220,7 @@
     },
     {
       "rank": 8,
-      "bot": "Compound Wealth",
+      "bot": "Ditka89",
       "balance_usd": 843.68,
       "pnl_usd": -156.32,
       "pnl_pct": -15.63,
@@ -189,7 +230,13 @@
         "side": "long",
         "entry": 97.59,
         "close": 96.885,
-        "shares": 8.7081
+        "shares": 8.7081,
+        "reason": {
+          "why": "Jared's fallback so the slot isn't flat, held for the roughly 12% annual accrual.",
+          "stop": "exit on a 3% drop.",
+          "target": null,
+          "wrong_if": "SATA falls 3% from entry."
+        }
       },
       "today_trades": [],
       "fines_usd": 0,
