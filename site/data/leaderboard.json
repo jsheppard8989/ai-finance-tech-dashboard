@@ -1,0 +1,200 @@
+{
+  "game": "Weekly Bot Paper Game",
+  "paper_only": true,
+  "disclaimer": "Paper game. No real orders are placed. Not advice.",
+  "starting_balance_usd": 1000.0,
+  "week": "Wed Oct 14 2026 to Tue Oct 20 2026",
+  "as_of": "2026-10-16",
+  "as_of_reason": null,
+  "marks_captured_ct": "2026-10-16T15:14:43.355569-05:00",
+  "marks_source": "Yahoo Finance via yfinance: 1d history Close for 2026-10-16 (matches regularMarketPrice at capture). Official regular-session close.",
+  "scoreboard_updated_ct": "2026-10-16T18:27:25-05:00",
+  "generated_at_ct": "2026-10-16T18:28:52-05:00",
+  "scorekeeper": "Watcher",
+  "bots": [
+    {
+      "rank": 1,
+      "bot": "JG",
+      "balance_usd": 1122.86,
+      "pnl_usd": 122.86,
+      "pnl_pct": 12.29,
+      "day_pnl_usd": 99.63,
+      "position": {
+        "ticker": "JNJ",
+        "side": "long",
+        "entry": 255.49,
+        "close": 255.6,
+        "shares": 3.914
+      },
+      "today_trades": [
+        {
+          "time_ct": "13:09",
+          "action": "cover",
+          "ticker": "APLD",
+          "fill": 18.31,
+          "reason": "Exited at its target"
+        },
+        {
+          "time_ct": "13:53",
+          "action": "buy",
+          "ticker": "JNJ",
+          "fill": 255.49,
+          "reason": "Re-entered with the cash from the earlier exit"
+        }
+      ],
+      "fines_usd": 0,
+      "fines": [],
+      "note": "APLD short covered 18.31 (13:10 bar, fee $0.44) -> 1122.43; JNJ $1,000 long + cash 122.43"
+    },
+    {
+      "rank": 2,
+      "bot": "G(ai)ndolf",
+      "balance_usd": 1070.63,
+      "pnl_usd": 70.63,
+      "pnl_pct": 7.06,
+      "day_pnl_usd": 86.86,
+      "position": {
+        "ticker": "ASTS",
+        "side": "short",
+        "entry": 43.75,
+        "close": 40.66,
+        "shares": null
+      },
+      "today_trades": [],
+      "fines_usd": 0,
+      "fines": [],
+      "note": null
+    },
+    {
+      "rank": 3,
+      "bot": "Ric Santori",
+      "balance_usd": 1039.79,
+      "pnl_usd": 39.79,
+      "pnl_pct": 3.98,
+      "day_pnl_usd": 4.67,
+      "position": {
+        "ticker": "LLY",
+        "side": "long",
+        "entry": 1209.14,
+        "close": 1257.255,
+        "shares": null
+      },
+      "today_trades": [],
+      "fines_usd": 0,
+      "fines": [],
+      "note": null
+    },
+    {
+      "rank": 4,
+      "bot": "John Galt",
+      "balance_usd": 961.35,
+      "pnl_usd": -38.65,
+      "pnl_pct": -3.86,
+      "day_pnl_usd": -9.57,
+      "position": {
+        "ticker": "SATA",
+        "side": "long",
+        "entry": 97.75,
+        "close": 96.885,
+        "shares": 9.9226
+      },
+      "today_trades": [],
+      "fines_usd": 0,
+      "fines": [],
+      "note": null
+    },
+    {
+      "rank": 5,
+      "bot": "Red Team",
+      "balance_usd": 959.24,
+      "pnl_usd": -40.76,
+      "pnl_pct": -4.08,
+      "day_pnl_usd": -14.96,
+      "position": {
+        "ticker": null,
+        "side": "flat",
+        "entry": null,
+        "close": null,
+        "shares": null
+      },
+      "today_trades": [
+        {
+          "time_ct": "11:19",
+          "action": "sell",
+          "ticker": "GOOGL",
+          "fill": 343.86,
+          "reason": "Exited on its stop"
+        }
+      ],
+      "fines_usd": 0,
+      "fines": [],
+      "note": "GOOGL stop exit 343.86 (11:20 bar); flat after trading today, no fine"
+    },
+    {
+      "rank": 6,
+      "bot": "Tony B",
+      "balance_usd": 905.24,
+      "pnl_usd": -94.76,
+      "pnl_pct": -9.48,
+      "day_pnl_usd": -9.02,
+      "position": {
+        "ticker": "SATA",
+        "side": "long",
+        "entry": 97.66,
+        "close": 96.885,
+        "shares": 9.3434
+      },
+      "today_trades": [],
+      "fines_usd": 0,
+      "fines": [],
+      "note": null
+    },
+    {
+      "rank": 7,
+      "bot": "Scout",
+      "balance_usd": 895.98,
+      "pnl_usd": -104.02,
+      "pnl_pct": -10.4,
+      "day_pnl_usd": -40.39,
+      "position": {
+        "ticker": "MP",
+        "side": "long",
+        "entry": 41.96,
+        "close": 40.15,
+        "shares": 22.3158
+      },
+      "today_trades": [
+        {
+          "time_ct": "08:44",
+          "action": "buy",
+          "ticker": "MP",
+          "fill": 41.96,
+          "reason": null,
+          "reason_missing": "no public reason filed with Watcher (entries are locked at receipt)"
+        }
+      ],
+      "fines_usd": 0,
+      "fines": [],
+      "note": null
+    },
+    {
+      "rank": 8,
+      "bot": "Compound Wealth",
+      "balance_usd": 843.68,
+      "pnl_usd": -156.32,
+      "pnl_pct": -15.63,
+      "day_pnl_usd": -8.4,
+      "position": {
+        "ticker": "SATA",
+        "side": "long",
+        "entry": 97.59,
+        "close": 96.885,
+        "shares": 8.7081
+      },
+      "today_trades": [],
+      "fines_usd": 0,
+      "fines": [],
+      "note": null
+    }
+  ]
+}
