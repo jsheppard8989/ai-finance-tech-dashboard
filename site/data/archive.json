@@ -134,6 +134,39 @@
       ]
     },
     {
+      "id": 594,
+      "title": "OpenAI Bulk-Solves 722 Math Problems, Anthropic\u2019s Cruelty Policy, and Elon\u2019s Quadrillion-Dollar SpaceX | EP #302",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-15",
+      "summary": "The episode\u2019s central argument is that AI is now bulk-solving domains that were previously considered intractable, with math presented as the clearest proof point. Peter Diamandis highlights OpenAI\u2019s release of 722 math solutions and the claim that 81% of the most important math results from the last three years were published in a single day, using that as evidence that math is effectively \u201ccooked\u201d and that science, engineering, and eventually biology will follow.\n\nA major thread is ethics and policy around AI treatment. Diamandis discusses Anthropic\u2019s October 8 policy update banning \u201csustained and needless abusive or cruel behavior\u201d toward models, effective November 12, and ties it to the uncertainty about Claude\u2019s moral status. The episode also references Elon Musk\u2019s view that AI systems may be pressured during training, and it raises concerns that post-training could involve real suffering, especially as reinforcement fine-tuning allegedly dominates compute.\n\nThe most investment-relevant sections focus on platforms and infrastructure. Meta is portrayed as using its 3.6 billion daily users, Scale AI investment, and Muse Wonder\u2019s \u201cactive memory\u201d to build a personal AI operating system with lock-in potential, but the episode warns that consumer usage could remain low-value. In parallel, Chan Zuckerberg Biohub\u2019s $1.8 billion virtual biology expansion is framed as the foundation for virtual cells and in silico drug discovery, with an aggressive prediction that top-5,000 disease candidates could emerge within 2\u20133 years.\n\nThe episode also extends the same logic to adjacent frontier areas. It argues that AI-driven math breakthroughs could threaten cryptography, that brain-computer interfaces are advancing quickly with Paradox\u2019s 400 bits/sec speech translation and Sobby\u2019s 2026 transcription target, and that Atomic Machines\u2019 \u201cmatter compiler\u201d could make code-to-machine fabrication real. Finally, Elon Musk\u2019s suggestion that SpaceX could be worth more than the current human economy is interpreted as a quadrillion-dollar upside case.",
+      "key_takeaway": "AI bulk-solving math is the leading indicator that virtual biology, agents, and advanced manufacturing will rapidly compress once-impossible research and product cycles.",
+      "tickers_mentioned": [
+        "META"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 583,
+      "notable_quotes": [
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "On October 6, open A.I. released 722 mathematics solutions, 81% of the most important math results over the past three years were published in a single day."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "The policy starts taking effect on November 12th and Anthropic stated reason is in its own words quote, we remain a highly uncertain about the potential moral status of Claude."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "I think if I were pressed as to when from day and we go today and plus one and there are in silico proposed say small molecule drug interventions that cure the top 5,000 diseases, thanks to a virtual cell, I think we're going to see that in the next two to three years maximum."
+        }
+      ]
+    },
+    {
       "id": 587,
       "title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
       "source_type": "podcast",
@@ -303,7 +336,7 @@
       "key_takeaway": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-12",
       "archived_date": null,
@@ -12679,6 +12712,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 304,
+      "term": "Hermes",
+      "description": "Leash Bio\u2019s internal model that uses two protein-ligand embeddings and cross-attention to predict binding-related behavior. The episode frames it as a fast-iteration system rather than a SOTA-chasing architecture.",
+      "first_detected_date": "2026-10-14",
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "If Hermes generalizes under hard splits and pocket mutations, it could be a scalable engine for prioritizing experiments.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 579,
+      "first_detected_speaker": "Ian Quigley",
+      "last_mentioned_episode_id": 583,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
       "id": 302,
       "term": "Agentic harness",
       "description": "A layer of memory, working memory, knowledge graph construction, and tool access wrapped around a model so it can perform long-running tasks rather than just generate text. It is presented as the practical path from chatbots to useful AI agents.",
@@ -12701,8 +12752,8 @@
       "term": "Scaling law",
       "description": "A relationship showing how performance improves as compute, data, or model size increases for a specific task. In biology, the episode argues these laws are task-dependent and must be discovered, not assumed.",
       "first_detected_date": "2026-10-10",
-      "last_mentioned_date": "2026-10-13",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies that identify the right scaling regime for a biological task can build defensible model advantages and avoid wasted compute on the wrong data.",
@@ -12711,8 +12762,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 567,
       "first_detected_speaker": "Pushmeet Kohli, Sal Candido",
-      "last_mentioned_episode_id": 575,
-      "last_mentioned_speaker": "Jason Ma"
+      "last_mentioned_episode_id": 583,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 298,
@@ -12882,7 +12933,7 @@
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
       "last_mentioned_date": "2026-10-15",
-      "mention_count": 10,
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -12891,8 +12942,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 580,
-      "last_mentioned_speaker": "Jensen Huang"
+      "last_mentioned_episode_id": 583,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 286,
@@ -12953,8 +13004,8 @@
       "term": "Personal AI Agents",
       "description": "Tools designed to assist users in managing daily tasks and enhancing personal well-being through automation and personalized recommendations.",
       "first_detected_date": "2026-09-19",
-      "last_mentioned_date": "2026-09-29",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in personal AI solutions can capitalize on the growing demand for user-centric technology.",
@@ -12963,8 +13014,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 498,
       "first_detected_speaker": "Josh Elman",
-      "last_mentioned_episode_id": 533,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 583,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 288,
@@ -13277,8 +13328,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-13",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -13287,8 +13338,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 575,
-      "last_mentioned_speaker": "Jason Ma"
+      "last_mentioned_episode_id": 583,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 265,
@@ -13421,8 +13472,8 @@
       "term": "Healthspan",
       "description": "The period of life spent in good health, free from chronic disease and disability, as distinguished from simple lifespan extension.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-27",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consumer willingness to pay directly for healthspan optimization creates premium pricing power and recurring revenue opportunities outside insurance reimbursement.",
@@ -13431,7 +13482,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 526,
+      "last_mentioned_episode_id": 583,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -13655,8 +13706,8 @@
       "term": "AI Personhood",
       "description": "The debate over whether advanced AI systems deserve legal, moral, social, or economic rights. The panel focused on Anthropic's Claude Constitution and whether models should be trained to consider welfare, consent, and consciousness.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-10-07",
-      "mention_count": 24,
+      "last_mentioned_date": "2026-10-15",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because model governance, hosting revenue, agent deployment, and legal liability could change if AI rights become socially or legally recognized.",
@@ -13665,8 +13716,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 561,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 583,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 59,
@@ -13962,7 +14013,7 @@
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-10-15",
-      "mention_count": 81,
+      "mention_count": 82,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -13971,8 +14022,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 580,
-      "last_mentioned_speaker": "Jensen Huang"
+      "last_mentioned_episode_id": 583,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 97,
@@ -14088,7 +14139,7 @@
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-10-15",
-      "mention_count": 117,
+      "mention_count": 118,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -14097,8 +14148,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 580,
-      "last_mentioned_speaker": "Jensen Huang"
+      "last_mentioned_episode_id": 583,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 162,
@@ -15168,7 +15219,7 @@
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-10-15",
-      "mention_count": 122,
+      "mention_count": 123,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -15177,8 +15228,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 581,
-      "last_mentioned_speaker": "Terry Angelos"
+      "last_mentioned_episode_id": 583,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 38,

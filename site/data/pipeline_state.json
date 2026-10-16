@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T22:37:31.076272",
-  "last_updated": "2026-10-15T22:37:31.076272",
-  "last_pipeline_run": "2026-10-15T22:37:31.076272",
+  "generated_at": "2026-10-16T05:29:07.769635",
+  "last_updated": "2026-10-16T05:29:07.769635",
+  "last_pipeline_run": "2026-10-16T05:29:07.769635",
   "main_page": {
     "overton": 13,
     "insights": 12,
@@ -9,21 +9,21 @@
   },
   "counts": {
     "ticker_mentions": 284,
-    "podcast_episodes": 551,
+    "podcast_episodes": 552,
     "newsletters": 7,
     "daily_scores": 219,
-    "overton_terms_total": 153,
-    "latest_insights_total": 565,
+    "overton_terms_total": 154,
+    "latest_insights_total": 566,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 1
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
@@ -32,6 +32,24 @@
       "title": "OpenAI Bulk-Solves 722 Math Problems, Anthropic\u2019s Cruelty Policy, and Elon\u2019s Quadrillion-Dollar SpaceX | EP #302",
       "published": "2026-10-15",
       "rss_guid": "51a52882-c8c5-11f1-bb73-0ba4c145591a",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "201bef7f-898a-4de8-af42-b31487e73dfa",
+      "podcast": "The a16z Show",
+      "title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+      "published": "2026-10-16",
+      "rss_guid": "201bef7f-898a-4de8-af42-b31487e73dfa",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -100,10 +118,10 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "OpenAI Bulk-Solves 722 Math Problems, Anthropic\u2019s Cruelty Policy, and Elon\u2019s Quadrillion-Dollar SpaceX | EP #302",
-      "published": "Thu, 15 Oct 2026 20:14:00 -0000",
-      "published_date": "2026-10-15",
+      "podcast": "The a16z Show",
+      "title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+      "published": "Fri, 16 Oct 2026 10:00:00 +0000",
+      "published_date": "2026-10-16",
       "rss_guid": ""
     }
   ],
