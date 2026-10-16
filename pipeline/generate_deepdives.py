@@ -87,6 +87,7 @@ EVIDENCE_CARD_OVERLAP_REJECT = 0.40
 IMPL_VS_WHATS_NEW_OVERLAP_REJECT = 0.35
 MAX_CANNED_PHRASES = 1
 MAX_GENERATION_ATTEMPTS = 4
+MIN_COMPLIANT_FALSIFIERS = 2
 MAX_DEEP_DIVE_RETRIES = 3
 SOURCE_SNIPPET_CHARS = 100_000  # same window as analyze_transcript / transcript_window.py
 DEEP_DIVE_SCHEMA_VERSION = 2
@@ -175,14 +176,16 @@ def record_deep_dive_failure(
     detail: str,
     *,
     block_now: bool = False,
+    count_retry: bool = True,
 ) -> str:
-    """Record a failed Deep Dive attempt. Returns final status ('blocked' or 'pending_retry')."""
+    """Record a failed Deep Dive attempt. Returns final status ('blocked' or 'pending_retry').
+    count_retry=False (billing/quota/auth/rate errors): logged, but does not move the insight toward 'blocked'."""
     ensure_deep_dive_failures_table(conn)
     row = conn.execute(
         "SELECT retry_count, status FROM deep_dive_generation_failures WHERE insight_id = ?",
         (insight_id,),
     ).fetchone()
-    retry_count = int((row["retry_count"] if row else 0) or 0) + 1
+    retry_count = int((row["retry_count"] if row else 0) or 0) + (1 if count_retry else 0)
     status = "blocked" if block_now or retry_count >= MAX_DEEP_DIVE_RETRIES else "pending_retry"
     now = datetime.now().isoformat()
     conn.execute(
@@ -205,6 +208,53 @@ def record_deep_dive_failure(
     )
     conn.commit()
     return status
+
+
+# ---- gpt-5.5 fallback policy (cost fix 2026-10-16) ----
+_BILLING_RE = re.compile(
+    r"(?i)\b(429|401|403)\b|insufficient_quota|credit_balance|no credits|quota|billing|rate.?limit|"
+    r"invalid_api_key|incorrect api key|authentication|unauthori[sz]ed|permission")
+
+
+def is_billing_or_rate_error(err) -> bool:
+    """Credit, quota, auth or rate errors: retrying (or switching to gpt-5.5) cannot help."""
+    return bool(err) and bool(_BILLING_RE.search(str(err)))
+
+
+def _ensure_legacy_fallback_table(conn: sqlite3.Connection) -> None:
+    conn.execute(
+        """CREATE TABLE IF NOT EXISTS deep_dive_legacy_fallbacks (
+               episode_id INTEGER NOT NULL, day TEXT NOT NULL, insight_id INTEGER, reason TEXT,
+               created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (episode_id, day))"""
+    )
+
+
+def legacy_fallback_decision(conn: sqlite3.Connection, episode_id: Optional[int], err: Optional[str],
+                             high_profile_reason: Optional[str], today: Optional[str] = None) -> Tuple[bool, str]:
+    """After extraction-mode (gpt-5.4-mini) fails, may we try gpt-5.5? Returns (allowed, why).
+    - credit/quota/auth/rate error: never (fail fast).
+    - validation failure: only for a high-profile episode, at most once per episode per day.
+    - anything else: no; the next run retries on mini."""
+    if is_billing_or_rate_error(err):
+        return False, "billing_or_rate_error"
+    if not high_profile_reason:
+        return False, "not_high_profile"
+    if not episode_id:
+        return False, "no_episode_id"
+    today = today or datetime.now().date().isoformat()
+    _ensure_legacy_fallback_table(conn)
+    if conn.execute("SELECT 1 FROM deep_dive_legacy_fallbacks WHERE episode_id = ? AND day = ?",
+                    (episode_id, today)).fetchone():
+        return False, "already_used_today"
+    return True, f"high_profile:{high_profile_reason}"
+
+
+def record_legacy_fallback(conn: sqlite3.Connection, episode_id: int, insight_id: int, reason: str,
+                           today: Optional[str] = None) -> None:
+    _ensure_legacy_fallback_table(conn)
+    conn.execute("INSERT OR IGNORE INTO deep_dive_legacy_fallbacks (episode_id, day, insight_id, reason) VALUES (?, ?, ?, ?)",
+                 (episode_id, today or datetime.now().date().isoformat(), insight_id, reason))
+    conn.commit()
 
 
 def mark_deep_dive_failure_resolved(conn: sqlite3.Connection, insight_id: int) -> None:
@@ -555,14 +605,17 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     good = [str(x).strip() for x in ft if len(str(x).strip()) >= 25]
     if len(good) < 2:
         return False, "falsification_tracks items too short"
-    # Red Team Fix 1 (2026-10-16): each falsifier needs a date / 'by <date>', a number and a named source.
+    # Red Team Fix 1 (2026-10-16, softened same day): at least 2 falsifier lines must carry a date / 'by <date>',
+    # a number and a named source. The prompt still asks for all of them; the publish-guard lint is unchanged.
     try:
         from process_checks import lint_line
-        bad = [x for x in good if lint_line(x)]
+        compliant = [x for x in good if not lint_line(x)]
     except Exception:
-        bad = []
-    if bad:
-        return False, f"falsification_tracks need a date or 'by <date>', a number and a named source: {bad[0][:80]!r}"
+        compliant = good
+    if len(compliant) < MIN_COMPLIANT_FALSIFIERS:
+        bad = [x for x in good if x not in compliant]
+        return False, (f"falsification_tracks need at least {MIN_COMPLIANT_FALSIFIERS} lines with a date or 'by <date>', "
+                       f"a number and a named source ({len(compliant)} found), e.g. fix: {(bad or good)[0][:80]!r}")
     return True, ""
 
 
@@ -722,8 +775,9 @@ def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optio
                 usage = resp.usage
                 input_tokens = usage.prompt_tokens if usage else 0
                 output_tokens = usage.completion_tokens if usage else 0
-                # gpt-5.5 pricing: $5/M input, $30/M output
-                cost_usd = (input_tokens / 1_000_000 * 5.0) + (output_tokens / 1_000_000 * 30.0)
+                # gpt-5.5 standard tier (legacy path stays on standard); table in openai_flex.PRICES
+                from openai_flex import price as _price
+                cost_usd = _price("gpt-5.5", input_tokens, output_tokens)
                 usage_info = {
                     "model": model,
                     "input_tokens": input_tokens,
@@ -905,7 +959,9 @@ Extraction JSON:
     model = "gpt-5.4-mini"
     try:
         print(f"    Extraction-mode deep dive: {model}", flush=True)
-        resp = client.chat.completions.create(
+        from openai_flex import create_chat, price as _price
+        resp, tier = create_chat(
+            client,
             model=model,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
@@ -918,8 +974,9 @@ Extraction JSON:
         usage = resp.usage
         input_tokens = usage.prompt_tokens if usage else 0
         output_tokens = usage.completion_tokens if usage else 0
-        cost_usd = (input_tokens / 1_000_000 * 0.75) + (output_tokens / 1_000_000 * 4.50)
+        cost_usd = _price(model, input_tokens, output_tokens, tier)  # flex = half price
         usage_info = {
+            "service_tier": tier,
             "model": model,
             "input_tokens": input_tokens,
             "output_tokens": output_tokens,
@@ -1246,6 +1303,7 @@ def run_deep_dive_generation_attempts(
     key_takeaway: str,
     host_name: Optional[str] = None,
     guest_names: Optional[List[str]] = None,
+    max_attempts: int = MAX_GENERATION_ATTEMPTS,
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
     """Generate with retries when overlap or structural checks fail (LEGACY mode).
     
@@ -1263,7 +1321,7 @@ def run_deep_dive_generation_attempts(
     total_cost = 0.0
     model_used = None
     
-    for attempt in range(1, MAX_GENERATION_ATTEMPTS + 1):
+    for attempt in range(1, max_attempts + 1):
         content, err, usage_info = generate_deep_dive_with_ai(
             clients,
             title,
@@ -1275,6 +1333,9 @@ def run_deep_dive_generation_attempts(
             host_name=host_name,
             guest_names=guest_names,
         )
+        if not content and is_billing_or_rate_error(err):
+            print(f"    ✗ Billing/quota/auth/rate error; not retrying: {str(err)[:100]}", flush=True)
+            return None, err, usage_info
         
         # Accumulate usage across attempts
         if usage_info:
@@ -1336,9 +1397,9 @@ def run_deep_dive_generation_attempts(
                 + "; ".join(validation_errors[:3]),
                 flush=True,
             )
-            if attempt >= MAX_GENERATION_ATTEMPTS:
+            if attempt >= max_attempts:
                 print(
-                    f"    ✗ Giving up after {MAX_GENERATION_ATTEMPTS} attempts (validation failed)",
+                    f"    ✗ Giving up after {max_attempts} attempts (validation failed)",
                     flush=True,
                 )
                 final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
@@ -1354,7 +1415,7 @@ def run_deep_dive_generation_attempts(
         final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
         return content, None, final_usage
 
-    final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": MAX_GENERATION_ATTEMPTS}
+    final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": max_attempts}
     return None, last_error or "generation failed after retries", final_usage
 
 
@@ -1524,26 +1585,40 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
                 guest_names=guest_names,
             )
         elif content is None and err_detail and generation_mode == "extraction":
-            generation_mode = extraction_failed_generation_mode(err_detail)
-            print(
-                f"    ⚠ Extraction failed, falling back to legacy: {err_detail[:60]}",
-                flush=True,
-            )
-            print(f"    Mode: legacy (gpt-5.5)", flush=True)
-            content, err_detail, usage_info = run_deep_dive_generation_attempts(
-                clients,
-                insight_id,
-                title,
-                source_type,
-                episode_id,
-                insight_summary,
-                key_takeaway,
-                host_name=host_name,
-                guest_names=guest_names,
-            )
-        
+            # Cost fix 2026-10-16: no blind gpt-5.5 fallback. Billing/quota/auth/rate errors fail fast; a
+            # validation failure may use ONE gpt-5.5 attempt per episode per day, high-profile episodes only.
+            hp = high_profile_reason
+            if hp is None and source_type == "podcast" and episode_id:
+                try:
+                    hp = check_high_profile_match(episode_id, insight_id, source_name, title, load_high_profile_config())
+                except Exception:
+                    hp = None
+            allowed, why = legacy_fallback_decision(conn, episode_id, err_detail, hp)
+            if allowed:
+                generation_mode = extraction_failed_generation_mode(err_detail)
+                print(f"    ⚠ Extraction failed ({err_detail[:60]}); one gpt-5.5 attempt ({why})", flush=True)
+                record_legacy_fallback(conn, episode_id, insight_id, why)
+                content, err_detail, usage_info = run_deep_dive_generation_attempts(
+                    clients,
+                    insight_id,
+                    title,
+                    source_type,
+                    episode_id,
+                    insight_summary,
+                    key_takeaway,
+                    host_name=host_name,
+                    guest_names=guest_names,
+                    max_attempts=1,
+                )
+            else:
+                print(f"    ⏭ Extraction failed ({err_detail[:60]}); no gpt-5.5 fallback ({why}). "
+                      f"Next run retries on mini.", flush=True)
+
         if not content:
             reason = "content_filter" if err_detail and _is_content_filter_error(Exception(err_detail)) else "generation_failed"
+            billing = is_billing_or_rate_error(err_detail)
+            if billing:
+                reason = "billing_or_rate_error"
             status = record_deep_dive_failure(
                 conn,
                 insight_id,
@@ -1553,6 +1628,7 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
                 reason,
                 err_detail or "unknown error",
                 block_now=(reason == "content_filter"),
+                count_retry=not billing,
             )
             print(f"  ✗ Generation failed or rejected ({status})", flush=True)
             if status == "blocked":
