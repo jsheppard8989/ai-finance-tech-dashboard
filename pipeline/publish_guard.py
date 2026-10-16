@@ -41,6 +41,13 @@ origin/main, i.e. what is live):
           ignored. Warn-only.
        c. signed % moves on live surfaces with no date/period nearby.
           Warn-only.
+  8. Red Team process fixes (process_checks.py, Oct 16 2026; prints
+     "WARN publish guard process: ..." and logs JSON to
+     $PUBLISH_GUARD_LOG_DIR or ~/.cache/publish_guard): wrong-if lint (a),
+     derived-figure map site/data/derived_figures.json (b), ungraded items (c),
+     STALE cards/tickets (e) are warn-only. The FACT gate (d) BLOCKS: a FACT
+     label with no URL that is not "PENDING owner: .. due: .." (from
+     process_checks.FACT_GATE_BLOCK_FROM, 2026-10-16; 0 violations that day).
 
 CLI: python3 publish_guard.py [--site DIR] [--repo DIR]   (exit 1 = blocked)
 """
@@ -423,6 +430,12 @@ def run_publish_guard(site: Path, pipeline: Path | None = None, repo: Path | Non
             print(f"{WARN_STALE}: {w}")
     except Exception as e:
         print(f"{WARN_STALE}: check_staleness crashed: {e}")
+    try:
+        from process_checks import run_process_checks
+        proc_block, _proc_warn, _rep = run_process_checks(site, today)
+        reasons += proc_block
+    except Exception as e:
+        reasons.append(f"process checks (FACT gate) crashed: {e}")
     for r in reasons:
         print(f"{ALERT}: {r}")
     if not reasons:
