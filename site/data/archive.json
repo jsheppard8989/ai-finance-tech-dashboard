@@ -1,6 +1,41 @@
 {
   "insights": [
     {
+      "id": 596,
+      "title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-10-17",
+      "summary": "The episode centers on whether the recent selloff in AI infrastructure names, especially CoreWeave, is a sign of an AI bubble popping or just credit-market volatility. The hosts emphasize that bond yields on some CoreWeave debt reportedly reached 15%, CDS-implied default risk spiked to roughly 953 basis points, and the market is pricing meaningful refinancing stress. At the same time, they argue CoreWeave still has substantial asset coverage and that compute demand remains strong, so the issue may be financing fragility rather than collapsing demand.\n\nA major thread is CoreWeave\u2019s unusual \u201cbox\u201d financing structure, where contracts are packaged into discrete financing buckets with fixed-price cash-flow waterfalls. David Sacks argues that this structure limits upside if spot prices rise, while also leaving the company exposed to higher borrowing costs as risk-free rates move up. He also highlights concentration risk, saying about 75% of revenue comes from three customers, and notes that the company may need around $35 billion of additional financing at the midpoint to fully fund signed contracts.\n\nThe group also debates Anthropic. They discuss its upcoming IPO timing, likely around Thanksgiving, and frame the real debate as valuation rather than business viability. They cite very large revenue numbers, with Q3 revenue at $16.8 billion and ARR estimates ranging from roughly $70 billion to over $100 billion, while some speakers argue the company can still have a strong IPO. Valuation levels discussed range from about $1.5 trillion to $2.3 trillion, with one argument that a $200 billion to $250 billion IPO pricing range would be safer for the war chest.\n\nAnother major theme is the economics of AI software and infrastructure. The hosts argue that compute remains scarce due to power, cooling, data-center build times, and regulatory constraints, making energy access a structural bottleneck. They also discuss how open-source and small models could be deflationary for software pricing but create a new wave of bespoke software and keep developer demand high. The episode ends with a sharp critique of Anthropic\u2019s warnings about small-model worms, with the hosts arguing that the real threats are old IoT vulnerabilities and that the fear narrative may be competitively motivated.",
+      "key_takeaway": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
+      "tickers_mentioned": [
+        "ORCL",
+        "DELL",
+        "COIN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 585,
+      "notable_quotes": [
+        {
+          "speaker": "David Sacks",
+          "quote": "The smart money is trading what's called a credit derivative swap. Okay. This is default insurance. And these default swaps are meant to ensure the bond holders against a potential default."
+        },
+        {
+          "speaker": "David Sacks",
+          "quote": "This is all the debt work... It turns out that these contracts are fixed price. So meaning if what you could sell in the spot market goes up, you don't really generate that revenue because you've already pre-sold it at a fixed number."
+        },
+        {
+          "speaker": "Ben Horowitz",
+          "quote": "I would make the argument that this is just volatility, which you're going to get a lot whenever you're underwriting to multi trillion dollar outcomes in the future based on very rapid rates of growth exponential rates of growth."
+        }
+      ]
+    },
+    {
       "id": 595,
       "title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
       "source_type": "podcast",
@@ -439,7 +474,7 @@
         "CART"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-12",
       "archived_date": null,
@@ -12781,6 +12816,24 @@
       "last_mentioned_speaker": "Jensen Huang"
     },
     {
+      "id": 305,
+      "term": "super intelligence,",
+      "description": "with Peter Diamandis citing a new White House Super Intelligence Force chaired by Director of National Intelligence Jay Clayton and a 120-day mandate to report on AI risks, opportunities, incident rep",
+      "first_detected_date": "2026-10-11",
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 36,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": null,
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 570,
+      "first_detected_speaker": "Nick Bostrom",
+      "last_mentioned_episode_id": 585,
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+    },
+    {
       "id": 300,
       "term": "Scaling law",
       "description": "A relationship showing how performance improves as compute, data, or model size increases for a specific task. In biology, the episode argues these laws are task-dependent and must be discovered, not assumed.",
@@ -12799,12 +12852,30 @@
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
+      "id": 307,
+      "term": "Bond vigilantes",
+      "description": "Market participants who punish fiscally weak governments by selling bonds and pushing yields higher. The episode uses the term to explain fiscal stress, austerity, and political unrest in Europe.",
+      "first_detected_date": "2026-10-10",
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Higher sovereign yields can pressure rates, equities, and fiscal-sensitive sectors while raising political and refinancing risk.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 568,
+      "first_detected_speaker": "Jason Calacanis",
+      "last_mentioned_episode_id": 585,
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+    },
+    {
       "id": 298,
       "term": "HBM",
       "description": "High bandwidth memory, a stacked DRAM architecture used in AI systems. It is more complex to manufacture than standard DRAM and consumes far more wafer area per gigabyte.",
       "first_detected_date": "2026-10-08",
-      "last_mentioned_date": "2026-10-09",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "HBM constraints can keep memory tight and support pricing, margins, and capital equipment demand.",
@@ -12813,8 +12884,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 564,
       "first_detected_speaker": "Stacy Rasgon",
-      "last_mentioned_episode_id": 566,
-      "last_mentioned_speaker": "Pat Gelsinger"
+      "last_mentioned_episode_id": 585,
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
     },
     {
       "id": 297,
@@ -12887,6 +12958,24 @@
       "first_detected_speaker": "Ed Zitron",
       "last_mentioned_episode_id": 577,
       "last_mentioned_speaker": "Ben Inker"
+    },
+    {
+      "id": 306,
+      "term": "DPI",
+      "description": "Distributions to paid-in capital, a realized-return metric for venture funds. Jake Paul and Chamath Palihapitiya both treated DPI as the number that can override skepticism about unconventional fund managers.",
+      "first_detected_date": "2026-09-30",
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "It distinguishes paper markups from cash returned to LPs and becomes especially important when private markets are crowded with high valuations.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 540,
+      "first_detected_speaker": "Jake Paul, Drew Taggart, Alex Pall",
+      "last_mentioned_episode_id": 585,
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
     },
     {
       "id": 293,
@@ -13125,20 +13214,20 @@
     {
       "id": 284,
       "term": "Outcome-Based Pricing",
-      "description": "A business model where AI customers pay only when the system successfully completes a task or delivers a result, rather than per token or API call.",
+      "description": "A pricing model where software is charged based on results, such as CPC or CPA, rather than seats or tokens. The hosts argue AI software may eventually migrate toward this model.",
       "first_detected_date": "2026-09-02",
-      "last_mentioned_date": "2026-09-16",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Could expand AI adoption among risk-averse enterprises and create more predictable revenue streams for AI providers willing to bear execution risk.",
+      "investment_implications": "A shift away from token-based pricing could expand TAM and improve monetization for vendors that can prove outcomes.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 455,
       "first_detected_speaker": "Elon Musk",
-      "last_mentioned_episode_id": 479,
-      "last_mentioned_speaker": "Keith Perez"
+      "last_mentioned_episode_id": 585,
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
     },
     {
       "id": 283,
@@ -13559,8 +13648,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-14",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -13569,8 +13658,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 577,
-      "last_mentioned_speaker": "Ben Inker"
+      "last_mentioned_episode_id": 585,
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
     },
     {
       "id": 256,
@@ -13631,8 +13720,8 @@
       "term": "North Star Metric",
       "description": "A single, overarching metric that aligns an organization's focus on key business objectives, simplifying performance tracking and driving accountability.",
       "first_detected_date": "2026-06-17",
-      "last_mentioned_date": "2026-06-17",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should look for companies that adopt a North Star metric to clarify objectives and drive performance across teams.",
@@ -13641,8 +13730,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 292,
       "first_detected_speaker": "Santiago Gua Suarez",
-      "last_mentioned_episode_id": 292,
-      "last_mentioned_speaker": "Santiago Gua Suarez"
+      "last_mentioned_episode_id": 585,
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
     },
     {
       "id": 252,
@@ -13811,8 +13900,8 @@
       "term": "SaaS Apocalypse",
       "description": "A term describing the decline in the SaaS market, which Almeida predicts will reverse due to AI integration.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The resurgence of SaaS value through AI could create significant investment opportunities.",
@@ -13821,8 +13910,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 536,
-      "last_mentioned_speaker": "David George (hosts)"
+      "last_mentioned_episode_id": 585,
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
     },
     {
       "id": 275,
@@ -14063,8 +14152,8 @@
       "term": "Distillation",
       "description": "A training technique where a model learns from another model\u2019s outputs or reasoning traces. Lambert argues it is often oversimplified as the main way open models can catch frontier systems.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-14",
-      "mention_count": 58,
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 59,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If distillation is less effective than assumed, open-model catch-up may take longer and favor integrated frontier labs over open ecosystems.",
@@ -14073,8 +14162,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 576,
-      "last_mentioned_speaker": "Nathan Lambert"
+      "last_mentioned_episode_id": 585,
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
     },
     {
       "id": 174,

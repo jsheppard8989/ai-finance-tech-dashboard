@@ -1,5 +1,27 @@
 [
   {
+    "id": 585,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
+    "episode_date": "2026-10-17",
+    "summary": "The episode centers on whether the recent selloff in AI infrastructure names, especially CoreWeave, is a sign of an AI bubble popping or just credit-market volatility. The hosts emphasize that bond yields on some CoreWeave debt reportedly reached 15%, CDS-implied default risk spiked to roughly 953 basis points, and the market is pricing meaningful refinancing stress. At the same time, they argue CoreWeave still has substantial asset coverage and that compute demand remains strong, so the issue may be financing fragility rather than collapsing demand.\n\nA major thread is CoreWeave\u2019s unusual \u201cbox\u201d financing structure, where contracts are packaged into discrete financing buckets with fixed-price cash-flow waterfalls. David Sacks argues that this structure limits upside if spot prices rise, while also leaving the company exposed to higher borrowing costs as risk-free rates move up. He also highlights concentration risk, saying about 75% of revenue comes from three customers, and notes that the company may need around $35 billion of additional financing at the midpoint to fully fund signed contracts.\n\nThe group also debates Anthropic. They discuss its upcoming IPO timing, likely around Thanksgiving, and frame the real debate as valuation rather than business viability. They cite very large revenue numbers, with Q3 revenue at $16.8 billion and ARR estimates ranging from roughly $70 billion to over $100 billion, while some speakers argue the company can still have a strong IPO. Valuation levels discussed range from about $1.5 trillion to $2.3 trillion, with one argument that a $200 billion to $250 billion IPO pricing range would be safer for the war chest.\n\nAnother major theme is the economics of AI software and infrastructure. The hosts argue that compute remains scarce due to power, cooling, data-center build times, and regulatory constraints, making energy access a structural bottleneck. They also discuss how open-source and small models could be deflationary for software pricing but create a new wave of bespoke software and keep developer demand high. The episode ends with a sharp critique of Anthropic\u2019s warnings about small-model worms, with the hosts arguing that the real threats are old IoT vulnerabilities and that the fear narrative may be competitively motivated.",
+    "key_takeaways": [
+      "David Sacks said CoreWeave debt markets are signaling serious stress, with CDS risk spiking to about 953 basis points and implied default probabilities around 16% annually and 55% over five years.",
+      "David Sacks argued CoreWeave\u2019s fixed-price contract structure means upside from higher spot pricing is limited because capacity has already been pre-sold.",
+      "David Sacks said CoreWeave may need another $35 billion of financing at the midpoint to fully fund contracted boxes and keep them operational.",
+      "Ben Horowitz argued the CoreWeave selloff is more likely volatility around underwriting to multi-trillion-dollar outcomes than a true collapse in AI demand.",
+      "David Sacks said Anthropic is likely to go public around Thanksgiving and that the disagreement is mainly about valuation, not survivability.",
+      "Ben Horowitz said AI coding assistance is expanding total code creation dramatically, implying software demand is not zero-sum.",
+      "David Sacks argued the AI infrastructure buildout is constrained by power, with a cited 2050 electricity shortfall of about 1.4 terawatt-hours."
+    ],
+    "investment_thesis": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
+    "key_tickers": [
+      "ORCL",
+      "DELL",
+      "COIN"
+    ]
+  },
+  {
     "id": 584,
     "podcast_name": "The a16z Show",
     "episode_title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
