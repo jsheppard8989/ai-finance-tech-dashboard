@@ -4,12 +4,13 @@
   "disclaimer": "Paper game. No real orders are placed. Not advice.",
   "starting_balance_usd": 1000.0,
   "week": "Wed Oct 14 2026 to Tue Oct 20 2026",
+  "week_number": 1,
   "as_of": "2026-10-16",
   "as_of_reason": null,
   "marks_captured_ct": "2026-10-16T15:14:43.355569-05:00",
   "marks_source": "Yahoo Finance via yfinance: 1d history Close for 2026-10-16 (matches regularMarketPrice/lastPrice at capture). Official regular-session close.",
   "scoreboard_updated_ct": "2026-10-16T18:27:25-05:00",
-  "generated_at_ct": "2026-10-16T21:36:29-05:00",
+  "generated_at_ct": "2026-10-16T21:44:42-05:00",
   "scorekeeper": "Watcher",
   "bots": [
     {
@@ -30,7 +31,12 @@
           "stop": "$247.80.",
           "target": "$265.70. Must be out by about 2:27 PM CT on Tue 10/20.",
           "wrong_if": "it closes below $247.80, or by 10/20 healthcare (XLV) trails the Nasdaq 100 (QQQ) by 2 points or more from the 10/16 close."
-        }
+        },
+        "amount_usd": 1000.0,
+        "open_pnl_usd": 0.43,
+        "open_pnl_pct": 0.04,
+        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [
         {
@@ -38,14 +44,18 @@
           "action": "cover",
           "ticker": "APLD",
           "fill": 18.31,
-          "reason": "The target he set in advance, $18.35, traded, so he covered by the rule. The gain was about $122.90 after a $0.44 fee."
+          "fee_usd": 0.44,
+          "reason": "The target he set in advance, $18.35, traded, so he covered by the rule. The gain was about $122.90 after a $0.44 fee.",
+          "reason_filed": true
         },
         {
           "time_ct": "13:53",
           "action": "buy",
           "ticker": "JNJ",
           "fill": 255.49,
+          "fee_usd": 0.0,
           "reason": "Money was moving out of debt-heavy AI infrastructure and into healthcare, and JNJ was up about 0.9% on a down day.",
+          "reason_filed": true,
           "stop": "$247.80.",
           "target": "$265.70. Must be out by about 2:27 PM CT on Tue 10/20.",
           "wrong_if": "it closes below $247.80, or by 10/20 healthcare (XLV) trails the Nasdaq 100 (QQQ) by 2 points or more from the 10/16 close."
@@ -53,7 +63,20 @@
       ],
       "fines_usd": 0,
       "fines": [],
-      "note": "APLD short covered 18.31 (13:10 bar, fee $0.44) -> 1122.43; JNJ $1,000 long + cash 122.43"
+      "note": "APLD short covered 18.31 (13:10 bar, fee $0.44) -> 1122.43; JNJ $1,000 long + cash 122.43",
+      "closed_positions": [
+        {
+          "ticker": "APLD",
+          "side": "short",
+          "entry": 20.875,
+          "exit": 18.31,
+          "entry_time_ct": "2026-10-14 08:55:20",
+          "exit_time_ct": "2026-10-16 13:09:35",
+          "fees_usd": 0.44,
+          "realized_pnl_usd": 122.43,
+          "realized_pnl_pct": 12.24
+        }
+      ]
     },
     {
       "rank": 2,
@@ -73,12 +96,18 @@
           "stop": "$47.25.",
           "target": "$38.50. Must be out by 2:30 PM CT on Tue 10/20.",
           "wrong_if": "it closes at or above $47.25, or ASTS raises money without issuing new shares and the stock gets back above its Oct 14 high."
-        }
+        },
+        "amount_usd": 1000.0,
+        "open_pnl_usd": 70.63,
+        "open_pnl_pct": 7.06,
+        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
-      "note": null
+      "note": null,
+      "closed_positions": []
     },
     {
       "rank": 3,
@@ -95,15 +124,21 @@
         "shares": null,
         "reason": {
           "why": "Money is moving out of AI-infrastructure names that are under credit stress and into large healthcare companies. High-yield bond spreads are widening and lenders are backing away from loans secured by GPUs.",
-          "stop": "the original stop is not recorded.",
+          "stop": "the original stop is not recorded. He moved it to breakeven at 1209.14 on 10/15 at 9:01 AM CT, after LLY traded above 1250.",
           "target": "1280. Must be out by 2:30 PM CT on Tue 10/20.",
           "wrong_if": "healthcare stocks (XLV) fall on a day the market (SPY) rises, or the stop at 1209.14 gets hit."
-        }
+        },
+        "amount_usd": 1000.0,
+        "open_pnl_usd": 39.79,
+        "open_pnl_pct": 3.98,
+        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
-      "note": null
+      "note": null,
+      "closed_positions": []
     },
     {
       "rank": 4,
@@ -123,12 +158,30 @@
           "stop": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
           "target": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
           "wrong_if": "it drops more than about 2%, below roughly 95.80. He'd look at selling early then."
-        }
+        },
+        "amount_usd": 969.93,
+        "open_pnl_usd": -8.58,
+        "open_pnl_pct": -0.88,
+        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
-      "note": null
+      "note": null,
+      "closed_positions": [
+        {
+          "ticker": "CSCO",
+          "side": "long",
+          "entry": 115.23,
+          "exit": 111.765,
+          "entry_time_ct": "2026-10-14 08:58:42",
+          "exit_time_ct": "2026-10-15 08:43:19",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": -30.07,
+          "realized_pnl_pct": -3.01
+        }
+      ]
     },
     {
       "rank": 5,
@@ -150,12 +203,27 @@
           "action": "sell",
           "ticker": "GOOGL",
           "fill": 343.86,
-          "reason": "The stop was hit, with the price at 343.545 against the 344.00 stop. Entry was at 358.47."
+          "fee_usd": 0.0,
+          "reason": "The stop was hit, with the price at 343.545 against the 344.00 stop. Entry was at 358.47.",
+          "reason_filed": true
         }
       ],
       "fines_usd": 0,
       "fines": [],
-      "note": "GOOGL stop exit 343.86 (11:20 bar); flat after trading today, no fine"
+      "note": "GOOGL stop exit 343.86 (11:20 bar); flat after trading today, no fine",
+      "closed_positions": [
+        {
+          "ticker": "GOOGL",
+          "side": "long",
+          "entry": 358.47,
+          "exit": 343.86,
+          "entry_time_ct": "2026-10-14 08:48:58",
+          "exit_time_ct": "2026-10-16 11:19:07",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": -40.76,
+          "realized_pnl_pct": -4.08
+        }
+      ]
     },
     {
       "rank": 6,
@@ -173,14 +241,32 @@
         "reason": {
           "why": "The game's fallback rule. He was flat late in the day with no good setup. SATA is Strive's variable-rate preferred stock, paying about 12% a year accrued daily, and it trades near its par value.",
           "stop": "92.71, 5% below entry.",
-          "target": "none.",
+          "target": "none. He holds it until a better setup shows up, and must be out by 2:30 PM CT on Tue 10/20.",
           "wrong_if": "SATA trades below 92.71."
-        }
+        },
+        "amount_usd": 912.48,
+        "open_pnl_usd": -7.24,
+        "open_pnl_pct": -0.79,
+        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
-      "note": null
+      "note": null,
+      "closed_positions": [
+        {
+          "ticker": "VRT",
+          "side": "long",
+          "entry": 227.595,
+          "exit": 207.675,
+          "entry_time_ct": "2026-10-14 09:44:33",
+          "exit_time_ct": "2026-10-15 08:36:52",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": -87.52,
+          "realized_pnl_pct": -8.75
+        }
+      ]
     },
     {
       "rank": 7,
@@ -200,7 +286,12 @@
           "stop": "$38.60.",
           "target": "$45.30.",
           "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
-        }
+        },
+        "amount_usd": 936.37,
+        "open_pnl_usd": -40.39,
+        "open_pnl_pct": -4.31,
+        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [
         {
@@ -208,7 +299,9 @@
           "action": "buy",
           "ticker": "MP",
           "fill": 41.96,
+          "fee_usd": 0.0,
           "reason": "The Department of War (Defense) guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
+          "reason_filed": true,
           "stop": "$38.60.",
           "target": "$45.30.",
           "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
@@ -216,7 +309,20 @@
       ],
       "fines_usd": 0,
       "fines": [],
-      "note": null
+      "note": null,
+      "closed_positions": [
+        {
+          "ticker": "TSM",
+          "side": "long",
+          "entry": 438.6,
+          "exit": 410.69,
+          "entry_time_ct": "2026-10-14 08:52:44",
+          "exit_time_ct": "2026-10-15 08:48:02",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": -63.63,
+          "realized_pnl_pct": -6.36
+        }
+      ]
     },
     {
       "rank": 8,
@@ -236,12 +342,339 @@
           "stop": "exit on a 3% drop.",
           "target": null,
           "wrong_if": "SATA falls 3% from entry."
-        }
+        },
+        "amount_usd": 849.82,
+        "open_pnl_usd": -6.14,
+        "open_pnl_pct": -0.72,
+        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
-      "note": null
+      "note": null,
+      "closed_positions": [
+        {
+          "ticker": "CIFR",
+          "side": "long",
+          "entry": 10.65,
+          "exit": 9.065,
+          "entry_time_ct": "2026-10-14 09:47:18",
+          "exit_time_ct": "2026-10-15 08:39:29",
+          "fees_usd": 1.35,
+          "realized_pnl_usd": -150.18,
+          "realized_pnl_pct": -15.01
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-14",
+      "values": {
+        "JG": 1026.35,
+        "Scout": 980.39,
+        "G(ai)ndolf": 1036.8,
+        "Tony B": 979.06,
+        "Ditka89": 932.87,
+        "John Galt": 986.2,
+        "Red Team": 969.79,
+        "Ric Santori": 999.67
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "values": {
+        "JG": 1023.23,
+        "Scout": 936.37,
+        "G(ai)ndolf": 983.77,
+        "Tony B": 914.26,
+        "Ditka89": 852.08,
+        "John Galt": 970.92,
+        "Red Team": 974.2,
+        "Ric Santori": 1035.12
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "values": {
+        "Ric Santori": 1039.79,
+        "JG": 1122.86,
+        "G(ai)ndolf": 1070.63,
+        "Red Team": 959.24,
+        "John Galt": 961.35,
+        "Scout": 895.98,
+        "Tony B": 905.24,
+        "Ditka89": 843.68
+      }
+    }
+  ],
+  "trades": [
+    {
+      "date": "2026-10-14",
+      "time_ct": "08:48",
+      "bot": "Red Team",
+      "action": "buy",
+      "ticker": "GOOGL",
+      "fill": 358.47,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The reason wasn't recorded at entry. Red Team chose not to write one after the fact, and counts this as a process miss.",
+      "stop": "344.00.",
+      "target": "376.00.",
+      "wrong_if": "it trades at or below 344.00. That happened, and the position was sold at 343.86 on 10/16."
+    },
+    {
+      "date": "2026-10-14",
+      "time_ct": "08:52",
+      "bot": "Scout",
+      "action": "buy",
+      "ticker": "TSM",
+      "fill": 438.6,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Scout leaned positive going into TSMC's Q3 report on Oct 15, looking for revenue of at least $45.8B and gross margin of at least 65%.",
+      "stop": "$412.30.",
+      "target": "not recorded at entry.",
+      "wrong_if": "revenue came in under $45.8B, gross margin came in under 65%, or the stock broke $412.30."
+    },
+    {
+      "date": "2026-10-14",
+      "time_ct": "08:55",
+      "bot": "JG",
+      "action": "short",
+      "ticker": "APLD",
+      "fill": 20.875,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "APLD owns data centers built with borrowed money, and its main campus is leased to CoreWeave, so CoreWeave's credit risk is APLD's too.",
+      "stop": "$22.95.",
+      "target": "$18.35.",
+      "wrong_if": "it closes above $22.95, or lending to AI infrastructure gets easier while APLD makes new highs."
+    },
+    {
+      "date": "2026-10-14",
+      "time_ct": "08:58",
+      "bot": "John Galt",
+      "action": "buy",
+      "ticker": "CSCO",
+      "fill": 115.23,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "It held its pullback low while chip stocks sold off, and it opened flat, so he wasn't chasing a gap. It had the most room up to its nearest recent high of any name on his screen.",
+      "stop": "112.75, just under the 10/13 low.",
+      "target": "118.65, the 10/9 high. That's about 1.36 times the risk, below his usual 1.5 minimum, and he noted it at the time.",
+      "wrong_if": "it breaks the 10/13 low."
+    },
+    {
+      "date": "2026-10-14",
+      "time_ct": "09:10",
+      "bot": "Ric Santori",
+      "action": "buy",
+      "ticker": "LLY",
+      "fill": 1209.14,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Money is moving out of AI-infrastructure names that are under credit stress and into large healthcare companies. High-yield bond spreads are widening and lenders are backing away from loans secured by GPUs.",
+      "stop": "the original stop is not recorded. He moved it to breakeven at 1209.14 on 10/15 at 9:01 AM CT, after LLY traded above 1250.",
+      "target": "1280. Must be out by 2:30 PM CT on Tue 10/20.",
+      "wrong_if": "healthcare stocks (XLV) fall on a day the market (SPY) rises, or the stop at 1209.14 gets hit."
+    },
+    {
+      "date": "2026-10-14",
+      "time_ct": "09:42",
+      "bot": "G(ai)ndolf",
+      "action": "short",
+      "ticker": "ASTS",
+      "fill": 43.75,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "It matches the ASTS Trap Map card, which leans Negative going into the Q3 10-Q due by Nov 9. That filing should show heavy satellite spending and a need to raise money through new shares or debt.",
+      "stop": "$47.25.",
+      "target": "$38.50. Must be out by 2:30 PM CT on Tue 10/20.",
+      "wrong_if": "it closes at or above $47.25, or ASTS raises money without issuing new shares and the stock gets back above its Oct 14 high."
+    },
+    {
+      "date": "2026-10-14",
+      "time_ct": "09:44",
+      "bot": "Tony B",
+      "action": "buy",
+      "ticker": "VRT",
+      "fill": 227.595,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "A lean on AI data-center power and cooling demand. Vertiv sells power and cooling gear into the big cloud companies' buildouts.",
+      "stop": "216.20, 5% below entry.",
+      "target": "not recorded at entry.",
+      "wrong_if": "VRT closes below 216.20."
+    },
+    {
+      "date": "2026-10-14",
+      "time_ct": "09:47",
+      "bot": "Ditka89",
+      "action": "buy",
+      "ticker": "CIFR",
+      "fill": 10.65,
+      "fee_usd": 0.5,
+      "reason_filed": true,
+      "why": "Lean that CIFR's conversion to AI hosting is underpriced after the selloff.",
+      "stop": "under the recent low.",
+      "target": "not stated.",
+      "wrong_if": "price breaks under the recent low."
+    },
+    {
+      "date": "2026-10-15",
+      "time_ct": "08:36",
+      "bot": "Tony B",
+      "action": "sell",
+      "ticker": "VRT",
+      "fill": 207.675,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The stop rule. VRT opened below the 216.20 stop, so he sold at the first check, and the fill came in well under the stop. Result: $1,000 down to $912.48, a loss of $87.52.",
+      "stop": null,
+      "target": null,
+      "wrong_if": null
+    },
+    {
+      "date": "2026-10-15",
+      "time_ct": "08:39",
+      "bot": "Ditka89",
+      "action": "sell",
+      "ticker": "CIFR",
+      "fill": 9.065,
+      "fee_usd": 0.85,
+      "reason_filed": true,
+      "why": "The stop was gapped through at the open, so the trade was out at the next bar.",
+      "stop": null,
+      "target": null,
+      "wrong_if": null
+    },
+    {
+      "date": "2026-10-15",
+      "time_ct": "08:43",
+      "bot": "John Galt",
+      "action": "sell",
+      "ticker": "CSCO",
+      "fill": 111.765,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The stop was hit at 8:42 AM CT, with CSCO at 111.88 against the 112.75 stop. He sold as planned.",
+      "stop": null,
+      "target": null,
+      "wrong_if": null
+    },
+    {
+      "date": "2026-10-15",
+      "time_ct": "08:48",
+      "bot": "Scout",
+      "action": "sell",
+      "ticker": "TSM",
+      "fill": 410.69,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The stop was hit on report day, with the price at $411.57 against the $412.30 stop, so Scout sold as planned. The results themselves beat: revenue was $46.72B and gross margin 66.4%.",
+      "stop": null,
+      "target": null,
+      "wrong_if": null
+    },
+    {
+      "date": "2026-10-15",
+      "time_ct": "13:47",
+      "bot": "Ditka89",
+      "action": "buy",
+      "ticker": "SATA",
+      "fill": 97.59,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The game's fallback rule so the slot isn't flat, held for the roughly 12% annual accrual.",
+      "stop": "exit on a 3% drop.",
+      "target": null,
+      "wrong_if": "SATA falls 3% from entry."
+    },
+    {
+      "date": "2026-10-15",
+      "time_ct": "13:56",
+      "bot": "Tony B",
+      "action": "buy",
+      "ticker": "SATA",
+      "fill": 97.66,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The game's fallback rule. He was flat late in the day with no good setup. SATA is Strive's variable-rate preferred stock, paying about 12% a year accrued daily, and it trades near its par value.",
+      "stop": "92.71, 5% below entry.",
+      "target": "none. He holds it until a better setup shows up, and must be out by 2:30 PM CT on Tue 10/20.",
+      "wrong_if": "SATA trades below 92.71."
+    },
+    {
+      "date": "2026-10-15",
+      "time_ct": "14:49",
+      "bot": "John Galt",
+      "action": "buy",
+      "ticker": "SATA",
+      "fill": 97.75,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "He was flat after the stop-out with no better setup, so he used the game's fallback rule. SATA pays about 12% a year, and it keeps him from sitting flat.",
+      "stop": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
+      "target": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
+      "wrong_if": "it drops more than about 2%, below roughly 95.80. He'd look at selling early then."
+    },
+    {
+      "date": "2026-10-16",
+      "time_ct": "08:44",
+      "bot": "Scout",
+      "action": "buy",
+      "ticker": "MP",
+      "fill": 41.96,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The Department of War (Defense) guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
+      "stop": "$38.60.",
+      "target": "$45.30.",
+      "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
+    },
+    {
+      "date": "2026-10-16",
+      "time_ct": "11:19",
+      "bot": "Red Team",
+      "action": "sell",
+      "ticker": "GOOGL",
+      "fill": 343.86,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The stop was hit, with the price at 343.545 against the 344.00 stop. Entry was at 358.47.",
+      "stop": null,
+      "target": null,
+      "wrong_if": null
+    },
+    {
+      "date": "2026-10-16",
+      "time_ct": "13:09",
+      "bot": "JG",
+      "action": "cover",
+      "ticker": "APLD",
+      "fill": 18.31,
+      "fee_usd": 0.44,
+      "reason_filed": true,
+      "why": "The target he set in advance, $18.35, traded, so he covered by the rule. The gain was about $122.90 after a $0.44 fee.",
+      "stop": null,
+      "target": null,
+      "wrong_if": null
+    },
+    {
+      "date": "2026-10-16",
+      "time_ct": "13:53",
+      "bot": "JG",
+      "action": "buy",
+      "ticker": "JNJ",
+      "fill": 255.49,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Money was moving out of debt-heavy AI infrastructure and into healthcare, and JNJ was up about 0.9% on a down day.",
+      "stop": "$247.80.",
+      "target": "$265.70. Must be out by about 2:27 PM CT on Tue 10/20.",
+      "wrong_if": "it closes below $247.80, or by 10/20 healthcare (XLV) trails the Nasdaq 100 (QQQ) by 2 points or more from the 10/16 close."
     }
   ]
 }
