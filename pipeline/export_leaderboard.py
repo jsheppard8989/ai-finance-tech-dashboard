@@ -49,11 +49,29 @@ def canon(name: str) -> str:
     return ALIASES.get(n, n)
 
 
+# Public wording (G, Oct 16): no personal names for game rules; clarify the agency name.
+WORDING = [
+    (re.compile(r"\bJared(?:'|\u2019)s\s+(?:approved\s+)?(?:[A-Z]{2,5}\s+)?fallback(?:\s+rule)?"), "the game's fallback rule"),
+    (re.compile(r"\bJared(?:'|\u2019)s\s+((?:[\w:.\-]+\s+){0,4}?)rule\b"), r"the game's \1rule"),
+    (re.compile(r"\bJared(?:'|\u2019)s\b"), "the game's"),
+    (re.compile(r"\bJared\b"), "the game"),
+    (re.compile(r"\bDepartment of War\b(?!\s*\(Defense\))"), "Department of War (Defense)"),
+]
+
+
+def apply_wording(t: str) -> str:
+    for rx, rep in WORDING:
+        t = rx.sub(rep, t)
+    # Capitalize a rewritten phrase at the start of a sentence.
+    return re.sub(r"(^|[.!?]\s+)the game", lambda m: m.group(1) + "The game", t)
+
+
 def clean(text) -> str | None:
     if text is None:
         return None
     t = PATH_RE.sub("", str(text))
     t = PRIVATE_RE.sub("", t)
+    t = apply_wording(t)
     t = re.sub(r"\s*;\s*;", ";", re.sub(r"\(\s*\)", "", t))
     t = re.sub(r"\s{2,}", " ", t).strip(" ;,")
     try:
@@ -276,6 +294,9 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
         "scorekeeper": "Watcher",
         "bots": rows,
     }
+    name_hits = re.findall(r"(?i)\bjared\b", json.dumps(out, ensure_ascii=False))
+    if name_hits:
+        raise SystemExit(f"leaderboard export blocked: {len(name_hits)} 'Jared' hit(s) left in public text")
     hits = find_style_gate_hits(out)
     if hits:
         raise SystemExit(f"leaderboard export blocked: style gate hit {hits[0]}")
