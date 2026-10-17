@@ -39,7 +39,10 @@ DEFAULT_SOURCE = "/workspace/cos/bot_game"
 OUT_REL = "site/data/leaderboard.json"
 # Public bot names. "Compound Wealth" is the group chat name; the bot is Ditka89 (Oct 16).
 ALIASES = {"Compound Wealth": "Ditka89"}
-REASON_FILE_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_(.+?)_([A-Z.]+)_(entry|exit)\.md$")
+# <date>_[<HHMM>_]<Player>_<TICKER>_<entry|exit>.md (time optional, Oct 16 v2)
+REASON_FILE_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_(?:(\d{4})_)?(.+?)_([A-Z.]+)_(entry|exit)\.md$")
+WEEK_RE = re.compile(r"Week (\d+) runs ([^.]+)\.")
+ARCHIVE_REL = "site/data/leaderboard_archive"
 PATH_RE = re.compile(r"(?<![\w/])(?:~|\.)?/(?:[\w.\-]+/)*[\w.\-]*[A-Za-z_][\w.\-]*|\bproof/\S+|\b[\w.\-]+\.(?:json|md|log|png|py)\b")
 PRIVATE_RE = re.compile(r"(?i)dragonfly\s*")
 
@@ -108,37 +111,72 @@ def parse_reason_md(text: str) -> dict:
         if k == "why":
             r["why"] = _first_sentences(v)
         elif k.startswith("stop"):
+            # Keep the whole bullet (e.g. Ric's stop moved to breakeven); split off an inline Target.
             stop, _, rest = v.partition("Target:")
-            r["stop"] = _first_sentences(stop, 120) or None
+            r["stop"] = stop.strip() or None
             if rest:
-                r["target"] = _first_sentences(rest, 80)
+                r["target"] = rest.strip()
             if "target" in k and not rest:
                 r["target"] = r["stop"]
         elif k == "target":
-            r["target"] = _first_sentences(v, 80)
+            r["target"] = v
         elif k.startswith("wrong if"):
-            r["wrong_if"] = _first_sentences(v, 200)
+            r["wrong_if"] = v
     return {k: clean(v) for k, v in r.items()}
 
 
-def load_reasons(src: Path, bot_names) -> dict:
-    """(bot, date, TICKER, entry|exit) -> parsed reason, from <src>/reasons/*.md."""
+def load_reason_files(src: Path, bot_names) -> dict:
+    """(bot, date, TICKER, kind) -> [(HHMM or None, parsed reason)], sorted (untimed files last
+    within a key, then by name). Accepts <date>_<Player>_... and <date>_<HHMM>_<Player>_..."""
     keys = {_key(b): b for b in bot_names}
-    out = {}
+    out: dict = {}
     for f in sorted((src / "reasons").glob("*.md")) if (src / "reasons").is_dir() else []:
         m = REASON_FILE_RE.match(f.name)
         if not m:
             continue
-        day, who, tk, kind = m.groups()
+        day, hhmm, who, tk, kind = m.groups()
         k = _key(ALIASES.get(who, who))
         bot = keys.get(k) or next((b for kk, b in keys.items() if kk.startswith(k) or k.startswith(kk)), None)
         if not bot:
             continue
         try:
-            out[(bot, day, tk.upper(), kind)] = parse_reason_md(f.read_text(encoding="utf-8"))
+            parsed = parse_reason_md(f.read_text(encoding="utf-8"))
         except Exception:
             continue
+        out.setdefault((bot, day, tk.upper(), kind), []).append((hhmm, f.name, parsed))
+    for v in out.values():
+        v.sort(key=lambda x: (x[0] is None, x[0] or "", x[1]))
     return out
+
+
+def match_reasons(trades: list, files: dict) -> dict:
+    """trade index -> parsed reason. A timed file matches the trade with the same HHMM (received
+    or fill bar). Untimed files go to the remaining trades with that key in time order, so two
+    same-ticker round trips on one day no longer collide."""
+    out, used = {}, set()
+    groups: dict = {}
+    for i, t in enumerate(trades):
+        groups.setdefault((t["bot"], t["date"], t["ticker"].upper(), t["kind"]), []).append(i)
+    for key, idxs in groups.items():
+        cands = files.get(key, [])
+        left = []
+        for i in idxs:
+            hit = next((j for j, (hh, _, _) in enumerate(cands)
+                        if hh and j not in used and hh in (trades[i]["hhmm"], trades[i].get("bar_hhmm"))), None)
+            if hit is not None:
+                used.add(hit); out[i] = cands[hit][2]
+            else:
+                left.append(i)
+        untimed = [j for j, (hh, _, _) in enumerate(cands) if hh is None]
+        for i, j in zip(left, untimed):
+            out[i] = cands[j][2]
+        used = set()
+    return out
+
+
+def load_reasons(src: Path, bot_names) -> dict:
+    """(bot, date, TICKER, kind) -> latest parsed reason (back-compat helper)."""
+    return {k: v[-1][2] for k, v in load_reason_files(src, bot_names).items()}
 
 
 def md_table(md: str, header: str) -> list[list[str]]:
@@ -193,12 +231,111 @@ def fill_price(s: str):
     return float(m.group(1)) if m else None
 
 
+def _load_json(p: Path):
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def fee_rate(px: float) -> float:
+    """RULES.md tiers on the per-share fill price (same as Watcher's bar_fill.py)."""
+    return 0.0025 if px < 5 else 0.001 if px < 10 else 0.0005 if px < 20 else 0.0
+
+
+def week_span_dates(span: str | None):
+    m = re.findall(r"([A-Z][a-z]{2}) (\d{1,2}) (\d{4})", span or "")
+    if len(m) >= 2:
+        try:
+            a, b = (dt.datetime.strptime(" ".join(x), "%b %d %Y").date() for x in m[:2])
+            return a.isoformat(), b.isoformat()
+        except ValueError:
+            pass
+    return None, None
+
+
+def build_trade_log(src: Path, md: str, start: str | None = None, end: str | None = None):
+    """Watcher's Trades log + proof bar files -> (trades, closed_by_bot, open_by_bot).
+    Prices come from the fill proof (scoreboard text as fallback). Exit fees are recomputed as
+    rate x (shares x exit price): some exit proofs stored the fee on the $1,000 basis (CIFR 10/15
+    stored $1.00; Watcher's corrected figure is $0.85)."""
+    trades, closed, open_pos = [], {}, {}
+    rows = [r for r in md_table(md, "## Trades log") if len(r) >= 5 and re.match(r"\d{4}-\d{2}-\d{2}", r[0])]
+    if start:
+        rows = [r for r in rows if start <= r[0][:10] <= end]
+    for r in sorted(rows, key=lambda r: r[0]):
+        received, player, action, ticker, fill_txt = r[:5]
+        proof_rel = r[6] if len(r) > 6 else ""
+        bot = canon(player)
+        kind = "exit" if action.lower().startswith("exit") else "entry"
+        pf = _load_json(src / proof_rel) if proof_rel and not proof_rel.startswith("/") and ".." not in proof_rel else None
+        px = (pf or {}).get("fill_price")
+        px = float(px) if px is not None else fill_price(fill_txt)
+        bar = (pf or {}).get("bar_start_ct") or ""
+        t = {"date": received[:10], "time_ct": received[11:16] or None, "bot": bot,
+             "action": side_of(action), "ticker": ticker.upper(), "fill": px,
+             "fee_usd": None, "kind": kind, "hhmm": received[11:16].replace(":", ""),
+             "bar_hhmm": bar[11:16].replace(":", "") if bar else None, "received": received}
+        note = None
+        if kind == "entry":
+            amt = (pf or {}).get("notional_usd")
+            if amt is None:
+                m = re.search(r"\$([\d,]+(?:\.\d+)?)", action)
+                amt = float(m.group(1).replace(",", "")) if m else None
+            fee = (pf or {}).get("fee_usd")
+            if fee is None and px is not None:
+                fee = round((amt or 0) * fee_rate(px), 2) if amt is not None else None
+            t["fee_usd"] = fee
+            side = "short" if "short" in action.lower() else "long"
+            shares = (pf or {}).get("shares") or ((amt / px) if amt and px else None)
+            open_pos[bot] = {"ticker": t["ticker"], "side": side, "entry": px, "amount_usd": amt,
+                             "entry_fee": fee or 0.0, "shares": shares, "entry_time_ct": received}
+        else:
+            pos = open_pos.pop(bot, None)
+            if pos and pos["ticker"] == t["ticker"] and px is not None and pos["entry"]:
+                shares = pos["shares"] or (pos["amount_usd"] / pos["entry"])
+                if pos["side"] == "short":
+                    gross = pos["amount_usd"] * (2 - px / pos["entry"])
+                else:
+                    gross = shares * px
+                # Fee = tier rate x exit notional (shares x exit price), never the $1,000 basis.
+                fee = round(shares * px * fee_rate(px), 2)
+                t["fee_usd"] = fee
+                cost = pos["amount_usd"] + pos["entry_fee"]
+                pnl = gross - fee - cost
+                closed.setdefault(bot, []).append({
+                    "ticker": pos["ticker"], "side": pos["side"], "entry": pos["entry"], "exit": px,
+                    "entry_time_ct": pos["entry_time_ct"], "exit_time_ct": received,
+                    "fees_usd": round(pos["entry_fee"] + fee, 2),
+                    "realized_pnl_usd": round(pnl, 2), "realized_pnl_pct": round(pnl / cost * 100, 2)})
+            else:
+                note = "exit has no matching open entry in Watcher's log"
+                t["fee_usd"] = (pf or {}).get("fee_usd")
+        if t["fee_usd"] is None:
+            t["fee_usd_reason"] = "no fee on file for this fill"
+        if note:
+            t["note"] = note
+        trades.append(t)
+    return trades, closed, open_pos
+
+
 def build(src: Path, now: dt.datetime | None = None) -> dict:
     now = now or dt.datetime.now(dt.timezone(dt.timedelta(hours=-5)))
     md_path = src / "scoreboard.md"
     md = md_path.read_text(encoding="utf-8") if md_path.exists() else ""
-    marks, mark_files = latest_marks(src)
+    wk = WEEK_RE.search(md)
+    week_no = int(wk.group(1)) if wk else None
+    week_span = wk.group(2) if wk else None
+    wk_start, wk_end = week_span_dates(week_span)
+    mark_files = sorted(glob.glob(str(src / "proof" / "*" / "daily_close_marks_*.json")))
+    all_marks = [m for m in (_load_json(Path(f)) for f in mark_files) if isinstance(m, dict) and m.get("date")]
+    if wk_start:
+        all_marks = [m for m in all_marks if wk_start <= m["date"] <= wk_end]
+    marks = all_marks[-1] if all_marks else None
     as_of = marks.get("date") if marks else None
+    history = [{"date": m["date"], "values": {canon(p.get("player")): p.get("value") for p in m.get("positions", [])}}
+               for m in all_marks]
+    log, closed_by_bot, open_by_bot = build_trade_log(src, md, wk_start, wk_end)
 
     trades = [dict(t=r[0], player=canon(r[1]), action=r[2], ticker=r[3], fill=r[4])
               for r in md_table(md, "## Trades log") if len(r) >= 5]
@@ -215,7 +352,23 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
     for name in standings:
         players.setdefault(name, None)
 
-    reasons = load_reasons(src, list(players))
+    reason_files = load_reason_files(src, list(players) + [t["bot"] for t in log])
+    matched = match_reasons(log, reason_files)
+    reasons = {k: v[-1][2] for k, v in reason_files.items()}
+    full_trades = []
+    for i, t in enumerate(log):
+        rf = matched.get(i)
+        filed = bool(rf and rf.get("why"))
+        row = {k: t[k] for k in ("date", "time_ct", "bot", "action", "ticker", "fill", "fee_usd")}
+        row["reason_filed"] = filed
+        for k in ("why", "stop", "target", "wrong_if"):
+            row[k] = rf.get(k) if rf else None
+        if not filed:
+            row["reason_missing"] = "no reason filed in the public reasons channel"
+        for k in ("fee_usd_reason", "note"):
+            if k in t:
+                row[k] = t[k]
+        full_trades.append(row)
     rows = []
     for name, p in players.items():
         bal = p.get("value") if p else None
@@ -234,27 +387,45 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
             "shares": p.get("shares"),
         }
         today = []
-        for t in trades:
-            if t["player"] == name and as_of and t["t"].startswith(as_of):
-                kind = "exit" if t["action"].lower().startswith("exit") else "entry"
-                rf = reasons.get((name, as_of, t["ticker"].upper(), kind))
-                reason, why_null = (rf["why"], None) if rf and rf.get("why") else trade_reason(t["action"])
+        for t in full_trades:
+            if t["bot"] == name and as_of and t["date"] == as_of:
                 today.append({
-                    "time_ct": t["t"][11:16] or None,
-                    "action": side_of(t["action"]),
-                    "ticker": t["ticker"],
-                    "fill": fill_price(t["fill"]),
-                    "reason": clean(reason),
-                    **({"reason_missing": why_null} if reason is None else {}),
-                    **({k: rf[k] for k in ("stop", "target", "wrong_if") if rf and rf.get(k)}),
+                    "time_ct": t["time_ct"], "action": t["action"], "ticker": t["ticker"], "fill": t["fill"],
+                    "fee_usd": t["fee_usd"], "reason": t["why"], "reason_filed": t["reason_filed"],
+                    **({"reason_missing": t["reason_missing"]} if not t["reason_filed"] else {}),
+                    **({k: t[k] for k in ("stop", "target", "wrong_if") if t.get(k)}),
                 })
         if position and position.get("ticker"):
-            cands = sorted(k for k in reasons if k[0] == name and k[2] == position["ticker"].upper() and k[3] == "entry")
-            if cands:
-                position["reason"] = reasons[cands[-1]]
+            # Reason for the open position = the reason matched to its latest entry in the log.
+            idx = [i for i, t in enumerate(log) if t["bot"] == name and t["kind"] == "entry"
+                   and t["ticker"] == position["ticker"].upper()]
+            rf = matched.get(idx[-1]) if idx else None
+            if rf is None:
+                cands = sorted(k for k in reasons if k[0] == name and k[2] == position["ticker"].upper() and k[3] == "entry")
+                rf = reasons[cands[-1]] if cands else None
+            if rf:
+                position["reason"] = rf
             else:
                 position["reason"] = None
                 position["reason_missing"] = "no public reason filed yet"
+            op = open_by_bot.get(name)
+            if op and op["ticker"] == position["ticker"]:
+                amt = op["amount_usd"]
+                position["amount_usd"] = amt
+                close, entry = position.get("close"), op["entry"]
+                if amt and close is not None and entry:
+                    mval = amt * (2 - close / entry) if op["side"] == "short" else amt * close / entry
+                    cost = amt + (op["entry_fee"] or 0)
+                    position["open_pnl_usd"] = round(mval - cost, 2)
+                    position["open_pnl_pct"] = round((mval - cost) / cost * 100, 2)
+                else:
+                    position["open_pnl_usd"] = position["open_pnl_pct"] = None
+                    position["open_pnl_reason"] = "no close mark for this position"
+            else:
+                position["amount_usd"] = position["open_pnl_usd"] = position["open_pnl_pct"] = None
+                position["open_pnl_reason"] = "open entry not found in Watcher's log"
+            position["mark_time_ct"] = f"{as_of}T15:00:00-05:00" if as_of and position.get("close") is not None else None
+            position["mark_source"] = "official close (Yahoo Finance via yfinance)" if position["mark_time_ct"] else None
         f = fines.get(name, [])
         row = {
             "bot": name,
@@ -267,6 +438,7 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
             "fines_usd": round(sum(x["amount_usd"] or 0 for x in f), 2),
             "fines": f,
             "note": clean((p or {}).get("note")),
+            "closed_positions": closed_by_bot.get(name, []),
         }
         if bal is None:
             row["balance_reason"] = "no close mark for this bot yet"
@@ -284,7 +456,8 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
         "paper_only": True,
         "disclaimer": "Paper game. No real orders are placed. Not advice.",
         "starting_balance_usd": START,
-        "week": clean(re.search(r"Week 1 runs ([^.]+)\.", md).group(1)) if re.search(r"Week 1 runs ([^.]+)\.", md) else None,
+        "week": clean(week_span),
+        "week_number": week_no,
         "as_of": as_of,
         "as_of_reason": None if as_of else "no daily close marks found yet",
         "marks_captured_ct": (marks or {}).get("captured_ct"),
@@ -293,6 +466,8 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
         "generated_at_ct": now.isoformat(timespec="seconds"),
         "scorekeeper": "Watcher",
         "bots": rows,
+        "history": history,
+        "trades": full_trades,
     }
     name_hits = re.findall(r"(?i)\bjared\b", json.dumps(out, ensure_ascii=False))
     if name_hits:
@@ -303,7 +478,34 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
     return out
 
 
+def archive_previous_week(out: dict, path: Path) -> Path | None:
+    """At the weekly reset, keep the last published JSON of the previous week as
+    leaderboard_archive/week-<n>.json (written once, never overwritten)."""
+    if not path.exists():
+        return None
+    try:
+        old = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    old_no = old.get("week_number")
+    if old_no is None:
+        m = re.match(r"\s*Wed Oct 14 2026", old.get("week") or "")
+        old_no = 1 if m else None  # pre-v2 files had no week_number; week 1 started Oct 14
+    new_no = out.get("week_number")
+    if old_no is None or new_no is None or old_no == new_no:
+        return None
+    dest = path.parent / "leaderboard_archive" / f"week-{old_no}.json"
+    if dest.exists():
+        return None
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(json.dumps(old, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return dest
+
+
 def write(out: dict, path: Path) -> bool:
+    archived = archive_previous_week(out, path)
+    if archived:
+        print(f"archived previous week -> {archived.name}")
     text = json.dumps(out, indent=2, ensure_ascii=False) + "\n"
     old = path.read_text(encoding="utf-8") if path.exists() else None
     if old is not None:
@@ -343,6 +545,8 @@ def publish(out: dict) -> int:
             print("✗ publish guard blocked the leaderboard publish.")
             return 1
         sh("git", "add", "-f", OUT_REL, cwd=wt)
+        if (wt / ARCHIVE_REL).is_dir():
+            sh("git", "add", "-f", ARCHIVE_REL, cwd=wt)
         name = sh("git", "config", "user.name", cwd=wt, check=False) or sh("git", "log", "-1", "--format=%an", cwd=wt)
         email = sh("git", "config", "user.email", cwd=wt, check=False) or sh("git", "log", "-1", "--format=%ae", cwd=wt)
         sh("git", "-c", f"user.name={name}", "-c", f"user.email={email}", "commit", "-q", "-m",
