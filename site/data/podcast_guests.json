@@ -1,6 +1,18 @@
 [
   {
-    "id": 89941,
+    "id": 90121,
+    "name": "Zocdoc CEO Oliver Kharraz",
+    "slug": "zocdoc-ceo-oliver-kharraz",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
+    "last_episode_title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-17",
+    "appearance_count": 1
+  },
+  {
+    "id": 90122,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89943,
+    "id": 90124,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 2
   },
   {
-    "id": 89942,
+    "id": 90123,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89944,
+    "id": 90125,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89945,
+    "id": 90126,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89946,
+    "id": 90127,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89947,
+    "id": 90128,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89948,
+    "id": 90129,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89949,
+    "id": 90130,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89950,
+    "id": 90131,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89951,
+    "id": 90132,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89952,
+    "id": 90133,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89953,
+    "id": 90134,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89954,
+    "id": 90135,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89955,
+    "id": 90136,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89956,
+    "id": 90137,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89957,
+    "id": 90138,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89958,
+    "id": 90139,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89959,
+    "id": 90140,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89960,
+    "id": 90141,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89961,
+    "id": 90142,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89962,
+    "id": 90143,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89963,
+    "id": 90144,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89964,
+    "id": 90145,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89965,
+    "id": 90146,
     "name": "Maggie Landers",
     "slug": "maggie-landers",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89966,
+    "id": 90147,
     "name": "Eddy Lazzarin",
     "slug": "eddy-lazzarin",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89967,
+    "id": 90148,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89968,
+    "id": 90149,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 89969,
+    "id": 90150,
     "name": "Clocktower Group",
     "slug": "clocktower-group",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Energy Shock and Rate Hikes Could Cause a 2022 Style Bear Market | Eric Wallerstein | Clocktower Group",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-23",
-    "appearance_count": 1
-  },
-  {
-    "id": 89970,
-    "name": "Blake Scholl",
-    "slug": "blake-scholl",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Boom Supersonic presents a compelling investment opportunity through its innovative technologies and strong legislative support, positioning itself for significant growth in both aerospace and energy sectors.",
-    "last_episode_title": "Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-22",
     "appearance_count": 1
   }
 ]

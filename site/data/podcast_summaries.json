@@ -1,5 +1,23 @@
 [
   {
+    "id": 586,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+    "episode_date": "2026-10-17",
+    "summary": "In this episode, Julie Yu interviews Zocdoc CEO Oliver Kharraz about why healthcare scheduling remains broken and how Zocdoc positions itself as both a consumer booking destination and a backend scheduling infrastructure layer. Kharraz argues that the classic provider-directory model is fundamentally flawed because directories go stale quickly, whereas transactional booking continuously validates availability and improves data quality over time.\n\nA central claim is that Zocdoc\u2019s connected scheduling data is more than 99% accurate, materially better than average insurance directories. Kharraz says the platform can let patients see a doctor in about three days, or roughly 72 hours, across a broad range of specialties, compared with a U.S. primary-care wait time of about 31 days in the broader market. He attributes this to filling last-minute cancellations, no-shows, and reschedules, and says doctor utilization is just under 70%, versus airline load factors above 90%.\n\nKharraz also describes a strategic shift from being only a consumer marketplace to powering many \u201cfront doors\u201d to healthcare, including AI and payer channels. He says the future is not one company owning the entry point to care; instead, Zocdoc wants to supply the access and availability layer to multiple platforms, including a Gemini partnership mentioned in the discussion. He frames this as a distribution strategy where providers benefit from being discoverable across many entry points without having to integrate one by one.\n\nThe conversation also covers Zocdoc\u2019s integration scale and operating model. Kharraz says Zocdoc has integrations with 175+ EHRs, covers 250 specialties, and has had strong provider adoption, including a claim that 97% of providers signed up in the last 12 months through word of mouth. Monetization is described as discovery/connection-based rather than charging for every booking, and Kharraz emphasizes consumer-first incentives, quality controls, and the need to solve many workflow edge cases to make scheduling truly reliable.",
+    "key_takeaways": [
+      "Oliver Kharraz said Zocdoc\u2019s scheduling data is \"more than 99% accurate,\" which he contrasted with average insurance directories.",
+      "Oliver Kharraz said patients can typically see a doctor \"within three days or less\" on Zocdoc, or about 72 hours, across a broad range of specialties.",
+      "Oliver Kharraz said U.S. primary care wait times are about 31 days in the broader market, while Zocdoc helps fill last-minute capacity from cancellations and no-shows.",
+      "Oliver Kharraz said doctors run at just under 70% load, versus airlines above 90%, and that Zocdoc helps close that utilization gap.",
+      "Oliver Kharraz argued that no single company should own the healthcare front door; instead, many front ends should route into the same scheduling infrastructure.",
+      "Oliver Kharraz said Zocdoc has integrations with 175+ EHRs and that solving edge cases required \"literally a thousand point one percent solutions.\"",
+      "Oliver Kharraz said 97% of providers signed up in the last 12 months, attributing that growth to word of mouth and the system\u2019s usefulness to providers."
+    ],
+    "investment_thesis": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
+    "key_tickers": null
+  },
+  {
     "id": 585,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
