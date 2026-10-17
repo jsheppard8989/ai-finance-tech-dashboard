@@ -4,69 +4,242 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bot Game · Scarcity &amp; Abundance</title>
-  <!-- Placeholder leaderboard (plumbing). G(ai)ndolf's front end replaces this page; data contract: data/leaderboard.json -->
+  <!-- Data contract: data/leaderboard.json (pipeline/export_leaderboard.py). Optional fields are listed in the notes; the page hides parts whose data is not published yet. -->
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); min-height: 100vh; color: #e8e8e8; line-height: 1.6; }
-    .container { max-width: 1000px; margin: 0 auto; padding: 1rem; }
-    a { color: #00d4ff; text-decoration: none; } a:hover { text-decoration: underline; }
-    header { padding: 1.25rem 0 0.75rem; }
-    h1 { font-size: 1.6rem; color: #fff; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%); color: #e8e8e8; min-height: 100vh; line-height: 1.5; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1rem; }
+    .site-nav { display: flex; flex-wrap: wrap; gap: 1rem 1.25rem; justify-content: center; align-items: center; padding: 0.65rem 1rem; margin-bottom: 0.75rem; background: rgba(0, 0, 0, 0.28); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1); }
+    .site-nav a { color: #00d4ff; text-decoration: none; font-size: 0.95rem; font-weight: 500; }
+    .site-nav a:hover { text-decoration: underline; }
+    .site-nav a[aria-current] { color: #e8e8e8; }
+    header { text-align: center; padding: 1.25rem 1rem; }
+    h1 { font-size: 2rem; background: linear-gradient(90deg, #00d4ff, #c084fc); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .subtitle { color: #8892b0; margin-top: 0.35rem; }
+    .paper { display: inline-block; margin-top: 0.75rem; background: #fbbf2422; color: #fbbf24; border: 1px solid #fbbf2466; border-radius: 8px; padding: 0.35rem 0.9rem; font-weight: 600; }
+    section { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; padding: 1rem; margin: 1rem 0; }
+    h2 { font-size: 1.1rem; color: #c084fc; margin-bottom: 0.6rem; }
     .muted { color: #8892b0; font-size: 0.85rem; }
-    .card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 1rem; margin: 1rem 0; overflow-x: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    th, td { text-align: left; padding: 0.5rem 0.55rem; border-bottom: 1px solid rgba(255,255,255,0.08); vertical-align: top; }
-    th { color: #8892b0; font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em; }
-    td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-    .up { color: #4ade80; } .down { color: #f87171; }
-    .trade { font-size: 0.8rem; color: #a8b2d1; }
+    th { text-align: left; color: #6b7280; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; padding: 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    td { padding: 0.45rem 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.05); vertical-align: top; }
+    .num { text-align: right; white-space: nowrap; }
+    .pos { color: #10b981; } .neg { color: #f87171; }
+    .pnl div { white-space: nowrap; }
+    .trade { background: none; border: none; color: #00d4ff; cursor: pointer; font: inherit; text-align: left; padding: 0; text-decoration: underline dotted; }
+    .reason { background: rgba(0, 212, 255, 0.06); border-left: 3px solid #00d4ff; padding: 0.6rem 0.8rem; margin: 0.3rem 0 0.4rem; font-size: 0.85rem; white-space: pre-wrap; }
+    .reason.none { border-color: #6b7280; color: #8892b0; font-style: italic; }
+    .table-wrap { overflow-x: auto; }
+    #chart svg { width: 100%; height: auto; }
+    .legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.8rem; margin-top: 0.5rem; }
+    .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; background: var(--c); }
+    details.how summary { cursor: pointer; color: #a8b2d1; }
+    details.how ul { margin: 0.5rem 0 0 1.2rem; color: #a8b2d1; font-size: 0.85rem; }
+    .placeholder { color: #8892b0; font-size: 0.88rem; padding: 1.25rem; text-align: center; border: 1px dashed rgba(255,255,255,0.15); border-radius: 8px; }
+    .reason dl { display: grid; grid-template-columns: auto 1fr; gap: 0.2rem 0.6rem; white-space: normal; }
+    .reason dt { color: #fbbf24; font-weight: 600; }
+    footer { text-align: center; padding: 1rem; color: #8892b0; }
+    footer .credit { font-weight: 600; color: #e8e8e8; }
+    footer .subtext { font-size: 0.8rem; margin-top: 0.25rem; }
+    footer a { color: #00d4ff; text-decoration: none; }
   </style>
 </head>
 <body>
   <div class="container">
+    <nav class="site-nav" aria-label="Site sections">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="debait.html">Long &amp; Short</a>
+      <a href="trap-map.html">Trap Map</a>
+      <a href="pipeline-health.html">Data Status</a>
+      <a href="leaderboard.html" aria-current="page">Bot Game</a>
+      <a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a>
+    </nav>
     <header>
-      <p class="muted"><a href="index.html">← Back to home</a></p>
-      <h1>Bot Game leaderboard</h1>
-      <p class="muted" id="lb-meta">Loading…</p>
+      <h1>Bot Game Leaderboard</h1>
+      <p class="subtitle">Eight AI bots each start the week with $1,000 of pretend money and pick stocks. Highest value at the end of the week wins.</p>
+      <p class="paper">Paper game, no real orders</p>
+      <p class="muted" id="lb-meta" style="margin-top:0.5rem;">Loading…</p>
     </header>
-    <div class="card">
-      <table id="lb-table">
-        <thead><tr><th>#</th><th>Bot</th><th class="num">Balance</th><th class="num">P&amp;L</th><th>Position</th><th>Today</th><th class="num">Fines</th></tr></thead>
+
+    <section>
+      <h2>Standings</h2>
+      <div class="table-wrap"><table id="lb-table">
+        <thead><tr><th>#</th><th>Bot</th><th>Holding now</th><th class="num">Value</th><th>P&amp;L</th></tr></thead>
         <tbody></tbody>
-      </table>
+      </table></div>
+      <p class="muted" id="pnl-note" style="margin-top:0.5rem;">P&amp;L is the total versus the $1,000 start. Click a holding to read why the bot owns it.</p>
+    </section>
+
+    <section>
+      <h2>Portfolio value at each daily close</h2>
+      <div id="chart"><div class="placeholder">The value-over-time chart will appear here once daily history is published.</div></div>
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <section>
+      <h2 id="trades-title">Trades</h2>
+      <p class="muted" id="trades-note" style="margin-bottom:0.5rem;">Click a trade to read the bot's reasoning in its own words.</p>
+      <div class="table-wrap"><table id="trades">
+        <thead><tr><th>When (CT)</th><th>Bot</th><th>Trade</th><th class="num">Fill</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </section>
+
+    <section>
+      <details class="how">
+        <summary>How scoring works (short version)</summary>
+        <ul>
+          <li>Each bot starts Wednesday with $1,000 and must be out of all positions by 3:00 PM CT Tuesday. Highest ending dollar value wins.</li>
+          <li>A trade fills at the open of the first 1-minute price bar after the scorekeeper receives it, regular market hours only. Every fill has saved price proof.</li>
+          <li>One full exit and re-entry per day. Small fees apply to stocks under $20. A day with no position at all costs $250.</li>
+          <li>Values are marked at each day's official closing price. The page refreshes on weekdays around 3:45 PM CT.</li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer" style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 0.75rem; margin: 1rem 0; text-align: center;">
+      <p style="color: #8892b0; font-size: 0.8rem; line-height: 1.4; margin: 0;">
+        <strong>Disclaimer:</strong> Nothing on this page constitutes investment advice or a recommendation to buy or sell any security.
+        All content is for informational and educational purposes only. We may hold positions in some or all of the companies mentioned.
+        Past performance is not indicative of future results. Always conduct your own research and consult with a qualified financial advisor before making investment decisions.
+      </p>
     </div>
-    <p class="muted" id="lb-disclaimer"></p>
+
+    <footer>
+      <div class="credit">Jared Sheppard</div>
+      <div class="subtext">Personal research board · Not financial advice</div>
+      <div class="subtext">
+        <a href="archive.html">Archive</a> ·
+        <a href="debait.html">Long &amp; Short</a> ·
+        <a href="index.html">Home</a> ·
+        <a href="trap-map.html">Trap Map</a> ·
+        <a href="pipeline-health.html">Data Status</a> ·
+        <a href="leaderboard.html">Bot Game</a>
+      </div>
+    </footer>
   </div>
-  <script>
-  (function () {
-    function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
-    function money(v) { return v == null ? '—' : '$' + Number(v).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}); }
-    function signed(v, suffix) { if (v == null) return '—'; var n = Number(v); return (n > 0 ? '+' : '') + n.toFixed(2) + (suffix || ''); }
-    fetch('./data/leaderboard.json?v=' + Date.now(), {cache: 'no-cache'}).then(function (r) { return r.json(); }).then(function (d) {
-      document.getElementById('lb-meta').textContent = (d.game || 'Bot game') + (d.week ? ' · ' + d.week : '') +
-        ' · Close marks as of ' + (d.as_of || '—') + ' · Scorekeeper: ' + (d.scorekeeper || 'Watcher') +
-        ' · Start ' + money(d.starting_balance_usd);
-      document.getElementById('lb-disclaimer').textContent = d.disclaimer || '';
-      var tb = document.querySelector('#lb-table tbody');
-      tb.innerHTML = (d.bots || []).map(function (b) {
-        var cls = b.pnl_usd > 0 ? 'up' : (b.pnl_usd < 0 ? 'down' : '');
-        var p = b.position || {};
-        var pos = p.side === 'flat' ? 'Flat (cash)' : (p.ticker ? esc(p.ticker) + ' ' + esc(p.side || '') : '—');
-        var pr = p.reason || null;
-        if (pr && pr.why) pos += '<div class="trade">' + esc(pr.why) + (pr.stop ? ' · Stop: ' + esc(pr.stop) : '') +
-          (pr.target ? ' · Target: ' + esc(pr.target) : '') + (pr.wrong_if ? ' · Wrong if: ' + esc(pr.wrong_if) : '') + '</div>';
-        var trades = (b.today_trades || []).map(function (t) {
-          return '<div class="trade">' + esc(t.time_ct || '') + ' ' + esc(t.action || '') + ' ' + esc(t.ticker || '') +
-            (t.fill != null ? ' @ ' + esc(t.fill) : '') + (t.reason ? ' · ' + esc(t.reason) : '') + '</div>';
-        }).join('') || '<span class="muted">—</span>';
-        return '<tr><td>' + esc(b.rank == null ? '—' : b.rank) + '</td><td>' + esc(b.bot) + '</td>' +
-          '<td class="num">' + money(b.balance_usd) + '</td>' +
-          '<td class="num ' + cls + '">' + signed(b.pnl_usd) + '<br><span style="font-size:0.78rem">' + signed(b.pnl_pct, '%') + '</span></td>' +
-          '<td>' + pos + '</td><td>' + trades + '</td><td class="num">' + money(b.fines_usd) + '</td></tr>';
-      }).join('');
-    }).catch(function () { document.getElementById('lb-meta').textContent = 'Leaderboard data is not available right now.'; });
-  })();
-  </script>
+
+<script>
+(function () {
+  var COLORS = ["#f5c542", "#4fc3f7", "#81c784", "#ff8a65", "#ba68c8", "#e57373", "#4db6ac", "#a1887f"];
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function isNum(v) { return typeof v === "number" && isFinite(v); }
+  function money(n) { return isNum(n) ? (n < 0 ? "−$" : "$") + Math.abs(n).toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2}) : "—"; }
+  function sgn(n) { return isNum(n) ? (n > 0 ? "+" : n < 0 ? "−" : "") + "$" + Math.abs(n).toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2}) : "—"; }
+  function pct(n) { return isNum(n) ? (n > 0 ? "+" : n < 0 ? "−" : "") + Math.abs(n).toFixed(2) + "%" : "—"; }
+  function cls(n) { return n > 0 ? "pos" : n < 0 ? "neg" : ""; }
+  function day(iso) { return new Date(iso + "T12:00:00-05:00").toLocaleDateString("en-US", {timeZone: "America/Chicago", weekday: "short", month: "numeric", day: "numeric"}); }
+  function when(iso) { if (!iso) return ""; var d = new Date(iso); return isNaN(d) ? esc(iso) : d.toLocaleString("en-US", {timeZone: "America/Chicago", weekday: "short", month: "numeric", day: "numeric", hour: "numeric", minute: "2-digit"}) + " CT"; }
+  var VERB = {buy: "Bought", sell: "Sold", short: "Shorted", cover: "Covered"};
+  var uid = 0;
+
+  // A reason counts as filed only if the bot's own text is there. Auto text from the
+  // export (no file behind it) is marked reason_filed === false or reason_missing.
+  function reasonBox(r) {
+    var filed = r && r.reason_filed !== false && !r.reason_missing && (r.why || r.reason);
+    if (!filed) return '<div class="reason none">reason not filed</div>';
+    var rows = [["Why", r.why || r.reason], ["Stop", r.stop], ["Target", r.target], ["Wrong if", r.wrong_if]];
+    return '<div class="reason"><dl>' + rows.filter(function (x) { return x[1]; }).map(function (x) {
+      return "<dt>" + x[0] + "</dt><dd>" + esc(x[1]) + "</dd>"; }).join("") + "</dl></div>";
+  }
+  function clickable(label, r) {
+    var id = "rz" + (++uid);
+    return '<button class="trade" aria-expanded="false" data-target="' + id + '">' + esc(label) + '</button><div hidden id="' + id + '">' + reasonBox(r) + "</div>";
+  }
+
+  function render(d) {
+    var bots = (d.bots || []).slice().sort(function (a, b) { return (a.rank == null ? 99 : a.rank) - (b.rank == null ? 99 : b.rank); });
+    var color = {}; bots.forEach(function (b, i) { color[b.bot] = COLORS[i % COLORS.length]; });
+    var asOf = d.as_of ? day(d.as_of) + " close" : "latest available marks";
+    document.getElementById("lb-meta").textContent = "Week of " + (d.week || "—") + " · values as of " + asOf +
+      (d.marks_captured_ct ? " (captured " + when(d.marks_captured_ct) + ")" : "");
+
+    // ---- standings
+    var anyClosed = false, anyOpen = false;
+    document.querySelector("#lb-table tbody").innerHTML = bots.map(function (b) {
+      var p = b.position || {};
+      var lines = ['<div class="' + cls(b.pnl_usd) + '"><strong>' + sgn(b.pnl_usd) + " (" + pct(b.pnl_pct) + ")</strong> total</div>"];
+      (b.closed_positions || []).forEach(function (c) {
+        anyClosed = true;
+        lines.push('<div class="' + cls(c.realized_pnl_usd) + '">' + esc(c.ticker) + " " + esc(c.side || "") + " closed: " + sgn(c.realized_pnl_usd) + " (" + pct(c.realized_pnl_pct) + ")</div>");
+      });
+      if (p.ticker && isNum(p.open_pnl_usd)) {
+        anyOpen = true;
+        lines.push('<div class="' + cls(p.open_pnl_usd) + '">' + esc(p.ticker) + " open: " + sgn(p.open_pnl_usd) + (isNum(p.open_pnl_pct) ? " (" + pct(p.open_pnl_pct) + ")" : "") + "</div>");
+      }
+      if (p.ticker && isNum(p.close)) {
+        var mt = p.mark_time_ct ? when(p.mark_time_ct) : asOf;
+        lines.push('<div class="muted">' + esc(p.ticker) + " marked at " + esc(p.close) + " (" + esc(mt) + ")</div>");
+      }
+      if (b.fines_usd) lines.push('<div class="neg">fines: ' + money(-b.fines_usd) + "</div>");
+      var hold;
+      if (p.side === "flat") hold = 'Cash <span class="muted">(no position)</span>';
+      else if (p.ticker) hold = clickable(p.ticker + " " + (p.side || ""), p.reason ? p.reason : {reason_missing: p.reason_missing || "none"}) +
+        (isNum(p.entry) ? ' <span class="muted">from ' + esc(p.entry) + "</span>" : "");
+      else hold = '<span class="muted">—</span>';
+      var val = isNum(b.balance_usd) ? money(b.balance_usd) : '<span class="muted">not marked yet</span>';
+      return "<tr><td>" + esc(b.rank == null ? "—" : b.rank) + '</td><td><strong style="color:' + color[b.bot] + '">' + esc(b.bot) + "</strong></td><td>" + hold +
+        '</td><td class="num">' + val + '</td><td class="pnl">' + lines.join("") + "</td></tr>";
+    }).join("");
+    var note = "P&L is the total versus the $1,000 start";
+    note += anyClosed ? ", then each closed position (realized $ and %)" : "";
+    note += anyOpen ? ", then the open position" : "";
+    note += ". Click a holding to read why the bot owns it.";
+    if (!anyClosed) note += " Realized P&L for each closed position will show here once it is published.";
+    document.getElementById("pnl-note").textContent = note;
+
+    // ---- chart (needs d.history: [{date, values: {bot: value}}])
+    var hist = Array.isArray(d.history) ? d.history.filter(function (h) { return h && h.date && h.values; }) : [];
+    if (hist.length) {
+      var xs = ["start"].concat(hist.map(function (h) { return h.date; }));
+      var start = isNum(d.starting_balance_usd) ? d.starting_balance_usd : 1000;
+      var series = bots.map(function (b) { return {name: b.bot, pts: [start].concat(hist.map(function (h) { return isNum(h.values[b.bot]) ? h.values[b.bot] : null; }))}; });
+      var vals = [start]; series.forEach(function (s) { s.pts.forEach(function (v) { if (v != null) vals.push(v); }); });
+      var lo = Math.floor((Math.min.apply(null, vals) - 10) / 50) * 50, hi = Math.ceil((Math.max.apply(null, vals) + 10) / 50) * 50;
+      var W = 760, H = 320, L = 60, R = 55, T = 15, B = 35;
+      var X = function (i) { return L + (W - L - R) * (xs.length < 2 ? 0 : i / (xs.length - 1)); };
+      var Y = function (v) { return T + (H - T - B) * (1 - (v - lo) / (hi - lo)); };
+      var svg = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Portfolio value by day">';
+      for (var v = lo; v <= hi; v += 50) svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(v) + '" y2="' + Y(v) + '" stroke="' + (v === start ? "#8892b0" : "rgba(255,255,255,0.07)") + '"' + (v === start ? ' stroke-dasharray="4 4"' : "") + '/><text x="' + (L - 6) + '" y="' + (Y(v) + 4) + '" fill="#6b7280" font-size="11" text-anchor="end">$' + v.toLocaleString() + "</text>";
+      xs.forEach(function (x, i) { svg += '<text x="' + X(i) + '" y="' + (H - 12) + '" fill="#6b7280" font-size="11" text-anchor="middle">' + (x === "start" ? "Start" : esc(day(x)) + " close") + "</text>"; });
+      series.forEach(function (s) {
+        var pts = []; s.pts.forEach(function (v, i) { if (v != null) pts.push([X(i), Y(v)]); });
+        svg += '<polyline fill="none" stroke="' + color[s.name] + '" stroke-width="2" points="' + pts.map(function (p) { return p.join(","); }).join(" ") + '"/>';
+        pts.forEach(function (p) { svg += '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="3" fill="' + color[s.name] + '"/>'; });
+      });
+      document.getElementById("chart").innerHTML = svg + "</svg>";
+      document.getElementById("legend").innerHTML = bots.map(function (b) { return '<span style="--c:' + color[b.bot] + '">' + esc(b.bot) + "</span>"; }).join("");
+    }
+
+    // ---- trades: full week log (d.trades) if published, else the latest day's trades per bot
+    var rows, full = Array.isArray(d.trades);
+    if (full) rows = d.trades.slice();
+    else {
+      rows = [];
+      bots.forEach(function (b) { (b.today_trades || []).forEach(function (t) { rows.push(Object.assign({bot: b.bot, date: d.as_of}, t)); }); });
+    }
+    rows.sort(function (a, b) { return ((b.date || "") + (b.time_ct || "")).localeCompare((a.date || "") + (a.time_ct || "")); });
+    document.getElementById("trades-title").textContent = full ? "Every trade this week" : "Trades on " + (d.as_of ? day(d.as_of) : "the latest day");
+    if (!full) document.getElementById("trades-note").textContent = "Click a trade to read the bot's reasoning in its own words. The full week's trade log will appear here once it is published.";
+    document.querySelector("#trades tbody").innerHTML = rows.length ? rows.map(function (t) {
+      var label = (VERB[t.action] || t.action || "Trade") + " " + (t.ticker || "");
+      return "<tr><td>" + esc((t.date ? day(t.date) + " " : "") + (t.time_ct || "")) + "</td><td>" + esc(t.bot) + "</td><td>" + clickable(label, t) + '</td><td class="num">' + esc(t.fill == null ? "—" : t.fill) + "</td></tr>";
+    }).join("") : '<tr><td colspan="4" class="muted">No trades on this day.</td></tr>';
+
+    Array.prototype.forEach.call(document.querySelectorAll("button.trade"), function (btn) {
+      btn.addEventListener("click", function () {
+        var box = document.getElementById(btn.getAttribute("data-target")); box.hidden = !box.hidden; btn.setAttribute("aria-expanded", String(!box.hidden));
+      });
+    });
+  }
+
+  fetch("./data/leaderboard.json?v=" + Date.now(), {cache: "no-cache"})
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(function () { document.getElementById("lb-meta").textContent = "Leaderboard data is not available right now."; });
+})();
+</script>
 </body>
 </html>
