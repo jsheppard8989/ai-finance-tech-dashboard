@@ -1,5 +1,25 @@
 [
   {
+    "id": 584,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+    "episode_date": "2026-10-16",
+    "summary": "The episode centers on the idea that AI has already transformed coding, but that production operations remains a much harder problem. Jad Naous argues software creation and running software are fundamentally different because operations involves unpredictable workloads, failures, and a much larger state space. Mart\u00edn Casado reinforces that view, emphasizing that distributed systems and operational troubleshooting are not solved by simply applying code-generation-style AI.\n\nNaous describes Grepr as a two-layer system: first, it reduces observability and telemetry spend by extracting signal from logs upstream, and second, it feeds those signals into an AI layer for troubleshooting. He claims the company can reduce telemetry costs by about 90%, and says observability historically consumed roughly 5% to 20% of infrastructure spend. He frames this as a practical wedge because many buyers care about cost savings before reliability benefits.\n\nA major part of the conversation is about how to make AI useful in operations without asking it to infer causality from lagging indicators. Naous says they prefer detecting changes in the environment and early warning messages, then using AI to reason through hypotheses and experiments. He argues that backtracking from metric spikes is the wrong abstraction for complex systems, and that full autonomous control of distributed clusters is still not solved.\n\nThe episode also includes hands-on workflow details from Naous about using Claude Code, WSL, and multiple concurrent agent sessions. He says recent AI-assisted workflows let his team ship production work much faster, citing an auto-promotion/shredding project that took about 10 days versus about six months for one person previously. His broader thesis is that AI will continue to excel in constrained digital domains, while real-world operations and security remain much harder because the solution space diverges from training data and economic constraints matter.",
+    "key_takeaways": [
+      "Jad Naous says Grepr can be 'plug and play' in the data stream and reduce telemetry costs by about 90%.",
+      "Jad Naous argues that writing software and running software are 'two very different problems,' with operations much harder because of hidden state and failure complexity.",
+      "Jad Naous says the right troubleshooting approach is to detect what changed in the environment, rather than start from a lagging metric spike or alert.",
+      "Jad Naous claims AI can already improve engineering throughput enough to compress some projects from months to days, citing a data-lake auto-promotion/shredding project that took about 10 days versus about six months before.",
+      "Jad Naous says operational AI should function as an experiment loop: change detection signals the system, then AI reasons through hypotheses and tests rather than fully predicting outcomes offline.",
+      "Jad Naous warns that full autonomous operation of distributed clusters is not solved, especially where memory sizing and other trade-offs require production experiments.",
+      "Mart\u00edn Casado frames the core skepticism: production operations has a much larger state space than coding, so code-generation gains do not automatically transfer to ops."
+    ],
+    "investment_thesis": "Grepr\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
+    "key_tickers": [
+      "MSFT"
+    ]
+  },
+  {
     "id": 583,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "OpenAI Bulk-Solves 722 Math Problems, Anthropic\u2019s Cruelty Policy, and Elon\u2019s Quadrillion-Dollar SpaceX | EP #302",
