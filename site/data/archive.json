@@ -36,6 +36,39 @@
       ]
     },
     {
+      "id": 597,
+      "title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-17",
+      "summary": "In this episode, Julie Yu interviews Zocdoc CEO Oliver Kharraz about why healthcare scheduling remains broken and how Zocdoc positions itself as both a consumer booking destination and a backend scheduling infrastructure layer. Kharraz argues that the classic provider-directory model is fundamentally flawed because directories go stale quickly, whereas transactional booking continuously validates availability and improves data quality over time.\n\nA central claim is that Zocdoc\u2019s connected scheduling data is more than 99% accurate, materially better than average insurance directories. Kharraz says the platform can let patients see a doctor in about three days, or roughly 72 hours, across a broad range of specialties, compared with a U.S. primary-care wait time of about 31 days in the broader market. He attributes this to filling last-minute cancellations, no-shows, and reschedules, and says doctor utilization is just under 70%, versus airline load factors above 90%.\n\nKharraz also describes a strategic shift from being only a consumer marketplace to powering many \u201cfront doors\u201d to healthcare, including AI and payer channels. He says the future is not one company owning the entry point to care; instead, Zocdoc wants to supply the access and availability layer to multiple platforms, including a Gemini partnership mentioned in the discussion. He frames this as a distribution strategy where providers benefit from being discoverable across many entry points without having to integrate one by one.\n\nThe conversation also covers Zocdoc\u2019s integration scale and operating model. Kharraz says Zocdoc has integrations with 175+ EHRs, covers 250 specialties, and has had strong provider adoption, including a claim that 97% of providers signed up in the last 12 months through word of mouth. Monetization is described as discovery/connection-based rather than charging for every booking, and Kharraz emphasizes consumer-first incentives, quality controls, and the need to solve many workflow edge cases to make scheduling truly reliable.",
+      "key_takeaway": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
+      "tickers_mentioned": [
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 586,
+      "notable_quotes": [
+        {
+          "speaker": "Oliver Kharraz",
+          "quote": "Once you have the transaction it's much more like Wikipedia, right? Every incremental transaction actually validates the information you have, you make any mistake you make exactly once and then you know what's going in."
+        },
+        {
+          "speaker": "Oliver Kharraz",
+          "quote": "now's 31 days however you know it's using zoptoc you can see a doctor typically within three days or less right so 72 hours and you know that's true for a broad range of specialties."
+        },
+        {
+          "speaker": "Oliver Kharraz",
+          "quote": "airplanes have a load factor of over 90 percent in the wild doctors have load factors around 70 percent just under 70 percent now with zoptoc we filled that last minute capacity"
+        }
+      ]
+    },
+    {
       "id": 595,
       "title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
       "source_type": "podcast",
@@ -342,7 +375,7 @@
       "key_takeaway": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-13",
       "archived_date": null,
@@ -15340,8 +15373,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-15",
-      "mention_count": 123,
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 124,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -15350,8 +15383,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 583,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 586,
+      "last_mentioned_speaker": "Oliver Kharraz"
     },
     {
       "id": 38,

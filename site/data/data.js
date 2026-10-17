@@ -3,1211 +3,1211 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-17T05:06:31.702142",
-  chartsVersion: "2026-10-17T05:06:06.894403",
+  generatedAt: "2026-10-17T06:39:33.870988",
+  chartsVersion: "2026-10-17T06:39:15.729961",
   priceSnapshot: {
   "AAPL": {
     "price": 343.46,
     "change_pct": 4.27,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-17T05:05:05.149088",
+    "updated_at": "2026-10-17T06:38:17.319072",
     "price_14d_ago": 329.4
   },
   "AEP": {
     "price": 127.14,
     "change_pct": 6.57,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-17T05:05:05.377271",
+    "updated_at": "2026-10-17T06:38:17.539655",
     "price_14d_ago": 119.3
   },
   "AMD": {
     "price": 528.75,
     "change_pct": -12.97,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-17T05:05:05.758541",
+    "updated_at": "2026-10-17T06:38:18.086616",
     "price_14d_ago": 607.57
   },
   "AMGN": {
     "price": 432.49,
     "change_pct": 2.09,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-17T05:05:05.953071",
+    "updated_at": "2026-10-17T06:38:18.278151",
     "price_14d_ago": 423.64
   },
   "AMZN": {
     "price": 250.0,
     "change_pct": 1.35,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-17T05:05:06.147127",
+    "updated_at": "2026-10-17T06:38:18.497940",
     "price_14d_ago": 246.67
   },
   "APO": {
     "price": 110.78,
     "change_pct": -6.91,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-17T05:05:06.342780",
+    "updated_at": "2026-10-17T06:38:18.824962",
     "price_14d_ago": 119.0
   },
   "APTV": {
     "price": 44.86,
     "change_pct": 3.44,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-17T05:05:06.529991",
+    "updated_at": "2026-10-17T06:38:19.020477",
     "price_14d_ago": 43.37
   },
   "AVGO": {
     "price": 328.75,
     "change_pct": -7.42,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-17T05:05:06.980674",
+    "updated_at": "2026-10-17T06:38:19.408036",
     "price_14d_ago": 355.1
   },
   "BA": {
     "price": 190.21,
     "change_pct": 1.35,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-17T05:05:07.387162",
+    "updated_at": "2026-10-17T06:38:19.862032",
     "price_14d_ago": 187.68
   },
   "BABA": {
     "price": 109.11,
     "change_pct": 1.27,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-17T05:05:07.649129",
+    "updated_at": "2026-10-17T06:38:20.044155",
     "price_14d_ago": 107.74
   },
   "BAC": {
     "price": 51.23,
     "change_pct": -6.79,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-17T05:05:07.852573",
+    "updated_at": "2026-10-17T06:38:20.255914",
     "price_14d_ago": 54.96
   },
   "BAM": {
     "price": 45.32,
     "change_pct": 0.78,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-17T05:05:08.035140",
+    "updated_at": "2026-10-17T06:38:20.442176",
     "price_14d_ago": 44.97
   },
   "BIDU": {
     "price": 80.14,
     "change_pct": -7.58,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-17T05:05:08.402054",
+    "updated_at": "2026-10-17T06:38:20.813274",
     "price_14d_ago": 86.71
   },
   "BP": {
     "price": 50.21,
     "change_pct": 15.37,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-17T05:05:08.806430",
+    "updated_at": "2026-10-17T06:38:21.221223",
     "price_14d_ago": 43.52
   },
   "BTC": {
-    "price": 81488.98,
-    "change_pct": -5.77,
+    "price": 81468.74,
+    "change_pct": -5.8,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-17T05:05:08.996774",
+    "updated_at": "2026-10-17T06:38:21.406517",
     "price_14d_ago": 86480.3
   },
   "BTC-USD": {
-    "price": 81488.98,
-    "change_pct": -5.77,
+    "price": 81468.74,
+    "change_pct": -5.8,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-17T05:05:09.186722",
+    "updated_at": "2026-10-17T06:38:21.593800",
     "price_14d_ago": 86480.3
   },
   "BX": {
     "price": 106.61,
     "change_pct": -6.48,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-17T05:05:09.574769",
+    "updated_at": "2026-10-17T06:38:21.966464",
     "price_14d_ago": 114.0
   },
   "BYD": {
     "price": 70.04,
     "change_pct": 4.41,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-17T05:05:09.773118",
+    "updated_at": "2026-10-17T06:38:22.168271",
     "price_14d_ago": 67.08
   },
   "CAT": {
     "price": 730.76,
     "change_pct": -11.6,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-17T05:05:10.378915",
+    "updated_at": "2026-10-17T06:38:22.776353",
     "price_14d_ago": 826.64
   },
   "CCJ": {
     "price": 81.52,
     "change_pct": -6.17,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-17T05:05:10.603358",
+    "updated_at": "2026-10-17T06:38:22.978347",
     "price_14d_ago": 86.88
   },
   "CEG": {
     "price": 271.37,
     "change_pct": 2.57,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-17T05:05:10.809885",
+    "updated_at": "2026-10-17T06:38:23.173434",
     "price_14d_ago": 264.58
   },
   "COIN": {
     "price": 173.16,
     "change_pct": -8.87,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-17T05:05:11.192195",
+    "updated_at": "2026-10-17T06:38:23.605024",
     "price_14d_ago": 190.02
   },
   "COPPER": {
     "price": 6.57,
     "change_pct": 0.46,
     "name": "Copper",
-    "updated_at": "2026-10-17T05:05:11.385362",
+    "updated_at": "2026-10-17T06:38:23.791320",
     "price_14d_ago": 6.54
   },
   "CORN": {
     "price": 18.19,
     "change_pct": -6.72,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-17T05:05:11.593439",
+    "updated_at": "2026-10-17T06:38:24.042937",
     "price_14d_ago": 19.5
   },
   "CRM": {
     "price": 240.7,
     "change_pct": 6.83,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-17T05:05:11.777995",
+    "updated_at": "2026-10-17T06:38:24.302544",
     "price_14d_ago": 225.31
   },
   "CROWD": {
     "price": 227.39,
     "change_pct": -13.45,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-17T05:05:11.961375",
+    "updated_at": "2026-10-17T06:38:24.480700",
     "price_14d_ago": 262.74
   },
   "DBC": {
     "price": 33.74,
     "change_pct": 5.44,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-17T05:05:12.735362",
+    "updated_at": "2026-10-17T06:38:25.323084",
     "price_14d_ago": 32.0
   },
   "DELL": {
     "price": 451.71,
     "change_pct": -16.29,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-17T05:05:12.924255",
+    "updated_at": "2026-10-17T06:38:25.586770",
     "price_14d_ago": 539.59
   },
   "DIS": {
     "price": 110.59,
     "change_pct": 4.91,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-17T05:05:13.345856",
+    "updated_at": "2026-10-17T06:38:26.047972",
     "price_14d_ago": 105.41
   },
   "DOCS": {
     "price": 30.97,
     "change_pct": 16.78,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-17T05:05:13.531567",
+    "updated_at": "2026-10-17T06:38:26.224788",
     "price_14d_ago": 26.52
   },
   "DVN": {
     "price": 50.73,
     "change_pct": 8.86,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-17T05:05:13.735842",
+    "updated_at": "2026-10-17T06:38:26.422825",
     "price_14d_ago": 46.6
   },
   "EBAY": {
     "price": 120.28,
     "change_pct": 14.32,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-17T05:05:13.923256",
+    "updated_at": "2026-10-17T06:38:26.599533",
     "price_14d_ago": 105.21
   },
   "ETH-USD": {
-    "price": 2432.02,
-    "change_pct": -10.8,
+    "price": 2432.57,
+    "change_pct": -10.78,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-17T05:05:14.300310",
+    "updated_at": "2026-10-17T06:38:27.009128",
     "price_14d_ago": 2726.51
   },
   "F": {
     "price": 12.43,
     "change_pct": 1.06,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-17T05:05:14.514710",
+    "updated_at": "2026-10-17T06:38:27.223414",
     "price_14d_ago": 12.3
   },
   "FB": {
     "price": 45.71,
     "change_pct": 0.41,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-17T05:05:14.886406",
+    "updated_at": "2026-10-17T06:38:27.410170",
     "price_14d_ago": 45.53
   },
   "FCX": {
     "price": 69.54,
     "change_pct": -1.77,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-17T05:05:15.258663",
+    "updated_at": "2026-10-17T06:38:27.627747",
     "price_14d_ago": 70.79
   },
   "FSK": {
     "price": 10.33,
     "change_pct": -7.02,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-17T05:05:16.514620",
+    "updated_at": "2026-10-17T06:38:28.823819",
     "price_14d_ago": 11.11
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-17T05:05:16.961367",
+    "updated_at": "2026-10-17T06:38:29.195296",
     "price_14d_ago": null
   },
   "GD": {
     "price": 344.23,
     "change_pct": 3.58,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-17T05:05:17.185587",
+    "updated_at": "2026-10-17T06:38:29.421706",
     "price_14d_ago": 332.34
   },
   "GE": {
     "price": 313.83,
     "change_pct": -1.28,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-17T05:05:17.427669",
+    "updated_at": "2026-10-17T06:38:29.658106",
     "price_14d_ago": 317.89
   },
   "GLD": {
     "price": 382.01,
     "change_pct": -0.23,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-17T05:05:17.616753",
+    "updated_at": "2026-10-17T06:38:29.911595",
     "price_14d_ago": 382.89
   },
   "GME": {
     "price": 26.81,
     "change_pct": 12.84,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-17T05:05:17.804279",
+    "updated_at": "2026-10-17T06:38:30.097606",
     "price_14d_ago": 23.76
   },
   "GOLD": {
     "price": 4181.1,
     "change_pct": 0.03,
     "name": "Gold",
-    "updated_at": "2026-10-17T05:05:17.995332",
+    "updated_at": "2026-10-17T06:38:30.277547",
     "price_14d_ago": 4179.7
   },
   "GOOG": {
     "price": 336.91,
     "change_pct": -0.12,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-17T05:05:18.193307",
+    "updated_at": "2026-10-17T06:38:30.455339",
     "price_14d_ago": 337.32
   },
   "GOOGL": {
     "price": 340.59,
     "change_pct": -0.1,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-17T05:05:18.384568",
+    "updated_at": "2026-10-17T06:38:30.631716",
     "price_14d_ago": 340.92
   },
   "GS": {
     "price": 881.26,
     "change_pct": -3.82,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-17T05:05:18.590300",
+    "updated_at": "2026-10-17T06:38:30.825373",
     "price_14d_ago": 916.24
   },
   "Gold": {
     "price": 39.35,
     "change_pct": -8.23,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-17T05:05:18.779571",
+    "updated_at": "2026-10-17T06:38:31.009918",
     "price_14d_ago": 42.88
   },
   "HFGM": {
     "price": 30.78,
     "change_pct": -1.82,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-17T05:05:18.965438",
+    "updated_at": "2026-10-17T06:38:31.190947",
     "price_14d_ago": 31.35
   },
   "HG": {
     "price": 36.21,
     "change_pct": 8.58,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-17T05:05:19.165330",
+    "updated_at": "2026-10-17T06:38:31.374858",
     "price_14d_ago": 33.35
   },
   "IBM": {
     "price": 232.14,
     "change_pct": 5.52,
     "name": "International Business Machines",
-    "updated_at": "2026-10-17T05:05:19.980231",
+    "updated_at": "2026-10-17T06:38:32.232791",
     "price_14d_ago": 219.99
   },
   "IEF": {
     "price": 90.42,
     "change_pct": 1.08,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-17T05:05:20.190272",
+    "updated_at": "2026-10-17T06:38:32.437843",
     "price_14d_ago": 89.45
   },
   "INDA": {
     "price": 47.66,
     "change_pct": 1.53,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-17T05:05:20.386035",
+    "updated_at": "2026-10-17T06:38:32.688073",
     "price_14d_ago": 46.94
   },
   "INFY": {
     "price": 12.24,
     "change_pct": 15.04,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-17T05:05:20.585875",
+    "updated_at": "2026-10-17T06:38:32.889402",
     "price_14d_ago": 10.64
   },
   "INTC": {
     "price": 89.85,
     "change_pct": -22.5,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-17T05:05:20.794111",
+    "updated_at": "2026-10-17T06:38:33.119280",
     "price_14d_ago": 115.93
   },
   "IWD": {
     "price": 255.77,
     "change_pct": 2.73,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-17T05:05:20.984516",
+    "updated_at": "2026-10-17T06:38:33.319092",
     "price_14d_ago": 248.98
   },
   "IWF": {
     "price": 121.48,
     "change_pct": -3.05,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-17T05:05:21.196082",
+    "updated_at": "2026-10-17T06:38:33.512957",
     "price_14d_ago": 125.3
   },
   "IWM": {
     "price": 270.44,
     "change_pct": -3.07,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-17T05:05:21.401720",
+    "updated_at": "2026-10-17T06:38:33.704493",
     "price_14d_ago": 279.01
   },
   "JNJ": {
     "price": 255.56,
     "change_pct": -4.49,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-17T05:05:21.653526",
+    "updated_at": "2026-10-17T06:38:33.917123",
     "price_14d_ago": 267.57
   },
   "JPM": {
     "price": 339.72,
     "change_pct": 1.42,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-17T05:05:21.897584",
+    "updated_at": "2026-10-17T06:38:34.119796",
     "price_14d_ago": 334.98
   },
   "KKR": {
     "price": 86.21,
     "change_pct": -7.48,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-17T05:05:22.097939",
+    "updated_at": "2026-10-17T06:38:34.307689",
     "price_14d_ago": 93.18
   },
   "LLY": {
     "price": 1257.03,
     "change_pct": 6.11,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-17T05:05:22.726337",
+    "updated_at": "2026-10-17T06:38:34.878405",
     "price_14d_ago": 1184.63
   },
   "LMT": {
     "price": 552.09,
     "change_pct": 7.79,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-17T05:05:22.947445",
+    "updated_at": "2026-10-17T06:38:35.085496",
     "price_14d_ago": 512.21
   },
   "LYFT": {
     "price": 16.82,
     "change_pct": 11.61,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-17T05:05:23.725968",
+    "updated_at": "2026-10-17T06:38:35.955559",
     "price_14d_ago": 15.07
   },
   "META": {
     "price": 709.33,
     "change_pct": -3.99,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-17T05:05:24.132759",
+    "updated_at": "2026-10-17T06:38:36.373283",
     "price_14d_ago": 738.79
   },
   "MGM": {
     "price": 28.6,
     "change_pct": -9.26,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-17T05:05:24.349844",
+    "updated_at": "2026-10-17T06:38:36.563548",
     "price_14d_ago": 31.52
   },
   "MINE": {
     "price": 2.47,
     "change_pct": -7.84,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-17T05:05:24.583734",
+    "updated_at": "2026-10-17T06:38:36.759769",
     "price_14d_ago": 2.68
   },
   "MRK": {
     "price": 145.95,
     "change_pct": -2.23,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-17T05:05:24.823889",
+    "updated_at": "2026-10-17T06:38:36.974159",
     "price_14d_ago": 149.28
   },
   "MRNA": {
     "price": 218.01,
     "change_pct": 7.15,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-17T05:05:25.010128",
+    "updated_at": "2026-10-17T06:38:37.156392",
     "price_14d_ago": 203.46
   },
   "MS": {
     "price": 180.57,
     "change_pct": -6.32,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-17T05:05:25.225090",
+    "updated_at": "2026-10-17T06:38:37.430135",
     "price_14d_ago": 192.76
   },
   "MSFT": {
     "price": 529.05,
     "change_pct": 3.95,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-17T05:05:25.427908",
+    "updated_at": "2026-10-17T06:38:37.629916",
     "price_14d_ago": 508.96
   },
   "MSTR": {
     "price": 136.83,
     "change_pct": -11.53,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-17T05:05:25.615097",
+    "updated_at": "2026-10-17T06:38:37.822295",
     "price_14d_ago": 154.67
   },
   "MU": {
     "price": 878.84,
     "change_pct": -17.49,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-17T05:05:25.824177",
+    "updated_at": "2026-10-17T06:38:38.023019",
     "price_14d_ago": 1065.08
   },
   "NEE": {
     "price": 79.8,
     "change_pct": 5.15,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-17T05:05:26.232726",
+    "updated_at": "2026-10-17T06:38:38.426837",
     "price_14d_ago": 75.89
   },
   "NFLX": {
     "price": 70.53,
     "change_pct": 0.33,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-17T05:05:26.419886",
+    "updated_at": "2026-10-17T06:38:38.605322",
     "price_14d_ago": 70.3
   },
   "NKE": {
     "price": 37.13,
     "change_pct": 3.6,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-17T05:05:27.007123",
+    "updated_at": "2026-10-17T06:38:39.243828",
     "price_14d_ago": 35.84
   },
   "NOC": {
     "price": 519.86,
     "change_pct": 3.02,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-17T05:05:27.226869",
+    "updated_at": "2026-10-17T06:38:39.451101",
     "price_14d_ago": 504.61
   },
   "NVDA": {
     "price": 214.13,
     "change_pct": -5.76,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-17T05:05:27.425216",
+    "updated_at": "2026-10-17T06:38:39.690708",
     "price_14d_ago": 227.21
   },
   "NVS": {
     "price": 150.62,
     "change_pct": 3.37,
     "name": "Novartis AG",
-    "updated_at": "2026-10-17T05:05:27.812299",
+    "updated_at": "2026-10-17T06:38:40.061515",
     "price_14d_ago": 145.71
   },
   "Nasdaq": {
     "price": 709.8,
     "change_pct": -3.81,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-17T05:05:28.010748",
+    "updated_at": "2026-10-17T06:38:40.253150",
     "price_14d_ago": 737.93
   },
   "OKLO": {
     "price": 27.97,
     "change_pct": -24.63,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-17T05:05:28.392712",
+    "updated_at": "2026-10-17T06:38:40.783259",
     "price_14d_ago": 37.11
   },
   "ORCL": {
     "price": 128.23,
     "change_pct": -6.94,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-17T05:05:28.762326",
+    "updated_at": "2026-10-17T06:38:41.157658",
     "price_14d_ago": 137.79
   },
   "PALL": {
     "price": 20.17,
     "change_pct": -8.9,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-17T05:05:28.965713",
+    "updated_at": "2026-10-17T06:38:41.356293",
     "price_14d_ago": 22.14
   },
   "PANW": {
     "price": 342.0,
     "change_pct": -11.95,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-17T05:05:29.153587",
+    "updated_at": "2026-10-17T06:38:41.534256",
     "price_14d_ago": 388.41
   },
   "PBR": {
     "price": 26.0,
     "change_pct": 25.91,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-17T05:05:29.356740",
+    "updated_at": "2026-10-17T06:38:41.792191",
     "price_14d_ago": 20.65
   },
   "PFE": {
     "price": 29.58,
     "change_pct": 2.99,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-17T05:05:29.836593",
+    "updated_at": "2026-10-17T06:38:42.203885",
     "price_14d_ago": 28.72
   },
   "PLTM": {
     "price": 15.62,
     "change_pct": -4.58,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-17T05:05:30.023922",
+    "updated_at": "2026-10-17T06:38:42.389019",
     "price_14d_ago": 16.37
   },
   "PLTR": {
     "price": 186.03,
     "change_pct": -0.5,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-17T05:05:30.210096",
+    "updated_at": "2026-10-17T06:38:42.590858",
     "price_14d_ago": 186.97
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-17T05:05:30.574694",
+    "updated_at": "2026-10-17T06:38:42.966601",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.51,
     "change_pct": -0.21,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-17T05:05:30.752310",
+    "updated_at": "2026-10-17T06:38:43.145422",
     "price_14d_ago": 28.57
   },
   "PSBD": {
     "price": 9.6,
     "change_pct": -3.71,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-17T05:05:31.023386",
+    "updated_at": "2026-10-17T06:38:43.406363",
     "price_14d_ago": 9.97
   },
   "PYPL": {
     "price": 56.7,
     "change_pct": 5.21,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-17T05:05:31.202449",
+    "updated_at": "2026-10-17T06:38:43.609021",
     "price_14d_ago": 53.89
   },
   "QQQ": {
     "price": 709.8,
     "change_pct": -3.81,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-17T05:05:31.597846",
+    "updated_at": "2026-10-17T06:38:44.012326",
     "price_14d_ago": 737.93
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-17T05:05:31.780137",
+    "updated_at": "2026-10-17T06:38:44.198114",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 49.55,
     "change_pct": 20.33,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-17T05:05:31.955237",
+    "updated_at": "2026-10-17T06:38:44.383163",
     "price_14d_ago": 41.18
   },
   "RKLB": {
     "price": 50.84,
     "change_pct": -27.06,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-17T05:05:32.340613",
+    "updated_at": "2026-10-17T06:38:44.882200",
     "price_14d_ago": 69.7
   },
   "Russell": {
     "price": 270.44,
     "change_pct": -3.07,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-17T05:05:32.907557",
+    "updated_at": "2026-10-17T06:38:45.453421",
     "price_14d_ago": 279.01
   },
   "S&P": {
     "price": 7659.44,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-10-17T05:05:33.110245",
+    "updated_at": "2026-10-17T06:38:45.665179",
     "price_14d_ago": 7670.84
   },
   "S&P 500": {
     "price": 7659.44,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-10-17T05:05:33.298226",
+    "updated_at": "2026-10-17T06:38:45.836096",
     "price_14d_ago": 7670.84
   },
   "SAMSUNG ELECTRONICS": {
     "price": 215500.0,
     "change_pct": -24.52,
     "name": "SamsungElec",
-    "updated_at": "2026-10-17T05:05:33.500030",
+    "updated_at": "2026-10-17T06:38:46.048521",
     "price_14d_ago": 285500.0
   },
   "SAP": {
     "price": 224.29,
     "change_pct": 6.37,
     "name": "SAP  SE",
-    "updated_at": "2026-10-17T05:05:33.726501",
+    "updated_at": "2026-10-17T06:38:46.244523",
     "price_14d_ago": 210.85
   },
   "SF": {
     "price": 67.56,
     "change_pct": -3.07,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-17T05:05:33.930475",
+    "updated_at": "2026-10-17T06:38:46.443019",
     "price_14d_ago": 69.7
   },
   "SK HYNIX": {
     "price": 1272000.0,
     "change_pct": -31.69,
     "name": "SK hynix",
-    "updated_at": "2026-10-17T05:05:34.376976",
+    "updated_at": "2026-10-17T06:38:46.907326",
     "price_14d_ago": 1862000.0
   },
   "SLB": {
     "price": 49.5,
     "change_pct": -0.74,
     "name": "SLB Limited",
-    "updated_at": "2026-10-17T05:05:34.608716",
+    "updated_at": "2026-10-17T06:38:47.151254",
     "price_14d_ago": 49.87
   },
   "SMH": {
     "price": 539.79,
     "change_pct": -11.06,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-17T05:05:34.798198",
+    "updated_at": "2026-10-17T06:38:47.348502",
     "price_14d_ago": 606.9
   },
   "SMR": {
     "price": 5.83,
     "change_pct": -24.87,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-17T05:05:34.986239",
+    "updated_at": "2026-10-17T06:38:47.609687",
     "price_14d_ago": 7.76
   },
   "SNAP": {
     "price": 6.13,
     "change_pct": 14.79,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-17T05:05:35.199169",
+    "updated_at": "2026-10-17T06:38:47.791498",
     "price_14d_ago": 5.34
   },
   "SNWGF": {
     "price": 10.33,
     "change_pct": -14.34,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-17T05:05:35.411411",
+    "updated_at": "2026-10-17T06:38:47.993384",
     "price_14d_ago": 12.06
   },
   "SOYB": {
     "price": 26.88,
     "change_pct": -2.57,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-17T05:05:35.619962",
+    "updated_at": "2026-10-17T06:38:48.179597",
     "price_14d_ago": 27.59
   },
   "SPCE": {
     "price": 2.43,
     "change_pct": -20.07,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-17T05:05:35.812110",
+    "updated_at": "2026-10-17T06:38:48.358808",
     "price_14d_ago": 3.04
   },
   "SPX": {
     "price": 7659.44,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-10-17T05:05:36.390759",
+    "updated_at": "2026-10-17T06:38:48.983482",
     "price_14d_ago": 7670.84
   },
   "SPY": {
     "price": 763.25,
     "change_pct": -0.12,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-17T05:05:36.592315",
+    "updated_at": "2026-10-17T06:38:49.188317",
     "price_14d_ago": 764.2
   },
   "SQQQ": {
     "price": 38.9,
     "change_pct": 12.23,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-17T05:05:36.820096",
+    "updated_at": "2026-10-17T06:38:49.375665",
     "price_14d_ago": 34.66
   },
   "SQUARE": {
     "price": 77.89,
     "change_pct": 5.19,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-17T05:05:37.003016",
+    "updated_at": "2026-10-17T06:38:49.614244",
     "price_14d_ago": 74.05
   },
   "Semiconductors": {
     "price": 539.79,
     "change_pct": -11.06,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-17T05:05:37.196761",
+    "updated_at": "2026-10-17T06:38:49.807736",
     "price_14d_ago": 606.9
   },
   "T": {
     "price": 23.44,
     "change_pct": -4.25,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-17T05:05:37.418248",
+    "updated_at": "2026-10-17T06:38:50.018626",
     "price_14d_ago": 24.48
   },
   "TDOC": {
     "price": 5.67,
     "change_pct": -1.39,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-17T05:05:37.846942",
+    "updated_at": "2026-10-17T06:38:50.411338",
     "price_14d_ago": 5.75
   },
   "TIPS": {
     "price": 0.0,
-    "change_pct": 200.0,
+    "change_pct": 250.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-17T05:05:38.404404",
+    "updated_at": "2026-10-17T06:38:50.980864",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 80.05,
     "change_pct": 2.33,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-17T05:05:38.675929",
+    "updated_at": "2026-10-17T06:38:51.172678",
     "price_14d_ago": 78.23
   },
   "TSLA": {
     "price": 354.72,
     "change_pct": 0.53,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-17T05:05:38.860833",
+    "updated_at": "2026-10-17T06:38:51.356994",
     "price_14d_ago": 352.84
   },
   "TSM": {
     "price": 412.61,
     "change_pct": -9.7,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-17T05:05:39.069140",
+    "updated_at": "2026-10-17T06:38:51.621582",
     "price_14d_ago": 456.94
   },
   "UBER": {
     "price": 70.35,
     "change_pct": 1.43,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-17T05:05:39.439296",
+    "updated_at": "2026-10-17T06:38:52.014806",
     "price_14d_ago": 69.36
   },
   "UNG": {
     "price": 10.66,
     "change_pct": 3.0,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-17T05:05:39.667582",
+    "updated_at": "2026-10-17T06:38:52.260974",
     "price_14d_ago": 10.35
   },
   "URANIUM": {
     "price": 35.43,
     "change_pct": -11.51,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-17T05:05:40.036861",
+    "updated_at": "2026-10-17T06:38:52.677301",
     "price_14d_ago": 40.04
   },
   "USD": {
     "price": 76.96,
     "change_pct": -19.46,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-17T05:05:40.274940",
+    "updated_at": "2026-10-17T06:38:52.884295",
     "price_14d_ago": 95.55
   },
   "USDX": {
     "price": 25.62,
     "change_pct": 0.16,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-17T05:05:40.464570",
+    "updated_at": "2026-10-17T06:38:53.075279",
     "price_14d_ago": 25.58
   },
   "USO": {
     "price": 161.76,
     "change_pct": 12.84,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-17T05:05:40.652143",
+    "updated_at": "2026-10-17T06:38:53.255341",
     "price_14d_ago": 143.35
   },
   "UTHR": {
     "price": 533.12,
     "change_pct": 10.73,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-17T05:05:40.829831",
+    "updated_at": "2026-10-17T06:38:53.474939",
     "price_14d_ago": 481.47
   },
   "UUU": {
     "price": 5.29,
     "change_pct": 8.4,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-17T05:05:41.013355",
+    "updated_at": "2026-10-17T06:38:53.725583",
     "price_14d_ago": 4.88
   },
   "V": {
     "price": 402.61,
     "change_pct": 10.04,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-17T05:05:41.476895",
+    "updated_at": "2026-10-17T06:38:54.159400",
     "price_14d_ago": 365.88
   },
   "VEEV": {
     "price": 310.36,
     "change_pct": 11.41,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-17T05:05:41.837072",
+    "updated_at": "2026-10-17T06:38:54.515262",
     "price_14d_ago": 278.57
   },
   "VIX": {
     "price": 19.99,
     "change_pct": 24.63,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-17T05:05:42.640630",
+    "updated_at": "2026-10-17T06:38:55.342948",
     "price_14d_ago": 16.04
   },
   "VLO": {
     "price": 444.71,
     "change_pct": 14.7,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-17T05:05:42.880359",
+    "updated_at": "2026-10-17T06:38:55.548475",
     "price_14d_ago": 387.72
   },
   "VRTX": {
     "price": 499.74,
     "change_pct": -5.12,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-17T05:05:43.060122",
+    "updated_at": "2026-10-17T06:38:55.806411",
     "price_14d_ago": 526.73
   },
   "WFC": {
     "price": 83.87,
     "change_pct": 4.21,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-17T05:05:43.278596",
+    "updated_at": "2026-10-17T06:38:56.019215",
     "price_14d_ago": 80.48
   },
   "WIT": {
     "price": 1.95,
     "change_pct": 21.12,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-17T05:05:43.486224",
+    "updated_at": "2026-10-17T06:38:56.217412",
     "price_14d_ago": 1.61
   },
   "WMT": {
     "price": 118.81,
     "change_pct": 11.25,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-17T05:05:43.699733",
+    "updated_at": "2026-10-17T06:38:56.435375",
     "price_14d_ago": 106.8
   },
   "WTBN": {
     "price": 24.19,
     "change_pct": 1.02,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-17T05:05:43.880667",
+    "updated_at": "2026-10-17T06:38:56.618191",
     "price_14d_ago": 23.94
   },
   "WTI": {
     "price": 99.02,
     "change_pct": 10.79,
     "name": "WTI Crude",
-    "updated_at": "2026-10-17T05:05:44.052623",
+    "updated_at": "2026-10-17T06:38:56.807341",
     "price_14d_ago": 89.38
   },
   "WTI CRUDE OIL": {
     "price": 99.02,
     "change_pct": 10.79,
     "name": "WTI Crude",
-    "updated_at": "2026-10-17T05:05:44.240746",
+    "updated_at": "2026-10-17T06:38:56.986321",
     "price_14d_ago": 89.38
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-17T05:05:44.616325",
+    "updated_at": "2026-10-17T06:38:57.350528",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 178.98,
     "change_pct": 10.93,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-17T05:05:44.837495",
+    "updated_at": "2026-10-17T06:38:57.598325",
     "price_14d_ago": 161.35
   },
   "ZIM": {
     "price": 29.21,
     "change_pct": 1.6,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-17T05:05:45.198041",
+    "updated_at": "2026-10-17T06:38:57.960323",
     "price_14d_ago": 28.75
   },
   "HIMS": {
     "price": 28.07,
     "change_pct": -2.2,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-17T05:05:45.571323",
+    "updated_at": "2026-10-17T06:38:58.324847",
     "price_14d_ago": 28.7
   },
   "GDRX": {
     "price": 3.36,
     "change_pct": 4.02,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-17T05:05:45.759559",
+    "updated_at": "2026-10-17T06:38:58.503476",
     "price_14d_ago": 3.23
   },
   "TEM": {
     "price": 64.72,
     "change_pct": -21.63,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-17T05:05:45.986918",
+    "updated_at": "2026-10-17T06:38:58.759763",
     "price_14d_ago": 82.58
   },
   "GH": {
     "price": 158.6,
     "change_pct": -10.76,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-17T05:05:46.262282",
+    "updated_at": "2026-10-17T06:38:58.939632",
     "price_14d_ago": 177.73
   },
   "ABT": {
     "price": 104.89,
     "change_pct": 3.9,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-17T05:05:46.476055",
+    "updated_at": "2026-10-17T06:38:59.313497",
     "price_14d_ago": 100.95
   },
   "ARM": {
     "price": 227.8,
     "change_pct": -22.43,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-17T05:05:06.722285",
+    "updated_at": "2026-10-17T06:38:19.217348",
     "price_14d_ago": 293.67
   },
   "HOOD": {
     "price": 98.87,
     "change_pct": -14.93,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-17T05:05:19.358169",
+    "updated_at": "2026-10-17T06:38:31.557598",
     "price_14d_ago": 116.22
   },
   "SPOT": {
     "price": 530.46,
     "change_pct": 7.45,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-17T05:05:36.003370",
+    "updated_at": "2026-10-17T06:38:48.618795",
     "price_14d_ago": 493.66
   },
   "CRWV": {
     "price": 61.39,
     "change_pct": -28.56,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-17T05:05:12.342503",
+    "updated_at": "2026-10-17T06:38:24.941155",
     "price_14d_ago": 85.93
   },
   "LENS": {
     "price": 44.0,
     "change_pct": 2.26,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-17T05:05:22.285806",
+    "updated_at": "2026-10-17T06:38:34.482897",
     "price_14d_ago": 43.03
   },
   "TCEHY": {
     "price": 52.75,
     "change_pct": -3.23,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-17T05:05:37.661580",
+    "updated_at": "2026-10-17T06:38:50.231669",
     "price_14d_ago": 54.51
   },
   "SHOP": {
     "price": 169.52,
     "change_pct": 14.34,
     "name": "Shopify Inc.",
-    "updated_at": "2026-10-17T05:05:34.112698",
+    "updated_at": "2026-10-17T06:38:46.707760",
     "price_14d_ago": 148.26
   },
   "BWET": {
     "price": 898.97,
     "change_pct": 21.61,
     "name": "Breakwave Tanker Shipping ETF",
-    "updated_at": "2026-10-17T05:05:09.376344",
+    "updated_at": "2026-10-17T06:38:21.768496",
     "price_14d_ago": 739.2
   },
   "CRWD": {
     "price": 227.39,
     "change_pct": -13.45,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-17T05:05:12.155768",
+    "updated_at": "2026-10-17T06:38:24.747949",
     "price_14d_ago": 262.74
   },
   "DHT": {
     "price": 23.6,
     "change_pct": 5.26,
     "name": "DHT Holdings, Inc.",
-    "updated_at": "2026-10-17T05:05:13.123249",
+    "updated_at": "2026-10-17T06:38:25.826741",
     "price_14d_ago": 22.42
   },
   "ECO": {
     "price": 89.7,
     "change_pct": 11.78,
     "name": "Okeanis Eco Tankers Corp.",
-    "updated_at": "2026-10-17T05:05:14.116014",
+    "updated_at": "2026-10-17T06:38:26.817719",
     "price_14d_ago": 80.25
   },
   "FMCC": {
     "price": 3.43,
     "change_pct": -9.74,
     "name": "Freddie Mac",
-    "updated_at": "2026-10-17T05:05:15.920492",
+    "updated_at": "2026-10-17T06:38:28.210514",
     "price_14d_ago": 3.8
   },
   "FNMA": {
     "price": 3.76,
     "change_pct": -9.83,
     "name": "Fannie Mae",
-    "updated_at": "2026-10-17T05:05:16.117637",
+    "updated_at": "2026-10-17T06:38:28.422953",
     "price_14d_ago": 4.17
   },
   "FRO": {
     "price": 52.49,
     "change_pct": 7.28,
     "name": "Frontline Plc",
-    "updated_at": "2026-10-17T05:05:16.320611",
+    "updated_at": "2026-10-17T06:38:28.638033",
     "price_14d_ago": 48.93
   },
   "FTNT": {
     "price": 169.13,
     "change_pct": -3.88,
     "name": "Fortinet, Inc.",
-    "updated_at": "2026-10-17T05:05:16.769855",
+    "updated_at": "2026-10-17T06:38:29.005468",
     "price_14d_ago": 175.96
   },
   "QLYS": {
     "price": 181.05,
     "change_pct": 1.51,
     "name": "Qualys, Inc.",
-    "updated_at": "2026-10-17T05:05:31.391316",
+    "updated_at": "2026-10-17T06:38:43.814662",
     "price_14d_ago": 178.35
   },
   "RITM": {
     "price": 8.66,
     "change_pct": -5.04,
     "name": "Rithm Capital Corp.",
-    "updated_at": "2026-10-17T05:05:32.148538",
+    "updated_at": "2026-10-17T06:38:44.641772",
     "price_14d_ago": 9.12
   },
   "RPD": {
     "price": 12.61,
     "change_pct": 7.73,
     "name": "Rapid7, Inc.",
-    "updated_at": "2026-10-17T05:05:32.523402",
+    "updated_at": "2026-10-17T06:38:45.064501",
     "price_14d_ago": 11.7
   },
   "AMAT": {
     "price": 409.29,
     "change_pct": -20.06,
     "name": "Applied Materials, Inc.",
-    "updated_at": "2026-10-17T05:05:05.574250",
+    "updated_at": "2026-10-17T06:38:17.870533",
     "price_14d_ago": 512.01
   },
   "LRCX": {
     "price": 263.94,
     "change_pct": -18.5,
     "name": "Lam Research Corporation",
-    "updated_at": "2026-10-17T05:05:23.156784",
+    "updated_at": "2026-10-17T06:38:35.272336",
     "price_14d_ago": 323.86
   },
   "HUBS": {
     "price": 230.94,
     "change_pct": 16.83,
     "name": "HubSpot, Inc.",
-    "updated_at": "2026-10-17T05:05:19.567904",
+    "updated_at": "2026-10-17T06:38:31.831783",
     "price_14d_ago": 197.67
   },
   "MCD": {
     "price": 242.97,
     "change_pct": 3.84,
     "name": "McDonald's Corporation",
-    "updated_at": "2026-10-17T05:05:23.952282",
+    "updated_at": "2026-10-17T06:38:36.184246",
     "price_14d_ago": 233.98
   },
   "CART": {
     "price": 49.83,
     "change_pct": 14.58,
     "name": "Maplebear Inc.",
-    "updated_at": "2026-10-17T05:05:10.147387",
+    "updated_at": "2026-10-17T06:38:22.562613",
     "price_14d_ago": 43.49
   },
   "VGS": {
     "price": 0,
     "change_pct": 0,
     "name": "VGS",
-    "updated_at": "2026-10-17T05:05:42.208443",
+    "updated_at": "2026-10-17T06:38:54.976004",
     "price_14d_ago": null
   },
   "LEU": {
     "price": 114.94,
     "change_pct": -16.82,
     "name": "Centrus Energy Corp.",
-    "updated_at": "2026-10-17T05:05:22.474882",
+    "updated_at": "2026-10-17T06:38:34.667636",
     "price_14d_ago": 138.18
   }
 },
@@ -1247,6 +1247,39 @@ const dashboardData = {
         {
           "speaker": "Ben Horowitz",
           "quote": "I would make the argument that this is just volatility, which you're going to get a lot whenever you're underwriting to multi trillion dollar outcomes in the future based on very rapid rates of growth exponential rates of growth."
+        }
+      ]
+    },
+    {
+      "id": 597,
+      "title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-17",
+      "summary": "In this episode, Julie Yu interviews Zocdoc CEO Oliver Kharraz about why healthcare scheduling remains broken and how Zocdoc positions itself as both a consumer booking destination and a backend scheduling infrastructure layer. Kharraz argues that the classic provider-directory model is fundamentally flawed because directories go stale quickly, whereas transactional booking continuously validates availability and improves data quality over time.\n\nA central claim is that Zocdoc\u2019s connected scheduling data is more than 99% accurate, materially better than average insurance directories. Kharraz says the platform can let patients see a doctor in about three days, or roughly 72 hours, across a broad range of specialties, compared with a U.S. primary-care wait time of about 31 days in the broader market. He attributes this to filling last-minute cancellations, no-shows, and reschedules, and says doctor utilization is just under 70%, versus airline load factors above 90%.\n\nKharraz also describes a strategic shift from being only a consumer marketplace to powering many \u201cfront doors\u201d to healthcare, including AI and payer channels. He says the future is not one company owning the entry point to care; instead, Zocdoc wants to supply the access and availability layer to multiple platforms, including a Gemini partnership mentioned in the discussion. He frames this as a distribution strategy where providers benefit from being discoverable across many entry points without having to integrate one by one.\n\nThe conversation also covers Zocdoc\u2019s integration scale and operating model. Kharraz says Zocdoc has integrations with 175+ EHRs, covers 250 specialties, and has had strong provider adoption, including a claim that 97% of providers signed up in the last 12 months through word of mouth. Monetization is described as discovery/connection-based rather than charging for every booking, and Kharraz emphasizes consumer-first incentives, quality controls, and the need to solve many workflow edge cases to make scheduling truly reliable.",
+      "key_takeaway": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
+      "tickers_mentioned": [
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 586,
+      "notable_quotes": [
+        {
+          "speaker": "Oliver Kharraz",
+          "quote": "Once you have the transaction it's much more like Wikipedia, right? Every incremental transaction actually validates the information you have, you make any mistake you make exactly once and then you know what's going in."
+        },
+        {
+          "speaker": "Oliver Kharraz",
+          "quote": "now's 31 days however you know it's using zoptoc you can see a doctor typically within three days or less right so 72 hours and you know that's true for a broad range of specialties."
+        },
+        {
+          "speaker": "Oliver Kharraz",
+          "quote": "airplanes have a load factor of over 90 percent in the wild doctors have load factors around 70 percent just under 70 percent now with zoptoc we filled that last minute capacity"
         }
       ]
     },
@@ -1557,7 +1590,7 @@ const dashboardData = {
       "key_takeaway": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-13",
       "archived_date": null,
@@ -16555,8 +16588,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-15",
-      "mention_count": 123,
+      "last_mentioned_date": "2026-10-17",
+      "mention_count": 124,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -16565,8 +16598,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 583,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 586,
+      "last_mentioned_speaker": "Oliver Kharraz"
     },
     {
       "id": 38,
@@ -16830,6 +16863,40 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
+    {
+      "id": 597,
+      "title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-17",
+      "summary": "In this episode, Julie Yu interviews Zocdoc CEO Oliver Kharraz about why healthcare scheduling remains broken and how Zocdoc positions itself as both a consumer booking destination and a backend scheduling infrastructure layer. Kharraz argues that the classic provider-directory model is fundamentally flawed because directories go stale quickly, whereas transactional booking continuously validates availability and improves data quality over time.\n\nA central claim is that Zocdoc\u2019s connected scheduling data is more than 99% accurate, materially better than average insurance directories. Kharraz says the platform can let patients see a doctor in about three days, or roughly 72 hours, across a broad range of specialties, compared with a U.S. primary-care wait time of about 31 days in the broader market. He attributes this to filling last-minute cancellations, no-shows, and reschedules, and says doctor utilization is just under 70%, versus airline load factors above 90%.\n\nKharraz also describes a strategic shift from being only a consumer marketplace to powering many \u201cfront doors\u201d to healthcare, including AI and payer channels. He says the future is not one company owning the entry point to care; instead, Zocdoc wants to supply the access and availability layer to multiple platforms, including a Gemini partnership mentioned in the discussion. He frames this as a distribution strategy where providers benefit from being discoverable across many entry points without having to integrate one by one.\n\nThe conversation also covers Zocdoc\u2019s integration scale and operating model. Kharraz says Zocdoc has integrations with 175+ EHRs, covers 250 specialties, and has had strong provider adoption, including a claim that 97% of providers signed up in the last 12 months through word of mouth. Monetization is described as discovery/connection-based rather than charging for every booking, and Kharraz emphasizes consumer-first incentives, quality controls, and the need to solve many workflow edge cases to make scheduling truly reliable.",
+      "key_takeaway": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
+      "tickers_mentioned": "[\"GOOGL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 586,
+      "notable_quotes": [
+        {
+          "speaker": "Oliver Kharraz",
+          "quote": "Once you have the transaction it's much more like Wikipedia, right? Every incremental transaction actually validates the information you have, you make any mistake you make exactly once and then you know what's going in."
+        },
+        {
+          "speaker": "Oliver Kharraz",
+          "quote": "now's 31 days however you know it's using zoptoc you can see a doctor typically within three days or less right so 72 hours and you know that's true for a broad range of specialties."
+        },
+        {
+          "speaker": "Oliver Kharraz",
+          "quote": "airplanes have a load factor of over 90 percent in the wild doctors have load factors around 70 percent just under 70 percent now with zoptoc we filled that last minute capacity"
+        }
+      ],
+      "episode_release_date": "2026-10-17",
+      "guest_name": "Zocdoc CEO Oliver Kharraz",
+      "key_tickers": []
+    },
     {
       "id": 596,
       "title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
@@ -17218,40 +17285,6 @@ const dashboardData = {
       ],
       "episode_release_date": "2026-10-13",
       "guest_name": "Jason Ma",
-      "key_tickers": []
-    },
-    {
-      "id": 585,
-      "title": "Can AI Break Cryptography? What the Experts Actually Think",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-10-13",
-      "summary": "The episode centers on a debate about whether recent AI progress implies an imminent break of deployed cryptography, especially elliptic-curve cryptography (ECC), or whether that concern is being overextended from broader math and computer-science gains. Dan Boneh argues the current panic is largely indirect: the recent OpenAI paper results show striking progress in math/CS, but not a direct cryptographic breakthrough against standardized deployed schemes.\n\nA key theme is that cryptography rests on complexity assumptions, and those assumptions are normally validated over long periods by repeated attempts to break them. Dan emphasizes that no assumption has been resolved and that the fact that people try and fail increases confidence. He also notes that if frontier AI labs seriously try to attack these assumptions and still fail, that failure itself would be useful evidence of security, even if a few bits of margin are shaved off.\n\nThe discussion also covers practical mitigations. Eddy Lazzarin and Justin Thaler stress crypto agility (being able to swap encryption schemes quickly), post-quantum backups, hybrid deployments, and defensive operational practices. They argue many systems already use layered cryptography, and that institutions can migrate rather than panic. NIST-standardized backup schemes, key rotation, and not exposing public keys unnecessarily are framed as concrete defenses.\n\nOn the opportunity side, the speakers suggest AI could become a defensive tool for security teams and startups, enabling faster code scanning, cryptographic testing, and repeated rescans as models improve. The most contrarian idea is that failed AI cryptanalysis attempts may be more valuable than alarming, because they can quantify what still holds and accelerate confidence-building for deployed systems.",
-      "key_takeaway": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-      "tickers_mentioned": "[]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-10-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 574,
-      "notable_quotes": [
-        {
-          "speaker": "Dan Boneh",
-          "quote": "And as I finished the list, the thing that kind of stuck in my mind is that, wow, this is incredible progress in mathematics and computer science. But there are no questions here on cryptography."
-        },
-        {
-          "speaker": "Dan Boneh",
-          "quote": "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them. The labs say that they fail to break them. That will give you tremendous confidence that our assumptions are valid."
-        },
-        {
-          "speaker": "Eddy Lazzarin",
-          "quote": "You can literally look at many internet connections today they are actually using agile cryptography they're encrypted using elliptic curves and lattices at the same time."
-        }
-      ],
-      "episode_release_date": "2026-10-13",
-      "guest_name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
       "key_tickers": []
     }
   ],
@@ -53859,9 +53892,99 @@ const dashboardData = {
       "DELL",
       "COIN"
     ]
+  },
+  "597": {
+    "id": 598,
+    "insight_id": 597,
+    "podcast_episode_id": 586,
+    "overview": "The non-obvious angle is that Zocdoc is not merely trying to win consumer traffic; it is trying to become the verification and routing layer that makes healthcare inventory legible to many different software surfaces at once. The episode\u2019s key structural claim is that appointment availability is a live, transactional dataset, and that the act of booking is itself the mechanism that keeps the dataset current. That matters because it turns scheduling into a compounding data asset rather than a stale directory problem.\n\nA second important point is that the company\u2019s value may come less from owning a single consumer endpoint and more from being the underlying supply-side rail for fragmented demand creation. If AI assistants, payer portals, practice websites, and traditional marketplaces all become meaningful entry points, the winner is not necessarily the front door with the most users; it is the layer that can reconcile availability across all of them with enough accuracy and workflow coverage to avoid breaking at the practice level.\n\nThe episode also implies a hidden operational moat: the hard part is not publishing calendars, but handling the thousands of messy exceptions created by real practice workflows, office-manager behavior, and mismatches between EHRs and actual bookable slots. That suggests the durability of the model comes from accumulated edge-case handling, not just from integrating with many systems.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "The practical read-through is that healthcare access infrastructure may be more durable than a consumer marketplace if it can sit underneath multiple demand channels and keep proving that its data is live. The key watch item is whether Zocdoc can keep converting fragmented traffic into actual booked visits while maintaining the integrity of its scheduling graph across EHRs, payer surfaces, and AI agents. What matters for valuation is not only topline growth, but proof that the network effects are operational, not rhetorical: higher booking conversion, lower mismatch rates, better fill of canceled slots, and continued provider adoption without forcing providers into a single consumer brand. A useful question is whether the business becomes a toll road on scheduling access broadly, or remains mainly a branded marketplace with incremental API distribution. The former supports a stronger long-term moat and more partner optionality; the latter suggests a narrower, more competitive marketplace dynamic. The episode also supports watching whether AI-driven booking actually produces incremental volume rather than just reshuffling existing demand. If agentic booking becomes a meaningful channel, the companies that can expose trusted availability and complete the transaction cleanly may capture disproportionate value. That makes integration breadth, uptime, and booking success rate the most important operating metrics to monitor.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google matters indirectly because Gemini sits inside Google\u2019s AI ecosystem. The conversation implies that large AI platforms can become discovery and transaction layers for healthcare access, which could either expand Zocdoc\u2019s distribution or make it more dependent on a powerful gatekeeper.",
+        "positioning": "Watch",
+        "risk": "If Google chooses to build or privilege its own scheduling stack, it could compress Zocdoc\u2019s role as the neutral access layer."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Provider growth slows even while consumer traffic rises, suggesting doctors do not value the platform as much as claimed.",
+      "Booking success remains high only in dense urban markets, implying the model may not generalize across broader geographies or specialties.",
+      "AI referral traffic grows but direct conversion to completed appointments stays flat, indicating that front-door fragmentation does not create net-new demand.",
+      "Cancellation and no-show recapture deteriorate as more channels are opened, which would suggest the system is more fragile than scalable."
+    ],
+    "catalysts": [
+      "New disclosed AI-platform integrations over the next 6-12 months, especially if they are live rather than experimental.",
+      "Provider network expansion or retention metrics in the next quarterly update, particularly if they confirm continued word-of-mouth onboarding.",
+      "Any external validation of access-time improvements from payer, academic, or third-party data sources over the next year.",
+      "Product announcements showing deeper workflow automation or more embedded scheduling across practice websites and payer portals."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-10-17T06:38:16.395708",
+    "updated_at": "2026-10-17 11:38:16",
+    "episode_evidence": "Oliver Kharraz: we have the ability to schedule into the providers that are connected to, we are of data that's more than 99% accurate, which compares, quite able to be with you average insurance directory.\nOliver Kharraz: Once you have the transaction it's much more like Wikipedia, right? Every incremental transaction actually validates the information you have, you make any mistake you make exactly once and then you know what's going in.\nOliver Kharraz: now's 31 days however you know it's using zoptoc you can see a doctor typically within three days or less right so 72 hours and you know that's true for a broad range of specialties.\nOliver Kharraz: airplanes have a load factor of over 90 percent in the wild doctors have load factors around 70 percent just under 70 percent now with zoptoc we filled that last minute capacity\nOliver Kharraz: the number of sort of quote unquote front doors is really exploding... for a doctor it's really inconceivable to sort of hunt them all down and try to connect to them one off and so our promise to the providers... is to distribute your availability to all the different platforms that are out there",
+    "falsification_tracks": [
+      "By Nov 9, 2026, if the company\u2019s Q3 2026 10-Q or equivalent disclosure does not show median time-to-appointment at or below 7 days for booked visits in core markets, the access-speed claim is weakened.",
+      "By Dec 31, 2026, if an independent audit or internal KPI disclosure in an 8-K or investor deck shows scheduling-data accuracy below 98.5%, the >99% accuracy claim fails.",
+      "By Q4 2026, if provider-reported load-factor improvement in disclosed network metrics does not exceed 2 percentage points versus the prior year, as shown in management reporting or a third-party study, the capacity-filling thesis is less credible.",
+      "By Mar 31, 2027, if there are fewer than 3 active third-party AI or payer integrations disclosed in a company update, press release, or product documentation, the multi-front-door strategy looks underdeveloped.",
+      "By Sep 30, 2026, if an NPS, booking-completion, or cancellation metric in a company report shows booking failure or patient dissatisfaction above 5% on connected inventory, the transactional-quality moat is called into question."
+    ],
+    "schema_version": 1,
+    "model_used": "gpt-5.4-mini",
+    "input_tokens": 4932,
+    "output_tokens": 1628,
+    "cost_usd": 0.0055125,
+    "attempt_count": 1,
+    "generation_mode": "extraction",
+    "insight_title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+    "source_name": "The a16z Show",
+    "source_date": "2026-10-17",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 927,
+    "term": "Provider directory problem",
+    "definition": "The idea that static healthcare directories become inaccurate quickly because availability, insurance participation, and office workflows change constantly. Zocdoc argues this is the core reason patients struggle to book care reliably.",
+    "investment_implications": "Companies that continuously validate availability through actual transactions may be better positioned than static directory providers.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-17 11:37:51",
+    "priority_score": 80
+  },
+  {
+    "id": 928,
+    "term": "Transactional scheduling",
+    "definition": "A system where booking a real appointment is the mechanism that updates and verifies provider data, rather than relying on static listings. It turns scheduling into a live source of truth.",
+    "investment_implications": "This favors infrastructure businesses that own booking workflows and data synchronization, especially across fragmented healthcare systems.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-17 11:37:51",
+    "priority_score": 80
+  },
+  {
+    "id": 929,
+    "term": "Front door to healthcare",
+    "definition": "The consumer or platform entry point through which patients begin searching for and booking care. Kharraz argues there will be many such front doors rather than a single dominant one.",
+    "investment_implications": "If discovery fragments across AI assistants, payers, and consumer apps, backend scheduling infrastructure becomes more valuable.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-17 11:37:51",
+    "priority_score": 80
+  },
   {
     "id": 924,
     "term": "Box financing",
@@ -53873,47 +53996,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-10-17 04:47:23",
     "priority_score": 80
-  },
-  {
-    "id": 925,
-    "term": "CDS-implied default risk",
-    "definition": "Credit default swap pricing can be translated into an implied probability of default over a given horizon. In the episode, the discussion uses CDS to argue the market is pricing significant credit stress.",
-    "investment_implications": "If CDS remains elevated, refinancing costs and equity dilution risk may stay high even if operating demand is intact.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-17 04:47:23",
-    "priority_score": 80
-  },
-  {
-    "id": 926,
-    "term": "Power bottleneck",
-    "definition": "The idea that electricity availability, interconnects, and grid capacity are the main constraints on AI infrastructure growth rather than model demand. The episode treats power as a structural limiter to scaling.",
-    "investment_implications": "Power assets, grid services, and data-center developers with secured interconnects could become the scarce winners.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-17 04:47:23",
-    "priority_score": 80
-  },
-  {
-    "id": 921,
-    "term": "Change-detection troubleshooting",
-    "definition": "An ops workflow that starts by identifying what changed in the environment, then uses AI to reason about likely causes and next experiments. It is designed to avoid relying on lagging indicators like alerts after damage is already visible.",
-    "investment_implications": "This is a potential wedge for AI observability products because it can reduce incident response time and make AI more actionable than generic log summarization.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-16 12:02:34",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 89941,
+    "id": 90121,
+    "name": "Zocdoc CEO Oliver Kharraz",
+    "slug": "zocdoc-ceo-oliver-kharraz",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
+    "last_episode_title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-17",
+    "appearance_count": 1
+  },
+  {
+    "id": 90122,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -53925,7 +54024,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89943,
+    "id": 90124,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -53937,7 +54036,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 89942,
+    "id": 90123,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -53949,7 +54048,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89944,
+    "id": 90125,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -53961,7 +54060,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89945,
+    "id": 90126,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -53973,7 +54072,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89946,
+    "id": 90127,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -53985,7 +54084,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89947,
+    "id": 90128,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -53997,7 +54096,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89948,
+    "id": 90129,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -54009,7 +54108,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89949,
+    "id": 90130,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -54021,7 +54120,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89950,
+    "id": 90131,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -54033,7 +54132,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89951,
+    "id": 90132,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -54045,7 +54144,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89952,
+    "id": 90133,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -54057,7 +54156,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89953,
+    "id": 90134,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -54069,7 +54168,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89954,
+    "id": 90135,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -54081,7 +54180,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89955,
+    "id": 90136,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -54093,7 +54192,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89956,
+    "id": 90137,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -54105,7 +54204,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89957,
+    "id": 90138,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -54117,7 +54216,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89958,
+    "id": 90139,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -54129,7 +54228,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89959,
+    "id": 90140,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -54138,18 +54237,6 @@ const dashboardData = {
     "last_episode_title": "Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
-    "appearance_count": 1
-  },
-  {
-    "id": 89960,
-    "name": "Anish Acharya & David Pawlan",
-    "slug": "anish-acharya--david-pawlan",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "David Pawlan argues personal AI agents will compete on proactivity rather than 10% efficiency, citing 122 tracked assistants and cost-saving workflows such as HSA reimbursements, flight credits, and 50% lower water bills.",
-    "last_episode_title": "The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-29",
     "appearance_count": 1
   }
 ],
@@ -54737,7 +54824,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
-    "mention_score_decayed": 1.61,
+    "mention_score_decayed": 1.57,
     "last_main_idea": "Implement the CAPA framework to systematically address failures and enhance accountability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
     "last_proof_snippet": "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
@@ -54796,7 +54883,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.52,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-04 \u2022 David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
     "last_proof_snippet": "If the premise of your question is, is this going to be successful or that it's going to be successful? The answer in AI is probably, and it's just the most exciting time to ever be an investor and in the technology markets and keeping up w",
@@ -54918,7 +55005,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -55209,6 +55296,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$1.40B"
+  },
+  {
+    "id": 544,
+    "name": "Oliver Kharraz",
+    "slug": "oliver-kharraz",
+    "bio": "CEO and founder of Zocdoc.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-17 11:37:51",
+    "last_episode_title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-17 \u2022 Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+    "last_proof_snippet": "In travel, you book a flight. In e-commerce, you buy a product, but in health care, simply booking an appointment can still take weeks. In this episode, A16Z General Partner Julie Yu sits down with Zock Duck founder and CEO Oliver Karaz to",
+    "supporting_takeaway": "Oliver Kharraz said patients can typically see a doctor \"within three days or less\" on Zocdoc, or about 72 hours, across a broad range of specialties.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 543,
@@ -55961,7 +56075,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-10 \u2022 Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. The all-in podcast with me, the core four, be original, quartet, Chumapai Hoppetia, David Sachs, Dave Freeberg, I'm Jason Calcantison. We have a doc at How's Everybo",
@@ -56621,7 +56735,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -56648,7 +56762,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -56756,7 +56870,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
@@ -56816,7 +56930,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Cathie Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs. And they're concerned about the old social contract, do well in high school, go to college, get a degree, and go get a",
@@ -57396,7 +57510,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_proof_snippet": "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
@@ -57572,7 +57686,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "Naveen Rau, co-founder and CEO of Unconventional AI, which is an AI chip startup, best willing for building and selling to deep tech companies. Naveen is kind of definitely outlier, founder. When I came there, we had about 20 million dollar",
@@ -57794,7 +57908,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps. There's one camp which believes that this actually",
@@ -58140,7 +58254,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
@@ -59966,7 +60080,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -75403,7 +75517,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-17T05:05:47.728482"
+      "last_updated": "2026-10-17T06:39:00.500377"
     }
   ]
 }
