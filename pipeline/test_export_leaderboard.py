@@ -141,3 +141,32 @@ class Site(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Wording(unittest.TestCase):
+    CASES = [
+        ("Jared's approved SATA fallback. He was flat.", "The game's fallback rule. He was flat."),
+        ("Jared's fallback so the slot isn't flat", "The game's fallback rule so the slot isn't flat"),
+        ("so he used Jared's SATA fallback. SATA pays", "so he used the game's fallback rule. SATA pays"),
+        ("voided by Jared\u2019s 9:16 PM CT rule", "voided by the game's 9:16 PM CT rule"),
+        ("The Department of War guarantees a floor", "The Department of War (Defense) guarantees a floor"),
+        ("The Department of War (Defense) guarantees", "The Department of War (Defense) guarantees"),
+    ]
+
+    def test_cases(self):
+        for src, want in self.CASES:
+            self.assertEqual(el.clean(src), want)
+
+    def test_idempotent_and_no_jared(self):
+        for src, _ in self.CASES:
+            once = el.clean(src)
+            self.assertEqual(el.clean(once), once)
+            self.assertNotIn("Jared", once)
+
+    def test_real_source_export_has_no_jared(self):
+        if not Path(el.DEFAULT_SOURCE).is_dir():
+            self.skipTest("bot game source not on this machine")
+        out = el.build(Path(el.DEFAULT_SOURCE))
+        blob = json.dumps(out, ensure_ascii=False)
+        self.assertNotRegex(blob, r"(?i)\bjared\b")
+        self.assertNotRegex(blob, r"Department of War(?!\s*\(Defense\))")
