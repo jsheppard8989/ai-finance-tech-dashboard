@@ -9,7 +9,7 @@
   "marks_captured_ct": "2026-10-16T15:14:43.355569-05:00",
   "marks_source": "Yahoo Finance via yfinance: 1d history Close for 2026-10-16 (matches regularMarketPrice/lastPrice at capture). Official regular-session close.",
   "scoreboard_updated_ct": "2026-10-16T18:27:25-05:00",
-  "generated_at_ct": "2026-10-16T18:33:24-05:00",
+  "generated_at_ct": "2026-10-16T21:36:29-05:00",
   "scorekeeper": "Watcher",
   "bots": [
     {
@@ -119,7 +119,7 @@
         "close": 96.885,
         "shares": 9.9226,
         "reason": {
-          "why": "He was flat after the stop-out with no better setup, so he used Jared's SATA fallback. SATA pays about 12% a year, and it keeps him from sitting flat.",
+          "why": "He was flat after the stop-out with no better setup, so he used the game's fallback rule. SATA pays about 12% a year, and it keeps him from sitting flat.",
           "stop": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
           "target": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
           "wrong_if": "it drops more than about 2%, below roughly 95.80. He'd look at selling early then."
@@ -171,7 +171,7 @@
         "close": 96.885,
         "shares": 9.3434,
         "reason": {
-          "why": "Jared's approved SATA fallback. He was flat late in the day with no good setup. SATA is Strive's variable-rate preferred stock, paying about 12% a year accrued daily, and it trades near its par value.",
+          "why": "The game's fallback rule. He was flat late in the day with no good setup. SATA is Strive's variable-rate preferred stock, paying about 12% a year accrued daily, and it trades near its par value.",
           "stop": "92.71, 5% below entry.",
           "target": "none.",
           "wrong_if": "SATA trades below 92.71."
@@ -196,7 +196,7 @@
         "close": 40.15,
         "shares": 22.3158,
         "reason": {
-          "why": "The Department of War guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
+          "why": "The Department of War (Defense) guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
           "stop": "$38.60.",
           "target": "$45.30.",
           "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
@@ -208,7 +208,7 @@
           "action": "buy",
           "ticker": "MP",
           "fill": 41.96,
-          "reason": "The Department of War guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
+          "reason": "The Department of War (Defense) guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
           "stop": "$38.60.",
           "target": "$45.30.",
           "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
@@ -232,7 +232,7 @@
         "close": 96.885,
         "shares": 8.7081,
         "reason": {
-          "why": "Jared's fallback so the slot isn't flat, held for the roughly 12% annual accrual.",
+          "why": "The game's fallback rule so the slot isn't flat, held for the roughly 12% annual accrual.",
           "stop": "exit on a 3% drop.",
           "target": null,
           "wrong_if": "SATA falls 3% from entry."
