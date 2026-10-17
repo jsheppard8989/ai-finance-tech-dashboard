@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/weekly_review.schema.json",
+  "title": "Dragonfly 7 Weekly Review",
+  "description": "Plan section 11. Filed by the Trade Watcher at handoff/weekly/<friday>/weekly_review.json. The scoreboard is weekly_scoreboard() verbatim: there is NO dollars-behind-the-$1,000-target (target-gap) field, and additionalProperties false keeps one from being added. The coach answers the seven questions and stops.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "week_ending", "generated_at", "book", "scoreboard", "spy", "coach", "setups"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "week_ending": { "type": "string", "format": "date", "description": "The Friday (or last session) of the week, YYYY-MM-DD; also the folder name." },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "book": { "enum": ["paper", "live"] },
+    "scoreboard": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "weekly_scoreboard(): trade count, sum of R, expectancy per trade, net dollars and percent translated from the fills.",
+      "required": ["trades", "r_sum", "expectancy_r", "net_pnl", "net_pnl_pct", "flat_week_is_success"],
+      "properties": {
+        "trades": { "type": "integer", "minimum": 0 },
+        "r_sum": { "type": "number" },
+        "expectancy_r": { "type": ["number", "null"] },
+        "net_pnl": { "type": "number" },
+        "net_pnl_pct": { "type": ["number", "null"] },
+        "flat_week_is_success": { "const": true }
+      }
+    },
+    "spy": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "SPY beside the book, so a rising tape is not mistaken for an edge. Beating SPY is not the mandate.",
+      "required": ["week_pct", "source"],
+      "properties": {
+        "week_pct": { "type": ["number", "null"], "description": "SPY close-to-close change for the week as a fraction; null if not measured." },
+        "book_week_pct": { "type": ["number", "null"] },
+        "source": { "type": "string" }
+      }
+    },
+    "coach": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["setup_mean_r", "avg_mae_r_winners", "avg_mfe_r_losers", "red_alerts_not_flattened", "no_trade_days", "rule_violations", "amendment"],
+      "properties": {
+        "setup_mean_r": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Q1: best and worst setup by mean net R, each with n. Null when no closed trades.",
+          "required": ["best", "worst"],
+          "properties": {
+            "best": { "$ref": "#/$defs/setup_r" },
+            "worst": { "$ref": "#/$defs/setup_r" }
+          }
+        },
+        "avg_mae_r_winners": { "$ref": "#/$defs/avg_r", "description": "Q2: average MAE (R) on winners." },
+        "avg_mfe_r_losers": { "$ref": "#/$defs/avg_r", "description": "Q3: average MFE (R) on losers." },
+        "red_alerts_not_flattened": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Q4: RED watcher alerts that did not flatten the same session.",
+          "required": ["count", "trade_ids"],
+          "properties": {
+            "count": { "type": "integer", "minimum": 0 },
+            "trade_ids": { "type": "array", "items": { "type": "string", "pattern": "^DF-[0-9]{4}-[0-9]{4}$" } }
+          }
+        },
+        "no_trade_days": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Q5: NO_TRADE days this week and what SPY did.",
+          "required": ["count", "spy_week_pct"],
+          "properties": {
+            "count": { "type": "integer", "minimum": 0, "maximum": 5 },
+            "spy_week_pct": { "type": ["number", "null"] }
+          }
+        },
+        "rule_violations": {
+          "type": "array",
+          "description": "Q6: did the book violate a rule? Empty array = no.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["rule", "detail"],
+            "properties": {
+              "rule": { "type": "string", "minLength": 1 },
+              "trade_id": { "type": ["string", "null"] },
+              "detail": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "amendment": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "description": "Q7: one proposed amendment, or null for none. The coach proposes; Jared decides."
+        }
+      }
+    },
+    "setups": {
+      "type": "array",
+      "description": "Per-setup cumulative record for the 40-trade retirement rule: eligible only with at least 40 closed trades in that setup AND mean net R <= 0.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["setup", "closed_trades", "mean_net_r", "retirement_eligible"],
+        "properties": {
+          "setup": { "enum": ["catalyst_breakout", "momentum_pullback", "failed_breakdown", "compression_expansion"] },
+          "closed_trades": { "type": "integer", "minimum": 0 },
+          "mean_net_r": { "type": ["number", "null"] },
+          "retirement_eligible": { "type": "boolean" }
+        },
+        "if": { "properties": { "retirement_eligible": { "const": true } }, "required": ["retirement_eligible"] },
+        "then": { "properties": { "closed_trades": { "minimum": 40 }, "mean_net_r": { "type": "number", "maximum": 0 } } }
+      }
+    },
+    "note": { "type": "string" }
+  },
+  "$defs": {
+    "setup_r": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["setup", "mean_net_r", "n"],
+          "properties": {
+            "setup": { "enum": ["catalyst_breakout", "momentum_pullback", "failed_breakdown", "compression_expansion"] },
+            "mean_net_r": { "type": "number" },
+            "n": { "type": "integer", "minimum": 1 }
+          }
+        }
+      ]
+    },
+    "avg_r": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "n"],
+      "properties": {
+        "value": { "type": ["number", "null"] },
+        "n": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}
