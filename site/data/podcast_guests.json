@@ -1,6 +1,6 @@
 [
   {
-    "id": 90302,
+    "id": 90483,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -12,7 +12,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90303,
+    "id": 90484,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -24,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90305,
+    "id": 90486,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -36,7 +36,7 @@
     "appearance_count": 2
   },
   {
-    "id": 90304,
+    "id": 90485,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -48,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90306,
+    "id": 90487,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -60,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90307,
+    "id": 90488,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -72,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90308,
+    "id": 90489,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -84,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90309,
+    "id": 90490,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -96,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90310,
+    "id": 90491,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -108,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90311,
+    "id": 90492,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -120,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90312,
+    "id": 90493,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -132,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90313,
+    "id": 90494,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -144,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90314,
+    "id": 90495,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -156,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90315,
+    "id": 90496,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -168,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90316,
+    "id": 90497,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -180,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90317,
+    "id": 90498,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -192,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90318,
+    "id": 90499,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -204,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90319,
+    "id": 90500,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -216,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90320,
+    "id": 90501,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -228,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90321,
+    "id": 90502,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -240,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90322,
+    "id": 90503,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -252,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90323,
+    "id": 90504,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -264,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90324,
+    "id": 90505,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -276,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90325,
+    "id": 90506,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -288,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90326,
+    "id": 90507,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -300,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90327,
+    "id": 90508,
     "name": "Maggie Landers",
     "slug": "maggie-landers",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90328,
+    "id": 90509,
     "name": "Eddy Lazzarin",
     "slug": "eddy-lazzarin",
     "bio": null,
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90329,
+    "id": 90510,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90330,
+    "id": 90511,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -348,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90331,
+    "id": 90512,
     "name": "Clocktower Group",
     "slug": "clocktower-group",
     "bio": null,
