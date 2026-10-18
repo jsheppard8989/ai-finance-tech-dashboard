@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>The AI Data Center Buildout After the October Selloff · Scarcity &amp; Abundance</title>
+  <!-- DRAFT page (branch draft/dc-buildout). Not linked from any other page. Built from the research desk's draft of Oct 18, 2026 (about 7:53 AM CT). -->
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%); color: #e8e8e8; min-height: 100vh; line-height: 1.55; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1rem; }
+    .site-nav { display: flex; flex-wrap: wrap; gap: 1rem 1.25rem; justify-content: center; align-items: center; padding: 0.65rem 1rem; margin-bottom: 0.75rem; background: rgba(0, 0, 0, 0.28); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1); }
+    .site-nav a { color: #00d4ff; text-decoration: none; font-size: 0.95rem; font-weight: 500; }
+    .site-nav a:hover { text-decoration: underline; }
+    header { text-align: center; padding: 1.25rem 1rem; }
+    h1 { font-size: 2rem; line-height: 1.25; background: linear-gradient(90deg, #00d4ff, #c084fc); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .subtitle { color: #8892b0; margin-top: 0.35rem; }
+    .paper { display: inline-block; margin-top: 0.75rem; background: #fbbf2422; color: #fbbf24; border: 1px solid #fbbf2466; border-radius: 8px; padding: 0.35rem 0.9rem; font-weight: 600; }
+    section { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; padding: 1rem 1.1rem; margin: 1rem 0; }
+    h2 { font-size: 1.15rem; color: #c084fc; margin-bottom: 0.6rem; }
+    h3 { font-size: 0.98rem; color: #fbbf24; margin: 0.9rem 0 0.35rem; }
+    p { margin: 0.45rem 0; color: #d6d9e6; }
+    ul, ol { margin: 0.4rem 0 0.4rem 1.3rem; color: #d6d9e6; }
+    li { margin: 0.25rem 0; }
+    a { color: #00d4ff; }
+    .muted { color: #8892b0; font-size: 0.85rem; }
+    .src { color: #8892b0; font-size: 0.8rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    th { text-align: left; color: #6b7280; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; padding: 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    td { padding: 0.45rem 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.05); vertical-align: top; }
+    .num { text-align: right; white-space: nowrap; }
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .table-wrap.is-scrollable:not(.at-end) { -webkit-mask-image: linear-gradient(to right, #000 82%, transparent); mask-image: linear-gradient(to right, #000 82%, transparent); }
+    .scroll-hint { font-size: 0.75rem; color: #fbbf24; text-align: right; margin: 0.2rem 0 0.1rem; }
+    .tierx { display: block; font-size: 0.78rem; color: #fbbf24; margin-top: 0.2rem; }
+    .tier { display: inline-block; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 99px; white-space: nowrap; }
+    .t-strong { background: #10b98122; color: #10b981; }
+    .t-middle { background: #fbbf2422; color: #fbbf24; }
+    .t-weak { background: #f8717122; color: #f87171; }
+    .callout { background: rgba(0, 212, 255, 0.06); border-left: 3px solid #00d4ff; padding: 0.6rem 0.8rem; margin: 0.6rem 0; border-radius: 0 8px 8px 0; }
+    .provisional { background: #fbbf2414; border: 1px dashed #fbbf2466; color: #fbbf24; border-radius: 8px; padding: 0.5rem 0.75rem; font-size: 0.85rem; margin-bottom: 0.6rem; }
+    .order { counter-reset: o; list-style: none; margin-left: 0; }
+    .order li { counter-increment: o; padding-left: 2rem; position: relative; }
+    .order li::before { content: counter(o); position: absolute; left: 0; top: 0.05rem; width: 1.4rem; height: 1.4rem; border-radius: 50%; background: #c084fc33; color: #c084fc; font-weight: 700; font-size: 0.8rem; display: flex; align-items: center; justify-content: center; }
+    /* Meta decision tree */
+    .tree { display: flex; flex-direction: column; align-items: center; gap: 0; margin-top: 0.5rem; }
+    .node { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); border-radius: 10px; padding: 0.7rem 0.9rem; width: 100%; max-width: 620px; text-align: center; font-size: 0.9rem; }
+    .node strong { color: #e8e8e8; }
+    .arrow { width: 2px; height: 26px; background: #8892b0; position: relative; margin: 0 auto; }
+    .arrow::after { content: ""; position: absolute; left: -5px; bottom: -2px; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 8px solid #8892b0; }
+    .branches { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; width: 100%; position: relative; }
+    .branch { display: flex; flex-direction: column; align-items: stretch; }
+    .branch .arrow { margin-bottom: 0; }
+    .bhead { border-radius: 10px 10px 0 0; padding: 0.5rem 0.7rem; font-weight: 700; text-align: center; }
+    .bbody { border: 1px solid rgba(255,255,255,0.15); border-top: none; border-radius: 0 0 10px 10px; padding: 0.6rem 0.75rem; font-size: 0.85rem; flex: 1; background: rgba(255,255,255,0.03); }
+    .bbody .lbl { display: block; color: #8892b0; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.03em; margin-top: 0.45rem; }
+    .bbody .lbl:first-child { margin-top: 0; }
+    .b-cut .bhead { background: #f8717133; color: #fca5a5; }
+    .b-raise .bhead { background: #10b98133; color: #6ee7b7; }
+    .b-inline .bhead { background: #8892b033; color: #cbd5e1; }
+    .odds { font-weight: 600; font-size: 0.8rem; opacity: 0.9; display: block; }
+    @media (max-width: 760px) {
+      h1 { font-size: 1.55rem; }
+      .branches { grid-template-columns: 1fr; }
+      .container { padding: 1rem 0.6rem; }
+      section { padding: 0.85rem 0.8rem; }
+    }
+    @media (max-width: 760px) {
+      table.cards thead { display: none; }
+      table.cards, table.cards tbody, table.cards tr, table.cards td { display: block; width: 100%; }
+      table.cards tr { border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 0.5rem 0.7rem; margin-bottom: 0.6rem; background: rgba(255,255,255,0.02); }
+      table.cards td { border: none; padding: 0.2rem 0; text-align: left; white-space: normal; display: flex; gap: 0.6rem; }
+      table.cards td::before { content: attr(data-label); flex: 0 0 7.5rem; color: #8892b0; font-size: 0.75rem; text-transform: uppercase; padding-top: 0.1rem; }
+      table.cards td > .v { flex: 1; min-width: 0; }
+      table.cards td[data-label="Company"], table.cards td[data-label="Buyer"] { font-weight: 700; color: #e8e8e8; font-size: 0.95rem; }
+      table.cards td[data-label="Company"]::before, table.cards td[data-label="Buyer"]::before { display: none; }
+    }
+    .disclaimer p { margin: 0; }
+    footer { text-align: center; padding: 1rem; color: #8892b0; }
+    footer .credit { font-weight: 600; color: #e8e8e8; }
+    footer .subtext { font-size: 0.8rem; margin-top: 0.25rem; }
+    footer a { color: #00d4ff; text-decoration: none; }
+    .summary-box { background: rgba(0, 212, 255, 0.07); border: 1px solid rgba(0, 212, 255, 0.35); border-radius: 12px; padding: 1rem 1.1rem; margin: 1rem 0 1.25rem; }
+    .summary-box h2 { margin-top: 0; }
+    .summary-box p { margin: 0.45rem 0; }
+    .key { font-size: 0.85rem; color: #c8d0e0; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 0.6rem 0.8rem; margin: 0.6rem 0; }
+    .key dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.15rem 0.6rem; margin: 0.4rem 0 0; }
+    .key dt { font-weight: 600; color: #e6edf7; }
+    .key dd { margin: 0; }
+    @media (max-width: 600px) { .key dl { grid-template-columns: 1fr; } .key dd { margin-bottom: 0.3rem; } }
+    details.math { margin: 0.75rem 0; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 0.4rem 0.8rem; background: rgba(0,0,0,0.15); }
+    details.math > summary { cursor: pointer; color: #00d4ff; font-weight: 600; padding: 0.2rem 0; }
+    details.math[open] > summary { margin-bottom: 0.4rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="site-nav" aria-label="Site sections">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="debait.html">Long &amp; Short</a>
+      <a href="trap-map.html">Trap Map</a>
+      <a href="pipeline-health.html">Data Status</a>
+      <a href="leaderboard.html">Bot Game</a>
+      <a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a>
+    </nav>
+    <header>
+      <h1>The AI Data Center Buildout After the October Selloff</h1>
+      <p class="subtitle">Who gets paid when the industry spends hundreds of billions on AI data centers, and who carries the risk if it overbuilds.</p>
+      <p class="paper">Paper only: no real trades or orders</p>
+      <p class="muted" style="margin-top:0.5rem;">Research desk, Oct 18, 2026. Prices are Friday Oct 16 closing prices unless a date is given. Times are Central (CT).</p>
+    </header>
+
+    <section id="summary" class="summary-box" aria-label="Plain-English summary">
+      <h2>In plain English</h2>
+      <p><strong>Will the demand be there?</strong> Yes. The demand is real, and everyday use of AI is the strongest argument against a glut (more data center capacity than paying customers). This selloff is about who pays for the buildout: a glut is more a financing question than a physics question.</p>
+      <p><strong>The ranking:</strong> Strong: CIFR, APLD, WULF. Middle: CORZ, NBIS, IREN, GLXY, ORCL. Weak: CRWV. Five are borderline (CIFR, APLD, CORZ, WULF, NBIS), and WULF's tier is provisional. Details in section 5.</p>
+      <p><strong>The Meta trigger:</strong> When Meta reports on Wed Oct 21, we check first for a spending cut, then for a big 2027 raise. A cut means a half-size paper trade that profits if CoreWeave falls, a raise means one that profits if Nebius rises, and anything else (the most likely case) means no trade.</p>
+    </section>
+    <p>What we're doing now: no new position before the big cloud companies (Microsoft, Alphabet/Google, Amazon, Meta) report on Oct 28–29 and CoreWeave files its next quarterly report (due by Nov 9). Everything on this page is a paper exercise.</p>
+    <p class="muted">Companies (ticker): CoreWeave (CRWV), Core Scientific (CORZ), TeraWulf (WULF), Applied Digital (APLD), Galaxy Digital (GLXY), Cipher Digital, formerly Cipher Mining (CIFR), IREN (IREN), Nebius Group (NBIS), Oracle (ORCL). Units: GW / MW = gigawatt / megawatt of electric power (1 GW = 1,000 MW). <strong>Capex</strong> = capital spending on buildings, chips and equipment. A company's quarterly report filed with the SEC is a <strong>10-Q</strong> (a <strong>6-K</strong> for foreign companies); its annual report is a <strong>10-K</strong>; an <strong>8-K</strong> is a report of a single event. Q2 and Q3 are a company's second and third quarters. <strong>NOT FOUND</strong> means we searched and couldn't find it in a primary source; <strong>reported</strong> means it comes from the press or analysts, not a company filing.</p>
+
+    <section id="demand">
+      <h2>1. Demand: what the buyers say they'll spend</h2>
+      <div class="table-wrap"><table id="demand-table" class="cards">
+        <thead><tr><th>Buyer</th><th>2026 capital spending</th><th>2027 signal</th><th>Source</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Buyer"><span class="v">Meta</span></td><td data-label="2026 capital spending"><span class="v">$130–145B, including principal payments on finance leases (long-term leases accounted for like loans)</span></td><td data-label="2027 signal"><span class="v">No 2027 number yet; plans are "geared towards maximizing 2026 and 2027 capacity"</span></td><td data-label="Source"><span class="v"><a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm">Q2 release</a>, <a href="https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf">Q2 call</a></span></td></tr>
+          <tr><td data-label="Buyer"><span class="v">Microsoft</span></td><td data-label="2026 capital spending"><span class="v">Over $50B in Jul–Sep 2026 alone, "including the impact of the useful life update" (Microsoft's accounting change, quoted in section 7)</span></td><td data-label="2027 signal"><span class="v">"we expect FY27 capital expenditures will grow year-over-year" (CFO Amy Hood; Microsoft's fiscal 2027 runs Jul 2026–Jun 2027)</span></td><td data-label="Source"><span class="v"><a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965dex991.htm">Earnings release</a>; <a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4">Microsoft call, Jul 29, 2026</a></span></td></tr>
+          <tr><td data-label="Buyer"><span class="v">Alphabet</span></td><td data-label="2026 capital spending"><span class="v">$195–205B (reported)</span></td><td data-label="2027 signal"><span class="v">To "increase significantly in 2027" (CFO, Jul 22, reported)</span></td><td data-label="Source"><span class="v"><a href="https://www.yieldtheory.app/research/hyperscaler-capex-2027-forecast">Yield Theory</a></span></td></tr>
+          <tr><td data-label="Buyer"><span class="v">Amazon</span></td><td data-label="2026 capital spending"><span class="v">About $220B (reported)</span></td><td data-label="2027 signal"><span class="v">"we will still not have enough capacity… also true in 2027"</span></td><td data-label="Source"><span class="v"><a href="https://www.reuters.com/business/retail-consumer/amazon-beats-estimates-quarterly-cloud-revenue-growth-2026-07-30/">Reuters, Jul 30</a></span></td></tr>
+          <tr><td data-label="Buyer"><span class="v">Oracle</span></td><td data-label="2026 capital spending"><span class="v">$28.5B in one quarter (Jun–Aug), paid for with $11.4B of customer prepayments and $19.9B of new shares sold into the market</span></td><td data-label="2027 signal"><span class="v">$90–95B for the fiscal year (company call, reported)</span></td><td data-label="Source"><span class="v"><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm">Oracle quarterly report</a></span></td></tr>
+          <tr><td data-label="Buyer"><span class="v">Big four total</span></td><td data-label="2026 capital spending"><span class="v">About $735–750B, up from the about $640B the companies forecast in January</span></td><td data-label="2027 signal"><span class="v">Analysts' average forecast about $934.5B for 2027 (+28%), a forecast rather than company guidance</span></td><td data-label="Source"><span class="v"><a href="https://platformonomics.com/2026/07/follow-the-capex-q2-2026-scoreboard/">Platformonomics</a></span></td></tr>
+        </tbody>
+      </table></div>
+      <h3>Is the usage real?</h3>
+      <ul>
+        <li>Google processes "over 3.2 quadrillion" tokens a month (tokens are the chunks of text an AI model reads and writes), seven times a year earlier. <span class="src">Source: <a href="https://blog.google/innovation-and-ai/sundar-pichai-io-2026/">Google I/O, May 2026</a></span></li>
+        <li>ChatGPT has 1.2 billion weekly users, per OpenAI. <span class="src">Source: <a href="https://www.theverge.com/ai-artificial-intelligence/1002265/chatgpt-now-has-1-2-billion-weekly-users-openai-says">The Verge, Sep 29</a></span></li>
+        <li>NVIDIA's sales to AI start-ups, businesses and governments grew 138% from a year earlier, against 102% for the big cloud companies. <span class="src">Source: <a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm">NVIDIA CFO commentary</a></span></li>
+        <li>Anthropic has reportedly committed at least $518B to computing over about 10 years, about 80% of it non-cancelable (section 11). <span class="src">Source: <a href="https://www.reuters.com/business/anthropics-518-billion-ai-buildout-hinges-largely-deals-that-cannot-be-canceled-2026-09-29/">Reuters, Sep 29</a>, citing Anthropic's confidential filing to list its shares (IPO)</span></li>
+      </ul>
+      <p>Our view: the weak spot is demand that depends on suppliers lending to their own customers, and on AI labs signing commitments far larger than their revenue.</p>
+    </section>
+
+    <section id="supply">
+      <h2>2. Supply, and the odds of a glut</h2>
+      <ul>
+        <li>NVIDIA's data center revenue was $89.0B in its May–Jul quarter, up 117% from a year earlier. It forecast $108.0B of total revenue next quarter. <span class="src">Source: <a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx">NVIDIA release</a></span></li>
+        <li>TSMC, which makes the chips, called AI chip demand "extremely robust" on Oct 15. <span class="src">Source: <a href="https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf">TSMC 3Q26 call</a></span></li>
+        <li>Two chip parts are still short: advanced packaging (the step that joins AI chips to their memory) and high-bandwidth memory (fast memory stacked next to the chip). An analyst estimate has packaging still 15–20% short at the end of 2027, and Micron says about 75% of its 2027 high-bandwidth memory output is committed. <span class="src">Sources: <a href="https://www.kgi.com.hk/en/-/media/files/kgishk/research-reports/tw-reports/semiconductor-sector-_20260915_en.pdf">KGI, Sep 15</a>; <a href="https://thenextweb.com/news/micron-record-quarter-memory-shortage-2028">TNW</a></span></li>
+      </ul>
+      <p><strong>What a gigawatt costs.</strong> NVIDIA's CEO Jensen Huang put the all-in cost of a gigawatt of AI data center at $50–60B, of which NVIDIA's share is about $35B: "Out of a gigawatt AI factory, which can go anywhere from $50 billion to, plus or minus 10%, let's say, $50 billion to $60 billion, we represent about $35 billion, plus or minus, of that." That's a vendor's own estimate (reported). <span class="src">Source: <a href="https://s201.q4cdn.com/141608511/files/doc_financials/2026/q2/NVDA-Q2-2026-Earnings-Call-27-August-2025-5_00-PM-ET.pdf">NVIDIA earnings call transcript, Aug 27, 2025</a></span></p>
+      <p>Our research lead's estimate: dividing AI spending by that cost, the spending already paid for buys about 8.3–10.0 GW in 2026 and 10.3–12.4 GW in 2027. Chip supply is about 10–15 GW a year now, and 17–25 GW a year in 2027–28 if chip output and its parts allow. So 2026 roughly matches. In 2027–28, chip supply could grow faster than paying demand unless spending beats the +28% forecast, or AI labs fill the gap with money from stock-market listings (IPOs) and loans from their suppliers. A lower cost per gigawatt would raise paying demand and narrow the 2027 gap.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>State of the market, 2026–2028</th><th class="num">Our odds</th><th>What it looks like</th></tr></thead>
+        <tbody>
+          <tr><td>Undersupply</td><td class="num">40%</td><td>Renting an NVIDIA H100 chip costs $3 an hour or more; 2027 spending forecasts at or above analysts'; memory and packaging stay sold out</td></tr>
+          <tr><td>Balance</td><td class="num">35%</td><td>H100 at $2.25–3.00 an hour; older chips get cheaper; landlords are fine, chip owners squeezed</td></tr>
+          <tr><td>Glut</td><td class="num">25%</td><td>H100 under $2.00 an hour; spending cut; AI lab financing stalls; stress in loans backed by chips</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">By year, the odds shift toward a glut: about 5% in 2026, 20% in 2027 and 40% in 2028. The table blends the three years. A dissenting reviewer (pen name John Galt) puts the glut odds nearer 35%.</p>
+    </section>
+
+    <section id="power">
+      <h2>3. Power is the bottleneck, and it's local</h2>
+      <p>The limit is substations, grid connections and utility approvals, not total US power capacity. A typical project built in 2024 took 55 months from its request to connect to the grid until it started running, up from 36 months in 2015. <span class="src">Source: <a href="https://eta-publications.lbl.gov/sites/default/files/2025-12/queued_up_2025_edition_12.15.2025.pdf">Lawrence Berkeley National Laboratory, Queued Up 2025</a></span></p>
+      <ul>
+        <li>PJM, the grid operator for much of the eastern US, held its 2028/29 capacity auction (where power plants are paid to be available). The price cleared at the maximum allowed, $325 per MW per day, and the auction still came up 6,831 MW short of its reliability target. The next auction opens Dec 9, 2026. <span class="src">Source: <a href="https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2026-releases/20260714-pjm-capacity-auction-procures-138318-mw-of-generation-resources.pdf">PJM</a></span></li>
+        <li>PJM plans an emergency power-buying filing with federal regulators on Thu Oct 29, with a members' meeting on Oct 22. The cost would go to the areas adding big new loads like data centers. <span class="src">Source: <a href="https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20261022-special/item-01---1-tariff-section-92b-stakeholder-consultation-of-upcoming-205-filing-on-reliability-backstop-procurement---presentation.pdf">PJM presentation</a></span></li>
+        <li>Virginia's utility regulator, the State Corporation Commission (SCC), ordered Dominion Energy Virginia on Jul 31, 2026 to file, "within 90 days," a revised policy that makes large users such as data centers pay up front for "direct connect" transmission lines (a "contribution in aid of construction"). 90 days from Jul 31 is Thu Oct 29, 2026 (our date arithmetic). <span class="src">Source: <a href="https://www.scc.virginia.gov/docketsearch/DOCS/8dt001!.PDF">SCC Final Order, Case No. PUR-2026-00056</a></span></li>
+        <li>The federal power regulator (FERC) ordered all six grid operators on Jun 18, 2026 to show how they will connect large loads such as data centers (section 206 show-cause orders). For PJM, an Aug 14, 2026 order (Docket No. EL26-67-000) paused the case and set responses due Mon Nov 16, 2026, with PJM's own filing due by then. <span class="src">Sources: <a href="https://ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration">FERC news release, Jun 18, 2026</a>; <a href="https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260814-el26-67-000.pdf">FERC order, Aug 14, 2026, as posted by PJM</a></span></li>
+        <li>Cipher Digital's Black Pearl site in Texas delivered its first data center capacity, with rent started, in August 2026: "First data center capacity at Black Pearl delivered in August, with rent commenced." That was two months ahead of the original October 2026 schedule, under a lease change the tenant asked for. The remaining halls were still under construction, and how many MW were delivered is NOT FOUND. <span class="src">Sources: <a href="https://www.sec.gov/Archives/edgar/data/1819989/000181998926000038/q226_earningsxprxdraftxvf.htm">Cipher Digital Q2 release, Aug 4, 2026</a>; <a href="https://www.sec.gov/Archives/edgar/data/1819989/000181998926000007/cipherdigital_businessup.htm">Cipher Digital presentation, Feb 24, 2026</a> (slide 12, original schedule)</span></li>
+        <li>Local fights matter. TeraWulf's Kentucky expansion needs state utility commission approval for its second phase and drew about 400 objecting residents to a town hall. Applied Digital's Harwood, North Dakota campus faced local opposition. <span class="src">Sources: <a href="https://www.sec.gov/Archives/edgar/data/1083301/000162828026064757/muskieexpansionpr.htm">TeraWulf release</a>; <a href="https://www.kentucky.com/news/politics-government/article315976498.html">Lexington Herald-Leader</a>; <a href="https://northdakotamonitor.com/2025/09/10/harwood-signs-off-on-data-center-but-fargo-still-eyes-the-property/">North Dakota Monitor</a></span></li>
+      </ul>
+      <p>Our view: Oct 28–29 is when everything lands at once. The big cloud companies report, PJM files its power plan, and Dominion's Virginia policy is due.</p>
+    </section>
+
+    <section id="paid-first">
+      <h2>4. Who gets paid first</h2>
+      <p>Our ranking of who collects first when money flows through the buildout:</p>
+      <ol class="order">
+        <li>Owners of firm grid power and grid connections</li>
+        <li>NVIDIA, and lenders whose loans have GPUs (the AI chips) as collateral</li>
+        <li>Landlords whose rent is backed by a strong tenant or a guarantee</li>
+        <li>Bondholders with no collateral, including holders of convertible bonds (bonds that can turn into shares)</li>
+        <li>Shareholders of companies that own GPUs</li>
+      </ol>
+      <p>The market already ranks names this way. From Oct 9 to Oct 16, Core Scientific (a landlord) fell 12.5% and CoreWeave (a GPU owner) fell 25.2%. So the ranking by itself isn't a trade. It tells you where to stand when results come out. <span class="src">Source: Yahoo Finance daily closes</span></p>
+    </section>
+
+    <section id="rankings">
+      <h2>5. Rankings: nine companies, one cash test</h2>
+      <p>Every company gets the same test: how many quarters its spendable cash lasts at its recent rate of spending. That's its <strong>runway</strong>, and the spending rate is its <strong>burn</strong> (cash going out each quarter, after the business's own cash coming in). 6 quarters or more, or no burn, is good; under 4 is a warning. A company is <strong>borderline</strong> if one judgment call, one missing number or one reserve would flip its tier, if the two views disagree, or if runway sits within about 10% of a cut-off. It's <strong>provisional</strong> if the tier rests on an estimate that can't be computed from what's filed. The full rule is under "Show the math" below the table.</p>
+      <div class="key" id="rank-key">
+        <strong>How to read the table.</strong> Tiers as of Oct 18, 2026 (about 7:53 AM CT). The 1–5 scores (5 = best) are our judgment of the business; they don't set the tier. The notes in the Borderline? column are quoted word for word from our research notes, so they keep its shorthand:
+        <dl>
+          <dt>A</dt><dd>the Runway column: spendable cash only</dd>
+          <dt>B</dt><dd>the All-in check column: counts everything, including locked-up cash and loans that can only pay for one project</dd>
+          <dt>OCF</dt><dd>operating cash flow: cash the business itself brings in or uses, before building costs</dd>
+          <dt>capex, H1</dt><dd>capital spending; the first half of the year</dd>
+          <dt>Q2 run rate</dt><dd>the April–June quarter's pace on its own</dd>
+          <dt>revolver</dt><dd>a standing credit line a company can draw on and repay</dd>
+          <dt>converts</dt><dd>convertible bonds, which can turn into shares</dd>
+          <dt>term loan</dt><dd>a loan paid out as one amount for a fixed term</dd>
+          <dt>project notes, build money</dt><dd>bonds or loans that can only pay for a named build, repaid from that site's rent</dd>
+          <dt>escrow</dt><dd>money held by a third party until conditions are met</dd>
+          <dt>restricted cash, debt-service reserve</dt><dd>cash set aside for lenders that the company can't spend freely</dd>
+          <dt>liquidity</dt><dd>cash plus unused credit</dd>
+          <dt>PF1, Helios, Lake Mariner</dt><dd>data center campuses of Applied Digital, Galaxy Digital and TeraWulf</dd>
+          <dt>INFERENCE</dt><dd>our own estimate from stated inputs</dd>
+          <dt>10-Q, 6-K</dt><dd>the next quarterly report</dd>
+          <dt>→, ≥, ≈, ~</dt><dd>"moves the tier to", "at least", "about", "about"</dd>
+        </dl>
+      </div>
+      <div class="table-wrap"><table id="rank-table" class="cards">
+        <thead><tr><th>Company</th><th class="num">Power</th><th class="num">Chips</th><th class="num">Funding</th><th class="num">Obstacles</th><th class="num">Path to profit</th><th>Runway (spendable cash, "A")</th><th>All-in check ("B")</th><th>Tier</th><th>Borderline?</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Company"><span class="v">Cipher Digital (CIFR)</span></td><td data-label="Power" class="num"><span class="v">3</span></td><td data-label="Chips" class="num"><span class="v">n/a</span></td><td data-label="Funding" class="num"><span class="v">3</span></td><td data-label="Obstacles" class="num"><span class="v">3</span></td><td data-label="Path to profit" class="num"><span class="v">2</span></td><td data-label="Runway"><span class="v">12.1 quarters (Q2 run rate: 3.8)</span></td><td data-label="All-in check"><span class="v">8.5 quarters</span></td><td data-label="Tier"><span class="v"><span class="tier t-strong">STRONG</span></span></td><td data-label="Borderline?"><span class="v"><strong>Yes, burn trend:</strong> ≥ 6 under A and B (9.5 without the revolver), but on the Q2 run rate (OCF −$243.5M vs +$91.5M in Q1, cause not stated) runway is 3.8 → WEAK. Re-check at the Q3 10-Q. Oct converts ($835.1M net) not counted</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Applied Digital (APLD)</span></td><td data-label="Power" class="num"><span class="v">4</span></td><td data-label="Chips" class="num"><span class="v">n/a</span></td><td data-label="Funding" class="num"><span class="v">1</span></td><td data-label="Obstacles" class="num"><span class="v">3</span></td><td data-label="Path to profit" class="num"><span class="v">3</span></td><td data-label="Runway"><span class="v">No corporate burn (operating cash flow +$63.9M)</span></td><td data-label="All-in check"><span class="v">1.9 quarters</span></td><td data-label="Tier"><span class="v"><span class="tier t-strong">STRONG</span> <span class="tierx">with CoreWeave-tenant risk</span></span></td><td data-label="Borderline?"><span class="v"><strong>Yes, A and B disagree:</strong> STRONG because its builds are paid for by project notes, so corporate burn is zero (still 7.3 if the escrow release isn't credited). <strong>Tenant flag:</strong> PF1 is leased to CoreWeave (WEAK here), and the project notes are serviced from those rents; the runway doesn't measure that</span></td></tr>
+          <tr><td data-label="Company"><span class="v">TeraWulf (WULF)</span></td><td data-label="Power" class="num"><span class="v">4</span></td><td data-label="Chips" class="num"><span class="v">n/a</span></td><td data-label="Funding" class="num"><span class="v">2</span></td><td data-label="Obstacles" class="num"><span class="v">3</span></td><td data-label="Path to profit" class="num"><span class="v">3</span></td><td data-label="Runway"><span class="v">19.5 quarters (3.5 with no credit for its note money)</span></td><td data-label="All-in check"><span class="v">4.05 quarters</span></td><td data-label="Tier"><span class="v"><span class="tier t-strong">STRONG</span> <span class="tierx">PROVISIONAL</span></span></td><td data-label="Borderline?"><span class="v"><strong>Yes, provisional and A/B disagree:</strong> the credit assumes H1 capex was paid from the Lake Mariner note money. The share of H1 capex at Lake Mariner is NOT FOUND. STRONG holds if ≥ 81% of it was note-funded; below ~71%, runway falls under 4 → MIDDLE (the cap applies even though both views are STRONG). With no credit at all: 3.5 → MIDDLE</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Core Scientific (CORZ)</span></td><td data-label="Power" class="num"><span class="v">4</span></td><td data-label="Chips" class="num"><span class="v">n/a</span></td><td data-label="Funding" class="num"><span class="v">3</span></td><td data-label="Obstacles" class="num"><span class="v">3</span></td><td data-label="Path to profit" class="num"><span class="v">3</span></td><td data-label="Runway"><span class="v">4.9 quarters</span></td><td data-label="All-in check"><span class="v">7.1 quarters</span></td><td data-label="Tier"><span class="v"><span class="tier t-middle">MIDDLE</span></span></td><td data-label="Borderline?"><span class="v"><strong>Yes, a reserve:</strong> counting the $781.7M of restricted cash (mostly the debt-service reserve) makes it STRONG</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Nebius (NBIS)</span></td><td data-label="Power" class="num"><span class="v">NOT FOUND</span></td><td data-label="Chips" class="num"><span class="v">3</span></td><td data-label="Funding" class="num"><span class="v">4</span></td><td data-label="Obstacles" class="num"><span class="v">3</span></td><td data-label="Path to profit" class="num"><span class="v">4</span></td><td data-label="Runway"><span class="v">4.4 quarters</span></td><td data-label="All-in check"><span class="v">5.0 quarters</span></td><td data-label="Tier"><span class="v"><span class="tier t-middle">MIDDLE</span></span></td><td data-label="Borderline?"><span class="v"><strong>Yes, near a cut-off:</strong> 11% above 4.0; reaching 6 needs ~$2.8B more liquidity. No revolver exists; the Jul 10 ~$775M term loan is build money (≈ 4.9 even if counted in full). The <strong>Aug 24 $5.75B converts</strong> (post-quarter, not counted) give ~7.6 under A and 8.2 under B, so the Q3 6-K will probably put it back at STRONG</span></td></tr>
+          <tr><td data-label="Company"><span class="v">IREN (IREN)</span></td><td data-label="Power" class="num"><span class="v">3</span></td><td data-label="Chips" class="num"><span class="v">3</span></td><td data-label="Funding" class="num"><span class="v">3</span></td><td data-label="Obstacles" class="num"><span class="v">3</span></td><td data-label="Path to profit" class="num"><span class="v">2</span></td><td data-label="Runway"><span class="v">At least 10.6 quarters</span></td><td data-label="All-in check"><span class="v">18.5 quarters</span></td><td data-label="Tier"><span class="v"><span class="tier t-middle">MIDDLE</span></span></td><td data-label="Borderline?"><span class="v">No</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Galaxy Digital (GLXY)</span></td><td data-label="Power" class="num"><span class="v">4</span></td><td data-label="Chips" class="num"><span class="v">n/a</span></td><td data-label="Funding" class="num"><span class="v">3</span></td><td data-label="Obstacles" class="num"><span class="v">3</span></td><td data-label="Path to profit" class="num"><span class="v">2</span></td><td data-label="Runway"><span class="v">16.4 quarters (4.0 if the $339.2M isn't build money)</span></td><td data-label="All-in check"><span class="v">4.4 quarters</span></td><td data-label="Tier"><span class="v"><span class="tier t-middle">MIDDLE</span></span></td><td data-label="Borderline?"><span class="v">Input borderline, tier not: 4.0 if the $339.2M isn't Helios build money (INFERENCE), but both views are MIDDLE, so the tier can't move</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Oracle (ORCL)</span></td><td data-label="Power" class="num"><span class="v">NOT FOUND</span></td><td data-label="Chips" class="num"><span class="v">4</span></td><td data-label="Funding" class="num"><span class="v">3</span></td><td data-label="Obstacles" class="num"><span class="v">3</span></td><td data-label="Path to profit" class="num"><span class="v">4</span></td><td data-label="Runway"><span class="v">8.6 quarters (6.7 without the revolver)</span></td><td data-label="All-in check"><span class="v">9.1 quarters</span></td><td data-label="Tier"><span class="v"><span class="tier t-middle">MIDDLE</span></span></td><td data-label="Borderline?"><span class="v">No: MIDDLE in both views. Runway can only pick between the two views or cap them; it can't lift a name above both</span></td></tr>
+          <tr><td data-label="Company"><span class="v">CoreWeave (CRWV)</span></td><td data-label="Power" class="num"><span class="v">3</span></td><td data-label="Chips" class="num"><span class="v">4</span></td><td data-label="Funding" class="num"><span class="v">1</span></td><td data-label="Obstacles" class="num"><span class="v">2</span></td><td data-label="Path to profit" class="num"><span class="v">2</span></td><td data-label="Runway"><span class="v">At least 1.4 quarters</span></td><td data-label="All-in check"><span class="v">3.2 quarters</span></td><td data-label="Tier"><span class="v"><span class="tier t-weak">WEAK</span></span></td><td data-label="Borderline?"><span class="v">No: WEAK in every band</span></td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">"n/a" under Chips means the company is a landlord and doesn't own the GPUs. "NOT FOUND" under Power means no switched-on megawatt figure we could check.</p>
+      <details class="math" id="runway-math">
+        <summary>Show the math</summary>
+        <h3>The runway rule</h3>
+        <ul>
+          <li><strong>What counts as cash:</strong> only money the company can spend on anything. That's unrestricted cash plus unused general-purpose credit lines at the latest quarter end. Cash locked up for a project, held in escrow or set aside to pay lenders doesn't count, and neither do loans that can only pay for one named build.</li>
+          <li><strong>What counts as spending:</strong> operating cash flow minus capital spending. Builds paid for by their own project loans are taken out, because the loans and the builds cancel out. That holds whether the loan money sits in a locked account or in ordinary cash. If nothing is left burning, the company has <em>no corporate burn</em>. Spending is cash actually paid, not spending committed for later. That favors companies with big unfunded commitments (Oracle's leases, Cipher Digital's Barber Lake, TeraWulf's new halls). We note it but don't adjust for it.</li>
+          <li><strong>Money raised after the quarter ended isn't counted for anyone.</strong> All nine companies were searched the same way through Oct 18, and those raises are listed below.</li>
+          <li><strong>The cut-offs:</strong> 6 quarters or more, or no corporate burn, gets the higher of two separate tier calls by our analysts. 4 to under 6 quarters gets MIDDLE. Under 4 gets the lower tier, capped at MIDDLE: if both calls say STRONG but runway is under 4, the tier is MIDDLE.</li>
+          <li>The <strong>all-in check</strong> counts everything instead, including locked-up cash and project-only loans.</li>
+        </ul>
+        <p class="muted">Balance sheets are at the latest quarter end each company has filed (Jun 30, 2026 for most; Aug 31 for Applied Digital and Oracle). Oracle's runway counts its $10.0B revolver. Whether any of it was drawn at Aug 31 is NOT FOUND; it's taken as undrawn, which can't change the tier. Nebius has no revolver. CoreWeave's and IREN's filings don't split loan draws by facility, so their figures are bounds ("at least"), but the tier holds either way.</p>
+        <h3>Why some tiers look surprising</h3>
+        <ul>
+          <li><strong>Cipher Digital, WEAK to STRONG (borderline):</strong> its builds are paid for by their own project notes. With those taken out on both sides, it burns only about $76M a quarter. But second-quarter operating cash flow swung to −$243.5M from +$91.5M in the first quarter, cause not stated, and at that rate runway is 3.8 quarters. Re-check at the Q3 report. Amazon.com, Inc. (Amazon's parent company) guarantees all of Black Pearl's base rent and operating expenses (<a href="https://www.sec.gov/Archives/edgar/data/1819989/000181998926000007/cipherdigital_businessup.htm">Cipher Digital 8-K, Feb 24, 2026, Exhibit 99.2, slide 12</a>), and Google backs certain obligations at Barber Lake, but both apply only once rent starts. Rent has started on Black Pearl's first capacity (<a href="https://www.sec.gov/Archives/edgar/data/1819989/000181998926000038/q226_earningsxprxdraftxvf.htm">Aug 4 8-K</a>), so the Amazon guarantee is presumably live for that capacity (INFERENCE); Barber Lake's hasn't.</li>
+          <li><strong>Applied Digital, MIDDLE to STRONG, with CoreWeave-tenant risk (borderline):</strong> it works the same way, and its corporate operating cash flow was positive. The runway rule doesn't measure that its first North Dakota campus is leased to CoreWeave and that its project notes are paid from those rents.</li>
+          <li><strong>TeraWulf stays STRONG, provisional:</strong> it's credited with money from its 2030 secured notes (bonds with collateral), which fund part of the Lake Mariner buildout. How much of its first-half spending was at Lake Mariner is NOT FOUND.</li>
+          <li><strong>Nebius, STRONG to MIDDLE (borderline):</strong> 4.4 quarters with no revolver. Its August convertible bonds should lift it back at the Q3 report.</li>
+          <li><strong>Oracle stays MIDDLE:</strong> counting its revolver lifts runway to 8.6 quarters. But 6+ quarters gives the higher of the two tier calls, and both say MIDDLE.</li>
+          <li><strong>Core Scientific stays MIDDLE (borderline).</strong></li>
+        </ul>
+        <h3>Raised after the quarter (listed, not counted)</h3>
+        <p class="muted">CoreWeave: $4.2B of 2033 convertible bonds (Sep 22); a $2.6B secured loan at a subsidiary with $1.2B drawn (Aug 7), and whether lenders can claim against the parent is NOT FOUND; a $1.2B draw on its credit line in August; and a share-sale program of up to 35.0M shares from Sep 17, shares sold NOT FOUND. Cipher Digital: $850.0M of convertible bonds (Oct 16, $835.1M net; whether the $150M option was exercised is NOT FOUND), plus an exchange of about $165.9M of older notes for about 40.7M shares. Core Scientific: a $100M credit line plus a $500M letter-of-credit facility (a bank promise to pay on the company's behalf) (Aug 25), and a warrant (a right to buy new shares at a set price) giving AMD up to 30M shares at $23.47 (Jul 27, not cash). Galaxy Digital: $3.507B of Helios II project notes (Jul 28). Nebius: a ~$775M secured term loan for its buildout (Jul 10, amount drawn NOT FOUND) and $5.75B of convertible bonds (Aug 24). IREN, Applied Digital, Oracle and TeraWulf: none found. Share sales after the quarter at CoreWeave, IREN, Cipher Digital and TeraWulf are NOT FOUND until their November reports.</p>
+        <p class="muted">Sources: <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm">CoreWeave</a>, <a href="https://www.sec.gov/Archives/edgar/data/1819989/000181998926000041/cifr-20260630.htm">Cipher Digital</a>, <a href="https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm">IREN</a>, <a href="https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm">Core Scientific</a>, <a href="https://www.sec.gov/Archives/edgar/data/1144879/000114487926000059/apld-20260831.htm">Applied Digital</a>, <a href="https://www.sec.gov/Archives/edgar/data/1859392/000185939226000091/glxy-20260630.htm">Galaxy Digital</a>, <a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm">Oracle</a> (revolver: <a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm">FY26 10-K</a>), <a href="https://www.sec.gov/Archives/edgar/data/1083301/000108330126000166/wulf-20260630.htm">TeraWulf</a> and <a href="https://www.sec.gov/Archives/edgar/data/1513845/000110465926094844/nbis-20260812xex99d2.htm">Nebius</a> filings. Post-quarter items: <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm">CoreWeave converts</a>, <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm">CoreWeave loan</a>, <a href="https://www.sec.gov/Archives/edgar/data/1769628/000162828026062362/coreweave-424b5.htm">CoreWeave share program</a>, <a href="https://www.sec.gov/Archives/edgar/data/1819989/000119312526424297/d313847d8k.htm">Cipher Digital converts</a>, <a href="https://www.sec.gov/Archives/edgar/data/1839341/000183934126000021/core-20260825.htm">Core Scientific credit line</a>, <a href="https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/core-20260727.htm">AMD warrant</a>, <a href="https://www.sec.gov/Archives/edgar/data/1859392/000185939226000079/glxy-20260728.htm">Galaxy Helios II</a>, <a href="https://www.sec.gov/Archives/edgar/data/1513845/000110465926084452/tm2620683d1_6k.htm">Nebius loan</a>, <a href="https://www.sec.gov/Archives/edgar/data/1513845/000110465926100347/tm2623863d1_ex99-1.htm">Nebius converts</a>.</p>
+      <h3>Runway table (our arithmetic; inputs from the filings linked above)</h3>
+        <div class="table-wrap"><table id="runway-table" class="cards">
+          <thead><tr><th>Company</th><th>Balance sheet</th><th>Unrestricted cash</th><th>Unused general-purpose credit</th><th>Build money spent (A)</th><th>Parked build money removed</th><th>Liquidity (A)</th><th>Burn per quarter (A)</th><th>Runway (A)</th><th>Runway (B) check</th></tr></thead>
+          <tbody>
+          <tr><td data-label="Company"><span class="v">CoreWeave (CRWV)</span></td><td data-label="Balance sheet"><span class="v">Jun 30, 2026</span></td><td data-label="Unrestricted cash"><span class="v">$5,524M</span></td><td data-label="Unused general-purpose credit"><span class="v">$2.0B revolver availability</span></td><td data-label="Build money spent (A)"><span class="v">not split: H1 draws by facility aren't broken out in our copy of the filing</span></td><td data-label="Parked build money removed"><span class="v">—</span></td><td data-label="Liquidity (A)"><span class="v">$7,524M</span></td><td data-label="Burn per quarter (A)"><span class="v">≤ $5,227M</span></td><td data-label="Runway (A)"><span class="v"><strong>≥ 1.4</strong></span></td><td data-label="Runway (B) check"><span class="v">3.2</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Cipher Digital (CIFR)</span></td><td data-label="Balance sheet"><span class="v">Jun 30, 2026</span></td><td data-label="Unrestricted cash"><span class="v">$831.8M</span></td><td data-label="Unused general-purpose credit"><span class="v">$200.0M revolver (nothing drawn, <a href="https://www.sec.gov/Archives/edgar/data/1819989/000181998926000038/cipherdigital_businessup.htm">Q2 deck</a>; needs a minimum market cap)</span></td><td data-label="Build money spent (A)"><span class="v">$964.3M (all H1 capex: $2,766.4M of project notes, Black Pearl and Stingray, less a $1,691.6M rise in restricted cash = $1,074.8M)</span></td><td data-label="Parked build money removed"><span class="v">$110.5M</span></td><td data-label="Liquidity (A)"><span class="v">$921.3M</span></td><td data-label="Burn per quarter (A)"><span class="v">$76.0M (H1 operating cash flow −$152.0M)</span></td><td data-label="Runway (A)"><span class="v"><strong>12.1</strong> (Q2 run rate: 3.8)</span></td><td data-label="Runway (B) check"><span class="v">8.5</span></td></tr>
+          <tr><td data-label="Company"><span class="v">IREN (IREN)</span></td><td data-label="Balance sheet"><span class="v">Jun 30, 2026 (fiscal year end)</span></td><td data-label="Unrestricted cash"><span class="v">$5,895.6M</span></td><td data-label="Unused general-purpose credit"><span class="v">$0 (the $1,132M delayed-draw loan, a loan drawn in pieces as money is needed, and the $1,575M US private-placement notes, bonds sold directly to a few large investors instead of on the public market, are build/GPU financing)</span></td><td data-label="Build money spent (A)"><span class="v">not split in our copy of the filing</span></td><td data-label="Parked build money removed"><span class="v">—</span></td><td data-label="Liquidity (A)"><span class="v">≤ $5,895.6M</span></td><td data-label="Burn per quarter (A)"><span class="v">≤ $558.2M (FY: OCF $2,100.4M − "PP&amp;E net of computer hardware" $2,998.0M − "computer hardware" $1,335.1M = −$2,232.7M; capex is two lines in the cash-flow statement, the standard filed-data tag for property and equipment carries only the first)</span></td><td data-label="Runway (A)"><span class="v"><strong>≥ 10.6</strong> (or no burn)</span></td><td data-label="Runway (B) check"><span class="v">18.5</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Core Scientific (CORZ)</span></td><td data-label="Balance sheet"><span class="v">Jun 30, 2026</span></td><td data-label="Unrestricted cash"><span class="v">$1,769.7M</span></td><td data-label="Unused general-purpose credit"><span class="v">$0 (the $100M revolver came after the quarter)</span></td><td data-label="Build money spent (A)"><span class="v">$0. The $3.30B notes refinanced debt and funded the debt-service reserve; CoreWeave pays for construction at its sites</span></td><td data-label="Parked build money removed"><span class="v">—</span></td><td data-label="Liquidity (A)"><span class="v">$1,769.7M</span></td><td data-label="Burn per quarter (A)"><span class="v">$361.7M (H1 −$723.3M)</span></td><td data-label="Runway (A)"><span class="v"><strong>4.9</strong></span></td><td data-label="Runway (B) check"><span class="v">7.1</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Applied Digital (APLD)</span></td><td data-label="Balance sheet"><span class="v">Aug 31, 2026</span></td><td data-label="Unrestricted cash"><span class="v">$2,949.9M</span></td><td data-label="Unused general-purpose credit"><span class="v">~$106.6M ($430.0M revolver − $82.4M drawn − $241.0M letters of credit, which are bank promises to pay others on the company's behalf and use up part of the credit line)</span></td><td data-label="Build money spent (A)"><span class="v">$2,074.7M (all fiscal Q1 capex: $1.59B of 7.000% notes issued Jun 16 by APLD ComputeCo 3 "to fund the construction" of ELN-04, plus a $1,833.4M fall in restricted cash, mostly the 6.750% notes escrow released Jun 18 to APLD ComputeCo 2)</span></td><td data-label="Parked build money removed"><span class="v">$1,348.7M</span></td><td data-label="Liquidity (A)"><span class="v">$1,707.8M</span></td><td data-label="Burn per quarter (A)"><span class="v"><strong>none</strong>: operating cash flow +$63.9M</span></td><td data-label="Runway (A)"><span class="v"><strong>no corporate burn</strong></span></td><td data-label="Runway (B) check"><span class="v">1.9</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Galaxy Digital (GLXY)</span></td><td data-label="Balance sheet"><span class="v">Jun 30, 2026</span></td><td data-label="Unrestricted cash"><span class="v">$895.7M</span></td><td data-label="Unused general-purpose credit"><span class="v">$0 (Helios I is build-only)</span></td><td data-label="Build money spent (A)"><span class="v">$339.2M (INFERENCE that these are Helios I draws: the cash-flow line reads "Proceeds from notes payable, net of issuance costs"; Helios I is booked in notes payable)</span></td><td data-label="Parked build money removed"><span class="v">—</span></td><td data-label="Liquidity (A)"><span class="v">$895.7M</span></td><td data-label="Burn per quarter (A)"><span class="v">$54.5M</span></td><td data-label="Runway (A)"><span class="v"><strong>16.4</strong> (4.0 if the $339.2M isn't build money)</span></td><td data-label="Runway (B) check"><span class="v">4.4</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Oracle (ORCL)</span></td><td data-label="Balance sheet"><span class="v">Aug 31, 2026</span></td><td data-label="Unrestricted cash"><span class="v">$36,369M</span></td><td data-label="Unused general-purpose credit"><span class="v">$10.0B unsecured revolver (Mar 6, 2026 to Mar 6, 2031), $0 drawn at May 31 (<a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm">FY26 10-K</a>); drawn at Aug 31 NOT FOUND, taken as undrawn (INFERENCE: the fiscal Q1 cash-flow statement shows no revolver borrowing)</span></td><td data-label="Build money spent (A)"><span class="v">$0 (short-term capex financing was a net repayment of $830M)</span></td><td data-label="Parked build money removed"><span class="v">—</span></td><td data-label="Liquidity (A)"><span class="v">$46,369M</span></td><td data-label="Burn per quarter (A)"><span class="v">$5,396M</span></td><td data-label="Runway (A)"><span class="v"><strong>8.6</strong> (6.7 without the revolver)</span></td><td data-label="Runway (B) check"><span class="v">9.1</span></td></tr>
+          <tr><td data-label="Company"><span class="v">TeraWulf (WULF)</span></td><td data-label="Balance sheet"><span class="v">Jun 30, 2026</span></td><td data-label="Unrestricted cash"><span class="v">$2,619.2M</span></td><td data-label="Unused general-purpose credit"><span class="v">$74.8M (revolver capped at $75.0M before the first CB-4/CB-5 commencement)</span></td><td data-label="Build money spent (A)"><span class="v">$1,378.5M (all H1 capex), INFERENCE: the Oct 22, 2025 $3.2B 7.75% 2030 Secured Notes' "net proceeds … are being used to finance a portion of the cost of the HPC buildout at the Lake Mariner Data Campus" (10-Q Note 10). Pool = $3,132.9M proceeds (2025 filed data) − $615.0M Q4 2025 capex = $2,517.9M unspent at Dec 31, plus the $47.0M fall in restricted cash</span></td><td data-label="Parked build money removed"><span class="v">$1,186.4M</span></td><td data-label="Liquidity (A)"><span class="v">$1,507.6M</span></td><td data-label="Burn per quarter (A)"><span class="v">$77.2M (H1 operating cash flow −$154.3M)</span></td><td data-label="Runway (A)"><span class="v"><strong>19.5</strong> (3.5 with no credit)</span></td><td data-label="Runway (B) check"><span class="v">4.05</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Nebius Group (NBIS)</span></td><td data-label="Balance sheet"><span class="v">Jun 30, 2026</span></td><td data-label="Unrestricted cash"><span class="v">$8,042.1M</span></td><td data-label="Unused general-purpose credit"><span class="v">$0: no revolver found (we read all ten 6-Ks Jul 17 to Oct 1)</span></td><td data-label="Build money spent (A)"><span class="v">$0 (converts are corporate debt)</span></td><td data-label="Parked build money removed"><span class="v">—</span></td><td data-label="Liquidity (A)"><span class="v">$8,042.1M</span></td><td data-label="Burn per quarter (A)"><span class="v">$1,813.0M (H1 −$3,626M)</span></td><td data-label="Runway (A)"><span class="v"><strong>4.4</strong></span></td><td data-label="Runway (B) check"><span class="v">5.0</span></td></tr>
+          </tbody>
+        </table></div>
+        <p class="muted">For <strong>B</strong>, liquidity adds restricted cash (CRWV $1,380M, CIFR $3,728.0M, IREN $1,723.9M, CORZ $781.7M, APLD $728.0M, ORCL ~$2.6B, WULF $409.4M, NBIS $1,056.0M) and build-only facilities (CRWV $8,014M more, for $10,014M of total availability; IREN $2,707M; GLXY ~$100M) to the A liquidity before unspent build money is removed, and burn is all capex. Undrawn amounts for APLD and GLXY, the parked figures, and WULF's unspent note pool are our own arithmetic (INFERENCE). ORCL's B adds the $10.0B revolver too.</p>
+      </details>
+      <details class="math" id="grading-math">
+        <summary>Show the math: the grading table</summary>
+        <p class="muted">How each company was graded: two analysts each gave a tier on the five scores, then the runway rule set the final tier. Borderline notes are in the main table above.</p>
+        <div class="table-wrap"><table id="grading-table" class="cards">
+          <thead><tr><th>Company</th><th>Two analysts' separate calls</th><th>Runway A (B)</th><th>Tier before the single rule</th><th>Final tier (A)</th><th>Tier under B</th></tr></thead>
+          <tbody>
+          <tr><td data-label="Company"><span class="v">CoreWeave (CRWV)</span></td><td data-label="Two analysts' separate calls"><span class="v">WEAK / WEAK</span></td><td data-label="Runway A (B)"><span class="v">≥ 1.4 (3.2)</span></td><td data-label="Tier before the single rule"><span class="v">WEAK</span></td><td data-label="Final tier (A)"><span class="v"><strong>WEAK</strong></span></td><td data-label="Tier under B"><span class="v">WEAK</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Cipher Digital (CIFR)</span></td><td data-label="Two analysts' separate calls"><span class="v">STRONG / WEAK</span></td><td data-label="Runway A (B)"><span class="v">12.1 (8.5)</span></td><td data-label="Tier before the single rule"><span class="v">WEAK</span></td><td data-label="Final tier (A)"><span class="v"><strong>STRONG (up)</strong></span></td><td data-label="Tier under B"><span class="v">STRONG</span></td></tr>
+          <tr><td data-label="Company"><span class="v">IREN (IREN)</span></td><td data-label="Two analysts' separate calls"><span class="v">WEAK / MIDDLE</span></td><td data-label="Runway A (B)"><span class="v">≥ 10.6 (18.5)</span></td><td data-label="Tier before the single rule"><span class="v">MIDDLE</span></td><td data-label="Final tier (A)"><span class="v"><strong>MIDDLE</strong></span></td><td data-label="Tier under B"><span class="v">MIDDLE</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Core Scientific (CORZ)</span></td><td data-label="Two analysts' separate calls"><span class="v">STRONG / MIDDLE</span></td><td data-label="Runway A (B)"><span class="v">4.9 (7.1)</span></td><td data-label="Tier before the single rule"><span class="v">MIDDLE</span></td><td data-label="Final tier (A)"><span class="v"><strong>MIDDLE</strong></span></td><td data-label="Tier under B"><span class="v">STRONG</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Applied Digital (APLD)</span></td><td data-label="Two analysts' separate calls"><span class="v">MIDDLE / STRONG</span></td><td data-label="Runway A (B)"><span class="v">no burn (1.9)</span></td><td data-label="Tier before the single rule"><span class="v">MIDDLE</span></td><td data-label="Final tier (A)"><span class="v"><strong>STRONG (up), with CoreWeave-tenant risk</strong></span></td><td data-label="Tier under B"><span class="v">MIDDLE</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Galaxy Digital (GLXY)</span></td><td data-label="Two analysts' separate calls"><span class="v">MIDDLE / MIDDLE</span></td><td data-label="Runway A (B)"><span class="v">16.4 (4.4)</span></td><td data-label="Tier before the single rule"><span class="v">MIDDLE</span></td><td data-label="Final tier (A)"><span class="v"><strong>MIDDLE</strong></span></td><td data-label="Tier under B"><span class="v">MIDDLE</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Oracle (ORCL)</span></td><td data-label="Two analysts' separate calls"><span class="v">MIDDLE / MIDDLE</span></td><td data-label="Runway A (B)"><span class="v">8.6 (9.1)</span></td><td data-label="Tier before the single rule"><span class="v">MIDDLE</span></td><td data-label="Final tier (A)"><span class="v"><strong>MIDDLE</strong></span></td><td data-label="Tier under B"><span class="v">MIDDLE</span></td></tr>
+          <tr><td data-label="Company"><span class="v">TeraWulf (WULF)</span></td><td data-label="Two analysts' separate calls"><span class="v">STRONG / STRONG</span></td><td data-label="Runway A (B)"><span class="v">19.5 (4.05)</span></td><td data-label="Tier before the single rule"><span class="v">STRONG</span></td><td data-label="Final tier (A)"><span class="v"><strong>STRONG, PROVISIONAL</strong></span></td><td data-label="Tier under B"><span class="v">MIDDLE</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Nebius Group (NBIS)</span></td><td data-label="Two analysts' separate calls"><span class="v">MIDDLE / STRONG</span></td><td data-label="Runway A (B)"><span class="v">4.4 (5.0)</span></td><td data-label="Tier before the single rule"><span class="v">STRONG</span></td><td data-label="Final tier (A)"><span class="v"><strong>MIDDLE (down)</strong></span></td><td data-label="Tier under B"><span class="v">MIDDLE</span></td></tr>
+          </tbody>
+        </table></div>
+      </details>
+      <details class="math" id="wrong-math">
+        <summary>Show the math: what would prove each tier wrong</summary>
+        <div class="table-wrap"><table id="wrong-table" class="cards">
+          <thead><tr><th>Company</th><th>Tier</th><th>Wrong if</th></tr></thead>
+          <tbody>
+          <tr><td data-label="Company"><span class="v">Cipher Digital</span></td><td data-label="Tier"><span class="v">STRONG</span></td><td data-label="Wrong if"><span class="v">Its Q3 report (due by about Nov 9) shows runway under 6 quarters, or no filing reports Barber Lake rent started on at least one data hall by Dec 31, 2026. Either one moves it to MIDDLE.</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Applied Digital</span></td><td data-label="Tier"><span class="v">STRONG</span></td><td data-label="Wrong if"><span class="v">Its next quarterly filing (about early January) shows corporate burn that leaves runway under 6 quarters, or under 300 MW delivered at Dec 31, 2026. Either one moves it to MIDDLE.</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Core Scientific</span></td><td data-label="Tier"><span class="v">MIDDLE</span></td><td data-label="Wrong if"><span class="v">Its Q3 report shows runway of 6 quarters or more (STRONG). Separately, a Nov 5 release with billing capacity at or below 437 MW fails gate 3 of the trade below and would lower our view.</span></td></tr>
+          <tr><td data-label="Company"><span class="v">TeraWulf</span></td><td data-label="Tier"><span class="v">STRONG (provisional)</span></td><td data-label="Wrong if"><span class="v">Its Q3 report shows runway under 4 quarters, even with the credit for its Lake Mariner note money (MIDDLE). Or its <a href="https://investors.terawulf.com/news-events/press-releases/detail/147/terawulf-schedules-conference-call-for-third-quarter-2026-financial-results">Fri Nov 6</a> release shows no new data hall delivered, with revenue-generating capacity still at or below 102 MW (MIDDLE).</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Nebius</span></td><td data-label="Tier"><span class="v">MIDDLE</span></td><td data-label="Wrong if"><span class="v">Its Q3 report (date not announced, about mid-November) shows runway of 6 quarters or more (STRONG). Nine-month operating cash flow below the first half's $4,504.1M, with prepayments falling, would be a funding warning.</span></td></tr>
+          <tr><td data-label="Company"><span class="v">IREN</span></td><td data-label="Tier"><span class="v">MIDDLE</span></td><td data-label="Wrong if"><span class="v">No filing reports Microsoft's acceptance of data halls 2–4 by Dec 31, 2026 (WEAK). A quarterly report with $2B or more of annual recurring revenue (STRONG).</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Galaxy Digital</span></td><td data-label="Tier"><span class="v">MIDDLE</span></td><td data-label="Wrong if"><span class="v">Its Q3 report pushes the 393 MW expansion start past Q2 2027, or any filing amends the CoreWeave lease.</span></td></tr>
+          <tr><td data-label="Company"><span class="v">Oracle</span></td><td data-label="Tier"><span class="v">MIDDLE</span></td><td data-label="Wrong if"><span class="v">Its next quarterly report (about mid-December) shows free cash flow worse than −$5.4B with signed backlog at or below $664B (WEAK), or positive free cash flow (STRONG).</span></td></tr>
+          <tr><td data-label="Company"><span class="v">CoreWeave</span></td><td data-label="Tier"><span class="v">WEAK</span></td><td data-label="Wrong if"><span class="v">Its Q3 report (due by about Nov 9) shows operating cash flow at least equal to capital spending, or operating income covering interest (Q2: a $49M operating loss against $640M of net interest), or its top customer below 25% of revenue (Q2: 36%).</span></td></tr>
+        </tbody>
+        </table></div>
+        <p class="muted">Free cash flow = operating cash flow minus capital spending. Backlog = signed contracts not yet billed. Annual recurring revenue = the yearly value of ongoing contracts.</p>
+      </details>
+    </section>
+
+    <section id="concentration">
+      <h2>6. Who depends on whom</h2>
+      <ul>
+        <li>CoreWeave's top three customers were 36%, 26% and 10% of Q2 revenue. A year earlier one customer was 71%. <span class="src">Source: <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm">CoreWeave quarterly report</a></span></li>
+        <li>CoreWeave was about 77% of Core Scientific's first-half revenue. <span class="src">Source: <a href="https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm">Core Scientific quarterly report</a></span></li>
+        <li>CoreWeave is the only AI tenant at Galaxy Digital's Helios campus, and Applied Digital's first North Dakota campus is leased to CoreWeave. Cipher Digital's tenants are Amazon Web Services and Fluidstack (backed by Google), not CoreWeave. <span class="src">Sources: company filings; <a href="https://www.sec.gov/Archives/edgar/data/1819989/000181998926000007/cipherdigital_businessup.htm">Cipher Digital presentation, Feb 24, 2026</a></span></li>
+      </ul>
+      <p>So CoreWeave is spreading its customers out while its landlords aren't. That's why Core Scientific stays MIDDLE, and why Applied Digital's STRONG carries a CoreWeave-tenant flag.</p>
+    </section>
+
+    <section id="chips">
+      <h2>7. The commodity: chip rents vs how long chips are assumed to last</h2>
+      <ul>
+        <li>CoreWeave and Oracle spread the cost of their servers over six years, and Meta over 5.5 years. <span class="src">Sources: <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm">CoreWeave 10-K</a>, <a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm">Oracle 10-Q</a>, <a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/R10.htm">Meta 10-K</a></span></li>
+        <li>Microsoft's "useful life update," in its CFO's words: "effective at the start of FY27, we are extending the estimated useful lives of our datacenters and office buildings, from 15 to 25 years," with "a minimal benefit to FY27 operating income," and "more of our future datacenter leases will shift from finance leases to operating leases." Microsoft didn't describe a change to server or GPU lives on that call. <span class="src">Source: <a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4">Microsoft FY26 Q4 call (CFO Amy Hood), Jul 29, 2026</a></span></li>
+        <li>Prices on Kalshi, a prediction market, put the rent for an NVIDIA H100 chip at $2.90 an hour for Oct 2026, falling to $2.27 by Jun 2027 (as of Oct 14, 2026), about 22% lower. Little trades there. <span class="src">Data: <a href="https://aicomputetracker.com/forward-curves.json">AI Compute Tracker</a>, from Kalshi, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span></li>
+      </ul>
+      <p>Our view: a six-year life on hardware whose rent is expected to fall that fast flatters the reported profits of chip owners. If a glut comes, that's how it starts. It hits chip owners and their lenders without collateral first, and landlords last.</p>
+    </section>
+
+    <section id="coreweave-bonds">
+      <h2>8. CoreWeave's bonds: our call</h2>
+      <p>The one place the market looks too gloomy is CoreWeave's 9.625% bonds due 2032. <strong>Reported press quotes, not exchange data:</strong> the bonds traded at 75, then 80 cents on the dollar on Oct 15 <span class="src">(<a href="https://www.morningstar.com/bonds/coreweave-data-center-bonds-slide-capex-debt-overhang-concerns">Morningstar/PitchBook, Oct 16</a>)</span>, and the price of five-year default insurance on CoreWeave (credit default swaps, or CDS) hit a record of about 1,194.5 basis points (hundredths of a percentage point) that week <span class="src">(<a href="https://startupfortune.com/cathie-wood-keeps-buying-coreweave-as-bond-traders-price-it-to-fail/">Startup Fortune citing Bloomberg, Oct 16</a>)</span>. We had no prices from bond dealers or official closing prices. Our estimate is that those levels imply roughly 56–62% odds of default by 2032, against about 41% at our own odds.</p>
+      <p>But a lot of debt ranks ahead of these bonds, which have no collateral behind them. If CoreWeave defaulted, these bondholders would probably get back much less than the usual 30–40 cents on the dollar. At our 15-cent estimate, the bonds are only about 7% cheap, which isn't enough. So we dropped the plan to buy at 80–82.</p>
+      <details class="math" id="bond-math">
+        <summary>Show the math</summary>
+        <ul>
+          <li>About $10.8B of secured loans (loans with collateral) backed by the parent company, $2.8B of secured loans without parent backing, and about $5.1B of equipment financing. A further $10.0B of unused credit lines is also secured.</li>
+          <li>Total debt of $35.6B, with $10.6B due by the end of 2027 and another $4.4B in 2028. First-half capital spending of $14.1B ran $10.5B ahead of operating cash flow.</li>
+        </ul>
+        <p class="src">Source: <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm">CoreWeave quarterly report, Q2 2026</a></p>
+        <p>Since the quarter ended, CoreWeave has raised $4.2B of convertible bonds and drawn $1.2B on its credit line. It also took a $2.6B secured loan at a subsidiary, with $1.2B drawn. Whether that loan's lenders can claim against the parent is NOT FOUND. If they can, the drawn $1.2B moves the ~$10.8B of parent-backed secured loans toward the $13.0B limit in our refinancing check below, and drawing the full $2.6B would breach it. A share-sale program of up to 35.0M shares dilutes stockholders but adds cash ahead of the bonds. Shares sold so far: NOT FOUND.</p>
+      </details>
+      <div class="callout">
+        <strong>Paper trade, only if both checks pass:</strong>
+        <ol>
+          <li><strong>Demand check, by the Oct 29 close:</strong> Meta doesn't cut (see the decision tree below), at least two of Microsoft, Alphabet and Amazon meet our bars, and none cuts. The bars: Microsoft spends over $50B in the quarter and reaffirms growth next year; Alphabet's range tops out at $205B or more, or it signals a 2027 step-up; Amazon goes above $220B.</li>
+          <li><strong>Refinancing check</strong> (can CoreWeave keep rolling over its debt?): no new parent-backed secured debt above $2.0B, and CoreWeave's Q3 report shows the cash gap (operating cash flow minus capital spending) no worse than Q2's −$5,743M, total available cash and credit of at least $12.0B, and secured loans no more than $13.0B.</li>
+        </ol>
+        <p>Then: buy only at 74 or less, target 85.5, exit at 68, and close by Fri Dec 18. That's about 2 to 1 (possible gain vs possible loss) before trading costs and 1.6 to 1 after an assumed 1-point cost to buy and sell. After good demand news the bonds will probably trade above 74, so the order likely won't fill (get executed). That's the honest answer: at 80–82 these bonds don't pay enough for what ranks ahead of them.</p>
+      </div>
+      <p>Why not CoreWeave stock? At our odds its expected return (the probability-weighted average outcome) is about −5.3%, and it ranks last, behind all of the debt. The landlords' senior bonds (first in line for repayment) trade near full value (Cipher Digital's 2030s at 99.875, reported press quote), so there's nothing left to buy there.</p>
+    </section>
+
+    <section id="corz">
+      <h2>9. Core Scientific: we lean long, on conditions only</h2>
+      <p class="muted">"Long" means owning the stock to profit if it rises; "short" means selling borrowed shares to profit if it falls.</p>
+      <h3>What decides it</h3>
+      <ul>
+        <li>About 590 MW across five sites is 100% licensed to CoreWeave. Initial terms are 12 years (7 at Austin), with fees rising 3.5% a year. CoreWeave pays the construction costs, and the contracts total about $10B of revenue. <span class="src">Source: <a href="https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001193125-26-165121/d149019dex992.htm">Core Scientific filing, Apr 21, 2026</a></span></li>
+        <li>The contract summary says CoreWeave has "no ability to unilaterally terminate." <span class="src">Source: <a href="https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001628280-26-031246/0001628280-26-031246.pdf">Core Scientific presentation, May 6, 2026</a></span></li>
+        <li>No outside guarantee stands behind CoreWeave's rent. Core Scientific says its ability to collect "would depend on [CoreWeave's] financial condition at the time of any default." <span class="src">Source: <a href="https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm">Core Scientific quarterly report</a></span></li>
+        <li>CoreWeave agreed to buy Core Scientific in July 2025. Core Scientific's shareholders voted it down on Oct 30, 2025, with 203.5M votes against and 20.8M for. <span class="src">Source: <a href="https://www.sec.gov/Archives/edgar/data/1839341/000114036125040020/ef20058085_8k.htm">Core Scientific filing, Oct 31, 2025</a></span> The tenant tried to own its landlord's power and buildings, which shows the switched-on site, not the chip, is the scarce piece.</li>
+        <li>Core Scientific signed AMD for 377 MW and another AI cloud provider for 152 MW, each for 15 years. It has to pay to build those sites itself. <span class="src">Source: Core Scientific quarterly report (above)</span></li>
+      </ul>
+      <h3>If CoreWeave fails</h3>
+      <p>Core Scientific loses the tenant, not the asset. It keeps the power and the buildings and can re-lease them, though at lower rents in a glut, and its secured bondholders (those with collateral) get paid first on the CoreWeave sites. In that same case CoreWeave's stock goes to near zero.</p>
+      <div class="callout">
+        <strong>Paper trigger, not a position. No short. All three gates are required:</strong>
+        <ol>
+          <li><strong>Demand</strong> (the same gate as the CoreWeave bond trade): by the Oct 29 close, Meta doesn't cut, at least two of Microsoft, Alphabet and Amazon meet our bars, and none cuts.</li>
+          <li><strong>CoreWeave's Q3 report</strong> (due by about Nov 9) must show all three:
+            <ul>
+              <li>contracted power of at least 4.2 GW, with no figure counting as a fail;</li>
+              <li>no "substantial doubt" (going-concern) language, the warning used when a company may not survive the next year;</li>
+              <li>the phrase "in compliance with all covenants" still present (covenants are the conditions in its loan agreements).</li>
+            </ul></li>
+          <li><strong>Core Scientific's Q3 release</strong> (<a href="https://investors.corescientific.com/news-events/press-releases/detail/145/core-scientific-inc-schedules-third-quarter-fiscal-year-2026-earnings-release-conference-call-and-webcast">Thu Nov 5</a>, call 7:30 AM CT) must show two things. First, capacity it's billing for above 437 MW, which was the "as of mid-July" figure in its <a href="https://www.sec.gov/Archives/edgar/data/1839341/000183934126000013/q22026corescientificinc-ea.htm">Jul 28 release</a>. Second, no sign of CoreWeave delaying payments. That second test needs a person to read the filing.</li>
+        </ol>
+        <p>Then: buy only at $13.62 or less (Oct 16 close: $13.48), target $15.41 (the Oct 9 close), exit at $12.47, close by Fri Dec 18, at half the usual paper size. That's about 1.5 to 1 at the cap after an assumed 2-cent cost to buy and sell. A drop like Oct 14's 12.4% could gap straight through the exit, cutting that to about 1 to 1. Our estimate of the expected return is +3.1% to +3.8%. After good news the stock may already be above $13.62, so the order may never fill.</p>
+        <details class="math" id="corz-math">
+          <summary>Show the math: dilution and exit rules</summary>
+          <p class="muted">Dilution: Core Scientific gave AMD a warrant (a right to buy new shares at a set price) for up to 30M shares at $23.47, earned in stages, through Jul 27, 2031. That's far above the $15.41 target, so it doesn't cap this trade. <a href="https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/core-20260727.htm">8-K, Jul 27</a></p>
+          <p class="muted">The trade fails before entry, or exits at the next close after entry, on any of these: a filing by Dec 18 discloses a termination, deferral or payment stretch at Core Scientific's sites; the AMD leases are cut below 377 MW; or the number of shares sold short rises above 80M while the stock closes below $12.47. Owned outright today without the gates, our math gives an expected loss.</p>
+        </details>
+      </div>
+      <h3>Dissent (labeled): a dissenting reviewer (pen name John Galt)</h3>
+      <p>His trade, not ours: own CoreWeave stock and short Core Scientific in equal dollar amounts, from the Mon Oct 19 close, with an exit by Fri Nov 20. His argument: if demand holds, CoreWeave's heavy discount closes faster than the landlord's, and the market already ranks the landlord ahead. We disagree. That trade owns the riskiest claim on CoreWeave (its shares, paid last) and opens before any results. In a glut, CoreWeave stock falls further than Core Scientific, so the short side doesn't protect it.</p>
+    </section>
+
+    <section id="meta">
+      <h2>10. Meta, Wed Oct 21: the decision tree</h2>
+      <p>Meta reports after the close on Wed Oct 21, with a call at 3:30 PM CT. <span class="src">Source: <a href="https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx">Meta investor relations</a></span> The earliest paper trade is Thu Oct 22 at 8:30 AM CT. The branch is graded mechanically from Meta's release by our automated reader of Meta's earnings release; the call-transcript step is graded by hand. A <strong>put spread</strong> profits if the stock falls; a <strong>call spread</strong> profits if it rises. Both cap the most you can lose at what you pay. "Guide" means the company's own spending forecast; "consensus" is the analysts' average forecast.</p>
+      <p class="muted">Read this first: Meta's capex figure covers only buildings and equipment it owns plus finance-lease payments. What it pays to rent cloud capacity from companies like CoreWeave or Nebius is booked as an expense, so a capex beat says more about Meta's own building than about demand for rented AI capacity. <span class="src">Source: <a href="https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf">Meta Q2 call</a></span></p>
+
+      <div class="tree" role="figure" aria-label="Meta decision tree: check CUT first, then RAISE, otherwise IN LINE">
+        <div class="node"><strong>Meta Q3 results</strong><br>Wed Oct 21, after the close · call 3:30 PM CT</div>
+        <div class="arrow" aria-hidden="true"></div>
+        <div class="node">Check the rules in order, <strong>CUT first, then RAISE</strong>.<br>Stop at the first one that's true.</div>
+        <div class="arrow" aria-hidden="true"></div>
+        <div class="branches">
+          <div class="branch b-cut">
+            <div class="bhead">1 · CUT<span class="odds">Our odds: 15%</span></div>
+            <div class="bbody">
+              <span class="lbl">If any of these</span>
+              2026 guide low end under $130B, or high end under $140B; or a 2027 range starting under $190B; or language about deferring, delaying or slowing 2027 spending, in the release or on the call.
+              <span class="lbl">Paper trade (half size)</span>
+              CoreWeave Jan 15, 2027 $50/$35 put spread: pay at most $5.00, target $10.00 or more, exit at $2.00, close by Nov 20. CoreWeave bonds: stand aside.
+            </div>
+          </div>
+          <div class="branch b-raise">
+            <div class="bhead">2 · RAISE<span class="odds">Our odds: 20%</span></div>
+            <div class="bbody">
+              <span class="lbl">If</span>
+              Not a cut, and Meta gives a 2027 range whose midpoint is at least $193.9B (the analyst consensus, per <a href="https://www.barrons.com/articles/ai-meta-muse-stock-988a5fe0">Barron's</a>).
+              <span class="lbl">Paper trade (half size)</span>
+              Nebius Jan 15, 2027 $180/$220 call spread: pay at most $13.00, target $25.00 or more, exit at $5.00, close by Nov 20.
+            </div>
+          </div>
+          <div class="branch b-inline">
+            <div class="bhead">3 · IN LINE<span class="odds">Our odds: 65%</span></div>
+            <div class="bbody">
+              <span class="lbl">If</span>
+              Anything else, including no 2027 number at all.
+              <span class="lbl">Paper trade</span>
+              None on Oct 22.
+            </div>
+          </div>
+        </div>
+        <div class="arrow" aria-hidden="true"></div>
+        <div class="node"><strong>Fri Oct 30: confirm or cancel</strong><br>Add the second half only if, by the Oct 29 close, none of Microsoft, Alphabet or Amazon cuts and at least two meet our bars (reverse that for the CUT branch). Cancel if two of the three go the other way.</div>
+      </div>
+      <p class="muted" style="margin-top:0.75rem;">Meta stock itself: no trade in any branch. It fell after three of its last four results, including both times it raised spending guidance. In the most likely case (IN LINE), nothing opens before Oct 28–29.</p>
+    </section>
+
+    <section id="anthropic">
+      <h2>11. Can Anthropic pay for its computing at a $1.5 trillion IPO?</h2>
+      <p>Our view: yes, if its commitments are spread evenly. The risk is spending piled up early, above roughly $100B a year in 2027–28.</p>
+      <ul>
+        <li>The reported commitments are at least $518B over about 10 years. The reported pieces: Google $111.1B, Amazon $110B, Microsoft $31.4B, Broadcom-related leases $161.2B, xAI up to $84.5B, and AMD over $20B. No year-by-year schedule is public. <span class="src">Source: <a href="https://www.reuters.com/business/anthropics-518-billion-ai-buildout-hinges-largely-deals-that-cannot-be-canceled-2026-09-29/">Reuters, Sep 29</a>; xAI terms from the <a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm">SpaceX prospectus</a></span></li>
+        <li>Money raised: $30B at a $380B valuation, then $65B at $965B. <span class="src">Sources: <a href="https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation">Anthropic</a>, <a href="https://www.anthropic.com/news/series-h">Anthropic</a></span></li>
+        <li>Q3 revenue was reportedly $16.8B. <span class="src">Sources: <a href="https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b">FT</a>, <a href="https://www.nytimes.com/2026/10/14/technology/anthropic-ipo-revenue-profit.html">NYT</a></span></li>
+        <li>Our math: selling 5%, 10% or 15% of a $1.5T company raises $75B, $150B or $225B. Spread evenly, the commitments are about $51.8B a year, and the gaps in 2026 and 2027 are covered even at the smallest sale.</li>
+      </ul>
+      <p><strong>Who controls the financing (opinion, our analogy):</strong> in the spirit of Jay Gould, the 19th-century American railroad financier, the strongest position is controlling the financing around a network, not owning one piece of it. Here, IPO money and the big cloud companies' own investments in the labs flow straight back to Google, Amazon and Microsoft as computing spend. They're investor and toll collector at once. Listed landlords like TeraWulf (about 401 MW leased to Anthropic) get paid only once a lease starts.</p>
+    </section>
+
+    <section id="calendar">
+      <h2>12. Calendar (CT)</h2>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Date</th><th>Event</th></tr></thead>
+        <tbody>
+          <tr><td>Wed Oct 21, after close (call 3:30 PM)</td><td>Meta Q3 results</td></tr>
+          <tr><td>Thu Oct 22</td><td>PJM members' meeting on the emergency power filing; first possible fill for the Meta trades</td></tr>
+          <tr><td>Wed Oct 28</td><td>Microsoft and Alphabet Q3; Fed rate decision, 1:00 PM</td></tr>
+          <tr><td>Thu Oct 29</td><td>Amazon Q3; PJM's planned filing with federal regulators; Dominion's Virginia up-front-payment policy due (90 days after the Jul 31 <a href="https://www.scc.virginia.gov/docketsearch/DOCS/8dt001!.PDF">SCC order</a>)</td></tr>
+          <tr><td>Thu Nov 5 (call 7:30 AM)</td><td>Core Scientific Q3 (gate 3 of the Core Scientific trade)</td></tr>
+          <tr><td>Fri Nov 6 (call 7:00 AM)</td><td>TeraWulf Q3</td></tr>
+          <tr><td>By about Nov 9</td><td>CoreWeave Q3 quarterly report: not yet announced; 10-Q due ~Nov 9 (gate 2 of the Core Scientific trade; checked Oct 18 on <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=1769628&amp;type=8-K">EDGAR</a> and <a href="https://investors.coreweave.com/news/default.aspx">CoreWeave investor relations</a>); Cipher Digital, Galaxy Digital and TeraWulf reports around the same time (runway re-check)</td></tr>
+          <tr><td>Mon Nov 16</td><td>FERC large-load responses due (PJM, Docket EL26-67-000; <a href="https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260814-el26-67-000.pdf">FERC order</a>)</td></tr>
+          <tr><td>Fri Nov 20</td><td>Exit date for the Meta-branch trades</td></tr>
+          <tr><td>Wed Dec 9</td><td>Next PJM capacity auction opens</td></tr>
+          <tr><td>Fri Dec 18</td><td>Time limit for the CoreWeave bond trade and the Core Scientific trade</td></tr>
+          <tr><td>Thu Dec 31</td><td>Delivery targets: IREN data halls 2–4, Cipher Digital Barber Lake rent, Applied Digital 300 MW</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section id="gaps">
+      <h2>13. What we couldn't find</h2>
+      <ul>
+        <li>Any company split between AI training and everyday use. The only named cost per gigawatt is NVIDIA's CEO's $50–60B, a vendor's estimate.</li>
+        <li>Dealer bond quotes or closing default-swap prices. Bond levels above are press reports, and the 15-cent recovery figure (what bondholders get back in a default) is our estimate, not a published rate.</li>
+        <li>Anthropic's year-by-year payment schedule and its cash on hand. Its IPO filing is confidential.</li>
+        <li>Switched-on megawatts for Nebius and Oracle; how much of Oracle's revolver was drawn at Aug 31; how much of Nebius's term loan was drawn; whether CoreWeave's $2.6B subsidiary loan can be claimed against the parent; share sales after the quarter; and CoreWeave's Q3 report date (not yet announced; 10-Q due ~Nov 9).</li>
+        <li>Chip rental prices are as of Oct 14, 2026, and all stock prices are Oct 16 closes.</li>
+      </ul>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer" style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 0.75rem; margin: 1rem 0; text-align: center;">
+      <p style="color: #8892b0; font-size: 0.8rem; line-height: 1.4; margin: 0;">
+        <strong>Disclaimer:</strong> Nothing on this page constitutes investment advice or a recommendation to buy or sell any security.
+        All content is for informational and educational purposes only. We may hold positions in some or all of the companies mentioned.
+        Past performance is not indicative of future results. Always conduct your own research and consult with a qualified financial advisor before making investment decisions.
+      </p>
+    </div>
+
+    <footer>
+      <div class="credit">Jared Sheppard</div>
+      <div class="subtext">Personal research board · Not financial advice</div>
+      <div class="subtext">
+        <a href="archive.html">Archive</a> ·
+        <a href="debait.html">Long &amp; Short</a> ·
+        <a href="index.html">Home</a> ·
+        <a href="trap-map.html">Trap Map</a> ·
+        <a href="pipeline-health.html">Data Status</a> ·
+        <a href="leaderboard.html">Bot Game</a>
+      </div>
+    </footer>
+  </div>
+  <script>
+    /* Shows a "Scroll sideways" hint and a right-edge fade on any table wider than the screen. */
+    (function () {
+      function update() {
+        document.querySelectorAll('.table-wrap').forEach(function (w) {
+          var wide = w.scrollWidth > w.clientWidth + 2;
+          var hint = w.previousElementSibling;
+          var has = hint && hint.classList.contains('scroll-hint');
+          w.classList.toggle('is-scrollable', wide);
+          w.classList.toggle('at-end', w.scrollLeft + w.clientWidth >= w.scrollWidth - 2);
+          if (wide && !has) { var p = document.createElement('p'); p.className = 'scroll-hint'; p.setAttribute('aria-hidden', 'true'); p.textContent = 'Scroll sideways \u2192'; w.parentNode.insertBefore(p, w); }
+          if (!wide && has) { hint.remove(); }
+        });
+      }
+      window.addEventListener('load', update);
+      window.addEventListener('resize', update);
+      document.addEventListener('toggle', update, true);
+      document.addEventListener('scroll', function (e) { if (e.target.classList && e.target.classList.contains('table-wrap')) update(); }, true);
+    })();
+  </script>
+</body>
+</html>
