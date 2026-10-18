@@ -1,6 +1,37 @@
 {
   "insights": [
     {
+      "id": 599,
+      "title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-18",
+      "summary": "Mario Martone argues that building AI for housing and healthcare is fundamentally harder than lab benchmarks suggest because small error rates become huge failure counts at production scale. He says a system that is 90% accurate may look good in a paper, but at millions of interactions that remaining 10% is unacceptable for consequential decisions.\n\nHe explains that EliseAI does not rely on LLMs alone. Instead, it combines LLMs with traditional machine learning and other production systems because many problems in its workflows are better handled deterministically or with calibrated models, especially where reliability and reproducibility matter.\n\nMartone also emphasizes voice as a particularly difficult product surface: he says voice systems must complete tens or hundreds of operations in about 1.5 seconds, creating severe software and hardware constraints. He describes EliseAI\u2019s use of internal benchmarks, closed-loop evaluation, and large-scale monitoring across millions of conversations per day to manage these constraints.\n\nOn product roadmap, he says EliseAI has already automated large portions of leasing and maintenance workflows and could continue automating more of the lease journey end-to-end. For full physical repair automation, however, he suggests robotics or human labor will still be needed. He also frames healthcare as a major future opportunity, noting it is about 40% of U.S. GDP and therefore a large but demanding market.",
+      "key_takeaway": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 588,
+      "notable_quotes": [
+        {
+          "speaker": "Mario Martone",
+          "quote": "An AI system that works 90% of the time might look impressive in a research paper, but when you're handling millions of conversations about people's housing and health care, that remaining 10% becomes an enormous problem."
+        },
+        {
+          "speaker": "Mario Martone",
+          "quote": "Voice is extremely difficult, like you're talking about doing tens, hundreds of operations in a span of like a second and a half."
+        },
+        {
+          "speaker": "Mario Martone",
+          "quote": "So for me, as a head out by research, they kind of have a privilege of positions, because I don't have to be like kind of tunnel vision on one thing."
+        }
+      ]
+    },
+    {
       "id": 596,
       "title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
       "source_type": "podcast",
@@ -439,7 +470,7 @@
       "key_takeaway": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-13",
       "archived_date": null,
@@ -13282,8 +13313,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-14",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-10-18",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -13292,8 +13323,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 579,
-      "last_mentioned_speaker": "Ian Quigley"
+      "last_mentioned_episode_id": 588,
+      "last_mentioned_speaker": "Mario Martone"
     },
     {
       "id": 284,
