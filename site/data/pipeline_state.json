@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-17T22:31:22.574613",
-  "last_updated": "2026-10-17T22:31:22.574613",
-  "last_pipeline_run": "2026-10-17T22:31:22.574613",
+  "generated_at": "2026-10-18T05:20:14.222106",
+  "last_updated": "2026-10-18T05:20:14.222106",
+  "last_pipeline_run": "2026-10-18T05:20:14.222106",
   "main_page": {
     "overton": 13,
     "insights": 12,
-    "pundits": 374
+    "pundits": 376
   },
   "counts": {
     "ticker_mentions": 286,
-    "podcast_episodes": 555,
+    "podcast_episodes": 556,
     "newsletters": 7,
     "daily_scores": 221,
-    "overton_terms_total": 157,
-    "latest_insights_total": 569,
+    "overton_terms_total": 158,
+    "latest_insights_total": 570,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
     "published": 0,
-    "total": 1
+    "total": 2
   },
   "episodes": [
     {
@@ -32,6 +32,39 @@
       "title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
       "published": "2026-10-17",
       "rss_guid": "3b862154-ca42-11f1-917a-133350e8cd3e",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": false
+      },
+      "stage_reasons": {
+        "published": "Insight exists but no deep dive content yet \u2014 run generate_deepdives.py then auto_pipeline."
+      },
+      "first_blocker": "published",
+      "remediation_by_stage": {
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_export"
+    },
+    {
+      "id": "eef7a29a-1f29-4cd8-b32b-365e617a3f1b",
+      "podcast": "The a16z Show",
+      "title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+      "published": "2026-10-18",
+      "rss_guid": "eef7a29a-1f29-4cd8-b32b-365e617a3f1b",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -100,10 +133,10 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-      "published": "Sat, 17 Oct 2026 20:00:00 -0000",
-      "published_date": "2026-10-17",
+      "podcast": "The a16z Show",
+      "title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+      "published": "Sun, 18 Oct 2026 10:00:00 +0000",
+      "published_date": "2026-10-18",
       "rss_guid": ""
     }
   ],
