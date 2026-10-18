@@ -1,6 +1,6 @@
 [
   {
-    "id": 91208,
+    "id": 91390,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -12,7 +12,19 @@
     "appearance_count": 1
   },
   {
-    "id": 91209,
+    "id": 91391,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bianco\u2019s core claim is that long-duration Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
+    "last_episode_title": "Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-18",
+    "appearance_count": 1
+  },
+  {
+    "id": 91392,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91210,
+    "id": 91393,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91212,
+    "id": 91395,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 2
   },
   {
-    "id": 91211,
+    "id": 91394,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91213,
+    "id": 91396,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91214,
+    "id": 91397,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91215,
+    "id": 91398,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91216,
+    "id": 91399,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91217,
+    "id": 91400,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91218,
+    "id": 91401,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91219,
+    "id": 91402,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91220,
+    "id": 91403,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91221,
+    "id": 91404,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91222,
+    "id": 91405,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91223,
+    "id": 91406,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91224,
+    "id": 91407,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91225,
+    "id": 91408,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91226,
+    "id": 91409,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91227,
+    "id": 91410,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91228,
+    "id": 91411,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91229,
+    "id": 91412,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91230,
+    "id": 91413,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91231,
+    "id": 91414,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91232,
+    "id": 91415,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91233,
+    "id": 91416,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91234,
+    "id": 91417,
     "name": "Maggie Landers",
     "slug": "maggie-landers",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91235,
+    "id": 91418,
     "name": "Eddy Lazzarin",
     "slug": "eddy-lazzarin",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91236,
+    "id": 91419,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-24",
-    "appearance_count": 1
-  },
-  {
-    "id": 91237,
-    "name": "Steve Hilton & Spencer Pratt",
-    "slug": "steve-hilton--spencer-pratt",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "",
-    "last_episode_title": "Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-23",
     "appearance_count": 1
   }
 ]

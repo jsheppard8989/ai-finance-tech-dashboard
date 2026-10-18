@@ -32,6 +32,39 @@
       ]
     },
     {
+      "id": 600,
+      "title": "Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-10-18",
+      "summary": "Jim Bianco argues that U.S. bond yields have finally reached a level that is no longer expensive relative to expected nominal growth, which he frames as roughly 5% to 6% nominal growth made up of about 3% inflation and 2% real growth. That shift is why he has become constructive on longer-duration Treasuries after six years of being bearish.\n\nHis inflation view is that the U.S. is likely stuck around 3% rather than returning to the low-inflation regime of the 2010s. He attributes this to tariffs, deglobalization, wars, supply constraints, and higher logistics and refined-product costs, especially diesel, which he thinks keep goods deflation from coming back.\n\nOn credit, Bianco says the recent AI-linked selloff is mostly idiosyncratic and concentrated in the lowest-quality triple-C cohort, not evidence of a broad high-yield collapse. He points to widening high-yield spreads and stress names like CoreWeave, but says single-B and double-B credit have not materially deteriorated.\n\nHe is bullish on AI as a real productivity transformation, while also suggesting the market is not yet in classic bubble-peak conditions because skepticism remains high. On policy, he criticizes the idea that the bond market should do the Fed\u2019s work, arguing that without a more rational framework, yields could overshoot to confiscatory levels and create unnecessary stress.",
+      "key_takeaway": "Bianco\u2019s core claim is that long-duration Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
+      "tickers_mentioned": [
+        "WTBN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 589,
+      "notable_quotes": [
+        {
+          "speaker": "Jim Bianco",
+          "quote": "I'm not arguing the bonds of cheap. I am arguing that they are no longer expensive, and the basis for my argument is, where should bond yields be, roughly speaking, should they be a 10 or a hundred, like they were in Venezuela or zero, like they were in Japan or five or eight, or what is the appropriate level?"
+        },
+        {
+          "speaker": "Jim Bianco",
+          "quote": "Let's call that three-ish percent inflation, and I think inflation is going to stay sticky in the three percent range, and we could go through that if you want, and two-ish percent real growth. So, that will give you between five and six."
+        },
+        {
+          "speaker": "Jim Bianco",
+          "quote": "Triple C is, if you want to use analogy, it's detention. It's all the problem children and after stay after school because they've been bad. That's what a triple C company is."
+        }
+      ]
+    },
+    {
       "id": 596,
       "title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
       "source_type": "podcast",
@@ -341,7 +374,7 @@
       "key_takeaway": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-14",
       "archived_date": null,
@@ -13007,8 +13040,8 @@
       "term": "Return to Tangibles",
       "description": "A sponsor-described thesis that the next cycle favors real assets such as energy, metals, miners, precious metals, and critical metals after a decade of underinvestment.",
       "first_detected_date": "2026-10-06",
-      "last_mentioned_date": "2026-10-14",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-10-18",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The theme frames capital allocation toward physical-world assets exposed to inflation, geopolitics, and commodity supply constraints.",
@@ -13017,8 +13050,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 559,
       "first_detected_speaker": "J Mintzmyer",
-      "last_mentioned_episode_id": 577,
-      "last_mentioned_speaker": "Ben Inker"
+      "last_mentioned_episode_id": 589,
+      "last_mentioned_speaker": "Jim Bianco"
     },
     {
       "id": 296,
@@ -13061,8 +13094,8 @@
       "term": "AI Debt",
       "description": "AI Debt refers to the bond, leveraged loan, private credit, and project finance raised to fund AI labs, GPU purchases, and data center construction. In this episode, Zitron framed it as the main transmission channel from AI hype to credit-market stress.",
       "first_detected_date": "2026-10-01",
-      "last_mentioned_date": "2026-10-14",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-18",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because refinancing costs, spreads, and failed debt sales can determine whether AI infrastructure projects remain viable.",
@@ -13071,8 +13104,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 544,
       "first_detected_speaker": "Ed Zitron",
-      "last_mentioned_episode_id": 577,
-      "last_mentioned_speaker": "Ben Inker"
+      "last_mentioned_episode_id": 589,
+      "last_mentioned_speaker": "Jim Bianco"
     },
     {
       "id": 306,
@@ -13727,8 +13760,8 @@
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-10-18",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -13737,8 +13770,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Liaquat Ahamed",
-      "last_mentioned_episode_id": 548,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 589,
+      "last_mentioned_speaker": "Jim Bianco"
     },
     {
       "id": 279,
