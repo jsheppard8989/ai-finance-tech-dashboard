@@ -1,5 +1,25 @@
 [
   {
+    "id": 589,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
+    "episode_date": "2026-10-18",
+    "summary": "Jim Bianco argues that U.S. bond yields have finally reached a level that is no longer expensive relative to expected nominal growth, which he frames as roughly 5% to 6% nominal growth made up of about 3% inflation and 2% real growth. That shift is why he has become constructive on longer-duration Treasuries after six years of being bearish.\n\nHis inflation view is that the U.S. is likely stuck around 3% rather than returning to the low-inflation regime of the 2010s. He attributes this to tariffs, deglobalization, wars, supply constraints, and higher logistics and refined-product costs, especially diesel, which he thinks keep goods deflation from coming back.\n\nOn credit, Bianco says the recent AI-linked selloff is mostly idiosyncratic and concentrated in the lowest-quality triple-C cohort, not evidence of a broad high-yield collapse. He points to widening high-yield spreads and stress names like CoreWeave, but says single-B and double-B credit have not materially deteriorated.\n\nHe is bullish on AI as a real productivity transformation, while also suggesting the market is not yet in classic bubble-peak conditions because skepticism remains high. On policy, he criticizes the idea that the bond market should do the Fed\u2019s work, arguing that without a more rational framework, yields could overshoot to confiscatory levels and create unnecessary stress.",
+    "key_takeaways": [
+      "Bianco said bond yields are \"no longer expensive\" because he thinks fair value is tied to expected nominal growth of about 5% to 6%, not the near-zero-rate regime of the past.",
+      "Bianco said inflation is likely to stay \"sticky\" around 3% because tariffs, wars, deglobalization, and supply constraints have reduced the odds of returning to goods deflation.",
+      "Bianco argued that the recent AI-credit selloff is mostly concentrated in triple-C issuers and should not be read as a broad corporate credit bust.",
+      "Bianco said high-yield spreads widened to about 360 basis points and roughly 8% all-in yields, but he believes the stress is mostly in the weakest credits.",
+      "Bianco said the bond market can be dangerous if it is left to \"do the work for the Fed,\" because yields could overshoot to levels that damage financing conditions.",
+      "Bianco said AI is a real transformation but not yet a classic bubble peak, because skepticism remains elevated and compute demand still looks constrained.",
+      "Bianco said the bond market would need 10-year yields around 14% to 15% over the next 5 to 7 years for bonds to produce a negative return over a 10-year horizon."
+    ],
+    "investment_thesis": "Bianco\u2019s core claim is that long-duration Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
+    "key_tickers": [
+      "WTBN"
+    ]
+  },
+  {
     "id": 588,
     "podcast_name": "The a16z Show",
     "episode_title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
