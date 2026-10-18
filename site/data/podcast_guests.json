@@ -1,6 +1,18 @@
 [
   {
-    "id": 90845,
+    "id": 91026,
+    "name": "Mario Martone",
+    "slug": "mario-martone",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
+    "last_episode_title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-18",
+    "appearance_count": 1
+  },
+  {
+    "id": 91027,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90846,
+    "id": 91028,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90848,
+    "id": 91030,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 2
   },
   {
-    "id": 90847,
+    "id": 91029,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90849,
+    "id": 91031,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90850,
+    "id": 91032,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90851,
+    "id": 91033,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90852,
+    "id": 91034,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90853,
+    "id": 91035,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90854,
+    "id": 91036,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90855,
+    "id": 91037,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90856,
+    "id": 91038,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90857,
+    "id": 91039,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90858,
+    "id": 91040,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90859,
+    "id": 91041,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90860,
+    "id": 91042,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90861,
+    "id": 91043,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90862,
+    "id": 91044,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90863,
+    "id": 91045,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90864,
+    "id": 91046,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90865,
+    "id": 91047,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90866,
+    "id": 91048,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90867,
+    "id": 91049,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90868,
+    "id": 91050,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90869,
+    "id": 91051,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90870,
+    "id": 91052,
     "name": "Maggie Landers",
     "slug": "maggie-landers",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90871,
+    "id": 91053,
     "name": "Eddy Lazzarin",
     "slug": "eddy-lazzarin",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90872,
+    "id": 91054,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 90873,
+    "id": 91055,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -344,18 +356,6 @@
     "last_main_idea": "",
     "last_episode_title": "Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-23",
-    "appearance_count": 1
-  },
-  {
-    "id": 90874,
-    "name": "Clocktower Group",
-    "slug": "clocktower-group",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "",
-    "last_episode_title": "Energy Shock and Rate Hikes Could Cause a 2022 Style Bear Market | Eric Wallerstein | Clocktower Group",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-23",
     "appearance_count": 1
   }
