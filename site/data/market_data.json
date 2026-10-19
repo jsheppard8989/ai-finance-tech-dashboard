@@ -283,7 +283,7 @@
       "buyback_program_status": null
     },
     "_stale": true,
-    "_stale_since": "2026-10-19T13:43:23",
+    "_stale_since": "2026-10-19T14:20:48",
     "_stale_reason": "no recent coupon results parsed"
   },
   "curve_data": {
@@ -291,7 +291,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-10-19T13:43:21.466062",
+    "last_updated": "2026-10-19T14:20:46.903456",
     "as_of_date": "2026-10-16",
     "spreads": {
       "2s10s": {
@@ -332,8 +332,8 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 101.27,
-      "change_1d": 0.17,
+      "value": 101.33,
+      "change_1d": 0.23,
       "as_of": "2026-10-19",
       "signal": "elevated",
       "yahoo_symbol": "^MOVE",
@@ -351,7 +351,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-10-19T13:43:21.775155",
+    "last_updated": "2026-10-19T14:20:47.130412",
     "report_date": "2026-10-13",
     "prior_report_date": "2026-10-06",
     "change_source": "cftc_changes_row",
@@ -441,7 +441,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-19T13:43:05.144570",
+    "last_fetched": "2026-10-19T14:20:30.524447",
     "h100": {
       "daily_date": "Oct 19, 2026",
       "daily_date_iso": "2026-10-19",
@@ -590,7 +590,7 @@
     "as_of": "2026-10-19T13:53:08.419Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-10-19T13:43:05.543922",
+    "last_fetched": "2026-10-19T14:20:31.056889",
     "b200": {
       "points": [
         {
