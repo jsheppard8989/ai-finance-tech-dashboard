@@ -124,3 +124,45 @@ def test_transcript_snippet_mistranscriptions_fixed_by_global_replacements():
         assert bad not in blob, bad
     assert "Where's Anthropic in this" in blob
     assert "Alex Wissner-Gross" in blob
+
+
+def test_oliver_kharraz_snippet_fixed_whole_word_card_597():
+    """Card 597 (Zocdoc CEO Oliver Kharraz): the pundit last_proof_snippet is raw transcript, so the
+    durable fix is a whole-word global_name_replacements entry plus a name_replacements entry (Oct 19)."""
+    from export_data import _apply_summary_overrides
+    rec = [{
+        "name": "Oliver Kharraz",
+        "last_episode_title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+        "last_proof_snippet": "In this episode, A16Z General Partner Julie Yu sits down with Zock Duck founder and CEO Oliver Karaz to",
+        "bio": "Oliver Karaz is the CEO of Zocdoc.",
+    }]
+    _apply_summary_overrides(rec)
+    blob = " ".join(rec[0].values())
+    assert "Oliver Karaz" not in blob.replace("Oliver Kharraz", "")
+    assert "founder and CEO Oliver Kharraz to" in rec[0]["last_proof_snippet"]
+    assert rec[0]["bio"] == "Oliver Kharraz is the CEO of Zocdoc."
+
+
+def test_global_name_replacements_whole_word_and_skip_titles_and_slugs():
+    from export_data import _apply_global_name_replacements
+    rec = {"title": "Oliver Karaz interview", "slug": "oliver-karaz", "notes": "Oliver Karazov and Oliver Karaz.",
+           "notable_quotes": [{"speaker": "Oliver Karaz", "quote": "I'm Oliver Karaz."}]}
+    _apply_global_name_replacements(rec, [["Oliver Karaz", "Oliver Kharraz"]])
+    assert rec["title"] == "Oliver Karaz interview" and rec["slug"] == "oliver-karaz"
+    assert rec["notes"] == "Oliver Karazov and Oliver Kharraz."
+    assert rec["notable_quotes"][0] == {"speaker": "Oliver Kharraz", "quote": "I'm Oliver Kharraz."}
+
+
+def test_publish_guard_reads_global_name_replacements():
+    from publish_guard import _pairs
+    pairs = _pairs({"global_name_replacements": [["Oliver Karaz", "Oliver Kharraz"]]})
+    assert pairs == [("global_name_replacements", "Oliver Karaz", "Oliver Kharraz")]
+
+
+def test_card_595_jad_naous_unchanged_by_overrides():
+    """Card 595 already reads 'Jad Naous' everywhere (checked Oct 19); overrides must not touch it."""
+    from export_data import _apply_summary_overrides
+    rec = [{"summary": "Jad Naous argues software creation and running software are different.",
+            "last_proof_snippet": "Grepr CEO Jad Naous on telemetry"}]
+    _apply_summary_overrides(rec)
+    assert rec[0]["summary"].startswith("Jad Naous argues") and "Jad Naous" in rec[0]["last_proof_snippet"]

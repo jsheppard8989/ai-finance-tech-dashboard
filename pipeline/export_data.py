@@ -270,6 +270,8 @@ def _apply_summary_overrides(obj):
       Optional 'add_key_tickers' appends missing symbols to key_tickers (idempotent).
     - 'global_replacements': exact swaps applied to every string anywhere (except title
       fields), e.g. mis-transcribed speaker names in pundits/overton/podcastGuests.
+    - 'global_name_replacements': WHOLE-WORD [old, new] swaps on every string except titles,
+      slugs and URLs, raw transcript snippets included (Oct 19 2026, e.g. "Oliver Karaz").
     - 'ticker_renames' / 'global_drop_tickers': applied to every record that has
       tickers_mentioned, key_tickers, or ticker_analysis (after per-card rules).
     """
@@ -316,6 +318,11 @@ def _apply_summary_overrides(obj):
                 else:
                     walk(v)
     walk(obj)
+    # Oct 19 2026: whole-word swaps on EVERY string except titles/slugs/URLs, including raw
+    # transcript snippets (last_proof_snippet) that name_replacements deliberately skips.
+    global_name_reps = rules_all.get("global_name_replacements", [])
+    if global_name_reps:
+        _apply_global_name_replacements(obj, global_name_reps)
     name_reps = rules_all.get("name_replacements", [])
     if name_reps:
         _apply_name_replacements(obj, name_reps)
@@ -401,6 +408,32 @@ def replace_outside_quotes(text, replacements, key=None):
         out.append(text[a:b])
         pos = b
     return "".join(out)
+
+
+GLOBAL_NAME_SKIP_KEYS = frozenset(TITLE_FIELDS) | {
+    "slug", "url", "source_url", "link", "grokipedia_url", "net_worth_source", "audio_url", "transcript_path",
+}
+
+
+def _apply_global_name_replacements(obj, replacements, key=None):
+    """Whole-word [old, new] swaps on every string (quotes and transcript snippets included),
+    skipping title fields and slugs/URLs/paths."""
+    if isinstance(obj, dict):
+        for k in list(obj.keys()):
+            v = obj[k]
+            if isinstance(v, str):
+                if k not in GLOBAL_NAME_SKIP_KEYS:
+                    obj[k] = _replace_names(v, replacements)
+            else:
+                _apply_global_name_replacements(v, replacements, k)
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            if isinstance(v, str):
+                if key not in GLOBAL_NAME_SKIP_KEYS:
+                    obj[i] = _replace_names(v, replacements)
+            else:
+                _apply_global_name_replacements(v, replacements, key)
+    return obj
 
 
 def _apply_name_replacements(obj, replacements, key=None):
