@@ -20,7 +20,8 @@ origin/main, i.e. what is live):
   2. The open-linked-card script (hash -> open the matching <details>) is
      still in trap-map.html.
   3. No override fix undone: for every [old, new] pair in
-     summary_overrides.json name_replacements, global_replacements and
+     summary_overrides.json name_replacements, global_replacements,
+     global_name_replacements and
      summaries[].replacements, the count of `old` in public site files is not
      higher than in the baseline. The Moonshots fix (#413) stays applied: no
      global "Moonshots Live" guest fix, and no record tying Cathie Wood to a
@@ -123,7 +124,7 @@ def _public_rel_files(site: Path) -> list[str]:
 
 def _pairs(overrides: dict) -> list[tuple[str, str, str]]:
     out = []
-    for key in ("name_replacements", "global_replacements"):
+    for key in ("name_replacements", "global_replacements", "global_name_replacements"):
         for pair in overrides.get(key) or []:
             if isinstance(pair, (list, tuple)) and len(pair) == 2:
                 out.append((key, str(pair[0]), str(pair[1])))

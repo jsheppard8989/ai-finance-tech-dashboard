@@ -773,6 +773,12 @@
       "The company’s thesis is that"
     ]
   ],
+  "global_name_replacements": [
+    [
+      "Oliver Karaz",
+      "Oliver Kharraz"
+    ]
+  ],
   "name_replacements": [
     [
       "Amjag Masad",
@@ -1325,6 +1331,10 @@
     [
       "Grepper",
       "Grepr"
+    ],
+    [
+      "Oliver Karaz",
+      "Oliver Kharraz"
     ]
   ],
   "ticker_renames": [
