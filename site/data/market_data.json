@@ -283,7 +283,7 @@
       "buyback_program_status": null
     },
     "_stale": true,
-    "_stale_since": "2026-10-19T14:20:48",
+    "_stale_since": "2026-10-19T16:39:21",
     "_stale_reason": "no recent coupon results parsed"
   },
   "curve_data": {
@@ -291,13 +291,13 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-10-19T14:20:46.903456",
-    "as_of_date": "2026-10-16",
+    "last_updated": "2026-10-19T16:39:19.440251",
+    "as_of_date": "2026-10-19",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
-        "value_bps": 35.0,
+        "value_bps": 38.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "10Y - 2Y from Treasury daily curve"
@@ -305,7 +305,7 @@
       "10s30s": {
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
-        "value_bps": 34.0,
+        "value_bps": 33.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "30Y - 10Y from Treasury daily curve"
@@ -313,18 +313,18 @@
     },
     "levels": {
       "2y": {
-        "value": 4.74,
-        "change_1d_bps": -3.0,
+        "value": 4.77,
+        "change_1d_bps": 3.0,
         "source": "Treasury.gov"
       },
       "10y": {
-        "value": 5.09,
-        "change_1d_bps": -1.0,
+        "value": 5.15,
+        "change_1d_bps": 6.0,
         "source": "Treasury.gov"
       },
       "30y": {
-        "value": 5.43,
-        "change_1d_bps": 0.0,
+        "value": 5.48,
+        "change_1d_bps": 5.0,
         "source": "Treasury.gov"
       }
     },
@@ -332,8 +332,8 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 101.33,
-      "change_1d": 0.23,
+      "value": 101.3,
+      "change_1d": 0.2,
       "as_of": "2026-10-19",
       "signal": "elevated",
       "yahoo_symbol": "^MOVE",
@@ -351,7 +351,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-10-19T14:20:47.130412",
+    "last_updated": "2026-10-19T16:39:19.686491",
     "report_date": "2026-10-13",
     "prior_report_date": "2026-10-06",
     "change_source": "cftc_changes_row",
@@ -441,7 +441,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-19T14:20:30.524447",
+    "last_fetched": "2026-10-19T16:39:03.299586",
     "h100": {
       "daily_date": "Oct 19, 2026",
       "daily_date_iso": "2026-10-19",
@@ -590,7 +590,7 @@
     "as_of": "2026-10-19T13:53:08.419Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-10-19T14:20:31.056889",
+    "last_fetched": "2026-10-19T16:39:03.590158",
     "b200": {
       "points": [
         {
