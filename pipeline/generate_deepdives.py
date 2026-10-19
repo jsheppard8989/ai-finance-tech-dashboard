@@ -564,6 +564,9 @@ def overview_vs_card_overlap(summary: str, key_takeaway: str, overview: str) -> 
     return evidence_vs_card_overlap(summary, key_takeaway, overview)
 
 
+SPEAKER_LINE_RE = re.compile(r"^[A-Z][A-Za-z.'-]*(?:\s+[A-Z][A-Za-z.'-]+)+\s*:\s*\S")
+
+
 def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     """Require quote-first evidence, whats_new, falsifiers, and investment implication."""
     ev = _episode_evidence_text(content.get("episode_evidence"))
@@ -575,6 +578,9 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
         1
         for ln in lines
         if ln.startswith(("-", "•", '"', "'", "“", "Host:", "Guest:", "Author:"))
+        # The extraction prompt asks for "Speaker Name: verbatim quote" lines (no bullet or quote marks);
+        # those are quote-first too (ep 587 / insight 598 was blocked on this mismatch, 2026-10-18).
+        or SPEAKER_LINE_RE.match(ln)
     )
     if quote_like < 2 and quote_first_lines < 2:
         return False, "source_quotes must be quote-first (bullets or quoted lines)"
