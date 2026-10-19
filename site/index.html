@@ -2203,7 +2203,7 @@
         <details class="plumbing-expand">
           <summary>What this means</summary>
           <div class="expand-content">
-            <strong>H100 1Y contract</strong>: SemiAnalysis surveys 100+ neocloud providers and buyers monthly.<br><br>
+            <strong>H100 1Y contract</strong>: SemiAnalysis surveys 100+ neocloud providers and buyers monthly. The range shown is from the latest survey published, which can be a couple of months old; the label shows which month.<br><br>
             <strong>Sold Out</strong>: On-demand spot unavailable — scarcity signal.<br><br>
             Data lags several months. Trend direction matters more than absolute price.
           </div>
@@ -3335,7 +3335,7 @@
           computeEl.innerHTML = 
             '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
               '<span style="color: #a8b2d1;"><strong>H100:</strong> <span class="plumbing-num" style="color: #00d4ff;">' + vComposite + '</span></span>' +
-              '<span style="color: #a8b2d1;"><strong>1Y:</strong> <span class="plumbing-num">' + v1y + '</span></span>' +
+              '<span style="color: #a8b2d1;"><strong>1Y contract' + (contractPeriod !== '—' ? ' (' + contractPeriod + ' data)' : '') + ':</strong> <span class="plumbing-num">' + v1y + '</span></span>' +
               '<span style="color: #a8b2d1;"><strong>Spot:</strong> ' + vSpot + '</span>' +
             '</div>' +
             '<div style="margin-top: 0.2rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
@@ -3349,12 +3349,14 @@
           // Forward curve row (Kalshi-implied via AI Compute Tracker), kept separate from the SemiAnalysis block
           const fc = data.compute_forward_curve;
           if (fc && fc.h100 && Array.isArray(fc.h100.card) && fc.h100.card.length) {
-            const fwdText = fc.h100.card.map(p => p.tenor + ' $' + Number(p.price).toFixed(2)).join(' · ');
+            const fwdText = fc.h100.card.map(p => p.tenor + ' $' + Number(p.price).toFixed(2) + (p.quality === 'thin' ? ' <span style="color: #f59e0b;">(thin)</span>' : '')).join(' · ');
+            const anyThin = fc.h100.card.some(p => p.quality === 'thin');
             const fcAsOf = fc.as_of ? new Date(fc.as_of).toLocaleString('en-US', {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago'}) + ' CT' : '—';
             const fcStale = fc._stale ? ' <span style="color: #f59e0b;">(stale)</span>' : '';
             computeEl.innerHTML +=
               '<div style="margin-top: 0.25rem; color: #a8b2d1;"><strong>Fwd (H100):</strong> <span class="plumbing-num">' + fwdText + '</span>' + fcStale + '</div>' +
-              '<div style="color: #9ca3af; font-size: 0.65rem;">Curve as-of: ' + fcAsOf + ' · thin market, indicative only</div>';
+              '<div style="color: #9ca3af; font-size: 0.65rem;">Curve as-of: ' + fcAsOf + ' · indicative only</div>' +
+              (anyThin ? '<div style="color: #9ca3af; font-size: 0.65rem;"><span style="color: #f59e0b;">(thin)</span> = only a few usable market quotes sit behind that month\'s price, so treat it as a rough guide.</div>' : '');
           }
 
           // Build contracts-to-watch blurb
