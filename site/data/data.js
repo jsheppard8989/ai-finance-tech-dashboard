@@ -3,1211 +3,1211 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-18T22:46:24.543232",
-  chartsVersion: "2026-10-18T22:46:12.153822",
+  generatedAt: "2026-10-19T05:33:49.078617",
+  chartsVersion: "2026-10-19T05:33:21.596085",
   priceSnapshot: {
   "AAPL": {
     "price": 343.46,
     "change_pct": 4.27,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-18T22:45:20.389533",
+    "updated_at": "2026-10-19T05:32:17.179988",
     "price_14d_ago": 329.4
   },
   "AEP": {
     "price": 127.14,
     "change_pct": 6.57,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-18T22:45:20.618956",
+    "updated_at": "2026-10-19T05:32:17.408009",
     "price_14d_ago": 119.3
   },
   "AMD": {
     "price": 528.75,
     "change_pct": -12.97,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-18T22:45:20.995745",
+    "updated_at": "2026-10-19T05:32:17.799048",
     "price_14d_ago": 607.57
   },
   "AMGN": {
     "price": 432.49,
     "change_pct": 2.09,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-18T22:45:21.183291",
+    "updated_at": "2026-10-19T05:32:18.001435",
     "price_14d_ago": 423.64
   },
   "AMZN": {
     "price": 250.0,
     "change_pct": 1.35,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-18T22:45:21.365273",
+    "updated_at": "2026-10-19T05:32:18.196868",
     "price_14d_ago": 246.67
   },
   "APO": {
     "price": 110.78,
     "change_pct": -6.91,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-18T22:45:21.553299",
+    "updated_at": "2026-10-19T05:32:18.396778",
     "price_14d_ago": 119.0
   },
   "APTV": {
     "price": 44.86,
     "change_pct": 3.44,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-18T22:45:21.744725",
+    "updated_at": "2026-10-19T05:32:18.592716",
     "price_14d_ago": 43.37
   },
   "AVGO": {
     "price": 328.75,
     "change_pct": -7.42,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-18T22:45:22.187833",
+    "updated_at": "2026-10-19T05:32:19.002731",
     "price_14d_ago": 355.1
   },
   "BA": {
     "price": 190.21,
     "change_pct": 1.35,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-18T22:45:22.581977",
+    "updated_at": "2026-10-19T05:32:19.413551",
     "price_14d_ago": 187.68
   },
   "BABA": {
     "price": 109.11,
     "change_pct": 1.27,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-18T22:45:22.766234",
+    "updated_at": "2026-10-19T05:32:19.616634",
     "price_14d_ago": 107.74
   },
   "BAC": {
     "price": 51.23,
     "change_pct": -6.79,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-18T22:45:22.971281",
+    "updated_at": "2026-10-19T05:32:19.833123",
     "price_14d_ago": 54.96
   },
   "BAM": {
     "price": 45.32,
     "change_pct": 0.78,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-18T22:45:23.163867",
+    "updated_at": "2026-10-19T05:32:20.025622",
     "price_14d_ago": 44.97
   },
   "BIDU": {
     "price": 80.14,
     "change_pct": -7.58,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-18T22:45:23.526066",
+    "updated_at": "2026-10-19T05:32:20.484029",
     "price_14d_ago": 86.71
   },
   "BP": {
     "price": 50.21,
     "change_pct": 15.37,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-18T22:45:23.928668",
+    "updated_at": "2026-10-19T05:32:20.886738",
     "price_14d_ago": 43.52
   },
   "BTC": {
-    "price": 82403.37,
-    "change_pct": -3.69,
+    "price": 82127.23,
+    "change_pct": -4.01,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-18T22:45:24.124560",
+    "updated_at": "2026-10-19T05:32:21.074302",
     "price_14d_ago": 85557.56
   },
   "BTC-USD": {
-    "price": 82403.37,
-    "change_pct": -3.69,
+    "price": 82127.23,
+    "change_pct": -4.01,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-18T22:45:24.303043",
+    "updated_at": "2026-10-19T05:32:21.265898",
     "price_14d_ago": 85557.56
   },
   "BX": {
     "price": 106.61,
     "change_pct": -6.48,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-18T22:45:24.688648",
+    "updated_at": "2026-10-19T05:32:21.742611",
     "price_14d_ago": 114.0
   },
   "BYD": {
     "price": 70.04,
     "change_pct": 4.41,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-18T22:45:24.879814",
+    "updated_at": "2026-10-19T05:32:21.950691",
     "price_14d_ago": 67.08
   },
   "CAT": {
     "price": 730.76,
     "change_pct": -11.6,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-18T22:45:25.532551",
+    "updated_at": "2026-10-19T05:32:22.564957",
     "price_14d_ago": 826.64
   },
   "CCJ": {
     "price": 81.52,
     "change_pct": -6.17,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-18T22:45:25.746476",
+    "updated_at": "2026-10-19T05:32:22.771451",
     "price_14d_ago": 86.88
   },
   "CEG": {
     "price": 271.37,
     "change_pct": 2.57,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-18T22:45:25.938660",
+    "updated_at": "2026-10-19T05:32:22.972499",
     "price_14d_ago": 264.58
   },
   "COIN": {
     "price": 173.16,
     "change_pct": -8.87,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-18T22:45:26.308167",
+    "updated_at": "2026-10-19T05:32:23.434146",
     "price_14d_ago": 190.02
   },
   "COPPER": {
-    "price": 6.62,
-    "change_pct": 0.98,
+    "price": 6.59,
+    "change_pct": 0.46,
     "name": "Copper",
-    "updated_at": "2026-10-18T22:45:26.493819",
+    "updated_at": "2026-10-19T05:32:23.624686",
     "price_14d_ago": 6.56
   },
   "CORN": {
     "price": 18.19,
     "change_pct": -6.72,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-18T22:45:26.679157",
+    "updated_at": "2026-10-19T05:32:23.820262",
     "price_14d_ago": 19.5
   },
   "CRM": {
     "price": 240.7,
     "change_pct": 6.83,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-18T22:45:26.861831",
+    "updated_at": "2026-10-19T05:32:24.020616",
     "price_14d_ago": 225.31
   },
   "CROWD": {
     "price": 227.39,
     "change_pct": -13.45,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-18T22:45:27.122082",
+    "updated_at": "2026-10-19T05:32:24.223000",
     "price_14d_ago": 262.74
   },
   "DBC": {
     "price": 33.74,
     "change_pct": 5.44,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-18T22:45:27.895571",
+    "updated_at": "2026-10-19T05:32:24.984294",
     "price_14d_ago": 32.0
   },
   "DELL": {
     "price": 451.71,
     "change_pct": -16.29,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-18T22:45:28.087962",
+    "updated_at": "2026-10-19T05:32:25.175599",
     "price_14d_ago": 539.59
   },
   "DIS": {
     "price": 110.59,
     "change_pct": 4.91,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-18T22:45:28.510042",
+    "updated_at": "2026-10-19T05:32:25.606385",
     "price_14d_ago": 105.41
   },
   "DOCS": {
     "price": 30.97,
     "change_pct": 16.78,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-18T22:45:28.695394",
+    "updated_at": "2026-10-19T05:32:25.799650",
     "price_14d_ago": 26.52
   },
   "DVN": {
     "price": 50.73,
     "change_pct": 8.86,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-18T22:45:28.894686",
+    "updated_at": "2026-10-19T05:32:26.011414",
     "price_14d_ago": 46.6
   },
   "EBAY": {
     "price": 120.28,
     "change_pct": 14.32,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-18T22:45:29.159834",
+    "updated_at": "2026-10-19T05:32:26.205975",
     "price_14d_ago": 105.21
   },
   "ETH-USD": {
-    "price": 2420.14,
-    "change_pct": -10.28,
+    "price": 2415.72,
+    "change_pct": -10.45,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-18T22:45:29.528493",
+    "updated_at": "2026-10-19T05:32:26.633077",
     "price_14d_ago": 2697.52
   },
   "F": {
     "price": 12.43,
     "change_pct": 1.06,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-18T22:45:29.734219",
+    "updated_at": "2026-10-19T05:32:26.864343",
     "price_14d_ago": 12.3
   },
   "FB": {
     "price": 45.71,
     "change_pct": 0.41,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-18T22:45:29.917418",
+    "updated_at": "2026-10-19T05:32:27.060380",
     "price_14d_ago": 45.53
   },
   "FCX": {
     "price": 69.54,
     "change_pct": -1.77,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-18T22:45:30.118427",
+    "updated_at": "2026-10-19T05:32:27.277794",
     "price_14d_ago": 70.79
   },
   "FSK": {
     "price": 10.33,
     "change_pct": -7.02,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-18T22:45:31.280852",
+    "updated_at": "2026-10-19T05:32:28.480366",
     "price_14d_ago": 11.11
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-18T22:45:31.754292",
+    "updated_at": "2026-10-19T05:32:28.866397",
     "price_14d_ago": null
   },
   "GD": {
     "price": 344.23,
     "change_pct": 3.58,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-18T22:45:32.001017",
+    "updated_at": "2026-10-19T05:32:29.091071",
     "price_14d_ago": 332.34
   },
   "GE": {
     "price": 313.83,
     "change_pct": -1.28,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-18T22:45:32.245038",
+    "updated_at": "2026-10-19T05:32:29.325064",
     "price_14d_ago": 317.89
   },
   "GLD": {
     "price": 382.01,
     "change_pct": -0.23,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-18T22:45:32.504629",
+    "updated_at": "2026-10-19T05:32:29.514976",
     "price_14d_ago": 382.89
   },
   "GME": {
     "price": 26.81,
     "change_pct": 12.84,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-18T22:45:32.691891",
+    "updated_at": "2026-10-19T05:32:29.719218",
     "price_14d_ago": 23.76
   },
   "GOLD": {
-    "price": 4199.3,
-    "change_pct": 0.3,
+    "price": 4186.2,
+    "change_pct": -0.01,
     "name": "Gold",
-    "updated_at": "2026-10-18T22:45:32.931563",
+    "updated_at": "2026-10-19T05:32:29.952932",
     "price_14d_ago": 4186.7
   },
   "GOOG": {
     "price": 336.91,
     "change_pct": -0.12,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-18T22:45:33.120000",
+    "updated_at": "2026-10-19T05:32:30.145812",
     "price_14d_ago": 337.32
   },
   "GOOGL": {
     "price": 340.59,
     "change_pct": -0.1,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-18T22:45:33.305725",
+    "updated_at": "2026-10-19T05:32:30.340563",
     "price_14d_ago": 340.92
   },
   "GS": {
     "price": 881.26,
     "change_pct": -3.82,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-18T22:45:33.500600",
+    "updated_at": "2026-10-19T05:32:30.545846",
     "price_14d_ago": 916.24
   },
   "Gold": {
     "price": 39.35,
     "change_pct": -8.23,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-18T22:45:33.701418",
+    "updated_at": "2026-10-19T05:32:30.745671",
     "price_14d_ago": 42.88
   },
   "HFGM": {
     "price": 30.78,
     "change_pct": -1.82,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-18T22:45:33.943996",
+    "updated_at": "2026-10-19T05:32:30.945579",
     "price_14d_ago": 31.35
   },
   "HG": {
     "price": 36.21,
     "change_pct": 8.58,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-18T22:45:34.128812",
+    "updated_at": "2026-10-19T05:32:31.151054",
     "price_14d_ago": 33.35
   },
   "IBM": {
     "price": 232.14,
     "change_pct": 5.52,
     "name": "International Business Machines",
-    "updated_at": "2026-10-18T22:45:34.908445",
+    "updated_at": "2026-10-19T05:32:31.961859",
     "price_14d_ago": 219.99
   },
   "IEF": {
     "price": 90.42,
     "change_pct": 1.08,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-18T22:45:35.183162",
+    "updated_at": "2026-10-19T05:32:32.170992",
     "price_14d_ago": 89.45
   },
   "INDA": {
     "price": 47.66,
     "change_pct": 1.53,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-18T22:45:35.376751",
+    "updated_at": "2026-10-19T05:32:32.370562",
     "price_14d_ago": 46.94
   },
   "INFY": {
     "price": 12.24,
     "change_pct": 15.04,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-18T22:45:35.574293",
+    "updated_at": "2026-10-19T05:32:32.576086",
     "price_14d_ago": 10.64
   },
   "INTC": {
     "price": 89.85,
     "change_pct": -22.5,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-18T22:45:35.771700",
+    "updated_at": "2026-10-19T05:32:32.785194",
     "price_14d_ago": 115.93
   },
   "IWD": {
     "price": 255.77,
     "change_pct": 2.73,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-18T22:45:35.975199",
+    "updated_at": "2026-10-19T05:32:32.997761",
     "price_14d_ago": 248.98
   },
   "IWF": {
     "price": 121.48,
     "change_pct": -3.05,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-18T22:45:36.224477",
+    "updated_at": "2026-10-19T05:32:33.202127",
     "price_14d_ago": 125.3
   },
   "IWM": {
     "price": 270.44,
     "change_pct": -3.07,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-18T22:45:36.423219",
+    "updated_at": "2026-10-19T05:32:33.403497",
     "price_14d_ago": 279.01
   },
   "JNJ": {
     "price": 255.56,
     "change_pct": -4.49,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-18T22:45:36.657727",
+    "updated_at": "2026-10-19T05:32:33.627233",
     "price_14d_ago": 267.57
   },
   "JPM": {
     "price": 339.72,
     "change_pct": 1.42,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-18T22:45:36.867525",
+    "updated_at": "2026-10-19T05:32:33.840085",
     "price_14d_ago": 334.98
   },
   "KKR": {
     "price": 86.21,
     "change_pct": -7.48,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-18T22:45:37.057950",
+    "updated_at": "2026-10-19T05:32:34.047435",
     "price_14d_ago": 93.18
   },
   "LLY": {
     "price": 1257.03,
     "change_pct": 6.11,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-18T22:45:37.727064",
+    "updated_at": "2026-10-19T05:32:34.649771",
     "price_14d_ago": 1184.63
   },
   "LMT": {
     "price": 552.09,
     "change_pct": 7.79,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-18T22:45:37.959128",
+    "updated_at": "2026-10-19T05:32:34.875614",
     "price_14d_ago": 512.21
   },
   "LYFT": {
     "price": 16.82,
     "change_pct": 11.61,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-18T22:45:38.722302",
+    "updated_at": "2026-10-19T05:32:35.634763",
     "price_14d_ago": 15.07
   },
   "META": {
     "price": 709.33,
     "change_pct": -3.99,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-18T22:45:39.156507",
+    "updated_at": "2026-10-19T05:32:36.084269",
     "price_14d_ago": 738.79
   },
   "MGM": {
     "price": 28.6,
     "change_pct": -9.26,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-18T22:45:39.359074",
+    "updated_at": "2026-10-19T05:32:36.283784",
     "price_14d_ago": 31.52
   },
   "MINE": {
     "price": 2.47,
     "change_pct": -7.84,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-18T22:45:39.605621",
+    "updated_at": "2026-10-19T05:32:36.473947",
     "price_14d_ago": 2.68
   },
   "MRK": {
     "price": 145.95,
     "change_pct": -2.23,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-18T22:45:39.832289",
+    "updated_at": "2026-10-19T05:32:36.707196",
     "price_14d_ago": 149.28
   },
   "MRNA": {
     "price": 218.01,
     "change_pct": 7.15,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-18T22:45:40.031464",
+    "updated_at": "2026-10-19T05:32:36.897732",
     "price_14d_ago": 203.46
   },
   "MS": {
     "price": 180.57,
     "change_pct": -6.32,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-18T22:45:40.241369",
+    "updated_at": "2026-10-19T05:32:37.109193",
     "price_14d_ago": 192.76
   },
   "MSFT": {
     "price": 529.05,
     "change_pct": 3.95,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-18T22:45:40.452590",
+    "updated_at": "2026-10-19T05:32:37.309085",
     "price_14d_ago": 508.96
   },
   "MSTR": {
     "price": 136.83,
     "change_pct": -11.53,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-18T22:45:40.639281",
+    "updated_at": "2026-10-19T05:32:37.498509",
     "price_14d_ago": 154.67
   },
   "MU": {
     "price": 878.84,
     "change_pct": -17.49,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-18T22:45:40.844647",
+    "updated_at": "2026-10-19T05:32:37.707849",
     "price_14d_ago": 1065.08
   },
   "NEE": {
     "price": 79.8,
     "change_pct": 5.15,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-18T22:45:41.249719",
+    "updated_at": "2026-10-19T05:32:38.105333",
     "price_14d_ago": 75.89
   },
   "NFLX": {
     "price": 70.53,
     "change_pct": 0.33,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-18T22:45:41.429773",
+    "updated_at": "2026-10-19T05:32:38.284351",
     "price_14d_ago": 70.3
   },
   "NKE": {
     "price": 37.13,
     "change_pct": 3.6,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-18T22:45:42.006850",
+    "updated_at": "2026-10-19T05:32:38.834755",
     "price_14d_ago": 35.84
   },
   "NOC": {
     "price": 519.86,
     "change_pct": 3.02,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-18T22:45:42.287866",
+    "updated_at": "2026-10-19T05:32:39.056631",
     "price_14d_ago": 504.61
   },
   "NVDA": {
     "price": 214.13,
     "change_pct": -5.76,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-18T22:45:42.482798",
+    "updated_at": "2026-10-19T05:32:39.256679",
     "price_14d_ago": 227.21
   },
   "NVS": {
     "price": 150.62,
     "change_pct": 3.37,
     "name": "Novartis AG",
-    "updated_at": "2026-10-18T22:45:42.845423",
+    "updated_at": "2026-10-19T05:32:39.642258",
     "price_14d_ago": 145.71
   },
   "Nasdaq": {
     "price": 709.8,
     "change_pct": -3.81,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-18T22:45:43.033359",
+    "updated_at": "2026-10-19T05:32:39.840693",
     "price_14d_ago": 737.93
   },
   "OKLO": {
     "price": 27.97,
     "change_pct": -24.63,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-18T22:45:43.389831",
+    "updated_at": "2026-10-19T05:32:40.237425",
     "price_14d_ago": 37.11
   },
   "ORCL": {
     "price": 128.23,
     "change_pct": -6.94,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-18T22:45:43.775834",
+    "updated_at": "2026-10-19T05:32:40.630713",
     "price_14d_ago": 137.79
   },
   "PALL": {
     "price": 20.17,
     "change_pct": -8.9,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-18T22:45:43.960219",
+    "updated_at": "2026-10-19T05:32:40.824788",
     "price_14d_ago": 22.14
   },
   "PANW": {
     "price": 342.0,
     "change_pct": -11.95,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-18T22:45:44.149717",
+    "updated_at": "2026-10-19T05:32:41.010378",
     "price_14d_ago": 388.41
   },
   "PBR": {
     "price": 26.0,
     "change_pct": 25.91,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-18T22:45:44.350582",
+    "updated_at": "2026-10-19T05:32:41.217252",
     "price_14d_ago": 20.65
   },
   "PFE": {
     "price": 29.58,
     "change_pct": 2.99,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-18T22:45:44.749385",
+    "updated_at": "2026-10-19T05:32:41.631159",
     "price_14d_ago": 28.72
   },
   "PLTM": {
     "price": 15.62,
     "change_pct": -4.58,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-18T22:45:44.932994",
+    "updated_at": "2026-10-19T05:32:41.821259",
     "price_14d_ago": 16.37
   },
   "PLTR": {
     "price": 186.03,
     "change_pct": -0.5,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-18T22:45:45.179363",
+    "updated_at": "2026-10-19T05:32:42.007188",
     "price_14d_ago": 186.97
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-18T22:45:45.541067",
+    "updated_at": "2026-10-19T05:32:42.426054",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.51,
     "change_pct": -0.21,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-18T22:45:45.723510",
+    "updated_at": "2026-10-19T05:32:42.618246",
     "price_14d_ago": 28.57
   },
   "PSBD": {
     "price": 9.6,
     "change_pct": -3.71,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-18T22:45:45.909552",
+    "updated_at": "2026-10-19T05:32:42.812786",
     "price_14d_ago": 9.97
   },
   "PYPL": {
     "price": 56.7,
     "change_pct": 5.21,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-18T22:45:46.096336",
+    "updated_at": "2026-10-19T05:32:43.008365",
     "price_14d_ago": 53.89
   },
   "QQQ": {
     "price": 709.8,
     "change_pct": -3.81,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-18T22:45:46.484956",
+    "updated_at": "2026-10-19T05:32:43.463359",
     "price_14d_ago": 737.93
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-18T22:45:46.674592",
+    "updated_at": "2026-10-19T05:32:43.657975",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 49.55,
     "change_pct": 20.33,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-18T22:45:46.859368",
+    "updated_at": "2026-10-19T05:32:43.850815",
     "price_14d_ago": 41.18
   },
   "RKLB": {
     "price": 50.84,
     "change_pct": -27.06,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-18T22:45:47.245554",
+    "updated_at": "2026-10-19T05:32:44.235652",
     "price_14d_ago": 69.7
   },
   "Russell": {
     "price": 270.44,
     "change_pct": -3.07,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-18T22:45:47.836444",
+    "updated_at": "2026-10-19T05:32:44.824065",
     "price_14d_ago": 279.01
   },
   "S&P": {
     "price": 7659.44,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-10-18T22:45:48.026253",
+    "updated_at": "2026-10-19T05:32:45.013885",
     "price_14d_ago": 7670.84
   },
   "S&P 500": {
     "price": 7659.44,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-10-18T22:45:48.206165",
+    "updated_at": "2026-10-19T05:32:45.204018",
     "price_14d_ago": 7670.84
   },
   "SAMSUNG ELECTRONICS": {
-    "price": 216750.0,
-    "change_pct": -19.72,
+    "price": 218000.0,
+    "change_pct": -19.26,
     "name": "SamsungElec",
-    "updated_at": "2026-10-18T22:45:48.410287",
+    "updated_at": "2026-10-19T05:32:45.410186",
     "price_14d_ago": 270000.0
   },
   "SAP": {
     "price": 224.29,
     "change_pct": 6.37,
     "name": "SAP  SE",
-    "updated_at": "2026-10-18T22:45:48.608893",
+    "updated_at": "2026-10-19T05:32:45.614665",
     "price_14d_ago": 210.85
   },
   "SF": {
     "price": 67.56,
     "change_pct": -3.07,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-18T22:45:48.811492",
+    "updated_at": "2026-10-19T05:32:45.825506",
     "price_14d_ago": 69.7
   },
   "SK HYNIX": {
-    "price": 1257000.0,
-    "change_pct": -28.9,
+    "price": 1277000.0,
+    "change_pct": -27.77,
     "name": "SK hynix",
-    "updated_at": "2026-10-18T22:45:49.203924",
+    "updated_at": "2026-10-19T05:32:46.220986",
     "price_14d_ago": 1768000.0
   },
   "SLB": {
     "price": 49.5,
     "change_pct": -0.74,
     "name": "SLB Limited",
-    "updated_at": "2026-10-18T22:45:49.424237",
+    "updated_at": "2026-10-19T05:32:46.442237",
     "price_14d_ago": 49.87
   },
   "SMH": {
     "price": 539.79,
     "change_pct": -11.06,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-18T22:45:49.613519",
+    "updated_at": "2026-10-19T05:32:46.646300",
     "price_14d_ago": 606.9
   },
   "SMR": {
     "price": 5.83,
     "change_pct": -24.87,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-18T22:45:49.800671",
+    "updated_at": "2026-10-19T05:32:46.835235",
     "price_14d_ago": 7.76
   },
   "SNAP": {
     "price": 6.13,
     "change_pct": 14.79,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-18T22:45:50.069363",
+    "updated_at": "2026-10-19T05:32:47.020152",
     "price_14d_ago": 5.34
   },
   "SNWGF": {
     "price": 10.33,
     "change_pct": -14.34,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-18T22:45:50.257576",
+    "updated_at": "2026-10-19T05:32:47.246313",
     "price_14d_ago": 12.06
   },
   "SOYB": {
     "price": 26.88,
     "change_pct": -2.57,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-18T22:45:50.446401",
+    "updated_at": "2026-10-19T05:32:47.435575",
     "price_14d_ago": 27.59
   },
   "SPCE": {
     "price": 2.43,
     "change_pct": -20.07,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-18T22:45:50.628378",
+    "updated_at": "2026-10-19T05:32:47.627043",
     "price_14d_ago": 3.04
   },
   "SPX": {
     "price": 7659.44,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-10-18T22:45:51.183489",
+    "updated_at": "2026-10-19T05:32:48.243378",
     "price_14d_ago": 7670.84
   },
   "SPY": {
     "price": 763.25,
     "change_pct": -0.12,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-18T22:45:51.396234",
+    "updated_at": "2026-10-19T05:32:48.486779",
     "price_14d_ago": 764.2
   },
   "SQQQ": {
     "price": 38.9,
     "change_pct": 12.23,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-18T22:45:51.600520",
+    "updated_at": "2026-10-19T05:32:48.756468",
     "price_14d_ago": 34.66
   },
   "SQUARE": {
     "price": 77.89,
     "change_pct": 5.19,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-18T22:45:51.788403",
+    "updated_at": "2026-10-19T05:32:48.944735",
     "price_14d_ago": 74.05
   },
   "Semiconductors": {
     "price": 539.79,
     "change_pct": -11.06,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-18T22:45:51.987723",
+    "updated_at": "2026-10-19T05:32:49.144436",
     "price_14d_ago": 606.9
   },
   "T": {
     "price": 23.44,
     "change_pct": -4.25,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-18T22:45:52.200334",
+    "updated_at": "2026-10-19T05:32:49.427276",
     "price_14d_ago": 24.48
   },
   "TDOC": {
     "price": 5.67,
     "change_pct": -1.39,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-18T22:45:52.580568",
+    "updated_at": "2026-10-19T05:32:49.989397",
     "price_14d_ago": 5.75
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 250.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-18T22:45:53.124992",
+    "updated_at": "2026-10-19T05:32:50.565936",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 80.05,
     "change_pct": 2.33,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-18T22:45:53.316724",
+    "updated_at": "2026-10-19T05:32:50.770073",
     "price_14d_ago": 78.23
   },
   "TSLA": {
     "price": 354.72,
     "change_pct": 0.53,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-18T22:45:53.497143",
+    "updated_at": "2026-10-19T05:32:50.959682",
     "price_14d_ago": 352.84
   },
   "TSM": {
     "price": 412.61,
     "change_pct": -9.7,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-18T22:45:53.737277",
+    "updated_at": "2026-10-19T05:32:51.163371",
     "price_14d_ago": 456.94
   },
   "UBER": {
     "price": 70.35,
     "change_pct": 1.43,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-18T22:45:54.090082",
+    "updated_at": "2026-10-19T05:32:51.612624",
     "price_14d_ago": 69.36
   },
   "UNG": {
     "price": 10.66,
     "change_pct": 3.0,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-18T22:45:54.272427",
+    "updated_at": "2026-10-19T05:32:51.807109",
     "price_14d_ago": 10.35
   },
   "URANIUM": {
     "price": 35.43,
     "change_pct": -11.51,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-18T22:45:54.651301",
+    "updated_at": "2026-10-19T05:32:52.205139",
     "price_14d_ago": 40.04
   },
   "USD": {
     "price": 76.96,
     "change_pct": -19.46,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-18T22:45:54.865432",
+    "updated_at": "2026-10-19T05:32:52.446310",
     "price_14d_ago": 95.55
   },
   "USDX": {
     "price": 25.62,
     "change_pct": 0.16,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-18T22:45:55.046469",
+    "updated_at": "2026-10-19T05:32:52.644718",
     "price_14d_ago": 25.58
   },
   "USO": {
     "price": 161.76,
     "change_pct": 12.84,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-18T22:45:55.228078",
+    "updated_at": "2026-10-19T05:32:52.845072",
     "price_14d_ago": 143.35
   },
   "UTHR": {
     "price": 533.12,
     "change_pct": 10.73,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-18T22:45:55.413761",
+    "updated_at": "2026-10-19T05:32:53.032746",
     "price_14d_ago": 481.47
   },
   "UUU": {
     "price": 5.29,
     "change_pct": 8.4,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-18T22:45:55.597325",
+    "updated_at": "2026-10-19T05:32:53.231489",
     "price_14d_ago": 4.88
   },
   "V": {
     "price": 402.61,
     "change_pct": 10.04,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-18T22:45:55.972193",
+    "updated_at": "2026-10-19T05:32:53.625553",
     "price_14d_ago": 365.88
   },
   "VEEV": {
     "price": 310.36,
     "change_pct": 11.41,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-18T22:45:56.413473",
+    "updated_at": "2026-10-19T05:32:54.012759",
     "price_14d_ago": 278.57
   },
   "VIX": {
-    "price": 19.99,
-    "change_pct": 24.63,
+    "price": 18.67,
+    "change_pct": 14.26,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-18T22:45:57.143890",
-    "price_14d_ago": 16.04
+    "updated_at": "2026-10-19T05:32:54.784974",
+    "price_14d_ago": 16.34
   },
   "VLO": {
     "price": 444.71,
     "change_pct": 14.7,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-18T22:45:57.352572",
+    "updated_at": "2026-10-19T05:32:55.001354",
     "price_14d_ago": 387.72
   },
   "VRTX": {
     "price": 499.74,
     "change_pct": -5.12,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-18T22:45:57.534199",
+    "updated_at": "2026-10-19T05:32:55.192767",
     "price_14d_ago": 526.73
   },
   "WFC": {
     "price": 83.87,
     "change_pct": 4.21,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-18T22:45:57.748718",
+    "updated_at": "2026-10-19T05:32:55.427563",
     "price_14d_ago": 80.48
   },
   "WIT": {
     "price": 1.95,
     "change_pct": 21.12,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-18T22:45:57.947288",
+    "updated_at": "2026-10-19T05:32:55.638209",
     "price_14d_ago": 1.61
   },
   "WMT": {
     "price": 118.81,
     "change_pct": 11.25,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-18T22:45:58.159782",
+    "updated_at": "2026-10-19T05:32:55.861472",
     "price_14d_ago": 106.8
   },
   "WTBN": {
     "price": 24.19,
     "change_pct": 1.02,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-18T22:45:58.345198",
+    "updated_at": "2026-10-19T05:32:56.058059",
     "price_14d_ago": 23.94
   },
   "WTI": {
-    "price": 97.44,
-    "change_pct": 7.76,
+    "price": 98.4,
+    "change_pct": 8.83,
     "name": "WTI Crude",
-    "updated_at": "2026-10-18T22:45:58.527267",
+    "updated_at": "2026-10-19T05:32:56.247703",
     "price_14d_ago": 90.42
   },
   "WTI CRUDE OIL": {
-    "price": 97.44,
-    "change_pct": 7.76,
+    "price": 98.4,
+    "change_pct": 8.83,
     "name": "WTI Crude",
-    "updated_at": "2026-10-18T22:45:58.710199",
+    "updated_at": "2026-10-19T05:32:56.436257",
     "price_14d_ago": 90.42
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-18T22:45:59.144381",
+    "updated_at": "2026-10-19T05:32:56.820964",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 178.98,
     "change_pct": 10.93,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-18T22:45:59.362373",
+    "updated_at": "2026-10-19T05:32:57.052738",
     "price_14d_ago": 161.35
   },
   "ZIM": {
     "price": 29.21,
     "change_pct": 1.6,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-18T22:45:59.711091",
+    "updated_at": "2026-10-19T05:32:57.442201",
     "price_14d_ago": 28.75
   },
   "HIMS": {
     "price": 28.07,
     "change_pct": -2.2,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-18T22:46:00.063284",
+    "updated_at": "2026-10-19T05:32:57.887039",
     "price_14d_ago": 28.7
   },
   "GDRX": {
     "price": 3.36,
     "change_pct": 4.02,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-18T22:46:00.237070",
+    "updated_at": "2026-10-19T05:32:58.087177",
     "price_14d_ago": 3.23
   },
   "TEM": {
     "price": 64.72,
     "change_pct": -21.63,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-18T22:46:00.420984",
+    "updated_at": "2026-10-19T05:32:58.274103",
     "price_14d_ago": 82.58
   },
   "GH": {
     "price": 158.6,
     "change_pct": -10.76,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-18T22:46:00.598044",
+    "updated_at": "2026-10-19T05:32:58.465942",
     "price_14d_ago": 177.73
   },
   "ABT": {
     "price": 104.89,
     "change_pct": 3.9,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-18T22:46:00.795626",
+    "updated_at": "2026-10-19T05:32:58.694183",
     "price_14d_ago": 100.95
   },
   "ARM": {
     "price": 227.8,
     "change_pct": -22.43,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-18T22:45:21.935751",
+    "updated_at": "2026-10-19T05:32:18.796028",
     "price_14d_ago": 293.67
   },
   "HOOD": {
     "price": 98.87,
     "change_pct": -14.93,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-18T22:45:34.311560",
+    "updated_at": "2026-10-19T05:32:31.340247",
     "price_14d_ago": 116.22
   },
   "SPOT": {
     "price": 530.46,
     "change_pct": 7.45,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-18T22:45:50.816185",
+    "updated_at": "2026-10-19T05:32:47.811617",
     "price_14d_ago": 493.66
   },
   "CRWV": {
     "price": 61.39,
     "change_pct": -28.56,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-18T22:45:27.502926",
+    "updated_at": "2026-10-19T05:32:24.598911",
     "price_14d_ago": 85.93
   },
   "LENS": {
     "price": 44.0,
     "change_pct": 2.26,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-18T22:45:37.247569",
+    "updated_at": "2026-10-19T05:32:34.235689",
     "price_14d_ago": 43.03
   },
   "TCEHY": {
     "price": 52.75,
     "change_pct": -3.23,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-18T22:45:52.400856",
+    "updated_at": "2026-10-19T05:32:49.781052",
     "price_14d_ago": 54.51
   },
   "SHOP": {
     "price": 169.52,
     "change_pct": 14.34,
     "name": "Shopify Inc.",
-    "updated_at": "2026-10-18T22:45:48.997293",
+    "updated_at": "2026-10-19T05:32:46.017434",
     "price_14d_ago": 148.26
   },
   "BWET": {
     "price": 898.97,
     "change_pct": 21.61,
     "name": "Breakwave Tanker Shipping ETF",
-    "updated_at": "2026-10-18T22:45:24.487521",
+    "updated_at": "2026-10-19T05:32:21.533979",
     "price_14d_ago": 739.2
   },
   "CRWD": {
     "price": 227.39,
     "change_pct": -13.45,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-18T22:45:27.314309",
+    "updated_at": "2026-10-19T05:32:24.410620",
     "price_14d_ago": 262.74
   },
   "DHT": {
     "price": 23.6,
     "change_pct": 5.26,
     "name": "DHT Holdings, Inc.",
-    "updated_at": "2026-10-18T22:45:28.287141",
+    "updated_at": "2026-10-19T05:32:25.380082",
     "price_14d_ago": 22.42
   },
   "ECO": {
     "price": 89.7,
     "change_pct": 11.78,
     "name": "Okeanis Eco Tankers Corp.",
-    "updated_at": "2026-10-18T22:45:29.342666",
+    "updated_at": "2026-10-19T05:32:26.400665",
     "price_14d_ago": 80.25
   },
   "FMCC": {
     "price": 3.43,
     "change_pct": -9.74,
     "name": "Freddie Mac",
-    "updated_at": "2026-10-18T22:45:30.687876",
+    "updated_at": "2026-10-19T05:32:27.870303",
     "price_14d_ago": 3.8
   },
   "FNMA": {
     "price": 3.76,
     "change_pct": -9.83,
     "name": "Fannie Mae",
-    "updated_at": "2026-10-18T22:45:30.888073",
+    "updated_at": "2026-10-19T05:32:28.076309",
     "price_14d_ago": 4.17
   },
   "FRO": {
     "price": 52.49,
     "change_pct": 7.28,
     "name": "Frontline Plc",
-    "updated_at": "2026-10-18T22:45:31.088887",
+    "updated_at": "2026-10-19T05:32:28.282293",
     "price_14d_ago": 48.93
   },
   "FTNT": {
     "price": 169.13,
     "change_pct": -3.88,
     "name": "Fortinet, Inc.",
-    "updated_at": "2026-10-18T22:45:31.462751",
+    "updated_at": "2026-10-19T05:32:28.673961",
     "price_14d_ago": 175.96
   },
   "QLYS": {
     "price": 181.05,
     "change_pct": 1.51,
     "name": "Qualys, Inc.",
-    "updated_at": "2026-10-18T22:45:46.281344",
+    "updated_at": "2026-10-19T05:32:43.200158",
     "price_14d_ago": 178.35
   },
   "RITM": {
     "price": 8.66,
     "change_pct": -5.04,
     "name": "Rithm Capital Corp.",
-    "updated_at": "2026-10-18T22:45:47.060481",
+    "updated_at": "2026-10-19T05:32:44.049780",
     "price_14d_ago": 9.12
   },
   "RPD": {
     "price": 12.61,
     "change_pct": 7.73,
     "name": "Rapid7, Inc.",
-    "updated_at": "2026-10-18T22:45:47.433906",
+    "updated_at": "2026-10-19T05:32:44.421343",
     "price_14d_ago": 11.7
   },
   "AMAT": {
     "price": 409.29,
     "change_pct": -20.06,
     "name": "Applied Materials, Inc.",
-    "updated_at": "2026-10-18T22:45:20.816810",
+    "updated_at": "2026-10-19T05:32:17.610511",
     "price_14d_ago": 512.01
   },
   "LRCX": {
     "price": 263.94,
     "change_pct": -18.5,
     "name": "Lam Research Corporation",
-    "updated_at": "2026-10-18T22:45:38.164416",
+    "updated_at": "2026-10-19T05:32:35.071215",
     "price_14d_ago": 323.86
   },
   "HUBS": {
     "price": 230.94,
     "change_pct": 16.83,
     "name": "HubSpot, Inc.",
-    "updated_at": "2026-10-18T22:45:34.516456",
+    "updated_at": "2026-10-19T05:32:31.533310",
     "price_14d_ago": 197.67
   },
   "MCD": {
     "price": 242.97,
     "change_pct": 3.84,
     "name": "McDonald's Corporation",
-    "updated_at": "2026-10-18T22:45:38.961658",
+    "updated_at": "2026-10-19T05:32:35.880116",
     "price_14d_ago": 233.98
   },
   "CART": {
     "price": 49.83,
     "change_pct": 14.58,
     "name": "Maplebear Inc.",
-    "updated_at": "2026-10-18T22:45:25.247034",
+    "updated_at": "2026-10-19T05:32:22.339885",
     "price_14d_ago": 43.49
   },
   "VGS": {
     "price": 0,
     "change_pct": 0,
     "name": "VGS",
-    "updated_at": "2026-10-18T22:45:56.782598",
+    "updated_at": "2026-10-19T05:32:54.399205",
     "price_14d_ago": null
   },
   "LEU": {
     "price": 114.94,
     "change_pct": -16.82,
     "name": "Centrus Energy Corp.",
-    "updated_at": "2026-10-18T22:45:37.512893",
+    "updated_at": "2026-10-19T05:32:34.430654",
     "price_14d_ago": 138.18
   }
 },
@@ -17545,8 +17545,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 587,
       "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam",
-      "novelty_score": 2.4454,
-      "overton_score": 2.4454,
+      "novelty_score": 2.4221,
+      "overton_score": 2.4221,
       "resonance_pct": 81,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -17573,8 +17573,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 549,
       "last_mentioned_speaker": "Alex Atallah, Amjad Masad",
-      "novelty_score": 2.1762,
-      "overton_score": 2.1762,
+      "novelty_score": 2.1563,
+      "overton_score": 2.1563,
       "resonance_pct": 78,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -17601,8 +17601,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 585,
       "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg",
-      "novelty_score": 2.0251,
-      "overton_score": 2.0251,
+      "novelty_score": 2.0051,
+      "overton_score": 2.0051,
       "resonance_pct": 76,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -17629,8 +17629,8 @@ const dashboardData = {
       "first_detected_speaker": "Michael Kratsios",
       "last_mentioned_episode_id": 561,
       "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 1.7425,
-      "overton_score": 1.7425,
+      "novelty_score": 1.7256,
+      "overton_score": 1.7256,
       "resonance_pct": 73,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -17657,9 +17657,9 @@ const dashboardData = {
       "first_detected_speaker": "Marc Andreessen, Chris Dixon",
       "last_mentioned_episode_id": 535,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.7323,
-      "overton_score": 1.7323,
-      "resonance_pct": 73,
+      "novelty_score": 1.7161,
+      "overton_score": 1.7161,
+      "resonance_pct": 72,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
@@ -17685,8 +17685,8 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 583,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.6657,
-      "overton_score": 1.6657,
+      "novelty_score": 1.6486,
+      "overton_score": 1.6486,
       "resonance_pct": 72,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -17713,9 +17713,9 @@ const dashboardData = {
       "first_detected_speaker": "Victor Haghani",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.5882,
-      "overton_score": 1.5882,
-      "resonance_pct": 71,
+      "novelty_score": 1.5737,
+      "overton_score": 1.5737,
+      "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
@@ -17741,8 +17741,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 547,
       "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 1.5667,
-      "overton_score": 1.5667,
+      "novelty_score": 1.5515,
+      "overton_score": 1.5515,
       "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -17769,8 +17769,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 519,
       "last_mentioned_speaker": "",
-      "novelty_score": 1.5111,
-      "overton_score": 1.5111,
+      "novelty_score": 1.4968,
+      "overton_score": 1.4968,
       "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -17797,9 +17797,9 @@ const dashboardData = {
       "first_detected_speaker": "Ramin Hasani",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.4611,
-      "overton_score": 1.4611,
-      "resonance_pct": 69,
+      "novelty_score": 1.4467,
+      "overton_score": 1.4467,
+      "resonance_pct": 68,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
@@ -17825,8 +17825,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.448,
-      "overton_score": 1.448,
+      "novelty_score": 1.4336,
+      "overton_score": 1.4336,
       "resonance_pct": 68,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -17853,8 +17853,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 475,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.4164,
-      "overton_score": 1.4164,
+      "novelty_score": 1.4035,
+      "overton_score": 1.4035,
       "resonance_pct": 68,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -17881,8 +17881,8 @@ const dashboardData = {
       "first_detected_speaker": "Chris Seminoch",
       "last_mentioned_episode_id": 577,
       "last_mentioned_speaker": "Ben Inker",
-      "novelty_score": 1.4101,
-      "overton_score": 1.4101,
+      "novelty_score": 1.3951,
+      "overton_score": 1.3951,
       "resonance_pct": 68,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -17911,9 +17911,9 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 583,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 0.4984,
-      "overton_score": 0.4984,
-      "resonance_pct": 45,
+      "novelty_score": 0.4903,
+      "overton_score": 0.4903,
+      "resonance_pct": 44,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -17939,8 +17939,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 587,
       "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam",
-      "novelty_score": 0.6064,
-      "overton_score": 0.6064,
+      "novelty_score": 0.5973,
+      "overton_score": 0.5973,
       "resonance_pct": 49,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -17967,8 +17967,8 @@ const dashboardData = {
       "first_detected_speaker": "Liaquat Ahamed",
       "last_mentioned_episode_id": 589,
       "last_mentioned_speaker": "Jim Bianco",
-      "novelty_score": 0.5298,
-      "overton_score": 0.5298,
+      "novelty_score": 0.5212,
+      "overton_score": 0.5212,
       "resonance_pct": 46,
       "is_established": true,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -17995,8 +17995,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 551,
       "last_mentioned_speaker": "David George",
-      "novelty_score": 0.3943,
-      "overton_score": 0.3943,
+      "novelty_score": 0.388,
+      "overton_score": 0.388,
       "resonance_pct": 40,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -54233,7 +54233,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 91573,
+    "id": 91756,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -54245,7 +54245,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91574,
+    "id": 91757,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -54257,7 +54257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91575,
+    "id": 91758,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -54269,7 +54269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91576,
+    "id": 91759,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -54281,7 +54281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91578,
+    "id": 91761,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -54293,7 +54293,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 91577,
+    "id": 91760,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -54305,7 +54305,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91579,
+    "id": 91762,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -54317,7 +54317,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91580,
+    "id": 91763,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -54329,7 +54329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91581,
+    "id": 91764,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -54341,7 +54341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91582,
+    "id": 91765,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -54353,7 +54353,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91583,
+    "id": 91766,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -54365,7 +54365,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91584,
+    "id": 91767,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -54377,7 +54377,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91585,
+    "id": 91768,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -54389,7 +54389,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91586,
+    "id": 91769,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -54401,7 +54401,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91587,
+    "id": 91770,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -54413,7 +54413,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91588,
+    "id": 91771,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -54425,7 +54425,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91589,
+    "id": 91772,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -54437,7 +54437,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91590,
+    "id": 91773,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -54449,7 +54449,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91591,
+    "id": 91774,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -54461,7 +54461,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91592,
+    "id": 91775,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -54553,7 +54553,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
     "mention_score": 5,
-    "mention_score_decayed": 4.89,
+    "mention_score_decayed": 4.77,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-17 \u2022 CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Actually, we actually were number one good as a literal thing. I'm for one last week only took a little bit of time to get me to five years only to five. Yeah, five",
@@ -54689,7 +54689,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
     "mention_score": 3,
-    "mention_score_decayed": 2.93,
+    "mention_score_decayed": 2.86,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-17 \u2022 CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Actually, we actually were number one good as a literal thing. I'm for one last week only took a little bit of time to get me to five years only to five. Yeah, five",
@@ -55121,7 +55121,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
-    "mention_score_decayed": 1.54,
+    "mention_score_decayed": 1.5,
     "last_main_idea": "Implement the CAPA framework to systematically address failures and enhance accountability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
     "last_proof_snippet": "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
@@ -55302,7 +55302,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -55561,60 +55561,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 547,
-    "name": "Dr. Don Musalam",
-    "slug": "dr-don-musalam",
-    "bio": "Chief Medical Officer of Fountain Life, featured in the sponsor segment discussing dementia prevention, brain-age testing, and health-span interventions.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 546,
-    "name": "Nusha Ansari",
-    "slug": "nusha-ansari",
-    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 230,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
@@ -55676,6 +55622,60 @@ const dashboardData = {
     "net_worth": "$1.40B"
   },
   {
+    "id": 547,
+    "name": "Dr. Don Musalam",
+    "slug": "dr-don-musalam",
+    "bio": "Chief Medical Officer of Fountain Life, featured in the sponsor segment discussing dementia prevention, brain-age testing, and health-span interventions.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 10:18:14",
+    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.98,
+    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
+    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 546,
+    "name": "Nusha Ansari",
+    "slug": "nusha-ansari",
+    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 10:18:14",
+    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.98,
+    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
+    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 544,
     "name": "Oliver Kharraz",
     "slug": "oliver-kharraz",
@@ -55720,7 +55720,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-17 \u2022 CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Actually, we actually were number one good as a literal thing. I'm for one last week only took a little bit of time to get me to five years only to five. Yeah, five",
@@ -55748,7 +55748,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-17 \u2022 CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Actually, we actually were number one good as a literal thing. I'm for one last week only took a little bit of time to get me to five years only to five. Yeah, five",
@@ -55887,7 +55887,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Large-scale DEL screening plus rigorous split design may create a defensible drug-discovery data moat because many apparent ML gains disappear once creator leakage and memorization are controlled.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-14 \u2022 Lab-in-the-Loop at Compute Speed \u2014 Ian Quigley, Leash Bio",
     "last_proof_snippet": "My co-founder Andrew Blavins and I were at Procursion looking at a small molecule on a screen and then a medicinal chemist walked by as this guy named my Cucarisi and Mike was like, hey, it looks like a Stuart trivert molecule and then we'r",
@@ -55914,7 +55914,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-15 \u2022 Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
     "last_proof_snippet": "Billy Evans who is Elizabeth Holmes's partner, the subject of the forthcoming documentary, you can see everything. As had an unconventional love story with her fiance, Billy Evans. The couple first connected as federal authorities were inve",
@@ -56120,33 +56120,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 529,
-    "name": "Charles Lemonides",
-    "slug": "charles-le-manides",
-    "bio": "CIO and founder of ValueWorks LLC.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 04:43:17",
-    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years. It's sort of silly to think it could be 18 years and two weeks instead of 18 years and six months or 19 years and two months or 22 years and seven mon",
-    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 436,
     "name": "Justin Johnson",
     "slug": "justin-johnson",
@@ -56266,6 +56239,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 529,
+    "name": "Charles Lemonides",
+    "slug": "charles-le-manides",
+    "bio": "CIO and founder of ValueWorks LLC.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 04:43:17",
+    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years. It's sort of silly to think it could be 18 years and two weeks instead of 18 years and six months or 19 years and two months or 22 years and seven mon",
+    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 528,
@@ -56480,7 +56480,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Biology AI winners will be those that pair better biological data with calibrated, trustworthy models that solve dynamics and whole-system problems, not just static structure prediction.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-10 \u2022 Why AlphaFold Didn't Solve Protein Folding \u2014 Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
     "last_proof_snippet": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind\u2019s Pushmeet Kohli and Biohub\u2019s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel mode",
@@ -56507,7 +56507,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Biology AI winners will be those that pair better biological data with calibrated, trustworthy models that solve dynamics and whole-system problems, not just static structure prediction.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-10 \u2022 Why AlphaFold Didn't Solve Protein Folding \u2014 Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
     "last_proof_snippet": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind\u2019s Pushmeet Kohli and Biohub\u2019s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel mode",
@@ -56837,7 +56837,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Richard Socher claims AI can deliver a century of scientific breakthroughs in the next decade by automating hypothesis, experiment, data, and theory across the full scientific stack.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-03 \u2022 Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
     "last_proof_snippet": "Richard, I'm curious where are we at the moment with RSI? In various weak forms, we already have RSI. We're not quite there yet, but we're very close. When do you believe we reach ASI? I think we'll take us probably several decades. On term",
@@ -57113,7 +57113,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -57140,7 +57140,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -57642,121 +57642,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 480,
-    "name": "Eric Gwyn",
-    "slug": "eric-gwyn",
-    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
-    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and assertive",
-    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:17",
-    "last_seen": "2026-09-24 04:53:17",
-    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.57,
-    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Eric Gwyn",
-      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
-      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
-      "derived": {
-        "current_role": "CEO and Co-founder of Article"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
-        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
-      ],
-      "sections": [
-        {
-          "heading": "Genomic Language Models",
-          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
-        },
-        {
-          "heading": "Biosecurity in Synthetic Biology",
-          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
-        },
-        {
-          "heading": "Dual Mandate Approach",
-          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
-        }
-      ]
-    }
-  },
-  {
-    "id": 479,
-    "name": "Luca Ferrari",
-    "slug": "luca-ferrari",
-    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
-    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and confident",
-    "voice_style": "Direct and informative, emphasizing strategic insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:03",
-    "last_seen": "2026-09-24 04:53:03",
-    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.57,
-    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
-    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Luca Ferrari",
-      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
-      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
-      "derived": {
-        "current_role": "CTO at Bending Spoon"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Italian"
-      },
-      "lead_paragraphs": [
-        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
-        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
-      ],
-      "sections": [
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
-        },
-        {
-          "heading": "Product Innovation",
-          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
-        },
-        {
-          "heading": "Market Expansion",
-          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
-        }
-      ]
-    }
-  },
-  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -57815,6 +57700,121 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.70B"
+  },
+  {
+    "id": 480,
+    "name": "Eric Gwyn",
+    "slug": "eric-gwyn",
+    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
+    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and assertive",
+    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:17",
+    "last_seen": "2026-09-24 04:53:17",
+    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.56,
+    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eric Gwyn",
+      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
+      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
+      "derived": {
+        "current_role": "CEO and Co-founder of Article"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
+        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Language Models",
+          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
+        },
+        {
+          "heading": "Biosecurity in Synthetic Biology",
+          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
+        },
+        {
+          "heading": "Dual Mandate Approach",
+          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
+        }
+      ]
+    }
+  },
+  {
+    "id": 479,
+    "name": "Luca Ferrari",
+    "slug": "luca-ferrari",
+    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
+    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and confident",
+    "voice_style": "Direct and informative, emphasizing strategic insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:03",
+    "last_seen": "2026-09-24 04:53:03",
+    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.56,
+    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
+    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Luca Ferrari",
+      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
+      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
+      "derived": {
+        "current_role": "CTO at Bending Spoon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Italian"
+      },
+      "lead_paragraphs": [
+        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
+        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
+      ],
+      "sections": [
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
+        },
+        {
+          "heading": "Product Innovation",
+          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
+        },
+        {
+          "heading": "Market Expansion",
+          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
+        }
+      ]
+    }
   },
   {
     "id": 478,
@@ -57949,7 +57949,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in AI tools and climate resilience technologies presents a significant opportunity for enhancing scientific research and addressing global challenges.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-22 \u2022 \ud83d\udd2c An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
     "last_proof_snippet": "Are you talking about introducing explosive priors that, you know, she based upon some human intuition, or maybe in this case, LOM intuition? When you talk about multiple hypothesis testing, right? There's predictive models and there's desc",
@@ -58064,7 +58064,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "Naveen Rau, co-founder and CEO of Unconventional AI, which is an AI chip startup, best willing for building and selling to deep tech companies. Naveen is kind of definitely outlier, founder. When I came there, we had about 20 million dollar",
@@ -58120,7 +58120,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
@@ -58286,7 +58286,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps. There's one camp which believes that this actually",
@@ -58342,7 +58342,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
     "last_proof_snippet": "Daria Amade, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
@@ -58608,121 +58608,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 460,
-    "name": "Joseph Wang",
-    "slug": "joseph-wang",
-    "bio": "Joseph Wang is a financial analyst recognized for his expertise in monetary policy and market dynamics. He has a background as a senior trader for the Federal Reserve, providing insights that are highly regarded in the finance community. His analyses often focus on the implications of Federal Reserve actions on interest rates and economic conditions.",
-    "known_for": "Joseph Wang is known for his predictions on Federal Reserve policy and interest rates, making him a valuable resource for investors navigating market changes.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and confident",
-    "voice_style": "Direct and data-driven",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key insights",
-    "voice_profile_updated_at": "2026-09-17 04:35:14",
-    "last_seen": "2026-09-17 04:35:14",
-    "last_episode_title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-09-16",
-    "mention_score": 1,
-    "mention_score_decayed": 0.49,
-    "last_main_idea": "The Fed is expected to implement two more rate hikes, indicating a continued hawkish monetary policy.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-16 \u2022 Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
-    "last_proof_snippet": "We are live right now, and I am joined by Joseph Wang, former senior trader for the Fed commentator on the Federal Reserve, Joseph, what did you make of the Fed meeting that just concluded Kevin washes third meeting the first hike, what are",
-    "supporting_takeaway": "Long bonds are viewed positively due to their attractive yields and potential for price appreciation as inflation concerns ease.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-16T23:35:19.274173",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Joseph Wang",
-      "fetched_at": "2026-09-17T04:35:19.273639+00:00",
-      "cliff_notes": "Joseph Wang has built a reputation as a financial analyst with a deep understanding of monetary policy and its effects on the market. His career includes significant experience as a senior trader at the Federal Reserve, where he developed insights that have proven valuable to investors and analysts alike. Wang's ability to interpret Fed communications and predict policy changes has made him a sought-after commentator in financial circles. His work emphasizes the importance of understanding central bank actions and their broader implications for the economy, particularly in times of volatility. Through his analyses, he aims to equip investors with the knowledge needed to navigate complex market dynamics effectively.",
-      "derived": {
-        "former_positions": "Senior Trader, Federal Reserve"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Joseph Wang has built a reputation as a financial analyst with a deep understanding of monetary policy and its effects on the market. His career includes significant experience as a senior trader at the Federal Reserve, where he developed insights that have proven valuable to investors and analysts alike. Wang's ability to interpret Fed communications and predict policy changes has made him a sought-after commentator in financial circles.",
-        "His work emphasizes the importance of understanding central bank actions and their broader implications for the economy, particularly in times of volatility. Through his analyses, he aims to equip investors with the knowledge needed to navigate complex market dynamics effectively."
-      ],
-      "sections": [
-        {
-          "heading": "Federal Reserve Insights",
-          "body": "Joseph Wang provides in-depth analysis of Federal Reserve policies, helping investors understand the potential impacts on interest rates and market conditions."
-        },
-        {
-          "heading": "Market Dynamics",
-          "body": "His expertise extends to interpreting market reactions to monetary policy changes, offering valuable perspectives for those looking to make informed investment decisions."
-        },
-        {
-          "heading": "Predictions on Interest Rates",
-          "body": "Wang is known for his accurate predictions regarding interest rate hikes and monetary policy shifts, making his insights crucial for financial strategists."
-        }
-      ]
-    }
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
-    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
-    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
-    "voice_tone": "Candid and thoughtful.",
-    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
-    "voice_profile_updated_at": "2026-08-18 04:34:22",
-    "last_seen": "2026-08-18 04:34:22",
-    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-18",
-    "mention_score": 2,
-    "mention_score_decayed": 0.49,
-    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_proof_snippet": "All right, everybody. Welcome back to the all in interview. This is where we find the people building the future. Sometimes a politician, sometimes a CEO, sometimes an investor, all the time, an important discussion. And one of the most imp",
-    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Garrett Langley",
-      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
-      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
-      "derived": {
-        "current_role": "CEO of Flock"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
-        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
-      ],
-      "sections": [
-        {
-          "heading": "Flock's Impact",
-          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
-        },
-        {
-          "heading": "Safety and Privacy",
-          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
-        },
-        {
-          "heading": "Community Adoption",
-          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -58782,6 +58667,62 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 460,
+    "name": "Joseph Wang",
+    "slug": "joseph-wang",
+    "bio": "Joseph Wang is a financial analyst recognized for his expertise in monetary policy and market dynamics. He has a background as a senior trader for the Federal Reserve, providing insights that are highly regarded in the finance community. His analyses often focus on the implications of Federal Reserve actions on interest rates and economic conditions.",
+    "known_for": "Joseph Wang is known for his predictions on Federal Reserve policy and interest rates, making him a valuable resource for investors navigating market changes.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and confident",
+    "voice_style": "Direct and data-driven",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key insights",
+    "voice_profile_updated_at": "2026-09-17 04:35:14",
+    "last_seen": "2026-09-17 04:35:14",
+    "last_episode_title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-16",
+    "mention_score": 1,
+    "mention_score_decayed": 0.48,
+    "last_main_idea": "The Fed is expected to implement two more rate hikes, indicating a continued hawkish monetary policy.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-16 \u2022 Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
+    "last_proof_snippet": "We are live right now, and I am joined by Joseph Wang, former senior trader for the Fed commentator on the Federal Reserve, Joseph, what did you make of the Fed meeting that just concluded Kevin washes third meeting the first hike, what are",
+    "supporting_takeaway": "Long bonds are viewed positively due to their attractive yields and potential for price appreciation as inflation concerns ease.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-16T23:35:19.274173",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Joseph Wang",
+      "fetched_at": "2026-09-17T04:35:19.273639+00:00",
+      "cliff_notes": "Joseph Wang has built a reputation as a financial analyst with a deep understanding of monetary policy and its effects on the market. His career includes significant experience as a senior trader at the Federal Reserve, where he developed insights that have proven valuable to investors and analysts alike. Wang's ability to interpret Fed communications and predict policy changes has made him a sought-after commentator in financial circles. His work emphasizes the importance of understanding central bank actions and their broader implications for the economy, particularly in times of volatility. Through his analyses, he aims to equip investors with the knowledge needed to navigate complex market dynamics effectively.",
+      "derived": {
+        "former_positions": "Senior Trader, Federal Reserve"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Joseph Wang has built a reputation as a financial analyst with a deep understanding of monetary policy and its effects on the market. His career includes significant experience as a senior trader at the Federal Reserve, where he developed insights that have proven valuable to investors and analysts alike. Wang's ability to interpret Fed communications and predict policy changes has made him a sought-after commentator in financial circles.",
+        "His work emphasizes the importance of understanding central bank actions and their broader implications for the economy, particularly in times of volatility. Through his analyses, he aims to equip investors with the knowledge needed to navigate complex market dynamics effectively."
+      ],
+      "sections": [
+        {
+          "heading": "Federal Reserve Insights",
+          "body": "Joseph Wang provides in-depth analysis of Federal Reserve policies, helping investors understand the potential impacts on interest rates and market conditions."
+        },
+        {
+          "heading": "Market Dynamics",
+          "body": "His expertise extends to interpreting market reactions to monetary policy changes, offering valuable perspectives for those looking to make informed investment decisions."
+        },
+        {
+          "heading": "Predictions on Interest Rates",
+          "body": "Wang is known for his accurate predictions regarding interest rate hikes and monetary policy shifts, making his insights crucial for financial strategists."
+        }
+      ]
+    }
   },
   {
     "id": 459,
@@ -59091,6 +59032,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
+    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
+    "voice_tone": "Candid and thoughtful.",
+    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
+    "voice_profile_updated_at": "2026-08-18 04:34:22",
+    "last_seen": "2026-08-18 04:34:22",
+    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 2,
+    "mention_score_decayed": 0.48,
+    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_proof_snippet": "All right, everybody. Welcome back to the all in interview. This is where we find the people building the future. Sometimes a politician, sometimes a CEO, sometimes an investor, all the time, an important discussion. And one of the most imp",
+    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Garrett Langley",
+      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
+      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
+      "derived": {
+        "current_role": "CEO of Flock"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
+        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
+      ],
+      "sections": [
+        {
+          "heading": "Flock's Impact",
+          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
+        },
+        {
+          "heading": "Safety and Privacy",
+          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
+        },
+        {
+          "heading": "Community Adoption",
+          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
     "id": 64,
     "name": "Brad Gersner",
     "slug": "brad-gersner",
@@ -59233,7 +59233,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "AI development has reached a critical threshold, prompting concerns about safety and control.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-13 \u2022 Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
     "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenAI AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
@@ -60458,7 +60458,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -60954,7 +60954,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-24 \u2022 Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
     "last_proof_snippet": "Is this administration anti-science? We want to essentially double the scientific output of the United States. Did we lose it? Or did it lead to moments where you have like Fauci? That's great question. Are we in this moment this populous m",
@@ -61209,7 +61209,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investment in AI technology should consider the broader geopolitical landscape and the potential for international cooperation and market creation, as proposed by the 'AI Marshall Plan'.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-18 \u2022 China\u2019s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
     "last_proof_snippet": "There seems to be prevailing a view around the campuses that ASI has, you know, five to 10 years out, maybe even 20 years. And so I really curious what the prevailing view is in China. They are not behaving like they believe ASI is around t",
@@ -61457,7 +61457,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-22 \u2022 Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
     "last_proof_snippet": "If I look at people 40 and under those in the 20 and 30s, their number one problem is they kind of forward housing. If you want to get housing back to some more reasonable levels, you need to have wages rising about 7% a year. So, doubling",
@@ -61576,7 +61576,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-14 \u2022 Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
     "last_proof_snippet": "All right, everybody. Welcome back. We all in podcast. The number one podcast in the world. David Sachs and Evan Baker are with us this week. We got a, we got a short crew, but a long docket. And we are going to rock at how are you doing? G",
@@ -61700,7 +61700,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Rahm Emanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "last_proof_snippet": "All right, everybody. We are super pleased to have Ron Emmanuel. Join us for the all and interview today. He was a senior advisor of Bill Clinton, last president, resigned over zero national debt. And he was a Bahamas chief of staff, mayor",
@@ -62186,70 +62186,6 @@ const dashboardData = {
     "net_worth": "$30.00B"
   },
   {
-    "id": 259,
-    "name": "Andrew Feldman",
-    "slug": "andrew-feldman",
-    "bio": "Andrew Feldman is the CEO and co-founder of Cerebras, a company at the forefront of AI and chip technology. He has been instrumental in leading the development of AI chips and data center infrastructure, contributing significantly to the buildout of AI on a global scale.",
-    "known_for": "Pioneering the development of AI chips and data center infrastructure for advanced AI applications.",
-    "net_worth_usd": 19800000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0002039573/Andrew-D.-Feldman",
-    "net_worth_updated_at": "2026-05-22T00:00:37.809262",
-    "voice_tone": "Informed and enthusiastic about the future of AI.",
-    "voice_style": "Explanatory and visionary, outlining the scale and impact of AI development.",
-    "voice_delivery_notes": "Speaks with a mix of excitement and caution, highlighting the magnitude of the AI buildout.",
-    "voice_profile_updated_at": "2026-07-10 04:35:59",
-    "last_seen": "2026-07-10 04:35:59",
-    "last_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-10",
-    "mention_score": 2,
-    "mention_score_decayed": 0.2,
-    "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-    "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
-    "supporting_takeaway": "Companies like Google, Microsoft, and AWS are aggressively expanding their data center capacities to meet demand.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-09T23:36:14.887399",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew Feldman",
-      "fetched_at": "2026-07-10T04:36:14.887061+00:00",
-      "cliff_notes": "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence. Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution.",
-      "derived": {
-        "current_role": "CEO and co-founder of Cerebras"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence.",
-        "Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution."
-      ],
-      "sections": [
-        {
-          "heading": "AI Chip Development",
-          "body": "Andrew Feldman has been at the helm of Cerebras, leading the development of advanced AI chips that are designed to handle the complex computations required for artificial intelligence applications."
-        },
-        {
-          "heading": "Data Center Infrastructure",
-          "body": "Under Feldman's leadership, Cerebras has focused on creating data center infrastructure that can support the massive computational demands of AI, enabling more efficient and powerful AI systems."
-        },
-        {
-          "heading": "Global AI Buildout",
-          "body": "Feldman's work is part of a global effort to build out AI capabilities, which is being compared to historical feats like the construction of the Great Wall of China or the pyramids in terms of scale and mobilization of resources."
-        },
-        {
-          "heading": "IPO and Growth",
-          "body": "Cerebras, with Feldman as CEO, has experienced significant growth, including a successful IPO, which has further established the company as a major player in the AI technology sector."
-        }
-      ]
-    },
-    "net_worth": "$19.8M"
-  },
-  {
     "id": 390,
     "name": "Daya Pernos",
     "slug": "daya-pernos",
@@ -62608,6 +62544,70 @@ const dashboardData = {
     "net_worth": "$500.0M"
   },
   {
+    "id": 259,
+    "name": "Andrew Feldman",
+    "slug": "andrew-feldman",
+    "bio": "Andrew Feldman is the CEO and co-founder of Cerebras, a company at the forefront of AI and chip technology. He has been instrumental in leading the development of AI chips and data center infrastructure, contributing significantly to the buildout of AI on a global scale.",
+    "known_for": "Pioneering the development of AI chips and data center infrastructure for advanced AI applications.",
+    "net_worth_usd": 19800000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0002039573/Andrew-D.-Feldman",
+    "net_worth_updated_at": "2026-05-22T00:00:37.809262",
+    "voice_tone": "Informed and enthusiastic about the future of AI.",
+    "voice_style": "Explanatory and visionary, outlining the scale and impact of AI development.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and caution, highlighting the magnitude of the AI buildout.",
+    "voice_profile_updated_at": "2026-07-10 04:35:59",
+    "last_seen": "2026-07-10 04:35:59",
+    "last_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-10",
+    "mention_score": 2,
+    "mention_score_decayed": 0.19,
+    "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
+    "supporting_takeaway": "Companies like Google, Microsoft, and AWS are aggressively expanding their data center capacities to meet demand.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-09T23:36:14.887399",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew Feldman",
+      "fetched_at": "2026-07-10T04:36:14.887061+00:00",
+      "cliff_notes": "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence. Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution.",
+      "derived": {
+        "current_role": "CEO and co-founder of Cerebras"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence.",
+        "Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution."
+      ],
+      "sections": [
+        {
+          "heading": "AI Chip Development",
+          "body": "Andrew Feldman has been at the helm of Cerebras, leading the development of advanced AI chips that are designed to handle the complex computations required for artificial intelligence applications."
+        },
+        {
+          "heading": "Data Center Infrastructure",
+          "body": "Under Feldman's leadership, Cerebras has focused on creating data center infrastructure that can support the massive computational demands of AI, enabling more efficient and powerful AI systems."
+        },
+        {
+          "heading": "Global AI Buildout",
+          "body": "Feldman's work is part of a global effort to build out AI capabilities, which is being compared to historical feats like the construction of the Great Wall of China or the pyramids in terms of scale and mobilization of resources."
+        },
+        {
+          "heading": "IPO and Growth",
+          "body": "Cerebras, with Feldman as CEO, has experienced significant growth, including a successful IPO, which has further established the company as a major player in the AI technology sector."
+        }
+      ]
+    },
+    "net_worth": "$19.8M"
+  },
+  {
     "id": 382,
     "name": "Dino Ceranic",
     "slug": "dino-ceranic",
@@ -62625,7 +62625,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -62684,7 +62684,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -63470,6 +63470,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.16,
+    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 364,
     "name": "Justin Jo",
     "slug": "justin-jo",
@@ -63487,7 +63546,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -63547,7 +63606,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -63606,7 +63665,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -63665,7 +63724,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -63706,65 +63765,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$26.7M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.16,
-    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 358,
@@ -66896,68 +66896,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 164,
-    "name": "Vitalik Buterin",
-    "slug": "vitalik-buterin",
-    "bio": "Vitalik Buterin is a Russian-Canadian programmer and writer primarily known as the co-founder of Ethereum, a blockchain platform that supports smart contracts. He has been a significant figure in the blockchain and cryptocurrency space, contributing to the development of decentralized applications.",
-    "known_for": "His work on Ethereum and contributions to the development of decentralized applications.",
-    "net_worth_usd": 461000000.0,
-    "net_worth_source": "https://coincodex.com/article/22825/vitalik-buterin-net-worth/",
-    "net_worth_updated_at": "2026-04-09T22:05:44.682431",
-    "voice_tone": "Thoughtful and analytical.",
-    "voice_style": "Discusses complex ideas with clarity and depth.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
-    "voice_profile_updated_at": "2026-05-16 04:42:04",
-    "last_seen": "2026-05-16 04:42:04",
-    "last_episode_title": "Vitalik Buterin on Human Agency in the AI Era",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-15",
-    "mention_score": 2,
-    "mention_score_decayed": 0.06,
-    "last_main_idea": "Encourage active learning strategies within teams to enhance retention and understanding.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
-    "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
-    "supporting_takeaway": "Encourage active learning strategies within teams to enhance retention and understanding.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-15T23:42:12.204186",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Vitalik Buterin",
-      "fetched_at": "2026-05-16T04:42:12.203860+00:00",
-      "cliff_notes": "Vitalik Buterin was born in Russia and moved to Canada at a young age. He developed an interest in programming and mathematics early on. He began working on Bitcoin projects in 2011 and later proposed the concept of Ethereum in 2013. Ethereum, launched in 2015, introduced the idea of a decentralized platform that could run smart contracts, which has since revolutionized the blockchain space. Buterin's work has had a significant impact on the development of decentralized applications and the broader cryptocurrency ecosystem.",
-      "derived": {
-        "current_role": "Co-founder of Ethereum",
-        "education": "Dropout from University of Waterloo",
-        "books_or_works": "Ethereum Whitepaper"
-      },
-      "infobox": {
-        "Born": "1994",
-        "Nationality": "Russian-Canadian"
-      },
-      "lead_paragraphs": [
-        "Vitalik Buterin was born in Russia and moved to Canada at a young age. He developed an interest in programming and mathematics early on. He began working on Bitcoin projects in 2011 and later proposed the concept of Ethereum in 2013. Ethereum, launched in 2015, introduced the idea of a decentralized platform that could run smart contracts, which has since revolutionized the blockchain space.",
-        "Buterin's work has had a significant impact on the development of decentralized applications and the broader cryptocurrency ecosystem."
-      ],
-      "sections": [
-        {
-          "heading": "Ethereum",
-          "body": "Vitalik Buterin co-founded Ethereum, a blockchain platform that supports smart contracts, in 2015."
-        },
-        {
-          "heading": "Decentralized Applications",
-          "body": "Buterin's work on Ethereum has enabled the development of decentralized applications, which operate without a central authority."
-        },
-        {
-          "heading": "Blockchain Technology",
-          "body": "Buterin has been a prominent figure in the blockchain and cryptocurrency space, contributing to the development and understanding of this technology."
-        }
-      ]
-    },
-    "net_worth": "$461.0M"
-  },
-  {
     "id": 287,
     "name": "Brian Armstrong",
     "slug": "brian-armstrong",
@@ -67683,69 +67621,66 @@ const dashboardData = {
     "net_worth": "$600.00B"
   },
   {
-    "id": 275,
-    "name": "Dan Loeb",
-    "slug": "dan-loeb",
-    "bio": "Dan Loeb is the founder and CEO of Third Point LLC, a hedge fund and asset management firm known for its event-driven investment strategies. He is also recognized for his philanthropic efforts in education and criminal justice reform.",
-    "known_for": "His aggressive investment strategies and activist approach to portfolio management.",
-    "net_worth_usd": 3800000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q5218659",
-    "net_worth_updated_at": "2026-06-05T23:36:43.080709",
-    "voice_tone": "Confident and assertive",
-    "voice_style": "Direct and insightful, providing clear investment perspectives",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key investment points",
-    "voice_profile_updated_at": "2026-06-06 04:36:20",
-    "last_seen": "2026-06-06 04:36:20",
-    "last_episode_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-05",
-    "mention_score": 1,
+    "id": 164,
+    "name": "Vitalik Buterin",
+    "slug": "vitalik-buterin",
+    "bio": "Vitalik Buterin is a Russian-Canadian programmer and writer primarily known as the co-founder of Ethereum, a blockchain platform that supports smart contracts. He has been a significant figure in the blockchain and cryptocurrency space, contributing to the development of decentralized applications.",
+    "known_for": "His work on Ethereum and contributions to the development of decentralized applications.",
+    "net_worth_usd": 461000000.0,
+    "net_worth_source": "https://coincodex.com/article/22825/vitalik-buterin-net-worth/",
+    "net_worth_updated_at": "2026-04-09T22:05:44.682431",
+    "voice_tone": "Thoughtful and analytical.",
+    "voice_style": "Discusses complex ideas with clarity and depth.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
+    "voice_profile_updated_at": "2026-05-16 04:42:04",
+    "last_seen": "2026-05-16 04:42:04",
+    "last_episode_title": "Vitalik Buterin on Human Agency in the AI Era",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-15",
+    "mention_score": 2,
     "mention_score_decayed": 0.05,
-    "last_main_idea": "Short selling is becoming increasingly important as market conditions shift.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
-    "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
-    "supporting_takeaway": "The market has transitioned from a stock-picking focus to a bond and credit-picking environment.",
+    "last_main_idea": "Encourage active learning strategies within teams to enhance retention and understanding.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
+    "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
+    "supporting_takeaway": "Encourage active learning strategies within teams to enhance retention and understanding.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-05T23:36:42.692487",
+    "grokipedia_fetched_at": "2026-05-15T23:42:12.204186",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Dan Loeb",
-      "fetched_at": "2026-06-06T04:36:42.692144+00:00",
-      "cliff_notes": "Dan Loeb is an American investor and philanthropist who founded Third Point LLC in 1995. His hedge fund is renowned for its event-driven investment strategies, which often involve taking significant stakes in companies and pushing for changes to boost their value. Loeb's activist approach has led to high-profile campaigns targeting companies like Yahoo and Nestl\u00e9. Beyond his investment career, Loeb is also known for his philanthropic endeavors, particularly in the areas of education and criminal justice reform. His use of social media, notably Twitter, has made him a prominent public figure in the financial world, where he shares his views and engages with a broad audience.",
+      "page_title": "Vitalik Buterin",
+      "fetched_at": "2026-05-16T04:42:12.203860+00:00",
+      "cliff_notes": "Vitalik Buterin was born in Russia and moved to Canada at a young age. He developed an interest in programming and mathematics early on. He began working on Bitcoin projects in 2011 and later proposed the concept of Ethereum in 2013. Ethereum, launched in 2015, introduced the idea of a decentralized platform that could run smart contracts, which has since revolutionized the blockchain space. Buterin's work has had a significant impact on the development of decentralized applications and the broader cryptocurrency ecosystem.",
       "derived": {
-        "current_role": "CEO and CIO of Third Point LLC",
-        "education": "B.A. in Economics from Columbia University; J.D. from Columbia Law School"
+        "current_role": "Co-founder of Ethereum",
+        "education": "Dropout from University of Waterloo",
+        "books_or_works": "Ethereum Whitepaper"
       },
       "infobox": {
-        "Born": "1961",
-        "Nationality": "American"
+        "Born": "1994",
+        "Nationality": "Russian-Canadian"
       },
       "lead_paragraphs": [
-        "Dan Loeb is an American investor and philanthropist who founded Third Point LLC in 1995. His hedge fund is renowned for its event-driven investment strategies, which often involve taking significant stakes in companies and pushing for changes to boost their value. Loeb's activist approach has led to high-profile campaigns targeting companies like Yahoo and Nestl\u00e9.",
-        "Beyond his investment career, Loeb is also known for his philanthropic endeavors, particularly in the areas of education and criminal justice reform. His use of social media, notably Twitter, has made him a prominent public figure in the financial world, where he shares his views and engages with a broad audience."
+        "Vitalik Buterin was born in Russia and moved to Canada at a young age. He developed an interest in programming and mathematics early on. He began working on Bitcoin projects in 2011 and later proposed the concept of Ethereum in 2013. Ethereum, launched in 2015, introduced the idea of a decentralized platform that could run smart contracts, which has since revolutionized the blockchain space.",
+        "Buterin's work has had a significant impact on the development of decentralized applications and the broader cryptocurrency ecosystem."
       ],
       "sections": [
         {
-          "heading": "Investment Philosophy",
-          "body": "Dan Loeb is known for his event-driven investment strategies, which often involve taking significant stakes in underperforming companies and advocating for changes to improve their performance."
+          "heading": "Ethereum",
+          "body": "Vitalik Buterin co-founded Ethereum, a blockchain platform that supports smart contracts, in 2015."
         },
         {
-          "heading": "Activist Investor",
-          "body": "Loeb's Third Point LLC has been involved in numerous high-profile activist campaigns, pushing for corporate governance changes and strategic shifts to increase shareholder value."
+          "heading": "Decentralized Applications",
+          "body": "Buterin's work on Ethereum has enabled the development of decentralized applications, which operate without a central authority."
         },
         {
-          "heading": "Philanthropy",
-          "body": "Apart from his investment career, Loeb is actively involved in philanthropy, with a focus on education and criminal justice reform, aiming to make a positive impact on society."
-        },
-        {
-          "heading": "Public Persona",
-          "body": "Loeb has become a prominent public figure in the financial world, using social media platforms like Twitter to share his views and engage with a wide audience, which has further amplified his influence."
+          "heading": "Blockchain Technology",
+          "body": "Buterin has been a prominent figure in the blockchain and cryptocurrency space, contributing to the development and understanding of this technology."
         }
       ]
     },
-    "net_worth": "$3.80B"
+    "net_worth": "$461.0M"
   },
   {
     "id": 121,
@@ -67811,6 +67746,71 @@ const dashboardData = {
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 275,
+    "name": "Dan Loeb",
+    "slug": "dan-loeb",
+    "bio": "Dan Loeb is the founder and CEO of Third Point LLC, a hedge fund and asset management firm known for its event-driven investment strategies. He is also recognized for his philanthropic efforts in education and criminal justice reform.",
+    "known_for": "His aggressive investment strategies and activist approach to portfolio management.",
+    "net_worth_usd": 3800000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q5218659",
+    "net_worth_updated_at": "2026-06-05T23:36:43.080709",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and insightful, providing clear investment perspectives",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key investment points",
+    "voice_profile_updated_at": "2026-06-06 04:36:20",
+    "last_seen": "2026-06-06 04:36:20",
+    "last_episode_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-05",
+    "mention_score": 1,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "Short selling is becoming increasingly important as market conditions shift.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+    "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
+    "supporting_takeaway": "The market has transitioned from a stock-picking focus to a bond and credit-picking environment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-05T23:36:42.692487",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dan Loeb",
+      "fetched_at": "2026-06-06T04:36:42.692144+00:00",
+      "cliff_notes": "Dan Loeb is an American investor and philanthropist who founded Third Point LLC in 1995. His hedge fund is renowned for its event-driven investment strategies, which often involve taking significant stakes in companies and pushing for changes to boost their value. Loeb's activist approach has led to high-profile campaigns targeting companies like Yahoo and Nestl\u00e9. Beyond his investment career, Loeb is also known for his philanthropic endeavors, particularly in the areas of education and criminal justice reform. His use of social media, notably Twitter, has made him a prominent public figure in the financial world, where he shares his views and engages with a broad audience.",
+      "derived": {
+        "current_role": "CEO and CIO of Third Point LLC",
+        "education": "B.A. in Economics from Columbia University; J.D. from Columbia Law School"
+      },
+      "infobox": {
+        "Born": "1961",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Dan Loeb is an American investor and philanthropist who founded Third Point LLC in 1995. His hedge fund is renowned for its event-driven investment strategies, which often involve taking significant stakes in companies and pushing for changes to boost their value. Loeb's activist approach has led to high-profile campaigns targeting companies like Yahoo and Nestl\u00e9.",
+        "Beyond his investment career, Loeb is also known for his philanthropic endeavors, particularly in the areas of education and criminal justice reform. His use of social media, notably Twitter, has made him a prominent public figure in the financial world, where he shares his views and engages with a broad audience."
+      ],
+      "sections": [
+        {
+          "heading": "Investment Philosophy",
+          "body": "Dan Loeb is known for his event-driven investment strategies, which often involve taking significant stakes in underperforming companies and advocating for changes to improve their performance."
+        },
+        {
+          "heading": "Activist Investor",
+          "body": "Loeb's Third Point LLC has been involved in numerous high-profile activist campaigns, pushing for corporate governance changes and strategic shifts to increase shareholder value."
+        },
+        {
+          "heading": "Philanthropy",
+          "body": "Apart from his investment career, Loeb is actively involved in philanthropy, with a focus on education and criminal justice reform, aiming to make a positive impact on society."
+        },
+        {
+          "heading": "Public Persona",
+          "body": "Loeb has become a prominent public figure in the financial world, using social media platforms like Twitter to share his views and engage with a wide audience, which has further amplified his influence."
+        }
+      ]
+    },
+    "net_worth": "$3.80B"
   },
   {
     "id": 273,
@@ -71335,195 +71335,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 193,
-    "name": "Alex Weiser Gross",
-    "slug": "alex-weiser-gross",
-    "bio": "Alex Weiser Gross is a recognized expert in AI benchmarks and model comparisons. Known for his insightful analysis and commentary on the latest advancements in AI, he has made significant contributions to the field. His work has been influential in shaping discussions around AI ethics and its impact on society.",
-    "known_for": "His expertise in AI benchmarks and model comparisons has made him a go-to resource for understanding the latest advancements in AI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Matter-of-fact and analytical",
-    "voice_style": "Factual and informative, with a focus on technical details",
-    "voice_delivery_notes": "Clear and concise, with emphasis on key points",
-    "voice_profile_updated_at": "2026-04-20 10:06:05",
-    "last_seen": "2026-04-20 10:06:05",
-    "last_episode_title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Only 23% of the public is optimistic about AI, indicating a significant gap in understanding and acceptance.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-18 \u2022 Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
-    "last_proof_snippet": "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
-    "supporting_takeaway": "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-20T05:06:19.454125",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Weiser Gross",
-      "fetched_at": "2026-04-20T10:06:19.453903+00:00",
-      "cliff_notes": "Alex Weiser Gross has established himself as an authority in the field of AI benchmarks and model comparisons. His work focuses on evaluating and comparing different AI models, providing valuable insights into their capabilities and limitations. Gross has been instrumental in fostering discussions on the ethical implications of AI and its impact on society. His contributions have helped shape the discourse around AI, making him a respected voice in both the tech and investment communities.",
-      "derived": {
-        "current_role": "Expert in AI Benchmarks and Model Comparisons"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Weiser Gross has established himself as an authority in the field of AI benchmarks and model comparisons. His work focuses on evaluating and comparing different AI models, providing valuable insights into their capabilities and limitations. Gross has been instrumental in fostering discussions on the ethical implications of AI and its impact on society.",
-        "His contributions have helped shape the discourse around AI, making him a respected voice in both the tech and investment communities."
-      ],
-      "sections": [
-        {
-          "heading": "AI Benchmarks",
-          "body": "Gross is known for his in-depth analysis of AI benchmarks, providing a comprehensive understanding of the performance and capabilities of various AI models."
-        },
-        {
-          "heading": "Model Comparisons",
-          "body": "His expertise in comparing different AI models has been crucial in identifying strengths and weaknesses, informing both developers and users about the best tools for their needs."
-        },
-        {
-          "heading": "AI Ethics",
-          "body": "Gross has been vocal about the ethical considerations surrounding AI, advocating for responsible development and deployment of AI technologies."
-        },
-        {
-          "heading": "Impact on Society",
-          "body": "His work has shed light on the societal implications of AI, including its potential to disrupt the job market and the need for public optimism in AI advancements."
-        }
-      ]
-    }
-  },
-  {
-    "id": 192,
-    "name": "Daya Apairness",
-    "slug": "daya-apairness",
-    "bio": "Daya Apairness is the co-founder of Pairness Research, a firm that manages an audited real money portfolio. Known for generating a 30% compounded return since inception in 2017, Apairness has been vocal about the potential for disruption in the software industry due to advancements in AI and agentic capabilities.",
-    "known_for": "Generating a 30% compounded return since inception in 2017 and insights on the impact of AI on software stocks.",
-    "net_worth_usd": 4000000.0,
-    "net_worth_source": "https://knownetworth.com/daya-net-worth",
-    "net_worth_updated_at": "2026-04-20T05:06:35.020384",
-    "voice_tone": "Confident and analytical.",
-    "voice_style": "Factual and data-driven.",
-    "voice_delivery_notes": "Paced with emphasis on key investment points.",
-    "voice_profile_updated_at": "2026-04-20 10:05:33",
-    "last_seen": "2026-04-20 10:05:33",
-    "last_episode_title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Software stocks have experienced a significant sell-off due to the expansion of AI's coding capabilities.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-19 \u2022 Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
-    "last_proof_snippet": "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
-    "supporting_takeaway": "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-20T05:06:34.198971",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Daya Apairness",
-      "fetched_at": "2026-04-20T10:06:34.198876+00:00",
-      "cliff_notes": "Daya Apairness is recognized for her role as the co-founder of Pairness Research, a firm that specializes in managing a real money portfolio. Since its inception in 2017, the firm has been successful in generating a 30% compounded return, which has garnered significant attention in the investment community. Apairness is particularly known for her insights on the transformative effects of AI and agentic capabilities on the software industry. She has been vocal about the market's potential to overlook the disruptive potential of these technologies, and how companies that adapt to these changes can offer significant investment opportunities. Her commentary on the market's perception of certain software companies and the potential for these companies to emerge stronger from the current AI-driven disruption has been influential in shaping investor perspectives.",
-      "derived": {
-        "current_role": "Co-founder of Pairness Research"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Daya Apairness is recognized for her role as the co-founder of Pairness Research, a firm that specializes in managing a real money portfolio. Since its inception in 2017, the firm has been successful in generating a 30% compounded return, which has garnered significant attention in the investment community. Apairness is particularly known for her insights on the transformative effects of AI and agentic capabilities on the software industry.",
-        "She has been vocal about the market's potential to overlook the disruptive potential of these technologies, and how companies that adapt to these changes can offer significant investment opportunities. Her commentary on the market's perception of certain software companies and the potential for these companies to emerge stronger from the current AI-driven disruption has been influential in shaping investor perspectives."
-      ],
-      "sections": [
-        {
-          "heading": "Portfolio Management",
-          "body": "Daya Apairness has been successful in managing an audited real money portfolio, achieving a 30% compounded return since 2017."
-        },
-        {
-          "heading": "AI and Disruption",
-          "body": "Apairness is known for her insights on the impact of AI and agentic capabilities on the software industry, highlighting the potential for market disruption."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "She believes that the current market sell-off presents an opportunity for investors to find software companies that will emerge unscathed or even stronger from the AI-driven changes."
-        }
-      ]
-    },
-    "net_worth": "$4.0M"
-  },
-  {
-    "id": 156,
-    "name": "Anish Acharya",
-    "slug": "anish-acharya",
-    "bio": "General partner at a16z, focused on consumer investing.",
-    "known_for": "His work in consumer tech and investments in the space.",
-    "net_worth_usd": 5000000000.0,
-    "net_worth_source": "https://theopinionatedindian.com/networth/anish-singh-thakur-age-wiki-net-worth-biography-cars-height/cid12931099.htm",
-    "net_worth_updated_at": "2026-04-07T05:06:23.012573",
-    "voice_tone": "enthusiastic and insightful",
-    "voice_style": "Anish presents a forward-thinking perspective on AI and its impact on society and business.",
-    "voice_delivery_notes": "Speaks with a mix of excitement and thoughtfulness, emphasizing key points with pauses for effect.",
-    "voice_profile_updated_at": "2026-04-20 10:04:11",
-    "last_seen": "2026-04-20 10:04:11",
-    "last_episode_title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
-    "last_proof_snippet": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
-    "supporting_takeaway": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T05:06:22.088210",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Anish Acharya",
-      "fetched_at": "2026-04-07T10:06:22.087926+00:00",
-      "cliff_notes": "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics. His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning.",
-      "derived": {
-        "current_role": "Chief Technology Officer at DataRobot; previously held roles at various tech startups.",
-        "former_positions": "Co-founder and CTO at HyperAnna; Principal Engineer at Google; Software Engineer at Microsoft.",
-        "education": "Bachelor's degree in Computer Science from the University of Waterloo."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics.",
-        "His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning."
-      ],
-      "sections": [
-        {
-          "heading": "Early Career",
-          "body": "Anish Acharya started his career at Microsoft as a software engineer, where he laid the foundation for his future endeavors in technology."
-        },
-        {
-          "heading": "Google Experience",
-          "body": "At Google, Acharya worked as a Principal Engineer, gaining deep insights into large-scale data systems and software development."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Acharya co-founded HyperAnna, a company that provided analytics solutions, showcasing his ability to innovate and lead in the tech startup space."
-        },
-        {
-          "heading": "DataRobot Leadership",
-          "body": "As the Chief Technology Officer at DataRobot, Acharya has played a pivotal role in the advancement of automated machine learning technologies."
-        }
-      ]
-    },
-    "net_worth": "$5.00B"
-  },
-  {
     "id": 55,
     "name": "Dr. Anas Alhajji",
     "slug": "dr-onus-alhajji",
@@ -71738,6 +71549,195 @@ const dashboardData = {
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 193,
+    "name": "Alex Weiser Gross",
+    "slug": "alex-weiser-gross",
+    "bio": "Alex Weiser Gross is a recognized expert in AI benchmarks and model comparisons. Known for his insightful analysis and commentary on the latest advancements in AI, he has made significant contributions to the field. His work has been influential in shaping discussions around AI ethics and its impact on society.",
+    "known_for": "His expertise in AI benchmarks and model comparisons has made him a go-to resource for understanding the latest advancements in AI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and informative, with a focus on technical details",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key points",
+    "voice_profile_updated_at": "2026-04-20 10:06:05",
+    "last_seen": "2026-04-20 10:06:05",
+    "last_episode_title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Only 23% of the public is optimistic about AI, indicating a significant gap in understanding and acceptance.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-18 \u2022 Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
+    "last_proof_snippet": "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
+    "supporting_takeaway": "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-20T05:06:19.454125",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Weiser Gross",
+      "fetched_at": "2026-04-20T10:06:19.453903+00:00",
+      "cliff_notes": "Alex Weiser Gross has established himself as an authority in the field of AI benchmarks and model comparisons. His work focuses on evaluating and comparing different AI models, providing valuable insights into their capabilities and limitations. Gross has been instrumental in fostering discussions on the ethical implications of AI and its impact on society. His contributions have helped shape the discourse around AI, making him a respected voice in both the tech and investment communities.",
+      "derived": {
+        "current_role": "Expert in AI Benchmarks and Model Comparisons"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Weiser Gross has established himself as an authority in the field of AI benchmarks and model comparisons. His work focuses on evaluating and comparing different AI models, providing valuable insights into their capabilities and limitations. Gross has been instrumental in fostering discussions on the ethical implications of AI and its impact on society.",
+        "His contributions have helped shape the discourse around AI, making him a respected voice in both the tech and investment communities."
+      ],
+      "sections": [
+        {
+          "heading": "AI Benchmarks",
+          "body": "Gross is known for his in-depth analysis of AI benchmarks, providing a comprehensive understanding of the performance and capabilities of various AI models."
+        },
+        {
+          "heading": "Model Comparisons",
+          "body": "His expertise in comparing different AI models has been crucial in identifying strengths and weaknesses, informing both developers and users about the best tools for their needs."
+        },
+        {
+          "heading": "AI Ethics",
+          "body": "Gross has been vocal about the ethical considerations surrounding AI, advocating for responsible development and deployment of AI technologies."
+        },
+        {
+          "heading": "Impact on Society",
+          "body": "His work has shed light on the societal implications of AI, including its potential to disrupt the job market and the need for public optimism in AI advancements."
+        }
+      ]
+    }
+  },
+  {
+    "id": 192,
+    "name": "Daya Apairness",
+    "slug": "daya-apairness",
+    "bio": "Daya Apairness is the co-founder of Pairness Research, a firm that manages an audited real money portfolio. Known for generating a 30% compounded return since inception in 2017, Apairness has been vocal about the potential for disruption in the software industry due to advancements in AI and agentic capabilities.",
+    "known_for": "Generating a 30% compounded return since inception in 2017 and insights on the impact of AI on software stocks.",
+    "net_worth_usd": 4000000.0,
+    "net_worth_source": "https://knownetworth.com/daya-net-worth",
+    "net_worth_updated_at": "2026-04-20T05:06:35.020384",
+    "voice_tone": "Confident and analytical.",
+    "voice_style": "Factual and data-driven.",
+    "voice_delivery_notes": "Paced with emphasis on key investment points.",
+    "voice_profile_updated_at": "2026-04-20 10:05:33",
+    "last_seen": "2026-04-20 10:05:33",
+    "last_episode_title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-19",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Software stocks have experienced a significant sell-off due to the expansion of AI's coding capabilities.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-19 \u2022 Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
+    "last_proof_snippet": "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
+    "supporting_takeaway": "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-20T05:06:34.198971",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Daya Apairness",
+      "fetched_at": "2026-04-20T10:06:34.198876+00:00",
+      "cliff_notes": "Daya Apairness is recognized for her role as the co-founder of Pairness Research, a firm that specializes in managing a real money portfolio. Since its inception in 2017, the firm has been successful in generating a 30% compounded return, which has garnered significant attention in the investment community. Apairness is particularly known for her insights on the transformative effects of AI and agentic capabilities on the software industry. She has been vocal about the market's potential to overlook the disruptive potential of these technologies, and how companies that adapt to these changes can offer significant investment opportunities. Her commentary on the market's perception of certain software companies and the potential for these companies to emerge stronger from the current AI-driven disruption has been influential in shaping investor perspectives.",
+      "derived": {
+        "current_role": "Co-founder of Pairness Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Daya Apairness is recognized for her role as the co-founder of Pairness Research, a firm that specializes in managing a real money portfolio. Since its inception in 2017, the firm has been successful in generating a 30% compounded return, which has garnered significant attention in the investment community. Apairness is particularly known for her insights on the transformative effects of AI and agentic capabilities on the software industry.",
+        "She has been vocal about the market's potential to overlook the disruptive potential of these technologies, and how companies that adapt to these changes can offer significant investment opportunities. Her commentary on the market's perception of certain software companies and the potential for these companies to emerge stronger from the current AI-driven disruption has been influential in shaping investor perspectives."
+      ],
+      "sections": [
+        {
+          "heading": "Portfolio Management",
+          "body": "Daya Apairness has been successful in managing an audited real money portfolio, achieving a 30% compounded return since 2017."
+        },
+        {
+          "heading": "AI and Disruption",
+          "body": "Apairness is known for her insights on the impact of AI and agentic capabilities on the software industry, highlighting the potential for market disruption."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "She believes that the current market sell-off presents an opportunity for investors to find software companies that will emerge unscathed or even stronger from the AI-driven changes."
+        }
+      ]
+    },
+    "net_worth": "$4.0M"
+  },
+  {
+    "id": 156,
+    "name": "Anish Acharya",
+    "slug": "anish-acharya",
+    "bio": "General partner at a16z, focused on consumer investing.",
+    "known_for": "His work in consumer tech and investments in the space.",
+    "net_worth_usd": 5000000000.0,
+    "net_worth_source": "https://theopinionatedindian.com/networth/anish-singh-thakur-age-wiki-net-worth-biography-cars-height/cid12931099.htm",
+    "net_worth_updated_at": "2026-04-07T05:06:23.012573",
+    "voice_tone": "enthusiastic and insightful",
+    "voice_style": "Anish presents a forward-thinking perspective on AI and its impact on society and business.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and thoughtfulness, emphasizing key points with pauses for effect.",
+    "voice_profile_updated_at": "2026-04-20 10:04:11",
+    "last_seen": "2026-04-20 10:04:11",
+    "last_episode_title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-19",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
+    "last_proof_snippet": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
+    "supporting_takeaway": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T05:06:22.088210",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Anish Acharya",
+      "fetched_at": "2026-04-07T10:06:22.087926+00:00",
+      "cliff_notes": "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics. His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning.",
+      "derived": {
+        "current_role": "Chief Technology Officer at DataRobot; previously held roles at various tech startups.",
+        "former_positions": "Co-founder and CTO at HyperAnna; Principal Engineer at Google; Software Engineer at Microsoft.",
+        "education": "Bachelor's degree in Computer Science from the University of Waterloo."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics.",
+        "His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning."
+      ],
+      "sections": [
+        {
+          "heading": "Early Career",
+          "body": "Anish Acharya started his career at Microsoft as a software engineer, where he laid the foundation for his future endeavors in technology."
+        },
+        {
+          "heading": "Google Experience",
+          "body": "At Google, Acharya worked as a Principal Engineer, gaining deep insights into large-scale data systems and software development."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Acharya co-founded HyperAnna, a company that provided analytics solutions, showcasing his ability to innovate and lead in the tech startup space."
+        },
+        {
+          "heading": "DataRobot Leadership",
+          "body": "As the Chief Technology Officer at DataRobot, Acharya has played a pivotal role in the advancement of automated machine learning technologies."
+        }
+      ]
+    },
+    "net_worth": "$5.00B"
   },
   {
     "id": 189,
@@ -75831,7 +75831,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-18T22:46:01.837850"
+      "last_updated": "2026-10-19T05:33:00.028485"
     }
   ]
 }
