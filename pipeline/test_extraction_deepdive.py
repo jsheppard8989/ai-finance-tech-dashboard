@@ -167,6 +167,31 @@ class TestExtractionDeepDive(unittest.TestCase):
         ok, reason = deep_dive_structural_ok(content)
         self.assertTrue(ok, reason)  # 2 compliant + 1 vague line is accepted (softened 2026-10-16)
 
+    def test_structural_check_accepts_speaker_prefixed_unquoted_lines(self):
+        """Prompt format 'Speaker Name: verbatim quote' (no bullets/quote marks) is quote-first (ep 587 regression)."""
+        content = {
+            "episode_evidence": (
+                "Peter Diamandis: The cost for a frontier model to complete a robot sub task fell 84% from July to September.\n"
+                "Don Musalam: We know that when it comes to dementia, the conservative estimates are that 45% are entirely preventable.\n"
+                "Peter Diamandis: We saw that we improved that brain age by 26%."
+            ),
+            "overview": "Robot sub-task inference costs are halving roughly every three weeks, per the episode's figures.",
+            "investment_thesis": "Falling robot inference cost favors suppliers of embodied AI hardware.",
+            "falsification_tracks": [
+                "If NVIDIA's Q4 2026 earnings release shows robotics revenue under $1B, reassess.",
+                "If Tesla's 10-Q for Q1 2027 shows fewer than 1,000 Optimus units, the cost-curve thesis weakens.",
+            ],
+        }
+        ok, reason = deep_dive_structural_ok(content)
+        self.assertTrue(ok, reason)
+        content["episode_evidence"] = (
+            "The episode covers robot costs and dementia research and a number of other topics at length.\n"
+            "It also discusses prizes and economic value created over three decades of competitions."
+        )
+        ok, reason = deep_dive_structural_ok(content)
+        self.assertFalse(ok)
+        self.assertIn("quote-first", reason)
+
     def test_normalize_extraction_response(self):
         """Response from extraction-mode should normalize correctly (v2 format)."""
         raw = {
