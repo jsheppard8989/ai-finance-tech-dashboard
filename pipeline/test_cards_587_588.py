@@ -63,8 +63,15 @@ def test_guest_overrides_name_and_bio():
 
 def test_site_data_has_fixes():
     js = (DATA / "data.js").read_text(encoding="utf-8")
-    for s in ("awash in compute", "Trillium Labs", '"SMCI"', '"guest_name": "Ben Inker"'):
+    for s in ("awash in compute", "Trillium Labs", '"SMCI"'):
         assert s in js, s
+    # Card 588's guest line is only stamped while it sits in mainContent.insights (the newest-12
+    # window); once newer cards rotate it into archive (no guest_name field) the check moves to
+    # the title. Oct 19 2026: #494 rotated 588 out, which is expected, not a lost fix.
+    if '"guest_name": "Ben Inker"' not in js:
+        assert INKER in js, "card 588 missing from site data"
+        ov = json.loads((Path(__file__).parent / "guest_overrides.json").read_text(encoding="utf-8"))
+        assert ov["insight_guest_by_id"]["588"] == "Ben Inker"
     for name in ("data.js", "archive.json", "podcast_summaries.json", "pundits.json"):
         t = (DATA / name).read_text(encoding="utf-8")
         for bad in ("a wash in compute", "market gap that comes in", "let's 24% worse", "Compute wash",
