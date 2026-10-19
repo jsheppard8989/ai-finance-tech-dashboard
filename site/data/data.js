@@ -55696,7 +55696,7 @@ const dashboardData = {
     "mention_score_decayed": 0.98,
     "last_main_idea": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-17 \u2022 Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
-    "last_proof_snippet": "In travel, you book a flight. In e-commerce, you buy a product, but in health care, simply booking an appointment can still take weeks. In this episode, A16Z General Partner Julie Yu sits down with Zock Duck founder and CEO Oliver Karaz to",
+    "last_proof_snippet": "In travel, you book a flight. In e-commerce, you buy a product, but in health care, simply booking an appointment can still take weeks. In this episode, A16Z General Partner Julie Yu sits down with Zock Duck founder and CEO Oliver Kharraz to",
     "supporting_takeaway": "Oliver Kharraz said patients can typically see a doctor \"within three days or less\" on Zocdoc, or about 72 hours, across a broad range of specialties.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
