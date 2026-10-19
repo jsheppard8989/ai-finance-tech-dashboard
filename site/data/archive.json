@@ -1,6 +1,37 @@
 {
   "insights": [
     {
+      "id": 601,
+      "title": "What Happens When Al Agents Can Spend Your Money?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-19",
+      "summary": "Alex Rampell interviews Jean Denigrez about why Town pivoted away from an SMB tax product and toward an AI assistant for knowledge workers built around email and calendar workflows. Jean says the tax business reached \"a little bit below a million\" in revenue in year one and could have grown to \"two and a half to three million\" in year two, but it lacked the venture-scale conditions he wanted.\n\nA major thread is model neutrality. Jean argues it is risky to be tied to a single supplier like OpenAI because the best model provider may change over the next three to five years. Town therefore aims to route to whichever provider is best \"in the moment,\" while keeping the user\u2019s data, memories, and contacts portable enough that switching should take about a day.\n\nThe episode also focuses on enterprise adoption. Jean says users can start with a simple email-and-calendar connection, but enterprise buyers require security, privacy, compliance, audit logs, and tight token-cost controls. Town is trying to use a PLG motion to reach midmarket and then expand into enterprise, rather than starting from enterprise compliance and trying to build a great product later.\n\nMore broadly, both speakers argue that cheaper and better agents will unlock many tasks that were previously too expensive to automate, shifting value from apps to \"anything a human can do with a computer.\" They also discuss how agent traffic may eventually exceed human traffic, changing distribution and monetization incentives for platforms like Amazon and creating opportunities for neutral, agent-friendly systems.",
+      "key_takeaway": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 590,
+      "notable_quotes": [
+        {
+          "speaker": "Jean Denigrez",
+          "quote": "It is risky always to be competing with your supplier. You get asked yourself, is that naturally the right state of the world? What if open AI is not the best model provider for the next three to five years?"
+        },
+        {
+          "speaker": "Jean Denigrez",
+          "quote": "First, be able to go to any company and get a few people at that business, simply by connecting their email and their calendar. So not the core systems of record yet to feel enough magic that they're like, oh, this is going to bring a lot of value in my work."
+        },
+        {
+          "speaker": "Jean Denigrez",
+          "quote": "Our stance is that you own and like truly own the as a business the data and memories and contacts that's being created on time and so... switching to that other solution would take you know a day."
+        }
+      ]
+    },
+    {
       "id": 599,
       "title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
       "source_type": "podcast",
@@ -144,7 +175,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-10-18",
       "archived_date": null,
@@ -410,7 +441,7 @@
         "TSM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-14",
       "archived_date": null,
@@ -441,7 +472,7 @@
       "key_takeaway": "Large-scale DEL screening plus rigorous split design may create a defensible drug-discovery data moat because many apparent ML gains disappear once creator leakage and memorization are controlled.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-14",
       "archived_date": null,
@@ -13058,8 +13089,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-10-10",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-10-19",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -13068,8 +13099,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 568,
-      "last_mentioned_speaker": "Jason Calacanis"
+      "last_mentioned_episode_id": 590,
+      "last_mentioned_speaker": "Jean Denigrez"
     },
     {
       "id": 295,
@@ -13124,6 +13155,24 @@
       "first_detected_speaker": "Jake Paul, Drew Taggart, Alex Pall",
       "last_mentioned_episode_id": 585,
       "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+    },
+    {
+      "id": 309,
+      "term": "AI Adoption",
+      "description": "The integration of artificial intelligence technologies into business processes, which is currently at an early stage in enterprises.",
+      "first_detected_date": "2026-09-30",
+      "last_mentioned_date": "2026-10-19",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Understanding AI adoption is crucial for identifying companies that will benefit from increased efficiency and productivity.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 536,
+      "first_detected_speaker": "David George (hosts)",
+      "last_mentioned_episode_id": 590,
+      "last_mentioned_speaker": "Jean Denigrez"
     },
     {
       "id": 293,
@@ -13508,8 +13557,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 27,
+      "last_mentioned_date": "2026-10-19",
+      "mention_count": 28,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -13518,8 +13567,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam"
+      "last_mentioned_episode_id": 590,
+      "last_mentioned_speaker": "Jean Denigrez"
     },
     {
       "id": 267,

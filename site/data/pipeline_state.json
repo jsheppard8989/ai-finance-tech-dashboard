@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-19T05:33:35.169635",
-  "last_updated": "2026-10-19T05:33:35.169635",
-  "last_pipeline_run": "2026-10-19T05:33:35.169635",
+  "generated_at": "2026-10-19T18:22:59.442766",
+  "last_updated": "2026-10-19T18:22:59.442766",
+  "last_pipeline_run": "2026-10-19T18:22:59.442766",
   "main_page": {
     "overton": 13,
     "insights": 12,
-    "pundits": 377
+    "pundits": 378
   },
   "counts": {
     "ticker_mentions": 286,
-    "podcast_episodes": 558,
+    "podcast_episodes": 559,
     "newsletters": 7,
     "daily_scores": 221,
-    "overton_terms_total": 158,
-    "latest_insights_total": 572,
+    "overton_terms_total": 159,
+    "latest_insights_total": 573,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
     "downloaded": 1,
@@ -27,11 +27,11 @@
   },
   "episodes": [
     {
-      "id": "21d29a94-5fb5-4136-83a9-771927d7cdb8",
-      "podcast": "The a16z Show",
-      "title": "What Happens When Al Agents Can Spend Your Money?",
+      "id": "ec72ab3a-2b5c-4f7b-9194-875ce45930d1",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
       "published": "2026-10-19",
-      "rss_guid": "21d29a94-5fb5-4136-83a9-771927d7cdb8",
+      "rss_guid": "ec72ab3a-2b5c-4f7b-9194-875ce45930d1",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -100,25 +100,14 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "What Happens When Al Agents Can Spend Your Money?",
-      "published": "Mon, 19 Oct 2026 10:00:00 +0000",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
+      "published": "Mon, 19 Oct 2026 20:43:00 +0000",
       "published_date": "2026-10-19",
       "rss_guid": ""
     }
   ],
-  "stale_episodes": [
-    {
-      "id": "3b862154-ca42-11f1-917a-133350e8cd3e",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-      "status": "blocked_deepdive",
-      "published": "2026-10-17",
-      "age_days": 2,
-      "next_blocker": "deepdive_blocked",
-      "source": "db_incomplete"
-    }
-  ],
+  "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",

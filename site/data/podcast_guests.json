@@ -1,6 +1,18 @@
 [
   {
-    "id": 91756,
+    "id": 92491,
+    "name": "Jean Denigrez",
+    "slug": "jean-denigrez",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
+    "last_episode_title": "What Happens When Al Agents Can Spend Your Money?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-19",
+    "appearance_count": 1
+  },
+  {
+    "id": 92492,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91757,
+    "id": 92493,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91758,
+    "id": 92494,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91759,
+    "id": 92495,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91761,
+    "id": 92497,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 2
   },
   {
-    "id": 91760,
+    "id": 92496,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91762,
+    "id": 92498,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91763,
+    "id": 92499,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91764,
+    "id": 92500,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91765,
+    "id": 92501,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91766,
+    "id": 92502,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91767,
+    "id": 92503,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91768,
+    "id": 92504,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91769,
+    "id": 92505,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91770,
+    "id": 92506,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91771,
+    "id": 92507,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91772,
+    "id": 92508,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91773,
+    "id": 92509,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91774,
+    "id": 92510,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91775,
+    "id": 92511,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91776,
+    "id": 92512,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91777,
+    "id": 92513,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91778,
+    "id": 92514,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91779,
+    "id": 92515,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91780,
+    "id": 92516,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91781,
+    "id": 92517,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91782,
+    "id": 92518,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91783,
+    "id": 92519,
     "name": "Maggie Landers",
     "slug": "maggie-landers",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 91784,
+    "id": 92520,
     "name": "Eddy Lazzarin",
     "slug": "eddy-lazzarin",
     "bio": null,
@@ -344,18 +356,6 @@
     "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
     "last_episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-24",
-    "appearance_count": 1
-  },
-  {
-    "id": 91785,
-    "name": "Michael Every",
-    "slug": "michael-every",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "",
-    "last_episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
-    "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-24",
     "appearance_count": 1
   }
