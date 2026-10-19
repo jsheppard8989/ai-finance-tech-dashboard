@@ -41,6 +41,13 @@ class StyleGateTests(unittest.TestCase):
         self.assertEqual(rec["summary"], "investors who shorted Wirecard")
         self.assertEqual(rec["title"], "Elon's $60B Cursor Bet")
 
+    def test_overrides_cover_a16z_1019_hits(self):
+        rec = {"title": "t", "key_takeaway": "Town\u2019s core bet is that model-neutral, enterprise-ready",
+               "overview": "The company\u2019s bet is that the application layer can stay"}
+        export_data._apply_summary_overrides([rec])
+        self.assertEqual(find_style_gate_hits(rec), [])
+        self.assertIn("core thesis is that", rec["key_takeaway"])
+
     def test_overrides_do_not_touch_bet_free_or_exempt_text(self):
         rules = export_data._load_override_rules()
         bet = re.compile(r"\b(bets?|betting)\b", re.I)
