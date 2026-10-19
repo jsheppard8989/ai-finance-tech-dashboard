@@ -1,5 +1,24 @@
 [
   {
+    "id": 590,
+    "podcast_name": "The a16z Show",
+    "episode_title": "What Happens When Al Agents Can Spend Your Money?",
+    "episode_date": "2026-10-19",
+    "summary": "Alex Rampell interviews Jean Denigrez about why Town pivoted away from an SMB tax product and toward an AI assistant for knowledge workers built around email and calendar workflows. Jean says the tax business reached \"a little bit below a million\" in revenue in year one and could have grown to \"two and a half to three million\" in year two, but it lacked the venture-scale conditions he wanted.\n\nA major thread is model neutrality. Jean argues it is risky to be tied to a single supplier like OpenAI because the best model provider may change over the next three to five years. Town therefore aims to route to whichever provider is best \"in the moment,\" while keeping the user\u2019s data, memories, and contacts portable enough that switching should take about a day.\n\nThe episode also focuses on enterprise adoption. Jean says users can start with a simple email-and-calendar connection, but enterprise buyers require security, privacy, compliance, audit logs, and tight token-cost controls. Town is trying to use a PLG motion to reach midmarket and then expand into enterprise, rather than starting from enterprise compliance and trying to build a great product later.\n\nMore broadly, both speakers argue that cheaper and better agents will unlock many tasks that were previously too expensive to automate, shifting value from apps to \"anything a human can do with a computer.\" They also discuss how agent traffic may eventually exceed human traffic, changing distribution and monetization incentives for platforms like Amazon and creating opportunities for neutral, agent-friendly systems.",
+    "key_takeaways": [
+      "Jean Denigrez said Town pivoted because no one had built strong AI around common knowledge-work workflows like meetings, prep, drafting, and responding in email/calendar.",
+      "Jean Denigrez said Town is model-neutral and will use \"whatever supplier\" is best in the moment, because being tied to one provider is risky.",
+      "Jean Denigrez said the earlier tax business was \"a little bit below a million\" in first-year revenue and could have reached \"two and a half to three million\" in year two, but was not venture-scale.",
+      "Jean Denigrez said enterprise adoption depends on security, privacy, compliance, audit logs, and cost control, while midmarket can move faster with fewer requirements.",
+      "Jean Denigrez said Town\u2019s context layer\u2014data, memories, and contacts\u2014should be owned by the customer, and switching solutions should take \"a day.\"",
+      "Jean Denigrez argued that as token costs fall, many long-tail tasks become economically viable for automation, including recurring business workflows that are too cheap to staff manually.",
+      "Jean Denigrez said agent traffic will surpass human traffic, which will change platform incentives and create openings for neutral, agent-friendly distribution.",
+      "Alex Rampell highlighted that agents become more powerful when they have access to the data and APIs that run a business, making the product less like a simple app and more like infrastructure."
+    ],
+    "investment_thesis": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
+    "key_tickers": null
+  },
+  {
     "id": 589,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
@@ -39,6 +58,27 @@
     ],
     "investment_thesis": "",
     "key_tickers": null
+  },
+  {
+    "id": 587,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "episode_date": "2026-10-17",
+    "summary": "The episode centers on a series of moonshot-style claims: a Tesla Roadster demonstration described as a flying, suction-based, street-legal vehicle using SpaceX-derived technology, a rapid collapse in robot-subtask costs, and evidence that AI can outperform humans on verifiable theoretical physics problems at very low cost. Peter Diamandis frames these as signs that capability curves are steepening across mobility, robotics, and science.\n\nOn Tesla, the host describes a demo in Wakeo, Texas where the vehicle supposedly used suction to hold itself upside down and compressed-air pressure vessels to generate thrust, with production said to begin in 2028. The episode also cites a 5% rise in Tesla shares on the news and discusses regulatory and insurance constraints as likely bottlenecks even if the engineering proves real.\n\nThe robotics segment argues that frontier-model robot-subtask costs fell sharply, from $2.36 in July to $0.38 in September, an 84% decline, implying the cost could approach zero within a year. The conversation emphasizes that generalist models may be sufficient for many tasks, reducing the need for specialist robotics models and supporting a thesis that robotics economics are rapidly changing.\n\nThe AI/science section claims GPT-6 Astro solved 49 of 50 unpublished theoretical physics problems at roughly $3 per problem, and that the remaining miss was later found to be a published-answer error rather than an AI failure. The episode closes by arguing that incentive design is central to alignment failures, that prize mechanisms like XPRIZE create outsized economic leverage, and that humans may increasingly shift toward purpose, community, and intrinsically motivating work as machines take on more doing.",
+    "key_takeaways": [
+      "Peter Diamandis said Tesla unveiled a flying Roadster in Wakeo, Texas, using suction and SpaceX-derived technology.",
+      "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+      "Peter Diamandis said frontier robot-subtask costs fell from $2.36 in July to $0.38 in September, an 84% drop.",
+      "Peter Diamandis argued that generalist models may replace specialist robotics models for many sub-tasks.",
+      "Peter Diamandis said GPT-6 Astro solved 49 of 50 unpublished theoretical physics problems at about $3 per problem.",
+      "Peter Diamandis said the 50th physics problem was later found to have a wrong published answer, meaning Astro was right.",
+      "Peter Diamandis said XPRIZE-style prize mechanisms have created about 62x the prize purse in economic value.",
+      "Dr. Don Musalam said conservative estimates suggest 45% of dementia is entirely preventable, and Fountain Life reported a 26% improvement in brain age."
+    ],
+    "investment_thesis": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "key_tickers": [
+      "TSLA"
+    ]
   },
   {
     "id": 586,
