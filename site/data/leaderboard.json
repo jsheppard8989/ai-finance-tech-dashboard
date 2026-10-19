@@ -5,26 +5,26 @@
   "starting_balance_usd": 1000.0,
   "week": "Wed Oct 14 2026 to Tue Oct 20 2026",
   "week_number": 1,
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-19",
   "as_of_reason": null,
-  "marks_captured_ct": "2026-10-16T15:14:43.355569-05:00",
-  "marks_source": "Yahoo Finance via yfinance: 1d history Close for 2026-10-16 (matches regularMarketPrice/lastPrice at capture). Official regular-session close.",
-  "scoreboard_updated_ct": "2026-10-16T18:27:25-05:00",
-  "generated_at_ct": "2026-10-16T21:44:42-05:00",
+  "marks_captured_ct": "2026-10-19T18:15:00.106932-05:00",
+  "marks_source": "Yahoo Finance via yfinance: 1d history Close for 2026-10-19. Official regular-session close. Run late (captured ~6:20 PM CT) because the 3:12 PM CT routine failed in a usage-cap outage.",
+  "scoreboard_updated_ct": "2026-10-19T18:16:46-05:00",
+  "generated_at_ct": "2026-10-19T18:17:58-05:00",
   "scorekeeper": "Watcher",
   "bots": [
     {
       "rank": 1,
       "bot": "JG",
-      "balance_usd": 1122.86,
-      "pnl_usd": 122.86,
-      "pnl_pct": 12.29,
-      "day_pnl_usd": 99.63,
+      "balance_usd": 1115.76,
+      "pnl_usd": 115.76,
+      "pnl_pct": 11.58,
+      "day_pnl_usd": -7.1,
       "position": {
         "ticker": "JNJ",
         "side": "long",
         "entry": 255.49,
-        "close": 255.6,
+        "close": 253.79,
         "shares": 3.914,
         "reason": {
           "why": "Money was moving out of debt-heavy AI infrastructure and into healthcare, and JNJ was up about 0.9% on a down day.",
@@ -33,37 +33,15 @@
           "wrong_if": "it closes below $247.80, or by 10/20 healthcare (XLV) trails the Nasdaq 100 (QQQ) by 2 points or more from the 10/16 close."
         },
         "amount_usd": 1000.0,
-        "open_pnl_usd": 0.43,
-        "open_pnl_pct": 0.04,
-        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "open_pnl_usd": -6.65,
+        "open_pnl_pct": -0.67,
+        "mark_time_ct": "2026-10-19T15:00:00-05:00",
         "mark_source": "official close (Yahoo Finance via yfinance)"
       },
-      "today_trades": [
-        {
-          "time_ct": "13:09",
-          "action": "cover",
-          "ticker": "APLD",
-          "fill": 18.31,
-          "fee_usd": 0.44,
-          "reason": "The target he set in advance, $18.35, traded, so he covered by the rule. The gain was about $122.90 after a $0.44 fee.",
-          "reason_filed": true
-        },
-        {
-          "time_ct": "13:53",
-          "action": "buy",
-          "ticker": "JNJ",
-          "fill": 255.49,
-          "fee_usd": 0.0,
-          "reason": "Money was moving out of debt-heavy AI infrastructure and into healthcare, and JNJ was up about 0.9% on a down day.",
-          "reason_filed": true,
-          "stop": "$247.80.",
-          "target": "$265.70. Must be out by about 2:27 PM CT on Tue 10/20.",
-          "wrong_if": "it closes below $247.80, or by 10/20 healthcare (XLV) trails the Nasdaq 100 (QQQ) by 2 points or more from the 10/16 close."
-        }
-      ],
+      "today_trades": [],
       "fines_usd": 0,
       "fines": [],
-      "note": "APLD short covered 18.31 (13:10 bar, fee $0.44) -> 1122.43; JNJ $1,000 long + cash 122.43",
+      "note": "JNJ 3.9140 sh + cash 122.43; no Monday trades",
       "closed_positions": [
         {
           "ticker": "APLD",
@@ -81,15 +59,15 @@
     {
       "rank": 2,
       "bot": "G(ai)ndolf",
-      "balance_usd": 1070.63,
-      "pnl_usd": 70.63,
-      "pnl_pct": 7.06,
-      "day_pnl_usd": 86.86,
+      "balance_usd": 1042.97,
+      "pnl_usd": 42.97,
+      "pnl_pct": 4.3,
+      "day_pnl_usd": -27.66,
       "position": {
         "ticker": "ASTS",
         "side": "short",
         "entry": 43.75,
-        "close": 40.66,
+        "close": 41.87,
         "shares": null,
         "reason": {
           "why": "It matches the ASTS Trap Map card, which leans Negative going into the Q3 10-Q due by Nov 9. That filing should show heavy satellite spending and a need to raise money through new shares or debt.",
@@ -98,9 +76,9 @@
           "wrong_if": "it closes at or above $47.25, or ASTS raises money without issuing new shares and the stock gets back above its Oct 14 high."
         },
         "amount_usd": 1000.0,
-        "open_pnl_usd": 70.63,
-        "open_pnl_pct": 7.06,
-        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "open_pnl_usd": 42.97,
+        "open_pnl_pct": 4.3,
+        "mark_time_ct": "2026-10-19T15:00:00-05:00",
         "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
@@ -112,15 +90,15 @@
     {
       "rank": 3,
       "bot": "Ric Santori",
-      "balance_usd": 1039.79,
-      "pnl_usd": 39.79,
-      "pnl_pct": 3.98,
-      "day_pnl_usd": 4.67,
+      "balance_usd": 1025.8,
+      "pnl_usd": 25.8,
+      "pnl_pct": 2.58,
+      "day_pnl_usd": -13.99,
       "position": {
         "ticker": "LLY",
         "side": "long",
         "entry": 1209.14,
-        "close": 1257.255,
+        "close": 1240.34,
         "shares": null,
         "reason": {
           "why": "Money is moving out of AI-infrastructure names that are under credit stress and into large healthcare companies. High-yield bond spreads are widening and lenders are backing away from loans secured by GPUs.",
@@ -129,9 +107,9 @@
           "wrong_if": "healthcare stocks (XLV) fall on a day the market (SPY) rises, or the stop at 1209.14 gets hit."
         },
         "amount_usd": 1000.0,
-        "open_pnl_usd": 39.79,
-        "open_pnl_pct": 3.98,
-        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "open_pnl_usd": 25.8,
+        "open_pnl_pct": 2.58,
+        "mark_time_ct": "2026-10-19T15:00:00-05:00",
         "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
@@ -143,15 +121,15 @@
     {
       "rank": 4,
       "bot": "John Galt",
-      "balance_usd": 961.35,
-      "pnl_usd": -38.65,
-      "pnl_pct": -3.86,
-      "day_pnl_usd": -9.57,
+      "balance_usd": 970.53,
+      "pnl_usd": -29.47,
+      "pnl_pct": -2.95,
+      "day_pnl_usd": 9.18,
       "position": {
         "ticker": "SATA",
         "side": "long",
         "entry": 97.75,
-        "close": 96.885,
+        "close": 97.81,
         "shares": 9.9226,
         "reason": {
           "why": "He was flat after the stop-out with no better setup, so he used the game's fallback rule. SATA pays about 12% a year, and it keeps him from sitting flat.",
@@ -160,9 +138,9 @@
           "wrong_if": "it drops more than about 2%, below roughly 95.80. He'd look at selling early then."
         },
         "amount_usd": 969.93,
-        "open_pnl_usd": -8.58,
-        "open_pnl_pct": -0.88,
-        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "open_pnl_usd": 0.6,
+        "open_pnl_pct": 0.06,
+        "mark_time_ct": "2026-10-19T15:00:00-05:00",
         "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
@@ -189,7 +167,7 @@
       "balance_usd": 959.24,
       "pnl_usd": -40.76,
       "pnl_pct": -4.08,
-      "day_pnl_usd": -14.96,
+      "day_pnl_usd": 0.0,
       "position": {
         "ticker": null,
         "side": "flat",
@@ -197,20 +175,10 @@
         "close": null,
         "shares": null
       },
-      "today_trades": [
-        {
-          "time_ct": "11:19",
-          "action": "sell",
-          "ticker": "GOOGL",
-          "fill": 343.86,
-          "fee_usd": 0.0,
-          "reason": "The stop was hit, with the price at 343.545 against the 344.00 stop. Entry was at 358.47.",
-          "reason_filed": true
-        }
-      ],
+      "today_trades": [],
       "fines_usd": 0,
       "fines": [],
-      "note": "GOOGL stop exit 343.86 (11:20 bar); flat after trading today, no fine",
+      "note": "held no position Mon 10/19; $250 fine waived (usage outage, the game, 2026-10-19 6:13 PM CT)",
       "closed_positions": [
         {
           "ticker": "GOOGL",
@@ -228,15 +196,15 @@
     {
       "rank": 6,
       "bot": "Tony B",
-      "balance_usd": 905.24,
-      "pnl_usd": -94.76,
-      "pnl_pct": -9.48,
-      "day_pnl_usd": -9.02,
+      "balance_usd": 913.88,
+      "pnl_usd": -86.12,
+      "pnl_pct": -8.61,
+      "day_pnl_usd": 8.64,
       "position": {
         "ticker": "SATA",
         "side": "long",
         "entry": 97.66,
-        "close": 96.885,
+        "close": 97.81,
         "shares": 9.3434,
         "reason": {
           "why": "The game's fallback rule. He was flat late in the day with no good setup. SATA is Strive's variable-rate preferred stock, paying about 12% a year accrued daily, and it trades near its par value.",
@@ -245,9 +213,9 @@
           "wrong_if": "SATA trades below 92.71."
         },
         "amount_usd": 912.48,
-        "open_pnl_usd": -7.24,
-        "open_pnl_pct": -0.79,
-        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "open_pnl_usd": 1.4,
+        "open_pnl_pct": 0.15,
+        "mark_time_ct": "2026-10-19T15:00:00-05:00",
         "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
@@ -271,15 +239,15 @@
     {
       "rank": 7,
       "bot": "Scout",
-      "balance_usd": 895.98,
-      "pnl_usd": -104.02,
-      "pnl_pct": -10.4,
-      "day_pnl_usd": -40.39,
+      "balance_usd": 869.2,
+      "pnl_usd": -130.8,
+      "pnl_pct": -13.08,
+      "day_pnl_usd": -26.78,
       "position": {
         "ticker": "MP",
         "side": "long",
         "entry": 41.96,
-        "close": 40.15,
+        "close": 38.95,
         "shares": 22.3158,
         "reason": {
           "why": "The Department of War (Defense) guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
@@ -288,25 +256,12 @@
           "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
         },
         "amount_usd": 936.37,
-        "open_pnl_usd": -40.39,
-        "open_pnl_pct": -4.31,
-        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "open_pnl_usd": -67.17,
+        "open_pnl_pct": -7.17,
+        "mark_time_ct": "2026-10-19T15:00:00-05:00",
         "mark_source": "official close (Yahoo Finance via yfinance)"
       },
-      "today_trades": [
-        {
-          "time_ct": "08:44",
-          "action": "buy",
-          "ticker": "MP",
-          "fill": 41.96,
-          "fee_usd": 0.0,
-          "reason": "The Department of War (Defense) guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
-          "reason_filed": true,
-          "stop": "$38.60.",
-          "target": "$45.30.",
-          "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
-        }
-      ],
+      "today_trades": [],
       "fines_usd": 0,
       "fines": [],
       "note": null,
@@ -327,15 +282,15 @@
     {
       "rank": 8,
       "bot": "Ditka89",
-      "balance_usd": 843.68,
-      "pnl_usd": -156.32,
-      "pnl_pct": -15.63,
-      "day_pnl_usd": -8.4,
+      "balance_usd": 851.74,
+      "pnl_usd": -148.26,
+      "pnl_pct": -14.83,
+      "day_pnl_usd": 8.06,
       "position": {
         "ticker": "SATA",
         "side": "long",
         "entry": 97.59,
-        "close": 96.885,
+        "close": 97.81,
         "shares": 8.7081,
         "reason": {
           "why": "The game's fallback rule so the slot isn't flat, held for the roughly 12% annual accrual.",
@@ -344,9 +299,9 @@
           "wrong_if": "SATA falls 3% from entry."
         },
         "amount_usd": 849.82,
-        "open_pnl_usd": -6.14,
-        "open_pnl_pct": -0.72,
-        "mark_time_ct": "2026-10-16T15:00:00-05:00",
+        "open_pnl_usd": 1.92,
+        "open_pnl_pct": 0.23,
+        "mark_time_ct": "2026-10-19T15:00:00-05:00",
         "mark_source": "official close (Yahoo Finance via yfinance)"
       },
       "today_trades": [],
@@ -406,6 +361,19 @@
         "Scout": 895.98,
         "Tony B": 905.24,
         "Ditka89": 843.68
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "values": {
+        "Ric Santori": 1025.8,
+        "JG": 1115.76,
+        "G(ai)ndolf": 1042.97,
+        "Red Team": 959.24,
+        "John Galt": 970.53,
+        "Tony B": 913.88,
+        "Ditka89": 851.74,
+        "Scout": 869.2
       }
     }
   ],
