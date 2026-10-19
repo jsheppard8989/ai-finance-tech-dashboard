@@ -523,7 +523,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-24",
     "mention_score": 3,
-    "mention_score_decayed": 1.76,
+    "mention_score_decayed": 1.72,
     "last_main_idea": "Geopolitical tensions in the Middle East could lead to spikes in oil prices, impacting inflation and economic growth.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-24 \u2022 MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
     "last_proof_snippet": "The joke at the moment is if you're an interest rate trader on FX trader, the moment you have to be an oil trader. You've got to look at that to understand what bond yields are going to do. That was Michael Every. I'm Eric Townsend. This is",
@@ -768,7 +768,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-01",
     "mention_score": 2,
-    "mention_score_decayed": 1.38,
+    "mention_score_decayed": 1.35,
     "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
     "last_proof_snippet": "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, Lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclosures",
@@ -891,7 +891,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-30 \u2022 Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
     "last_proof_snippet": "I was a little terrified backstage when Palmer's like, there's something on the screen that says, I'm not supposed to say this. It's like, for the love of God, whatever it is. Please don't make it about colossal. Please don't say it. So, I",
@@ -1015,7 +1015,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
@@ -1358,7 +1358,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-15 \u2022 MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
     "last_proof_snippet": "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization. That was",
@@ -1466,7 +1466,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-14 \u2022 The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO",
     "last_proof_snippet": "In general, the market does about 4% worse per percent of market cap that comes in in an IPO in a given year. So if we are seeing 6% coming in, that's 24% worse than normal. If we're all short of compute, then sure, I'm going to pay for a fi",
@@ -1498,33 +1498,6 @@
     "last_proof_cite": "The a16z Show \u2022 2026-10-14 \u2022 Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
     "last_proof_snippet": "When I think about model progress, it comes down to different forms of capital, and that is compute data and talent. How do you see that playing out in terms of who's going to win in the next couple of years? The Chinese are so good at buil",
     "supporting_takeaway": "Lambert says closed frontier labs have an advantage because they are integrated, with efficient inference and faster customer feedback loops into post-training.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 533,
-    "name": "Jason Ma",
-    "slug": "jason-ma",
-    "bio": "Co-founder and Chief Scientist of Dyna Robotics. He discusses world-action models, robotics data scaling, synthetic simulation, and deployment-driven product strategy.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-14 03:30:08",
-    "last_episode_title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
-    "last_proof_snippet": "Watch along AIE NYC and join us at AIE CODE in SF next month! This episode includes a live demo of the Taku robot that is best enjoyed on YouTube. Last month, Dyna made waves by announcing Dyna-2, a world-action model pre-trained on one mil",
-    "supporting_takeaway": "Jason Ma argues world-action models are more dexterous, robust, and generalizable than approaches that only output robot actions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -1589,6 +1562,33 @@
       ]
     },
     "net_worth": "$600.0M"
+  },
+  {
+    "id": 533,
+    "name": "Jason Ma",
+    "slug": "jason-ma",
+    "bio": "Co-founder and Chief Scientist of Dyna Robotics. He discusses world-action models, robotics data scaling, synthetic simulation, and deployment-driven product strategy.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-14 03:30:08",
+    "last_episode_title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.89,
+    "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
+    "last_proof_snippet": "Watch along AIE NYC and join us at AIE CODE in SF next month! This episode includes a live demo of the Taku robot that is best enjoyed on YouTube. Last month, Dyna made waves by announcing Dyna-2, a world-action model pre-trained on one mil",
+    "supporting_takeaway": "Jason Ma argues world-action models are more dexterous, robust, and generalizable than approaches that only output robot actions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 530,
@@ -1667,33 +1667,6 @@
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
     "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years. It's sort of silly to think it could be 18 years and two weeks instead of 18 years and six months or 19 years and two months or 22 years and seven mon",
     "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 528,
-    "name": "Martin Shkreli",
-    "slug": "martin-shkreli",
-    "bio": "Drug-industry entrepreneur and financier known for controversial pricing history. In this episode he argues against broad quantum-computing hype and for a future in photonic/analog optical computing.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-12 18:50:49",
-    "last_episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-12 \u2022 Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
-    "last_proof_snippet": "He's been called the most hated man in America because he jacked up the cost of a life-saving drug. Raise the price of a life-saving drug, 5,000 percent. He became the poster child for capitalistic greed. Barton Screly, 7 years in prison, w",
-    "supporting_takeaway": "He claims modern quantum systems run at only hundreds or thousands of Hertz, far below classical chip clock rates, which limits general-purpose usefulness.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -1818,6 +1791,33 @@
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 528,
+    "name": "Martin Shkreli",
+    "slug": "martin-shkreli",
+    "bio": "Drug-industry entrepreneur and financier known for controversial pricing history. In this episode he argues against broad quantum-computing hype and for a future in photonic/analog optical computing.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-12 18:50:49",
+    "last_episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-12 \u2022 Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+    "last_proof_snippet": "He's been called the most hated man in America because he jacked up the cost of a life-saving drug. Raise the price of a life-saving drug, 5,000 percent. He became the poster child for capitalistic greed. Barton Screly, 7 years in prison, w",
+    "supporting_takeaway": "He claims modern quantum systems run at only hundreds or thousands of Hertz, far below classical chip clock rates, which limits general-purpose usefulness.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 525,
@@ -2059,7 +2059,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The episode\u2019s core claim is that structural global dollar demand can keep the US dollar and US rates elevated even under stress, while policy tools and gold revaluation remain underappreciated.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-08 \u2022 MacroVoices #553 Brent Johnson: Disparate Housewives",
     "last_proof_snippet": "I've been doing this for 26 years now, and for 25 of the 26 years, I've been hearing that the Fed is out of bullets. And my point to people is that they have a lot more bullets than you can possibly imagine. That was Santiago Capital founde",
@@ -2086,7 +2086,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-08 \u2022 Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
     "last_proof_snippet": "This episode is brought to you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Theumatics ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclo",
@@ -2194,7 +2194,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-05 \u2022 Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
     "last_proof_snippet": "Thank you for having me, pleasure, Paul, and we have known each other for God knows a couple of decades now. You know, I think most people don't know something about you. It's worth mentioning. Just for fun, since we're talking about geneti",
@@ -2221,7 +2221,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "J Mintzmyer argues dry bulk, not tankers, has the stronger setup because Capesize rates near $40,000 to $50,000 per day meet restrained supply and longer Guinea-to-China ton miles.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-06 \u2022 The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
     "last_proof_snippet": "Words like crisis or historic, really do not even begin to capture what is going on with tankers and the straight of hormones. I mean, you'll get into the numbers, but some of these tanker rates have gone up 25 times, not 25 percent, 25 tim",
@@ -2248,7 +2248,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Angela Strange said Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market, after Valon rebuilt mortgage servicing around a modern system of record.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-07 \u2022 How Valon Rebuilt a $13 Trillion Industry From Scratch",
     "last_proof_snippet": "Morgage is top three in terms of undistrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us. The way that we are going about it as an",
@@ -2275,7 +2275,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armadin has already found over 90 production zero days since January 2026.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-06 \u2022 Building Defense for the Agentic Era: Kevin Mandia",
     "last_proof_snippet": "If you don't have a defense on this, you have a great offense to go up against. You want to be the Baltimore Ravens defense at 2000, you kind of want to have your practice offense really push you. That's what Armenians are going to do. We'r",
@@ -2302,7 +2302,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.77,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -2372,6 +2372,33 @@
     "pundit_profile": null
   },
   {
+    "id": 505,
+    "name": "Alex Atallah",
+    "slug": "alex-atallah",
+    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
+    "known_for": "OpenRouter and model routing across multiple AI providers.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and infrastructure-focused.",
+    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 1,
+    "mention_score_decayed": 0.71,
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 52,
     "name": "Alex Karp",
     "slug": "alex-carp",
@@ -2389,7 +2416,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.7,
     "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -2430,33 +2457,6 @@
       ]
     },
     "net_worth": "$14.00B"
-  },
-  {
-    "id": 505,
-    "name": "Alex Atallah",
-    "slug": "alex-atallah",
-    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
-    "known_for": "OpenRouter and model routing across multiple AI providers.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and infrastructure-focused.",
-    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
-    "voice_profile_updated_at": "2026-10-03 12:02:34",
-    "last_seen": "2026-10-03 12:02:34",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
-    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 502,
@@ -2530,7 +2530,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Alex Zhang predicts language models may become hidden swarms under simple interfaces because composing agents through shared context can solve problems like OpenAI's 10,000-agent experiment.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-02 \u2022 Academia is for Ambition \u2014 Alex Zhang, MIT",
     "last_proof_snippet": "Last call for regular tickets for AI Engineer NYC! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps - for new tickets only, no refunds! See you in 2 weeks! While we tend to cover industry",
@@ -2557,7 +2557,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Barrett Lyon argues DoxxNet differs from VPNs by owning hardware across 26 sites and enabling encrypted peer-to-peer communication without central servers, reducing leased-server and insider-threat exposure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-01 \u2022 Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
     "last_proof_snippet": "We're really at an inflection point because you have the birth of essentially coin-operated intelligence at scale. The internet is really kind of stagnated bit for the protocol design. There's like not a lot of new stuff all of it's built o",
@@ -2584,7 +2584,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "David Rosenberg argues November 3 midterm gridlock could slow growth, inflation, and bond yields because shifts from one-party control to divided government produced that outcome 80% of the time.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-01 \u2022 MacroVoices #552 David Rosenberg: Navigating The Noise",
     "last_proof_snippet": "Historically, when a one-party power swings to a two-party system with gridlock, 80% of the time, the economy slows, 80% of the time inflation goes down, and 80% of the time bond yields go down in that two-year period after a national elect",
@@ -2692,7 +2692,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks: We are no strangers to learning in public and are no stra",
@@ -2719,7 +2719,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks: We are no strangers to learning in public and are no stra",
@@ -2746,7 +2746,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-30 \u2022 Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
     "last_proof_snippet": "I'm joined once again by Ben Poladian of BEP Research Ben is a semiconductor auto-diadact enthusiast. He's been an investor in Nvidia since 2016. Ben, great to see you again. Welcome back. Glad to be back with you, Jack. So I'm exciting. Th",
@@ -3008,7 +3008,7 @@
     "last_podcast_name": "Other People's Money with Max Wiethe",
     "last_episode_date": "2026-09-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "James Elbaor argues private credit growth is over and BDC/private credit consolidation should accelerate next fiscal year as redemptions exceed 5% gates and public vehicles trade at large NAV discounts.",
     "last_proof_cite": "Other People's Money with Max Wiethe \u2022 2026-09-27 \u2022 The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
     "last_proof_snippet": "Let's take a quick step back and say one thing that I think is abundantly clear. The private credit boom is over. We all saw in Forbes recently around the blue owl founders, other founders of private credit firms becoming billionaires. That",
@@ -3064,7 +3064,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The credit market is increasingly bifurcated, favoring high-quality borrowers while lower-quality borrowers face tighter conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-24 \u2022 Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
     "last_proof_snippet": "Got a very important conversation today. We are speaking to Henry Peabody, senior investment strategist at GMO, Henry Welcome to Monetary Matters. Jack, thanks so much for having me. I'm really looking forward to the conversation. I know yo",
@@ -3120,7 +3120,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
     "last_proof_snippet": "The AI debate increasingly asks us to consider the probability of doom. Eddie Lazaran thinks we should also be asking about the probability of abundance. In this episode, A16Z Crypto-General Partner Eddie Lazaran joins Theo-Jaffe on MTS to",
@@ -3165,66 +3165,6 @@
         }
       ]
     }
-  },
-  {
-    "id": 333,
-    "name": "Dylan Patel",
-    "slug": "dylan-patel",
-    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
-    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
-    "net_worth_usd": 3700000000.0,
-    "net_worth_source": "https://substack.com/home/post/p-153458455",
-    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
-    "voice_profile_updated_at": "2026-08-26 03:28:15",
-    "last_seen": "2026-08-26 03:28:15",
-    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-08-25",
-    "mention_score": 2,
-    "mention_score_decayed": 0.59,
-    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
-    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dylan Patel",
-      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
-      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
-      "derived": {
-        "current_role": "Founder of SemiAnalysis"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
-        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
-      ],
-      "sections": [
-        {
-          "heading": "AI Infrastructure Growth",
-          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
-        },
-        {
-          "heading": "Compute Market Analysis",
-          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
-        },
-        {
-          "heading": "Economic Impact of AI",
-          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
-        }
-      ]
-    },
-    "net_worth": "$3.70B"
   },
   {
     "id": 480,
@@ -3340,6 +3280,66 @@
         }
       ]
     }
+  },
+  {
+    "id": 333,
+    "name": "Dylan Patel",
+    "slug": "dylan-patel",
+    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
+    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
+    "net_worth_usd": 3700000000.0,
+    "net_worth_source": "https://substack.com/home/post/p-153458455",
+    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
+    "voice_profile_updated_at": "2026-08-26 03:28:15",
+    "last_seen": "2026-08-26 03:28:15",
+    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-08-25",
+    "mention_score": 2,
+    "mention_score_decayed": 0.57,
+    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
+    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Patel",
+      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
+      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder of SemiAnalysis"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
+        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI Infrastructure Growth",
+          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
+        },
+        {
+          "heading": "Compute Market Analysis",
+          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
+        },
+        {
+          "heading": "Economic Impact of AI",
+          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
+        }
+      ]
+    },
+    "net_worth": "$3.70B"
   },
   {
     "id": 478,
@@ -3701,7 +3701,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Gold has decoupled from oil prices, indicating a potential for price increases as central banks, especially in China, increase purchases.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-20 \u2022 Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
     "last_proof_snippet": "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal. As we saw since maybe August and so far, September, there's been a huge spike i",
@@ -3755,7 +3755,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Rising Treasury yields compress equity risk premiums, necessitating a reassessment of equity valuations.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-19 \u2022 Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
     "last_proof_snippet": "Today, I'm joined by David Bush, Chief Investment Officer of Trajan Wealth, David. Welcome to the monetary matters. Jack, thank you so much for having me. It's truly a pleasure to join you. And as I said in our communication back and forth",
@@ -3924,7 +3924,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
     "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
@@ -3986,7 +3986,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
     "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
@@ -4633,7 +4633,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -4691,7 +4691,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -4805,75 +4805,6 @@
     "net_worth": "$11.9M"
   },
   {
-    "id": 449,
-    "name": "John Ferris",
-    "slug": "john-ferris",
-    "bio": "John Ferris is a principal at Land Fund Partners, where he leads the acquisition and improvement of farmland in the Mid-South using sustainable irrigation and regenerative agriculture. He began his career in the 1990s as an agricultural economist at the World Bank, studying global food supply trends. He now focuses on water-rich agricultural land as a real asset investment, targeting the structural tension between shrinking arable land and rising global food demand. He recently discussed these themes on the Monetary Matters podcast, highlighting near-term risks to global grain reserves.",
-    "known_for": "Bridging agricultural economics and farmland investment to capitalize on structural global food-supply constraints and water-rich real assets.",
-    "net_worth_usd": 5000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/wall-street/jonas-max-ferris-net-worth/",
-    "net_worth_updated_at": "2026-09-11T22:45:03.938315",
-    "voice_tone": "Data-driven and regionally specific, citing acreage counts and aquifer timelines with confidence.",
-    "voice_style": "Builds investment cases through scarcity framing, comparing water reserves and land prices across regions to highlight relative value.",
-    "voice_delivery_notes": "Maintain a measured, conversational pace with slight emphasis on numerical comparisons like '300 years' and '140% higher'.",
-    "voice_profile_updated_at": "2026-09-12 03:39:42",
-    "last_seen": "2026-09-12 03:39:42",
-    "last_episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-09-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.44,
-    "last_main_idea": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-11 \u2022 Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
-    "last_proof_snippet": "On today's episode of monetary matters, we're doing something a little different. We're going to talk about farmland and food security, and why I think this is one of the more underappreciated real asset stories in markets right now. Everyo",
-    "supporting_takeaway": "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-12T05:22:35.829155",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:kimi-k2.6",
-      "source_url": "",
-      "page_title": "John Ferris",
-      "fetched_at": "2026-09-12T10:22:35.828786+00:00",
-      "cliff_notes": "John Ferris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis. In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Ferris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.\n\nFerris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance. He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets. By combining his World Bank policy background with hands-on land improvement, Ferris represents a hybrid model of macro-driven, operationally intensive farmland investing.",
-      "derived": {
-        "current_role": "Principal at Land Fund Partners",
-        "former_positions": "Agricultural economist at the World Bank"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "John Ferris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis.",
-        "In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Ferris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.",
-        "Ferris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance.",
-        "He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets.",
-        "By combining his World Bank policy background with hands-on land improvement, Ferris represents a hybrid model of macro-driven, operationally intensive farmland investing."
-      ],
-      "sections": [
-        {
-          "heading": "Farmland Real Assets",
-          "body": "Ferris treats productive farmland as an underappreciated real asset and inflation hedge. He argues that it sits outside traditional equity and bond markets while offering exposure to secular trends in global food demand."
-        },
-        {
-          "heading": "World Bank Agricultural Economics",
-          "body": "Straight out of graduate school in the 1990s, Ferris worked at the World Bank as an agricultural economist studying global food supply trends. That research period shaped the macro thesis he later deployed with private investment capital."
-        },
-        {
-          "heading": "Sustainable Land Improvement",
-          "body": "At Land Fund Partners, Ferris focuses on acquiring farmland in the Mid-South and upgrading it through sustainable irrigation and regenerative agriculture. The goal is to improve long-term soil health and operational yields."
-        },
-        {
-          "heading": "Global Food Security & Macro Trends",
-          "body": "Ferris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and thin global grain reserves could amplify these pressures."
-        },
-        {
-          "heading": "Water-Rich Land Strategy",
-          "body": "A core element of his approach is targeting water-rich agricultural land. Access to reliable water is treated as a critical scarce resource that underpins the long-term productivity and defensive value of the portfolio."
-        }
-      ]
-    },
-    "net_worth": "$5.0M"
-  },
-  {
     "id": 218,
     "name": "Joe Schmidt",
     "slug": "joe-schmidt",
@@ -4932,6 +4863,75 @@
       ]
     },
     "net_worth": "$21.0M"
+  },
+  {
+    "id": 449,
+    "name": "John Ferris",
+    "slug": "john-ferris",
+    "bio": "John Ferris is a principal at Land Fund Partners, where he leads the acquisition and improvement of farmland in the Mid-South using sustainable irrigation and regenerative agriculture. He began his career in the 1990s as an agricultural economist at the World Bank, studying global food supply trends. He now focuses on water-rich agricultural land as a real asset investment, targeting the structural tension between shrinking arable land and rising global food demand. He recently discussed these themes on the Monetary Matters podcast, highlighting near-term risks to global grain reserves.",
+    "known_for": "Bridging agricultural economics and farmland investment to capitalize on structural global food-supply constraints and water-rich real assets.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/wall-street/jonas-max-ferris-net-worth/",
+    "net_worth_updated_at": "2026-09-11T22:45:03.938315",
+    "voice_tone": "Data-driven and regionally specific, citing acreage counts and aquifer timelines with confidence.",
+    "voice_style": "Builds investment cases through scarcity framing, comparing water reserves and land prices across regions to highlight relative value.",
+    "voice_delivery_notes": "Maintain a measured, conversational pace with slight emphasis on numerical comparisons like '300 years' and '140% higher'.",
+    "voice_profile_updated_at": "2026-09-12 03:39:42",
+    "last_seen": "2026-09-12 03:39:42",
+    "last_episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.43,
+    "last_main_idea": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-11 \u2022 Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+    "last_proof_snippet": "On today's episode of monetary matters, we're doing something a little different. We're going to talk about farmland and food security, and why I think this is one of the more underappreciated real asset stories in markets right now. Everyo",
+    "supporting_takeaway": "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-12T05:22:35.829155",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "John Ferris",
+      "fetched_at": "2026-09-12T10:22:35.828786+00:00",
+      "cliff_notes": "John Ferris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis. In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Ferris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.\n\nFerris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance. He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets. By combining his World Bank policy background with hands-on land improvement, Ferris represents a hybrid model of macro-driven, operationally intensive farmland investing.",
+      "derived": {
+        "current_role": "Principal at Land Fund Partners",
+        "former_positions": "Agricultural economist at the World Bank"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "John Ferris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis.",
+        "In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Ferris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.",
+        "Ferris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance.",
+        "He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets.",
+        "By combining his World Bank policy background with hands-on land improvement, Ferris represents a hybrid model of macro-driven, operationally intensive farmland investing."
+      ],
+      "sections": [
+        {
+          "heading": "Farmland Real Assets",
+          "body": "Ferris treats productive farmland as an underappreciated real asset and inflation hedge. He argues that it sits outside traditional equity and bond markets while offering exposure to secular trends in global food demand."
+        },
+        {
+          "heading": "World Bank Agricultural Economics",
+          "body": "Straight out of graduate school in the 1990s, Ferris worked at the World Bank as an agricultural economist studying global food supply trends. That research period shaped the macro thesis he later deployed with private investment capital."
+        },
+        {
+          "heading": "Sustainable Land Improvement",
+          "body": "At Land Fund Partners, Ferris focuses on acquiring farmland in the Mid-South and upgrading it through sustainable irrigation and regenerative agriculture. The goal is to improve long-term soil health and operational yields."
+        },
+        {
+          "heading": "Global Food Security & Macro Trends",
+          "body": "Ferris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and thin global grain reserves could amplify these pressures."
+        },
+        {
+          "heading": "Water-Rich Land Strategy",
+          "body": "A core element of his approach is targeting water-rich agricultural land. Access to reliable water is treated as a critical scarce resource that underpins the long-term productivity and defensive value of the portfolio."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
   },
   {
     "id": 448,
@@ -6231,7 +6231,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. Join today by Jim Wiederhold, commodity indices product manager at Bloomberg, Jim, great to see you welcome to monetary matters. Jack, thanks.",
@@ -7042,7 +7042,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -7295,7 +7295,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -17049,70 +17049,6 @@
     "net_worth": "$5.00B"
   },
   {
-    "id": 189,
-    "name": "Dmitry Dugov",
-    "slug": "dmitry-dugov",
-    "bio": "Dmitry Dugov is the Co-CEO of Wemo, a company that has been leading the autonomous vehicle industry by providing over 500,000 fully autonomous rides each week. He joined Google's self-driving car project in 2009 as one of its first engineers, contributing significantly to the field of autonomous driving technology.",
-    "known_for": "Leading Wemo to provide over 500,000 fully autonomous rides each week.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and measured pace, with emphasis on key milestones and technological advancements",
-    "voice_profile_updated_at": "2026-04-20 03:05:00",
-    "last_seen": "2026-04-20 03:05:00",
-    "last_episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
-    "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
-    "supporting_takeaway": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-19T22:05:22.013432",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dmitry Dugov",
-      "fetched_at": "2026-04-20T03:05:22.013196+00:00",
-      "cliff_notes": "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities. His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems.",
-      "derived": {
-        "current_role": "Co-CEO of Wemo",
-        "former_positions": "Engineer at Google's self-driving car project"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities.",
-        "His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Vehicle Pioneer",
-          "body": "Dmitry Dugov was one of the initial engineers in Google's self-driving car project, contributing to the early stages of autonomous vehicle technology."
-        },
-        {
-          "heading": "Scaling Autonomous Rides",
-          "body": "As Co-CEO of Wemo, Dugov has overseen the scaling of the company's operations to provide over 500,000 fully autonomous rides per week, a significant milestone in the industry."
-        },
-        {
-          "heading": "Transition from Research to Real-World",
-          "body": "Dmitry Dugov has been instrumental in shifting Wemo's focus from scientific research to the accelerated global deployment of autonomous driving technology."
-        },
-        {
-          "heading": "Social Aspects of Driving",
-          "body": "Dugov emphasizes the importance of understanding the social aspects of driving and what it means to be a good driver in the development of autonomous systems."
-        }
-      ]
-    }
-  },
-  {
     "id": 55,
     "name": "Dr. Anas Alhajji",
     "slug": "dr-onus-alhajji",
@@ -17327,6 +17263,70 @@
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 189,
+    "name": "Dmitry Dugov",
+    "slug": "dmitry-dugov",
+    "bio": "Dmitry Dugov is the Co-CEO of Wemo, a company that has been leading the autonomous vehicle industry by providing over 500,000 fully autonomous rides each week. He joined Google's self-driving car project in 2009 as one of its first engineers, contributing significantly to the field of autonomous driving technology.",
+    "known_for": "Leading Wemo to provide over 500,000 fully autonomous rides each week.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and measured pace, with emphasis on key milestones and technological advancements",
+    "voice_profile_updated_at": "2026-04-20 03:05:00",
+    "last_seen": "2026-04-20 03:05:00",
+    "last_episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
+    "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
+    "supporting_takeaway": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-19T22:05:22.013432",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dmitry Dugov",
+      "fetched_at": "2026-04-20T03:05:22.013196+00:00",
+      "cliff_notes": "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities. His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems.",
+      "derived": {
+        "current_role": "Co-CEO of Wemo",
+        "former_positions": "Engineer at Google's self-driving car project"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities.",
+        "His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Vehicle Pioneer",
+          "body": "Dmitry Dugov was one of the initial engineers in Google's self-driving car project, contributing to the early stages of autonomous vehicle technology."
+        },
+        {
+          "heading": "Scaling Autonomous Rides",
+          "body": "As Co-CEO of Wemo, Dugov has overseen the scaling of the company's operations to provide over 500,000 fully autonomous rides per week, a significant milestone in the industry."
+        },
+        {
+          "heading": "Transition from Research to Real-World",
+          "body": "Dmitry Dugov has been instrumental in shifting Wemo's focus from scientific research to the accelerated global deployment of autonomous driving technology."
+        },
+        {
+          "heading": "Social Aspects of Driving",
+          "body": "Dugov emphasizes the importance of understanding the social aspects of driving and what it means to be a good driver in the development of autonomous systems."
+        }
+      ]
+    }
   },
   {
     "id": 186,

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T13:44:17.316461",
-  "last_updated": "2026-10-18T13:44:17.316461",
-  "last_pipeline_run": "2026-10-18T13:44:17.316461",
+  "generated_at": "2026-10-18T22:46:17.509183",
+  "last_updated": "2026-10-18T22:46:17.509183",
+  "last_pipeline_run": "2026-10-18T22:46:17.509183",
   "main_page": {
     "overton": 13,
     "insights": 12,
@@ -18,33 +18,14 @@
     "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "2fb64604-caee-11f1-a198-6b7f753f0978",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
-      "published": "2026-10-18",
-      "rss_guid": "2fb64604-caee-11f1-a198-6b7f753f0978",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
