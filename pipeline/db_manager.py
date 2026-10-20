@@ -895,6 +895,7 @@ class DashboardDB:
 
         pundits = _sort_pundits_for_site(pundits)
         pundits = sanitize_public_text(pundits)
+        self._attach_merge_episode_ids(pundits)
         with open(output_dir / 'pundits.json', 'w') as f:
             json.dump(pundits, f, indent=2, default=str)
 
@@ -905,6 +906,31 @@ class DashboardDB:
             'podcast_guests': len(guests),
             'pundits': len(pundits),
         }
+
+    def _attach_merge_episode_ids(self, pundits: List[Dict]) -> None:
+        """Oct 20 2026: for rows named in summary_overrides.json 'pundit_merges', attach their
+        guest_primary podcast episode ids ('_guest_episode_ids') so export_data can merge duplicate
+        rows without double counting a shared episode. export_data pops the field before publish."""
+        try:
+            rules = json.loads((Path(__file__).parent / "summary_overrides.json").read_text(encoding="utf-8"))
+        except Exception:
+            return
+        ids = set()
+        for m in rules.get("pundit_merges") or []:
+            ids.add(int(m["keep"]))
+            ids.update(int(i) for i in m.get("merge") or [])
+        if not ids:
+            return
+        eps: Dict[int, set] = {}
+        with self._get_connection() as conn:
+            q = ",".join("?" * len(ids))
+            for eid, sid in conn.execute(
+                f"SELECT entity_id, source_id FROM appearances WHERE entity_id IN ({q}) "
+                "AND LOWER(role) = 'guest_primary' AND source_type = 'podcast'", sorted(ids)):
+                eps.setdefault(int(eid), set()).add(int(sid))
+        for p in pundits:
+            if p.get("id") in ids:
+                p["_guest_episode_ids"] = sorted(eps.get(p["id"], set()))
 
     def cleanup_placeholder_entities(self) -> int:
         """

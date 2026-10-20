@@ -334,8 +334,9 @@ def _apply_summary_overrides(obj):
         _apply_name_replacements(obj, name_reps)
     # Oct 20 2026: pundit rows by id, AFTER the full-name swaps so a bare-surname fix on one
     # pundit can't pre-empt "First Last" swaps.
-    if rules_all.get("pundit_excludes") or rules_all.get("pundit_overrides"):
-        _apply_pundit_rules(obj, rules_all.get("pundit_excludes") or [], rules_all.get("pundit_overrides") or [])
+    # Always runs: also enforces pundit_exclusions (host ids + corrected-name check).
+    _apply_pundit_rules(obj, rules_all.get("pundit_excludes") or [], rules_all.get("pundit_overrides") or [],
+                        rules_all.get("pundit_merges") or [])
     # Backstop: full known-name list from name_normalizer (quote-safe, exact swaps only).
     try:
         import name_normalizer
@@ -465,36 +466,96 @@ def _pundit_word_swap(o, reps, key=None):
     return o
 
 
-def _apply_pundit_rules(obj, excludes, overrides):
+def _apply_pundit_rules(obj, excludes, overrides, merges=None):
     """Oct 20 2026: pundit rows scoped by pundit id (DB rows are never deleted).
 
     - 'pundit_excludes': [{"id": 261, "name": "John Doe", ...}] drops that row from every exported
       pundit list (placeholders / non-people).
     - 'pundit_overrides': [{"id": 183, "set": {field: value}, "replacements": [[old, new]]}] sets
       fields and applies WHOLE-WORD swaps to every string of that one pundit (slugs/URLs skipped) (bio fixes, collisions)."""
+    from pundit_exclusions import is_excluded_pundit
+    merges = merges or []
     drop = {int(e["id"] if isinstance(e, dict) else e) for e in excludes}
     by_id = {}
     for r in overrides:
         by_id.setdefault(int(r["id"]), []).append(r)
 
+    def fix_row(o):
+        for r in by_id.get(o.get("id"), []):
+            for k, v in (r.get("set") or {}).items():
+                o[k] = copy.deepcopy(v)
+            for k in r.get("unset") or []:
+                o.pop(k, None)
+            reps = r.get("replacements") or []
+            if reps:
+                _pundit_word_swap(o, reps)  # whole-word, hyphen-aware; skips slugs/URLs
+
     def walk(o):
         if isinstance(o, list):
-            if drop and any(_is_pundit_record(x) for x in o):
-                o[:] = [x for x in o if not (_is_pundit_record(x) and x.get("id") in drop)]
+            if any(_is_pundit_record(x) for x in o):
+                for x in o:
+                    if _is_pundit_record(x):
+                        fix_row(x)
+                _merge_pundit_rows(o, merges)
+                o[:] = [x for x in o if not (_is_pundit_record(x) and (
+                    x.get("id") in drop or is_excluded_pundit(x.get("id"), x.get("name") or "")))]
+                for x in o:
+                    if isinstance(x, dict):
+                        x.pop("_guest_episode_ids", None)
             for x in o:
                 walk(x)
         elif isinstance(o, dict):
             if _is_pundit_record(o):
-                for r in by_id.get(o.get("id"), []):
-                    for k, v in (r.get("set") or {}).items():
-                        o[k] = copy.deepcopy(v)
-                    reps = r.get("replacements") or []
-                    if reps:
-                        _pundit_word_swap(o, reps)  # whole-word, hyphen-aware; skips slugs/URLs
+                fix_row(o)
             for v in o.values():
                 walk(v)
     walk(obj)
     return obj
+
+
+_PUNDIT_LATEST_FIELDS = (
+    "last_seen", "last_episode_title", "last_podcast_name", "last_episode_date", "last_main_idea",
+    "last_proof_cite", "last_proof_snippet", "supporting_takeaway",
+)
+
+
+def _merge_pundit_rows(rows, merges):
+    """Oct 20 2026: 'pundit_merges' [{"keep": 192, "merge": [390]}] fold duplicate pundit rows of one
+    person into the kept row (its bio/profile/net worth stay). The kept row takes the latest
+    appearance fields (by last_seen) and the combined appearance count without double counting:
+    when rows carry '_guest_episode_ids' (DB export) the count is the size of the union; otherwise
+    the per-row counts are summed (callers have no episode lists). Presence (mention_score_decayed)
+    is recomputed as combined count x the most recent row's decay factor (decayed / count), the
+    same exponential decay db_manager applies from last_seen. Merged-away rows are removed here;
+    list them in 'pundit_excludes' too so they stay hidden if a merge is ever dropped."""
+    if not merges:
+        return rows
+    by_id = {x.get("id"): x for x in rows if _is_pundit_record(x)}
+    gone = set()
+    for m in merges:
+        keep = by_id.get(m.get("keep"))
+        others = [by_id[i] for i in m.get("merge") or [] if i in by_id and i != m.get("keep")]
+        if keep is None or not others:
+            continue
+        group = [keep] + others
+        if all(isinstance(x.get("_guest_episode_ids"), list) for x in group):
+            count = len({e for x in group for e in x["_guest_episode_ids"]})
+        else:
+            count = sum(int(float(x.get("mention_score") or 0)) for x in group)
+        latest = max(group, key=lambda x: str(x.get("last_seen") or ""))
+        lc = float(latest.get("mention_score") or 0)
+        factor = (float(latest.get("mention_score_decayed") or 0) / lc) if lc else 1.0
+        if latest is not keep:
+            for f in _PUNDIT_LATEST_FIELDS:
+                if f in latest:
+                    keep[f] = latest[f]
+        keep["mention_score"] = count
+        keep["mention_score_decayed"] = round(count * factor, 2)
+        if all(isinstance(x.get("_guest_episode_ids"), list) for x in group):
+            keep["_guest_episode_ids"] = sorted({e for x in group for e in x["_guest_episode_ids"]})
+        gone.update(id(x) for x in others)
+    rows[:] = [x for x in rows if id(x) not in gone]
+    return rows
 
 
 # Quote-safe name swaps (Oct 2026 sweep): 'name_replacements' fix mis-transcribed

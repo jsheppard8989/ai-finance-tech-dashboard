@@ -105,6 +105,29 @@ def is_excluded_pundit_name(name: str) -> bool:
     return canonical.lower() in _EXCLUDED_LOWER
 
 
+# Oct 20 2026 (G(ai)ndolf): host rows hidden by DB entity id, so a misspelled or later-renamed
+# name can't slip a host onto the public pundit list. Keep in sync with summary_overrides.json
+# 'pundit_excludes' (export_data applies both).
+EXCLUDED_PUNDIT_IDS: FrozenSet[int] = frozenset(
+    {
+        132,  # David Friedberg (ASR "David Freiberg")
+        36,  # David Friedberg (ASR "Jason Friedberg")
+        193,  # Alex Wissner-Gross (ASR "Alex Weiser Gross")
+    }
+)
+
+
+def is_excluded_pundit(pundit_id=None, name: str = "") -> bool:
+    """True if a pundit row must never be public: blocked by id, or its (corrected) name is a
+    blocked co-host. Call with the name AFTER export name overrides so any spelling is caught."""
+    try:
+        if pundit_id is not None and int(pundit_id) in EXCLUDED_PUNDIT_IDS:
+            return True
+    except (TypeError, ValueError):
+        pass
+    return is_excluded_pundit_name(name)
+
+
 def is_excluded_debater_name(name: str) -> bool:
     """
     True if this name must not appear as a weekly debate cast member.
