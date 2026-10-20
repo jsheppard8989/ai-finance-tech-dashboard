@@ -1217,11 +1217,11 @@ const dashboardData = {
   "insights": [
     {
       "id": 601,
-      "title": "What Happens When Al Agents Can Spend Your Money?",
+      "title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-19",
-      "summary": "Alex Rampell interviews Jean Denigrez about why Town pivoted away from an SMB tax product and toward an AI assistant for knowledge workers built around email and calendar workflows. Jean says the tax business reached \"a little bit below a million\" in revenue in year one and could have grown to \"two and a half to three million\" in year two, but it lacked the venture-scale conditions he wanted.\n\nA major thread is model neutrality. Jean argues it is risky to be tied to a single supplier like OpenAI because the best model provider may change over the next three to five years. Town therefore aims to route to whichever provider is best \"in the moment,\" while keeping the user\u2019s data, memories, and contacts portable enough that switching should take about a day.\n\nThe episode also focuses on enterprise adoption. Jean says users can start with a simple email-and-calendar connection, but enterprise buyers require security, privacy, compliance, audit logs, and tight token-cost controls. Town is trying to use a PLG motion to reach midmarket and then expand into enterprise, rather than starting from enterprise compliance and trying to build a great product later.\n\nMore broadly, both speakers argue that cheaper and better agents will unlock many tasks that were previously too expensive to automate, shifting value from apps to \"anything a human can do with a computer.\" They also discuss how agent traffic may eventually exceed human traffic, changing distribution and monetization incentives for platforms like Amazon and creating opportunities for neutral, agent-friendly systems.",
+      "summary": "Alex Rampell interviews Jean-Denis Greze about why Town pivoted away from an SMB tax product and toward an AI assistant for knowledge workers built around email and calendar workflows. Jean says the tax business reached \"a little bit below a million\" in revenue in year one and could have grown to \"two and a half to three million\" in year two, but it lacked the venture-scale conditions he wanted.\n\nA major thread is model neutrality. Jean argues it is risky to be tied to a single supplier like OpenAI because the best model provider may change over the next three to five years. Town therefore aims to route to whichever provider is best \"in the moment,\" while keeping the user\u2019s data, memories, and contacts portable enough that switching should take about a day.\n\nThe episode also focuses on enterprise adoption. Jean says users can start with a simple email-and-calendar connection, but enterprise buyers require security, privacy, compliance, audit logs, and tight token-cost controls. Town is trying to use a PLG motion to reach midmarket and then expand into enterprise, rather than starting from enterprise compliance and trying to build a great product later.\n\nMore broadly, both speakers argue that cheaper and better agents will unlock many tasks that were previously too expensive to automate, shifting value from apps to \"anything a human can do with a computer.\" They also discuss how agent traffic may eventually exceed human traffic, changing distribution and monetization incentives for platforms like Amazon and creating opportunities for neutral, agent-friendly systems.",
       "key_takeaway": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1233,16 +1233,16 @@ const dashboardData = {
       "podcast_episode_id": 590,
       "notable_quotes": [
         {
-          "speaker": "Jean Denigrez",
-          "quote": "It is risky always to be competing with your supplier. You get asked yourself, is that naturally the right state of the world? What if open AI is not the best model provider for the next three to five years?"
+          "speaker": "Jean-Denis Greze",
+          "quote": "It is risky always to be competing with your supplier. You get asked yourself, is that naturally the right state of the world? What if OpenAI is not the best model provider for the next three to five years?"
         },
         {
-          "speaker": "Jean Denigrez",
+          "speaker": "Jean-Denis Greze",
           "quote": "First, be able to go to any company and get a few people at that business, simply by connecting their email and their calendar. So not the core systems of record yet to feel enough magic that they're like, oh, this is going to bring a lot of value in my work."
         },
         {
-          "speaker": "Jean Denigrez",
-          "quote": "Our stance is that you own and like truly own the as a business the data and memories and contacts that's being created on time and so... switching to that other solution would take you know a day."
+          "speaker": "Jean-Denis Greze",
+          "quote": "Our stance is that you own and like truly own the as a business the data and memories and contacts that's being created on Town and so... switching to that other solution would take you know a day."
         }
       ]
     },
@@ -1252,7 +1252,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-10-19",
-      "summary": "Dylan Field argues that AI is changing software in a way that makes design the key differentiator, not raw coding ability. His core framing is that AI lowers the \"floor\" for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point of view.\n\nHe applies that thesis directly to Figma, saying the company\u2019s center is design and that it wins by building professional workflow UX, not by chasing model output alone. He warns that investors and operators often confuse model progress with product progress, and points to Cursor as an example of a company that won by obsessing over user experience even while frontier labs chased it with their own models.\n\nField also revisits Figma\u2019s regulatory saga. He says Adobe offered to buy Figma for $20 billion, then the deal went through 16 months of regulatory review before being blocked, which he describes as a punishing process that can be destructive to the parties involved. On the business side, he notes that after Anthropic\u2019s \"cloud design\" announcement, Figma\u2019s business did not meaningfully suffer and the company grew 48% year over year in the referenced quarter.\n\nHis broader prediction is that creative software will bifurcate around trust, authorship, and craftsmanship. In a world flooded with AI-generated content, he expects audiences to look for signals of care and originality, while tools like Figma and node-based systems help people move beyond prompting into real creative control.",
+      "summary": "Dylan Field argues that AI is changing software in a way that makes design the key differentiator, not raw coding ability. His core framing is that AI lowers the \"floor\" for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point of view.\n\nHe applies that thesis directly to Figma, saying the company\u2019s center is design and that it wins by building professional workflow UX, not by chasing model output alone. He warns that investors and operators often confuse model progress with product progress, and points to Cursor as an example of a company that won by obsessing over user experience even while frontier labs chased it with their own models.\n\nField also revisits Figma\u2019s regulatory saga. He says Adobe offered to buy Figma for $20 billion, then the deal went through 16 months of regulatory review before being blocked, which he describes as a punishing process that can be destructive to the parties involved. On the business side, he notes that after Anthropic\u2019s \"Claude Design\" announcement, Figma\u2019s business did not meaningfully suffer, and the interviewer noted the company grew 48% year over year in the referenced quarter.\n\nHis broader prediction is that creative software will bifurcate around trust, authorship, and craftsmanship. In a world flooded with AI-generated content, he expects audiences to look for signals of care and originality, while tools like Figma and node-based systems help people move beyond prompting into real creative control.",
       "key_takeaway": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1270,10 +1270,6 @@ const dashboardData = {
         {
           "speaker": "Dylan Field",
           "quote": "It's easy to mistake model progress for product progress."
-        },
-        {
-          "speaker": "Dylan Field",
-          "quote": "Because I read your quarterly report after that announcement, you guys grew 48% year over year. And the business basically accelerated."
         }
       ]
     },
@@ -1415,7 +1411,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-10-17",
-      "summary": "The episode centers on a series of moonshot-style claims: a Tesla Roadster demonstration described as a flying, suction-based, street-legal vehicle using SpaceX-derived technology, a rapid collapse in robot-subtask costs, and evidence that AI can outperform humans on verifiable theoretical physics problems at very low cost. Peter Diamandis frames these as signs that capability curves are steepening across mobility, robotics, and science.\n\nOn Tesla, the host describes a demo in Wakeo, Texas where the vehicle supposedly used suction to hold itself upside down and compressed-air pressure vessels to generate thrust, with production said to begin in 2028. The episode also cites a 5% rise in Tesla shares on the news and discusses regulatory and insurance constraints as likely bottlenecks even if the engineering proves real.\n\nThe robotics segment argues that frontier-model robot-subtask costs fell sharply, from $2.36 in July to $0.38 in September, an 84% decline, implying the cost could approach zero within a year. The conversation emphasizes that generalist models may be sufficient for many tasks, reducing the need for specialist robotics models and supporting a thesis that robotics economics are rapidly changing.\n\nThe AI/science section claims GPT-6 Astro solved 49 of 50 unpublished theoretical physics problems at roughly $3 per problem, and that the remaining miss was later found to be a published-answer error rather than an AI failure. The episode closes by arguing that incentive design is central to alignment failures, that prize mechanisms like XPRIZE create outsized economic leverage, and that humans may increasingly shift toward purpose, community, and intrinsically motivating work as machines take on more doing.",
+      "summary": "The episode centers on a series of moonshot-style claims: a Tesla Roadster demonstration described as a flying, suction-based, street-legal vehicle using SpaceX-derived technology, a rapid collapse in robot-subtask costs, and evidence that AI can outperform humans on verifiable theoretical physics problems at very low cost. Peter Diamandis frames these as signs that capability curves are steepening across mobility, robotics, and science.\n\nOn Tesla, the host describes a demo in Waco, Texas where the vehicle supposedly used suction to hold itself upside down and compressed-air pressure vessels to generate thrust, with production said to begin in 2028. The episode also cites a 5% rise in Tesla shares on the news and discusses regulatory and insurance constraints as likely bottlenecks even if the engineering proves real.\n\nThe robotics segment argues that frontier-model robot-subtask costs fell sharply, from $2.36 in July to $0.38 in September, an 84% decline, implying the cost could approach zero within a year. The conversation emphasizes that generalist models may be sufficient for many tasks, reducing the need for specialist robotics models and supporting a thesis that robotics economics are rapidly changing.\n\nThe AI/science section claims GPT-6 Astro solved 49 of 50 unpublished theoretical physics problems at roughly $3 per problem, and that the remaining miss was later found to be a published-answer error rather than an AI failure. The episode closes by arguing that incentive design is central to alignment failures, that prize mechanisms like XPRIZE create outsized economic leverage, and that humans may increasingly shift toward purpose, community, and intrinsically motivating work as machines take on more doing.",
       "key_takeaway": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
       "tickers_mentioned": [
         "TSLA"
@@ -1430,7 +1426,7 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Peter Diamandis",
-          "quote": "So the cost for a frontier model to complete a robot sub task fell from $2.36 in July to 30% in September, 84% drop."
+          "quote": "So the cost for a frontier model to complete a robot sub task fell from $2.36 in July to 38 cents in September, 84% drop."
         },
         {
           "speaker": "Peter Diamandis",
@@ -14220,7 +14216,7 @@ const dashboardData = {
       "first_detected_episode_id": 576,
       "first_detected_speaker": "Nathan Lambert",
       "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam"
+      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
     },
     {
       "id": 302,
@@ -14346,7 +14342,7 @@ const dashboardData = {
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
       "last_mentioned_episode_id": 590,
-      "last_mentioned_speaker": "Jean Denigrez"
+      "last_mentioned_speaker": "Jean-Denis Greze"
     },
     {
       "id": 295,
@@ -14418,7 +14414,7 @@ const dashboardData = {
       "first_detected_episode_id": 536,
       "first_detected_speaker": "David George (hosts)",
       "last_mentioned_episode_id": 590,
-      "last_mentioned_speaker": "Jean Denigrez"
+      "last_mentioned_speaker": "Jean-Denis Greze"
     },
     {
       "id": 293,
@@ -14508,7 +14504,7 @@ const dashboardData = {
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
       "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam"
+      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
     },
     {
       "id": 286,
@@ -14814,7 +14810,7 @@ const dashboardData = {
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
       "last_mentioned_episode_id": 590,
-      "last_mentioned_speaker": "Jean Denigrez"
+      "last_mentioned_speaker": "Jean-Denis Greze"
     },
     {
       "id": 267,
@@ -14904,7 +14900,7 @@ const dashboardData = {
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam"
+      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
     },
     {
       "id": 265,
@@ -15048,7 +15044,7 @@ const dashboardData = {
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
       "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam"
+      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
     },
     {
       "id": 255,
@@ -15606,7 +15602,7 @@ const dashboardData = {
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam"
+      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
     },
     {
       "id": 174,
@@ -16794,7 +16790,7 @@ const dashboardData = {
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam"
+      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
     },
     {
       "id": 38,
@@ -17064,7 +17060,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-10-19",
-      "summary": "Dylan Field argues that AI is changing software in a way that makes design the key differentiator, not raw coding ability. His core framing is that AI lowers the \"floor\" for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point of view.\n\nHe applies that thesis directly to Figma, saying the company\u2019s center is design and that it wins by building professional workflow UX, not by chasing model output alone. He warns that investors and operators often confuse model progress with product progress, and points to Cursor as an example of a company that won by obsessing over user experience even while frontier labs chased it with their own models.\n\nField also revisits Figma\u2019s regulatory saga. He says Adobe offered to buy Figma for $20 billion, then the deal went through 16 months of regulatory review before being blocked, which he describes as a punishing process that can be destructive to the parties involved. On the business side, he notes that after Anthropic\u2019s \"cloud design\" announcement, Figma\u2019s business did not meaningfully suffer and the company grew 48% year over year in the referenced quarter.\n\nHis broader prediction is that creative software will bifurcate around trust, authorship, and craftsmanship. In a world flooded with AI-generated content, he expects audiences to look for signals of care and originality, while tools like Figma and node-based systems help people move beyond prompting into real creative control.",
+      "summary": "Dylan Field argues that AI is changing software in a way that makes design the key differentiator, not raw coding ability. His core framing is that AI lowers the \"floor\" for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point of view.\n\nHe applies that thesis directly to Figma, saying the company\u2019s center is design and that it wins by building professional workflow UX, not by chasing model output alone. He warns that investors and operators often confuse model progress with product progress, and points to Cursor as an example of a company that won by obsessing over user experience even while frontier labs chased it with their own models.\n\nField also revisits Figma\u2019s regulatory saga. He says Adobe offered to buy Figma for $20 billion, then the deal went through 16 months of regulatory review before being blocked, which he describes as a punishing process that can be destructive to the parties involved. On the business side, he notes that after Anthropic\u2019s \"Claude Design\" announcement, Figma\u2019s business did not meaningfully suffer, and the interviewer noted the company grew 48% year over year in the referenced quarter.\n\nHis broader prediction is that creative software will bifurcate around trust, authorship, and craftsmanship. In a world flooded with AI-generated content, he expects audiences to look for signals of care and originality, while tools like Figma and node-based systems help people move beyond prompting into real creative control.",
       "key_takeaway": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
       "tickers_mentioned": "[]",
       "sentiment": "neutral",
@@ -17082,10 +17078,6 @@ const dashboardData = {
         {
           "speaker": "Dylan Field",
           "quote": "It's easy to mistake model progress for product progress."
-        },
-        {
-          "speaker": "Dylan Field",
-          "quote": "Because I read your quarterly report after that announcement, you guys grew 48% year over year. And the business basically accelerated."
         }
       ],
       "episode_release_date": "2026-10-19",
@@ -17094,11 +17086,11 @@ const dashboardData = {
     },
     {
       "id": 601,
-      "title": "What Happens When Al Agents Can Spend Your Money?",
+      "title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-19",
-      "summary": "Alex Rampell interviews Jean Denigrez about why Town pivoted away from an SMB tax product and toward an AI assistant for knowledge workers built around email and calendar workflows. Jean says the tax business reached \"a little bit below a million\" in revenue in year one and could have grown to \"two and a half to three million\" in year two, but it lacked the venture-scale conditions he wanted.\n\nA major thread is model neutrality. Jean argues it is risky to be tied to a single supplier like OpenAI because the best model provider may change over the next three to five years. Town therefore aims to route to whichever provider is best \"in the moment,\" while keeping the user\u2019s data, memories, and contacts portable enough that switching should take about a day.\n\nThe episode also focuses on enterprise adoption. Jean says users can start with a simple email-and-calendar connection, but enterprise buyers require security, privacy, compliance, audit logs, and tight token-cost controls. Town is trying to use a PLG motion to reach midmarket and then expand into enterprise, rather than starting from enterprise compliance and trying to build a great product later.\n\nMore broadly, both speakers argue that cheaper and better agents will unlock many tasks that were previously too expensive to automate, shifting value from apps to \"anything a human can do with a computer.\" They also discuss how agent traffic may eventually exceed human traffic, changing distribution and monetization incentives for platforms like Amazon and creating opportunities for neutral, agent-friendly systems.",
+      "summary": "Alex Rampell interviews Jean-Denis Greze about why Town pivoted away from an SMB tax product and toward an AI assistant for knowledge workers built around email and calendar workflows. Jean says the tax business reached \"a little bit below a million\" in revenue in year one and could have grown to \"two and a half to three million\" in year two, but it lacked the venture-scale conditions he wanted.\n\nA major thread is model neutrality. Jean argues it is risky to be tied to a single supplier like OpenAI because the best model provider may change over the next three to five years. Town therefore aims to route to whichever provider is best \"in the moment,\" while keeping the user\u2019s data, memories, and contacts portable enough that switching should take about a day.\n\nThe episode also focuses on enterprise adoption. Jean says users can start with a simple email-and-calendar connection, but enterprise buyers require security, privacy, compliance, audit logs, and tight token-cost controls. Town is trying to use a PLG motion to reach midmarket and then expand into enterprise, rather than starting from enterprise compliance and trying to build a great product later.\n\nMore broadly, both speakers argue that cheaper and better agents will unlock many tasks that were previously too expensive to automate, shifting value from apps to \"anything a human can do with a computer.\" They also discuss how agent traffic may eventually exceed human traffic, changing distribution and monetization incentives for platforms like Amazon and creating opportunities for neutral, agent-friendly systems.",
       "key_takeaway": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
       "tickers_mentioned": "[]",
       "sentiment": "neutral",
@@ -17110,20 +17102,20 @@ const dashboardData = {
       "podcast_episode_id": 590,
       "notable_quotes": [
         {
-          "speaker": "Jean Denigrez",
-          "quote": "It is risky always to be competing with your supplier. You get asked yourself, is that naturally the right state of the world? What if open AI is not the best model provider for the next three to five years?"
+          "speaker": "Jean-Denis Greze",
+          "quote": "It is risky always to be competing with your supplier. You get asked yourself, is that naturally the right state of the world? What if OpenAI is not the best model provider for the next three to five years?"
         },
         {
-          "speaker": "Jean Denigrez",
+          "speaker": "Jean-Denis Greze",
           "quote": "First, be able to go to any company and get a few people at that business, simply by connecting their email and their calendar. So not the core systems of record yet to feel enough magic that they're like, oh, this is going to bring a lot of value in my work."
         },
         {
-          "speaker": "Jean Denigrez",
-          "quote": "Our stance is that you own and like truly own the as a business the data and memories and contacts that's being created on time and so... switching to that other solution would take you know a day."
+          "speaker": "Jean-Denis Greze",
+          "quote": "Our stance is that you own and like truly own the as a business the data and memories and contacts that's being created on Town and so... switching to that other solution would take you know a day."
         }
       ],
       "episode_release_date": "2026-10-19",
-      "guest_name": "Jean Denigrez",
+      "guest_name": "Jean-Denis Greze",
       "key_tickers": []
     },
     {
@@ -17202,7 +17194,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-10-17",
-      "summary": "The episode centers on a series of moonshot-style claims: a Tesla Roadster demonstration described as a flying, suction-based, street-legal vehicle using SpaceX-derived technology, a rapid collapse in robot-subtask costs, and evidence that AI can outperform humans on verifiable theoretical physics problems at very low cost. Peter Diamandis frames these as signs that capability curves are steepening across mobility, robotics, and science.\n\nOn Tesla, the host describes a demo in Wakeo, Texas where the vehicle supposedly used suction to hold itself upside down and compressed-air pressure vessels to generate thrust, with production said to begin in 2028. The episode also cites a 5% rise in Tesla shares on the news and discusses regulatory and insurance constraints as likely bottlenecks even if the engineering proves real.\n\nThe robotics segment argues that frontier-model robot-subtask costs fell sharply, from $2.36 in July to $0.38 in September, an 84% decline, implying the cost could approach zero within a year. The conversation emphasizes that generalist models may be sufficient for many tasks, reducing the need for specialist robotics models and supporting a thesis that robotics economics are rapidly changing.\n\nThe AI/science section claims GPT-6 Astro solved 49 of 50 unpublished theoretical physics problems at roughly $3 per problem, and that the remaining miss was later found to be a published-answer error rather than an AI failure. The episode closes by arguing that incentive design is central to alignment failures, that prize mechanisms like XPRIZE create outsized economic leverage, and that humans may increasingly shift toward purpose, community, and intrinsically motivating work as machines take on more doing.",
+      "summary": "The episode centers on a series of moonshot-style claims: a Tesla Roadster demonstration described as a flying, suction-based, street-legal vehicle using SpaceX-derived technology, a rapid collapse in robot-subtask costs, and evidence that AI can outperform humans on verifiable theoretical physics problems at very low cost. Peter Diamandis frames these as signs that capability curves are steepening across mobility, robotics, and science.\n\nOn Tesla, the host describes a demo in Waco, Texas where the vehicle supposedly used suction to hold itself upside down and compressed-air pressure vessels to generate thrust, with production said to begin in 2028. The episode also cites a 5% rise in Tesla shares on the news and discusses regulatory and insurance constraints as likely bottlenecks even if the engineering proves real.\n\nThe robotics segment argues that frontier-model robot-subtask costs fell sharply, from $2.36 in July to $0.38 in September, an 84% decline, implying the cost could approach zero within a year. The conversation emphasizes that generalist models may be sufficient for many tasks, reducing the need for specialist robotics models and supporting a thesis that robotics economics are rapidly changing.\n\nThe AI/science section claims GPT-6 Astro solved 49 of 50 unpublished theoretical physics problems at roughly $3 per problem, and that the remaining miss was later found to be a published-answer error rather than an AI failure. The episode closes by arguing that incentive design is central to alignment failures, that prize mechanisms like XPRIZE create outsized economic leverage, and that humans may increasingly shift toward purpose, community, and intrinsically motivating work as machines take on more doing.",
       "key_takeaway": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
       "tickers_mentioned": "[\"TSLA\"]",
       "sentiment": "neutral",
@@ -17215,7 +17207,7 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Peter Diamandis",
-          "quote": "So the cost for a frontier model to complete a robot sub task fell from $2.36 in July to 30% in September, 84% drop."
+          "quote": "So the cost for a frontier model to complete a robot sub task fell from $2.36 in July to 38 cents in September, 84% drop."
         },
         {
           "speaker": "Peter Diamandis",
@@ -17620,7 +17612,7 @@ const dashboardData = {
       "first_detected_episode_id": 380,
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 590,
-      "last_mentioned_speaker": "Jean Denigrez",
+      "last_mentioned_speaker": "Jean-Denis Greze",
       "novelty_score": 2.429,
       "overton_score": 2.429,
       "resonance_pct": 81,
@@ -17629,7 +17621,7 @@ const dashboardData = {
       "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "first_detected_episode_date": "2026-08-02",
       "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "What Happens When Al Agents Can Spend Your Money?",
+      "last_mentioned_episode_title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
       "last_mentioned_episode_date": "2026-10-19"
     },
     {
@@ -18014,7 +18006,7 @@ const dashboardData = {
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam",
+      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem",
       "novelty_score": 0.5884,
       "overton_score": 0.5884,
       "resonance_pct": 48,
@@ -54286,7 +54278,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-19T07:05:48.939853",
     "updated_at": "2026-10-19 12:05:48",
-    "episode_evidence": "Jean Denigrez: It is risky always to be competing with your supplier. You get asked yourself, is that naturally the right state of the world? What if open AI is not the best model provider for the next three to five years?\nJean Denigrez: First, be able to go to any company and get a few people at that business, simply by connecting their email and their calendar. So not the core systems of record yet to feel enough magic that they're like, oh, this is going to bring a lot of value in my work.\nJean Denigrez: Our stance is that you own and like truly own the as a business the data and memories and contacts that's being um that's being created on time and so... switching to that other solution would take you know a day.\nJean Denigrez: After one year, we had what I would describe as a good business pre-AI. Meaning... our revenue number and the revenue growth in our first year... like a little bit below a million.",
+    "episode_evidence": "Jean-Denis Greze: It is risky always to be competing with your supplier. You get asked yourself, is that naturally the right state of the world? What if OpenAI is not the best model provider for the next three to five years?\nJean-Denis Greze: First, be able to go to any company and get a few people at that business, simply by connecting their email and their calendar. So not the core systems of record yet to feel enough magic that they're like, oh, this is going to bring a lot of value in my work.\nJean-Denis Greze: Our stance is that you own and like truly own the as a business the data and memories and contacts that's being um that's being created on Town and so... switching to that other solution would take you know a day.\nJean-Denis Greze: After one year, we had what I would describe as a good business pre-AI. Meaning... our revenue number and the revenue growth in our first year... like a little bit below a million.",
     "falsification_tracks": [
       "By Q4 2027, Town should show at least 80% 180-day retention for enterprise cohorts; if retention is under 70% in any disclosed customer or private benchmark report, the enterprise workflow thesis weakens. Source: Town customer case studies / SOC 2 customer reference materials.",
       "By Q2 2028, dynamic model routing should improve task success rate by at least 5% versus a single-provider baseline on Town\u2019s top workflows; if the lift is below 5% for a full quarter, the neutrality advantage is not material. Source: Town A/B test results or independent benchmark report.",
@@ -54301,7 +54293,7 @@ const dashboardData = {
     "cost_usd": 0.009837,
     "attempt_count": 2,
     "generation_mode": "extraction",
-    "insight_title": "What Happens When Al Agents Can Spend Your Money?",
+    "insight_title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
     "source_name": "The a16z Show",
     "source_date": "2026-10-19",
     "key_tickers": []
@@ -54339,7 +54331,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-19T18:21:12.417778",
     "updated_at": "2026-10-19 23:21:12",
-    "episode_evidence": "Peter Diamandis: Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster.\nPeter Diamandis: To do that, we have a suction system on the bottom of a car that can pull up to two G's in order to make the car go upside down.\nPeter Diamandis: The cost for a frontier model to complete a robot sub task felt from $136 in July to 38 cents in September, 84% drop, having in cost every three weeks means it effectively goes to zero, you know, within the year.\nPeter Diamandis: Originally, it was reported that Astro got 49 of the 50 physics problems correct.\nDr. Don Musalam: We know that when it comes to dementia, the conservative estimates are that 45% are entirely preventable.",
+    "episode_evidence": "Peter Diamandis: Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster.\nPeter Diamandis: To do that, we have a suction system on the bottom of a car that can pull up to two G's in order to make the car go upside down.\nPeter Diamandis: The cost for a frontier model to complete a robot sub task felt from $136 in July to 38 cents in September, 84% drop, having in cost every three weeks means it effectively goes to zero, you know, within the year.\nPeter Diamandis: Originally, it was reported that Astro got 49 of the 50 physics problems correct.\nDr. Dawn Mussallem: We know that when it comes to dementia, the conservative estimates are that 45% are entirely preventable.",
     "falsification_tracks": [
       "By 2027-12-31, Tesla filings and DOT/FAA approvals fail to show at least 1 certifiable prototype of the flying Roadster with a defined operating envelope; source: Tesla 10-K, Tesla investor materials, DOT, FAA.",
       "By 2028-12-31, Tesla does not disclose a street-legal flying vehicle with at least 300 miles of range and a sub-2.0 second 0-60 performance target; source: Tesla official release and 10-K.",
@@ -54461,12 +54453,12 @@ const dashboardData = {
   podcastGuests: [
   {
     "id": 93230,
-    "name": "Jean Denigrez",
+    "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
     "known_for": null,
     "last_main_idea": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
-    "last_episode_title": "What Happens When Al Agents Can Spend Your Money?",
+    "last_episode_title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-19",
     "appearance_count": 1
@@ -55789,7 +55781,7 @@ const dashboardData = {
   },
   {
     "id": 549,
-    "name": "Jean Denigrez",
+    "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": "Founder and CEO of Town. He previously worked at Plaid and Dropbox, and he describes Town as an AI workflow product for knowledge workers built around email and calendar.",
     "known_for": null,
@@ -55801,15 +55793,15 @@ const dashboardData = {
     "voice_delivery_notes": null,
     "voice_profile_updated_at": null,
     "last_seen": "2026-10-19 12:05:22",
-    "last_episode_title": "What Happens When Al Agents Can Spend Your Money?",
+    "last_episode_title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
     "mention_score_decayed": 1,
     "last_main_idea": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-19 \u2022 What Happens When Al Agents Can Spend Your Money?",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-19 \u2022 Why a $1M Startup Wasn't Worth Building in the Age of AI",
     "last_proof_snippet": "Impact in the world is really, really important, really wanted to build something that mattered and helped people. I get pinged by Ben Horowitz. I found this amazing tool, it's called Town, it changed my life, it's so great. We're trying to",
-    "supporting_takeaway": "Jean Denigrez said Town is model-neutral and will use \"whatever supplier\" is best in the moment, because being tied to one provider is risky.",
+    "supporting_takeaway": "Jean-Denis Greze said Town is model-neutral and will use \"whatever supplier\" is best in the moment, because being tied to one provider is risky.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -55904,7 +55896,7 @@ const dashboardData = {
   },
   {
     "id": 547,
-    "name": "Dr. Don Musalam",
+    "name": "Dr. Dawn Mussallem",
     "slug": "dr-don-musalam",
     "bio": "Chief Medical Officer of Fountain Life, featured in the sponsor segment discussing dementia prevention, brain-age testing, and health-span interventions.",
     "known_for": null,
@@ -55923,7 +55915,7 @@ const dashboardData = {
     "mention_score_decayed": 0.95,
     "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
+    "last_proof_snippet": "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
     "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -55950,7 +55942,7 @@ const dashboardData = {
     "mention_score_decayed": 0.95,
     "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
+    "last_proof_snippet": "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
     "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
