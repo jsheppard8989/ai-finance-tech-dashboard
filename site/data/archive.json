@@ -768,7 +768,7 @@
         },
         {
           "speaker": "Jason Calacanis",
-          "quote": "Open AI released over 700 paid for 700 with 370 results claiming to have solved or advanced major problems. These were produced by an unreleased model that none of us have access to averaging three hours of compute scientific America says the results are likely correct since they were verified by lean."
+          "quote": "OpenAI released over 700 paid for 700 with 370 results claiming to have solved or advanced major problems. These were produced by an unreleased model that none of us have access to averaging three hours of compute scientific America says the results are likely correct since they were verified by lean."
         },
         {
           "speaker": "Jason Calacanis",
@@ -1587,7 +1587,7 @@
       "notable_quotes": [
         {
           "speaker": "Ed Zitron",
-          "quote": "Anthropic, at least in 2025, was a worse business than Open AI."
+          "quote": "Anthropic, at least in 2025, was a worse business than OpenAI."
         },
         {
           "speaker": "Ed Zitron",
@@ -3117,7 +3117,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-09-13",
-      "summary": "Freddie Brick of Muddy Waters Capital joins Jack Farley to discuss the firm's approach to the junior mining sector, which centers on acquiring distressed, underappreciated assets with durable fundamentals. Brick explains that the firm typically runs a 50% net long book, remaining liquid enough to capitalize on drawdowns while targeting projects that are economically viable across a wide range of historical commodity prices. He acknowledges the structural copper bull thesis driven by electrification and EV demand but stresses that regulatory and discovery hurdles make timing uncertain, reinforcing the need for long-dated patience and strong management teams.\n\nBrick highlights that the junior mining space has suffered a decade of capital flight since the last super cycle, leaving many viable projects overlooked and creating a potential M&A catalyst as majors search for advanced assets. He emphasizes that hedging individual junior miners is impractical due to liquidity constraints, and that the firm creates value through collaborative activism and a three-to-five-year horizon rather than short-term trading.",
+      "summary": "Freddy Brick of Muddy Waters Capital joins Jack Farley to discuss the firm's approach to the junior mining sector, which centers on acquiring distressed, underappreciated assets with durable fundamentals. Brick explains that the firm typically runs a 50% net long book, remaining liquid enough to capitalize on drawdowns while targeting projects that are economically viable across a wide range of historical commodity prices. He acknowledges the structural copper bull thesis driven by electrification and EV demand but stresses that regulatory and discovery hurdles make timing uncertain, reinforcing the need for long-dated patience and strong management teams.\n\nBrick highlights that the junior mining space has suffered a decade of capital flight since the last super cycle, leaving many viable projects overlooked and creating a potential M&A catalyst as majors search for advanced assets. He emphasizes that hedging individual junior miners is impractical due to liquidity constraints, and that the firm creates value through collaborative activism and a three-to-five-year horizon rather than short-term trading.",
       "key_takeaway": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
       "tickers_mentioned": [
         "NVDA"
@@ -3217,7 +3217,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-09-11",
-      "summary": "This episode of Monetary Matters features a deep dive into farmland as an underappreciated real asset amid structural global imbalances. Guest John Ferris of Land Fund Partners argues that shrinking arable land combined with rising global protein demand creates a compelling supply-demand tension, further pressured by multi-decade lows in global grain reserves. He notes that global grain stocks have fallen to roughly 70 days of supply, raising food security concerns at a time when agricultural productivity gains have plateaued.\n\nThe discussion centers on the Mid-South region, specifically farmland over the Mississippi Alluvial Aquifer, which holds over 300 years of water at current draw rates and trades at a significant discount to Midwestern farmland. Ferris explains how regenerative farming practices enhance soil health, reduce chemical inputs, and drive higher long-term yields, while government subsidy programs provide income stability and encourage capital investment. He also highlights that the firm has thousands of acres under solar lease options, creating additional revenue streams beyond traditional crop production.\n\nFrom a portfolio construction standpoint, the episode emphasizes farmland's negative correlation to both equity and fixed-income markets, making it a valuable diversification tool. With the upcoming El Nino pattern threatening production in major exporting nations, and with U.S. policy supporting farmer incomes, the asset class offers a hedge against inflation, food scarcity, and broader market volatility.",
+      "summary": "This episode of Monetary Matters features a deep dive into farmland as an underappreciated real asset amid structural global imbalances. Guest John Farris of Land Fund Partners argues that shrinking arable land combined with rising global protein demand creates a compelling supply-demand tension, further pressured by multi-decade lows in global grain reserves. He notes that global grain stocks have fallen to roughly 70 days of supply, raising food security concerns at a time when agricultural productivity gains have plateaued.\n\nThe discussion centers on the Mid-South region, specifically farmland over the Mississippi Alluvial Aquifer, which holds over 300 years of water at current draw rates and trades at a significant discount to Midwestern farmland. Farris explains how regenerative farming practices enhance soil health, reduce chemical inputs, and drive higher long-term yields, while government subsidy programs provide income stability and encourage capital investment. He also highlights that the firm has thousands of acres under solar lease options, creating additional revenue streams beyond traditional crop production.\n\nFrom a portfolio construction standpoint, the episode emphasizes farmland's negative correlation to both equity and fixed-income markets, making it a valuable diversification tool. With the upcoming El Nino pattern threatening production in major exporting nations, and with U.S. policy supporting farmer incomes, the asset class offers a hedge against inflation, food scarcity, and broader market volatility.",
       "key_takeaway": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
@@ -3275,7 +3275,7 @@
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-09-10",
-      "summary": "Matt Barry joins Macro Voices to discuss the rapid maturation of artificial intelligence, arguing that AI has reached an inflection point where it can reliably automate complex white-collar workflows. He details a live case study where enterprise token costs surged to $1,300 per day, only to be slashed to $150 by switching to cheaper Chinese models, illustrating both the power and the cost volatility of the current AI stack.\n\nBarry also explores the enterprise pivot toward dedicated hardware such as Nvidia DGX systems to escape cloud dependency, while warning that zero switching costs are commoditizing model providers and could create a debt bubble in data centers reminiscent of subprime mortgages. The conversation concludes with the implications of artificial general intelligence and the potential for severe labor dislocation across banking, law, and corporate services.",
+      "summary": "Matt Barrie joins Macro Voices to discuss the rapid maturation of artificial intelligence, arguing that AI has reached an inflection point where it can reliably automate complex white-collar workflows. He details a live case study where enterprise token costs surged to $1,300 per day, only to be slashed to $150 by switching to cheaper Chinese models, illustrating both the power and the cost volatility of the current AI stack.\n\nBarrie also explores the enterprise pivot toward dedicated hardware such as Nvidia DGX systems to escape cloud dependency, while warning that zero switching costs are commoditizing model providers and could create a debt bubble in data centers reminiscent of subprime mortgages. The conversation concludes with the implications of artificial general intelligence and the potential for severe labor dislocation across banking, law, and corporate services.",
       "key_takeaway": "The core opportunity lies in AI infrastructure and hardware providers benefiting from enterprise insourcing, while model-facing incumbents face margin compression from zero switching costs and open competition.",
       "tickers_mentioned": [
         "NVDA"
@@ -3438,7 +3438,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-05",
-      "summary": "This episode features a16z partner Aaron Levy discussing the strategic importance of open weights AI models for maintaining U.S. competitiveness against China, particularly in the context of national security and innovation ecosystems. Levy argues that open weights models do not compete with closed models but rather drive innovation across the entire AI stack, pushing closed providers to improve faster. The discussion covers the economics of model distillation, framing it as a natural market dynamic rather than purely an ethical concern. A key investment theme is the emergence of model routing as the dominant enterprise AI architecture, where value accrues to the orchestration layer that can intelligently dispatch tasks across multiple specialized models. Levy also notes significant performance improvements in recent releases from OpenAI and Anthropic, particularly for knowledge work applications.",
+      "summary": "This episode features Box CEO Aaron Levie discussing the strategic importance of open weights AI models for maintaining U.S. competitiveness against China, particularly in the context of national security and innovation ecosystems. Levie argues that open weights models do not compete with closed models but rather drive innovation across the entire AI stack, pushing closed providers to improve faster. The discussion covers the economics of model distillation, framing it as a natural market dynamic rather than purely an ethical concern. A key investment theme is the emergence of model routing as the dominant enterprise AI architecture, where value accrues to the orchestration layer that can intelligently dispatch tasks across multiple specialized models. Levie also notes significant performance improvements in recent releases from OpenAI and Anthropic, particularly for knowledge work applications.",
       "key_takeaway": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
       "tickers_mentioned": [
         "NVDA"
@@ -4046,7 +4046,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-08-24",
-      "summary": "In this episode, the hosts discuss the current state of science and technology policy in the United States with Michael Crathfields, the director of the Office of Science and Technology Policy at the White House. The conversation covers the administration's stance on science, the politicization of science, and the future of scientific research and funding. Crathfields emphasizes the importance of empowering young scientists, creating an ecosystem for scientific discovery, and aligning efforts across various agencies to achieve national scientific and technological goals.",
+      "summary": "In this episode, the hosts discuss the current state of science and technology policy in the United States with Michael Kratsios, the director of the Office of Science and Technology Policy at the White House. The conversation covers the administration's stance on science, the politicization of science, and the future of scientific research and funding. Kratsios emphasizes the importance of empowering young scientists, creating an ecosystem for scientific discovery, and aligning efforts across various agencies to achieve national scientific and technological goals.",
       "key_takeaway": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
       "tickers_mentioned": [
         "NVDA"
@@ -4188,7 +4188,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-20",
-      "summary": "In this episode of Monetary Matters, Jack Farley discusses with Luke Groman of Forest for the Trees Research the impact of AI and government spending on borrowing costs and long-end yields. They analyze the AI capex build out's effect on the economy, the rise in yields, and the Treasury Secretary's recent announcement to double the size of treasury buybacks. The conversation also touches on potential strategies for managing long rates and the implications for inflation, bondholders, and the stock market.",
+      "summary": "In this episode of Monetary Matters, Jack Farley discusses with Luke Gromen of Forest for the Trees Research the impact of AI and government spending on borrowing costs and long-end yields. They analyze the AI capex build out's effect on the economy, the rise in yields, and the Treasury Secretary's recent announcement to double the size of treasury buybacks. The conversation also touches on potential strategies for managing long rates and the implications for inflation, bondholders, and the stock market.",
       "key_takeaway": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
       "tickers_mentioned": [
         "CORN"
@@ -4272,7 +4272,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-18",
-      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Wiethe interviews Andy Yunnan Way, the founder and managing partner of AUA Private Equity Partners. They discuss the significant role family-run businesses play in the U.S. economy, particularly in the food, beverage, pet wellness, and co-manufacturing sectors, which constitute a $1.3 to $1.4 trillion market opportunity. Andy shares insights from his experience as COO of Goia Foods and how it influenced AUA's strategy. They also explore the importance of authenticity in family businesses, the impact of the internet and social media on consumer preferences, and the future outlook for AUA Private Equity Partners.",
+      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Wiethe interviews Andy Unanue, the founder and managing partner of AUA Private Equity Partners. They discuss the significant role family-run businesses play in the U.S. economy, particularly in the food, beverage, pet wellness, and co-manufacturing sectors, which constitute a $1.3 to $1.4 trillion market opportunity. Andy shares insights from his experience as COO of Goia Foods and how it influenced AUA's strategy. They also explore the importance of authenticity in family businesses, the impact of the internet and social media on consumer preferences, and the future outlook for AUA Private Equity Partners.",
       "key_takeaway": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
       "tickers_mentioned": [
         "AAPL"
@@ -4708,7 +4708,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-07",
-      "summary": "In this episode of Monetary Matters, Jack Farley interviews Daya and Dean Pernos of Pernos Research, discussing key investment themes and trends such as energy power, data centers, software, AI, cybersecurity, and payments. The Pernos brothers highlight the importance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They provide insights into the AI ecosystem, the impact of open-source AI models on the industry, and their bullish stance on companies like Upwork and Tenable. The conversation also touches on the commoditization of payment processing and the potential of marketplace businesses.",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Deiya and Dean Pernas of Pernas Research, discussing key investment themes and trends such as energy power, data centers, software, AI, cybersecurity, and payments. The Pernas brothers highlight the importance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They provide insights into the AI ecosystem, the impact of open-source AI models on the industry, and their bullish stance on companies like Upwork and Tenable. The conversation also touches on the commoditization of payment processing and the potential of marketplace businesses.",
       "key_takeaway": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
       "tickers_mentioned": [
         "UPWK",
@@ -4920,7 +4920,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-02",
-      "summary": "In this episode of Monetary Matters with Jack Farley, TN Yang, co-founder and head of research at Variant Perception, discusses the current state of the stock market, focusing on indices like the S&P and NASDAQ, as well as semiconductor stocks. Yang provides insights on the macro risk indicators and the potential for a market bottom. He also touches on the high valuations in AI and the speculative mania in Korea, suggesting a need for a new narrative to drive the market. Yang forecasts a market broadening phase with money rotating to value laggards and discusses LPPL exhaustion signals as a bubble and crash detection system. The conversation also covers China's economic policies, particularly regarding oil reserves and the impact on global markets.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Tian Yang, co-founder and head of research at Variant Perception, discusses the current state of the stock market, focusing on indices like the S&P and NASDAQ, as well as semiconductor stocks. Yang provides insights on the macro risk indicators and the potential for a market bottom. He also touches on the high valuations in AI and the speculative mania in Korea, suggesting a need for a new narrative to drive the market. Yang forecasts a market broadening phase with money rotating to value laggards and discusses LPPL exhaustion signals as a bubble and crash detection system. The conversation also covers China's economic policies, particularly regarding oil reserves and the impact on global markets.",
       "key_takeaway": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
       "tickers_mentioned": [
         "IWD",
@@ -4961,7 +4961,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-07-31",
-      "summary": "In this episode of the a16z Show, Sarah Wang and Kimberly Tan interview Decagon co-founders Jesse Zang and Ashwin Srinivas about their shift to open source AI models and their vision for AI in enterprise software. They discuss the importance of latency and control in AI models, the productization of AI, and the potential for AI to reshape customer support and other enterprise functions. The conversation also touches on the rapid sales cycles in enterprise AI and the potential for AI to create new job opportunities rather than simply replacing existing ones.",
+      "summary": "In this episode of the a16z Show, Sarah Wang and Kimberly Tan interview Decagon co-founders Jesse Zhang and Ashwin Srinivas about their shift to open source AI models and their vision for AI in enterprise software. They discuss the importance of latency and control in AI models, the productization of AI, and the potential for AI to reshape customer support and other enterprise functions. The conversation also touches on the rapid sales cycles in enterprise AI and the potential for AI to create new job opportunities rather than simply replacing existing ones.",
       "key_takeaway": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
       "tickers_mentioned": [
         "AAPL"
@@ -5024,7 +5024,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-07-29",
-      "summary": "In this episode of Monetary Matters with Jack Farley, chief market strategist Katherine Rooney Vera from Stone X Groups discusses the Federal Reserve's decision not to hike interest rates, despite market expectations of a 30% chance. They analyze the implications for bond yields, the Fed's credibility on inflation fighting, and the market's reaction to economic data and Fed messaging. Additionally, they touch on the performance and expectations of tech giants like Meta and Microsoft, and the broader impact on the stock market.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, chief market strategist Kathryn Rooney Vera from StoneX Group discusses the Federal Reserve's decision not to hike interest rates, despite market expectations of a 30% chance. They analyze the implications for bond yields, the Fed's credibility on inflation fighting, and the market's reaction to economic data and Fed messaging. Additionally, they touch on the performance and expectations of tech giants like Meta and Microsoft, and the broader impact on the stock market.",
       "key_takeaway": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
       "tickers_mentioned": [
         "META",
@@ -5107,7 +5107,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-07-28",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Max Wiethe interviews Luke Groman, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Groman also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Wiethe interviews Luke Gromen, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Gromen also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
       "key_takeaway": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
       "tickers_mentioned": [
         "AAPL"
@@ -5608,7 +5608,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-07-16",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Moritz Hyden and Moritz Sebert from Takahay Capital discuss the effectiveness of trend following strategies in the current market. They emphasize the importance of having a diverse set of markets to follow trends and how a few successful trades can cover losses from smaller, non-trending markets. The conversation also touches on the differences in handling smooth trends versus volatile ones, like in gold versus oil, and the challenges of scaling positions in trending markets.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Moritz Heiden and Moritz Seibert from Takahay Capital discuss the effectiveness of trend following strategies in the current market. They emphasize the importance of having a diverse set of markets to follow trends and how a few successful trades can cover losses from smaller, non-trending markets. The conversation also touches on the differences in handling smooth trends versus volatile ones, like in gold versus oil, and the challenges of scaling positions in trending markets.",
       "key_takeaway": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
       "tickers_mentioned": [
         "AAPL"
@@ -6013,7 +6013,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-07-05",
-      "summary": "In this episode of Monetary Matters, the focus is on the Federal Reserve's strategy to reduce its balance sheet, currently at approximately $6.5 trillion. Guest Daryl Duffy discusses four techniques to decrease reserve demand, which is key to shrinking the balance sheet without causing market disruptions. These include temporary open market operations, revising liquidity regulations, introducing a liquidity savings mechanism, and tiering the remuneration of reserves. The conversation emphasizes the importance of maintaining adequate reserve levels for effective interest rate management and the potential benefits of a smaller balance sheet for the Fed's operational flexibility and political standing.",
+      "summary": "In this episode of Monetary Matters, the focus is on the Federal Reserve's strategy to reduce its balance sheet, currently at approximately $6.5 trillion. Guest Daryl Duffie discusses four techniques to decrease reserve demand, which is key to shrinking the balance sheet without causing market disruptions. These include temporary open market operations, revising liquidity regulations, introducing a liquidity savings mechanism, and tiering the remuneration of reserves. The conversation emphasizes the importance of maintaining adequate reserve levels for effective interest rate management and the potential benefits of a smaller balance sheet for the Fed's operational flexibility and political standing.",
       "key_takeaway": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
       "tickers_mentioned": [
         "AAPL"
@@ -6033,7 +6033,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-07-04",
-      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on real estate investment trends and insights. Clarion Partners' Josh Pristow discusses the firm's strategy, highlighting the challenges of investing in data centers due to high capital demands and the growth potential in multi-family housing and senior housing. The episode also covers the industrial sector's growth driven by e-commerce and the recovery of Class A office spaces.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on real estate investment trends and insights. Clarion Partners' Josh Pristaw discusses the firm's strategy, highlighting the challenges of investing in data centers due to high capital demands and the growth potential in multi-family housing and senior housing. The episode also covers the industrial sector's growth driven by e-commerce and the recovery of Class A office spaces.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL"
@@ -6622,7 +6622,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-06-20",
-      "summary": "In this episode of Monetary Matters, Jim Chanos and Val Zlathev discuss the economic implications of AI, cautioning against overestimating its impact on corporate profitability. They highlight the supply constraints in the memory market, which could sustain higher prices for DRAM and NAND. Chanos identifies unprofitable business models in the AI ecosystem and warns about inflated valuations in the semiconductor sector. Both guests emphasize the importance of monitoring the evolving landscape of AI and semiconductors for potential market corrections.",
+      "summary": "In this episode of Monetary Matters, Jim Chanos and Val Zlatev discuss the economic implications of AI, cautioning against overestimating its impact on corporate profitability. They highlight the supply constraints in the memory market, which could sustain higher prices for DRAM and NAND. Chanos identifies unprofitable business models in the AI ecosystem and warns about inflated valuations in the semiconductor sector. Both guests emphasize the importance of monitoring the evolving landscape of AI and semiconductors for potential market corrections.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL"
@@ -8808,7 +8808,7 @@
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-05-07",
-      "summary": "The podcast discusses the impact of the Iran conflict on global markets, particularly in oil prices, and its implications for inflation and supply chains. Louis Vincent Gavre suggests a shift towards strategic commodity stockpiling due to geopolitical tensions. The conversation also covers the semiconductor sector's rally, the weakening U.S. dollar, gold's reaction to geopolitical tensions, uranium investments, and copper market breakouts. The 10-year Treasury yield's correlation with crude oil prices is also highlighted.",
+      "summary": "The podcast discusses the impact of the Iran conflict on global markets, particularly in oil prices, and its implications for inflation and supply chains. Louis-Vincent Gave suggests a shift towards strategic commodity stockpiling due to geopolitical tensions. The conversation also covers the semiconductor sector's rally, the weakening U.S. dollar, gold's reaction to geopolitical tensions, uranium investments, and copper market breakouts. The 10-year Treasury yield's correlation with crude oil prices is also highlighted.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "SPX"
@@ -8872,7 +8872,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-05-06",
-      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Copperman and Rodrick Vanzo, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Kupperman and Rodrick Vanzo, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
       "key_takeaway": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
@@ -9025,7 +9025,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-05-01",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Jacob Pajarni, Co-Chief Investment Officer at Bridgeway Capital Management and portfolio manager of the global opportunities fund. They discuss the differences between investing in new economy stocks, which are often driven by intangible assets, and old economy stocks, where traditional fundamental analysis is more effective. The conversation delves into the limitations of discounted cash flow methods for companies with high levels of intangible capital and how sentiment analysis can provide additional insights into investment opportunities, especially in sectors like energy and Asian markets affected by global events such as the Iran War.",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Jacob Pozharny, Co-Chief Investment Officer at Bridgeway Capital Management and portfolio manager of the global opportunities fund. They discuss the differences between investing in new economy stocks, which are often driven by intangible assets, and old economy stocks, where traditional fundamental analysis is more effective. The conversation delves into the limitations of discounted cash flow methods for companies with high levels of intangible capital and how sentiment analysis can provide additional insights into investment opportunities, especially in sectors like energy and Asian markets affected by global events such as the Iran War.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "HFGM"
@@ -9148,8 +9148,8 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-04-29",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Steve Helden, a Republican candidate for the governorship of California. The discussion covers Helden's background, his views on California's housing crisis, and his policy proposals to address the state's economic and political issues. Helden emphasizes the importance of a multi-racial working-class coalition and outlines his tax plan, which includes no state income taxes and a focus on affordable housing and energy costs.",
-      "key_takeaway": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Steve Hilton, a Republican candidate for the governorship of California. The discussion covers Hilton's background, his views on California's housing crisis, and his policy proposals to address the state's economic and political issues. Hilton emphasizes the importance of a multi-racial working-class coalition and outlines his tax plan, which includes no state income taxes and a focus on affordable housing and energy costs.",
+      "key_takeaway": "Steve Hilton's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
       "tickers_mentioned": [
         "AAPL",
         "TSLA",
@@ -9192,7 +9192,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-29",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Max Wiethe interviews Keer Kavanaugh, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Kavanaugh's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Kavanaugh's views on the hedge fund industry and allocators.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Wiethe interviews Keer Cavanna, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Cavanna's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Cavanna's views on the hedge fund industry and allocators.",
       "key_takeaway": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
       "tickers_mentioned": [
         "AAPL"
@@ -9524,7 +9524,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-19",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Daya Apairness, co-founder of Pairness Research, discusses the impact of AI disruption on software stocks and the opportunities it presents. They delve into the sell-off in software stocks due to the expansion of AI's coding capabilities and how some companies are adjusting to the disruption. The conversation also touches on the potential for certain software companies to emerge stronger from the disruption with improved products, and highlights one software stock with over 100% upside potential in the next 12 months.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Deiya Pernas, co-founder of Pernas Research, discusses the impact of AI disruption on software stocks and the opportunities it presents. They delve into the sell-off in software stocks due to the expansion of AI's coding capabilities and how some companies are adjusting to the disruption. The conversation also touches on the potential for certain software companies to emerge stronger from the disruption with improved products, and highlights one software stock with over 100% upside potential in the next 12 months.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "SPRT"
@@ -9590,7 +9590,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-18",
-      "summary": "In this episode of Monetary Matters with Jack Farley, banking specialist Chris Wayland joins to discuss the current bank earnings season, with a focus on bank exposure to private credit and non-depository financial institutions. They delve into the nuances of credit risk migration, the impact of interest rate changes on commercial real estate, and the potential for private equity and credit debt to be converted into equity. The conversation also touches on the competitive landscape of payment platforms, with a particular emphasis on PayPal and its challenges against tech giants like Apple.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, banking specialist Chris Whalen joins to discuss the current bank earnings season, with a focus on bank exposure to private credit and non-depository financial institutions. They delve into the nuances of credit risk migration, the impact of interest rate changes on commercial real estate, and the potential for private equity and credit debt to be converted into equity. The conversation also touches on the competitive landscape of payment platforms, with a particular emphasis on PayPal and its challenges against tech giants like Apple.",
       "key_takeaway": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
       "tickers_mentioned": [
         "HFGM"
@@ -9610,7 +9610,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-04-17",
-      "summary": "This episode of 'The a16z Show' features an interview with Wemo Co. CEO Dmitry Dugov, discussing the future of autonomous driving. Dugov shares insights on the transition from scientific research to real-world scale, the importance of understanding the physical world, and the social aspects of driving. He also touches on the evolution of autonomous vehicle technology, the role of AI, and the shift towards custom-built vehicles designed for ride-hailing economies.",
+      "summary": "This episode of 'The a16z Show' features an interview with Wemo Co. CEO Dmitri Dolgov, discussing the future of autonomous driving. Dolgov shares insights on the transition from scientific research to real-world scale, the importance of understanding the physical world, and the social aspects of driving. He also touches on the evolution of autonomous vehicle technology, the role of AI, and the shift towards custom-built vehicles designed for ride-hailing economies.",
       "key_takeaway": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
       "tickers_mentioned": [
         "GOOGL",
@@ -9680,7 +9680,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-04-16",
-      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Groman of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnston of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
+      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Gromen of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnston of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "SPX",
@@ -9969,7 +9969,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-09",
-      "summary": "In this episode of 'Other People's Money', Max Wiethe interviews Ben Topore, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
+      "summary": "In this episode of 'Other People's Money', Max Wiethe interviews Ben Topor, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "PQUS",
@@ -9990,7 +9990,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-04-09",
-      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
+      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rozencwajg, co-founder of Garing and Rozencwajg, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
       "key_takeaway": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
       "tickers_mentioned": [
         "WTI",
@@ -10241,7 +10241,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-04",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ed Finley Richardson, an expert in the shipping industry, to discuss the impact of the closure of the Strait of Hormuz on shipping markets and the resulting investment opportunities. They delve into how the conflict in the Middle East has affected oil, refined products, and fertilizer prices, and how shipping has become more expensive. Richardson shares his insights on the tanker market, shipping stocks, and the importance of corporate governance in the industry.",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ed Finley-Richardson, an expert in the shipping industry, to discuss the impact of the closure of the Strait of Hormuz on shipping markets and the resulting investment opportunities. They delve into how the conflict in the Middle East has affected oil, refined products, and fertilizer prices, and how shipping has become more expensive. Finley-Richardson shares his insights on the tanker market, shipping stocks, and the importance of corporate governance in the industry.",
       "key_takeaway": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
       "tickers_mentioned": [
         "ZIM"
@@ -10350,7 +10350,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-04-02",
-      "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Erik Townsend and Patrick Ceresna, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Anas Alhajji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
+      "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Erik Townsend and Patrick Ceresna, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barrie, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Anas Alhajji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "SPX",
@@ -10394,7 +10394,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-01",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Chief U.S. Economist at Bloomberg, Anna Wang, discusses the impact of surging oil prices on inflation and the potential for a recession. Wang challenges the narrative that inflation could reach 7-9% as seen in 2022, arguing that even with oil prices at $200 per barrel, CPI would likely peak at around 6% and then drop. She also discusses the complexities of secondary effects on inflation and the conditions that would need to be met for a significant rise in inflation. The conversation touches on the differences in how recessions are defined and identified in the U.S. versus other countries and the potential economic implications of high oil prices.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Chief U.S. Economist at Bloomberg, Anna Wong, discusses the impact of surging oil prices on inflation and the potential for a recession. Wang challenges the narrative that inflation could reach 7-9% as seen in 2022, arguing that even with oil prices at $200 per barrel, CPI would likely peak at around 6% and then drop. She also discusses the complexities of secondary effects on inflation and the conditions that would need to be met for a significant rise in inflation. The conversation touches on the differences in how recessions are defined and identified in the U.S. versus other countries and the potential economic implications of high oil prices.",
       "key_takeaway": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
       "tickers_mentioned": [
         "PQNT",
@@ -10527,7 +10527,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-29",
-      "summary": "In this episode of 'Monetary Matters with Jack Farley', Layla Kunimoto, founder and editor of an investor insights platform, discusses her journey into private markets and the democratization of access to alternative investments. She shares her insights on the shift of alternative managers towards retail investors and the advantages and disadvantages of traditional drawdown funds versus newer semi-liquid structures. Layla also expresses her views on public versus private VDCs, her current stance on public VDCs, and the impact of redemption caps on sentiment and actions of alternative asset managers.",
+      "summary": "In this episode of 'Monetary Matters with Jack Farley', Leyla Kunimoto, founder and editor of an investor insights platform, discusses her journey into private markets and the democratization of access to alternative investments. She shares her insights on the shift of alternative managers towards retail investors and the advantages and disadvantages of traditional drawdown funds versus newer semi-liquid structures. Layla also expresses her views on public versus private VDCs, her current stance on public VDCs, and the impact of redemption caps on sentiment and actions of alternative asset managers.",
       "key_takeaway": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
       "tickers_mentioned": [
         "PQNT",
@@ -10880,7 +10880,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-03-23",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', guest Matt Mayhand, a candidate for Governor of California, discusses the state's financial mismanagement, lack of accountability, and the impact of regulations on various sectors such as high-speed rail, housing, and energy. Mayhand emphasizes the need for pragmatic solutions, focusing on results and measurable outcomes, rather than increasing revenue and government programs.",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', guest Matt Mahan, a candidate for Governor of California, discusses the state's financial mismanagement, lack of accountability, and the impact of regulations on various sectors such as high-speed rail, housing, and energy. Mahan emphasizes the need for pragmatic solutions, focusing on results and measurable outcomes, rather than increasing revenue and government programs.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -10965,7 +10965,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-22",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Josh Lindville, Vice President of Fertilizer at Stone X, to discuss the impact of the Iran war on fertilizer prices and its implications on agriculture and food prices. They delve into the drastic increase in fertilizer prices, particularly nitrogen, and the potential for further price increases. The conversation also touches on the role of government intervention in the market and the importance of letting free markets operate.",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Josh Linville, Vice President of Fertilizer at StoneX, to discuss the impact of the Iran war on fertilizer prices and its implications on agriculture and food prices. They delve into the drastic increase in fertilizer prices, particularly nitrogen, and the potential for further price increases. The conversation also touches on the role of government intervention in the market and the importance of letting free markets operate.",
       "key_takeaway": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
       "tickers_mentioned": [
         "CORN"
@@ -11271,7 +11271,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-17",
-      "summary": "The podcast episode features a discussion with Shal Misra, a Professor and Vice Dean of Computing at Columbia University, who has been researching the inner workings of Large Language Models (LLMs). The conversation delves into the mathematical models that explain how LLMs function, the difference between pattern matching and true intelligence, and the challenges in moving from correlation to causation for achieving Artificial General Intelligence (AGI). The episode also touches on the limitations of current LLMs and the potential paths for future development.",
+      "summary": "The podcast episode features a discussion with Vishal Misra, a Professor and Vice Dean of Computing at Columbia University, who has been researching the inner workings of Large Language Models (LLMs). The conversation delves into the mathematical models that explain how LLMs function, the difference between pattern matching and true intelligence, and the challenges in moving from correlation to causation for achieving Artificial General Intelligence (AGI). The episode also touches on the limitations of current LLMs and the potential paths for future development.",
       "key_takeaway": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
       "tickers_mentioned": [
         "AAPL",
@@ -11498,7 +11498,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-13",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Martin Wolff, Chief Economics Commentator for the Financial Times, to discuss the economic implications of the ongoing conflict between the US and Iran. The conversation centers around the potential disruption to global oil supply, the strategic importance of the Gulf region, and the broader geopolitical ramifications. Wolff also touches on the future of energy-intensive industries and the shift towards renewable energy in Europe.",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Martin Wolf, Chief Economics Commentator for the Financial Times, to discuss the economic implications of the ongoing conflict between the US and Iran. The conversation centers around the potential disruption to global oil supply, the strategic importance of the Gulf region, and the broader geopolitical ramifications. Wolf also touches on the future of energy-intensive industries and the shift towards renewable energy in Europe.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -12009,7 +12009,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-04",
-      "summary": "In this episode of Monetary Matters, Max Wiethe interviews TN Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
+      "summary": "In this episode of Monetary Matters, Max Wiethe interviews Tian Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "XOM",
@@ -13037,7 +13037,7 @@
       "first_detected_episode_id": 570,
       "first_detected_speaker": "Nick Bostrom",
       "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
     },
     {
       "id": 300,
@@ -13073,7 +13073,7 @@
       "first_detected_episode_id": 568,
       "first_detected_speaker": "Jason Calacanis",
       "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
     },
     {
       "id": 298,
@@ -13091,7 +13091,7 @@
       "first_detected_episode_id": 564,
       "first_detected_speaker": "Stacy Rasgon",
       "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
     },
     {
       "id": 297,
@@ -13181,7 +13181,7 @@
       "first_detected_episode_id": 540,
       "first_detected_speaker": "Jake Paul, Drew Taggart, Alex Pall",
       "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
     },
     {
       "id": 309,
@@ -13451,7 +13451,7 @@
       "first_detected_episode_id": 455,
       "first_detected_speaker": "Elon Musk",
       "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
     },
     {
       "id": 283,
@@ -13629,7 +13629,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 371,
-      "first_detected_speaker": "Luke Groman",
+      "first_detected_speaker": "Luke Gromen",
       "last_mentioned_episode_id": 518,
       "last_mentioned_speaker": "Henry Peabody"
     },
@@ -13883,7 +13883,7 @@
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
     },
     {
       "id": 256,
@@ -13917,7 +13917,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 297,
-      "first_detected_speaker": "Chris Seminoch",
+      "first_detected_speaker": "Chris Semenuk",
       "last_mentioned_episode_id": 577,
       "last_mentioned_speaker": "Ben Inker"
     },
@@ -13935,7 +13935,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 294,
-      "first_detected_speaker": "Joseph Krauss",
+      "first_detected_speaker": "Joseph Krause",
       "last_mentioned_episode_id": 352,
       "last_mentioned_speaker": "Andy Beam, Rafael G\u00f3mez-Bombarelli"
     },
@@ -13955,7 +13955,7 @@
       "first_detected_episode_id": 292,
       "first_detected_speaker": "Santiago Gua Suarez",
       "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
     },
     {
       "id": 252,
@@ -14135,7 +14135,7 @@
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, Jason Friedberg"
+      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
     },
     {
       "id": 275,
@@ -14151,9 +14151,9 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 293,
-      "first_detected_speaker": "Sartina Della",
+      "first_detected_speaker": "Satya Nadella",
       "last_mentioned_episode_id": 293,
-      "last_mentioned_speaker": "Sartina Della"
+      "last_mentioned_speaker": "Satya Nadella"
     },
     {
       "id": 280,
@@ -14169,9 +14169,9 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 293,
-      "first_detected_speaker": "Sartina Della",
+      "first_detected_speaker": "Satya Nadella",
       "last_mentioned_episode_id": 293,
-      "last_mentioned_speaker": "Sartina Della"
+      "last_mentioned_speaker": "Satya Nadella"
     },
     {
       "id": 219,
@@ -14475,9 +14475,9 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 203,
-      "first_detected_speaker": "Louis Vincent Gavre",
+      "first_detected_speaker": "Louis-Vincent Gave",
       "last_mentioned_episode_id": 203,
-      "last_mentioned_speaker": "Louis Vincent Gavre"
+      "last_mentioned_speaker": "Louis-Vincent Gave"
     },
     {
       "id": 161,
@@ -15521,7 +15521,7 @@
       "first_detected_episode_id": 53,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 417,
-      "last_mentioned_speaker": "Luke Groman"
+      "last_mentioned_speaker": "Luke Gromen"
     },
     {
       "id": 95,

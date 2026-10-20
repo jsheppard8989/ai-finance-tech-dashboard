@@ -8,6 +8,7 @@ import re
 import sys
 from pathlib import Path
 from datetime import datetime
+import copy
 import json
 import sqlite3
 
@@ -331,6 +332,10 @@ def _apply_summary_overrides(obj):
     name_reps = rules_all.get("name_replacements", [])
     if name_reps:
         _apply_name_replacements(obj, name_reps)
+    # Oct 20 2026: pundit rows by id, AFTER the full-name swaps so a bare-surname fix on one
+    # pundit can't pre-empt "First Last" swaps.
+    if rules_all.get("pundit_excludes") or rules_all.get("pundit_overrides"):
+        _apply_pundit_rules(obj, rules_all.get("pundit_excludes") or [], rules_all.get("pundit_overrides") or [])
     # Backstop: full known-name list from name_normalizer (quote-safe, exact swaps only).
     try:
         import name_normalizer
@@ -424,6 +429,69 @@ def _apply_title_overrides(obj, overrides):
                 walk(v)
         elif isinstance(o, list):
             for v in o:
+                walk(v)
+    walk(obj)
+    return obj
+
+
+def _is_pundit_record(o):
+    """A pundits.json / dashboardData.pundits row (podcastGuests rows have no mention_score)."""
+    return isinstance(o, dict) and "slug" in o and "mention_score" in o and "id" in o
+
+
+def _pundit_word_swap(o, reps, key=None):
+    """Whole-word swaps that also treat '-' as part of a word, so 'Gross' -> 'Wissner-Gross'
+    never re-fires on 'Wissner-Gross' (idempotent on already-fixed text)."""
+    def sub(text):
+        for old, new in reps:
+            if old and old in text:
+                text = re.sub(r"(?<![A-Za-z0-9-])" + re.escape(old) + r"(?![A-Za-z0-9-])",
+                              lambda _m, n=new: n, text)
+        return text
+    if isinstance(o, dict):
+        for k in list(o.keys()):
+            if isinstance(o[k], str):
+                if k not in GLOBAL_NAME_SKIP_KEYS:
+                    o[k] = sub(o[k])
+            else:
+                _pundit_word_swap(o[k], reps, k)
+    elif isinstance(o, list):
+        for i, v in enumerate(o):
+            if isinstance(v, str):
+                if key not in GLOBAL_NAME_SKIP_KEYS:
+                    o[i] = sub(v)
+            else:
+                _pundit_word_swap(v, reps, key)
+    return o
+
+
+def _apply_pundit_rules(obj, excludes, overrides):
+    """Oct 20 2026: pundit rows scoped by pundit id (DB rows are never deleted).
+
+    - 'pundit_excludes': [{"id": 261, "name": "John Doe", ...}] drops that row from every exported
+      pundit list (placeholders / non-people).
+    - 'pundit_overrides': [{"id": 183, "set": {field: value}, "replacements": [[old, new]]}] sets
+      fields and applies WHOLE-WORD swaps to every string of that one pundit (slugs/URLs skipped) (bio fixes, collisions)."""
+    drop = {int(e["id"] if isinstance(e, dict) else e) for e in excludes}
+    by_id = {}
+    for r in overrides:
+        by_id.setdefault(int(r["id"]), []).append(r)
+
+    def walk(o):
+        if isinstance(o, list):
+            if drop and any(_is_pundit_record(x) for x in o):
+                o[:] = [x for x in o if not (_is_pundit_record(x) and x.get("id") in drop)]
+            for x in o:
+                walk(x)
+        elif isinstance(o, dict):
+            if _is_pundit_record(o):
+                for r in by_id.get(o.get("id"), []):
+                    for k, v in (r.get("set") or {}).items():
+                        o[k] = copy.deepcopy(v)
+                    reps = r.get("replacements") or []
+                    if reps:
+                        _pundit_word_swap(o, reps)  # whole-word, hyphen-aware; skips slugs/URLs
+            for v in o.values():
                 walk(v)
     walk(obj)
     return obj
