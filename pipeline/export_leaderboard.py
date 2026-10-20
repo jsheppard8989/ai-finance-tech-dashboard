@@ -174,6 +174,43 @@ def match_reasons(trades: list, files: dict) -> dict:
     return out
 
 
+# Correction records (<source>/corrections.json): public-text fixes to a logged trade, keyed by
+# bot/date/ticker/kind and the Watcher receipt HH:MM. Only display fields may change; fills,
+# fees and P&L always come from the proof files.
+CORRECTABLE = ("time_ct", "why", "stop", "target", "wrong_if")
+
+
+def load_corrections(src: Path) -> list:
+    data = _load_json(src / "corrections.json")
+    recs = data.get("corrections", []) if isinstance(data, dict) else (data or [])
+    out = []
+    for c in recs:
+        if not isinstance(c, dict) or not isinstance(c.get("set"), dict):
+            continue
+        bad = set(c["set"]) - set(CORRECTABLE)
+        if bad:
+            raise SystemExit(f"corrections.json: field(s) {sorted(bad)} cannot be corrected here")
+        out.append(c)
+    return out
+
+
+def apply_corrections(log: list, matched: dict, corrections: list) -> dict:
+    """trade index -> {field: value} overrides. Reason fields also patch the matched reason so the
+    open-position card shows the same text."""
+    over: dict = {}
+    for c in corrections:
+        for i, t in enumerate(log):
+            if (canon(c.get("bot", "")) == t["bot"] and c.get("date") == t["date"]
+                    and str(c.get("ticker", "")).upper() == t["ticker"] and c.get("kind", "entry") == t["kind"]
+                    and c.get("received_hhmm", t["time_ct"]) == t["time_ct"]):
+                fix = {k: clean(v) if k != "time_ct" else v for k, v in c["set"].items()}
+                over.setdefault(i, {}).update(fix)
+                rf = matched.get(i)
+                if rf is not None:
+                    matched[i] = {**rf, **{k: v for k, v in fix.items() if k != "time_ct"}}
+    return over
+
+
 def load_reasons(src: Path, bot_names) -> dict:
     """(bot, date, TICKER, kind) -> latest parsed reason (back-compat helper)."""
     return {k: v[-1][2] for k, v in load_reason_files(src, bot_names).items()}
@@ -354,6 +391,7 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
 
     reason_files = load_reason_files(src, list(players) + [t["bot"] for t in log])
     matched = match_reasons(log, reason_files)
+    overrides = apply_corrections(log, matched, load_corrections(src))
     reasons = {k: v[-1][2] for k, v in reason_files.items()}
     full_trades = []
     for i, t in enumerate(log):
@@ -368,6 +406,8 @@ def build(src: Path, now: dt.datetime | None = None) -> dict:
         for k in ("fee_usd_reason", "note"):
             if k in t:
                 row[k] = t[k]
+        if "time_ct" in overrides.get(i, {}):
+            row["time_ct"] = overrides[i]["time_ct"]
         full_trades.append(row)
     rows = []
     for name, p in players.items():

@@ -291,3 +291,42 @@ Week 2 runs Wed Oct 21 2026 to Tue Oct 27 2026. Watcher keeps score.
         blob = json.dumps(self.out)
         for bad in ("proof/", "Compound Wealth", "Dragonfly", "Jared"):
             self.assertNotIn(bad, blob)
+
+
+class Corrections(unittest.TestCase):
+    """corrections.json overrides display fields of one logged trade; fills/P&L untouched."""
+
+    def setUp(self):
+        self.src = Path(tempfile.mkdtemp())
+        (self.src / "scoreboard.md").write_text(MD, encoding="utf-8")
+        (self.src / "proof" / "2026-10-16").mkdir(parents=True)
+        (self.src / "proof" / "2026-10-16" / "daily_close_marks_2026-10-16.json").write_text(json.dumps(MARKS))
+        (self.src / "reasons").mkdir()
+        (self.src / "reasons" / "2026-10-16_Ditka89_BBB_entry.md").write_text(
+            "# Ditka89 BBB\n- Why: Fallback so the slot isn't flat.\n- Stop: not recorded.\n", encoding="utf-8")
+        self.base = el.build(self.src)
+
+    def tearDown(self):
+        shutil.rmtree(self.src, ignore_errors=True)
+
+    def _row(self, out):
+        return [t for t in out["trades"] if t["ticker"] == "BBB"][0]
+
+    def test_time_and_stop_corrected(self):
+        (self.src / "corrections.json").write_text(json.dumps({"corrections": [{
+            "bot": "Ditka89", "date": "2026-10-16", "ticker": "BBB", "kind": "entry", "received_hhmm": "10:00",
+            "set": {"time_ct": "10:01", "stop": "the original stop was 4.85."}}]}))
+        out = el.build(self.src)
+        before, after = self._row(self.base), self._row(out)
+        self.assertEqual(after["time_ct"], "10:01")
+        self.assertIn("4.85", after["stop"])
+        self.assertEqual(after["fill"], before["fill"])
+        self.assertEqual(after["fee_usd"], before["fee_usd"])
+        self.assertEqual([(b["bot"], b["balance_usd"], b.get("pnl_usd")) for b in out["bots"]],
+                         [(b["bot"], b["balance_usd"], b.get("pnl_usd")) for b in self.base["bots"]])
+
+    def test_fill_cannot_be_corrected(self):
+        (self.src / "corrections.json").write_text(json.dumps({"corrections": [{
+            "bot": "Ditka89", "date": "2026-10-16", "ticker": "BBB", "set": {"fill": 1.0}}]}))
+        with self.assertRaises(SystemExit):
+            el.build(self.src)
