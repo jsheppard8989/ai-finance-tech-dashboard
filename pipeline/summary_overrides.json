@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis. Oct 14 2026 (Red Team): 'ticker_renames' and 'global_drop_tickers' fix fake/defunct/private symbols in tickers_mentioned, key_tickers and ticker_analysis on every card; per-card 'rename_tickers' for context-dependent symbols. Oct 20 2026: a 'summaries' rule may carry 'podcast_episode_id' (+ optional 'insight_id') to match that episode's cards by id instead of title text; 'drop_quotes' removes notable_quotes entries whose quote contains a given substring. 'title_overrides' retitle one episode by id (insight/Deep Dive/podcast-summary title fields, Overton first/last_mentioned_episode_title by episode id, pundit/guest last_episode_title and last_proof_cite by podcast + date + old title); never a global string swap.",
+  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis. Oct 14 2026 (Red Team): 'ticker_renames' and 'global_drop_tickers' fix fake/defunct/private symbols in tickers_mentioned, key_tickers and ticker_analysis on every card; per-card 'rename_tickers' for context-dependent symbols. Oct 20 2026: a 'summaries' rule may carry 'podcast_episode_id' (+ optional 'insight_id') to match that episode's cards by id instead of title text; 'drop_quotes' removes notable_quotes entries whose quote contains a given substring. 'title_overrides' retitle one episode by id (insight/Deep Dive/podcast-summary title fields, Overton first/last_mentioned_episode_title by episode id, pundit/guest last_episode_title and last_proof_cite by podcast + date + old title); never a global string swap. Oct 20 2026 (pundit sweep): 'pundit_excludes' drop placeholder/non-person pundit rows from every exported pundit list by pundit id (DB rows kept); 'pundit_overrides' set fields and apply whole-word (hyphen-aware) swaps on one pundit row by id, after the global name swaps.",
   "summaries": [
     {
       "insight_id": 572,
@@ -525,6 +525,211 @@
           "$2.36 in July to 38 cents in September"
         ]
       ]
+    },
+    {
+      "insight_id": 560,
+      "podcast_episode_id": 544,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: card 560 quote transcript spelling",
+      "replacements": [
+        [
+          "Open AI",
+          "OpenAI"
+        ]
+      ]
+    },
+    {
+      "insight_id": 579,
+      "podcast_episode_id": 568,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: card 579 quote + deep dive 579 transcript spelling",
+      "replacements": [
+        [
+          "Open AI",
+          "OpenAI"
+        ]
+      ]
+    },
+    {
+      "insight_id": 319,
+      "podcast_episode_id": 304,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: deep dive 319 evidence transcript spelling",
+      "replacements": [
+        [
+          "Open AI",
+          "OpenAI"
+        ]
+      ]
+    },
+    {
+      "insight_id": 182,
+      "podcast_episode_id": 168,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: deep dive 182 evidence transcript spelling",
+      "replacements": [
+        [
+          "Anthropics",
+          "Anthropic's"
+        ]
+      ]
+    },
+    {
+      "insight_id": 397,
+      "podcast_episode_id": 382,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: deep dive 397 evidence transcript spelling",
+      "replacements": [
+        [
+          "Anthropics",
+          "Anthropic's"
+        ]
+      ]
+    },
+    {
+      "insight_id": 413,
+      "podcast_episode_id": 397,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Neil Patil (Chai Discovery), scoped to this episode",
+      "replacements": [
+        [
+          "Neil Patel",
+          "Neil Patil"
+        ]
+      ]
+    },
+    {
+      "insight_id": 473,
+      "podcast_episode_id": 458,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Aaron Levie is Box CEO, not an a16z partner",
+      "replacements": [
+        [
+          "a16z partner Aaron Levy",
+          "Box CEO Aaron Levie"
+        ],
+        [
+          "a16z partner Aaron Levie",
+          "Box CEO Aaron Levie"
+        ]
+      ]
+    },
+    {
+      "insight_id": 473,
+      "podcast_episode_id": 458,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Aaron Levie surname",
+      "replacements": [
+        [
+          "Levy argues",
+          "Levie argues"
+        ],
+        [
+          "Levy also",
+          "Levie also"
+        ]
+      ]
+    },
+    {
+      "insight_id": 192,
+      "podcast_episode_id": 178,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Aaron Levie surname",
+      "replacements": [
+        [
+          "as Levy points",
+          "as Levie points"
+        ]
+      ]
+    },
+    {
+      "insight_id": 80,
+      "podcast_episode_id": 61,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Martin Wolf surname",
+      "replacements": [
+        [
+          "Wolff also",
+          "Wolf also"
+        ]
+      ]
+    },
+    {
+      "insight_id": 347,
+      "podcast_episode_id": 332,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Darrell Duffie surname",
+      "replacements": [
+        [
+          "Duffy",
+          "Duffie"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 467,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Matt Barrie surname",
+      "replacements": [
+        [
+          "Barry also",
+          "Barrie also"
+        ]
+      ]
+    },
+    {
+      "insight_id": 485,
+      "podcast_episode_id": 469,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: John Farris surname",
+      "replacements": [
+        [
+          "Ferris",
+          "Farris"
+        ]
+      ]
+    },
+    {
+      "insight_id": 297,
+      "podcast_episode_id": 281,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Larry McDonald surname",
+      "replacements": [
+        [
+          "MacDonald",
+          "McDonald"
+        ]
+      ]
+    },
+    {
+      "insight_id": 309,
+      "podcast_episode_id": 294,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Joseph Krause surname",
+      "replacements": [
+        [
+          "explained Krauss",
+          "explained Krause"
+        ]
+      ]
+    },
+    {
+      "insight_id": 152,
+      "podcast_episode_id": 137,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Ed Finley-Richardson surname",
+      "replacements": [
+        [
+          ". Richardson shares",
+          ". Finley-Richardson shares"
+        ]
+      ]
+    },
+    {
+      "insight_id": 428,
+      "podcast_episode_id": 413,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Andy Unanue surname",
+      "replacements": [
+        [
+          "Way's experience",
+          "Unanue's experience"
+        ]
+      ]
+    },
+    {
+      "insight_id": 202,
+      "podcast_episode_id": 185,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Kieran Cavanna surname (scoped: Kavanaugh is also a real other person)",
+      "replacements": [
+        [
+          "Kavanaugh",
+          "Cavanna"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -841,6 +1046,426 @@
     [
       "Wakeo, Texas",
       "Waco, Texas"
+    ],
+    [
+      "Daya and Dean Pernos",
+      "Deiya and Dean Pernas"
+    ],
+    [
+      "Pernos Research",
+      "Pernas Research"
+    ],
+    [
+      "Pairness Research",
+      "Pernas Research"
+    ],
+    [
+      "Tyler Cowan",
+      "Tyler Cowen"
+    ],
+    [
+      "Brad Gershner",
+      "Brad Gerstner"
+    ],
+    [
+      "Brad Gersner",
+      "Brad Gerstner"
+    ],
+    [
+      "Eddie Lazaran",
+      "Eddy Lazzarin"
+    ],
+    [
+      "Aaron Levy",
+      "Aaron Levie"
+    ],
+    [
+      "Steven Synopski",
+      "Steven Sinofsky"
+    ],
+    [
+      "Steve Sinofsky",
+      "Steven Sinofsky"
+    ],
+    [
+      "David Freiberg",
+      "David Friedberg"
+    ],
+    [
+      "Jason Friedberg",
+      "David Friedberg"
+    ],
+    [
+      "Samo Buria",
+      "Samo Burja"
+    ],
+    [
+      "Geo Voliante",
+      "Gio Valiante"
+    ],
+    [
+      "Layla Kunimoto",
+      "Leyla Kunimoto"
+    ],
+    [
+      "Justin Finnelli",
+      "Justin Fanelli"
+    ],
+    [
+      "Martin Wolff",
+      "Martin Wolf"
+    ],
+    [
+      "Robin Hansen",
+      "Robin Hanson"
+    ],
+    [
+      "Jesse Zang",
+      "Jesse Zhang"
+    ],
+    [
+      "Matt Mayhand",
+      "Matt Mahan"
+    ],
+    [
+      "Josh Lindville",
+      "Josh Linville"
+    ],
+    [
+      "Alex Weiser Gross",
+      "Alex Wissner-Gross"
+    ],
+    [
+      "Anisha Charya",
+      "Anish Acharya"
+    ],
+    [
+      "Luke Groman",
+      "Luke Gromen"
+    ],
+    [
+      "Sartina Della",
+      "Satya Nadella"
+    ],
+    [
+      "Andreas Stino-Larson",
+      "Andreas Steno Larsen"
+    ],
+    [
+      "Mad McPartlin",
+      "Matthew McPartlon"
+    ],
+    [
+      "Matt Barry",
+      "Matt Barrie"
+    ],
+    [
+      "Eric Gwyn",
+      "Eric Nguyen"
+    ],
+    [
+      "Blake Show",
+      "Blake Scholl"
+    ],
+    [
+      "David Bush",
+      "David Busch"
+    ],
+    [
+      "Freddie Brick",
+      "Freddy Brick"
+    ],
+    [
+      "John Ferris",
+      "John Farris"
+    ],
+    [
+      "Ryan Krishneth",
+      "Rayan Krishnan"
+    ],
+    [
+      "Dr. Carley Anderson",
+      "Dr. Carly Anderson"
+    ],
+    [
+      "Michael Crathfields",
+      "Michael Kratsios"
+    ],
+    [
+      "Andy Yunnan Way",
+      "Andy Unanue"
+    ],
+    [
+      "Dean Pernos",
+      "Dean Pernas"
+    ],
+    [
+      "Daya Pernos",
+      "Deiya Pernas"
+    ],
+    [
+      "Daya Apairness",
+      "Deiya Pernas"
+    ],
+    [
+      "TN Yang",
+      "Tian Yang"
+    ],
+    [
+      "Katherine Rooney Vera",
+      "Kathryn Rooney Vera"
+    ],
+    [
+      "Sri Ram Krishna",
+      "Sriram Krishnan"
+    ],
+    [
+      "Moritz Hyden",
+      "Moritz Heiden"
+    ],
+    [
+      "Moritz Sebert",
+      "Moritz Seibert"
+    ],
+    [
+      "Daryl Duffy",
+      "Darrell Duffie"
+    ],
+    [
+      "Josh Pristow",
+      "Josh Pristaw"
+    ],
+    [
+      "Sergey Yuternoff",
+      "Sergey Edunov"
+    ],
+    [
+      "Val Zlathev",
+      "Val Zlatev"
+    ],
+    [
+      "Chris Seminoch",
+      "Chris Semenuk"
+    ],
+    [
+      "Joseph Krauss",
+      "Joseph Krause"
+    ],
+    [
+      "Larry MacDonald",
+      "Larry McDonald"
+    ],
+    [
+      "Connor Coleman",
+      "Conor Coleman"
+    ],
+    [
+      "Sachin Jane",
+      "Sachin Jain"
+    ],
+    [
+      "Mark Rowan",
+      "Marc Rowan"
+    ],
+    [
+      "Andy Constant",
+      "Andy Constan"
+    ],
+    [
+      "Louis Vincent Gavre",
+      "Louis-Vincent Gave"
+    ],
+    [
+      "Harris Copperman",
+      "Harris Kupperman"
+    ],
+    [
+      "Jacob Pajarni",
+      "Jacob Pozharny"
+    ],
+    [
+      "Steve Helden",
+      "Steve Hilton"
+    ],
+    [
+      "Keer Kavanaugh",
+      "Kieran Cavanna"
+    ],
+    [
+      "Chris Wayland",
+      "Chris Whalen"
+    ],
+    [
+      "Dmitry Dugov",
+      "Dmitri Dolgov"
+    ],
+    [
+      "Ben Topore",
+      "Ben Topor"
+    ],
+    [
+      "Adam Rosenswag",
+      "Adam Rozencwajg"
+    ],
+    [
+      "Guillem Bert",
+      "Guillaume Verdon"
+    ],
+    [
+      "Ed Finley Richardson",
+      "Ed Finley-Richardson"
+    ],
+    [
+      "Alex Bonia",
+      "Alex Blania"
+    ],
+    [
+      "Anna Wang",
+      "Anna Wong"
+    ],
+    [
+      "Shal Misra",
+      "Vishal Misra"
+    ],
+    [
+      "Gershner's",
+      "Gerstner's"
+    ],
+    [
+      "Gavcal",
+      "Gavekal"
+    ],
+    [
+      "Prytorian Capital",
+      "Praetorian Capital"
+    ],
+    [
+      "Prytorian",
+      "Praetorian"
+    ],
+    [
+      "Extrapic",
+      "Extropic"
+    ],
+    [
+      "Stone X Groups",
+      "StoneX Group"
+    ],
+    [
+      "Stone X",
+      "StoneX"
+    ],
+    [
+      "Sarah Fryer",
+      "Sarah Friar"
+    ],
+    [
+      "Gershner’s",
+      "Gerstner’s"
+    ],
+    [
+      "Pernos brothers",
+      "Pernas brothers"
+    ],
+    [
+      "Groman",
+      "Gromen"
+    ],
+    [
+      "Mayhand",
+      "Mahan"
+    ],
+    [
+      "Stino-Larson",
+      "Steno Larsen"
+    ],
+    [
+      "McPartlin",
+      "McPartlon"
+    ],
+    [
+      "Crathfields",
+      "Kratsios"
+    ],
+    [
+      "Apairness",
+      "Pernas"
+    ],
+    [
+      "Pristow",
+      "Pristaw"
+    ],
+    [
+      "Zlathev",
+      "Zlatev"
+    ],
+    [
+      "Seminoch",
+      "Semenuk"
+    ],
+    [
+      "Gavre",
+      "Gave"
+    ],
+    [
+      "Copperman",
+      "Kupperman"
+    ],
+    [
+      "Pajarni",
+      "Pozharny"
+    ],
+    [
+      "Dugov",
+      "Dolgov"
+    ],
+    [
+      "Wayland",
+      "Whalen"
+    ],
+    [
+      "Synopski",
+      "Sinofsky"
+    ],
+    [
+      "Lazaran",
+      "Lazzarin"
+    ],
+    [
+      "Voliante",
+      "Valiante"
+    ],
+    [
+      "Finnelli",
+      "Fanelli"
+    ],
+    [
+      "Lindville",
+      "Linville"
+    ],
+    [
+      "Krishneth",
+      "Krishnan"
+    ],
+    [
+      "Yuternoff",
+      "Edunov"
+    ],
+    [
+      "Topore",
+      "Topor"
+    ],
+    [
+      "Rosenswag",
+      "Rozencwajg"
+    ],
+    [
+      "Helden",
+      "Hilton"
+    ],
+    [
+      "Kieran Kavanaugh",
+      "Kieran Cavanna"
     ]
   ],
   "name_replacements": [
@@ -1493,6 +2118,765 @@
       "old": "What Happens When Al Agents Can Spend Your Money?",
       "new": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
       "_note": "Oct 20 2026 (G(ai)ndolf): ep 590 is the Town / Jean-Denis Greze interview (YouTube o_5f4N6Nq80). The old title belongs to card 591 (ep 581); scoped to ep 590 only."
+    }
+  ],
+  "pundit_excludes": [
+    {
+      "id": 291,
+      "name": "Not provided",
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: placeholder or non-person row"
+    },
+    {
+      "id": 261,
+      "name": "John Doe",
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: placeholder or non-person row"
+    },
+    {
+      "id": 442,
+      "name": "Astra Research Team",
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: placeholder or non-person row"
+    },
+    {
+      "id": 380,
+      "name": "Mariana Minerals Founder",
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: placeholder or non-person row"
+    },
+    {
+      "id": 381,
+      "name": "Radiant Founder",
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: placeholder or non-person row"
+    },
+    {
+      "id": 379,
+      "name": "Ulysses Founder",
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: placeholder or non-person row"
+    },
+    {
+      "id": 303,
+      "name": "Grace One",
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: placeholder or non-person row"
+    }
+  ],
+  "pundit_overrides": [
+    {
+      "id": 183,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Aaron Levie is Box co-founder/CEO, not an a16z partner",
+      "set": {
+        "bio": "Co-founder and CEO of Box, the cloud content management company.",
+        "known_for": "Co-founding and leading Box as CEO; commentary on enterprise software and AI."
+      },
+      "replacements": [
+        [
+          "Levy",
+          "Levie"
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: All-In host David Friedberg; known_for, net worth and profile described a film director (different person)",
+      "set": {
+        "known_for": null,
+        "net_worth_usd": null,
+        "net_worth_source": null,
+        "net_worth_updated_at": null,
+        "pundit_profile": null
+      }
+    },
+    {
+      "id": 186,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Anish Acharya; reuse #156's bio",
+      "set": {
+        "bio": "General partner at a16z, focused on consumer investing.",
+        "known_for": "His work in consumer tech and investments in the space.",
+        "pundit_profile": {
+          "source": "llm",
+          "source_model": "moonshot:moonshot-v1-8k",
+          "source_url": "",
+          "page_title": "Anish Acharya",
+          "fetched_at": "2026-04-07T10:06:22.087926+00:00",
+          "cliff_notes": "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics. His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning.",
+          "derived": {
+            "current_role": "Chief Technology Officer at DataRobot; previously held roles at various tech startups.",
+            "former_positions": "Co-founder and CTO at HyperAnna; Principal Engineer at Google; Software Engineer at Microsoft.",
+            "education": "Bachelor's degree in Computer Science from the University of Waterloo."
+          },
+          "infobox": {
+            "Born": "",
+            "Nationality": ""
+          },
+          "lead_paragraphs": [
+            "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics.",
+            "His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning."
+          ],
+          "sections": [
+            {
+              "heading": "Early Career",
+              "body": "Anish Acharya started his career at Microsoft as a software engineer, where he laid the foundation for his future endeavors in technology."
+            },
+            {
+              "heading": "Google Experience",
+              "body": "At Google, Acharya worked as a Principal Engineer, gaining deep insights into large-scale data systems and software development."
+            },
+            {
+              "heading": "Entrepreneurship",
+              "body": "Acharya co-founded HyperAnna, a company that provided analytics solutions, showcasing his ability to innovate and lead in the tech startup space."
+            },
+            {
+              "heading": "DataRobot Leadership",
+              "body": "As the Chief Technology Officer at DataRobot, Acharya has played a pivotal role in the advancement of automated machine learning technologies."
+            }
+          ]
+        }
+      },
+      "replacements": [
+        [
+          "Charya",
+          "Acharya"
+        ]
+      ]
+    },
+    {
+      "id": 293,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Satya Nadella; reuse #459's bio",
+      "set": {
+        "bio": "Satya Nadella is the CEO of Microsoft, where he has been instrumental in transforming the company into a leader in cloud computing and artificial intelligence. Under his leadership, Microsoft has focused on innovation and technology that serves humanity, emphasizing the importance of responsible AI development. Nadella's vision has significantly increased Microsoft's market value and stock performance.",
+        "known_for": "Transforming Microsoft into a leader in cloud computing and AI.",
+        "pundit_profile": {
+          "source": "llm",
+          "source_model": "openai:gpt-4o-mini",
+          "source_url": "",
+          "page_title": "Satya Nadella",
+          "fetched_at": "2026-09-16T17:12:07.944602+00:00",
+          "cliff_notes": "Satya Nadella has been at the helm of Microsoft since February 2014, succeeding Steve Ballmer. His tenure has been marked by a strategic pivot towards cloud computing and AI, which has not only revitalized the company's growth but also positioned it as a leader in these critical areas. Nadella's approach emphasizes empathy and collaboration, fostering a culture of innovation within Microsoft. He has overseen significant investments in Azure, Microsoft's cloud platform, which has become a cornerstone of the company's business strategy. Nadella's leadership style is characterized by a focus on inclusivity and a commitment to using technology to empower individuals and organizations. His vision for Microsoft is to create technology that serves humanity, ensuring that advancements in AI and other fields are developed responsibly and ethically. This has resonated with investors and tech enthusiasts alike, as Microsoft continues to thrive in an increasingly competitive landscape.",
+          "derived": {
+            "current_role": "CEO of Microsoft",
+            "former_positions": "Vice President of Business Solutions; Vice President of Server & Tools; Senior Vice President of Research and Development for the Online Services Division",
+            "education": "Master's in Business Administration from the University of Chicago; Master's in Computer Science from the University of Wisconsin-Milwaukee; Bachelor's in Electrical Engineering from Manipal Institute of Technology",
+            "books_or_works": "Hit Refresh"
+          },
+          "infobox": {
+            "Born": "August 19, 1967",
+            "Nationality": "Indian-American"
+          },
+          "lead_paragraphs": [
+            "Satya Nadella has been at the helm of Microsoft since February 2014, succeeding Steve Ballmer. His tenure has been marked by a strategic pivot towards cloud computing and AI, which has not only revitalized the company's growth but also positioned it as a leader in these critical areas. Nadella's approach emphasizes empathy and collaboration, fostering a culture of innovation within Microsoft.",
+            "He has overseen significant investments in Azure, Microsoft's cloud platform, which has become a cornerstone of the company's business strategy. Nadella's leadership style is characterized by a focus on inclusivity and a commitment to using technology to empower individuals and organizations. His vision for Microsoft is to create technology that serves humanity, ensuring that advancements in AI and other fields are developed responsibly and ethically.",
+            "This has resonated with investors and tech enthusiasts alike, as Microsoft continues to thrive in an increasingly competitive landscape."
+          ],
+          "sections": [
+            {
+              "heading": "Cloud Computing Leadership",
+              "body": "Nadella has transformed Microsoft into a dominant player in cloud computing, particularly through the development and expansion of Azure, which has become a key revenue driver for the company."
+            },
+            {
+              "heading": "AI and Technology Innovation",
+              "body": "Under Nadella's leadership, Microsoft has heavily invested in artificial intelligence, focusing on creating tools that enhance productivity and empower users."
+            },
+            {
+              "heading": "Cultural Transformation",
+              "body": "Nadella has fostered a culture of empathy and collaboration at Microsoft, encouraging innovation and inclusivity within the workforce."
+            },
+            {
+              "heading": "Market Performance",
+              "body": "Since becoming CEO, Nadella has overseen a significant increase in Microsoft's stock price and market value, reflecting investor confidence in his strategic vision."
+            }
+          ]
+        }
+      },
+      "replacements": [
+        [
+          "Della",
+          "Nadella"
+        ]
+      ]
+    },
+    {
+      "id": 268,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Sarah Friar transcript spelling",
+      "replacements": [
+        [
+          "Open AI's CFO, Sarah Friar",
+          "OpenAI's CFO, Sarah Friar"
+        ],
+        [
+          "Fryer's",
+          "Friar's"
+        ]
+      ]
+    },
+    {
+      "id": 461,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep",
+      "replacements": [
+        [
+          "Gershner",
+          "Gerstner"
+        ]
+      ]
+    },
+    {
+      "id": 64,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep",
+      "replacements": [
+        [
+          "Gersner",
+          "Gerstner"
+        ]
+      ]
+    },
+    {
+      "id": 395,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: Neil Patil (Chai Discovery); scoped, not global, because Neil Patel is a different real person",
+      "set": {
+        "name": "Neil Patil"
+      },
+      "replacements": [
+        [
+          "Neil Patel",
+          "Neil Patil"
+        ],
+        [
+          "Patel",
+          "Patil"
+        ]
+      ]
+    },
+    {
+      "id": 279,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Cowan",
+          "Cowen"
+        ]
+      ]
+    },
+    {
+      "id": 481,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Lazaran",
+          "Lazzarin"
+        ]
+      ]
+    },
+    {
+      "id": 205,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Synopski",
+          "Sinofsky"
+        ]
+      ]
+    },
+    {
+      "id": 132,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Freiberg",
+          "Friedberg"
+        ]
+      ]
+    },
+    {
+      "id": 428,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Buria",
+          "Burja"
+        ]
+      ]
+    },
+    {
+      "id": 140,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Voliante",
+          "Valiante"
+        ]
+      ]
+    },
+    {
+      "id": 118,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Finnelli",
+          "Fanelli"
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Wolff",
+          "Wolf"
+        ]
+      ]
+    },
+    {
+      "id": 264,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Hansen",
+          "Hanson"
+        ]
+      ]
+    },
+    {
+      "id": 367,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Zang",
+          "Zhang"
+        ]
+      ]
+    },
+    {
+      "id": 104,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Mayhand",
+          "Mahan"
+        ]
+      ]
+    },
+    {
+      "id": 105,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Lindville",
+          "Linville"
+        ]
+      ]
+    },
+    {
+      "id": 193,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Gross",
+          "Wissner-Gross"
+        ]
+      ]
+    },
+    {
+      "id": 187,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Groman",
+          "Gromen"
+        ]
+      ]
+    },
+    {
+      "id": 263,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Stino-Larson",
+          "Steno Larsen"
+        ]
+      ]
+    },
+    {
+      "id": 394,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "McPartlin",
+          "McPartlon"
+        ]
+      ]
+    },
+    {
+      "id": 148,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Barry",
+          "Barrie"
+        ]
+      ]
+    },
+    {
+      "id": 480,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Gwyn",
+          "Nguyen"
+        ]
+      ]
+    },
+    {
+      "id": 474,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Show's",
+          "Scholl's"
+        ],
+        [
+          "Show advocates",
+          "Scholl advocates"
+        ]
+      ]
+    },
+    {
+      "id": 468,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Bush",
+          "Busch"
+        ]
+      ]
+    },
+    {
+      "id": 449,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Ferris",
+          "Farris"
+        ]
+      ]
+    },
+    {
+      "id": 445,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Krishneth",
+          "Krishnan"
+        ]
+      ]
+    },
+    {
+      "id": 417,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Crathfields",
+          "Kratsios"
+        ]
+      ]
+    },
+    {
+      "id": 408,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Way's",
+          "Unanue's"
+        ],
+        [
+          "AUA, Way",
+          "AUA, Unanue"
+        ],
+        [
+          "Partners, Way",
+          "Partners, Unanue"
+        ],
+        [
+          "Way involves",
+          "Unanue involves"
+        ]
+      ]
+    },
+    {
+      "id": 391,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Pernos",
+          "Pernas"
+        ]
+      ]
+    },
+    {
+      "id": 390,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Pernos",
+          "Pernas"
+        ]
+      ]
+    },
+    {
+      "id": 192,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Apairness",
+          "Pernas"
+        ]
+      ]
+    },
+    {
+      "id": 355,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Krishna",
+          "Krishnan"
+        ]
+      ]
+    },
+    {
+      "id": 337,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Hyden",
+          "Heiden"
+        ]
+      ]
+    },
+    {
+      "id": 338,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Sebert",
+          "Seibert"
+        ]
+      ]
+    },
+    {
+      "id": 321,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Duffy",
+          "Duffie"
+        ]
+      ]
+    },
+    {
+      "id": 320,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Pristow",
+          "Pristaw"
+        ]
+      ]
+    },
+    {
+      "id": 317,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Yuternoff",
+          "Edunov"
+        ]
+      ]
+    },
+    {
+      "id": 299,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Zlathev",
+          "Zlatev"
+        ]
+      ]
+    },
+    {
+      "id": 296,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Seminoch",
+          "Semenuk"
+        ]
+      ]
+    },
+    {
+      "id": 295,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Krauss",
+          "Krause"
+        ]
+      ]
+    },
+    {
+      "id": 286,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "MacDonald",
+          "McDonald"
+        ]
+      ]
+    },
+    {
+      "id": 282,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Jane",
+          "Jain"
+        ]
+      ]
+    },
+    {
+      "id": 254,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Constant",
+          "Constan"
+        ]
+      ]
+    },
+    {
+      "id": 236,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Gavre",
+          "Gave"
+        ]
+      ]
+    },
+    {
+      "id": 232,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Copperman",
+          "Kupperman"
+        ]
+      ]
+    },
+    {
+      "id": 222,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Pajarni",
+          "Pozharny"
+        ]
+      ]
+    },
+    {
+      "id": 217,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Helden",
+          "Hilton"
+        ]
+      ]
+    },
+    {
+      "id": 215,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Kavanaugh",
+          "Cavanna"
+        ]
+      ]
+    },
+    {
+      "id": 200,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Wayland",
+          "Whalen"
+        ]
+      ]
+    },
+    {
+      "id": 189,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Dugov",
+          "Dolgov"
+        ]
+      ]
+    },
+    {
+      "id": 169,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Topore",
+          "Topor"
+        ]
+      ]
+    },
+    {
+      "id": 168,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Rosenswag",
+          "Rozencwajg"
+        ]
+      ]
+    },
+    {
+      "id": 165,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Bert",
+          "Verdon"
+        ]
+      ]
+    },
+    {
+      "id": 154,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Richardson",
+          "Finley-Richardson"
+        ]
+      ]
+    },
+    {
+      "id": 150,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Bonia",
+          "Blania"
+        ]
+      ]
+    },
+    {
+      "id": 147,
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: bare surname in this pundit's own bio/profile",
+      "replacements": [
+        [
+          "Wang",
+          "Wong"
+        ]
+      ]
     }
   ]
 }
