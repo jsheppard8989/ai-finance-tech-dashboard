@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis. Oct 14 2026 (Red Team): 'ticker_renames' and 'global_drop_tickers' fix fake/defunct/private symbols in tickers_mentioned, key_tickers and ticker_analysis on every card; per-card 'rename_tickers' for context-dependent symbols. Oct 20 2026: a 'summaries' rule may carry 'podcast_episode_id' (+ optional 'insight_id') to match that episode's cards by id instead of title text; 'drop_quotes' removes notable_quotes entries whose quote contains a given substring. 'title_overrides' retitle one episode by id (insight/Deep Dive/podcast-summary title fields, Overton first/last_mentioned_episode_title by episode id, pundit/guest last_episode_title and last_proof_cite by podcast + date + old title); never a global string swap. Oct 20 2026 (pundit sweep): 'pundit_excludes' drop placeholder/non-person pundit rows from every exported pundit list by pundit id (DB rows kept); 'pundit_overrides' set fields and apply whole-word (hyphen-aware) swaps on one pundit row by id, after the global name swaps.",
+  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis. Oct 14 2026 (Red Team): 'ticker_renames' and 'global_drop_tickers' fix fake/defunct/private symbols in tickers_mentioned, key_tickers and ticker_analysis on every card; per-card 'rename_tickers' for context-dependent symbols. Oct 20 2026: a 'summaries' rule may carry 'podcast_episode_id' (+ optional 'insight_id') to match that episode's cards by id instead of title text; 'drop_quotes' removes notable_quotes entries whose quote contains a given substring. 'title_overrides' retitle one episode by id (insight/Deep Dive/podcast-summary title fields, Overton first/last_mentioned_episode_title by episode id, pundit/guest last_episode_title and last_proof_cite by podcast + date + old title); never a global string swap. Oct 20 2026 (pundit sweep): 'pundit_excludes' drop placeholder/non-person pundit rows from every exported pundit list by pundit id (DB rows kept); 'pundit_overrides' set fields and apply whole-word (hyphen-aware) swaps on one pundit row by id, after the global name swaps. Oct 20 2026 (G decisions): 'pundit_merges' [{keep, merge:[ids]}] fold duplicate pundit rows into the kept row (latest appearance fields, combined count without double counting, Presence recomputed); merged-away ids are also in 'pundit_excludes'. 'pundit_overrides' may 'unset' keys. Host rows are also hidden by pundit_exclusions.is_excluded_pundit (ids + corrected-name check) after all name overrides.",
   "summaries": [
     {
       "insight_id": 572,
@@ -728,6 +728,21 @@
         [
           "Kavanaugh",
           "Cavanna"
+        ]
+      ]
+    },
+    {
+      "insight_id": 179,
+      "podcast_episode_id": 164,
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: Dolgov card, Waymo (ASR 'Wemo Co.')",
+      "replacements": [
+        [
+          "Wemo Co.",
+          "Waymo"
+        ],
+        [
+          "Wemo",
+          "Waymo"
         ]
       ]
     }
@@ -1466,6 +1481,10 @@
     [
       "Kieran Kavanaugh",
       "Kieran Cavanna"
+    ],
+    [
+      "Brad Kershner",
+      "Brad Gerstner"
     ]
   ],
   "name_replacements": [
@@ -2155,6 +2174,56 @@
       "id": 303,
       "name": "Grace One",
       "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: placeholder or non-person row"
+    },
+    {
+      "id": 132,
+      "name": "David Friedberg",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: host David Friedberg"
+    },
+    {
+      "id": 36,
+      "name": "David Friedberg",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: host David Friedberg"
+    },
+    {
+      "id": 193,
+      "name": "Alex Wissner-Gross",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: host Alex Wissner-Gross"
+    },
+    {
+      "id": 461,
+      "name": "Brad Gerstner",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: duplicate merged into #289"
+    },
+    {
+      "id": 64,
+      "name": "Brad Gerstner",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: duplicate merged into #289"
+    },
+    {
+      "id": 205,
+      "name": "Steven Sinofsky",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: duplicate merged into #184"
+    },
+    {
+      "id": 171,
+      "name": "Steven Sinofsky",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: duplicate merged into #184"
+    },
+    {
+      "id": 323,
+      "name": "Steven Sinofsky",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: duplicate merged into #184"
+    },
+    {
+      "id": 431,
+      "name": "Steven Sinofsky",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: duplicate merged into #184"
+    },
+    {
+      "id": 390,
+      "name": "Deiya Pernas",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: duplicate merged into #192"
     }
   ],
   "pundit_overrides": [
@@ -2877,6 +2946,82 @@
           "Wong"
         ]
       ]
+    },
+    {
+      "id": 395,
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: net-worth link was a different person; show NA",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 165,
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: net-worth link was a different person; show NA",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 156,
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: net-worth link was a different person; show NA",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 189,
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: Waymo (ASR 'Wemo')",
+      "replacements": [
+        [
+          "Wemo",
+          "Waymo"
+        ]
+      ]
+    }
+  ],
+  "pundit_merges": [
+    {
+      "keep": 289,
+      "merge": [
+        461,
+        64
+      ],
+      "name": "Brad Gerstner",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: #289 has the correct bio (CEO of Altimeter Capital)"
+    },
+    {
+      "keep": 184,
+      "merge": [
+        205,
+        171,
+        323,
+        431
+      ],
+      "name": "Steven Sinofsky",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: #184 has the correct bio (ex-President of Microsoft's Windows Division, a16z board partner)"
+    },
+    {
+      "keep": 192,
+      "merge": [
+        390
+      ],
+      "name": "Deiya Pernas",
+      "_note": "Oct 20 2026 G(ai)ndolf decisions: #192 bio (Pernas Research co-founder, audited portfolio)"
     }
   ]
 }

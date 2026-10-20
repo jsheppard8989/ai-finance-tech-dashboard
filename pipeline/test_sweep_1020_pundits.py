@@ -16,6 +16,7 @@ FIXED = {279: "Tyler Cowen", 461: "Brad Gerstner", 64: "Brad Gerstner", 481: "Ed
          428: "Samo Burja", 187: "Luke Gromen", 293: "Satya Nadella", 186: "Anish Acharya", 395: "Neil Patil",
          236: "Louis-Vincent Gave", 232: "Harris Kupperman", 165: "Guillaume Verdon", 77: "Vishal Misra",
          192: "Deiya Pernas", 390: "Deiya Pernas", 391: "Dean Pernas", 215: "Kieran Cavanna"}
+HIDDEN_LATER = {132, 36, 193, 461, 64, 205, 390}
 OLD = ["Tyler Cowan", "Gershner", "Gersner", "Eddie Lazaran", "Aaron Levy", "Synopski", "Steve Sinofsky",
        "David Freiberg", "Jason Friedberg", "Samo Buria", "Luke Groman", "Sartina Della", "Anisha Charya",
        "Gavcal", "Prytorian", "Extrapic", "Stone X", "Sarah Fryer", "Pernos", "Pairness", "Shal Misra",
@@ -67,15 +68,17 @@ class MechanismTests(unittest.TestCase):
         self.assertEqual(out["summary"], "Tyler Cowen and Luke Gromen's view; Tyler Cowane.")
 
     def test_surname_swap_idempotent_with_hyphen(self):
-        rows = [_p(193, "Alex Weiser Gross", bio="Gross has been vocal."), _p(154, "Ed Finley Richardson", bio="Richardson's work.")]
+        # #193 (Alex Wissner-Gross) is hidden as a host since Oct 20; test the swap itself.
+        rec = {"bio": "Gross has been vocal. Wissner-Gross agrees."}
+        export_data._pundit_word_swap(rec, [["Gross", "Wissner-Gross"]])
+        self.assertEqual(rec["bio"], "Wissner-Gross has been vocal. Wissner-Gross agrees.")
+        rows = [_p(154, "Ed Finley Richardson", bio="Richardson's work.")]
         once = export_data._apply_summary_overrides(copy.deepcopy(rows))
-        self.assertEqual(once[0]["name"], "Alex Wissner-Gross")
-        self.assertEqual(once[0]["bio"], "Wissner-Gross has been vocal.")
-        self.assertEqual(once[1]["bio"], "Finley-Richardson's work.")
+        self.assertEqual(once[0]["bio"], "Finley-Richardson's work.")
         self.assertEqual(export_data._apply_summary_overrides(copy.deepcopy(once)), once)
 
     def test_rules_present(self):
-        self.assertEqual({e["id"] for e in RULES["pundit_excludes"]}, EXCLUDED)
+        self.assertTrue(EXCLUDED <= {e["id"] for e in RULES["pundit_excludes"]})
         olds = {o for o, _ in RULES["global_name_replacements"]}
         for o in ("Tyler Cowan", "Jason Friedberg", "Aaron Levy", "Sartina Della", "Shal Misra"):
             self.assertIn(o, olds)
@@ -105,11 +108,12 @@ class SiteDataTests(unittest.TestCase):
         for rows in (self.dj["pundits"], self.files["pundits.json"]):
             by = {p["id"]: p for p in rows}
             for pid, name in FIXED.items():
+                if pid in HIDDEN_LATER:  # hosts / merged duplicates hidden on Oct 20 (G's decisions)
+                    self.assertNotIn(pid, by)
+                    continue
                 self.assertEqual(by[pid]["name"], name)
             self.assertIn("CEO of Box", by[183]["bio"])
             self.assertNotIn("a16z", by[183]["bio"] + (by[183]["known_for"] or ""))
-            self.assertIsNone(by[36]["known_for"])
-            self.assertIsNone(by[36]["net_worth_source"])
             self.assertEqual(by[186]["bio"], by[156]["bio"])
             self.assertEqual(by[293]["bio"], by[459]["bio"])
             self.assertIn("Gavekal", by[236]["bio"])
