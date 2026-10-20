@@ -646,7 +646,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
-    "mention_score_decayed": 1.5,
+    "mention_score_decayed": 1.47,
     "last_main_idea": "Implement the CAPA framework to systematically address failures and enhance accountability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
     "last_proof_snippet": "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
@@ -827,7 +827,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -1140,60 +1140,6 @@
     "pundit_profile": null
   },
   {
-    "id": 547,
-    "name": "Dr. Don Musalam",
-    "slug": "dr-don-musalam",
-    "bio": "Chief Medical Officer of Fountain Life, featured in the sponsor segment discussing dementia prevention, brain-age testing, and health-span interventions.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 546,
-    "name": "Nusha Ansari",
-    "slug": "nusha-ansari",
-    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 230,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
@@ -1253,6 +1199,60 @@
       ]
     },
     "net_worth": "$1.40B"
+  },
+  {
+    "id": 547,
+    "name": "Dr. Don Musalam",
+    "slug": "dr-don-musalam",
+    "bio": "Chief Medical Officer of Fountain Life, featured in the sponsor segment discussing dementia prevention, brain-age testing, and health-span interventions.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 10:18:14",
+    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.95,
+    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
+    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 546,
+    "name": "Nusha Ansari",
+    "slug": "nusha-ansari",
+    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 10:18:14",
+    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.95,
+    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
+    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 544,
@@ -2032,7 +2032,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-10 \u2022 Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. The all-in podcast with me, the core four, be original, quartet, Chumapai Hoppetia, David Sachs, Dave Freeberg, I'm Jason Calcantison. We have a doc at How's Everybo",
@@ -2692,7 +2692,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -2719,7 +2719,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -2827,7 +2827,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
@@ -2887,7 +2887,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Cathie Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs. And they're concerned about the old social contract, do well in high school, go to college, get a degree, and go get a",
@@ -3467,7 +3467,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_proof_snippet": "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
@@ -3643,7 +3643,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "Naveen Rau, co-founder and CEO of Unconventional AI, which is an AI chip startup, best willing for building and selling to deep tech companies. Naveen is kind of definitely outlier, founder. When I came there, we had about 20 million dollar",
@@ -3865,7 +3865,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps. There's one camp which believes that this actually",
@@ -4133,60 +4133,6 @@
     }
   },
   {
-    "id": 461,
-    "name": "Brad Gershner",
-    "slug": "brad-gershner",
-    "bio": "Brad Gershner is an advocate for children's investment accounts and innovative healthcare solutions. He is known for proposing direct ownership for children in America, emphasizing the importance of financial empowerment from a young age. Gershner has a unique perspective, having founded multiple companies and advocating for a significant shift in how children engage with capitalism.",
-    "known_for": "Gershner's initiative aims to make every child in America a direct owner, potentially transforming the landscape of childhood finance and philanthropy.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Passionate and persuasive",
-    "voice_style": "Articulates clear, impactful arguments.",
-    "voice_delivery_notes": "Emphasizes key points with conviction.",
-    "voice_profile_updated_at": "2026-09-17 10:37:49",
-    "last_seen": "2026-09-17 10:37:49",
-    "last_episode_title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.48,
-    "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
-    "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
-    "supporting_takeaway": "The CAC scan is highlighted as a high ROI healthcare intervention, potentially saving thousands of lives.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T05:38:00.735885",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Brad Gershner",
-      "fetched_at": "2026-09-17T10:38:00.735318+00:00",
-      "cliff_notes": "Brad Gershner has made a notable impact in the realm of children's financial empowerment through his advocacy for direct ownership accounts. His career includes founding five companies, which has shaped his approach to investment and philanthropy. Gershner believes that by providing every child in America with an investment account, they can become stakeholders in the economy, fostering a sense of ownership and responsibility. His vision is not just a program but a platform for the largest unlock of direct philanthropy in U.S. history, aiming to combat economic disparities and promote capitalism among the younger generation. Gershner's work is positioned at the intersection of finance, policy, and social impact, making him a significant figure in discussions about the future of capitalism and children's rights.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Brad Gershner has made a notable impact in the realm of children's financial empowerment through his advocacy for direct ownership accounts. His career includes founding five companies, which has shaped his approach to investment and philanthropy. Gershner believes that by providing every child in America with an investment account, they can become stakeholders in the economy, fostering a sense of ownership and responsibility.",
-        "His vision is not just a program but a platform for the largest unlock of direct philanthropy in U.S. history, aiming to combat economic disparities and promote capitalism among the younger generation. Gershner's work is positioned at the intersection of finance, policy, and social impact, making him a significant figure in discussions about the future of capitalism and children's rights."
-      ],
-      "sections": [
-        {
-          "heading": "Children's Investment Accounts",
-          "body": "Gershner advocates for establishing investment accounts for children, aiming to empower them financially from a young age. This initiative seeks to instill a sense of ownership and responsibility, potentially reshaping the future of financial literacy."
-        },
-        {
-          "heading": "Innovative Healthcare Solutions",
-          "body": "In addition to his work in finance, Gershner is involved in promoting innovative healthcare solutions. His approach focuses on integrating financial strategies with health initiatives to improve overall well-being."
-        },
-        {
-          "heading": "Philanthropy and Capitalism",
-          "body": "Gershner's vision includes a significant philanthropic effort that he believes can counteract economic challenges. By making children direct owners, he aims to foster a new generation of capitalists who understand the value of investment and ownership."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -4246,6 +4192,60 @@
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 461,
+    "name": "Brad Gershner",
+    "slug": "brad-gershner",
+    "bio": "Brad Gershner is an advocate for children's investment accounts and innovative healthcare solutions. He is known for proposing direct ownership for children in America, emphasizing the importance of financial empowerment from a young age. Gershner has a unique perspective, having founded multiple companies and advocating for a significant shift in how children engage with capitalism.",
+    "known_for": "Gershner's initiative aims to make every child in America a direct owner, potentially transforming the landscape of childhood finance and philanthropy.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Passionate and persuasive",
+    "voice_style": "Articulates clear, impactful arguments.",
+    "voice_delivery_notes": "Emphasizes key points with conviction.",
+    "voice_profile_updated_at": "2026-09-17 10:37:49",
+    "last_seen": "2026-09-17 10:37:49",
+    "last_episode_title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.47,
+    "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+    "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
+    "supporting_takeaway": "The CAC scan is highlighted as a high ROI healthcare intervention, potentially saving thousands of lives.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T05:38:00.735885",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Brad Gershner",
+      "fetched_at": "2026-09-17T10:38:00.735318+00:00",
+      "cliff_notes": "Brad Gershner has made a notable impact in the realm of children's financial empowerment through his advocacy for direct ownership accounts. His career includes founding five companies, which has shaped his approach to investment and philanthropy. Gershner believes that by providing every child in America with an investment account, they can become stakeholders in the economy, fostering a sense of ownership and responsibility. His vision is not just a program but a platform for the largest unlock of direct philanthropy in U.S. history, aiming to combat economic disparities and promote capitalism among the younger generation. Gershner's work is positioned at the intersection of finance, policy, and social impact, making him a significant figure in discussions about the future of capitalism and children's rights.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Brad Gershner has made a notable impact in the realm of children's financial empowerment through his advocacy for direct ownership accounts. His career includes founding five companies, which has shaped his approach to investment and philanthropy. Gershner believes that by providing every child in America with an investment account, they can become stakeholders in the economy, fostering a sense of ownership and responsibility.",
+        "His vision is not just a program but a platform for the largest unlock of direct philanthropy in U.S. history, aiming to combat economic disparities and promote capitalism among the younger generation. Gershner's work is positioned at the intersection of finance, policy, and social impact, making him a significant figure in discussions about the future of capitalism and children's rights."
+      ],
+      "sections": [
+        {
+          "heading": "Children's Investment Accounts",
+          "body": "Gershner advocates for establishing investment accounts for children, aiming to empower them financially from a young age. This initiative seeks to instill a sense of ownership and responsibility, potentially reshaping the future of financial literacy."
+        },
+        {
+          "heading": "Innovative Healthcare Solutions",
+          "body": "In addition to his work in finance, Gershner is involved in promoting innovative healthcare solutions. His approach focuses on integrating financial strategies with health initiatives to improve overall well-being."
+        },
+        {
+          "heading": "Philanthropy and Capitalism",
+          "body": "Gershner's vision includes a significant philanthropic effort that he believes can counteract economic challenges. By making children direct owners, he aims to foster a new generation of capitalists who understand the value of investment and ownership."
+        }
+      ]
+    }
   },
   {
     "id": 460,
@@ -6037,7 +6037,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -7476,7 +7476,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Sergei Bren's return to Gemini may lead to accelerated innovation with less safety constraints.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -14858,7 +14858,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Koch Industries' capability-bounded approach allows for flexibility and innovation across sectors.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -14921,7 +14921,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Koch Industries' capability-bounded approach allows for flexibility and innovation across sectors.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -16849,71 +16849,6 @@
     "net_worth": "$9.00B"
   },
   {
-    "id": 194,
-    "name": "Scott Chacon",
-    "slug": "scott-chacon",
-    "bio": "Scott Chacon is a well-known figure in the software development industry, recognized for his work on version control systems, particularly with Git. He co-founded GitHub and is currently the CEO of Git Butler. Chacon is also the author of a book on Git, which has become a valuable resource for developers worldwide.",
-    "known_for": "Being a co-founder of GitHub and a major driving force behind the Git version control system.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Inquisitive and insightful",
-    "voice_style": "Explains complex concepts in a relatable manner",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points",
-    "voice_profile_updated_at": "2026-04-21 10:05:48",
-    "last_seen": "2026-04-21 10:05:48",
-    "last_episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-20",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
-    "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
-    "supporting_takeaway": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-21T05:06:01.181305",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Scott Chacon",
-      "fetched_at": "2026-04-21T10:06:01.180751+00:00",
-      "cliff_notes": "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects. In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers.",
-      "derived": {
-        "current_role": "CEO of Git Butler",
-        "former_positions": "Co-founder of GitHub",
-        "books_or_works": "Pro Git"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects.",
-        "In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers."
-      ],
-      "sections": [
-        {
-          "heading": "GitHub Co-founder",
-          "body": "Scott Chacon co-founded GitHub, a platform that has become integral to the workflow of millions of developers worldwide, providing a space for version control and collaboration."
-        },
-        {
-          "heading": "Git Advocacy",
-          "body": "Chacon is a strong advocate for Git, contributing significantly to its adoption and education through his book 'Pro Git' and his continued work in the field."
-        },
-        {
-          "heading": "CEO of Git Butler",
-          "body": "As the CEO of Git Butler, Chacon leads the development of tools aimed at improving the user experience for software developers, focusing on real-time communication and collaboration."
-        },
-        {
-          "heading": "Thought Leadership",
-          "body": "Scott Chacon's insights into software development tools and practices have made him a sought-after voice in discussions about the future of developer tools and collaboration."
-        }
-      ]
-    }
-  },
-  {
     "id": 55,
     "name": "Dr. Anas Alhajji",
     "slug": "dr-onus-alhajji",
@@ -17128,6 +17063,71 @@
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 194,
+    "name": "Scott Chacon",
+    "slug": "scott-chacon",
+    "bio": "Scott Chacon is a well-known figure in the software development industry, recognized for his work on version control systems, particularly with Git. He co-founded GitHub and is currently the CEO of Git Butler. Chacon is also the author of a book on Git, which has become a valuable resource for developers worldwide.",
+    "known_for": "Being a co-founder of GitHub and a major driving force behind the Git version control system.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and insightful",
+    "voice_style": "Explains complex concepts in a relatable manner",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points",
+    "voice_profile_updated_at": "2026-04-21 10:05:48",
+    "last_seen": "2026-04-21 10:05:48",
+    "last_episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-20",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
+    "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
+    "supporting_takeaway": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-21T05:06:01.181305",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Scott Chacon",
+      "fetched_at": "2026-04-21T10:06:01.180751+00:00",
+      "cliff_notes": "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects. In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers.",
+      "derived": {
+        "current_role": "CEO of Git Butler",
+        "former_positions": "Co-founder of GitHub",
+        "books_or_works": "Pro Git"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects.",
+        "In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers."
+      ],
+      "sections": [
+        {
+          "heading": "GitHub Co-founder",
+          "body": "Scott Chacon co-founded GitHub, a platform that has become integral to the workflow of millions of developers worldwide, providing a space for version control and collaboration."
+        },
+        {
+          "heading": "Git Advocacy",
+          "body": "Chacon is a strong advocate for Git, contributing significantly to its adoption and education through his book 'Pro Git' and his continued work in the field."
+        },
+        {
+          "heading": "CEO of Git Butler",
+          "body": "As the CEO of Git Butler, Chacon leads the development of tools aimed at improving the user experience for software developers, focusing on real-time communication and collaboration."
+        },
+        {
+          "heading": "Thought Leadership",
+          "body": "Scott Chacon's insights into software development tools and practices have made him a sought-after voice in discussions about the future of developer tools and collaboration."
+        }
+      ]
+    }
   },
   {
     "id": 193,

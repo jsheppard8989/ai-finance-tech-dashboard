@@ -3,1211 +3,1211 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-20T05:02:01.922502",
-  chartsVersion: "2026-10-20T05:01:50.047600",
+  generatedAt: "2026-10-20T06:34:28.290356",
+  chartsVersion: "2026-10-20T06:34:00.064442",
   priceSnapshot: {
   "AAPL": {
     "price": 342.94,
     "change_pct": 2.98,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-20T05:00:58.562107",
+    "updated_at": "2026-10-20T06:32:54.652942",
     "price_14d_ago": 333.02
   },
   "AEP": {
     "price": 124.72,
     "change_pct": 5.12,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-20T05:00:58.787329",
+    "updated_at": "2026-10-20T06:32:54.901074",
     "price_14d_ago": 118.64
   },
   "AMD": {
     "price": 538.05,
     "change_pct": -12.05,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-20T05:00:59.166825",
+    "updated_at": "2026-10-20T06:32:55.320273",
     "price_14d_ago": 611.76
   },
   "AMGN": {
     "price": 424.94,
     "change_pct": 0.81,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-20T05:00:59.360798",
+    "updated_at": "2026-10-20T06:32:55.520577",
     "price_14d_ago": 421.51
   },
   "AMZN": {
     "price": 262.45,
     "change_pct": 5.34,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-20T05:00:59.543830",
+    "updated_at": "2026-10-20T06:32:55.727454",
     "price_14d_ago": 249.15
   },
   "APO": {
     "price": 110.95,
     "change_pct": -4.4,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-20T05:00:59.739407",
+    "updated_at": "2026-10-20T06:32:55.932809",
     "price_14d_ago": 116.06
   },
   "APTV": {
     "price": 44.48,
     "change_pct": 3.39,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-20T05:00:59.926203",
+    "updated_at": "2026-10-20T06:32:56.125722",
     "price_14d_ago": 43.02
   },
   "AVGO": {
     "price": 334.59,
     "change_pct": -4.73,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-20T05:01:00.381734",
+    "updated_at": "2026-10-20T06:32:56.541002",
     "price_14d_ago": 351.19
   },
   "BA": {
     "price": 191.42,
     "change_pct": 2.89,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-20T05:01:00.781325",
+    "updated_at": "2026-10-20T06:32:56.959433",
     "price_14d_ago": 186.05
   },
   "BABA": {
     "price": 108.57,
     "change_pct": 0.96,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-20T05:01:00.975569",
+    "updated_at": "2026-10-20T06:32:57.153284",
     "price_14d_ago": 107.54
   },
   "BAC": {
     "price": 50.39,
     "change_pct": -7.42,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-20T05:01:01.181949",
+    "updated_at": "2026-10-20T06:32:57.358936",
     "price_14d_ago": 54.43
   },
   "BAM": {
     "price": 45.21,
     "change_pct": 1.41,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-20T05:01:01.367620",
+    "updated_at": "2026-10-20T06:32:57.545060",
     "price_14d_ago": 44.58
   },
   "BIDU": {
     "price": 79.78,
     "change_pct": -8.16,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-20T05:01:01.744771",
+    "updated_at": "2026-10-20T06:32:57.922948",
     "price_14d_ago": 86.87
   },
   "BP": {
     "price": 49.44,
     "change_pct": 12.39,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-20T05:01:02.142775",
+    "updated_at": "2026-10-20T06:32:58.332834",
     "price_14d_ago": 43.99
   },
   "BTC": {
-    "price": 81387.86,
+    "price": 81387.65,
     "change_pct": -2.27,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-20T05:01:02.329362",
+    "updated_at": "2026-10-20T06:32:58.518984",
     "price_14d_ago": 83275.93
   },
   "BTC-USD": {
-    "price": 81387.86,
+    "price": 81387.65,
     "change_pct": -2.27,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-20T05:01:02.509881",
+    "updated_at": "2026-10-20T06:32:58.701514",
     "price_14d_ago": 83275.93
   },
   "BX": {
     "price": 107.09,
     "change_pct": -4.46,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-20T05:01:02.891390",
+    "updated_at": "2026-10-20T06:32:59.081106",
     "price_14d_ago": 112.09
   },
   "BYD": {
     "price": 70.96,
     "change_pct": 6.59,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-20T05:01:03.087296",
+    "updated_at": "2026-10-20T06:32:59.288034",
     "price_14d_ago": 66.57
   },
   "CAT": {
     "price": 725.79,
     "change_pct": -10.48,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-20T05:01:03.753396",
+    "updated_at": "2026-10-20T06:32:59.909094",
     "price_14d_ago": 810.79
   },
   "CCJ": {
     "price": 80.7,
     "change_pct": -6.89,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-20T05:01:03.946971",
+    "updated_at": "2026-10-20T06:33:00.129662",
     "price_14d_ago": 86.67
   },
   "CEG": {
     "price": 263.19,
     "change_pct": 3.61,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-20T05:01:04.130620",
+    "updated_at": "2026-10-20T06:33:00.321416",
     "price_14d_ago": 254.02
   },
   "COIN": {
     "price": 168.45,
     "change_pct": -9.63,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-20T05:01:04.494640",
+    "updated_at": "2026-10-20T06:33:00.720226",
     "price_14d_ago": 186.41
   },
   "COPPER": {
-    "price": 6.57,
-    "change_pct": 1.37,
+    "price": 6.58,
+    "change_pct": 1.46,
     "name": "Copper",
-    "updated_at": "2026-10-20T05:01:04.714875",
+    "updated_at": "2026-10-20T06:33:00.914293",
     "price_14d_ago": 6.48
   },
   "CORN": {
     "price": 18.01,
     "change_pct": -5.41,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-20T05:01:04.901807",
+    "updated_at": "2026-10-20T06:33:01.107083",
     "price_14d_ago": 19.04
   },
   "CRM": {
     "price": 242.45,
     "change_pct": 5.61,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-20T05:01:05.083270",
+    "updated_at": "2026-10-20T06:33:01.300296",
     "price_14d_ago": 229.57
   },
   "CROWD": {
     "price": 228.1,
     "change_pct": -13.84,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-20T05:01:05.267749",
+    "updated_at": "2026-10-20T06:33:01.496163",
     "price_14d_ago": 264.75
   },
   "DBC": {
     "price": 33.68,
     "change_pct": 4.21,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-20T05:01:06.006659",
+    "updated_at": "2026-10-20T06:33:02.425420",
     "price_14d_ago": 32.32
   },
   "DELL": {
     "price": 455.44,
     "change_pct": -15.34,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-20T05:01:06.193574",
+    "updated_at": "2026-10-20T06:33:02.622410",
     "price_14d_ago": 537.95
   },
   "DIS": {
     "price": 109.59,
     "change_pct": 4.47,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-20T05:01:06.611474",
+    "updated_at": "2026-10-20T06:33:03.066352",
     "price_14d_ago": 104.9
   },
   "DOCS": {
     "price": 31.45,
     "change_pct": 10.97,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-20T05:01:06.794534",
+    "updated_at": "2026-10-20T06:33:03.252125",
     "price_14d_ago": 28.34
   },
   "DVN": {
     "price": 50.92,
     "change_pct": 10.6,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-20T05:01:06.993278",
+    "updated_at": "2026-10-20T06:33:03.483764",
     "price_14d_ago": 46.04
   },
   "EBAY": {
     "price": 120.47,
     "change_pct": 13.6,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-20T05:01:07.187995",
+    "updated_at": "2026-10-20T06:33:03.756146",
     "price_14d_ago": 106.05
   },
   "ETH-USD": {
-    "price": 2381.05,
-    "change_pct": -7.48,
+    "price": 2381.5,
+    "change_pct": -7.46,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-20T05:01:07.552153",
+    "updated_at": "2026-10-20T06:33:04.144269",
     "price_14d_ago": 2573.53
   },
   "F": {
     "price": 12.18,
     "change_pct": 1.0,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-20T05:01:07.763897",
+    "updated_at": "2026-10-20T06:33:04.369667",
     "price_14d_ago": 12.06
   },
   "FB": {
     "price": 45.88,
     "change_pct": 0.81,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-20T05:01:07.955119",
+    "updated_at": "2026-10-20T06:33:04.564341",
     "price_14d_ago": 45.51
   },
   "FCX": {
     "price": 69.75,
     "change_pct": -0.36,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-20T05:01:08.159639",
+    "updated_at": "2026-10-20T06:33:04.776448",
     "price_14d_ago": 70.0
   },
   "FSK": {
     "price": 10.14,
     "change_pct": -7.73,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-20T05:01:09.316849",
+    "updated_at": "2026-10-20T06:33:05.982447",
     "price_14d_ago": 10.99
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-20T05:01:09.683485",
+    "updated_at": "2026-10-20T06:33:06.387182",
     "price_14d_ago": null
   },
   "GD": {
     "price": 341.43,
     "change_pct": 2.89,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-20T05:01:09.908322",
+    "updated_at": "2026-10-20T06:33:06.615668",
     "price_14d_ago": 331.83
   },
   "GE": {
     "price": 311.28,
     "change_pct": -0.32,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-20T05:01:10.139039",
+    "updated_at": "2026-10-20T06:33:06.850579",
     "price_14d_ago": 312.29
   },
   "GLD": {
     "price": 379.69,
     "change_pct": -0.3,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-20T05:01:10.327440",
+    "updated_at": "2026-10-20T06:33:07.042505",
     "price_14d_ago": 380.84
   },
   "GME": {
     "price": 26.44,
     "change_pct": 7.26,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-20T05:01:10.576392",
+    "updated_at": "2026-10-20T06:33:07.255324",
     "price_14d_ago": 24.65
   },
   "GOLD": {
-    "price": 4131.1,
-    "change_pct": -1.69,
+    "price": 4141.5,
+    "change_pct": -1.45,
     "name": "Gold",
-    "updated_at": "2026-10-20T05:01:10.762613",
+    "updated_at": "2026-10-20T06:33:07.445381",
     "price_14d_ago": 4202.3
   },
   "GOOG": {
     "price": 340.16,
     "change_pct": -0.17,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-20T05:01:10.946255",
+    "updated_at": "2026-10-20T06:33:07.632543",
     "price_14d_ago": 340.74
   },
   "GOOGL": {
     "price": 344.18,
     "change_pct": 0.03,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-20T05:01:11.131434",
+    "updated_at": "2026-10-20T06:33:07.825336",
     "price_14d_ago": 344.08
   },
   "GS": {
     "price": 875.78,
     "change_pct": -2.73,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-20T05:01:11.337307",
+    "updated_at": "2026-10-20T06:33:08.032604",
     "price_14d_ago": 900.36
   },
   "Gold": {
     "price": 38.17,
     "change_pct": -10.34,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-20T05:01:11.526541",
+    "updated_at": "2026-10-20T06:33:08.238890",
     "price_14d_ago": 42.57
   },
   "HFGM": {
     "price": 31.05,
     "change_pct": -0.93,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-20T05:01:11.718569",
+    "updated_at": "2026-10-20T06:33:08.437355",
     "price_14d_ago": 31.34
   },
   "HG": {
     "price": 36.04,
     "change_pct": 9.08,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-20T05:01:11.900438",
+    "updated_at": "2026-10-20T06:33:08.635057",
     "price_14d_ago": 33.04
   },
   "IBM": {
     "price": 236.39,
     "change_pct": 7.48,
     "name": "International Business Machines",
-    "updated_at": "2026-10-20T05:01:12.672814",
+    "updated_at": "2026-10-20T06:33:09.451001",
     "price_14d_ago": 219.93
   },
   "IEF": {
     "price": 90.08,
     "change_pct": 0.86,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-20T05:01:12.874303",
+    "updated_at": "2026-10-20T06:33:09.667732",
     "price_14d_ago": 89.31
   },
   "INDA": {
     "price": 47.4,
     "change_pct": 1.54,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-20T05:01:13.063565",
+    "updated_at": "2026-10-20T06:33:09.872036",
     "price_14d_ago": 46.68
   },
   "INFY": {
     "price": 12.2,
     "change_pct": 13.38,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-20T05:01:13.258502",
+    "updated_at": "2026-10-20T06:33:10.083294",
     "price_14d_ago": 10.76
   },
   "INTC": {
     "price": 92.03,
     "change_pct": -23.46,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-20T05:01:13.463104",
+    "updated_at": "2026-10-20T06:33:10.293168",
     "price_14d_ago": 120.23
   },
   "IWD": {
     "price": 255.43,
     "change_pct": 3.03,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-20T05:01:13.660615",
+    "updated_at": "2026-10-20T06:33:10.499794",
     "price_14d_ago": 247.93
   },
   "IWF": {
     "price": 122.61,
     "change_pct": -2.12,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-20T05:01:13.864784",
+    "updated_at": "2026-10-20T06:33:10.709399",
     "price_14d_ago": 125.26
   },
   "IWM": {
     "price": 271.28,
     "change_pct": -2.38,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-20T05:01:14.072214",
+    "updated_at": "2026-10-20T06:33:10.937418",
     "price_14d_ago": 277.89
   },
   "JNJ": {
     "price": 253.79,
     "change_pct": -4.14,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-20T05:01:14.296847",
+    "updated_at": "2026-10-20T06:33:11.175061",
     "price_14d_ago": 264.74
   },
   "JPM": {
     "price": 333.53,
     "change_pct": 0.82,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-20T05:01:14.505937",
+    "updated_at": "2026-10-20T06:33:11.395638",
     "price_14d_ago": 330.83
   },
   "KKR": {
     "price": 87.0,
     "change_pct": -4.71,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-20T05:01:14.697736",
+    "updated_at": "2026-10-20T06:33:11.604040",
     "price_14d_ago": 91.3
   },
   "LLY": {
     "price": 1240.34,
     "change_pct": 7.2,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-20T05:01:15.329159",
+    "updated_at": "2026-10-20T06:33:12.249487",
     "price_14d_ago": 1157.08
   },
   "LMT": {
     "price": 548.23,
     "change_pct": 7.65,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-20T05:01:15.548035",
+    "updated_at": "2026-10-20T06:33:12.484385",
     "price_14d_ago": 509.25
   },
   "LYFT": {
     "price": 16.99,
     "change_pct": 13.19,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-20T05:01:16.274167",
+    "updated_at": "2026-10-20T06:33:13.246800",
     "price_14d_ago": 15.01
   },
   "META": {
     "price": 705.44,
     "change_pct": -2.72,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-20T05:01:16.687133",
+    "updated_at": "2026-10-20T06:33:13.685493",
     "price_14d_ago": 725.18
   },
   "MGM": {
     "price": 28.47,
     "change_pct": -8.31,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-20T05:01:16.882614",
+    "updated_at": "2026-10-20T06:33:13.897360",
     "price_14d_ago": 31.05
   },
   "MINE": {
     "price": 2.49,
     "change_pct": -8.46,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-20T05:01:17.067810",
+    "updated_at": "2026-10-20T06:33:14.169934",
     "price_14d_ago": 2.72
   },
   "MRK": {
     "price": 143.63,
     "change_pct": -1.16,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-20T05:01:17.285183",
+    "updated_at": "2026-10-20T06:33:14.401422",
     "price_14d_ago": 145.31
   },
   "MRNA": {
     "price": 226.89,
     "change_pct": 17.82,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-20T05:01:17.471396",
+    "updated_at": "2026-10-20T06:33:14.595111",
     "price_14d_ago": 192.57
   },
   "MS": {
     "price": 178.47,
     "change_pct": -5.11,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-20T05:01:17.675627",
+    "updated_at": "2026-10-20T06:33:14.810398",
     "price_14d_ago": 188.08
   },
   "MSFT": {
     "price": 533.52,
     "change_pct": 4.02,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-20T05:01:17.876030",
+    "updated_at": "2026-10-20T06:33:15.018047",
     "price_14d_ago": 512.9
   },
   "MSTR": {
     "price": 136.02,
     "change_pct": -11.15,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-20T05:01:18.064671",
+    "updated_at": "2026-10-20T06:33:15.207686",
     "price_14d_ago": 153.09
   },
   "MU": {
     "price": 904.9,
     "change_pct": -15.04,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-20T05:01:18.269470",
+    "updated_at": "2026-10-20T06:33:15.418635",
     "price_14d_ago": 1065.11
   },
   "NEE": {
     "price": 78.17,
     "change_pct": 3.21,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-20T05:01:18.676682",
+    "updated_at": "2026-10-20T06:33:15.836224",
     "price_14d_ago": 75.74
   },
   "NFLX": {
     "price": 69.85,
     "change_pct": 0.39,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-20T05:01:18.864700",
+    "updated_at": "2026-10-20T06:33:16.026266",
     "price_14d_ago": 69.58
   },
   "NKE": {
     "price": 37.21,
     "change_pct": 5.11,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-20T05:01:19.605920",
+    "updated_at": "2026-10-20T06:33:16.666067",
     "price_14d_ago": 35.4
   },
   "NOC": {
     "price": 510.65,
     "change_pct": 5.62,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-20T05:01:19.810026",
+    "updated_at": "2026-10-20T06:33:16.878840",
     "price_14d_ago": 483.48
   },
   "NVDA": {
     "price": 217.09,
     "change_pct": -4.94,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-20T05:01:20.002287",
+    "updated_at": "2026-10-20T06:33:17.148872",
     "price_14d_ago": 228.38
   },
   "NVS": {
     "price": 150.2,
     "change_pct": 5.35,
     "name": "Novartis AG",
-    "updated_at": "2026-10-20T05:01:20.393813",
+    "updated_at": "2026-10-20T06:33:17.544131",
     "price_14d_ago": 142.57
   },
   "Nasdaq": {
     "price": 718.36,
     "change_pct": -2.89,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-20T05:01:20.671255",
+    "updated_at": "2026-10-20T06:33:17.745748",
     "price_14d_ago": 739.77
   },
   "OKLO": {
     "price": 27.24,
     "change_pct": -26.42,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-20T05:01:21.038735",
+    "updated_at": "2026-10-20T06:33:18.125361",
     "price_14d_ago": 37.02
   },
   "ORCL": {
     "price": 129.59,
     "change_pct": -5.62,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-20T05:01:21.406147",
+    "updated_at": "2026-10-20T06:33:18.538709",
     "price_14d_ago": 137.3
   },
   "PALL": {
     "price": 20.24,
     "change_pct": -7.2,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-20T05:01:21.627093",
+    "updated_at": "2026-10-20T06:33:18.727060",
     "price_14d_ago": 21.81
   },
   "PANW": {
     "price": 346.95,
     "change_pct": -12.68,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-20T05:01:21.805094",
+    "updated_at": "2026-10-20T06:33:18.922001",
     "price_14d_ago": 397.31
   },
   "PBR": {
     "price": 25.56,
     "change_pct": 22.47,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-20T05:01:22.009884",
+    "updated_at": "2026-10-20T06:33:19.175745",
     "price_14d_ago": 20.87
   },
   "PFE": {
     "price": 29.44,
     "change_pct": 3.23,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-20T05:01:22.402320",
+    "updated_at": "2026-10-20T06:33:19.599562",
     "price_14d_ago": 28.52
   },
   "PLTM": {
     "price": 15.7,
     "change_pct": -3.92,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-20T05:01:22.584226",
+    "updated_at": "2026-10-20T06:33:19.803216",
     "price_14d_ago": 16.34
   },
   "PLTR": {
     "price": 194.15,
     "change_pct": 3.8,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-20T05:01:22.809100",
+    "updated_at": "2026-10-20T06:33:19.996695",
     "price_14d_ago": 187.05
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-20T05:01:23.171842",
+    "updated_at": "2026-10-20T06:33:20.381952",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.61,
     "change_pct": 0.25,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-20T05:01:23.353644",
+    "updated_at": "2026-10-20T06:33:20.569170",
     "price_14d_ago": 28.54
   },
   "PSBD": {
     "price": 9.42,
     "change_pct": -4.75,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-20T05:01:23.531789",
+    "updated_at": "2026-10-20T06:33:20.769532",
     "price_14d_ago": 9.89
   },
   "PYPL": {
     "price": 56.51,
     "change_pct": 7.58,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-20T05:01:23.723350",
+    "updated_at": "2026-10-20T06:33:21.049046",
     "price_14d_ago": 52.53
   },
   "QQQ": {
     "price": 718.36,
     "change_pct": -2.89,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-20T05:01:24.112470",
+    "updated_at": "2026-10-20T06:33:21.456916",
     "price_14d_ago": 739.77
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-20T05:01:24.296647",
+    "updated_at": "2026-10-20T06:33:21.650045",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 50.75,
     "change_pct": 19.78,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-20T05:01:24.478770",
+    "updated_at": "2026-10-20T06:33:21.843767",
     "price_14d_ago": 42.37
   },
   "RKLB": {
     "price": 51.36,
     "change_pct": -26.29,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-20T05:01:24.860118",
+    "updated_at": "2026-10-20T06:33:22.432867",
     "price_14d_ago": 69.68
   },
   "Russell": {
     "price": 271.28,
     "change_pct": -2.38,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-20T05:01:25.436335",
+    "updated_at": "2026-10-20T06:33:23.018270",
     "price_14d_ago": 277.89
   },
   "S&P": {
     "price": 7690.73,
     "change_pct": 0.51,
     "name": "S&P 500",
-    "updated_at": "2026-10-20T05:01:25.693729",
+    "updated_at": "2026-10-20T06:33:23.216564",
     "price_14d_ago": 7651.54
   },
   "S&P 500": {
     "price": 7690.73,
     "change_pct": 0.51,
     "name": "S&P 500",
-    "updated_at": "2026-10-20T05:01:25.873559",
+    "updated_at": "2026-10-20T06:33:23.416338",
     "price_14d_ago": 7651.54
   },
   "SAMSUNG ELECTRONICS": {
     "price": 211500.0,
     "change_pct": -22.39,
     "name": "SamsungElec",
-    "updated_at": "2026-10-20T05:01:26.078234",
+    "updated_at": "2026-10-20T06:33:23.684606",
     "price_14d_ago": 272500.0
   },
   "SAP": {
     "price": 226.03,
     "change_pct": 8.42,
     "name": "SAP  SE",
-    "updated_at": "2026-10-20T05:01:26.274709",
+    "updated_at": "2026-10-20T06:33:23.891513",
     "price_14d_ago": 208.48
   },
   "SF": {
     "price": 66.06,
     "change_pct": -5.68,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-20T05:01:26.472509",
+    "updated_at": "2026-10-20T06:33:24.104040",
     "price_14d_ago": 70.04
   },
   "SK HYNIX": {
     "price": 1223000.0,
     "change_pct": -30.71,
     "name": "SK hynix",
-    "updated_at": "2026-10-20T05:01:26.856387",
+    "updated_at": "2026-10-20T06:33:24.505766",
     "price_14d_ago": 1765000.0
   },
   "SLB": {
     "price": 49.09,
     "change_pct": 0.76,
     "name": "SLB Limited",
-    "updated_at": "2026-10-20T05:01:27.062625",
+    "updated_at": "2026-10-20T06:33:24.724210",
     "price_14d_ago": 48.72
   },
   "SMH": {
     "price": 548.46,
     "change_pct": -9.94,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-20T05:01:27.326313",
+    "updated_at": "2026-10-20T06:33:24.926175",
     "price_14d_ago": 609.0
   },
   "SMR": {
     "price": 5.69,
     "change_pct": -27.97,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-20T05:01:27.510893",
+    "updated_at": "2026-10-20T06:33:25.120426",
     "price_14d_ago": 7.9
   },
   "SNAP": {
     "price": 6.27,
     "change_pct": 16.11,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-20T05:01:27.692289",
+    "updated_at": "2026-10-20T06:33:25.322374",
     "price_14d_ago": 5.4
   },
   "SNWGF": {
     "price": 10.3,
     "change_pct": -13.77,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-20T05:01:27.879134",
+    "updated_at": "2026-10-20T06:33:25.528623",
     "price_14d_ago": 11.94
   },
   "SOYB": {
     "price": 26.78,
     "change_pct": -2.65,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-20T05:01:28.057382",
+    "updated_at": "2026-10-20T06:33:25.722410",
     "price_14d_ago": 27.51
   },
   "SPCE": {
     "price": 2.34,
     "change_pct": -21.74,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-20T05:01:28.241811",
+    "updated_at": "2026-10-20T06:33:25.920883",
     "price_14d_ago": 2.99
   },
   "SPX": {
     "price": 7690.73,
     "change_pct": 0.51,
     "name": "S&P 500",
-    "updated_at": "2026-10-20T05:01:28.780448",
+    "updated_at": "2026-10-20T06:33:26.439420",
     "price_14d_ago": 7651.54
   },
   "SPY": {
     "price": 766.48,
     "change_pct": 0.5,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-20T05:01:28.980713",
+    "updated_at": "2026-10-20T06:33:26.659652",
     "price_14d_ago": 762.63
   },
   "SQQQ": {
     "price": 37.52,
     "change_pct": 9.04,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-20T05:01:29.164337",
+    "updated_at": "2026-10-20T06:33:26.862691",
     "price_14d_ago": 34.41
   },
   "SQUARE": {
     "price": 77.5,
     "change_pct": 5.4,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-20T05:01:29.353910",
+    "updated_at": "2026-10-20T06:33:27.057974",
     "price_14d_ago": 73.53
   },
   "Semiconductors": {
     "price": 548.46,
     "change_pct": -9.94,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-20T05:01:29.540167",
+    "updated_at": "2026-10-20T06:33:27.254786",
     "price_14d_ago": 609.0
   },
   "T": {
     "price": 23.2,
     "change_pct": -4.92,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-20T05:01:29.750069",
+    "updated_at": "2026-10-20T06:33:27.468335",
     "price_14d_ago": 24.4
   },
   "TDOC": {
     "price": 5.73,
     "change_pct": -1.21,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-20T05:01:30.132955",
+    "updated_at": "2026-10-20T06:33:27.889285",
     "price_14d_ago": 5.8
   },
   "TIPS": {
     "price": 0.0,
-    "change_pct": 250.0,
+    "change_pct": 200.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-20T05:01:30.670479",
+    "updated_at": "2026-10-20T06:33:28.450802",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 79.46,
     "change_pct": 2.16,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-20T05:01:30.872936",
+    "updated_at": "2026-10-20T06:33:28.725054",
     "price_14d_ago": 77.78
   },
   "TSLA": {
     "price": 368.06,
     "change_pct": 3.73,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-20T05:01:31.061190",
+    "updated_at": "2026-10-20T06:33:28.916220",
     "price_14d_ago": 354.81
   },
   "TSM": {
     "price": 420.22,
     "change_pct": -7.88,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-20T05:01:31.338584",
+    "updated_at": "2026-10-20T06:33:29.117683",
     "price_14d_ago": 456.19
   },
   "UBER": {
     "price": 69.96,
     "change_pct": 2.12,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-20T05:01:31.707758",
+    "updated_at": "2026-10-20T06:33:29.503705",
     "price_14d_ago": 68.51
   },
   "UNG": {
     "price": 10.46,
     "change_pct": 0.87,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-20T05:01:31.888886",
+    "updated_at": "2026-10-20T06:33:29.691723",
     "price_14d_ago": 10.37
   },
   "URANIUM": {
     "price": 35.27,
     "change_pct": -11.49,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-20T05:01:32.326577",
+    "updated_at": "2026-10-20T06:33:30.146691",
     "price_14d_ago": 39.85
   },
   "USD": {
     "price": 79.4,
     "change_pct": -17.53,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-20T05:01:32.603103",
+    "updated_at": "2026-10-20T06:33:30.380604",
     "price_14d_ago": 96.28
   },
   "USDX": {
     "price": 25.61,
     "change_pct": -0.05,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-20T05:01:32.783630",
+    "updated_at": "2026-10-20T06:33:30.573859",
     "price_14d_ago": 25.62
   },
   "USO": {
     "price": 160.81,
     "change_pct": 10.4,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-20T05:01:32.966257",
+    "updated_at": "2026-10-20T06:33:30.804538",
     "price_14d_ago": 145.66
   },
   "UTHR": {
     "price": 543.15,
     "change_pct": 0.23,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-20T05:01:33.254695",
+    "updated_at": "2026-10-20T06:33:30.993436",
     "price_14d_ago": 541.89
   },
   "UUU": {
     "price": 5.29,
     "change_pct": 3.73,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-20T05:01:33.437110",
+    "updated_at": "2026-10-20T06:33:31.191058",
     "price_14d_ago": null
   },
   "V": {
     "price": 402.92,
     "change_pct": 12.13,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-20T05:01:33.815869",
+    "updated_at": "2026-10-20T06:33:31.592682",
     "price_14d_ago": 359.33
   },
   "VEEV": {
     "price": 316.8,
     "change_pct": 10.98,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-20T05:01:34.187974",
+    "updated_at": "2026-10-20T06:33:31.985264",
     "price_14d_ago": 285.45
   },
   "VIX": {
     "price": 18.75,
     "change_pct": 14.4,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-20T05:01:34.911841",
+    "updated_at": "2026-10-20T06:33:32.747643",
     "price_14d_ago": 16.39
   },
   "VLO": {
     "price": 433.31,
     "change_pct": 11.79,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-20T05:01:35.122323",
+    "updated_at": "2026-10-20T06:33:32.970282",
     "price_14d_ago": 387.61
   },
   "VRTX": {
     "price": 501.95,
     "change_pct": -3.99,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-20T05:01:35.304529",
+    "updated_at": "2026-10-20T06:33:33.166036",
     "price_14d_ago": 522.81
   },
   "WFC": {
     "price": 81.8,
     "change_pct": 2.19,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-20T05:01:35.513615",
+    "updated_at": "2026-10-20T06:33:33.397173",
     "price_14d_ago": 80.05
   },
   "WIT": {
     "price": 1.93,
     "change_pct": 16.97,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-20T05:01:35.709232",
+    "updated_at": "2026-10-20T06:33:33.627007",
     "price_14d_ago": 1.65
   },
   "WMT": {
     "price": 118.7,
     "change_pct": 14.22,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-20T05:01:35.921201",
+    "updated_at": "2026-10-20T06:33:33.850108",
     "price_14d_ago": 103.92
   },
   "WTBN": {
     "price": 24.08,
     "change_pct": 0.56,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-20T05:01:36.103775",
+    "updated_at": "2026-10-20T06:33:34.112810",
     "price_14d_ago": 23.95
   },
   "WTI": {
-    "price": 100.79,
-    "change_pct": 8.53,
+    "price": 100.68,
+    "change_pct": 8.41,
     "name": "WTI Crude",
-    "updated_at": "2026-10-20T05:01:36.284611",
+    "updated_at": "2026-10-20T06:33:34.306737",
     "price_14d_ago": 92.87
   },
   "WTI CRUDE OIL": {
-    "price": 100.79,
-    "change_pct": 8.53,
+    "price": 100.68,
+    "change_pct": 8.41,
     "name": "WTI Crude",
-    "updated_at": "2026-10-20T05:01:36.463305",
+    "updated_at": "2026-10-20T06:33:34.504010",
     "price_14d_ago": 92.87
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-20T05:01:36.832597",
+    "updated_at": "2026-10-20T06:33:34.890408",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 178.28,
     "change_pct": 9.54,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-20T05:01:37.056273",
+    "updated_at": "2026-10-20T06:33:35.117600",
     "price_14d_ago": 162.75
   },
   "ZIM": {
     "price": 28.98,
     "change_pct": -1.16,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-20T05:01:37.497542",
+    "updated_at": "2026-10-20T06:33:35.508673",
     "price_14d_ago": 29.32
   },
   "HIMS": {
     "price": 28.15,
     "change_pct": -5.51,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-20T05:01:37.854718",
+    "updated_at": "2026-10-20T06:33:35.896190",
     "price_14d_ago": 29.79
   },
   "GDRX": {
     "price": 3.37,
     "change_pct": 2.43,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-20T05:01:38.035911",
+    "updated_at": "2026-10-20T06:33:36.138115",
     "price_14d_ago": 3.29
   },
   "TEM": {
     "price": 64.34,
     "change_pct": -21.44,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-20T05:01:38.231168",
+    "updated_at": "2026-10-20T06:33:36.331360",
     "price_14d_ago": 81.9
   },
   "GH": {
     "price": 157.88,
     "change_pct": -11.48,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-20T05:01:38.408559",
+    "updated_at": "2026-10-20T06:33:36.530086",
     "price_14d_ago": 178.36
   },
   "ABT": {
     "price": 104.06,
     "change_pct": 5.29,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-20T05:01:38.614819",
+    "updated_at": "2026-10-20T06:33:36.763018",
     "price_14d_ago": 98.83
   },
   "ARM": {
     "price": 228.05,
     "change_pct": -21.27,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-20T05:01:00.187789",
+    "updated_at": "2026-10-20T06:32:56.335329",
     "price_14d_ago": 289.66
   },
   "HOOD": {
     "price": 96.52,
     "change_pct": -14.2,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-20T05:01:12.081524",
+    "updated_at": "2026-10-20T06:33:08.820222",
     "price_14d_ago": 112.5
   },
   "SPOT": {
     "price": 518.76,
     "change_pct": 6.44,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-20T05:01:28.418725",
+    "updated_at": "2026-10-20T06:33:26.117156",
     "price_14d_ago": 487.38
   },
   "CRWV": {
     "price": 61.12,
     "change_pct": -29.84,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-20T05:01:05.635107",
+    "updated_at": "2026-10-20T06:33:01.931813",
     "price_14d_ago": 87.12
   },
   "LENS": {
     "price": 43.88,
     "change_pct": 2.36,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-20T05:01:14.918755",
+    "updated_at": "2026-10-20T06:33:11.800170",
     "price_14d_ago": 42.87
   },
   "TCEHY": {
     "price": 52.29,
     "change_pct": -3.56,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-20T05:01:29.950622",
+    "updated_at": "2026-10-20T06:33:27.693291",
     "price_14d_ago": 54.22
   },
   "SHOP": {
     "price": 171.06,
     "change_pct": 15.35,
     "name": "Shopify Inc.",
-    "updated_at": "2026-10-20T05:01:26.651821",
+    "updated_at": "2026-10-20T06:33:24.297869",
     "price_14d_ago": 148.3
   },
   "BWET": {
     "price": 871.34,
     "change_pct": 8.51,
     "name": "Breakwave Tanker Shipping ETF",
-    "updated_at": "2026-10-20T05:01:02.690717",
+    "updated_at": "2026-10-20T06:32:58.880144",
     "price_14d_ago": 803.0
   },
   "CRWD": {
     "price": 228.1,
     "change_pct": -13.84,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-20T05:01:05.453559",
+    "updated_at": "2026-10-20T06:33:01.684446",
     "price_14d_ago": 264.75
   },
   "DHT": {
     "price": 23.03,
     "change_pct": 2.04,
     "name": "DHT Holdings, Inc.",
-    "updated_at": "2026-10-20T05:01:06.392106",
+    "updated_at": "2026-10-20T06:33:02.833265",
     "price_14d_ago": 22.57
   },
   "ECO": {
     "price": 88.98,
     "change_pct": 10.01,
     "name": "Okeanis Eco Tankers Corp.",
-    "updated_at": "2026-10-20T05:01:07.371092",
+    "updated_at": "2026-10-20T06:33:03.953829",
     "price_14d_ago": 80.88
   },
   "FMCC": {
     "price": 3.14,
     "change_pct": -19.69,
     "name": "Freddie Mac",
-    "updated_at": "2026-10-20T05:01:08.705882",
+    "updated_at": "2026-10-20T06:33:05.356462",
     "price_14d_ago": 3.91
   },
   "FNMA": {
     "price": 3.42,
     "change_pct": -18.76,
     "name": "Fannie Mae",
-    "updated_at": "2026-10-20T05:01:08.908293",
+    "updated_at": "2026-10-20T06:33:05.564371",
     "price_14d_ago": 4.21
   },
   "FRO": {
     "price": 50.72,
     "change_pct": 2.94,
     "name": "Frontline Plc",
-    "updated_at": "2026-10-20T05:01:09.120140",
+    "updated_at": "2026-10-20T06:33:05.772414",
     "price_14d_ago": 49.27
   },
   "FTNT": {
     "price": 171.5,
     "change_pct": -4.06,
     "name": "Fortinet, Inc.",
-    "updated_at": "2026-10-20T05:01:09.500529",
+    "updated_at": "2026-10-20T06:33:06.175234",
     "price_14d_ago": 178.76
   },
   "QLYS": {
     "price": 190.08,
     "change_pct": 1.54,
     "name": "Qualys, Inc.",
-    "updated_at": "2026-10-20T05:01:23.910910",
+    "updated_at": "2026-10-20T06:33:21.252078",
     "price_14d_ago": 187.2
   },
   "RITM": {
     "price": 8.44,
     "change_pct": -5.49,
     "name": "Rithm Capital Corp.",
-    "updated_at": "2026-10-20T05:01:24.674467",
+    "updated_at": "2026-10-20T06:33:22.051252",
     "price_14d_ago": 8.93
   },
   "RPD": {
     "price": 13.22,
     "change_pct": 8.18,
     "name": "Rapid7, Inc.",
-    "updated_at": "2026-10-20T05:01:25.043053",
+    "updated_at": "2026-10-20T06:33:22.620951",
     "price_14d_ago": 12.22
   },
   "AMAT": {
     "price": 413.11,
     "change_pct": -19.22,
     "name": "Applied Materials, Inc.",
-    "updated_at": "2026-10-20T05:00:58.983845",
+    "updated_at": "2026-10-20T06:32:55.132304",
     "price_14d_ago": 511.38
   },
   "LRCX": {
     "price": 272.2,
     "change_pct": -17.14,
     "name": "Lam Research Corporation",
-    "updated_at": "2026-10-20T05:01:15.741387",
+    "updated_at": "2026-10-20T06:33:12.684255",
     "price_14d_ago": 328.51
   },
   "HUBS": {
     "price": 234.63,
     "change_pct": 14.46,
     "name": "HubSpot, Inc.",
-    "updated_at": "2026-10-20T05:01:12.265306",
+    "updated_at": "2026-10-20T06:33:09.011063",
     "price_14d_ago": 204.98
   },
   "MCD": {
     "price": 242.67,
     "change_pct": 5.08,
     "name": "McDonald's Corporation",
-    "updated_at": "2026-10-20T05:01:16.502214",
+    "updated_at": "2026-10-20T06:33:13.488518",
     "price_14d_ago": 230.94
   },
   "CART": {
     "price": 49.91,
     "change_pct": 15.75,
     "name": "Maplebear Inc.",
-    "updated_at": "2026-10-20T05:01:03.459971",
+    "updated_at": "2026-10-20T06:32:59.683748",
     "price_14d_ago": 43.12
   },
   "VGS": {
     "price": 0,
     "change_pct": 0,
     "name": "VGS",
-    "updated_at": "2026-10-20T05:01:34.551153",
+    "updated_at": "2026-10-20T06:33:32.366252",
     "price_14d_ago": null
   },
   "LEU": {
     "price": 110.12,
     "change_pct": -21.06,
     "name": "Centrus Energy Corp.",
-    "updated_at": "2026-10-20T05:01:15.119241",
+    "updated_at": "2026-10-20T06:33:12.014836",
     "price_14d_ago": 139.49
   }
 },
@@ -54415,11 +54415,11 @@ const dashboardData = {
     "definition": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 3,
-    "source_diversity": 3,
-    "relevance_score": 60,
+    "mention_count": 4,
+    "source_diversity": 4,
+    "relevance_score": 65,
     "submitted_date": "2026-10-20 03:12:48",
-    "priority_score": 150
+    "priority_score": 185
   },
   {
     "id": 946,
@@ -54427,11 +54427,11 @@ const dashboardData = {
     "definition": "announcement, Figma\u2019s business did not meaningfully suffer and the company grew 48% year over year in the referenced quarter",
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 3,
-    "source_diversity": 3,
-    "relevance_score": 60,
+    "mention_count": 4,
+    "source_diversity": 4,
+    "relevance_score": 65,
     "submitted_date": "2026-10-20 03:12:48",
-    "priority_score": 150
+    "priority_score": 185
   },
   {
     "id": 942,
@@ -54460,7 +54460,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 93045,
+    "id": 93230,
     "name": "Jean Denigrez",
     "slug": "jean-denigrez",
     "bio": null,
@@ -54472,7 +54472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93046,
+    "id": 93231,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -54484,7 +54484,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93047,
+    "id": 93232,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -54496,7 +54496,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93048,
+    "id": 93233,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -54508,7 +54508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93049,
+    "id": 93234,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -54520,7 +54520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93050,
+    "id": 93235,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -54532,7 +54532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93052,
+    "id": 93237,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -54544,7 +54544,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 93051,
+    "id": 93236,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -54556,7 +54556,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93053,
+    "id": 93238,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -54568,7 +54568,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93054,
+    "id": 93239,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -54580,7 +54580,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93055,
+    "id": 93240,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -54592,7 +54592,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93056,
+    "id": 93241,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -54604,7 +54604,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93057,
+    "id": 93242,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -54616,7 +54616,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93058,
+    "id": 93243,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -54628,7 +54628,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93059,
+    "id": 93244,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -54640,7 +54640,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93060,
+    "id": 93245,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -54652,7 +54652,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93061,
+    "id": 93246,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -54664,7 +54664,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93062,
+    "id": 93247,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -54676,7 +54676,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93063,
+    "id": 93248,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -54688,7 +54688,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 93064,
+    "id": 93249,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -55348,7 +55348,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
-    "mention_score_decayed": 1.5,
+    "mention_score_decayed": 1.47,
     "last_main_idea": "Implement the CAPA framework to systematically address failures and enhance accountability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
     "last_proof_snippet": "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
@@ -55529,7 +55529,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -55842,60 +55842,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 547,
-    "name": "Dr. Don Musalam",
-    "slug": "dr-don-musalam",
-    "bio": "Chief Medical Officer of Fountain Life, featured in the sponsor segment discussing dementia prevention, brain-age testing, and health-span interventions.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 546,
-    "name": "Nusha Ansari",
-    "slug": "nusha-ansari",
-    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 230,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
@@ -55955,6 +55901,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$1.40B"
+  },
+  {
+    "id": 547,
+    "name": "Dr. Don Musalam",
+    "slug": "dr-don-musalam",
+    "bio": "Chief Medical Officer of Fountain Life, featured in the sponsor segment discussing dementia prevention, brain-age testing, and health-span interventions.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 10:18:14",
+    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.95,
+    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
+    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 546,
+    "name": "Nusha Ansari",
+    "slug": "nusha-ansari",
+    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 10:18:14",
+    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.95,
+    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_proof_snippet": "Last night, in Wakeo, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
+    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 544,
@@ -56734,7 +56734,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-10 \u2022 Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. The all-in podcast with me, the core four, be original, quartet, Chumapai Hoppetia, David Sachs, Dave Freeberg, I'm Jason Calcantison. We have a doc at How's Everybo",
@@ -57394,7 +57394,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -57421,7 +57421,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -57529,7 +57529,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
@@ -57589,7 +57589,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Cathie Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs. And they're concerned about the old social contract, do well in high school, go to college, get a degree, and go get a",
@@ -58169,7 +58169,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_proof_snippet": "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
@@ -58345,7 +58345,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "Naveen Rau, co-founder and CEO of Unconventional AI, which is an AI chip startup, best willing for building and selling to deep tech companies. Naveen is kind of definitely outlier, founder. When I came there, we had about 20 million dollar",
@@ -58567,7 +58567,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps. There's one camp which believes that this actually",
@@ -58835,60 +58835,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 461,
-    "name": "Brad Gershner",
-    "slug": "brad-gershner",
-    "bio": "Brad Gershner is an advocate for children's investment accounts and innovative healthcare solutions. He is known for proposing direct ownership for children in America, emphasizing the importance of financial empowerment from a young age. Gershner has a unique perspective, having founded multiple companies and advocating for a significant shift in how children engage with capitalism.",
-    "known_for": "Gershner's initiative aims to make every child in America a direct owner, potentially transforming the landscape of childhood finance and philanthropy.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Passionate and persuasive",
-    "voice_style": "Articulates clear, impactful arguments.",
-    "voice_delivery_notes": "Emphasizes key points with conviction.",
-    "voice_profile_updated_at": "2026-09-17 10:37:49",
-    "last_seen": "2026-09-17 10:37:49",
-    "last_episode_title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.48,
-    "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
-    "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
-    "supporting_takeaway": "The CAC scan is highlighted as a high ROI healthcare intervention, potentially saving thousands of lives.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T05:38:00.735885",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Brad Gershner",
-      "fetched_at": "2026-09-17T10:38:00.735318+00:00",
-      "cliff_notes": "Brad Gershner has made a notable impact in the realm of children's financial empowerment through his advocacy for direct ownership accounts. His career includes founding five companies, which has shaped his approach to investment and philanthropy. Gershner believes that by providing every child in America with an investment account, they can become stakeholders in the economy, fostering a sense of ownership and responsibility. His vision is not just a program but a platform for the largest unlock of direct philanthropy in U.S. history, aiming to combat economic disparities and promote capitalism among the younger generation. Gershner's work is positioned at the intersection of finance, policy, and social impact, making him a significant figure in discussions about the future of capitalism and children's rights.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Brad Gershner has made a notable impact in the realm of children's financial empowerment through his advocacy for direct ownership accounts. His career includes founding five companies, which has shaped his approach to investment and philanthropy. Gershner believes that by providing every child in America with an investment account, they can become stakeholders in the economy, fostering a sense of ownership and responsibility.",
-        "His vision is not just a program but a platform for the largest unlock of direct philanthropy in U.S. history, aiming to combat economic disparities and promote capitalism among the younger generation. Gershner's work is positioned at the intersection of finance, policy, and social impact, making him a significant figure in discussions about the future of capitalism and children's rights."
-      ],
-      "sections": [
-        {
-          "heading": "Children's Investment Accounts",
-          "body": "Gershner advocates for establishing investment accounts for children, aiming to empower them financially from a young age. This initiative seeks to instill a sense of ownership and responsibility, potentially reshaping the future of financial literacy."
-        },
-        {
-          "heading": "Innovative Healthcare Solutions",
-          "body": "In addition to his work in finance, Gershner is involved in promoting innovative healthcare solutions. His approach focuses on integrating financial strategies with health initiatives to improve overall well-being."
-        },
-        {
-          "heading": "Philanthropy and Capitalism",
-          "body": "Gershner's vision includes a significant philanthropic effort that he believes can counteract economic challenges. By making children direct owners, he aims to foster a new generation of capitalists who understand the value of investment and ownership."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -58948,6 +58894,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 461,
+    "name": "Brad Gershner",
+    "slug": "brad-gershner",
+    "bio": "Brad Gershner is an advocate for children's investment accounts and innovative healthcare solutions. He is known for proposing direct ownership for children in America, emphasizing the importance of financial empowerment from a young age. Gershner has a unique perspective, having founded multiple companies and advocating for a significant shift in how children engage with capitalism.",
+    "known_for": "Gershner's initiative aims to make every child in America a direct owner, potentially transforming the landscape of childhood finance and philanthropy.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Passionate and persuasive",
+    "voice_style": "Articulates clear, impactful arguments.",
+    "voice_delivery_notes": "Emphasizes key points with conviction.",
+    "voice_profile_updated_at": "2026-09-17 10:37:49",
+    "last_seen": "2026-09-17 10:37:49",
+    "last_episode_title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.47,
+    "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+    "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
+    "supporting_takeaway": "The CAC scan is highlighted as a high ROI healthcare intervention, potentially saving thousands of lives.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T05:38:00.735885",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Brad Gershner",
+      "fetched_at": "2026-09-17T10:38:00.735318+00:00",
+      "cliff_notes": "Brad Gershner has made a notable impact in the realm of children's financial empowerment through his advocacy for direct ownership accounts. His career includes founding five companies, which has shaped his approach to investment and philanthropy. Gershner believes that by providing every child in America with an investment account, they can become stakeholders in the economy, fostering a sense of ownership and responsibility. His vision is not just a program but a platform for the largest unlock of direct philanthropy in U.S. history, aiming to combat economic disparities and promote capitalism among the younger generation. Gershner's work is positioned at the intersection of finance, policy, and social impact, making him a significant figure in discussions about the future of capitalism and children's rights.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Brad Gershner has made a notable impact in the realm of children's financial empowerment through his advocacy for direct ownership accounts. His career includes founding five companies, which has shaped his approach to investment and philanthropy. Gershner believes that by providing every child in America with an investment account, they can become stakeholders in the economy, fostering a sense of ownership and responsibility.",
+        "His vision is not just a program but a platform for the largest unlock of direct philanthropy in U.S. history, aiming to combat economic disparities and promote capitalism among the younger generation. Gershner's work is positioned at the intersection of finance, policy, and social impact, making him a significant figure in discussions about the future of capitalism and children's rights."
+      ],
+      "sections": [
+        {
+          "heading": "Children's Investment Accounts",
+          "body": "Gershner advocates for establishing investment accounts for children, aiming to empower them financially from a young age. This initiative seeks to instill a sense of ownership and responsibility, potentially reshaping the future of financial literacy."
+        },
+        {
+          "heading": "Innovative Healthcare Solutions",
+          "body": "In addition to his work in finance, Gershner is involved in promoting innovative healthcare solutions. His approach focuses on integrating financial strategies with health initiatives to improve overall well-being."
+        },
+        {
+          "heading": "Philanthropy and Capitalism",
+          "body": "Gershner's vision includes a significant philanthropic effort that he believes can counteract economic challenges. By making children direct owners, he aims to foster a new generation of capitalists who understand the value of investment and ownership."
+        }
+      ]
+    }
   },
   {
     "id": 460,
@@ -60739,7 +60739,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -62178,7 +62178,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Sergei Bren's return to Gemini may lead to accelerated innovation with less safety constraints.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -69560,7 +69560,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Koch Industries' capability-bounded approach allows for flexibility and innovation across sectors.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -69623,7 +69623,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Koch Industries' capability-bounded approach allows for flexibility and innovation across sectors.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -71551,71 +71551,6 @@ const dashboardData = {
     "net_worth": "$9.00B"
   },
   {
-    "id": 194,
-    "name": "Scott Chacon",
-    "slug": "scott-chacon",
-    "bio": "Scott Chacon is a well-known figure in the software development industry, recognized for his work on version control systems, particularly with Git. He co-founded GitHub and is currently the CEO of Git Butler. Chacon is also the author of a book on Git, which has become a valuable resource for developers worldwide.",
-    "known_for": "Being a co-founder of GitHub and a major driving force behind the Git version control system.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Inquisitive and insightful",
-    "voice_style": "Explains complex concepts in a relatable manner",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points",
-    "voice_profile_updated_at": "2026-04-21 10:05:48",
-    "last_seen": "2026-04-21 10:05:48",
-    "last_episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-20",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
-    "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
-    "supporting_takeaway": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-21T05:06:01.181305",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Scott Chacon",
-      "fetched_at": "2026-04-21T10:06:01.180751+00:00",
-      "cliff_notes": "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects. In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers.",
-      "derived": {
-        "current_role": "CEO of Git Butler",
-        "former_positions": "Co-founder of GitHub",
-        "books_or_works": "Pro Git"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects.",
-        "In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers."
-      ],
-      "sections": [
-        {
-          "heading": "GitHub Co-founder",
-          "body": "Scott Chacon co-founded GitHub, a platform that has become integral to the workflow of millions of developers worldwide, providing a space for version control and collaboration."
-        },
-        {
-          "heading": "Git Advocacy",
-          "body": "Chacon is a strong advocate for Git, contributing significantly to its adoption and education through his book 'Pro Git' and his continued work in the field."
-        },
-        {
-          "heading": "CEO of Git Butler",
-          "body": "As the CEO of Git Butler, Chacon leads the development of tools aimed at improving the user experience for software developers, focusing on real-time communication and collaboration."
-        },
-        {
-          "heading": "Thought Leadership",
-          "body": "Scott Chacon's insights into software development tools and practices have made him a sought-after voice in discussions about the future of developer tools and collaboration."
-        }
-      ]
-    }
-  },
-  {
     "id": 55,
     "name": "Dr. Anas Alhajji",
     "slug": "dr-onus-alhajji",
@@ -71830,6 +71765,71 @@ const dashboardData = {
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 194,
+    "name": "Scott Chacon",
+    "slug": "scott-chacon",
+    "bio": "Scott Chacon is a well-known figure in the software development industry, recognized for his work on version control systems, particularly with Git. He co-founded GitHub and is currently the CEO of Git Butler. Chacon is also the author of a book on Git, which has become a valuable resource for developers worldwide.",
+    "known_for": "Being a co-founder of GitHub and a major driving force behind the Git version control system.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and insightful",
+    "voice_style": "Explains complex concepts in a relatable manner",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points",
+    "voice_profile_updated_at": "2026-04-21 10:05:48",
+    "last_seen": "2026-04-21 10:05:48",
+    "last_episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-20",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
+    "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
+    "supporting_takeaway": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-21T05:06:01.181305",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Scott Chacon",
+      "fetched_at": "2026-04-21T10:06:01.180751+00:00",
+      "cliff_notes": "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects. In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers.",
+      "derived": {
+        "current_role": "CEO of Git Butler",
+        "former_positions": "Co-founder of GitHub",
+        "books_or_works": "Pro Git"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects.",
+        "In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers."
+      ],
+      "sections": [
+        {
+          "heading": "GitHub Co-founder",
+          "body": "Scott Chacon co-founded GitHub, a platform that has become integral to the workflow of millions of developers worldwide, providing a space for version control and collaboration."
+        },
+        {
+          "heading": "Git Advocacy",
+          "body": "Chacon is a strong advocate for Git, contributing significantly to its adoption and education through his book 'Pro Git' and his continued work in the field."
+        },
+        {
+          "heading": "CEO of Git Butler",
+          "body": "As the CEO of Git Butler, Chacon leads the development of tools aimed at improving the user experience for software developers, focusing on real-time communication and collaboration."
+        },
+        {
+          "heading": "Thought Leadership",
+          "body": "Scott Chacon's insights into software development tools and practices have made him a sought-after voice in discussions about the future of developer tools and collaboration."
+        }
+      ]
+    }
   },
   {
     "id": 193,
@@ -76112,7 +76112,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-20T05:01:39.668057"
+      "last_updated": "2026-10-20T06:33:38.133934"
     }
   ]
 }
