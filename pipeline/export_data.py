@@ -277,6 +277,9 @@ def _apply_summary_overrides(obj):
     """
     rules_all = _load_override_rules()
     rules = rules_all.get("summaries", [])
+    title_ovs = rules_all.get("title_overrides", [])
+    if title_ovs:
+        _apply_title_overrides(obj, title_ovs)
     global_reps = rules_all.get("global_replacements", [])
     global_ticker_renames = rules_all.get("ticker_renames", [])
     global_drop_tickers = rules_all.get("global_drop_tickers", [])
@@ -292,12 +295,14 @@ def _apply_summary_overrides(obj):
         )
         if r.get("add_key_tickers") and "key_tickers" in o:
             o["key_tickers"] = _add_key_tickers(o["key_tickers"], r["add_key_tickers"])
+        if r.get("drop_quotes") and "notable_quotes" in o:
+            o["notable_quotes"] = _drop_quotes(o["notable_quotes"], r["drop_quotes"])
 
     def walk(o):
         if isinstance(o, dict):
             title = " ".join(str(o.get(f) or "") for f in TITLE_FIELDS)
             for r in rules:
-                if r.get("episode_title") and r["episode_title"] in title:
+                if (r.get("episode_title") and r["episode_title"] in title) or _rule_matches_episode_id(o, r):
                     fix_record(o, r)
             if global_reps:
                 for k in list(o.keys()):
@@ -346,6 +351,81 @@ def _apply_summary_overrides(obj):
                 for v in o:
                     final_tickers(v)
         final_tickers(obj)
+    return obj
+
+
+def _is_episode_record(o, episode_id):
+    """podcast_summaries-style episode record (its own id is the podcast_episode id)."""
+    return o.get("id") == episode_id and "podcast_name" in o and "episode_title" in o
+
+
+def _rule_matches_episode_id(o, r):
+    """Oct 20 2026: a 'summaries' rule with 'podcast_episode_id' matches that episode's cards
+    (insight, Deep Dive, podcast summary) by id, never by title text, so two episodes with
+    similar titles can't share a fix."""
+    pe = r.get("podcast_episode_id")
+    if pe is None or not isinstance(o, dict):
+        return False
+    if o.get("podcast_episode_id") == pe or _is_episode_record(o, pe):
+        return True
+    iid = r.get("insight_id")
+    return iid is not None and o.get("insight_id") == iid
+
+
+def _drop_quotes(value, needles):
+    """Remove notable_quotes entries whose quote text contains any needle (list or JSON string)."""
+    def keep(q):
+        text = q.get("quote", "") if isinstance(q, dict) else str(q)
+        return not any(n and n in text for n in needles)
+    if isinstance(value, list):
+        return [q for q in value if keep(q)]
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except Exception:
+            return value
+        if isinstance(parsed, list):
+            return json.dumps([q for q in parsed if keep(q)])
+    return value
+
+
+def _apply_title_overrides(obj, overrides):
+    """Oct 20 2026: 'title_overrides' retitle ONE episode, scoped by ids (never a global string
+    swap). Each rule: podcast_episode_id, insight_id, podcast_name, episode_date, old, new.
+    Touches the episode's insight/Deep Dive/podcast-summary title fields, Overton
+    first/last_mentioned_episode_title (by episode id), and pundit/guest last_episode_title +
+    last_proof_cite (matched by podcast name + episode date + old title)."""
+    def one(o, r):
+        pe, iid, old, new = r.get("podcast_episode_id"), r.get("insight_id"), r.get("old"), r.get("new")
+        if not old or not new:
+            return
+        own = (pe is not None and (o.get("podcast_episode_id") == pe or _is_episode_record(o, pe))) or (
+            iid is not None and o.get("insight_id") == iid)
+        if own:
+            for f in TITLE_FIELDS:
+                if o.get(f) == old:
+                    o[f] = new
+        for pref in ("last_mentioned", "first_detected"):
+            if pe is not None and o.get(f"{pref}_episode_id") == pe and o.get(f"{pref}_episode_title") == old:
+                o[f"{pref}_episode_title"] = new
+        pod, day = r.get("podcast_name"), r.get("episode_date")
+        if pod and day and o.get("last_podcast_name") == pod and o.get("last_episode_date") == day:
+            if o.get("last_episode_title") == old:
+                o["last_episode_title"] = new
+            cite = o.get("last_proof_cite")
+            if isinstance(cite, str) and cite == f"{pod} \u2022 {day} \u2022 {old}":
+                o["last_proof_cite"] = f"{pod} \u2022 {day} \u2022 {new}"
+
+    def walk(o):
+        if isinstance(o, dict):
+            for r in overrides:
+                one(o, r)
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(obj)
     return obj
 
 

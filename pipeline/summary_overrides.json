@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis. Oct 14 2026 (Red Team): 'ticker_renames' and 'global_drop_tickers' fix fake/defunct/private symbols in tickers_mentioned, key_tickers and ticker_analysis on every card; per-card 'rename_tickers' for context-dependent symbols.",
+  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis. Oct 14 2026 (Red Team): 'ticker_renames' and 'global_drop_tickers' fix fake/defunct/private symbols in tickers_mentioned, key_tickers and ticker_analysis on every card; per-card 'rename_tickers' for context-dependent symbols. Oct 20 2026: a 'summaries' rule may carry 'podcast_episode_id' (+ optional 'insight_id') to match that episode's cards by id instead of title text; 'drop_quotes' removes notable_quotes entries whose quote contains a given substring. 'title_overrides' retitle one episode by id (insight/Deep Dive/podcast-summary title fields, Overton first/last_mentioned_episode_title by episode id, pundit/guest last_episode_title and last_proof_cite by podcast + date + old title); never a global string swap.",
   "summaries": [
     {
       "insight_id": 572,
@@ -477,6 +477,54 @@
           "does not imply a sudden runaway jump in AI ability (fast takeoff)"
         ]
       ]
+    },
+    {
+      "insight_id": 601,
+      "podcast_episode_id": 590,
+      "_note": "Oct 20 2026 (G(ai)ndolf): card 601 quote ASR fixes, scoped by episode id.",
+      "replacements": [
+        [
+          "open AI",
+          "OpenAI"
+        ],
+        [
+          "created on time",
+          "created on Town"
+        ]
+      ]
+    },
+    {
+      "insight_id": 602,
+      "podcast_episode_id": 591,
+      "_note": "Oct 20 2026 (G(ai)ndolf): Claude Design (Anthropic product); the 48% line is the interviewer (transcript never names which host), so the quote is dropped and the summary/takeaway credit the interviewer.",
+      "replacements": [
+        [
+          "cloud design",
+          "Claude Design"
+        ],
+        [
+          "did not meaningfully suffer and the company grew 48% year over year",
+          "did not meaningfully suffer, and the interviewer noted the company grew 48% year over year"
+        ],
+        [
+          "did not materially hurt Figma's business and referenced 48% year-over-year growth",
+          "did not materially hurt Figma's business, and the interviewer cited 48% year-over-year growth"
+        ]
+      ],
+      "drop_quotes": [
+        "Because I read your quarterly report"
+      ]
+    },
+    {
+      "insight_id": 598,
+      "podcast_episode_id": 587,
+      "_note": "Oct 20 2026 (G(ai)ndolf): quote 1 matches the summary's $0.38.",
+      "replacements": [
+        [
+          "$2.36 in July to 30% in September",
+          "$2.36 in July to 38 cents in September"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -777,6 +825,22 @@
     [
       "Oliver Karaz",
       "Oliver Kharraz"
+    ],
+    [
+      "Jean Denigrez",
+      "Jean-Denis Greze"
+    ],
+    [
+      "Dr. Don Musalam",
+      "Dr. Dawn Mussallem"
+    ],
+    [
+      "Don Musalam",
+      "Dawn Mussallem"
+    ],
+    [
+      "Wakeo, Texas",
+      "Waco, Texas"
     ]
   ],
   "name_replacements": [
@@ -1419,5 +1483,16 @@
     "Altias",
     "C.O.R.N",
     "CROWD"
+  ],
+  "title_overrides": [
+    {
+      "podcast_episode_id": 590,
+      "insight_id": 601,
+      "podcast_name": "The a16z Show",
+      "episode_date": "2026-10-19",
+      "old": "What Happens When Al Agents Can Spend Your Money?",
+      "new": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
+      "_note": "Oct 20 2026 (G(ai)ndolf): ep 590 is the Town / Jean-Denis Greze interview (YouTube o_5f4N6Nq80). The old title belongs to card 591 (ep 581); scoped to ep 590 only."
+    }
   ]
 }
