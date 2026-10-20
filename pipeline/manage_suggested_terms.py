@@ -11,16 +11,18 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 
+import workspace_paths
 from workspace_paths import DB_PATH
 
 class SuggestedTermsManager:
     """Manage suggested terms workflow."""
     
-    def __init__(self):
+    def __init__(self, db_path=None):
+        self.db_path = db_path
         self._ensure_table()
     
     def _get_connection(self):
-        conn = sqlite3.connect(DB_PATH)
+        conn = sqlite3.connect(getattr(self, 'db_path', None) or DB_PATH)
         conn.row_factory = sqlite3.Row
         return conn
     
@@ -35,126 +37,146 @@ class SuggestedTermsManager:
                 conn.executescript(schema)
                 conn.commit()
     
+    # Real definition syntax only: a quoted term, then a colon or dash, then the definition.
+    # Bare whitespace after a closing quote is NOT a definition (that is a quote fragment,
+    # e.g. 'raise the "ceiling" of quality' or '"cloud design" announcement').
+    DEFINITION_PATTERN = re.compile(
+        r'["\u201c]([^"\u201c\u201d\n]{3,50})["\u201d]\s*(?::|\s[-\u2013\u2014]|[-\u2013\u2014])\s*([^.\n]{10,200})'
+    )
+
+    # Single words that are never a term on their own.
+    GENERIC_WORDS = {
+        'floor', 'ceiling', 'design', 'growth', 'market', 'markets', 'model', 'models', 'data',
+        'value', 'price', 'cost', 'risk', 'scale', 'money', 'power', 'energy', 'compute',
+        'future', 'thing', 'things', 'people', 'company', 'business', 'product', 'platform',
+        'moment', 'idea', 'world', 'system', 'trade', 'cycle', 'bubble', 'demand', 'supply',
+        'intelligence', 'safety', 'quality', 'taste', 'craft', 'tool', 'tools', 'agent', 'agents',
+    }
+
+    @staticmethod
+    def normalize_term(term: str) -> str:
+        """Strip surrounding punctuation/quotes and collapse whitespace ("super intelligence," -> "super intelligence")."""
+        t = re.sub(r'\s+', ' ', term or '').strip()
+        t = t.strip(' \t"\'\u201c\u201d\u2018\u2019.,;:!?()[]{}-\u2013\u2014')
+        return t.strip()
+
     def extract_terms_from_content(self, content: str, source_type: str, source_name: str) -> List[Dict]:
-        """Extract potential new terms from podcast/newsletter content."""
-        terms = []
-        
-        # Pattern 1: Terms in quotes that might be definitions
-        # "Term": definition or "Term" - definition
-        quote_pattern = r'"([^"]{3,50})"[:\s-]+([^.]{10,200})'
-        for match in re.finditer(quote_pattern, content, re.IGNORECASE):
-            term = match.group(1).strip()
+        """Extract candidate terms that use real definition syntax ("Term": definition / "Term" - definition).
+
+        One record per distinct term per source (a term defined twice in one summary still counts once).
+        """
+        terms: List[Dict] = []
+        seen = set()
+        for match in self.DEFINITION_PATTERN.finditer(content or ''):
+            term = self.normalize_term(match.group(1))
             definition = match.group(2).strip()
-            if self._is_valid_term(term):
-                terms.append({
-                    'term': term,
-                    'definition': definition,
-                    'source_context': f"{source_name}",
-                    'excerpt': content[max(0, match.start()-50):min(len(content), match.end()+50)]
-                })
-        
-        # Pattern 2: Capitalized phrases that appear multiple times
-        # Look for phrases like "Neuralink Moment", "Sovereign Individual Thesis"
-        capitalized_pattern = r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,4})\b'
-        found_phrases = {}
-        for match in re.finditer(capitalized_pattern, content):
-            phrase = match.group(1)
-            if len(phrase) > 10 and self._is_valid_term(phrase):
-                found_phrases[phrase] = found_phrases.get(phrase, 0) + 1
-        
-        # Only keep phrases mentioned multiple times
-        for phrase, count in found_phrases.items():
-            if count >= 2:
-                terms.append({
-                    'term': phrase,
-                    'definition': None,  # Will need manual definition
-                    'source_context': f"{source_name}",
-                    'mention_count': count
-                })
-        
+            if not self._is_valid_term(term):
+                continue
+            key = term.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            terms.append({
+                'term': term,
+                'definition': definition,
+                'source_context': f"{source_name}",
+                'excerpt': content[max(0, match.start()-50):min(len(content), match.end()+50)],
+            })
         return terms
-    
+
     def _is_valid_term(self, term: str) -> bool:
         """Check if extracted text is a valid term candidate."""
-        # Skip common words
-        skip_words = {'The', 'And', 'But', 'For', 'With', 'This', 'That', 'From', 'Have', 'Been'}
-        if term in skip_words:
+        term = self.normalize_term(term)
+        skip_words = {'the', 'and', 'but', 'for', 'with', 'this', 'that', 'from', 'have', 'been'}
+        if term.lower() in skip_words:
             return False
-        
-        # Skip if too short or too long
         if len(term) < 5 or len(term) > 60:
             return False
-        
-        # Skip if all uppercase (likely ticker or acronym)
         if term.isupper():
             return False
-        
-        # Skip if contains numbers (likely not a conceptual term)
         if any(c.isdigit() for c in term):
             return False
-        
+        # Leftover punctuation inside means a sentence fragment, not a term
+        if re.search(r'[,;:!?]', term):
+            return False
+        words = term.split()
+        if len(words) == 1 and term.lower() in self.GENERIC_WORDS:
+            return False
+        # Single all-lowercase word (e.g. "floor") is a quote fragment, not a coined term
+        if len(words) == 1 and term.islower():
+            return False
+        if len(words) > 6:
+            return False
         return True
-    
+
+    def _ensure_sources_table(self, conn) -> None:
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS suggested_term_sources (
+                term_key TEXT NOT NULL,
+                source TEXT NOT NULL,
+                first_seen TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                PRIMARY KEY (term_key, source)
+            )
+        """)
+
     def scan_content_for_terms(self):
-        """Scan recent podcast transcripts and newsletters for new terms."""
+        """Scan recent podcast summaries and newsletters for new terms.
+
+        Re-scanning the same 7-day window every run is safe: a (term, source) pair is only
+        counted the first time it is seen, so counts reflect DISTINCT sources.
+        """
         print("\n🔍 Scanning content for new terms...")
-        
+        new_terms_found = 0
         with self._get_connection() as conn:
-            # Get recent transcripts
-            cursor = conn.execute("""
-                SELECT podcast_name, episode_title, summary, transcript_path
+            rows = []
+            for row in conn.execute("""
+                SELECT podcast_name, episode_title, summary
                 FROM podcast_episodes
                 WHERE summary IS NOT NULL
                   AND episode_date > date('now', '-7 days')
-            """)
-            
-            new_terms_found = 0
-            
-            for row in cursor.fetchall():
-                content = row['summary'] or ''
-                source = f"{row['podcast_name']} - {row['episode_title']}"
-                
-                terms = self.extract_terms_from_content(content, 'podcast', source)
-                for term_data in terms:
-                    if self._add_or_update_term(term_data, 'auto_extracted'):
-                        new_terms_found += 1
-                        print(f"  ✓ Found: {term_data['term']}")
-            
-            # Get recent newsletters
-            cursor = conn.execute("""
-                SELECT subject, content_preview
-                FROM newsletters
-                WHERE is_processed = 1
-                  AND received_date > date('now', '-7 days')
-            """)
-            
-            for row in cursor.fetchall():
-                content = row['content_preview'] or ''
-                source = row['subject']
-                
-                terms = self.extract_terms_from_content(content, 'newsletter', source)
-                for term_data in terms:
-                    if self._add_or_update_term(term_data, 'auto_extracted'):
-                        new_terms_found += 1
-                        print(f"  ✓ Found: {term_data['term']}")
-            
-            print(f"\n✓ Found {new_terms_found} new potential terms")
-            return new_terms_found
-    
+            """).fetchall():
+                rows.append((row['summary'] or '', f"{row['podcast_name']} - {row['episode_title']}", 'podcast'))
+            try:
+                for row in conn.execute("""
+                    SELECT subject, content_preview
+                    FROM newsletters
+                    WHERE is_processed = 1
+                      AND received_date > date('now', '-7 days')
+                """).fetchall():
+                    rows.append((row['content_preview'] or '', row['subject'] or '', 'newsletter'))
+            except sqlite3.OperationalError:
+                pass
+        for content, source, kind in rows:
+            for term_data in self.extract_terms_from_content(content, kind, source):
+                if self._add_or_update_term(term_data, 'auto_extracted'):
+                    new_terms_found += 1
+                    print(f"  ✓ Found: {term_data['term']}")
+        print(f"\n✓ Found {new_terms_found} new potential terms")
+        return new_terms_found
+
     def _add_or_update_term(self, term_data: Dict, source_type: str) -> bool:
-        """Add new term or update existing. Returns True if new."""
+        """Add new term or count a new distinct source. Returns True if the term is new."""
+        term = self.normalize_term(term_data['term'])
+        if not self._is_valid_term(term):
+            return False
+        source = (term_data.get('source_context') or '').strip()
+        key = term.lower()
         with self._get_connection() as conn:
-            # Check if already exists in suggested_terms
-            cursor = conn.execute(
-                "SELECT id, mention_count FROM suggested_terms WHERE term = ?",
-                (term_data['term'],)
-            )
-            existing = cursor.fetchone()
-            
+            self._ensure_sources_table(conn)
+            if source:
+                cur = conn.execute(
+                    "INSERT OR IGNORE INTO suggested_term_sources (term_key, source) VALUES (?, ?)",
+                    (key, source),
+                )
+                if cur.rowcount == 0:
+                    conn.commit()
+                    return False  # already counted this source on an earlier scan
+            existing = conn.execute(
+                "SELECT id FROM suggested_terms WHERE LOWER(TRIM(term)) = ?", (key,)
+            ).fetchone()
             if existing:
-                # Update mention count
                 conn.execute("""
-                    UPDATE suggested_terms 
+                    UPDATE suggested_terms
                     SET mention_count = mention_count + 1,
                         source_diversity = source_diversity + 1,
                         last_mentioned_date = date('now'),
@@ -163,34 +185,27 @@ class SuggestedTermsManager:
                 """, (existing['id'],))
                 conn.commit()
                 return False
-            
-            # Check if already in definitions
-            cursor = conn.execute(
-                "SELECT id FROM definitions WHERE term = ?",
-                (term_data['term'],)
-            )
-            if cursor.fetchone():
+            if conn.execute(
+                "SELECT id FROM definitions WHERE LOWER(TRIM(term)) = ?", (key,)
+            ).fetchone():
+                conn.commit()
                 return False
-            
-            # Insert new term
             conn.execute("""
-                INSERT INTO suggested_terms 
-                (term, definition, investment_implications, source_type, source_context, 
+                INSERT INTO suggested_terms
+                (term, definition, investment_implications, source_type, source_context,
                  mention_count, source_diversity, relevance_score, last_mentioned_date)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, date('now'))
+                VALUES (?, ?, ?, ?, ?, 1, 1, ?, date('now'))
             """, (
-                term_data['term'],
+                term,
                 term_data.get('definition'),
-                None,  # Will be added when approved
+                None,
                 source_type,
-                term_data.get('source_context'),
-                term_data.get('mention_count', 1),
-                1,
-                50 if term_data.get('definition') else 30  # Higher score if has definition
+                source or None,
+                50 if term_data.get('definition') else 30,
             ))
             conn.commit()
             return True
-    
+
     def get_top_suggestions(self, limit: int = 5) -> List[Dict]:
         """Get top pending suggestions by priority score."""
         with self._get_connection() as conn:

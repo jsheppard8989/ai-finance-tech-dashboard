@@ -2826,8 +2826,29 @@
         return mb - ma;
       });
 
-      const items = [];
+      // 4 automatic slots; 2 are reserved for ideas first heard in the last 30 days so they
+      // rotate on their own (Jared 2026-10-20). Hand-picked seeds above are not counted.
+      const AUTO_SLOTS = 4, RECENT_SLOTS = 2, RECENT_DAYS = 30;
+      const cutoffIso = new Date(Date.now() - RECENT_DAYS * 86400000).toISOString().substring(0, 10);
+      function owKey(o) { return String((o && o.term) || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
+      function isRecent(o) { var d = isoDatePart(o && o.first_detected_date); return !!d && d >= cutoffIso; }
+      const shownKeys = new Set();
+      const recentPool = rows.filter(isRecent).concat((main.overton_recent || []).filter(function(o) {
+        const t = (o && o.term) ? String(o.term).trim().toLowerCase() : '';
+        return t && !demoteSet.has(t) && isRecent(o);
+      })).sort(function(a, b) { return (b.novelty_score || 0) - (a.novelty_score || 0); });
+      const recentPick = [];
+      recentPool.forEach(function(o) {
+        const k = owKey(o);
+        if (recentPick.length < RECENT_SLOTS && k && !shownKeys.has(k)) { shownKeys.add(k); recentPick.push(o); }
+      });
+      const evergreenPick = [];
       rows.forEach(function(o) {
+        const k = owKey(o);
+        if (evergreenPick.length < AUTO_SLOTS - recentPick.length && !shownKeys.has(k)) { shownKeys.add(k); evergreenPick.push(o); }
+      });
+      const items = [];
+      evergreenPick.concat(recentPick).forEach(function(o) {
         items.push(buildTermCard(o, false));
       });
 

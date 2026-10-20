@@ -761,6 +761,33 @@
       "set": {
         "term": "Compute glut"
       }
+    },
+    {
+      "id": 945,
+      "scope": "suggested",
+      "drop": true,
+      "_note": "Oct 20 2026 (Jared YES 1:46 PM CT): 'floor' is a quote fragment (\"raise the floor ... the ceiling\"), not a term."
+    },
+    {
+      "id": 946,
+      "scope": "suggested",
+      "_note": "Oct 20 2026 (Jared YES 1:46 PM CT): ASR 'cloud design' is Claude Design (Anthropic product); the 48% line is the interviewer's, per card 602.",
+      "set": {
+        "term": "Claude Design",
+        "definition": "Anthropic's design product. After its announcement, Figma's business did not meaningfully suffer, and the interviewer noted the company grew 48% year over year in the referenced quarter."
+      }
+    },
+    {
+      "id": 859,
+      "scope": "suggested",
+      "drop": true,
+      "_note": "Oct 20 2026 (Jared YES 1:46 PM CT): 'super intelligence,' is a quote fragment (stray comma); duplicate of Superintelligence."
+    },
+    {
+      "term": "super intelligence,",
+      "scope": "overton",
+      "drop": true,
+      "_note": "Oct 20 2026: Overton mirror of term 859 (overton id 305); quote fragment, duplicate of Superintelligence."
     }
   ],
   "global_replacements": [

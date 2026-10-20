@@ -4,6 +4,7 @@ Database manager for AI Finance Tech dashboard.
 Handles all SQLite operations and provides clean interface for pipeline scripts.
 """
 
+import re
 import sqlite3
 import json
 from pathlib import Path
@@ -19,6 +20,55 @@ SCHEMA_PATH = Path(__file__).parent / "schema.sql"
 OVERTON_MAIN_PAGE_LIMIT = 13
 # Established tier: saturated terms shown separately from new ideas
 OVERTON_ESTABLISHED_LIMIT = 5
+# Automatic Overton slots on the home page (after hand-picked seeds and the demote list);
+# OVERTON_RECENT_SLOTS of them are reserved for ideas first heard in the last 30 days.
+OVERTON_AUTO_SLOTS = 4
+OVERTON_RECENT_SLOTS = 2
+OVERTON_RECENT_WINDOW_DAYS = 30
+OVERTON_RECENT_CANDIDATES = 8
+
+
+def _is_recent_first_heard(raw, days: int, today=None) -> bool:
+    from datetime import date as _d, timedelta as _td
+    if not raw:
+        return False
+    try:
+        d = _d.fromisoformat(str(raw)[:10])
+    except ValueError:
+        return False
+    today = today or _d.today()
+    return today - _td(days=days) <= d <= today
+
+
+def _overton_key(term: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (term or "").lower())
+
+
+def select_recent_overton_candidates(recent_rows, existing_rows, limit: int = OVERTON_RECENT_CANDIDATES):
+    """Pick clean candidates for the reserved recent Overton slots, best novelty first.
+
+    Drops quote fragments ("super intelligence," with stray punctuation), saturated/established
+    terms, terms with fewer than 2 mentions, and near-duplicates of terms already shown
+    (e.g. "Super intelligence" vs "Superintelligence").
+    """
+    seen = {_overton_key(r.get("term")) for r in existing_rows if r.get("term")}
+    out = []
+    for r in sorted(recent_rows, key=lambda t: (float(t.get("novelty_score") or 0),
+                                                int(t.get("mention_count") or 0)), reverse=True):
+        term = (r.get("term") or "").strip()
+        if not term or re.search(r"[,;:!?\"]", term) or term != term.strip(".-"):
+            continue
+        if r.get("is_established") or int(r.get("mention_count") or 0) < 2:
+            continue
+        k = _overton_key(term)
+        if not k or k in seen:
+            continue
+        seen.add(k)
+        r["first_heard_recent"] = True
+        out.append(r)
+        if len(out) >= limit:
+            break
+    return out
 
 # Resonance scoring parameters (novelty-aware ranking)
 # Old cap of 4.0 caused saturation; now use log scale for better differentiation
@@ -1132,9 +1182,17 @@ class DashboardDB:
             # This surfaces newer/specific terms over saturated high-volume terms like AGI.
             cursor = conn.execute("""
                 SELECT * FROM overton_terms
-                WHERE display_on_main = 1 AND status = 'active'
+                WHERE status = 'active'
             """)
-            overton_rows = [dict(row) for row in cursor.fetchall()]
+            _all_active = [dict(row) for row in cursor.fetchall()]
+            overton_rows = [r for r in _all_active if int(r.get("display_on_main") or 0) == 1]
+            # Candidates for the reserved "first heard in the last 30 days" slots (Jared 2026-10-20):
+            # active terms first detected recently, even before they are promoted to the main list.
+            recent_rows = [
+                r for r in _all_active
+                if int(r.get("display_on_main") or 0) != 1
+                and _is_recent_first_heard(r.get("first_detected_date"), OVERTON_RECENT_WINDOW_DAYS)
+            ]
 
             def _episode_brief(eid) -> Tuple[Optional[str], Optional[str], Optional[str]]:
                 if not eid:
@@ -1259,7 +1317,7 @@ class DashboardDB:
                 # Import sanitizer for speaker names
                 from person_name_safety import sanitize_speaker_name_for_display
 
-                for t in overton_rows:
+                for t in overton_rows + recent_rows:
                     term_name = t.get("term") or ""
                     t["novelty_score"] = round(_novelty_score(t), 4)
                     t["overton_score"] = t["novelty_score"]  # Backward compat
@@ -1284,6 +1342,8 @@ class DashboardDB:
                         t.get("last_mentioned_speaker") or ""
                     )
                     
+                    if t in recent_rows:
+                        continue
                     if t["is_established"]:
                         established_terms.append(t)
                     else:
@@ -1335,6 +1395,9 @@ class DashboardDB:
             content["overton"] = new_idea_terms[:OVERTON_MAIN_PAGE_LIMIT]
             # Established tier: saturated terms in separate list
             content["overton_established"] = established_terms[:OVERTON_ESTABLISHED_LIMIT]
+            content["overton_recent"] = select_recent_overton_candidates(
+                recent_rows, content["overton"] + established_terms
+            )
         
         return content
     
