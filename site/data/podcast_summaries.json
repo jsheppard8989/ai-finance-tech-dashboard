@@ -1,5 +1,23 @@
 [
   {
+    "id": 592,
+    "podcast_name": "The a16z Show",
+    "episode_title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
+    "episode_date": "2026-10-20",
+    "summary": "The episode centers on OpenAI\u2019s health-AI strategy with Karan Singhal arguing that the company is not building a separate \u201chealth-only\u201d model, but instead adding specialized medical data throughout training for its general-purpose frontier models. He says that approach preserves access to the frontier while improving medical usefulness, and that narrow specialty models would quickly fall behind.\n\nSinghal emphasizes the scale already reached: more than 300 million people use ChatGPT for health and wellness questions every week. He frames that usage as a major responsibility and says OpenAI is trying to make the product trustworthy through physician networks, evaluation benchmarks, and persona-aware behavior\u2014especially when users want reassurance but the safer answer is to escalate care or acknowledge uncertainty.\n\nA major theme is workflow integration. Singhal describes Epic connectivity, sidebars inside the EHR, and pilots with systems like UCSF and Advent Health as examples of reducing healthcare fragmentation. He argues AI can act as a \u201csafety net\u201d for both patients and clinicians, catching things like medication issues, while also becoming a proactive assistant that helps navigate chronic care, chart review, and clinical decision support.\n\nThe discussion also includes a cost and adoption argument: OpenAI says its cheapest frontier API model, GP-6 Luna, performed better than GP-5.6 on a clinician workflow benchmark while being 34x cheaper. Singhal uses that to support a broader claim that cheaper medical intelligence will drive more deployment and could eventually compress the long lag between research, guideline publication, and clinical practice from years into days or hours. He also predicts the biggest health impact in the next 5\u201310 years will come from AI-guided molecule/target generation and AI-guided prioritization and validation of clinical trials.",
+    "key_takeaways": [
+      "Karan Singhal said OpenAI adds specialized health-care data across every stage of ChatGPT training, rather than maintaining a separate health-only model.",
+      "Karan Singhal said more than 300 million people use ChatGPT for health and wellness questions every week, making healthcare safety a major responsibility.",
+      "Karan Singhal argued that a smaller specialized health model would fall behind the frontier relatively quickly compared with OpenAI\u2019s general-purpose approach.",
+      "Karan Singhal said clinical guideline penetration can take 5 to 17 years, and AI could compress that bottleneck materially by bringing evidence to the point of care.",
+      "Karan Singhal said GP-6 Luna did better than GP-5.6 on OpenAI\u2019s latest clinician-workflow benchmark while being 34x cheaper.",
+      "Karan Singhal said the goal is not to replace medical care, but to provide medical information and act as a safety net inside care journeys.",
+      "Karan Singhal said the most important health impact in the next 5 to 10 years will likely come from AI-guided target/molecule generation and trial prioritization/validation."
+    ],
+    "investment_thesis": "OpenAI\u2019s health-AI edge is its cheaper, frontier-level model plus specialized medical training, which it says can outperform prior models while scaling across workflows like Epic.",
+    "key_tickers": null
+  },
+  {
     "id": 591,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
@@ -3282,7 +3300,7 @@
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "episode_date": "2026-08-11",
-    "summary": "This episode of Latent Space features an in-depth discussion with Matt McPartlon and Neil Patil from Chai Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
+    "summary": "This episode of Latent Space features an in-depth discussion with Matthew McPartlon and Neil Patil from Chai Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
     "key_takeaways": [
       "AI is transforming protein design, making it more similar to software development tools like AutoCAD or Figma.",
       "The traditional drug discovery process, often compared to a waterfall model, is evolving to become more agile with the help of AI.",
@@ -3556,12 +3574,12 @@
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Why smarter AI models could drive up compute prices 10x",
     "episode_date": "2026-08-03",
-    "summary": "The podcast discusses Anthropic's remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+    "summary": "The podcast discusses Anthropic's' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
     "key_takeaways": [
-      "Anthropic's revenue has grown 10x year over year for three consecutive years, with a projected $100 billion to $150 billion in revenue for the current year.",
-      "To maintain this trend, Anthropic would need to achieve $1 trillion in revenue by the end of next year.",
+      "Anthropic's' revenue has grown 10x year over year for three consecutive years, with a projected $100 billion to $150 billion in revenue for the current year.",
+      "To maintain this trend, Anthropic's would need to achieve $1 trillion in revenue by the end of next year.",
       "The lab compute growth of 3x year over year is insufficient to support the 10x revenue growth, suggesting a need for increased lab margins, higher compute prices, or a shift towards more inference compute usage.",
-      "Inference margins for Anthropic have reportedly increased from 40% to over 80% within the last year.",
+      "Inference margins for Anthropic's have reportedly increased from 40% to over 80% within the last year.",
       "The share of compute spent on inference by leading AI companies is increasing, with OpenAI reportedly shifting from 25% to possibly over 50%.",
       "The increasing efficiency of monetizing compute and the rising cost of computing could lead to higher margins for top labs and make it harder for competitors to keep up."
     ],

@@ -1,6 +1,37 @@
 {
   "insights": [
     {
+      "id": 603,
+      "title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-20",
+      "summary": "The episode centers on OpenAI\u2019s health-AI strategy with Karan Singhal arguing that the company is not building a separate \u201chealth-only\u201d model, but instead adding specialized medical data throughout training for its general-purpose frontier models. He says that approach preserves access to the frontier while improving medical usefulness, and that narrow specialty models would quickly fall behind.\n\nSinghal emphasizes the scale already reached: more than 300 million people use ChatGPT for health and wellness questions every week. He frames that usage as a major responsibility and says OpenAI is trying to make the product trustworthy through physician networks, evaluation benchmarks, and persona-aware behavior\u2014especially when users want reassurance but the safer answer is to escalate care or acknowledge uncertainty.\n\nA major theme is workflow integration. Singhal describes Epic connectivity, sidebars inside the EHR, and pilots with systems like UCSF and Advent Health as examples of reducing healthcare fragmentation. He argues AI can act as a \u201csafety net\u201d for both patients and clinicians, catching things like medication issues, while also becoming a proactive assistant that helps navigate chronic care, chart review, and clinical decision support.\n\nThe discussion also includes a cost and adoption argument: OpenAI says its cheapest frontier API model, GP-6 Luna, performed better than GP-5.6 on a clinician workflow benchmark while being 34x cheaper. Singhal uses that to support a broader claim that cheaper medical intelligence will drive more deployment and could eventually compress the long lag between research, guideline publication, and clinical practice from years into days or hours. He also predicts the biggest health impact in the next 5\u201310 years will come from AI-guided molecule/target generation and AI-guided prioritization and validation of clinical trials.",
+      "key_takeaway": "OpenAI\u2019s health-AI edge is its cheaper, frontier-level model plus specialized medical training, which it says can outperform prior models while scaling across workflows like Epic.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 592,
+      "notable_quotes": [
+        {
+          "speaker": "Karan Singhal",
+          "quote": "More than 300 million people are already using chatGPT for health and wellness questions every week."
+        },
+        {
+          "speaker": "Karan Singhal",
+          "quote": "what we found with GP-6 Luna was that it was actually doing better on our benchmark health benchmark professional our current latest benchmark of kind of clinician workflows that are like really difficult selected for difficulty for our current models across all the different ways in which clinicians are using our models"
+        },
+        {
+          "speaker": "Karan Singhal",
+          "quote": "and it's performed as better despite being 34 times cheaper"
+        }
+      ]
+    },
+    {
       "id": 601,
       "title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
       "source_type": "podcast",
@@ -302,7 +333,7 @@
         "PYPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-15",
       "archived_date": null,
@@ -4581,7 +4612,7 @@
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-08-11",
-      "summary": "This episode of Latent Space features an in-depth discussion with Matt McPartlon and Neil Patil from Chai Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
+      "summary": "This episode of Latent Space features an in-depth discussion with Matthew McPartlon and Neil Patil from Chai Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
       "key_takeaway": "Investing in AI-driven protein design companies like Chai Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
       "tickers_mentioned": [
         "AAPL"
@@ -4853,7 +4884,7 @@
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-08-03",
-      "summary": "The podcast discusses Anthropic's remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+      "summary": "The podcast discusses Anthropic's' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
       "key_takeaway": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
       "tickers_mentioned": [
         "GOOGL",
@@ -12968,6 +12999,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 311,
+      "term": "Cost of intelligence",
+      "description": "The effective cost of producing useful intelligence, which the speakers expect to decline as compute scales and models become more efficient. It is treated as a key analog to Moore\u2019s Law.",
+      "first_detected_date": "2026-10-15",
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Lower intelligence costs should expand AI adoption across enterprises, robotics, science, and consumer applications.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 580,
+      "first_detected_speaker": "Jensen Huang",
+      "last_mentioned_episode_id": 592,
+      "last_mentioned_speaker": "Karan Singhal"
+    },
+    {
       "id": 304,
       "term": "Hermes",
       "description": "Leash Bio\u2019s internal model that uses two protein-ligand embeddings and cross-attention to predict binding-related behavior. The episode frames it as a fast-iteration system rather than a SOTA-chasing architecture.",
@@ -13292,6 +13341,24 @@
       "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
     },
     {
+      "id": 310,
+      "term": "AI Arms Race",
+      "description": "The competition between nations, particularly the U.S. and China, to achieve dominance in artificial intelligence technology.",
+      "first_detected_date": "2026-09-25",
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "This matters for capital allocation as advancements in AI could redefine national security and economic power.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 528,
+      "first_detected_speaker": "Erik Townsend (hosts)",
+      "last_mentioned_episode_id": 592,
+      "last_mentioned_speaker": "Karan Singhal"
+    },
+    {
       "id": 286,
       "term": "Project-Based Learning",
       "description": "An educational approach where students learn by engaging in real-world projects rather than traditional lectures.",
@@ -13422,8 +13489,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-18",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -13432,8 +13499,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 588,
-      "last_mentioned_speaker": "Mario Martone"
+      "last_mentioned_episode_id": 592,
+      "last_mentioned_speaker": "Karan Singhal"
     },
     {
       "id": 284,
@@ -14484,8 +14551,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-15",
-      "mention_count": 118,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 119,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -14494,8 +14561,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 583,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 592,
+      "last_mentioned_speaker": "Karan Singhal"
     },
     {
       "id": 162,
@@ -15564,8 +15631,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 125,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 126,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -15574,8 +15641,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
+      "last_mentioned_episode_id": 592,
+      "last_mentioned_speaker": "Karan Singhal"
     },
     {
       "id": 38,
