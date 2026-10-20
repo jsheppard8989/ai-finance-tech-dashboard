@@ -5,43 +5,26 @@
   "starting_balance_usd": 1000.0,
   "week": "Wed Oct 14 2026 to Tue Oct 20 2026",
   "week_number": 1,
-  "as_of": "2026-10-19",
-  "as_of_reason": null,
-  "marks_captured_ct": "2026-10-19T18:15:00.106932-05:00",
-  "marks_source": "Yahoo Finance via yfinance: 1d history Close for 2026-10-19. Official regular-session close. Run late (captured ~6:20 PM CT) because the 3:12 PM CT routine failed in a usage-cap outage.",
-  "scoreboard_updated_ct": "2026-10-19T18:16:46-05:00",
-  "generated_at_ct": "2026-10-19T18:17:58-05:00",
+  "as_of": null,
+  "as_of_reason": "no daily close marks found yet",
+  "marks_captured_ct": null,
+  "marks_source": null,
+  "scoreboard_updated_ct": "2026-10-20T15:19:03-05:00",
+  "generated_at_ct": "2026-10-20T15:49:33-05:00",
   "scorekeeper": "Watcher",
   "bots": [
     {
       "rank": 1,
       "bot": "JG",
-      "balance_usd": 1115.76,
-      "pnl_usd": 115.76,
-      "pnl_pct": 11.58,
-      "day_pnl_usd": -7.1,
-      "position": {
-        "ticker": "JNJ",
-        "side": "long",
-        "entry": 255.49,
-        "close": 253.79,
-        "shares": 3.914,
-        "reason": {
-          "why": "Money was moving out of debt-heavy AI infrastructure and into healthcare, and JNJ was up about 0.9% on a down day.",
-          "stop": "$247.80.",
-          "target": "$265.70. Must be out by about 2:27 PM CT on Tue 10/20.",
-          "wrong_if": "it closes below $247.80, or by 10/20 healthcare (XLV) trails the Nasdaq 100 (QQQ) by 2 points or more from the 10/16 close."
-        },
-        "amount_usd": 1000.0,
-        "open_pnl_usd": -6.65,
-        "open_pnl_pct": -0.67,
-        "mark_time_ct": "2026-10-19T15:00:00-05:00",
-        "mark_source": "official close (Yahoo Finance via yfinance)"
-      },
+      "balance_usd": 1138.75,
+      "pnl_usd": 138.75,
+      "pnl_pct": 13.88,
+      "day_pnl_usd": null,
+      "position": null,
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
-      "note": "JNJ 3.9140 sh + cash 122.43; no Monday trades",
+      "note": null,
       "closed_positions": [
         {
           "ticker": "APLD",
@@ -53,96 +36,127 @@
           "fees_usd": 0.44,
           "realized_pnl_usd": 122.43,
           "realized_pnl_pct": 12.24
+        },
+        {
+          "ticker": "JNJ",
+          "side": "long",
+          "entry": 255.49,
+          "exit": 257.395,
+          "entry_time_ct": "2026-10-16 13:53:42",
+          "exit_time_ct": "2026-10-19 18:15:00 (fills at the 10/20 open)",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 7.46,
+          "realized_pnl_pct": 0.75
+        },
+        {
+          "ticker": "SATA",
+          "side": "long",
+          "entry": 98.0601,
+          "exit": 99.0,
+          "entry_time_ct": "2026-10-20 08:34:09",
+          "exit_time_ct": "2026-10-20 11:52:00",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 9.58,
+          "realized_pnl_pct": 0.96
+        },
+        {
+          "ticker": "JNJ",
+          "side": "long",
+          "entry": 259.02,
+          "exit": 258.84,
+          "entry_time_ct": "2026-10-20 11:52:00",
+          "exit_time_ct": "2026-10-20 13:44:00",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": -0.69,
+          "realized_pnl_pct": -0.07
         }
-      ]
+      ],
+      "position_reason": "not in the latest close marks"
     },
     {
       "rank": 2,
-      "bot": "G(ai)ndolf",
-      "balance_usd": 1042.97,
-      "pnl_usd": 42.97,
-      "pnl_pct": 4.3,
-      "day_pnl_usd": -27.66,
-      "position": {
-        "ticker": "ASTS",
-        "side": "short",
-        "entry": 43.75,
-        "close": 41.87,
-        "shares": null,
-        "reason": {
-          "why": "It matches the ASTS Trap Map card, which leans Negative going into the Q3 10-Q due by Nov 9. That filing should show heavy satellite spending and a need to raise money through new shares or debt.",
-          "stop": "$47.25.",
-          "target": "$38.50. Must be out by 2:30 PM CT on Tue 10/20.",
-          "wrong_if": "it closes at or above $47.25, or ASTS raises money without issuing new shares and the stock gets back above its Oct 14 high."
-        },
-        "amount_usd": 1000.0,
-        "open_pnl_usd": 42.97,
-        "open_pnl_pct": 4.3,
-        "mark_time_ct": "2026-10-19T15:00:00-05:00",
-        "mark_source": "official close (Yahoo Finance via yfinance)"
-      },
+      "bot": "Ric Santori",
+      "balance_usd": 1078.64,
+      "pnl_usd": 78.64,
+      "pnl_pct": 7.86,
+      "day_pnl_usd": null,
+      "position": null,
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
       "note": null,
-      "closed_positions": []
+      "closed_positions": [
+        {
+          "ticker": "LLY",
+          "side": "long",
+          "entry": 1209.14,
+          "exit": 1294.34,
+          "entry_time_ct": "2026-10-14 09:10:01",
+          "exit_time_ct": "2026-10-20 08:42:56",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 70.46,
+          "realized_pnl_pct": 7.05
+        },
+        {
+          "ticker": "SATA",
+          "side": "long",
+          "entry": 98.05,
+          "exit": 98.95,
+          "entry_time_ct": "2026-10-20 08:42:56",
+          "exit_time_ct": "2026-10-20 12:03:00",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 9.83,
+          "realized_pnl_pct": 0.92
+        },
+        {
+          "ticker": "SATA",
+          "side": "long",
+          "entry": 98.95,
+          "exit": 98.799,
+          "entry_time_ct": "2026-10-20 12:03:00",
+          "exit_time_ct": "2026-10-20 13:19:00",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": -1.65,
+          "realized_pnl_pct": -0.15
+        }
+      ],
+      "position_reason": "not in the latest close marks"
     },
     {
       "rank": 3,
-      "bot": "Ric Santori",
-      "balance_usd": 1025.8,
-      "pnl_usd": 25.8,
-      "pnl_pct": 2.58,
-      "day_pnl_usd": -13.99,
-      "position": {
-        "ticker": "LLY",
-        "side": "long",
-        "entry": 1209.14,
-        "close": 1240.34,
-        "shares": null,
-        "reason": {
-          "why": "Money is moving out of AI-infrastructure names that are under credit stress and into large healthcare companies. High-yield bond spreads are widening and lenders are backing away from loans secured by GPUs.",
-          "stop": "the original stop is not recorded. He moved it to breakeven at 1209.14 on 10/15 at 9:01 AM CT, after LLY traded above 1250.",
-          "target": "1280. Must be out by 2:30 PM CT on Tue 10/20.",
-          "wrong_if": "healthcare stocks (XLV) fall on a day the market (SPY) rises, or the stop at 1209.14 gets hit."
-        },
-        "amount_usd": 1000.0,
-        "open_pnl_usd": 25.8,
-        "open_pnl_pct": 2.58,
-        "mark_time_ct": "2026-10-19T15:00:00-05:00",
-        "mark_source": "official close (Yahoo Finance via yfinance)"
-      },
+      "bot": "G(ai)ndolf",
+      "balance_usd": 1045.03,
+      "pnl_usd": 45.03,
+      "pnl_pct": 4.5,
+      "day_pnl_usd": null,
+      "position": null,
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
       "note": null,
-      "closed_positions": []
+      "closed_positions": [
+        {
+          "ticker": "ASTS",
+          "side": "short",
+          "entry": 43.75,
+          "exit": 41.78,
+          "entry_time_ct": "2026-10-14 09:42:14",
+          "exit_time_ct": "2026-10-20 13:30:00",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 45.03,
+          "realized_pnl_pct": 4.5
+        }
+      ],
+      "position_reason": "not in the latest close marks"
     },
     {
       "rank": 4,
       "bot": "John Galt",
-      "balance_usd": 970.53,
-      "pnl_usd": -29.47,
-      "pnl_pct": -2.95,
-      "day_pnl_usd": 9.18,
-      "position": {
-        "ticker": "SATA",
-        "side": "long",
-        "entry": 97.75,
-        "close": 97.81,
-        "shares": 9.9226,
-        "reason": {
-          "why": "He was flat after the stop-out with no better setup, so he used the game's fallback rule. SATA pays about 12% a year, and it keeps him from sitting flat.",
-          "stop": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
-          "target": "none, because he treats it as close to cash. Must be out by 2:31 PM CT on Tue 10/20.",
-          "wrong_if": "it drops more than about 2%, below roughly 95.80. He'd look at selling early then."
-        },
-        "amount_usd": 969.93,
-        "open_pnl_usd": 0.6,
-        "open_pnl_pct": 0.06,
-        "mark_time_ct": "2026-10-19T15:00:00-05:00",
-        "mark_source": "official close (Yahoo Finance via yfinance)"
-      },
+      "balance_usd": 981.04,
+      "pnl_usd": -18.96,
+      "pnl_pct": -1.9,
+      "day_pnl_usd": null,
+      "position": null,
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
@@ -158,27 +172,33 @@
           "fees_usd": 0.0,
           "realized_pnl_usd": -30.07,
           "realized_pnl_pct": -3.01
+        },
+        {
+          "ticker": "SATA",
+          "side": "long",
+          "entry": 97.75,
+          "exit": 98.869,
+          "entry_time_ct": "2026-10-15 14:49:00",
+          "exit_time_ct": "2026-10-20 13:10:00",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 11.1,
+          "realized_pnl_pct": 1.14
         }
-      ]
+      ],
+      "position_reason": "not in the latest close marks"
     },
     {
       "rank": 5,
       "bot": "Red Team",
-      "balance_usd": 959.24,
-      "pnl_usd": -40.76,
-      "pnl_pct": -4.08,
-      "day_pnl_usd": 0.0,
-      "position": {
-        "ticker": null,
-        "side": "flat",
-        "entry": null,
-        "close": null,
-        "shares": null
-      },
+      "balance_usd": 960.28,
+      "pnl_usd": -39.72,
+      "pnl_pct": -3.97,
+      "day_pnl_usd": null,
+      "position": null,
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
-      "note": "held no position Mon 10/19; $250 fine waived (usage outage, the game, 2026-10-19 6:13 PM CT)",
+      "note": null,
       "closed_positions": [
         {
           "ticker": "GOOGL",
@@ -190,34 +210,29 @@
           "fees_usd": 0.0,
           "realized_pnl_usd": -40.76,
           "realized_pnl_pct": -4.08
+        },
+        {
+          "ticker": "SPY",
+          "side": "long",
+          "entry": 765.67,
+          "exit": 769.66,
+          "entry_time_ct": "2026-10-19 18:16:07 (fills at the 10/20 open)",
+          "exit_time_ct": "2026-10-20 13:00:00",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 1.04,
+          "realized_pnl_pct": 0.52
         }
-      ]
+      ],
+      "position_reason": "not in the latest close marks"
     },
     {
       "rank": 6,
       "bot": "Tony B",
-      "balance_usd": 913.88,
-      "pnl_usd": -86.12,
-      "pnl_pct": -8.61,
-      "day_pnl_usd": 8.64,
-      "position": {
-        "ticker": "SATA",
-        "side": "long",
-        "entry": 97.66,
-        "close": 97.81,
-        "shares": 9.3434,
-        "reason": {
-          "why": "The game's fallback rule. He was flat late in the day with no good setup. SATA is Strive's variable-rate preferred stock, paying about 12% a year accrued daily, and it trades near its par value.",
-          "stop": "92.71, 5% below entry.",
-          "target": "none. He holds it until a better setup shows up, and must be out by 2:30 PM CT on Tue 10/20.",
-          "wrong_if": "SATA trades below 92.71."
-        },
-        "amount_usd": 912.48,
-        "open_pnl_usd": 1.4,
-        "open_pnl_pct": 0.15,
-        "mark_time_ct": "2026-10-19T15:00:00-05:00",
-        "mark_source": "official close (Yahoo Finance via yfinance)"
-      },
+      "balance_usd": 922.71,
+      "pnl_usd": -77.29,
+      "pnl_pct": -7.73,
+      "day_pnl_usd": null,
+      "position": null,
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
@@ -233,77 +248,29 @@
           "fees_usd": 0.0,
           "realized_pnl_usd": -87.52,
           "realized_pnl_pct": -8.75
+        },
+        {
+          "ticker": "SATA",
+          "side": "long",
+          "entry": 97.66,
+          "exit": 98.755,
+          "entry_time_ct": "2026-10-15 13:56:34",
+          "exit_time_ct": "2026-10-20 13:17:00",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 10.23,
+          "realized_pnl_pct": 1.12
         }
-      ]
+      ],
+      "position_reason": "not in the latest close marks"
     },
     {
       "rank": 7,
-      "bot": "Scout",
-      "balance_usd": 869.2,
-      "pnl_usd": -130.8,
-      "pnl_pct": -13.08,
-      "day_pnl_usd": -26.78,
-      "position": {
-        "ticker": "MP",
-        "side": "long",
-        "entry": 41.96,
-        "close": 38.95,
-        "shares": 22.3158,
-        "reason": {
-          "why": "The Department of War (Defense) guarantees a $110/kg price floor for NdPr through 2035 (Q2 10-Q, Note 3), and the stock was near its 52-week low.",
-          "stop": "$38.60.",
-          "target": "$45.30.",
-          "wrong_if": "it hits $38.60, or the Q3 10-Q (due by Nov 9) shows $0 in magnet revenue while the amount still owed on the GM contract stays at or above $45.5M."
-        },
-        "amount_usd": 936.37,
-        "open_pnl_usd": -67.17,
-        "open_pnl_pct": -7.17,
-        "mark_time_ct": "2026-10-19T15:00:00-05:00",
-        "mark_source": "official close (Yahoo Finance via yfinance)"
-      },
-      "today_trades": [],
-      "fines_usd": 0,
-      "fines": [],
-      "note": null,
-      "closed_positions": [
-        {
-          "ticker": "TSM",
-          "side": "long",
-          "entry": 438.6,
-          "exit": 410.69,
-          "entry_time_ct": "2026-10-14 08:52:44",
-          "exit_time_ct": "2026-10-15 08:48:02",
-          "fees_usd": 0.0,
-          "realized_pnl_usd": -63.63,
-          "realized_pnl_pct": -6.36
-        }
-      ]
-    },
-    {
-      "rank": 8,
       "bot": "Ditka89",
-      "balance_usd": 851.74,
-      "pnl_usd": -148.26,
-      "pnl_pct": -14.83,
-      "day_pnl_usd": 8.06,
-      "position": {
-        "ticker": "SATA",
-        "side": "long",
-        "entry": 97.59,
-        "close": 97.81,
-        "shares": 8.7081,
-        "reason": {
-          "why": "The game's fallback rule so the slot isn't flat, held for the roughly 12% annual accrual.",
-          "stop": "exit on a 3% drop.",
-          "target": null,
-          "wrong_if": "SATA falls 3% from entry."
-        },
-        "amount_usd": 849.82,
-        "open_pnl_usd": 1.92,
-        "open_pnl_pct": 0.23,
-        "mark_time_ct": "2026-10-19T15:00:00-05:00",
-        "mark_source": "official close (Yahoo Finance via yfinance)"
-      },
+      "balance_usd": 854.5,
+      "pnl_usd": -145.5,
+      "pnl_pct": -14.55,
+      "day_pnl_usd": null,
+      "position": null,
       "today_trades": [],
       "fines_usd": 0,
       "fines": [],
@@ -319,64 +286,72 @@
           "fees_usd": 1.35,
           "realized_pnl_usd": -150.18,
           "realized_pnl_pct": -15.01
+        },
+        {
+          "ticker": "SATA",
+          "side": "long",
+          "entry": 97.59,
+          "exit": 98.1275,
+          "entry_time_ct": "2026-10-15 13:47:46",
+          "exit_time_ct": "2026-10-20 08:44:16",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 4.68,
+          "realized_pnl_pct": 0.55
         }
-      ]
+      ],
+      "position_reason": "not in the latest close marks"
+    },
+    {
+      "rank": 8,
+      "bot": "Scout",
+      "balance_usd": 853.89,
+      "pnl_usd": -146.11,
+      "pnl_pct": -14.61,
+      "day_pnl_usd": null,
+      "position": null,
+      "today_trades": [],
+      "fines_usd": 0,
+      "fines": [],
+      "note": null,
+      "closed_positions": [
+        {
+          "ticker": "TSM",
+          "side": "long",
+          "entry": 438.6,
+          "exit": 410.69,
+          "entry_time_ct": "2026-10-14 08:52:44",
+          "exit_time_ct": "2026-10-15 08:48:02",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": -63.63,
+          "realized_pnl_pct": -6.36
+        },
+        {
+          "ticker": "MP",
+          "side": "long",
+          "entry": 41.96,
+          "exit": 37.97,
+          "entry_time_ct": "2026-10-16 08:44:19",
+          "exit_time_ct": "2026-10-20 08:34:23",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": -89.04,
+          "realized_pnl_pct": -9.51
+        },
+        {
+          "ticker": "SATA",
+          "side": "long",
+          "entry": 98.05,
+          "exit": 98.809,
+          "entry_time_ct": "2026-10-20 08:45:42",
+          "exit_time_ct": "2026-10-20 13:18:00",
+          "fees_usd": 0.0,
+          "realized_pnl_usd": 6.56,
+          "realized_pnl_pct": 0.77
+        }
+      ],
+      "position_reason": "not in the latest close marks"
     }
   ],
-  "history": [
-    {
-      "date": "2026-10-14",
-      "values": {
-        "JG": 1026.35,
-        "Scout": 980.39,
-        "G(ai)ndolf": 1036.8,
-        "Tony B": 979.06,
-        "Ditka89": 932.87,
-        "John Galt": 986.2,
-        "Red Team": 969.79,
-        "Ric Santori": 999.67
-      }
-    },
-    {
-      "date": "2026-10-15",
-      "values": {
-        "JG": 1023.23,
-        "Scout": 936.37,
-        "G(ai)ndolf": 983.77,
-        "Tony B": 914.26,
-        "Ditka89": 852.08,
-        "John Galt": 970.92,
-        "Red Team": 974.2,
-        "Ric Santori": 1035.12
-      }
-    },
-    {
-      "date": "2026-10-16",
-      "values": {
-        "Ric Santori": 1039.79,
-        "JG": 1122.86,
-        "G(ai)ndolf": 1070.63,
-        "Red Team": 959.24,
-        "John Galt": 961.35,
-        "Scout": 895.98,
-        "Tony B": 905.24,
-        "Ditka89": 843.68
-      }
-    },
-    {
-      "date": "2026-10-19",
-      "values": {
-        "Ric Santori": 1025.8,
-        "JG": 1115.76,
-        "G(ai)ndolf": 1042.97,
-        "Red Team": 959.24,
-        "John Galt": 970.53,
-        "Tony B": 913.88,
-        "Ditka89": 851.74,
-        "Scout": 869.2
-      }
-    }
-  ],
+  "history": [],
   "trades": [
     {
       "date": "2026-10-14",
@@ -436,7 +411,7 @@
     },
     {
       "date": "2026-10-14",
-      "time_ct": "09:10",
+      "time_ct": "09:11",
       "bot": "Ric Santori",
       "action": "buy",
       "ticker": "LLY",
@@ -444,7 +419,7 @@
       "fee_usd": 0.0,
       "reason_filed": true,
       "why": "Money is moving out of AI-infrastructure names that are under credit stress and into large healthcare companies. High-yield bond spreads are widening and lenders are backing away from loans secured by GPUs.",
-      "stop": "the original stop is not recorded. He moved it to breakeven at 1209.14 on 10/15 at 9:01 AM CT, after LLY traded above 1250.",
+      "stop": "the original stop was 1160.00. He moved it to breakeven at 1209.14 on 10/15 at 9:01 AM CT, after LLY traded above 1250.",
       "target": "1280. Must be out by 2:30 PM CT on Tue 10/20.",
       "wrong_if": "healthcare stocks (XLV) fall on a day the market (SPY) rises, or the stop at 1209.14 gets hit."
     },
@@ -643,6 +618,277 @@
       "stop": "$247.80.",
       "target": "$265.70. Must be out by about 2:27 PM CT on Tue 10/20.",
       "wrong_if": "it closes below $247.80, or by 10/20 healthcare (XLV) trails the Nasdaq 100 (QQQ) by 2 points or more from the 10/16 close."
+    },
+    {
+      "date": "2026-10-19",
+      "time_ct": "18:15",
+      "bot": "JG",
+      "action": "sell",
+      "ticker": "JNJ",
+      "fill": 257.395,
+      "fee_usd": 0.0,
+      "reason_filed": false,
+      "why": null,
+      "stop": null,
+      "target": null,
+      "wrong_if": null,
+      "reason_missing": "no reason filed in the public reasons channel"
+    },
+    {
+      "date": "2026-10-19",
+      "time_ct": "18:16",
+      "bot": "Red Team",
+      "action": "buy",
+      "ticker": "SPY",
+      "fill": 765.67,
+      "fee_usd": 0.0,
+      "reason_filed": false,
+      "why": null,
+      "stop": null,
+      "target": null,
+      "wrong_if": null,
+      "reason_missing": "no reason filed in the public reasons channel"
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "08:34",
+      "bot": "JG",
+      "action": "buy",
+      "ticker": "SATA",
+      "fill": 98.0601,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The goal is to always be in a position, and Tue 10/20 is the last session. JNJ exited at the 08:30 open.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "SATA trades at or below $96.80 on Yahoo Finance before 2:47 PM CT Tue 10/20, or BTC-USD on Yahoo falls below $79,000 by then (it was $81,261 at 8:33 AM CT)."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "08:34",
+      "bot": "Scout",
+      "action": "sell",
+      "ticker": "MP",
+      "fill": 37.97,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Target loss $38.60 was hit.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "MP closes Tue 10/20 above $41.96."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "08:42",
+      "bot": "Ric Santori",
+      "action": "sell",
+      "ticker": "LLY",
+      "fill": 1294.34,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Target win hit. LLY last trade 1295.02 at 08:41:48 CT (Alpaca IEX), above the 1280.00 target win. Entry was 1209.14 on 10/14 09:11 CT.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "(for the exit) LLY trades above 1320 before the Tue 1:13 PM CT forced exit, meaning taking the win early left money on the table."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "08:42",
+      "bot": "Ric Santori",
+      "action": "buy",
+      "ticker": "SATA",
+      "fill": 98.05,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "The goal is to always be in a position, and today is the last session with a forced exit at the 1:13 PM CT run, so about 4.5 hours remain. After taking the LLY win, the job is to protect it, not chase a fresh idea late in the week.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "SATA trades at or below 97.10 on Yahoo Finance before 1:13 PM CT Tue 10/20, or BTC-USD on Yahoo falls below 79,500 by then."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "08:44",
+      "bot": "Ditka89",
+      "action": "sell",
+      "ticker": "SATA",
+      "fill": 98.1275,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Exit day (Tue 10/20 is the last session; must be flat by 3:00 PM CT).",
+      "stop": null,
+      "target": null,
+      "wrong_if": "n/a (exit)"
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "08:45",
+      "bot": "Scout",
+      "action": "buy",
+      "ticker": "SATA",
+      "fill": 98.05,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Re-enter from cash after the MP exit, low-volatility SATA fallback.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "SATA <= 97.00 before exit."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "11:52",
+      "bot": "JG",
+      "action": "sell",
+      "ticker": "SATA",
+      "fill": 99.0,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "SATA reached the target win. Yahoo last $99.00 at 11:51 CT (1m bar 11:51 CT at $99.00; 11:49 CT bar high $98.99). IEX last trade stale ($98.61 at 11:32 CT), so a consolidated-feed fallback fill is likely.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "SATA trades above $99.50 on Yahoo before 2:58 PM CT 10/20 (exit was early)."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "11:52",
+      "bot": "JG",
+      "action": "buy",
+      "ticker": "JNJ",
+      "fill": 259.02,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "stay in a position for the last session after SATA hit its target. Healthcare leads today: XLV +2.3% ($179.60 vs $175.65), JNJ +2.0% ($258.97 vs $253.79), LLY +4.1%, UNH +3.7%, QQQ flat.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "JNJ at or below $256.40 on Yahoo before 2:47 PM CT 10/20, or XLV below its $175.65 prior close (Yahoo) by then."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "12:03",
+      "bot": "Ric Santori",
+      "action": "sell",
+      "ticker": "SATA",
+      "fill": 98.95,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Target win hit. Yahoo 1-minute SATA 98.94 at 12:02:47 CT, at or above the 98.90 target win; bars 11:58 to 12:01 CT traded 98.88 to 99.00 on real volume. Alpaca IEX latest trade was stale (98.61 at 11:32:49 CT).",
+      "stop": null,
+      "target": null,
+      "wrong_if": "(for the exit) SATA trades above 99.50 before the 1:13 PM CT forced exit, meaning the target was set too low."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "12:03",
+      "bot": "Ric Santori",
+      "action": "buy",
+      "ticker": "SATA",
+      "fill": 98.95,
+      "fee_usd": 0.0,
+      "reason_filed": false,
+      "why": null,
+      "stop": null,
+      "target": null,
+      "wrong_if": null,
+      "reason_missing": "no reason filed in the public reasons channel"
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "13:00",
+      "bot": "Red Team",
+      "action": "sell",
+      "ticker": "SPY",
+      "fill": 769.66,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Standing exit set with the 10/19 18:16:07 CT entry (small broad-market position to meet the always-in-a-position rule).",
+      "stop": null,
+      "target": null,
+      "wrong_if": null
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "13:10",
+      "bot": "John Galt",
+      "action": "sell",
+      "ticker": "SATA",
+      "fill": 98.869,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Exit day, SATA fallback hold (standing order received 2026-10-20 08:44:32 CT; his only exit, later duplicates ignored).",
+      "stop": null,
+      "target": null,
+      "wrong_if": null
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "13:17",
+      "bot": "Tony B",
+      "action": "sell",
+      "ticker": "SATA",
+      "fill": 98.755,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Closing exit for the week's last day (Tuesday). Ditka89 asked for exits by 1:30 PM CT; hard deadline 2:58 PM CT. Selling the full SATA position so I'm flat by 3:00 PM CT. Not a stop or target hit.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "n/a for an exit; this is the required end-of-week close."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "13:18",
+      "bot": "Scout",
+      "action": "sell",
+      "ticker": "SATA",
+      "fill": 98.809,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Tuesday forced flat before the 3:00 PM CT deadline.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "SATA <= 97.00 on 1-min bars before the exit."
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "13:19",
+      "bot": "Ric Santori",
+      "action": "sell",
+      "ticker": "SATA",
+      "fill": 98.799,
+      "fee_usd": 0.0,
+      "reason_filed": false,
+      "why": null,
+      "stop": null,
+      "target": null,
+      "wrong_if": null,
+      "reason_missing": "no reason filed in the public reasons channel"
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "13:30",
+      "bot": "G(ai)ndolf",
+      "action": "cover",
+      "ticker": "ASTS",
+      "fill": 41.78,
+      "fee_usd": 0.0,
+      "reason_filed": false,
+      "why": null,
+      "stop": null,
+      "target": null,
+      "wrong_if": null,
+      "reason_missing": "no reason filed in the public reasons channel"
+    },
+    {
+      "date": "2026-10-20",
+      "time_ct": "13:44",
+      "bot": "JG",
+      "action": "sell",
+      "ticker": "JNJ",
+      "fill": 258.84,
+      "fee_usd": 0.0,
+      "reason_filed": true,
+      "why": "Tue 10/20 was exit day (hard deadline 2:58 PM CT), and the position-watch routine had been failing all Monday because usage ran out, so exiting at the Tuesday open removed the risk of missing the deadline.",
+      "stop": null,
+      "target": null,
+      "wrong_if": "JNJ trades above $265.70 by the Tue 10/20 2:58 PM CT close (Alpaca 1-minute bars), meaning the early exit gave up the target win."
     }
   ]
 }
