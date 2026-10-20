@@ -664,17 +664,51 @@ def _apply_name_replacements(obj, replacements, key=None):
     return obj
 
 
-def _apply_term_overrides(terms):
-    """Apply 'terms' rules (matched by exact term text) to suggested-term records (in place)."""
-    rules = _load_override_rules().get("terms", [])
-    for t in terms if isinstance(terms, list) else []:
+def _term_rule_matches(rule, t):
+    if rule.get("id") is not None and t.get("id") == rule["id"]:
+        return True
+    return bool(rule.get("term")) and t.get("term") == rule["term"]
+
+
+def _apply_term_overrides(terms, rules=None):
+    """Apply 'terms' rules (matched by id or exact term text) to term records (in place).
+
+    A rule with "drop": true removes the record (quote fragments such as "floor").
+    A rule's optional "scope" ("suggested" / "overton") limits where it applies; ids differ
+    between suggested_terms and overton_terms, so id rules should set a scope.
+    """
+    if rules is None:
+        rules = _load_override_rules().get("terms", [])
+    if not isinstance(terms, list):
+        return terms
+    keep = []
+    for t in terms:
         if not isinstance(t, dict):
+            keep.append(t)
             continue
+        dropped = False
         for r in rules:
-            if r.get("term") and t.get("term") == r["term"]:
+            if _term_rule_matches(r, t):
+                if r.get("drop"):
+                    dropped = True
+                    break
                 for field, value in r.get("set", {}).items():
                     t[field] = value
+        if not dropped:
+            keep.append(t)
+    terms[:] = keep
     return terms
+
+
+def _apply_overton_term_overrides(container, keys=("overton", "overton_recent", "overton_established")):
+    """Apply overton-scoped term rules to Overton lists in mainContent / archive (in place)."""
+    rules = [r for r in _load_override_rules().get("terms", []) if r.get("scope") == "overton"]
+    if not rules or not isinstance(container, dict):
+        return container
+    for k in keys:
+        if isinstance(container.get(k), list):
+            _apply_term_overrides(container[k], rules)
+    return container
 
 
 CURATED_OVERTON_PATH = Path(__file__).parent.parent / "site" / "data" / "curated_overton.json"
@@ -1740,7 +1774,10 @@ def generate_website_js():
     _apply_summary_overrides(main_content)
     _apply_summary_overrides(deepdives)
     _apply_summary_overrides(podcast_guests)
-    _apply_term_overrides(suggested_terms)
+    _apply_term_overrides(suggested_terms, [r for r in _load_override_rules().get("terms", [])
+                                            if r.get("scope", "suggested") == "suggested"])
+    _apply_overton_term_overrides(main_content)
+    _apply_overton_term_overrides(archive)
     _drop_terms_pinned_as_curated(suggested_terms)
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
