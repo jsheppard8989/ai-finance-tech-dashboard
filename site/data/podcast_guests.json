@@ -1,6 +1,6 @@
 [
   {
-    "id": 92491,
+    "id": 92675,
     "name": "Jean Denigrez",
     "slug": "jean-denigrez",
     "bio": null,
@@ -12,7 +12,19 @@
     "appearance_count": 1
   },
   {
-    "id": 92492,
+    "id": 92676,
+    "name": "Dylan Field",
+    "slug": "dylan-field",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
+    "last_episode_title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-19",
+    "appearance_count": 1
+  },
+  {
+    "id": 92677,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92493,
+    "id": 92678,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92494,
+    "id": 92679,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92495,
+    "id": 92680,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92497,
+    "id": 92682,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 2
   },
   {
-    "id": 92496,
+    "id": 92681,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92498,
+    "id": 92683,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92499,
+    "id": 92684,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92500,
+    "id": 92685,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92501,
+    "id": 92686,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92502,
+    "id": 92687,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92503,
+    "id": 92688,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92504,
+    "id": 92689,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92505,
+    "id": 92690,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92506,
+    "id": 92691,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92507,
+    "id": 92692,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92508,
+    "id": 92693,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92509,
+    "id": 92694,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92510,
+    "id": 92695,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92511,
+    "id": 92696,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92512,
+    "id": 92697,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92513,
+    "id": 92698,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92514,
+    "id": 92699,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92515,
+    "id": 92700,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92516,
+    "id": 92701,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92517,
+    "id": 92702,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92518,
+    "id": 92703,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 92519,
+    "id": 92704,
     "name": "Maggie Landers",
     "slug": "maggie-landers",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-27",
-    "appearance_count": 1
-  },
-  {
-    "id": 92520,
-    "name": "Eddy Lazzarin",
-    "slug": "eddy-lazzarin",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
-    "last_episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-24",
     "appearance_count": 1
   }
 ]

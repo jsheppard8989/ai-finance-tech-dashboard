@@ -1,5 +1,23 @@
 [
   {
+    "id": 591,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
+    "episode_date": "2026-10-19",
+    "summary": "Dylan Field argues that AI is changing software in a way that makes design the key differentiator, not raw coding ability. His core framing is that AI lowers the \"floor\" for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point of view.\n\nHe applies that thesis directly to Figma, saying the company\u2019s center is design and that it wins by building professional workflow UX, not by chasing model output alone. He warns that investors and operators often confuse model progress with product progress, and points to Cursor as an example of a company that won by obsessing over user experience even while frontier labs chased it with their own models.\n\nField also revisits Figma\u2019s regulatory saga. He says Adobe offered to buy Figma for $20 billion, then the deal went through 16 months of regulatory review before being blocked, which he describes as a punishing process that can be destructive to the parties involved. On the business side, he notes that after Anthropic\u2019s \"cloud design\" announcement, Figma\u2019s business did not meaningfully suffer and the company grew 48% year over year in the referenced quarter.\n\nHis broader prediction is that creative software will bifurcate around trust, authorship, and craftsmanship. In a world flooded with AI-generated content, he expects audiences to look for signals of care and originality, while tools like Figma and node-based systems help people move beyond prompting into real creative control.",
+    "key_takeaways": [
+      "Dylan Field said \"design is the new code,\" arguing differentiation will shift toward design, brand, and point of view as coding becomes easier.",
+      "Field said AI lowers the \"floor\" of digital production, but \"AI is not raising the ceiling,\" because humans still create the highest-quality work through boldness and craft.",
+      "Field said it is \"easy to mistake model progress for product progress,\" warning that investors may overvalue model capability while ignoring workflow and UX.",
+      "Field said Figma's core is professional design workflow, not just generative output, and that its advantage comes from getting the product experience right over time.",
+      "Field cited Cursor as an example of a company that won by obsessing over the user while frontier labs chased it with their own models.",
+      "Field said Adobe offered to buy Figma for $20 billion and that the deal faced 16 months of regulatory review before being blocked.",
+      "Field said Anthropic's \"cloud design\" announcement did not materially hurt Figma's business and referenced 48% year-over-year growth in the quarter after that announcement."
+    ],
+    "investment_thesis": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
+    "key_tickers": null
+  },
+  {
     "id": 590,
     "podcast_name": "The a16z Show",
     "episode_title": "What Happens When Al Agents Can Spend Your Money?",
