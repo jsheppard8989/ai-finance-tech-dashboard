@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T22:12:57.136778",
-  "last_updated": "2026-10-19T22:12:57.136778",
-  "last_pipeline_run": "2026-10-19T22:12:57.136778",
+  "generated_at": "2026-10-19T23:45:03.819915",
+  "last_updated": "2026-10-19T23:45:03.819915",
+  "last_pipeline_run": "2026-10-19T23:45:03.819915",
   "main_page": {
     "overton": 13,
     "insights": 12,
@@ -18,33 +18,14 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "ec72ab3a-2b5c-4f7b-9194-875ce45930d1",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
-      "published": "2026-10-19",
-      "rss_guid": "ec72ab3a-2b5c-4f7b-9194-875ce45930d1",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
