@@ -1,6 +1,18 @@
 [
   {
-    "id": 93230,
+    "id": 93415,
+    "name": "Karan Singhal",
+    "slug": "karan-singhal",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "OpenAI\u2019s health-AI edge is its cheaper, frontier-level model plus specialized medical training, which it says can outperform prior models while scaling across workflows like Epic.",
+    "last_episode_title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-20",
+    "appearance_count": 1
+  },
+  {
+    "id": 93416,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93231,
+    "id": 93417,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93232,
+    "id": 93418,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93233,
+    "id": 93419,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93234,
+    "id": 93420,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93235,
+    "id": 93421,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93237,
+    "id": 93423,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 2
   },
   {
-    "id": 93236,
+    "id": 93422,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93238,
+    "id": 93424,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93239,
+    "id": 93425,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93240,
+    "id": 93426,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93241,
+    "id": 93427,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93242,
+    "id": 93428,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93243,
+    "id": 93429,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93244,
+    "id": 93430,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93245,
+    "id": 93431,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93246,
+    "id": 93432,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93247,
+    "id": 93433,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93248,
+    "id": 93434,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93249,
+    "id": 93435,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93250,
+    "id": 93436,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93251,
+    "id": 93437,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93252,
+    "id": 93438,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93253,
+    "id": 93439,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93254,
+    "id": 93440,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93255,
+    "id": 93441,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93256,
+    "id": 93442,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93257,
+    "id": 93443,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93258,
+    "id": 93444,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Why We Gave Away $3,500,000.00 for Someone to Build the Next Star Trek | Moonshots Live",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
-    "appearance_count": 1
-  },
-  {
-    "id": 93259,
-    "name": "Maggie Landers",
-    "slug": "maggie-landers",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Maggie Landers argues Harvey's AI legal opportunity requires a heavy people motion, with over 400 open jobs and plans to reach 16 markets in a year because customers need local legal expertise.",
-    "last_episode_title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-27",
     "appearance_count": 1
   }
 ]
