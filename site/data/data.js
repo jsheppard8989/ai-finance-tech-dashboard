@@ -70671,9 +70671,9 @@ const dashboardData = {
     "slug": "daya-apairness",
     "bio": "Deiya Pernas is the co-founder of Pernas Research, a firm that manages an audited real money portfolio. Known for generating a 30% compounded return since inception in 2017, Pernas has been vocal about the potential for disruption in the software industry due to advancements in AI and agentic capabilities.",
     "known_for": "Generating a 30% compounded return since inception in 2017 and insights on the impact of AI on software stocks.",
-    "net_worth_usd": 4000000.0,
-    "net_worth_source": "https://knownetworth.com/daya-net-worth",
-    "net_worth_updated_at": "2026-04-20T05:06:35.020384",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Confident and analytical.",
     "voice_style": "Factual and data-driven.",
     "voice_delivery_notes": "Paced with emphasis on key investment points.",
@@ -70722,8 +70722,7 @@ const dashboardData = {
           "body": "She believes that the current market sell-off presents an opportunity for investors to find software companies that will emerge unscathed or even stronger from the AI-driven changes."
         }
       ]
-    },
-    "net_worth": "$4.0M"
+    }
   },
   {
     "id": 156,

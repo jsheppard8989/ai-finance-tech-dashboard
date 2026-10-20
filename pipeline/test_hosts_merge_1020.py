@@ -106,10 +106,11 @@ class SiteDataTests(unittest.TestCase):
     def test_net_worth_na_and_waymo(self):
         for rows in (self.dj["pundits"], self.pj):
             by = {p["id"]: p for p in rows}
-            for i in (395, 165, 156):
+            for i in (395, 165, 156, 192):
                 self.assertIsNone(by[i]["net_worth_usd"])
                 self.assertFalse(by[i]["net_worth_source"])
                 self.assertNotIn("net_worth", by[i])
+        self.assertNotIn("daya-net-worth", json.dumps(self.dj["pundits"]) + json.dumps(self.pj))
         self.assertNotIn("Wemo", json.dumps(self.dj) + json.dumps(self.pj))
 
 

@@ -2992,6 +2992,18 @@
           "Waymo"
         ]
       ]
+    },
+    {
+      "id": 192,
+      "_note": "Oct 20 2026 G(ai)ndolf: net-worth link was a different person ('Daya'); show NA",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
     }
   ],
   "pundit_merges": [
