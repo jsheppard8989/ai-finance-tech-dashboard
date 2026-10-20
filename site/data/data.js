@@ -3,1211 +3,1211 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-19T18:23:14.358017",
-  chartsVersion: "2026-10-19T18:22:49.116234",
+  generatedAt: "2026-10-19T22:13:04.668755",
+  chartsVersion: "2026-10-19T22:12:48.349571",
   priceSnapshot: {
   "AAPL": {
     "price": 342.94,
     "change_pct": 2.98,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-19T18:21:49.212675",
+    "updated_at": "2026-10-19T22:11:50.626366",
     "price_14d_ago": 333.02
   },
   "AEP": {
     "price": 124.72,
     "change_pct": 5.12,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-19T18:21:49.448437",
+    "updated_at": "2026-10-19T22:11:50.845048",
     "price_14d_ago": 118.64
   },
   "AMD": {
     "price": 538.05,
     "change_pct": -12.05,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-19T18:21:49.842944",
+    "updated_at": "2026-10-19T22:11:51.237182",
     "price_14d_ago": 611.76
   },
   "AMGN": {
     "price": 424.94,
     "change_pct": 0.81,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-19T18:21:50.047104",
+    "updated_at": "2026-10-19T22:11:51.425213",
     "price_14d_ago": 421.51
   },
   "AMZN": {
     "price": 262.45,
     "change_pct": 5.34,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-19T18:21:50.232009",
+    "updated_at": "2026-10-19T22:11:51.611198",
     "price_14d_ago": 249.15
   },
   "APO": {
     "price": 110.95,
     "change_pct": -4.4,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-19T18:21:50.439869",
+    "updated_at": "2026-10-19T22:11:51.802556",
     "price_14d_ago": 116.06
   },
   "APTV": {
     "price": 44.48,
     "change_pct": 3.39,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-19T18:21:50.635901",
+    "updated_at": "2026-10-19T22:11:51.993257",
     "price_14d_ago": 43.02
   },
   "AVGO": {
     "price": 334.59,
     "change_pct": -4.73,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-19T18:21:51.040786",
+    "updated_at": "2026-10-19T22:11:52.384602",
     "price_14d_ago": 351.19
   },
   "BA": {
     "price": 191.42,
     "change_pct": 2.89,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-19T18:21:51.450014",
+    "updated_at": "2026-10-19T22:11:52.791479",
     "price_14d_ago": 186.05
   },
   "BABA": {
     "price": 108.57,
     "change_pct": 0.96,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-19T18:21:51.644324",
+    "updated_at": "2026-10-19T22:11:52.981349",
     "price_14d_ago": 107.54
   },
   "BAC": {
     "price": 50.39,
     "change_pct": -7.42,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-19T18:21:51.857965",
+    "updated_at": "2026-10-19T22:11:53.178796",
     "price_14d_ago": 54.43
   },
   "BAM": {
     "price": 45.21,
     "change_pct": 1.41,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-19T18:21:52.094580",
+    "updated_at": "2026-10-19T22:11:53.365023",
     "price_14d_ago": 44.58
   },
   "BIDU": {
     "price": 79.78,
     "change_pct": -8.16,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-19T18:21:52.541480",
+    "updated_at": "2026-10-19T22:11:53.730466",
     "price_14d_ago": 86.87
   },
   "BP": {
     "price": 49.44,
     "change_pct": 12.39,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-19T18:21:52.975512",
+    "updated_at": "2026-10-19T22:11:54.137602",
     "price_14d_ago": 43.99
   },
   "BTC": {
-    "price": 81880.0,
-    "change_pct": -4.3,
+    "price": 81869.68,
+    "change_pct": -1.69,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-19T18:21:53.162895",
-    "price_14d_ago": 85557.56
+    "updated_at": "2026-10-19T22:11:54.327526",
+    "price_14d_ago": 83275.93
   },
   "BTC-USD": {
-    "price": 81880.0,
-    "change_pct": -4.3,
+    "price": 81869.68,
+    "change_pct": -1.69,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-19T18:21:53.357163",
-    "price_14d_ago": 85557.56
+    "updated_at": "2026-10-19T22:11:54.540974",
+    "price_14d_ago": 83275.93
   },
   "BX": {
     "price": 107.09,
     "change_pct": -4.46,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-19T18:21:53.847223",
+    "updated_at": "2026-10-19T22:11:54.912928",
     "price_14d_ago": 112.09
   },
   "BYD": {
     "price": 70.96,
     "change_pct": 6.59,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-19T18:21:54.055963",
+    "updated_at": "2026-10-19T22:11:55.107856",
     "price_14d_ago": 66.57
   },
   "CAT": {
     "price": 725.79,
     "change_pct": -10.48,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-19T18:21:54.698040",
+    "updated_at": "2026-10-19T22:11:55.705225",
     "price_14d_ago": 810.79
   },
   "CCJ": {
     "price": 80.7,
     "change_pct": -6.89,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-19T18:21:54.903934",
+    "updated_at": "2026-10-19T22:11:55.909562",
     "price_14d_ago": 86.67
   },
   "CEG": {
     "price": 263.19,
     "change_pct": 3.61,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-19T18:21:55.097877",
+    "updated_at": "2026-10-19T22:11:56.106452",
     "price_14d_ago": 254.02
   },
   "COIN": {
     "price": 168.45,
     "change_pct": -9.63,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-19T18:21:55.473464",
+    "updated_at": "2026-10-19T22:11:56.466084",
     "price_14d_ago": 186.41
   },
   "COPPER": {
     "price": 6.57,
-    "change_pct": 0.2,
+    "change_pct": 1.34,
     "name": "Copper",
-    "updated_at": "2026-10-19T18:21:55.664233",
-    "price_14d_ago": 6.56
+    "updated_at": "2026-10-19T22:11:56.656561",
+    "price_14d_ago": 6.48
   },
   "CORN": {
     "price": 18.01,
     "change_pct": -5.41,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-19T18:21:55.856048",
+    "updated_at": "2026-10-19T22:11:56.835281",
     "price_14d_ago": 19.04
   },
   "CRM": {
     "price": 242.45,
     "change_pct": 5.61,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-19T18:21:56.053592",
+    "updated_at": "2026-10-19T22:11:57.034051",
     "price_14d_ago": 229.57
   },
   "CROWD": {
     "price": 228.1,
     "change_pct": -13.84,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-19T18:21:56.243660",
+    "updated_at": "2026-10-19T22:11:57.220881",
     "price_14d_ago": 264.75
   },
   "DBC": {
     "price": 33.68,
     "change_pct": 4.21,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-19T18:21:57.131077",
+    "updated_at": "2026-10-19T22:11:57.969950",
     "price_14d_ago": 32.32
   },
   "DELL": {
     "price": 455.44,
     "change_pct": -15.34,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-19T18:21:57.328939",
+    "updated_at": "2026-10-19T22:11:58.161126",
     "price_14d_ago": 537.95
   },
   "DIS": {
     "price": 109.59,
     "change_pct": 4.47,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-19T18:21:57.757737",
+    "updated_at": "2026-10-19T22:11:58.575446",
     "price_14d_ago": 104.9
   },
   "DOCS": {
     "price": 31.45,
     "change_pct": 10.97,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-19T18:21:57.950082",
+    "updated_at": "2026-10-19T22:11:58.763018",
     "price_14d_ago": 28.34
   },
   "DVN": {
     "price": 50.92,
     "change_pct": 10.6,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-19T18:21:58.157802",
+    "updated_at": "2026-10-19T22:11:58.977278",
     "price_14d_ago": 46.04
   },
   "EBAY": {
     "price": 120.47,
     "change_pct": 13.6,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-19T18:21:58.389931",
+    "updated_at": "2026-10-19T22:11:59.165337",
     "price_14d_ago": 106.05
   },
   "ETH-USD": {
-    "price": 2402.94,
-    "change_pct": -10.92,
+    "price": 2403.98,
+    "change_pct": -6.59,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-19T18:21:58.767742",
-    "price_14d_ago": 2697.52
+    "updated_at": "2026-10-19T22:11:59.551666",
+    "price_14d_ago": 2573.53
   },
   "F": {
     "price": 12.18,
     "change_pct": 1.0,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-19T18:21:59.033418",
+    "updated_at": "2026-10-19T22:11:59.780849",
     "price_14d_ago": 12.06
   },
   "FB": {
     "price": 45.88,
     "change_pct": 0.81,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-19T18:21:59.226792",
+    "updated_at": "2026-10-19T22:11:59.968801",
     "price_14d_ago": 45.51
   },
   "FCX": {
     "price": 69.75,
     "change_pct": -0.36,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-19T18:21:59.429349",
+    "updated_at": "2026-10-19T22:12:00.173073",
     "price_14d_ago": 70.0
   },
   "FSK": {
     "price": 10.14,
     "change_pct": -7.73,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-19T18:22:00.728352",
+    "updated_at": "2026-10-19T22:12:01.407727",
     "price_14d_ago": 10.99
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-19T18:22:01.106996",
+    "updated_at": "2026-10-19T22:12:01.791527",
     "price_14d_ago": null
   },
   "GD": {
     "price": 341.43,
     "change_pct": 2.89,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-19T18:22:01.329656",
+    "updated_at": "2026-10-19T22:12:02.010952",
     "price_14d_ago": 331.83
   },
   "GE": {
     "price": 311.28,
     "change_pct": -0.32,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-19T18:22:01.561830",
+    "updated_at": "2026-10-19T22:12:02.226790",
     "price_14d_ago": 312.29
   },
   "GLD": {
     "price": 379.69,
     "change_pct": -0.3,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-19T18:22:01.751507",
+    "updated_at": "2026-10-19T22:12:02.409647",
     "price_14d_ago": 380.84
   },
   "GME": {
     "price": 26.44,
     "change_pct": 7.26,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-19T18:22:01.947739",
+    "updated_at": "2026-10-19T22:12:02.602473",
     "price_14d_ago": 24.65
   },
   "GOLD": {
-    "price": 4152.7,
-    "change_pct": -0.81,
+    "price": 4158.0,
+    "change_pct": -1.05,
     "name": "Gold",
-    "updated_at": "2026-10-19T18:22:02.132391",
-    "price_14d_ago": 4186.7
+    "updated_at": "2026-10-19T22:12:02.786568",
+    "price_14d_ago": 4202.3
   },
   "GOOG": {
     "price": 340.16,
     "change_pct": -0.17,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-19T18:22:02.330121",
+    "updated_at": "2026-10-19T22:12:02.966434",
     "price_14d_ago": 340.74
   },
   "GOOGL": {
     "price": 344.18,
     "change_pct": 0.03,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-19T18:22:02.513995",
+    "updated_at": "2026-10-19T22:12:03.150249",
     "price_14d_ago": 344.08
   },
   "GS": {
     "price": 875.78,
     "change_pct": -2.73,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-19T18:22:02.717167",
+    "updated_at": "2026-10-19T22:12:03.359907",
     "price_14d_ago": 900.36
   },
   "Gold": {
     "price": 38.17,
     "change_pct": -10.34,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-19T18:22:02.914151",
+    "updated_at": "2026-10-19T22:12:03.548593",
     "price_14d_ago": 42.57
   },
   "HFGM": {
     "price": 31.05,
     "change_pct": -0.93,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-19T18:22:03.105954",
+    "updated_at": "2026-10-19T22:12:03.731318",
     "price_14d_ago": 31.34
   },
   "HG": {
     "price": 36.04,
     "change_pct": 9.08,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-19T18:22:03.337461",
+    "updated_at": "2026-10-19T22:12:03.919587",
     "price_14d_ago": 33.04
   },
   "IBM": {
     "price": 236.39,
     "change_pct": 7.48,
     "name": "International Business Machines",
-    "updated_at": "2026-10-19T18:22:04.138954",
+    "updated_at": "2026-10-19T22:12:04.806929",
     "price_14d_ago": 219.93
   },
   "IEF": {
     "price": 90.08,
     "change_pct": 0.86,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-19T18:22:04.344985",
+    "updated_at": "2026-10-19T22:12:05.009344",
     "price_14d_ago": 89.31
   },
   "INDA": {
     "price": 47.4,
     "change_pct": 1.54,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-19T18:22:04.620003",
+    "updated_at": "2026-10-19T22:12:05.200336",
     "price_14d_ago": 46.68
   },
   "INFY": {
     "price": 12.2,
     "change_pct": 13.38,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-19T18:22:04.834970",
+    "updated_at": "2026-10-19T22:12:05.414484",
     "price_14d_ago": 10.76
   },
   "INTC": {
     "price": 92.03,
     "change_pct": -23.46,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-19T18:22:05.031902",
+    "updated_at": "2026-10-19T22:12:05.628648",
     "price_14d_ago": 120.23
   },
   "IWD": {
     "price": 255.43,
     "change_pct": 3.03,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-19T18:22:05.259555",
+    "updated_at": "2026-10-19T22:12:05.829646",
     "price_14d_ago": 247.93
   },
   "IWF": {
     "price": 122.61,
     "change_pct": -2.12,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-19T18:22:05.466256",
+    "updated_at": "2026-10-19T22:12:06.028982",
     "price_14d_ago": 125.26
   },
   "IWM": {
     "price": 271.28,
     "change_pct": -2.38,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-19T18:22:05.673269",
+    "updated_at": "2026-10-19T22:12:06.231822",
     "price_14d_ago": 277.89
   },
   "JNJ": {
     "price": 253.79,
     "change_pct": -4.14,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-19T18:22:05.972330",
+    "updated_at": "2026-10-19T22:12:06.464487",
     "price_14d_ago": 264.74
   },
   "JPM": {
     "price": 333.53,
     "change_pct": 0.82,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-19T18:22:06.251920",
+    "updated_at": "2026-10-19T22:12:06.682484",
     "price_14d_ago": 330.83
   },
   "KKR": {
     "price": 87.0,
     "change_pct": -4.71,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-19T18:22:06.457392",
+    "updated_at": "2026-10-19T22:12:06.876930",
     "price_14d_ago": 91.3
   },
   "LLY": {
     "price": 1240.34,
     "change_pct": 7.2,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-19T18:22:07.074912",
+    "updated_at": "2026-10-19T22:12:07.513776",
     "price_14d_ago": 1157.08
   },
   "LMT": {
     "price": 548.23,
     "change_pct": 7.65,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-19T18:22:07.305757",
+    "updated_at": "2026-10-19T22:12:07.743023",
     "price_14d_ago": 509.25
   },
   "LYFT": {
     "price": 16.99,
     "change_pct": 13.19,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-19T18:22:08.072892",
+    "updated_at": "2026-10-19T22:12:08.618057",
     "price_14d_ago": 15.01
   },
   "META": {
     "price": 705.44,
     "change_pct": -2.72,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-19T18:22:08.506307",
+    "updated_at": "2026-10-19T22:12:09.032448",
     "price_14d_ago": 725.18
   },
   "MGM": {
     "price": 28.47,
     "change_pct": -8.31,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-19T18:22:08.709709",
+    "updated_at": "2026-10-19T22:12:09.236579",
     "price_14d_ago": 31.05
   },
   "MINE": {
     "price": 2.49,
     "change_pct": -8.46,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-19T18:22:08.911764",
+    "updated_at": "2026-10-19T22:12:09.421601",
     "price_14d_ago": 2.72
   },
   "MRK": {
     "price": 143.63,
     "change_pct": -1.16,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-19T18:22:09.135691",
+    "updated_at": "2026-10-19T22:12:09.645453",
     "price_14d_ago": 145.31
   },
   "MRNA": {
     "price": 226.89,
     "change_pct": 17.82,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-19T18:22:09.325118",
+    "updated_at": "2026-10-19T22:12:09.830687",
     "price_14d_ago": 192.57
   },
   "MS": {
     "price": 178.47,
     "change_pct": -5.11,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-19T18:22:09.531317",
+    "updated_at": "2026-10-19T22:12:10.033255",
     "price_14d_ago": 188.08
   },
   "MSFT": {
     "price": 533.52,
     "change_pct": 4.02,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-19T18:22:09.731857",
+    "updated_at": "2026-10-19T22:12:10.232873",
     "price_14d_ago": 512.9
   },
   "MSTR": {
     "price": 136.02,
     "change_pct": -11.15,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-19T18:22:09.923730",
+    "updated_at": "2026-10-19T22:12:10.494070",
     "price_14d_ago": 153.09
   },
   "MU": {
     "price": 904.9,
     "change_pct": -15.04,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-19T18:22:10.129778",
+    "updated_at": "2026-10-19T22:12:10.699527",
     "price_14d_ago": 1065.11
   },
   "NEE": {
     "price": 78.17,
     "change_pct": 3.21,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-19T18:22:10.536052",
+    "updated_at": "2026-10-19T22:12:11.102989",
     "price_14d_ago": 75.74
   },
   "NFLX": {
     "price": 69.85,
     "change_pct": 0.39,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-19T18:22:10.723107",
+    "updated_at": "2026-10-19T22:12:11.285824",
     "price_14d_ago": 69.58
   },
   "NKE": {
     "price": 37.21,
     "change_pct": 5.11,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-19T18:22:11.372270",
+    "updated_at": "2026-10-19T22:12:11.893741",
     "price_14d_ago": 35.4
   },
   "NOC": {
     "price": 510.65,
     "change_pct": 5.62,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-19T18:22:11.632924",
+    "updated_at": "2026-10-19T22:12:12.103790",
     "price_14d_ago": 483.48
   },
   "NVDA": {
     "price": 217.09,
     "change_pct": -4.94,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-19T18:22:11.831330",
+    "updated_at": "2026-10-19T22:12:12.305018",
     "price_14d_ago": 228.38
   },
   "NVS": {
     "price": 150.2,
     "change_pct": 5.35,
     "name": "Novartis AG",
-    "updated_at": "2026-10-19T18:22:12.306636",
+    "updated_at": "2026-10-19T22:12:12.687600",
     "price_14d_ago": 142.57
   },
   "Nasdaq": {
     "price": 718.36,
     "change_pct": -2.89,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-19T18:22:12.510224",
+    "updated_at": "2026-10-19T22:12:12.894272",
     "price_14d_ago": 739.77
   },
   "OKLO": {
     "price": 27.24,
     "change_pct": -26.42,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-19T18:22:12.885898",
+    "updated_at": "2026-10-19T22:12:13.266173",
     "price_14d_ago": 37.02
   },
   "ORCL": {
     "price": 129.59,
     "change_pct": -5.62,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-19T18:22:13.428857",
+    "updated_at": "2026-10-19T22:12:13.666020",
     "price_14d_ago": 137.3
   },
   "PALL": {
     "price": 20.24,
     "change_pct": -7.2,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-19T18:22:13.625344",
+    "updated_at": "2026-10-19T22:12:13.861713",
     "price_14d_ago": 21.81
   },
   "PANW": {
     "price": 346.95,
     "change_pct": -12.68,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-19T18:22:13.813413",
+    "updated_at": "2026-10-19T22:12:14.047365",
     "price_14d_ago": 397.31
   },
   "PBR": {
     "price": 25.56,
     "change_pct": 22.47,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-19T18:22:14.019142",
+    "updated_at": "2026-10-19T22:12:14.256136",
     "price_14d_ago": 20.87
   },
   "PFE": {
     "price": 29.44,
     "change_pct": 3.23,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-19T18:22:14.426528",
+    "updated_at": "2026-10-19T22:12:14.729887",
     "price_14d_ago": 28.52
   },
   "PLTM": {
     "price": 15.7,
     "change_pct": -3.92,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-19T18:22:14.622036",
+    "updated_at": "2026-10-19T22:12:14.915089",
     "price_14d_ago": 16.34
   },
   "PLTR": {
     "price": 194.15,
     "change_pct": 3.8,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-19T18:22:14.813251",
+    "updated_at": "2026-10-19T22:12:15.098899",
     "price_14d_ago": 187.05
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-19T18:22:15.193604",
+    "updated_at": "2026-10-19T22:12:15.470069",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.61,
     "change_pct": 0.25,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-19T18:22:15.460815",
+    "updated_at": "2026-10-19T22:12:15.655114",
     "price_14d_ago": 28.54
   },
   "PSBD": {
     "price": 9.42,
     "change_pct": -4.75,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-19T18:22:15.654004",
+    "updated_at": "2026-10-19T22:12:15.845590",
     "price_14d_ago": 9.89
   },
   "PYPL": {
     "price": 56.51,
     "change_pct": 7.58,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-19T18:22:15.846975",
+    "updated_at": "2026-10-19T22:12:16.034855",
     "price_14d_ago": 52.53
   },
   "QQQ": {
     "price": 718.36,
     "change_pct": -2.89,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-19T18:22:16.249657",
+    "updated_at": "2026-10-19T22:12:16.414320",
     "price_14d_ago": 739.77
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-19T18:22:16.450126",
+    "updated_at": "2026-10-19T22:12:16.600945",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 50.75,
     "change_pct": 19.78,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-19T18:22:16.630853",
+    "updated_at": "2026-10-19T22:12:16.785862",
     "price_14d_ago": 42.37
   },
   "RKLB": {
     "price": 51.36,
     "change_pct": -26.29,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-19T18:22:17.093929",
+    "updated_at": "2026-10-19T22:12:17.163661",
     "price_14d_ago": 69.68
   },
   "Russell": {
     "price": 271.28,
     "change_pct": -2.38,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-19T18:22:17.694593",
+    "updated_at": "2026-10-19T22:12:17.744953",
     "price_14d_ago": 277.89
   },
   "S&P": {
     "price": 7690.73,
     "change_pct": 0.51,
     "name": "S&P 500",
-    "updated_at": "2026-10-19T18:22:17.889876",
+    "updated_at": "2026-10-19T22:12:17.932084",
     "price_14d_ago": 7651.54
   },
   "S&P 500": {
     "price": 7690.73,
     "change_pct": 0.51,
     "name": "S&P 500",
-    "updated_at": "2026-10-19T18:22:18.079133",
+    "updated_at": "2026-10-19T22:12:18.112631",
     "price_14d_ago": 7651.54
   },
   "SAMSUNG ELECTRONICS": {
-    "price": 218000.0,
-    "change_pct": -19.26,
+    "price": 214250.0,
+    "change_pct": -21.38,
     "name": "SamsungElec",
-    "updated_at": "2026-10-19T18:22:18.326235",
-    "price_14d_ago": 270000.0
+    "updated_at": "2026-10-19T22:12:18.321005",
+    "price_14d_ago": 272500.0
   },
   "SAP": {
     "price": 226.03,
     "change_pct": 8.42,
     "name": "SAP  SE",
-    "updated_at": "2026-10-19T18:22:18.534434",
+    "updated_at": "2026-10-19T22:12:18.525519",
     "price_14d_ago": 208.48
   },
   "SF": {
     "price": 66.06,
     "change_pct": -5.68,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-19T18:22:18.749339",
+    "updated_at": "2026-10-19T22:12:18.747355",
     "price_14d_ago": 70.04
   },
   "SK HYNIX": {
-    "price": 1277000.0,
-    "change_pct": -27.77,
+    "price": 1239000.0,
+    "change_pct": -29.8,
     "name": "SK hynix",
-    "updated_at": "2026-10-19T18:22:19.197889",
-    "price_14d_ago": 1768000.0
+    "updated_at": "2026-10-19T22:12:19.131408",
+    "price_14d_ago": 1765000.0
   },
   "SLB": {
     "price": 49.09,
     "change_pct": 0.76,
     "name": "SLB Limited",
-    "updated_at": "2026-10-19T18:22:19.435911",
+    "updated_at": "2026-10-19T22:12:19.348099",
     "price_14d_ago": 48.72
   },
   "SMH": {
     "price": 548.46,
     "change_pct": -9.94,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-19T18:22:19.623833",
+    "updated_at": "2026-10-19T22:12:19.541798",
     "price_14d_ago": 609.0
   },
   "SMR": {
     "price": 5.69,
     "change_pct": -27.97,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-19T18:22:19.829409",
+    "updated_at": "2026-10-19T22:12:19.729282",
     "price_14d_ago": 7.9
   },
   "SNAP": {
     "price": 6.27,
     "change_pct": 16.11,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-19T18:22:20.031302",
+    "updated_at": "2026-10-19T22:12:19.914170",
     "price_14d_ago": 5.4
   },
   "SNWGF": {
     "price": 10.34,
     "change_pct": -13.44,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-19T18:22:20.250742",
+    "updated_at": "2026-10-19T22:12:20.122122",
     "price_14d_ago": 11.94
   },
   "SOYB": {
     "price": 26.78,
     "change_pct": -2.65,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-19T18:22:20.441380",
+    "updated_at": "2026-10-19T22:12:20.385688",
     "price_14d_ago": 27.51
   },
   "SPCE": {
     "price": 2.34,
     "change_pct": -21.74,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-19T18:22:20.628180",
+    "updated_at": "2026-10-19T22:12:20.572863",
     "price_14d_ago": 2.99
   },
   "SPX": {
     "price": 7690.73,
     "change_pct": 0.51,
     "name": "S&P 500",
-    "updated_at": "2026-10-19T18:22:21.255554",
+    "updated_at": "2026-10-19T22:12:21.121116",
     "price_14d_ago": 7651.54
   },
   "SPY": {
     "price": 766.48,
     "change_pct": 0.5,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-19T18:22:21.464451",
+    "updated_at": "2026-10-19T22:12:21.325859",
     "price_14d_ago": 762.63
   },
   "SQQQ": {
     "price": 37.52,
     "change_pct": 9.04,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-19T18:22:21.661371",
+    "updated_at": "2026-10-19T22:12:21.513149",
     "price_14d_ago": 34.41
   },
   "SQUARE": {
     "price": 77.5,
     "change_pct": 5.4,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-19T18:22:21.855450",
+    "updated_at": "2026-10-19T22:12:21.693663",
     "price_14d_ago": 73.53
   },
   "Semiconductors": {
     "price": 548.46,
     "change_pct": -9.94,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-19T18:22:22.055905",
+    "updated_at": "2026-10-19T22:12:21.961007",
     "price_14d_ago": 609.0
   },
   "T": {
     "price": 23.2,
     "change_pct": -4.92,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-19T18:22:22.268744",
+    "updated_at": "2026-10-19T22:12:22.175123",
     "price_14d_ago": 24.4
   },
   "TDOC": {
     "price": 5.73,
     "change_pct": -1.21,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-19T18:22:22.678966",
+    "updated_at": "2026-10-19T22:12:22.570594",
     "price_14d_ago": 5.8
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 250.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-19T18:22:23.244840",
+    "updated_at": "2026-10-19T22:12:23.201661",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 79.46,
     "change_pct": 2.16,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-19T18:22:23.462433",
+    "updated_at": "2026-10-19T22:12:23.407440",
     "price_14d_ago": 77.78
   },
   "TSLA": {
     "price": 368.06,
     "change_pct": 3.73,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-19T18:22:23.721032",
+    "updated_at": "2026-10-19T22:12:23.588634",
     "price_14d_ago": 354.81
   },
   "TSM": {
     "price": 420.22,
     "change_pct": -7.88,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-19T18:22:23.920717",
+    "updated_at": "2026-10-19T22:12:23.783636",
     "price_14d_ago": 456.19
   },
   "UBER": {
     "price": 69.96,
     "change_pct": 2.12,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-19T18:22:24.375075",
+    "updated_at": "2026-10-19T22:12:24.166150",
     "price_14d_ago": 68.51
   },
   "UNG": {
     "price": 10.46,
     "change_pct": 0.87,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-19T18:22:24.567745",
+    "updated_at": "2026-10-19T22:12:24.349749",
     "price_14d_ago": 10.37
   },
   "URANIUM": {
     "price": 35.27,
     "change_pct": -11.49,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-19T18:22:24.951672",
+    "updated_at": "2026-10-19T22:12:24.737479",
     "price_14d_ago": 39.85
   },
   "USD": {
     "price": 79.4,
     "change_pct": -17.53,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-19T18:22:25.195744",
+    "updated_at": "2026-10-19T22:12:24.958368",
     "price_14d_ago": 96.28
   },
   "USDX": {
     "price": 25.61,
     "change_pct": -0.05,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-19T18:22:25.393114",
+    "updated_at": "2026-10-19T22:12:25.146399",
     "price_14d_ago": 25.62
   },
   "USO": {
     "price": 160.81,
     "change_pct": 10.4,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-19T18:22:25.588060",
+    "updated_at": "2026-10-19T22:12:25.329571",
     "price_14d_ago": 145.66
   },
   "UTHR": {
     "price": 543.15,
     "change_pct": 0.23,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-19T18:22:25.782527",
+    "updated_at": "2026-10-19T22:12:25.509474",
     "price_14d_ago": 541.89
   },
   "UUU": {
     "price": 5.29,
-    "change_pct": 0.0,
+    "change_pct": 3.73,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-19T18:22:25.972909",
+    "updated_at": "2026-10-19T22:12:25.708763",
     "price_14d_ago": null
   },
   "V": {
     "price": 402.92,
     "change_pct": 12.13,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-19T18:22:26.383498",
+    "updated_at": "2026-10-19T22:12:26.084030",
     "price_14d_ago": 359.33
   },
   "VEEV": {
     "price": 316.8,
     "change_pct": 10.98,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-19T18:22:26.761432",
+    "updated_at": "2026-10-19T22:12:26.480373",
     "price_14d_ago": 285.45
   },
   "VIX": {
     "price": 18.44,
     "change_pct": 12.85,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-19T18:22:27.668974",
+    "updated_at": "2026-10-19T22:12:27.250845",
     "price_14d_ago": 16.34
   },
   "VLO": {
     "price": 433.31,
     "change_pct": 11.79,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-19T18:22:27.904354",
+    "updated_at": "2026-10-19T22:12:27.537447",
     "price_14d_ago": 387.61
   },
   "VRTX": {
     "price": 501.95,
     "change_pct": -3.99,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-19T18:22:28.146546",
+    "updated_at": "2026-10-19T22:12:27.724683",
     "price_14d_ago": 522.81
   },
   "WFC": {
     "price": 81.8,
     "change_pct": 2.19,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-19T18:22:28.379462",
+    "updated_at": "2026-10-19T22:12:27.960748",
     "price_14d_ago": 80.05
   },
   "WIT": {
     "price": 1.93,
     "change_pct": 16.97,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-19T18:22:28.592586",
+    "updated_at": "2026-10-19T22:12:28.160151",
     "price_14d_ago": 1.65
   },
   "WMT": {
     "price": 118.7,
     "change_pct": 14.22,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-19T18:22:28.824201",
+    "updated_at": "2026-10-19T22:12:28.382902",
     "price_14d_ago": 103.92
   },
   "WTBN": {
     "price": 24.08,
     "change_pct": 0.56,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-19T18:22:29.085537",
+    "updated_at": "2026-10-19T22:12:28.574596",
     "price_14d_ago": 23.95
   },
   "WTI": {
-    "price": 98.26,
-    "change_pct": 8.67,
+    "price": 98.79,
+    "change_pct": 6.37,
     "name": "WTI Crude",
-    "updated_at": "2026-10-19T18:22:29.273768",
-    "price_14d_ago": 90.42
+    "updated_at": "2026-10-19T22:12:28.761062",
+    "price_14d_ago": 92.87
   },
   "WTI CRUDE OIL": {
-    "price": 98.26,
-    "change_pct": 8.67,
+    "price": 98.82,
+    "change_pct": 6.41,
     "name": "WTI Crude",
-    "updated_at": "2026-10-19T18:22:29.460262",
-    "price_14d_ago": 90.42
+    "updated_at": "2026-10-19T22:12:28.950627",
+    "price_14d_ago": 92.87
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-19T18:22:29.841387",
+    "updated_at": "2026-10-19T22:12:29.332449",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 178.28,
     "change_pct": 9.54,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-19T18:22:30.069366",
+    "updated_at": "2026-10-19T22:12:29.572599",
     "price_14d_ago": 162.75
   },
   "ZIM": {
     "price": 28.98,
     "change_pct": -1.16,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-19T18:22:30.455219",
+    "updated_at": "2026-10-19T22:12:29.944742",
     "price_14d_ago": 29.32
   },
   "HIMS": {
     "price": 28.15,
     "change_pct": -5.51,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-19T18:22:30.826133",
+    "updated_at": "2026-10-19T22:12:30.452286",
     "price_14d_ago": 29.79
   },
   "GDRX": {
     "price": 3.37,
     "change_pct": 2.43,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-19T18:22:31.024104",
+    "updated_at": "2026-10-19T22:12:30.638901",
     "price_14d_ago": 3.29
   },
   "TEM": {
     "price": 64.34,
     "change_pct": -21.44,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-19T18:22:31.215646",
+    "updated_at": "2026-10-19T22:12:30.826117",
     "price_14d_ago": 81.9
   },
   "GH": {
     "price": 157.88,
     "change_pct": -11.48,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-19T18:22:31.403977",
+    "updated_at": "2026-10-19T22:12:31.015497",
     "price_14d_ago": 178.36
   },
   "ABT": {
     "price": 104.06,
     "change_pct": 5.29,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-19T18:22:31.618541",
+    "updated_at": "2026-10-19T22:12:31.226887",
     "price_14d_ago": 98.83
   },
   "ARM": {
     "price": 228.05,
     "change_pct": -21.27,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-19T18:21:50.841746",
+    "updated_at": "2026-10-19T22:11:52.191359",
     "price_14d_ago": 289.66
   },
   "HOOD": {
     "price": 96.52,
     "change_pct": -14.2,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-19T18:22:03.525039",
+    "updated_at": "2026-10-19T22:12:04.129577",
     "price_14d_ago": 112.5
   },
   "SPOT": {
     "price": 518.76,
     "change_pct": 6.44,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-19T18:22:20.884681",
+    "updated_at": "2026-10-19T22:12:20.755608",
     "price_14d_ago": 487.38
   },
   "CRWV": {
     "price": 61.12,
     "change_pct": -29.84,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-19T18:21:56.645191",
+    "updated_at": "2026-10-19T22:11:57.586884",
     "price_14d_ago": 87.12
   },
   "LENS": {
     "price": 43.88,
     "change_pct": 2.36,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-19T18:22:06.645564",
+    "updated_at": "2026-10-19T22:12:07.066583",
     "price_14d_ago": 42.87
   },
   "TCEHY": {
     "price": 52.29,
     "change_pct": -3.56,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-19T18:22:22.489925",
+    "updated_at": "2026-10-19T22:12:22.377165",
     "price_14d_ago": 54.22
   },
   "SHOP": {
     "price": 171.06,
     "change_pct": 15.35,
     "name": "Shopify Inc.",
-    "updated_at": "2026-10-19T18:22:18.959983",
+    "updated_at": "2026-10-19T22:12:18.933949",
     "price_14d_ago": 148.3
   },
   "BWET": {
     "price": 871.34,
     "change_pct": 8.51,
     "name": "Breakwave Tanker Shipping ETF",
-    "updated_at": "2026-10-19T18:21:53.557751",
+    "updated_at": "2026-10-19T22:11:54.722969",
     "price_14d_ago": 803.0
   },
   "CRWD": {
     "price": 228.1,
     "change_pct": -13.84,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-19T18:21:56.435131",
+    "updated_at": "2026-10-19T22:11:57.401922",
     "price_14d_ago": 264.75
   },
   "DHT": {
     "price": 23.03,
     "change_pct": 2.04,
     "name": "DHT Holdings, Inc.",
-    "updated_at": "2026-10-19T18:21:57.528724",
+    "updated_at": "2026-10-19T22:11:58.356914",
     "price_14d_ago": 22.57
   },
   "ECO": {
     "price": 88.98,
     "change_pct": 10.01,
     "name": "Okeanis Eco Tankers Corp.",
-    "updated_at": "2026-10-19T18:21:58.578354",
+    "updated_at": "2026-10-19T22:11:59.351956",
     "price_14d_ago": 80.88
   },
   "FMCC": {
     "price": 3.14,
     "change_pct": -19.69,
     "name": "Freddie Mac",
-    "updated_at": "2026-10-19T18:22:00.065483",
+    "updated_at": "2026-10-19T22:12:00.813276",
     "price_14d_ago": 3.91
   },
   "FNMA": {
     "price": 3.42,
     "change_pct": -18.76,
     "name": "Fannie Mae",
-    "updated_at": "2026-10-19T18:22:00.270243",
+    "updated_at": "2026-10-19T22:12:01.018753",
     "price_14d_ago": 4.21
   },
   "FRO": {
     "price": 50.72,
     "change_pct": 2.94,
     "name": "Frontline Plc",
-    "updated_at": "2026-10-19T18:22:00.526896",
+    "updated_at": "2026-10-19T22:12:01.217546",
     "price_14d_ago": 49.27
   },
   "FTNT": {
     "price": 171.5,
     "change_pct": -4.06,
     "name": "Fortinet, Inc.",
-    "updated_at": "2026-10-19T18:22:00.923165",
+    "updated_at": "2026-10-19T22:12:01.602904",
     "price_14d_ago": 178.76
   },
   "QLYS": {
     "price": 190.08,
     "change_pct": 1.54,
     "name": "Qualys, Inc.",
-    "updated_at": "2026-10-19T18:22:16.036372",
+    "updated_at": "2026-10-19T22:12:16.219670",
     "price_14d_ago": 187.2
   },
   "RITM": {
     "price": 8.44,
     "change_pct": -5.49,
     "name": "Rithm Capital Corp.",
-    "updated_at": "2026-10-19T18:22:16.825814",
+    "updated_at": "2026-10-19T22:12:16.978124",
     "price_14d_ago": 8.93
   },
   "RPD": {
     "price": 13.22,
     "change_pct": 8.18,
     "name": "Rapid7, Inc.",
-    "updated_at": "2026-10-19T18:22:17.280092",
+    "updated_at": "2026-10-19T22:12:17.349393",
     "price_14d_ago": 12.22
   },
   "AMAT": {
     "price": 413.11,
     "change_pct": -19.22,
     "name": "Applied Materials, Inc.",
-    "updated_at": "2026-10-19T18:21:49.646887",
+    "updated_at": "2026-10-19T22:11:51.044262",
     "price_14d_ago": 511.38
   },
   "LRCX": {
     "price": 272.2,
     "change_pct": -17.14,
     "name": "Lam Research Corporation",
-    "updated_at": "2026-10-19T18:22:07.505409",
+    "updated_at": "2026-10-19T22:12:08.002980",
     "price_14d_ago": 328.51
   },
   "HUBS": {
     "price": 234.63,
     "change_pct": 14.46,
     "name": "HubSpot, Inc.",
-    "updated_at": "2026-10-19T18:22:03.723617",
+    "updated_at": "2026-10-19T22:12:04.331157",
     "price_14d_ago": 204.98
   },
   "MCD": {
     "price": 242.67,
     "change_pct": 5.08,
     "name": "McDonald's Corporation",
-    "updated_at": "2026-10-19T18:22:08.310236",
+    "updated_at": "2026-10-19T22:12:08.850346",
     "price_14d_ago": 230.94
   },
   "CART": {
     "price": 49.91,
     "change_pct": 15.75,
     "name": "Maplebear Inc.",
-    "updated_at": "2026-10-19T18:21:54.471425",
+    "updated_at": "2026-10-19T22:11:55.473660",
     "price_14d_ago": 43.12
   },
   "VGS": {
     "price": 0,
     "change_pct": 0,
     "name": "VGS",
-    "updated_at": "2026-10-19T18:22:27.146465",
+    "updated_at": "2026-10-19T22:12:26.846852",
     "price_14d_ago": null
   },
   "LEU": {
     "price": 110.12,
     "change_pct": -21.06,
     "name": "Centrus Energy Corp.",
-    "updated_at": "2026-10-19T18:22:06.836479",
+    "updated_at": "2026-10-19T22:12:07.278861",
     "price_14d_ago": 139.49
   }
 },
@@ -1243,6 +1243,37 @@ const dashboardData = {
         {
           "speaker": "Jean Denigrez",
           "quote": "Our stance is that you own and like truly own the as a business the data and memories and contacts that's being created on time and so... switching to that other solution would take you know a day."
+        }
+      ]
+    },
+    {
+      "id": 602,
+      "title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-10-19",
+      "summary": "Dylan Field argues that AI is changing software in a way that makes design the key differentiator, not raw coding ability. His core framing is that AI lowers the \"floor\" for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point of view.\n\nHe applies that thesis directly to Figma, saying the company\u2019s center is design and that it wins by building professional workflow UX, not by chasing model output alone. He warns that investors and operators often confuse model progress with product progress, and points to Cursor as an example of a company that won by obsessing over user experience even while frontier labs chased it with their own models.\n\nField also revisits Figma\u2019s regulatory saga. He says Adobe offered to buy Figma for $20 billion, then the deal went through 16 months of regulatory review before being blocked, which he describes as a punishing process that can be destructive to the parties involved. On the business side, he notes that after Anthropic\u2019s \"cloud design\" announcement, Figma\u2019s business did not meaningfully suffer and the company grew 48% year over year in the referenced quarter.\n\nHis broader prediction is that creative software will bifurcate around trust, authorship, and craftsmanship. In a world flooded with AI-generated content, he expects audiences to look for signals of care and originality, while tools like Figma and node-based systems help people move beyond prompting into real creative control.",
+      "key_takeaway": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 591,
+      "notable_quotes": [
+        {
+          "speaker": "Dylan Field",
+          "quote": "Design is the new code."
+        },
+        {
+          "speaker": "Dylan Field",
+          "quote": "It's easy to mistake model progress for product progress."
+        },
+        {
+          "speaker": "Dylan Field",
+          "quote": "Because I read your quarterly report after that announcement, you guys grew 48% year over year. And the business basically accelerated."
         }
       ]
     },
@@ -1454,7 +1485,7 @@ const dashboardData = {
       "key_takeaway": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-14",
       "archived_date": null,
@@ -15546,8 +15577,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 83,
+      "last_mentioned_date": "2026-10-19",
+      "mention_count": 84,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -15556,8 +15587,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Don Musalam"
+      "last_mentioned_episode_id": 591,
+      "last_mentioned_speaker": "Dylan Field"
     },
     {
       "id": 97,
@@ -17028,6 +17059,40 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 602,
+      "title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-10-19",
+      "summary": "Dylan Field argues that AI is changing software in a way that makes design the key differentiator, not raw coding ability. His core framing is that AI lowers the \"floor\" for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point of view.\n\nHe applies that thesis directly to Figma, saying the company\u2019s center is design and that it wins by building professional workflow UX, not by chasing model output alone. He warns that investors and operators often confuse model progress with product progress, and points to Cursor as an example of a company that won by obsessing over user experience even while frontier labs chased it with their own models.\n\nField also revisits Figma\u2019s regulatory saga. He says Adobe offered to buy Figma for $20 billion, then the deal went through 16 months of regulatory review before being blocked, which he describes as a punishing process that can be destructive to the parties involved. On the business side, he notes that after Anthropic\u2019s \"cloud design\" announcement, Figma\u2019s business did not meaningfully suffer and the company grew 48% year over year in the referenced quarter.\n\nHis broader prediction is that creative software will bifurcate around trust, authorship, and craftsmanship. In a world flooded with AI-generated content, he expects audiences to look for signals of care and originality, while tools like Figma and node-based systems help people move beyond prompting into real creative control.",
+      "key_takeaway": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
+      "tickers_mentioned": "[]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 591,
+      "notable_quotes": [
+        {
+          "speaker": "Dylan Field",
+          "quote": "Design is the new code."
+        },
+        {
+          "speaker": "Dylan Field",
+          "quote": "It's easy to mistake model progress for product progress."
+        },
+        {
+          "speaker": "Dylan Field",
+          "quote": "Because I read your quarterly report after that announcement, you guys grew 48% year over year. And the business basically accelerated."
+        }
+      ],
+      "episode_release_date": "2026-10-19",
+      "guest_name": "Dylan Field",
+      "key_tickers": []
+    },
+    {
       "id": 601,
       "title": "What Happens When Al Agents Can Spend Your Money?",
       "source_type": "podcast",
@@ -17413,40 +17478,6 @@ const dashboardData = {
       ],
       "episode_release_date": "2026-10-15",
       "guest_name": "Alex Rampell & Terry Angelos",
-      "key_tickers": []
-    },
-    {
-      "id": 589,
-      "title": "Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-10-15",
-      "summary": "Billy Evans frames the episode around Elizabeth Holmes\u2019s public silence, arguing that following the judge\u2019s instruction to litigate in court rather than the media was her \u201csingle biggest mistake\u201d because it prevented her from shaping the narrative. He also disputes the common framing of the Theranos case, saying the missing revenue issue was tied to Walgreens contractual obligations and subsequent default after bad press, rather than fabricated numbers.\n\nEvans says Holmes faced 13 counts and claims the government focused heavily on patient fraud allegations, while the convictions centered on investor fraud and conspiracy. He says Holmes ran about 12.5 million tests over 18 months and that the case\u2019s sentencing math expanded the punishment from roughly 4.5\u20135 years to 11 years by incorporating more investors through conspiracy counts.\n\nA substantial portion of the discussion is about Holmes\u2019s prison status and expected release path. Evans says she has been at the Brian Federal Prison Camp for 1,205 days, with the facility housing about 800 women and only around 30 visitors getting in on a given weekend. He says the First Step Act can allow 16 days off for every 30 days of programming participation, and he expects a halfway-house transfer in the second quarter of next year.\n\nBeyond the Holmes narrative, Evans describes building a new diagnostics company, Haemanthus, using Raman spectroscopy and photonics to make biological sensing devices cheaper, smaller, and more widely distributed than million-dollar lab instruments. He positions the company as focused on generating useful biological data for AI, while emphasizing that it is not intended to be a \u201cTheranos 2.0\u201d replay.",
-      "key_takeaway": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
-      "tickers_mentioned": "[]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-10-14",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 578,
-      "notable_quotes": [
-        {
-          "speaker": "Billy Evans",
-          "quote": "the single biggest mistake that Elizabeth has ever made to be like really clear is that she followed the rules of not going against with the judge had asked her to do."
-        },
-        {
-          "speaker": "Billy Evans",
-          "quote": "So there's 13 counts, um, Liz ran about 12 and a half million tests on patients at Theranos over an 18 month period. The government spent years investigating 12 and a half million blood tests."
-        },
-        {
-          "speaker": "Billy Evans",
-          "quote": "The problem is these devices are millions of dollars, many feet long, super complicated to use. So I'm taking a lot of the learnings from my work in the photonics space to make these cheaper and widely distributed."
-        }
-      ],
-      "episode_release_date": "2026-10-15",
-      "guest_name": "Billy Evans",
       "key_tickers": []
     }
   ],
@@ -54329,61 +54360,107 @@ const dashboardData = {
     "key_tickers": [
       "TSLA"
     ]
+  },
+  "602": {
+    "id": 603,
+    "insight_id": 602,
+    "podcast_episode_id": 591,
+    "overview": "The non-obvious signal here is not simply that AI helps creation; it is that AI may compress the cost of making things while making taste, workflow control, and trust more valuable. Field\u2019s framing implies a two-layer market: commoditized generation at the bottom and defensible professional tooling at the top. That matters because it suggests the winners are not automatically the best model providers. In categories like design, the durable edge comes from hard-to-copy workflow depth, edge-case handling, and a product that professionals actually want to live in every day. The episode also implies that many AI product announcements are mostly narrative events unless they translate into measurable workflow adoption and retention. Finally, the regulatory discussion is more than history: the Adobe-Figma process is a reminder that deal timing, antitrust uncertainty, and prolonged review can alter strategic outcomes even when the underlying business is strong.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "The practical takeaway is to focus on software companies that can turn AI into workflow leverage rather than those relying on generic model access. The key watch items are whether a product deepens habitual usage, improves collaboration density, and keeps professional users from churning when AI-native competitors launch. For Figma-like businesses, the right question is whether AI features increase time spent in the product and raise switching costs, not whether the company can mimic frontier model capabilities. On the other side, model-centric firms need to prove they can move from impressive demos to repeatable product value inside real workflows. The episode also argues for monitoring trust/provenance layers as a possible new category of value in creative software, since audiences may increasingly reward clear authorship and craft signals. In M&A, the lesson is to treat regulatory timelines as a core strategic variable rather than a legal footnote, because extended review can destroy optionality even for strategically compelling deals.",
+    "ticker_analysis": {},
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI tool launches that drive more prompting but less professional workflow depth, indicating generation is displacing craft rather than augmenting it.",
+      "A sustained deceleration in Figma-style collaboration metrics after major AI feature rollouts, suggesting the product is being commoditized faster than expected.",
+      "Evidence that users trust raw output volume over authorship, provenance, or process quality in creative categories."
+    ],
+    "catalysts": [
+      "Next Figma quarterly earnings release, when revenue growth, retention, and seat expansion can be checked against the AI-competition narrative.",
+      "New major AI design product launches from frontier labs, which will test whether workflow UX or model quality is the real differentiator.",
+      "Any announced large software acquisition entering antitrust review in 2026, which would provide a live test of the regulatory-duration thesis."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-10-19T22:11:49.947961",
+    "updated_at": "2026-10-20 03:11:49",
+    "episode_evidence": "Dylan Field: Design is the new code.\nDylan Field: It's easy to mistake model progress for product progress.\nDylan Field: AI is not raising the ceiling, humans are using the ceiling, though.\nDylan Field: If it's digital, you're lowering the floor to make it happen. Everyone can be part of that and it's more democratized.\nDylan Field: We had 16 months of regulatory review for any company is punishing and an actual and competitive situation, that could be like very destructive for one of the parties.",
+    "falsification_tracks": [
+      "By Q4 2026, Figma revenue growth falls below 15% year over year in a quarterly earnings release or 10-Q while AI design competitors continue launching, which would weaken the claim that professional workflow UX remains a durable moat; source: Figma 10-Q and earnings release.",
+      "By Q2 2027, Figma active teams or paid collaborative seats decline more than 10% year over year for two consecutive quarters, which would contradict the thesis that workflow depth and professional UX keep users embedded; source: Figma 10-Q.",
+      "By end of FY 2027, the Adobe-Figma-style regulatory review pattern is not punitive in comparable software deals, with similar transactions clearing in under 6 months and not producing deal failure or material strategic disruption, which would weaken the antitrust cautionary thesis; source: FTC, EC, and CMA case timelines.",
+      "By Q2 2027, industry app-store or software-usage datasets show utilization rising materially alongside app-count growth, rather than staying flat, which would falsify the prediction that software abundance outpaces usage; source: Sensor Tower or similar app analytics report.",
+      "By 2027, platform experiments or consumer surveys show no engagement uplift of at least 5% for AI-labeled or provenance-tagged creative assets, which would weaken the trust-bifurcation thesis; source: platform A/B tests or a named user study report."
+    ],
+    "schema_version": 1,
+    "model_used": "gpt-5.4-mini",
+    "input_tokens": 4430,
+    "output_tokens": 996,
+    "cost_usd": 0.00390225,
+    "attempt_count": 1,
+    "generation_mode": "extraction",
+    "insight_title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-10-19",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 939,
-    "term": "a little bit below a million",
-    "definition": "in revenue in year one and could have grown to \"two and a half to three million\" in year two, but it lacked the venture-scale conditions he wanted",
+    "id": 945,
+    "term": "floor",
+    "definition": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
     "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 4,
-    "relevance_score": 65,
-    "submitted_date": "2026-10-19 12:06:46",
-    "priority_score": 185
-  },
-  {
-    "id": 940,
-    "term": "in the moment,",
-    "definition": "while keeping the user\u2019s data, memories, and contacts portable enough that switching should take about a day",
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 4,
-    "relevance_score": 65,
-    "submitted_date": "2026-10-19 12:06:46",
-    "priority_score": 185
-  },
-  {
-    "id": 941,
-    "term": "anything a human can do with a computer.",
-    "definition": "They also discuss how agent traffic may eventually exceed human traffic, changing distribution and monetization incentives for platforms like Amazon and creating opportunities for neutral, agent-frien",
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 4,
-    "relevance_score": 65,
-    "submitted_date": "2026-10-19 12:06:46",
-    "priority_score": 185
-  },
-  {
-    "id": 936,
-    "term": "Model neutrality",
-    "definition": "A product strategy where the application dynamically chooses among AI model providers instead of depending on one supplier. The goal is to avoid lock-in and use the best model available at a given moment.",
-    "investment_implications": "Could matter for application-layer winners if model leadership keeps shifting and customers value flexibility over single-vendor simplicity.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-10-19 12:05:22",
+    "submitted_date": "2026-10-20 03:12:48",
+    "priority_score": 80
+  },
+  {
+    "id": 946,
+    "term": "cloud design",
+    "definition": "announcement, Figma\u2019s business did not meaningfully suffer and the company grew 48% year over year in the referenced quarter",
+    "investment_implications": null,
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-20 03:12:48",
+    "priority_score": 80
+  },
+  {
+    "id": 942,
+    "term": "Design is the new code",
+    "definition": "A framing that says software differentiation is shifting away from pure programming ability and toward design quality, workflow, and product taste. It implies the value capture layer moves up the stack as coding gets easier.",
+    "investment_implications": "Supports investing in tools that operationalize design and workflow rather than only model providers.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-20 03:11:31",
+    "priority_score": 80
+  },
+  {
+    "id": 943,
+    "term": "Model progress vs. product progress",
+    "definition": "The idea that better AI models do not automatically translate into better end-user products. Product value depends on UX, workflows, and adoption, not just benchmark gains.",
+    "investment_implications": "Helps separate hype around foundation models from companies that can actually monetize AI in real products.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-20 03:11:31",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 92491,
+    "id": 92675,
     "name": "Jean Denigrez",
     "slug": "jean-denigrez",
     "bio": null,
@@ -54395,7 +54472,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92492,
+    "id": 92676,
+    "name": "Dylan Field",
+    "slug": "dylan-field",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
+    "last_episode_title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-19",
+    "appearance_count": 1
+  },
+  {
+    "id": 92677,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -54407,7 +54496,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92493,
+    "id": 92678,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -54419,7 +54508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92494,
+    "id": 92679,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -54431,7 +54520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92495,
+    "id": 92680,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -54443,7 +54532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92497,
+    "id": 92682,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -54455,7 +54544,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 92496,
+    "id": 92681,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -54467,7 +54556,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92498,
+    "id": 92683,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -54479,7 +54568,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92499,
+    "id": 92684,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -54491,7 +54580,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92500,
+    "id": 92685,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -54503,7 +54592,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92501,
+    "id": 92686,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -54515,7 +54604,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92502,
+    "id": 92687,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -54527,7 +54616,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92503,
+    "id": 92688,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -54539,7 +54628,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92504,
+    "id": 92689,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -54551,7 +54640,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92505,
+    "id": 92690,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -54563,7 +54652,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92506,
+    "id": 92691,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -54575,7 +54664,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92507,
+    "id": 92692,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -54587,7 +54676,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92508,
+    "id": 92693,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -54599,7 +54688,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92509,
+    "id": 92694,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -54608,18 +54697,6 @@ const dashboardData = {
     "last_episode_title": "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-05",
-    "appearance_count": 1
-  },
-  {
-    "id": 92510,
-    "name": "Alex Atallah & Amjad Masad",
-    "slug": "alex-atallah--amjad-masad",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
     "appearance_count": 1
   }
 ],
@@ -55682,6 +55759,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$483.0M"
+  },
+  {
+    "id": 550,
+    "name": "Dylan Field",
+    "slug": "dylan-field",
+    "bio": "CEO of Figma and co-founder of the company, which he started in August 2012. He focuses on design software, creative workflows, and the impact of AI on product creation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-20 03:11:31",
+    "last_episode_title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-19 \u2022 Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
+    "last_proof_snippet": "Dylan Field, welcome to the All-In-Interview. Thank you. Thanks for having me. We are here in beautiful Napa, Yonville, California. Yeah, you're three drinks in. We're a couple of drinks in and we decided to go on camera. Yeah, why not? Why",
+    "supporting_takeaway": "Field said AI lowers the \"floor\" of digital production, but \"AI is not raising the ceiling,\" because humans still create the highest-quality work through boldness and craft.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 549,
@@ -56954,7 +57058,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 0.77,
+    "mention_score_decayed": 0.75,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -57022,66 +57126,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 52,
-    "name": "Alex Karp",
-    "slug": "alex-carp",
-    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
-    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
-    "net_worth_usd": 14000000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/",
-    "net_worth_updated_at": "2026-07-03T23:37:37.147345",
-    "voice_tone": "Assertive and knowledgeable.",
-    "voice_style": "Factual and persuasive.",
-    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
-    "voice_profile_updated_at": "2026-07-04 04:37:05",
-    "last_seen": "2026-08-17 03:02:02",
-    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-07-08",
-    "mention_score": 3,
-    "mention_score_decayed": 0.7,
-    "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
-    "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
-    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Karp",
-      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
-      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
-      "derived": {
-        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "German-American"
-      },
-      "lead_paragraphs": [
-        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
-        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
-      ],
-      "sections": [
-        {
-          "heading": "Palantir Technologies",
-          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
-        },
-        {
-          "heading": "Big Data Analytics",
-          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
-        },
-        {
-          "heading": "AI Contributions",
-          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
-        }
-      ]
-    },
-    "net_worth": "$14.00B"
   },
   {
     "id": 505,
@@ -57190,6 +57234,66 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 52,
+    "name": "Alex Karp",
+    "slug": "alex-carp",
+    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
+    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
+    "net_worth_usd": 14000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/",
+    "net_worth_updated_at": "2026-07-03T23:37:37.147345",
+    "voice_tone": "Assertive and knowledgeable.",
+    "voice_style": "Factual and persuasive.",
+    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
+    "voice_profile_updated_at": "2026-07-04 04:37:05",
+    "last_seen": "2026-08-17 03:02:02",
+    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-08",
+    "mention_score": 3,
+    "mention_score_decayed": 0.68,
+    "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
+    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Karp",
+      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
+      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
+      "derived": {
+        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
+        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Technologies",
+          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
+        },
+        {
+          "heading": "Big Data Analytics",
+          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
+        },
+        {
+          "heading": "AI Contributions",
+          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
+        }
+      ]
+    },
+    "net_worth": "$14.00B"
   },
   {
     "id": 497,
@@ -59285,7 +59389,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -62261,7 +62365,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -63101,7 +63205,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -63170,7 +63274,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -64464,7 +64568,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Open source AI models are perceived as less dangerous due to their specialization and lower likelihood of harmful cyber security use.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -64592,7 +64696,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -65539,7 +65643,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Clarion Partners manages over $70 billion in real estate assets, with a significant portion in industrial logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -67711,33 +67815,6 @@ const dashboardData = {
     "net_worth": "$10.0M"
   },
   {
-    "id": 277,
-    "name": "Michael Fritzell",
-    "slug": "michael-fritzell",
-    "bio": "Michael Fritzell is an expert on Asian markets with a focus on South Korea and Southeast Asia.",
-    "known_for": "His insights on market bubbles and investment opportunities in Asian equities.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Cautious and analytical",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Clear and concise with a focus on key market trends",
-    "voice_profile_updated_at": "2026-06-07 03:01:19",
-    "last_seen": "2026-06-07 03:01:19",
-    "last_episode_title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.05,
-    "last_main_idea": "South Korean memory chip companies are projected to generate $200 billion in profits by 2028, indicating a potential bubble in their stock valuations.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
-    "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
-    "supporting_takeaway": "The South Korean stock market is experiencing significant speculation, particularly in memory chip and AI stocks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -67863,6 +67940,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 277,
+    "name": "Michael Fritzell",
+    "slug": "michael-fritzell",
+    "bio": "Michael Fritzell is an expert on Asian markets with a focus on South Korea and Southeast Asia.",
+    "known_for": "His insights on market bubbles and investment opportunities in Asian equities.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Cautious and analytical",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise with a focus on key market trends",
+    "voice_profile_updated_at": "2026-06-07 03:01:19",
+    "last_seen": "2026-06-07 03:01:19",
+    "last_episode_title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-06",
+    "mention_score": 1,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "South Korean memory chip companies are projected to generate $200 billion in profits by 2028, indicating a potential bubble in their stock valuations.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
+    "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
+    "supporting_takeaway": "The South Korean stock market is experiencing significant speculation, particularly in memory chip and AI stocks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 276,
@@ -68434,63 +68538,6 @@ const dashboardData = {
     "net_worth": "$577.0M"
   },
   {
-    "id": 264,
-    "name": "Robin Hansen",
-    "slug": "robin-hansen",
-    "bio": "Robin Hansen is an economist and advocate for prediction markets, recognized for his research on information aggregation. He has argued that speculative markets are unmatched mechanisms for aggregating information and advising decisions for individuals and organizations.",
-    "known_for": "His advocacy for prediction markets as effective tools for information aggregation and decision-making.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and persuasive",
-    "voice_style": "Factual and analytical, with a focus on the potential benefits and challenges of prediction markets.",
-    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points regarding the value and risks of prediction markets.",
-    "voice_profile_updated_at": "2026-05-27 03:01:30",
-    "last_seen": "2026-05-27 03:01:30",
-    "last_episode_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Prediction markets aggregate information to forecast outcomes, enhancing decision-making for businesses and individuals.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
-    "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
-    "supporting_takeaway": "Regulatory risks, such as Minnesota's ban on prediction markets, pose significant challenges to their growth and acceptance.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-26T22:01:39.945377",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robin Hansen",
-      "fetched_at": "2026-05-27T03:01:39.945043+00:00",
-      "cliff_notes": "Robin Hansen is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hansen's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value. His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Robin Hansen is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hansen's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value.",
-        "His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making."
-      ],
-      "sections": [
-        {
-          "heading": "Prediction Markets",
-          "body": "Robin Hansen is known for his research and advocacy on the effectiveness of prediction markets in aggregating information. He believes these markets provide unmatched insights into various topics, from public policy to business strategy."
-        },
-        {
-          "heading": "Information Aggregation",
-          "body": "Hansen's work emphasizes the importance of information aggregation in decision-making processes. He argues that prediction markets are a powerful tool for individuals and organizations to make informed decisions based on aggregated speculative information."
-        },
-        {
-          "heading": "Business Strategy",
-          "body": "Hansen suggests that prediction markets can advise on significant business decisions, such as the impact of a CEO's tenure on a company's value, by providing conditional stock market scenarios that reflect different outcomes."
-        }
-      ]
-    }
-  },
-  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -68556,6 +68603,63 @@ const dashboardData = {
       ]
     },
     "net_worth": "$25.0M"
+  },
+  {
+    "id": 264,
+    "name": "Robin Hansen",
+    "slug": "robin-hansen",
+    "bio": "Robin Hansen is an economist and advocate for prediction markets, recognized for his research on information aggregation. He has argued that speculative markets are unmatched mechanisms for aggregating information and advising decisions for individuals and organizations.",
+    "known_for": "His advocacy for prediction markets as effective tools for information aggregation and decision-making.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and persuasive",
+    "voice_style": "Factual and analytical, with a focus on the potential benefits and challenges of prediction markets.",
+    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points regarding the value and risks of prediction markets.",
+    "voice_profile_updated_at": "2026-05-27 03:01:30",
+    "last_seen": "2026-05-27 03:01:30",
+    "last_episode_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.03,
+    "last_main_idea": "Prediction markets aggregate information to forecast outcomes, enhancing decision-making for businesses and individuals.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
+    "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
+    "supporting_takeaway": "Regulatory risks, such as Minnesota's ban on prediction markets, pose significant challenges to their growth and acceptance.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-26T22:01:39.945377",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robin Hansen",
+      "fetched_at": "2026-05-27T03:01:39.945043+00:00",
+      "cliff_notes": "Robin Hansen is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hansen's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value. His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Robin Hansen is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hansen's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value.",
+        "His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making."
+      ],
+      "sections": [
+        {
+          "heading": "Prediction Markets",
+          "body": "Robin Hansen is known for his research and advocacy on the effectiveness of prediction markets in aggregating information. He believes these markets provide unmatched insights into various topics, from public policy to business strategy."
+        },
+        {
+          "heading": "Information Aggregation",
+          "body": "Hansen's work emphasizes the importance of information aggregation in decision-making processes. He argues that prediction markets are a powerful tool for individuals and organizations to make informed decisions based on aggregated speculative information."
+        },
+        {
+          "heading": "Business Strategy",
+          "body": "Hansen suggests that prediction markets can advise on significant business decisions, such as the impact of a CEO's tenure on a company's value, by providing conditional stock market scenarios that reflect different outcomes."
+        }
+      ]
+    }
   },
   {
     "id": 263,
@@ -76008,7 +76112,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-19T18:22:32.882348"
+      "last_updated": "2026-10-19T22:12:32.371710"
     }
   ]
 }
