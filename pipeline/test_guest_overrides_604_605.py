@@ -9,5 +9,5 @@ def test_604_605_overrides():
     mc, guests = export_data._apply_guest_export_overrides(mc, guests)
     a, b = mc["insights"]
     assert (a["guest_name"], a["guest_org"]) == ("Evan Conrad", "SF Compute")
-    assert b["guest_name"] is None and b["host_name"] == "Jack Farley"
+    assert b["guest_name"] is None and b["host_name"] == "Jack Farley and Max Wiethe"
     assert [g["name"] for g in guests] == ["Evan Conrad"]
