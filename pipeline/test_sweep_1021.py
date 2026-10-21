@@ -32,3 +32,18 @@ def test_reexport_reapplies_sweep(path):
         assert "Anthropic, OpenAI and SpaceX." in text
     if "Amadeh" in before:
         assert "Amodei" in text
+
+
+ROSENBERG_BIO = ("Founder of Rosenberg Research and author of Bear in the Bullring (Sutherland House), "
+                 "published October 6, 2026. He also discussed his ROSY ETF, launched on the TSX on "
+                 "September 10, 2026.")
+
+
+def test_reexport_pins_pundit_495_bio():
+    obj = _old("site/data/pundits.json")
+    out = export_data._apply_summary_overrides(obj)
+    out = out if out is not None else obj
+    lst = out if isinstance(out, list) else out.get("pundits", [])
+    rec = [p for p in lst if p.get("id") == 495][0]
+    assert rec["bio"] == ROSENBERG_BIO
+    assert "forthcoming" not in json.dumps(rec) and "Rosie ETF" not in json.dumps(rec)

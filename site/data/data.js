@@ -57759,7 +57759,7 @@ const dashboardData = {
     "id": 495,
     "name": "David Rosenberg",
     "slug": "david-rosenberg",
-    "bio": "Founder of Rosenberg Research and author of the forthcoming book Bear in the Bull Ring, scheduled for October 6, 2026. He also discussed the Rosie ETF, launched on the TSX on September 10, 2026.",
+    "bio": "Founder of Rosenberg Research and author of Bear in the Bullring (Sutherland House), published October 6, 2026. He also discussed his ROSY ETF, launched on the TSX on September 10, 2026.",
     "known_for": "Macro economist known for contrarian cycle analysis, inflation skepticism, and bond-market commentary.",
     "net_worth_usd": null,
     "net_worth_source": null,
