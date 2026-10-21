@@ -1720,10 +1720,18 @@ def _apply_guest_export_overrides(main_content: dict, podcast_guests: list) -> t
     ov = load_overrides()
     by_insight = ov.get("insight_guest_by_id") or {}
     block = set(ov.get("blocklist") or [])
+    host_by = ov.get("insight_host_by_id") or {}
+    org_by = ov.get("insight_guest_org_by_id") or {}
     for ins in main_content.get("insights", []) or []:
-        override = by_insight.get(str(ins.get("id")))
-        if override:
-            ins["guest_name"] = override
+        key = str(ins.get("id"))
+        if key in by_insight:
+            override = by_insight[key]
+            # Oct 21 2026: "" / null = explicitly blank (never fall back to a title fragment)
+            ins["guest_name"] = override if override else None
+        if host_by.get(key):
+            ins["host_name"] = host_by[key]
+        if org_by.get(key):
+            ins["guest_org"] = org_by[key]
     filtered = [g for g in podcast_guests if (g.get("name") or "") not in block]
     fixes = ov.get("fixes") or {}
     for g in filtered:
