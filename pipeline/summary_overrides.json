@@ -789,6 +789,40 @@
         [
           "RAMP adoption data",
           "Ramp adoption data"
+        ],
+        [
+          "RAMP data",
+          "Ramp data"
+        ]
+      ]
+    },
+    {
+      "insight_id": 397,
+      "podcast_episode_id": 382,
+      "_note": "Oct 21 2026 G(ai)ndolf sweep: stray apostrophe",
+      "replacements": [
+        [
+          "Anthropic's'",
+          "Anthropic's"
+        ]
+      ]
+    },
+    {
+      "insight_id": 77,
+      "podcast_episode_id": 60,
+      "_note": "Oct 21 2026 G(ai)ndolf sweep: ASR 'anthropic ace-upplied' + capitalize Anthropic",
+      "replacements": [
+        [
+          "declaration of anthropic ace-upplied chain risk due to anthropic's refusal",
+          "declaration of Anthropic as a supply chain risk due to Anthropic's refusal"
+        ],
+        [
+          "declaration of anthropic AI supply chain risk due to anthropic's refusal",
+          "declaration of Anthropic AI supply chain risk due to Anthropic's refusal"
+        ],
+        [
+          "actions against anthropic",
+          "actions against Anthropic"
         ]
       ]
     }
@@ -1558,6 +1592,10 @@
     [
       "Brad Kershner",
       "Brad Gerstner"
+    ],
+    [
+      "Amadeh",
+      "Amodei"
     ]
   ],
   "name_replacements": [
@@ -3076,6 +3114,16 @@
       },
       "unset": [
         "net_worth"
+      ]
+    },
+    {
+      "id": 265,
+      "_note": "Oct 21 2026 G(ai)ndolf sweep: Marc Rowan Private Markets, drop unverifiable garbled 'Rol.'",
+      "replacements": [
+        [
+          "Anthropic, OpenAI, SpaceX, and Rol.",
+          "Anthropic, OpenAI and SpaceX."
+        ]
       ]
     }
   ],

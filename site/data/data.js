@@ -6161,7 +6161,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-08-03",
-      "summary": "The podcast discusses Anthropic's' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+      "summary": "The podcast discusses Anthropic's remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
       "key_takeaway": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
       "tickers_mentioned": [
         "GOOGL",
@@ -12968,7 +12968,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-03-11",
-      "summary": "The podcast discusses the Department of War's declaration of anthropic AI supply chain risk due to anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons. The host argues that AI will play a significant role in the military, civilian government, and private sector within 20 years, raising important questions about the control and ethics of AI use. The episode also touches on the potential risks of AI in warfare and surveillance, and the need for regulation and norms to prevent misuse.",
+      "summary": "The podcast discusses the Department of War's declaration of Anthropic AI supply chain risk due to Anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons. The host argues that AI will play a significant role in the military, civilian government, and private sector within 20 years, raising important questions about the control and ethics of AI use. The episode also touches on the potential risks of AI in warfare and surveillance, and the need for regulation and norms to prevent misuse.",
       "key_takeaway": "Investment in AI technology is critical for companies operating in the military and surveillance sectors, but requires careful consideration of AI ethics and oversight.",
       "tickers_mentioned": [
         "AMZN",
@@ -22083,10 +22083,10 @@ const dashboardData = {
     "id": 68,
     "insight_id": 77,
     "podcast_episode_id": 60,
-    "overview": "The Department of War's declaration of anthropic ace-upplied chain risk due to anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons is a significant event with far-reaching implications for the future of AI and warfare. This situation underscores the growing importance of AI in military and civilian applications and raises critical questions about the role of AI in society, the balance of power between private companies and the government, and the potential for mass surveillance and political suppression. The investment thesis revolves around the increasing reliance on AI in the military and civilian sectors, the potential for government overreach, and the ethical considerations surrounding AI usage. Understanding these dynamics is crucial for investors as the AI landscape evolves rapidly, with potential impacts on privacy, security, and the balance of power between public and private entities.",
+    "overview": "The Department of War's declaration of Anthropic as a supply chain risk due to Anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons is a significant event with far-reaching implications for the future of AI and warfare. This situation underscores the growing importance of AI in military and civilian applications and raises critical questions about the role of AI in society, the balance of power between private companies and the government, and the potential for mass surveillance and political suppression. The investment thesis revolves around the increasing reliance on AI in the military and civilian sectors, the potential for government overreach, and the ethical considerations surrounding AI usage. Understanding these dynamics is crucial for investors as the AI landscape evolves rapidly, with potential impacts on privacy, security, and the balance of power between public and private entities.",
     "key_takeaways_detailed": [
       "AI is becoming increasingly central to military and civilian operations, with potential implications for national security and individual privacy.",
-      "The Department of War's actions against anthropic highlight the tension between government demands and private sector ethics, which could have broader implications for AI companies.",
+      "The Department of War's actions against Anthropic highlight the tension between government demands and private sector ethics, which could have broader implications for AI companies.",
       "Investors should monitor the development and deployment of AI technologies, especially in the context of mass surveillance and autonomous weapons.",
       "The potential for government overreach in the AI space could lead to regulatory changes that impact the operations of tech companies.",
       "Ethical considerations surrounding AI usage are becoming more prominent, which could influence public opinion and corporate behavior."
@@ -44389,7 +44389,7 @@ const dashboardData = {
     "updated_at": "2026-08-04 03:02:59",
     "episode_evidence": "Anthropic's remarkable 10x year-over-year revenue growth is a testament to the company's ability to monetize AI technology effectively. However, the podcast highlights a significant challenge: sustaining this growth rate. 'For the last three consecutive years, Anthropic's revenue has 10x to year over year. And it's likely to do so again this year,' the host mentions. This rapid growth is juxtaposed with a more modest 3x year-over-year growth in lab compute, indicating a potential bottleneck. The need for increased lab margins, higher compute prices, or a shift towards inference compute usage is underscored by the fact that 'One, lab margins have to increase. Two, the price of compute has to increase. Or three, the percentage of compute that labs bend on inference rather than training has to increase.' The increasing share of compute spent on inference, as noted by the guest with 'OpenAI reportedly shifting from 25% to possibly over 50%,' suggests a strategic reallocation of resources within the AI industry.",
     "falsification_tracks": [
-      "Should Anthropic's' revenue growth rate drop below 10x year-over-year for two consecutive quarters, it would challenge the thesis of their sustainable rapid growth.",
+      "Should Anthropic's revenue growth rate drop below 10x year-over-year for two consecutive quarters, it would challenge the thesis of their sustainable rapid growth.",
       "A sustained decrease in spot prices for compute below the 40% increase since February would indicate a softening market, contradicting the need for higher compute prices.",
       "If the share of compute spent on inference by leading AI companies were to decrease, it would suggest that the industry is not prioritizing inference as a growth strategy."
     ],
@@ -49982,7 +49982,7 @@ const dashboardData = {
     "id": 498,
     "insight_id": 509,
     "podcast_episode_id": 493,
-    "overview": "Amadeh's call for caution isn't just about pausing development but instead reflects a broader concern regarding regulatory alignment as AI technologies evolve. This slowdown poses a dilemma: while ensuring safety measures keeps pace seems prudent, it may also hinder rapid advancements that could be commercially explosive. The ongoing dialogue around threatening AI's application in biological weaponry underscores the immediate stakes involved, with Anthropic noting five specific cases where AI has already facilitated dangerous applications. If safety regulations do stall AI's progression significantly, companies may pivot strategies towards risk mitigation rather than innovation, fundamentally altering their business trajectories.",
+    "overview": "Amodei's call for caution isn't just about pausing development but instead reflects a broader concern regarding regulatory alignment as AI technologies evolve. This slowdown poses a dilemma: while ensuring safety measures keeps pace seems prudent, it may also hinder rapid advancements that could be commercially explosive. The ongoing dialogue around threatening AI's application in biological weaponry underscores the immediate stakes involved, with Anthropic noting five specific cases where AI has already facilitated dangerous applications. If safety regulations do stall AI's progression significantly, companies may pivot strategies towards risk mitigation rather than innovation, fundamentally altering their business trajectories.",
     "key_takeaways_detailed": [],
     "investment_thesis": "If leading firms can successfully navigate these challenges and maintain momentum, they may capture substantial market share. Conversely, failure to address safety issues may lead to disruptions in key investments like AI-driven business operations.",
     "ticker_analysis": {
@@ -59069,7 +59069,7 @@ const dashboardData = {
       "source_url": "",
       "page_title": "Dario Amodei",
       "fetched_at": "2026-09-18T04:54:12.885990+00:00",
-      "cliff_notes": "Dario Amodei has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
+      "cliff_notes": "Dario Amodei has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amodei's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
       "derived": {
         "current_role": "CEO of Anthropic",
         "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
@@ -59077,7 +59077,7 @@ const dashboardData = {
       "infobox": {},
       "lead_paragraphs": [
         "Dario Amodei has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
-        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
+        "Amodei's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
       ],
       "sections": [
         {
@@ -59086,7 +59086,7 @@ const dashboardData = {
         },
         {
           "heading": "Leadership at Anthropic",
-          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
+          "body": "As CEO of Anthropic, Amodei drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
         },
         {
           "heading": "Publications on AI Regulation",
@@ -68173,7 +68173,7 @@ const dashboardData = {
         },
         {
           "heading": "Private Markets",
-          "body": "Rowan has emphasized the importance of private markets for diversification, arguing that most investors have zero exposure to high-growth private companies like Anthropic, OpenAI, SpaceX, and Rol."
+          "body": "Rowan has emphasized the importance of private markets for diversification, arguing that most investors have zero exposure to high-growth private companies like Anthropic, OpenAI and SpaceX."
         },
         {
           "heading": "Technology and the Economy",

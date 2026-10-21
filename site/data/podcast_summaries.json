@@ -11,7 +11,7 @@
       "Jack Farley says SpaceX revenue increased 161% and the AI business tripled in a single quarter, supporting the view that AI infrastructure demand is still expanding.",
       "Jack Farley cites Elon Musk\u2019s target of 10 GW online in 2027, plus 2.5 to 3 GW this year, as evidence that compute and power supply are still scaling.",
       "Jack Farley argues Anthropic\u2019s slower Q3 growth is bearish mainly because expectations were unrealistic, not because the business is collapsing.",
-      "Max says RAMP data show 55.9% of businesses have some AI spend, with 43.8% on Anthropic, 40.6% on OpenAI, and XAI rising to 4.1%.",
+      "Max says Ramp data show 55.9% of businesses have some AI spend, with 43.8% on Anthropic, 40.6% on OpenAI, and XAI rising to 4.1%.",
       "Jack Farley says memory is a very large share of expected AI semiconductor profit growth, making Micron and memory supply trends especially important."
     ],
     "investment_thesis": "The episode\u2019s core claim is that AI fundamentals remain intact and recent weakness is mainly a credit-and-positioning flush, not the end of the AI capex cycle.",
@@ -3612,9 +3612,9 @@
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Why smarter AI models could drive up compute prices 10x",
     "episode_date": "2026-08-03",
-    "summary": "The podcast discusses Anthropic's' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+    "summary": "The podcast discusses Anthropic's remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
     "key_takeaways": [
-      "Anthropic's' revenue has grown 10x year over year for three consecutive years, with a projected $100 billion to $150 billion in revenue for the current year.",
+      "Anthropic's revenue has grown 10x year over year for three consecutive years, with a projected $100 billion to $150 billion in revenue for the current year.",
       "To maintain this trend, Anthropic's would need to achieve $1 trillion in revenue by the end of next year.",
       "The lab compute growth of 3x year over year is insufficient to support the 10x revenue growth, suggesting a need for increased lab margins, higher compute prices, or a shift towards more inference compute usage.",
       "Inference margins for Anthropic's have reportedly increased from 40% to over 80% within the last year.",
