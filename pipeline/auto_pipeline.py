@@ -847,70 +847,113 @@ def _has_uncommitted_site_changes() -> bool:
     return bool((r.stdout or "").strip())
 
 
+GENERATED_PATHS = ["site/", "status.json", "pipeline_state.json", "pundits.json",
+                   "podcast_guests.json", "trap_map_home.json"]
+
+_EVENING_GIT_ALERT: list[str] = []
+
+
+def _alert_evening_publish(reason: str) -> None:
+    """Loud, greppable failure line + notification. main() exits non-zero if any fired."""
+    line = f"ALERT evening publish: {reason}"
+    print(line, flush=True)
+    _EVENING_GIT_ALERT.append(reason)
+    try:
+        send_notification("ALERT evening publish", reason[:900], priority=1)
+    except Exception:
+        pass
+
+
+def _git(*args, timeout=120):
+    return subprocess.run(["git", *args], capture_output=True, text=True, cwd=WORKSPACE, timeout=timeout)
+
+
+def _git_err(r, default):
+    return ((r.stderr or "") + (r.stdout or "")).strip() or default
+
+
+def _abort_in_progress_ops() -> None:
+    """Abort any merge/rebase/cherry-pick left behind by a previous run."""
+    gitdir = Path(_git("rev-parse", "--git-dir").stdout.strip() or ".git")
+    if not gitdir.is_absolute():
+        gitdir = WORKSPACE / gitdir
+    if (gitdir / "rebase-merge").exists() or (gitdir / "rebase-apply").exists():
+        print("  Aborting in-progress rebase")
+        _git("rebase", "--abort")
+    if (gitdir / "MERGE_HEAD").exists():
+        print("  Aborting in-progress merge")
+        _git("merge", "--abort")
+    if (gitdir / "CHERRY_PICK_HEAD").exists():
+        _git("cherry-pick", "--abort")
+
+
+def _backup_and_discard_generated() -> str | None:
+    """Copy dirty/untracked/conflicted generated outputs to /tmp, then restore them to HEAD.
+    Only GENERATED_PATHS are touched; anything else in the checkout is left alone."""
+    r = _git("status", "--porcelain", "--untracked-files=all", "--", *GENERATED_PATHS)
+    lines = [l for l in (r.stdout or "").splitlines() if l.strip()]
+    if not lines:
+        return None
+    ts = datetime.now().strftime("%Y%m%d-%H%M%S")
+    dest = Path(f"/tmp/evening-publish-backup-{ts}")
+    dest.mkdir(parents=True, exist_ok=True)
+    import shutil
+    for l in lines:
+        rel = l[3:].split(" -> ")[-1].strip().strip('"')
+        src = WORKSPACE / rel
+        if src.is_file():
+            (dest / rel).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dest / rel)
+    (dest / "git-status.txt").write_text("\n".join(lines) + "\n")
+    (dest / "diff.patch").write_text(_git("diff", "HEAD", "--", *GENERATED_PATHS).stdout or "")
+    rels = [l[3:].split(" -> ")[-1].strip().strip('"') for l in lines]
+    _git("reset", "-q", "HEAD", "--", *rels)
+    for rel in rels:
+        if _git("cat-file", "-e", f"HEAD:{rel}").returncode == 0:
+            _git("checkout", "HEAD", "--", rel)
+        elif (WORKSPACE / rel).is_file():
+            (WORKSPACE / rel).unlink()  # untracked generated output (backed up above)
+    left = (_git("status", "--porcelain", "--untracked-files=all", "--", *GENERATED_PATHS).stdout or "").strip()
+    if left:
+        raise RuntimeError(f"generated outputs still dirty after restore: {left[:300]}")
+    print(f"  Backed up {len(lines)} generated path(s) to {dest} and restored them to HEAD")
+    return str(dest)
+
+
 def _ensure_main_before_export() -> bool:
     """
-    Ensure the checkout is on main BEFORE export writes any files.
-
-    If on a non-main branch with uncommitted site/ changes:
-      1. Stash with a named ref (never discard)
-      2. Checkout main
-      3. Return True to proceed
-
-    Export will regenerate site/ files fresh, so the stash is a safety net only.
-    Returns False (and sends notification) if checkout fails.
+    Start every run from a clean, fast-forwarded main (no stash/autostash):
+      1. Abort any in-progress merge/rebase left by a prior run
+      2. Back up generated outputs (site/ + root state JSON) to /tmp, restore them to HEAD
+      3. git fetch origin; checkout main; merge --ff-only origin/main
+    Any failure prints 'ALERT evening publish' and returns False.
     """
-    branch = _git_head_branch()
-    if branch is None:
-        msg = "git rev-parse --abbrev-ref HEAD failed"
-        print(f"✗ {msg}")
-        send_notification("Pipeline: Pre-export checkout failed", msg[:900], priority=1)
-        return False
-
-    if branch == "main":
-        return True
-
-    print(f"Pipeline: checkout is on '{branch}', not main — switching before export...")
-
-    has_changes = _has_uncommitted_site_changes()
-    if has_changes:
-        ts = datetime.now().strftime("%Y%m%d-%H%M%S")
-        stash_msg = f"cursor-agent-auto-stash-{ts}"
-        print(f"  Stashing uncommitted site/ changes: {stash_msg}")
-        r_stash = subprocess.run(
-            ["git", "stash", "push", "-m", stash_msg, "--include-untracked",
-             "--", "site/", "status.json", "pipeline_state.json", "pundits.json",
-             "podcast_guests.json", "trap_map_home.json"],
-            capture_output=True,
-            text=True,
-            cwd=WORKSPACE,
-            timeout=60,
-        )
-        if r_stash.returncode != 0:
-            stash_err = (r_stash.stderr or r_stash.stdout or "").strip()
-            if "No local changes" in stash_err:
-                print("  (no local changes to stash)")
-            else:
-                msg = f"git stash failed: {stash_err}"
-                print(f"✗ {msg}")
-                send_notification("Pipeline: Pre-export stash failed", msg[:900], priority=1)
+    print("Pipeline: preparing clean main before export...")
+    try:
+        _abort_in_progress_ops()
+        _backup_and_discard_generated()
+        unmerged = (_git("diff", "--name-only", "--diff-filter=U").stdout or "").strip()
+        if unmerged:
+            _alert_evening_publish(f"unresolved conflicts outside generated outputs: {unmerged[:400]}")
+            return False
+        r = _git("fetch", "origin")
+        if r.returncode != 0:
+            _alert_evening_publish(f"git fetch failed: {_git_err(r, 'fetch failed')[:400]}")
+            return False
+        if _git_head_branch() != "main":
+            r = _git("checkout", "main", timeout=60)
+            if r.returncode != 0:
+                _alert_evening_publish(f"git checkout main failed: {_git_err(r, 'checkout failed')[:400]}")
                 return False
-        else:
-            print(f"  ✓ Stashed to '{stash_msg}'")
-
-    r_checkout = subprocess.run(
-        ["git", "checkout", "main"],
-        capture_output=True,
-        text=True,
-        cwd=WORKSPACE,
-        timeout=60,
-    )
-    if r_checkout.returncode != 0:
-        msg = (r_checkout.stderr or r_checkout.stdout or "git checkout main failed").strip()
-        print(f"✗ {msg}")
-        send_notification("Pipeline: Pre-export checkout main failed", msg[:900], priority=1)
+            _backup_and_discard_generated()  # generated files carried over from the side branch
+        r = _git("merge", "--ff-only", "origin/main", timeout=120)
+        if r.returncode != 0:
+            _alert_evening_publish(f"local main cannot fast-forward to origin/main: {_git_err(r, 'non-ff')[:400]}")
+            return False
+    except (subprocess.TimeoutExpired, RuntimeError, OSError) as e:
+        _alert_evening_publish(f"git failed while preparing main: {e}")
         return False
-
-    print("  ✓ Switched to main (export will regenerate site/ files)")
+    print("  ✓ On clean main at origin/main")
     return True
 
 
@@ -1082,36 +1125,18 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
             "yes",
         )
         if not skip_pull:
-            print("Git: fetch + pull --rebase --autostash origin main (before commit/push)...")
-            r_fetch = subprocess.run(
-                ["git", "fetch", "origin"],
-                capture_output=True,
-                text=True,
-                cwd=WORKSPACE,
-                timeout=120,
-            )
+            print("Git: fetch + merge --ff-only origin/main (before commit/push; no autostash)...")
+            r_fetch = _git("fetch", "origin")
             if r_fetch.returncode != 0:
-                msg = (r_fetch.stderr or r_fetch.stdout or "git fetch failed").strip()
-                print(f"✗ {msg}")
-                send_notification("Pipeline: Git fetch failed", msg[:900], priority=1)
+                _alert_evening_publish(f"git fetch failed before push: {_git_err(r_fetch, 'fetch failed')[:400]}")
                 return False
-            r_pull = subprocess.run(
-                ["git", "pull", "--rebase", "--autostash", "origin", "main"],
-                capture_output=True,
-                text=True,
-                cwd=WORKSPACE,
-                timeout=180,
-            )
+            r_pull = _git("merge", "--ff-only", "origin/main", timeout=180)
             if r_pull.returncode != 0:
-                msg = (r_pull.stderr or r_pull.stdout or "git pull --rebase failed").strip()
-                print(f"✗ {msg}")
-                send_notification(
-                    "Pipeline: Git pull failed before push",
-                    msg[:900] + "\n\nResolve conflicts, then push manually.",
-                    priority=1,
-                )
+                _alert_evening_publish(
+                    "cannot fast-forward main to origin/main before push (overlapping local changes or divergence): "
+                    + _git_err(r_pull, "merge --ff-only failed")[:400])
                 return False
-            # Autostash can re-poison site JSON/HTML with conflict markers after rebase.
+            # Belt and braces: never stage/push conflict markers.
             # Fail closed before we stage/push — same gate as publish_site.
             try:
                 from market_data_io import scan_site_for_conflict_or_bad_json
@@ -1186,22 +1211,15 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                 or "rejected" in err.lower()
             )
             if transient and not skip_pull:
-                print("Git: push rejected (remote moved); retrying after pull --rebase --autostash...")
-                r2 = subprocess.run(
-                    ["git", "fetch", "origin"],
-                    capture_output=True,
-                    text=True,
-                    cwd=WORKSPACE,
-                    timeout=120,
-                )
+                print("Git: push rejected (remote moved); retrying after fetch + rebase (no autostash)...")
+                r2 = _git("fetch", "origin")
                 if r2.returncode == 0:
-                    r3 = subprocess.run(
-                        ["git", "pull", "--rebase", "--autostash", "origin", "main"],
-                        capture_output=True,
-                        text=True,
-                        cwd=WORKSPACE,
-                        timeout=180,
-                    )
+                    r3 = _git("rebase", "origin/main", timeout=180)
+                    if r3.returncode != 0:
+                        _git("rebase", "--abort")
+                        _alert_evening_publish("rebase onto origin/main failed after push rejection (aborted, checkout left on main): "
+                                               + _git_err(r3, "rebase failed")[:400])
+                        return False
                     if r3.returncode == 0:
                         try:
                             from market_data_io import scan_site_for_conflict_or_bad_json
@@ -1263,7 +1281,7 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                 send_notification(
                     "Pipeline: Git push failed",
                     "Site not updated on GitHub. From the repo root run:\n"
-                    "  git fetch origin && git pull --rebase --autostash origin main\n"
+                    "  git fetch origin && git rebase origin/main\n"
                     "then resolve any conflicts and: git push origin main\n\n"
                     f"{err[:500]}",
                     priority=1,
@@ -1338,7 +1356,7 @@ def build_summary(results: dict) -> str:
     return "\n".join(lines)
 
 
-def main():
+def _main():
     if not acquire_lock():
         return
 
@@ -1355,9 +1373,8 @@ def main():
     errors = []
 
     # Ensure checkout is on main BEFORE any pipeline steps run.
-    # If on a non-main branch (e.g. leftover from prior agent work), stash any
-    # uncommitted site/ changes safely, then checkout main. This only stashes
-    # leftovers from before this run; fresh outputs go directly to main.
+    # Aborts leftover merge/rebase, backs up generated outputs to /tmp, then
+    # fetch + checkout main + ff-only to origin/main. No stash/autostash.
     if not _ensure_main_before_export():
         errors.append("checkout_main")
         # _ensure_main_before_export already sent notification; skip the run cleanly
@@ -1491,6 +1508,8 @@ def main():
         ts = datetime.now().strftime("%Y-%m-%d %H:%M")
         commit_msg = f"Pipeline update {ts}: {results['transcripts_analyzed']} podcasts, {results['insights_promoted']} insights, {results['newsletters_imported']} newsletters"
         pushed_ok = git_push(commit_msg, pathspecs=["site"]) if export_ok else False
+        if export_ok and not pushed_ok and not _EVENING_GIT_ALERT:
+            _alert_evening_publish("git push of site/ failed (see Git lines above)")
         if not export_ok and dd_ok:
             print("  ⚠ Skipping git push (export failed).")
 
@@ -1559,6 +1578,13 @@ def main():
             print(f"\n⚠ Non-fatal errors in: {', '.join(errors)}")
     finally:
         release_lock()
+
+
+def main():
+    _main()
+    if _EVENING_GIT_ALERT:
+        print(f"ALERT evening publish: exiting 1 ({len(_EVENING_GIT_ALERT)} git failure(s))", flush=True)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
