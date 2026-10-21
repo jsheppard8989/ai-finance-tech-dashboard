@@ -32,7 +32,8 @@
     "Google X's Astro Teller",
     "What Makes a Great Entrepreneur?",
     "State of Markets",
-    "Introducing Cosign"
+    "Introducing Cosign",
+    "Is The AI Trade Over?"
   ],
   "fixes": {
     "Ray Dahlia": "Ray Dalio",
@@ -68,7 +69,8 @@
     "Can AI Break Cryptography? What the Experts Actually Think": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics": "Jason Ma",
     "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live": "Cathie Wood",
-    "The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO": "Ben Inker"
+    "The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO": "Ben Inker",
+    "The Programmable Data Center — Evan Conrad, SF Compute": "Evan Conrad"
   },
   "insight_guest_by_id": {
     "564": "Alex Atallah & Amjad Masad",
@@ -88,7 +90,9 @@
     "588": "Ben Inker",
     "589": "Billy Evans",
     "590": "Ian Quigley",
-    "593": "Yasir Arafat"
+    "593": "Yasir Arafat",
+    "604": "Evan Conrad",
+    "605": ""
   },
   "overrides": {
     "Graham Allison": {
@@ -131,5 +135,11 @@
       "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
       "known_for": "Open-model research and post-training; co-founder of Trillium Labs."
     }
+  },
+  "insight_host_by_id": {
+    "605": "Jack Farley"
+  },
+  "insight_guest_org_by_id": {
+    "604": "SF Compute"
   }
 }

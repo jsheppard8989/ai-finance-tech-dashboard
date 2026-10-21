@@ -17200,7 +17200,8 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-20",
-      "guest_name": "Is The AI Trade Over?",
+      "guest_name": null,
+      "host_name": "Jack Farley",
       "key_tickers": [
         "MU"
       ]
@@ -17236,7 +17237,8 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-20",
-      "guest_name": null,
+      "guest_name": "Evan Conrad",
+      "guest_org": "SF Compute",
       "key_tickers": []
     },
     {
@@ -54984,18 +54986,6 @@ const dashboardData = {
     "last_main_idea": "OpenAI\u2019s health-AI edge is its cheaper, frontier-level model plus specialized medical training, which it says can outperform prior models while scaling across workflows like Epic.",
     "last_episode_title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-20",
-    "appearance_count": 1
-  },
-  {
-    "id": 93974,
-    "name": "Is The AI Trade Over?",
-    "slug": "is-the-ai-trade-over",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The episode\u2019s core claim is that AI fundamentals remain intact and recent weakness is mainly a credit-and-positioning flush, not the end of the AI capex cycle.",
-    "last_episode_title": "Is The AI Trade Over? | Jack & Max on Panic in AI Credit, SpaceX Earnings, and Semis",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-20",
     "appearance_count": 1
   },

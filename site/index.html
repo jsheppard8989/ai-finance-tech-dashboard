@@ -3830,7 +3830,7 @@
         const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
         
         let sourceLine = insight.source_name + ' • ' + dateStr;
-        if (insight.guest_name) sourceLine += ' • ' + insight.guest_name;
+        if (insight.guest_name) sourceLine += ' • ' + insight.guest_name + (insight.guest_org ? ', ' + insight.guest_org : '');
 
         // Check for deep dive
         const hasDeepDive = typeof dashboardData !== 'undefined' && dashboardData.deepDives && 
