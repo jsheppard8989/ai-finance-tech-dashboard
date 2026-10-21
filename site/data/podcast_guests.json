@@ -1,6 +1,6 @@
 [
   {
-    "id": 93787,
+    "id": 93973,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -12,7 +12,19 @@
     "appearance_count": 1
   },
   {
-    "id": 93788,
+    "id": 93974,
+    "name": "Is The AI Trade Over?",
+    "slug": "is-the-ai-trade-over",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The episode\u2019s core claim is that AI fundamentals remain intact and recent weakness is mainly a credit-and-positioning flush, not the end of the AI capex cycle.",
+    "last_episode_title": "Is The AI Trade Over? | Jack & Max on Panic in AI Credit, SpaceX Earnings, and Semis",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-20",
+    "appearance_count": 1
+  },
+  {
+    "id": 93975,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93789,
+    "id": 93976,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93790,
+    "id": 93977,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93791,
+    "id": 93978,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93792,
+    "id": 93979,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93793,
+    "id": 93980,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93795,
+    "id": 93982,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 2
   },
   {
-    "id": 93794,
+    "id": 93981,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93796,
+    "id": 93983,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93797,
+    "id": 93984,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93798,
+    "id": 93985,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93799,
+    "id": 93986,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93800,
+    "id": 93987,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93801,
+    "id": 93988,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93802,
+    "id": 93989,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93803,
+    "id": 93990,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93804,
+    "id": 93991,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93805,
+    "id": 93992,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93806,
+    "id": 93993,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93807,
+    "id": 93994,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93808,
+    "id": 93995,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93809,
+    "id": 93996,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93810,
+    "id": 93997,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93811,
+    "id": 93998,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93812,
+    "id": 93999,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93813,
+    "id": 94000,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93814,
+    "id": 94001,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93815,
+    "id": 94002,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -344,18 +356,6 @@
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_episode_title": "Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-28",
-    "appearance_count": 1
-  },
-  {
-    "id": 93816,
-    "name": "Moonshots Live",
-    "slug": "moonshots-live",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Peter Diamandis claims that aligning AI training data with positive narratives can influence societal mindsets and improve AI-human interactions.",
-    "last_episode_title": "Why We Gave Away $3,500,000.00 for Someone to Build the Next Star Trek | Moonshots Live",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "appearance_count": 1
   }

@@ -65,6 +65,39 @@
       ]
     },
     {
+      "id": 605,
+      "title": "Is The AI Trade Over? | Jack & Max on Panic in AI Credit, SpaceX Earnings, and Semis",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-10-20",
+      "summary": "The episode argues that the recent AI selloff is better understood as a panic-driven growth scare and credit-market stress event than as proof that the AI capex cycle is over. Jack Farley says the key bearish catalysts were CoreWeave credit weakness and Anthropic\u2019s slowing revenue growth, but he repeatedly emphasizes that neither implies a terminal collapse in AI demand.\n\nA major supporting point is SpaceX\u2019s reported AI-related compute growth and Elon Musk\u2019s capacity targets. Farley cites SpaceX revenue up 161% and says the AI business tripled in a single quarter. He also highlights Musk\u2019s stated confidence in bringing 10 GW online in 2027, plus an additional 2.5 to 3 GW this year, which he frames as evidence that power and cooling constraints are still being solved rather than becoming binding limits.\n\nThe most explicit credit stress discussion centers on CoreWeave\u2019s unsecured bonds, which Farley says are pricing roughly a 60% cumulative default probability over the next several years. That, combined with broader convertible-bond exposure to AI infrastructure names, is presented as a mechanism by which credit weakness can feed equity pessimism even if the underlying AI buildout is still intact.\n\nThe speakers also debate Anthropic\u2019s reported revenue trajectory and the interpretation of its S-1. Farley argues that slower growth is bearish only relative to \u201cridiculous\u201d expectations, and that headline loss figures may be misleading on an economic basis. Max adds broader market context, including RAMP adoption data, hedge-fund positioning extremes, and the idea that the broader market has not broken down in a way consistent with a true AI demand collapse.",
+      "key_takeaway": "The episode\u2019s core claim is that AI fundamentals remain intact and recent weakness is mainly a credit-and-positioning flush, not the end of the AI capex cycle.",
+      "tickers_mentioned": [
+        "MU"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 594,
+      "notable_quotes": [
+        {
+          "speaker": "Jack Farley",
+          "quote": "Those bonds, the unssecured bonds, 232 is pricing in a roughly 60% of default cumulatively from now until the 2022 or the next six years."
+        },
+        {
+          "speaker": "Jack Farley",
+          "quote": "Well, he said he's confident that he can bring on 10 gigawatts online in 2027, and that's in addition to 2.5 or 3 gigawatts this year."
+        },
+        {
+          "speaker": "Jack Farley",
+          "quote": "I think that the analysts are rigging the game by having the numbers be too small. Like, I think that in the semiconductor area, I think that several of these stocks have earnings estimates for the next four, four quarters that are lower than what, one, the 50th percentile of what someone who's really done a lot of work would would think"
+        }
+      ]
+    },
+    {
       "id": 601,
       "title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
       "source_type": "podcast",
@@ -432,7 +465,7 @@
         "LEU"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-15",
       "archived_date": null,
@@ -13108,8 +13141,8 @@
       "term": "super intelligence,",
       "description": "with Peter Diamandis citing a new White House Super Intelligence Force chaired by Director of National Intelligence Jay Clayton and a 120-day mandate to report on AI risks, opportunities, incident rep",
       "first_detected_date": "2026-10-11",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -13118,8 +13151,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 570,
       "first_detected_speaker": "Nick Bostrom",
-      "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
+      "last_mentioned_episode_id": 594,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 300,
@@ -13180,8 +13213,8 @@
       "term": "Return to Tangibles",
       "description": "A sponsor-described thesis that the next cycle favors real assets such as energy, metals, miners, precious metals, and critical metals after a decade of underinvestment.",
       "first_detected_date": "2026-10-06",
-      "last_mentioned_date": "2026-10-18",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The theme frames capital allocation toward physical-world assets exposed to inflation, geopolitics, and commodity supply constraints.",
@@ -13190,8 +13223,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 559,
       "first_detected_speaker": "J Mintzmyer",
-      "last_mentioned_episode_id": 589,
-      "last_mentioned_speaker": "Jim Bianco"
+      "last_mentioned_episode_id": 594,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 296,
@@ -14134,8 +14167,8 @@
       "term": "AI CapEx",
       "description": "Large-scale capital spending on AI infrastructure, including GPUs, custom accelerators, data centers, power projects, memory, chips, and construction capacity. In this episode, it centers on Amazon's expected $220 billion of 2026 capex and AWS's plan to buy 2 million Nvidia GPUs over the next couple of years.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-10-08",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It reframes cloud growth around physical supply chains, power availability, depreciation risk, and multi-year infrastructure planning.",
@@ -14144,8 +14177,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 562,
-      "last_mentioned_speaker": "Matt Garman"
+      "last_mentioned_episode_id": 594,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 234,
@@ -15394,8 +15427,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-15",
-      "mention_count": 47,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 48,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -15404,8 +15437,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 580,
-      "last_mentioned_speaker": "Jensen Huang"
+      "last_mentioned_episode_id": 594,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 26,

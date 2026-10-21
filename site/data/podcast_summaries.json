@@ -1,5 +1,25 @@
 [
   {
+    "id": 594,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Is The AI Trade Over? | Jack & Max on Panic in AI Credit, SpaceX Earnings, and Semis",
+    "episode_date": "2026-10-20",
+    "summary": "The episode argues that the recent AI selloff is better understood as a panic-driven growth scare and credit-market stress event than as proof that the AI capex cycle is over. Jack Farley says the key bearish catalysts were CoreWeave credit weakness and Anthropic\u2019s slowing revenue growth, but he repeatedly emphasizes that neither implies a terminal collapse in AI demand.\n\nA major supporting point is SpaceX\u2019s reported AI-related compute growth and Elon Musk\u2019s capacity targets. Farley cites SpaceX revenue up 161% and says the AI business tripled in a single quarter. He also highlights Musk\u2019s stated confidence in bringing 10 GW online in 2027, plus an additional 2.5 to 3 GW this year, which he frames as evidence that power and cooling constraints are still being solved rather than becoming binding limits.\n\nThe most explicit credit stress discussion centers on CoreWeave\u2019s unsecured bonds, which Farley says are pricing roughly a 60% cumulative default probability over the next several years. That, combined with broader convertible-bond exposure to AI infrastructure names, is presented as a mechanism by which credit weakness can feed equity pessimism even if the underlying AI buildout is still intact.\n\nThe speakers also debate Anthropic\u2019s reported revenue trajectory and the interpretation of its S-1. Farley argues that slower growth is bearish only relative to \u201cridiculous\u201d expectations, and that headline loss figures may be misleading on an economic basis. Max adds broader market context, including RAMP adoption data, hedge-fund positioning extremes, and the idea that the broader market has not broken down in a way consistent with a true AI demand collapse.",
+    "key_takeaways": [
+      "Jack Farley says the AI trade is not dead; he frames the selloff as panic and credit stress rather than a terminal end to AI capex.",
+      "Jack Farley says CoreWeave\u2019s unsecured bonds are pricing roughly a 60% cumulative default probability, which he sees as a major driver of AI pessimism.",
+      "Jack Farley says SpaceX revenue increased 161% and the AI business tripled in a single quarter, supporting the view that AI infrastructure demand is still expanding.",
+      "Jack Farley cites Elon Musk\u2019s target of 10 GW online in 2027, plus 2.5 to 3 GW this year, as evidence that compute and power supply are still scaling.",
+      "Jack Farley argues Anthropic\u2019s slower Q3 growth is bearish mainly because expectations were unrealistic, not because the business is collapsing.",
+      "Max says RAMP data show 55.9% of businesses have some AI spend, with 43.8% on Anthropic, 40.6% on OpenAI, and XAI rising to 4.1%.",
+      "Jack Farley says memory is a very large share of expected AI semiconductor profit growth, making Micron and memory supply trends especially important."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that AI fundamentals remain intact and recent weakness is mainly a credit-and-positioning flush, not the end of the AI capex cycle.",
+    "key_tickers": [
+      "MU"
+    ]
+  },
+  {
     "id": 593,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "The Programmable Data Center \u2014 Evan Conrad, SF Compute",
