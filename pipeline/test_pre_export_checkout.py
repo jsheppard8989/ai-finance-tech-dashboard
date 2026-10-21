@@ -1,87 +1,106 @@
 #!/usr/bin/env python3
-"""Unit tests for pre-export checkout safety (auto_pipeline._ensure_main_before_export)."""
+"""Tests for the evening run's clean-main prep and loud git failures (no stash/autostash).
+
+Uses throwaway git repos in a temp dir; never touches the real checkout or dashboard.db.
+"""
 
 from __future__ import annotations
 
+import io
 import subprocess
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 
 import auto_pipeline
 
 
-class TestPreExportCheckout(unittest.TestCase):
-    """Test the pre-export main branch check and stash logic."""
+def sh(cwd, *args):
+    return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True, check=False)
 
-    def test_git_head_branch_returns_branch_name(self):
-        with patch("auto_pipeline.subprocess.run") as mock_run:
-            mock_run.return_value = MagicMock(returncode=0, stdout="main\n")
-            result = auto_pipeline._git_head_branch()
-            self.assertEqual(result, "main")
 
-    def test_git_head_branch_returns_none_on_failure(self):
-        with patch("auto_pipeline.subprocess.run") as mock_run:
-            mock_run.return_value = MagicMock(returncode=1, stdout="")
-            result = auto_pipeline._git_head_branch()
-            self.assertIsNone(result)
+class CleanMainTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        self.origin = self.tmp / "origin.git"
+        sh(self.tmp, "init", "-q", "--bare", "-b", "main", str(self.origin))
+        self.seed = self.tmp / "seed"
+        sh(self.tmp, "clone", "-q", str(self.origin), str(self.seed))
+        for repo in (self.seed,):
+            sh(repo, "config", "user.email", "t@t"); sh(repo, "config", "user.name", "t")
+        (self.seed / "site/data").mkdir(parents=True)
+        (self.seed / "site/data/data.js").write_text("v1\n")
+        (self.seed / "notes.md").write_text("user\n")
+        sh(self.seed, "add", "-A"); sh(self.seed, "commit", "-qm", "v1"); sh(self.seed, "push", "-q", "origin", "main")
+        self.work = self.tmp / "work"
+        sh(self.tmp, "clone", "-q", str(self.origin), str(self.work))
+        sh(self.work, "config", "user.email", "t@t"); sh(self.work, "config", "user.name", "t")
+        self._p = [patch.object(auto_pipeline, "WORKSPACE", self.work),
+                   patch.object(auto_pipeline, "send_notification")]
+        for p in self._p:
+            p.start()
+        auto_pipeline._EVENING_GIT_ALERT.clear()
 
-    def test_has_uncommitted_site_changes_true(self):
-        with patch("auto_pipeline.subprocess.run") as mock_run:
-            mock_run.return_value = MagicMock(returncode=0, stdout=" M site/data/data.js\n")
-            result = auto_pipeline._has_uncommitted_site_changes()
-            self.assertTrue(result)
+    def tearDown(self):
+        for p in self._p:
+            p.stop()
+        auto_pipeline._EVENING_GIT_ALERT.clear()
 
-    def test_has_uncommitted_site_changes_false(self):
-        with patch("auto_pipeline.subprocess.run") as mock_run:
-            mock_run.return_value = MagicMock(returncode=0, stdout="")
-            result = auto_pipeline._has_uncommitted_site_changes()
-            self.assertFalse(result)
+    def _remote_commit(self, content):
+        (self.seed / "site/data/data.js").write_text(content)
+        sh(self.seed, "commit", "-qam", content.strip()); sh(self.seed, "push", "-q", "origin", "main")
 
-    def test_ensure_main_before_export_already_on_main(self):
-        with patch("auto_pipeline._git_head_branch", return_value="main"):
-            result = auto_pipeline._ensure_main_before_export()
-            self.assertTrue(result)
+    def test_recovers_from_stuck_stash_pop_conflict_in_data_js(self):
+        # Reproduce the 10/12-10/20 jam: local edit + remote edit + stash pop conflict.
+        (self.work / "site/data/data.js").write_text("local\n")
+        sh(self.work, "stash")
+        self._remote_commit("v2\n")
+        sh(self.work, "pull", "-q", "origin", "main")
+        (self.work / "site/data/data.js").write_text("local2\n")
+        sh(self.work, "commit", "-qam", "x")  # noise commit so stash pop conflicts
+        sh(self.work, "reset", "-q", "--hard", "origin/main")
+        (self.work / "site/data/data.js").write_text("other\n"); sh(self.work, "commit", "-qam", "o")
+        sh(self.work, "reset", "-q", "--hard", "HEAD~1")
+        pop = sh(self.work, "stash", "pop")
+        self.assertIn("CONFLICT", pop.stdout + pop.stderr)
+        sh(self.work, "checkout", "-qb", "side")  # stuck off main too
+        (self.work / "notes.md").write_text("user work\n")  # non-generated user work
+        self._remote_commit("v3\n")
+        out = io.StringIO()
+        with redirect_stdout(out):
+            ok = auto_pipeline._ensure_main_before_export()
+        self.assertTrue(ok, out.getvalue())
+        self.assertEqual(sh(self.work, "rev-parse", "--abbrev-ref", "HEAD").stdout.strip(), "main")
+        self.assertEqual(sh(self.work, "rev-parse", "HEAD").stdout, sh(self.work, "rev-parse", "origin/main").stdout)
+        self.assertEqual((self.work / "site/data/data.js").read_text(), "v3\n")
+        self.assertEqual((self.work / "notes.md").read_text(), "user work\n")  # untouched
+        self.assertIn("/tmp/evening-publish-backup-", out.getvalue())
+        self.assertEqual(sh(self.work, "stash", "list").stdout.count("cursor-agent-auto-stash"), 0)
 
-    def test_ensure_main_before_export_switches_to_main_no_changes(self):
-        with patch("auto_pipeline._git_head_branch", return_value="feature/test"), \
-             patch("auto_pipeline._has_uncommitted_site_changes", return_value=False), \
-             patch("auto_pipeline.subprocess.run") as mock_run, \
-             patch("auto_pipeline.send_notification"):
-            mock_run.return_value = MagicMock(returncode=0)
-            result = auto_pipeline._ensure_main_before_export()
-            self.assertTrue(result)
-            checkout_calls = [c for c in mock_run.call_args_list 
-                              if "checkout" in str(c) and "main" in str(c)]
-            self.assertEqual(len(checkout_calls), 1)
+    def test_diverged_main_fails_loudly(self):
+        (self.work / "notes.md").write_text("local commit\n"); sh(self.work, "commit", "-qam", "local")
+        self._remote_commit("v2\n")
+        out = io.StringIO()
+        with redirect_stdout(out):
+            ok = auto_pipeline._ensure_main_before_export()
+        self.assertFalse(ok)
+        self.assertIn("ALERT evening publish", out.getvalue())
 
-    def test_ensure_main_before_export_stashes_then_switches(self):
-        with patch("auto_pipeline._git_head_branch", return_value="cursor/some-branch"), \
-             patch("auto_pipeline._has_uncommitted_site_changes", return_value=True), \
-             patch("auto_pipeline.subprocess.run") as mock_run, \
-             patch("auto_pipeline.send_notification"):
-            mock_run.return_value = MagicMock(returncode=0)
-            result = auto_pipeline._ensure_main_before_export()
-            self.assertTrue(result)
-            stash_calls = [c for c in mock_run.call_args_list if "stash" in str(c)]
-            checkout_calls = [c for c in mock_run.call_args_list 
-                              if "checkout" in str(c) and "main" in str(c)]
-            self.assertEqual(len(stash_calls), 1)
-            self.assertEqual(len(checkout_calls), 1)
+    def test_main_exits_nonzero_on_git_alert(self):
+        def fake():
+            auto_pipeline._alert_evening_publish("push rejected")
+        out = io.StringIO()
+        with patch.object(auto_pipeline, "_main", fake), redirect_stdout(out):
+            with self.assertRaises(SystemExit) as cm:
+                auto_pipeline.main()
+        self.assertEqual(cm.exception.code, 1)
+        self.assertIn("ALERT evening publish", out.getvalue())
 
-    def test_ensure_main_before_export_fails_on_checkout_error(self):
-        with patch("auto_pipeline._git_head_branch", return_value="cursor/some-branch"), \
-             patch("auto_pipeline._has_uncommitted_site_changes", return_value=False), \
-             patch("auto_pipeline.subprocess.run") as mock_run, \
-             patch("auto_pipeline.send_notification") as mock_notify:
-            mock_run.return_value = MagicMock(
-                returncode=1, 
-                stderr="error: pathspec 'main' did not match any file(s) known to git"
-            )
-            result = auto_pipeline._ensure_main_before_export()
-            self.assertFalse(result)
-            self.assertTrue(mock_notify.called)
+    def test_main_exits_zero_without_alert(self):
+        with patch.object(auto_pipeline, "_main", lambda: None):
+            auto_pipeline.main()
 
 
 if __name__ == "__main__":
