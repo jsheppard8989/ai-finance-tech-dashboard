@@ -298,6 +298,9 @@ def _apply_summary_overrides(obj):
             o["key_tickers"] = _add_key_tickers(o["key_tickers"], r["add_key_tickers"])
         if r.get("drop_quotes") and "notable_quotes" in o:
             o["notable_quotes"] = _drop_quotes(o["notable_quotes"], r["drop_quotes"])
+        # Oct 21 2026: curated sentiment correction (scoped by ids like the other fields)
+        if r.get("set_sentiment") and "sentiment" in o:
+            o["sentiment"] = r["set_sentiment"]
 
     def walk(o):
         if isinstance(o, dict):

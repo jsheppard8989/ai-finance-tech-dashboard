@@ -745,6 +745,52 @@
           "Waymo"
         ]
       ]
+    },
+    {
+      "insight_id": 603,
+      "podcast_episode_id": 592,
+      "_note": "Oct 21 2026 G(ai)ndolf: OpenAI model names (GPT-6 Luna, GPT-5.6 Sol), HealthBench Professional, AdventHealth",
+      "replacements": [
+        [
+          "GP-6 Luna",
+          "GPT-6 Luna"
+        ],
+        [
+          "GP-5.6 Sol",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "GP-5.6",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "a clinician workflow benchmark",
+          "HealthBench Professional, a benchmark of clinician tasks"
+        ],
+        [
+          "Advent Health",
+          "AdventHealth"
+        ]
+      ]
+    },
+    {
+      "insight_id": 605,
+      "podcast_episode_id": 594,
+      "_note": "Oct 21 2026 G(ai)ndolf: sentiment neutral; drop garbled Farley quote (unssecured/232/2022) incl. its Deep Dive evidence line; Ramp (company)",
+      "set_sentiment": "neutral",
+      "drop_quotes": [
+        "Those bonds, the unssecured bonds, 232"
+      ],
+      "replacements": [
+        [
+          "Jack Farley: Those bonds, the unssecured bonds, 232 is pricing in a roughly 60% of default cumulatively from now until the 2022 or the next six years.\n",
+          ""
+        ],
+        [
+          "RAMP adoption data",
+          "Ramp adoption data"
+        ]
+      ]
     }
   ],
   "terms": [
