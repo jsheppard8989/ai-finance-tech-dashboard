@@ -2076,6 +2076,116 @@
     .site-nav a:hover {
       text-decoration: underline;
     }
+
+    /* Morning note — editorial lede, not another widget card */
+    .morning-note {
+      max-width: 42rem;
+      margin: 0.35rem auto 1.7rem;
+      padding: 0.15rem 0.1rem 0.2rem;
+    }
+    .morning-note .kicker,
+    .morning-note .open-kicker,
+    .morning-note .arg-kicker {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .morning-note .kicker {
+      color: #8d93a6;
+      font-size: 0.68rem;
+      margin: 0 0 0.75rem;
+    }
+    .morning-note h2.note-headline {
+      font-family: Georgia, 'Iowan Old Style', Palatino, 'Palatino Linotype', 'Times New Roman', serif;
+      font-weight: 500;
+      font-size: clamp(1.7rem, 4.2vw, 2.55rem);
+      line-height: 1.16;
+      letter-spacing: -0.015em;
+      color: #f3efe6;
+      -webkit-text-fill-color: #f3efe6;
+      background: none;
+      margin: 0 0 0.9rem;
+    }
+    .morning-note .lede {
+      font-family: Georgia, 'Iowan Old Style', Palatino, 'Palatino Linotype', 'Times New Roman', serif;
+      font-size: 1.08rem;
+      line-height: 1.55;
+      color: #d7d1c6;
+      margin: 0 0 1.2rem;
+    }
+    .morning-note .arguments {
+      list-style: none;
+      margin: 0 0 1.15rem;
+      padding: 0;
+      border-top: 1px solid rgba(243, 239, 230, 0.16);
+    }
+    .morning-note .arguments li {
+      padding: 0.85rem 0;
+      border-bottom: 1px solid rgba(243, 239, 230, 0.12);
+    }
+    .morning-note .arg-kicker,
+    .morning-note .open-kicker {
+      display: block;
+      color: #c6a57a;
+      font-size: 0.66rem;
+      margin-bottom: 0.28rem;
+    }
+    .morning-note .arg-text,
+    .morning-note .open-why,
+    .morning-note .note-aside {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .morning-note .arg-text {
+      color: #c9ced8;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+    .morning-note .note-links {
+      margin: 0.4rem 0 0;
+      font-size: 0.88rem;
+    }
+    .morning-note .note-links a,
+    .morning-note .open-this a {
+      color: #f3efe6;
+      text-underline-offset: 3px;
+    }
+    .morning-note .note-link-gap {
+      color: #6b7280;
+    }
+    .morning-note .open-this {
+      font-family: Georgia, 'Iowan Old Style', Palatino, 'Palatino Linotype', serif;
+      font-size: 1.12rem;
+      color: #f3efe6;
+      margin: 0.15rem 0 0.3rem;
+    }
+    .morning-note .open-kicker {
+      display: inline;
+      margin-right: 0.35rem;
+    }
+    .morning-note .open-why {
+      color: #9aa3b5;
+      font-size: 0.92rem;
+      line-height: 1.45;
+      margin: 0;
+    }
+    .morning-note .note-aside {
+      color: #6b7280;
+      font-size: 0.75rem;
+      margin: 0.75rem 0 0;
+    }
+    @media (max-width: 768px) {
+      .morning-note {
+        margin: 0.2rem 0 1.25rem;
+      }
+      .morning-note .lede {
+        font-size: 1.02rem;
+      }
+      .morning-note .arg-text,
+      .morning-note .open-why {
+        font-size: 0.92rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -2110,6 +2220,14 @@
         <span id="btc-as-of" style="color: #6b7280; font-size: 0.55rem;"></span>
       </div>
     </header>
+
+    <section class="morning-note" id="morning-note" aria-live="polite" aria-label="Morning note">
+      <p class="kicker">Morning note · not investment advice</p>
+      <h2 class="note-headline">The feed is quiet.</h2>
+      <p class="lede">You are looking at a board with nothing dated, nothing freshly argued, and no term in the window. That is the feed being quiet, not a story. If this sentence is still here after the page loads, the note did not get a data file.</p>
+      <p class="open-this"><span class="open-kicker">Open this</span> <a href="pipeline-health.html">Data Status</a></p>
+      <p class="open-why">So you can tell a missed export from an empty day.</p>
+    </section>
 
     <!-- Market Plumbing Widgets (compact band between header and grid) -->
     <style>
@@ -2454,6 +2572,7 @@
   <!-- Load dashboard data from pipeline (if available) -->
   <script src="./data/data.js?v=1792517885"></script>
   <script src="./js/common.js"></script>
+  <script src="./js/morning-note.js"></script>
   
   <script>
     var DEBUG_SITE = !!window.DEBUG_SITE;
@@ -2709,8 +2828,9 @@
 
         const expanded = impl ? '<strong>Investment angle:</strong> ' + impl : '';
         const cardClass = isEstablished ? 'overton-window-item established-item' : 'overton-window-item';
+        const termAnchor = (o.id != null && o.id !== '') ? ' id="overton-' + String(o.id).replace(/[^a-zA-Z0-9_-]/g, '') + '"' : '';
         return (
-          '<div class="' + cardClass + '">' +
+          '<div class="' + cardClass + '"' + termAnchor + '>' +
             '<div class="overton-header-row">' +
               '<div class="ow-term">' + term + '</div>' +
               resonanceHtml +
@@ -2748,8 +2868,9 @@
           sourceHtml += '</div>';
         }
 
+        const curatedAnchor = (c.id != null && c.id !== '') ? ' id="' + String(c.id).replace(/[^a-zA-Z0-9_-]/g, '') + '"' : '';
         return (
-          '<div class="overton-window-item curated-item">' +
+          '<div class="overton-window-item curated-item"' + curatedAnchor + '>' +
             '<div class="overton-header-row">' +
               '<div class="ow-term">' + term + '<span class="curated-badge">Curated</span></div>' +
             '</div>' +
@@ -3838,7 +3959,7 @@
         const deepDiveBtn = hasDeepDive ? 
           '<button onclick="event.stopPropagation(); showDeepDiveModal(' + insight.id + ')" style="background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.4rem 0.9rem; border-radius: 4px; cursor: pointer; font-size: 0.8rem; white-space: nowrap;">🔍 Deep Dive</button>' : '';
         
-        html += '<div class="insight-item" onclick="toggleInsight(this)">';
+        html += '<div class="insight-item" id="insight-' + insight.id + '" onclick="toggleInsight(this)">';
         html += '<div class="source">' + sourceLine + '</div>';
         html += '<div class="text">' + renderInsightRecapHTML(insight) + '</div>';
         html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1; display: flex; justify-content: space-between; align-items: flex-end; gap: 0.5rem;">';
@@ -4187,6 +4308,7 @@
     // Initialize on page load
     document.addEventListener('DOMContentLoaded', async function() {
       if (DEBUG_SITE) console.log('Page loading...');
+      if (typeof renderMorningNote === 'function') renderMorningNote();
       updateLastUpdated();
       await loadPriceData();  // Load prices first (updates title price tickers: QQQ, BTC)
       loadInsights();  // Load insights dynamically from database
