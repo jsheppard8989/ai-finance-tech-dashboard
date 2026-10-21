@@ -17201,7 +17201,7 @@ const dashboardData = {
       ],
       "episode_release_date": "2026-10-20",
       "guest_name": null,
-      "host_name": "Jack Farley",
+      "host_name": "Jack Farley and Max Wiethe",
       "key_tickers": [
         "MU"
       ]
