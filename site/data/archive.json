@@ -32,6 +32,39 @@
       ]
     },
     {
+      "id": 604,
+      "title": "The Programmable Data Center \u2014 Evan Conrad, SF Compute",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-20",
+      "summary": "Evan Conrad argues that a liquid market for GPU compute only works if the market uses physical settlement: buyers should receive usable compute, not just a cash-linked index. He says this is necessary because compute is operationally heterogeneous, with constraints around interruption tolerance, storage recovery, networking, GPU generation, and software configuration that a financial index would miss.\n\nHe claims SF Compute has already made progress on liquidity by concentrating only about 5% of total capacity on the order book while still generating meaningful resale activity. He gives a company metric that a customer spending $100 on capacity can, on average, recover $25 by reselling it, which he uses to argue that the market is becoming usable even before standardization is complete.\n\nConrad is skeptical of cash-settled compute markets as a starting point, arguing that they invite manipulation and basis risk if the underlying delivered compute is not what the index reflects. He says operators like NVIDIA or hyperscalers cannot credibly run such markets because they are not independent enough, and that without independence there is not enough trading liquidity for lenders to finance forwards.\n\nHe also sketches forward-curve intuition for compute, saying prices for near-term blocks of compute may need to fall to clear and that the market should develop a longer-dated forwards curve over roughly 3 to 5 years. He frames SF Compute as trying to build that curve now, while acknowledging that standard contract fungibility is still far away.",
+      "key_takeaway": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 593,
+      "notable_quotes": [
+        {
+          "speaker": "Evan Conrad",
+          "quote": "We call that physical settlement. We\u2019re taking a term from the futures market, from futures markets, from other markets, where in, you know, oil or soybeans or something, physical settlement means you get delivered the oil and the soybeans."
+        },
+        {
+          "speaker": "Evan Conrad",
+          "quote": "5% of our total capacity is on the order book and we\u2019re consistently moving more and more. And then we\u2019re bringing on more capacity. That\u2019s all on the order book."
+        },
+        {
+          "speaker": "Evan Conrad",
+          "quote": "The reason why they can\u2019t make it is because they would then not be independent enough for people to trade on it."
+        }
+      ]
+    },
+    {
       "id": 601,
       "title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
       "source_type": "podcast",
@@ -366,7 +399,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-15",
       "archived_date": null,
@@ -13939,8 +13972,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 49,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 50,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -13949,8 +13982,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
+      "last_mentioned_episode_id": 593,
+      "last_mentioned_speaker": "Evan Conrad"
     },
     {
       "id": 256,

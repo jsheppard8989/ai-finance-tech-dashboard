@@ -1,5 +1,23 @@
 [
   {
+    "id": 593,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "The Programmable Data Center \u2014 Evan Conrad, SF Compute",
+    "episode_date": "2026-10-20",
+    "summary": "Evan Conrad argues that a liquid market for GPU compute only works if the market uses physical settlement: buyers should receive usable compute, not just a cash-linked index. He says this is necessary because compute is operationally heterogeneous, with constraints around interruption tolerance, storage recovery, networking, GPU generation, and software configuration that a financial index would miss.\n\nHe claims SF Compute has already made progress on liquidity by concentrating only about 5% of total capacity on the order book while still generating meaningful resale activity. He gives a company metric that a customer spending $100 on capacity can, on average, recover $25 by reselling it, which he uses to argue that the market is becoming usable even before standardization is complete.\n\nConrad is skeptical of cash-settled compute markets as a starting point, arguing that they invite manipulation and basis risk if the underlying delivered compute is not what the index reflects. He says operators like NVIDIA or hyperscalers cannot credibly run such markets because they are not independent enough, and that without independence there is not enough trading liquidity for lenders to finance forwards.\n\nHe also sketches forward-curve intuition for compute, saying prices for near-term blocks of compute may need to fall to clear and that the market should develop a longer-dated forwards curve over roughly 3 to 5 years. He frames SF Compute as trying to build that curve now, while acknowledging that standard contract fungibility is still far away.",
+    "key_takeaways": [
+      "Evan Conrad says compute trading needs physical settlement so buyers get delivered usable GPU capacity, not just a cash reference price.",
+      "Conrad says SF Compute has put about 5% of total capacity on the order book and is still expanding that share.",
+      "Conrad says a customer who spends $100 buying capacity can, on average, make back $25 by reselling it.",
+      "Conrad argues standardizing compute contracts is still \"pretty far away,\" so SF Compute matches on operational constraints instead of treating all compute as fungible.",
+      "Conrad says NVIDIA and hyperscalers cannot credibly operate the market because they would not be independent enough for others to trade on it.",
+      "Conrad says the market needs liquidity in longer-dated forwards, and he thinks compute contracts will extend roughly 3 to 5 years.",
+      "Conrad warns that cash-settled compute products introduced too early could be manipulated and create basis risk versus actual delivery costs."
+    ],
+    "investment_thesis": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
+    "key_tickers": null
+  },
+  {
     "id": 592,
     "podcast_name": "The a16z Show",
     "episode_title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
