@@ -283,7 +283,7 @@
       "buyback_program_status": null
     },
     "_stale": true,
-    "_stale_since": "2026-10-22T03:55:03",
+    "_stale_since": "2026-10-22T12:08:45",
     "_stale_reason": "no recent coupon results parsed"
   },
   "curve_data": {
@@ -291,7 +291,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-10-22T03:55:01.251546",
+    "last_updated": "2026-10-22T12:08:44.289652",
     "as_of_date": "2026-10-21",
     "spreads": {
       "2s10s": {
@@ -332,10 +332,10 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 95.94,
-      "change_1d": -5.76,
-      "as_of": "2026-10-21",
-      "signal": "normal",
+      "value": 104.04,
+      "change_1d": 8.1,
+      "as_of": "2026-10-22",
+      "signal": "elevated",
       "yahoo_symbol": "^MOVE",
       "source": "Yahoo Finance",
       "thresholds": {
@@ -351,7 +351,7 @@
     "treasury_calendar": "stale",
     "curve_data": "live",
     "follow_up_for_tony": [
-      "Labor Day 2026-09-07: manually replaced stale Sep 5–7 stub auctions with TreasuryDirect Sep 8–10 coupon week (3Y/10Y/30Y).",
+      "Labor Day 2026-09-07: manually replaced stale Sep 5\u20137 stub auctions with TreasuryDirect Sep 8\u201310 coupon week (3Y/10Y/30Y).",
       "DONE: Yield curve fetch via fetch_curve.py (Treasury.gov primary, FRED optional, MOVE via Yahoo)",
       "Add cron job to pipeline for weekly/daily updates"
     ],
@@ -362,7 +362,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-22T03:54:45.302039",
+    "last_fetched": "2026-10-22T12:08:28.003877",
     "h100": {
       "daily_date": "Oct 22, 2026",
       "daily_date_iso": "2026-10-22",
@@ -476,7 +476,7 @@
       "recent_5": [
         {
           "period": "Apr 2026",
-          "1y_contract": "—",
+          "1y_contract": "\u2014",
           "on_demand": "Sold Out"
         },
         {
@@ -508,28 +508,28 @@
     "_api_url": "https://aicomputetracker.com/forward-curves.json",
     "_settles_on": "Ornn Compute Price Index (OCPI)",
     "_license": "AI Compute Tracker (aicomputetracker.com), CC BY 4.0; third-party terms apply to data from Kalshi (KalshiEX LLC)",
-    "as_of": "2026-10-22T05:18:40.519Z",
+    "as_of": "2026-10-22T12:20:26.972Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-10-22T03:54:45.630243",
+    "last_fetched": "2026-10-22T12:08:28.300172",
     "b200": {
       "points": [
         {
           "tenor_key": "2026-10",
           "tenor": "Oct '26",
-          "price": 8.24,
+          "price": 8.25,
           "quality": "thin"
         },
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 8.56,
+          "price": 8.62,
           "quality": "quality-passed"
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 8.21,
+          "price": 8.2,
           "quality": "thin"
         },
         {
@@ -585,13 +585,13 @@
         {
           "tenor_key": "2026-10",
           "tenor": "Oct '26",
-          "price": 8.24,
+          "price": 8.25,
           "quality": "thin"
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 8.21,
+          "price": 8.2,
           "quality": "thin"
         },
         {
@@ -602,7 +602,7 @@
         }
       ],
       "two_sided_markets": 39,
-      "liquidity_usd": 58380,
+      "liquidity_usd": 58934,
       "kalshi_series": "KXB200MS"
     },
     "h100": {
@@ -616,7 +616,7 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 3.36,
+          "price": 3.37,
           "quality": "thin"
         },
         {
@@ -694,8 +694,8 @@
           "quality": "thin"
         }
       ],
-      "two_sided_markets": 23,
-      "liquidity_usd": 3964,
+      "two_sided_markets": 22,
+      "liquidity_usd": 4352,
       "kalshi_series": "KXH100MS"
     }
   }
