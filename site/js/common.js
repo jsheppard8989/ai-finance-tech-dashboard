@@ -1,6 +1,6 @@
 /**
  * Shared site utilities: Deep Dive HTML + calendar-safe date formatting
- * (index, archive, pipeline-health).
+ * (index, archive).
  */
 function formatSiteCalendarDate(isoOrStr, opts) {
   opts = opts || { month: 'short', day: 'numeric', year: 'numeric' };

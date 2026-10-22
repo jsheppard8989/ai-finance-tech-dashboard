@@ -806,13 +806,12 @@ def export_website_data():
     with open(site_dir / "status.json", "w") as f:
         json.dump(status, f, indent=2, default=str)
 
-    # Export canonical pipeline state used by Pipeline Health (single source).
-    _export_pipeline_state(site_dir)
+    # Data Status page (pipeline-health.html) retired 2026-10-22: pipeline_state.json
+    # is no longer published. _export_pipeline_state() is kept for local/manual use.
 
     _stamp_debate_contract_publishable()
 
-    # Regenerate trap_map_home.json from trap_map.json (same export path as datapoint stamps)
-    _regenerate_trap_home()
+    # Trap Map retired 2026-10-22: trap_map_home.json is no longer regenerated.
 
     return stats
 
