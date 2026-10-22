@@ -63,3 +63,9 @@ def test_home_chart_wiring():
     for needle in ('id="compute-forward-chart"', "renderComputeChart", "Dashed = forward prices (few trades so far, indicative).", "Sources: SemiAnalysis, AI Compute Tracker.", "compute-thesis", 'id="compute-thesis-slot"'):
         assert needle in html
     assert 'href="./compute-thesis.html"' not in html  # button only injected once the page exists
+
+
+def test_chart_expand_overlay():
+    html = (Path(__file__).resolve().parents[1] / "site" / "index.html").read_text()
+    for needle in ("openComputeChart(svg)", "closeComputeChart", "'Escape'", "e.target === ov", 'id="compute-chart-close"'):
+        assert needle in html
