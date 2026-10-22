@@ -69,6 +69,104 @@
       ]
     },
     {
+      "id": 612,
+      "title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-22",
+      "summary": "The episode centers on a16z\u2019s announcement that its crypto mandate is expanding into a broader \u201cFrontier\u201d scope, with Chris Dixon framing the new fund as a way to back technologies and markets that may take years to mature. He argues that crypto\u2019s work on policy, regulation, and technical infrastructure has positioned the firm to invest beyond crypto into adjacent frontier areas.\n\nA major theme is that AI is widening the gap between what frontier founders believe is possible and what incumbents think is feasible. Ben Horowitz says the founder question is shifting from \u201cis this too ambitious?\u201d to \u201cis this ambitious enough?\u201d, while also arguing that AI is easier for individuals to adopt than for institutions, which should accelerate startup formation and create a new wave of AI-native companies.\n\nThe speakers repeatedly contrast old industry boundaries with the new reality of technology blending into finance, media, hardware, and enterprise workflows. Chris Dixon says stablecoins are now a normal part of the tech landscape and used by companies like Stripe, while Marc Andreessen argues that AI will reconfigure internet economics over roughly the next decade, changing attention flows and weakening business models built on traditional traffic and ad systems.\n\nThe discussion also includes a contrarian view that open-source AI is advancing quickly and may be beneficial for both competition and safety research. The speakers cite open models being ahead of closed ones by roughly 6 to 12 months and suggest open access helps broader debugging and vulnerability scanning. They also point to reverse-engineering tools and AI-driven hardware modification as potentially enabling a hardware and home-automation renaissance.",
+      "key_takeaway": "AI and crypto-era frontier investing are converging into a broader opportunity set where faster startup formation, open models, and new internet economics could reshape multiple industries.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 603,
+      "notable_quotes": [
+        {
+          "speaker": "Chris Dixon",
+          "quote": "Expanding the scope of our crypto fund, to invest in a broader set of frontier technologies and markets that may take years to develop."
+        },
+        {
+          "speaker": "Ben Horowitz",
+          "quote": "And I think that the question for founders is shifting from, is this too ambitious, too, is this ambitious enough."
+        },
+        {
+          "speaker": "Marc Andreessen",
+          "quote": "I think this is going to happen over the next, let's call it decade. Is you're going to have sort of this kind of great reconfiguration of the internet and, and how the economics work, how the attention flows."
+        }
+      ]
+    },
+    {
+      "id": 613,
+      "title": "MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-10-22",
+      "summary": "The episode centers on Vincent Gave\u2019s \u201cthree seas\u201d energy shock framework: Gulf, Red Sea, and Black Sea disruptions are not just crude supply issues but a broader logistics and refinery-products crisis. He argues the most important market effect is in diesel and other petroleum products, where moving crude is possible but product flows remain badly impaired. He says Saudi Arabia is responding by expanding pipeline capacity and building bypass optionality around chokepoints like the Strait of Hormuz and the Red Sea.\n\nGave also pushes a contrarian energy view: the world is not in a simple energy transition, but an \u201cenergy addition,\u201d where oil and gas remain structurally central. He says refinery destruction and constrained product movement can keep crack spreads elevated even if crude prices have an implied ceiling, and he warns that demand destruction is already occurring. He cites numbers such as Saudi East-West pipeline capacity rising from 5.5 to 7 million bpd, a target of 10 million bpd total pipeline capacity, and a claim that only 25% to 35% of pre-crisis product levels are moving.\n\nIn the macro segment, Louis-Vincent Gav frames France as a possible sovereign-style stress case rather than a normal developed-market political problem. He points to France\u2019s high tax burden, budget deficits near 5% of GDP, foreign ownership of debt, and an inability to raise taxes further as reasons a fiscal or redenomination crisis could cascade into European banks and insurers. His concern is not just French politics, but systemic euro-area fragility if the situation worsens.\n\nThe trading desk closes with relative-value ideas tied to that stress. Patrick highlights a long JPMorgan / short Deutsche Bank pair trade, a Europe-over-U.S. financials performance gap, and FX hedges that sell the euro versus peripheral European currencies for positive carry. Overall, the episode is bearish on European financial and energy logistics stability, but nuanced: it does not forecast a simple oil blowout, instead emphasizing product scarcity, crack spreads, and second-order financial contagion.",
+      "key_takeaway": "The episode\u2019s core claim is that energy disruption will express mainly through refinery-product shortages and crack spreads, while Europe\u2019s France-driven fiscal stress could spill into banks and FX.",
+      "tickers_mentioned": [
+        "JPM",
+        "DB"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 602,
+      "notable_quotes": [
+        {
+          "speaker": "Vincent Gave",
+          "quote": "he was able to highlight clearly that while they were able to move all this crude, only 25% to 35% of products of pre-crisis levels were moving it."
+        },
+        {
+          "speaker": "Vincent Gave",
+          "quote": "In a fact that there is no energy transition, there is only energy addition."
+        },
+        {
+          "speaker": "Louis-Vincent Gav",
+          "quote": "France total tax receipts account for roughly 44% of GDP."
+        }
+      ]
+    },
+    {
+      "id": 614,
+      "title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-22",
+      "summary": "Modal CEO Erik Bernhardsson argues that AI infrastructure demand is fundamentally bursty and does not fit fixed \"rectangle\" capacity planning, so the winning model is to pool demand across customers and elastically allocate compute. He says Modal\u2019s approach is effectively \"duration transformation,\" where the company secures capacity underneath and slices it out granularly to customers as needed.\n\nHe emphasizes that Modal\u2019s product mix has shifted materially: Sandboxes went from negligible revenue in 2022 to about one-third of revenue, while Functions remain about two-thirds. Bernhardsson links the sandbox surge to LLMs generating code, background agents, and reinforcement learning workflows, and says the median sandbox is about eight seconds long today, with a future path toward much more ephemeral execution.\n\nOn infrastructure procurement, Bernhardsson says the market changed sharply in the last year. Modal now works with almost 25 clouds and often needs three-plus-year commitments with upfront payments and locked pricing to secure supply. He says this creates both operational complexity and financial risk, especially if GPU prices fall later and long-duration capacity locks become painful.\n\nHe is broadly constructive on the compute demand outlook, but with caveats. He expects demand to stay strong near term, worries more about a potential GPU price collapse than about oversupply today, and thinks non-NVIDIA accelerators may become meaningfully important by 2027 as software stacks mature. He also frames security as an ongoing issue for sandboxed agent workflows, but stresses that incidents discussed were app-level compromises, not a breach of Modal itself.",
+      "key_takeaway": "Modal\u2019s core claim is that elastic, pooled compute provisioning beats fixed GPU capacity contracts for bursty AI workloads, and its sandbox business is already becoming a major revenue driver.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 601,
+      "notable_quotes": [
+        {
+          "speaker": "Erik Bernhardsson",
+          "quote": "Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand."
+        },
+        {
+          "speaker": "Erik Bernhardsson",
+          "quote": "In the last year, basically now in order to get the capacity we need, we had to work with a much larger set of clouds. We actually work with almost 25 clouds at this point."
+        },
+        {
+          "speaker": "Erik Bernhardsson",
+          "quote": "Sandboxes is now about a third of our revenue."
+        }
+      ]
+    },
+    {
       "id": 606,
       "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
       "source_type": "podcast",
@@ -302,7 +400,7 @@
       "key_takeaway": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-19",
       "archived_date": null,
@@ -333,7 +431,7 @@
       "key_takeaway": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-19",
       "archived_date": null,
@@ -393,7 +491,7 @@
         "WTBN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-18",
       "archived_date": null,
@@ -13278,6 +13376,24 @@
       "last_mentioned_speaker": "Anekha Sokhal"
     },
     {
+      "id": 314,
+      "term": "Physical settlement",
+      "description": "A market structure where the contract is fulfilled by delivering the actual underlying asset rather than settling in cash against a reference index.",
+      "first_detected_date": "2026-10-20",
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Conrad argues this is essential for GPU-compute markets because operational constraints determine real value and financing ability.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 593,
+      "first_detected_speaker": "Evan Conrad",
+      "last_mentioned_episode_id": 601,
+      "last_mentioned_speaker": "Erik Bernhardsson"
+    },
+    {
       "id": 311,
       "term": "Cost of intelligence",
       "description": "The effective cost of producing useful intelligence, which the speakers expect to decline as compute scales and models become more efficient. It is treated as a key analog to Moore\u2019s Law.",
@@ -13318,8 +13434,8 @@
       "term": "Reward hacking",
       "description": "When a model or agent exploits a flawed evaluation or environment specification to maximize score without actually solving the intended task. Lambert warns that low-quality RL environments can create this failure mode.",
       "first_detected_date": "2026-10-14",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This creates demand for better environment validation, testing infrastructure, and provenance controls.",
@@ -13328,8 +13444,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 576,
       "first_detected_speaker": "Nathan Lambert",
-      "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
+      "last_mentioned_episode_id": 603,
+      "last_mentioned_speaker": "Marc Andreessen, Ben Horowitz, Chris Dixon"
     },
     {
       "id": 302,
@@ -13462,8 +13578,8 @@
       "term": "Annualized Run Rate",
       "description": "Annualized Run Rate is a revenue presentation that multiplies a short period of revenue by a full year. Zitron argued that AI companies use undefined run-rate figures in ways that can make revenue appear much larger than audited sales.",
       "first_detected_date": "2026-10-01",
-      "last_mentioned_date": "2026-10-05",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because valuations and debt capacity can be based on headline run-rate figures rather than recurring audited revenue.",
@@ -13472,8 +13588,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 544,
       "first_detected_speaker": "Ed Zitron",
-      "last_mentioned_episode_id": 552,
-      "last_mentioned_speaker": "Olivia Moore, Josh Elman"
+      "last_mentioned_episode_id": 601,
+      "last_mentioned_speaker": "Erik Bernhardsson"
     },
     {
       "id": 301,
@@ -13768,8 +13884,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -13778,8 +13894,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 596,
-      "last_mentioned_speaker": "Adit Abraham"
+      "last_mentioned_episode_id": 601,
+      "last_mentioned_speaker": "Erik Bernhardsson"
     },
     {
       "id": 284,
@@ -13948,8 +14064,8 @@
       "term": "Stablecoins",
       "description": "Stablecoins are digital currencies pegged to stable assets, allowing for reduced volatility and easier transactions.",
       "first_detected_date": "2026-08-01",
-      "last_mentioned_date": "2026-09-29",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The recognition of stablecoins as cash equivalents could transform financial transactions and payment systems.",
@@ -13958,8 +14074,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 379,
       "first_detected_speaker": "Marc Andreessen, Chris Dixon",
-      "last_mentioned_episode_id": 535,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 603,
+      "last_mentioned_speaker": "Marc Andreessen, Ben Horowitz, Chris Dixon"
     },
     {
       "id": 312,
@@ -14038,8 +14154,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 35,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 36,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -14048,8 +14164,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
+      "last_mentioned_episode_id": 602,
+      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav"
     },
     {
       "id": 265,
@@ -14074,8 +14190,8 @@
       "term": "Quantization",
       "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
       "first_detected_date": "2026-07-19",
-      "last_mentioned_date": "2026-09-25",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
@@ -14084,8 +14200,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 356,
       "first_detected_speaker": "Alex Wissner-Gross, Salim Ismail, Emad Mostaque",
-      "last_mentioned_episode_id": 519,
-      "last_mentioned_speaker": "Diogo"
+      "last_mentioned_episode_id": 601,
+      "last_mentioned_speaker": "Erik Bernhardsson"
     },
     {
       "id": 259,
@@ -14200,8 +14316,8 @@
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-18",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -14210,8 +14326,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Liaquat Ahamed",
-      "last_mentioned_episode_id": 589,
-      "last_mentioned_speaker": "Jim Bianco"
+      "last_mentioned_episode_id": 601,
+      "last_mentioned_speaker": "Erik Bernhardsson"
     },
     {
       "id": 279,
@@ -14237,7 +14353,7 @@
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
       "last_mentioned_date": "2026-10-22",
-      "mention_count": 52,
+      "mention_count": 54,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -14246,8 +14362,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 600,
-      "last_mentioned_speaker": "Chris Auth, Vivek Arya, Peter Wennink"
+      "last_mentioned_episode_id": 602,
+      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav"
     },
     {
       "id": 256,
@@ -14272,8 +14388,8 @@
       "term": "Electrification",
       "description": "The process of converting systems or industries to use electricity as the primary power source.",
       "first_detected_date": "2026-06-18",
-      "last_mentioned_date": "2026-10-14",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
@@ -14282,8 +14398,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Semenuk",
-      "last_mentioned_episode_id": 577,
-      "last_mentioned_speaker": "Ben Inker"
+      "last_mentioned_episode_id": 602,
+      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav"
     },
     {
       "id": 258,
@@ -14740,8 +14856,8 @@
       "term": "Distillation",
       "description": "A training technique where a model learns from another model\u2019s outputs or reasoning traces. Lambert argues it is often oversimplified as the main way open models can catch frontier systems.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 61,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 62,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If distillation is less effective than assumed, open-model catch-up may take longer and favor integrated frontier labs over open ecosystems.",
@@ -14750,8 +14866,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_episode_id": 601,
+      "last_mentioned_speaker": "Erik Bernhardsson"
     },
     {
       "id": 174,
@@ -15658,8 +15774,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -15668,8 +15784,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 594,
-      "last_mentioned_speaker": "Max"
+      "last_mentioned_episode_id": 601,
+      "last_mentioned_speaker": "Erik Bernhardsson"
     },
     {
       "id": 26,
@@ -15928,8 +16044,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 129,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 130,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -15938,8 +16054,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_episode_id": 603,
+      "last_mentioned_speaker": "Marc Andreessen, Ben Horowitz, Chris Dixon"
     },
     {
       "id": 38,
