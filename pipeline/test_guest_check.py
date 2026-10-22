@@ -77,3 +77,10 @@ def test_name_fix_is_whole_word():
     obj = {"pundits": [{"name": "Eden Ha", "bio": "Eden Hazard is not Eden Ha."}]}
     export_data._apply_global_name_replacements(obj, [["Eden Ha", "Ethan He"]])
     assert obj["pundits"][0] == {"name": "Ethan He", "bio": "Eden Hazard is not Ethan He."}
+
+
+def test_mussallem_sponsor_read_demoted():
+    t = "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303"
+    for n in ("Dr. Don Musalam", "Dawn Mussallem"):
+        assert is_excluded_guest_appearance(n, t)
+    assert not is_excluded_guest_appearance("Emad Mostaque", t)
