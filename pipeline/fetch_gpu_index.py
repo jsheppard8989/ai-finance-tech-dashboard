@@ -405,7 +405,7 @@ def _rollup_data_status(market_data: Dict[str, Any]) -> str:
     Compute top-level _data_status from individual data_fetch_status values.
     """
     status = market_data.get('data_fetch_status', {})
-    auto_sections = ['curve_data', 'compute_forward']
+    auto_sections = ['compute_forward']  # curve_data retired Oct 22 2026
     
     live_count = 0
     stale_count = 0

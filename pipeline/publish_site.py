@@ -137,6 +137,8 @@ def run_export() -> None:
 
     export_website_data()
     generate_website_js()
+    import export_commentary  # Market Commentary -> site/data/commentary/latest.json
+    export_commentary.main([])
 
 
 def main() -> int:

@@ -2079,25 +2079,14 @@
         <div style="margin-top: 0.3rem;"><a href="https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding" target="_blank" style="color: #9ca3af; font-size: 0.65rem;">Source: treasury.gov</a></div>
       </div>
 
-      <!-- Curve Snapshot -->
-      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
-        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📈 Curve Snapshot</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Yield curve shape and rate volatility — steepening, flattening, or calm.</p>
-        <div id="curve-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem; flex-wrap: wrap;">
-          <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
+      <!-- Market Commentary (Ric's latest post; site/data/commentary/latest.json) -->
+      <div class="card" id="market-commentary" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📝 Market Commentary</h3>
+        <div id="commentary-meta" style="color: #6b7280; font-size: 0.62rem; margin-bottom: 0.35rem;"></div>
+        <div id="commentary-title" style="color: #e6f1ff; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;"></div>
+        <div id="commentary-body" class="commentary-body" style="color: #a8b2d1; font-size: 0.72rem; line-height: 1.45;">
+          <span style="color: #a8b2d1;">First commentary coming soon</span>
         </div>
-        <div id="curve-shape-line" style="color: #9ca3af; font-size: 0.72rem; margin-top: 0.3rem;"></div>
-        <div id="curve-trend-line" style="color: #a8b2d1; font-size: 0.68rem; margin-top: 0.25rem; line-height: 1.4;"></div>
-        <div id="curve-as-of" style="color: #6b7280; font-size: 0.62rem; margin-top: 0.25rem;"></div>
-        <details class="plumbing-expand" id="curve-expand">
-          <summary>What this means</summary>
-          <div class="expand-content">
-            <strong>2s10s</strong>: 10Y minus 2Y yield. Positive = normal upward-sloping curve; inverted (negative) historically signals recession risk.<br><br>
-            <strong>10s30s</strong>: Long-end term premium. Widening suggests demand for duration hedging or inflation compensation.<br><br>
-            <strong>MOVE</strong>: Treasury options implied-vol index (bond-market VIX). Low (&lt;80) = calm rate environment. Elevated (120+) = stress or uncertainty. High (150+) = crisis-level vol.
-          </div>
-        </details>
-        <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: Treasury.gov / Yahoo</span></div>
       </div>
 
       <!-- Compute Forward -->
@@ -2189,6 +2178,26 @@
         </div>
       </div>
     </div>
+
+    <script>
+      // Market Commentary: newest post rendered (and HTML-escaped) by pipeline/export_commentary.py.
+      (function () {
+        const bodyEl = document.getElementById('commentary-body');
+        if (!bodyEl) return;
+        const soon = () => { bodyEl.textContent = 'First commentary coming soon'; };
+        fetch('./data/commentary/latest.json?v=' + Date.now(), { cache: 'no-store' })
+          .then(r => r.ok ? r.json() : null)
+          .then(c => {
+            if (!c || c.empty || !c.html) return soon();
+            const d = new Date(c.date + 'T12:00:00');
+            const when = isNaN(d) ? c.date : d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+            document.getElementById('commentary-meta').innerHTML = when + (c.author ? ' · ' + c.author : '');  // author is pre-escaped
+            document.getElementById('commentary-title').innerHTML = c.title || '';
+            bodyEl.innerHTML = c.html;
+          })
+          .catch(soon);
+      })();
+    </script>
 
     <!-- Disclaimer -->
     <div class="disclaimer" style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 0.75rem; margin: 1rem 0; text-align: center;">
@@ -2870,116 +2879,6 @@
           }
         }
 
-        // Update Curve widget with steep/flat logic and MOVE explanation
-        const curveEl = document.getElementById('curve-widget');
-        const curveShapeEl = document.getElementById('curve-shape-line');
-        const curveTrendEl = document.getElementById('curve-trend-line');
-        const curveAsOfEl = document.getElementById('curve-as-of');
-        if (curveEl && data.curve_data) {
-          const spreads = data.curve_data.spreads || {};
-          const levels = data.curve_data.levels || {};
-          const s2s10s = spreads['2s10s'];
-          const s10s30s = spreads['10s30s'];
-          const move = data.curve_data.move_index;
-
-          const v2s10sBps = s2s10s && s2s10s.value_bps != null ? s2s10s.value_bps : null;
-          const v10s30sBps = s10s30s && s10s30s.value_bps != null ? s10s30s.value_bps : null;
-          const vMoveVal = move && move.value != null ? move.value : null;
-          
-          // Check if we have any live data
-          if (v2s10sBps != null || v10s30sBps != null || vMoveVal != null) {
-            let parts = [];
-            if (v2s10sBps != null) {
-              parts.push('<span style="color: #a8b2d1;"><strong>2s10s:</strong> <span class="plumbing-num">' + v2s10sBps + 'bp</span></span>');
-            }
-            if (v10s30sBps != null) {
-              parts.push('<span style="color: #a8b2d1;"><strong>10s30s:</strong> <span class="plumbing-num">' + v10s30sBps + 'bp</span></span>');
-            }
-            if (vMoveVal != null) {
-              // MOVE level interpretation
-              let moveLabel = '';
-              let moveColor = '#9ca3af';
-              if (vMoveVal < 80) { moveLabel = 'low'; moveColor = '#10b981'; }
-              else if (vMoveVal < 120) { moveLabel = 'normal'; moveColor = '#9ca3af'; }
-              else if (vMoveVal < 150) { moveLabel = 'elevated'; moveColor = '#f59e0b'; }
-              else { moveLabel = 'high'; moveColor = '#ef4444'; }
-              parts.push('<span style="color: #a8b2d1;"><strong>MOVE:</strong> <span class="plumbing-num" style="color: ' + moveColor + ';">' + vMoveVal + '</span> <span style="font-size: 0.68rem; color: ' + moveColor + ';">(' + moveLabel + ')</span></span>');
-            }
-            curveEl.innerHTML = parts.join('');
-            
-            // Curve shape line: steepener/flattener based on 2s10s
-            if (curveShapeEl && v2s10sBps != null) {
-              let shapeText = '';
-              if (v2s10sBps > 0) {
-                shapeText = '📈 Curve upward-sloping (2s10s +' + v2s10sBps + 'bp)';
-              } else if (v2s10sBps < 0) {
-                shapeText = '📉 Curve inverted (2s10s ' + v2s10sBps + 'bp)';
-              } else {
-                shapeText = 'Curve flat (2s10s at 0)';
-              }
-              curveShapeEl.innerHTML = shapeText;
-            }
-            
-            // Trend line: plain-English summary of recent moves
-            if (curveTrendEl) {
-              let trendParts = [];
-              
-              // 1-day yield changes
-              const y2 = levels['2y'];
-              const y10 = levels['10y'];
-              const y30 = levels['30y'];
-              let yieldMoves = [];
-              if (y2 && y2.change_1d_bps != null) yieldMoves.push('2Y ' + (y2.change_1d_bps >= 0 ? '+' : '') + y2.change_1d_bps + 'bp');
-              if (y10 && y10.change_1d_bps != null) yieldMoves.push('10Y ' + (y10.change_1d_bps >= 0 ? '+' : '') + y10.change_1d_bps + 'bp');
-              if (y30 && y30.change_1d_bps != null) yieldMoves.push('30Y ' + (y30.change_1d_bps >= 0 ? '+' : '') + y30.change_1d_bps + 'bp');
-              if (yieldMoves.length > 0) {
-                trendParts.push('Yields ' + yieldMoves.join(', ') + ' on the day');
-              }
-              
-              // Spread signals
-              let spreadNotes = [];
-              if (s2s10s && s2s10s.signal) {
-                const sig = s2s10s.signal;
-                if (sig === 'steepening') spreadNotes.push('2s10s steepening');
-                else if (sig === 'flattening') spreadNotes.push('2s10s flattening');
-                else if (sig === 'inverted') spreadNotes.push('2s10s inverted');
-              }
-              if (s10s30s && s10s30s.signal) {
-                const sig = s10s30s.signal;
-                if (sig === 'steepening') spreadNotes.push('10s30s steepening');
-                else if (sig === 'flattening') spreadNotes.push('10s30s flattening');
-              }
-              if (spreadNotes.length > 0) {
-                trendParts.push(spreadNotes.join('; '));
-              }
-              
-              // MOVE signal
-              if (move && move.signal) {
-                const msig = move.signal;
-                if (msig === 'low_vol') trendParts.push('MOVE low (calm rates)');
-                else if (msig === 'elevated') trendParts.push('MOVE elevated (uncertainty)');
-                else if (msig === 'high') trendParts.push('MOVE high (stress)');
-              }
-              
-              curveTrendEl.innerHTML = trendParts.length > 0 ? trendParts.join('. ') + '.' : '';
-            }
-            
-            // As-of date
-            if (curveAsOfEl) {
-              const asOfDate = data.curve_data.as_of_date;
-              if (asOfDate) {
-                const d = new Date(asOfDate + 'T12:00:00');
-                const formatted = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-                const bd = _mdBusinessDaysBetween(asOfDate, _mdTodayISO());
-                curveAsOfEl.innerHTML = 'As of ' + formatted +
-                  ((bd > 2 || data.curve_data._stale) ? _mdStaleBadge('Curve as-of ' + asOfDate + ' is ' + bd + ' business days old') : '');
-              }
-            }
-          } else {
-            curveEl.innerHTML = '<span style="color: #a8b2d1;">Coming soon — awaiting live data</span>';
-          }
-        }
-
         // Update Compute Forward widget (GPU rental pricing from SemiAnalysis public API)
         const computeEl = document.getElementById('compute-forward-widget');
         if (computeEl && data.compute_forward && data.compute_forward.h100) {
@@ -3133,7 +3032,7 @@
           '<span style="color: #f59e0b;">Unavailable</span>';
         const hint =
           '<div style="color: #6b7280; font-size: 0.65rem; margin-top: 0.2rem;">market_data.json stale/unavailable</div>';
-        ['treasury-widget', 'curve-widget', 'compute-forward-widget'].forEach(function(id) {
+        ['treasury-widget', 'compute-forward-widget'].forEach(function(id) {
           const el = document.getElementById(id);
           if (el) el.innerHTML = unavailable + hint;
         });
