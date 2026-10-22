@@ -91,16 +91,21 @@ def release_lock() -> None:
         pass
 
 def send_notification(title: str, message: str, priority: int = 0):
-    """Send iMessage notification."""
-    imessage = WORKSPACE / "send_imessage.sh"
+    """Log-only alert (Oct 22 2026: Jared no longer wants these texted to him).
 
-    if imessage.exists():
-        try:
-            full_msg = f"{title}\n\n{message}"
-            subprocess.run([str(imessage), "+16306437437", full_msg],
-                           capture_output=True, timeout=15)
-        except Exception as e:
-            print(f"  iMessage failed: {e}")
+    Prints the alert (launchd captures stdout in pipeline/logs/*.out) and appends
+    it to pipeline/logs/alerts.log. No iMessage is sent.
+    """
+    line = f"{title}: {message}".replace("\n", " | ")
+    print(f"  [alert, log only] {line}")
+    try:
+        log_dir = PIPELINE_DIR / "logs"
+        log_dir.mkdir(parents=True, exist_ok=True)
+        stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open(log_dir / "alerts.log", "a", encoding="utf-8") as f:
+            f.write(f"{stamp} [p{priority}] {line}\n")
+    except Exception as e:
+        print(f"  alert log write failed: {e}")
 
 
 def run_script(name: str, script: str, timeout: int = 300, extra_args: list = None) -> bool:
