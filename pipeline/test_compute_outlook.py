@@ -20,7 +20,8 @@ def _md(b200=(5.0, 6.0, 7.0), h100=(3.0, 3.0, 3.0), a100=(2.0, 1.9, 1.7), fwd=No
 
 def test_example_line():
     out = co.build_outlook(_md())
-    assert out["line"] == "B200 rising, H100 steady, A100 dropping: demand strong for the newest chips, supply catching up on older ones."
+    assert out["line"] == "B200 rising, H100 steady, A100 dropping."
+    assert out["explanation"] == "demand strong for the newest chips, supply catching up on older ones."
     assert "bet" not in out["line"].lower().split() and "thin" not in out["line"].lower()
 
 
@@ -31,8 +32,8 @@ def test_current_month_forward_ignored_and_thresholds():
 
 
 def test_uniform_clauses():
-    assert co.build_outlook(_md(b200=(5, 5, 5), h100=(3, 3, 3), a100=(2, 2, 2)))["line"].endswith("prices holding across every generation.")
-    assert "across every generation" in co.build_outlook(_md(b200=(5, 6, 7), h100=(3, 3.5, 4), a100=(1, 1.3, 1.5)))["line"]
+    assert co.build_outlook(_md(b200=(5, 5, 5), h100=(3, 3, 3), a100=(2, 2, 2)))["explanation"] == "prices holding across every generation."
+    assert "across every generation" in co.build_outlook(_md(b200=(5, 6, 7), h100=(3, 3.5, 4), a100=(1, 1.3, 1.5)))["explanation"]
 
 
 def test_no_history_no_line():
@@ -59,6 +60,6 @@ def test_curve_keeps_chips_and_last_trade():
 
 def test_home_chart_wiring():
     html = (Path(__file__).resolve().parents[1] / "site" / "index.html").read_text()
-    for needle in ('id="compute-forward-chart"', "renderComputeChart", "few trades so far", "Ornn OCPI", "compute-thesis", 'id="compute-thesis-slot"'):
+    for needle in ('id="compute-forward-chart"', "renderComputeChart", "Dashed = forward prices (few trades so far, indicative).", "Sources: SemiAnalysis, AI Compute Tracker.", "compute-thesis", 'id="compute-thesis-slot"'):
         assert needle in html
     assert 'href="./compute-thesis.html"' not in html  # button only injected once the page exists

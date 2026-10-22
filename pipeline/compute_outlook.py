@@ -112,7 +112,8 @@ def build_outlook(md: Dict[str, Any], today: Optional[str] = None) -> Optional[D
     trends = {c: v["trend"] for c, v in chips.items()}
     head = ", ".join(f"{LABEL[c]} {trends[c]}" for c in CHIPS if c in trends)
     return {
-        "line": f"{head}: {overall_clause(trends)}",
+        "line": f"{head}.",
+        "explanation": overall_clause(trends),
         "chips": chips,
         "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
         "as_of": today,

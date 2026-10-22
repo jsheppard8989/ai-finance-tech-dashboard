@@ -1564,7 +1564,8 @@
     }
   },
   "compute_outlook": {
-    "line": "B200 rising, H100 steady, A100 dropping: demand strong for the newest chips, supply catching up on older ones.",
+    "line": "B200 rising, H100 steady, A100 dropping.",
+    "explanation": "demand strong for the newest chips, supply catching up on older ones.",
     "chips": {
       "b200": {
         "spot": 6.88,
@@ -1593,6 +1594,6 @@
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
     "as_of": "2026-10-22",
-    "generated_at": "2026-10-22T15:01:27"
+    "generated_at": "2026-10-22T15:10:46"
   }
 }

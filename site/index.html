@@ -2092,7 +2092,6 @@
       <!-- Compute Forward -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">🖥️ Compute Forward</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">GPU rental prices for A100, H100 and B200: six months of daily spot, then what the market expects month by month. Forwards are indicative, not executable quotes.</p>
         <div id="compute-forward-widget" style="font-size: 0.75rem;">
           <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
             <span style="color: #a8b2d1;"><strong>1Y:</strong> —</span>
@@ -2103,20 +2102,11 @@
             <span id="compute-forward-period">As of: —</span>
           </div>
         </div>
-        <div id="compute-forward-watch" style="color: #a8b2d1; font-size: 0.68rem; margin-top: 0.35rem; line-height: 1.4;"></div>
         <div id="compute-outlook" style="color: #e5e7eb; font-size: 0.72rem; margin-top: 0.45rem; line-height: 1.4;"></div>
         <div id="compute-forward-chart" style="margin-top: 0.35rem;"></div>
         <div id="compute-forward-footnote" style="color: #9ca3af; font-size: 0.62rem; line-height: 1.4; margin-top: 0.25rem;"></div>
         <div id="compute-thesis-slot" style="margin-top: 0.4rem;" hidden></div>
-        <details class="plumbing-expand">
-          <summary>What this means</summary>
-          <div class="expand-content">
-            <strong>H100 1Y contract</strong>: SemiAnalysis surveys 100+ neocloud providers and buyers monthly. The range shown is from the latest survey published, which can be a couple of months old; the label shows which month.<br><br>
-            <strong>Sold Out</strong>: On-demand spot unavailable — scarcity signal.<br><br>
-            Data lags several months. Trend direction matters more than absolute price.
-          </div>
-        </details>
-        <div id="compute-forward-source" style="margin-top: 0.3rem; color: #9ca3af; font-size: 0.65rem; line-height: 1.4;">Sources: <a href="https://gpu-index.semianalysis.com/" target="_blank" style="color: #9ca3af;">SemiAnalysis GPU Index</a> (daily H100 composite, monthly 1Y range) · <a href="https://aicomputetracker.com/" target="_blank" style="color: #9ca3af;">AI Compute Tracker</a> (forward curve from <a href="https://kalshi.com/markets/kxh100ms" target="_blank" style="color: #9ca3af;">Kalshi H100 Monthly</a>, settles on <a href="https://data.ornn.com/markets/h100-sxm" target="_blank" style="color: #9ca3af;">Ornn OCPI</a>; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #9ca3af;">CC BY 4.0</a>)</div>
+        <div id="compute-forward-source" style="margin-top: 0.2rem; color: #9ca3af; font-size: 0.62rem;">Sources: SemiAnalysis, AI Compute Tracker.</div>
       </div>
     </div>
 
@@ -2269,16 +2259,7 @@
         return '<g transform="translate(' + (L + 6 + i * 70) + ',' + (T - 10) + ')"><line x1="0" x2="14" y1="0" y2="0" stroke="' + s.color + '" stroke-width="2"/><text x="18" y="3" fill="#d1d5db" font-size="10">' + s.name + '</text></g>';
       }).join('') + '<text x="' + (L + 6 + series.length * 70) + '" y="' + (T - 7) + '" fill="#9ca3af" font-size="10">solid = daily spot · dashed = monthly forwards</text>';
       host.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" role="img" aria-label="GPU rental prices: six months of daily spot and the forward curve, dollars per GPU-hour" style="background:#0b0f17;border-radius:4px;display:block;">' + legend + g.join('') + '</svg>';
-      if (foot) {
-        function md(iso) { var t = new Date(iso); return isNaN(t) ? '—' : t.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric', timeZone: 'America/Chicago'}); }
-        function sd(s) { var t = new Date(day(s)); return MON[t.getUTCMonth()] + ' ' + t.getUTCDate() + ', ' + t.getUTCFullYear(); }
-        var trades = CH.filter(function (c) { return fc && fc[c[0]] && fc[c[0]].last_trade_at; }).map(function (c) { return c[1] + ' ' + md(fc[c[0]].last_trade_at); });
-        var stale = (fc && fc._stale) || (cf && cf._stale) ? ' <span style="color:#f59e0b;">Some data is stale (last fetch failed).</span>' : '';
-        foot.innerHTML = 'Solid: <a href="https://gpu-index.semianalysis.com/" target="_blank" rel="noopener" style="color:#9ca3af;">SemiAnalysis GPU Index</a> daily spot, ' + sd(hist.start) + ' to ' + sd(hist.end) + ', $/GPU-hr. ' +
-          'Dashed: <a href="https://aicomputetracker.com/" target="_blank" rel="noopener" style="color:#9ca3af;">AI Compute Tracker</a> forward curve (Kalshi-implied monthly averages, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" style="color:#9ca3af;">CC BY 4.0</a>), starting at today\'s spot. ' +
-          'Forwards are indicative, with few trades so far, and settle on a different index (<a href="https://data.ornn.com/markets/h100-sxm" target="_blank" rel="noopener" style="color:#9ca3af;">Ornn OCPI</a>). ' +
-          (trades.length ? 'Last trade: ' + trades.join(', ') + '.' : '') + stale;
-      }
+      if (foot) foot.textContent = 'Dashed = forward prices (few trades so far, indicative).';
     }
 
     // "Why these prices matter": shown only once JG's thesis page exists.
@@ -3081,35 +3062,6 @@
             else window.addEventListener('load', function () { renderComputeChart(cf, fc, ol); });
           })(data.compute_forward_curve, data.compute_outlook);
 
-          // Build contracts-to-watch blurb
-          const watchEl = document.getElementById('compute-forward-watch');
-          if (watchEl) {
-            let watchParts = [];
-            
-            // B200 daily if present (from index API)
-            const b200 = cf.b200;
-            if (b200 && b200.composite_index && b200.composite_index.display && b200.composite_index.display !== '—') {
-              const b200Date = b200.daily_date || '';
-              watchParts.push('B200: ' + b200.composite_index.display + (b200Date ? ' (' + b200Date + ')' : ''));
-            }
-            
-            // On-demand sold out status with affected periods
-            if (h100.on_demand && h100.on_demand.type === 'sold_out') {
-              const soldOutPeriods = h100.sold_out_periods;
-              if (soldOutPeriods && soldOutPeriods.length > 0) {
-                const recentSoldOut = soldOutPeriods.slice(-3).join(', ');
-                watchParts.push('H100 on-demand sold out (' + recentSoldOut + ')');
-              } else {
-                watchParts.push('H100 on-demand sold out');
-              }
-            }
-            
-            if (watchParts.length > 0) {
-              watchEl.innerHTML = '📌 <strong>Watch:</strong> ' + watchParts.join(' · ');
-            } else {
-              watchEl.innerHTML = '';
-            }
-          }
         }
 
       } catch (e) {
