@@ -1,10 +1,10 @@
 name: Market Data Refresh
 
-# Refreshes the four public-source cards in site/data/market_data.json:
+# Refreshes the three public-source cards in site/data/market_data.json:
 #   Compute Forward (fetch_gpu_index.py), Curve Snapshot (fetch_curve.py),
-#   COT (fetch_cot.py), Treasury calendar (fetch_treasury_calendar.py).
+#   Treasury calendar (fetch_treasury_calendar.py). (COT removed 2026-10-22.)
 # No secrets: all sources are public. Replaces the Mac launchd path for these
-# four (auto_pipeline.py skips them unless MARKET_DATA_FETCH_LOCAL=1).
+# three (auto_pipeline.py skips them unless MARKET_DATA_FETCH_LOCAL=1).
 #
 # Cron is UTC. Paired entries cover CDT (UTC-5) and CST (UTC-6).
 on:
@@ -12,8 +12,6 @@ on:
     - cron: "15 12 * * 1-5"   # ~07:15 CDT / 06:15 CST  morning
     - cron: "15 13 * * 1-5"   # ~07:15 CST (winter)
     - cron: "30 17 * * 1-5"   # ~12:30 CDT midday
-    - cron: "45 19 * * 5"     # Fri ~14:45 CDT: COT (CFTC posts 14:30 CT)
-    - cron: "45 20 * * 5"     # Fri ~14:45 CST / 15:45 CDT retry
     - cron: "45 3 * * 2-6"    # ~22:45 CDT / 21:45 CST evening (Treasury curve posted)
   workflow_dispatch:
 
@@ -58,11 +56,6 @@ jobs:
         continue-on-error: true
         run: python fetch_curve.py
 
-      - name: Fetch COT (CFTC TFF)
-        working-directory: pipeline
-        continue-on-error: true
-        run: python fetch_cot.py
-
       - name: Fetch Treasury calendar (TreasuryDirect)
         working-directory: pipeline
         continue-on-error: true
@@ -83,7 +76,7 @@ jobs:
           branch="data/market-data-${ts}"
           git checkout -b "$branch"
           git add -u -- site/data/market_data.json  # site/data is gitignored; file is tracked
-          git commit -m "Market data refresh ${ts} CT (Actions: GPU, Curve, COT, Treasury)"
+          git commit -m "Market data refresh ${ts} CT (Actions: GPU, Curve, Treasury)"
           git push origin "$branch"
           url=$(gh pr create --base main --head "$branch" \
             --title "Market data refresh ${ts} CT" \

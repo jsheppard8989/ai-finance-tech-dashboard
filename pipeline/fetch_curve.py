@@ -570,7 +570,7 @@ def _rollup_data_status(market_data: Dict[str, Any]) -> str:
     """
     status = market_data.get('data_fetch_status', {})
     # Key automated sections (treasury_calendar is manual/stub for now)
-    auto_sections = ['curve_data', 'cftc_cot', 'compute_forward']
+    auto_sections = ['curve_data', 'compute_forward']
     
     live_count = 0
     stale_count = 0

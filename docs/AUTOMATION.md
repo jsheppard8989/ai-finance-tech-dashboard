@@ -241,9 +241,9 @@ The pipeline still runs **on this Mac**. If the Mac is off or never wakes, nothi
 
 ## Market data cards (GitHub Actions, since 2026-10-09)
 
-Compute Forward, Curve Snapshot, COT and the Treasury calendar are refreshed by
+Compute Forward, Curve Snapshot and the Treasury calendar are refreshed by (COT removed 2026-10-22)
 `.github/workflows/market-data.yml` ("Market Data Refresh"), not the Mac:
-`fetch_gpu_index.py`, `fetch_curve.py`, `fetch_cot.py`, `fetch_treasury_calendar.py`
+`fetch_gpu_index.py`, `fetch_curve.py`, `fetch_treasury_calendar.py`
 (all public sources, no secrets). Schedule (CT): weekdays ~07:15, ~12:30,
 ~22:45, plus Friday ~14:45 for the CFTC COT release (14:30 CT). Each run commits
 `site/data/market_data.json` through a `data/market-data-*` PR, merges it, and
