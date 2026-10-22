@@ -90,11 +90,26 @@ def load_market_data(
     return {}, "; ".join(notes)
 
 
+# Internal to-do / follow-up notes never ship in the public market_data.json.
+INTERNAL_STATUS_KEYS = ("follow_up_for_tony",)
+
+
+def strip_internal_notes(market_data: dict) -> dict:
+    """Drop internal follow-up notes (e.g. data_fetch_status.follow_up_for_tony) in place."""
+    status = market_data.get("data_fetch_status") if isinstance(market_data, dict) else None
+    if isinstance(status, dict):
+        for k in list(status):
+            if k in INTERNAL_STATUS_KEYS or k.startswith("follow_up"):
+                status.pop(k, None)
+    return market_data
+
+
 def save_market_data(market_data: dict, path: Path | None = None) -> Tuple[bool, str]:
     """Atomic write of market_data.json; refuse invalid payloads; keep prior on failure."""
     path = path or MARKET_DATA_FILE
     if not isinstance(market_data, dict):
         return False, "market_data payload is not a dict"
+    strip_internal_notes(market_data)
 
     text = json.dumps(market_data, indent=2) + "\n"
     ok, msg, _ = validate_json_text(text, label="new market_data payload")

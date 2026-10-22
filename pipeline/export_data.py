@@ -340,6 +340,8 @@ def _apply_summary_overrides(obj):
     # Always runs: also enforces pundit_exclusions (host ids + corrected-name check).
     _apply_pundit_rules(obj, rules_all.get("pundit_excludes") or [], rules_all.get("pundit_overrides") or [],
                         rules_all.get("pundit_merges") or [])
+    # Oct 22 2026: a bio like "Referenced via…"/"Mentioned in…" describes a mention, not a guest.
+    _drop_mention_bios(obj)
     # Backstop: full known-name list from name_normalizer (quote-safe, exact swaps only).
     try:
         import name_normalizer
@@ -468,6 +470,19 @@ def _pundit_word_swap(o, reps, key=None):
                 _pundit_word_swap(v, reps, key)
     return o
 
+
+
+def _drop_mention_bios(obj):
+    """Null any pundit bio starting with 'Referenced' or 'Mentioned' (guest_check.is_rejected_bio)."""
+    from guest_check import is_rejected_bio
+    if isinstance(obj, dict):
+        if "name" in obj and isinstance(obj.get("bio"), str) and is_rejected_bio(obj["bio"]):
+            obj["bio"] = None
+        for v in obj.values():
+            _drop_mention_bios(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            _drop_mention_bios(v)
 
 def _apply_pundit_rules(obj, excludes, overrides, merges=None):
     """Oct 20 2026: pundit rows scoped by pundit id (DB rows are never deleted).
@@ -1912,7 +1927,6 @@ const dashboardData = {{
   generatedAt: "{datetime.now().isoformat()}",
   chartsVersion: {json.dumps(charts_version) if 'charts_version' in locals() else 'null'},
   priceSnapshot: {price_json},
-  // tickerScores: Alpha/Atrophy UI retired in PR #98; Trap Map replaced it.
   tickerScores: [],
   archive: {archive_json},
   mainContent: {main_json},

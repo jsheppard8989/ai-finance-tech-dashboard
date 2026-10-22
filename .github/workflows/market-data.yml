@@ -56,15 +56,19 @@ jobs:
         continue-on-error: true
         run: python fetch_curve.py
 
+      # No continue-on-error: a stale/failed Treasury fetch exits 1 and fails this step
+      # (and the run). Later steps still run so the other cards' data is committed.
       - name: Fetch Treasury calendar (TreasuryDirect)
+        id: treasury
         working-directory: pipeline
-        continue-on-error: true
         run: python fetch_treasury_calendar.py
 
       - name: Validate market_data.json
+        if: ${{ !cancelled() }}
         run: python -c "import json; json.load(open('site/data/market_data.json'))"
 
       - name: Commit via PR, merge, trigger Pages
+        if: ${{ !cancelled() }}
         run: |
           set -euo pipefail
           if git diff --quiet -- site/data/market_data.json; then

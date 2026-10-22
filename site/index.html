@@ -379,7 +379,6 @@
       background: linear-gradient(90deg, #6b7280, #9ca3af);
     }
 
-    /* Curated seed cards - niche/plumbing sources (not VC podcast pipeline) */
     .overton-window-item.curated-item {
       background: rgba(34, 197, 94, 0.06);
       border: 1px solid rgba(34, 197, 94, 0.25);
@@ -2549,7 +2548,7 @@
         const firstSource = esc(c.first_source || '');
         const category = esc(c.category || '');
         const prov = c.provenance || {};
-        const provNote = esc(prov.note || 'Curated seed from niche sources');
+        const provNote = esc(prov.note || 'From niche sources');
         const sourceUrl = esc(prov.source_url || '');
 
         let sourceHtml = '';
@@ -2607,7 +2606,7 @@
         console.warn('Could not load curated_overton.json:', e);
       }
 
-      // Durable demote list (Jared 2026-09-22): hide null-source glossary cards from home Overton.
+      // Durable demote list: hide null-source glossary cards from home Overton.
       let demoteSet = new Set();
       try {
         const demoteResp = await fetch('./data/overton_demote.json', { cache: 'no-cache' });
@@ -2645,8 +2644,6 @@
         return mb - ma;
       });
 
-      // 4 automatic slots; 2 are reserved for ideas first heard in the last 30 days so they
-      // rotate on their own (Jared 2026-10-20). Hand-picked seeds above are not counted.
       const AUTO_SLOTS = 4, RECENT_SLOTS = 2, RECENT_DAYS = 30;
       const cutoffIso = new Date(Date.now() - RECENT_DAYS * 86400000).toISOString().substring(0, 10);
       function owKey(o) { return String((o && o.term) || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
@@ -2861,7 +2858,8 @@
           const tcUpdated = (tc.last_updated || '').slice(0, 10);
           const tcOld = tcUpdated && _mdDaysBetween(tcUpdated, todayIso) > 7;
           if (tc._stale || pastUpcoming || pastQra || tcOld) {
-            const why = tc._stale ? (tc._stale_reason || 'fetch failed') :
+            const staleSince = (tc.last_updated || tc._stale_since || '').slice(0, 10);
+            const why = tc._stale ? ('Stale since ' + (staleSince || 'unknown') + ' (' + (tc._stale_reason || 'fetch failed') + ')') :
               (pastUpcoming || pastQra) ? 'Shows an auction/QRA date that has already passed' :
               'Calendar last updated ' + tcUpdated;
             html += '<div style="font-size: 0.62rem;">' + _mdStaleBadge(why).replace('margin-left: 0.5rem; ', '') + '</div>';

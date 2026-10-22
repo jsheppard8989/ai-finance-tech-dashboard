@@ -14,7 +14,7 @@
       "provenance": {
         "author": "Joseph Wang (Fed Guy)",
         "source_url": "https://fedguy.com/",
-        "note": "Curated seed from niche Fed plumbing sources — not from the VC podcast pipeline."
+        "note": "From niche Fed plumbing sources."
       },
       "status": "active",
       "display_order": 1
@@ -29,7 +29,7 @@
       "provenance": {
         "author": "Macro Voices",
         "source_url": "https://www.macrovoices.com/",
-        "note": "Curated seed from niche Fed plumbing sources — not from the VC podcast pipeline."
+        "note": "From niche Fed plumbing sources."
       },
       "status": "active",
       "display_order": 2
@@ -44,7 +44,7 @@
       "provenance": {
         "author": "Ben Inker (GMO)",
         "source_url": "",
-        "note": "Hand-picked seed (Jared, Oct 15 2026). Sources: Monetary Matters with Jack Farley, Oct 14, 2026 (Ben Inker, GMO; card #588); Monetary Matters, Aug 31, 2026 (Jeff Keller; card #462, compute gluts). Supersedes pipeline term 902 ('Compute wash'), which export drops so there is one Compute glut term.",
+        "note": "Sources: Monetary Matters with Jack Farley, Oct 14, 2026 (Ben Inker, GMO); Monetary Matters, Aug 31, 2026 (Jeff Keller).",
         "sources": [
           {
             "card_id": 588,
@@ -75,7 +75,7 @@
         "author": "James Elbaor (Marlton LLC), Monetary Matters with Jack Farley",
         "source_url": "https://www.youtube.com/@MonetaryMatters",
         "episode": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity (2026-09-27)",
-        "note": "Curated seed (Jared yes 2026-09-28). Promoted from the pipeline extract so it pins beside the Fed plumbing seeds."
+        "note": "Selected from niche private-credit sources."
       },
       "status": "active",
       "display_order": 4
@@ -91,7 +91,7 @@
         "author": "J Mintzmyer (Value Investors Edge), Monetary Matters with Jack Farley",
         "source_url": "https://www.youtube.com/@MonetaryMatters",
         "episode": "The Most Extreme Shipping Market in History, Explained (2026-10-06)",
-        "note": "Curated seed (Jared yes 2026-10-08). From Insight 569. Example in the episode: China moving iron ore and bauxite buying from Australia to Guinea more than triples the voyage to China."
+        "note": "Selected from a recent episode. Example: China moving iron ore and bauxite buying from Australia to Guinea more than triples the voyage to China."
       },
       "status": "active",
       "display_order": 5

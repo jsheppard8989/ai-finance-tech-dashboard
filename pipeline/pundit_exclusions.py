@@ -54,6 +54,23 @@ EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
 )
 
 
+# Guest appearances that were really mentions (person named/clipped, not a guest).
+# (name, episode_title) pairs; matched case-insensitively. The export skips that
+# appearance and uses the person's next real guest appearance, if any.
+EXCLUDED_GUEST_APPEARANCES: FrozenSet[tuple] = frozenset(
+    {
+        # Dwarkesh Oct 22 2026 Intel fab episode: Elon is quoted (Terafab clip), not a guest.
+        ("Elon Musk", "What will computer chips look like in 2045?"),
+    }
+)
+_EXCLUDED_APPEARANCES_LOWER = frozenset((n.lower(), t.lower()) for n, t in EXCLUDED_GUEST_APPEARANCES)
+
+
+def is_excluded_guest_appearance(name: str, episode_title: str) -> bool:
+    """True if this (person, episode) guest appearance is a known mention-only row."""
+    return ((name or "").strip().lower(), (episode_title or "").strip().lower()) in _EXCLUDED_APPEARANCES_LOWER
+
+
 # Title keywords that indicate a culture one-off episode (non-AI/finance)
 # These episodes are HARD SKIP — do not ingest, do not ask. Only AI/finance episodes go through.
 CULTURE_ONEOFF_KEYWORDS: FrozenSet[str] = frozenset(

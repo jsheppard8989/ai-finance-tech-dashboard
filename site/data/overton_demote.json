@@ -1,5 +1,5 @@
 {
-  "_comment": "Terms hidden from the home Overton pipeline list (Jared yes 2026-09-22; + Project-Based Learning / Curiosity-Driven Learning 2026-09-23; + Bending Spoon(s) company-name demote 2026-09-24). Curated seeds in curated_overton.json still pin above this list. + Gating Mechanism promoted to curated 2026-09-28. + e-values, Quantization, Electrification, Skin in the Game, AI Personhood demoted 2026-09-29 (Jared yes). + Liquid AI company-name demote 2026-10-07. Do not hand-edit data.js — this file is the durable demote switch.",
+  "_comment": "Terms hidden from the home Overton pipeline list (2026-09-22; + Project-Based Learning / Curiosity-Driven Learning 2026-09-23; + Bending Spoon(s) company-name demote 2026-09-24). Curated seeds in curated_overton.json still pin above this list. + Gating Mechanism promoted to curated 2026-09-28. + e-values, Quantization, Electrification, Skin in the Game, AI Personhood demoted 2026-09-29. + Liquid AI company-name demote 2026-10-07. Do not hand-edit data.js — this file is the durable demote switch.",
   "_updated": "2026-10-07",
   "demote": [
     {
@@ -20,43 +20,43 @@
     },
     {
       "term": "Project-Based Learning",
-      "reason": "Null source_podcasts; a16z Academy/Masad education glossary — not an economy-reframing Overton term (Jared yes 2026-09-23)"
+      "reason": "Null source_podcasts; a16z Academy/Masad education glossary — not an economy-reframing Overton term"
     },
     {
       "term": "Curiosity-Driven Learning",
-      "reason": "Null source_podcasts; a16z Academy/Masad education glossary — not an economy-reframing Overton term (Jared yes 2026-09-23)"
+      "reason": "Null source_podcasts; a16z Academy/Masad education glossary — not an economy-reframing Overton term"
     },
     {
       "term": "Bending Spoon",
-      "reason": "Company/product name (Bending Spoons) from All-In Luca Ferrari ep — not an economy-reframing Overton term (Jared yes 2026-09-24)"
+      "reason": "Company/product name (Bending Spoons) from All-In Luca Ferrari ep — not an economy-reframing Overton term"
     },
     {
       "term": "Bending Spoons",
-      "reason": "Company name variant of Bending Spoon — same demote (Jared yes 2026-09-24)"
+      "reason": "Company name variant of Bending Spoon — same demote"
     },
     {
       "term": "Gating Mechanism",
-      "reason": "Promoted to curated_overton.json (Jared yes 2026-09-28); hide pipeline copy to avoid a duplicate card"
+      "reason": "Promoted to curated_overton.json; hide pipeline copy to avoid a duplicate card"
     },
     {
       "term": "e-values",
-      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds"
     },
     {
       "term": "Quantization",
-      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds"
     },
     {
       "term": "Electrification",
-      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds"
     },
     {
       "term": "Skin in the Game",
-      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds"
     },
     {
       "term": "AI Personhood",
-      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds"
     },
     {
       "term": "Liquid AI",
