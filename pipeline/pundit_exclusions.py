@@ -71,6 +71,36 @@ def is_excluded_guest_appearance(name: str, episode_title: str) -> bool:
     return ((name or "").strip().lower(), (episode_title or "").strip().lower()) in _EXCLUDED_APPEARANCES_LOWER
 
 
+# Confirmed guests the guest check can't verify from title/show notes/labels (ASR-garbled
+# names, sparse notes). (DB name, episode_title) pairs; corrected names come from
+# summary_overrides.json global_name_replacements. Oct 22 2026, checked by G.
+CONFIRMED_GUEST_APPEARANCES: FrozenSet[tuple] = frozenset(
+    {
+        ("Adam Pervene", "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market"),
+        ("Eden Ha", "Why Video Agent models are next — Ethan He, xAI Grok Imagine"),
+        ("Andrew Wang", "How Valon Rebuilt a $13 Trillion Industry From Scratch"),
+        ("Richard Socher", "Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299"),
+        ("DJ Smith", "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket"),
+        ("Dylan Araps", "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket"),
+        ("Joel Deligarza", "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket"),
+        ("Peter Ludwig", "Why Physical AI Is the Next Frontier | Applied Intuition"),
+        ("Jeff Wu", "Jake Paul & Anti Fund: From Creator to Investor"),
+    }
+)
+
+
+def _norm_title(t: str) -> str:
+    return " ".join((t or "").lower().split())
+
+
+_CONFIRMED_LOWER = frozenset((n.lower(), _norm_title(t)) for n, t in CONFIRMED_GUEST_APPEARANCES)
+
+
+def is_confirmed_guest_appearance(name: str, episode_title: str) -> bool:
+    """True if this (person, episode) is a pinned, human-confirmed guest appearance."""
+    return ((name or "").strip().lower(), _norm_title(episode_title)) in _CONFIRMED_LOWER
+
+
 # Title keywords that indicate a culture one-off episode (non-AI/finance)
 # These episodes are HARD SKIP — do not ingest, do not ask. Only AI/finance episodes go through.
 CULTURE_ONEOFF_KEYWORDS: FrozenSet[str] = frozenset(

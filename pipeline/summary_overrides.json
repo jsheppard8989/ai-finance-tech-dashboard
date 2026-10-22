@@ -1612,6 +1612,30 @@
     [
       "Amadeh",
       "Amodei"
+    ],
+    [
+      "Adam Pervene",
+      "Adam Foroughi"
+    ],
+    [
+      "Eden Ha",
+      "Ethan He"
+    ],
+    [
+      "DJ Smith",
+      "Feross Aboukhadijeh"
+    ],
+    [
+      "Dylan Araps",
+      "Dylan Ayrey"
+    ],
+    [
+      "Joel Deligarza",
+      "Joel de la Garza"
+    ],
+    [
+      "Jeff Wu",
+      "Geoffrey Woo"
     ]
   ],
   "name_replacements": [
@@ -3147,6 +3171,48 @@
       "_note": "Oct 21 2026 G(ai)ndolf: book published (Bear in the Bullring, Sutherland House, Oct 6 2026); ROSY ETF ticker",
       "set": {
         "bio": "Founder of Rosenberg Research and author of Bear in the Bullring (Sutherland House), published October 6, 2026. He also discussed his ROSY ETF, launched on the TSX on September 10, 2026."
+      }
+    },
+    {
+      "id": 472,
+      "_note": "Oct 22 2026: ASR name fix + guest restored (G)",
+      "set": {
+        "bio": "Co-founder and CEO of AppLovin, the mobile advertising and app-marketing company."
+      }
+    },
+    {
+      "id": 297,
+      "_note": "Oct 22 2026: ASR name fix + guest restored (G)",
+      "set": {
+        "bio": "AI researcher at xAI working on Grok Imagine video generation models."
+      }
+    },
+    {
+      "id": 389,
+      "_note": "Oct 22 2026: ASR name fix + guest restored (G)",
+      "set": {
+        "bio": "Founder and CEO of Socket, the software supply-chain security company."
+      }
+    },
+    {
+      "id": 388,
+      "_note": "Oct 22 2026: ASR name fix + guest restored (G)",
+      "set": {
+        "bio": "Co-founder and CEO of Truffle Security, the secrets-scanning security company."
+      }
+    },
+    {
+      "id": 387,
+      "_note": "Oct 22 2026: ASR name fix + guest restored (G)",
+      "set": {
+        "bio": "a16z partner focused on security investing."
+      }
+    },
+    {
+      "id": 302,
+      "_note": "Oct 22 2026: ASR name fix + guest restored (G)",
+      "set": {
+        "bio": "Co-founder of Anti Fund with Jake Paul; Silicon Valley venture investor."
       }
     }
   ],
