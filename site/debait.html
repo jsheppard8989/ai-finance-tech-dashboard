@@ -252,7 +252,7 @@
     }
     .debater-pill.yes { color: #22c55e; border-color: rgba(34,197,94,0.45); }
     .debater-pill.no { color: #f97373; border-color: rgba(248,113,113,0.45); }
-    .bet-status {
+    .call-status {
       display: inline-flex;
       align-items: center;
       gap: 0.35rem;
@@ -262,10 +262,10 @@
       border-radius: 8px;
       margin-top: 0.35rem;
     }
-    .bet-status.open { color: #fbbf24; border: 1px solid rgba(251,191,36,0.45); background: rgba(251,191,36,0.08); }
-    .bet-status.resolved-yes { color: #22c55e; border: 1px solid rgba(34,197,94,0.45); background: rgba(34,197,94,0.08); }
-    .bet-status.resolved-no { color: #f97373; border: 1px solid rgba(248,113,113,0.45); background: rgba(248,113,113,0.08); }
-    .bet-status.resolved-void { color: #a8b2d1; border: 1px solid rgba(168,178,209,0.45); background: rgba(168,178,209,0.08); }
+    .call-status.open { color: #fbbf24; border: 1px solid rgba(251,191,36,0.45); background: rgba(251,191,36,0.08); }
+    .call-status.resolved-yes { color: #22c55e; border: 1px solid rgba(34,197,94,0.45); background: rgba(34,197,94,0.08); }
+    .call-status.resolved-no { color: #f97373; border: 1px solid rgba(248,113,113,0.45); background: rgba(248,113,113,0.08); }
+    .call-status.resolved-void { color: #a8b2d1; border: 1px solid rgba(168,178,209,0.45); background: rgba(168,178,209,0.08); }
     .history-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 0.5rem; }
     .history-table th, .history-table td {
       text-align: left; padding: 0.45rem 0.35rem; border-bottom: 1px solid rgba(255,255,255,0.08); vertical-align: top;
@@ -356,7 +356,7 @@
         Loading debate topic…
       </div>
       <div id="quality-hold-banner" class="quality-hold"></div>
-      <div id="bet-status-row"></div>
+      <div id="call-status-row"></div>
       <div style="display:flex; align-items:center; gap:0.5rem; margin: 0.6rem 0 0.25rem; flex-wrap: wrap;">
         <button id="vote-up" class="pill" style="cursor:pointer; user-select:none; border-color: rgba(34,197,94,0.5);">
           <strong style="color:#22c55e;">👍</strong> <span>Up</span> <span id="vote-up-count" style="opacity:0.9;">0</span>
@@ -426,6 +426,9 @@
     </div>
   </div>
 
+  <div class="site-disclaimer" style="max-width: 900px; margin: 2rem auto 1.5rem; padding: 0.75rem 1rem; text-align: center; color: #8892b0; font-size: 0.75rem; border-top: 1px solid rgba(255,255,255,0.1);">
+    <strong>Disclaimer:</strong> Nothing on this page constitutes investment advice or a recommendation to buy or sell any security.
+  </div>
   <script src="./js/common.js"></script>
   <script src="./data/data.js?v=1792641444"></script>
   <script>
@@ -712,7 +715,7 @@
         const dateEl = document.getElementById('hero-date');
         const methEl = document.getElementById('debate-methodology');
         const weekLabelEl = document.getElementById('week-label');
-        const betRow = document.getElementById('bet-status-row');
+        const callRow = document.getElementById('call-status-row');
         const audioSrc = document.getElementById('debate-audio-src');
         const audioEl = document.getElementById('debate-audio');
         const warnEl = document.getElementById('audio-mismatch-warning');
@@ -784,13 +787,13 @@
           var debHead = document.getElementById('debaters-heading');
           if (debHead) debHead.textContent = 'Debaters (last contract)';
         }
-        if (betRow) {
+        if (callRow) {
           var bs = (contract && contract.bet_status) ? String(contract.bet_status).toLowerCase() : 'open';
           var exp = contract && contract.expires_rule ? contract.expires_rule : '';
           var bsLabel = bs === 'open' ? 'OPEN' : ((bs === 'yes' || bs === 'no') ? 'RESOLVED ' + bs.toUpperCase() : bs.toUpperCase());
           var bsNote = (bs !== 'open' && contract && contract.resolution_notes) ? '<div style="font-size:0.78rem;opacity:0.85;margin-top:0.3rem;">' + String(contract.resolution_notes).replace(/</g, '&lt;') + '</div>' : '';
           var bsClass = bs === 'yes' ? 'resolved-yes' : (bs === 'no' ? 'resolved-no' : (bs === 'void' ? 'resolved-void' : 'open'));
-          betRow.innerHTML = '<span class="bet-status ' + bsClass + '">Call status: ' + bsLabel + '</span>' +
+          callRow.innerHTML = '<span class="call-status ' + bsClass + '">Call status: ' + bsLabel + '</span>' +
             (exp ? '<span class="pill" style="margin-left:0.5rem;">' + exp.replace(/</g, '&lt;') + '</span>' : '') + bsNote;
         }
 

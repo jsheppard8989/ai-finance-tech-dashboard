@@ -346,92 +346,13 @@
       }
     }
   },
-  "cftc_cot": {
-    "_comment": "CFTC Commitment of Traders positioning data. Source: cftc.gov weekly reports.",
-    "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
-    "_api_alternative": "Quandl CFTC dataset (may need key)",
-    "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-10-22T03:55:01.514984",
-    "report_date": "2026-10-13",
-    "prior_report_date": "2026-10-06",
-    "change_source": "cftc_changes_row",
-    "rates_positioning": {
-      "10y_note": {
-        "label": "10-Year T-Note Futures",
-        "contract": "TY",
-        "asset_manager_net": null,
-        "leveraged_funds_net": -2205937,
-        "prior_week_net": -2139785,
-        "dealer_net": null,
-        "change_1w": -66152,
-        "signal": null,
-        "percentile_1y": null
-      },
-      "2y_note": {
-        "label": "2-Year T-Note Futures",
-        "contract": "TU",
-        "asset_manager_net": null,
-        "leveraged_funds_net": -1367408,
-        "prior_week_net": -1257484,
-        "dealer_net": null,
-        "change_1w": -109924,
-        "signal": null,
-        "percentile_1y": null
-      },
-      "30y_bond": {
-        "label": "30-Year T-Bond Futures",
-        "contract": "US",
-        "asset_manager_net": null,
-        "leveraged_funds_net": -154020,
-        "prior_week_net": -189678,
-        "dealer_net": null,
-        "change_1w": 35658,
-        "signal": null,
-        "percentile_1y": null
-      }
-    },
-    "btc_positioning": {
-      "cme_btc": {
-        "label": "CME Bitcoin Futures",
-        "contract": "BTC",
-        "asset_manager_net": null,
-        "leveraged_funds_net": -5844,
-        "prior_week_net": -6852,
-        "dealer_net": null,
-        "change_1w": 1008,
-        "signal": null,
-        "percentile_1y": null
-      }
-    },
-    "equity_positioning": {
-      "cme_nq": {
-        "label": "CME E-mini Nasdaq-100",
-        "contract": "NQ",
-        "asset_manager_net": null,
-        "leveraged_funds_net": -21891,
-        "prior_week_net": -26739,
-        "dealer_net": null,
-        "change_1w": 4848,
-        "signal": null,
-        "percentile_1y": null
-      }
-    },
-    "positioning_context": {
-      "_comment": "Narrative summary of positioning trends",
-      "summary": null,
-      "key_shift": null,
-      "crowded_trades": []
-    }
-  },
   "data_fetch_status": {
     "_comment": "Track what data is live vs stubbed",
     "treasury_calendar": "stale",
     "curve_data": "live",
-    "cftc_cot": "live",
     "follow_up_for_tony": [
-      "Labor Day 2026-09-07: manually replaced stale Sep 5\u20137 stub auctions with TreasuryDirect Sep 8\u201310 coupon week (3Y/10Y/30Y).",
+      "Labor Day 2026-09-07: manually replaced stale Sep 5–7 stub auctions with TreasuryDirect Sep 8–10 coupon week (3Y/10Y/30Y).",
       "DONE: Yield curve fetch via fetch_curve.py (Treasury.gov primary, FRED optional, MOVE via Yahoo)",
-      "Set up CFTC COT weekly parse from cftc.gov or Quandl",
       "Add cron job to pipeline for weekly/daily updates"
     ],
     "compute_forward": "live"
@@ -555,7 +476,7 @@
       "recent_5": [
         {
           "period": "Apr 2026",
-          "1y_contract": "\u2014",
+          "1y_contract": "—",
           "on_demand": "Sold Out"
         },
         {

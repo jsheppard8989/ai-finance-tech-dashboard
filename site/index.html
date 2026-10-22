@@ -2038,31 +2038,17 @@
 <body>
   <div class="container">
     <nav class="site-nav" aria-label="Site sections">
-      <a href="index.html">Home</a>
       <a href="debait.html" id="home-debate-listen">Long &amp; Short</a>
-      <div class="nav-research" data-research-menu><noscript><a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a></noscript></div>
+      <div class="nav-research" data-research-menu><noscript><a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a> · <a href="healthcare.html">Healthcare Abundance</a></noscript></div>
       <a href="archive.html">Archive</a>
     </nav>
     <header style="position: relative;">
       <h1>AI, Finance, Tech: Scarcity &amp; Abundance</h1>
-      <p class="subtitle">Summaries and themes from the podcasts and newsletters in our feed — not investment advice.</p>
+      <p class="subtitle">Summaries and themes from the podcasts and newsletters in our feed.</p>
       <p style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem;">
         <span id="last-updated">Last updated: —</span>
         <span id="last-updated-meta"> · <span style="color: #a8b2d1;">Ticker cards show ~2-week % change where available</span></span>
       </p>
-      <!-- Desktop: absolute positioned badges; Mobile: inline via CSS override -->
-      <div class="header-qqq-badge" style="position: absolute; bottom: 1rem; left: 2rem; display: flex; flex-direction: column; align-items: flex-start; gap: 0.15rem;">
-        <span class="title-ticker" onclick="showChart('QQQ')" title="View QQQ 2-week chart">
-          QQQ <span id="qqq-price" class="ticker-price"></span> <span id="qqq-change" class="ticker-change"></span>
-        </span>
-        <span id="qqq-as-of" style="color: #6b7280; font-size: 0.55rem;"></span>
-      </div>
-      <div class="header-btc-badge" style="position: absolute; bottom: 1rem; right: 2rem; display: flex; flex-direction: column; align-items: flex-end; gap: 0.15rem;">
-        <span class="title-ticker btc" onclick="showChart('BTC')" title="View Bitcoin 2-week chart">
-          <span id="btc-change" class="ticker-change"></span> <span id="btc-price" class="ticker-price"></span> ₿
-        </span>
-        <span id="btc-as-of" style="color: #6b7280; font-size: 0.55rem;"></span>
-      </div>
     </header>
 
     <!-- Market Plumbing Widgets (compact band between header and grid) -->
@@ -2114,31 +2100,6 @@
         <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: Treasury.gov / Yahoo</span></div>
       </div>
 
-      <!-- COT Positioning -->
-      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
-        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📋 COT Positioning</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Leveraged-funds net positioning: 10Y T-Note, CME Bitcoin, CME Nasdaq-100 (NQ).</p>
-        <div id="cot-widget" style="font-size: 0.75rem;">
-          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.3rem;">
-            <span style="color: #a8b2d1;"><strong>TY:</strong> <span style="color: #6b7280;">Coming soon</span></span>
-            <span style="color: #a8b2d1;"><strong>BTC:</strong> <span style="color: #6b7280;">Coming soon</span></span>
-            <span style="color: #a8b2d1;"><strong>NQ:</strong> <span style="color: #6b7280;">Coming soon</span></span>
-          </div>
-          <div id="cot-report-date" style="color: #6b7280; font-size: 0.65rem;"></div>
-        </div>
-        <details class="plumbing-expand" id="cot-expand">
-          <summary>What this means</summary>
-          <div class="expand-content">
-            <strong>CFTC Commitment of Traders</strong>: Leveraged funds = CTA/hedge-fund positioning. Net = long contracts minus short. Δ = week-over-week change.<br><br>
-            <strong>TY (10Y)</strong>: Rising net long = specs adding duration. Deep net short = lean against bonds (leaning toward yields rising).<br><br>
-            <strong>BTC</strong>: CME Bitcoin futures — net long is bullish spec positioning.<br><br>
-            <strong>NQ</strong>: CME E-mini Nasdaq-100 — net long is bullish equity/tech positioning.<br><br>
-            Released Fridays for prior Tuesday. Units are contracts (large numbers are normal).
-          </div>
-        </details>
-        <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: CFTC (Fridays)</span></div>
-      </div>
-
       <!-- Compute Forward -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">🖥️ Compute Forward</h3>
@@ -2169,22 +2130,6 @@
     <div class="grid">
       <!-- Left Column - Portfolio + Overton Window -->
       <div class="left-col">
-        <!-- Portfolio Section (click to view thesis) -->
-        <div class="card portfolio-card-clickable" id="portfolio-card" style="background: rgba(123, 44, 191, 0.08); border: 1px solid rgba(123, 44, 191, 0.25);" onclick="openThesisModal()">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
-            <h2 style="font-size: 1.1rem; margin: 0;">💊 Portfolio</h2>
-            <span style="font-size: 0.65rem; font-weight: 600; padding: 0.2rem 0.5rem; background: rgba(123, 44, 191, 0.2); color: #a78bfa; border-radius: 4px;">RESEARCH</span>
-          </div>
-          <div id="portfolio-container" onclick="event.stopPropagation()">
-            <!-- Filled by loadPortfolio() -->
-          </div>
-          <div style="margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.08);">
-            <span style="color: #a78bfa; font-size: 0.8rem; display: inline-flex; align-items: center; gap: 0.4rem;">
-              <span>Read thesis →</span>
-            </span>
-          </div>
-        </div>
-
         <!-- The Overton Window: emerging terms from the feed -->
         <div class="card" style="margin-top: 1rem;">
           <h2>The Overton Window</h2>
@@ -2256,7 +2201,6 @@
 
     <footer>
       <div class="credit">Jared Sheppard</div>
-      <div class="subtext">Personal research board · Not financial advice</div>
       <div class="subtext">
         <a href="archive.html" style="color: #00d4ff; text-decoration: none;">Archive</a> · 
         <a href="debait.html" id="home-debate-listen" style="color: #00d4ff; text-decoration: none;">Long &amp; Short</a> · 
@@ -2274,56 +2218,6 @@
       </div>
       <div id="chart-image-container">
         <img id="chartImage" src="" alt="Stock Chart">
-      </div>
-    </div>
-  </div>
-
-  <!-- Thesis Modal (Healthcare Abundance) -->
-  <div id="thesisModal" class="thesis-modal" onclick="if(event.target===this)closeThesisModal()">
-    <div class="thesis-container">
-      <div class="thesis-header">
-        <div>
-          <h2 class="thesis-title">Healthcare Abundance</h2>
-          <p class="thesis-subtitle">Consumerization of Precision Medicine</p>
-        </div>
-        <button class="close-btn" onclick="closeThesisModal()">✕ Close</button>
-      </div>
-      <div class="thesis-content">
-        <p>The scarce thing in medicine is moving. For a long time the hard problem was inventing a treatment that worked, then forcing it through a slow and expensive system. AI and genomics are making new therapies more common and cheaper to discover. When that happens, "another molecule" stops being the bottleneck. The hard problem becomes finding the right person, diagnosing them early, choosing the treatment that fits, delivering it conveniently, and keeping them on it. That is the interface between a human and the healthcare system. This note is about who owns that interface — not necessarily who owns the drug.</p>
-
-        <p>The consumerization of precision medicine is where 3 forces meet. First, more therapies exist, so abundance replaces scarcity at the discovery step. Second, people start managing health as a habit — testing, monitoring, refilling — instead of showing up only when they are already sick. Third, digital rails make care something you can buy like a consumer service: a relationship, a subscription, a same-day fill, a wearable that talks back. The winner does not have to manufacture the breakthrough. They may own the last mile of trust, data, and fulfillment.</p>
-
-        <p>This is the next layer after genomics and discovery investing. Discovery asks whether we will invent more. This thesis asks who captures value when therapies are plentiful and consumers actually show up. Both can win in a growing pie. They are sequential, not substitutes. If AI is going to help grow us out of fiscal pressure — including Medicare and Medicaid — the public needs a win they can feel: more cures, lower cost of care.</p>
-
-        <p><strong>Three engines decide who captures the rent.</strong></p>
-
-        <p>The first is unit economics at the patient, not the visit. The right score is revenue per patient times retention times conditions per patient. Visits are activity; that product is franchise value. A company that owns the consumer relationship can add a second and third condition without paying again to acquire the person. AI inside the clinician–patient loop makes that expansion cheaper: better intake, better routing, better adherence nudges.</p>
-
-        <p>The second engine is friction removal and transaction monetization. Someone has to make the filled prescription cheaper, clearer, and easier to complete. Price comparison, manufacturer-direct programs, coupons, and fulfillment do not diagnose — they clear the path between "the right therapy exists" and "the patient actually got it." When the menu of therapies explodes, the transaction layer gets more valuable, not less. One business owns the patient. Another owns the transaction. Different P&Ls, same flywheel.</p>
-
-        <p>The third engine is the loop: measure, understand, act, measure again. If hundreds of therapies exist, you need continuous signal — who needs which one, when, and whether it is working. Labs, wearables, and consumer diagnostics turn the body into a feed. That feed lets an interface company personalize, retain, and expand conditions per patient. Without the loop, abundance is noise. With the loop, abundance becomes a habit.</p>
-
-        <p><strong>Here is how those engines map onto five parts of the value chain.</strong></p>
-
-        <p>The consumer relationship sells ongoing care rather than a single formulation: subscription access, clinician time, an assortment of approved therapies, and a product that widens across conditions. The ideal is simple: each person stays longer, spends more over time, and brings more of their health needs into the same relationship. If that happens, this is the prototype of the whole thesis. If people come for one campaign and leave, the interface story fails here first.</p>
-
-        <p>Friction removal and the transaction sit between "a therapy exists" and "a person got it filled at a price they will accept." This business monetizes the access path, not the diagnosis. As therapy menus grow, comparison, manufacturer programs, and fulfillment become infrastructure. It wins when more people finish getting the medicine they need, at a price they will pay, through this path. It loses when the big pharmacies, middlemen, or drugmakers build that same easy path themselves and cut it out.</p>
-
-        <p>Diagnose-and-fit at scale combines tests, longitudinal clinical data, and AI so the right treatment gets matched to the right person — and gets better as volume grows. It is picks-and-shovels for finding and fitting the patient, not the consumer brand. The contribution is decision quality: fewer wrong starts, faster right starts, evidence that compounds with each new case.</p>
-
-        <p>Find-and-monitor early matters most where early detection changes outcomes. Liquid biopsy and related monitoring find, select, and then watch whether disease is returning or responding. Medicine becomes a feedback system instead of a one-time event — the clinical version of measure, understand, act, measure again.</p>
-
-        <p>Continuous consumer measurement takes a clinical sensor into everyday life — continuous glucose and adjacent metabolic feeds as a habit, not only as a disease label. Without that feed, the other pieces guess; with it, relationship, access, and diagnose-and-fit can personalize and retain.</p>
-
-        <p>Upstream discovery tools, trial infrastructure, and wholesale distribution still matter. They are durable — and they are not this expression of the idea. The bottleneck has moved to interface, access, fit, find-and-monitor, and continuous measurement.</p>
-
-        <div class="thesis-closer">
-          <p>This is how I chose to lean into the abundant health future ahead for us all. It is not a recommendation to buy, sell, or trade.</p>
-        </div>
-
-        <div class="thesis-disclaimer">
-          <p><strong>Disclaimer:</strong> This note is for informational and educational purposes only. It is not investment advice, a solicitation, or a recommendation to buy, sell, or hold any security. Investing involves risk, including the possible loss of principal. Past performance is not indicative of future results. Do your own research and, if needed, consult a qualified advisor.</p>
-        </div>
       </div>
     </div>
   </div>
@@ -2827,7 +2721,6 @@
       loadOvertonWindow();
       loadNicheSources();
       loadMarketWidgets();
-      loadPortfolio();
     });
 
     // Load curated X/niche sources (Fed plumbing, macro, biotech)
@@ -2906,7 +2799,7 @@
       return '<span class="md-stale-badge" style="color: #f59e0b; margin-left: 0.5rem; font-size: 0.62rem;" title="' + reason + '">⚠ stale</span>';
     }
 
-    // Load market plumbing widgets (Treasury, Curve, COT)
+    // Load market plumbing widgets (Treasury, Curve)
     async function loadMarketWidgets() {
       try {
         const resp = await fetch('./data/market_data.json', { cache: 'no-cache' });
@@ -3089,106 +2982,6 @@
           }
         }
 
-        // Update COT widget - leveraged funds net positioning for TY, BTC, NQ
-        // Shows current, prior week, and Δ (change) for each contract
-        // Shows "Coming soon" when data absent; never bare em dashes
-        const cotEl = document.getElementById('cot-widget');
-        if (cotEl) {
-          const cot = data.cftc_cot || {};
-          const isStale = cot._stale === true;
-          
-          // Format net position: +1.2M / -456K / "Coming soon" if null
-          function formatNet(net) {
-            if (net === null || net === undefined) return null;
-            const absNet = Math.abs(net);
-            const sign = net > 0 ? '+' : '';
-            let display;
-            if (absNet >= 1000000) {
-              display = sign + (net / 1000000).toFixed(1) + 'M';
-            } else {
-              display = sign + Math.round(net / 1000) + 'K';
-            }
-            return display;
-          }
-          
-          // Format change with color: green for positive, red for negative
-          function formatChange(change) {
-            if (change === null || change === undefined) return null;
-            const color = change > 0 ? '#10b981' : change < 0 ? '#ef4444' : '#6b7280';
-            const sign = change > 0 ? '+' : '';
-            let display;
-            const absChange = Math.abs(change);
-            if (absChange >= 1000000) {
-              display = sign + (change / 1000000).toFixed(1) + 'M';
-            } else {
-              display = sign + Math.round(change / 1000) + 'K';
-            }
-            return '<span style="color: ' + color + ';">' + display + '</span>';
-          }
-          
-          // Build contract display: current (Δ change). Null change → em dash (never fake Δ 0).
-          function buildContractDisplay(entry, label) {
-            if (!entry) return '<span style="color: #6b7280;">Coming soon</span>';
-            const net = entry.leveraged_funds_net;
-            const change = entry.change_1w;
-            if (net === null || net === undefined) {
-              return '<span style="color: #6b7280;">Coming soon</span>';
-            }
-            const color = net > 0 ? '#10b981' : net < 0 ? '#ef4444' : '#a8b2d1';
-            const netDisplay = formatNet(net);
-            const tooltip = label + ': ' + net.toLocaleString() + ' contracts net';
-            let html = '<span class="plumbing-num" style="color: ' + color + ';" title="' + tooltip + '">' + netDisplay + '</span>';
-            const changeDisplay = formatChange(change);
-            if (changeDisplay) {
-              html += ' <span style="font-size: 0.65rem;">(Δ ' + changeDisplay + ')</span>';
-            } else {
-              // Missing prior week (or same-week with no distinct prior): honest em dash
-              html += ' <span style="font-size: 0.65rem; color: #6b7280;">(Δ —)</span>';
-            }
-            return html;
-          }
-          
-          // Get contract entries from appropriate sections
-          const ty = cot.rates_positioning ? cot.rates_positioning['10y_note'] : null;
-          const btc = cot.btc_positioning ? cot.btc_positioning.cme_btc : null;
-          const nq = cot.equity_positioning ? cot.equity_positioning.cme_nq : null;
-          
-          // Build display: TY, BTC, NQ
-          let html = '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.3rem;">';
-          html += '<span style="color: #a8b2d1;"><strong>TY:</strong> ' + buildContractDisplay(ty, '10Y leveraged funds') + '</span>';
-          html += '<span style="color: #a8b2d1;"><strong>BTC:</strong> ' + buildContractDisplay(btc, 'BTC leveraged funds') + '</span>';
-          html += '<span style="color: #a8b2d1;"><strong>NQ:</strong> ' + buildContractDisplay(nq, 'NQ leveraged funds') + '</span>';
-          html += '</div>';
-          
-          // Format report date for display (e.g., "2026-08-25" → "Aug 25")
-          function formatReportDate(dateStr) {
-            if (!dateStr) return null;
-            try {
-              const d = new Date(dateStr + 'T00:00:00');
-              const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-              return months[d.getMonth()] + ' ' + d.getDate();
-            } catch (e) {
-              return null;
-            }
-          }
-          
-          // Show report date and stale indicator
-          const reportDate = formatReportDate(cot.report_date);
-          let dateHtml = '';
-          if (reportDate) {
-            dateHtml += 'As of ' + reportDate;
-          }
-          const cotAge = cot.report_date ? _mdDaysBetween(cot.report_date, _mdTodayISO()) : null;
-          if (isStale) {
-            dateHtml += '<span style="color: #f59e0b; margin-left: 0.5rem;" title="' + (cot._stale_reason || 'Data may be stale') + '">⚠️ stale</span>';
-          } else if (cotAge != null && cotAge > 10) {
-            dateHtml += _mdStaleBadge('COT report ' + cot.report_date + ' is ' + cotAge + ' days old');
-          }
-          html += '<div style="color: #6b7280; font-size: 0.65rem;">' + dateHtml + '</div>';
-          
-          cotEl.innerHTML = html;
-        }
-
         // Update Compute Forward widget (GPU rental pricing from SemiAnalysis public API)
         const computeEl = document.getElementById('compute-forward-widget');
         if (computeEl && data.compute_forward && data.compute_forward.h100) {
@@ -3294,14 +3087,14 @@
           // Forward curve row (Kalshi-implied via AI Compute Tracker), kept separate from the SemiAnalysis block
           const fc = data.compute_forward_curve;
           if (fc && fc.h100 && Array.isArray(fc.h100.card) && fc.h100.card.length) {
-            const fwdText = fc.h100.card.map(p => p.tenor + ' $' + Number(p.price).toFixed(2) + (p.quality === 'thin' ? ' <span style="color: #f59e0b;">(thin)</span>' : '')).join(' · ');
+            const fwdText = fc.h100.card.map(p => p.tenor + ' $' + Number(p.price).toFixed(2) + (p.quality === 'thin' ? ' <span style="color: #f59e0b;">(few trades so far)</span>' : '')).join(' · ');
             const anyThin = fc.h100.card.some(p => p.quality === 'thin');
             const fcAsOf = fc.as_of ? new Date(fc.as_of).toLocaleString('en-US', {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago'}) + ' CT' : '—';
             const fcStale = fc._stale ? ' <span style="color: #f59e0b;">(stale)</span>' : '';
             computeEl.innerHTML +=
               '<div style="margin-top: 0.25rem; color: #a8b2d1;"><strong>Fwd (H100):</strong> <span class="plumbing-num">' + fwdText + '</span>' + fcStale + '</div>' +
               '<div style="color: #9ca3af; font-size: 0.65rem;">Curve as-of: ' + fcAsOf + ' · indicative only</div>' +
-              (anyThin ? '<div style="color: #9ca3af; font-size: 0.65rem;"><span style="color: #f59e0b;">(thin)</span> = only a few usable market quotes sit behind that month\'s price, so treat it as a rough guide.</div>' : '');
+              (anyThin ? '<div style="color: #9ca3af; font-size: 0.65rem;"><span style="color: #f59e0b;">(few trades so far)</span> = only a few usable market quotes sit behind that month\'s price, so treat it as a rough guide.</div>' : '');
           }
 
           // Build contracts-to-watch blurb
@@ -3342,7 +3135,7 @@
           '<span style="color: #f59e0b;">Unavailable</span>';
         const hint =
           '<div style="color: #6b7280; font-size: 0.65rem; margin-top: 0.2rem;">market_data.json stale/unavailable</div>';
-        ['treasury-widget', 'curve-widget', 'cot-widget', 'compute-forward-widget'].forEach(function(id) {
+        ['treasury-widget', 'curve-widget', 'compute-forward-widget'].forEach(function(id) {
           const el = document.getElementById(id);
           if (el) el.innerHTML = unavailable + hint;
         });
@@ -3547,27 +3340,9 @@
       }
     });
 
-    // Thesis Modal (Healthcare Abundance)
-    function openThesisModal() {
-      var modal = document.getElementById('thesisModal');
-      if (modal) {
-        modal.classList.add('active');
-        document.body.style.overflow = 'hidden';
-      }
-    }
-
-    function closeThesisModal() {
-      var modal = document.getElementById('thesisModal');
-      if (modal) {
-        modal.classList.remove('active');
-        document.body.style.overflow = '';
-      }
-    }
-
-    // Close thesis modal on Escape key
+    // Close chart modal on Escape key
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') {
-        closeThesisModal();
         closeChart();
       }
     });
@@ -3966,34 +3741,7 @@
         } catch (e) { return ''; }
       }
 
-      // QQQ: symbol price change + as-of
-      if (priceData['QQQ']) {
-        const qqq = priceData['QQQ'];
-        document.getElementById('qqq-price').textContent = `$${qqq.price.toFixed(2)}`;
-        const changeEl = document.getElementById('qqq-change');
-        changeEl.textContent = `${qqq.change_pct >= 0 ? '+' : ''}${qqq.change_pct.toFixed(1)}%`;
-        changeEl.className = 'ticker-change ' + (qqq.change_pct >= 0 ? 'positive' : 'negative');
-        const qqqAsOfEl = document.getElementById('qqq-as-of');
-        if (qqqAsOfEl && qqq.updated_at) {
-          const asOf = formatAsOfTime(qqq.updated_at);
-          qqqAsOfEl.textContent = asOf ? 'as of ' + asOf : '';
-        }
-      }
 
-      // BTC: change price symbol (check both BTC and BTC-USD keys) + as-of
-      const btcKey = priceData['BTC'] ? 'BTC' : 'BTC-USD';
-      if (priceData[btcKey]) {
-        const btc = priceData[btcKey];
-        document.getElementById('btc-price').textContent = `$${btc.price.toLocaleString('en-US', {maximumFractionDigits: 0})}`;
-        const changeEl = document.getElementById('btc-change');
-        changeEl.textContent = `${btc.change_pct >= 0 ? '+' : ''}${btc.change_pct.toFixed(1)}%`;
-        changeEl.className = 'ticker-change ' + (btc.change_pct >= 0 ? 'positive' : 'negative');
-        const btcAsOfEl = document.getElementById('btc-as-of');
-        if (btcAsOfEl && btc.updated_at) {
-          const asOf = formatAsOfTime(btc.updated_at);
-          btcAsOfEl.textContent = asOf ? 'as of ' + asOf : '';
-        }
-      }
     }
 
     // Update last updated timestamp from data

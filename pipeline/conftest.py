@@ -21,9 +21,6 @@ def _isolate_pipeline_state(tmp_path, monkeypatch):
     state.mkdir()
     site_data.mkdir()
     for modname, attrs in {
-        "fetch_cot": {"STATE_DIR": state,
-                      "COT_PRIOR_NETS_FILE": state / "cot_prior_nets.json",
-                      "MARKET_DATA_FILE": site_data / "market_data.json"},
         "fetch_curve": {"MARKET_DATA_FILE": site_data / "market_data.json"},
         "fetch_treasury_calendar": {"MARKET_DATA_FILE": site_data / "market_data.json"},
     }.items():
