@@ -1,5 +1,41 @@
 [
   {
+    "id": 596,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Missing Infrastructure for AI Agents: Documents | Reducto\u2019s Adit Abraham",
+    "episode_date": "2026-10-21",
+    "summary": "The episode argues that rapid progress in AI reasoning has not solved the hardest part of knowledge-work automation: faithfully handling documents like PDFs, spreadsheets, scans, and other messy file formats. Adit Abraham says the binding constraint is not intelligence, but fidelity, determinism, traceability, and the risk of silent failures when information is missed or dropped in high-stakes workflows such as healthcare, legal, finance, and insurance.\n\nHe frames traditional OCR and IDP systems as insufficient for nested, multi-page, and multi-format documents, and says benchmark results can be misleading because they do not reflect real customer distributions. Abraham emphasizes that models can look strong on precision while still failing on recall in ways that are hard to detect in production, making evaluation harnesses and validation rules essential.\n\nReducto\u2019s pitch is a specialized document-processing foundation model plus a harness called Deep Extract that uses review and validation loops to reduce silent errors. Abraham claims the company can reach high-90s accuracy for most use cases, process billions of pages per month, and do so at about $0.01 per page, with the next step being more reliable document editing and localization workflows.\n\nThe conversation also touches on market timing and adoption. Abraham says the shift from selective parsing to economically processing massive page volumes is underway, mentions use by leading AI-native companies, and points to a near-term product push around document editing via a plugin-style interface. He repeatedly contrasts real-world document infrastructure with generic LLM progress, arguing that the former remains the harder and more commercially important problem.",
+    "key_takeaways": [
+      "Adit Abraham says the core problem is not agent reasoning, but that crucial work information is still trapped inside PDFs, spreadsheets, scans, and other documents.",
+      "Adit Abraham argues traditional OCR/IDP fails on nested, long, and multi-format documents, especially when silent misses would affect real decisions.",
+      "Adit Abraham says frontier models can show strong precision but still silently drop information, which is hard to catch without specialized evaluation harnesses.",
+      "Adit Abraham claims Reducto can reach \"high 90s\" accuracy for the vast majority of use cases and now prices the service at about $0.01 per page.",
+      "Adit Abraham says Reducto processes billions of pages every month and is aiming to scale toward tens of billions of pages.",
+      "Adit Abraham says Deep Extract uses validation rules and review loops, and he believes agents can be better than humans at structured extraction on many tests.",
+      "Adit Abraham says the next frontier is document editing and localization, and that office-suite workflows remain surprisingly hard for agents."
+    ],
+    "investment_thesis": "Document-processing infrastructure, not generic AI reasoning, is becoming the bottleneck for high-stakes agent workflows, and Reducto claims to solve it at high accuracy and penny-per-page economics.",
+    "key_tickers": null
+  },
+  {
+    "id": 595,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
+    "episode_date": "2026-10-21",
+    "summary": "The episode centers on Tenex\u2019s AI-native software delivery model, where engineers are compensated for output rather than time and the company uses story points as a major calibration tool. Alex Lieberman argues the main feared failure modes of output-based pay\u2014sandbagging estimates and shipping bad code\u2014have not been major problems because Tenex\u2019s AI strategists are accountable for customer retention and growth, so they can push back when work does not serve the client. CJ Hess adds that as models improve, engineers will spend less time coding and more time converting customer context into something the models can use.\n\nA second major theme is Tenex\u2019s internal system, \u201cMetaHarness,\u201d which puts plans, decisions, and evidence into Git so agent work is legible and durable. CJ says the point is to give the team a persistent record of why choices were made, not just what was built, so long-running tasks can be understood and resumed. The discussion frames this as especially important as AI systems take on more of the actual implementation work.\n\nThe conversation also covers enterprise AI adoption benchmarks. Alex says roughly 90% of enterprises have rolled out a general-purpose LLM like Claude or Codex, around 60% have training and enablement, coding agents in engineering are closer to 50%, and agents in production for non-engineering work are only about 5%. The gap between raw model intelligence and real enterprise deployment is presented as the core diffusion problem, with permissioning and RBAC cited as a major blocker.\n\nA final thread is the strategic debate over vertical AI products. The speakers are skeptical that standalone vertical agent products are durable if frontier models keep absorbing the underlying task, but they think value may persist in the workflow layer around the agent\u2014interfaces, integrations, data consolidation, and habits. They also say token-cost pressure has eased versus 6 to 8 months ago, and Alex claims a Claude Code subscription integration could cut costs by about 80%.",
+    "key_takeaways": [
+      "Alex Lieberman said Tenex\u2019s output-based pay model has not produced major sandbagging or bad-code problems because AI strategists are incentivized around customer retention and growth.",
+      "CJ Hess said engineers are spending less time coding and more time translating customer context into forms models can use, which changes how compensation should be measured.",
+      "CJ Hess said MetaHarness stores plans and decisions in Git alongside code so the team has a durable record of why work was done, not just the code itself.",
+      "Alex Lieberman said enterprise adoption is far behind raw model capability, with agents in production for non-engineering work at only about 5%.",
+      "Alex Lieberman said general-purpose LLM rollout is already widespread, but coding-agent adoption is still only around 50%, below the 70% to 80% many people expect.",
+      "Alex Lieberman argued that vertical AI products are fragile because enterprises want one-of-one solutions at software margins while frontier models keep absorbing core functionality.",
+      "Alex Lieberman said token-cost risk has improved and that hooking a Claude Code subscription into AMP could cut costs by about 80%."
+    ],
+    "investment_thesis": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
+    "key_tickers": null
+  },
+  {
     "id": 594,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Is The AI Trade Over? | Jack & Max on Panic in AI Credit, SpaceX Earnings, and Semis",

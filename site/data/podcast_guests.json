@@ -1,6 +1,18 @@
 [
   {
-    "id": 93973,
+    "id": 94911,
+    "name": "Adit Abraham",
+    "slug": "adit-abraham",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Document-processing infrastructure, not generic AI reasoning, is becoming the bottleneck for high-stakes agent workflows, and Reducto claims to solve it at high accuracy and penny-per-page economics.",
+    "last_episode_title": "The Missing Infrastructure for AI Agents: Documents | Reducto\u2019s Adit Abraham",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 94912,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -12,7 +24,19 @@
     "appearance_count": 1
   },
   {
-    "id": 93975,
+    "id": 94913,
+    "name": "Evan Conrad",
+    "slug": "evan-conrad",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
+    "last_episode_title": "The Programmable Data Center \u2014 Evan Conrad, SF Compute",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-20",
+    "appearance_count": 1
+  },
+  {
+    "id": 94914,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -24,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93976,
+    "id": 94915,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -36,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93977,
+    "id": 94916,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -48,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93978,
+    "id": 94917,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -60,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93979,
+    "id": 94918,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -72,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93980,
+    "id": 94919,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -84,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93982,
+    "id": 94921,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -96,7 +120,7 @@
     "appearance_count": 2
   },
   {
-    "id": 93981,
+    "id": 94920,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -108,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93983,
+    "id": 94922,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -120,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93984,
+    "id": 94923,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -132,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93985,
+    "id": 94924,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -144,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93986,
+    "id": 94925,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -156,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93987,
+    "id": 94926,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -168,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93988,
+    "id": 94927,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -180,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93989,
+    "id": 94928,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -192,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93990,
+    "id": 94929,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -204,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93991,
+    "id": 94930,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -216,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93992,
+    "id": 94931,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -228,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93993,
+    "id": 94932,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -240,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93994,
+    "id": 94933,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -252,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93995,
+    "id": 94934,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -264,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93996,
+    "id": 94935,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -276,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93997,
+    "id": 94936,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -288,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93998,
+    "id": 94937,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -300,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 93999,
+    "id": 94938,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -312,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94000,
+    "id": 94939,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -324,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94001,
+    "id": 94940,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -332,18 +356,6 @@
     "last_main_idea": "Palmer Luckey argues Anduril can disrupt defense procurement because it self-funds specialized autonomous products in a market where 80% of major defense acquisition programs went to five companies.",
     "last_episode_title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
     "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-28",
-    "appearance_count": 1
-  },
-  {
-    "id": 94002,
-    "name": "Daniel Ek",
-    "slug": "daniel-ek",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
-    "last_episode_title": "Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "appearance_count": 1
   }
