@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-22T14:22:18.501758",
+  generatedAt: "2026-10-22T14:28:06.445015",
   chartsVersion: "2026-10-22T14:07:12.878739",
   priceSnapshot: {
   "AAPL": {
@@ -8221,7 +8221,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-06-22",
-      "summary": "In this episode of 'The a16z Show', Jake Paul and Jeff Wu discuss the launch of Anti-Fund's $100 million growth fund, focusing on sectors like AI, defense, and software. They stress the importance of resilience and adaptability in entrepreneurship and investing, the significance of founder taste and people reading skills, and the need for education reform to enhance financial literacy. The conversation also covers the evolving media landscape, the role of attention in the digital age, and the potential of leveraging personal brands in business ventures.",
+      "summary": "In this episode of 'The a16z Show', Jake Paul and Geoffrey Woo discuss the launch of Anti-Fund's $100 million growth fund, focusing on sectors like AI, defense, and software. They stress the importance of resilience and adaptability in entrepreneurship and investing, the significance of founder taste and people reading skills, and the need for education reform to enhance financial literacy. The conversation also covers the evolving media landscape, the role of attention in the digital age, and the potential of leveraging personal brands in business ventures.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL"
@@ -39435,7 +39435,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-06-18T22:07:12.090745",
     "updated_at": "2026-06-19 03:07:12",
-    "episode_evidence": "Eden Ha's transition from XCI to focusing on language models and video generation underscores the pivotal role of language in generative AI. Ha emphasizes, 'A lot of the improvements came from the language side.' This highlights how language models provide context and detail, enhancing video generation quality. Iteration speed is another critical factor, as Ha points out, 'The more iteration you can do, you can trend these models in a very short period of time.' This rapid iteration is crucial for detecting errors and improving model performance. Regarding cost, Ha mentions the significant expenses in 'storing these videos and the features, it's tens of petabytes alone,' indicating the high cost of data storage and compute resources in video model training.",
+    "episode_evidence": "Ethan He's transition from XCI to focusing on language models and video generation underscores the pivotal role of language in generative AI. Ha emphasizes, 'A lot of the improvements came from the language side.' This highlights how language models provide context and detail, enhancing video generation quality. Iteration speed is another critical factor, as Ha points out, 'The more iteration you can do, you can trend these models in a very short period of time.' This rapid iteration is crucial for detecting errors and improving model performance. Regarding cost, Ha mentions the significant expenses in 'storing these videos and the features, it's tens of petabytes alone,' indicating the high cost of data storage and compute resources in video model training.",
     "falsification_tracks": [
       "If the cost of data storage and compute resources for video model training does not align with industry benchmarks, the financial sustainability of video generation companies could be in question.",
       "If language integration with video generation does not lead to noticeable improvements in output quality within the next 12 months, the strategic value of language models in video generation could be overestimated."
@@ -39893,7 +39893,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-06-22T23:39:24.726416",
     "updated_at": "2026-06-23 04:39:24",
-    "episode_evidence": "In the 'The a16z Show' episode, Jake Paul and Jeff Wu delve into the intricacies of their $100 million growth fund, Anti-Fund, with a focus on sectors like AI, defense, and software. They underscore the importance of resilience, as Paul states, 'I failed so many times to get to this point... it\u2019s resilience.' This trait is seen as a differentiator for successful founders. Wu emphasizes the 'people business' aspect, highlighting the need to 'really read people and have that EQ as well as IQ.' This points to the significance of interpersonal skills in investment decisions. They also discuss the scarcity of attention in a capital-rich world, with Wu noting, 'In a world where there's more and more capital, attention is more scarce.' This underscores the importance of capturing and maintaining audience attention in the digital age.",
+    "episode_evidence": "In the 'The a16z Show' episode, Jake Paul and Geoffrey Woo delve into the intricacies of their $100 million growth fund, Anti-Fund, with a focus on sectors like AI, defense, and software. They underscore the importance of resilience, as Paul states, 'I failed so many times to get to this point... it\u2019s resilience.' This trait is seen as a differentiator for successful founders. Wu emphasizes the 'people business' aspect, highlighting the need to 'really read people and have that EQ as well as IQ.' This points to the significance of interpersonal skills in investment decisions. They also discuss the scarcity of attention in a capital-rich world, with Wu noting, 'In a world where there's more and more capital, attention is more scarce.' This underscores the importance of capturing and maintaining audience attention in the digital age.",
     "falsification_tracks": [
       "Should the Anti-Fund's portfolio companies fail to demonstrate resilience in the face of market downturns or operational challenges, the fund's thesis on the importance of resilience would be weakened.",
       "If the fund's investments in AI, defense, and software do not yield significant returns or growth, it could indicate that the sectors are overvalued or that the fund's investment strategy is flawed.",
@@ -45274,7 +45274,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-08-07T12:05:00.303314",
     "updated_at": "2026-08-07 17:05:00",
-    "episode_evidence": "The podcast 'The a16z Show' provides a detailed exploration into the evolving landscape of cybersecurity with AI. Joel Deligarza emphasizes the growing capabilities of AI models, stating, 'Models are actively escaping their cages, going out on the internet and doing pretty nasty things.' This highlights the escalating sophistication of cyber threats as AI models are no longer just identifying vulnerabilities but are beginning to exploit them. DJ Smith points out the lowered barrier to hacking, 'The bar previously was just subject matter expertise, and now the models have the subject matter expertise.' This indicates that AI-driven threats are becoming more prevalent and harder to defend against. The discussion also underscores the weaknesses in software supply chains, as highlighted by Dylan Araps: 'And so just like human hacker would, they're going to pick these these way in, and the low hanging fruit now has become just publishing malware to public registries.' This reveals the optimization of AI models for the path of least resistance to access data, making software supply chains a critical vulnerability.",
+    "episode_evidence": "The podcast 'The a16z Show' provides a detailed exploration into the evolving landscape of cybersecurity with AI. Joel de la Garza emphasizes the growing capabilities of AI models, stating, 'Models are actively escaping their cages, going out on the internet and doing pretty nasty things.' This highlights the escalating sophistication of cyber threats as AI models are no longer just identifying vulnerabilities but are beginning to exploit them. Feross Aboukhadijeh points out the lowered barrier to hacking, 'The bar previously was just subject matter expertise, and now the models have the subject matter expertise.' This indicates that AI-driven threats are becoming more prevalent and harder to defend against. The discussion also underscores the weaknesses in software supply chains, as highlighted by Dylan Ayrey: 'And so just like human hacker would, they're going to pick these these way in, and the low hanging fruit now has become just publishing malware to public registries.' This reveals the optimization of AI models for the path of least resistance to access data, making software supply chains a critical vulnerability.",
     "falsification_tracks": [
       "If there is a significant decrease in reported AI-driven cyber attacks over the next year, it could suggest that the threat is being overstated.",
       "A lack of new vulnerabilities being discovered in major software supply chains would challenge the narrative of increasing threats.",
@@ -50790,7 +50790,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-09-20T23:53:18.108886",
     "updated_at": "2026-09-21 04:53:18",
-    "episode_evidence": "- Adam Pervene: \"We generate a ton of cash. Let's start buying our own stock.\"\n- Adam Pervene: \"If you can innovate and you have differentiated data, you can build an advantage.\"",
+    "episode_evidence": "- Adam Foroughi: \"We generate a ton of cash. Let's start buying our own stock.\"\n- Adam Foroughi: \"If you can innovate and you have differentiated data, you can build an advantage.\"",
     "falsification_tracks": [
       "A significant drop in Apple 11's mobile advertising revenue below $15 billion for the next fiscal year.",
       "Emergence of a more effective competitor that captures market share in the mobile gaming advertising space, leading to decreased Apple 11 profitability.",
@@ -56958,7 +56958,7 @@ const dashboardData = {
       "source_url": "",
       "page_title": "Jake Paul",
       "fetched_at": "2026-06-23T04:38:31.788604+00:00",
-      "cliff_notes": "Jake Paul rose to fame as a social media influencer and later expanded his career into entrepreneurship and professional boxing. He capitalized on his online presence to launch various business ventures, including partnering with Silicon Valley investor Jeff Wu to establish Anti-Fund, a $100 million growth fund aimed at backing vicious founders building the future. Paul's influence extends beyond social media, as he has become a notable figure in the tech and investment space, particularly with his recent venture into funding startups.",
+      "cliff_notes": "Jake Paul rose to fame as a social media influencer and later expanded his career into entrepreneurship and professional boxing. He capitalized on his online presence to launch various business ventures, including partnering with Silicon Valley investor Geoffrey Woo to establish Anti-Fund, a $100 million growth fund aimed at backing vicious founders building the future. Paul's influence extends beyond social media, as he has become a notable figure in the tech and investment space, particularly with his recent venture into funding startups.",
       "derived": {
         "current_role": "Co-founder, Anti-Fund"
       },
@@ -56967,7 +56967,7 @@ const dashboardData = {
         "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Jake Paul rose to fame as a social media influencer and later expanded his career into entrepreneurship and professional boxing. He capitalized on his online presence to launch various business ventures, including partnering with Silicon Valley investor Jeff Wu to establish Anti-Fund, a $100 million growth fund aimed at backing vicious founders building the future.",
+        "Jake Paul rose to fame as a social media influencer and later expanded his career into entrepreneurship and professional boxing. He capitalized on his online presence to launch various business ventures, including partnering with Silicon Valley investor Geoffrey Woo to establish Anti-Fund, a $100 million growth fund aimed at backing vicious founders building the future.",
         "Paul's influence extends beyond social media, as he has become a notable figure in the tech and investment space, particularly with his recent venture into funding startups."
       ],
       "sections": [
@@ -56985,7 +56985,7 @@ const dashboardData = {
         },
         {
           "heading": "Anti-Fund",
-          "body": "Paul co-founded Anti-Fund with Silicon Valley investor Jeff Wu, a $100 million growth fund aimed at backing ambitious founders and startups."
+          "body": "Paul co-founded Anti-Fund with Silicon Valley investor Geoffrey Woo, a $100 million growth fund aimed at backing ambitious founders and startups."
         }
       ]
     },
@@ -58715,6 +58715,33 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 509,
+    "name": "Andrew Wang",
+    "slug": "andrew-wang",
+    "bio": "Andrew Wang is the CEO of Valon and previously worked on mortgage investments at Soros. In the episode, he described building mortgage servicing infrastructure from reconciliation pain, licensing constraints, and regulation encoded into software.",
+    "known_for": "Known for rebuilding mortgage servicing infrastructure and operating Valon as a servicer before selling the software platform.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Technical, direct, and operationally detailed.",
+    "voice_style": "He explains systems problems through concrete examples, moving from regulation and data models to unit economics and AI workflows.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on numbers, regulatory steps, and causal links between legacy infrastructure and customer outcomes.",
+    "voice_profile_updated_at": "2026-10-08 03:42:05",
+    "last_seen": "2026-10-08 03:42:05",
+    "last_episode_title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.72,
+    "last_main_idea": "Angela Strange said Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market, after Valon rebuilt mortgage servicing around a modern system of record.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-07 \u2022 How Valon Rebuilt a $13 Trillion Industry From Scratch",
+    "last_proof_snippet": "Morgage is top three in terms of undistrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us. The way that we are going about it as an",
+    "supporting_takeaway": "Andrew Wang said his Soros mortgage work exposed reconciliation failures because large volumes of data, money movement, and entries did not tie, motivating Valon's infrastructure build.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 508,
     "name": "Kevin Mandia",
     "slug": "kevin-mandia",
@@ -58800,6 +58827,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$10.0M"
+  },
+  {
+    "id": 506,
+    "name": "Richard Socher",
+    "slug": "richard-socher",
+    "bio": "Richard Socher is a German-born Stanford-trained AI researcher, former Salesforce chief scientist, founder of MetaMind and You.com, and co-founder and CEO of Recursive. The episode also highlighted his book The Eureka Machine.",
+    "known_for": "Natural language processing, AI search, prompt engineering, AI venture investing, and recursive self-improvement.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Optimistic but more timeline-conservative than the hosts.",
+    "voice_style": "He defines concepts carefully, separates weak and strong forms of claims, and repeatedly grounds broad AI forecasts in specific mechanisms such as simulations, FDA timelines, compute, and wet-lab constraints.",
+    "voice_delivery_notes": "Use measured pacing with emphasis on distinctions between near-term domain-specific AI gains and stronger multi-decade ASI claims.",
+    "voice_profile_updated_at": "2026-10-04 04:45:49",
+    "last_seen": "2026-10-04 04:45:49",
+    "last_episode_title": "Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 1,
+    "mention_score_decayed": 0.66,
+    "last_main_idea": "Richard Socher claims AI can deliver a century of scientific breakthroughs in the next decade by automating hypothesis, experiment, data, and theory across the full scientific stack.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-03 \u2022 Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
+    "last_proof_snippet": "Richard, I'm curious where are we at the moment with RSI? In various weak forms, we already have RSI. We're not quite there yet, but we're very close. When do you believe we reach ASI? I think we'll take us probably several decades. On term",
+    "supporting_takeaway": "Richard Socher predicts simpler single-gene diseases could be cured in the next 12 months, while FDA-governed human studies keep more complex disease timelines at roughly half a decade to a decade.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 52,
@@ -60058,6 +60112,62 @@ const dashboardData = {
     }
   },
   {
+    "id": 472,
+    "name": "Adam Foroughi",
+    "slug": "adam-pervene",
+    "bio": "Co-founder and CEO of AppLovin, the mobile advertising and app-marketing company.",
+    "known_for": "Pioneering AI-driven marketing strategies in mobile gaming advertising.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and analytical",
+    "voice_style": "Direct and data-driven argumentation",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key metrics.",
+    "voice_profile_updated_at": "2026-09-21 04:53:03",
+    "last_seen": "2026-09-21 04:53:03",
+    "last_episode_title": "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-20",
+    "mention_score": 1,
+    "mention_score_decayed": 0.49,
+    "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
+    "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
+    "supporting_takeaway": "Apple 11 has achieved a remarkable 60% year-over-year growth in ad spend on its platform.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-20T23:53:07.717556",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Adam Foroughi",
+      "fetched_at": "2026-09-21T04:53:07.717203+00:00",
+      "cliff_notes": "Adam Foroughi has established himself as a leading figure in the intersection of artificial intelligence and advertising, particularly in the mobile gaming industry. His company, Apple 11, has garnered attention for its unique approach to marketing without relying on traditional venture capital funding. Pervene's insights into the effectiveness of AI in advertising have positioned him as a thought leader in the field, influencing how brands engage with consumers in a rapidly evolving digital landscape. His ability to operate successfully in a competitive market while maintaining a low media profile speaks to his strategic acumen and innovative mindset.",
+      "derived": {
+        "current_role": "Founder & CEO at Apple 11"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Adam Foroughi has established himself as a leading figure in the intersection of artificial intelligence and advertising, particularly in the mobile gaming industry. His company, Apple 11, has garnered attention for its unique approach to marketing without relying on traditional venture capital funding. Pervene's insights into the effectiveness of AI in advertising have positioned him as a thought leader in the field, influencing how brands engage with consumers in a rapidly evolving digital landscape.",
+        "His ability to operate successfully in a competitive market while maintaining a low media profile speaks to his strategic acumen and innovative mindset."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Advertising",
+          "body": "Adam discusses the transformative impact of artificial intelligence on advertising strategies, particularly in mobile gaming. He emphasizes how AI can optimize ad placements and enhance user engagement."
+        },
+        {
+          "heading": "Mobile Gaming Market",
+          "body": "Pervene provides insights into the mobile gaming market, highlighting its growth potential and the unique challenges it presents for advertisers. He shares his perspective on how to navigate this dynamic landscape."
+        },
+        {
+          "heading": "Funding Strategies",
+          "body": "He shares his experience of building a successful company without relying on venture capital funding, discussing alternative funding strategies and the benefits of maintaining independence."
+        }
+      ]
+    }
+  },
+  {
     "id": 471,
     "name": "Jeremy Boyet",
     "slug": "jeremy-boyet",
@@ -60892,7 +61002,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -63901,6 +64011,184 @@ const dashboardData = {
     "net_worth": "$19.8M"
   },
   {
+    "id": 389,
+    "name": "Feross Aboukhadijeh",
+    "slug": "dj-smith",
+    "bio": "Founder and CEO of Socket, the software supply-chain security company.",
+    "known_for": "His insights on the necessity of faster patching processes in response to AI advancements in cybersecurity.",
+    "net_worth_usd": 11400000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001272974/j-david-smith",
+    "net_worth_updated_at": "2026-08-07T12:04:33.157613",
+    "voice_tone": "Assertive and knowledgeable",
+    "voice_style": "Direct and persuasive",
+    "voice_delivery_notes": "Confident with a focus on the practical implications of AI in cybersecurity",
+    "voice_profile_updated_at": "2026-08-07 17:02:51",
+    "last_seen": "2026-08-07 17:02:51",
+    "last_episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.17,
+    "last_main_idea": "AI models are escalating the sophistication of cyber threats by exploiting software vulnerabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
+    "supporting_takeaway": "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-07T12:04:32.051894",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Feross Aboukhadijeh",
+      "fetched_at": "2026-08-07T17:04:32.051746+00:00",
+      "cliff_notes": "Feross Aboukhadijeh has made a name for himself as an authority in the field of cybersecurity, especially in the context of the rapid advancements in AI. His work emphasizes the need for swift responses to the evolving threats posed by AI, such as the ability of AI models to not only identify but also exploit software vulnerabilities. Smith's research and commentary have been influential in shaping the discourse around cybersecurity practices, urging for proactive measures to counter the threats posed by increasingly intelligent AI systems. His contributions are significant in the tech and finance sectors, where data security is paramount.",
+      "derived": {
+        "current_role": "Expert in Cybersecurity"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Feross Aboukhadijeh has made a name for himself as an authority in the field of cybersecurity, especially in the context of the rapid advancements in AI. His work emphasizes the need for swift responses to the evolving threats posed by AI, such as the ability of AI models to not only identify but also exploit software vulnerabilities.",
+        "Smith's research and commentary have been influential in shaping the discourse around cybersecurity practices, urging for proactive measures to counter the threats posed by increasingly intelligent AI systems. His contributions are significant in the tech and finance sectors, where data security is paramount."
+      ],
+      "sections": [
+        {
+          "heading": "Cybersecurity and AI",
+          "body": "Feross Aboukhadijeh is known for his expertise in how AI advancements impact cybersecurity, stressing the need for quicker patching processes to counteract the evolving threats."
+        },
+        {
+          "heading": "AI Exploitation of Vulnerabilities",
+          "body": "Smith has discussed the alarming trend where AI models are moving beyond mere identification of software vulnerabilities to actively exploiting them, necessitating a reevaluation of cybersecurity strategies."
+        },
+        {
+          "heading": "Supply Chain Security",
+          "body": "In the context of supply chain security, Smith has raised questions about the moral obligations of labs that develop AI, suggesting that they should contribute to funding solutions for the security issues they inadvertently create."
+        }
+      ]
+    },
+    "net_worth": "$11.4M"
+  },
+  {
+    "id": 388,
+    "name": "Dylan Ayrey",
+    "slug": "dylan-araps",
+    "bio": "Co-founder and CEO of Truffle Security, the secrets-scanning security company.",
+    "known_for": "His expertise in software supply chain security and his discussions on the weaknesses in software ecosystems.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://finance-monthly.com/2025/02/bob-dylans-net-worth-2025-legendary-songwriters-fortune-revealed",
+    "net_worth_updated_at": "2026-08-07T12:04:24.815555",
+    "voice_tone": "Concerned and analytical",
+    "voice_style": "Detailed and explanatory",
+    "voice_delivery_notes": "Paced with pauses for emphasis on critical points",
+    "voice_profile_updated_at": "2026-08-07 17:02:51",
+    "last_seen": "2026-08-07 17:02:51",
+    "last_episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.17,
+    "last_main_idea": "AI models are escalating the sophistication of cyber threats by exploiting software vulnerabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
+    "supporting_takeaway": "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-07T12:04:23.683690",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Ayrey",
+      "fetched_at": "2026-08-07T17:04:23.683537+00:00",
+      "cliff_notes": "Dylan Ayrey is a prominent figure in the field of software supply chain security. His work focuses on identifying vulnerabilities within software ecosystems and advocating for better vetting processes to mitigate risks. Araps has been vocal about the weaknesses in software supply chains, emphasizing the need for improved security measures to protect against potential threats. His contributions to the cybersecurity community have been influential, particularly in understanding the implications of software supply chain attacks and the propagation of malware through compromised packages. Araps' insights are crucial for organizations seeking to bolster their defenses against sophisticated cyber threats.",
+      "derived": {
+        "current_role": "Software Supply Chain Security Expert"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Ayrey is a prominent figure in the field of software supply chain security. His work focuses on identifying vulnerabilities within software ecosystems and advocating for better vetting processes to mitigate risks. Araps has been vocal about the weaknesses in software supply chains, emphasizing the need for improved security measures to protect against potential threats.",
+        "His contributions to the cybersecurity community have been influential, particularly in understanding the implications of software supply chain attacks and the propagation of malware through compromised packages. Araps' insights are crucial for organizations seeking to bolster their defenses against sophisticated cyber threats."
+      ],
+      "sections": [
+        {
+          "heading": "Software Supply Chain Security",
+          "body": "Dylan Ayrey is recognized for his work in identifying vulnerabilities in software supply chains and advocating for improved vetting processes to enhance security."
+        },
+        {
+          "heading": "Cybersecurity Threats",
+          "body": "Araps has discussed the evolving nature of cybersecurity threats, including the potential for AI models to exploit software vulnerabilities, and the implications for software supply chain security."
+        },
+        {
+          "heading": "Moral Obligations of Labs",
+          "body": "In discussions, Araps has questioned the moral obligations of labs that develop tools which could potentially be used to break into supply chains, suggesting that they should also fund solutions to the problems they create."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
+    "id": 387,
+    "name": "Joel de la Garza",
+    "slug": "joel-deligarza",
+    "bio": "a16z partner focused on security investing.",
+    "known_for": "His expertise in AI-driven cyber threats and the ethical considerations of AI labs in cybersecurity.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Urgent and informative",
+    "voice_style": "Factual and assertive",
+    "voice_delivery_notes": "Clear and concise with emphasis on the urgency of AI in cybersecurity",
+    "voice_profile_updated_at": "2026-08-07 17:02:51",
+    "last_seen": "2026-08-07 17:02:51",
+    "last_episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.17,
+    "last_main_idea": "AI models are escalating the sophistication of cyber threats by exploiting software vulnerabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
+    "supporting_takeaway": "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-07T12:04:14.717193",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joel de la Garza",
+      "fetched_at": "2026-08-07T17:04:14.716954+00:00",
+      "cliff_notes": "Joel de la Garza is a prominent figure in the field of cybersecurity, with a specific focus on AI-driven threats. His work revolves around understanding how AI models are not only identifying software vulnerabilities but also beginning to exploit them, which has significant implications for the security of digital infrastructure. Deligarza has been vocal about the moral obligations of labs that develop these AI models, suggesting that they should take responsibility for the security issues their creations may cause. His expertise is sought after for understanding the evolving landscape of cyber threats and the role that advanced technologies play in both creating and mitigating these risks.",
+      "derived": {
+        "current_role": "Cybersecurity Expert"
+      },
+      "infobox": {
+        "Nationality": "Unknown"
+      },
+      "lead_paragraphs": [
+        "Joel de la Garza is a prominent figure in the field of cybersecurity, with a specific focus on AI-driven threats. His work revolves around understanding how AI models are not only identifying software vulnerabilities but also beginning to exploit them, which has significant implications for the security of digital infrastructure.",
+        "Deligarza has been vocal about the moral obligations of labs that develop these AI models, suggesting that they should take responsibility for the security issues their creations may cause. His expertise is sought after for understanding the evolving landscape of cyber threats and the role that advanced technologies play in both creating and mitigating these risks."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Cybersecurity",
+          "body": "Joel de la Garza discusses the increasing capabilities of AI models in identifying and exploiting software vulnerabilities, highlighting the need for labs to consider the security implications of their work."
+        },
+        {
+          "heading": "Moral Obligation of Labs",
+          "body": "Deligarza argues that labs developing AI models have a moral obligation to address the security issues their creations may cause, especially when it comes to supply chain vulnerabilities."
+        },
+        {
+          "heading": "Cyber Threat Escalation",
+          "body": "He points out that AI models are escalating cyber threats, with incidents such as leaked API keys and backdoored packages, which can lead to widespread propagation of malicious software."
+        }
+      ]
+    }
+  },
+  {
     "id": 384,
     "name": "Simon Mow",
     "slug": "simon-mow",
@@ -65257,6 +65545,70 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.00B"
+  },
+  {
+    "id": 348,
+    "name": "Peter Ludwig",
+    "slug": "peter-ludwig",
+    "bio": "Peter Ludwig is a co-founder of Applied Intuition, a company dedicated to the global expansion and technological development of autonomous systems. He is focused on enabling intelligence on machines, with an emphasis on physical applications such as cars, trucks, tanks, and drones.",
+    "known_for": "His role in pioneering the field of physical AI and the development of autonomous systems.",
+    "net_worth_usd": 14000000.0,
+    "net_worth_source": "https://www.citimuzik.com/2024/01/ludwig-net-worth.html",
+    "net_worth_updated_at": "2026-07-21T22:02:31.887931",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-21 18:36:42",
+    "last_episode_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.12,
+    "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
+    "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
+    "supporting_takeaway": "Autonomous systems are already making an impact in various industries, including automotive and mining.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-21T13:36:52.291863",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Ludwig",
+      "fetched_at": "2026-07-21T18:36:52.291366+00:00",
+      "cliff_notes": "Peter Ludwig is recognized for his pivotal role in the advancement of autonomous systems through his co-founded company, Applied Intuition. His work focuses on embedding intelligence into machines, particularly those that operate in the physical world such as vehicles and drones. Ludwig's vision is to democratize the creation of autonomous systems, making it as accessible as developing iPhone apps. This ambition is aimed at transforming the global economy and society by making physical AI a more prevalent and comprehensible technology. His company's platform, Dana, encapsulates nearly a decade of development and is designed to facilitate the design and development of autonomous systems, making it easier for a broader audience to engage with this technology.",
+      "derived": {
+        "current_role": "Co-founder of Applied Intuition"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Peter Ludwig is recognized for his pivotal role in the advancement of autonomous systems through his co-founded company, Applied Intuition. His work focuses on embedding intelligence into machines, particularly those that operate in the physical world such as vehicles and drones. Ludwig's vision is to democratize the creation of autonomous systems, making it as accessible as developing iPhone apps.",
+        "This ambition is aimed at transforming the global economy and society by making physical AI a more prevalent and comprehensible technology. His company's platform, Dana, encapsulates nearly a decade of development and is designed to facilitate the design and development of autonomous systems, making it easier for a broader audience to engage with this technology."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Systems",
+          "body": "Peter Ludwig is deeply involved in the development and expansion of autonomous systems, aiming to make them as accessible as smartphone applications."
+        },
+        {
+          "heading": "Physical AI",
+          "body": "Ludwig's work emphasizes the importance of physical AI, which involves embedding intelligence into machines that operate in the physical world, such as vehicles and drones."
+        },
+        {
+          "heading": "Democratization of Technology",
+          "body": "His vision includes making the creation of autonomous systems as easy as making iPhone apps, thereby broadening the reach and impact of this technology."
+        },
+        {
+          "heading": "Platform Development",
+          "body": "Applied Intuition's platform, Dana, is a result of nearly a decade of development and is designed to simplify the process of designing and developing autonomous systems."
+        }
+      ]
+    },
+    "net_worth": "$14.0M"
   },
   {
     "id": 347,
@@ -67078,6 +67430,65 @@ const dashboardData = {
     "net_worth": "$809.0M"
   },
   {
+    "id": 302,
+    "name": "Geoffrey Woo",
+    "slug": "jeff-wu",
+    "bio": "Co-founder of Anti Fund with Jake Paul; Silicon Valley venture investor.",
+    "known_for": "His focus on technology investments and his role in establishing Anti-Fund's $100 million growth fund.",
+    "net_worth_usd": 800000000.0,
+    "net_worth_source": "https://www.ainutoken.net/net-worth/jihan-wu/",
+    "net_worth_updated_at": "2026-06-23T05:01:36.022791",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Factual and informative.",
+    "voice_delivery_notes": "Speaks with a calm and composed tone, with clear enunciation.",
+    "voice_profile_updated_at": "2026-06-23 04:36:21",
+    "last_seen": "2026-06-23 04:36:21",
+    "last_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-22",
+    "mention_score": 1,
+    "mention_score_decayed": 0.06,
+    "last_main_idea": "Resilience is key for entrepreneurs and investors to navigate failures and setbacks.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
+    "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
+    "supporting_takeaway": "Founder taste and people reading skills are crucial for making successful investments.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-22T23:38:41.010858",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Geoffrey Woo",
+      "fetched_at": "2026-06-23T04:38:41.010711+00:00",
+      "cliff_notes": "Geoffrey Woo has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future. His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector.",
+      "derived": {
+        "current_role": "Venture Investor at Anti-Fund"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Geoffrey Woo has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future.",
+        "His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital",
+          "body": "Geoffrey Woo is recognized for his work in venture capital, particularly in the technology sector. His focus on backing innovative founders has helped shape the future of tech."
+        },
+        {
+          "heading": "Anti-Fund",
+          "body": "As a venture investor at Anti-Fund, Wu has been instrumental in the establishment and success of the firm's $100 million growth fund, which targets visionary founders in the tech industry."
+        },
+        {
+          "heading": "Technology Investments",
+          "body": "Wu's expertise in technology investments has allowed him to identify and support startups that are pushing the boundaries of innovation, contributing to the growth of the tech sector."
+        }
+      ]
+    },
+    "net_worth": "$800.0M"
+  },
+  {
     "id": 298,
     "name": "Jim Chanos",
     "slug": "jim-chanos",
@@ -67204,6 +67615,67 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 297,
+    "name": "Ethan He",
+    "slug": "eden-ha",
+    "bio": "AI researcher at xAI working on Grok Imagine video generation models.",
+    "known_for": "His work on language models and video generation in generative AI.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://networthflo.com/barbara-eden-net-worth/",
+    "net_worth_updated_at": "2026-06-18T22:06:02.667296",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-19 03:03:42",
+    "last_episode_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.06,
+    "last_main_idea": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+    "last_proof_snippet": "Okay, we're here in a studio with Ethan He, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
+    "supporting_takeaway": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-18T22:06:01.430036",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ethan He",
+      "fetched_at": "2026-06-19T03:06:01.429692+00:00",
+      "cliff_notes": "Ethan He is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field. His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community.",
+      "derived": {
+        "current_role": "AI Expert",
+        "former_positions": "XCI",
+        "books_or_works": "Cosmos in a video; Memories presentation"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ethan He is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field.",
+        "His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community."
+      ],
+      "sections": [
+        {
+          "heading": "Language Models",
+          "body": "Ethan He emphasizes the importance of language in generative AI, focusing on the development of language models that can better understand and generate human-like text."
+        },
+        {
+          "heading": "Video Generation",
+          "body": "Ha has been involved in the development of video models, which are AI systems capable of generating videos based on input data, opening up new possibilities in entertainment, education, and other industries."
+        },
+        {
+          "heading": "AI Community",
+          "body": "Ethan He is an active member of the AI community, participating in an online group where members discuss AI papers and learn from each other. He has also presented his own work, such as Cosmos in a video and memories, to the group."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
   },
   {
     "id": 296,
