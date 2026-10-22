@@ -2258,8 +2258,54 @@
       var legend = series.map(function (s, i) {
         return '<g transform="translate(' + (L + 6 + i * 70) + ',' + (T - 10) + ')"><line x1="0" x2="14" y1="0" y2="0" stroke="' + s.color + '" stroke-width="2"/><text x="18" y="3" fill="#d1d5db" font-size="10">' + s.name + '</text></g>';
       }).join('') + '<text x="' + (L + 6 + series.length * 70) + '" y="' + (T - 7) + '" fill="#9ca3af" font-size="10">solid = daily spot · dashed = monthly forwards</text>';
-      host.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" role="img" aria-label="GPU rental prices: six months of daily spot and the forward curve, dollars per GPU-hour" style="background:#0b0f17;border-radius:4px;display:block;">' + legend + g.join('') + '</svg>';
+      var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" role="img" aria-label="GPU rental prices: six months of daily spot and the forward curve, dollars per GPU-hour" style="background:#0b0f17;border-radius:4px;display:block;">' + legend + g.join('') + '</svg>';
+      host.innerHTML = svg;
+      host.style.cursor = 'zoom-in';
+      host.setAttribute('role', 'button');
+      host.setAttribute('tabindex', '0');
+      host.setAttribute('title', 'Tap to expand');
+      host.setAttribute('aria-label', 'Open the Compute Forward chart full screen');
+      host.onclick = function () { openComputeChart(svg); };
+      host.onkeydown = function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openComputeChart(svg); } };
       if (foot) foot.textContent = 'Dashed = forward prices (few trades so far, indicative).';
+    }
+
+
+    // Full-screen overlay for the Compute Forward chart (click/tap to open; X, Esc or outside click to close).
+    function openComputeChart(svg) {
+      var ov = document.getElementById('compute-chart-overlay');
+      if (!ov) {
+        ov = document.createElement('div');
+        ov.id = 'compute-chart-overlay';
+        ov.setAttribute('role', 'dialog');
+        ov.setAttribute('aria-modal', 'true');
+        ov.setAttribute('aria-label', 'Compute Forward chart, expanded');
+        ov.style.cssText = 'position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,0.88);display:flex;align-items:center;justify-content:center;padding:max(12px,env(safe-area-inset-top)) 12px 12px;box-sizing:border-box;';
+        ov.innerHTML = '<div id="compute-chart-overlay-box" style="position:relative;flex:none;width:min(96vw,calc(88vh * 640 / 300));max-height:92vh;">' +
+          '<div id="compute-chart-overlay-svg"></div></div>' +
+          '<button type="button" id="compute-chart-close" aria-label="Close chart" style="position:fixed;top:max(10px,env(safe-area-inset-top));right:10px;z-index:1;width:44px;height:44px;border-radius:50%;border:1px solid #4b5563;background:#111827;color:#e5e7eb;font-size:22px;line-height:1;cursor:pointer;">&times;</button>';
+        document.body.appendChild(ov);
+        ov.addEventListener('click', function (e) { if (e.target === ov) closeComputeChart(); });
+        document.getElementById('compute-chart-close').addEventListener('click', closeComputeChart);
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && ov.style.display !== 'none') closeComputeChart(); });
+      }
+      document.getElementById('compute-chart-overlay-svg').innerHTML = svg;
+      // Narrow portrait phones: turn the chart sideways so it fills the screen's long side.
+      var bx = document.getElementById('compute-chart-overlay-box');
+      var portrait = window.innerHeight > window.innerWidth && window.innerWidth < 700;
+      bx.style.width = portrait ? 'min(calc(100vh - 72px), calc((100vw - 24px) * 640 / 300))' : 'min(96vw,calc(88vh * 640 / 300))';
+      bx.style.transform = portrait ? 'rotate(90deg)' : '';
+      ov.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+      document.getElementById('compute-chart-close').focus();
+    }
+    function closeComputeChart() {
+      var ov = document.getElementById('compute-chart-overlay');
+      if (!ov) return;
+      ov.style.display = 'none';
+      document.body.style.overflow = '';
+      var host = document.getElementById('compute-forward-chart');
+      if (host) host.focus();
     }
 
     // "Why these prices matter": shown only once JG's thesis page exists.
