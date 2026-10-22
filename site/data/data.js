@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-22T14:39:56.846361",
+  generatedAt: "2026-10-22T15:11:52.092355",
   chartsVersion: "2026-10-22T14:07:12.878739",
   priceSnapshot: {
   "AAPL": {
