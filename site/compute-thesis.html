@@ -95,7 +95,7 @@
 </ul>
 <p><strong>Our view:</strong> a pause doesn't cancel demand. It bunches it, so capacity held back now could land together in late 2027. <strong>Our forecast:</strong> as the facilities committed in 2025–26 come online through 2027, rental prices for the previous generation of chips could fall hard, however well AI software performs.</p>
 <p>The forward market already points that way, though there have been few trades so far. (A <em>forward</em> price is agreed today for capacity delivered later; <em>spot</em> is the price to rent right now.) Kalshi-implied forwards for August 2027 sit at $5.50 for the B200, $1.35 for the H100 and $1.16 for the A100. These forwards settle on Ornn's index. Measured against SemiAnalysis spot, they imply the H100, the workhorse of the last boom, loses about 60% of its rental value. They imply that even the B200, the chip everyone wants today, falls by about 20%.</p>
-<p><strong>Our read:</strong> the A100 has already had its fall. Its forward is flat to slightly above Ornn spot.</p><figure class="chart" id="chart-3"><figcaption><span class="cnum">Chart 3</span> The overhang in the forward curve<span class="csub">Kalshi-implied monthly forwards for B200, H100 and A100, Nov 2026–Aug 2027, $ per GPU-hour</span></figcaption><div class="chart-host" data-chart="3"><span class="mut">Loading chart…</span></div><p class="cnote">Source: AI Compute Tracker forward-curves.json (CC BY 4.0), read live from the dashboard’s market data. Indicative: few trades so far. Forwards settle on the Ornn Compute Price Index; see <a href="https://data.ornn.com/">data.ornn.com</a>.</p></figure>
+<p><strong>Our read:</strong> the A100 is the open question. Against SemiAnalysis spot its forward sits about a third lower, but against Ornn's index, which the forwards settle on, it's flat to slightly higher. The older chip may have already had most of its fall.</p><figure class="chart" id="chart-3"><figcaption><span class="cnum">Chart 3</span> The overhang in the forward curve<span class="csub">Kalshi-implied monthly forwards for B200, H100 and A100, Nov 2026–Aug 2027, against Ornn spot today, $ per GPU-hour</span></figcaption><div class="chart-host" data-chart="3"><span class="mut">Loading chart…</span></div><p class="cnote">Forwards: AI Compute Tracker forward-curves.json (CC BY 4.0), read live from the dashboard’s market data; indicative, few trades so far. Forwards settle on the Ornn Compute Price Index. Hollow rings: Ornn spot at the Oct 22 settle, for reference. Source: Ornn Compute Price Index (data.ornn.com), used with permission.</p></figure>
 
 <h2>Fog of war: two indexes, two prices, one edge</h2>
 <p>There is no official GPU rental price. There are at least three private indexes on Bloomberg screens, and the two we track most closely disagree sharply.</p>
@@ -130,7 +130,7 @@
 <li>Ornn prices the <strong>B200</strong> well above SemiAnalysis.</li>
 <li>Ornn prices the <strong>H100</strong> slightly below SemiAnalysis, and that gap is steady.</li>
 <li>Ornn prices the <strong>A100</strong> well below SemiAnalysis, and that gap is narrowing.</li>
-</ul>
+</ul><figure class="chart" id="chart-4"><figcaption><span class="cnum">Chart 4</span> Fog of war: Ornn vs. SemiAnalysis on the same chips<span class="csub">Ornn minus SemiAnalysis, % of SemiAnalysis, B200, H100 and A100, Oct 13, 21 and 22, 2026</span></figcaption><div class="chart-host" data-chart="4"><span class="mut">Loading chart…</span></div><p class="cnote">Points, not a line: three dates only. SemiAnalysis: daily spot, read live from the dashboard’s market data. Source: Ornn Compute Price Index (data.ornn.com), used with permission.</p></figure>
 <p>On SemiAnalysis alone, the B200 has risen about 67% since April 1, from $4.12 to $6.88. Its low was $3.68 on March 17.</p>
 <p><strong>Our view:</strong> this disagreement is the opportunity. With no official GPU rental price, Wall Street is working in a fog of war. Whoever models the spread well holds a proprietary early signal for tech stock valuations. That means knowing when the spread widens, on which chip, and which index moves first. We expect a widening spread to signal a scramble for new chips and a softer market for the rest, which is the shift the overhang predicts.</p>
 
@@ -211,7 +211,7 @@
   <script src="./js/research-nav.js"></script>
   <script>
   (function () {
-    var D = {"s1":{"CRWV":[["2026-09-27",89.62],["2026-10-04",82.08],["2026-10-11",61.39],["2026-10-18",61.82],["2026-10-22",55.6]],"NBIS":[["2026-09-27",242.81],["2026-10-04",221.07],["2026-10-11",165.47],["2026-10-18",171.57],["2026-10-22",159.17]],"NVDA":[["2026-09-27",233.95],["2026-10-04",229.28],["2026-10-11",214.13],["2026-10-18",221.97],["2026-10-22",212.21]]},"s2":{"CRWV":[["2025-10-19",132.55],["2025-10-26",133.71],["2025-11-02",104.01],["2025-11-09",77.36],["2025-11-16",71.65],["2025-11-23",73.12],["2025-11-30",88.3],["2025-12-07",78.59],["2025-12-14",83.0],["2025-12-21",76.42],["2025-12-28",79.32],["2026-01-04",80.14],["2026-01-11",101.23],["2026-01-18",92.98],["2026-01-25",93.19],["2026-02-01",89.95],["2026-02-08",96.04],["2026-02-15",89.25],["2026-02-22",79.56],["2026-03-01",72.99],["2026-03-08",81.11],["2026-03-15",81.47],["2026-03-22",74.81],["2026-03-29",82.24],["2026-04-05",102.0],["2026-04-12",116.85],["2026-04-19",110.14],["2026-04-26",119.01]],"NBIS":[["2025-10-19",117.26],["2025-10-26",130.82],["2025-11-02",111.28],["2025-11-09",83.54],["2025-11-16",83.26],["2025-11-23",94.87],["2025-11-30",98.04],["2025-12-07",87.69],["2025-12-14",89.46],["2025-12-21",87.59],["2025-12-28",89.95],["2026-01-04",97.93],["2026-01-11",108.73],["2026-01-18",94.5],["2026-01-25",85.19],["2026-02-01",86.1],["2026-02-08",98.01],["2026-02-15",97.92],["2026-02-22",91.19],["2026-03-01",89.33],["2026-03-08",112.95],["2026-03-15",117.62],["2026-03-22",100.82],["2026-03-29",108.82],["2026-04-05",144.97],["2026-04-12",157.14],["2026-04-19",147.16],["2026-04-26",154.49]],"NVDA":[["2025-10-19",186.26],["2025-10-26",202.49],["2025-11-02",188.15],["2025-11-09",190.17],["2025-11-16",178.88],["2025-11-23",177.0],["2025-11-30",182.41],["2025-12-07",175.02],["2025-12-14",180.99],["2025-12-21",190.53],["2025-12-28",188.85],["2026-01-04",184.86],["2026-01-11",186.23],["2026-01-18",187.67],["2026-01-25",191.13],["2026-02-01",185.41],["2026-02-08",182.81],["2026-02-15",189.82],["2026-02-22",177.19],["2026-03-01",177.82],["2026-03-08",180.25],["2026-03-15",172.7],["2026-03-22",167.52],["2026-03-29",177.39],["2026-04-05",188.63],["2026-04-12",201.68],["2026-04-19",208.27],["2026-04-26",198.45]]},"h100c":[["2025-10-15",1.45,1.95],["2025-11-15",1.45,2],["2025-12-15",1.45,2],["2026-01-15",1.59,2.08],["2026-02-15",1.8,2.35],["2026-03-15",2,2.7]]};
+    var D = {"ornn":{"2026-10-13":{"h100":3.17,"b200":7.83,"a100":0.96},"2026-10-21":{"h100":3.09,"b200":9.4,"a100":1.07},"2026-10-22":{"h100":3.15,"b200":9.32,"a100":1.09}},"s1":{"CRWV":[["2026-09-27",89.62],["2026-10-04",82.08],["2026-10-11",61.39],["2026-10-18",61.82],["2026-10-22",55.6]],"NBIS":[["2026-09-27",242.81],["2026-10-04",221.07],["2026-10-11",165.47],["2026-10-18",171.57],["2026-10-22",159.17]],"NVDA":[["2026-09-27",233.95],["2026-10-04",229.28],["2026-10-11",214.13],["2026-10-18",221.97],["2026-10-22",212.21]]},"s2":{"CRWV":[["2025-10-19",132.55],["2025-10-26",133.71],["2025-11-02",104.01],["2025-11-09",77.36],["2025-11-16",71.65],["2025-11-23",73.12],["2025-11-30",88.3],["2025-12-07",78.59],["2025-12-14",83.0],["2025-12-21",76.42],["2025-12-28",79.32],["2026-01-04",80.14],["2026-01-11",101.23],["2026-01-18",92.98],["2026-01-25",93.19],["2026-02-01",89.95],["2026-02-08",96.04],["2026-02-15",89.25],["2026-02-22",79.56],["2026-03-01",72.99],["2026-03-08",81.11],["2026-03-15",81.47],["2026-03-22",74.81],["2026-03-29",82.24],["2026-04-05",102.0],["2026-04-12",116.85],["2026-04-19",110.14],["2026-04-26",119.01]],"NBIS":[["2025-10-19",117.26],["2025-10-26",130.82],["2025-11-02",111.28],["2025-11-09",83.54],["2025-11-16",83.26],["2025-11-23",94.87],["2025-11-30",98.04],["2025-12-07",87.69],["2025-12-14",89.46],["2025-12-21",87.59],["2025-12-28",89.95],["2026-01-04",97.93],["2026-01-11",108.73],["2026-01-18",94.5],["2026-01-25",85.19],["2026-02-01",86.1],["2026-02-08",98.01],["2026-02-15",97.92],["2026-02-22",91.19],["2026-03-01",89.33],["2026-03-08",112.95],["2026-03-15",117.62],["2026-03-22",100.82],["2026-03-29",108.82],["2026-04-05",144.97],["2026-04-12",157.14],["2026-04-19",147.16],["2026-04-26",154.49]],"NVDA":[["2025-10-19",186.26],["2025-10-26",202.49],["2025-11-02",188.15],["2025-11-09",190.17],["2025-11-16",178.88],["2025-11-23",177.0],["2025-11-30",182.41],["2025-12-07",175.02],["2025-12-14",180.99],["2025-12-21",190.53],["2025-12-28",188.85],["2026-01-04",184.86],["2026-01-11",186.23],["2026-01-18",187.67],["2026-01-25",191.13],["2026-02-01",185.41],["2026-02-08",182.81],["2026-02-15",189.82],["2026-02-22",177.19],["2026-03-01",177.82],["2026-03-08",180.25],["2026-03-15",172.7],["2026-03-22",167.52],["2026-03-29",177.39],["2026-04-05",188.63],["2026-04-12",201.68],["2026-04-19",208.27],["2026-04-26",198.45]]},"h100c":[["2025-10-15",1.45,1.95],["2025-11-15",1.45,2],["2025-12-15",1.45,2],["2026-01-15",1.59,2.08],["2026-02-15",1.8,2.35],["2026-03-15",2,2.7]]};
     var C = {B200:'#ff9a5c', H100:'#00d4ff', A100:'#8b9dff', CRWV:'#f472b6', NBIS:'#34d399', NVDA:'#facc15'};
     var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     function t(s) { var p = s.split('-'); return Date.UTC(+p[0], +p[1] - 1, +(p[2] || 15)); }
@@ -252,6 +252,7 @@
         }
         if (s.pts.length > 1 && !s.noline) g += '<polyline fill="none" stroke="' + s.color + '" stroke-width="2.2" stroke-linejoin="round"' + (s.dash ? ' stroke-dasharray="5 4"' : '') + ' points="' + s.pts.map(function (p) { return X(p[0]).toFixed(1) + ',' + Y(p[1]).toFixed(1); }).join(' ') + '"/>';
         if (s.dots) s.pts.forEach(function (p) { g += '<circle cx="' + X(p[0]) + '" cy="' + Y(p[1]) + '" r="' + (s.r || 3) + '" fill="' + s.color + '"/>'; });
+        if (s.rings) s.pts.forEach(function (p) { g += '<circle cx="' + X(p[0]) + '" cy="' + Y(p[1]) + '" r="5" fill="none" stroke="' + s.color + '" stroke-width="2"/>'; });
         if (s.marks) s.marks.forEach(function (m) {
           g += '<circle cx="' + X(m[0]) + '" cy="' + Y(m[1]) + '" r="5" fill="' + m[3] + '" stroke="#05070d" stroke-width="1.5"/>' +
                '<text x="' + (X(m[0]) + (m[4] || 8)) + '" y="' + (Y(m[1]) + (m[5] || 4)) + '" fill="' + m[3] + '" font-size="11"' + (m[4] < 0 ? ' text-anchor="end"' : '') + '>' + esc(m[2]) + '</text>';
@@ -332,12 +333,31 @@
                                  lab: function (v) { return '$' + v.toFixed(2) + ' (Aug \'27)'; }});
         });
         if (!s3.length) throw 0;
-        var a3 = t('2026-11-01'), z3 = t('2027-08-25');
+        var o22 = D.ornn['2026-10-22'];
+        [['b200', 'B200'], ['h100', 'H100'], ['a100', 'A100']].forEach(function (c) {
+          if (o22 && o22[c[0]] != null) s3.push({name: 'Ornn ' + c[1], color: C[c[1]], pts: [[t('2026-10-12'), o22[c[0]]]], rings: true, noline: true, label: false, legend: false});
+        });
+        var a3 = t('2026-10-05'), z3 = t('2027-08-25');
         draw(3, {series: s3, y0: 0, x0: a3, x1: z3, r: 128, yfmt: function (v) { return '$' + v; }, step: 2,
-                 xticks: monthTicks(a3 - 864e5 * 5, z3, 1).map(function (k) { return [k[0] + 14 * 864e5, k[1]]; }),
+                 xticks: [[t('2026-10-12'), 'Ornn spot']].concat(monthTicks(t('2026-10-27'), z3, 1).map(function (k) { return [k[0] + 14 * 864e5, k[1]]; }).filter(function (k, i) { return i % 2 === 0; })),
                  aria: 'Kalshi-implied monthly forward prices for B200, H100 and A100, November 2026 to August 2027'});
       } catch (e) { fail(3, 'Chart unavailable: no forward curve in market_data.json.'); }
-    }).catch(function () { fail(1, 'Chart unavailable: market_data.json could not be loaded.'); fail(3, 'Chart unavailable: market_data.json could not be loaded.'); });
+      try {
+        var s4 = [], days = Object.keys(D.ornn).sort();
+        [['b200', 'B200'], ['h100', 'H100'], ['a100', 'A100']].forEach(function (c) {
+          var pts = [];
+          days.forEach(function (d) {
+            var i = h.dates.indexOf(d), sa = i >= 0 ? h[c[0]][i] : null, o = D.ornn[d][c[0]];
+            if (sa != null && o != null) pts.push([t(d), (o / sa - 1) * 100]);
+          });
+          if (pts.length) s4.push({name: c[1], color: C[c[1]], pts: pts, noline: true, dots: true, r: 5, lab: function (v) { return (v >= 0 ? '+' : '−') + Math.abs(Math.round(v)) + '%'; }});
+        });
+        if (!s4.length) throw 0;
+        draw(4, {series: s4, ref: 0, x0: t('2026-10-12'), x1: t('2026-10-23'), r: 70, step: 20, yfmt: function (v) { return (v > 0 ? '+' : '') + v + '%'; },
+                 xticks: [[t('2026-10-13'), 'Oct 13'], [t('2026-10-21'), 'Oct 21'], [t('2026-10-22'), 'Oct 22']],
+                 aria: 'Ornn minus SemiAnalysis in percent for B200, H100 and A100 on October 13, 21 and 22, 2026'});
+      } catch (e) { fail(4, 'Chart unavailable: missing SemiAnalysis spot for the Ornn dates.'); }
+    }).catch(function () { fail(1, 'Chart unavailable: market_data.json could not be loaded.'); fail(4, 'Chart unavailable: market_data.json could not be loaded.'); fail(3, 'Chart unavailable: market_data.json could not be loaded.'); });
   })();
   </script>
 </body>

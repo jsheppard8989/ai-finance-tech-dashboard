@@ -84,4 +84,7 @@ def test_compute_thesis_page():
     assert "ornn.json" not in s and "index_value" not in s
     for n in (1, 2, 3, 5):
         assert 'data-chart="%d"' % n in s
-    assert 'data-chart="4"' not in s
+    assert 'data-chart="4"' in s
+    label = "Source: Ornn Compute Price Index (data.ornn.com), used with permission"
+    assert s.count(label) == 2  # charts 3 and 4
+    assert "data.ornn.com/api" not in s  # Ornn values embedded from saved files, never fetched
