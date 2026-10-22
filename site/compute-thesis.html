@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Price of Thinking: Why GPU Rental Rates Are the Signal to Watch in the AI Era</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root{--bg:#05070d;--panel:#0c111b;--ink:#e8edf3;--mut:#9aa7b6;--line:#1d2635;--acc:#5cc8ff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    a{color:var(--acc);overflow-wrap:anywhere}
+    .site-nav{display:flex;flex-wrap:wrap;gap:1rem 1.25rem;justify-content:center;align-items:center;padding:0.65rem 1rem;background:rgba(0,0,0,0.28);border-bottom:1px solid var(--line)}
+    .site-nav a{color:#00d4ff;text-decoration:none;font-size:0.95rem;font-weight:500}
+    .site-nav a:hover{text-decoration:underline}
+    .hero{padding:56px 5vw 28px;border-bottom:1px solid var(--line);background:radial-gradient(1200px 400px at 20% 0%,#0f2238 0%,var(--bg) 70%)}
+    .kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--acc);margin:0 0 8px}
+    h1{font-size:clamp(28px,4.4vw,48px);line-height:1.15;margin:0 0 12px;max-width:900px}
+    .sub{color:var(--mut);margin:0;max-width:760px}
+    .wrap{max-width:760px;margin:0 auto;padding:36px 20px 24px}
+    .wrap p{margin:0 0 1.15em}
+    .wrap h2{font-size:1.35rem;line-height:1.3;margin:2.2em 0 .7em;padding-top:1.2em;border-top:1px solid var(--line)}
+    .wrap h2:first-child{margin-top:0;padding-top:0;border-top:0}
+    .wrap ul{padding-left:1.2em;margin:0 0 1.15em}.wrap li{margin:0 0 .5em}
+    .wrap strong{color:#fff}
+    .tbl{overflow-x:auto;margin:0 0 1.3em}
+    table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.5;min-width:520px}
+    th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+    thead th{background:var(--panel);color:var(--acc)}
+    td:first-child{color:#fff;white-space:nowrap}
+    figure.chart{margin:1.6em 0 1.8em;padding:14px 14px 10px;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+    figcaption{font-weight:600;line-height:1.35;margin-bottom:8px}
+    .cnum{display:inline-block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin-right:6px}
+    .csub{display:block;font-weight:400;font-size:13px;color:var(--mut);margin-top:2px}
+    .chart-host svg{display:block;width:100%;height:auto}
+    .cnote{font-size:12.5px;line-height:1.5;color:var(--mut);margin:8px 0 0 !important}
+    .mut{color:var(--mut);font-size:13px}
+    .sources li{font-size:14px}
+    footer{max-width:760px;margin:0 auto;padding:20px 20px 48px;border-top:1px solid var(--line);color:var(--mut);font-size:13px}
+  </style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Site sections">
+    <a href="index.html">Home</a>
+    <a href="debait.html">Long &amp; Short</a>
+    <div class="nav-research" data-research-menu><noscript><a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a> · <a href="healthcare.html">Healthcare Abundance</a></noscript></div>
+    <a href="archive.html">Archive</a>
+  </nav>
+  <header class="hero">
+    <p class="kicker">AI Compute · Research · Oct 22, 2026</p>
+    <h1>The Price of Thinking</h1>
+    <p class="sub">Why GPU rental rates are the signal to watch in the AI era. Jared Sheppard, AI and Finance.</p>
+  </header>
+  <main class="wrap">
+    <article>
+
+<h2>The short version</h2>
+<p>Every era has one price that shows where things are heading. The industrial age had oil. Global trade had the cost of hiring a cargo ship. <strong>Our view: for the AI era, that price is the hourly rent on a top-end AI chip (a GPU, or graphics processing unit).</strong></p>
+<p>GPU rental prices are quoted on Bloomberg and move by the hour. Today they show the newest chips are scarce and the oldest are already getting cheaper. The forward market says the previous generation is next.</p>
+<p>We expect a wave of new data centers. So the big question for AI investment over the next two years isn't whether AI software will succeed. It's what happens to the price of compute if the capacity ordered during the shortage switches on in a rush.</p>
+<p>We call that risk <strong>the Data Center Overhang</strong>. We call the reason it's easy to miss <strong>the Supply Lag Paradox</strong>. Our framework for who wins is <strong>Compute Velocity</strong>. All three are our own terms.</p>
+
+<h2>AI spending is now big enough to move the whole economy</h2>
+<p>This is no longer just a tech story.</p>
+<ul>
+<li><strong>The St. Louis Fed</strong> estimates that AI-related investment added 0.97 percentage points to US GDP growth in the first three quarters of 2025. At the 2000 dot-com peak, comparable investment added 0.81 points.</li>
+<li><strong>Fed economists</strong>, working from project-level data, project data-center investment at about $370 billion a year by mid-2026. For 2027 their range runs from $360 billion to $930 billion. Even the people who measure the economy can't pin down next year's spending.</li>
+<li><strong>Meta reported</strong> $34.91 billion of capital spending for the third quarter, including finance-lease payments, in its October 21 earnings release. It narrowed its 2026 range to $135–145 billion, from $130–145 billion. It gave no 2027 figure and said it expects "to continue investing aggressively."</li>
+</ul>
+<p>The official dashboard still has no reading for the price of what is being built. The producer price index tracks generic cloud servers. A July 2026 Fed staff note tracks chip cost per unit of computing power, memory export prices and capital spending, but no GPU rental rates. The Bureau of Economic Analysis says: "there is not a line item in the U.S. national accounts that can be used to identify and measure the economic impact of artificial intelligence."</p>
+<p><strong>Our view:</strong> that missing number is the gauge to watch. Spending figures arrive every quarter and look backward. Rental prices move every hour and look forward.</p>
+
+<h2>The lesson from the sea: 2007, the shipyards and the crash</h2>
+<p>The Baltic Dry Index (BDI) is a daily price for hiring ships that carry iron ore, coal and grain. Research by Bakshi, Panayotov and Skoulakis found that growth in the index helped predict stock returns and industrial production.</p>
+<p>Then 2008 came.</p>
+<ul>
+<li><strong>The boom.</strong> Freight rates soared, and owners raced to order ships. By November 2008, UNCTAD reported a dry-bulk order book equal to 44% of the existing fleet. By then the index had fallen from 11,793 in May 2008 to 891. Using its own data, the St. Louis Fed put the peak at 11,440 in June 2008 and a later low at 715.</li>
+<li><strong>The orders stopped, but the ships kept coming.</strong> By March 2009, new orders were 96% below their July 2007 peak, yet 10,341 ships were still on order. Shipbuilders were "reluctant to cancel or postpone deliveries."</li>
+<li><strong>The glut.</strong> In 2011 the world fleet grew almost 10% while seaborne trade grew 4%, "as shipowners took delivery of vessels that had been ordered before the economic crisis began." The index hit "its bottom value of 647 points" in February 2012, more than three years after the peak.</li>
+</ul>
+<p>By then the index had stopped describing trade and started describing a glut.</p><figure class="chart" id="chart-5"><figcaption><span class="cnum">Chart 5</span> The shipping precedent: orders stopped, ships kept coming<span class="csub">Baltic Dry Index readings by source, Jul 2007–Feb 2012</span></figcaption><div class="chart-host" data-chart="5"><span class="mut">Loading chart…</span></div><p class="cnote">Sources differ, so each reading is its own marker: UNCTAD press release (Nov 2008); St. Louis Fed, Sengupta &amp; Tam (Mar 2009); UNCTAD Review of Maritime Transport 2009 and 2012. The St. Louis Fed note (Mar 2009) gives no date for its low, so that marker sits at the turn of 2008–09.</p></figure>
+<p>Oil teaches the same lesson. James Hamilton showed in 1983 that oil price spikes came before nearly every postwar US recession. Lutz Kilian later showed that a price move means very different things depending on whether demand or supply is driving it. Always ask why a price moved.</p>
+
+<h2>The Supply Lag Paradox</h2>
+<p><strong>The Supply Lag Paradox</strong> <em>(our term)</em>: when new supply takes years to build, prices peak at the very moment the next glut is being ordered. So a later collapse in rental rates may not mean demand has failed. It may mean years of ordered capacity have arrived at once.</p>
+<p>Data centers fit the pattern. They need land, grid connections, power, cooling and chips, and they take years to finish. Our view is that much of the capacity coming online in 2027 was committed during the 2025–26 shortage.</p>
+<p>The shortage was real. SemiAnalysis's one-year H100 contract prices (the middle half of quotes) rose from $1.45–$1.95 per GPU-hour in October 2025 to $2.00–$2.70 in March 2026. In most months since February, on-demand H100 capacity has been listed as sold out. <strong>Our view:</strong> that is exactly the kind of price signal that sets off a building wave.</p>
+
+<h2>The Data Center Overhang</h2>
+<p><strong>The Data Center Overhang</strong> <em>(our term)</em>: the data-center capacity ordered during the shortage that hasn't switched on yet, and the pressure it will put on rental prices when it does.</p>
+<p>Shipyards over-ordered in 2007. Tech giants are building now, and the power grid shows the queue:</p>
+<ul>
+<li><strong>Texas.</strong> ERCOT's first batch study covers 362 large-load projects, 204 of them (66.4 GW) counted as base load. ERCOT has paused energizing new large data centers until it files a verification report by December 10, 2026. The study was originally due April 9, 2027, and that date is now uncertain.</li>
+<li><strong>The counterpoint.</strong> PJM, the largest US grid operator, cut its 2027 summer peak forecast by 2.3% from its 2025 forecast, to 160,451 MW. If the wave turns out smaller or slower than the queues suggest, the overhang shrinks with it.</li>
+</ul>
+<p><strong>Our view:</strong> a pause doesn't cancel demand. It bunches it, so capacity held back now could land together in late 2027. <strong>Our forecast:</strong> as the facilities committed in 2025–26 come online through 2027, rental prices for the previous generation of chips could fall hard, however well AI software performs.</p>
+<p>The forward market already points that way, though there have been few trades so far. (A <em>forward</em> price is agreed today for capacity delivered later; <em>spot</em> is the price to rent right now.) Kalshi-implied forwards for August 2027 sit at $5.50 for the B200, $1.35 for the H100 and $1.16 for the A100. These forwards settle on Ornn's index. Measured against Ornn's published spot, they imply the H100, the workhorse of the last boom, loses more than half its rental value. They imply that even the B200, the chip everyone wants today, falls by about two-fifths.</p>
+<p><strong>Our read:</strong> the A100 has already had its fall. Its forward is flat to slightly above Ornn spot.</p><figure class="chart" id="chart-3"><figcaption><span class="cnum">Chart 3</span> The overhang in the forward curve<span class="csub">Kalshi-implied monthly forwards for B200, H100 and A100, Nov 2026–Aug 2027, $ per GPU-hour</span></figcaption><div class="chart-host" data-chart="3"><span class="mut">Loading chart…</span></div><p class="cnote">Source: AI Compute Tracker forward-curves.json (CC BY 4.0), read live from the dashboard’s market data. Indicative: few trades so far. Forwards settle on the Ornn Compute Price Index; see <a href="https://data.ornn.com/">data.ornn.com</a>.</p></figure>
+
+<h2>Fog of war: two indexes, two prices, one edge</h2>
+<p>There is no official GPU rental price. There are at least three private indexes on Bloomberg screens, and the two we track most closely disagree sharply.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th></th>
+<th>Ornn (Bloomberg ORNNH100, ORNNB200)</th>
+<th>SemiAnalysis (Bloomberg SAH100SC)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Method</strong></td>
+<td>Volume-weighted average of executed rentals over a rolling hour</td>
+<td>Weighted blend of prices from big clouds, specialist GPU clouds, marketplaces and resellers, with big clouds weighted most</td>
+</tr>
+<tr>
+<td><strong>Market signal</strong></td>
+<td>Reacts to immediate supply and demand shocks</td>
+<td>Reflects steadier enterprise pricing</td>
+</tr>
+<tr>
+<td><strong>The catch</strong></td>
+<td>Its affiliates trade physical GPU capacity, which Ornn itself calls "a structural conflict"</td>
+<td>Our view: it may be slow to show sudden spot crashes</td>
+</tr>
+</tbody>
+</table></div>
+<p>Comparing the two on the same days (October 13, 21 and 22):</p>
+<ul>
+<li>Ornn prices the <strong>B200</strong> well above SemiAnalysis, and that premium roughly doubled over nine days.</li>
+<li>Ornn prices the <strong>H100</strong> slightly below SemiAnalysis, and that gap is steady.</li>
+<li>Ornn prices the <strong>A100</strong> well below SemiAnalysis, and that gap is narrowing.</li>
+</ul>
+<p>On SemiAnalysis alone, the B200 has risen about 67% since April 1, from $4.12 to $6.88. Its low was $3.68 on March 17.</p>
+<p><strong>Our view:</strong> this disagreement is the opportunity. With no official GPU rental price, Wall Street is working in a fog of war. Whoever models the spread well holds a proprietary early signal for tech stock valuations. That means knowing when the spread widens, on which chip, and which index moves first. We expect a widening spread to signal a scramble for new chips and a softer market for the rest, which is the shift the overhang predicts.</p>
+
+<h2>The market is already arguing about this</h2>
+<p>From September 21 to October 22, SemiAnalysis B200 rental prices rose 22%. Over roughly the same weeks, CoreWeave fell 38%, Nebius 35% and Nvidia 9% (see chart 1).</p>
+<p><strong>Our hypothesis:</strong> the stocks are pricing next year's capacity wave, not this week's scarcity. The forward curve shows lower rents ahead. Our read is that new capacity is the reason, and that would shrink the rental income behind today's specialist GPU clouds. Nvidia fell least, which fits the same story: it sells the chips whether rents hold or not.</p><figure class="chart" id="chart-1"><figcaption><span class="cnum">Chart 1</span> Rents up, stocks down<span class="csub">B200 rental price vs. CoreWeave, Nebius and Nvidia, indexed to 100, Sep–Oct 2026</span></figcaption><div class="chart-host" data-chart="1"><span class="mut">Loading chart…</span></div><p class="cnote">B200: SemiAnalysis daily spot, indexed to 100 on Sep 21, read live from the dashboard’s market data. Stocks: Yahoo Finance weekly closes, indexed to 100 at the week of Sep 27; last point is the Oct 22 close.</p></figure>
+<p>Something similar happened once before (see chart 2). From October 2025 to March 2026, H100 contract prices climbed while the three stocks slid. From late March to mid-April, the stocks rallied hard. In that one episode, prices moved first and stocks second, and our hypothesis says the pattern will repeat. The October split is the live test: if the stocks are right, rents will turn down to meet them.</p><figure class="chart" id="chart-2"><figcaption><span class="cnum">Chart 2</span> Prices first, stocks second <em>(one episode)</em><span class="csub">H100 one-year contract price vs. CRWV, NBIS and NVDA, indexed to 100, Oct 2025–Apr 2026</span></figcaption><div class="chart-host" data-chart="2"><span class="mut">Loading chart…</span></div><p class="cnote">H100: SemiAnalysis one-year contract survey, midpoint of the middle-half range (shaded band), monthly, indexed to 100 at Oct 2025; no reading for Apr 2026. Stocks: Yahoo Finance weekly closes, indexed to 100 at the week of Oct 19, 2025. One episode.</p></figure>
+
+<h2>Compute Velocity: our framework for who wins</h2>
+<p><strong>Compute Velocity</strong> <em>(our framework)</em>: how fast a company can rent compute, put it to productive use, and release or recycle it when it's no longer needed.</p>
+<ul>
+<li><strong>High velocity:</strong> a company that rents on short terms, runs work efficiently and can shift quickly to cheaper or older chips. It wins when prices fall.</li>
+<li><strong>Low velocity:</strong> a company locked into long contracts at peak prices, tied to one chip generation, or holding hardware it can't redeploy. It pays for every spike.</li>
+</ul>
+<p><strong>Our view:</strong> for an AI startup, a rental price spike works like an immediate tax. It raises the cost of every training run and every customer query, and it hits equity value before it shows up in earnings. When the overhang arrives, the roles reverse.</p>
+
+<h2>Who collects the toll <em>(our view)</em></h2>
+<ul>
+<li><strong>Nvidia:</strong> the main winner while new chips stay scarce. Its risk is slower orders if the overhang pushes even new-chip prices down.</li>
+<li><strong>Hyperscalers (Amazon, Microsoft, Alphabet, Meta):</strong> big and diversified enough to absorb the overhang. Their risk is capacity bought at peak prices that earns less than planned.</li>
+<li><strong>Specialist GPU clouds such as CoreWeave and Nebius:</strong> the most exposed, because they rent out chips whose forward prices point lower.</li>
+<li><strong>Power and data-center owners:</strong> grid connections and sites hold their value better than the chips inside them.</li>
+<li><strong>AI application companies:</strong> the overhang's biggest beneficiaries, if they keep their Compute Velocity high.</li>
+</ul>
+
+<h2>So what?</h2>
+<ul>
+<li><strong>Investors:</strong> track rental prices and the gap between the indexes alongside earnings. Use forwards on older chips to gauge the overhang. Judge companies by Compute Velocity, not chip count.</li>
+<li><strong>CEOs:</strong> avoid long contracts at shortage prices unless the work truly needs them. Keep the ability to move between chip generations. Price your 2027 plans against the forward curve, not today's spot rate.</li>
+<li><strong>Policymakers:</strong> build a public GPU rental price series, so the benchmark for a sector this large isn't left to private vendors with trading arms. Plan for the overhang as a supply event, not a collapse in demand.</li>
+</ul>
+
+<h2>What would prove us wrong</h2>
+<ul>
+<li>Rental prices stay high through 2027 while new capacity comes online, which would mean demand absorbed the overhang.</li>
+<li>A proper statistical test finds that stocks move before rental prices, not after.</li>
+<li>The indexes prove too easy to move, or too lightly traded, to carry a signal.</li>
+<li>No link appears between rental prices and inflation, research spending or growth. We have already found no credible link to venture funding.</li>
+</ul>
+<h2>Limits</h2>
+<ul>
+<li><strong>Short history.</strong> The H100 contract survey starts in October 2025, and daily spot data on our chart starts in April 2026.</li>
+<li><strong>Vendor indexes.</strong> Both indexes are commercial products we haven't independently verified. The forwards settle on Ornn's index, and Ornn's affiliates trade the capacity it prices.</li>
+<li><strong>One episode.</strong> The lead-lag pattern was checked by eye and isn't adjusted for chip transitions, memory costs or broad market moves. Next step: a lag test against the semiconductor index and the S&amp;P 500.</li>
+<li><strong>Few data points.</strong> We compared the two indexes on only three days, so the spread shows a level, not a trend. We have no B200 trade volume from Ornn.</li>
+<li><strong>Other explanations.</strong> Financing costs at the specialist clouds, or a broad selloff in AI stocks, could explain the October drop. We have tested neither.</li>
+<li><strong>Our frameworks.</strong> The Supply Lag Paradox, the Data Center Overhang and Compute Velocity are ours. The late-2027 timing and the size of the price fall are our forecast, not established fact.</li>
+</ul>
+
+<h2>Sources</h2>
+<ul>
+<li>Ornn Compute Price Index, methodology and data: <a href="https://data.ornn.com/methodology">https://data.ornn.com/methodology</a> · <a href="https://data.ornn.com/">https://data.ornn.com/</a></li>
+<li>SemiAnalysis GPU index and public API: <a href="https://gpu-index.semianalysis.com/">https://gpu-index.semianalysis.com/</a> · <a href="https://gpu-index.semianalysis.com/api/public-data">https://gpu-index.semianalysis.com/api/public-data</a></li>
+<li>SemiAnalysis, "The Great GPU Shortage": <a href="https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity">https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity</a></li>
+<li>AI Compute Tracker forward curves (CC BY 4.0), fetched Oct 22, 2026: <a href="https://aicomputetracker.com/forward-curves.json">https://aicomputetracker.com/forward-curves.json</a></li>
+<li>Meta Q3 2026 earnings release, Form 8-K Exhibit 99.1 (filed Oct 21, 2026): <a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm">https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm</a></li>
+<li>St. Louis Fed, Rubinton &amp; Patro (Jan 12, 2026): <a href="https://www.stlouisfed.org/on-the-economy/2026/jan/tracking-ai-contribution-gdp-growth">https://www.stlouisfed.org/on-the-economy/2026/jan/tracking-ai-contribution-gdp-growth</a></li>
+<li>Federal Reserve FEDS 2025-109, Brandsaas et al.: <a href="https://www.federalreserve.gov/econres/feds/files/2025109pap.pdf">https://www.federalreserve.gov/econres/feds/files/2025109pap.pdf</a></li>
+<li>Federal Reserve FEDS Note, Soto, Thieu &amp; Allen (Jul 17, 2026): <a href="https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html">https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html</a></li>
+<li>BLS Monthly Labor Review, Sawyer &amp; O'Bryan (Feb 2023): <a href="https://www.bls.gov/opub/mlr/2023/article/exploring-quality-adjustment-in-PPI-cloud-computing.htm">https://www.bls.gov/opub/mlr/2023/article/exploring-quality-adjustment-in-PPI-cloud-computing.htm</a></li>
+<li>BEA Working Paper 2026-3, Highfill &amp; Samuels: <a href="https://www.bea.gov/sites/default/files/papers/BEA-WP2026-3.pdf">https://www.bea.gov/sites/default/files/papers/BEA-WP2026-3.pdf</a></li>
+<li>ERCOT, Batch Zero Update (Sep 11, 2026): <a href="https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf">https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf</a></li>
+<li>PJM Inside Lines, 2026 load forecast (Jan 14, 2026): <a href="https://insidelines.pjm.com/pjms-updated-20-year-forecast-continues-to-see-significant-long-term-load-growth/">https://insidelines.pjm.com/pjms-updated-20-year-forecast-continues-to-see-significant-long-term-load-growth/</a></li>
+<li>UNCTAD (Nov 4, 2008): <a href="https://unctad.org/press-material/freight-rates-begin-fall-world-merchant-fleet">https://unctad.org/press-material/freight-rates-begin-fall-world-merchant-fleet</a></li>
+<li>UNCTAD, Review of Maritime Transport 2009: <a href="https://unctad.org/system/files/official-document/rmt2009_en.pdf">https://unctad.org/system/files/official-document/rmt2009_en.pdf</a></li>
+<li>UNCTAD, Review of Maritime Transport 2012: <a href="https://unctad.org/system/files/official-document/rmt2012_en.pdf">https://unctad.org/system/files/official-document/rmt2012_en.pdf</a></li>
+<li>St. Louis Fed, Sengupta &amp; Tam (Mar 2009): <a href="https://fraser.stlouisfed.org/docs/publications/frbslnet/frbsl_net_200903.pdf">https://fraser.stlouisfed.org/docs/publications/frbslnet/frbsl_net_200903.pdf</a></li>
+<li>Bakshi, Panayotov &amp; Skoulakis: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1747345">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1747345</a></li>
+<li>Hamilton (1983), Journal of Political Economy: <a href="https://doi.org/10.1086/261140">https://doi.org/10.1086/261140</a></li>
+<li>Kilian (2009), American Economic Review: <a href="https://www.aeaweb.org/articles?id=10.1257%2Faer.99.3.1053">https://www.aeaweb.org/articles?id=10.1257%2Faer.99.3.1053</a></li>
+<li>Share prices: <a href="https://finance.yahoo.com/quote/CRWV">https://finance.yahoo.com/quote/CRWV</a> · <a href="https://finance.yahoo.com/quote/NBIS">https://finance.yahoo.com/quote/NBIS</a> · <a href="https://finance.yahoo.com/quote/NVDA">https://finance.yahoo.com/quote/NVDA</a></li>
+</ul>
+    </article>
+  </main>
+  <footer>
+    <p><strong>Disclaimer:</strong> This note is for informational and educational purposes only. It is not investment advice, a solicitation, or a recommendation to buy, sell, or hold any security. Investing involves risk, including the possible loss of principal. Past performance is not indicative of future results. Do your own research and, if needed, consult a qualified advisor.</p>
+  </footer>
+  <script src="./js/research-nav.js"></script>
+  <script>
+  (function () {
+    var D = {"s1":{"CRWV":[["2026-09-27",89.62],["2026-10-04",82.08],["2026-10-11",61.39],["2026-10-18",61.82],["2026-10-22",55.6]],"NBIS":[["2026-09-27",242.81],["2026-10-04",221.07],["2026-10-11",165.47],["2026-10-18",171.57],["2026-10-22",159.17]],"NVDA":[["2026-09-27",233.95],["2026-10-04",229.28],["2026-10-11",214.13],["2026-10-18",221.97],["2026-10-22",212.21]]},"s2":{"CRWV":[["2025-10-19",132.55],["2025-10-26",133.71],["2025-11-02",104.01],["2025-11-09",77.36],["2025-11-16",71.65],["2025-11-23",73.12],["2025-11-30",88.3],["2025-12-07",78.59],["2025-12-14",83.0],["2025-12-21",76.42],["2025-12-28",79.32],["2026-01-04",80.14],["2026-01-11",101.23],["2026-01-18",92.98],["2026-01-25",93.19],["2026-02-01",89.95],["2026-02-08",96.04],["2026-02-15",89.25],["2026-02-22",79.56],["2026-03-01",72.99],["2026-03-08",81.11],["2026-03-15",81.47],["2026-03-22",74.81],["2026-03-29",82.24],["2026-04-05",102.0],["2026-04-12",116.85],["2026-04-19",110.14],["2026-04-26",119.01]],"NBIS":[["2025-10-19",117.26],["2025-10-26",130.82],["2025-11-02",111.28],["2025-11-09",83.54],["2025-11-16",83.26],["2025-11-23",94.87],["2025-11-30",98.04],["2025-12-07",87.69],["2025-12-14",89.46],["2025-12-21",87.59],["2025-12-28",89.95],["2026-01-04",97.93],["2026-01-11",108.73],["2026-01-18",94.5],["2026-01-25",85.19],["2026-02-01",86.1],["2026-02-08",98.01],["2026-02-15",97.92],["2026-02-22",91.19],["2026-03-01",89.33],["2026-03-08",112.95],["2026-03-15",117.62],["2026-03-22",100.82],["2026-03-29",108.82],["2026-04-05",144.97],["2026-04-12",157.14],["2026-04-19",147.16],["2026-04-26",154.49]],"NVDA":[["2025-10-19",186.26],["2025-10-26",202.49],["2025-11-02",188.15],["2025-11-09",190.17],["2025-11-16",178.88],["2025-11-23",177.0],["2025-11-30",182.41],["2025-12-07",175.02],["2025-12-14",180.99],["2025-12-21",190.53],["2025-12-28",188.85],["2026-01-04",184.86],["2026-01-11",186.23],["2026-01-18",187.67],["2026-01-25",191.13],["2026-02-01",185.41],["2026-02-08",182.81],["2026-02-15",189.82],["2026-02-22",177.19],["2026-03-01",177.82],["2026-03-08",180.25],["2026-03-15",172.7],["2026-03-22",167.52],["2026-03-29",177.39],["2026-04-05",188.63],["2026-04-12",201.68],["2026-04-19",208.27],["2026-04-26",198.45]]},"h100c":[["2025-10-15",1.45,1.95],["2025-11-15",1.45,2],["2025-12-15",1.45,2],["2026-01-15",1.59,2.08],["2026-02-15",1.8,2.35],["2026-03-15",2,2.7]]};
+    var C = {B200:'#ff9a5c', H100:'#00d4ff', A100:'#8b9dff', CRWV:'#f472b6', NBIS:'#34d399', NVDA:'#facc15'};
+    var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    function t(s) { var p = s.split('-'); return Date.UTC(+p[0], +p[1] - 1, +(p[2] || 15)); }
+    function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+    function idx(pts) { var b = pts[0][1]; return pts.map(function (p) { return [p[0], p[1] / b * 100]; }); }
+    function host(n) { return document.querySelector('[data-chart="' + n + '"]'); }
+    function fail(n, msg) { var h = host(n); if (h) h.innerHTML = '<span class="mut">' + esc(msg) + '</span>'; }
+    // Generic line chart: series [{name,color,pts:[[ms,v]],dash,dots,label,band:[[ms,lo,hi]]}]
+    function draw(n, o) {
+      var h = host(n); if (!h) return;
+      var W = 680, H = o.h || 320, L = 46, R = o.r || 112, T = 30, B = 30;
+      var x0 = Infinity, x1 = -Infinity, y0 = o.y0 != null ? o.y0 : Infinity, y1 = -Infinity;
+      o.series.forEach(function (s) {
+        s.pts.concat(s.band || []).forEach(function (p) {
+          x0 = Math.min(x0, p[0]); x1 = Math.max(x1, p[0]);
+          for (var i = 1; i < p.length; i++) { if (o.y0 == null) y0 = Math.min(y0, p[i]); y1 = Math.max(y1, p[i]); }
+        });
+      });
+      if (o.x0) x0 = o.x0; if (o.x1) x1 = o.x1;
+      var pad = (y1 - y0) * 0.08 || 1; if (o.y0 == null) y0 -= pad; y1 += pad;
+      var st = o.step || niceStep(y1 - y0); y0 = Math.floor(y0 / st) * st; y1 = Math.ceil(y1 / st) * st;
+      function X(v) { return L + (v - x0) / (x1 - x0 || 1) * (W - L - R); }
+      function Y(v) { return T + (1 - (v - y0) / (y1 - y0)) * (H - T - B); }
+      var g = '';
+      for (var v = y0; v <= y1 + 1e-9; v += st) {
+        g += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(v) + '" y2="' + Y(v) + '" stroke="#1d2635"/>' +
+             '<text x="' + (L - 6) + '" y="' + (Y(v) + 4) + '" fill="#9aa7b6" font-size="11" text-anchor="end">' + (o.yfmt ? o.yfmt(v) : Math.round(v)) + '</text>';
+      }
+      if (o.ref != null) g += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(o.ref) + '" y2="' + Y(o.ref) + '" stroke="#4b5563" stroke-dasharray="2 3"/>';
+      (o.xticks || []).forEach(function (k) {
+        g += '<text x="' + X(k[0]) + '" y="' + (H - 10) + '" fill="#9aa7b6" font-size="11" text-anchor="middle">' + esc(k[1]) + '</text>';
+      });
+      var labels = [];
+      o.series.forEach(function (s) {
+        if (s.band) {
+          var up = s.band.map(function (p) { return X(p[0]) + ',' + Y(p[2]); }), dn = s.band.slice().reverse().map(function (p) { return X(p[0]) + ',' + Y(p[1]); });
+          g += '<polygon points="' + up.concat(dn).join(' ') + '" fill="' + s.color + '" opacity="0.14"/>';
+        }
+        if (s.pts.length > 1 && !s.noline) g += '<polyline fill="none" stroke="' + s.color + '" stroke-width="2.2" stroke-linejoin="round"' + (s.dash ? ' stroke-dasharray="5 4"' : '') + ' points="' + s.pts.map(function (p) { return X(p[0]).toFixed(1) + ',' + Y(p[1]).toFixed(1); }).join(' ') + '"/>';
+        if (s.dots) s.pts.forEach(function (p) { g += '<circle cx="' + X(p[0]) + '" cy="' + Y(p[1]) + '" r="' + (s.r || 3) + '" fill="' + s.color + '"/>'; });
+        if (s.marks) s.marks.forEach(function (m) {
+          g += '<circle cx="' + X(m[0]) + '" cy="' + Y(m[1]) + '" r="5" fill="' + m[3] + '" stroke="#05070d" stroke-width="1.5"/>' +
+               '<text x="' + (X(m[0]) + (m[4] || 8)) + '" y="' + (Y(m[1]) + (m[5] || 4)) + '" fill="' + m[3] + '" font-size="11"' + (m[4] < 0 ? ' text-anchor="end"' : '') + '>' + esc(m[2]) + '</text>';
+        });
+        var last = s.pts[s.pts.length - 1];
+        if (last && s.label !== false) labels.push({y: Y(last[1]), x: X(last[0]), c: s.color, t: s.name + ' ' + (s.lab ? s.lab(last[1]) : Math.round(last[1]))});
+      });
+      labels.sort(function (a, b) { return a.y - b.y; });
+      for (var i = 1; i < labels.length; i++) if (labels[i].y - labels[i - 1].y < 14) labels[i].y = labels[i - 1].y + 14;
+      labels.forEach(function (l) { g += '<text x="' + (l.x + 7) + '" y="' + (l.y + 4) + '" fill="' + l.c + '" font-size="12" font-weight="600">' + esc(l.t) + '</text>'; });
+      (o.notes || []).forEach(function (a) { g += '<text x="' + X(a[0]) + '" y="' + (a[2] || 16) + '" fill="#cbd5e1" font-size="11"' + (a[3] ? ' text-anchor="' + a[3] + '"' : '') + '>' + esc(a[1]) + '</text>'; });
+      var leg = o.series.filter(function (s) { return s.legend !== false; }).map(function (s, i) {
+        return '<tspan fill="' + s.color + '">' + (i ? '   ' : '') + '— </tspan><tspan fill="#cbd5e1">' + esc(s.legendName || s.name) + '</tspan>';
+      }).join('');
+      if (leg) g = '<text x="' + L + '" y="14" font-size="12">' + leg + '</text>' + g;
+      h.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + esc(o.aria) + '">' + g + '</svg>';
+    }
+    function niceStep(r) { var s = Math.pow(10, Math.floor(Math.log10(r / 5))); var m = r / 5 / s; return s * (m < 1.5 ? 1 : m < 3.5 ? 2 : m < 7.5 ? 5 : 10); }
+    function stockSeries(src) {
+      return ['CRWV', 'NBIS', 'NVDA'].map(function (k) {
+        return {name: k, color: C[k], pts: idx(src[k].map(function (p) { return [t(p[0]), p[1]]; })), dots: true, r: 2.5};
+      });
+    }
+    function monthTicks(a, b, every) {
+      var out = [], d = new Date(a); d = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + 1, 1));
+      for (var i = 0; d.getTime() <= b; i++, d = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + 1, 1)))
+        if (i % (every || 1) === 0) out.push([d.getTime(), MON[d.getUTCMonth()] + ' \'' + String(d.getUTCFullYear()).slice(2)]);
+      return out;
+    }
+    var pct = function (v) { var d = Math.round(v - 100); return (d >= 0 ? '+' : '−') + Math.abs(d) + '%'; };
+
+    // Chart 2: static survey + weekly closes
+    (function () {
+      var c = D.h100c, b = (c[0][1] + c[0][2]) / 2;
+      var s = [{name: 'H100 contract', color: C.H100, pts: c.map(function (p) { return [t(p[0]), (p[1] + p[2]) / 2 / b * 100]; }),
+                band: c.map(function (p) { return [t(p[0]), p[1] / b * 100, p[2] / b * 100]; }), dots: true, r: 3.5, lab: pct}].concat(stockSeries(D.s2).map(function (x) { x.lab = pct; return x; }));
+      var a = t('2025-10-19'), z = t('2026-04-26');
+      draw(2, {series: s, ref: 100, x0: a, x1: z, xticks: monthTicks(a, z, 1), r: 128,
+               notes: [[t('2026-03-29'), 'late Mar: stocks rally', 44, 'middle']], aria: 'H100 one-year contract price and CRWV, NBIS, NVDA weekly closes, indexed to 100, October 2025 to April 2026'});
+    })();
+
+    // Chart 5: BDI markers
+    (function () {
+      var m = [[t('2008-05-20'), 11793, 'UNCTAD high 11,793 (May 2008)', '#5cc8ff', 8, 4],
+               [t('2008-06-15'), 11440, 'St. Louis Fed peak 11,440 (Jun 2008)', '#facc15', 8, 18],
+               [t('2008-11-04'), 891, '891 by Nov 2008 (UNCTAD)', '#5cc8ff', -8, -10],
+               [t('2008-12-31'), 715, 'St. Louis Fed low 715', '#facc15', 8, -10],
+               [t('2012-02-15'), 647, 'Bottom 647 (Feb 2012, UNCTAD)', '#5cc8ff', -8, -10]];
+      var a = t('2007-07-01'), z = t('2012-03-31');
+      draw(5, {series: [{name: 'BDI', color: '#5cc8ff', pts: m.map(function (x) { return [x[0], x[1]]; }), noline: true, label: false, legend: false, marks: m}],
+               y0: 0, step: 2000, x0: a, x1: z, r: 24, h: 340, yfmt: function (v) { return v.toLocaleString('en-US'); },
+               xticks: [[t('2008-01-01'), '2008'], [t('2009-01-01'), '2009'], [t('2010-01-01'), '2010'], [t('2011-01-01'), '2011'], [t('2012-01-01'), '2012']],
+               notes: [[t('2007-07-15'), 'Jul 2007: new orders peak', 16],
+                       [t('2009-03-15'), 'Mar–Apr 2009: new orders 96% below peak; 10,341 ships still on order', 120],
+                       [t('2012-03-15'), '2011: fleet grew almost 10%, trade 4%', 180, 'end'],
+                       [t('2012-03-15'), 'Sources differ; markers are not one series', 205, 'end']],
+               aria: 'Baltic Dry Index readings from UNCTAD and the St. Louis Fed, 2007 to 2012'});
+    })();
+
+    // Charts 1 and 3: live from the dashboard's market data
+    fetch('./data/market_data.json', {cache: 'no-cache'}).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (md) {
+      var h = md.compute_forward && md.compute_forward.spot_history;
+      try {
+        var b = [];
+        h.dates.forEach(function (d, i) { if (d >= '2026-09-21' && h.b200[i] != null) b.push([t(d), h.b200[i]]); });
+        if (b.length < 2) throw 0;
+        var a = t('2026-09-21'), z = b[b.length - 1][0];
+        var s = [{name: 'B200 rent', color: C.B200, pts: idx(b), lab: pct}].concat(stockSeries(D.s1).map(function (x) { x.lab = pct; return x; }));
+        draw(1, {series: s, ref: 100, x0: a, x1: z, r: 118,
+                 xticks: [[t('2026-09-21'), 'Sep 21'], [t('2026-09-28'), 'Sep 28'], [t('2026-10-05'), 'Oct 5'], [t('2026-10-12'), 'Oct 12'], [t('2026-10-19'), 'Oct 19']],
+                 aria: 'SemiAnalysis B200 spot rent and CRWV, NBIS, NVDA weekly closes, indexed to 100, September to October 2026'});
+      } catch (e) { fail(1, 'Chart unavailable: no B200 spot history in market_data.json.'); }
+      try {
+        var fc = md.compute_forward_curve, s3 = [];
+        [['b200', 'B200'], ['h100', 'H100'], ['a100', 'A100']].forEach(function (c) {
+          var p = ((fc[c[0]] || {}).points || []).filter(function (q) { return q.tenor_key >= '2026-11' && q.tenor_key <= '2027-08'; });
+          if (p.length) s3.push({name: c[1], color: C[c[1]], pts: p.map(function (q) { return [t(q.tenor_key + '-15'), q.price]; }), dash: true, dots: true,
+                                 lab: function (v) { return '$' + v.toFixed(2) + ' (Aug \'27)'; }});
+        });
+        if (!s3.length) throw 0;
+        var a3 = t('2026-11-01'), z3 = t('2027-08-25');
+        draw(3, {series: s3, y0: 0, x0: a3, x1: z3, r: 128, yfmt: function (v) { return '$' + v; }, step: 2,
+                 xticks: monthTicks(a3 - 864e5 * 5, z3, 1).map(function (k) { return [k[0] + 14 * 864e5, k[1]]; }),
+                 aria: 'Kalshi-implied monthly forward prices for B200, H100 and A100, November 2026 to August 2027'});
+      } catch (e) { fail(3, 'Chart unavailable: no forward curve in market_data.json.'); }
+    }).catch(function () { fail(1, 'Chart unavailable: market_data.json could not be loaded.'); fail(3, 'Chart unavailable: market_data.json could not be loaded.'); });
+  })();
+  </script>
+</body>
+</html>

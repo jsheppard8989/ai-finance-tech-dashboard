@@ -69,3 +69,19 @@ def test_chart_expand_overlay():
     html = (Path(__file__).resolve().parents[1] / "site" / "index.html").read_text()
     for needle in ("openComputeChart(svg)", "closeComputeChart", "'Escape'", "e.target === ov", 'id="compute-chart-close"'):
         assert needle in html
+
+
+def test_compute_thesis_page():
+    import re
+    from pathlib import Path
+    p = Path(__file__).resolve().parent.parent / "site" / "compute-thesis.html"
+    s = p.read_text(encoding="utf-8")
+    text = re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>", " ", s, flags=re.S)
+    assert s.count("<strong>Disclaimer:</strong>") == 1
+    assert text.lower().count("not investment advice") == 1
+    assert not re.search(r"\b(bet|bets|thin)\b", text, re.I)
+    assert 'data-research-menu' in s and './js/research-nav.js' in s
+    assert "ornn.json" not in s and "index_value" not in s
+    for n in (1, 2, 3, 5):
+        assert 'data-chart="%d"' % n in s
+    assert 'data-chart="4"' not in s
