@@ -1,7 +1,9 @@
 name: Market Data Refresh
 
 # Refreshes the public-source cards in site/data/market_data.json:
-#   Compute Forward (fetch_gpu_index.py) and Treasury calendar (fetch_treasury_calendar.py).
+#   Compute Forward chart: fetch_gpu_index.py (6-month daily spot history) then
+#   fetch_compute_curve.py (A100/H100/B200/H200 forwards + regenerates compute_outlook line),
+#   and Treasury calendar (fetch_treasury_calendar.py).
 #   (COT removed 2026-10-22; Curve Snapshot retired 2026-10-22 for Market Commentary.)
 # No secrets: all sources are public. Replaces the Mac launchd path for these
 # three (auto_pipeline.py skips them unless MARKET_DATA_FETCH_LOCAL=1).
@@ -75,7 +77,7 @@ jobs:
           branch="data/market-data-${ts}"
           git checkout -b "$branch"
           git add -u -- site/data/market_data.json  # site/data is gitignored; file is tracked
-          git commit -m "Market data refresh ${ts} CT (Actions: GPU, Treasury)"
+          git commit -m "Market data refresh ${ts} CT (Actions: GPU spot + forwards, Treasury)"
           git push origin "$branch"
           url=$(gh pr create --base main --head "$branch" \
             --title "Market data refresh ${ts} CT" \

@@ -21,12 +21,13 @@ from typing import Any, Dict, Optional
 
 from workspace_paths import SITE_DATA_DIR
 from market_data_io import load_market_data, save_market_data
+import compute_outlook
 
 MARKET_DATA_FILE = SITE_DATA_DIR / "market_data.json"
 API_URL = "https://aicomputetracker.com/forward-curves.json"
 SOURCE_URL = "https://aicomputetracker.com/"
 KALSHI_URL = "https://kalshi.com/markets/kxh100ms"
-CHIPS = ("h100", "b200")
+CHIPS = ("a100", "h100", "b200", "h200")  # chart shows A100/H100/B200; H200 kept for later
 # Indexes into the monthly points (Anchor dropped): front month, +2 months, +8 months.
 CARD_TENOR_INDEXES = (0, 2, 8)
 
@@ -100,6 +101,7 @@ def parse(raw: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             "two_sided_markets": prov.get("twoSidedMarketCount"),
             "liquidity_usd": round(prov.get("totalLiquidityUsd") or 0),
             "kalshi_series": prov.get("monthlySeriesTicker"),
+            "last_trade_at": prov.get("latestMarketAt"),
         }
     return out if "h100" in out else None
 
@@ -116,10 +118,14 @@ def main() -> int:
             prev["_stale"] = True
             prev["_stale_reason"] = "forward-curves.json fetch/parse failed"
             md["compute_forward_curve"] = prev
+            compute_outlook.apply(md)
             save_market_data(md, MARKET_DATA_FILE)
         print("  ✗ forward curve unavailable; previous value kept (stale)")
         return 1
     md["compute_forward_curve"] = data
+    line = compute_outlook.apply(md)
+    if line:
+        print(f"Outlook: {line}")
     ok, msg = save_market_data(md, MARKET_DATA_FILE)
     if not ok:
         print(f"  ✗ save failed: {msg}")
