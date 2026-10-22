@@ -1,5 +1,63 @@
 [
   {
+    "id": 603,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
+    "episode_date": "2026-10-22",
+    "summary": "The episode centers on a16z\u2019s announcement that its crypto mandate is expanding into a broader \u201cFrontier\u201d scope, with Chris Dixon framing the new fund as a way to back technologies and markets that may take years to mature. He argues that crypto\u2019s work on policy, regulation, and technical infrastructure has positioned the firm to invest beyond crypto into adjacent frontier areas.\n\nA major theme is that AI is widening the gap between what frontier founders believe is possible and what incumbents think is feasible. Ben Horowitz says the founder question is shifting from \u201cis this too ambitious?\u201d to \u201cis this ambitious enough?\u201d, while also arguing that AI is easier for individuals to adopt than for institutions, which should accelerate startup formation and create a new wave of AI-native companies.\n\nThe speakers repeatedly contrast old industry boundaries with the new reality of technology blending into finance, media, hardware, and enterprise workflows. Chris Dixon says stablecoins are now a normal part of the tech landscape and used by companies like Stripe, while Marc Andreessen argues that AI will reconfigure internet economics over roughly the next decade, changing attention flows and weakening business models built on traditional traffic and ad systems.\n\nThe discussion also includes a contrarian view that open-source AI is advancing quickly and may be beneficial for both competition and safety research. The speakers cite open models being ahead of closed ones by roughly 6 to 12 months and suggest open access helps broader debugging and vulnerability scanning. They also point to reverse-engineering tools and AI-driven hardware modification as potentially enabling a hardware and home-automation renaissance.",
+    "key_takeaways": [
+      "Chris Dixon said a16z is expanding its crypto mandate into a broader Frontier strategy that can invest in technologies and markets that may take years to develop.",
+      "Chris Dixon said stablecoins are now a normal part of the tech landscape and are used by companies like Stripe as part of their toolbox.",
+      "Ben Horowitz said the founder question is shifting from whether an idea is too ambitious to whether it is ambitious enough.",
+      "Ben Horowitz said AI-native startups have a completely different view of what they can do versus typical incumbents.",
+      "Ben Horowitz said AI is much easier for individuals to adopt than for institutions, which supports faster startup formation.",
+      "Marc Andreessen said open models are lapping closed models by about 6 to 12 months, depending on how you count.",
+      "Marc Andreessen said the next decade will likely bring a great reconfiguration of the internet\u2019s economics and attention flows.",
+      "Chris Dixon said AI may be pulling forward 20 years of technological capability and forcing a new assessment of what counts as an engineering problem."
+    ],
+    "investment_thesis": "AI and crypto-era frontier investing are converging into a broader opportunity set where faster startup formation, open models, and new internet economics could reshape multiple industries.",
+    "key_tickers": null
+  },
+  {
+    "id": 602,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
+    "episode_date": "2026-10-22",
+    "summary": "The episode centers on Vincent Gave\u2019s \u201cthree seas\u201d energy shock framework: Gulf, Red Sea, and Black Sea disruptions are not just crude supply issues but a broader logistics and refinery-products crisis. He argues the most important market effect is in diesel and other petroleum products, where moving crude is possible but product flows remain badly impaired. He says Saudi Arabia is responding by expanding pipeline capacity and building bypass optionality around chokepoints like the Strait of Hormuz and the Red Sea.\n\nGave also pushes a contrarian energy view: the world is not in a simple energy transition, but an \u201cenergy addition,\u201d where oil and gas remain structurally central. He says refinery destruction and constrained product movement can keep crack spreads elevated even if crude prices have an implied ceiling, and he warns that demand destruction is already occurring. He cites numbers such as Saudi East-West pipeline capacity rising from 5.5 to 7 million bpd, a target of 10 million bpd total pipeline capacity, and a claim that only 25% to 35% of pre-crisis product levels are moving.\n\nIn the macro segment, Louis-Vincent Gav frames France as a possible sovereign-style stress case rather than a normal developed-market political problem. He points to France\u2019s high tax burden, budget deficits near 5% of GDP, foreign ownership of debt, and an inability to raise taxes further as reasons a fiscal or redenomination crisis could cascade into European banks and insurers. His concern is not just French politics, but systemic euro-area fragility if the situation worsens.\n\nThe trading desk closes with relative-value ideas tied to that stress. Patrick highlights a long JPMorgan / short Deutsche Bank pair trade, a Europe-over-U.S. financials performance gap, and FX hedges that sell the euro versus peripheral European currencies for positive carry. Overall, the episode is bearish on European financial and energy logistics stability, but nuanced: it does not forecast a simple oil blowout, instead emphasizing product scarcity, crack spreads, and second-order financial contagion.",
+    "key_takeaways": [
+      "Vincent Gave said Saudi Arabia expanded East-West pipeline capacity from 5.5 million bpd to 7 million bpd.",
+      "Vincent Gave said Saudi Arabia wants total pipeline capacity to reach 10 million bpd, including bypass routes around vulnerable chokepoints.",
+      "Vincent Gave argued that only 25% to 35% of pre-crisis petroleum products are moving, making the crisis mainly a products/refining problem rather than a crude problem.",
+      "Vincent Gave said the energy narrative is not a transition but \u201cenergy addition,\u201d with oil and gas remaining central.",
+      "Vincent Gave said demand is weakening and that crack spreads may surge even if crude prices do not explode higher.",
+      "Louis-Vincent Gav said France\u2019s tax receipts are about 44% of GDP and its fiscal structure resembles an emerging-market-style debt trap.",
+      "Patrick proposed a long JPMorgan / short Deutsche Bank relative-value trade, linking European financial stress to bank performance divergence."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that energy disruption will express mainly through refinery-product shortages and crack spreads, while Europe\u2019s France-driven fiscal stress could spill into banks and FX.",
+    "key_tickers": [
+      "JPM",
+      "DB"
+    ]
+  },
+  {
+    "id": 601,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
+    "episode_date": "2026-10-22",
+    "summary": "Modal CEO Erik Bernhardsson argues that AI infrastructure demand is fundamentally bursty and does not fit fixed \"rectangle\" capacity planning, so the winning model is to pool demand across customers and elastically allocate compute. He says Modal\u2019s approach is effectively \"duration transformation,\" where the company secures capacity underneath and slices it out granularly to customers as needed.\n\nHe emphasizes that Modal\u2019s product mix has shifted materially: Sandboxes went from negligible revenue in 2022 to about one-third of revenue, while Functions remain about two-thirds. Bernhardsson links the sandbox surge to LLMs generating code, background agents, and reinforcement learning workflows, and says the median sandbox is about eight seconds long today, with a future path toward much more ephemeral execution.\n\nOn infrastructure procurement, Bernhardsson says the market changed sharply in the last year. Modal now works with almost 25 clouds and often needs three-plus-year commitments with upfront payments and locked pricing to secure supply. He says this creates both operational complexity and financial risk, especially if GPU prices fall later and long-duration capacity locks become painful.\n\nHe is broadly constructive on the compute demand outlook, but with caveats. He expects demand to stay strong near term, worries more about a potential GPU price collapse than about oversupply today, and thinks non-NVIDIA accelerators may become meaningfully important by 2027 as software stacks mature. He also frames security as an ongoing issue for sandboxed agent workflows, but stresses that incidents discussed were app-level compromises, not a breach of Modal itself.",
+    "key_takeaways": [
+      "Bernhardsson says real AI workloads are bursty, so buying fixed GPU \"rectangles\" leads to either idle cost or missed demand.",
+      "Bernhardsson describes Modal\u2019s thesis as \"duration transformation\": aggregate many customers\u2019 demand and elastically allocate capacity underneath.",
+      "Bernhardsson says Sandboxes are now about a third of Modal\u2019s revenue, while Functions are about two-thirds.",
+      "Bernhardsson says Modal now works with almost 25 clouds and often needs three-plus-year deals with upfront payments and locked pricing.",
+      "Bernhardsson says the median sandbox is about eight seconds long today, and he expects even shorter, more ephemeral sandboxes over time.",
+      "Bernhardsson warns that GPU price collapse would be bad for many market participants, even though he does not expect it anytime soon.",
+      "Bernhardsson predicts 2027 could be the year non-NVIDIA accelerators become materially more important as software layers improve."
+    ],
+    "investment_thesis": "Modal\u2019s core claim is that elastic, pooled compute provisioning beats fixed GPU capacity contracts for bursty AI workloads, and its sandbox business is already becoming a major revenue driver.",
+    "key_tickers": null
+  },
+  {
     "id": 600,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "What will computer chips look like in 2045?",
