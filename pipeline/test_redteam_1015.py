@@ -55,6 +55,7 @@ class RedTeam1015Tests(unittest.TestCase):
         h = (SITE / "index.html").read_text(encoding="utf-8")
         self.assertIn("since ${startDate}", h)
 
+    @unittest.skipUnless((Path(__file__).resolve().parent.parent / "site" / "trap-map.html").exists(), "Trap Map retired 2026-10-22")
     def test_trap_map_dates(self):
         t = (SITE / "trap-map.html").read_text(encoding="utf-8")
         self.assertNotIn("Sun Dec 6", t)

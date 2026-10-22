@@ -1620,49 +1620,6 @@
       font-weight: 500;
       font-style: italic;
     }
-    .pundit-trap-chips {
-      margin-bottom: 1rem;
-    }
-    .pundit-trap-chips .trap-chips-label {
-      color: #7b2cbf;
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      font-weight: 700;
-      margin-bottom: 0.4rem;
-    }
-    .pundit-trap-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      background: rgba(123, 44, 191, 0.12);
-      border: 1px solid rgba(123, 44, 191, 0.3);
-      border-radius: 6px;
-      padding: 0.45rem 0.75rem;
-      margin-right: 0.5rem;
-      margin-bottom: 0.4rem;
-      color: #c084fc;
-      text-decoration: none;
-      font-size: 0.82rem;
-      transition: all 0.2s ease;
-    }
-    .pundit-trap-chip:hover {
-      background: rgba(123, 44, 191, 0.2);
-      border-color: rgba(123, 44, 191, 0.5);
-      color: #d8b4fe;
-    }
-    .pundit-trap-chip .chip-icon {
-      font-size: 0.9rem;
-    }
-    .pundit-trap-chip .chip-title {
-      font-weight: 600;
-    }
-    .pundit-trap-chip .chip-note {
-      color: #9ca3af;
-      font-size: 0.75rem;
-      display: block;
-      margin-top: 0.15rem;
-    }
 
     .podcast-container {
       background: rgba(26, 26, 46, 0.98);
@@ -2084,17 +2041,15 @@
       <a href="index.html">Home</a>
       <a href="archive.html">Archive</a>
       <a href="debait.html" id="home-debate-listen">Long &amp; Short</a>
-      <a href="trap-map.html">Trap Map</a>
-      <a href="pipeline-health.html">Data Status</a>
       <a href="leaderboard.html">Bot Game</a>
-      <a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a>
+      <div class="nav-research" data-research-menu><noscript><a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a></noscript></div>
     </nav>
     <header style="position: relative;">
       <h1>AI, Finance, Tech: Scarcity &amp; Abundance</h1>
       <p class="subtitle">Summaries and themes from the podcasts and newsletters in our feed — not investment advice.</p>
       <p style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem;">
         <span id="last-updated">Last updated: —</span>
-        <span id="last-updated-meta"> · <span style="color: #a8b2d1;">Ticker cards show ~2-week % change where available</span> · <a href="pipeline-health.html" style="color: #00d4ff;">Data Status</a></span>
+        <span id="last-updated-meta"> · <span style="color: #a8b2d1;">Ticker cards show ~2-week % change where available</span></span>
       </p>
       <!-- Desktop: absolute positioned badges; Mobile: inline via CSS override -->
       <div class="header-qqq-badge" style="position: absolute; bottom: 1rem; left: 2rem; display: flex; flex-direction: column; align-items: flex-start; gap: 0.15rem;">
@@ -2256,34 +2211,8 @@
 
       </div>
 
-      <!-- Right Column - Trap Map + Contact + Podcast Pundits + Niche Sources -->
+      <!-- Right Column - Contact + Podcast Pundits + Niche Sources -->
       <div class="right-col">
-        <!-- Trap Map summary strip -->
-        <div class="card" style="margin-bottom: 1rem; background: rgba(0, 212, 255, 0.05); border: 1px solid rgba(0, 212, 255, 0.2);">
-          <h2 style="font-size: 1.1rem; margin-bottom: 0.5rem;">🗺️ Trap Map</h2>
-          <p style="color: #8892b0; font-size: 0.75rem; margin-bottom: 0.75rem;">Research theses with falsifiable tests — who collects rent first, what print decides.</p>
-          
-          <!-- Last 3 traps monitored -->
-          <div style="margin-bottom: 0.75rem;">
-            <div style="font-size: 0.7rem; font-weight: 600; color: #00d4ff; text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 0.4rem;">Recently monitored</div>
-            <div id="trap-monitored-list">
-              <p style="color: #6b7280; font-size: 0.7rem;">Loading...</p>
-            </div>
-          </div>
-          
-          <!-- Next 3 upcoming watches -->
-          <div style="margin-bottom: 0.75rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.08);">
-            <div style="font-size: 0.7rem; font-weight: 600; color: #fbbf24; text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 0.4rem;">Upcoming watches</div>
-            <div id="trap-upcoming-list">
-              <p style="color: #6b7280; font-size: 0.7rem;">Loading...</p>
-            </div>
-          </div>
-          
-          <a href="trap-map.html" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 0.9rem; background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.25); border-radius: 6px; color: #00d4ff; text-decoration: none; font-size: 0.8rem;">
-            <span>View full Trap Map →</span>
-          </a>
-        </div>
-
         <!-- Simplified Contact Card -->
         <div class="card contact-card" style="margin-bottom: 1rem; padding: 0.75rem;" data-fallback-email="">
           <h2 style="font-size: 1rem; margin-bottom: 0.5rem;">📬 Get in touch</h2>
@@ -2333,8 +2262,6 @@
         <a href="archive.html" style="color: #00d4ff; text-decoration: none;">Archive</a> · 
         <a href="debait.html" id="home-debate-listen" style="color: #00d4ff; text-decoration: none;">Long &amp; Short</a> · 
         <a href="index.html" style="color: #00d4ff; text-decoration: none;">Home</a> · 
-        <a href="trap-map.html" style="color: #00d4ff; text-decoration: none;">Trap Map</a> · 
-        <a href="pipeline-health.html" style="color: #00d4ff; text-decoration: none;">Data Status</a> · 
         <a href="leaderboard.html" style="color: #00d4ff; text-decoration: none;">Bot Game</a>
       </div>
     </footer>
@@ -2441,7 +2368,7 @@
       <div class="networth-title" id="punditModalTitle">Pundit</div>
       <div id="punditEpisodeLead" class="pundit-episode-lead" style="display: none;"></div>
       <div id="punditEvidenceBlock" class="pundit-evidence-block" style="display: none;"></div>
-      <div id="punditTrapChips" class="pundit-trap-chips" style="display: none;"></div>
+      
       <div id="punditBioBlock" class="pundit-bio-block" style="display: none;"></div>
       <div id="punditNetWorthBlock" class="pundit-networth-quarantine" style="display: none;"></div>
       <div class="networth-profile" id="punditProfileBlock" style="display: none;"></div>
@@ -2874,7 +2801,7 @@
       }
 
       if (featuredItems.length === 0 && curatedItems.length === 0 && items.length === 0 && established.length === 0) {
-        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No recurring terms on the main list yet — candidates need two episodes plus a YES reply. See <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No recurring terms on the main list yet — candidates need two episodes plus a YES reply.</p>';
         return;
       }
       
@@ -2903,7 +2830,6 @@
       loadNicheSources();
       loadMarketWidgets();
       loadPortfolio();
-      loadTrapMapHome();
     });
 
     // Load curated X/niche sources (Fed plumbing, macro, biotech)
@@ -3415,7 +3341,7 @@
         console.warn('Could not load market_data.json:', e);
         // Honest unavailable state — never leave silent "Coming soon" after parse/network failure
         const unavailable =
-          '<span style="color: #f59e0b;">Unavailable — check Data Status</span>';
+          '<span style="color: #f59e0b;">Unavailable</span>';
         const hint =
           '<div style="color: #6b7280; font-size: 0.65rem; margin-top: 0.2rem;">market_data.json stale/unavailable</div>';
         ['treasury-widget', 'curve-widget', 'cot-widget', 'compute-forward-widget'].forEach(function(id) {
@@ -3452,7 +3378,7 @@
       }
 
       if (items.length === 0) {
-        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No guest profiles yet. After the next ingest and export, they&apos;ll show here — <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No guest profiles yet. After the next ingest and export, they&apos;ll show here.</p>';
         return;
       }
 
@@ -3648,80 +3574,6 @@
       }
     });
 
-    // Trap Map Home Summary - loads trap_map_home.json for the right-column summary strip
-    async function loadTrapMapHome() {
-      const monitoredEl = document.getElementById('trap-monitored-list');
-      const upcomingEl = document.getElementById('trap-upcoming-list');
-      if (!monitoredEl || !upcomingEl) return;
-
-      function esc(s) {
-        if (s == null || s === '') return '';
-        return String(s).replace(/</g, '&lt;').replace(/>/g, '&gt;');
-      }
-
-      function statusColor(status) {
-        const s = (status || '').toUpperCase();
-        if (s === 'WATCH') return '#fbbf24';
-        if (s === 'HOLD') return '#3b82f6';
-        if (s === 'ACT' || s === 'POUNCE') return '#10b981';
-        if (s === 'DROP' || s === 'RELEGATE') return '#6b7280';
-        return '#8892b0';
-      }
-
-      function statusLabel(status) {
-        const s = (status || '').toUpperCase();
-        if (s === 'POUNCE') return 'ACT';
-        if (s === 'RELEGATE') return 'DROP';
-        return s;
-      }
-
-      try {
-        const resp = await fetch('./data/trap_map_home.json', { cache: 'no-cache' });
-        if (!resp.ok) throw new Error('trap_map_home.json not found');
-        const data = await resp.json();
-
-        // Render last monitored (up to 3)
-        const monitored = data.last_monitored || [];
-        if (monitored.length === 0) {
-          monitoredEl.innerHTML = '<p style="color: #6b7280; font-size: 0.7rem;">No recent traps.</p>';
-        } else {
-          let html = '';
-          monitored.slice(0, 3).forEach(function(t) {
-            const color = statusColor(t.status);
-            html += '<div style="display: flex; justify-content: space-between; align-items: center; padding: 0.25rem 0; border-bottom: 1px solid rgba(255,255,255,0.04);">';
-            html += '<a href="trap-map.html#' + esc(t.id) + '" style="color: #e8e8e8; text-decoration: none; font-size: 0.75rem; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">' + esc(t.short_title) + '</a>';
-            html += '<div style="display: flex; align-items: center; gap: 0.4rem; flex-shrink: 0;">';
-            html += '<span style="font-size: 0.6rem; font-weight: 600; color: ' + color + '; padding: 0.1rem 0.35rem; background: rgba(255,255,255,0.05); border-radius: 3px;">' + esc(statusLabel(t.status)) + '</span>';
-            if (t.updated_at) {
-              html += '<span style="font-size: 0.6rem; color: #6b7280;">' + esc(t.updated_at) + '</span>';
-            }
-            html += '</div></div>';
-          });
-          monitoredEl.innerHTML = html;
-        }
-
-        // Render upcoming watches (up to 3)
-        const upcoming = data.upcoming_watches || [];
-        if (upcoming.length === 0) {
-          upcomingEl.innerHTML = '<p style="color: #6b7280; font-size: 0.7rem;">No upcoming watches.</p>';
-        } else {
-          let html = '';
-          upcoming.slice(0, 3).forEach(function(w) {
-            html += '<div style="padding: 0.25rem 0; border-bottom: 1px solid rgba(255,255,255,0.04);">';
-            html += '<div style="display: flex; align-items: center; gap: 0.4rem;">';
-            html += '<span style="font-size: 0.65rem; font-weight: 600; color: #fbbf24; background: rgba(251,191,36,0.1); padding: 0.1rem 0.35rem; border-radius: 3px;">' + esc(w.date_label) + '</span>';
-            html += '<a href="trap-map.html#' + esc(w.trap_id) + '" style="color: #a8b2d1; text-decoration: none; font-size: 0.7rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">' + esc(w.what) + '</a>';
-            html += '</div></div>';
-          });
-          upcomingEl.innerHTML = html;
-        }
-
-      } catch (err) {
-        console.warn('Trap map home load error:', err);
-        monitoredEl.innerHTML = '<p style="color: #6b7280; font-size: 0.7rem;">—</p>';
-        upcomingEl.innerHTML = '<p style="color: #6b7280; font-size: 0.7rem;">—</p>';
-      }
-    }
 
     // Podcast Summary Data - Loaded from database export or embedded
     let podcastSummaries = {};
@@ -3807,7 +3659,7 @@
         } else if (!dashboardData.mainContent.insights) {
           container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: insights array missing.</div>';
         } else {
-          container.innerHTML = '<div class="placeholder">No insights to show yet. Next export should populate this — <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</div>';
+          container.innerHTML = '<div class="placeholder">No insights to show yet. Next export should populate this.</div>';
         }
         return;
       }
@@ -4369,64 +4221,6 @@
       return { trusted: true, sourceLabel: sourceLabel };
     }
 
-    const PUNDIT_TRAP_LINKS = {
-      links: [
-        {
-          match: { guest_name_contains: "Grom", episode_date: "2026-08-20", podcast_name_contains: "Monetary" },
-          trap_id: "buyback-confession-captive-duration",
-          trap_title: "Cleared, no relief",
-          note: "Buyback / soft YCC theme — Luke Gromen, Monetary Matters 2026-08-20"
-        },
-        {
-          match: { guest_name_contains: "Pern", episode_date: "2026-08-07", podcast_name_contains: "Monetary" },
-          trap_id: "trap-1-power-interconnect",
-          trap_title: "Power + interconnect into data centers",
-          note: "Data-center power theme — Pernas, Monetary Matters 2026-08-07 (thematic, not hard print)"
-        }
-      ]
-    };
-
-    function loadPunditTrapLinks() {
-      return Promise.resolve(PUNDIT_TRAP_LINKS);
-    }
-
-    function punditMatchesTrapLink(item) {
-      const name = (item.name || '').toLowerCase();
-      const epDate = (item.last_episode_date || '').trim();
-      const podcast = (item.last_podcast_name || '').toLowerCase();
-      for (const link of PUNDIT_TRAP_LINKS.links) {
-        const m = link.match || {};
-        const nameContains = (m.guest_name_contains || '').toLowerCase();
-        const dateMatch = m.episode_date || '';
-        const podcastContains = (m.podcast_name_contains || '').toLowerCase();
-        let hit = true;
-        if (nameContains && name.indexOf(nameContains) === -1) hit = false;
-        if (dateMatch && epDate !== dateMatch) hit = false;
-        if (podcastContains && podcast.indexOf(podcastContains) === -1) hit = false;
-        if (hit) return true;
-      }
-      return false;
-    }
-
-    function matchTrapLinks(name, ev, linksData) {
-      if (!linksData || !linksData.links) return [];
-      const normalName = (name || '').toLowerCase();
-      const epDate = (ev.last_episode_date || '').trim();
-      const podcast = (ev.last_podcast_name || '').toLowerCase();
-      const matches = [];
-      for (const link of linksData.links) {
-        const m = link.match || {};
-        const nameContains = (m.guest_name_contains || '').toLowerCase();
-        const dateMatch = m.episode_date || '';
-        const podcastContains = (m.podcast_name_contains || '').toLowerCase();
-        let hit = true;
-        if (nameContains && normalName.indexOf(nameContains) === -1) hit = false;
-        if (dateMatch && epDate !== dateMatch) hit = false;
-        if (podcastContains && podcast.indexOf(podcastContains) === -1) hit = false;
-        if (hit) matches.push(link);
-      }
-      return matches;
-    }
 
     function showPunditModal(name, evidenceB64, profileB64) {
       const modal = document.getElementById('punditModal');
@@ -4486,29 +4280,6 @@
         }
       }
 
-      const trapChipsEl = document.getElementById('punditTrapChips');
-      if (trapChipsEl) {
-        trapChipsEl.style.display = 'none';
-        trapChipsEl.innerHTML = '';
-        loadPunditTrapLinks().then(function(linksData) {
-          const hits = matchTrapLinks(name, ev, linksData);
-          if (hits.length > 0) {
-            let chipsHtml = '<div class="trap-chips-label">Trap Map</div>';
-            hits.forEach(function(link) {
-              const href = 'trap-map.html#' + encodeURIComponent(link.trap_id);
-              chipsHtml += '<a href="' + escapeHtmlText(href) + '" class="pundit-trap-chip" target="_blank" rel="noopener">';
-              chipsHtml += '<span class="chip-icon">🗺️</span>';
-              chipsHtml += '<span class="chip-title">' + escapeHtmlText(link.trap_title) + '</span>';
-              if (link.note) {
-                chipsHtml += '<span class="chip-note">' + escapeHtmlText(link.note) + '</span>';
-              }
-              chipsHtml += '</a>';
-            });
-            trapChipsEl.innerHTML = chipsHtml;
-            trapChipsEl.style.display = 'block';
-          }
-        });
-      }
 
       if (bioBlock) {
         const bioText = ev.bio || '';
@@ -4699,5 +4470,6 @@
       }, 10000);
     }
   </script>
+  <script src="./js/research-nav.js"></script>
 </body>
 </html>

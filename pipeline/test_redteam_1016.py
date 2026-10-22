@@ -55,6 +55,7 @@ class RedTeam1016Tests(unittest.TestCase):
         src = (PIPE / "export_data.py").read_text(encoding="utf-8")
         self.assertIn('str(w.get("friday_iso") or "").strip() == own', src)
 
+    @unittest.skipUnless((Path(__file__).resolve().parent.parent / "site" / "trap-map.html").exists(), "Trap Map retired 2026-10-22")
     def test_trap_map_asts_and_last_monitored(self):
         t = (SITE / "trap-map.html").read_text(encoding="utf-8")
         self.assertIn("Oct 15 close ($44.46), ASTS fell about 26.7%", t)

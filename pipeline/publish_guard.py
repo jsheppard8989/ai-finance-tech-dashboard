@@ -278,7 +278,8 @@ def check_trap_map(site: Path, pipeline: Path, baselines: dict[str, dict[str, st
     reasons = []
     page_path = site / "trap-map.html"
     if not page_path.is_file():
-        return ["site/trap-map.html is missing"]
+        # Trap Map retired 2026-10-22 (decisions.md): no page, nothing to guard.
+        return []
     page = page_path.read_text(encoding="utf-8", errors="replace")
     have = card_ids(page)
 
@@ -387,9 +388,10 @@ def load_baselines(repo: Path, site_rel: str = "site", refs: Iterable[str] = BAS
     out: dict[str, dict[str, str]] = {}
     for ref in refs:
         page = _git_show(repo, ref, f"{site_rel}/trap-map.html")
-        if page is None:
+        if page is None and _git_show(repo, ref, f"{site_rel}/index.html") is None:
             continue
-        files = {"trap-map.html": page}
+        # Trap Map retired 2026-10-22: keep the baseline for other checks even without it.
+        files = {"trap-map.html": page} if page is not None else {}
         for name in _git_ls(repo, ref, f"{site_rel}/data"):
             if name == "data.js" or name.endswith(".json"):
                 t = _git_show(repo, ref, f"{site_rel}/data/{name}")

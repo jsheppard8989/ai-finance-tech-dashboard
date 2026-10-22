@@ -93,6 +93,7 @@ class PublishedSweepTests(unittest.TestCase):
         for bad in ("Mark Andrewson", "Patrick Suresne", "Talent Energy"):
             self.assertNotIn(bad, blob)
 
+    @unittest.skipUnless((Path(__file__).resolve().parent.parent / "site" / "trap-map.html").exists(), "Trap Map retired 2026-10-22")
     def test_trap_home_links_resolve(self):
         html = (ROOT / "site" / "trap-map.html").read_text(encoding="utf-8")
         anchors = set(re.findall(r'\bid="([^"]+)"', html))
