@@ -795,7 +795,7 @@ class DashboardDB:
             # title, show notes or transcript speaker labels (else they were only mentioned).
             # Known mention-only rows are also listed in pundit_exclusions.
             from guest_check import episode_evidence, is_listed_guest
-            from pundit_exclusions import is_excluded_guest_appearance
+            from pundit_exclusions import is_excluded_guest_appearance, is_confirmed_guest_appearance
             _evidence_cache: Dict = {}
             by_entity: Dict = {}
             self.demoted_guest_appearances = []
@@ -804,6 +804,8 @@ class DashboardDB:
                 title = r.get('last_episode_title') or ''
                 if is_excluded_guest_appearance(nm, title):
                     verdict = False
+                elif is_confirmed_guest_appearance(nm, title):
+                    verdict = True
                 else:
                     tp = r.get('transcript_path')
                     if tp not in _evidence_cache:
