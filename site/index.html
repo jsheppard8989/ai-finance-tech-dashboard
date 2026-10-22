@@ -2092,7 +2092,6 @@
       <!-- Compute Forward -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">🖥️ Compute Forward</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">H100 rental price today, the 1-year contract range, and a market-implied monthly forward curve. Indicative, not executable quotes.</p>
         <div id="compute-forward-widget" style="font-size: 0.75rem;">
           <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
             <span style="color: #a8b2d1;"><strong>1Y:</strong> —</span>
@@ -2103,16 +2102,11 @@
             <span id="compute-forward-period">As of: —</span>
           </div>
         </div>
-        <div id="compute-forward-watch" style="color: #a8b2d1; font-size: 0.68rem; margin-top: 0.35rem; line-height: 1.4;"></div>
-        <details class="plumbing-expand">
-          <summary>What this means</summary>
-          <div class="expand-content">
-            <strong>H100 1Y contract</strong>: SemiAnalysis surveys 100+ neocloud providers and buyers monthly. The range shown is from the latest survey published, which can be a couple of months old; the label shows which month.<br><br>
-            <strong>Sold Out</strong>: On-demand spot unavailable — scarcity signal.<br><br>
-            Data lags several months. Trend direction matters more than absolute price.
-          </div>
-        </details>
-        <div id="compute-forward-source" style="margin-top: 0.3rem; color: #9ca3af; font-size: 0.65rem; line-height: 1.4;">Sources: <a href="https://gpu-index.semianalysis.com/" target="_blank" style="color: #9ca3af;">SemiAnalysis GPU Index</a> (daily H100 composite, monthly 1Y range) · <a href="https://aicomputetracker.com/" target="_blank" style="color: #9ca3af;">AI Compute Tracker</a> (forward curve from <a href="https://kalshi.com/markets/kxh100ms" target="_blank" style="color: #9ca3af;">Kalshi H100 Monthly</a>, settles on <a href="https://data.ornn.com/markets/h100-sxm" target="_blank" style="color: #9ca3af;">Ornn OCPI</a>; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #9ca3af;">CC BY 4.0</a>)</div>
+        <div id="compute-outlook" style="color: #e5e7eb; font-size: 0.72rem; margin-top: 0.45rem; line-height: 1.4;"></div>
+        <div id="compute-forward-chart" style="margin-top: 0.35rem;"></div>
+        <div id="compute-forward-footnote" style="color: #9ca3af; font-size: 0.62rem; line-height: 1.4; margin-top: 0.25rem;"></div>
+        <div id="compute-thesis-slot" style="margin-top: 0.4rem;" hidden></div>
+        <div id="compute-forward-source" style="margin-top: 0.2rem; color: #9ca3af; font-size: 0.62rem;">Sources: SemiAnalysis, AI Compute Tracker.</div>
       </div>
     </div>
 
@@ -2199,6 +2193,87 @@
       })();
     </script>
 
+
+  <script>
+    // Compute Forward chart (live from market_data.json; no static image).
+    function renderComputeChart(cf, fc, outlook) {
+      var host = document.getElementById('compute-forward-chart');
+      var foot = document.getElementById('compute-forward-footnote');
+      var line = document.getElementById('compute-outlook');
+      if (!host) return;
+      var hist = cf && cf.spot_history;
+      if (!hist || !Array.isArray(hist.dates) || !hist.dates.length) {
+        host.innerHTML = '<span style="color: #9ca3af; font-size: 0.68rem;">Chart unavailable: no spot history in market_data.json.</span>';
+        return;
+      }
+      if (line) line.textContent = (outlook && outlook.line) ? outlook.line : '';
+      var CH = [['b200', 'B200', '#ff9a5c'], ['h100', 'H100', '#00d4ff'], ['a100', 'A100', '#8b9dff']];
+      var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      function day(s) { var p = s.split('-'); return Date.UTC(+p[0], +p[1] - 1, +(p[2] || 15)); }
+      var today = hist.end, tX = day(today), month = today.slice(0, 7);
+      var series = CH.map(function (c) {
+        var spot = [];
+        (hist[c[0]] || []).forEach(function (v, i) { if (v != null) spot.push([day(hist.dates[i]), v]); });
+        var now = spot.length ? spot[spot.length - 1][1] : null;
+        var pts = ((fc && fc[c[0]] && fc[c[0]].points) || []).filter(function (p) { return p.tenor_key > month; });
+        var fwd = now == null ? [] : [[tX, now]].concat(pts.map(function (p) { return [day(p.tenor_key + '-15'), p.price, p.tenor]; }));
+        return {id: c[0], name: c[1], color: c[2], spot: spot, now: now, fwd: fwd};
+      }).filter(function (s) { return s.spot.length; });
+      var x0 = day(hist.start), x1 = tX, yMax = 0;
+      series.forEach(function (s) {
+        s.spot.concat(s.fwd).forEach(function (p) { if (p[0] > x1) x1 = p[0]; if (p[1] > yMax) yMax = p[1]; });
+      });
+      x1 += 25 * 864e5; yMax = Math.ceil(yMax * 1.1);
+      var W = 640, H = 300, L = 34, R = 118, T = 22, B = 26;
+      function X(t) { return L + (t - x0) / (x1 - x0) * (W - L - R); }
+      function Y(v) { return T + (1 - v / yMax) * (H - T - B); }
+      function path(ps) { return ps.map(function (p, i) { return (i ? 'L' : 'M') + X(p[0]).toFixed(1) + ' ' + Y(p[1]).toFixed(1); }).join(' '); }
+      var g = [];
+      var step = yMax > 6 ? 2 : 1;
+      for (var v = 0; v <= yMax; v += step) {
+        g.push('<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(v) + '" y2="' + Y(v) + '" stroke="#1f2937"/>');
+        g.push('<text x="' + (L - 4) + '" y="' + (Y(v) + 3) + '" text-anchor="end" fill="#9ca3af" font-size="10">$' + v + '</text>');
+      }
+      var d0 = new Date(x0); d0 = new Date(Date.UTC(d0.getUTCFullYear(), d0.getUTCMonth() + 1, 1));
+      for (var d = d0, k = 0; d.getTime() < x1; d = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + 2, 1)), k++) {
+        g.push('<text x="' + X(d.getTime()) + '" y="' + (H - 8) + '" text-anchor="middle" fill="#9ca3af" font-size="10">' + MON[d.getUTCMonth()] + " '" + String(d.getUTCFullYear()).slice(2) + '</text>');
+      }
+      var tdt = new Date(tX);
+      g.push('<line x1="' + X(tX) + '" x2="' + X(tX) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="#d1d5db" stroke-width="1"/>');
+      g.push('<text x="' + (X(tX) + 4) + '" y="' + (T + 8) + '" fill="#d1d5db" font-size="10">Today ' + MON[tdt.getUTCMonth()] + ' ' + tdt.getUTCDate() + '</text>');
+      series.forEach(function (s) {
+        g.push('<path d="' + path(s.spot) + '" fill="none" stroke="' + s.color + '" stroke-width="2"/>');
+        if (s.fwd.length > 1) {
+          g.push('<path d="' + path(s.fwd) + '" fill="none" stroke="' + s.color + '" stroke-width="1.6" stroke-dasharray="5 4"/>');
+          s.fwd.slice(1).forEach(function (p) { g.push('<circle cx="' + X(p[0]) + '" cy="' + Y(p[1]) + '" r="2" fill="' + s.color + '"/>'); });
+          var e = s.fwd[s.fwd.length - 1];
+          s.endY = Y(e[1]); s.endLabel = s.name + ' $' + e[1].toFixed(2) + ' (' + e[2] + ')'; s.endX = X(e[0]) + 6;
+        }
+        g.push('<text x="' + (X(tX) - 4) + '" y="' + (Y(s.now) - 6) + '" text-anchor="end" fill="' + s.color + '" font-size="10">$' + s.now.toFixed(2) + ' today</text>');
+      });
+      // end labels: nudge apart so they never overlap
+      var ends = series.filter(function (s) { return s.endLabel; }).sort(function (a, b) { return a.endY - b.endY; });
+      for (var i = 1; i < ends.length; i++) if (ends[i].endY - ends[i - 1].endY < 13) ends[i].endY = ends[i - 1].endY + 13;
+      ends.forEach(function (s) { g.push('<text x="' + s.endX + '" y="' + (s.endY + 3) + '" fill="' + s.color + '" font-size="10">' + s.endLabel + '</text>'); });
+      var legend = series.map(function (s, i) {
+        return '<g transform="translate(' + (L + 6 + i * 70) + ',' + (T - 10) + ')"><line x1="0" x2="14" y1="0" y2="0" stroke="' + s.color + '" stroke-width="2"/><text x="18" y="3" fill="#d1d5db" font-size="10">' + s.name + '</text></g>';
+      }).join('') + '<text x="' + (L + 6 + series.length * 70) + '" y="' + (T - 7) + '" fill="#9ca3af" font-size="10">solid = daily spot · dashed = monthly forwards</text>';
+      host.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" role="img" aria-label="GPU rental prices: six months of daily spot and the forward curve, dollars per GPU-hour" style="background:#0b0f17;border-radius:4px;display:block;">' + legend + g.join('') + '</svg>';
+      if (foot) foot.textContent = 'Dashed = forward prices (few trades so far, indicative).';
+    }
+
+    // "Why these prices matter": shown only once JG's thesis page exists.
+    (function () {
+      var slot = document.getElementById('compute-thesis-slot');
+      if (!slot || !window.fetch) return;
+      var page = ['compute-thesis', 'html'].join('.');  // JG's thesis page; built at runtime so the hidden button isn't a dead static link
+      fetch('./' + page, {method: 'HEAD', cache: 'no-store'}).then(function (r) {
+        if (!r.ok) return;
+        slot.innerHTML = '<a href="./' + page + '" class="chart-btn" style="display:inline-block;text-decoration:none;">Why these prices matter</a>';
+        slot.hidden = false;
+      }).catch(function () {});
+    })();
+  </script>
     <!-- Disclaimer -->
     <div class="disclaimer" style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 0.75rem; margin: 1rem 0; text-align: center;">
       <p style="color: #8892b0; font-size: 0.8rem; line-height: 1.4; margin: 0;">
@@ -2981,48 +3056,12 @@
             '</div>' +
             staleIndicator;
           
-          // Forward curve row (Kalshi-implied via AI Compute Tracker), kept separate from the SemiAnalysis block
-          const fc = data.compute_forward_curve;
-          if (fc && fc.h100 && Array.isArray(fc.h100.card) && fc.h100.card.length) {
-            const fwdText = fc.h100.card.map(p => p.tenor + ' $' + Number(p.price).toFixed(2) + (p.quality === 'thin' ? ' <span style="color: #f59e0b;">(few trades so far)</span>' : '')).join(' · ');
-            const anyThin = fc.h100.card.some(p => p.quality === 'thin');
-            const fcAsOf = fc.as_of ? new Date(fc.as_of).toLocaleString('en-US', {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago'}) + ' CT' : '—';
-            const fcStale = fc._stale ? ' <span style="color: #f59e0b;">(stale)</span>' : '';
-            computeEl.innerHTML +=
-              '<div style="margin-top: 0.25rem; color: #a8b2d1;"><strong>Fwd (H100):</strong> <span class="plumbing-num">' + fwdText + '</span>' + fcStale + '</div>' +
-              '<div style="color: #9ca3af; font-size: 0.65rem;">Curve as-of: ' + fcAsOf + ' · indicative only</div>' +
-              (anyThin ? '<div style="color: #9ca3af; font-size: 0.65rem;"><span style="color: #f59e0b;">(few trades so far)</span> = only a few usable market quotes sit behind that month\'s price, so treat it as a rough guide.</div>' : '');
-          }
+          // Forward chart: SemiAnalysis daily spot (solid) + AI Compute Tracker forwards (dashed)
+          (function (fc, ol) {
+            if (typeof renderComputeChart === 'function') renderComputeChart(cf, fc, ol);
+            else window.addEventListener('load', function () { renderComputeChart(cf, fc, ol); });
+          })(data.compute_forward_curve, data.compute_outlook);
 
-          // Build contracts-to-watch blurb
-          const watchEl = document.getElementById('compute-forward-watch');
-          if (watchEl) {
-            let watchParts = [];
-            
-            // B200 daily if present (from index API)
-            const b200 = cf.b200;
-            if (b200 && b200.composite_index && b200.composite_index.display && b200.composite_index.display !== '—') {
-              const b200Date = b200.daily_date || '';
-              watchParts.push('B200: ' + b200.composite_index.display + (b200Date ? ' (' + b200Date + ')' : ''));
-            }
-            
-            // On-demand sold out status with affected periods
-            if (h100.on_demand && h100.on_demand.type === 'sold_out') {
-              const soldOutPeriods = h100.sold_out_periods;
-              if (soldOutPeriods && soldOutPeriods.length > 0) {
-                const recentSoldOut = soldOutPeriods.slice(-3).join(', ');
-                watchParts.push('H100 on-demand sold out (' + recentSoldOut + ')');
-              } else {
-                watchParts.push('H100 on-demand sold out');
-              }
-            }
-            
-            if (watchParts.length > 0) {
-              watchEl.innerHTML = '📌 <strong>Watch:</strong> ' + watchParts.join(' · ');
-            } else {
-              watchEl.innerHTML = '';
-            }
-          }
         }
 
       } catch (e) {

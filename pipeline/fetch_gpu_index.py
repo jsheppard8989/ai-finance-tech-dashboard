@@ -276,6 +276,44 @@ def validate_parsed_result(result: Dict[str, Any]) -> tuple:
     return True, ""
 
 
+SPOT_HISTORY_CHIPS = ('a100', 'h100', 'b200')
+SPOT_HISTORY_DAYS = 183  # ~6 months of daily spot for the Compute Forward chart
+
+
+def build_spot_history(index_data: List[Dict], days: int = SPOT_HISTORY_DAYS) -> Optional[Dict[str, Any]]:
+    """Last `days` of daily composite spot ($/GPU-hr) per chip, from the same `index` array.
+
+    Returns {"start", "end", "days", "available_from": {chip: first date with data},
+             "dates": [...], "a100": [...], "h100": [...], "b200": [...]} (None = no value that day).
+    """
+    rows = []
+    for r in index_data or []:
+        dt = parse_date(r.get('date', ''))
+        if dt:
+            rows.append((dt, r))
+    if not rows:
+        return None
+    rows.sort(key=lambda x: x[0])
+    available_from = {}
+    for chip in SPOT_HISTORY_CHIPS:
+        first = next((dt for dt, r in rows if r.get(chip) is not None), None)
+        available_from[chip] = first.strftime('%Y-%m-%d') if first else None
+    end = rows[-1][0]
+    cutoff = end - timedelta(days=days)
+    window = [(dt, r) for dt, r in rows if dt > cutoff]
+    out: Dict[str, Any] = {
+        'start': window[0][0].strftime('%Y-%m-%d'),
+        'end': end.strftime('%Y-%m-%d'),
+        'days': (end - window[0][0]).days + 1,
+        'points': len(window),
+        'available_from': available_from,
+        'dates': [dt.strftime('%Y-%m-%d') for dt, _ in window],
+    }
+    for chip in SPOT_HISTORY_CHIPS:
+        out[chip] = [None if r.get(chip) is None else round(float(r[chip]), 2) for _, r in window]
+    return out
+
+
 def fetch_and_parse() -> tuple:
     """
     Main fetch and parse function.
@@ -368,6 +406,13 @@ def fetch_and_parse() -> tuple:
             'daily_date': format_date_short(latest_date),
             'composite_index': normalize_price_value(latest_b200_daily)
         },
+
+        'a100': {
+            'daily_date': format_date_short(latest_date),
+            'composite_index': normalize_price_value(latest_index.get('a100'))
+        },
+
+        'spot_history': build_spot_history(index_data),
         
         'history_summary': {
             'oldest_period': contract_data[0]['period'] if contract_data else None,
@@ -489,6 +534,11 @@ def update_market_data(gpu_data: Dict[str, Any]) -> bool:
             del gpu_data['_stale_reason']
         
         market_data['compute_forward'] = gpu_data
+        try:
+            import compute_outlook
+            compute_outlook.apply(market_data)
+        except Exception as e:  # outlook is best-effort; never block the spot refresh
+            print(f"  ⚠ compute outlook skipped: {e}")
         
         if 'data_fetch_status' in market_data:
             market_data['data_fetch_status']['compute_forward'] = 'live'
