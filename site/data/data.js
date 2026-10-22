@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-22T14:07:25.806131",
+  generatedAt: "2026-10-22T14:22:18.501758",
   chartsVersion: "2026-10-22T14:07:12.878739",
   priceSnapshot: {
   "AAPL": {
@@ -1246,7 +1246,6 @@ const dashboardData = {
     "price_14d_ago": 25.33
   }
 },
-  // tickerScores: Alpha/Atrophy UI retired in PR #98; Trap Map replaced it.
   tickerScores: [],
   archive: {
   "insights": [
@@ -56119,78 +56118,6 @@ const dashboardData = {
 ],
   pundits: [
   {
-    "id": 81,
-    "name": "Elon Musk",
-    "slug": "elon-musk",
-    "bio": "Referenced via public comments about building Terafab to secure chip supply.",
-    "known_for": "Pioneering advancements in space travel and reusable rocket technology.",
-    "net_worth_usd": 270100000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
-    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
-    "voice_tone": "Visionary and passionate",
-    "voice_style": "Engaging and thought-provoking with a focus on future possibilities.",
-    "voice_delivery_notes": "Dynamic pacing with emphasis on transformative ideas.",
-    "voice_profile_updated_at": "2026-09-16 15:21:25",
-    "last_seen": "2026-10-22 17:25:06",
-    "last_episode_title": "What will computer chips look like in 2045?",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-10-22",
-    "mention_score": 6,
-    "mention_score_decayed": 6,
-    "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
-    "last_proof_snippet": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what\u2019s coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bo",
-    "supporting_takeaway": "Ranade argued that even with more capex, leading-edge output expansion is likely \"Not 10X, but probably 2X, yes.\"",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-21T23:37:11.055855",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Elon Musk",
-      "fetched_at": "2026-08-22T04:37:11.055483+00:00",
-      "cliff_notes": "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal. He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels. His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world.",
-      "derived": {
-        "current_role": "CEO of Tesla and SpaceX",
-        "former_positions": "CEO of Zip2; CEO of X.com (later PayPal); CEO of SolarCity",
-        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; transferred to Stanford University for Ph.D. in Applied Physics but left after two days",
-        "political_affiliation": "Independent"
-      },
-      "infobox": {
-        "Born": "June 28, 1971",
-        "Nationality": "South African-born American"
-      },
-      "lead_paragraphs": [
-        "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal.",
-        "He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels.",
-        "His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world."
-      ],
-      "sections": [
-        {
-          "heading": "Electric Vehicles",
-          "body": "Musk is the CEO of Tesla, a company that has revolutionized the electric vehicle market with its innovative designs and technology. Tesla's vehicles have set new standards for electric range, performance, and safety."
-        },
-        {
-          "heading": "Space Exploration",
-          "body": "As the CEO of SpaceX, Musk has made significant strides in reducing the cost of space travel and enabling the colonization of Mars. SpaceX has successfully developed reusable rockets and launched numerous satellites, including the Starlink constellation."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Musk is involved in AI through his company Neuralink, which aims to develop brain-computer interfaces to treat neurological disorders and enhance human cognition. He has also expressed concerns about the potential risks of AI and the need for regulation."
-        },
-        {
-          "heading": "Infrastructure and Transportation",
-          "body": "Musk founded The Boring Company to address traffic congestion through the development of underground hyperloop and tunnel systems. The company has completed several projects, including a tunnel in Las Vegas."
-        },
-        {
-          "heading": "Renewable Energy",
-          "body": "Tesla is not only an electric vehicle company but also a clean energy company, offering solar panels, solar roofs, and energy storage products. Musk's vision for a sustainable energy future extends beyond electric vehicles."
-        }
-      ]
-    },
-    "net_worth": "$270.10B"
-  },
-  {
     "id": 96,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
@@ -56377,65 +56304,76 @@ const dashboardData = {
     "net_worth": "$12.3M"
   },
   {
-    "id": 73,
-    "name": "Sam Altman",
-    "slug": "sam-altman",
-    "bio": "Referenced indirectly in discussion of OpenAI governance and equity incentives after its nonprofit-to-for-profit transition.",
-    "known_for": "His leadership at OpenAI and his revised views on AI's impact on jobs and the future of work.",
-    "net_worth_usd": 2100000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
-    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
+    "id": 81,
+    "name": "Elon Musk",
+    "slug": "elon-musk",
+    "bio": null,
+    "known_for": "Pioneering advancements in space travel and reusable rocket technology.",
+    "net_worth_usd": 270100000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
+    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
+    "voice_tone": "Visionary and passionate",
+    "voice_style": "Engaging and thought-provoking with a focus on future possibilities.",
+    "voice_delivery_notes": "Dynamic pacing with emphasis on transformative ideas.",
+    "voice_profile_updated_at": "2026-09-16 15:21:25",
     "last_seen": "2026-10-17 04:47:23",
     "last_episode_title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
-    "mention_score": 3,
-    "mention_score_decayed": 2.67,
+    "mention_score": 4,
+    "mention_score_decayed": 3.56,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-17 \u2022 CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Actually, we actually were number one good as a literal thing. I'm for one last week only took a little bit of time to get me to five years only to five. Yeah, five",
     "supporting_takeaway": "David Sacks argued CoreWeave\u2019s fixed-price contract structure means upside from higher spot pricing is limited because capacity has already been pre-sold.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-30T13:36:34.383434",
+    "grokipedia_fetched_at": "2026-08-21T23:37:11.055855",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Sam Altman",
-      "fetched_at": "2026-05-30T18:36:34.383095+00:00",
-      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time. Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society.",
+      "page_title": "Elon Musk",
+      "fetched_at": "2026-08-22T04:37:11.055483+00:00",
+      "cliff_notes": "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal. He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels. His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world.",
       "derived": {
-        "current_role": "President of OpenAI",
-        "education": "Stanford University; dropout"
+        "current_role": "CEO of Tesla and SpaceX",
+        "former_positions": "CEO of Zip2; CEO of X.com (later PayPal); CEO of SolarCity",
+        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; transferred to Stanford University for Ph.D. in Applied Physics but left after two days",
+        "political_affiliation": "Independent"
       },
       "infobox": {
-        "Born": "1985",
-        "Nationality": "American"
+        "Born": "June 28, 1971",
+        "Nationality": "South African-born American"
       },
       "lead_paragraphs": [
-        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time.",
-        "Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society."
+        "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal.",
+        "He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels.",
+        "His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world."
       ],
       "sections": [
         {
-          "heading": "Leadership at OpenAI",
-          "body": "Sam Altman serves as the President of OpenAI, where he leads the development and deployment of artificial general intelligence with a focus on ensuring its benefits are widely distributed."
+          "heading": "Electric Vehicles",
+          "body": "Musk is the CEO of Tesla, a company that has revolutionized the electric vehicle market with its innovative designs and technology. Tesla's vehicles have set new standards for electric range, performance, and safety."
         },
         {
-          "heading": "Views on AI and Jobs",
-          "body": "Initially warning about the potential for AI to displace white-collar jobs, Altman has since revised his views, suggesting that the so-called job apocalypse may not occur as predicted."
+          "heading": "Space Exploration",
+          "body": "As the CEO of SpaceX, Musk has made significant strides in reducing the cost of space travel and enabling the colonization of Mars. SpaceX has successfully developed reusable rockets and launched numerous satellites, including the Starlink constellation."
         },
         {
-          "heading": "Influence in AI Community",
-          "body": "Altman's leadership and public statements have made him a prominent voice in the AI community, influencing discussions on the ethical and societal implications of AI advancements."
+          "heading": "Artificial Intelligence",
+          "body": "Musk is involved in AI through his company Neuralink, which aims to develop brain-computer interfaces to treat neurological disorders and enhance human cognition. He has also expressed concerns about the potential risks of AI and the need for regulation."
+        },
+        {
+          "heading": "Infrastructure and Transportation",
+          "body": "Musk founded The Boring Company to address traffic congestion through the development of underground hyperloop and tunnel systems. The company has completed several projects, including a tunnel in Las Vegas."
+        },
+        {
+          "heading": "Renewable Energy",
+          "body": "Tesla is not only an electric vehicle company but also a clean energy company, offering solar panels, solar roofs, and energy storage products. Musk's vision for a sustainable energy future extends beyond electric vehicles."
         }
       ]
     },
-    "net_worth": "$2.10B"
+    "net_worth": "$270.10B"
   },
   {
     "id": 129,
@@ -57071,7 +57009,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-30 \u2022 Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
     "last_proof_snippet": "I was a little terrified backstage when Palmer's like, there's something on the screen that says, I'm not supposed to say this. It's like, for the love of God, whatever it is. Please don't make it about colossal. Please don't say it. So, I",
@@ -57451,7 +57389,7 @@ const dashboardData = {
     "id": 565,
     "name": "Vivek Arya",
     "slug": "vivek-arya",
-    "bio": "Referenced for context around Intel\u2019s 10nm delays and the lessons drawn from them.",
+    "bio": null,
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -57524,33 +57462,6 @@ const dashboardData = {
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-21 \u2022 Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
     "last_proof_snippet": "I know that you guys have been using the T word a lot, the last day or two in your conversations, the tokens, but maybe we could kind of pivot a little bit away from AI. I guess it's a little bit rooted in AI, but there's been this big conv",
     "supporting_takeaway": "Arora frames 2030 as a practical midpoint for when today\u2019s cryptography becomes breakable by sufficiently capable quantum computers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 560,
-    "name": "Bill Gross",
-    "slug": "bill-gross",
-    "bio": "Entrepreneur and investor who launched idealab.ai; long-time founder associated with Idealab and startup incubation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 10:31:28",
-    "last_episode_title": "Chamath: AGI Is Here, Anthropic\u2019s $100B Giveaway, Elon\u2019s SpaceX Shares for 72M Kids | EP #304",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-21",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "AI\u2019s biggest near-term bottleneck is power and compute infrastructure, making energy build-out more important than model capability alone.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-21 \u2022 Chamath: AGI Is Here, Anthropic\u2019s $100B Giveaway, Elon\u2019s SpaceX Shares for 72M Kids | EP #304",
-    "last_proof_snippet": "I do think that we have achieved AGI. It cannot diffuse. And the reason it cannot diffuse has nothing to do with the technology. It has everything to do with the build-up. Until you actually build it out, so everybody can feel it or a plura",
-    "supporting_takeaway": "Jamoth/Paul Habatilla argues the key issue is whether Anthropic has a real failsafe and measurable outcomes, or whether it becomes low-accountability philanthropy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -57772,33 +57683,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 547,
-    "name": "Dr. Dawn Mussallem",
-    "slug": "dr-don-musalam",
-    "bio": "Chief Medical Officer of Fountain Life, featured in the sponsor segment discussing dementia prevention, brain-age testing, and health-span interventions.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 546,
     "name": "Nusha Ansari",
     "slug": "nusha-ansari",
@@ -57914,34 +57798,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 543,
-    "name": "Andy Jassy",
-    "slug": "andy-jassy",
-    "bio": "Amazon CEO mentioned as a source for commentary about the future availability of compute and the duration of current supply constraints.",
-    "known_for": "",
-    "net_worth_usd": 377000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q41812531",
-    "net_worth_updated_at": "2026-10-16T23:47:28.463964",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-17 04:47:23",
-    "last_episode_title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-17 \u2022 CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
-    "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Actually, we actually were number one good as a literal thing. I'm for one last week only took a little bit of time to get me to five years only to five. Yeah, five",
-    "supporting_takeaway": "David Sacks argued CoreWeave\u2019s fixed-price contract structure means upside from higher spot pricing is limited because capacity has already been pre-sold.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null,
-    "net_worth": "$377.0M"
-  },
-  {
     "id": 542,
     "name": "Jad Naous",
     "slug": "jad-naous",
@@ -57986,7 +57842,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-15 \u2022 MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
     "last_proof_snippet": "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization. That was",
@@ -58687,7 +58543,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "The episode\u2019s core claim is that structural global dollar demand can keep the US dollar and US rates elevated even under stress, while policy tools and gold revaluation remain underappreciated.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-08 \u2022 MacroVoices #553 Brent Johnson: Disparate Housewives",
     "last_proof_snippet": "I've been doing this for 26 years now, and for 25 of the 26 years, I've been hearing that the Fed is out of bullets. And my point to people is that they have a lot more bullets than you can possibly imagine. That was Santiago Capital founde",
@@ -58714,7 +58570,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-08 \u2022 Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
     "last_proof_snippet": "This episode is brought to you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Theumatics ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclo",
@@ -58859,33 +58715,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 509,
-    "name": "Andrew Wang",
-    "slug": "andrew-wang",
-    "bio": "Andrew Wang is the CEO of Valon and previously worked on mortgage investments at Soros. In the episode, he described building mortgage servicing infrastructure from reconciliation pain, licensing constraints, and regulation encoded into software.",
-    "known_for": "Known for rebuilding mortgage servicing infrastructure and operating Valon as a servicer before selling the software platform.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Technical, direct, and operationally detailed.",
-    "voice_style": "He explains systems problems through concrete examples, moving from regulation and data models to unit economics and AI workflows.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on numbers, regulatory steps, and causal links between legacy infrastructure and customer outcomes.",
-    "voice_profile_updated_at": "2026-10-08 03:42:05",
-    "last_seen": "2026-10-08 03:42:05",
-    "last_episode_title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.72,
-    "last_main_idea": "Angela Strange said Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market, after Valon rebuilt mortgage servicing around a modern system of record.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-07 \u2022 How Valon Rebuilt a $13 Trillion Industry From Scratch",
-    "last_proof_snippet": "Morgage is top three in terms of undistrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us. The way that we are going about it as an",
-    "supporting_takeaway": "Andrew Wang said his Soros mortgage work exposed reconciliation failures because large volumes of data, money movement, and entries did not tie, motivating Valon's infrastructure build.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 508,
     "name": "Kevin Mandia",
     "slug": "kevin-mandia",
@@ -58971,33 +58800,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$10.0M"
-  },
-  {
-    "id": 506,
-    "name": "Richard Socher",
-    "slug": "richard-socher",
-    "bio": "Richard Socher is a German-born Stanford-trained AI researcher, former Salesforce chief scientist, founder of MetaMind and You.com, and co-founder and CEO of Recursive. The episode also highlighted his book The Eureka Machine.",
-    "known_for": "Natural language processing, AI search, prompt engineering, AI venture investing, and recursive self-improvement.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Optimistic but more timeline-conservative than the hosts.",
-    "voice_style": "He defines concepts carefully, separates weak and strong forms of claims, and repeatedly grounds broad AI forecasts in specific mechanisms such as simulations, FDA timelines, compute, and wet-lab constraints.",
-    "voice_delivery_notes": "Use measured pacing with emphasis on distinctions between near-term domain-specific AI gains and stronger multi-decade ASI claims.",
-    "voice_profile_updated_at": "2026-10-04 04:45:49",
-    "last_seen": "2026-10-04 04:45:49",
-    "last_episode_title": "Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.66,
-    "last_main_idea": "Richard Socher claims AI can deliver a century of scientific breakthroughs in the next decade by automating hypothesis, experiment, data, and theory across the full scientific stack.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-03 \u2022 Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
-    "last_proof_snippet": "Richard, I'm curious where are we at the moment with RSI? In various weak forms, we already have RSI. We're not quite there yet, but we're very close. When do you believe we reach ASI? I think we'll take us probably several decades. On term",
-    "supporting_takeaway": "Richard Socher predicts simpler single-gene diseases could be cured in the next 12 months, while FDA-governed human studies keep more complex disease timelines at roughly half a decade to a decade.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 52,
@@ -59374,7 +59176,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-30 \u2022 Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
     "last_proof_snippet": "I'm joined once again by Ben Poladian of BEP Research Ben is a semiconductor auto-diadact enthusiast. He's been an investor in Nvidia since 2016. Ben, great to see you again. Welcome back. Glad to be back with you, Jack. So I'm exciting. Th",
@@ -59636,7 +59438,7 @@ const dashboardData = {
     "last_podcast_name": "Other People's Money with Max Wiethe",
     "last_episode_date": "2026-09-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "James Elbaor argues private credit growth is over and BDC/private credit consolidation should accelerate next fiscal year as redemptions exceed 5% gates and public vehicles trade at large NAV discounts.",
     "last_proof_cite": "Other People's Money with Max Wiethe \u2022 2026-09-27 \u2022 The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
     "last_proof_snippet": "Let's take a quick step back and say one thing that I think is abundantly clear. The private credit boom is over. We all saw in Forbes recently around the blue owl founders, other founders of private credit firms becoming billionaires. That",
@@ -60251,62 +60053,6 @@ const dashboardData = {
         {
           "heading": "Proactive Leadership",
           "body": "Naveen advocates for a hands-on approach to innovation, encouraging others in the tech community to actively build and experiment with new ideas rather than remain passive observers."
-        }
-      ]
-    }
-  },
-  {
-    "id": 472,
-    "name": "Adam Pervene",
-    "slug": "adam-pervene",
-    "bio": "Adam Pervene is an expert in mobile gaming advertising and AI-driven marketing strategies. He is known for his innovative approach to leveraging artificial intelligence in advertising, particularly within the mobile gaming sector. As the founder of Apple 11, he has built a significant company that operates effectively without traditional venture capital funding.",
-    "known_for": "Pioneering AI-driven marketing strategies in mobile gaming advertising.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and analytical",
-    "voice_style": "Direct and data-driven argumentation",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key metrics.",
-    "voice_profile_updated_at": "2026-09-21 04:53:03",
-    "last_seen": "2026-09-21 04:53:03",
-    "last_episode_title": "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-20",
-    "mention_score": 1,
-    "mention_score_decayed": 0.49,
-    "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
-    "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
-    "supporting_takeaway": "Apple 11 has achieved a remarkable 60% year-over-year growth in ad spend on its platform.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-20T23:53:07.717556",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Adam Pervene",
-      "fetched_at": "2026-09-21T04:53:07.717203+00:00",
-      "cliff_notes": "Adam Pervene has established himself as a leading figure in the intersection of artificial intelligence and advertising, particularly in the mobile gaming industry. His company, Apple 11, has garnered attention for its unique approach to marketing without relying on traditional venture capital funding. Pervene's insights into the effectiveness of AI in advertising have positioned him as a thought leader in the field, influencing how brands engage with consumers in a rapidly evolving digital landscape. His ability to operate successfully in a competitive market while maintaining a low media profile speaks to his strategic acumen and innovative mindset.",
-      "derived": {
-        "current_role": "Founder & CEO at Apple 11"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Adam Pervene has established himself as a leading figure in the intersection of artificial intelligence and advertising, particularly in the mobile gaming industry. His company, Apple 11, has garnered attention for its unique approach to marketing without relying on traditional venture capital funding. Pervene's insights into the effectiveness of AI in advertising have positioned him as a thought leader in the field, influencing how brands engage with consumers in a rapidly evolving digital landscape.",
-        "His ability to operate successfully in a competitive market while maintaining a low media profile speaks to his strategic acumen and innovative mindset."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Advertising",
-          "body": "Adam discusses the transformative impact of artificial intelligence on advertising strategies, particularly in mobile gaming. He emphasizes how AI can optimize ad placements and enhance user engagement."
-        },
-        {
-          "heading": "Mobile Gaming Market",
-          "body": "Pervene provides insights into the mobile gaming market, highlighting its growth potential and the unique challenges it presents for advertisers. He shares his perspective on how to navigate this dynamic landscape."
-        },
-        {
-          "heading": "Funding Strategies",
-          "body": "He shares his experience of building a successful company without relying on venture capital funding, discussing alternative funding strategies and the benefits of maintaining independence."
         }
       ]
     }
@@ -64155,184 +63901,6 @@ const dashboardData = {
     "net_worth": "$19.8M"
   },
   {
-    "id": 389,
-    "name": "DJ Smith",
-    "slug": "dj-smith",
-    "bio": "DJ Smith is an expert in the rapid evolution of cybersecurity practices, particularly focusing on the implications of AI advancements on security. He has argued for quicker patching processes due to the increasing sophistication of AI models that can exploit software vulnerabilities.",
-    "known_for": "His insights on the necessity of faster patching processes in response to AI advancements in cybersecurity.",
-    "net_worth_usd": 11400000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001272974/j-david-smith",
-    "net_worth_updated_at": "2026-08-07T12:04:33.157613",
-    "voice_tone": "Assertive and knowledgeable",
-    "voice_style": "Direct and persuasive",
-    "voice_delivery_notes": "Confident with a focus on the practical implications of AI in cybersecurity",
-    "voice_profile_updated_at": "2026-08-07 17:02:51",
-    "last_seen": "2026-08-07 17:02:51",
-    "last_episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.17,
-    "last_main_idea": "AI models are escalating the sophistication of cyber threats by exploiting software vulnerabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
-    "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
-    "supporting_takeaway": "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-07T12:04:32.051894",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "DJ Smith",
-      "fetched_at": "2026-08-07T17:04:32.051746+00:00",
-      "cliff_notes": "DJ Smith has made a name for himself as an authority in the field of cybersecurity, especially in the context of the rapid advancements in AI. His work emphasizes the need for swift responses to the evolving threats posed by AI, such as the ability of AI models to not only identify but also exploit software vulnerabilities. Smith's research and commentary have been influential in shaping the discourse around cybersecurity practices, urging for proactive measures to counter the threats posed by increasingly intelligent AI systems. His contributions are significant in the tech and finance sectors, where data security is paramount.",
-      "derived": {
-        "current_role": "Expert in Cybersecurity"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "DJ Smith has made a name for himself as an authority in the field of cybersecurity, especially in the context of the rapid advancements in AI. His work emphasizes the need for swift responses to the evolving threats posed by AI, such as the ability of AI models to not only identify but also exploit software vulnerabilities.",
-        "Smith's research and commentary have been influential in shaping the discourse around cybersecurity practices, urging for proactive measures to counter the threats posed by increasingly intelligent AI systems. His contributions are significant in the tech and finance sectors, where data security is paramount."
-      ],
-      "sections": [
-        {
-          "heading": "Cybersecurity and AI",
-          "body": "DJ Smith is known for his expertise in how AI advancements impact cybersecurity, stressing the need for quicker patching processes to counteract the evolving threats."
-        },
-        {
-          "heading": "AI Exploitation of Vulnerabilities",
-          "body": "Smith has discussed the alarming trend where AI models are moving beyond mere identification of software vulnerabilities to actively exploiting them, necessitating a reevaluation of cybersecurity strategies."
-        },
-        {
-          "heading": "Supply Chain Security",
-          "body": "In the context of supply chain security, Smith has raised questions about the moral obligations of labs that develop AI, suggesting that they should contribute to funding solutions for the security issues they inadvertently create."
-        }
-      ]
-    },
-    "net_worth": "$11.4M"
-  },
-  {
-    "id": 388,
-    "name": "Dylan Araps",
-    "slug": "dylan-araps",
-    "bio": "Dylan Araps is a software supply chain security expert known for his work in identifying and addressing vulnerabilities in software ecosystems. His insights into the weaknesses of software supply chains and the need for better vetting processes have made him a respected voice in cybersecurity.",
-    "known_for": "His expertise in software supply chain security and his discussions on the weaknesses in software ecosystems.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://finance-monthly.com/2025/02/bob-dylans-net-worth-2025-legendary-songwriters-fortune-revealed",
-    "net_worth_updated_at": "2026-08-07T12:04:24.815555",
-    "voice_tone": "Concerned and analytical",
-    "voice_style": "Detailed and explanatory",
-    "voice_delivery_notes": "Paced with pauses for emphasis on critical points",
-    "voice_profile_updated_at": "2026-08-07 17:02:51",
-    "last_seen": "2026-08-07 17:02:51",
-    "last_episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.17,
-    "last_main_idea": "AI models are escalating the sophistication of cyber threats by exploiting software vulnerabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
-    "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
-    "supporting_takeaway": "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-07T12:04:23.683690",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dylan Araps",
-      "fetched_at": "2026-08-07T17:04:23.683537+00:00",
-      "cliff_notes": "Dylan Araps is a prominent figure in the field of software supply chain security. His work focuses on identifying vulnerabilities within software ecosystems and advocating for better vetting processes to mitigate risks. Araps has been vocal about the weaknesses in software supply chains, emphasizing the need for improved security measures to protect against potential threats. His contributions to the cybersecurity community have been influential, particularly in understanding the implications of software supply chain attacks and the propagation of malware through compromised packages. Araps' insights are crucial for organizations seeking to bolster their defenses against sophisticated cyber threats.",
-      "derived": {
-        "current_role": "Software Supply Chain Security Expert"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dylan Araps is a prominent figure in the field of software supply chain security. His work focuses on identifying vulnerabilities within software ecosystems and advocating for better vetting processes to mitigate risks. Araps has been vocal about the weaknesses in software supply chains, emphasizing the need for improved security measures to protect against potential threats.",
-        "His contributions to the cybersecurity community have been influential, particularly in understanding the implications of software supply chain attacks and the propagation of malware through compromised packages. Araps' insights are crucial for organizations seeking to bolster their defenses against sophisticated cyber threats."
-      ],
-      "sections": [
-        {
-          "heading": "Software Supply Chain Security",
-          "body": "Dylan Araps is recognized for his work in identifying vulnerabilities in software supply chains and advocating for improved vetting processes to enhance security."
-        },
-        {
-          "heading": "Cybersecurity Threats",
-          "body": "Araps has discussed the evolving nature of cybersecurity threats, including the potential for AI models to exploit software vulnerabilities, and the implications for software supply chain security."
-        },
-        {
-          "heading": "Moral Obligations of Labs",
-          "body": "In discussions, Araps has questioned the moral obligations of labs that develop tools which could potentially be used to break into supply chains, suggesting that they should also fund solutions to the problems they create."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
-    "id": 387,
-    "name": "Joel Deligarza",
-    "slug": "joel-deligarza",
-    "bio": "Joel Deligarza is a cybersecurity expert who is particularly known for his insights on AI models and their escalating impact on cyber threats. He discusses the moral obligation of labs to address security issues and the implications of AI-driven threats on the cybersecurity landscape.",
-    "known_for": "His expertise in AI-driven cyber threats and the ethical considerations of AI labs in cybersecurity.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Urgent and informative",
-    "voice_style": "Factual and assertive",
-    "voice_delivery_notes": "Clear and concise with emphasis on the urgency of AI in cybersecurity",
-    "voice_profile_updated_at": "2026-08-07 17:02:51",
-    "last_seen": "2026-08-07 17:02:51",
-    "last_episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.17,
-    "last_main_idea": "AI models are escalating the sophistication of cyber threats by exploiting software vulnerabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
-    "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
-    "supporting_takeaway": "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-07T12:04:14.717193",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Joel Deligarza",
-      "fetched_at": "2026-08-07T17:04:14.716954+00:00",
-      "cliff_notes": "Joel Deligarza is a prominent figure in the field of cybersecurity, with a specific focus on AI-driven threats. His work revolves around understanding how AI models are not only identifying software vulnerabilities but also beginning to exploit them, which has significant implications for the security of digital infrastructure. Deligarza has been vocal about the moral obligations of labs that develop these AI models, suggesting that they should take responsibility for the security issues their creations may cause. His expertise is sought after for understanding the evolving landscape of cyber threats and the role that advanced technologies play in both creating and mitigating these risks.",
-      "derived": {
-        "current_role": "Cybersecurity Expert"
-      },
-      "infobox": {
-        "Nationality": "Unknown"
-      },
-      "lead_paragraphs": [
-        "Joel Deligarza is a prominent figure in the field of cybersecurity, with a specific focus on AI-driven threats. His work revolves around understanding how AI models are not only identifying software vulnerabilities but also beginning to exploit them, which has significant implications for the security of digital infrastructure.",
-        "Deligarza has been vocal about the moral obligations of labs that develop these AI models, suggesting that they should take responsibility for the security issues their creations may cause. His expertise is sought after for understanding the evolving landscape of cyber threats and the role that advanced technologies play in both creating and mitigating these risks."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Cybersecurity",
-          "body": "Joel Deligarza discusses the increasing capabilities of AI models in identifying and exploiting software vulnerabilities, highlighting the need for labs to consider the security implications of their work."
-        },
-        {
-          "heading": "Moral Obligation of Labs",
-          "body": "Deligarza argues that labs developing AI models have a moral obligation to address the security issues their creations may cause, especially when it comes to supply chain vulnerabilities."
-        },
-        {
-          "heading": "Cyber Threat Escalation",
-          "body": "He points out that AI models are escalating cyber threats, with incidents such as leaked API keys and backdoored packages, which can lead to widespread propagation of malicious software."
-        }
-      ]
-    }
-  },
-  {
     "id": 384,
     "name": "Simon Mow",
     "slug": "simon-mow",
@@ -65689,70 +65257,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.00B"
-  },
-  {
-    "id": 348,
-    "name": "Peter Ludwig",
-    "slug": "peter-ludwig",
-    "bio": "Peter Ludwig is a co-founder of Applied Intuition, a company dedicated to the global expansion and technological development of autonomous systems. He is focused on enabling intelligence on machines, with an emphasis on physical applications such as cars, trucks, tanks, and drones.",
-    "known_for": "His role in pioneering the field of physical AI and the development of autonomous systems.",
-    "net_worth_usd": 14000000.0,
-    "net_worth_source": "https://www.citimuzik.com/2024/01/ludwig-net-worth.html",
-    "net_worth_updated_at": "2026-07-21T22:02:31.887931",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-07-21 18:36:42",
-    "last_episode_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.12,
-    "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
-    "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
-    "supporting_takeaway": "Autonomous systems are already making an impact in various industries, including automotive and mining.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-21T13:36:52.291863",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Ludwig",
-      "fetched_at": "2026-07-21T18:36:52.291366+00:00",
-      "cliff_notes": "Peter Ludwig is recognized for his pivotal role in the advancement of autonomous systems through his co-founded company, Applied Intuition. His work focuses on embedding intelligence into machines, particularly those that operate in the physical world such as vehicles and drones. Ludwig's vision is to democratize the creation of autonomous systems, making it as accessible as developing iPhone apps. This ambition is aimed at transforming the global economy and society by making physical AI a more prevalent and comprehensible technology. His company's platform, Dana, encapsulates nearly a decade of development and is designed to facilitate the design and development of autonomous systems, making it easier for a broader audience to engage with this technology.",
-      "derived": {
-        "current_role": "Co-founder of Applied Intuition"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Peter Ludwig is recognized for his pivotal role in the advancement of autonomous systems through his co-founded company, Applied Intuition. His work focuses on embedding intelligence into machines, particularly those that operate in the physical world such as vehicles and drones. Ludwig's vision is to democratize the creation of autonomous systems, making it as accessible as developing iPhone apps.",
-        "This ambition is aimed at transforming the global economy and society by making physical AI a more prevalent and comprehensible technology. His company's platform, Dana, encapsulates nearly a decade of development and is designed to facilitate the design and development of autonomous systems, making it easier for a broader audience to engage with this technology."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Systems",
-          "body": "Peter Ludwig is deeply involved in the development and expansion of autonomous systems, aiming to make them as accessible as smartphone applications."
-        },
-        {
-          "heading": "Physical AI",
-          "body": "Ludwig's work emphasizes the importance of physical AI, which involves embedding intelligence into machines that operate in the physical world, such as vehicles and drones."
-        },
-        {
-          "heading": "Democratization of Technology",
-          "body": "His vision includes making the creation of autonomous systems as easy as making iPhone apps, thereby broadening the reach and impact of this technology."
-        },
-        {
-          "heading": "Platform Development",
-          "body": "Applied Intuition's platform, Dana, is a result of nearly a decade of development and is designed to simplify the process of designing and developing autonomous systems."
-        }
-      ]
-    },
-    "net_worth": "$14.0M"
   },
   {
     "id": 347,
@@ -67263,6 +66767,67 @@ const dashboardData = {
     "net_worth": "$87.0M"
   },
   {
+    "id": 73,
+    "name": "Sam Altman",
+    "slug": "sam-altman",
+    "bio": null,
+    "known_for": "His leadership at OpenAI and his revised views on AI's impact on jobs and the future of work.",
+    "net_worth_usd": 2100000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
+    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-30 18:36:25",
+    "last_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-30",
+    "mention_score": 2,
+    "mention_score_decayed": 0.07,
+    "last_main_idea": "Reassess AI investment strategies based on evolving job market narratives.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
+    "supporting_takeaway": "Reassess AI investment strategies based on evolving job market narratives.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-30T13:36:34.383434",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sam Altman",
+      "fetched_at": "2026-05-30T18:36:34.383095+00:00",
+      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time. Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society.",
+      "derived": {
+        "current_role": "President of OpenAI",
+        "education": "Stanford University; dropout"
+      },
+      "infobox": {
+        "Born": "1985",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time.",
+        "Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at OpenAI",
+          "body": "Sam Altman serves as the President of OpenAI, where he leads the development and deployment of artificial general intelligence with a focus on ensuring its benefits are widely distributed."
+        },
+        {
+          "heading": "Views on AI and Jobs",
+          "body": "Initially warning about the potential for AI to displace white-collar jobs, Altman has since revised his views, suggesting that the so-called job apocalypse may not occur as predicted."
+        },
+        {
+          "heading": "Influence in AI Community",
+          "body": "Altman's leadership and public statements have made him a prominent voice in the AI community, influencing discussions on the ethical and societal implications of AI advancements."
+        }
+      ]
+    },
+    "net_worth": "$2.10B"
+  },
+  {
     "id": 309,
     "name": "Shashank Charanawala",
     "slug": "shashank-charanawala",
@@ -67513,65 +67078,6 @@ const dashboardData = {
     "net_worth": "$809.0M"
   },
   {
-    "id": 302,
-    "name": "Jeff Wu",
-    "slug": "jeff-wu",
-    "bio": "Jeff Wu is a venture investor known for his work in technology investments and his role at Anti-Fund. He has been instrumental in the oversubscribed $100 million growth fund, focusing on backing visionary founders building the future.",
-    "known_for": "His focus on technology investments and his role in establishing Anti-Fund's $100 million growth fund.",
-    "net_worth_usd": 800000000.0,
-    "net_worth_source": "https://www.ainutoken.net/net-worth/jihan-wu/",
-    "net_worth_updated_at": "2026-06-23T05:01:36.022791",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Factual and informative.",
-    "voice_delivery_notes": "Speaks with a calm and composed tone, with clear enunciation.",
-    "voice_profile_updated_at": "2026-06-23 04:36:21",
-    "last_seen": "2026-06-23 04:36:21",
-    "last_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-22",
-    "mention_score": 1,
-    "mention_score_decayed": 0.06,
-    "last_main_idea": "Resilience is key for entrepreneurs and investors to navigate failures and setbacks.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
-    "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
-    "supporting_takeaway": "Founder taste and people reading skills are crucial for making successful investments.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-22T23:38:41.010858",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jeff Wu",
-      "fetched_at": "2026-06-23T04:38:41.010711+00:00",
-      "cliff_notes": "Jeff Wu has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future. His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector.",
-      "derived": {
-        "current_role": "Venture Investor at Anti-Fund"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Jeff Wu has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future.",
-        "His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital",
-          "body": "Jeff Wu is recognized for his work in venture capital, particularly in the technology sector. His focus on backing innovative founders has helped shape the future of tech."
-        },
-        {
-          "heading": "Anti-Fund",
-          "body": "As a venture investor at Anti-Fund, Wu has been instrumental in the establishment and success of the firm's $100 million growth fund, which targets visionary founders in the tech industry."
-        },
-        {
-          "heading": "Technology Investments",
-          "body": "Wu's expertise in technology investments has allowed him to identify and support startups that are pushing the boundaries of innovation, contributing to the growth of the tech sector."
-        }
-      ]
-    },
-    "net_worth": "$800.0M"
-  },
-  {
     "id": 298,
     "name": "Jim Chanos",
     "slug": "jim-chanos",
@@ -67698,67 +67204,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 297,
-    "name": "Eden Ha",
-    "slug": "eden-ha",
-    "bio": "Eden Ha is an AI expert who has transitioned from XCI to focus on language models and video generation. He emphasizes the importance of language in generative AI and has been involved in the development of video models. Ha is known for his contributions to the AI community, particularly through his work on Cosmos in a video and his presentations on memories.",
-    "known_for": "His work on language models and video generation in generative AI.",
-    "net_worth_usd": 10000000.0,
-    "net_worth_source": "https://networthflo.com/barbara-eden-net-worth/",
-    "net_worth_updated_at": "2026-06-18T22:06:02.667296",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-19 03:03:42",
-    "last_episode_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-06-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.06,
-    "last_main_idea": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
-    "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
-    "supporting_takeaway": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-18T22:06:01.430036",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Eden Ha",
-      "fetched_at": "2026-06-19T03:06:01.429692+00:00",
-      "cliff_notes": "Eden Ha is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field. His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community.",
-      "derived": {
-        "current_role": "AI Expert",
-        "former_positions": "XCI",
-        "books_or_works": "Cosmos in a video; Memories presentation"
-      },
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Eden Ha is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field.",
-        "His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community."
-      ],
-      "sections": [
-        {
-          "heading": "Language Models",
-          "body": "Eden Ha emphasizes the importance of language in generative AI, focusing on the development of language models that can better understand and generate human-like text."
-        },
-        {
-          "heading": "Video Generation",
-          "body": "Ha has been involved in the development of video models, which are AI systems capable of generating videos based on input data, opening up new possibilities in entertainment, education, and other industries."
-        },
-        {
-          "heading": "AI Community",
-          "body": "Eden Ha is an active member of the AI community, participating in an online group where members discuss AI papers and learn from each other. He has also presented his own work, such as Cosmos in a video and memories, to the group."
-        }
-      ]
-    },
-    "net_worth": "$10.0M"
   },
   {
     "id": 296,
