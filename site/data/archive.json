@@ -1,6 +1,70 @@
 {
   "insights": [
     {
+      "id": 606,
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-21",
+      "summary": "The episode centers on Tenex\u2019s AI-native software delivery model, where engineers are compensated for output rather than time and the company uses story points as a major calibration tool. Alex Lieberman argues the main feared failure modes of output-based pay\u2014sandbagging estimates and shipping bad code\u2014have not been major problems because Tenex\u2019s AI strategists are accountable for customer retention and growth, so they can push back when work does not serve the client. CJ Hess adds that as models improve, engineers will spend less time coding and more time converting customer context into something the models can use.\n\nA second major theme is Tenex\u2019s internal system, \u201cMetaHarness,\u201d which puts plans, decisions, and evidence into Git so agent work is legible and durable. CJ says the point is to give the team a persistent record of why choices were made, not just what was built, so long-running tasks can be understood and resumed. The discussion frames this as especially important as AI systems take on more of the actual implementation work.\n\nThe conversation also covers enterprise AI adoption benchmarks. Alex says roughly 90% of enterprises have rolled out a general-purpose LLM like Claude or Codex, around 60% have training and enablement, coding agents in engineering are closer to 50%, and agents in production for non-engineering work are only about 5%. The gap between raw model intelligence and real enterprise deployment is presented as the core diffusion problem, with permissioning and RBAC cited as a major blocker.\n\nA final thread is the strategic debate over vertical AI products. The speakers are skeptical that standalone vertical agent products are durable if frontier models keep absorbing the underlying task, but they think value may persist in the workflow layer around the agent\u2014interfaces, integrations, data consolidation, and habits. They also say token-cost pressure has eased versus 6 to 8 months ago, and Alex claims a Claude Code subscription integration could cut costs by about 80%.",
+      "key_takeaway": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
+      "tickers_mentioned": [
+        "AMP"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 595,
+      "notable_quotes": [
+        {
+          "speaker": "Alex Lieberman",
+          "quote": "Tenex\u2019s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn\u2019t serve the client."
+        },
+        {
+          "speaker": "CJ Hess",
+          "quote": "Plans and decisions are checked into Git alongside the code."
+        },
+        {
+          "speaker": "Alex Lieberman",
+          "quote": "But then the next, and this is where like the biggest, I would say, drop off is, where like the biggest diffusion gap is from like raw intelligence to enterprise usage, is agents in production for non-engineering work drops to like 5%."
+        }
+      ]
+    },
+    {
+      "id": 607,
+      "title": "The Missing Infrastructure for AI Agents: Documents | Reducto\u2019s Adit Abraham",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-21",
+      "summary": "The episode argues that rapid progress in AI reasoning has not solved the hardest part of knowledge-work automation: faithfully handling documents like PDFs, spreadsheets, scans, and other messy file formats. Adit Abraham says the binding constraint is not intelligence, but fidelity, determinism, traceability, and the risk of silent failures when information is missed or dropped in high-stakes workflows such as healthcare, legal, finance, and insurance.\n\nHe frames traditional OCR and IDP systems as insufficient for nested, multi-page, and multi-format documents, and says benchmark results can be misleading because they do not reflect real customer distributions. Abraham emphasizes that models can look strong on precision while still failing on recall in ways that are hard to detect in production, making evaluation harnesses and validation rules essential.\n\nReducto\u2019s pitch is a specialized document-processing foundation model plus a harness called Deep Extract that uses review and validation loops to reduce silent errors. Abraham claims the company can reach high-90s accuracy for most use cases, process billions of pages per month, and do so at about $0.01 per page, with the next step being more reliable document editing and localization workflows.\n\nThe conversation also touches on market timing and adoption. Abraham says the shift from selective parsing to economically processing massive page volumes is underway, mentions use by leading AI-native companies, and points to a near-term product push around document editing via a plugin-style interface. He repeatedly contrasts real-world document infrastructure with generic LLM progress, arguing that the former remains the harder and more commercially important problem.",
+      "key_takeaway": "Document-processing infrastructure, not generic AI reasoning, is becoming the bottleneck for high-stakes agent workflows, and Reducto claims to solve it at high accuracy and penny-per-page economics.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 596,
+      "notable_quotes": [
+        {
+          "speaker": "Adit Abraham",
+          "quote": "But much of the information they need to do of real work is still trapped inside PDFs, spreadsheets, scans, and other documents that machines struggle to reliably understand."
+        },
+        {
+          "speaker": "Adit Abraham",
+          "quote": "The failure mode was actually recall for the frontier models. They would silently drop information. That's a kind of thing that's really, really hard to catch in production."
+        },
+        {
+          "speaker": "Adit Abraham",
+          "quote": "Now we're down to a penny per page with very high quality parsing and extraction."
+        }
+      ]
+    },
+    {
       "id": 603,
       "title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
       "source_type": "podcast",
@@ -328,7 +392,7 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-16",
       "archived_date": null,
@@ -494,7 +558,7 @@
         "META"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-16",
       "archived_date": null,
@@ -13227,8 +13291,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-10-19",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -13237,8 +13301,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 590,
-      "last_mentioned_speaker": "Jean-Denis Greze"
+      "last_mentioned_episode_id": 596,
+      "last_mentioned_speaker": "Adit Abraham"
     },
     {
       "id": 295,
@@ -13299,8 +13363,8 @@
       "term": "AI Adoption",
       "description": "The integration of artificial intelligence technologies into business processes, which is currently at an early stage in enterprises.",
       "first_detected_date": "2026-09-30",
-      "last_mentioned_date": "2026-10-19",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding AI adoption is crucial for identifying companies that will benefit from increased efficiency and productivity.",
@@ -13309,8 +13373,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 536,
       "first_detected_speaker": "David George (hosts)",
-      "last_mentioned_episode_id": 590,
-      "last_mentioned_speaker": "Jean-Denis Greze"
+      "last_mentioned_episode_id": 595,
+      "last_mentioned_speaker": "Alex Lieberman, CJ Hess"
     },
     {
       "id": 293,
@@ -13335,8 +13399,8 @@
       "term": "Artifacts",
       "description": "Persistent data storage features in Claude Code that enhance collaboration among multiple agents.",
       "first_detected_date": "2026-09-29",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Utilizing artifacts can streamline project workflows and improve team collaboration.",
@@ -13345,8 +13409,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 531,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 550,
-      "last_mentioned_speaker": "Richard Socher"
+      "last_mentioned_episode_id": 596,
+      "last_mentioned_speaker": "Adit Abraham"
     },
     {
       "id": 299,
@@ -13551,8 +13615,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -13561,8 +13625,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 592,
-      "last_mentioned_speaker": "Karan Singhal"
+      "last_mentioned_episode_id": 596,
+      "last_mentioned_speaker": "Adit Abraham"
     },
     {
       "id": 284,
@@ -14379,8 +14443,8 @@
       "term": "FOMO",
       "description": "Fear of Missing Out, a term used to describe the anxiety of not participating in a potentially rewarding opportunity.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-10-10",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Conexberger suggests that FOMO played a role in the recent outperformance of emerging market equities.",
@@ -14389,8 +14453,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 568,
-      "last_mentioned_speaker": "Jason Calacanis"
+      "last_mentioned_episode_id": 595,
+      "last_mentioned_speaker": "Alex Lieberman, CJ Hess"
     },
     {
       "id": 10,
@@ -15621,8 +15685,8 @@
       "term": "AI Race",
       "description": "The idea that countries and companies are competing to reach and control leading AI capability first. The panel contrasted this race framing with arguments that the technology is open-ended and may run for decades.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-10-08",
-      "mention_count": 43,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because race dynamics can accelerate chip demand, government spending, and regulatory intervention.",
@@ -15631,8 +15695,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 565,
-      "last_mentioned_speaker": "Brent Johnson"
+      "last_mentioned_episode_id": 595,
+      "last_mentioned_speaker": "Alex Lieberman, CJ Hess"
     },
     {
       "id": 12,
@@ -15693,8 +15757,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 126,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 128,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -15703,8 +15767,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 592,
-      "last_mentioned_speaker": "Karan Singhal"
+      "last_mentioned_episode_id": 596,
+      "last_mentioned_speaker": "Adit Abraham"
     },
     {
       "id": 38,
