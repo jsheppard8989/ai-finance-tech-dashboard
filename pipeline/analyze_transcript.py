@@ -1360,17 +1360,13 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
 
 
 def _send_quota_alert(error_msg: str):
-    """Send ONE alert on 429/insufficient_quota. Deferred import to avoid cycles."""
+    """Log ONE alert on 429/insufficient_quota (log only; no iMessage)."""
     try:
-        from workspace_paths import workspace_root
-        import subprocess
-        imessage = workspace_root() / "send_imessage.sh"
-        if imessage.exists():
-            msg = f"ANALYZER QUOTA ALERT\n\nBatch stopped due to rate limit / insufficient quota.\n\n{error_msg[:500]}"
-            subprocess.run([str(imessage), "+16306437437", msg], capture_output=True, timeout=15)
-            print("    ✓ Sent quota alert notification")
+        from auto_pipeline import send_notification
+        send_notification("ANALYZER QUOTA ALERT",
+                          f"Batch stopped due to rate limit / insufficient quota. {error_msg[:500]}", priority=1)
     except Exception as e:
-        print(f"    ⚠ Could not send quota alert: {e}")
+        print(f"    ⚠ ANALYZER QUOTA ALERT (could not log): {e} | {error_msg[:500]}")
 
 
 def process_all_transcripts() -> Dict[str, any]:
