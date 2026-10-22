@@ -61,6 +61,12 @@ EXCLUDED_GUEST_APPEARANCES: FrozenSet[tuple] = frozenset(
     {
         # Dwarkesh Oct 22 2026 Intel fab episode: Elon is quoted (Terafab clip), not a guest.
         ("Elon Musk", "What will computer chips look like in 2045?"),
+        # Moonshots #303 (Oct 17 2026): Dawn Mussallem (Fountain Life CMO) is a sponsor read,
+        # not a guest; G, Oct 22 2026. DB name is ASR-garbled; corrected forms listed too.
+        ("Dr. Don Musalam", "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303"),
+        ("Don Musalam", "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303"),
+        ("Dr. Dawn Mussallem", "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303"),
+        ("Dawn Mussallem", "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303"),
     }
 )
 _EXCLUDED_APPEARANCES_LOWER = frozenset((n.lower(), t.lower()) for n, t in EXCLUDED_GUEST_APPEARANCES)
