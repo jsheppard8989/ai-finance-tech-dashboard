@@ -1465,10 +1465,9 @@ def _main():
         if os.environ.get("MARKET_DATA_FETCH_LOCAL", "").strip().lower() in ("1", "true", "yes"):
             run_script("Fetch GPU Index", "fetch_gpu_index.py", timeout=60)
             run_script("Fetch Compute Forward Curve", "fetch_compute_curve.py", timeout=60)
-            run_script("Fetch Curve Data", "fetch_curve.py", timeout=120)
             run_script("Fetch Treasury Calendar", "fetch_treasury_calendar.py", timeout=90)
         else:
-            print("\n⏭ Skipping GPU/Curve/Treasury fetch (owned by GitHub Actions market-data.yml; "
+            print("\n⏭ Skipping GPU/Treasury fetch (owned by GitHub Actions market-data.yml; "
                   "set MARKET_DATA_FETCH_LOCAL=1 to run locally).")
             # Never publish a stale local copy over the Action's data.
             subprocess.run(["git", "checkout", "--", "site/data/market_data.json"],

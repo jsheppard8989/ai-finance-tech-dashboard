@@ -7,6 +7,8 @@ on:
     paths:
       - 'site/**'
       - 'pipeline/data/**'
+      - 'commentary/**'
+      - 'pipeline/export_commentary.py'
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -39,6 +41,11 @@ jobs:
           cp -r site/* ./_site/
           # Ensure data directory is included
           ls -la ./_site/data/
+
+      # Market Commentary: render the newest commentary/YYYY-MM-DD.md (escaped) into the
+      # artifact, so a merged post goes live without waiting for a Mac publish.
+      - name: Build Market Commentary
+        run: python3 pipeline/export_commentary.py --out ./_site/data/commentary/latest.json
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

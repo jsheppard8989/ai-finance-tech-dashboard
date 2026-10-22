@@ -1963,6 +1963,12 @@ def main():
     
     export_website_data()
     generate_website_js()
+    # Market Commentary: newest commentary/YYYY-MM-DD.md -> site/data/commentary/latest.json
+    try:
+        import export_commentary
+        export_commentary.main([])
+    except Exception as e:
+        print(f"  ⚠ commentary export skipped: {e}")
     
     print(f"\n✓ Data export complete")
 

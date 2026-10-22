@@ -92,6 +92,8 @@ def load_market_data(
 
 # Internal to-do / follow-up notes never ship in the public market_data.json.
 INTERNAL_STATUS_KEYS = ("follow_up_for_tony",)
+# Sections no longer published (Curve Snapshot retired Oct 22 2026 for Market Commentary).
+RETIRED_SECTIONS = ("curve_data",)
 
 
 def strip_internal_notes(market_data: dict) -> dict:
@@ -101,6 +103,11 @@ def strip_internal_notes(market_data: dict) -> dict:
         for k in list(status):
             if k in INTERNAL_STATUS_KEYS or k.startswith("follow_up"):
                 status.pop(k, None)
+        for k in RETIRED_SECTIONS:
+            status.pop(k, None)
+    if isinstance(market_data, dict):
+        for k in RETIRED_SECTIONS:
+            market_data.pop(k, None)
     return market_data
 
 

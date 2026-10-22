@@ -90,12 +90,12 @@ def test_validate_rejects_empty_and_past():
 
 def test_main_writes_tmp_market_data(monkeypatch):
     path = ftc.MARKET_DATA_FILE  # tmp via conftest
-    path.write_text(json.dumps({"curve_data": {"x": 1}, "data_fetch_status": {"treasury_calendar": "stub"}}))
+    path.write_text(json.dumps({"compute_forward": {"x": 1}, "data_fetch_status": {"treasury_calendar": "stub"}}))
     payloads = {ftc.AUCTIONED_URL: AUCTIONED, ftc.UPCOMING_URL: UPCOMING, ftc.ANNOUNCED_URL: []}
     monkeypatch.setattr(ftc, "_get_json", lambda url, timeout=30: payloads[url])
     assert ftc.main() == 0
     md = json.loads(path.read_text())
-    assert md["curve_data"] == {"x": 1}  # other sections preserved
+    assert md["compute_forward"] == {"x": 1}  # other sections preserved
     assert md["data_fetch_status"]["treasury_calendar"] == "live"
     assert md["treasury_calendar"]["recent_auction_results"][0]["cusip"] == "912810UW6"
 
