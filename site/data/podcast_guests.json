@@ -1,6 +1,6 @@
 [
   {
-    "id": 94911,
+    "id": 95477,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -12,7 +12,19 @@
     "appearance_count": 1
   },
   {
-    "id": 94912,
+    "id": 95478,
+    "name": "Arvind Krishna & Nikesh Arora",
+    "slug": "arvind-krishna--nikesh-arora",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
+    "last_episode_title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 95479,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94913,
+    "id": 95480,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94914,
+    "id": 95481,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94915,
+    "id": 95482,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94916,
+    "id": 95483,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94917,
+    "id": 95484,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94918,
+    "id": 95485,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94919,
+    "id": 95486,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94921,
+    "id": 95488,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 2
   },
   {
-    "id": 94920,
+    "id": 95487,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94922,
+    "id": 95489,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94923,
+    "id": 95490,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94924,
+    "id": 95491,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94925,
+    "id": 95492,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94926,
+    "id": 95493,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94927,
+    "id": 95494,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94928,
+    "id": 95495,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94929,
+    "id": 95496,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94930,
+    "id": 95497,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94931,
+    "id": 95498,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94932,
+    "id": 95499,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94933,
+    "id": 95500,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94934,
+    "id": 95501,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94935,
+    "id": 95502,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94936,
+    "id": 95503,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94937,
+    "id": 95504,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94938,
+    "id": 95505,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 94939,
+    "id": 95506,
     "name": "Cathie Wood",
     "slug": "cathie-wood",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-29",
-    "appearance_count": 1
-  },
-  {
-    "id": 94940,
-    "name": "Palmer Luckey",
-    "slug": "palmer-luckey",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Palmer Luckey argues Anduril can disrupt defense procurement because it self-funds specialized autonomous products in a market where 80% of major defense acquisition programs went to five companies.",
-    "last_episode_title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-28",
     "appearance_count": 1
   }
 ]
