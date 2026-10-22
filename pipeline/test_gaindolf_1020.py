@@ -170,7 +170,9 @@ class SiteDataTests(unittest.TestCase):
             self.assertEqual(titles[591], TITLE_591)
         self.assertEqual(d["deepDives"]["601"]["insight_title"], NEW_601)
         taste = [o for o in d["mainContent"]["overton"] if o.get("term") == "Taste"][0]
-        self.assertEqual(taste["last_mentioned_episode_title"], NEW_601)
+        # A newer episode can become Taste's latest mention (Oct 22 2026); just forbid the old title.
+        last = taste["last_mentioned_episode_title"] or ""
+        self.assertFalse(any(old in last for old in self.OLD), last)
 
     def test_602_quote_dropped(self):
         d = self.files["data.js"]

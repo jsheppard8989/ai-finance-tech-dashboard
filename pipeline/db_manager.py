@@ -782,30 +782,53 @@ class DashboardDB:
                     pe.investment_thesis,
                     pe.key_takeaways,
                     pe.transcript_path AS transcript_path,
-                    agg.appearance_count
+                    a.id AS appearance_id
                 FROM entities e
                 JOIN appearances a ON a.entity_id = e.id AND LOWER(a.role) = 'guest_primary' AND a.source_type = 'podcast'
-                JOIN (
-                    SELECT entity_id, COUNT(*) AS appearance_count
-                    FROM appearances
-                    WHERE LOWER(role) = 'guest_primary' AND source_type = 'podcast'
-                    GROUP BY entity_id
-                ) agg ON agg.entity_id = e.id
-                JOIN (
-                    SELECT entity_id, MAX(id) AS mid
-                    FROM appearances
-                    WHERE LOWER(role) = 'guest_primary' AND source_type = 'podcast'
-                    GROUP BY entity_id
-                ) latest ON latest.entity_id = a.entity_id AND a.id = latest.mid
                 LEFT JOIN podcast_episodes pe ON pe.id = a.source_id
                 WHERE e.type = 'person'
-                ORDER BY a.created_at DESC, agg.appearance_count DESC, e.name COLLATE NOCASE ASC
+                ORDER BY e.id ASC, a.id DESC
                 """
             )
-            rows = [dict(row) for row in cursor.fetchall()]
+            all_rows = [dict(row) for row in cursor.fetchall()]
+            # Guest check: an appearance only counts if the person is named in the episode
+            # title, show notes or transcript speaker labels (else they were only mentioned).
+            # Known mention-only rows are also listed in pundit_exclusions.
+            from guest_check import episode_evidence, is_listed_guest
+            from pundit_exclusions import is_excluded_guest_appearance
+            _evidence_cache: Dict = {}
+            by_entity: Dict = {}
+            self.demoted_guest_appearances = []
+            for r in all_rows:
+                nm = (r.get('name') or '').strip()
+                title = r.get('last_episode_title') or ''
+                if is_excluded_guest_appearance(nm, title):
+                    verdict = False
+                else:
+                    tp = r.get('transcript_path')
+                    if tp not in _evidence_cache:
+                        _evidence_cache[tp] = episode_evidence(tp)
+                    notes, labels = _evidence_cache[tp]
+                    verdict = is_listed_guest(nm, title, notes, labels)
+                if verdict is False:
+                    self.demoted_guest_appearances.append({
+                        'entity_id': r['id'], 'name': nm, 'appearance_id': r.get('appearance_id'),
+                        'podcast': r.get('last_podcast_name'), 'episode_date': r.get('last_episode_date'),
+                        'episode_title': title,
+                    })
+                    continue
+                slot = by_entity.setdefault(r['id'], {'row': r, 'count': 0})
+                slot['count'] += 1
+            rows = []
+            for slot in by_entity.values():
+                r = slot['row']
+                r['appearance_count'] = slot['count']
+                rows.append(r)
+            rows.sort(key=lambda r: (str(r.get('last_seen') or ''), r['appearance_count']), reverse=True)
 
             from person_name_safety import is_placeholder_person_name, fails_stranger_name_check
             from pundit_exclusions import is_excluded_pundit_name
+            from guest_check import is_rejected_bio
 
             pundits = []
             for row in rows:
@@ -841,7 +864,7 @@ class DashboardDB:
                     'id': row['id'],
                     'name': row['name'],
                     'slug': row['slug'],
-                    'bio': row['bio'],
+                    'bio': None if is_rejected_bio(row['bio']) else row['bio'],
                     'known_for': row['known_for'],
                     'net_worth_usd': row.get('net_worth_usd'),
                     'net_worth_source': row.get('net_worth_source'),

@@ -54,6 +54,12 @@ def _d(s: Optional[str]) -> Optional[str]:
     return s[:10] if s else None
 
 
+def auction_date(x: Dict[str, Any]) -> Optional[str]:
+    """Auction date as YYYY-MM-DD. TA_WS dropped 'auctionDate' (~Oct 17 2026); fall back
+    to 'competitiveAuctionCloseDate'."""
+    return _d(x.get("auctionDate") or x.get("competitiveAuctionCloseDate"))
+
+
 def _f(v: Any, nd: int = 3) -> Optional[float]:
     try:
         if v in (None, ""):
@@ -100,7 +106,7 @@ def build_result(x: Dict[str, Any]) -> Dict[str, Any]:
     indirect = _f(x.get("indirectBidderAccepted"), 0)
     btc = _f(x.get("bidToCoverRatio"), 2)
     r = {
-        "date": _d(x.get("auctionDate")),
+        "date": auction_date(x),
         "security": security_label(x),
         "cusip": x.get("cusip"),
         "size_billions": _bn(x.get("offeringAmount")),
@@ -129,10 +135,10 @@ def build_result(x: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def build_upcoming(x: Dict[str, Any], sizes: Dict[Tuple[str, str], Any]) -> Dict[str, Any]:
-    key = (x.get("cusip"), _d(x.get("auctionDate")))
+    key = (x.get("cusip"), auction_date(x))
     amt = x.get("offeringAmount") or sizes.get(key)
     return {
-        "date": _d(x.get("auctionDate")),
+        "date": auction_date(x),
         "security": security_label(x),
         "cusip": x.get("cusip"),
         "size_billions": _bn(amt),
@@ -170,18 +176,18 @@ def build_calendar(
 ) -> Dict[str, Any]:
     today = today or date.today()
     t = today.isoformat()
-    sizes = {(a.get("cusip"), _d(a.get("auctionDate"))): a.get("offeringAmount")
+    sizes = {(a.get("cusip"), auction_date(a)): a.get("offeringAmount")
              for a in (announced or []) if a.get("offeringAmount")}
 
-    recent = [x for x in auctioned if is_coupon(x) and _d(x.get("auctionDate"))
-              and _d(x.get("auctionDate")) <= t
+    recent = [x for x in auctioned if is_coupon(x) and auction_date(x)
+              and auction_date(x) <= t
               and (x.get("highYield") or x.get("highDiscountMargin"))]
-    recent.sort(key=lambda x: (x.get("auctionDate") or "", x.get("securityTerm") or ""), reverse=True)
+    recent.sort(key=lambda x: (auction_date(x) or "", x.get("securityTerm") or ""), reverse=True)
 
     seen = set()
     ups = []
-    for x in sorted(upcoming, key=lambda x: x.get("auctionDate") or ""):
-        d = _d(x.get("auctionDate"))
+    for x in sorted(upcoming, key=lambda x: auction_date(x) or ""):
+        d = auction_date(x)
         if not d or d < t or not is_coupon(x):
             continue  # drop past dates and bills
         k = (x.get("cusip"), d)
@@ -236,8 +242,9 @@ def mark_stale(reason: str) -> bool:
         return False
     tc = md.get("treasury_calendar")
     if isinstance(tc, dict):
+        if not tc.get("_stale"):
+            tc["_stale_since"] = datetime.now().isoformat(timespec="seconds")
         tc["_stale"] = True
-        tc["_stale_since"] = datetime.now().isoformat(timespec="seconds")
         tc["_stale_reason"] = reason
     return _write(md, "stale")
 
