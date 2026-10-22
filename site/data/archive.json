@@ -1,6 +1,74 @@
 {
   "insights": [
     {
+      "id": 610,
+      "title": "What will computer chips look like in 2045?",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-10-22",
+      "summary": "The episode argues that AI-driven semiconductor demand has created a supply shock that current leading-edge manufacturing cannot satisfy, with equipment availability\u2014especially EUV\u2014acting as the primary bottleneck. Pushkar Ranade says the industry is constrained by the installed tool base and that output growth is likely closer to 2x than 10x, even with aggressive capex, because the upstream supply chain cannot instantly expand.\n\nChris Auth explains how Intel is balancing node innovation, yield, and schedule on 14A and beyond. He says Intel\u2019s 18A began without a mature PDK, but 14A will have a better one \u201cfrom the get-go,\u201d and he argues that Intel\u2019s architecture, including backside power, makes High-NA EUV economically and technically more attractive than for TSMC. He also emphasizes that process development uses phase-gate maturity metrics, inline metrology, defect tracing, and a large factory complexity of roughly 2,000 steps.\n\nA major theme is that the next gains in compute may depend as much on packaging and interconnect as on transistor scaling. Tyler Osborn describes hybrid bonding as a long-run density and power lever, with reliability already shown at a 0.45 micron pitch in the literature and current HVM around 25 micrometer pitch. The discussion frames chip-to-wafer bonding as potentially more practical than wafer-to-wafer in some cases because it preserves yield by bonding known-good dies.\n\nThe episode also explores longer-horizon transistor and materials possibilities, including gate-all-around, backside power, ruthenium interconnects, and eventually exotic 3D structures. But the near-term message is more restrictive than exuberant: the pace of AI compute scaling is increasingly limited by fab tools, packaging constraints, thermal issues, and the difficulty of coordinating the whole semiconductor supply chain.",
+      "key_takeaway": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
+      "tickers_mentioned": [
+        "INTC",
+        "TSM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 600,
+      "notable_quotes": [
+        {
+          "speaker": "Pushkar Ranade",
+          "quote": "It is a limiter. We have to make the most of the capacity that we already have installed."
+        },
+        {
+          "speaker": "Pushkar Ranade",
+          "quote": "Not 10X, but probably 2X, yes."
+        },
+        {
+          "speaker": "Chris Auth",
+          "quote": "High-NA\u2019s a good example of where, because of the architecture of our technology versus TSMC\u2019s, we make different conclusions off of the same tool set."
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "title": "You are the Team  \u2014 Anekha Sokhal, Moshi",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-22",
+      "summary": "The episode centers on Anekha Sokhal explaining Moshi, an AI product for traders, and why she believes the winning product is not a generic dashboard or \u201cnew Bloomberg,\u201d but a recommendation and workflow layer that turns large volumes of market data into portfolio-relevant actions. She says Moshi starts with commodity, energy, and macro traders, and ingests structured futures data, fundamentals, news, alternative data like X/Twitter and podcast audio, plus private user data. She emphasizes data cleaning, tagging, ontology building, and a graph-based presentation layer that pushes relevant items directly into the software interface.\n\nA major theme is that trader AI must solve both curation and UI/workflow integration. Sokhal argues that if you solve the recommendation problem, you naturally solve the interface problem because the software can surface what matters in the trader\u2019s existing workflow. She gives a concrete example: if an energy equities company does something that indirectly impacts oil, an oil trader needs to know immediately. She also says Moshi can turn what might take days of manual work into LLM answers in about 30 seconds, and uses the comparison that in the same time it takes her to speak a sentence, Moshi has learned 300 new things.\n\nThe conversation also covers alternative data and trust. Sokhal says traders often rely on a small set of trusted voices, especially in commodities, and that when multiple trusted sources disagree, the disagreement itself can be signal if paired with confidence scoring. She is skeptical of indiscriminate data ingestion, especially for user-provided data, and says Moshi does not want to send such data to third parties. The discussion references Reducto as an off-the-shelf document extraction option, but her answer frames the decision as dependent on privacy and whether the company can justify building in-house.\n\nOn the business side, Sokhal says inbound demand increased sharply after an AI Engineer New York talk, creating meetings, partnership requests, and even a webinar. The episode also includes broader context from her background in energy derivatives trading, JPMorgan, and machine learning research, which she presents as the foundation for Moshi\u2019s approach to financial AI.",
+      "key_takeaway": "Moshi\u2019s key claim is that trader AI wins by combining recommendation systems with workflow-native UI, not by building a generic Bloomberg-like interface.",
+      "tickers_mentioned": [
+        "MOSHI",
+        "NASA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 599,
+      "notable_quotes": [
+        {
+          "speaker": "Anekha Sokhal",
+          "quote": "So what we do is we provide real time insights for financial traders, starting with commodity and energy markets and macro markets."
+        },
+        {
+          "speaker": "Anekha Sokhal",
+          "quote": "We\u2019ve built a recommendation system where a simple thing, if you\u2019re, let\u2019s bring it back to like an oil trader, and there\u2019s an energy equities company that\u2019s doing something which would indirectly impact oil, you need to know that right now."
+        },
+        {
+          "speaker": "Anekha Sokhal",
+          "quote": "The first question for us is we, if someone\u2019s giving us their data, we don\u2019t want to be sending it to a third party."
+        }
+      ]
+    },
+    {
       "id": 606,
       "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
       "source_type": "podcast",
@@ -61,6 +129,73 @@
         {
           "speaker": "Adit Abraham",
           "quote": "Now we're down to a penny per page with very high quality parsing and extraction."
+        }
+      ]
+    },
+    {
+      "id": 608,
+      "title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-10-21",
+      "summary": "Nikesh Arora argues that quantum computing is approaching a practical inflection point that should be treated as a cryptography migration problem now, not later. He says the debate is less about whether cryptography breaks than whether the midpoint is 2028, 2029, or 2033, and suggests using 2030 as a working assumption. His key warning is that stolen encrypted data can be stored and decrypted years later, so organizations cannot wait until the break is imminent.\n\nArora says the technical pieces of post-quantum cryptography are already known and coded; the real problem is organizational inertia. He frames the practical milestones as demonstrating error correction on running hardware and scaling gate computations from roughly 10,000 today toward 10 million by 2029 if growth continues. He also emphasizes that quantum claims should be independently validated, because the field contains many demonstrations that are not yet commercially real.\n\nThe conversation then shifts to AI economics and enterprise deployment. Arora argues that frontier model usage is expensive, citing about $20 per million tokens and up to $50 at the extreme, while open-weight models on owned GPUs could potentially be run for roughly $1 to $2 per million tokens after about a week of engineering work. He says this cost gap, plus IP leakage concerns and auditability, could drive 75% to 90% of token usage toward open-weight models over the next couple of years.\n\nIn cybersecurity, Arora describes an AI-driven arms race where defenders can use cheaper, faster models, open-weight systems, and trusted intermediaries to distribute patches and reduce attacker advantage. He says AI-assisted code generation still requires verification because models hallucinate, so the bottleneck becomes checking rather than generating. He concludes that SaaS faces major disruption because enterprises rely on hundreds to thousands of vendors, and AI will reduce the defensibility of many independent point solutions, accelerating consolidation.",
+      "key_takeaway": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 598,
+      "notable_quotes": [
+        {
+          "speaker": "Nikesh Arora",
+          "quote": "Unfortunately for some of you what's even worse, if you have an encrypted hardlist today that gets stolen, somebody could keep it for five years and break it at that point."
+        },
+        {
+          "speaker": "Nikesh Arora",
+          "quote": "So today, $20 dollars for a million tokens for probably generation minus one. 50 if you want to go to the most extreme."
+        },
+        {
+          "speaker": "Nikesh Arora",
+          "quote": "The average enterprise uses anywhere from 500 to 5000 distinct software vendors. In a world when you have to protect against it all, it's not just the cyber threat, that's a massive attack surface."
+        }
+      ]
+    },
+    {
+      "id": 609,
+      "title": "Chamath: AGI Is Here, Anthropic\u2019s $100B Giveaway, Elon\u2019s SpaceX Shares for 72M Kids | EP #304",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-21",
+      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Jamoth/Paul Habatilla pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
+      "key_takeaway": "AI\u2019s biggest near-term bottleneck is power and compute infrastructure, making energy build-out more important than model capability alone.",
+      "tickers_mentioned": [
+        "ANTH",
+        "TSLA",
+        "NVDA",
+        "FSLR"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 597,
+      "notable_quotes": [
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "Quote, subject to stockholder approval. 5% of Anthropic shares will be committed today."
+        },
+        {
+          "speaker": "Jamoth (Paul Habatilla as referenced in transcript context)",
+          "quote": "The real question is, what is their failsafe to course correct? If this mean reverts and becomes what, you know, everything else in the world has overwhelmingly looked like when philanthropically minded people give large sums of money away in big bursts, which is, you know, not a lot of quantifiable outcome."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "So let's do the math for a second. There are 72 million Americans under age 18 and SpaceX current stock price about 140 bucks today."
         }
       ]
     },
@@ -225,7 +360,7 @@
       "key_takeaway": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-18",
       "archived_date": null,
@@ -293,7 +428,7 @@
         "COIN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-16",
       "archived_date": null,
@@ -326,7 +461,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-17",
       "archived_date": null,
@@ -359,7 +494,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-18",
       "archived_date": null,
@@ -13125,6 +13260,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 313,
+      "term": "floor",
+      "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
+      "first_detected_date": "2026-10-20",
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 8,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": null,
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 592,
+      "first_detected_speaker": "Karan Singhal",
+      "last_mentioned_episode_id": 599,
+      "last_mentioned_speaker": "Anekha Sokhal"
+    },
+    {
       "id": 311,
       "term": "Cost of intelligence",
       "description": "The effective cost of producing useful intelligence, which the speakers expect to decline as compute scales and models become more efficient. It is treated as a key analog to Moore\u2019s Law.",
@@ -13201,8 +13354,8 @@
       "term": "super intelligence,",
       "description": "with Peter Diamandis citing a new White House Super Intelligence Force chaired by Director of National Intelligence Jay Clayton and a 120-day mandate to report on AI risks, opportunities, incident rep",
       "first_detected_date": "2026-10-11",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 37,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -13211,8 +13364,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 570,
       "first_detected_speaker": "Nick Bostrom",
-      "last_mentioned_episode_id": 594,
-      "last_mentioned_speaker": "Max"
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 300,
@@ -13255,8 +13408,8 @@
       "term": "HBM",
       "description": "High bandwidth memory, a stacked DRAM architecture used in AI systems. It is more complex to manufacture than standard DRAM and consumes far more wafer area per gigabyte.",
       "first_detected_date": "2026-10-08",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "HBM constraints can keep memory tight and support pricing, margins, and capital equipment demand.",
@@ -13265,8 +13418,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 564,
       "first_detected_speaker": "Stacy Rasgon",
-      "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
+      "last_mentioned_episode_id": 600,
+      "last_mentioned_speaker": "Chris Auth, Vivek Arya, Peter Wennink"
     },
     {
       "id": 297,
@@ -13417,8 +13570,8 @@
       "term": "Pacing the Frontier",
       "description": "The concept of carefully deploying AI models to manage risks associated with their capabilities.",
       "first_detected_date": "2026-09-29",
-      "last_mentioned_date": "2026-10-11",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for ensuring responsible practices in AI development and deployment.",
@@ -13427,8 +13580,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 531,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 570,
-      "last_mentioned_speaker": "Nick Bostrom"
+      "last_mentioned_episode_id": 598,
+      "last_mentioned_speaker": "Nikesh Arora"
     },
     {
       "id": 303,
@@ -13453,8 +13606,8 @@
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 12,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -13463,26 +13616,26 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 310,
       "term": "AI Arms Race",
-      "description": "The competition between nations, particularly the U.S. and China, to achieve dominance in artificial intelligence technology.",
+      "description": "The view that AI capabilities in offense and defense will escalate in parallel and cannot realistically be halted. Arora treats this as inevitable rather than optional.",
       "first_detected_date": "2026-09-25",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "This matters for capital allocation as advancements in AI could redefine national security and economic power.",
+      "investment_implications": "Favors cybersecurity automation, defensive coordination, and rapid patch distribution infrastructure.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 528,
       "first_detected_speaker": "Erik Townsend (hosts)",
-      "last_mentioned_episode_id": 592,
-      "last_mentioned_speaker": "Karan Singhal"
+      "last_mentioned_episode_id": 598,
+      "last_mentioned_speaker": "Nikesh Arora"
     },
     {
       "id": 286,
@@ -13687,8 +13840,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-16",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -13697,8 +13850,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 584,
-      "last_mentioned_speaker": "Jad Naous"
+      "last_mentioned_episode_id": 600,
+      "last_mentioned_speaker": "Chris Auth, Vivek Arya, Peter Wennink"
     },
     {
       "id": 272,
@@ -13777,8 +13930,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-10-19",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 29,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -13787,8 +13940,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 590,
-      "last_mentioned_speaker": "Jean-Denis Greze"
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 267,
@@ -13807,6 +13960,24 @@
       "first_detected_speaker": "Marc Andreessen, Chris Dixon",
       "last_mentioned_episode_id": 535,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
+      "id": 312,
+      "term": "Post-capitalist world",
+      "description": "A future economic system, predicted by some, where traditional capitalism may become irrelevant due to radical abundance generated by advanced AI and robotics.",
+      "first_detected_date": "2026-07-29",
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "This long-term thesis suggests a need to consider investments in technologies that drive abundance and automation, potentially reshaping future economic models and value creation.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 436,
+      "first_detected_speaker": "Jensen Huang, Dario Amodei",
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 276,
@@ -13993,8 +14164,8 @@
       "term": "ASI",
       "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-11",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
@@ -14003,8 +14174,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 570,
-      "last_mentioned_speaker": "Nick Bostrom"
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 135,
@@ -14065,8 +14236,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 50,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 52,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -14075,8 +14246,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 593,
-      "last_mentioned_speaker": "Evan Conrad"
+      "last_mentioned_episode_id": 600,
+      "last_mentioned_speaker": "Chris Auth, Vivek Arya, Peter Wennink"
     },
     {
       "id": 256,
@@ -14263,8 +14434,8 @@
       "term": "Strait of Hormuz",
       "description": "A key maritime chokepoint for Middle East oil flows that was described as closed early in the conflict and later partially reopened under US protection. Mintzmyer estimated current flows at roughly 70% to 80% of pre-conflict levels.",
       "first_detected_date": "2026-06-07",
-      "last_mentioned_date": "2026-10-06",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-10-22",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Disruption or partial reopening can move tanker rates by changing vessel availability, route risk, and cargo urgency.",
@@ -14273,8 +14444,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 269,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 559,
-      "last_mentioned_speaker": "J Mintzmyer"
+      "last_mentioned_episode_id": 599,
+      "last_mentioned_speaker": "Anekha Sokhal"
     },
     {
       "id": 232,
@@ -14461,8 +14632,8 @@
       "term": "Dyson Swarm",
       "description": "A hypothetical megastructure of numerous small satellites surrounding a star to capture its energy output, discussed here as a future AI-enabled energy breakthrough.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-09-13",
-      "mention_count": 31,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Long-term exposure to space tech, advanced energy infrastructure, and AI-driven applied physics could position investors ahead of secular shifts in global energy production.",
@@ -14471,8 +14642,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 475,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 113,
@@ -14551,8 +14722,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-19",
-      "mention_count": 84,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 85,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -14561,16 +14732,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 591,
-      "last_mentioned_speaker": "Dylan Field"
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "A training technique where a model learns from another model\u2019s outputs or reasoning traces. Lambert argues it is often oversimplified as the main way open models can catch frontier systems.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 60,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 61,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If distillation is less effective than assumed, open-model catch-up may take longer and favor integrated frontier labs over open ecosystems.",
@@ -14579,8 +14750,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 587,
-      "last_mentioned_speaker": "Nusha Ansari, Salim Ismail, Dr. Dawn Mussallem"
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 174,
@@ -14677,8 +14848,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 119,
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 120,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -14687,8 +14858,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 592,
-      "last_mentioned_speaker": "Karan Singhal"
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 162,
@@ -15758,7 +15929,7 @@
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-10-21",
-      "mention_count": 128,
+      "mention_count": 129,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -15767,8 +15938,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 596,
-      "last_mentioned_speaker": "Adit Abraham"
+      "last_mentioned_episode_id": 597,
+      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 38,

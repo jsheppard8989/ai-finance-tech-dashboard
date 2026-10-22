@@ -1,5 +1,81 @@
 [
   {
+    "id": 600,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "What will computer chips look like in 2045?",
+    "episode_date": "2026-10-22",
+    "summary": "The episode argues that AI-driven semiconductor demand has created a supply shock that current leading-edge manufacturing cannot satisfy, with equipment availability\u2014especially EUV\u2014acting as the primary bottleneck. Pushkar Ranade says the industry is constrained by the installed tool base and that output growth is likely closer to 2x than 10x, even with aggressive capex, because the upstream supply chain cannot instantly expand.\n\nChris Auth explains how Intel is balancing node innovation, yield, and schedule on 14A and beyond. He says Intel\u2019s 18A began without a mature PDK, but 14A will have a better one \u201cfrom the get-go,\u201d and he argues that Intel\u2019s architecture, including backside power, makes High-NA EUV economically and technically more attractive than for TSMC. He also emphasizes that process development uses phase-gate maturity metrics, inline metrology, defect tracing, and a large factory complexity of roughly 2,000 steps.\n\nA major theme is that the next gains in compute may depend as much on packaging and interconnect as on transistor scaling. Tyler Osborn describes hybrid bonding as a long-run density and power lever, with reliability already shown at a 0.45 micron pitch in the literature and current HVM around 25 micrometer pitch. The discussion frames chip-to-wafer bonding as potentially more practical than wafer-to-wafer in some cases because it preserves yield by bonding known-good dies.\n\nThe episode also explores longer-horizon transistor and materials possibilities, including gate-all-around, backside power, ruthenium interconnects, and eventually exotic 3D structures. But the near-term message is more restrictive than exuberant: the pace of AI compute scaling is increasingly limited by fab tools, packaging constraints, thermal issues, and the difficulty of coordinating the whole semiconductor supply chain.",
+    "key_takeaways": [
+      "Pushkar Ranade said the industry is limited by installed capacity and that \"It is a limiter. We have to make the most of the capacity that we already have installed.\"",
+      "Ranade argued that even with more capex, leading-edge output expansion is likely \"Not 10X, but probably 2X, yes.\"",
+      "Chris Auth said Intel is tightening foundry readiness by improving PDK maturity, noting that 14A will have a stronger PDK \"from the get-go,\" unlike early 18A.",
+      "Auth said Intel\u2019s architectural choices matter for lithography economics, because \"because of the architecture of our technology versus TSMC\u2019s, we make different conclusions off of the same tool set.\"",
+      "Tyler Osborn said hybrid bonding has a long runway and pointed to reliability data at a 0.45 micron pitch as evidence of continued scaling potential.",
+      "Kevin Fischer described the factory as fundamentally data-limited and said, \"One thing you learn in this industry is that you will never have a complete data set.\"",
+      "The episode repeatedly frames EUV and related tool supply as the gating factor on AI-era wafer output, rather than demand itself."
+    ],
+    "investment_thesis": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
+    "key_tickers": [
+      "INTC",
+      "TSM"
+    ]
+  },
+  {
+    "id": 599,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "You are the Team  \u2014 Anekha Sokhal, Moshi",
+    "episode_date": "2026-10-22",
+    "summary": "The episode centers on Anekha Sokhal explaining Moshi, an AI product for traders, and why she believes the winning product is not a generic dashboard or \u201cnew Bloomberg,\u201d but a recommendation and workflow layer that turns large volumes of market data into portfolio-relevant actions. She says Moshi starts with commodity, energy, and macro traders, and ingests structured futures data, fundamentals, news, alternative data like X/Twitter and podcast audio, plus private user data. She emphasizes data cleaning, tagging, ontology building, and a graph-based presentation layer that pushes relevant items directly into the software interface.\n\nA major theme is that trader AI must solve both curation and UI/workflow integration. Sokhal argues that if you solve the recommendation problem, you naturally solve the interface problem because the software can surface what matters in the trader\u2019s existing workflow. She gives a concrete example: if an energy equities company does something that indirectly impacts oil, an oil trader needs to know immediately. She also says Moshi can turn what might take days of manual work into LLM answers in about 30 seconds, and uses the comparison that in the same time it takes her to speak a sentence, Moshi has learned 300 new things.\n\nThe conversation also covers alternative data and trust. Sokhal says traders often rely on a small set of trusted voices, especially in commodities, and that when multiple trusted sources disagree, the disagreement itself can be signal if paired with confidence scoring. She is skeptical of indiscriminate data ingestion, especially for user-provided data, and says Moshi does not want to send such data to third parties. The discussion references Reducto as an off-the-shelf document extraction option, but her answer frames the decision as dependent on privacy and whether the company can justify building in-house.\n\nOn the business side, Sokhal says inbound demand increased sharply after an AI Engineer New York talk, creating meetings, partnership requests, and even a webinar. The episode also includes broader context from her background in energy derivatives trading, JPMorgan, and machine learning research, which she presents as the foundation for Moshi\u2019s approach to financial AI.",
+    "key_takeaways": [
+      "Anekha Sokhal says Moshi provides real-time insights for financial traders, starting with commodity, energy, and macro markets.",
+      "Sokhal argues Moshi is not a \u201cnew Bloomberg,\u201d but different software built around recommendations and connected insights, not just a feed or dashboard.",
+      "She says Moshi needs to solve recommendation/curation and UI/workflow integration together, because traders only benefit if insights fit their daily process.",
+      "Sokhal claims Moshi can deliver LLM answers in about 30 seconds, and compares that to a span in which it can learn 300 new things.",
+      "She says trusted-source filtering and confidence scoring matter because divergent reporting across respected sources can itself be useful signal.",
+      "Sokhal says Moshi does not want to send user-provided data to third parties, making privacy a core build-vs-buy constraint.",
+      "She reports strong inbound interest after speaking at AI Engineer New York, which has driven meetings, partnership conversations, and a packed schedule."
+    ],
+    "investment_thesis": "Moshi\u2019s key claim is that trader AI wins by combining recommendation systems with workflow-native UI, not by building a generic Bloomberg-like interface.",
+    "key_tickers": null
+  },
+  {
+    "id": 598,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
+    "episode_date": "2026-10-21",
+    "summary": "Nikesh Arora argues that quantum computing is approaching a practical inflection point that should be treated as a cryptography migration problem now, not later. He says the debate is less about whether cryptography breaks than whether the midpoint is 2028, 2029, or 2033, and suggests using 2030 as a working assumption. His key warning is that stolen encrypted data can be stored and decrypted years later, so organizations cannot wait until the break is imminent.\n\nArora says the technical pieces of post-quantum cryptography are already known and coded; the real problem is organizational inertia. He frames the practical milestones as demonstrating error correction on running hardware and scaling gate computations from roughly 10,000 today toward 10 million by 2029 if growth continues. He also emphasizes that quantum claims should be independently validated, because the field contains many demonstrations that are not yet commercially real.\n\nThe conversation then shifts to AI economics and enterprise deployment. Arora argues that frontier model usage is expensive, citing about $20 per million tokens and up to $50 at the extreme, while open-weight models on owned GPUs could potentially be run for roughly $1 to $2 per million tokens after about a week of engineering work. He says this cost gap, plus IP leakage concerns and auditability, could drive 75% to 90% of token usage toward open-weight models over the next couple of years.\n\nIn cybersecurity, Arora describes an AI-driven arms race where defenders can use cheaper, faster models, open-weight systems, and trusted intermediaries to distribute patches and reduce attacker advantage. He says AI-assisted code generation still requires verification because models hallucinate, so the bottleneck becomes checking rather than generating. He concludes that SaaS faces major disruption because enterprises rely on hundreds to thousands of vendors, and AI will reduce the defensibility of many independent point solutions, accelerating consolidation.",
+    "key_takeaways": [
+      "Arora says encrypted data stolen today can be stored and broken years later, so post-quantum migration cannot wait until the late-2020s.",
+      "Arora frames 2030 as a practical midpoint for when today\u2019s cryptography becomes breakable by sufficiently capable quantum computers.",
+      "Arora says post-quantum cryptography is already understood and coded; the constraint is organizational inertia, not lack of technical solutions.",
+      "Arora argues that proof of meaningful quantum progress requires running-hardware error correction, not just simulation or marketing claims.",
+      "Arora estimates current quantum scale around 10,000 gate computations and says ~10 million could be reached by 2029 if scaling continues roughly 10x per year.",
+      "Arora says frontier model usage is too expensive for most enterprise workloads, while open-weight models could cut token costs to roughly $1 to $2 per million tokens.",
+      "Arora predicts 75% to 90% of token users may move to open-weight models because of economics, IP risk, auditability, and geopolitics.",
+      "Arora says the average enterprise uses 500 to 5,000 software vendors, making SaaS highly vulnerable to AI-driven consolidation and product replacement."
+    ],
+    "investment_thesis": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
+    "key_tickers": null
+  },
+  {
+    "id": 597,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Chamath: AGI Is Here, Anthropic\u2019s $100B Giveaway, Elon\u2019s SpaceX Shares for 72M Kids | EP #304",
+    "episode_date": "2026-10-21",
+    "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Jamoth/Paul Habatilla pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
+    "key_takeaways": [
+      "Peter Diamandis says Anthropic\u2019s Public Benefit Fund commits 5% of shares today, with additional equity potentially tied to future value increases.",
+      "Jamoth/Paul Habatilla argues the key issue is whether Anthropic has a real failsafe and measurable outcomes, or whether it becomes low-accountability philanthropy.",
+      "Alex says the missing element in these equity-giving structures is a quid pro quo or broader public-benefit mechanism, not just a corporate discretion model.",
+      "Peter Diamandis says Musk\u2019s SpaceX child-share plan is a better version of the giving pledge and is meant to teach ownership, not solve all social needs.",
+      "The guests argue the biggest bottleneck for AI is energy and power build-out, with a likely compute shortage in the next 3\u20134 years.",
+      "Peter Diamandis cites a national debt of about $40 trillion, up $2.44 trillion in one year, to argue AI and longevity could materially change the debt burden.",
+      "Bill Gross says idealab.ai\u2019s more than one million business ideas are completely free, framing AI as abundant on ideas and scarce on execution."
+    ],
+    "investment_thesis": "AI\u2019s biggest near-term bottleneck is power and compute infrastructure, making energy build-out more important than model capability alone.",
+    "key_tickers": null
+  },
+  {
     "id": 596,
     "podcast_name": "The a16z Show",
     "episode_title": "The Missing Infrastructure for AI Agents: Documents | Reducto\u2019s Adit Abraham",
