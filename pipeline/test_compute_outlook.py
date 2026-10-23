@@ -82,9 +82,10 @@ def test_compute_thesis_page():
     assert not re.search(r"\b(bet|bets|thin)\b", text, re.I)
     assert 'data-research-menu' in s and './js/research-nav.js' in s
     assert "ornn.json" not in s and "index_value" not in s
-    for n in (1, 2, 3, 5):
+    for n in (1, 2, 3, 4, 5, 6):
         assert 'data-chart="%d"' % n in s
-    assert 'data-chart="4"' in s
+    for leak in ("NOTE TO EDITORS", "NOT FOR PUBLICATION", "Chart specs", "**Series:**", "Purpose:"):
+        assert leak not in s
     label = "Source: Ornn Compute Price Index (data.ornn.com), used with permission"
     assert s.count(label) == 2  # charts 3 and 4
     assert "data.ornn.com/api" not in s  # Ornn values embedded from saved files, never fetched

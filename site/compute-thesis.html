@@ -53,13 +53,11 @@
   </header>
   <main class="wrap">
     <article>
-
 <h2>The short version</h2>
 <p>Every era has one price that shows where things are heading. The industrial age had oil. Global trade had the cost of hiring a cargo ship. <strong>Our view: for the AI era, that price is the hourly rent on a top-end AI chip (a GPU, or graphics processing unit).</strong></p>
 <p>GPU rental prices are quoted on Bloomberg and move by the hour. Today they show the newest chips are scarce and the oldest are already getting cheaper. The forward market says the previous generation is next.</p>
 <p>We expect a wave of new data centers. So the big question for AI investment over the next two years isn't whether AI software will succeed. It's what happens to the price of compute if the capacity ordered during the shortage switches on in a rush.</p>
 <p>We call that risk <strong>the Data Center Overhang</strong>. We call the reason it's easy to miss <strong>the Supply Lag Paradox</strong>. Our framework for who wins is <strong>Compute Velocity</strong>. All three are our own terms.</p>
-
 <h2>AI spending is now big enough to move the whole economy</h2>
 <p>This is no longer just a tech story.</p>
 <ul>
@@ -69,34 +67,32 @@
 </ul>
 <p>The official dashboard still has no reading for the price of what is being built. The producer price index tracks generic cloud servers. A July 2026 Fed staff note tracks chip cost per unit of computing power, memory export prices and capital spending, but no GPU rental rates. The Bureau of Economic Analysis says: "there is not a line item in the U.S. national accounts that can be used to identify and measure the economic impact of artificial intelligence."</p>
 <p><strong>Our view:</strong> that missing number is the gauge to watch. Spending figures arrive every quarter and look backward. Rental prices move every hour and look forward.</p>
-
-<h2>The lesson from the sea: 2007, the shipyards and the crash</h2>
-<p>The Baltic Dry Index (BDI) is a daily price for hiring ships that carry iron ore, coal and grain. Research by Bakshi, Panayotov and Skoulakis found that growth in the index helped predict stock returns and industrial production.</p>
-<p>Then 2008 came.</p>
-<ul>
-<li><strong>The boom.</strong> Freight rates soared, and owners raced to order ships. By November 2008, UNCTAD reported a dry-bulk order book equal to 44% of the existing fleet. By then the index had fallen from 11,793 in May 2008 to 891. Using its own data, the St. Louis Fed put the peak at 11,440 in June 2008 and a later low at 715.</li>
-<li><strong>The orders stopped, but the ships kept coming.</strong> By March 2009, new orders were 96% below their July 2007 peak, yet 10,341 ships were still on order. Shipbuilders were "reluctant to cancel or postpone deliveries."</li>
-<li><strong>The glut.</strong> In 2011 the world fleet grew almost 10% while seaborne trade grew 4%, "as shipowners took delivery of vessels that had been ordered before the economic crisis began." The index hit "its bottom value of 647 points" in February 2012, more than three years after the peak.</li>
-</ul>
-<p>By then the index had stopped describing trade and started describing a glut.</p><figure class="chart" id="chart-5"><figcaption><span class="cnum">Chart 5</span> The shipping precedent: orders stopped, ships kept coming<span class="csub">Baltic Dry Index readings by source, Jul 2007–Feb 2012</span></figcaption><div class="chart-host" data-chart="5"><span class="mut">Loading chart…</span></div><p class="cnote">Sources differ, so each reading is its own marker: UNCTAD press release (Nov 2008); St. Louis Fed, Sengupta &amp; Tam (Mar 2009); UNCTAD Review of Maritime Transport 2009 and 2012. The St. Louis Fed note (Mar 2009) gives no date for its low, so that marker sits at the turn of 2008–09.</p></figure>
-<p>Oil teaches the same lesson. James Hamilton showed in 1983 that oil price spikes came before nearly every postwar US recession. Lutz Kilian later showed that a price move means very different things depending on whether demand or supply is driving it. Always ask why a price moved.</p>
-
+<h2>Two exponential curves: demand is exploding, supply is rationed</h2>
+<p>Shipping learned the hard way in 2008 that ships ordered at the peak keep arriving, and the freight index did not hit "its bottom value of 647 points" until February 2012 (UNCTAD). Our view: AI has a different setup. Demand is compounding, and supply is held back by bottlenecks that money can speed up but not skip.</p>
+<p>People struggle to picture exponentials, so look at the numbers.</p>
+<p><strong>Demand.</strong>
+- <strong>Tokens.</strong> Google says the tokens it processes each month across its products went from 9.7 trillion in May 2024 to about 480 trillion in May 2025 to more than 3.2 quadrillion in May 2026. That is roughly 50x, then 7x, in two years.
+- <strong>Capital spending.</strong> Alphabet's quarterly purchases of property and equipment went from $23.95 billion to $44.92 billion over the four quarters to June 2026, per its earnings release. SpaceX spent $19.6 billion in its third quarter and guides $35–40 billion for the fourth, per the call transcript (Motley Fool transcript).</p>
+<p><strong>Supply.</strong>
+- <strong>Chip packaging.</strong> TSMC's advanced packaging (CoWoS), the step nearly all leading AI chips pass through, was about 70,000 wafers a month at end-2025. Morgan Stanley projects about 130,000 by end-2026, per its September 2026 update, and 200,000 by end-2027 (reported by secondary outlets; the June note said 120,000 for 2026). Fast, but linear next to demand.
+- <strong>Memory.</strong> SK hynix says high-bandwidth memory has been sold out since 2023 and expects a shortage "even in 2027" (reported). Micron says its HBM3E and HBM4 supply is fully booked through 2027; management says demand is "well above our ability to supply" and expects tightness "beyond 2027" (reported by Investing.com summary of the FQ3 2026 call).
+- <strong>Power.</strong> ERCOT is tracking "approximately 410 GW of Large Loads seeking interconnection," about 87% of them data centers.
+- <strong>Switching on.</strong> Elon Musk wrote on August 29, 2026: "Consensus estimate is that ~15GW of AI compute produced in 2027 cannot be turned on in 2027." Transformers, cooling and wiring, not just chips, set the pace.</p>
+<p><strong>Our view:</strong> this is the other side of the Supply Lag Paradox. The lag that builds an overhang also rations supply while demand compounds. Which side wins in 2027 is the question rental prices will answer first.</p><figure class="chart" id="chart-5"><figcaption><span class="cnum">Chart 5</span> Two exponentials: AI demand vs. rationed supply<span class="csub">Each series indexed to 100 at its first point, log scale, May 2024–end-2027</span></figcaption><div class="chart-host" data-chart="5"><span class="mut">Loading chart…</span></div><p class="cnote">Log scale: equal steps are equal multiples, so a steady exponential is a straight line. Filled dots: reported; hollow rings: projections (Morgan Stanley via secondary outlets). Sources: Google I/O 2026 keynote; Alphabet Q2 2026 release; Morgan Stanley (reported); ERCOT, Apr 9, 2026; SK hynix and Micron (reported); Musk on X, Aug 29, 2026.</p></figure>
 <h2>The Supply Lag Paradox</h2>
 <p><strong>The Supply Lag Paradox</strong> <em>(our term)</em>: when new supply takes years to build, prices peak at the very moment the next glut is being ordered. So a later collapse in rental rates may not mean demand has failed. It may mean years of ordered capacity have arrived at once.</p>
 <p>Data centers fit the pattern. They need land, grid connections, power, cooling and chips, and they take years to finish. Our view is that much of the capacity coming online in 2027 was committed during the 2025–26 shortage.</p>
-<p>The shortage was real. SemiAnalysis's one-year H100 contract prices (the middle half of quotes) rose from $1.45–$1.95 per GPU-hour in October 2025 to $2.00–$2.70 in March 2026. In most months since February, on-demand H100 capacity has been listed as sold out. <strong>Our view:</strong> that is exactly the kind of price signal that sets off a building wave.</p>
-
+<p>The shortage was real. SemiAnalysis's one-year H100 contract prices (the middle half of quotes) rose from $1.45–$1.95 per GPU-hour in October 2025 to $2.00–$2.70 in March 2026. <strong>Our view:</strong> that is exactly the kind of price signal that sets off a building wave.</p>
 <h2>The Data Center Overhang</h2>
 <p><strong>The Data Center Overhang</strong> <em>(our term)</em>: the data-center capacity ordered during the shortage that hasn't switched on yet, and the pressure it will put on rental prices when it does.</p>
-<p>Shipyards over-ordered in 2007. Tech giants are building now, and the power grid shows the queue:</p>
+<p>Tech giants are building now, and the power grid shows the queue:</p>
 <ul>
 <li><strong>Texas.</strong> ERCOT's first batch study covers 362 large-load projects, 204 of them (66.4 GW) counted as base load. ERCOT has paused energizing new large data centers until it files a verification report by December 10, 2026. The study was originally due April 9, 2027, and that date is now uncertain.</li>
 <li><strong>The counterpoint.</strong> PJM, the largest US grid operator, cut its 2027 summer peak forecast by 2.3% from its 2025 forecast, to 160,451 MW. If the wave turns out smaller or slower than the queues suggest, the overhang shrinks with it.</li>
 </ul>
 <p><strong>Our view:</strong> a pause doesn't cancel demand. It bunches it, so capacity held back now could land together in late 2027. <strong>Our forecast:</strong> as the facilities committed in 2025–26 come online through 2027, rental prices for the previous generation of chips could fall hard, however well AI software performs.</p>
-<p>The forward market already points that way, though there have been few trades so far. (A <em>forward</em> price is agreed today for capacity delivered later; <em>spot</em> is the price to rent right now.) Kalshi-implied forwards for August 2027 sit at $5.50 for the B200, $1.35 for the H100 and $1.16 for the A100. These forwards settle on Ornn's index. Measured against SemiAnalysis spot, they imply the H100, the workhorse of the last boom, loses about 60% of its rental value. They imply that even the B200, the chip everyone wants today, falls by about 20%.</p>
+<p>The forward market already points that way, though there have been few trades so far. (A <em>forward</em> price is agreed today for capacity delivered later; <em>spot</em> is the price to rent right now.) Kalshi-implied forwards for August 2027 sit at $5.50 for the B200, $1.35 for the H100 and $1.16 for the A100. These forwards settle on Ornn's index. Measured against Ornn's published spot, they imply the H100, the workhorse of the last boom, loses more than half its rental value. They imply that even the B200, the chip everyone wants today, falls by about two-fifths. Against SemiAnalysis spot on October 22, the H100 forward is 59.7% lower and the B200 forward 20.1% lower.</p>
 <p><strong>Our read:</strong> the A100 is the open question. Against SemiAnalysis spot its forward sits about a third lower, but against Ornn's index, which the forwards settle on, it's flat to slightly higher. The older chip may have already had most of its fall.</p><figure class="chart" id="chart-3"><figcaption><span class="cnum">Chart 3</span> The overhang in the forward curve<span class="csub">Kalshi-implied monthly forwards for B200, H100 and A100, Nov 2026–Aug 2027, against Ornn spot today, $ per GPU-hour</span></figcaption><div class="chart-host" data-chart="3"><span class="mut">Loading chart…</span></div><p class="cnote">Forwards: AI Compute Tracker forward-curves.json (CC BY 4.0), read live from the dashboard’s market data; indicative, few trades so far. Forwards settle on the Ornn Compute Price Index. Hollow rings: Ornn spot at the Oct 22 settle, for reference. Source: Ornn Compute Price Index (data.ornn.com), used with permission.</p></figure>
-
 <h2>Fog of war: two indexes, two prices, one edge</h2>
 <p>There is no official GPU rental price. There are at least three private indexes on Bloomberg screens, and the two we track most closely disagree sharply.</p>
 <div class="tbl"><table>
@@ -114,7 +110,7 @@
 <td>Weighted blend of prices from big clouds, specialist GPU clouds, marketplaces and resellers, with big clouds weighted most</td>
 </tr>
 <tr>
-<td><strong>Market signal</strong></td>
+<td><strong>Market signal (our read)</strong></td>
 <td>Reacts to immediate supply and demand shocks</td>
 <td>Reflects steadier enterprise pricing</td>
 </tr>
@@ -131,14 +127,53 @@
 <li>Ornn prices the <strong>H100</strong> slightly below SemiAnalysis, and that gap is steady.</li>
 <li>Ornn prices the <strong>A100</strong> well below SemiAnalysis, and that gap is narrowing.</li>
 </ul><figure class="chart" id="chart-4"><figcaption><span class="cnum">Chart 4</span> Fog of war: Ornn vs. SemiAnalysis on the same chips<span class="csub">Ornn minus SemiAnalysis, % of SemiAnalysis, B200, H100 and A100, Oct 13, 21 and 22, 2026</span></figcaption><div class="chart-host" data-chart="4"><span class="mut">Loading chart…</span></div><p class="cnote">Points, not a line: three dates only. SemiAnalysis: daily spot, read live from the dashboard’s market data. Source: Ornn Compute Price Index (data.ornn.com), used with permission.</p></figure>
-<p>On SemiAnalysis alone, the B200 has risen about 67% since April 1, from $4.12 to $6.88. Its low was $3.68 on March 17.</p>
+<p>On SemiAnalysis alone, the B200 has risen about 67% since April 1, from $4.12 to $6.88 on October 22. Its all-time low was $3.68 on March 17.</p>
 <p><strong>Our view:</strong> this disagreement is the opportunity. With no official GPU rental price, Wall Street is working in a fog of war. Whoever models the spread well holds a proprietary early signal for tech stock valuations. That means knowing when the spread widens, on which chip, and which index moves first. We expect a widening spread to signal a scramble for new chips and a softer market for the rest, which is the shift the overhang predicts.</p>
-
 <h2>The market is already arguing about this</h2>
 <p>From September 21 to October 22, SemiAnalysis B200 rental prices rose 22%. Over roughly the same weeks, CoreWeave fell 38%, Nebius 34% and Nvidia 9% (see chart 1).</p>
 <p><strong>Our hypothesis:</strong> the stocks are pricing next year's capacity wave, not this week's scarcity. The forward curve shows lower rents ahead. Our read is that new capacity is the reason, and that would shrink the rental income behind today's specialist GPU clouds. Nvidia fell least, which fits the same story: it sells the chips whether rents hold or not.</p><figure class="chart" id="chart-1"><figcaption><span class="cnum">Chart 1</span> Rents up, stocks down<span class="csub">B200 rental price vs. CoreWeave, Nebius and Nvidia, indexed to 100, Sep–Oct 2026</span></figcaption><div class="chart-host" data-chart="1"><span class="mut">Loading chart…</span></div><p class="cnote">B200: SemiAnalysis daily spot, indexed to 100 on Sep 21, read live from the dashboard’s market data. Stocks: Yahoo Finance weekly closes, indexed to 100 at the week of Sep 27; last point is the Oct 22 close.</p></figure>
-<p>Something similar happened once before (see chart 2). From October 2025 to March 2026, H100 contract prices climbed while the three stocks slid. From late March to mid-April, the stocks rallied hard. In that one episode, prices moved first and stocks second, and our hypothesis says the pattern will repeat. The October split is the live test: if the stocks are right, rents will turn down to meet them.</p><figure class="chart" id="chart-2"><figcaption><span class="cnum">Chart 2</span> Prices first, stocks second <em>(one episode)</em><span class="csub">H100 one-year contract price vs. CRWV, NBIS and NVDA, indexed to 100, Oct 2025–Apr 2026</span></figcaption><div class="chart-host" data-chart="2"><span class="mut">Loading chart…</span></div><p class="cnote">H100: SemiAnalysis one-year contract survey, midpoint of the middle-half range (shaded band), monthly, indexed to 100 at Oct 2025; no reading for Apr 2026. Stocks: Yahoo Finance weekly closes, indexed to 100 at the week of Oct 19, 2025. One episode.</p></figure>
-
+<p>Something similar happened once before (see chart 2). From October 2025 to March 2026, H100 contract prices climbed while the three stocks slid. From late March to mid-April, the stocks rallied hard. In that one episode, prices moved first and stocks second, and our hypothesis says the pattern will repeat. The October split is the live test: if the stocks are right, our hypothesis says rents will turn down to meet them.</p><figure class="chart" id="chart-2"><figcaption><span class="cnum">Chart 2</span> Prices first, stocks second <em>(one episode)</em><span class="csub">H100 one-year contract price vs. CRWV, NBIS and NVDA, indexed to 100, Oct 2025–Apr 2026</span></figcaption><div class="chart-host" data-chart="2"><span class="mut">Loading chart…</span></div><p class="cnote">H100: SemiAnalysis one-year contract survey, midpoint of the middle-half range (shaded band), monthly, indexed to 100 at Oct 2025; no reading for Apr 2026. Stocks: Yahoo Finance weekly closes, indexed to 100 at the week of Oct 19, 2025. One episode.</p></figure>
+<h2>The bull case: what if Musk is right?</h2>
+<p>The strongest argument against the overhang comes from one of the largest users of compute. Elon Musk's own words:</p>
+<ul>
+<li><strong>Jul 22, 2025:</strong> "The @xAI goal is 50 million in units of H100 equivalent-AI compute (but much better power-efficiency) online within 5 years." Tom's Hardware estimates that is about 35 GW at H100-level power (reported).</li>
+<li><strong>Oct 20, 2026, SpaceX Q3 call (Motley Fool transcript):</strong> "I would be surprised if we brought on less than 13 gigawatts of compute by the end of next year."</li>
+<li><strong>Same call, same transcript:</strong> "we could rent out our compute several times over if we said yes to everyone," with short-term contracts "renewing at higher dollars per watt, not lower dollars per watt."</li>
+</ul>
+<p>These are xAI/SpaceX build targets. We use them only to show scale, not as orders placed with anyone. Set them against the roughly 11.1–11.7 GW of capacity that four of five hard-hit builders have contracted or targeted (CoreWeave, Nebius's 5 GW year-end target, Applied Digital, Core Scientific; IREN states no GW figure). That capacity is contracted, not live. CoreWeave has 1.5 GW active.</p>
+<p><strong>THE TEAM'S VIEW, NOT FORECASTS:</strong> two scenarios, the full bull case and a case at 25% of it.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Demand ÷ contracted supply</th>
+<th>Bull case</th>
+<th>25% case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>End-2027 (13 GW)</td>
+<td>1.11–1.17x</td>
+<td>about 0.28–0.29x</td>
+</tr>
+<tr>
+<td>Around 2030 (35 GW, reported)</td>
+<td>about 3.0–3.15x</td>
+<td>about 0.75–0.79x</td>
+</tr>
+<tr>
+<td><strong>Wins most</strong></td>
+<td>IREN, then NBIS, then CRWV</td>
+<td>No clear winner; contracted revenue holds until renewal</td>
+</tr>
+<tr>
+<td><strong>Most exposed</strong></td>
+<td>None in this scenario; debt looks comfortably serviced</td>
+<td>IREN; CRWV and NBIS protected until contracts renew; APLD and CORZ carry the risk of CoreWeave not paying</td>
+</tr>
+</tbody>
+</table></div><figure class="chart" id="chart-6"><figcaption><span class="cnum">Chart 6</span> The bull case vs. 25% of it: demand ÷ contracted supply<span class="csub">Ratio of demand to contracted supply, end-2027 and around 2030, shown as ranges</span></figcaption><div class="chart-host" data-chart="6"><span class="mut">Loading chart…</span></div><p class="cnote">The team's view, not forecasts. Supply is contracted, not live. Sources: Musk on X (Jul 22, 2025) and SpaceX Q3 call (Oct 20, 2026, Motley Fool transcript); Tom's Hardware (reported); company filings.</p></figure>
+<p>In the bull case, one company's own build target alone would outrun all the contracted supply we could find; in that scenario renewals would reprice up and the forward curve would prove too low. IREN gains most because its revenue is price times hours on shorter contracts. Nebius gains on short-term deals and renewals. CoreWeave gains more slowly, because much of its $104.2 billion backlog is fixed-price. In the 25% case, the same features would flip: IREN would be most exposed, CoreWeave and Nebius would be cushioned until renewal and then reprice toward the forwards, and the landlords Applied Digital and Core Scientific would carry the risk of their largest tenant, CoreWeave. Our view: renewal timing, not today's price, decides who survives the overhang.</p>
 <h2>Compute Velocity: our framework for who wins</h2>
 <p><strong>Compute Velocity</strong> <em>(our framework)</em>: how fast a company can rent compute, put it to productive use, and release or recycle it when it's no longer needed.</p>
 <ul>
@@ -146,7 +181,6 @@
 <li><strong>Low velocity:</strong> a company locked into long contracts at peak prices, tied to one chip generation, or holding hardware it can't redeploy. It pays for every spike.</li>
 </ul>
 <p><strong>Our view:</strong> for an AI startup, a rental price spike works like an immediate tax. It raises the cost of every training run and every customer query, and it hits equity value before it shows up in earnings. When the overhang arrives, the roles reverse.</p>
-
 <h2>Who collects the toll <em>(our view)</em></h2>
 <ul>
 <li><strong>Nvidia:</strong> the main winner while new chips stay scarce. Its risk is slower orders if the overhang pushes even new-chip prices down.</li>
@@ -155,14 +189,12 @@
 <li><strong>Power and data-center owners:</strong> grid connections and sites hold their value better than the chips inside them.</li>
 <li><strong>AI application companies:</strong> the overhang's biggest beneficiaries, if they keep their Compute Velocity high.</li>
 </ul>
-
 <h2>So what?</h2>
 <ul>
 <li><strong>Investors:</strong> track rental prices and the gap between the indexes alongside earnings. Use forwards on older chips to gauge the overhang. Judge companies by Compute Velocity, not chip count.</li>
 <li><strong>CEOs:</strong> avoid long contracts at shortage prices unless the work truly needs them. Keep the ability to move between chip generations. Price your 2027 plans against the forward curve, not today's spot rate.</li>
 <li><strong>Policymakers:</strong> build a public GPU rental price series, so the benchmark for a sector this large isn't left to private vendors with trading arms. Plan for the overhang as a supply event, not a collapse in demand.</li>
 </ul>
-
 <h2>What would prove us wrong</h2>
 <ul>
 <li>Rental prices stay high through 2027 while new capacity comes online, which would mean demand absorbed the overhang.</li>
@@ -177,9 +209,10 @@
 <li><strong>One episode.</strong> The lead-lag pattern was checked by eye and isn't adjusted for chip transitions, memory costs or broad market moves. Next step: a lag test against the semiconductor index and the S&amp;P 500.</li>
 <li><strong>Few data points.</strong> We compared the two indexes on only three days, so the spread shows a level, not a trend. We have no B200 trade volume from Ornn.</li>
 <li><strong>Other explanations.</strong> Financing costs at the specialist clouds, or a broad selloff in AI stocks, could explain the October drop. We have tested neither.</li>
+<li><strong>Bull-case inputs.</strong> Musk's figures are xAI/SpaceX build targets used only to show scale, not demand at these companies. The 50M-to-35 GW conversion is Tom's Hardware's estimate (reported). The 11–12 GW of supply is contracted, not live, and excludes IREN. The SpaceX quotes and capex come from the Motley Fool transcript, not the audio, and that transcript is inconsistent elsewhere: its summary box gives 20,000 GB300s a month, its body 200,000.</li>
+<li><strong>Supply-side figures.</strong> CoWoS and HBM figures are reported via secondary outlets, and some pages could not be opened to check. The token and packaging series run on different calendars.</li>
 <li><strong>Our frameworks.</strong> The Supply Lag Paradox, the Data Center Overhang and Compute Velocity are ours. The late-2027 timing and the size of the price fall are our forecast, not established fact.</li>
 </ul>
-
 <h2>Sources</h2>
 <ul>
 <li>Ornn Compute Price Index, methodology and data: <a href="https://data.ornn.com/methodology">https://data.ornn.com/methodology</a> · <a href="https://data.ornn.com/">https://data.ornn.com/</a></li>
@@ -194,14 +227,20 @@
 <li>BEA Working Paper 2026-3, Highfill &amp; Samuels: <a href="https://www.bea.gov/sites/default/files/papers/BEA-WP2026-3.pdf">https://www.bea.gov/sites/default/files/papers/BEA-WP2026-3.pdf</a></li>
 <li>ERCOT, Batch Zero Update (Sep 11, 2026): <a href="https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf">https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf</a></li>
 <li>PJM Inside Lines, 2026 load forecast (Jan 14, 2026): <a href="https://insidelines.pjm.com/pjms-updated-20-year-forecast-continues-to-see-significant-long-term-load-growth/">https://insidelines.pjm.com/pjms-updated-20-year-forecast-continues-to-see-significant-long-term-load-growth/</a></li>
-<li>UNCTAD (Nov 4, 2008): <a href="https://unctad.org/press-material/freight-rates-begin-fall-world-merchant-fleet">https://unctad.org/press-material/freight-rates-begin-fall-world-merchant-fleet</a></li>
-<li>UNCTAD, Review of Maritime Transport 2009: <a href="https://unctad.org/system/files/official-document/rmt2009_en.pdf">https://unctad.org/system/files/official-document/rmt2009_en.pdf</a></li>
 <li>UNCTAD, Review of Maritime Transport 2012: <a href="https://unctad.org/system/files/official-document/rmt2012_en.pdf">https://unctad.org/system/files/official-document/rmt2012_en.pdf</a></li>
-<li>St. Louis Fed, Sengupta &amp; Tam (Mar 2009): <a href="https://fraser.stlouisfed.org/docs/publications/frbslnet/frbsl_net_200903.pdf">https://fraser.stlouisfed.org/docs/publications/frbslnet/frbsl_net_200903.pdf</a></li>
-<li>Bakshi, Panayotov &amp; Skoulakis: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1747345">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1747345</a></li>
 <li>Hamilton (1983), Journal of Political Economy: <a href="https://doi.org/10.1086/261140">https://doi.org/10.1086/261140</a></li>
 <li>Kilian (2009), American Economic Review: <a href="https://www.aeaweb.org/articles?id=10.1257%2Faer.99.3.1053">https://www.aeaweb.org/articles?id=10.1257%2Faer.99.3.1053</a></li>
 <li>Share prices: <a href="https://finance.yahoo.com/quote/CRWV">https://finance.yahoo.com/quote/CRWV</a> · <a href="https://finance.yahoo.com/quote/NBIS">https://finance.yahoo.com/quote/NBIS</a> · <a href="https://finance.yahoo.com/quote/NVDA">https://finance.yahoo.com/quote/NVDA</a></li>
+<li>Google I/O 2026 keynote (May 19, 2026): <a href="https://blog.google/innovation-and-ai/sundar-pichai-io-2026/">https://blog.google/innovation-and-ai/sundar-pichai-io-2026/</a></li>
+<li>Alphabet Q2 2026 earnings release: <a href="https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm">https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm</a></li>
+<li>Morgan Stanley on CoWoS, via Gate (reported): <a href="https://www.gate.com/en-us/news/detail/morgan-stanley-tsmc-cowos-capacity-to-triple-to-200k-wafers-monthly-by-end-17804767">https://www.gate.com/en-us/news/detail/morgan-stanley-tsmc-cowos-capacity-to-triple-to-200k-wafers-monthly-by-end-17804767</a></li>
+<li>SK hynix via Chosun Biz (reported): <a href="https://biz.chosun.com/en/en-it/2025/10/29/42EYTMXB4JE2XFSZJF2SRUSILU/">https://biz.chosun.com/en/en-it/2025/10/29/42EYTMXB4JE2XFSZJF2SRUSILU/</a></li>
+<li>Micron FQ3 2026 call via Investing.com (reported): <a href="https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-146-93CH-4759504">https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-146-93CH-4759504</a></li>
+<li>ERCOT Large Load Update (Apr 9, 2026): <a href="https://www.ercot.com/files/docs/2026/04/09/ERCOTLargeLoadUpdate-April9HouseStateAffairsHearing.pdf">https://www.ercot.com/files/docs/2026/04/09/ERCOTLargeLoadUpdate-April9HouseStateAffairsHearing.pdf</a></li>
+<li>Elon Musk on X: <a href="https://x.com/elonmusk/status/1947704195844608094">https://x.com/elonmusk/status/1947704195844608094</a> (Jul 22, 2025) · <a href="https://x.com/elonmusk/status/2093810234141634702">https://x.com/elonmusk/status/2093810234141634702</a> (Aug 29, 2026)</li>
+<li>Tom's Hardware (Jul 23, 2025, reported): <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-xai-is-targeting-50-million-h100-equivalent-ai-gpus-in-five-years-230k-gpus-including-30k-gb200s-already-reportedly-operational-for-training-grok">https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-xai-is-targeting-50-million-h100-equivalent-ai-gpus-in-five-years-230k-gpus-including-30k-gb200s-already-reportedly-operational-for-training-grok</a></li>
+<li>SpaceX Q3 2026 earnings call transcript (Oct 20, 2026): <a href="https://www.fool.com/earnings/call-transcripts/2026/10/20/spacex-spcx-q3-2026-earnings-call-transcript/">https://www.fool.com/earnings/call-transcripts/2026/10/20/spacex-spcx-q3-2026-earnings-call-transcript/</a></li>
+<li>Builder filings (CoreWeave, Nebius, IREN, Applied Digital, Core Scientific): company filings with the SEC and other regulators</li>
 </ul>
     </article>
   </main>
@@ -294,22 +333,57 @@
                notes: [[t('2026-03-29'), 'late Mar: stocks rally', 44, 'middle']], aria: 'H100 one-year contract price and CRWV, NBIS, NVDA weekly closes, indexed to 100, October 2025 to April 2026'});
     })();
 
-    // Chart 5: BDI markers
+    // Chart 5: two exponentials, log scale (values plotted as log10 of index)
     (function () {
-      var m = [[t('2008-05-20'), 11793, 'UNCTAD high 11,793 (May 2008)', '#5cc8ff', 8, 4],
-               [t('2008-06-15'), 11440, 'St. Louis Fed peak 11,440 (Jun 2008)', '#facc15', 8, 18],
-               [t('2008-11-04'), 891, '891 by Nov 2008 (UNCTAD)', '#5cc8ff', -8, -10],
-               [t('2008-12-31'), 715, 'St. Louis Fed low 715', '#facc15', 8, -10],
-               [t('2012-02-15'), 647, 'Bottom 647 (Feb 2012, UNCTAD)', '#5cc8ff', -8, -10]];
-      var a = t('2007-07-01'), z = t('2012-03-31');
-      draw(5, {series: [{name: 'BDI', color: '#5cc8ff', pts: m.map(function (x) { return [x[0], x[1]]; }), noline: true, label: false, legend: false, marks: m}],
-               y0: 0, step: 2000, x0: a, x1: z, r: 24, h: 340, yfmt: function (v) { return v.toLocaleString('en-US'); },
-               xticks: [[t('2008-01-01'), '2008'], [t('2009-01-01'), '2009'], [t('2010-01-01'), '2010'], [t('2011-01-01'), '2011'], [t('2012-01-01'), '2012']],
-               notes: [[t('2007-07-15'), 'Jul 2007: new orders peak', 16],
-                       [t('2009-03-15'), 'Mar–Apr 2009: new orders 96% below peak; 10,341 ships still on order', 120],
-                       [t('2012-03-15'), '2011: fleet grew almost 10%, trade 4%', 180, 'end'],
-                       [t('2012-03-15'), 'Sources differ; markers are not one series', 205, 'end']],
-               aria: 'Baltic Dry Index readings from UNCTAD and the St. Louis Fed, 2007 to 2012'});
+      var L10 = function (v) { return Math.log10(v); };
+      var S = [
+        {name: 'Google tokens', color: '#f472b6', d: [['2024-05-15', 100, 0], ['2025-05-15', 4950, 0], ['2026-05-15', 33000, 0]]},
+        {name: 'Alphabet capex', color: '#facc15', d: [['2025-08-15', 100, 0], ['2026-05-15', 188, 0]]},
+        {name: 'TSMC CoWoS', color: '#34d399', d: [['2025-12-31', 100, 0], ['2026-12-31', 186, 1], ['2027-12-31', 286, 1]]}
+      ];
+      var series = S.map(function (s) {
+        return {name: s.name, color: s.color, pts: s.d.map(function (p) { return [t(p[0]), L10(p[1])]; }),
+                lab: function (v) { return Math.round(Math.pow(10, v)).toLocaleString('en-US'); }};
+      });
+      S.forEach(function (s, k) {
+        series.push({name: s.name + ' reported', color: s.color, pts: s.d.filter(function (p) { return !p[2]; }).map(function (p) { return [t(p[0]), L10(p[1])]; }), dots: true, r: 4, noline: true, label: false, legend: false});
+        var pr = s.d.filter(function (p) { return p[2]; });
+        if (pr.length) series.push({name: s.name + ' projected', color: s.color, pts: pr.map(function (p) { return [t(p[0]), L10(p[1])]; }), rings: true, noline: true, label: false, legend: false});
+      });
+      var a = t('2024-04-01'), z = t('2028-01-31');
+      series[1].label = false;
+      draw(5, {series: series, y0: 2, step: 1, x0: a, x1: z, r: 118, h: 340,
+               yfmt: function (v) { return Math.round(Math.pow(10, v)).toLocaleString('en-US'); },
+               xticks: [[t('2024-07-01'), '2024'], [t('2025-07-01'), '2025'], [t('2026-07-01'), '2026'], [t('2027-07-01'), '2027']],
+               notes: [[t('2026-05-15'), 'Alphabet capex 188', 280, 'end'],
+                       [t('2026-07-15'), 'ERCOT: ~410 GW of large loads seeking connection', 150],
+                       [t('2026-07-15'), 'HBM sold out into 2027 (reported)', 166],
+                       [t('2026-07-15'), 'Musk: "~15GW ... cannot be turned on in 2027"', 182]],
+               aria: 'Google monthly tokens, Alphabet quarterly capex and TSMC CoWoS capacity, each indexed to 100, log scale, 2024 to 2027'});
+    })();
+
+    // Chart 6: demand / contracted supply ranges, bull vs 25% case
+    (function () {
+      var h = host(6); if (!h) return;
+      var W = 680, H = 300, L = 46, R = 20, T = 30, B = 40, ymax = 3.5;
+      function Y(v) { return T + (1 - v / ymax) * (H - T - B); }
+      var groups = [['End-2027 (13 GW)', [[1.11, 1.17], [0.28, 0.29]]], ['Around 2030 (35 GW, reported)', [[3.0, 3.15], [0.75, 0.79]]]];
+      var cols = ['#ff9a5c', '#8b9dff'], names = ['Bull case', '25% case'], g = '';
+      for (var v = 0; v <= ymax + 1e-9; v += 0.5) g += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(v) + '" y2="' + Y(v) + '" stroke="#1d2635"/><text x="' + (L - 6) + '" y="' + (Y(v) + 4) + '" fill="#9aa7b6" font-size="11" text-anchor="end">' + v.toFixed(1) + 'x</text>';
+      var gw = (W - L - R) / 2;
+      groups.forEach(function (gr, i) {
+        var cx = L + gw * i + gw / 2;
+        g += '<text x="' + cx + '" y="' + (H - 14) + '" fill="#9aa7b6" font-size="11" text-anchor="middle">' + esc(gr[0]) + '</text>';
+        gr[1].forEach(function (r, k) {
+          var x = cx - 70 + k * 80, w = 60;
+          g += '<rect x="' + x + '" y="' + Y(r[0]) + '" width="' + w + '" height="' + (Y(0) - Y(r[0])) + '" fill="' + cols[k] + '" opacity="0.55"/>' +
+               '<rect x="' + x + '" y="' + Y(r[1]) + '" width="' + w + '" height="' + Math.max(2, Y(r[0]) - Y(r[1])) + '" fill="' + cols[k] + '"/>' +
+               '<text x="' + (x + w / 2) + '" y="' + (Y(r[1]) - 6) + '" fill="' + cols[k] + '" font-size="12" font-weight="600" text-anchor="middle">' + r[0].toFixed(2) + '–' + r[1].toFixed(2) + 'x</text>';
+        });
+      });
+      g += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(1) + '" y2="' + Y(1) + '" stroke="#cbd5e1" stroke-dasharray="4 3"/><text x="' + 335 + '" y="' + (Y(1) - 5) + '" fill="#cbd5e1" font-size="11" text-anchor="middle">1.0x: demand = supply</text>';
+      g = '<text x="' + L + '" y="14" font-size="12"><tspan fill="' + cols[0] + '">■ </tspan><tspan fill="#cbd5e1">' + names[0] + '</tspan><tspan fill="' + cols[1] + '">   ■ </tspan><tspan fill="#cbd5e1">' + names[1] + '</tspan></text>' + g;
+      h.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Demand divided by contracted supply, bull case versus 25% case, end-2027 and around 2030">' + g + '</svg>';
     })();
 
     // Charts 1 and 3: live from the dashboard's market data
