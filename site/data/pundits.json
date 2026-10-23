@@ -5982,7 +5982,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -15749,193 +15749,6 @@
     }
   },
   {
-    "id": 203,
-    "name": "Martin Shkreli",
-    "slug": "martin-schrelli",
-    "bio": "Martin Shkreli is an American investor and businessman known for his investments and insights in the AI and tech industry. His recent appearances have highlighted his views on the significant investments in the tech space and the importance of economic questions in AI.",
-    "known_for": "His substantial investments in AI and tech startups and his perspectives on the economic aspects of AI.",
-    "net_worth_usd": 10000000.0,
-    "net_worth_source": "https://thesuperions.com/martin-shkrelis-net-worth/",
-    "net_worth_updated_at": "2026-04-24T05:04:03.421556",
-    "voice_tone": "Confident and analytical.",
-    "voice_style": "Direct and to-the-point, with a focus on economic aspects of technology.",
-    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
-    "voice_profile_updated_at": "2026-04-24 10:03:50",
-    "last_seen": "2026-04-24 10:03:50",
-    "last_episode_title": "Martin Shkreli on AI, Pharma, and What Actually Matters",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
-    "last_proof_snippet": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
-    "supporting_takeaway": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-24T05:04:01.369826",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Martin Shkreli",
-      "fetched_at": "2026-04-24T10:04:01.369628+00:00",
-      "cliff_notes": "Martin Shkreli is recognized for his significant contributions to the AI and tech industry through his investments. His focus on the economic aspects of AI, such as who captures the value and where the bottlenecks are, has made him a notable figure in the tech investment space. Schrelli's insights into the market cap potential and his views on the need for better computers rather than more complex solutions have resonated with many in the industry. His recent appearances have emphasized the importance of vulnerability and redemption in business, suggesting that showing one's mistakes can lead to better outcomes.",
-      "derived": {
-        "current_role": "Investor and Businessman"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Martin Shkreli is recognized for his significant contributions to the AI and tech industry through his investments. His focus on the economic aspects of AI, such as who captures the value and where the bottlenecks are, has made him a notable figure in the tech investment space. Schrelli's insights into the market cap potential and his views on the need for better computers rather than more complex solutions have resonated with many in the industry.",
-        "His recent appearances have emphasized the importance of vulnerability and redemption in business, suggesting that showing one's mistakes can lead to better outcomes."
-      ],
-      "sections": [
-        {
-          "heading": "AI Investment",
-          "body": "Martin Shkreli has made substantial investments in AI and tech startups, contributing to the growth and development of the industry."
-        },
-        {
-          "heading": "Economic Questions in AI",
-          "body": "Schrelli emphasizes the importance of understanding who captures the value in AI and where the bottlenecks are, shifting the focus from mere intelligence to economic implications."
-        },
-        {
-          "heading": "Market Cap Potential",
-          "body": "In recent appearances, Schrelli has discussed the potential for a market cap of up to $10 trillion in the tech industry, highlighting the significant opportunities available."
-        },
-        {
-          "heading": "Business Philosophy",
-          "body": "Schrelli believes in the importance of admitting mistakes and showing vulnerability in business, which he sees as a path to redemption and better outcomes."
-        }
-      ]
-    },
-    "net_worth": "$10.0M"
-  },
-  {
-    "id": 202,
-    "name": "Ole Hansen",
-    "slug": "ole-hansen",
-    "bio": "Ole Hansen is the Chief Commodity Strategist at Saxo Bank, where he specializes in commodities and macroeconomic analysis. He is a sought-after expert in the world of finance and macroeconomics, providing insights on energy markets, food inflation, and secular inflation.",
-    "known_for": "His expertise in commodities and macroeconomic analysis, particularly in the context of global finance and investment strategies.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical.",
-    "voice_style": "Factual and data-driven.",
-    "voice_delivery_notes": "Paced with emphasis on key market insights.",
-    "voice_profile_updated_at": "2026-04-24 10:03:17",
-    "last_seen": "2026-04-24 10:03:17",
-    "last_episode_title": "MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
-    "last_proof_snippet": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
-    "supporting_takeaway": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-24T05:04:15.605895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ole Hansen",
-      "fetched_at": "2026-04-24T10:04:15.605744+00:00",
-      "cliff_notes": "Ole Hansen is recognized for his deep understanding of commodities and macroeconomics, which he applies in his role as Chief Commodity Strategist at Saxo Bank. His career has been marked by a focus on providing clear and actionable insights into complex financial markets, particularly in the areas of energy, food inflation, and broader economic trends. Hansen's work is influential among professional finance, high-net worth individuals, family offices, and other sophisticated investors. His contributions to financial podcasts like Macrovoisers have further solidified his reputation as a go-to source for and macroeconomic insights.",
-      "derived": {
-        "current_role": "Chief Commodity Strategist at Saxo Bank"
-      },
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ole Hansen is recognized for his deep understanding of commodities and macroeconomics, which he applies in his role as Chief Commodity Strategist at Saxo Bank. His career has been marked by a focus on providing clear and actionable insights into complex financial markets, particularly in the areas of energy, food inflation, and broader economic trends.",
-        "Hansen's work is influential among professional finance, high-net worth individuals, family offices, and other sophisticated investors. His contributions to financial podcasts like Macrovoisers have further solidified his reputation as a go-to source for and macroeconomic insights."
-      ],
-      "sections": [
-        {
-          "heading": "Iran Conflict",
-          "body": "Ole Hansen discusses the implications of the Iran conflict on energy markets and its potential impact on global finance."
-        },
-        {
-          "heading": "Food Inflation",
-          "body": "Hansen provides analysis on upcoming trends in food inflation and strategies for trading in this sector."
-        },
-        {
-          "heading": "Secular Inflation",
-          "body": "As an expert in macroeconomics, Hansen offers a long-term outlook on secular inflation and its effects on various markets."
-        },
-        {
-          "heading": "Crude Oil Trading",
-          "body": "In the Macrovoisers podcast, Hansen explains how to position in crude oil using options on longer-dated futures to benefit from backwardation."
-        }
-      ]
-    }
-  },
-  {
-    "id": 201,
-    "name": "Yuri Milner",
-    "slug": "yuri-milner",
-    "bio": "Yuri Milner is a Russian Israeli physicist turned venture capitalist known for his prescient investments in companies like Facebook, Twitter, Airbnb, and WhatsApp. His ventures have significantly impacted the tech industry, shaping the landscape of social media and communication platforms.",
-    "known_for": "Being a venture capitalist with a knack for early investments in major tech companies.",
-    "net_worth_usd": 3500000000.0,
-    "net_worth_source": "https://www.latimes.com/business/la-fi-tn-yuri-millner-facebook-twitter-20171106-story.html",
-    "net_worth_updated_at": "2026-04-24T05:04:30.690593",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-24 10:02:58",
-    "last_episode_title": "Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Geopolitical dependency on volatile regions is becoming unacceptable, leading to a shift in global dynamics.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-23 \u2022 Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
-    "last_proof_snippet": "The aftermath of war is predicted to accelerate the competition between frontier labs and established businesses in AI.",
-    "supporting_takeaway": "The aftermath of war is predicted to accelerate the competition between frontier labs and established businesses in AI.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-24T05:04:28.508335",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Yuri Milner",
-      "fetched_at": "2026-04-24T10:04:28.508190+00:00",
-      "cliff_notes": "Yuri Milner began his career as a physicist, studying at the University of Moscow. He later transitioned into the world of venture capitalism, where his ability to identify and invest in groundbreaking tech companies has been pivotal. His early and significant investments in companies such as Facebook, Twitter, Airbnb, and WhatsApp have not only provided substantial returns but have also influenced the direction of the tech industry. Milner's ventures have been instrumental in shaping the landscape of social media and communication platforms, making him a key figure in the world of technology and finance.",
-      "derived": {
-        "current_role": "Venture Capitalist",
-        "education": "Physicist; University of Moscow"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Russian Israeli"
-      },
-      "lead_paragraphs": [
-        "Yuri Milner began his career as a physicist, studying at the University of Moscow. He later transitioned into the world of venture capitalism, where his ability to identify and invest in groundbreaking tech companies has been pivotal. His early and significant investments in companies such as Facebook, Twitter, Airbnb, and WhatsApp have not only provided substantial returns but have also influenced the direction of the tech industry.",
-        "Milner's ventures have been instrumental in shaping the landscape of social media and communication platforms, making him a key figure in the world of technology and finance."
-      ],
-      "sections": [
-        {
-          "heading": "Early Investments",
-          "body": "Milner is renowned for his early and substantial investments in companies that would later become tech giants, such as Facebook and Twitter."
-        },
-        {
-          "heading": "Influence on Tech",
-          "body": "His investments have had a significant impact on the tech industry, particularly in the areas of social media and communication platforms."
-        },
-        {
-          "heading": "Venture Capital Insights",
-          "body": "Milner's insights into the tech industry have been influential, with his ability to predict trends and identify potential in startups."
-        }
-      ]
-    },
-    "net_worth": "$3.50B"
-  },
-  {
     "id": 55,
     "name": "Dr. Anas Alhajji",
     "slug": "dr-onus-alhajji",
@@ -16150,6 +15963,193 @@
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 203,
+    "name": "Martin Shkreli",
+    "slug": "martin-schrelli",
+    "bio": "Martin Shkreli is an American investor and businessman known for his investments and insights in the AI and tech industry. His recent appearances have highlighted his views on the significant investments in the tech space and the importance of economic questions in AI.",
+    "known_for": "His substantial investments in AI and tech startups and his perspectives on the economic aspects of AI.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://thesuperions.com/martin-shkrelis-net-worth/",
+    "net_worth_updated_at": "2026-04-24T05:04:03.421556",
+    "voice_tone": "Confident and analytical.",
+    "voice_style": "Direct and to-the-point, with a focus on economic aspects of technology.",
+    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
+    "voice_profile_updated_at": "2026-04-24 10:03:50",
+    "last_seen": "2026-04-24 10:03:50",
+    "last_episode_title": "Martin Shkreli on AI, Pharma, and What Actually Matters",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
+    "last_proof_snippet": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
+    "supporting_takeaway": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-24T05:04:01.369826",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Martin Shkreli",
+      "fetched_at": "2026-04-24T10:04:01.369628+00:00",
+      "cliff_notes": "Martin Shkreli is recognized for his significant contributions to the AI and tech industry through his investments. His focus on the economic aspects of AI, such as who captures the value and where the bottlenecks are, has made him a notable figure in the tech investment space. Schrelli's insights into the market cap potential and his views on the need for better computers rather than more complex solutions have resonated with many in the industry. His recent appearances have emphasized the importance of vulnerability and redemption in business, suggesting that showing one's mistakes can lead to better outcomes.",
+      "derived": {
+        "current_role": "Investor and Businessman"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Martin Shkreli is recognized for his significant contributions to the AI and tech industry through his investments. His focus on the economic aspects of AI, such as who captures the value and where the bottlenecks are, has made him a notable figure in the tech investment space. Schrelli's insights into the market cap potential and his views on the need for better computers rather than more complex solutions have resonated with many in the industry.",
+        "His recent appearances have emphasized the importance of vulnerability and redemption in business, suggesting that showing one's mistakes can lead to better outcomes."
+      ],
+      "sections": [
+        {
+          "heading": "AI Investment",
+          "body": "Martin Shkreli has made substantial investments in AI and tech startups, contributing to the growth and development of the industry."
+        },
+        {
+          "heading": "Economic Questions in AI",
+          "body": "Schrelli emphasizes the importance of understanding who captures the value in AI and where the bottlenecks are, shifting the focus from mere intelligence to economic implications."
+        },
+        {
+          "heading": "Market Cap Potential",
+          "body": "In recent appearances, Schrelli has discussed the potential for a market cap of up to $10 trillion in the tech industry, highlighting the significant opportunities available."
+        },
+        {
+          "heading": "Business Philosophy",
+          "body": "Schrelli believes in the importance of admitting mistakes and showing vulnerability in business, which he sees as a path to redemption and better outcomes."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 202,
+    "name": "Ole Hansen",
+    "slug": "ole-hansen",
+    "bio": "Ole Hansen is the Chief Commodity Strategist at Saxo Bank, where he specializes in commodities and macroeconomic analysis. He is a sought-after expert in the world of finance and macroeconomics, providing insights on energy markets, food inflation, and secular inflation.",
+    "known_for": "His expertise in commodities and macroeconomic analysis, particularly in the context of global finance and investment strategies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Factual and data-driven.",
+    "voice_delivery_notes": "Paced with emphasis on key market insights.",
+    "voice_profile_updated_at": "2026-04-24 10:03:17",
+    "last_seen": "2026-04-24 10:03:17",
+    "last_episode_title": "MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
+    "last_proof_snippet": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
+    "supporting_takeaway": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-24T05:04:15.605895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ole Hansen",
+      "fetched_at": "2026-04-24T10:04:15.605744+00:00",
+      "cliff_notes": "Ole Hansen is recognized for his deep understanding of commodities and macroeconomics, which he applies in his role as Chief Commodity Strategist at Saxo Bank. His career has been marked by a focus on providing clear and actionable insights into complex financial markets, particularly in the areas of energy, food inflation, and broader economic trends. Hansen's work is influential among professional finance, high-net worth individuals, family offices, and other sophisticated investors. His contributions to financial podcasts like Macrovoisers have further solidified his reputation as a go-to source for and macroeconomic insights.",
+      "derived": {
+        "current_role": "Chief Commodity Strategist at Saxo Bank"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ole Hansen is recognized for his deep understanding of commodities and macroeconomics, which he applies in his role as Chief Commodity Strategist at Saxo Bank. His career has been marked by a focus on providing clear and actionable insights into complex financial markets, particularly in the areas of energy, food inflation, and broader economic trends.",
+        "Hansen's work is influential among professional finance, high-net worth individuals, family offices, and other sophisticated investors. His contributions to financial podcasts like Macrovoisers have further solidified his reputation as a go-to source for and macroeconomic insights."
+      ],
+      "sections": [
+        {
+          "heading": "Iran Conflict",
+          "body": "Ole Hansen discusses the implications of the Iran conflict on energy markets and its potential impact on global finance."
+        },
+        {
+          "heading": "Food Inflation",
+          "body": "Hansen provides analysis on upcoming trends in food inflation and strategies for trading in this sector."
+        },
+        {
+          "heading": "Secular Inflation",
+          "body": "As an expert in macroeconomics, Hansen offers a long-term outlook on secular inflation and its effects on various markets."
+        },
+        {
+          "heading": "Crude Oil Trading",
+          "body": "In the Macrovoisers podcast, Hansen explains how to position in crude oil using options on longer-dated futures to benefit from backwardation."
+        }
+      ]
+    }
+  },
+  {
+    "id": 201,
+    "name": "Yuri Milner",
+    "slug": "yuri-milner",
+    "bio": "Yuri Milner is a Russian Israeli physicist turned venture capitalist known for his prescient investments in companies like Facebook, Twitter, Airbnb, and WhatsApp. His ventures have significantly impacted the tech industry, shaping the landscape of social media and communication platforms.",
+    "known_for": "Being a venture capitalist with a knack for early investments in major tech companies.",
+    "net_worth_usd": 3500000000.0,
+    "net_worth_source": "https://www.latimes.com/business/la-fi-tn-yuri-millner-facebook-twitter-20171106-story.html",
+    "net_worth_updated_at": "2026-04-24T05:04:30.690593",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-24 10:02:58",
+    "last_episode_title": "Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Geopolitical dependency on volatile regions is becoming unacceptable, leading to a shift in global dynamics.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-23 \u2022 Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
+    "last_proof_snippet": "The aftermath of war is predicted to accelerate the competition between frontier labs and established businesses in AI.",
+    "supporting_takeaway": "The aftermath of war is predicted to accelerate the competition between frontier labs and established businesses in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-24T05:04:28.508335",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Yuri Milner",
+      "fetched_at": "2026-04-24T10:04:28.508190+00:00",
+      "cliff_notes": "Yuri Milner began his career as a physicist, studying at the University of Moscow. He later transitioned into the world of venture capitalism, where his ability to identify and invest in groundbreaking tech companies has been pivotal. His early and significant investments in companies such as Facebook, Twitter, Airbnb, and WhatsApp have not only provided substantial returns but have also influenced the direction of the tech industry. Milner's ventures have been instrumental in shaping the landscape of social media and communication platforms, making him a key figure in the world of technology and finance.",
+      "derived": {
+        "current_role": "Venture Capitalist",
+        "education": "Physicist; University of Moscow"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Russian Israeli"
+      },
+      "lead_paragraphs": [
+        "Yuri Milner began his career as a physicist, studying at the University of Moscow. He later transitioned into the world of venture capitalism, where his ability to identify and invest in groundbreaking tech companies has been pivotal. His early and significant investments in companies such as Facebook, Twitter, Airbnb, and WhatsApp have not only provided substantial returns but have also influenced the direction of the tech industry.",
+        "Milner's ventures have been instrumental in shaping the landscape of social media and communication platforms, making him a key figure in the world of technology and finance."
+      ],
+      "sections": [
+        {
+          "heading": "Early Investments",
+          "body": "Milner is renowned for his early and substantial investments in companies that would later become tech giants, such as Facebook and Twitter."
+        },
+        {
+          "heading": "Influence on Tech",
+          "body": "His investments have had a significant impact on the tech industry, particularly in the areas of social media and communication platforms."
+        },
+        {
+          "heading": "Venture Capital Insights",
+          "body": "Milner's insights into the tech industry have been influential, with his ability to predict trends and identify potential in startups."
+        }
+      ]
+    },
+    "net_worth": "$3.50B"
   },
   {
     "id": 200,
