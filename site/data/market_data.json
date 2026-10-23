@@ -7,7 +7,7 @@
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-23T17:34:18",
+    "last_updated": "2026-10-23T17:48:12",
     "as_of_date": "2026-10-23",
     "next_refunding_announcement": {
       "date": "2026-11-04",
@@ -60,15 +60,15 @@
         "high_discount_margin_pct": null,
         "coupon_pct": 2.25,
         "bid_to_cover": 2.41,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 68.33,
+        "total_tendered_billions": 62.605,
+        "total_accepted_billions": 26.0,
+        "primary_dealer_accepted_billions": 1.419,
+        "direct_accepted_billions": 8.328,
+        "indirect_accepted_billions": 15.929,
+        "results_pdf": "R_20261022_4.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRR4",
-        "stranger_note": "bid-to-cover 2.41."
+        "stranger_note": "bid-to-cover 2.41; foreign and other indirect buyers took 61%."
       },
       {
         "date": "2026-10-21",
@@ -81,15 +81,15 @@
         "high_discount_margin_pct": null,
         "coupon_pct": 5.125,
         "bid_to_cover": 2.73,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 60.05,
+        "total_tendered_billions": 35.48,
+        "total_accepted_billions": 13.0,
+        "primary_dealer_accepted_billions": 1.323,
+        "direct_accepted_billions": 4.075,
+        "indirect_accepted_billions": 7.503,
+        "results_pdf": "R_20261021_2.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=912810UX4",
-        "stranger_note": "bid-to-cover 2.73."
+        "stranger_note": "bid-to-cover 2.73; foreign and other indirect buyers took 58%."
       },
       {
         "date": "2026-10-08",
@@ -102,15 +102,15 @@
         "high_discount_margin_pct": null,
         "coupon_pct": 5.125,
         "bid_to_cover": 2.54,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 26.77,
+        "total_tendered_billions": 56.436,
+        "total_accepted_billions": 22.523,
+        "primary_dealer_accepted_billions": 1.49,
+        "direct_accepted_billions": 4.583,
+        "indirect_accepted_billions": 15.866,
+        "results_pdf": "R_20261008_3.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=912810UW6",
-        "stranger_note": "bid-to-cover 2.54."
+        "stranger_note": "bid-to-cover 2.54; foreign and other indirect buyers took 70%."
       },
       {
         "date": "2026-10-07",
@@ -123,15 +123,15 @@
         "high_discount_margin_pct": null,
         "coupon_pct": 4.625,
         "bid_to_cover": 2.77,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 57.6,
+        "total_tendered_billions": 108.995,
+        "total_accepted_billions": 39.926,
+        "primary_dealer_accepted_billions": 0.984,
+        "direct_accepted_billions": 6.618,
+        "indirect_accepted_billions": 31.063,
+        "results_pdf": "R_20261007_2.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRF0",
-        "stranger_note": "bid-to-cover 2.77."
+        "stranger_note": "bid-to-cover 2.77; foreign and other indirect buyers took 78%."
       },
       {
         "date": "2026-10-06",
@@ -144,15 +144,15 @@
         "high_discount_margin_pct": null,
         "coupon_pct": 4.875,
         "bid_to_cover": 2.62,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 8.35,
+        "total_tendered_billions": 153.096,
+        "total_accepted_billions": 59.378,
+        "primary_dealer_accepted_billions": 6.121,
+        "direct_accepted_billions": 18.048,
+        "indirect_accepted_billions": 32.826,
+        "results_pdf": "R_20261006_2.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRQ6",
-        "stranger_note": "bid-to-cover 2.62."
+        "stranger_note": "bid-to-cover 2.62; foreign and other indirect buyers took 55%."
       },
       {
         "date": "2026-09-24",
@@ -165,15 +165,15 @@
         "high_discount_margin_pct": null,
         "coupon_pct": 5.0,
         "bid_to_cover": 2.42,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 91.11,
+        "total_tendered_billions": 113.216,
+        "total_accepted_billions": 50.624,
+        "primary_dealer_accepted_billions": 5.448,
+        "direct_accepted_billions": 13.164,
+        "indirect_accepted_billions": 24.87,
+        "results_pdf": "R_20260924_3.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRM5",
-        "stranger_note": "bid-to-cover 2.42."
+        "stranger_note": "bid-to-cover 2.42; foreign and other indirect buyers took 49%."
       },
       {
         "date": "2026-09-23",
@@ -186,15 +186,15 @@
         "high_discount_margin_pct": null,
         "coupon_pct": 5.0,
         "bid_to_cover": 2.21,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 30.34,
+        "total_tendered_billions": 165.389,
+        "total_accepted_billions": 80.539,
+        "primary_dealer_accepted_billions": 10.99,
+        "direct_accepted_billions": 20.842,
+        "indirect_accepted_billions": 37.837,
+        "results_pdf": "R_20260923_3.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRN3",
-        "stranger_note": "bid-to-cover 2.21."
+        "stranger_note": "bid-to-cover 2.21; foreign and other indirect buyers took 47%."
       },
       {
         "date": "2026-09-23",
@@ -207,15 +207,15 @@
         "high_discount_margin_pct": 0.04,
         "coupon_pct": null,
         "bid_to_cover": 2.63,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 42.15,
+        "total_tendered_billions": 73.508,
+        "total_accepted_billions": 28.0,
+        "primary_dealer_accepted_billions": 11.452,
+        "direct_accepted_billions": 0.0,
+        "indirect_accepted_billions": 16.538,
+        "results_pdf": "R_20260923_2.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRD5",
-        "stranger_note": "bid-to-cover 2.63."
+        "stranger_note": "bid-to-cover 2.63; foreign and other indirect buyers took 59%."
       },
       {
         "date": "2026-09-22",
@@ -228,15 +228,15 @@
         "high_discount_margin_pct": null,
         "coupon_pct": 4.75,
         "bid_to_cover": 2.63,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 33.42,
+        "total_tendered_billions": 191.652,
+        "total_accepted_billions": 79.388,
+        "primary_dealer_accepted_billions": 8.928,
+        "direct_accepted_billions": 19.641,
+        "indirect_accepted_billions": 39.116,
+        "results_pdf": "R_20260922_2.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRP8",
-        "stranger_note": "bid-to-cover 2.63."
+        "stranger_note": "bid-to-cover 2.63; foreign and other indirect buyers took 49%."
       },
       {
         "date": "2026-09-17",
@@ -249,15 +249,15 @@
         "high_discount_margin_pct": null,
         "coupon_pct": 2.375,
         "bid_to_cover": 2.24,
-        "allocation_at_high_pct": null,
-        "total_tendered_billions": null,
-        "total_accepted_billions": null,
-        "primary_dealer_accepted_billions": null,
-        "direct_accepted_billions": null,
-        "indirect_accepted_billions": null,
-        "results_pdf": null,
+        "allocation_at_high_pct": 93.14,
+        "total_tendered_billions": 45.346,
+        "total_accepted_billions": 21.86,
+        "primary_dealer_accepted_billions": 2.3,
+        "direct_accepted_billions": 5.419,
+        "indirect_accepted_billions": 11.165,
+        "results_pdf": "R_20260917_3.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRE3",
-        "stranger_note": "bid-to-cover 2.24."
+        "stranger_note": "bid-to-cover 2.24; foreign and other indirect buyers took 51%."
       }
     ],
     "refunding_context": {
@@ -277,7 +277,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-23T15:33:29.523453",
+    "last_fetched": "2026-10-23T17:48:10.048487",
     "h100": {
       "daily_date": "Oct 23, 2026",
       "daily_date_iso": "2026-10-23",
@@ -1182,10 +1182,10 @@
     "_api_url": "https://aicomputetracker.com/forward-curves.json",
     "_settles_on": "Ornn Compute Price Index (OCPI)",
     "_license": "AI Compute Tracker (aicomputetracker.com), CC BY 4.0; third-party terms apply to data from Kalshi (KalshiEX LLC)",
-    "as_of": "2026-10-23T17:24:25.664Z",
+    "as_of": "2026-10-23T21:37:36.461Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-10-23T15:33:29.951411",
+    "last_fetched": "2026-10-23T17:48:10.489922",
     "b200": {
       "points": [
         {
@@ -1197,13 +1197,13 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 8.8,
+          "price": 9.07,
           "quality": "quality-passed"
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 8.21,
+          "price": 10.09,
           "quality": "thin"
         },
         {
@@ -1265,7 +1265,7 @@
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 8.21,
+          "price": 10.09,
           "quality": "thin"
         },
         {
@@ -1276,7 +1276,7 @@
         }
       ],
       "two_sided_markets": 39,
-      "liquidity_usd": 82502,
+      "liquidity_usd": 58988,
       "kalshi_series": "KXB200MS",
       "last_trade_at": "2026-10-08T10:21:00.572Z"
     },
@@ -1285,19 +1285,19 @@
         {
           "tenor_key": "2026-10",
           "tenor": "Oct '26",
-          "price": 5.97,
+          "price": 5.8,
           "quality": "thin"
         },
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 5.6,
+          "price": 5.59,
           "quality": "thin"
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 5.73,
+          "price": 5.72,
           "quality": "thin"
         },
         {
@@ -1353,13 +1353,13 @@
         {
           "tenor_key": "2026-10",
           "tenor": "Oct '26",
-          "price": 5.97,
+          "price": 5.8,
           "quality": "thin"
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 5.73,
+          "price": 5.72,
           "quality": "thin"
         },
         {
@@ -1370,7 +1370,7 @@
         }
       ],
       "two_sided_markets": 23,
-      "liquidity_usd": 77698,
+      "liquidity_usd": 77255,
       "kalshi_series": "KXH200MS",
       "last_trade_at": "2026-09-09T17:33:25.711Z"
     },
@@ -1385,13 +1385,13 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 3.38,
+          "price": 3.26,
           "quality": "thin"
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 3.0,
+          "price": 3.48,
           "quality": "thin"
         },
         {
@@ -1453,7 +1453,7 @@
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 3.0,
+          "price": 3.48,
           "quality": "thin"
         },
         {
@@ -1464,7 +1464,7 @@
         }
       ],
       "two_sided_markets": 22,
-      "liquidity_usd": 3539,
+      "liquidity_usd": 3881,
       "kalshi_series": "KXH100MS",
       "last_trade_at": "2026-09-09T17:33:08.574Z"
     },
@@ -1479,13 +1479,13 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 1.06,
+          "price": 1.07,
           "quality": "thin"
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 1.03,
+          "price": 1.04,
           "quality": "thin"
         },
         {
@@ -1497,13 +1497,13 @@
         {
           "tenor_key": "2027-02",
           "tenor": "Feb '27",
-          "price": 1.26,
+          "price": 1.33,
           "quality": "thin"
         },
         {
           "tenor_key": "2027-03",
           "tenor": "Mar '27",
-          "price": 1.77,
+          "price": 1.76,
           "quality": "thin"
         },
         {
@@ -1547,7 +1547,7 @@
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 1.03,
+          "price": 1.04,
           "quality": "thin"
         },
         {
@@ -1558,7 +1558,7 @@
         }
       ],
       "two_sided_markets": 8,
-      "liquidity_usd": 2388,
+      "liquidity_usd": 1983,
       "kalshi_series": "KXA100MS",
       "last_trade_at": "2026-09-09T17:33:11.614Z"
     }
@@ -1571,29 +1571,29 @@
         "spot": 6.91,
         "spot_30d_pct": 20.0,
         "spot_90d_pct": 27.7,
-        "forward_vs_spot_pct": -3.9,
-        "score": 14.6,
+        "forward_vs_spot_pct": -0.8,
+        "score": 15.6,
         "trend": "rising"
       },
       "h100": {
         "spot": 3.35,
         "spot_30d_pct": 1.8,
         "spot_90d_pct": 5.3,
-        "forward_vs_spot_pct": -8.9,
-        "score": -0.6,
+        "forward_vs_spot_pct": -7.8,
+        "score": -0.2,
         "trend": "steady"
       },
       "a100": {
         "spot": 1.73,
         "spot_30d_pct": -6.5,
         "spot_90d_pct": -1.1,
-        "forward_vs_spot_pct": -28.7,
-        "score": -12.1,
+        "forward_vs_spot_pct": -28.2,
+        "score": -11.9,
         "trend": "dropping"
       }
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
     "as_of": "2026-10-23",
-    "generated_at": "2026-10-23T15:33:29"
+    "generated_at": "2026-10-23T17:48:10"
   }
 }
