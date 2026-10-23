@@ -47,7 +47,8 @@ def _overton_key(term: str) -> str:
 def select_recent_overton_candidates(recent_rows, existing_rows, limit: int = OVERTON_RECENT_CANDIDATES):
     """Pick clean candidates for the reserved recent Overton slots, best novelty first.
 
-    Drops quote fragments ("super intelligence," with stray punctuation), saturated/established
+    Drops quote fragments ("super intelligence," with stray punctuation, or a single
+    all-lowercase word such as "floor"), saturated/established
     terms, terms with fewer than 2 mentions, and near-duplicates of terms already shown
     (e.g. "Super intelligence" vs "Superintelligence").
     """
@@ -57,6 +58,10 @@ def select_recent_overton_candidates(recent_rows, existing_rows, limit: int = OV
                                                 int(t.get("mention_count") or 0)), reverse=True):
         term = (r.get("term") or "").strip()
         if not term or re.search(r"[,;:!?\"]", term) or term != term.strip(".-"):
+            continue
+        # Oct 23 2026: a single all-lowercase word ("floor") is a quote fragment, not a coined
+        # term (same rule manage_suggested_terms applies at extraction; Jared 10/20 rule).
+        if " " not in term and term.islower():
             continue
         if r.get("is_established") or int(r.get("mention_count") or 0) < 2:
             continue
