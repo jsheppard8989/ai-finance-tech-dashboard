@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-23T17:35:30.300510",
+  generatedAt: "2026-10-23T17:58:09.083412",
   chartsVersion: "2026-10-23T13:39:24.244423",
   priceSnapshot: {
   "AAPL": {
@@ -76489,7 +76489,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-23T17:35:21.866179"
+      "last_updated": "2026-10-23T17:58:01.278679"
     }
   ]
 }
