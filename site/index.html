@@ -2060,6 +2060,10 @@
       .plumbing-expand summary:hover { color: #00d4ff; }
       .plumbing-expand[open] summary { color: #00d4ff; }
       .plumbing-expand .expand-content { color: #8892b0; font-size: 0.68rem; line-height: 1.45; margin-top: 0.35rem; padding-left: 0.5rem; border-left: 2px solid rgba(0, 212, 255, 0.2); }
+      /* Market Commentary fills its card. clamp() is the no-JS fallback; fitCommentary() refines it. */
+      #market-commentary { display: flex; flex-direction: column; }
+      #commentary-body { font-size: clamp(15px, 0.55rem + 0.45vw, 20px); overflow-wrap: anywhere; }
+      #commentary-body.fit-box { flex: 1 1 0; min-height: 0; overflow: hidden; }
     </style>
     <div class="plumbing-widgets" style="margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem;">
       <!-- Treasury Calendar -->
@@ -2084,7 +2088,7 @@
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📝 Market Commentary</h3>
         <div id="commentary-meta" style="color: #6b7280; font-size: 0.62rem; margin-bottom: 0.35rem;"></div>
         <div id="commentary-title" style="color: #e6f1ff; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;"></div>
-        <div id="commentary-body" class="commentary-body" style="color: #a8b2d1; font-size: 0.72rem; line-height: 1.45;">
+        <div id="commentary-body" class="commentary-body" style="color: #a8b2d1; line-height: 1.45;">
           <span style="color: #a8b2d1;">First commentary coming soon</span>
         </div>
       </div>
@@ -2189,7 +2193,36 @@
             document.getElementById('commentary-title').innerHTML = c.title || '';
             bodyEl.innerHTML = c.html;
           })
-          .catch(soon);
+          .catch(soon)
+          .then(fitCommentary);
+
+        // Fit-to-box: binary-search the largest font size whose text fits the space the
+        // grid row gives this card. Never overflows: if even the readable minimum does not
+        // fit (single-column mobile, or this card sets the row height), fall back to normal
+        // flow at the clamp() size so the card grows instead of clipping.
+        function fitCommentary() {
+          const narrow = window.matchMedia('(max-width: 600px)').matches;
+          const MIN = narrow ? 15 : 14, MAX = 22;
+          bodyEl.style.fontSize = '';
+          bodyEl.classList.add('fit-box');
+          const avail = bodyEl.clientHeight;
+          const fits = px => { bodyEl.style.fontSize = px + 'px'; return bodyEl.scrollHeight <= avail + 1; };
+          if (narrow || avail < 40 || !fits(MIN)) {
+            bodyEl.classList.remove('fit-box');
+            bodyEl.style.fontSize = '';
+            return;
+          }
+          let lo = MIN, hi = MAX;
+          while (hi - lo > 0.25) { const mid = (lo + hi) / 2; if (fits(mid)) lo = mid; else hi = mid; }
+          bodyEl.style.fontSize = lo.toFixed(2) + 'px';
+        }
+        let t;
+        const refit = () => { clearTimeout(t); t = setTimeout(fitCommentary, 120); };
+        window.addEventListener('resize', refit);
+        window.addEventListener('load', refit);
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(refit);
+        const grid = bodyEl.closest('.plumbing-widgets');
+        if (grid && window.ResizeObserver) new ResizeObserver(refit).observe(grid);
       })();
     </script>
 
