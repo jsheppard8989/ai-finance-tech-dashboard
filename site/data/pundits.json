@@ -275,7 +275,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-13",
     "mention_score": 3,
-    "mention_score_decayed": 2.44,
+    "mention_score_decayed": 2.38,
     "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
     "last_proof_snippet": "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
@@ -938,66 +938,6 @@
     "net_worth": "$3.90B"
   },
   {
-    "id": 183,
-    "name": "Aaron Levie",
-    "slug": "aaron-levy",
-    "bio": "Co-founder and CEO of Box, the cloud content management company.",
-    "known_for": "Co-founding and leading Box as CEO; commentary on enterprise software and AI.",
-    "net_worth_usd": 107852195.0,
-    "net_worth_source": "https://strike.market/key-executives/0001606525",
-    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
-    "voice_tone": "Measured and analytical with policy-aware framing",
-    "voice_style": "Builds arguments through logical contrasts and economic analogies rather than hype",
-    "voice_delivery_notes": "Speaks in complete paragraphs with deliberate pacing; emphasize the 'not either/or but both/and' structure of his open vs closed model argument",
-    "voice_profile_updated_at": "2026-09-05 17:12:26",
-    "last_seen": "2026-09-05 17:12:26",
-    "last_episode_title": "Aaron Levie on Why Open AI Wins",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-05",
-    "mention_score": 3,
-    "mention_score_decayed": 1.01,
-    "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
-    "last_proof_snippet": "Openweight AI is often framed as a threat to frontier labs. Aaron Levie thinks that kits the economics backwards. The box co-founder and CEO joins the OJFI and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more",
-    "supporting_takeaway": "U.S. policy and investment in open weights models is critical to avoid technological dependence on China, which currently leads in this domain",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Aaron Levie",
-      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
-      "cliff_notes": "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
-      "derived": {
-        "current_role": "CEO at Box"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
-        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Content Management",
-          "body": "Aaron Levie has been at the forefront of cloud content management, leading Box to become a major player in the industry."
-        },
-        {
-          "heading": "AI and Technology Integration",
-          "body": "Levie has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
-        },
-        {
-          "heading": "Economic Implications of Technology",
-          "body": "Levie has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
-        }
-      ]
-    },
-    "net_worth": "$107.9M"
-  },
-  {
     "id": 543,
     "name": "Andy Jassy",
     "slug": "andy-jassy",
@@ -1053,6 +993,66 @@
     "pundit_profile": null
   },
   {
+    "id": 183,
+    "name": "Aaron Levie",
+    "slug": "aaron-levy",
+    "bio": "Co-founder and CEO of Box, the cloud content management company.",
+    "known_for": "Co-founding and leading Box as CEO; commentary on enterprise software and AI.",
+    "net_worth_usd": 107852195.0,
+    "net_worth_source": "https://strike.market/key-executives/0001606525",
+    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
+    "voice_tone": "Measured and analytical with policy-aware framing",
+    "voice_style": "Builds arguments through logical contrasts and economic analogies rather than hype",
+    "voice_delivery_notes": "Speaks in complete paragraphs with deliberate pacing; emphasize the 'not either/or but both/and' structure of his open vs closed model argument",
+    "voice_profile_updated_at": "2026-09-05 17:12:26",
+    "last_seen": "2026-09-05 17:12:26",
+    "last_episode_title": "Aaron Levie on Why Open AI Wins",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-05",
+    "mention_score": 3,
+    "mention_score_decayed": 0.99,
+    "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
+    "last_proof_snippet": "Openweight AI is often framed as a threat to frontier labs. Aaron Levie thinks that kits the economics backwards. The box co-founder and CEO joins the OJFI and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more",
+    "supporting_takeaway": "U.S. policy and investment in open weights models is critical to avoid technological dependence on China, which currently leads in this domain",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levie",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levie has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levie has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levie has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": "$107.9M"
+  },
+  {
     "id": 564,
     "name": "Chris Auth",
     "slug": "chris-auth",
@@ -1070,7 +1070,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what\u2019s coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bo",
@@ -1097,7 +1097,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what\u2019s coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bo",
@@ -1124,7 +1124,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what\u2019s coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bo",
@@ -1151,7 +1151,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what\u2019s coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bo",
@@ -1178,7 +1178,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what\u2019s coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bo",
@@ -1205,7 +1205,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Moshi\u2019s key claim is that trader AI wins by combining recommendation systems with workflow-native UI, not by building a generic Bloomberg-like interface.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-22 \u2022 You are the Team  \u2014 Anekha Sokhal, Moshi",
     "last_proof_snippet": "Tickets and applications now live for AIE CODE - the last flagship AIE of the year. When Anekha Sokhal traded energy derivatives, staying on top of the market meant tracking more information than any person could read. Now, as CEO of Moshi,",
@@ -1367,7 +1367,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "OpenAI\u2019s health-AI edge is its cheaper, frontier-level model plus specialized medical training, which it says can outperform prior models while scaling across workflows like Epic.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-20 \u2022 What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
     "last_proof_snippet": "5.3 plus trillian we spend on health care for its own country, be the third largest GDP, and yet we have a ton of scarcity. Opening as mission is to ensure AGI benefits all of humanity and give people access to trustworthy abundant reliable",
@@ -1431,67 +1431,6 @@
     "pundit_profile": null
   },
   {
-    "id": 230,
-    "name": "Jared Isaacman",
-    "slug": "jared-isaacman",
-    "bio": "Jared Isaacman is an entrepreneur and pilot recognized for his significant contributions to commercial spaceflight and technology. He is the founder of Shift4 Payments and served as the commander of the Inspiration4 mission, which marked a milestone in private space travel. His work emphasizes the intersection of technology and human exploration.",
-    "known_for": "Jared Isaacman is a key figure in commercial spaceflight, leading initiatives that push the boundaries of human exploration beyond Earth.",
-    "net_worth_usd": 1400000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Jared_Isaacman",
-    "net_worth_updated_at": "2026-05-06T12:35:56.048552",
-    "voice_tone": "Confident and assertive",
-    "voice_style": "Direct and informative",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key technological advancements.",
-    "voice_profile_updated_at": "2026-09-18 18:33:59",
-    "last_seen": "2026-09-18 18:33:59",
-    "last_episode_title": "Jared Isaacman: A New Era for NASA and American Space Exploration",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-18",
-    "mention_score": 2,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-18 \u2022 Jared Isaacman: A New Era for NASA and American Space Exploration",
-    "last_proof_snippet": "Ignition sequenced star. It's good to have an abeater and astronaut in charge. The new NASA Administrator. NASA's still hot. Human climate will not be contained to planet Earth indefinitely. In the next giant leap capabilities that's nuclea",
-    "supporting_takeaway": "The planned use of nuclear power for deep space missions could create new markets for nuclear technology firms.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-18T13:34:19.175670",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Jared Isaacman",
-      "fetched_at": "2026-09-18T18:34:19.175446+00:00",
-      "cliff_notes": "Jared Isaacman began his career as an entrepreneur at a young age, founding Shift4 Payments, a payment processing company that has grown significantly in the tech industry. His passion for aviation and space led him to become a pilot and ultimately to command the Inspiration4 mission, the first all-civilian spaceflight to orbit Earth. This mission not only showcased the potential of private space travel but also aimed to raise funds for St. Jude Children's Research Hospital. Isaacman's vision extends beyond commercial interests; he advocates for advancements in technology and space exploration that can benefit humanity as a whole. His leadership in these areas positions him as a pivotal figure in the future of both technology and space policy.",
-      "derived": {
-        "current_role": "Founder and CEO of Shift4 Payments"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "",
-        "Occupation": "Entrepreneur, Pilot"
-      },
-      "lead_paragraphs": [
-        "Jared Isaacman began his career as an entrepreneur at a young age, founding Shift4 Payments, a payment processing company that has grown significantly in the tech industry. His passion for aviation and space led him to become a pilot and ultimately to command the Inspiration4 mission, the first all-civilian spaceflight to orbit Earth.",
-        "This mission not only showcased the potential of private space travel but also aimed to raise funds for St. Jude Children's Research Hospital. Isaacman's vision extends beyond commercial interests; he advocates for advancements in technology and space exploration that can benefit humanity as a whole. His leadership in these areas positions him as a pivotal figure in the future of both technology and space policy."
-      ],
-      "sections": [
-        {
-          "heading": "Commercial Spaceflight",
-          "body": "Isaacman's role in the Inspiration4 mission exemplifies the potential of private citizens participating in space exploration. This mission marked a significant step in making space travel accessible to non-professionals."
-        },
-        {
-          "heading": "Technological Innovation",
-          "body": "As the founder of Shift4 Payments, Isaacman has been at the forefront of payment processing technology, driving innovations that enhance transaction efficiency and security."
-        },
-        {
-          "heading": "Philanthropy",
-          "body": "Through the Inspiration4 mission, Isaacman has raised substantial funds for St. Jude Children's Research Hospital, highlighting the intersection of space exploration and charitable efforts."
-        }
-      ]
-    },
-    "net_worth": "$1.40B"
-  },
-  {
     "id": 548,
     "name": "Mario Martone",
     "slug": "mario-martone",
@@ -1544,6 +1483,67 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 230,
+    "name": "Jared Isaacman",
+    "slug": "jared-isaacman",
+    "bio": "Jared Isaacman is an entrepreneur and pilot recognized for his significant contributions to commercial spaceflight and technology. He is the founder of Shift4 Payments and served as the commander of the Inspiration4 mission, which marked a milestone in private space travel. His work emphasizes the intersection of technology and human exploration.",
+    "known_for": "Jared Isaacman is a key figure in commercial spaceflight, leading initiatives that push the boundaries of human exploration beyond Earth.",
+    "net_worth_usd": 1400000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Jared_Isaacman",
+    "net_worth_updated_at": "2026-05-06T12:35:56.048552",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and informative",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key technological advancements.",
+    "voice_profile_updated_at": "2026-09-18 18:33:59",
+    "last_seen": "2026-09-18 18:33:59",
+    "last_episode_title": "Jared Isaacman: A New Era for NASA and American Space Exploration",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-18",
+    "mention_score": 2,
+    "mention_score_decayed": 0.89,
+    "last_main_idea": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-18 \u2022 Jared Isaacman: A New Era for NASA and American Space Exploration",
+    "last_proof_snippet": "Ignition sequenced star. It's good to have an abeater and astronaut in charge. The new NASA Administrator. NASA's still hot. Human climate will not be contained to planet Earth indefinitely. In the next giant leap capabilities that's nuclea",
+    "supporting_takeaway": "The planned use of nuclear power for deep space missions could create new markets for nuclear technology firms.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-18T13:34:19.175670",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Jared Isaacman",
+      "fetched_at": "2026-09-18T18:34:19.175446+00:00",
+      "cliff_notes": "Jared Isaacman began his career as an entrepreneur at a young age, founding Shift4 Payments, a payment processing company that has grown significantly in the tech industry. His passion for aviation and space led him to become a pilot and ultimately to command the Inspiration4 mission, the first all-civilian spaceflight to orbit Earth. This mission not only showcased the potential of private space travel but also aimed to raise funds for St. Jude Children's Research Hospital. Isaacman's vision extends beyond commercial interests; he advocates for advancements in technology and space exploration that can benefit humanity as a whole. His leadership in these areas positions him as a pivotal figure in the future of both technology and space policy.",
+      "derived": {
+        "current_role": "Founder and CEO of Shift4 Payments"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "",
+        "Occupation": "Entrepreneur, Pilot"
+      },
+      "lead_paragraphs": [
+        "Jared Isaacman began his career as an entrepreneur at a young age, founding Shift4 Payments, a payment processing company that has grown significantly in the tech industry. His passion for aviation and space led him to become a pilot and ultimately to command the Inspiration4 mission, the first all-civilian spaceflight to orbit Earth.",
+        "This mission not only showcased the potential of private space travel but also aimed to raise funds for St. Jude Children's Research Hospital. Isaacman's vision extends beyond commercial interests; he advocates for advancements in technology and space exploration that can benefit humanity as a whole. His leadership in these areas positions him as a pivotal figure in the future of both technology and space policy."
+      ],
+      "sections": [
+        {
+          "heading": "Commercial Spaceflight",
+          "body": "Isaacman's role in the Inspiration4 mission exemplifies the potential of private citizens participating in space exploration. This mission marked a significant step in making space travel accessible to non-professionals."
+        },
+        {
+          "heading": "Technological Innovation",
+          "body": "As the founder of Shift4 Payments, Isaacman has been at the forefront of payment processing technology, driving innovations that enhance transaction efficiency and security."
+        },
+        {
+          "heading": "Philanthropy",
+          "body": "Through the Inspiration4 mission, Isaacman has raised substantial funds for St. Jude Children's Research Hospital, highlighting the intersection of space exploration and charitable efforts."
+        }
+      ]
+    },
+    "net_worth": "$1.40B"
   },
   {
     "id": 544,
@@ -1789,125 +1789,6 @@
     "pundit_profile": null
   },
   {
-    "id": 530,
-    "name": "Dan Boneh",
-    "slug": "dan-bonay",
-    "bio": "Stanford professor introduced in the episode. He focuses on why current AI progress does not yet equal a demonstrated break of deployed cryptography.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 17:37:30",
-    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.81,
-    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
-    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 531,
-    "name": "Justin Thaler",
-    "slug": "justin-daler",
-    "bio": "Research Partner at a16z. He emphasizes operational defenses, crypto agility, and startup opportunities in AI-driven security tooling.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 17:37:30",
-    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.81,
-    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
-    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
-    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "Confident and assertive",
-    "voice_style": "Direct and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on key points",
-    "voice_profile_updated_at": "2026-08-14 18:36:52",
-    "last_seen": "2026-08-14 18:36:52",
-    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-14",
-    "mention_score": 4,
-    "mention_score_decayed": 0.81,
-    "last_main_idea": "Industrial AI has the potential to revolutionize major industries, akin to the second industrial revolution.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
-    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
-    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
-      "derived": {
-        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
-        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
-      },
-      "infobox": {
-        "Born": "1976",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
-        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Uber Co-Founder",
-          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
-        },
-        {
-          "heading": "CloudKitchens Founder",
-          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
-        },
-        {
-          "heading": "Controversies",
-          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
-        },
-        {
-          "heading": "Innovation and Disruption",
-          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
-  },
-  {
     "id": 78,
     "name": "Martin Casado",
     "slug": "martin-casado",
@@ -1967,6 +1848,60 @@
       ]
     },
     "net_worth": "$600.0M"
+  },
+  {
+    "id": 530,
+    "name": "Dan Boneh",
+    "slug": "dan-bonay",
+    "bio": "Stanford professor introduced in the episode. He focuses on why current AI progress does not yet equal a demonstrated break of deployed cryptography.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 17:37:30",
+    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.79,
+    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
+    "last_proof_snippet": "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
+    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 531,
+    "name": "Justin Thaler",
+    "slug": "justin-daler",
+    "bio": "Research Partner at a16z. He emphasizes operational defenses, crypto agility, and startup opportunities in AI-driven security tooling.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 17:37:30",
+    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.79,
+    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
+    "last_proof_snippet": "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
+    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 529,
@@ -2077,6 +2012,71 @@
         }
       ]
     }
+  },
+  {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
+    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
+    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-08-14 18:36:52",
+    "last_seen": "2026-08-14 18:36:52",
+    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-14",
+    "mention_score": 4,
+    "mention_score_decayed": 0.79,
+    "last_main_idea": "Industrial AI has the potential to revolutionize major industries, akin to the second industrial revolution.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
+    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
+    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kalanick",
+      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
+      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
+      "derived": {
+        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
+        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
+      },
+      "infobox": {
+        "Born": "1976",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
+        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Uber Co-Founder",
+          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
+        },
+        {
+          "heading": "CloudKitchens Founder",
+          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
+        },
+        {
+          "heading": "Controversies",
+          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
+        },
+        {
+          "heading": "Innovation and Disruption",
+          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
   },
   {
     "id": 525,
@@ -2372,7 +2372,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
     "last_proof_snippet": "It\u2019s hard to believe that Periodic was only launched last September: One year later, it is considered one of the pre-eminent AI scientist labs, with dizzying talent density and astonishing progress in the autonomous lab buildout: Most peopl",
@@ -2399,7 +2399,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
     "last_proof_snippet": "It\u2019s hard to believe that Periodic was only launched last September: One year later, it is considered one of the pre-eminent AI scientist labs, with dizzying talent density and astonishing progress in the autonomous lab buildout: Most peopl",
@@ -2870,7 +2870,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Si Sheppard argues Spain's 16th-century silver windfall imported inflation and delayed capital-market development, while England and the Netherlands advanced through banking, trade, and industrial investment.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-01 \u2022 Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",
     "last_proof_snippet": "New episode with military historian Si Sheppard. The conquests of the Aztec and Inca empires might be the most shocking events in human history. Hernan Cort\u00e9s and some hundreds of Conquistadors landed on a new continent they knew basically",
@@ -8343,6 +8343,65 @@
     "net_worth": "$20.0M"
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.15,
+    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 368,
     "name": "Ashwin Srinivas",
     "slug": "ashwin-srinivas",
@@ -8360,7 +8419,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -8420,7 +8479,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -8465,65 +8524,6 @@
       ]
     },
     "net_worth": "$1.50B"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.15,
-    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 366,
@@ -9279,7 +9279,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -10770,70 +10770,6 @@
     }
   },
   {
-    "id": 310,
-    "name": "Will Marshall",
-    "slug": "will-marshall",
-    "bio": "Will Marshall is the co-founder and CEO of Planet Labs, a company that specializes in Earth imaging and data analytics. His work focuses on creating large Earth models using satellite data and AI to index the Earth, making it searchable and enabling better stewardship of the planet.",
-    "known_for": "Creating large Earth models using satellite data and AI to make the planet searchable and facilitate environmental stewardship.",
-    "net_worth_usd": 87000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/183020/william-spencer-marshall",
-    "net_worth_updated_at": "2026-06-26T13:39:55.577952",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-26 18:38:56",
-    "last_episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-06-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.07,
-    "last_main_idea": "Track AI pricing trends to identify investment opportunities.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
-    "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-26T13:39:54.444519",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Will Marshall",
-      "fetched_at": "2026-06-26T18:39:54.444173+00:00",
-      "cliff_notes": "Will Marshall is a prominent figure in the field of Earth imaging and data analytics. As the co-founder and CEO of Planet Labs, he has been instrumental in developing large Earth models that utilize satellite data and artificial intelligence. These models are designed to index the Earth, making it searchable in a manner similar to how Google indexes the internet. This innovation has the potential to revolutionize environmental monitoring and management, enabling more effective and data-driven decision-making. Marshall's work is crucial in the context of global environmental challenges, as it provides a scalable and comprehensive approach to understanding and addressing issues such as climate change, deforestation, and urban development.",
-      "derived": {
-        "current_role": "Co-founder and CEO of Planet Labs"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Will Marshall is a prominent figure in the field of Earth imaging and data analytics. As the co-founder and CEO of Planet Labs, he has been instrumental in developing large Earth models that utilize satellite data and artificial intelligence. These models are designed to index the Earth, making it searchable in a manner similar to how Google indexes the internet.",
-        "This innovation has the potential to revolutionize environmental monitoring and management, enabling more effective and data-driven decision-making. Marshall's work is crucial in the context of global environmental challenges, as it provides a scalable and comprehensive approach to understanding and addressing issues such as climate change, deforestation, and urban development."
-      ],
-      "sections": [
-        {
-          "heading": "Planet Labs",
-          "body": "Planet Labs is a company that specializes in Earth imaging and data analytics, founded by Will Marshall. It aims to create large Earth models using satellite data and AI, making the planet searchable and facilitating environmental stewardship."
-        },
-        {
-          "heading": "Large Earth Models",
-          "body": "Will Marshall has coined the term 'large Earth models,' which refers to the indexing of the Earth using satellite data and AI, similar to how Google indexes the internet. This concept is aimed at enabling smarter and more efficient management of the planet's resources."
-        },
-        {
-          "heading": "Competition with SpaceX",
-          "body": "In discussions about the future of space technology, Will Marshall has acknowledged the competition with Elon Musk's SpaceX, particularly in terms of launching satellites and establishing orbital AI data centers. He highlights the importance of both launch capabilities and computational power in the long term."
-        },
-        {
-          "heading": "Global AI Competition",
-          "body": "Marshall has also commented on the global competition in AI, noting the emergence of Chinese models like GLM5.2 that match or exceed the performance of top models from OpenAI and Anthropic. He emphasizes the importance of efficiency and cost-effectiveness in AI development, as well as the potential for token-based intelligence systems."
-        }
-      ]
-    },
-    "net_worth": "$87.0M"
-  },
-  {
     "id": 73,
     "name": "Sam Altman",
     "slug": "sam-altman",
@@ -10893,6 +10829,70 @@
       ]
     },
     "net_worth": "$2.10B"
+  },
+  {
+    "id": 310,
+    "name": "Will Marshall",
+    "slug": "will-marshall",
+    "bio": "Will Marshall is the co-founder and CEO of Planet Labs, a company that specializes in Earth imaging and data analytics. His work focuses on creating large Earth models using satellite data and AI to index the Earth, making it searchable and enabling better stewardship of the planet.",
+    "known_for": "Creating large Earth models using satellite data and AI to make the planet searchable and facilitate environmental stewardship.",
+    "net_worth_usd": 87000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/183020/william-spencer-marshall",
+    "net_worth_updated_at": "2026-06-26T13:39:55.577952",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-26 18:38:56",
+    "last_episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-06-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.06,
+    "last_main_idea": "Track AI pricing trends to identify investment opportunities.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+    "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-26T13:39:54.444519",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Will Marshall",
+      "fetched_at": "2026-06-26T18:39:54.444173+00:00",
+      "cliff_notes": "Will Marshall is a prominent figure in the field of Earth imaging and data analytics. As the co-founder and CEO of Planet Labs, he has been instrumental in developing large Earth models that utilize satellite data and artificial intelligence. These models are designed to index the Earth, making it searchable in a manner similar to how Google indexes the internet. This innovation has the potential to revolutionize environmental monitoring and management, enabling more effective and data-driven decision-making. Marshall's work is crucial in the context of global environmental challenges, as it provides a scalable and comprehensive approach to understanding and addressing issues such as climate change, deforestation, and urban development.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Planet Labs"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Will Marshall is a prominent figure in the field of Earth imaging and data analytics. As the co-founder and CEO of Planet Labs, he has been instrumental in developing large Earth models that utilize satellite data and artificial intelligence. These models are designed to index the Earth, making it searchable in a manner similar to how Google indexes the internet.",
+        "This innovation has the potential to revolutionize environmental monitoring and management, enabling more effective and data-driven decision-making. Marshall's work is crucial in the context of global environmental challenges, as it provides a scalable and comprehensive approach to understanding and addressing issues such as climate change, deforestation, and urban development."
+      ],
+      "sections": [
+        {
+          "heading": "Planet Labs",
+          "body": "Planet Labs is a company that specializes in Earth imaging and data analytics, founded by Will Marshall. It aims to create large Earth models using satellite data and AI, making the planet searchable and facilitating environmental stewardship."
+        },
+        {
+          "heading": "Large Earth Models",
+          "body": "Will Marshall has coined the term 'large Earth models,' which refers to the indexing of the Earth using satellite data and AI, similar to how Google indexes the internet. This concept is aimed at enabling smarter and more efficient management of the planet's resources."
+        },
+        {
+          "heading": "Competition with SpaceX",
+          "body": "In discussions about the future of space technology, Will Marshall has acknowledged the competition with Elon Musk's SpaceX, particularly in terms of launching satellites and establishing orbital AI data centers. He highlights the importance of both launch capabilities and computational power in the long term."
+        },
+        {
+          "heading": "Global AI Competition",
+          "body": "Marshall has also commented on the global competition in AI, noting the emergence of Chinese models like GLM5.2 that match or exceed the performance of top models from OpenAI and Anthropic. He emphasizes the importance of efficiency and cost-effectiveness in AI development, as well as the potential for token-based intelligence systems."
+        }
+      ]
+    },
+    "net_worth": "$87.0M"
   },
   {
     "id": 309,
@@ -12027,65 +12027,6 @@
     "net_worth": "$100.0M"
   },
   {
-    "id": 283,
-    "name": "Conor Coleman",
-    "slug": "connor-coleman",
-    "bio": "Conor Coleman is the Executive Vice President at the Development Finance Corporation (DFC), where he leads efforts to expand investment capacity and diversify investment strategies. He is also the Chief of Staff and Head of Investments at the DFC, playing a crucial role in the corporation's global financial activities.",
-    "known_for": "Expanding the Development Finance Corporation's investment capacity and diversifying its investment strategies.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and informative.",
-    "voice_style": "Factual and forward-looking.",
-    "voice_delivery_notes": "Clear and assertive with a focus on the strategic importance of DFC's role.",
-    "voice_profile_updated_at": "2026-06-10 18:38:42",
-    "last_seen": "2026-06-10 18:38:42",
-    "last_episode_title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-10",
-    "mention_score": 1,
-    "mention_score_decayed": 0.05,
-    "last_main_idea": "The DFC's investment capacity has increased from $60 billion to $205 billion, positioning it as a significant player in global finance.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
-    "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
-    "supporting_takeaway": "DFC's investment strategy now includes senior secured loans, political risk insurance, and equity investments.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-10T13:38:50.849059",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Conor Coleman",
-      "fetched_at": "2026-06-10T18:38:50.848735+00:00",
-      "cliff_notes": "Conor Coleman serves as the Executive Vice President at the Development Finance Corporation (DFC), overseeing the expansion of its investment capacity and diversification of investment strategies. As the Chief of Staff and Head of Investments, Coleman plays a pivotal role in managing the DFC's global financial activities, which include substantial investments in large-scale, high-risk projects such as those in Ukraine and other strategic regions. His leadership at the DFC has been instrumental in reauthorizing the corporation's funding from $60 billion to $205 billion, significantly increasing its capacity to engage in risk transformation and global finance.",
-      "derived": {
-        "current_role": "Executive Vice President, Chief of Staff, and Head of Investments at the Development Finance Corporation"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Conor Coleman serves as the Executive Vice President at the Development Finance Corporation (DFC), overseeing the expansion of its investment capacity and diversification of investment strategies. As the Chief of Staff and Head of Investments, Coleman plays a pivotal role in managing the DFC's global financial activities, which include substantial investments in large-scale, high-risk projects such as those in Ukraine and other strategic regions.",
-        "His leadership at the DFC has been instrumental in reauthorizing the corporation's funding from $60 billion to $205 billion, significantly increasing its capacity to engage in risk transformation and global finance."
-      ],
-      "sections": [
-        {
-          "heading": "DFC Expansion",
-          "body": "Conor Coleman has been instrumental in expanding the Development Finance Corporation's investment capacity, leading to a reauthorization that increased its funding from $60 billion to $205 billion."
-        },
-        {
-          "heading": "Investment Strategies",
-          "body": "Coleman is responsible for diversifying the DFC's investment strategies, focusing on large-scale, high-risk projects that have the potential for significant impact in global finance."
-        },
-        {
-          "heading": "Global Finance",
-          "body": "Under Coleman's leadership, the DFC has become a major player in global finance, investing substantial sums in projects that are often overlooked by traditional financial institutions."
-        }
-      ]
-    }
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -12211,6 +12152,65 @@
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 283,
+    "name": "Conor Coleman",
+    "slug": "connor-coleman",
+    "bio": "Conor Coleman is the Executive Vice President at the Development Finance Corporation (DFC), where he leads efforts to expand investment capacity and diversify investment strategies. He is also the Chief of Staff and Head of Investments at the DFC, playing a crucial role in the corporation's global financial activities.",
+    "known_for": "Expanding the Development Finance Corporation's investment capacity and diversifying its investment strategies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and informative.",
+    "voice_style": "Factual and forward-looking.",
+    "voice_delivery_notes": "Clear and assertive with a focus on the strategic importance of DFC's role.",
+    "voice_profile_updated_at": "2026-06-10 18:38:42",
+    "last_seen": "2026-06-10 18:38:42",
+    "last_episode_title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-10",
+    "mention_score": 1,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "The DFC's investment capacity has increased from $60 billion to $205 billion, positioning it as a significant player in global finance.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+    "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
+    "supporting_takeaway": "DFC's investment strategy now includes senior secured loans, political risk insurance, and equity investments.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-10T13:38:50.849059",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Conor Coleman",
+      "fetched_at": "2026-06-10T18:38:50.848735+00:00",
+      "cliff_notes": "Conor Coleman serves as the Executive Vice President at the Development Finance Corporation (DFC), overseeing the expansion of its investment capacity and diversification of investment strategies. As the Chief of Staff and Head of Investments, Coleman plays a pivotal role in managing the DFC's global financial activities, which include substantial investments in large-scale, high-risk projects such as those in Ukraine and other strategic regions. His leadership at the DFC has been instrumental in reauthorizing the corporation's funding from $60 billion to $205 billion, significantly increasing its capacity to engage in risk transformation and global finance.",
+      "derived": {
+        "current_role": "Executive Vice President, Chief of Staff, and Head of Investments at the Development Finance Corporation"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Conor Coleman serves as the Executive Vice President at the Development Finance Corporation (DFC), overseeing the expansion of its investment capacity and diversification of investment strategies. As the Chief of Staff and Head of Investments, Coleman plays a pivotal role in managing the DFC's global financial activities, which include substantial investments in large-scale, high-risk projects such as those in Ukraine and other strategic regions.",
+        "His leadership at the DFC has been instrumental in reauthorizing the corporation's funding from $60 billion to $205 billion, significantly increasing its capacity to engage in risk transformation and global finance."
+      ],
+      "sections": [
+        {
+          "heading": "DFC Expansion",
+          "body": "Conor Coleman has been instrumental in expanding the Development Finance Corporation's investment capacity, leading to a reauthorization that increased its funding from $60 billion to $205 billion."
+        },
+        {
+          "heading": "Investment Strategies",
+          "body": "Coleman is responsible for diversifying the DFC's investment strategies, focusing on large-scale, high-risk projects that have the potential for significant impact in global finance."
+        },
+        {
+          "heading": "Global Finance",
+          "body": "Under Coleman's leadership, the DFC has become a major player in global finance, investing substantial sums in projects that are often overlooked by traditional financial institutions."
+        }
+      ]
+    }
   },
   {
     "id": 282,
