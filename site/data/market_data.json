@@ -7,7 +7,7 @@
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-23T15:33:31",
+    "last_updated": "2026-10-23T17:34:18",
     "as_of_date": "2026-10-23",
     "next_refunding_announcement": {
       "date": "2026-11-04",
@@ -33,7 +33,7 @@
       },
       {
         "date": "2026-10-28",
-        "security": "2-Year FRN",
+        "security": "2-Year Floating-Rate Note",
         "cusip": "91282CRS2",
         "size_billions": 30.0,
         "announcement_date": "2026-10-22",
@@ -68,11 +68,11 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRR4",
-        "stranger_note": "BTC 2.41."
+        "stranger_note": "bid-to-cover 2.41."
       },
       {
         "date": "2026-10-21",
-        "security": "20-Year Bond (19y10m reopening)",
+        "security": "20-Year Bond (reopening of a 20-year bond, 19 years 10 months left)",
         "cusip": "912810UX4",
         "size_billions": 13.0,
         "issue_date": "2026-10-23",
@@ -89,11 +89,11 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=912810UX4",
-        "stranger_note": "BTC 2.73."
+        "stranger_note": "bid-to-cover 2.73."
       },
       {
         "date": "2026-10-08",
-        "security": "30-Year Bond (29y10m reopening)",
+        "security": "30-Year Bond (reopening of a 30-year bond, 29 years 10 months left)",
         "cusip": "912810UW6",
         "size_billions": 22.0,
         "issue_date": "2026-10-15",
@@ -110,11 +110,11 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=912810UW6",
-        "stranger_note": "BTC 2.54."
+        "stranger_note": "bid-to-cover 2.54."
       },
       {
         "date": "2026-10-07",
-        "security": "10-Year Note (9y10m reopening)",
+        "security": "10-Year Note (reopening of a 10-year note, 9 years 10 months left)",
         "cusip": "91282CRF0",
         "size_billions": 39.0,
         "issue_date": "2026-10-15",
@@ -131,7 +131,7 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRF0",
-        "stranger_note": "BTC 2.77."
+        "stranger_note": "bid-to-cover 2.77."
       },
       {
         "date": "2026-10-06",
@@ -152,7 +152,7 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRQ6",
-        "stranger_note": "BTC 2.62."
+        "stranger_note": "bid-to-cover 2.62."
       },
       {
         "date": "2026-09-24",
@@ -173,7 +173,7 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRM5",
-        "stranger_note": "BTC 2.42."
+        "stranger_note": "bid-to-cover 2.42."
       },
       {
         "date": "2026-09-23",
@@ -194,11 +194,11 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRN3",
-        "stranger_note": "BTC 2.21."
+        "stranger_note": "bid-to-cover 2.21."
       },
       {
         "date": "2026-09-23",
-        "security": "2-Year FRN (1y10m reopening)",
+        "security": "2-Year Floating-Rate Note (reopening of a 2-year floating-rate note, 1 year 10 months left)",
         "cusip": "91282CRD5",
         "size_billions": 28.0,
         "issue_date": "2026-09-25",
@@ -215,7 +215,7 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRD5",
-        "stranger_note": "BTC 2.63."
+        "stranger_note": "bid-to-cover 2.63."
       },
       {
         "date": "2026-09-22",
@@ -236,11 +236,11 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRP8",
-        "stranger_note": "BTC 2.63."
+        "stranger_note": "bid-to-cover 2.63."
       },
       {
         "date": "2026-09-17",
-        "security": "10-Year Note (9y10m reopening)",
+        "security": "10-Year Note (reopening of a 10-year note, 9 years 10 months left)",
         "cusip": "91282CRE3",
         "size_billions": 19.0,
         "issue_date": "2026-09-30",
@@ -257,7 +257,7 @@
         "indirect_accepted_billions": null,
         "results_pdf": null,
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRE3",
-        "stranger_note": "BTC 2.24."
+        "stranger_note": "bid-to-cover 2.24."
       }
     ],
     "refunding_context": {

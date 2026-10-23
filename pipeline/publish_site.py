@@ -152,6 +152,14 @@ def main() -> int:
     print("=" * 60)
 
     if not args.no_export:
+        # Refresh Healthcare Abundance marks so "Prices as of" follows the data.
+        # Best effort: a failed fetch keeps the previous marks and never blocks publish.
+        try:
+            sys.path.insert(0, str(PIPELINE))
+            import fetch_portfolio_prices
+            fetch_portfolio_prices.update_portfolio()
+        except Exception as e:
+            print(f"⚠ Portfolio price refresh skipped: {e}")
         try:
             run_export()
         except Exception as e:
