@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-23T06:49:03.053241",
+  generatedAt: "2026-10-23T10:12:40.225952",
   chartsVersion: "2026-10-23T06:48:51.497709",
   priceSnapshot: {
   "AAPL": {
@@ -1260,7 +1260,7 @@ const dashboardData = {
       "tickers_mentioned": [
         "AMZN"
       ],
-      "sentiment": "neutral",
+      "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-10-23",
@@ -1274,11 +1274,11 @@ const dashboardData = {
         },
         {
           "speaker": "Andy Jassy",
-          "quote": "In the first three years of this gender of AI wave our business, our just our AI business in AWS is over $25 billion in run rate."
+          "quote": "In the first three years of this [generative] AI wave, our AI business in AWS is over $25 billion in run rate."
         },
         {
           "speaker": "Andy Jassy",
-          "quote": "I wish I could tell you that I thought that the supply constraints would be just a 20, 20, 7 issue. I think we\u2019ll see them in different components for several years."
+          "quote": "I wish I could tell you that I thought that the supply constraints would be just a 2027 issue. I think we\u2019ll see them in different components for several years."
         }
       ]
     },
@@ -1324,10 +1324,7 @@ const dashboardData = {
       "source_date": "2026-10-22",
       "summary": "The episode centers on Anekha Sokhal explaining Moshi, an AI product for traders, and why she believes the winning product is not a generic dashboard or \u201cnew Bloomberg,\u201d but a recommendation and workflow layer that turns large volumes of market data into portfolio-relevant actions. She says Moshi starts with commodity, energy, and macro traders, and ingests structured futures data, fundamentals, news, alternative data like X/Twitter and podcast audio, plus private user data. She emphasizes data cleaning, tagging, ontology building, and a graph-based presentation layer that pushes relevant items directly into the software interface.\n\nA major theme is that trader AI must solve both curation and UI/workflow integration. Sokhal argues that if you solve the recommendation problem, you naturally solve the interface problem because the software can surface what matters in the trader\u2019s existing workflow. She gives a concrete example: if an energy equities company does something that indirectly impacts oil, an oil trader needs to know immediately. She also says Moshi can turn what might take days of manual work into LLM answers in about 30 seconds, and uses the comparison that in the same time it takes her to speak a sentence, Moshi has learned 300 new things.\n\nThe conversation also covers alternative data and trust. Sokhal says traders often rely on a small set of trusted voices, especially in commodities, and that when multiple trusted sources disagree, the disagreement itself can be signal if paired with confidence scoring. She is skeptical of indiscriminate data ingestion, especially for user-provided data, and says Moshi does not want to send such data to third parties. The discussion references Reducto as an off-the-shelf document extraction option, but her answer frames the decision as dependent on privacy and whether the company can justify building in-house.\n\nOn the business side, Sokhal says inbound demand increased sharply after an AI Engineer New York talk, creating meetings, partnership requests, and even a webinar. The episode also includes broader context from her background in energy derivatives trading, JPMorgan, and machine learning research, which she presents as the foundation for Moshi\u2019s approach to financial AI.",
       "key_takeaway": "Moshi\u2019s key claim is that trader AI wins by combining recommendation systems with workflow-native UI, not by building a generic Bloomberg-like interface.",
-      "tickers_mentioned": [
-        "MOSHI",
-        "NASA"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -1387,7 +1384,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-10-22",
-      "summary": "The episode centers on Vincent Gave\u2019s \u201cthree seas\u201d energy shock framework: Gulf, Red Sea, and Black Sea disruptions are not just crude supply issues but a broader logistics and refinery-products crisis. He argues the most important market effect is in diesel and other petroleum products, where moving crude is possible but product flows remain badly impaired. He says Saudi Arabia is responding by expanding pipeline capacity and building bypass optionality around chokepoints like the Strait of Hormuz and the Red Sea.\n\nGave also pushes a contrarian energy view: the world is not in a simple energy transition, but an \u201cenergy addition,\u201d where oil and gas remain structurally central. He says refinery destruction and constrained product movement can keep crack spreads elevated even if crude prices have an implied ceiling, and he warns that demand destruction is already occurring. He cites numbers such as Saudi East-West pipeline capacity rising from 5.5 to 7 million bpd, a target of 10 million bpd total pipeline capacity, and a claim that only 25% to 35% of pre-crisis product levels are moving.\n\nIn the macro segment, Louis-Vincent Gav frames France as a possible sovereign-style stress case rather than a normal developed-market political problem. He points to France\u2019s high tax burden, budget deficits near 5% of GDP, foreign ownership of debt, and an inability to raise taxes further as reasons a fiscal or redenomination crisis could cascade into European banks and insurers. His concern is not just French politics, but systemic euro-area fragility if the situation worsens.\n\nThe trading desk closes with relative-value ideas tied to that stress. Patrick highlights a long JPMorgan / short Deutsche Bank pair trade, a Europe-over-U.S. financials performance gap, and FX hedges that sell the euro versus peripheral European currencies for positive carry. Overall, the episode is bearish on European financial and energy logistics stability, but nuanced: it does not forecast a simple oil blowout, instead emphasizing product scarcity, crack spreads, and second-order financial contagion.",
+      "summary": "The episode centers on Dr. Anas Alhajji\u2019s \u201cthree seas\u201d energy shock framework: Gulf, Red Sea, and Black Sea disruptions are not just crude supply issues but a broader logistics and refinery-products crisis. He argues the most important market effect is in diesel and other petroleum products, where moving crude is possible but product flows remain badly impaired. He says Saudi Arabia is responding by expanding pipeline capacity and building bypass optionality around chokepoints like the Strait of Hormuz and the Red Sea.\n\nAlhajji also pushes a contrarian energy view: the world is not in a simple energy transition, but an \u201cenergy addition,\u201d where oil and gas remain structurally central. He says refinery destruction and constrained product movement can keep crack spreads elevated even if crude prices have an implied ceiling, and he warns that demand destruction is already occurring. He cites numbers such as Saudi East-West pipeline capacity rising from 5.5 to 7 million bpd, a target of 10 million bpd total pipeline capacity, and a claim that only 25% to 35% of pre-crisis product levels are moving.\n\nIn the macro segment, Louis-Vincent Gave frames France as a possible sovereign-style stress case rather than a normal developed-market political problem. He points to France\u2019s high tax burden, budget deficits near 5% of GDP, foreign ownership of debt, and an inability to raise taxes further as reasons a fiscal or redenomination crisis could cascade into European banks and insurers. His concern is not just French politics, but systemic euro-area fragility if the situation worsens.\n\nThe trading desk closes with relative-value ideas tied to that stress. Patrick Ceresna highlights a long JPMorgan / short Deutsche Bank pair trade, a Europe-over-U.S. financials performance gap, and FX hedges that sell the euro versus peripheral European currencies for positive carry. Overall, the episode is bearish on European financial and energy logistics stability, but nuanced: it does not forecast a simple oil blowout, instead emphasizing product scarcity, crack spreads, and second-order financial contagion.",
       "key_takeaway": "The episode\u2019s core claim is that energy disruption will express mainly through refinery-product shortages and crack spreads, while Europe\u2019s France-driven fiscal stress could spill into banks and FX.",
       "tickers_mentioned": [
         "JPM",
@@ -1402,15 +1399,15 @@ const dashboardData = {
       "podcast_episode_id": 602,
       "notable_quotes": [
         {
-          "speaker": "Vincent Gave",
+          "speaker": "Dr. Anas Alhajji",
           "quote": "he was able to highlight clearly that while they were able to move all this crude, only 25% to 35% of products of pre-crisis levels were moving it."
         },
         {
-          "speaker": "Vincent Gave",
+          "speaker": "Dr. Anas Alhajji",
           "quote": "In a fact that there is no energy transition, there is only energy addition."
         },
         {
-          "speaker": "Louis-Vincent Gav",
+          "speaker": "Louis-Vincent Gave",
           "quote": "France total tax receipts account for roughly 44% of GDP."
         }
       ]
@@ -1456,9 +1453,7 @@ const dashboardData = {
       "source_date": "2026-10-21",
       "summary": "The episode centers on Tenex\u2019s AI-native software delivery model, where engineers are compensated for output rather than time and the company uses story points as a major calibration tool. Alex Lieberman argues the main feared failure modes of output-based pay\u2014sandbagging estimates and shipping bad code\u2014have not been major problems because Tenex\u2019s AI strategists are accountable for customer retention and growth, so they can push back when work does not serve the client. CJ Hess adds that as models improve, engineers will spend less time coding and more time converting customer context into something the models can use.\n\nA second major theme is Tenex\u2019s internal system, \u201cMetaHarness,\u201d which puts plans, decisions, and evidence into Git so agent work is legible and durable. CJ says the point is to give the team a persistent record of why choices were made, not just what was built, so long-running tasks can be understood and resumed. The discussion frames this as especially important as AI systems take on more of the actual implementation work.\n\nThe conversation also covers enterprise AI adoption benchmarks. Alex says roughly 90% of enterprises have rolled out a general-purpose LLM like Claude or Codex, around 60% have training and enablement, coding agents in engineering are closer to 50%, and agents in production for non-engineering work are only about 5%. The gap between raw model intelligence and real enterprise deployment is presented as the core diffusion problem, with permissioning and RBAC cited as a major blocker.\n\nA final thread is the strategic debate over vertical AI products. The speakers are skeptical that standalone vertical agent products are durable if frontier models keep absorbing the underlying task, but they think value may persist in the workflow layer around the agent\u2014interfaces, integrations, data consolidation, and habits. They also say token-cost pressure has eased versus 6 to 8 months ago, and Alex claims a Claude Code subscription integration could cut costs by about 80%.",
       "key_takeaway": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
-      "tickers_mentioned": [
-        "AMP"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -1531,7 +1526,7 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Nikesh Arora",
-          "quote": "Unfortunately for some of you what's even worse, if you have an encrypted hardlist today that gets stolen, somebody could keep it for five years and break it at that point."
+          "quote": "Unfortunately for some of you what's even worse, if you have encrypted [data] today that gets stolen, somebody could keep it for five years and break it at that point."
         },
         {
           "speaker": "Nikesh Arora",
@@ -1549,7 +1544,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-10-21",
-      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Jamoth/Paul Habatilla pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
+      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Chamath Palihapitiya pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
       "key_takeaway": "AI\u2019s biggest near-term bottleneck is power and compute infrastructure, making energy build-out more important than model capability alone.",
       "tickers_mentioned": [
         "ANTH",
@@ -1570,7 +1565,7 @@ const dashboardData = {
           "quote": "Quote, subject to stockholder approval. 5% of Anthropic shares will be committed today."
         },
         {
-          "speaker": "Jamoth (Paul Habatilla as referenced in transcript context)",
+          "speaker": "Chamath Palihapitiya",
           "quote": "The real question is, what is their failsafe to course correct? If this mean reverts and becomes what, you know, everything else in the world has overwhelmingly looked like when philanthropically minded people give large sums of money away in big bursts, which is, you know, not a lot of quantifiable outcome."
         },
         {
@@ -15028,7 +15023,7 @@ const dashboardData = {
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 310,
@@ -15352,7 +15347,7 @@ const dashboardData = {
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 267,
@@ -15388,7 +15383,7 @@ const dashboardData = {
       "first_detected_episode_id": 436,
       "first_detected_speaker": "Jensen Huang, Dario Amodei",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 276,
@@ -15460,7 +15455,7 @@ const dashboardData = {
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 602,
-      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav"
+      "last_mentioned_speaker": "Dr. Anas Alhajji, Louis-Vincent Gave"
     },
     {
       "id": 265,
@@ -15586,7 +15581,7 @@ const dashboardData = {
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 135,
@@ -15694,7 +15689,7 @@ const dashboardData = {
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Semenuk",
       "last_mentioned_episode_id": 602,
-      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav"
+      "last_mentioned_speaker": "Dr. Anas Alhajji, Louis-Vincent Gave"
     },
     {
       "id": 258,
@@ -16054,7 +16049,7 @@ const dashboardData = {
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 113,
@@ -16144,7 +16139,7 @@ const dashboardData = {
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 97,
@@ -17623,7 +17618,7 @@ const dashboardData = {
       "summary": "Andy Jassy framed Amazon\u2019s current strategy as a massive AI infrastructure buildout driven by customer demand, not speculation. He said Amazon expects to spend about $220 billion of capex in 2026 and emphasized that even that level of spending would still leave meaningful demand unmet. He tied that to capacity scarcity across power, cooling, memory, and accelerators, saying the constraint problem is not a one-year issue and will likely persist across different components for several years.\n\nJassy argued that AWS\u2019s AI business is scaling far faster than early AWS did. He said AWS AI is already over a $25 billion annual run rate after the first three years of the current AI wave, versus roughly $60 million after three years in early AWS. He also pointed to AWS growth of 36.7% last quarter and said AWS is now a $169 billion annual revenue run-rate business. The strategic implication was that Amazon can justify very large infrastructure spending because demand visibility is strong and the company is still leaving demand on the table.\n\nA major part of the discussion focused on economics and bottlenecks inside AI infrastructure. Jassy described sold-out capacity across generations of AI systems, and said Amazon must allocate scarce memory between HBM and DRAM rather than simply maxing out one use case. He also highlighted Amazon\u2019s chip strategy, arguing that Graviton delivers about 40% better price performance than comparable x86 processors and that its AI training chips offer roughly 30% to 40% better price performance than comparable processors.\n\nBeyond infrastructure, Jassy said AI will reshape enterprise software development and security. He predicted that most enterprise applications will use inference pervasively over the next 5 to 7 years, that teams will become smaller and more cross-functional, and that companies will need to rewrite almost all code to be agentically capable. He said the most immediate risk is cybersecurity, because applications will need to respond to threats in minutes rather than days, and architectures will have to support rapid agent-driven updates.",
       "key_takeaway": "Amazon is using massive 2026 capex to capture AI demand, but supply constraints still leave meaningful revenue on the table and support long-run AWS growth.",
       "tickers_mentioned": "[\"AMZN\"]",
-      "sentiment": "neutral",
+      "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-10-23",
@@ -17637,15 +17632,15 @@ const dashboardData = {
         },
         {
           "speaker": "Andy Jassy",
-          "quote": "In the first three years of this gender of AI wave our business, our just our AI business in AWS is over $25 billion in run rate."
+          "quote": "In the first three years of this [generative] AI wave, our AI business in AWS is over $25 billion in run rate."
         },
         {
           "speaker": "Andy Jassy",
-          "quote": "I wish I could tell you that I thought that the supply constraints would be just a 20, 20, 7 issue. I think we\u2019ll see them in different components for several years."
+          "quote": "I wish I could tell you that I thought that the supply constraints would be just a 2027 issue. I think we\u2019ll see them in different components for several years."
         }
       ],
       "episode_release_date": "2026-10-23",
-      "guest_name": null,
+      "guest_name": "Andy Jassy",
       "key_tickers": [
         "AMZN"
       ]
@@ -17681,7 +17676,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-22",
-      "guest_name": null,
+      "guest_name": "Erik Bernhardsson",
       "key_tickers": []
     },
     {
@@ -17690,7 +17685,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-10-22",
-      "summary": "The episode centers on Vincent Gave\u2019s \u201cthree seas\u201d energy shock framework: Gulf, Red Sea, and Black Sea disruptions are not just crude supply issues but a broader logistics and refinery-products crisis. He argues the most important market effect is in diesel and other petroleum products, where moving crude is possible but product flows remain badly impaired. He says Saudi Arabia is responding by expanding pipeline capacity and building bypass optionality around chokepoints like the Strait of Hormuz and the Red Sea.\n\nGave also pushes a contrarian energy view: the world is not in a simple energy transition, but an \u201cenergy addition,\u201d where oil and gas remain structurally central. He says refinery destruction and constrained product movement can keep crack spreads elevated even if crude prices have an implied ceiling, and he warns that demand destruction is already occurring. He cites numbers such as Saudi East-West pipeline capacity rising from 5.5 to 7 million bpd, a target of 10 million bpd total pipeline capacity, and a claim that only 25% to 35% of pre-crisis product levels are moving.\n\nIn the macro segment, Louis-Vincent Gav frames France as a possible sovereign-style stress case rather than a normal developed-market political problem. He points to France\u2019s high tax burden, budget deficits near 5% of GDP, foreign ownership of debt, and an inability to raise taxes further as reasons a fiscal or redenomination crisis could cascade into European banks and insurers. His concern is not just French politics, but systemic euro-area fragility if the situation worsens.\n\nThe trading desk closes with relative-value ideas tied to that stress. Patrick highlights a long JPMorgan / short Deutsche Bank pair trade, a Europe-over-U.S. financials performance gap, and FX hedges that sell the euro versus peripheral European currencies for positive carry. Overall, the episode is bearish on European financial and energy logistics stability, but nuanced: it does not forecast a simple oil blowout, instead emphasizing product scarcity, crack spreads, and second-order financial contagion.",
+      "summary": "The episode centers on Dr. Anas Alhajji\u2019s \u201cthree seas\u201d energy shock framework: Gulf, Red Sea, and Black Sea disruptions are not just crude supply issues but a broader logistics and refinery-products crisis. He argues the most important market effect is in diesel and other petroleum products, where moving crude is possible but product flows remain badly impaired. He says Saudi Arabia is responding by expanding pipeline capacity and building bypass optionality around chokepoints like the Strait of Hormuz and the Red Sea.\n\nAlhajji also pushes a contrarian energy view: the world is not in a simple energy transition, but an \u201cenergy addition,\u201d where oil and gas remain structurally central. He says refinery destruction and constrained product movement can keep crack spreads elevated even if crude prices have an implied ceiling, and he warns that demand destruction is already occurring. He cites numbers such as Saudi East-West pipeline capacity rising from 5.5 to 7 million bpd, a target of 10 million bpd total pipeline capacity, and a claim that only 25% to 35% of pre-crisis product levels are moving.\n\nIn the macro segment, Louis-Vincent Gave frames France as a possible sovereign-style stress case rather than a normal developed-market political problem. He points to France\u2019s high tax burden, budget deficits near 5% of GDP, foreign ownership of debt, and an inability to raise taxes further as reasons a fiscal or redenomination crisis could cascade into European banks and insurers. His concern is not just French politics, but systemic euro-area fragility if the situation worsens.\n\nThe trading desk closes with relative-value ideas tied to that stress. Patrick Ceresna highlights a long JPMorgan / short Deutsche Bank pair trade, a Europe-over-U.S. financials performance gap, and FX hedges that sell the euro versus peripheral European currencies for positive carry. Overall, the episode is bearish on European financial and energy logistics stability, but nuanced: it does not forecast a simple oil blowout, instead emphasizing product scarcity, crack spreads, and second-order financial contagion.",
       "key_takeaway": "The episode\u2019s core claim is that energy disruption will express mainly through refinery-product shortages and crack spreads, while Europe\u2019s France-driven fiscal stress could spill into banks and FX.",
       "tickers_mentioned": "[\"JPM\", \"DB\"]",
       "sentiment": "bearish",
@@ -17702,15 +17697,15 @@ const dashboardData = {
       "podcast_episode_id": 602,
       "notable_quotes": [
         {
-          "speaker": "Vincent Gave",
+          "speaker": "Dr. Anas Alhajji",
           "quote": "he was able to highlight clearly that while they were able to move all this crude, only 25% to 35% of products of pre-crisis levels were moving it."
         },
         {
-          "speaker": "Vincent Gave",
+          "speaker": "Dr. Anas Alhajji",
           "quote": "In a fact that there is no energy transition, there is only energy addition."
         },
         {
-          "speaker": "Louis-Vincent Gav",
+          "speaker": "Louis-Vincent Gave",
           "quote": "France total tax receipts account for roughly 44% of GDP."
         }
       ],
@@ -17763,7 +17758,7 @@ const dashboardData = {
       "source_date": "2026-10-22",
       "summary": "The episode centers on Anekha Sokhal explaining Moshi, an AI product for traders, and why she believes the winning product is not a generic dashboard or \u201cnew Bloomberg,\u201d but a recommendation and workflow layer that turns large volumes of market data into portfolio-relevant actions. She says Moshi starts with commodity, energy, and macro traders, and ingests structured futures data, fundamentals, news, alternative data like X/Twitter and podcast audio, plus private user data. She emphasizes data cleaning, tagging, ontology building, and a graph-based presentation layer that pushes relevant items directly into the software interface.\n\nA major theme is that trader AI must solve both curation and UI/workflow integration. Sokhal argues that if you solve the recommendation problem, you naturally solve the interface problem because the software can surface what matters in the trader\u2019s existing workflow. She gives a concrete example: if an energy equities company does something that indirectly impacts oil, an oil trader needs to know immediately. She also says Moshi can turn what might take days of manual work into LLM answers in about 30 seconds, and uses the comparison that in the same time it takes her to speak a sentence, Moshi has learned 300 new things.\n\nThe conversation also covers alternative data and trust. Sokhal says traders often rely on a small set of trusted voices, especially in commodities, and that when multiple trusted sources disagree, the disagreement itself can be signal if paired with confidence scoring. She is skeptical of indiscriminate data ingestion, especially for user-provided data, and says Moshi does not want to send such data to third parties. The discussion references Reducto as an off-the-shelf document extraction option, but her answer frames the decision as dependent on privacy and whether the company can justify building in-house.\n\nOn the business side, Sokhal says inbound demand increased sharply after an AI Engineer New York talk, creating meetings, partnership requests, and even a webinar. The episode also includes broader context from her background in energy derivatives trading, JPMorgan, and machine learning research, which she presents as the foundation for Moshi\u2019s approach to financial AI.",
       "key_takeaway": "Moshi\u2019s key claim is that trader AI wins by combining recommendation systems with workflow-native UI, not by building a generic Bloomberg-like interface.",
-      "tickers_mentioned": "[\"MOSHI\", \"NASA\"]",
+      "tickers_mentioned": "[]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -17832,7 +17827,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-10-21",
-      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Jamoth/Paul Habatilla pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
+      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Chamath Palihapitiya pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
       "key_takeaway": "AI\u2019s biggest near-term bottleneck is power and compute infrastructure, making energy build-out more important than model capability alone.",
       "tickers_mentioned": "[\"ANTH\", \"TSLA\", \"NVDA\", \"FSLR\"]",
       "sentiment": "neutral",
@@ -17848,7 +17843,7 @@ const dashboardData = {
           "quote": "Quote, subject to stockholder approval. 5% of Anthropic shares will be committed today."
         },
         {
-          "speaker": "Jamoth (Paul Habatilla as referenced in transcript context)",
+          "speaker": "Chamath Palihapitiya",
           "quote": "The real question is, what is their failsafe to course correct? If this mean reverts and becomes what, you know, everything else in the world has overwhelmingly looked like when philanthropically minded people give large sums of money away in big bursts, which is, you know, not a lot of quantifiable outcome."
         },
         {
@@ -17879,7 +17874,7 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Nikesh Arora",
-          "quote": "Unfortunately for some of you what's even worse, if you have an encrypted hardlist today that gets stolen, somebody could keep it for five years and break it at that point."
+          "quote": "Unfortunately for some of you what's even worse, if you have encrypted [data] today that gets stolen, somebody could keep it for five years and break it at that point."
         },
         {
           "speaker": "Nikesh Arora",
@@ -17936,7 +17931,7 @@ const dashboardData = {
       "source_date": "2026-10-21",
       "summary": "The episode centers on Tenex\u2019s AI-native software delivery model, where engineers are compensated for output rather than time and the company uses story points as a major calibration tool. Alex Lieberman argues the main feared failure modes of output-based pay\u2014sandbagging estimates and shipping bad code\u2014have not been major problems because Tenex\u2019s AI strategists are accountable for customer retention and growth, so they can push back when work does not serve the client. CJ Hess adds that as models improve, engineers will spend less time coding and more time converting customer context into something the models can use.\n\nA second major theme is Tenex\u2019s internal system, \u201cMetaHarness,\u201d which puts plans, decisions, and evidence into Git so agent work is legible and durable. CJ says the point is to give the team a persistent record of why choices were made, not just what was built, so long-running tasks can be understood and resumed. The discussion frames this as especially important as AI systems take on more of the actual implementation work.\n\nThe conversation also covers enterprise AI adoption benchmarks. Alex says roughly 90% of enterprises have rolled out a general-purpose LLM like Claude or Codex, around 60% have training and enablement, coding agents in engineering are closer to 50%, and agents in production for non-engineering work are only about 5%. The gap between raw model intelligence and real enterprise deployment is presented as the core diffusion problem, with permissioning and RBAC cited as a major blocker.\n\nA final thread is the strategic debate over vertical AI products. The speakers are skeptical that standalone vertical agent products are durable if frontier models keep absorbing the underlying task, but they think value may persist in the workflow layer around the agent\u2014interfaces, integrations, data consolidation, and habits. They also say token-cost pressure has eased versus 6 to 8 months ago, and Alex claims a Claude Code subscription integration could cut costs by about 80%.",
       "key_takeaway": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
-      "tickers_mentioned": "[\"AMP\"]",
+      "tickers_mentioned": "[]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -18450,7 +18445,7 @@ const dashboardData = {
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Semenuk",
       "last_mentioned_episode_id": 602,
-      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav",
+      "last_mentioned_speaker": "Dr. Anas Alhajji, Louis-Vincent Gave",
       "novelty_score": 1.4212,
       "overton_score": 1.4212,
       "resonance_pct": 68,
@@ -18564,7 +18559,7 @@ const dashboardData = {
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 602,
-      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav",
+      "last_mentioned_speaker": "Dr. Anas Alhajji, Louis-Vincent Gave",
       "novelty_score": 0.5963,
       "overton_score": 0.5963,
       "resonance_pct": 49,
@@ -18634,35 +18629,6 @@ const dashboardData = {
     }
   ],
   "overton_recent": [
-    {
-      "id": 313,
-      "term": "floor",
-      "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
-      "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 8,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": null,
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 592,
-      "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 599,
-      "last_mentioned_speaker": "Anekha Sokhal",
-      "novelty_score": 3.1352,
-      "overton_score": 3.1352,
-      "resonance_pct": 87,
-      "is_established": false,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
-      "first_detected_episode_date": "2026-10-20",
-      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
-      "last_mentioned_episode_title": "You are the Team  \u2014 Anekha Sokhal, Moshi",
-      "last_mentioned_episode_date": "2026-10-22",
-      "first_heard_recent": true
-    },
     {
       "id": 292,
       "term": "Superintelligence",
@@ -18864,6 +18830,35 @@ const dashboardData = {
       "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
       "last_mentioned_episode_title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
       "last_mentioned_episode_date": "2026-10-22",
+      "first_heard_recent": true
+    },
+    {
+      "id": 309,
+      "term": "AI Adoption",
+      "description": "The integration of artificial intelligence technologies into business processes, which is currently at an early stage in enterprises.",
+      "first_detected_date": "2026-09-30",
+      "last_mentioned_date": "2026-10-21",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Understanding AI adoption is crucial for identifying companies that will benefit from increased efficiency and productivity.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 536,
+      "first_detected_speaker": "David George (hosts)",
+      "last_mentioned_episode_id": 595,
+      "last_mentioned_speaker": "Alex Lieberman, CJ Hess",
+      "novelty_score": 1.6712,
+      "overton_score": 1.6712,
+      "resonance_pct": 72,
+      "is_established": false,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "The $1 Trillion AI Buildout | State of Markets",
+      "first_detected_episode_date": "2026-09-30",
+      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
+      "last_mentioned_episode_title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
+      "last_mentioned_episode_date": "2026-10-21",
       "first_heard_recent": true
     }
   ]
@@ -55375,13 +55370,7 @@ const dashboardData = {
     "overview": "The non-obvious signal here is that the hard part of enterprise AI is no longer proving model capability; it is operationalizing it inside organizations that cannot tolerate ambiguity. The episode suggests Tenex is building around that bottleneck by turning AI delivery into an auditable system of plans, decisions, and evidence, which matters because long-running agent work fails less from intelligence limits than from lost context, weak ownership, and unverifiable process. A second subtle point is that output-based compensation only works when the surrounding incentive stack is broader than engineer speed; the real control knob appears to be the AI strategists who can reject work that optimizes story points but harms retention, quality, or customer fit. The discussion also implies the current market is over-indexing on model progress while underpricing distribution friction: permissions, RBAC, workflow consolidation, and habit formation are what separate broad deployment from toy usage. Finally, the vertical AI debate is more nuanced than 'horizontal models win': the durable layer may not be the agent performing the task, but the surrounding interface, data plumbing, and operating cadence that make the task repeatable inside an enterprise.",
     "key_takeaways_detailed": [],
     "investment_thesis": "The practical setup is to focus on where enterprise AI value accrues after model capability becomes cheap: workflow control, permissioning, auditability, and integration depth. The episode implies that vendors with durable ownership of the surrounding system of work can outlast standalone agent products, even if underlying task execution gets commoditized. It also frames AI-native services businesses as potentially advantaged if they can align incentives across delivery, customer outcomes, and internal measurement rather than relying on hourly billing. The key watch item is whether the market validates this by rewarding products that reduce organizational friction more than products that merely demo good agent behavior. In parallel, the episode points to a rising need for tools that manage model cost, route tasks intelligently, and preserve decision history, because once the raw model is 'good enough,' the moat shifts to governance and execution discipline.",
-    "ticker_analysis": {
-      "AMP": {
-        "rationale": "AMP is positioned as the preferred execution environment because it keeps work off the local machine and supports review across orbs. In the episode, the interface itself becomes part of the moat.",
-        "positioning": "Watch",
-        "risk": "If alternative environments prove cheaper, faster, or easier to govern, AMP's workflow advantage may prove fragile."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [
@@ -55500,7 +55489,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-22T05:32:54.147009",
     "updated_at": "2026-10-22 10:32:54",
-    "episode_evidence": "Nikesh Arora: Unfortunately for some of you what's even worse, if you have an encrypted hardlist today that gets stolen, somebody could keep it for five years and break it at that point.\nNikesh Arora: I think the goal is who can build a quantum computer that works? Let's set up the technologies are out of it and the debates are is it 2028, 2029, 2033 and sort of if you pick the middle point, let's call it 2030, well it will break to this cryptography.\nNikesh Arora: So today, $20 dollars for a million tokens for probably generation minus one. 50 if you want to go to the most extreme.\nNikesh Arora: And if you're on your own GPUs with a little bit of optimization, but I'm talking like a week of engineering work, we could drop the cost to about a dollar to $2 for a million tokens.\nNikesh Arora: The average enterprise uses anywhere from 500 to 5000 distinct software vendors. In a world when you have to protect against it all, it's not just the cyber threat, that's a massive attack surface.",
+    "episode_evidence": "Nikesh Arora: Unfortunately for some of you what's even worse, if you have encrypted [data] today that gets stolen, somebody could keep it for five years and break it at that point.\nNikesh Arora: I think the goal is who can build a quantum computer that works? Let's set up the technologies are out of it and the debates are is it 2028, 2029, 2033 and sort of if you pick the middle point, let's call it 2030, well it will break to this cryptography.\nNikesh Arora: So today, $20 dollars for a million tokens for probably generation minus one. 50 if you want to go to the most extreme.\nNikesh Arora: And if you're on your own GPUs with a little bit of optimization, but I'm talking like a week of engineering work, we could drop the cost to about a dollar to $2 for a million tokens.\nNikesh Arora: The average enterprise uses anywhere from 500 to 5000 distinct software vendors. In a world when you have to protect against it all, it's not just the cyber threat, that's a massive attack surface.",
     "falsification_tracks": [
       "By 2027-12-31, no major third-party validated quantum demonstration shows logical error rate below physical error rate over repeated cycles; source: peer-reviewed papers and independent lab reports.",
       "By 2028-12-31, fewer than 20% of enterprise key systems in published security audits are inventory-complete and PQC-ready; source: 10-K risk disclosures, SOC 2 summaries, or major enterprise security reports.",
@@ -55571,7 +55560,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-22T05:33:02.731602",
     "updated_at": "2026-10-22 10:33:02",
-    "episode_evidence": "Peter Diamandis: Quote, subject to stockholder approval. 5% of Anthropic shares will be committed today.\nJamoth (Paul Habatilla as referenced in transcript context): The real question is, what is their failsafe to course correct? If this mean reverts and becomes what, you know, everything else in the world has overwhelmingly looked like when philanthropically minded people give large sums of money away in big bursts, which is, you know, not a lot of quantifiable outcome.\nPeter Diamandis: So let's do the math for a second. There are 72 million Americans under age 18 and SpaceX current stock price about 140 bucks today.\nPeter Diamandis: I think that this is really the better version of the giving pledge.\nBill Gross: The more than one million business ideas we have developed are completely free.",
+    "episode_evidence": "Peter Diamandis: Quote, subject to stockholder approval. 5% of Anthropic shares will be committed today.\nChamath Palihapitiya: The real question is, what is their failsafe to course correct? If this mean reverts and becomes what, you know, everything else in the world has overwhelmingly looked like when philanthropically minded people give large sums of money away in big bursts, which is, you know, not a lot of quantifiable outcome.\nPeter Diamandis: So let's do the math for a second. There are 72 million Americans under age 18 and SpaceX current stock price about 140 bucks today.\nPeter Diamandis: I think that this is really the better version of the giving pledge.\nBill Gross: The more than one million business ideas we have developed are completely free.",
     "falsification_tracks": [
       "By 2027-12-31, if U.S. data-center power interconnection lead times are still above 18 months on average in major utility markets, the compute-shortage thesis is not being resolved; source: utility interconnection filings and EIA reports.",
       "By 2027-06-30, if Anthropic's Public Benefit Fund filings show less than 5% of shares committed or no measurable impact metrics in the S-1/annual disclosures, the public-benefit governance thesis weakens; source: SEC filings.",
@@ -55670,18 +55659,7 @@ const dashboardData = {
     "overview": "The non-obvious point here is that Moshi is not trying to win by being the broadest market-data interface or the best generic chatbot for finance. The deeper thesis is that in time-sensitive markets, the product that matters is the one that converts noisy multi-modal information into a prioritized action queue that fits the trader\u2019s existing workflow. That reframes the competitive set: the rival is not only Bloomberg or another AI dashboard, but also the trader\u2019s own attention bottleneck and internal analyst process. Another subtle point is that the product architecture and the user experience are being fused together. If the system is genuinely good at surfacing only what is relevant, the interface can become almost invisible because the workflow itself is the product. The episode also suggests that trust is a feature, not a compliance layer: source ranking, confidence scoring, and privacy-preserving handling of user data are part of the core value proposition, especially in commodities where a few trusted voices can move behavior more than raw data volume.",
     "key_takeaways_detailed": [],
     "investment_thesis": "The investable angle is that trader AI may be monetized less like a horizontal LLM tool and more like a vertical decision layer with measurable workflow lift. What to watch is whether Moshi can show that its recommendations materially reduce time-to-insight, increase usage inside active trading workflows, and improve decision quality versus Bloomberg-style terminals and internal analyst stacks. The strongest signal would be adoption by a narrow but high-value segment such as commodity and energy traders, where the cost of missing a second- or third-order linkage is high. Also worth watching is whether the company can keep data ingestion private while still scaling multimodal inputs; that balance can become a moat if enterprise buyers treat privacy as a gating requirement. If product usage shows that traders repeatedly act on surfaced items rather than merely reading them, that would validate the recommendation layer as the real product, not just a feature.",
-    "ticker_analysis": {
-      "MOSHI": {
-        "rationale": "No public ticker is provided, but Moshi is the central company discussed. Its value proposition is a recommendation-and-workflow layer for traders that ingests structured futures data, fundamentals, news, alternative data, and private user data, then prioritizes what matters in real time.",
-        "positioning": "Watch",
-        "risk": "The thesis fails if the recommendation engine does not outperform existing workflows on measurable trader outcomes or if users do not actually incorporate the outputs into daily decisions."
-      },
-      "NASA": {
-        "rationale": "NASA is mentioned as a prior collaboration point, reinforcing the technical background behind the team.",
-        "positioning": "Watch",
-        "risk": "As with Stability AI, this is not a product revenue driver; the risk is assuming research pedigree translates into enterprise adoption."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [
@@ -55812,7 +55790,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-22T14:05:41.350086",
     "updated_at": "2026-10-22 19:05:41",
-    "episode_evidence": "Vincent Gave: They expanded it to 7 million birds a day.\nVincent Gave: he was able to highlight clearly that while they were able to move all this crude, only 25% to 35% of products of pre-crisis levels were moving it.\nVincent Gave: In a fact that there is no energy transition, there is only energy addition.\nLouis-Vincent Gav: France total tax receipts account for roughly 44% of GDP.\nPatrick: for this week's trader the week the structure is a traditional long short pair buying JP Morgan and short selling Doysha Bank in equal dollar amounts with JP Morgan trading our $334 and 58 cents at this time of this recording and Doysha Banks US listed shares at $32.39.",
+    "episode_evidence": "Dr. Anas Alhajji: They expanded it to 7 million birds a day.\nDr. Anas Alhajji: he was able to highlight clearly that while they were able to move all this crude, only 25% to 35% of products of pre-crisis levels were moving it.\nDr. Anas Alhajji: In a fact that there is no energy transition, there is only energy addition.\nLouis-Vincent Gave: France total tax receipts account for roughly 44% of GDP.\nPatrick: for this week's trader the week the structure is a traditional long short pair buying JP Morgan and short selling Doysha Bank in equal dollar amounts with JP Morgan trading our $334 and 58 cents at this time of this recording and Doysha Banks US listed shares at $32.39.",
     "falsification_tracks": [
       "By 2026-12-31, if EIA and IEA product-market data show diesel and middle-distillate inventories back above 5-year averages and product movement normalizes to above 70% of pre-crisis levels, the product-shortage thesis is wrong.",
       "By 2027-12-31, if refinery restoration data from IEA and company 10-K/10-Q disclosures show more than 30% of the claimed outage-related capacity back online on sub-24-month timelines, the argument that replacement takes roughly 10 years is falsified.",
@@ -55923,7 +55901,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-23T06:47:27.183511",
     "updated_at": "2026-10-23 11:47:27",
-    "episode_evidence": "Andy Jassy: We\u2019ve said this year in 2026 we expect to spend about $220 billion of capex\u2026 and even spending $220 billion of capex this year, we\u2019re leaving a meaningful amount of demand on the table.\nAndy Jassy: In the first three years of this gender of AI wave our business, our just our AI business in AWS is over $25 billion in run rate.\nAndy Jassy: I wish I could tell you that I thought that the supply constraints would be just a 20, 20, 7 issue. I think we\u2019ll see them in different components for several years.\nAndy Jassy: If you fast forward them, I think that the way that applications are going to have to be able to respond to imminent security threats is going to be in minutes.\nAndy Jassy: It\u2019s about 40% more price performance than other X86 processors.",
+    "episode_evidence": "Andy Jassy: We\u2019ve said this year in 2026 we expect to spend about $220 billion of capex\u2026 and even spending $220 billion of capex this year, we\u2019re leaving a meaningful amount of demand on the table.\nAndy Jassy: In the first three years of this [generative] AI wave, our AI business in AWS is over $25 billion in run rate.\nAndy Jassy: I wish I could tell you that I thought that the supply constraints would be just a 2027 issue. I think we\u2019ll see them in different components for several years.\nAndy Jassy: If you fast forward them, I think that the way that applications are going to have to be able to respond to imminent security threats is going to be in minutes.\nAndy Jassy: It\u2019s about 40% more price performance than other X86 processors.",
     "falsification_tracks": [
       "By 2026-12-31, Amazon capex in the 10-K is below $180 billion or above $260 billion, per Amazon 10-K.",
       "By 2027-03-31, AWS operating income growth and AI revenue commentary in the 10-Q no longer reference meaningful unmet demand or capacity constraints, per Amazon 10-Q.",
@@ -56257,7 +56235,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-10-15",
     "mention_score": 6,
-    "mention_score_decayed": 5.1,
+    "mention_score_decayed": 4.99,
     "last_main_idea": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-10-15 \u2022 Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
     "last_proof_snippet": "This is an existential issue for us. We can easily stop, but if we stop today, we lose. Functionally, capability, safety, security, they're all at exactly the same place. Priority number one. It's our third pod back together. In the last 10",
@@ -56575,7 +56553,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-05",
     "mention_score": 3,
-    "mention_score_decayed": 2.03,
+    "mention_score_decayed": 1.98,
     "last_main_idea": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
     "last_proof_snippet": "The most interesting big new trend is in personal agents. We're in this world where we're so excited by what Chatching Beauty did with turning things into conversation. And now these agents we can get in our messaging apps that turn them in",
@@ -56636,7 +56614,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-05",
     "mention_score": 3,
-    "mention_score_decayed": 2.03,
+    "mention_score_decayed": 1.98,
     "last_main_idea": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
     "last_proof_snippet": "The most interesting big new trend is in personal agents. We're in this world where we're so excited by what Chatching Beauty did with turning things into conversation. And now these agents we can get in our messaging apps that turn them in",
@@ -56703,7 +56681,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-03",
     "mention_score": 3,
-    "mention_score_decayed": 1.93,
+    "mention_score_decayed": 1.89,
     "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
     "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
@@ -56820,7 +56798,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-09",
     "mention_score": 2,
-    "mention_score_decayed": 1.48,
+    "mention_score_decayed": 1.45,
     "last_main_idea": "AI infrastructure bottlenecks are shifting from chip design to memory, packaging, power, and optics, creating new investment opportunities in those layers.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-09 \u2022 Chips, Memory, and Power | Pat Gelsinger",
     "last_proof_snippet": "Then AI, digital age, energy capacity equals economic capacity. Why built the new data center and by a million GPUs, if I can't power that, you're going to see more and more defaults happening on many of those data center projects because t",
@@ -57266,60 +57244,6 @@ const dashboardData = {
     "net_worth": "$377.0M"
   },
   {
-    "id": 575,
-    "name": "Louis-Vincent Gav",
-    "slug": "louis-vincent-gav",
-    "bio": "Founder and CEO of GavCal, focused on France, euro-area stress, and FX relative-value positioning.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 19:03:16",
-    "last_episode_title": "MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-22",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "The episode\u2019s core claim is that energy disruption will express mainly through refinery-product shortages and crack spreads, while Europe\u2019s France-driven fiscal stress could spill into banks and FX.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
-    "last_proof_snippet": "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever. That was Energy Outlook Advisors founder Dr. Otis Alhac",
-    "supporting_takeaway": "Vincent Gave said Saudi Arabia wants total pipeline capacity to reach 10 million bpd, including bypass routes around vulnerable chokepoints.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 574,
-    "name": "Vincent Gave",
-    "slug": "vincent-gave",
-    "bio": "Founder of Energy Outlook Advisors and a macro-energy commentator focused on oil, refining, logistics, and geopolitical supply shocks.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 19:03:16",
-    "last_episode_title": "MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-22",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "The episode\u2019s core claim is that energy disruption will express mainly through refinery-product shortages and crack spreads, while Europe\u2019s France-driven fiscal stress could spill into banks and FX.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
-    "last_proof_snippet": "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever. That was Energy Outlook Advisors founder Dr. Otis Alhac",
-    "supporting_takeaway": "Vincent Gave said Saudi Arabia wants total pipeline capacity to reach 10 million bpd, including bypass routes around vulnerable chokepoints.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 572,
     "name": "Erik Bernhardsson",
     "slug": "erik-bernhardsson",
@@ -57351,33 +57275,6 @@ const dashboardData = {
     "name": "Chris Auth",
     "slug": "chris-auth",
     "bio": "Intel process-development executive who discusses node roadmap choices, High-NA EUV, backside power, and foundry maturity.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 17:25:06",
-    "last_episode_title": "What will computer chips look like in 2045?",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-10-22",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
-    "last_proof_snippet": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what\u2019s coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bo",
-    "supporting_takeaway": "Ranade argued that even with more capex, leading-edge output expansion is likely \"Not 10X, but probably 2X, yes.\"",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 567,
-    "name": "Gary Dickerson",
-    "slug": "gary-dickerson",
-    "bio": "Quoted in the discussion of AI-driven compute demand and capacity constraints.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -57455,33 +57352,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 566,
-    "name": "Peter Wennink",
-    "slug": "peter-wennink",
-    "bio": "Quoted in the discussion of AI demand shock and the mismatch between demand and available capacity.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 17:25:06",
-    "last_episode_title": "What will computer chips look like in 2045?",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-10-22",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
-    "last_proof_snippet": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what\u2019s coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bo",
-    "supporting_takeaway": "Ranade argued that even with more capex, leading-edge output expansion is likely \"Not 10X, but probably 2X, yes.\"",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 571,
     "name": "Pushkar Ranade",
     "slug": "pushkar-ranade",
@@ -57513,33 +57383,6 @@ const dashboardData = {
     "name": "Tyler Osborn",
     "slug": "tyler-osborn",
     "bio": "Intel advanced packaging executive who discusses hybrid bonding, pitch scaling, and packaging reliability.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 17:25:06",
-    "last_episode_title": "What will computer chips look like in 2045?",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-10-22",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
-    "last_proof_snippet": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what\u2019s coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bo",
-    "supporting_takeaway": "Ranade argued that even with more capex, leading-edge output expansion is likely \"Not 10X, but probably 2X, yes.\"",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 565,
-    "name": "Vivek Arya",
-    "slug": "vivek-arya",
-    "bio": null,
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -57634,7 +57477,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Document-processing infrastructure, not generic AI reasoning, is becoming the bottleneck for high-stakes agent workflows, and Reducto claims to solve it at high accuracy and penny-per-page economics.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-21 \u2022 The Missing Infrastructure for AI Agents: Documents | Reducto\u2019s Adit Abraham",
     "last_proof_snippet": "The day we got into YC, we told that we were going to get a bit. Nobody thinks about complexity when they upload a document to chat to you. You just expect it to work. On the other hand, the tools that you had to solve them were much more p",
@@ -57796,38 +57639,11 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-19 \u2022 Why a $1M Startup Wasn't Worth Building in the Age of AI",
     "last_proof_snippet": "Impact in the world is really, really important, really wanted to build something that mattered and helped people. I get pinged by Ben Horowitz. I found this amazing tool, it's called Town, it changed my life, it's so great. We're trying to",
     "supporting_takeaway": "Jean-Denis Greze said Town is model-neutral and will use \"whatever supplier\" is best in the moment, because being tied to one provider is risky.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 548,
-    "name": "Mario Martone",
-    "slug": "mario-martone",
-    "bio": "Head of applied research at EliseAI; previously worked in theoretical physics on topics like black holes and string theory (per transcript).",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 11:51:47",
-    "last_episode_title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-18 \u2022 Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
-    "last_proof_snippet": "I do not expect that, but even after coming from Sing Thierry, I would say the complex of the problem of working not is probably higher now than it was before. An AI system that works 90% of the time might look impressive in a research pape",
-    "supporting_takeaway": "Martone says EliseAI uses a mix of LLMs and traditional machine learning because LLMs alone are not the right tool for many high-impact decisions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -57892,6 +57708,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$1.40B"
+  },
+  {
+    "id": 548,
+    "name": "Mario Martone",
+    "slug": "mario-martone",
+    "bio": "Head of applied research at EliseAI; previously worked in theoretical physics on topics like black holes and string theory (per transcript).",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 11:51:47",
+    "last_episode_title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.89,
+    "last_main_idea": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-18 \u2022 Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+    "last_proof_snippet": "I do not expect that, but even after coming from Sing Thierry, I would say the complex of the problem of working not is probably higher now than it was before. An AI system that works 90% of the time might look impressive in a research pape",
+    "supporting_takeaway": "Martone says EliseAI uses a mix of LLMs and traditional machine learning because LLMs alone are not the right tool for many high-impact decisions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 546,
@@ -57965,7 +57808,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Grepr\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-16 \u2022 AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
     "last_proof_snippet": "The world that the AI lives in is all digital, and this is the actual world, and my most things are not necessarily the same. When we started doing AI for coding, it was autocomplete. Nobody really knew to what extent you can actually build",
@@ -58019,7 +57862,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Agentic commerce could create a large infrastructure winner in payment vaulting and token provisioning, and VGS claims to already sit at the center of that shift.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-15 \u2022 When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
     "last_proof_snippet": "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs which are payment credentials. Amazon recently blocked news and there are m",
@@ -58127,7 +57970,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-14 \u2022 Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
     "last_proof_snippet": "When I think about model progress, it comes down to different forms of capital, and that is compute data and talent. How do you see that playing out in terms of who's going to win in the next couple of years? The Chinese are so good at buil",
@@ -58135,67 +57978,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 78,
-    "name": "Martin Casado",
-    "slug": "martin-casado",
-    "bio": "Martin Casado is a General Partner at a16z, a venture capital firm, and co-founder of Nicira, a company acquired by VMware for $1.26B. He is known for his expertise in networking and cloud computing investments.",
-    "known_for": "His investments in networking and cloud computing, and his role in founding Nicira.",
-    "net_worth_usd": 600000000.0,
-    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
-    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Uses industry knowledge to frame Cursor's position in the market.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key strategic points.",
-    "voice_profile_updated_at": "2026-08-27 12:09:04",
-    "last_seen": "2026-08-27 12:09:04",
-    "last_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-27",
-    "mention_score": 3,
-    "mention_score_decayed": 0.82,
-    "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
-    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
-    "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-27T07:09:17.809769",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Martin Casado",
-      "fetched_at": "2026-08-27T12:09:17.809535+00:00",
-      "cliff_notes": "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion. His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields.",
-      "derived": {
-        "current_role": "General Partner at a16z",
-        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion.",
-        "His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields."
-      ],
-      "sections": [
-        {
-          "heading": "Networking and Cloud Computing",
-          "body": "Martin Casado is recognized for his investments and insights in the fields of networking and cloud computing, contributing to the growth and innovation in these areas."
-        },
-        {
-          "heading": "Nicira Acquisition",
-          "body": "Casado co-founded Nicira, which was later acquired by VMware for $1.26 billion, marking a significant milestone in his career and the industry."
-        },
-        {
-          "heading": "Venture Capital Insights",
-          "body": "As a General Partner at a16z, Casado provides valuable perspectives on the competitive landscape and the importance of the human-model interface in technology investments."
-        }
-      ]
-    },
-    "net_worth": "$600.0M"
   },
   {
     "id": 533,
@@ -58279,62 +58061,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 436,
-    "name": "Justin Johnson",
-    "slug": "justin-johnson",
-    "bio": "Justin Johnson is a researcher and expert in computer vision and generative models, known for his pioneering work in neural radiance fields and 3D generative AI. He is involved in the development of Atlas, a project that explores the potential of world models for simulating and reconstructing environments. His insights bridge the gap between AI and physical understanding, with applications across various industries.",
-    "known_for": "Justin Johnson is at the forefront of developing world models that enhance AI's ability to understand and simulate the physical world, impacting sectors from entertainment to robotics.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Technical but accessible, emphasizing architectural elegance",
-    "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
-    "voice_delivery_notes": "Emphasize 'new view prediction' as a deliberate, foundational phrase; pause after 'Atlas is really' for definitional clarity",
-    "voice_profile_updated_at": "2026-09-04 13:44:50",
-    "last_seen": "2026-09-13 12:19:42",
-    "last_episode_title": "World Models, Robotics, and the Future of 3D AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.81,
-    "last_main_idea": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-13 \u2022 World Models, Robotics, and the Future of 3D AI",
-    "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today. An art thesis is that there exists anothe",
-    "supporting_takeaway": "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-16T12:12:46.568076",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Justin Johnson",
-      "fetched_at": "2026-09-16T17:12:46.567930+00:00",
-      "cliff_notes": "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics. By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies.",
-      "derived": {
-        "current_role": "Co-founder at World Labs"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics.",
-        "By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies."
-      ],
-      "sections": [
-        {
-          "heading": "Neural Radiance Fields",
-          "body": "Johnson's work in neural radiance fields represents a breakthrough in how AI can generate and understand 3D environments, allowing for more realistic simulations."
-        },
-        {
-          "heading": "World Models",
-          "body": "He advocates for the development of world models that integrate visual and physical understanding, which could transform industries reliant on spatial awareness."
-        },
-        {
-          "heading": "Applications Across Industries",
-          "body": "His research has implications for a wide range of applications, from gaming and visual effects to robotics and construction, highlighting the versatility of AI in real-world scenarios."
-        }
-      ]
-    }
-  },
-  {
     "id": 74,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
@@ -58400,6 +58126,67 @@ const dashboardData = {
     "net_worth": "$3.60B"
   },
   {
+    "id": 78,
+    "name": "Martin Casado",
+    "slug": "martin-casado",
+    "bio": "Martin Casado is a General Partner at a16z, a venture capital firm, and co-founder of Nicira, a company acquired by VMware for $1.26B. He is known for his expertise in networking and cloud computing investments.",
+    "known_for": "His investments in networking and cloud computing, and his role in founding Nicira.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
+    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Uses industry knowledge to frame Cursor's position in the market.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key strategic points.",
+    "voice_profile_updated_at": "2026-08-27 12:09:04",
+    "last_seen": "2026-08-27 12:09:04",
+    "last_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-27",
+    "mention_score": 3,
+    "mention_score_decayed": 0.8,
+    "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
+    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
+    "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-27T07:09:17.809769",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Martin Casado",
+      "fetched_at": "2026-08-27T12:09:17.809535+00:00",
+      "cliff_notes": "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion. His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields.",
+      "derived": {
+        "current_role": "General Partner at a16z",
+        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion.",
+        "His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields."
+      ],
+      "sections": [
+        {
+          "heading": "Networking and Cloud Computing",
+          "body": "Martin Casado is recognized for his investments and insights in the fields of networking and cloud computing, contributing to the growth and innovation in these areas."
+        },
+        {
+          "heading": "Nicira Acquisition",
+          "body": "Casado co-founded Nicira, which was later acquired by VMware for $1.26 billion, marking a significant milestone in his career and the industry."
+        },
+        {
+          "heading": "Venture Capital Insights",
+          "body": "As a General Partner at a16z, Casado provides valuable perspectives on the competitive landscape and the importance of the human-model interface in technology investments."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
+  },
+  {
     "id": 529,
     "name": "Charles Lemonides",
     "slug": "charles-le-manides",
@@ -58454,6 +58241,62 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 436,
+    "name": "Justin Johnson",
+    "slug": "justin-johnson",
+    "bio": "Justin Johnson is a researcher and expert in computer vision and generative models, known for his pioneering work in neural radiance fields and 3D generative AI. He is involved in the development of Atlas, a project that explores the potential of world models for simulating and reconstructing environments. His insights bridge the gap between AI and physical understanding, with applications across various industries.",
+    "known_for": "Justin Johnson is at the forefront of developing world models that enhance AI's ability to understand and simulate the physical world, impacting sectors from entertainment to robotics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Technical but accessible, emphasizing architectural elegance",
+    "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
+    "voice_delivery_notes": "Emphasize 'new view prediction' as a deliberate, foundational phrase; pause after 'Atlas is really' for definitional clarity",
+    "voice_profile_updated_at": "2026-09-04 13:44:50",
+    "last_seen": "2026-09-13 12:19:42",
+    "last_episode_title": "World Models, Robotics, and the Future of 3D AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.79,
+    "last_main_idea": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-13 \u2022 World Models, Robotics, and the Future of 3D AI",
+    "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today. An art thesis is that there exists anothe",
+    "supporting_takeaway": "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-16T12:12:46.568076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Justin Johnson",
+      "fetched_at": "2026-09-16T17:12:46.567930+00:00",
+      "cliff_notes": "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics. By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies.",
+      "derived": {
+        "current_role": "Co-founder at World Labs"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics.",
+        "By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Neural Radiance Fields",
+          "body": "Johnson's work in neural radiance fields represents a breakthrough in how AI can generate and understand 3D environments, allowing for more realistic simulations."
+        },
+        {
+          "heading": "World Models",
+          "body": "He advocates for the development of world models that integrate visual and physical understanding, which could transform industries reliant on spatial awareness."
+        },
+        {
+          "heading": "Applications Across Industries",
+          "body": "His research has implications for a wide range of applications, from gaming and visual effects to robotics and construction, highlighting the versatility of AI in real-world scenarios."
+        }
+      ]
+    }
+  },
+  {
     "id": 525,
     "name": "Dhaval Adjodah",
     "slug": "davile-agida",
@@ -58471,7 +58314,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-12 \u2022 The Race to Recursive Self-Improving AI",
     "last_proof_snippet": "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself. Can think",
@@ -58498,7 +58341,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-12 \u2022 The Race to Recursive Self-Improving AI",
     "last_proof_snippet": "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself. Can think",
@@ -58801,7 +58644,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Matt Garman argues AWS's AI infrastructure buildout remains demand-driven because Amazon expects $220 billion of 2026 capex, 2 million Nvidia GPUs over coming years, and production workloads across Bedrock, inference, and cloud migration.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-08 \u2022 Building the Cloud for an Agentic World | AWS CEO Matt Garman",
     "last_proof_snippet": "Agented workflows tended to perform better on AWS than anywhere else. Compute sandboxes, gateways, agent permissions versus people. A lot of those are things that we have built and are building and thinking actively about. The top frontier",
@@ -59006,33 +58849,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 505,
-    "name": "Alex Atallah",
-    "slug": "alex-atallah",
-    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
-    "known_for": "OpenRouter and model routing across multiple AI providers.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and infrastructure-focused.",
-    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
-    "voice_profile_updated_at": "2026-10-03 12:02:34",
-    "last_seen": "2026-10-03 12:02:34",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
-    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 52,
     "name": "Alex Karp",
     "slug": "alex-carp",
@@ -59091,6 +58907,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$14.00B"
+  },
+  {
+    "id": 505,
+    "name": "Alex Atallah",
+    "slug": "alex-atallah",
+    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
+    "known_for": "OpenRouter and model routing across multiple AI providers.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and infrastructure-focused.",
+    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 1,
+    "mention_score_decayed": 0.63,
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 502,
@@ -59586,7 +59429,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because TypeSafe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-28 \u2022 AI Can Write Code. Why Isn\u2019t Software Better?",
     "last_proof_snippet": "AI is so unbelievably smart, and yet it's so useless at all other stuff. It doesn't matter how much AI cutting agents you use, the software actually isn't getting better.",
@@ -59993,7 +59836,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "There is a significant investment opportunity in educational technologies and platforms that encourage innovative learning approaches and integrate AI into organizational operations.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-23 \u2022 Amjad Masad on Rethinking College for the AI Era",
     "last_proof_snippet": "Ultimately, the totally beyond people is to question deeply held beliefs. It's to be heretics. You need to learn our way so you can get a job and be a perfect citizen, get married, have kids, and get a house on a car and live happily ever a",
@@ -60164,7 +60007,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Boom Supersonic presents a compelling investment opportunity through its innovative technologies and strong legislative support, positioning itself for significant growth in both aerospace and energy sectors.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-22 \u2022 Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
     "last_proof_snippet": "Set to fly at Mach 1.7 with 103 orders for major airlines. The founder and CEO of Loom Supersonic Glacial. Boeing has a built-in new airplane in 20 years. It's David and Goliath, but Goliath is like a sleet. We're here to bring back two per",
@@ -60674,7 +60517,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in companies that develop real-time generative video technologies and AI solutions for Hollywood presents significant growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-17 \u2022 The Next Frontier of AI Video Is Control",
     "last_proof_snippet": "Generative media is along with the coding agent market. What we call is token market fit. Everyone's waiting for a large consumer moment in AI. I believe H3 Max makes it possible. We're surprised by the speed up and the gain you could get f",
@@ -61592,7 +61435,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-02 \u2022 Inside Moderna\u2019s Personalized Cancer Vaccine",
     "last_proof_snippet": "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed. What was different this time? What is it about mRNA technology that enables the immun",
@@ -61652,7 +61495,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Position nuclear as AI infrastructure: prefer names tied to firm hyperscaler offtake, enrichment/fuel, and factory-built SMR supply chains over pure fusion lottery tickets. Watch PPA announcements, NRC Part 57 and similar licensing milestones, and enrichment capacity expansions as catalysts; falsifiers are hyperscaler PPA pullbacks, permitting stalls, or a step-change cheaper firm clean power that undercuts $100/MWh nuclear bids.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-03 \u2022 MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
     "last_proof_snippet": "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance. Because you really do need somebody who's willing to sign a 20 year PBA for",
@@ -61722,7 +61565,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-04 \u2022 Fei Fei Li: The Race to Build World Models For AI",
     "last_proof_snippet": "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction. We've seen video models as being",
@@ -61783,7 +61626,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Bond yields are at multi-decade highs and investor sentiment is excessively bearish, creating a contrarian buying opportunity in long-term government bonds.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-03 \u2022 \u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
     "last_proof_snippet": "Join today, once again, by Jared Dillian of the Daily Dirt Wrap and the new book, the awesome portfolio. Jared, good to see you. Good to be here, man. Thanks for having me. Yeah, you too, Jared, looking at the front page Bloomberg global bo",
@@ -61884,7 +61727,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "AI agents demonstrated collective intelligence by forming networks to share strategies and assist each other.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-29 \u2022 Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
     "last_proof_snippet": "What happens when you give more than 1,000 AI agents the ability to communicate with each other? They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research, joins Theo Jaffee on MTS to unpack a new investigation into the Op",
@@ -62686,7 +62529,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "AI models are not becoming commodities and there could be multiple winners in the space.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
     "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
@@ -70890,16 +70733,16 @@ const dashboardData = {
     "voice_style": "Factual and data-driven.",
     "voice_delivery_notes": "Clear and deliberate pacing, with emphasis on key market insights.",
     "voice_profile_updated_at": "2026-05-08 03:03:00",
-    "last_seen": "2026-05-08 03:03:00",
-    "last_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+    "last_seen": "2026-10-22 19:03:16",
+    "last_episode_title": "MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
     "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Diversify semiconductor investments to mitigate potential overvaluation risks.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Diversify semiconductor investments to mitigate potential overvaluation risks.",
+    "last_episode_date": "2026-10-22",
+    "mention_score": 2,
+    "mention_score_decayed": 2.0,
+    "last_main_idea": "France is a possible sovereign-style stress case: a ~44%-of-GDP tax burden, deficits near 5% of GDP and foreign-held debt could cascade into European banks and insurers.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
+    "last_proof_snippet": "France total tax receipts account for roughly 44% of GDP.",
+    "supporting_takeaway": "Louis-Vincent Gave said France\u2019s tax receipts are roughly 44% of GDP, leaving little room to raise taxes as deficits run near 5% of GDP.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-05-07T22:03:15.390697",
     "pundit_profile": {
@@ -72029,16 +71872,16 @@ const dashboardData = {
     "voice_style": null,
     "voice_delivery_notes": null,
     "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The U.S. is considering targeting Iran's civilian electric power generation plants, a move that could cause Iran to retaliate.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "last_seen": "2026-10-22 19:03:16",
+    "last_episode_title": "MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-10-22",
+    "mention_score": 3,
+    "mention_score_decayed": 3.0,
+    "last_main_idea": "The \u201cthree seas\u201d energy shock is mainly a refinery-products crisis: crude moves, but only 25% to 35% of pre-crisis product flows are moving, keeping crack spreads elevated.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
+    "last_proof_snippet": "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever. That was Energy Outlook Advisors founder Dr. Otis Alhac",
+    "supporting_takeaway": "Dr. Anas Alhajji said Saudi Arabia wants total pipeline capacity to reach 10 million bpd, including bypass routes around vulnerable chokepoints.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
