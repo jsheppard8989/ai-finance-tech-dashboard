@@ -4,10 +4,10 @@
   "_data_status": "live",
   "schema_version": 1,
   "treasury_calendar": {
-    "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
+    "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills and TIPS excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-23T17:48:12",
+    "last_updated": "2026-10-23T17:56:22",
     "as_of_date": "2026-10-23",
     "next_refunding_announcement": {
       "date": "2026-11-04",
@@ -49,27 +49,6 @@
       }
     ],
     "recent_auction_results": [
-      {
-        "date": "2026-10-22",
-        "security": "5-Year Note",
-        "cusip": "91282CRR4",
-        "size_billions": 26.0,
-        "issue_date": "2026-10-30",
-        "maturity_date": "2031-10-15",
-        "high_yield_pct": 2.367,
-        "high_discount_margin_pct": null,
-        "coupon_pct": 2.25,
-        "bid_to_cover": 2.41,
-        "allocation_at_high_pct": 68.33,
-        "total_tendered_billions": 62.605,
-        "total_accepted_billions": 26.0,
-        "primary_dealer_accepted_billions": 1.419,
-        "direct_accepted_billions": 8.328,
-        "indirect_accepted_billions": 15.929,
-        "results_pdf": "R_20261022_4.pdf",
-        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRR4",
-        "stranger_note": "bid-to-cover 2.41; foreign and other indirect buyers took 61%."
-      },
       {
         "date": "2026-10-21",
         "security": "20-Year Bond (reopening of a 20-year bond, 19 years 10 months left)",
@@ -239,25 +218,46 @@
         "stranger_note": "bid-to-cover 2.63; foreign and other indirect buyers took 49%."
       },
       {
-        "date": "2026-09-17",
-        "security": "10-Year Note (reopening of a 10-year note, 9 years 10 months left)",
-        "cusip": "91282CRE3",
-        "size_billions": 19.0,
-        "issue_date": "2026-09-30",
-        "maturity_date": "2036-07-15",
-        "high_yield_pct": 2.653,
+        "date": "2026-09-15",
+        "security": "20-Year Bond (reopening of a 20-year bond, 19 years 11 months left)",
+        "cusip": "912810UX4",
+        "size_billions": 13.0,
+        "issue_date": "2026-09-18",
+        "maturity_date": "2046-08-15",
+        "high_yield_pct": 5.42,
         "high_discount_margin_pct": null,
-        "coupon_pct": 2.375,
-        "bid_to_cover": 2.24,
-        "allocation_at_high_pct": 93.14,
-        "total_tendered_billions": 45.346,
-        "total_accepted_billions": 21.86,
-        "primary_dealer_accepted_billions": 2.3,
-        "direct_accepted_billions": 5.419,
-        "indirect_accepted_billions": 11.165,
-        "results_pdf": "R_20260917_3.pdf",
-        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRE3",
-        "stranger_note": "bid-to-cover 2.24; foreign and other indirect buyers took 51%."
+        "coupon_pct": 5.125,
+        "bid_to_cover": 2.57,
+        "allocation_at_high_pct": 30.14,
+        "total_tendered_billions": 33.384,
+        "total_accepted_billions": 13.0,
+        "primary_dealer_accepted_billions": 2.176,
+        "direct_accepted_billions": 3.963,
+        "indirect_accepted_billions": 6.776,
+        "results_pdf": "R_20260915_2.pdf",
+        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=912810UX4",
+        "stranger_note": "bid-to-cover 2.57; foreign and other indirect buyers took 52%."
+      },
+      {
+        "date": "2026-09-10",
+        "security": "30-Year Bond (reopening of a 30-year bond, 29 years 11 months left)",
+        "cusip": "912810UW6",
+        "size_billions": 22.0,
+        "issue_date": "2026-09-15",
+        "maturity_date": "2056-08-15",
+        "high_yield_pct": 5.308,
+        "high_discount_margin_pct": null,
+        "coupon_pct": 5.125,
+        "bid_to_cover": 2.61,
+        "allocation_at_high_pct": 64.29,
+        "total_tendered_billions": 57.467,
+        "total_accepted_billions": 22.0,
+        "primary_dealer_accepted_billions": 0.485,
+        "direct_accepted_billions": 4.02,
+        "indirect_accepted_billions": 17.453,
+        "results_pdf": "R_20260910_3.pdf",
+        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=912810UW6",
+        "stranger_note": "bid-to-cover 2.61; foreign and other indirect buyers took 79%."
       }
     ],
     "refunding_context": {
@@ -277,7 +277,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-23T17:48:10.048487",
+    "last_fetched": "2026-10-23T17:56:21.763059",
     "h100": {
       "daily_date": "Oct 23, 2026",
       "daily_date_iso": "2026-10-23",
@@ -1185,7 +1185,7 @@
     "as_of": "2026-10-23T21:37:36.461Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-10-23T17:48:10.489922",
+    "last_fetched": "2026-10-23T17:56:22.102793",
     "b200": {
       "points": [
         {
@@ -1594,6 +1594,6 @@
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
     "as_of": "2026-10-23",
-    "generated_at": "2026-10-23T17:48:10"
+    "generated_at": "2026-10-23T17:56:22"
   }
 }
