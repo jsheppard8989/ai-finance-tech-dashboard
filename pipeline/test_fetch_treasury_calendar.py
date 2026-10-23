@@ -56,14 +56,13 @@ def test_recent_results_sorted_coupons_only():
 def test_upcoming_drops_past_and_bills():
     cal = ftc.build_calendar(AUCTIONED, UPCOMING, today=date(2026, 10, 9))
     ups = cal["upcoming_auctions"]
-    assert [u["date"] for u in ups] == ["2026-10-21", "2026-10-22"]
+    assert [u["date"] for u in ups] == ["2026-10-21"]  # 10/22 5-Year TIPS excluded
     assert ups[0]["security"] == "20-Year Bond (reopening of a 20-year bond, 19 years 10 months left)"
-    assert ups[1]["security"] == "5-Year TIPS"
 
 
 def test_upcoming_filters_relative_to_today():
-    cal = ftc.build_calendar(AUCTIONED, UPCOMING, today=date(2026, 10, 22))
-    assert [u["date"] for u in cal["upcoming_auctions"]] == ["2026-10-22"]
+    cal = ftc.build_calendar(AUCTIONED, UPCOMING, today=date(2026, 10, 21))
+    assert [u["date"] for u in cal["upcoming_auctions"]] == ["2026-10-21"]
 
 
 def test_sizes_filled_from_announced():
@@ -165,3 +164,20 @@ def test_frn_allotment_new_field():
          "competitiveAuctionCloseDate": "2026-09-23T00:00:00", "highDiscountMargin": "0.04",
          "allottedAtHighYieldPercentage": "", "allottedAtHighDiscountMarginPercentage": "42.15"}
     assert ftc.build_result(x)["allocation_at_high_pct"] == 42.15
+
+
+def test_tips_excluded_from_upcoming_and_recent():
+    base = {"securityType": "Note", "securityTerm": "5-Year", "originalSecurityTerm": "5-Year",
+            "floatingRate": "No", "highYield": "2.367", "bidToCoverRatio": "2.41", "offeringAmount": "26000000000"}
+    tips_new = dict(base, cusip="TIPSNEW", type="TIPS", inflationProtected="Yes",
+                    cpiBaseReferencePeriod="1982-1984", competitiveAuctionCloseDate="2026-10-22T00:00:00")
+    tips_old = dict(base, cusip="TIPSOLD", tips="Yes", competitiveAuctionCloseDate="2026-10-20T00:00:00")
+    frn = dict(base, cusip="FRN1", floatingRate="Yes", type="FRN", highYield=None, highDiscountMargin="0.04",
+               competitiveAuctionCloseDate="2026-10-21T00:00:00")
+    nominal = dict(base, cusip="NOM1", type="Note", inflationProtected="No",
+                   competitiveAuctionCloseDate="2026-10-19T00:00:00")
+    up_tips = dict(base, cusip="UPTIPS", inflationProtected="Yes", auctionDate="2026-10-29T00:00:00")
+    up_nom = dict(base, cusip="UPNOM", auctionDate="2026-10-28T00:00:00")
+    tc = ftc.build_calendar([tips_new, tips_old, frn, nominal], [up_tips, up_nom], today=date(2026, 10, 23))
+    assert {r["cusip"] for r in tc["recent_auction_results"]} == {"FRN1", "NOM1"}
+    assert [a["cusip"] for a in tc["upcoming_auctions"]] == ["UPNOM"]
