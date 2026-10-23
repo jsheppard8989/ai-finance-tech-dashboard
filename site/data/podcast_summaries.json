@@ -1,5 +1,25 @@
 [
   {
+    "id": 605,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Amazon CEO Andy Jassy on Why Amazon Is Investing $220 Billion in AI",
+    "episode_date": "2026-10-23",
+    "summary": "Andy Jassy framed Amazon\u2019s current strategy as a massive AI infrastructure buildout driven by customer demand, not speculation. He said Amazon expects to spend about $220 billion of capex in 2026 and emphasized that even that level of spending would still leave meaningful demand unmet. He tied that to capacity scarcity across power, cooling, memory, and accelerators, saying the constraint problem is not a one-year issue and will likely persist across different components for several years.\n\nJassy argued that AWS\u2019s AI business is scaling far faster than early AWS did. He said AWS AI is already over a $25 billion annual run rate after the first three years of the current AI wave, versus roughly $60 million after three years in early AWS. He also pointed to AWS growth of 36.7% last quarter and said AWS is now a $169 billion annual revenue run-rate business. The strategic implication was that Amazon can justify very large infrastructure spending because demand visibility is strong and the company is still leaving demand on the table.\n\nA major part of the discussion focused on economics and bottlenecks inside AI infrastructure. Jassy described sold-out capacity across generations of AI systems, and said Amazon must allocate scarce memory between HBM and DRAM rather than simply maxing out one use case. He also highlighted Amazon\u2019s chip strategy, arguing that Graviton delivers about 40% better price performance than comparable x86 processors and that its AI training chips offer roughly 30% to 40% better price performance than comparable processors.\n\nBeyond infrastructure, Jassy said AI will reshape enterprise software development and security. He predicted that most enterprise applications will use inference pervasively over the next 5 to 7 years, that teams will become smaller and more cross-functional, and that companies will need to rewrite almost all code to be agentically capable. He said the most immediate risk is cybersecurity, because applications will need to respond to threats in minutes rather than days, and architectures will have to support rapid agent-driven updates.",
+    "key_takeaways": [
+      "Andy Jassy said Amazon expects about $220 billion of capex in 2026, and even that would still leave meaningful AI demand unmet.",
+      "Andy Jassy said AWS AI revenue is already over a $25 billion annual run rate after three years, versus about $60 million after three years for early AWS.",
+      "Andy Jassy said AI supply constraints will not be solved by 2027 and will persist across different components for several years.",
+      "Andy Jassy said the biggest enterprise AI growth over the next 5 to 7 years will come from pervasive inference embedded in production applications.",
+      "Andy Jassy said applications will need to respond to security threats in minutes, which will force architectures to change.",
+      "Andy Jassy said Graviton offers about 40% better price performance than comparable x86 processors, and Amazon\u2019s training chips offer about 30% to 40% better price performance than comparable processors.",
+      "Andy Jassy said Amazon\u2019s customers are still constrained by memory allocation trade-offs, including HBM versus DRAM."
+    ],
+    "investment_thesis": "Amazon is using massive 2026 capex to capture AI demand, but supply constraints still leave meaningful revenue on the table and support long-run AWS growth.",
+    "key_tickers": [
+      "AMZN"
+    ]
+  },
+  {
     "id": 603,
     "podcast_name": "The a16z Show",
     "episode_title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
