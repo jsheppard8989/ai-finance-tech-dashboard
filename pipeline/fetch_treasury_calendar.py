@@ -71,7 +71,8 @@ def _pick(x: Dict[str, Any], *keys: str) -> Any:
 
 
 RESULT_FIELDS = {
-    "allocation": ("allocationPercentage", "allottedAtHighYieldPercentage"),
+    "allocation": ("allocationPercentage", "allottedAtHighYieldPercentage",
+                   "allottedAtHighDiscountMarginPercentage", "allottedAtHighRatePercentage"),
     "tendered": ("totalTendered", "grandTotalParRecognized"),
     "accepted": ("totalAccepted", "grandTotalParAwarded"),
     "primary": ("primaryDealerAccepted", "primaryDealersCompetitiveParAwarded"),

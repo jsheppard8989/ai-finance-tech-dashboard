@@ -158,3 +158,10 @@ def test_new_field_names_and_multiple_records_per_cusip():
     assert r["indirect_accepted_billions"] == 15.866
     assert r["results_pdf"] == "R_20261008_3.pdf"
     assert rows[1]["results_pdf"] == "R_20260910_3.pdf"
+
+
+def test_frn_allotment_new_field():
+    x = {"securityType": "Note", "securityTerm": "1-Year 10-Month", "floatingRate": "Yes", "cusip": "F",
+         "competitiveAuctionCloseDate": "2026-09-23T00:00:00", "highDiscountMargin": "0.04",
+         "allottedAtHighYieldPercentage": "", "allottedAtHighDiscountMarginPercentage": "42.15"}
+    assert ftc.build_result(x)["allocation_at_high_pct"] == 42.15
