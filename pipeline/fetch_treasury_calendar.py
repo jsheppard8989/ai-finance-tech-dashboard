@@ -126,8 +126,17 @@ def security_label(x: Dict[str, Any]) -> str:
     return label
 
 
+def is_inflation_indexed(x: Dict[str, Any]) -> bool:
+    """TIPS / inflation-indexed, from TA_WS flags (not name text)."""
+    yes = lambda k: str(x.get(k) or "").strip().lower() == "yes"
+    return (yes("tips") or yes("inflationProtected") or yes("inflationIndexSecurity")
+            or (x.get("securityType") or "") == "TIPS" or (x.get("type") or "") == "TIPS"
+            or bool(str(x.get("cpiBaseReferencePeriod") or "").strip()))
+
+
 def is_coupon(x: Dict[str, Any]) -> bool:
-    return (x.get("securityType") or "") in ("Note", "Bond", "TIPS", "FRN")
+    """Regular nominal notes/bonds (incl. FRNs). Bills and TIPS excluded (Jared, 10/23)."""
+    return (x.get("securityType") or "") in ("Note", "Bond", "FRN") and not is_inflation_indexed(x)
 
 
 def build_result(x: Dict[str, Any]) -> Dict[str, Any]:
@@ -237,7 +246,7 @@ def build_calendar(
 
     prior = prior or {}
     return {
-        "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
+        "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills and TIPS excluded.",
         "_fetch_url": UPCOMING_URL,
         "_results_url": AUCTIONED_URL,
         "last_updated": datetime.now().isoformat(timespec="seconds"),
