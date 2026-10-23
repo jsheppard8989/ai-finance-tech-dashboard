@@ -825,6 +825,108 @@
           "actions against Anthropic"
         ]
       ]
+    },
+    {
+      "insight_id": 613,
+      "podcast_episode_id": 602,
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #2): energy segment is Dr. Anas Alhajji's, not Gave's; Louis-Vincent Gave; Patrick Ceresna",
+      "replacements": [
+        [
+          "Vincent Gave’s “three seas”",
+          "Dr. Anas Alhajji’s “three seas”"
+        ],
+        [
+          "Vincent Gave's 'three seas'",
+          "Dr. Anas Alhajji's 'three seas'"
+        ],
+        [
+          "Gave also pushes a contrarian energy view",
+          "Alhajji also pushes a contrarian energy view"
+        ],
+        [
+          "Vincent Gave",
+          "Dr. Anas Alhajji"
+        ],
+        [
+          "Louis-Dr. Anas Alhajji",
+          "Louis-Vincent Gave"
+        ],
+        [
+          "Louis-Vincent Gav ",
+          "Louis-Vincent Gave "
+        ],
+        [
+          "Louis-Vincent Gav:",
+          "Louis-Vincent Gave:"
+        ],
+        [
+          "Patrick highlights",
+          "Patrick Ceresna highlights"
+        ]
+      ]
+    },
+    {
+      "insight_id": 609,
+      "podcast_episode_id": 597,
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #4): Chamath Palihapitiya",
+      "replacements": [
+        [
+          "Jamoth (Paul Habatilla as referenced in transcript context)",
+          "Chamath Palihapitiya"
+        ],
+        [
+          "Jamoth, Paul Habatilla (as referenced in transcript context)",
+          "Chamath Palihapitiya"
+        ],
+        [
+          "Jamoth/Paul Habatilla",
+          "Chamath Palihapitiya"
+        ]
+      ]
+    },
+    {
+      "insight_id": 615,
+      "podcast_episode_id": 605,
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #6): Andy Jassy quote ASR + sentiment bullish",
+      "set_sentiment": "bullish",
+      "replacements": [
+        [
+          "In the first three years of this gender of AI wave our business, our just our AI business in AWS is over $25 billion in run rate.",
+          "In the first three years of this [generative] AI wave, our AI business in AWS is over $25 billion in run rate."
+        ],
+        [
+          "just a 20, 20, 7 issue",
+          "just a 2027 issue"
+        ]
+      ]
+    },
+    {
+      "insight_id": 608,
+      "podcast_episode_id": 598,
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #7): Arora quote ASR",
+      "replacements": [
+        [
+          "if you have an encrypted hardlist today that gets stolen",
+          "if you have encrypted [data] today that gets stolen"
+        ]
+      ]
+    },
+    {
+      "insight_id": 611,
+      "podcast_episode_id": 599,
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #8): not tickers",
+      "drop_tickers": [
+        "MOSHI",
+        "NASA"
+      ]
+    },
+    {
+      "insight_id": 606,
+      "podcast_episode_id": 595,
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #8): not a ticker",
+      "drop_tickers": [
+        "AMP"
+      ]
     }
   ],
   "terms": [
@@ -1162,6 +1264,14 @@
     [
       "The deeper bet is that in time-sensitive markets",
       "The deeper thesis is that in time-sensitive markets"
+    ],
+    [
+      "Vincent Gave, Louis-Vincent Gav",
+      "Dr. Anas Alhajji, Louis-Vincent Gav"
+    ],
+    [
+      "Jamoth, Paul Habatilla (as referenced in transcript context)",
+      "Chamath Palihapitiya"
     ]
   ],
   "global_name_replacements": [
@@ -1636,6 +1746,10 @@
     [
       "Jeff Wu",
       "Geoffrey Woo"
+    ],
+    [
+      "Louis-Vincent Gav",
+      "Louis-Vincent Gave"
     ]
   ],
   "name_replacements": [
@@ -2375,6 +2489,31 @@
       "id": 390,
       "name": "Deiya Pernas",
       "_note": "Oct 20 2026 G(ai)ndolf decisions: duplicate merged into #192"
+    },
+    {
+      "id": 574,
+      "name": "Vincent Gave",
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #3): duplicate; energy view folded into #55 Dr. Anas Alhajji"
+    },
+    {
+      "id": 575,
+      "name": "Louis-Vincent Gav",
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #3): duplicate; France view folded into #236 Louis-Vincent Gave"
+    },
+    {
+      "id": 565,
+      "name": "Vivek Arya",
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #5): clip in Dwarkesh Intel tour, not a guest"
+    },
+    {
+      "id": 566,
+      "name": "Peter Wennink",
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #5): clip in Dwarkesh Intel tour, not a guest"
+    },
+    {
+      "id": 567,
+      "name": "Gary Dickerson",
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #5): clip in Dwarkesh Intel tour, not a guest"
     }
   ],
   "pundit_overrides": [
@@ -3214,6 +3353,23 @@
       "set": {
         "bio": "Co-founder of Anti Fund with Jake Paul; Silicon Valley venture investor."
       }
+    },
+    {
+      "id": 575,
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #3): France fiscal-stress view (carried into #236 by the merge)",
+      "set": {
+        "last_main_idea": "France is a possible sovereign-style stress case: a ~44%-of-GDP tax burden, deficits near 5% of GDP and foreign-held debt could cascade into European banks and insurers.",
+        "supporting_takeaway": "Louis-Vincent Gave said France’s tax receipts are roughly 44% of GDP, leaving little room to raise taxes as deficits run near 5% of GDP.",
+        "last_proof_snippet": "France total tax receipts account for roughly 44% of GDP."
+      }
+    },
+    {
+      "id": 574,
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #3): energy view (carried into #55 by the merge)",
+      "set": {
+        "last_main_idea": "The “three seas” energy shock is mainly a refinery-products crisis: crude moves, but only 25% to 35% of pre-crisis product flows are moving, keeping crack spreads elevated.",
+        "supporting_takeaway": "Dr. Anas Alhajji said Saudi Arabia wants total pipeline capacity to reach 10 million bpd, including bypass routes around vulnerable chokepoints."
+      }
     }
   ],
   "pundit_merges": [
@@ -3244,6 +3400,22 @@
       ],
       "name": "Deiya Pernas",
       "_note": "Oct 20 2026 G(ai)ndolf decisions: #192 bio (Pernas Research co-founder, audited portfolio)"
+    },
+    {
+      "keep": 236,
+      "merge": [
+        575
+      ],
+      "name": "Louis-Vincent Gave",
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #3): MacroVoices #554, 2026-10-22 (France)"
+    },
+    {
+      "keep": 55,
+      "merge": [
+        574
+      ],
+      "name": "Dr. Anas Alhajji",
+      "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #3): MacroVoices #554, 2026-10-22 (energy)"
     }
   ]
 }
