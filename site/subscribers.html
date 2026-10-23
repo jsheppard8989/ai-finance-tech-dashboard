@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subscriber Weekly Calls</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:,">
+  <style>
+    :root{--bg:#05070d;--panel:#0c111b;--ink:#e8edf3;--mut:#9aa7b6;--line:#1d2635;--acc:#5cc8ff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    a{color:var(--acc)}
+    .site-nav{display:flex;flex-wrap:wrap;gap:1rem 1.25rem;justify-content:center;align-items:center;padding:0.65rem 1rem;background:rgba(0,0,0,0.28);border-bottom:1px solid var(--line)}
+    .site-nav a{color:#00d4ff;text-decoration:none;font-size:0.95rem;font-weight:500}
+    .site-nav a:hover{text-decoration:underline}
+    .hero{padding:56px 5vw 28px;border-bottom:1px solid var(--line);background:radial-gradient(1200px 400px at 20% 0%,#0f2238 0%,var(--bg) 70%)}
+    .kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--acc);margin:0 0 8px}
+    h1{font-size:clamp(28px,4.4vw,48px);line-height:1.15;margin:0 0 12px;max-width:900px}
+    .sub{color:var(--mut);margin:0;max-width:760px}
+    .wrap{max-width:900px;margin:0 auto;padding:36px 20px 24px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+    .grid[hidden]{display:none}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+    .card h2{margin:0 0 4px;font-size:1.2rem}
+    .meta{color:var(--mut);font-size:13px;margin:0 0 10px}
+    .view{display:inline-block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#05070d;background:var(--acc);border-radius:999px;padding:2px 10px;margin-bottom:10px}
+    .card ul{padding-left:1.1rem;margin:.5rem 0}
+    .locked-note{color:var(--mut);text-align:center}
+    footer{max-width:900px;margin:0 auto;padding:20px 20px 48px;border-top:1px solid var(--line);color:var(--mut);font-size:13px}
+    .modal-bg{position:fixed;inset:0;background:rgba(2,4,9,.82);display:flex;align-items:center;justify-content:center;padding:16px;z-index:2000}
+    .modal-bg[hidden]{display:none}
+    .modal{background:#14182b;border:1px solid rgba(255,255,255,.15);border-radius:14px;max-width:420px;width:100%;padding:26px;box-shadow:0 12px 40px rgba(0,0,0,.6)}
+    .modal h2{margin:0 0 6px}
+    .modal p{color:var(--mut);margin:0 0 14px}
+    .modal input{width:100%;padding:.65rem;border-radius:8px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);color:var(--ink);font-size:1rem}
+    .modal button{margin-top:10px;width:100%;padding:.65rem;border:0;border-radius:8px;background:var(--acc);color:#05070d;font-weight:600;font-size:1rem;cursor:pointer}
+    .err{color:#ff7b7b;font-size:14px;min-height:1.4em;margin:6px 0 0}
+  </style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Site sections">
+    <a href="index.html">Home</a>
+    <a href="debait.html">Long &amp; Short</a>
+    <div class="nav-research" data-research-menu><noscript><a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a> · <a href="healthcare.html">Healthcare Abundance</a> · <a href="subscribers.html">Subscriber Weekly Calls</a></noscript></div>
+    <a href="archive.html">Archive</a>
+  </nav>
+  <header class="hero">
+    <p class="kicker">Subscribers · Research</p>
+    <h1>Weekly Calls</h1>
+    <p class="sub">The team's two trade ideas each week: JG's Monday options card and Scout's profitability brief.</p>
+  </header>
+  <main class="wrap">
+    <p id="lockedNote" class="locked-note">Subscriber only. <a href="index.html#contactForm">Contact us for pricing</a>.</p>
+    <div id="calls" class="grid" hidden></div>
+  </main>
+  <div id="gate" class="modal-bg" role="dialog" aria-modal="true" aria-labelledby="gateTitle">
+    <form class="modal" id="gateForm">
+      <h2 id="gateTitle">Subscriber only</h2>
+      <p>These weekly calls are for subscribers. <a href="index.html#contactForm">Contact us for pricing</a>.</p>
+      <label for="pw" class="meta">Password</label>
+      <input id="pw" type="password" autocomplete="current-password" required>
+      <label class="meta" style="display:flex;gap:.5rem;align-items:center;margin-top:8px"><input type="checkbox" id="remember" style="width:auto"> Remember on this device</label>
+      <button type="submit">Unlock</button>
+      <p class="err" id="err" aria-live="polite"></p>
+    </form>
+  </div>
+  <footer>
+    <p><strong>Disclaimer:</strong> This page is for informational and educational purposes only. It is not investment advice, a solicitation, or a recommendation to buy, sell, or hold any security. Options involve substantial risk and are not suitable for every investor. Investing involves risk, including the possible loss of principal. Past performance is not indicative of future results. Do your own research and, if needed, consult a qualified advisor.</p>
+  </footer>
+  <script>
+  (function(){
+    // Client-side gate only: bypassable, the data JSON is public. Not real security.
+    var SALT='b9c552c1281e31903f55be7c4b9dcf6a', HASH='7c9587db2597162ca6a0e919bee12bf94996d65a0d3dd047ae0d8c4a5a5fb3ec', KEY='subscriberUnlock';
+    function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+    function fmt(d){try{return new Date(d+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});}catch(e){return d;}}
+    async function sha(t){var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}
+    function li(a){return '<ul>'+(a||[]).map(function(b){return '<li>'+esc(b)+'</li>';}).join('')+'</ul>';}
+    function card(title,who,date,body){return '<article class="card"><span class="view">The team&#39;s view, not advice</span><h2>'+esc(title)+'</h2><p class="meta">'+esc(who)+(date?' · '+esc(fmt(date)):'')+'</p>'+body+'</article>';}
+    async function show(){
+      document.getElementById('gate').hidden=true;
+      document.getElementById('lockedNote').hidden=true;
+      var el=document.getElementById('calls'); el.hidden=false;
+      try{
+        var d=await (await fetch('data/weekly_calls.json',{cache:'no-store'})).json();
+        var j=d.jg, s=d.scout, html='';
+        html+= j ? card(j.title||'Monday options card','JG · Monday options card',j.date,'<p>'+esc(j.summary)+'</p>'+li(j.bullets))
+                 : card('Monday options card','JG · Monday options card',null,'<p class="meta">No card published yet. Check back Monday.</p>');
+        if(s){html+=card(s.company+' ('+s.ticker+')','Scout · Weekly profitability brief',s.date,
+          '<p class="meta">'+esc(s.label)+(s.status?' · '+esc(s.status):'')+(s.spot?' · $'+esc(s.spot.price)+' ('+esc(s.spot.as_of)+')':'')+'</p>'+
+          '<p>'+esc(s.thesis)+'</p><p><strong>'+esc(s.takeaway)+'</strong></p>'+li(s.bullets)+
+          '<p><strong>Watching next:</strong> '+esc(s.watching_next)+'</p><p><strong>Helps or hurts:</strong> '+esc(s.help_or_hurt)+'</p>');}
+        el.innerHTML=html;
+      }catch(e){el.innerHTML='<p class="meta">Could not load the weekly calls.</p>';}
+    }
+    if(localStorage.getItem(KEY)===HASH){show();} else {document.getElementById('pw').focus();}
+    document.getElementById('gateForm').addEventListener('submit',async function(e){
+      e.preventDefault();
+      var h=await sha(SALT+document.getElementById('pw').value);
+      if(h===HASH){ if(document.getElementById('remember').checked) localStorage.setItem(KEY,HASH); show(); }
+      else document.getElementById('err').textContent='Wrong password.';
+    });
+  })();
+  </script>
+  <script src="./js/research-nav.js"></script>
+</body>
+</html>

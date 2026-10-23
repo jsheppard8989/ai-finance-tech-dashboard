@@ -1,0 +1,24 @@
+{
+  "_note": "Latest weekly calls for subscribers.html. jg is null until JG's Monday options card is published.",
+  "scout": {
+    "date": "2026-10-20",
+    "ticker": "RIVN",
+    "company": "Rivian Automotive, Inc.",
+    "status": "WATCH",
+    "label": "underpriced path to profit",
+    "spot": {
+      "price": 12.34,
+      "as_of": "2026-10-19 close",
+      "source": "Yahoo Finance chart (provisional, not Ric-confirmed)"
+    },
+    "thesis": "Rivian trades near its 52-week low and below its $15.50 July offering, yet it has four straight quarters of positive consolidated gross profit, the exact gate for about $4.0B of DOE construction debt.",
+    "watching_next": "Q3 2026 results after close Thu 2026-10-29 (call 4:00 PM CT); Q3 10-Q due by 2026-11-09.",
+    "help_or_hurt": "Positive consolidated gross profit keeps the DOE loan gate open (helps); gross profit at or below zero breaks the streak and moves the name to RELEGATE.",
+    "takeaway": "The gate, not the car margin, is what to price.",
+    "bullets": [
+      "FACT: Oct 29 gross profit above or below zero is a checkable binary.",
+      "OPINION: upside (Uber robotaxi, VW software) rides on the gate holding."
+    ]
+  },
+  "jg": null
+}
