@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-23T13:39:43.080909",
+  generatedAt: "2026-10-23T17:35:30.300510",
   chartsVersion: "2026-10-23T13:39:24.244423",
   priceSnapshot: {
   "AAPL": {
@@ -56296,7 +56296,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-22",
     "mention_score": 4,
-    "mention_score_decayed": 4,
+    "mention_score_decayed": 3.91,
     "last_main_idea": "AI and crypto-era frontier investing are converging into a broader opportunity set where faster startup formation, open models, and new internet economics could reshape multiple industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-22 \u2022 The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
     "last_proof_snippet": "We're announcing today that we're expanding the ACC Crypto Fund to a 60 Z Frontier. This is the biggest delta between what they really adoptors understand this possible now, or what people understand. That gap is as wide as I've ever seen i",
@@ -56357,7 +56357,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-18",
     "mention_score": 4,
-    "mention_score_decayed": 3.65,
+    "mention_score_decayed": 3.56,
     "last_main_idea": "Bianco\u2019s core claim is that long-duration Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-18 \u2022 Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
     "last_proof_snippet": "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to tangibles. Learn more at Sarmayaetf.com and see the show notes for disclosures",
@@ -57109,7 +57109,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.2,
+    "mention_score_decayed": 1.18,
     "last_main_idea": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-30 \u2022 Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
     "last_proof_snippet": "I was a little terrified backstage when Palmer's like, there's something on the screen that says, I'm not supposed to say this. It's like, for the love of God, whatever it is. Please don't make it about colossal. Please don't say it. So, I",
@@ -57184,33 +57184,6 @@ const dashboardData = {
     "net_worth": "$377.0M"
   },
   {
-    "id": 572,
-    "name": "Erik Bernhardsson",
-    "slug": "erik-bernhardsson",
-    "bio": "CEO and co-founder of Modal. He previously worked at Spotify and Better.com and now leads a serverless AI infrastructure platform.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 19:00:30",
-    "last_episode_title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-10-22",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Modal\u2019s core claim is that elastic, pooled compute provisioning beats fixed GPU capacity contracts for bursty AI workloads, and its sandbox business is already becoming a major revenue driver.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-22 \u2022 Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
-    "last_proof_snippet": "Warm welcome to Basil Chatha, our newest cohost from the Forward Deployed side of the AI Engineering world! We\u2019ll be ramping up a new show with him and couldn\u2019t pass up an interview with Modal\u2019s CEO Eric on the occasion of their monster Ser",
-    "supporting_takeaway": "Bernhardsson describes Modal\u2019s thesis as \"duration transformation\": aggregate many customers\u2019 demand and elastically allocate capacity underneath.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 183,
     "name": "Aaron Levie",
     "slug": "aaron-levy",
@@ -57269,6 +57242,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$107.9M"
+  },
+  {
+    "id": 572,
+    "name": "Erik Bernhardsson",
+    "slug": "erik-bernhardsson",
+    "bio": "CEO and co-founder of Modal. He previously worked at Spotify and Better.com and now leads a serverless AI infrastructure platform.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-22 19:00:30",
+    "last_episode_title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-22",
+    "mention_score": 1,
+    "mention_score_decayed": 0.98,
+    "last_main_idea": "Modal\u2019s core claim is that elastic, pooled compute provisioning beats fixed GPU capacity contracts for bursty AI workloads, and its sandbox business is already becoming a major revenue driver.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-22 \u2022 Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
+    "last_proof_snippet": "Warm welcome to Basil Chatha, our newest cohost from the Forward Deployed side of the AI Engineering world! We\u2019ll be ramping up a new show with him and couldn\u2019t pass up an interview with Modal\u2019s CEO Eric on the occasion of their monster Ser",
+    "supporting_takeaway": "Bernhardsson describes Modal\u2019s thesis as \"duration transformation\": aggregate many customers\u2019 demand and elastically allocate capacity underneath.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 564,
@@ -57835,7 +57835,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-15 \u2022 MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
     "last_proof_snippet": "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization. That was",
@@ -57943,7 +57943,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-14 \u2022 The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO",
     "last_proof_snippet": "In general, the market does about 4% worse per percent of market cap that comes in in an IPO in a given year. So if we are seeing 6% coming in, that's 24% worse than normal. If we're all short of compute, then sure, I'm going to pay for a fi",
@@ -58149,33 +58149,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 528,
-    "name": "Martin Shkreli",
-    "slug": "martin-shkreli",
-    "bio": "Drug-industry entrepreneur and financier known for controversial pricing history. In this episode he argues against broad quantum-computing hype and for a future in photonic/analog optical computing.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-12 18:50:49",
-    "last_episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.79,
-    "last_main_idea": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-12 \u2022 Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
-    "last_proof_snippet": "He's been called the most hated man in America because he jacked up the cost of a life-saving drug. Raise the price of a life-saving drug, 5,000 percent. He became the poster child for capitalistic greed. Barton Screly, 7 years in prison, w",
-    "supporting_takeaway": "He claims modern quantum systems run at only hundreds or thousands of Hertz, far below classical chip clock rates, which limits general-purpose usefulness.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 436,
     "name": "Justin Johnson",
     "slug": "justin-johnson",
@@ -58295,6 +58268,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 528,
+    "name": "Martin Shkreli",
+    "slug": "martin-shkreli",
+    "bio": "Drug-industry entrepreneur and financier known for controversial pricing history. In this episode he argues against broad quantum-computing hype and for a future in photonic/analog optical computing.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-12 18:50:49",
+    "last_episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.78,
+    "last_main_idea": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-12 \u2022 Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+    "last_proof_snippet": "He's been called the most hated man in America because he jacked up the cost of a life-saving drug. Raise the price of a life-saving drug, 5,000 percent. He became the poster child for capitalistic greed. Barton Screly, 7 years in prison, w",
+    "supporting_takeaway": "He claims modern quantum systems run at only hundreds or thousands of Hertz, far below classical chip clock rates, which limits general-purpose usefulness.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 525,
@@ -58536,7 +58536,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "The episode\u2019s core claim is that structural global dollar demand can keep the US dollar and US rates elevated even under stress, while policy tools and gold revaluation remain underappreciated.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-08 \u2022 MacroVoices #553 Brent Johnson: Disparate Housewives",
     "last_proof_snippet": "I've been doing this for 26 years now, and for 25 of the 26 years, I've been hearing that the Fed is out of bullets. And my point to people is that they have a lot more bullets than you can possibly imagine. That was Santiago Capital founde",
@@ -58563,7 +58563,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-08 \u2022 Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
     "last_proof_snippet": "This episode is brought to you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Theumatics ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclo",
@@ -59034,7 +59034,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Barrett Lyon argues DoxxNet differs from VPNs by owning hardware across 26 sites and enabling encrypted peer-to-peer communication without central servers, reducing leased-server and insider-threat exposure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-01 \u2022 Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
     "last_proof_snippet": "We're really at an inflection point because you have the birth of essentially coin-operated intelligence at scale. The internet is really kind of stagnated bit for the protocol design. There's like not a lot of new stuff all of it's built o",
@@ -59061,7 +59061,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "David Rosenberg argues November 3 midterm gridlock could slow growth, inflation, and bond yields because shifts from one-party control to divided government produced that outcome 80% of the time.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-01 \u2022 MacroVoices #552 David Rosenberg: Navigating The Noise",
     "last_proof_snippet": "Historically, when a one-party power swings to a two-party system with gridlock, 80% of the time, the economy slows, 80% of the time inflation goes down, and 80% of the time bond yields go down in that two-year period after a national elect",
@@ -59223,7 +59223,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-30 \u2022 Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
     "last_proof_snippet": "I'm joined once again by Ben Poladian of BEP Research Ben is a semiconductor auto-diadact enthusiast. He's been an investor in Nvidia since 2016. Ben, great to see you again. Welcome back. Glad to be back with you, Jack. So I'm exciting. Th",
@@ -59369,7 +59369,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Palmer Luckey argues Anduril can disrupt defense procurement because it self-funds specialized autonomous products in a market where 80% of major defense acquisition programs went to five companies.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
     "last_proof_snippet": "Wow, so much brighter out here. It is. It's, you know, the future is bright. There's a light flare in the future. Yeah. So welcome everybody to the Oscars of optimism, that of course we're opening up the summit with the king of autonomous w",
@@ -59485,7 +59485,7 @@ const dashboardData = {
     "last_podcast_name": "Other People's Money with Max Wiethe",
     "last_episode_date": "2026-09-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "James Elbaor argues private credit growth is over and BDC/private credit consolidation should accelerate next fiscal year as redemptions exceed 5% gates and public vehicles trade at large NAV discounts.",
     "last_proof_cite": "Other People's Money with Max Wiethe \u2022 2026-09-27 \u2022 The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
     "last_proof_snippet": "Let's take a quick step back and say one thing that I think is abundantly clear. The private credit boom is over. We all saw in Forbes recently around the blue owl founders, other founders of private credit firms becoming billionaires. That",
@@ -60178,7 +60178,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Gold has decoupled from oil prices, indicating a potential for price increases as central banks, especially in China, increase purchases.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-20 \u2022 Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
     "last_proof_snippet": "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal. As we saw since maybe August and so far, September, there's been a huge spike i",
@@ -60232,7 +60232,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Rising Treasury yields compress equity risk premiums, necessitating a reassessment of equity valuations.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-19 \u2022 Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
     "last_proof_snippet": "Today, I'm joined by David Busch, Chief Investment Officer of Trajan Wealth, David. Welcome to the monetary matters. Jack, thank you so much for having me. It's truly a pleasure to join you. And as I said in our communication back and forth",
@@ -60463,7 +60463,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
     "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
@@ -60995,7 +60995,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -61787,7 +61787,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -61849,7 +61849,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation. Where's Anthropic in this conve",
@@ -61877,7 +61877,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation. Where's Anthropic in this conve",
@@ -61905,7 +61905,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -62404,7 +62404,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
@@ -62468,7 +62468,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-26 \u2022 \ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
     "last_proof_snippet": "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right. And that's the",
@@ -64561,65 +64561,6 @@ const dashboardData = {
     "net_worth": "$20.0M"
   },
   {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.15,
-    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
-  },
-  {
     "id": 368,
     "name": "Ashwin Srinivas",
     "slug": "ashwin-srinivas",
@@ -65098,6 +65039,65 @@ const dashboardData = {
       ]
     },
     "net_worth": "$26.7M"
+  },
+  {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.14,
+    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
   },
   {
     "id": 358,
@@ -69775,132 +69775,6 @@ const dashboardData = {
     "net_worth": "$85.9M"
   },
   {
-    "id": 254,
-    "name": "Andy Constan",
-    "slug": "andy-constant",
-    "bio": "Andy Constan is a veteran macro trader and expert commentator on market trends and economic analysis. With a long career in the financial industry, he has worked at various firms such as Salmon Brothers, Bridgewater, and Brevan Howard. Constan is known for his insights into market bubbles and earnings expectations.",
-    "known_for": "His insights into market bubbles and earnings expectations.",
-    "net_worth_usd": 45000000.0,
-    "net_worth_source": "https://www.finance-monthly.com/andy-williams-net-worth-2025-classic-crooners-legacy-in-numbers/",
-    "net_worth_updated_at": "2026-05-16T14:04:52.261234",
-    "voice_tone": "Cautionary and analytical.",
-    "voice_style": "Data-driven and historically contextual.",
-    "voice_delivery_notes": "Pacing is measured, with emphasis on key financial figures.",
-    "voice_profile_updated_at": "2026-05-16 19:04:42",
-    "last_seen": "2026-05-16 19:04:42",
-    "last_episode_title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-16",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
-    "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
-    "supporting_takeaway": "Implement trailing stop-loss orders to protect gains in a potentially volatile market.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-16T14:04:51.366211",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andy Constan",
-      "fetched_at": "2026-05-16T19:04:51.365877+00:00",
-      "cliff_notes": "Andy Constan is a seasoned macro trader with a wealth of experience in the financial industry. He has held positions at several prominent firms, including Salmon Brothers, Bridgewater, and Brevan Howard. Constan's expertise lies in market trends and economic analysis, with a particular focus on market bubbles and earnings expectations. His insights into these areas have made him a sought-after commentator and analyst in the world of finance. Throughout his career, Constan has provided valuable perspectives on the state of the market and the potential for unsustainable growth expectations.",
-      "derived": {
-        "current_role": "Veteran Macro Trader",
-        "former_positions": "Salmon Brothers; Bridgewater; Brevan Howard"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andy Constan is a seasoned macro trader with a wealth of experience in the financial industry. He has held positions at several prominent firms, including Salmon Brothers, Bridgewater, and Brevan Howard. Constan's expertise lies in market trends and economic analysis, with a particular focus on market bubbles and earnings expectations.",
-        "His insights into these areas have made him a sought-after commentator and analyst in the world of finance. Throughout his career, Constan has provided valuable perspectives on the state of the market and the potential for unsustainable growth expectations."
-      ],
-      "sections": [
-        {
-          "heading": "Market Bubbles",
-          "body": "Andy Constan is known for his analysis of market bubbles, examining the potential for unsustainable growth expectations in various sectors."
-        },
-        {
-          "heading": "Earnings Expectations",
-          "body": "Constan provides insights into earnings expectations, questioning the feasibility of current market projections and their impact on stock valuations."
-        },
-        {
-          "heading": "Macro Trading",
-          "body": "With a long career in macro trading, Andy Constan has developed a deep understanding of global market trends and their implications for investors."
-        },
-        {
-          "heading": "Financial Analysis",
-          "body": "Constan's expertise in financial analysis allows him to provide valuable perspectives on the state of the market and potential areas of concern."
-        }
-      ]
-    },
-    "net_worth": "$45.0M"
-  },
-  {
-    "id": 253,
-    "name": "Alex Karp",
-    "slug": "alex-karp",
-    "bio": "Alex Karp is the CEO of Palantir Technologies, a leading data analytics company. He has been instrumental in the company's growth and expansion, making Palantir a significant player in the tech industry.",
-    "known_for": "His leadership in steering Palantir's growth and its role in big data analytics, impacting various sectors including finance, healthcare, and national security.",
-    "net_worth_usd": 14300000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q19560940",
-    "net_worth_updated_at": "2026-05-16T14:05:08.730803",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-05-16 19:04:11",
-    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-16",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Advocate for and support narratives that highlight the positive impacts of AI on society.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-16T14:05:08.323875",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Karp",
-      "fetched_at": "2026-05-16T19:05:08.323724+00:00",
-      "cliff_notes": "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism. Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains.",
-      "derived": {
-        "current_role": "CEO of Palantir Technologies",
-        "education": "Juris Doctor, Stanford Law School; Bachelor's degree, Stanford University"
-      },
-      "infobox": {
-        "Born": "1966",
-        "Nationality": "German-American"
-      },
-      "lead_paragraphs": [
-        "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism.",
-        "Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains."
-      ],
-      "sections": [
-        {
-          "heading": "Palantir Founding",
-          "body": "Alex Karp co-founded Palantir Technologies in 2003, which has since grown to become a major player in the data analytics industry."
-        },
-        {
-          "heading": "Data Analytics",
-          "body": "Under Karp's leadership, Palantir has become renowned for its data analytics software, which is used across various sectors for tasks such as fraud detection and crisis management."
-        },
-        {
-          "heading": "Company Expansion",
-          "body": "Karp has been instrumental in Palantir's expansion, steering the company towards significant growth and establishing it as a key player in the tech industry."
-        }
-      ]
-    },
-    "net_worth": "$14.30B"
-  },
-  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -69966,6 +69840,132 @@ const dashboardData = {
       ]
     },
     "net_worth": "$25.0M"
+  },
+  {
+    "id": 254,
+    "name": "Andy Constan",
+    "slug": "andy-constant",
+    "bio": "Andy Constan is a veteran macro trader and expert commentator on market trends and economic analysis. With a long career in the financial industry, he has worked at various firms such as Salmon Brothers, Bridgewater, and Brevan Howard. Constan is known for his insights into market bubbles and earnings expectations.",
+    "known_for": "His insights into market bubbles and earnings expectations.",
+    "net_worth_usd": 45000000.0,
+    "net_worth_source": "https://www.finance-monthly.com/andy-williams-net-worth-2025-classic-crooners-legacy-in-numbers/",
+    "net_worth_updated_at": "2026-05-16T14:04:52.261234",
+    "voice_tone": "Cautionary and analytical.",
+    "voice_style": "Data-driven and historically contextual.",
+    "voice_delivery_notes": "Pacing is measured, with emphasis on key financial figures.",
+    "voice_profile_updated_at": "2026-05-16 19:04:42",
+    "last_seen": "2026-05-16 19:04:42",
+    "last_episode_title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+    "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
+    "supporting_takeaway": "Implement trailing stop-loss orders to protect gains in a potentially volatile market.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-16T14:04:51.366211",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andy Constan",
+      "fetched_at": "2026-05-16T19:04:51.365877+00:00",
+      "cliff_notes": "Andy Constan is a seasoned macro trader with a wealth of experience in the financial industry. He has held positions at several prominent firms, including Salmon Brothers, Bridgewater, and Brevan Howard. Constan's expertise lies in market trends and economic analysis, with a particular focus on market bubbles and earnings expectations. His insights into these areas have made him a sought-after commentator and analyst in the world of finance. Throughout his career, Constan has provided valuable perspectives on the state of the market and the potential for unsustainable growth expectations.",
+      "derived": {
+        "current_role": "Veteran Macro Trader",
+        "former_positions": "Salmon Brothers; Bridgewater; Brevan Howard"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andy Constan is a seasoned macro trader with a wealth of experience in the financial industry. He has held positions at several prominent firms, including Salmon Brothers, Bridgewater, and Brevan Howard. Constan's expertise lies in market trends and economic analysis, with a particular focus on market bubbles and earnings expectations.",
+        "His insights into these areas have made him a sought-after commentator and analyst in the world of finance. Throughout his career, Constan has provided valuable perspectives on the state of the market and the potential for unsustainable growth expectations."
+      ],
+      "sections": [
+        {
+          "heading": "Market Bubbles",
+          "body": "Andy Constan is known for his analysis of market bubbles, examining the potential for unsustainable growth expectations in various sectors."
+        },
+        {
+          "heading": "Earnings Expectations",
+          "body": "Constan provides insights into earnings expectations, questioning the feasibility of current market projections and their impact on stock valuations."
+        },
+        {
+          "heading": "Macro Trading",
+          "body": "With a long career in macro trading, Andy Constan has developed a deep understanding of global market trends and their implications for investors."
+        },
+        {
+          "heading": "Financial Analysis",
+          "body": "Constan's expertise in financial analysis allows him to provide valuable perspectives on the state of the market and potential areas of concern."
+        }
+      ]
+    },
+    "net_worth": "$45.0M"
+  },
+  {
+    "id": 253,
+    "name": "Alex Karp",
+    "slug": "alex-karp",
+    "bio": "Alex Karp is the CEO of Palantir Technologies, a leading data analytics company. He has been instrumental in the company's growth and expansion, making Palantir a significant player in the tech industry.",
+    "known_for": "His leadership in steering Palantir's growth and its role in big data analytics, impacting various sectors including finance, healthcare, and national security.",
+    "net_worth_usd": 14300000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q19560940",
+    "net_worth_updated_at": "2026-05-16T14:05:08.730803",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-16 19:04:11",
+    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Advocate for and support narratives that highlight the positive impacts of AI on society.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-16T14:05:08.323875",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Karp",
+      "fetched_at": "2026-05-16T19:05:08.323724+00:00",
+      "cliff_notes": "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism. Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains.",
+      "derived": {
+        "current_role": "CEO of Palantir Technologies",
+        "education": "Juris Doctor, Stanford Law School; Bachelor's degree, Stanford University"
+      },
+      "infobox": {
+        "Born": "1966",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism.",
+        "Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Founding",
+          "body": "Alex Karp co-founded Palantir Technologies in 2003, which has since grown to become a major player in the data analytics industry."
+        },
+        {
+          "heading": "Data Analytics",
+          "body": "Under Karp's leadership, Palantir has become renowned for its data analytics software, which is used across various sectors for tasks such as fraud detection and crisis management."
+        },
+        {
+          "heading": "Company Expansion",
+          "body": "Karp has been instrumental in Palantir's expansion, steering the company towards significant growth and establishing it as a key player in the tech industry."
+        }
+      ]
+    },
+    "net_worth": "$14.30B"
   },
   {
     "id": 251,
@@ -70738,7 +70738,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-22",
     "mention_score": 2,
-    "mention_score_decayed": 2.0,
+    "mention_score_decayed": 1.96,
     "last_main_idea": "France is a possible sovereign-style stress case: a ~44%-of-GDP tax burden, deficits near 5% of GDP and foreign-held debt could cascade into European banks and insurers.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
     "last_proof_snippet": "France total tax receipts account for roughly 44% of GDP.",
@@ -71877,7 +71877,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-22",
     "mention_score": 3,
-    "mention_score_decayed": 3.0,
+    "mention_score_decayed": 2.94,
     "last_main_idea": "The \u201cthree seas\u201d energy shock is mainly a refinery-products crisis: crude moves, but only 25% to 35% of pre-crisis product flows are moving, keeping crack spreads elevated.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
     "last_proof_snippet": "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever. That was Energy Outlook Advisors founder Dr. Otis Alhac",
@@ -76412,7 +76412,7 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4854.98,
+      "basket_current_value": 4854.76,
       "basket_change_pct": -2.9,
       "index_start": 100,
       "basket_index_value": 97.1,
@@ -76424,9 +76424,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 28.15,
-          "current_value": 1002.14,
-          "change_pct": 0.21,
+          "current_price": 27.71,
+          "current_value": 986.47,
+          "change_pct": -1.35,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -76438,9 +76438,9 @@ const dashboardData = {
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.52,
-          "current_value": 1057.06,
-          "change_pct": 5.71,
+          "current_price": 3.54,
+          "current_value": 1063.06,
+          "change_pct": 6.31,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -76452,9 +76452,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 67.08,
-          "current_value": 860.33,
-          "change_pct": -13.97,
+          "current_price": 67.61,
+          "current_value": 867.13,
+          "change_pct": -13.29,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -76466,9 +76466,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 169.4,
-          "current_value": 925.18,
-          "change_pct": -7.48,
+          "current_price": 169.08,
+          "current_value": 923.43,
+          "change_pct": -7.66,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -76480,16 +76480,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 103.25,
-          "current_value": 1010.27,
-          "change_pct": 1.03,
+          "current_price": 103.7,
+          "current_value": 1014.67,
+          "change_pct": 1.47,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-23T13:39:08.916696"
+      "last_updated": "2026-10-23T17:35:21.866179"
     }
   ]
 }
