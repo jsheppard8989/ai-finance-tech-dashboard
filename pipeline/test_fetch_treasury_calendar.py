@@ -117,3 +117,44 @@ def test_main_fetch_failure_marks_stale(monkeypatch):
 
 def test_tests_never_touch_real_site_data():
     assert "site_data" in str(ftc.MARKET_DATA_FILE)
+
+
+# --- Regression: TA_WS new field names (~Oct 2026) + several records per CUSIP ---
+NEW_SCHEMA_UW6 = [
+    # 10/08 reopening results record (new TA_WS names, no auctionDate)
+    {"securityType": "Bond", "securityTerm": "29-Year 10-Month", "originalSecurityTerm": "30-Year",
+     "reopening": "Yes", "floatingRate": "No", "cusip": "912810UW6",
+     "competitiveAuctionCloseDate": "2026-10-08T00:00:00", "issueDate": "2026-10-15T00:00:00",
+     "offeringAmount": "22000000000", "highYield": "5.618", "bidToCoverRatio": "2.54",
+     "allottedAtHighYieldPercentage": "26.77", "grandTotalParRecognized": "56435875700",
+     "grandTotalParAwarded": "22522535300", "primaryDealersCompetitiveParAwarded": "1490500000",
+     "directBiddersCompetitiveParAwarded": "4583044100", "indirectBiddersCompetitiveParAwarded": "15866059500",
+     "treasuryAuctionResultsPressReleaseFileName": "R_20261008_3.pdf", "allocationPercentage": None,
+     "totalTendered": None},
+    # Same CUSIP + date, announcement-style record with no results except a stale size
+    {"securityType": "Bond", "securityTerm": "29-Year 10-Month", "originalSecurityTerm": "30-Year",
+     "reopening": "Yes", "cusip": "912810UW6", "competitiveAuctionCloseDate": "2026-10-08T00:00:00",
+     "offeringAmount": "16000000000", "highYield": "5.204", "bidToCoverRatio": None},
+    # Earlier auction of the same CUSIP (09/10) stays a separate row
+    {"securityType": "Bond", "securityTerm": "29-Year 11-Month", "originalSecurityTerm": "30-Year",
+     "reopening": "Yes", "cusip": "912810UW6", "competitiveAuctionCloseDate": "2026-09-10T00:00:00",
+     "offeringAmount": "22000000000", "highYield": "5.308", "bidToCoverRatio": "2.61",
+     "allottedAtHighYieldPercentage": "64.29", "grandTotalParRecognized": "57467000000",
+     "treasuryAuctionResultsPressReleaseFileName": "R_20260910_3.pdf"},
+]
+
+
+def test_new_field_names_and_multiple_records_per_cusip():
+    tc = ftc.build_calendar(list(reversed(NEW_SCHEMA_UW6)), [], today=date(2026, 10, 23))
+    rows = [r for r in tc["recent_auction_results"] if r["cusip"] == "912810UW6"]
+    assert [r["date"] for r in rows] == ["2026-10-08", "2026-09-10"]
+    r = rows[0]
+    assert (r["size_billions"], r["high_yield_pct"], r["bid_to_cover"]) == (22.0, 5.618, 2.54)
+    assert r["allocation_at_high_pct"] == 26.77
+    assert r["total_tendered_billions"] == 56.436
+    assert r["total_accepted_billions"] == 22.523
+    assert r["primary_dealer_accepted_billions"] == 1.49
+    assert r["direct_accepted_billions"] == 4.583
+    assert r["indirect_accepted_billions"] == 15.866
+    assert r["results_pdf"] == "R_20261008_3.pdf"
+    assert rows[1]["results_pdf"] == "R_20260910_3.pdf"
