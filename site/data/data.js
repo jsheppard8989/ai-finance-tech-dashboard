@@ -3,1246 +3,1246 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-22T22:24:30.140864",
-  chartsVersion: "2026-10-22T22:24:16.250405",
+  generatedAt: "2026-10-22T23:56:30.848931",
+  chartsVersion: "2026-10-22T23:56:18.634509",
   priceSnapshot: {
   "AAPL": {
     "price": 348.22,
     "change_pct": 4.61,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-22T22:23:22.399073",
+    "updated_at": "2026-10-22T23:55:25.990566",
     "price_14d_ago": 332.89
   },
   "AEP": {
     "price": 130.64,
     "change_pct": 9.11,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-22T22:23:22.614238",
+    "updated_at": "2026-10-22T23:55:26.223682",
     "price_14d_ago": 119.73
   },
   "AMD": {
     "price": 507.93,
     "change_pct": -19.6,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-22T22:23:22.978846",
+    "updated_at": "2026-10-22T23:55:26.606113",
     "price_14d_ago": 631.75
   },
   "AMGN": {
     "price": 447.28,
     "change_pct": 10.99,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-22T22:23:23.161740",
+    "updated_at": "2026-10-22T23:55:26.800452",
     "price_14d_ago": 402.98
   },
   "AMZN": {
     "price": 250.38,
     "change_pct": -0.41,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-22T22:23:23.553755",
+    "updated_at": "2026-10-22T23:55:27.179420",
     "price_14d_ago": 251.4
   },
   "APO": {
     "price": 114.83,
     "change_pct": -0.45,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-22T22:23:24.011290",
+    "updated_at": "2026-10-22T23:55:27.567160",
     "price_14d_ago": 115.35
   },
   "APTV": {
     "price": 43.81,
     "change_pct": -0.18,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-22T22:23:24.192421",
+    "updated_at": "2026-10-22T23:55:27.755134",
     "price_14d_ago": 43.89
   },
   "AVGO": {
     "price": 323.24,
     "change_pct": -10.83,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-22T22:23:24.584575",
+    "updated_at": "2026-10-22T23:55:28.144032",
     "price_14d_ago": 362.51
   },
   "BA": {
     "price": 187.55,
     "change_pct": -2.68,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-22T22:23:24.988398",
+    "updated_at": "2026-10-22T23:55:28.546973",
     "price_14d_ago": 192.72
   },
   "BABA": {
     "price": 101.82,
     "change_pct": -8.1,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-22T22:23:25.172483",
+    "updated_at": "2026-10-22T23:55:28.735522",
     "price_14d_ago": 110.8
   },
   "BAC": {
     "price": 51.08,
     "change_pct": -5.41,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-22T22:23:25.390266",
+    "updated_at": "2026-10-22T23:55:28.947754",
     "price_14d_ago": 54.0
   },
   "BAM": {
     "price": 47.64,
     "change_pct": 6.51,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-22T22:23:25.578983",
+    "updated_at": "2026-10-22T23:55:29.138510",
     "price_14d_ago": 44.73
   },
   "BIDU": {
     "price": 77.98,
     "change_pct": -10.36,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-22T22:23:25.939861",
+    "updated_at": "2026-10-22T23:55:29.567769",
     "price_14d_ago": 86.99
   },
   "BP": {
     "price": 50.05,
     "change_pct": 12.17,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-22T22:23:26.388835",
+    "updated_at": "2026-10-22T23:55:29.973249",
     "price_14d_ago": 44.62
   },
   "BTC": {
-    "price": 81652.32,
-    "change_pct": -1.52,
+    "price": 81535.17,
+    "change_pct": -1.66,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-22T22:23:26.593865",
+    "updated_at": "2026-10-22T23:55:30.154407",
     "price_14d_ago": 82912.23
   },
   "BTC-USD": {
-    "price": 81652.32,
-    "change_pct": -1.52,
+    "price": 81535.17,
+    "change_pct": -1.66,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-22T22:23:26.775753",
+    "updated_at": "2026-10-22T23:55:30.331730",
     "price_14d_ago": 82912.23
   },
   "BX": {
     "price": 118.75,
     "change_pct": 6.36,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-22T22:23:27.157743",
+    "updated_at": "2026-10-22T23:55:30.726409",
     "price_14d_ago": 111.65
   },
   "BYD": {
     "price": 72.27,
     "change_pct": 5.18,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-22T22:23:27.359125",
+    "updated_at": "2026-10-22T23:55:30.925915",
     "price_14d_ago": 68.71
   },
   "CAT": {
     "price": 704.05,
     "change_pct": -16.99,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-22T22:23:27.964121",
+    "updated_at": "2026-10-22T23:55:31.511696",
     "price_14d_ago": 848.14
   },
   "CCJ": {
     "price": 78.93,
     "change_pct": -9.76,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-22T22:23:28.174839",
+    "updated_at": "2026-10-22T23:55:31.709400",
     "price_14d_ago": 87.47
   },
   "CEG": {
     "price": 255.21,
     "change_pct": -4.64,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-22T22:23:28.376735",
+    "updated_at": "2026-10-22T23:55:31.895977",
     "price_14d_ago": 267.62
   },
   "COIN": {
     "price": 169.09,
     "change_pct": -10.16,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-22T22:23:28.832604",
+    "updated_at": "2026-10-22T23:55:32.252925",
     "price_14d_ago": 188.22
   },
   "COPPER": {
-    "price": 6.43,
-    "change_pct": -2.43,
+    "price": 6.42,
+    "change_pct": -2.59,
     "name": "Copper",
-    "updated_at": "2026-10-22T22:23:29.019555",
+    "updated_at": "2026-10-22T23:55:32.437364",
     "price_14d_ago": 6.59
   },
   "CORN": {
     "price": 17.78,
     "change_pct": -5.93,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-22T22:23:29.204895",
+    "updated_at": "2026-10-22T23:55:32.616560",
     "price_14d_ago": 18.9
   },
   "CRM": {
     "price": 250.29,
     "change_pct": 8.92,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-22T22:23:29.393002",
+    "updated_at": "2026-10-22T23:55:32.798073",
     "price_14d_ago": 229.79
   },
   "CROWD": {
     "price": 237.94,
     "change_pct": -12.74,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-22T22:23:29.649444",
+    "updated_at": "2026-10-22T23:55:32.985160",
     "price_14d_ago": 272.67
   },
   "DBC": {
     "price": 33.57,
     "change_pct": 3.64,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-22T22:23:30.602059",
+    "updated_at": "2026-10-22T23:55:34.002086",
     "price_14d_ago": 32.39
   },
   "DELL": {
     "price": 452.95,
     "change_pct": -17.99,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-22T22:23:30.881215",
+    "updated_at": "2026-10-22T23:55:34.186753",
     "price_14d_ago": 552.29
   },
   "DIS": {
     "price": 113.13,
     "change_pct": 9.19,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-22T22:23:31.309333",
+    "updated_at": "2026-10-22T23:55:34.604725",
     "price_14d_ago": 103.61
   },
   "DOCS": {
     "price": 33.68,
     "change_pct": 17.84,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-22T22:23:31.494641",
+    "updated_at": "2026-10-22T23:55:34.787790",
     "price_14d_ago": 28.58
   },
   "DVN": {
     "price": 49.18,
     "change_pct": 2.5,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-22T22:23:31.697662",
+    "updated_at": "2026-10-22T23:55:35.000276",
     "price_14d_ago": 47.98
   },
   "EBAY": {
     "price": 122.04,
     "change_pct": 13.91,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-22T22:23:31.886710",
+    "updated_at": "2026-10-22T23:55:35.191377",
     "price_14d_ago": 107.14
   },
   "ETH-USD": {
-    "price": 2406.09,
-    "change_pct": -3.91,
+    "price": 2392.06,
+    "change_pct": -4.47,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-22T22:23:32.262657",
+    "updated_at": "2026-10-22T23:55:35.559220",
     "price_14d_ago": 2504.03
   },
   "F": {
     "price": 11.94,
     "change_pct": -1.73,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-22T22:23:32.477336",
+    "updated_at": "2026-10-22T23:55:35.888739",
     "price_14d_ago": 12.15
   },
   "FB": {
     "price": 45.75,
     "change_pct": -0.13,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-22T22:23:32.708512",
+    "updated_at": "2026-10-22T23:55:36.068688",
     "price_14d_ago": 45.81
   },
   "FCX": {
     "price": 64.59,
     "change_pct": -11.03,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-22T22:23:32.913986",
+    "updated_at": "2026-10-22T23:55:36.275792",
     "price_14d_ago": 72.6
   },
   "FSK": {
     "price": 10.53,
     "change_pct": -4.19,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-22T22:23:34.178005",
+    "updated_at": "2026-10-22T23:55:37.416326",
     "price_14d_ago": 10.99
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-22T22:23:34.789608",
+    "updated_at": "2026-10-22T23:55:37.961427",
     "price_14d_ago": null
   },
   "GD": {
     "price": 350.79,
     "change_pct": 5.75,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-22T22:23:35.018786",
+    "updated_at": "2026-10-22T23:55:38.188156",
     "price_14d_ago": 331.72
   },
   "GE": {
     "price": 293.54,
     "change_pct": -4.18,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-22T22:23:35.260952",
+    "updated_at": "2026-10-22T23:55:38.409409",
     "price_14d_ago": 306.34
   },
   "GLD": {
     "price": 369.0,
     "change_pct": -2.78,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-22T22:23:35.444966",
+    "updated_at": "2026-10-22T23:55:38.591684",
     "price_14d_ago": 379.55
   },
   "GME": {
     "price": 25.39,
     "change_pct": 0.59,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-22T22:23:35.633853",
+    "updated_at": "2026-10-22T23:55:38.775430",
     "price_14d_ago": 25.24
   },
   "GOLD": {
-    "price": 4029.7,
-    "change_pct": -3.76,
+    "price": 4018.6,
+    "change_pct": -4.02,
     "name": "Gold",
-    "updated_at": "2026-10-22T22:23:35.814577",
+    "updated_at": "2026-10-22T23:55:38.952939",
     "price_14d_ago": 4187.1
   },
   "GOOG": {
     "price": 320.76,
     "change_pct": -6.71,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-22T22:23:36.002817",
+    "updated_at": "2026-10-22T23:55:39.135121",
     "price_14d_ago": 343.83
   },
   "GOOGL": {
     "price": 324.22,
     "change_pct": -6.42,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-22T22:23:36.189158",
+    "updated_at": "2026-10-22T23:55:39.317382",
     "price_14d_ago": 346.47
   },
   "GS": {
     "price": 891.3,
     "change_pct": -0.24,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-22T22:23:36.472179",
+    "updated_at": "2026-10-22T23:55:39.537093",
     "price_14d_ago": 893.46
   },
   "Gold": {
     "price": 38.66,
     "change_pct": -7.16,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-22T22:23:36.675084",
+    "updated_at": "2026-10-22T23:55:39.729236",
     "price_14d_ago": 41.64
   },
   "HFGM": {
     "price": 30.1,
     "change_pct": -5.59,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-22T22:23:36.859971",
+    "updated_at": "2026-10-22T23:55:39.913729",
     "price_14d_ago": 31.88
   },
   "HG": {
     "price": 37.11,
     "change_pct": 8.64,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-22T22:23:37.044026",
+    "updated_at": "2026-10-22T23:55:40.239158",
     "price_14d_ago": 34.16
   },
   "IBM": {
     "price": 252.11,
     "change_pct": 13.78,
     "name": "International Business Machines",
-    "updated_at": "2026-10-22T22:23:37.821011",
+    "updated_at": "2026-10-22T23:55:40.995126",
     "price_14d_ago": 221.58
   },
   "IEF": {
     "price": 91.2,
     "change_pct": 2.56,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-22T22:23:38.031649",
+    "updated_at": "2026-10-22T23:55:41.271019",
     "price_14d_ago": 88.92
   },
   "INDA": {
     "price": 47.36,
     "change_pct": 1.7,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-22T22:23:38.224967",
+    "updated_at": "2026-10-22T23:55:41.459448",
     "price_14d_ago": 46.57
   },
   "INFY": {
     "price": 13.22,
     "change_pct": 22.86,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-22T22:23:38.427327",
+    "updated_at": "2026-10-22T23:55:41.659783",
     "price_14d_ago": 10.76
   },
   "INTC": {
     "price": 85.49,
     "change_pct": -26.42,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-22T22:23:38.636293",
+    "updated_at": "2026-10-22T23:55:41.858878",
     "price_14d_ago": 116.19
   },
   "IWD": {
     "price": 259.05,
     "change_pct": 3.47,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-22T22:23:38.838470",
+    "updated_at": "2026-10-22T23:55:42.062722",
     "price_14d_ago": 250.36
   },
   "IWF": {
     "price": 120.09,
     "change_pct": -6.44,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-22T22:23:39.035613",
+    "updated_at": "2026-10-22T23:55:42.263063",
     "price_14d_ago": 128.35
   },
   "IWM": {
     "price": 276.67,
     "change_pct": -2.37,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-22T22:23:39.238488",
+    "updated_at": "2026-10-22T23:55:42.457399",
     "price_14d_ago": 283.38
   },
   "JNJ": {
     "price": 267.61,
     "change_pct": 5.8,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-22T22:23:39.458921",
+    "updated_at": "2026-10-22T23:55:42.671072",
     "price_14d_ago": 252.93
   },
   "JPM": {
     "price": 336.54,
     "change_pct": 1.25,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-22T22:23:39.669818",
+    "updated_at": "2026-10-22T23:55:42.880421",
     "price_14d_ago": 332.38
   },
   "KKR": {
     "price": 93.09,
     "change_pct": 3.48,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-22T22:23:39.860170",
+    "updated_at": "2026-10-22T23:55:43.083819",
     "price_14d_ago": 89.96
   },
   "LLY": {
     "price": 1306.69,
     "change_pct": 14.31,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-22T22:23:40.516749",
+    "updated_at": "2026-10-22T23:55:43.682500",
     "price_14d_ago": 1143.12
   },
   "LMT": {
     "price": 589.91,
     "change_pct": 16.44,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-22T22:23:40.735636",
+    "updated_at": "2026-10-22T23:55:43.895517",
     "price_14d_ago": 506.63
   },
   "LYFT": {
     "price": 17.43,
     "change_pct": 10.81,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-22T22:23:41.472217",
+    "updated_at": "2026-10-22T23:55:44.622435",
     "price_14d_ago": 15.73
   },
   "META": {
     "price": 648.85,
     "change_pct": -12.54,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-22T22:23:41.880805",
+    "updated_at": "2026-10-22T23:55:45.026370",
     "price_14d_ago": 741.9
   },
   "MGM": {
     "price": 29.5,
     "change_pct": -2.22,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-22T22:23:42.085023",
+    "updated_at": "2026-10-22T23:55:45.218976",
     "price_14d_ago": 30.17
   },
   "MINE": {
     "price": 2.4,
     "change_pct": -11.11,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-22T22:23:42.271130",
+    "updated_at": "2026-10-22T23:55:45.398085",
     "price_14d_ago": 2.7
   },
   "MRK": {
     "price": 147.24,
     "change_pct": 5.52,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-22T22:23:42.687091",
+    "updated_at": "2026-10-22T23:55:45.798730",
     "price_14d_ago": 139.54
   },
   "MRNA": {
     "price": 202.63,
     "change_pct": -0.29,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-22T22:23:42.871386",
+    "updated_at": "2026-10-22T23:55:45.992518",
     "price_14d_ago": 203.21
   },
   "MS": {
     "price": 183.97,
     "change_pct": -3.27,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-22T22:23:43.074794",
+    "updated_at": "2026-10-22T23:55:46.191638",
     "price_14d_ago": 190.19
   },
   "MSFT": {
     "price": 521.08,
     "change_pct": -0.78,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-22T22:23:43.278048",
+    "updated_at": "2026-10-22T23:55:46.383047",
     "price_14d_ago": 525.18
   },
   "MSTR": {
     "price": 145.8,
     "change_pct": -11.33,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-22T22:23:43.464821",
+    "updated_at": "2026-10-22T23:55:46.568434",
     "price_14d_ago": 164.43
   },
   "MU": {
     "price": 856.49,
     "change_pct": -19.5,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-22T22:23:43.685321",
+    "updated_at": "2026-10-22T23:55:46.768638",
     "price_14d_ago": 1063.96
   },
   "NEE": {
     "price": 81.9,
     "change_pct": 7.37,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-22T22:23:44.292081",
+    "updated_at": "2026-10-22T23:55:47.453258",
     "price_14d_ago": 76.28
   },
   "NFLX": {
     "price": 67.05,
     "change_pct": -0.67,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-22T22:23:44.474986",
+    "updated_at": "2026-10-22T23:55:47.633172",
     "price_14d_ago": 67.5
   },
   "NKE": {
     "price": 38.32,
     "change_pct": 12.84,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-22T22:23:45.046059",
+    "updated_at": "2026-10-22T23:55:48.211485",
     "price_14d_ago": 33.96
   },
   "NOC": {
     "price": 552.35,
     "change_pct": 16.01,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-22T22:23:45.258296",
+    "updated_at": "2026-10-22T23:55:48.417845",
     "price_14d_ago": 476.11
   },
   "NVDA": {
     "price": 212.21,
     "change_pct": -11.17,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-22T22:23:45.471942",
+    "updated_at": "2026-10-22T23:55:48.607984",
     "price_14d_ago": 238.9
   },
   "NVS": {
     "price": 156.27,
     "change_pct": 10.88,
     "name": "Novartis AG",
-    "updated_at": "2026-10-22T22:23:45.856525",
+    "updated_at": "2026-10-22T23:55:48.986488",
     "price_14d_ago": 140.93
   },
   "Nasdaq": {
     "price": 704.47,
     "change_pct": -6.84,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-22T22:23:46.136000",
+    "updated_at": "2026-10-22T23:55:49.179900",
     "price_14d_ago": 756.2
   },
   "OKLO": {
     "price": 27.01,
     "change_pct": -24.91,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-22T22:23:46.520952",
+    "updated_at": "2026-10-22T23:55:49.541343",
     "price_14d_ago": 35.97
   },
   "ORCL": {
     "price": 125.54,
     "change_pct": -11.89,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-22T22:23:46.913925",
+    "updated_at": "2026-10-22T23:55:49.981374",
     "price_14d_ago": 142.48
   },
   "PALL": {
     "price": 19.12,
     "change_pct": -10.15,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-22T22:23:47.096644",
+    "updated_at": "2026-10-22T23:55:50.163690",
     "price_14d_ago": 21.28
   },
   "PANW": {
     "price": 354.92,
     "change_pct": -12.74,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-22T22:23:47.283204",
+    "updated_at": "2026-10-22T23:55:50.352715",
     "price_14d_ago": 406.76
   },
   "PBR": {
     "price": 25.62,
     "change_pct": 6.13,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-22T22:23:47.553195",
+    "updated_at": "2026-10-22T23:55:50.551358",
     "price_14d_ago": 24.14
   },
   "PFE": {
     "price": 30.42,
     "change_pct": 10.98,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-22T22:23:47.945948",
+    "updated_at": "2026-10-22T23:55:50.943282",
     "price_14d_ago": 27.41
   },
   "PLTM": {
     "price": 15.01,
     "change_pct": -9.14,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-22T22:23:48.132705",
+    "updated_at": "2026-10-22T23:55:51.125069",
     "price_14d_ago": 16.52
   },
   "PLTR": {
     "price": 196.19,
     "change_pct": 3.59,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-22T22:23:48.318362",
+    "updated_at": "2026-10-22T23:55:51.312100",
     "price_14d_ago": 189.4
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-22T22:23:48.683751",
+    "updated_at": "2026-10-22T23:55:51.682345",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.55,
     "change_pct": -1.35,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-22T22:23:48.865321",
+    "updated_at": "2026-10-22T23:55:51.863727",
     "price_14d_ago": 28.94
   },
   "PSBD": {
     "price": 9.77,
     "change_pct": 1.03,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-22T22:23:49.052871",
+    "updated_at": "2026-10-22T23:55:52.052603",
     "price_14d_ago": 9.67
   },
   "PYPL": {
     "price": 57.53,
     "change_pct": 5.74,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-22T22:23:49.242444",
+    "updated_at": "2026-10-22T23:55:52.247960",
     "price_14d_ago": 54.41
   },
   "QQQ": {
     "price": 704.47,
     "change_pct": -6.84,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-22T22:23:49.624063",
+    "updated_at": "2026-10-22T23:55:52.634464",
     "price_14d_ago": 756.2
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-22T22:23:49.844059",
+    "updated_at": "2026-10-22T23:55:52.818168",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 53.96,
     "change_pct": 21.04,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-22T22:23:50.029319",
+    "updated_at": "2026-10-22T23:55:53.003568",
     "price_14d_ago": 44.58
   },
   "RKLB": {
     "price": 51.22,
     "change_pct": -29.85,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-22T22:23:50.407457",
+    "updated_at": "2026-10-22T23:55:53.376303",
     "price_14d_ago": 73.02
   },
   "Russell": {
     "price": 276.67,
     "change_pct": -2.37,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-22T22:23:50.982974",
+    "updated_at": "2026-10-22T23:55:53.925003",
     "price_14d_ago": 283.38
   },
   "S&P": {
     "price": 7663.43,
     "change_pct": -1.42,
     "name": "S&P 500",
-    "updated_at": "2026-10-22T22:23:51.167104",
+    "updated_at": "2026-10-22T23:55:54.100560",
     "price_14d_ago": 7773.95
   },
   "S&P 500": {
     "price": 7663.43,
     "change_pct": -1.42,
     "name": "S&P 500",
-    "updated_at": "2026-10-22T22:23:51.346685",
+    "updated_at": "2026-10-22T23:55:54.344368",
     "price_14d_ago": 7773.95
   },
   "SAMSUNG ELECTRONICS": {
-    "price": 209500.0,
-    "change_pct": -24.09,
+    "price": 213500.0,
+    "change_pct": -22.64,
     "name": "SamsungElec",
-    "updated_at": "2026-10-22T22:23:51.541628",
+    "updated_at": "2026-10-22T23:55:54.539108",
     "price_14d_ago": 276000.0
   },
   "SAP": {
     "price": 240.59,
     "change_pct": 15.81,
     "name": "SAP  SE",
-    "updated_at": "2026-10-22T22:23:51.743590",
+    "updated_at": "2026-10-22T23:55:54.742221",
     "price_14d_ago": 207.74
   },
   "SF": {
     "price": 67.85,
     "change_pct": -3.94,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-22T22:23:51.947744",
+    "updated_at": "2026-10-22T23:55:54.946737",
     "price_14d_ago": 70.63
   },
   "SK HYNIX": {
-    "price": 1224000.0,
-    "change_pct": -33.51,
+    "price": 1252000.0,
+    "change_pct": -31.99,
     "name": "SK hynix",
-    "updated_at": "2026-10-22T22:23:52.409435",
+    "updated_at": "2026-10-22T23:55:55.335439",
     "price_14d_ago": 1841000.0
   },
   "SLB": {
     "price": 49.55,
     "change_pct": -1.45,
     "name": "SLB Limited",
-    "updated_at": "2026-10-22T22:23:52.629436",
+    "updated_at": "2026-10-22T23:55:55.542979",
     "price_14d_ago": 50.28
   },
   "SMH": {
     "price": 523.35,
     "change_pct": -17.44,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-22T22:23:52.822642",
+    "updated_at": "2026-10-22T23:55:55.735329",
     "price_14d_ago": 633.9
   },
   "SMR": {
     "price": 5.38,
     "change_pct": -29.95,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-22T22:23:53.005228",
+    "updated_at": "2026-10-22T23:55:55.919146",
     "price_14d_ago": 7.68
   },
   "SNAP": {
     "price": 6.35,
     "change_pct": 13.19,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-22T22:23:53.189976",
+    "updated_at": "2026-10-22T23:55:56.169389",
     "price_14d_ago": 5.61
   },
   "SNWGF": {
     "price": 9.97,
     "change_pct": -13.0,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-22T22:23:53.380588",
+    "updated_at": "2026-10-22T23:55:56.357841",
     "price_14d_ago": 11.46
   },
   "SOYB": {
     "price": 26.64,
     "change_pct": -2.49,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-22T22:23:53.599145",
+    "updated_at": "2026-10-22T23:55:56.541200",
     "price_14d_ago": 27.32
   },
   "SPCE": {
     "price": 2.42,
     "change_pct": -20.66,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-22T22:23:53.781259",
+    "updated_at": "2026-10-22T23:55:56.722821",
     "price_14d_ago": 3.05
   },
   "SPX": {
     "price": 7663.43,
     "change_pct": -1.42,
     "name": "S&P 500",
-    "updated_at": "2026-10-22T22:23:54.339044",
+    "updated_at": "2026-10-22T23:55:57.335860",
     "price_14d_ago": 7773.95
   },
   "SPY": {
     "price": 763.96,
     "change_pct": -1.4,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-22T22:23:54.550262",
+    "updated_at": "2026-10-22T23:55:57.535789",
     "price_14d_ago": 774.83
   },
   "SQQQ": {
     "price": 39.6,
     "change_pct": 22.79,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-22T22:23:54.748367",
+    "updated_at": "2026-10-22T23:55:57.738291",
     "price_14d_ago": 32.25
   },
   "SQUARE": {
     "price": 79.02,
     "change_pct": 3.66,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-22T22:23:54.949290",
+    "updated_at": "2026-10-22T23:55:57.918241",
     "price_14d_ago": 76.23
   },
   "Semiconductors": {
     "price": 523.35,
     "change_pct": -17.44,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-22T22:23:55.140787",
+    "updated_at": "2026-10-22T23:55:58.108858",
     "price_14d_ago": 633.9
   },
   "T": {
     "price": 22.74,
     "change_pct": -6.19,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-22T22:23:55.422397",
+    "updated_at": "2026-10-22T23:55:58.315675",
     "price_14d_ago": 24.24
   },
   "TDOC": {
     "price": 6.32,
     "change_pct": 9.15,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-22T22:23:55.810859",
+    "updated_at": "2026-10-22T23:55:58.704782",
     "price_14d_ago": 5.79
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": -0.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-22T22:23:56.427195",
+    "updated_at": "2026-10-22T23:55:59.254455",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 81.74,
     "change_pct": 6.0,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-22T22:23:56.629263",
+    "updated_at": "2026-10-22T23:55:59.449452",
     "price_14d_ago": 77.11
   },
   "TSLA": {
     "price": 374.58,
     "change_pct": -1.1,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-22T22:23:56.873631",
+    "updated_at": "2026-10-22T23:55:59.638830",
     "price_14d_ago": 378.73
   },
   "TSM": {
     "price": 412.35,
     "change_pct": -15.12,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-22T22:23:57.138059",
+    "updated_at": "2026-10-22T23:55:59.831500",
     "price_14d_ago": 485.8
   },
   "UBER": {
     "price": 69.07,
     "change_pct": -0.59,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-22T22:23:57.500489",
+    "updated_at": "2026-10-22T23:56:00.195526",
     "price_14d_ago": 69.48
   },
   "UNG": {
     "price": 9.89,
     "change_pct": -6.26,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-22T22:23:57.684930",
+    "updated_at": "2026-10-22T23:56:00.376483",
     "price_14d_ago": 10.55
   },
   "URANIUM": {
     "price": 34.09,
     "change_pct": -15.18,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-22T22:23:58.087771",
+    "updated_at": "2026-10-22T23:56:00.833149",
     "price_14d_ago": 40.19
   },
   "USD": {
     "price": 72.91,
     "change_pct": -29.19,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-22T22:23:58.297638",
+    "updated_at": "2026-10-22T23:56:01.047975",
     "price_14d_ago": 102.97
   },
   "USDX": {
     "price": 25.64,
     "change_pct": 0.3,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-22T22:23:58.484440",
+    "updated_at": "2026-10-22T23:56:01.232516",
     "price_14d_ago": 25.57
   },
   "USO": {
     "price": 162.51,
     "change_pct": 12.86,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-22T22:23:58.671416",
+    "updated_at": "2026-10-22T23:56:01.411198",
     "price_14d_ago": 143.99
   },
   "UTHR": {
     "price": 584.79,
     "change_pct": 9.02,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-22T22:23:58.850529",
+    "updated_at": "2026-10-22T23:56:01.676212",
     "price_14d_ago": 536.4
   },
   "UUU": {
     "price": 5.29,
     "change_pct": 3.73,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-22T22:23:59.040065",
+    "updated_at": "2026-10-22T23:56:01.855181",
     "price_14d_ago": null
   },
   "V": {
     "price": 414.34,
     "change_pct": 12.07,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-22T22:23:59.416150",
+    "updated_at": "2026-10-22T23:56:02.230300",
     "price_14d_ago": 369.71
   },
   "VEEV": {
     "price": 322.55,
     "change_pct": 13.79,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-22T22:23:59.845851",
+    "updated_at": "2026-10-22T23:56:02.603250",
     "price_14d_ago": 283.45
   },
   "VIX": {
     "price": 19.03,
     "change_pct": 22.62,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-22T22:24:00.663765",
+    "updated_at": "2026-10-22T23:56:03.357092",
     "price_14d_ago": 15.52
   },
   "VLO": {
     "price": 426.28,
     "change_pct": 1.66,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-22T22:24:00.910314",
+    "updated_at": "2026-10-22T23:56:03.572371",
     "price_14d_ago": 419.33
   },
   "VRTX": {
     "price": 535.17,
     "change_pct": 6.29,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-22T22:24:01.098085",
+    "updated_at": "2026-10-22T23:56:03.757189",
     "price_14d_ago": 503.5
   },
   "WFC": {
     "price": 83.01,
     "change_pct": 1.93,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-22T22:24:01.339713",
+    "updated_at": "2026-10-22T23:56:03.966422",
     "price_14d_ago": 81.44
   },
   "WIT": {
     "price": 2.19,
     "change_pct": 29.59,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-22T22:24:01.531246",
+    "updated_at": "2026-10-22T23:56:04.170031",
     "price_14d_ago": 1.69
   },
   "WMT": {
     "price": 121.12,
     "change_pct": 15.28,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-22T22:24:01.747028",
+    "updated_at": "2026-10-22T23:56:04.381094",
     "price_14d_ago": 105.07
   },
   "WTBN": {
     "price": 24.36,
     "change_pct": 1.8,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-22T22:24:01.933592",
+    "updated_at": "2026-10-22T23:56:04.562193",
     "price_14d_ago": 23.93
   },
   "WTI": {
-    "price": 99.99,
-    "change_pct": 11.8,
+    "price": 100.32,
+    "change_pct": 12.16,
     "name": "WTI Crude",
-    "updated_at": "2026-10-22T22:24:02.193244",
+    "updated_at": "2026-10-22T23:56:04.743883",
     "price_14d_ago": 89.44
   },
   "WTI CRUDE OIL": {
-    "price": 99.99,
-    "change_pct": 11.8,
+    "price": 100.32,
+    "change_pct": 12.16,
     "name": "WTI Crude",
-    "updated_at": "2026-10-22T22:24:02.377443",
+    "updated_at": "2026-10-22T23:56:04.927042",
     "price_14d_ago": 89.44
   },
   "XAU-USD": {
     "price": 0.0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-22T22:24:02.778611",
+    "updated_at": "2026-10-22T23:56:05.291129",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 178.23,
     "change_pct": 8.68,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-22T22:24:03.004418",
+    "updated_at": "2026-10-22T23:56:05.510729",
     "price_14d_ago": 164.0
   },
   "ZIM": {
     "price": 29.08,
     "change_pct": 0.52,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-22T22:24:03.423633",
+    "updated_at": "2026-10-22T23:56:05.884454",
     "price_14d_ago": 28.93
   },
   "HIMS": {
     "price": 29.13,
     "change_pct": -1.82,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-22T22:24:03.794616",
+    "updated_at": "2026-10-22T23:56:06.248012",
     "price_14d_ago": 29.67
   },
   "GDRX": {
     "price": 3.62,
     "change_pct": 7.74,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-22T22:24:03.972129",
+    "updated_at": "2026-10-22T23:56:06.430351",
     "price_14d_ago": 3.36
   },
   "TEM": {
     "price": 63.81,
     "change_pct": -23.63,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-22T22:24:04.156620",
+    "updated_at": "2026-10-22T23:56:06.605831",
     "price_14d_ago": 83.55
   },
   "GH": {
     "price": 162.94,
     "change_pct": -12.97,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-22T22:24:04.338628",
+    "updated_at": "2026-10-22T23:56:06.783211",
     "price_14d_ago": 187.22
   },
   "ABT": {
     "price": 102.51,
     "change_pct": 2.41,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-22T22:24:04.558114",
+    "updated_at": "2026-10-22T23:56:07.051318",
     "price_14d_ago": 100.1
   },
   "ARM": {
     "price": 210.1,
     "change_pct": -30.64,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-22T22:23:24.388329",
+    "updated_at": "2026-10-22T23:55:27.952382",
     "price_14d_ago": 302.9
   },
   "HOOD": {
     "price": 96.58,
     "change_pct": -15.36,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-22T22:23:37.222100",
+    "updated_at": "2026-10-22T23:55:40.417008",
     "price_14d_ago": 114.11
   },
   "SPOT": {
     "price": 583.66,
     "change_pct": 20.83,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-22T22:23:53.965281",
+    "updated_at": "2026-10-22T23:55:56.903269",
     "price_14d_ago": 483.05
   },
   "CRWV": {
     "price": 55.6,
     "change_pct": -36.38,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-22T22:23:30.013543",
+    "updated_at": "2026-10-22T23:55:33.344059",
     "price_14d_ago": 87.39
   },
   "LENS": {
     "price": 42.71,
     "change_pct": -1.9,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-22T22:23:40.046521",
+    "updated_at": "2026-10-22T23:55:43.270417",
     "price_14d_ago": 43.53
   },
   "TCEHY": {
     "price": 49.6,
     "change_pct": -9.56,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-22T22:23:55.622438",
+    "updated_at": "2026-10-22T23:55:58.512449",
     "price_14d_ago": 54.84
   },
   "SHOP": {
     "price": 168.81,
     "change_pct": 5.43,
     "name": "Shopify Inc.",
-    "updated_at": "2026-10-22T22:23:52.211589",
+    "updated_at": "2026-10-22T23:55:55.132377",
     "price_14d_ago": 160.11
   },
   "BWET": {
     "price": 895.91,
     "change_pct": 0.66,
     "name": "Breakwave Tanker Shipping ETF",
-    "updated_at": "2026-10-22T22:23:26.958661",
+    "updated_at": "2026-10-22T23:55:30.516854",
     "price_14d_ago": 890.0
   },
   "CRWD": {
     "price": 237.94,
     "change_pct": -12.74,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-22T22:23:29.830014",
+    "updated_at": "2026-10-22T23:55:33.158941",
     "price_14d_ago": 272.67
   },
   "DHT": {
     "price": 24.12,
     "change_pct": 1.26,
     "name": "DHT Holdings, Inc.",
-    "updated_at": "2026-10-22T22:23:31.086417",
+    "updated_at": "2026-10-22T23:55:34.381731",
     "price_14d_ago": 23.82
   },
   "ECO": {
     "price": 90.05,
     "change_pct": 1.64,
     "name": "Okeanis Eco Tankers Corp.",
-    "updated_at": "2026-10-22T22:23:32.077755",
+    "updated_at": "2026-10-22T23:55:35.377881",
     "price_14d_ago": 88.6
   },
   "FMCC": {
     "price": 3.93,
     "change_pct": 1.03,
     "name": "Freddie Mac",
-    "updated_at": "2026-10-22T22:23:33.531601",
+    "updated_at": "2026-10-22T23:55:36.824287",
     "price_14d_ago": 3.89
   },
   "FNMA": {
     "price": 4.22,
     "change_pct": 0.24,
     "name": "Fannie Mae",
-    "updated_at": "2026-10-22T22:23:33.732444",
+    "updated_at": "2026-10-22T23:55:37.022902",
     "price_14d_ago": 4.21
   },
   "FRO": {
     "price": 51.22,
     "change_pct": -4.71,
     "name": "Frontline Plc",
-    "updated_at": "2026-10-22T22:23:33.932565",
+    "updated_at": "2026-10-22T23:55:37.223591",
     "price_14d_ago": 53.75
   },
   "FTNT": {
     "price": 172.98,
     "change_pct": -6.06,
     "name": "Fortinet, Inc.",
-    "updated_at": "2026-10-22T22:23:34.556790",
+    "updated_at": "2026-10-22T23:55:37.779925",
     "price_14d_ago": 184.13
   },
   "QLYS": {
     "price": 208.2,
     "change_pct": 4.79,
     "name": "Qualys, Inc.",
-    "updated_at": "2026-10-22T22:23:49.424559",
+    "updated_at": "2026-10-22T23:55:52.431654",
     "price_14d_ago": 198.68
   },
   "RITM": {
     "price": 8.68,
     "change_pct": -0.69,
     "name": "Rithm Capital Corp.",
-    "updated_at": "2026-10-22T22:23:50.220697",
+    "updated_at": "2026-10-22T23:55:53.195763",
     "price_14d_ago": 8.74
   },
   "RPD": {
     "price": 14.73,
     "change_pct": 19.17,
     "name": "Rapid7, Inc.",
-    "updated_at": "2026-10-22T22:23:50.594098",
+    "updated_at": "2026-10-22T23:55:53.555022",
     "price_14d_ago": 12.36
   },
   "AMAT": {
     "price": 375.58,
     "change_pct": -30.74,
     "name": "Applied Materials, Inc.",
-    "updated_at": "2026-10-22T22:23:22.805374",
+    "updated_at": "2026-10-22T23:55:26.420136",
     "price_14d_ago": 542.28
   },
   "LRCX": {
     "price": 230.15,
     "change_pct": -33.44,
     "name": "Lam Research Corporation",
-    "updated_at": "2026-10-22T22:23:40.926113",
+    "updated_at": "2026-10-22T23:55:44.081843",
     "price_14d_ago": 345.8
   },
   "HUBS": {
     "price": 267.19,
     "change_pct": 21.11,
     "name": "HubSpot, Inc.",
-    "updated_at": "2026-10-22T22:23:37.405777",
+    "updated_at": "2026-10-22T23:55:40.599224",
     "price_14d_ago": 220.61
   },
   "MCD": {
     "price": 252.63,
     "change_pct": 8.41,
     "name": "McDonald's Corporation",
-    "updated_at": "2026-10-22T22:23:41.696310",
+    "updated_at": "2026-10-22T23:55:44.838482",
     "price_14d_ago": 233.04
   },
   "CART": {
     "price": 51.68,
     "change_pct": 13.16,
     "name": "Maplebear Inc.",
-    "updated_at": "2026-10-22T22:23:27.728641",
+    "updated_at": "2026-10-22T23:55:31.290933",
     "price_14d_ago": 45.67
   },
   "VGS": {
     "price": 0,
     "change_pct": 0,
     "name": "VGS",
-    "updated_at": "2026-10-22T22:24:00.285446",
+    "updated_at": "2026-10-22T23:56:02.970249",
     "price_14d_ago": null
   },
   "LEU": {
     "price": 104.15,
     "change_pct": -26.36,
     "name": "Centrus Energy Corp.",
-    "updated_at": "2026-10-22T22:23:40.299876",
+    "updated_at": "2026-10-22T23:55:43.462468",
     "price_14d_ago": 141.44
   },
   "AMP": {
     "price": 496.83,
     "change_pct": 0.38,
     "name": "Ameriprise Financial, Inc.",
-    "updated_at": "2026-10-22T22:23:23.369768",
+    "updated_at": "2026-10-22T23:55:26.998341",
     "price_14d_ago": 494.94
   },
   "ANTH": {
     "price": 0.0,
     "change_pct": 0.0,
     "name": "ANTHERA PHARMACEUTICALS INC",
-    "updated_at": "2026-10-22T22:23:23.814673",
+    "updated_at": "2026-10-22T23:55:27.373918",
     "price_14d_ago": 0.0
   },
   "DB": {
     "price": 31.48,
     "change_pct": -9.98,
     "name": "Deutsche Bank AG",
-    "updated_at": "2026-10-22T22:23:30.400854",
+    "updated_at": "2026-10-22T23:55:33.809634",
     "price_14d_ago": 34.97
   },
   "FSLR": {
     "price": 171.25,
     "change_pct": -2.79,
     "name": "First Solar, Inc.",
-    "updated_at": "2026-10-22T22:23:34.373661",
+    "updated_at": "2026-10-22T23:55:37.599246",
     "price_14d_ago": 176.16
   },
   "NASA": {
     "price": 20.07,
     "change_pct": -20.77,
     "name": "Tema Space Innovators ETF",
-    "updated_at": "2026-10-22T22:23:43.878118",
+    "updated_at": "2026-10-22T23:55:47.055748",
     "price_14d_ago": 25.33
   }
 },
@@ -55876,7 +55876,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 95855,
+    "id": 96044,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -55888,7 +55888,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95856,
+    "id": 96045,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -55900,7 +55900,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95857,
+    "id": 96046,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -55912,7 +55912,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95858,
+    "id": 96047,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -55924,7 +55924,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95859,
+    "id": 96048,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -55936,7 +55936,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95860,
+    "id": 96049,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -55948,7 +55948,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95861,
+    "id": 96050,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -55960,7 +55960,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95862,
+    "id": 96051,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -55972,7 +55972,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95863,
+    "id": 96052,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -55984,7 +55984,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95864,
+    "id": 96053,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -55996,7 +55996,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95866,
+    "id": 96055,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -56008,7 +56008,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 95865,
+    "id": 96054,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -56020,7 +56020,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95867,
+    "id": 96056,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -56032,7 +56032,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95868,
+    "id": 96057,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -56044,7 +56044,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95869,
+    "id": 96058,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -56056,7 +56056,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95870,
+    "id": 96059,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -56068,7 +56068,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95871,
+    "id": 96060,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -56080,7 +56080,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95872,
+    "id": 96061,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -56092,7 +56092,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95873,
+    "id": 96062,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -56104,7 +56104,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95874,
+    "id": 96063,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -56321,7 +56321,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
     "mention_score": 4,
-    "mention_score_decayed": 3.56,
+    "mention_score_decayed": 3.48,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-17 \u2022 CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Actually, we actually were number one good as a literal thing. I'm for one last week only took a little bit of time to get me to five years only to five. Yeah, five",
@@ -56641,7 +56641,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-24",
     "mention_score": 3,
-    "mention_score_decayed": 1.61,
+    "mention_score_decayed": 1.57,
     "last_main_idea": "Geopolitical tensions in the Middle East could lead to spikes in oil prices, impacting inflation and economic growth.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-24 \u2022 MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
     "last_proof_snippet": "The joke at the moment is if you're an interest rate trader on FX trader, the moment you have to be an oil trader. You've got to look at that to understand what bond yields are going to do. That was Michael Every. I'm Eric Townsend. This is",
@@ -57565,7 +57565,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-20 \u2022 The Programmable Data Center \u2014 Evan Conrad, SF Compute",
     "last_proof_snippet": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world. In the early days of cloud, former guest Martin Casado made something s",
@@ -57896,7 +57896,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Large-scale DEL screening plus rigorous split design may create a defensible drug-discovery data moat because many apparent ML gains disappear once creator leakage and memorization are controlled.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-14 \u2022 Lab-in-the-Loop at Compute Speed \u2014 Ian Quigley, Leash Bio",
     "last_proof_snippet": "My co-founder Andrew Blavins and I were at Procursion looking at a small molecule on a screen and then a medicinal chemist walked by as this guy named my Cucarisi and Mike was like, hey, it looks like a Stuart trivert molecule and then we'r",
@@ -57923,7 +57923,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-15 \u2022 Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
     "last_proof_snippet": "Billy Evans who is Elizabeth Holmes's partner, the subject of the forthcoming documentary, you can see everything. As had an unconventional love story with her fiance, Billy Evans. The couple first connected as federal authorities were inve",
@@ -57982,33 +57982,6 @@ const dashboardData = {
     "last_proof_cite": "The a16z Show \u2022 2026-10-14 \u2022 Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
     "last_proof_snippet": "When I think about model progress, it comes down to different forms of capital, and that is compute data and talent. How do you see that playing out in terms of who's going to win in the next couple of years? The Chinese are so good at buil",
     "supporting_takeaway": "Lambert says closed frontier labs have an advantage because they are integrated, with efficient inference and faster customer feedback loops into post-training.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 533,
-    "name": "Jason Ma",
-    "slug": "jason-ma",
-    "bio": "Co-founder and Chief Scientist of Dyna Robotics. He discusses world-action models, robotics data scaling, synthetic simulation, and deployment-driven product strategy.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-14 03:30:08",
-    "last_episode_title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.83,
-    "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
-    "last_proof_snippet": "Watch along AIE NYC and join us at AIE CODE in SF next month! This episode includes a live demo of the Taku robot that is best enjoyed on YouTube. Last month, Dyna made waves by announcing Dyna-2, a world-action model pre-trained on one mil",
-    "supporting_takeaway": "Jason Ma argues world-action models are more dexterous, robust, and generalizable than approaches that only output robot actions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -58075,6 +58048,33 @@ const dashboardData = {
     "net_worth": "$600.0M"
   },
   {
+    "id": 533,
+    "name": "Jason Ma",
+    "slug": "jason-ma",
+    "bio": "Co-founder and Chief Scientist of Dyna Robotics. He discusses world-action models, robotics data scaling, synthetic simulation, and deployment-driven product strategy.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-14 03:30:08",
+    "last_episode_title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.81,
+    "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
+    "last_proof_snippet": "Watch along AIE NYC and join us at AIE CODE in SF next month! This episode includes a live demo of the Taku robot that is best enjoyed on YouTube. Last month, Dyna made waves by announcing Dyna-2, a world-action model pre-trained on one mil",
+    "supporting_takeaway": "Jason Ma argues world-action models are more dexterous, robust, and generalizable than approaches that only output robot actions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 530,
     "name": "Dan Boneh",
     "slug": "dan-bonay",
@@ -58124,33 +58124,6 @@ const dashboardData = {
     "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
     "last_proof_snippet": "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
     "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 529,
-    "name": "Charles Lemonides",
-    "slug": "charles-le-manides",
-    "bio": "CIO and founder of ValueWorks LLC.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 04:43:17",
-    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.81,
-    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years. It's sort of silly to think it could be 18 years and two weeks instead of 18 years and six months or 19 years and two months or 22 years and seven mon",
-    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -58275,6 +58248,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 529,
+    "name": "Charles Lemonides",
+    "slug": "charles-le-manides",
+    "bio": "CIO and founder of ValueWorks LLC.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 04:43:17",
+    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.79,
+    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years. It's sort of silly to think it could be 18 years and two weeks instead of 18 years and six months or 19 years and two months or 22 years and seven mon",
+    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 528,
@@ -58489,7 +58489,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Biology AI winners will be those that pair better biological data with calibrated, trustworthy models that solve dynamics and whole-system problems, not just static structure prediction.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-10 \u2022 Why AlphaFold Didn't Solve Protein Folding \u2014 Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
     "last_proof_snippet": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind\u2019s Pushmeet Kohli and Biohub\u2019s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel mode",
@@ -58516,7 +58516,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Biology AI winners will be those that pair better biological data with calibrated, trustworthy models that solve dynamics and whole-system problems, not just static structure prediction.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-10 \u2022 Why AlphaFold Didn't Solve Protein Folding \u2014 Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
     "last_proof_snippet": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind\u2019s Pushmeet Kohli and Biohub\u2019s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel mode",
@@ -58678,7 +58678,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-05 \u2022 Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
     "last_proof_snippet": "Thank you for having me, pleasure, Paul, and we have known each other for God knows a couple of decades now. You know, I think most people don't know something about you. It's worth mentioning. Just for fun, since we're talking about geneti",
@@ -58705,7 +58705,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "J Mintzmyer argues dry bulk, not tankers, has the stronger setup because Capesize rates near $40,000 to $50,000 per day meet restrained supply and longer Guinea-to-China ton miles.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-06 \u2022 The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
     "last_proof_snippet": "Words like crisis or historic, really do not even begin to capture what is going on with tankers and the straight of hormones. I mean, you'll get into the numbers, but some of these tanker rates have gone up 25 times, not 25 percent, 25 tim",
@@ -58732,7 +58732,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Angela Strange said Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market, after Valon rebuilt mortgage servicing around a modern system of record.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-07 \u2022 How Valon Rebuilt a $13 Trillion Industry From Scratch",
     "last_proof_snippet": "Morgage is top three in terms of undistrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us. The way that we are going about it as an",
@@ -58759,7 +58759,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armadin has already found over 90 production zero days since January 2026.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-06 \u2022 Building Defense for the Agentic Era: Kevin Mandia",
     "last_proof_snippet": "If you don't have a defense on this, you have a great offense to go up against. You want to be the Baltimore Ravens defense at 2000, you kind of want to have your practice offense really push you. That's what Armenians are going to do. We'r",
@@ -58846,7 +58846,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Richard Socher claims AI can deliver a century of scientific breakthroughs in the next decade by automating hypothesis, experiment, data, and theory across the full scientific stack.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-03 \u2022 Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
     "last_proof_snippet": "Richard, I'm curious where are we at the moment with RSI? In various weak forms, we already have RSI. We're not quite there yet, but we're very close. When do you believe we reach ASI? I think we'll take us probably several decades. On term",
@@ -59176,7 +59176,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks: We are no strangers to learning in public and are no stra",
@@ -59203,7 +59203,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks: We are no strangers to learning in public and are no stra",
@@ -59548,7 +59548,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "The credit market is increasingly bifurcated, favoring high-quality borrowers while lower-quality borrowers face tighter conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-24 \u2022 Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
     "last_proof_snippet": "Got a very important conversation today. We are speaking to Henry Peabody, senior investment strategist at GMO, Henry Welcome to Monetary Matters. Jack, thanks so much for having me. I'm really looking forward to the conversation. I know yo",
@@ -59604,7 +59604,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
     "last_proof_snippet": "The AI debate increasingly asks us to consider the probability of doom. Eddy Lazzarin thinks we should also be asking about the probability of abundance. In this episode, A16Z Crypto-General Partner Eddy Lazzarin joins Theo-Jaffe on MTS to",
@@ -59668,7 +59668,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-25",
     "mention_score": 2,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
     "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
@@ -59728,7 +59728,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
     "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
@@ -59784,7 +59784,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
     "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
@@ -59958,7 +59958,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in AI tools and climate resilience technologies presents a significant opportunity for enhancing scientific research and addressing global challenges.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-22 \u2022 \ud83d\udd2c An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
     "last_proof_snippet": "Are you talking about introducing explosive priors that, you know, she based upon some human intuition, or maybe in this case, LOM intuition? When you talk about multiple hypothesis testing, right? There's predictive models and there's desc",
@@ -60129,7 +60129,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
@@ -60351,7 +60351,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
     "last_proof_snippet": "Daria Amade, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
@@ -60580,7 +60580,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The Fed is expected to implement two more rate hikes, indicating a continued hawkish monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-16 \u2022 Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
     "last_proof_snippet": "We are live right now, and I am joined by Joseph Wang, former senior trader for the Fed commentator on the Federal Reserve, Joseph, what did you make of the Fed meeting that just concluded Kevin washes third meeting the first hike, what are",
@@ -60617,65 +60617,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
-    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
-    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
-    "voice_tone": "Candid and thoughtful.",
-    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
-    "voice_profile_updated_at": "2026-08-18 04:34:22",
-    "last_seen": "2026-08-18 04:34:22",
-    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-18",
-    "mention_score": 2,
-    "mention_score_decayed": 0.45,
-    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_proof_snippet": "All right, everybody. Welcome back to the all in interview. This is where we find the people building the future. Sometimes a politician, sometimes a CEO, sometimes an investor, all the time, an important discussion. And one of the most imp",
-    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Garrett Langley",
-      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
-      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
-      "derived": {
-        "current_role": "CEO of Flock"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
-        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
-      ],
-      "sections": [
-        {
-          "heading": "Flock's Impact",
-          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
-        },
-        {
-          "heading": "Safety and Privacy",
-          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
-        },
-        {
-          "heading": "Community Adoption",
-          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 459,
@@ -60985,6 +60926,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
+    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
+    "voice_tone": "Candid and thoughtful.",
+    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
+    "voice_profile_updated_at": "2026-08-18 04:34:22",
+    "last_seen": "2026-08-18 04:34:22",
+    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 2,
+    "mention_score_decayed": 0.44,
+    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_proof_snippet": "All right, everybody. Welcome back to the all in interview. This is where we find the people building the future. Sometimes a politician, sometimes a CEO, sometimes an investor, all the time, an important discussion. And one of the most imp",
+    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Garrett Langley",
+      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
+      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
+      "derived": {
+        "current_role": "CEO of Flock"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
+        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
+      ],
+      "sections": [
+        {
+          "heading": "Flock's Impact",
+          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
+        },
+        {
+          "heading": "Safety and Privacy",
+          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
+        },
+        {
+          "heading": "Community Adoption",
+          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
     "id": 452,
     "name": "Freddy Brick",
     "slug": "freddie-brick",
@@ -61052,75 +61052,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 449,
-    "name": "John Farris",
-    "slug": "john-ferris",
-    "bio": "John Farris is a principal at Land Fund Partners, where he leads the acquisition and improvement of farmland in the Mid-South using sustainable irrigation and regenerative agriculture. He began his career in the 1990s as an agricultural economist at the World Bank, studying global food supply trends. He now focuses on water-rich agricultural land as a real asset investment, targeting the structural tension between shrinking arable land and rising global food demand. He recently discussed these themes on the Monetary Matters podcast, highlighting near-term risks to global grain reserves.",
-    "known_for": "Bridging agricultural economics and farmland investment to capitalize on structural global food-supply constraints and water-rich real assets.",
-    "net_worth_usd": 5000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/wall-street/jonas-max-ferris-net-worth/",
-    "net_worth_updated_at": "2026-09-11T22:45:03.938315",
-    "voice_tone": "Data-driven and regionally specific, citing acreage counts and aquifer timelines with confidence.",
-    "voice_style": "Builds investment cases through scarcity framing, comparing water reserves and land prices across regions to highlight relative value.",
-    "voice_delivery_notes": "Maintain a measured, conversational pace with slight emphasis on numerical comparisons like '300 years' and '140% higher'.",
-    "voice_profile_updated_at": "2026-09-12 03:39:42",
-    "last_seen": "2026-09-12 03:39:42",
-    "last_episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-09-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.4,
-    "last_main_idea": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-11 \u2022 Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
-    "last_proof_snippet": "On today's episode of monetary matters, we're doing something a little different. We're going to talk about farmland and food security, and why I think this is one of the more underappreciated real asset stories in markets right now. Everyo",
-    "supporting_takeaway": "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-12T05:22:35.829155",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:kimi-k2.6",
-      "source_url": "",
-      "page_title": "John Farris",
-      "fetched_at": "2026-09-12T10:22:35.828786+00:00",
-      "cliff_notes": "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis. In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.\n\nFarris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance. He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets. By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing.",
-      "derived": {
-        "current_role": "Principal at Land Fund Partners",
-        "former_positions": "Agricultural economist at the World Bank"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis.",
-        "In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.",
-        "Farris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance.",
-        "He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets.",
-        "By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing."
-      ],
-      "sections": [
-        {
-          "heading": "Farmland Real Assets",
-          "body": "Farris treats productive farmland as an underappreciated real asset and inflation hedge. He argues that it sits outside traditional equity and bond markets while offering exposure to secular trends in global food demand."
-        },
-        {
-          "heading": "World Bank Agricultural Economics",
-          "body": "Straight out of graduate school in the 1990s, Farris worked at the World Bank as an agricultural economist studying global food supply trends. That research period shaped the macro thesis he later deployed with private investment capital."
-        },
-        {
-          "heading": "Sustainable Land Improvement",
-          "body": "At Land Fund Partners, Farris focuses on acquiring farmland in the Mid-South and upgrading it through sustainable irrigation and regenerative agriculture. The goal is to improve long-term soil health and operational yields."
-        },
-        {
-          "heading": "Global Food Security & Macro Trends",
-          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and thin global grain reserves could amplify these pressures."
-        },
-        {
-          "heading": "Water-Rich Land Strategy",
-          "body": "A core element of his approach is targeting water-rich agricultural land. Access to reliable water is treated as a critical scarce resource that underpins the long-term productivity and defensive value of the portfolio."
-        }
-      ]
-    },
-    "net_worth": "$5.0M"
-  },
-  {
     "id": 218,
     "name": "Joe Schmidt",
     "slug": "joe-schmidt",
@@ -61179,6 +61110,75 @@ const dashboardData = {
       ]
     },
     "net_worth": "$21.0M"
+  },
+  {
+    "id": 449,
+    "name": "John Farris",
+    "slug": "john-ferris",
+    "bio": "John Farris is a principal at Land Fund Partners, where he leads the acquisition and improvement of farmland in the Mid-South using sustainable irrigation and regenerative agriculture. He began his career in the 1990s as an agricultural economist at the World Bank, studying global food supply trends. He now focuses on water-rich agricultural land as a real asset investment, targeting the structural tension between shrinking arable land and rising global food demand. He recently discussed these themes on the Monetary Matters podcast, highlighting near-term risks to global grain reserves.",
+    "known_for": "Bridging agricultural economics and farmland investment to capitalize on structural global food-supply constraints and water-rich real assets.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/wall-street/jonas-max-ferris-net-worth/",
+    "net_worth_updated_at": "2026-09-11T22:45:03.938315",
+    "voice_tone": "Data-driven and regionally specific, citing acreage counts and aquifer timelines with confidence.",
+    "voice_style": "Builds investment cases through scarcity framing, comparing water reserves and land prices across regions to highlight relative value.",
+    "voice_delivery_notes": "Maintain a measured, conversational pace with slight emphasis on numerical comparisons like '300 years' and '140% higher'.",
+    "voice_profile_updated_at": "2026-09-12 03:39:42",
+    "last_seen": "2026-09-12 03:39:42",
+    "last_episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.39,
+    "last_main_idea": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-11 \u2022 Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+    "last_proof_snippet": "On today's episode of monetary matters, we're doing something a little different. We're going to talk about farmland and food security, and why I think this is one of the more underappreciated real asset stories in markets right now. Everyo",
+    "supporting_takeaway": "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-12T05:22:35.829155",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "John Farris",
+      "fetched_at": "2026-09-12T10:22:35.828786+00:00",
+      "cliff_notes": "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis. In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.\n\nFarris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance. He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets. By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing.",
+      "derived": {
+        "current_role": "Principal at Land Fund Partners",
+        "former_positions": "Agricultural economist at the World Bank"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis.",
+        "In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.",
+        "Farris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance.",
+        "He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets.",
+        "By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing."
+      ],
+      "sections": [
+        {
+          "heading": "Farmland Real Assets",
+          "body": "Farris treats productive farmland as an underappreciated real asset and inflation hedge. He argues that it sits outside traditional equity and bond markets while offering exposure to secular trends in global food demand."
+        },
+        {
+          "heading": "World Bank Agricultural Economics",
+          "body": "Straight out of graduate school in the 1990s, Farris worked at the World Bank as an agricultural economist studying global food supply trends. That research period shaped the macro thesis he later deployed with private investment capital."
+        },
+        {
+          "heading": "Sustainable Land Improvement",
+          "body": "At Land Fund Partners, Farris focuses on acquiring farmland in the Mid-South and upgrading it through sustainable irrigation and regenerative agriculture. The goal is to improve long-term soil health and operational yields."
+        },
+        {
+          "heading": "Global Food Security & Macro Trends",
+          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and thin global grain reserves could amplify these pressures."
+        },
+        {
+          "heading": "Water-Rich Land Strategy",
+          "body": "A core element of his approach is targeting water-rich agricultural land. Access to reliable water is treated as a critical scarce resource that underpins the long-term productivity and defensive value of the portfolio."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
   },
   {
     "id": 446,
@@ -62851,7 +62851,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investment in AI technology should consider the broader geopolitical landscape and the potential for international cooperation and market creation, as proposed by the 'AI Marshall Plan'.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-18 \u2022 China\u2019s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
     "last_proof_snippet": "There seems to be prevailing a view around the campuses that ASI has, you know, five to 10 years out, maybe even 20 years. And so I really curious what the prevailing view is in China. They are not behaving like they believe ASI is around t",
@@ -63099,7 +63099,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-22 \u2022 Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
     "last_proof_snippet": "If I look at people 40 and under those in the 20 and 30s, their number one problem is they kind of forward housing. If you want to get housing back to some more reasonable levels, you need to have wages rising about 7% a year. So, doubling",
@@ -63218,7 +63218,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-14 \u2022 Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
     "last_proof_snippet": "All right, everybody. Welcome back. We all in podcast. The number one podcast in the world. David Sachs and Evan Baker are with us this week. We got a, we got a short crew, but a long docket. And we are going to rock at how are you doing? G",
@@ -63342,7 +63342,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Rahm Emanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "last_proof_snippet": "All right, everybody. We are super pleased to have Ron Emmanuel. Join us for the all and interview today. He was a senior advisor of Bill Clinton, last president, resigned over zero national debt. And he was a Bahamas chief of staff, mayor",
@@ -63827,66 +63827,6 @@ const dashboardData = {
     "net_worth": "$30.00B"
   },
   {
-    "id": 391,
-    "name": "Dean Pernas",
-    "slug": "dean-pernos",
-    "bio": "Dean Pernas is a co-founder of Pernas Research, a firm renowned for its audited portfolio returns that have outperformed the S&P 500. With over 1,300% gross returns since its inception in 2017, Pernas Research has established a strong reputation in the investment community.",
-    "known_for": "Outperforming the S&P 500 with an audited portfolio and generating compelling investing ideas.",
-    "net_worth_usd": 450000000.0,
-    "net_worth_source": "https://moneyinc.com/dan-pena-net-worth/",
-    "net_worth_updated_at": "2026-08-07T23:40:24.248002",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-08-08 04:38:55",
-    "last_episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-08-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.18,
-    "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
-    "last_proof_snippet": "Today I'm sitting down with Deiya and Dean Pernas of Pernas Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
-    "supporting_takeaway": "Open-source AI models are bullish for the AI ecosystem, increasing demand for cloud providers and GPU providers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-07T23:40:23.326135",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dean Pernas",
-      "fetched_at": "2026-08-08T04:40:23.325983+00:00",
-      "cliff_notes": "Dean Pernas is recognized as a successful investor and co-founder of Pernas Research, a firm that has garnered attention for its impressive investment track record. Since its inception in 2017, the firm's audited portfolio has seen returns that are more than double that of the S&P 500, with over 1,300% gross returns. Dean, along with his brother Daya, have become influential figures in the investment space, focusing on sectors such as energy power, data centers, software, AI, cybersecurity, and payments. Their ability to identify and capitalize on market trends has led to their firm's significant outperformance, making them a valuable resource for investors seeking to understand and profit from market movements.",
-      "derived": {
-        "current_role": "Co-founder of Pernas Research"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dean Pernas is recognized as a successful investor and co-founder of Pernas Research, a firm that has garnered attention for its impressive investment track record. Since its inception in 2017, the firm's audited portfolio has seen returns that are more than double that of the S&P 500, with over 1,300% gross returns. Dean, along with his brother Daya, have become influential figures in the investment space, focusing on sectors such as energy power, data centers, software, AI, cybersecurity, and payments.",
-        "Their ability to identify and capitalize on market trends has led to their firm's significant outperformance, making them a valuable resource for investors seeking to understand and profit from market movements."
-      ],
-      "sections": [
-        {
-          "heading": "Investment Strategy",
-          "body": "Dean Pernas is known for his strategic approach to investments, focusing on sectors with significant growth potential such as energy, technology, and cybersecurity."
-        },
-        {
-          "heading": "Outperformance",
-          "body": "Pernas Research's portfolio has consistently outperformed the S&P 500, with an audited track record that has more than doubled the index's returns since 2017."
-        },
-        {
-          "heading": "Market Trends",
-          "body": "Dean and his brother Daya are adept at identifying and investing in market trends, particularly in areas such as AI, software, and payments, which are shaping the future of the economy."
-        }
-      ]
-    },
-    "net_worth": "$450.0M"
-  },
-  {
     "id": 259,
     "name": "Andrew Feldman",
     "slug": "andrew-feldman",
@@ -63949,6 +63889,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$19.8M"
+  },
+  {
+    "id": 391,
+    "name": "Dean Pernas",
+    "slug": "dean-pernos",
+    "bio": "Dean Pernas is a co-founder of Pernas Research, a firm renowned for its audited portfolio returns that have outperformed the S&P 500. With over 1,300% gross returns since its inception in 2017, Pernas Research has established a strong reputation in the investment community.",
+    "known_for": "Outperforming the S&P 500 with an audited portfolio and generating compelling investing ideas.",
+    "net_worth_usd": 450000000.0,
+    "net_worth_source": "https://moneyinc.com/dan-pena-net-worth/",
+    "net_worth_updated_at": "2026-08-07T23:40:24.248002",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-08-08 04:38:55",
+    "last_episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.17,
+    "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+    "last_proof_snippet": "Today I'm sitting down with Deiya and Dean Pernas of Pernas Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
+    "supporting_takeaway": "Open-source AI models are bullish for the AI ecosystem, increasing demand for cloud providers and GPU providers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-07T23:40:23.326135",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dean Pernas",
+      "fetched_at": "2026-08-08T04:40:23.325983+00:00",
+      "cliff_notes": "Dean Pernas is recognized as a successful investor and co-founder of Pernas Research, a firm that has garnered attention for its impressive investment track record. Since its inception in 2017, the firm's audited portfolio has seen returns that are more than double that of the S&P 500, with over 1,300% gross returns. Dean, along with his brother Daya, have become influential figures in the investment space, focusing on sectors such as energy power, data centers, software, AI, cybersecurity, and payments. Their ability to identify and capitalize on market trends has led to their firm's significant outperformance, making them a valuable resource for investors seeking to understand and profit from market movements.",
+      "derived": {
+        "current_role": "Co-founder of Pernas Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dean Pernas is recognized as a successful investor and co-founder of Pernas Research, a firm that has garnered attention for its impressive investment track record. Since its inception in 2017, the firm's audited portfolio has seen returns that are more than double that of the S&P 500, with over 1,300% gross returns. Dean, along with his brother Daya, have become influential figures in the investment space, focusing on sectors such as energy power, data centers, software, AI, cybersecurity, and payments.",
+        "Their ability to identify and capitalize on market trends has led to their firm's significant outperformance, making them a valuable resource for investors seeking to understand and profit from market movements."
+      ],
+      "sections": [
+        {
+          "heading": "Investment Strategy",
+          "body": "Dean Pernas is known for his strategic approach to investments, focusing on sectors with significant growth potential such as energy, technology, and cybersecurity."
+        },
+        {
+          "heading": "Outperformance",
+          "body": "Pernas Research's portfolio has consistently outperformed the S&P 500, with an audited track record that has more than doubled the index's returns since 2017."
+        },
+        {
+          "heading": "Market Trends",
+          "body": "Dean and his brother Daya are adept at identifying and investing in market trends, particularly in areas such as AI, software, and payments, which are shaping the future of the economy."
+        }
+      ]
+    },
+    "net_worth": "$450.0M"
   },
   {
     "id": 389,
@@ -64206,7 +64206,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -64265,7 +64265,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -64521,7 +64521,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "I'm joined once again by Tian Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
@@ -72478,7 +72478,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Deiya and Dean Pernas of Pernas Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -72731,7 +72731,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 7,
-    "mention_score_decayed": 3.5,
+    "mention_score_decayed": 3.43,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
@@ -76496,7 +76496,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-22T22:24:05.651812"
+      "last_updated": "2026-10-22T23:56:08.146050"
     }
   ]
 }
