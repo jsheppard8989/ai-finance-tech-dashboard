@@ -74,13 +74,14 @@ def _bn(v: Any) -> Optional[float]:
     return round(x / 1e9, 3) if x is not None else None
 
 
-def _term_short(term: str) -> str:
-    """'29-Year 10-Month' -> '29y10m'."""
+def _term_long(term: str) -> str:
+    """'19-Year 10-Month' -> '19 years 10 months'."""
     out = []
     for part in (term or "").split():
         num, _, unit = part.partition("-")
-        out.append(num + (unit[:1].lower() if unit else ""))
-    return "".join(out)
+        u = unit.lower()
+        out.append(f"{num} {u}{'' if num == '1' else 's'}" if u else num)
+    return " ".join(out)
 
 
 def security_label(x: Dict[str, Any]) -> str:
@@ -89,10 +90,11 @@ def security_label(x: Dict[str, Any]) -> str:
     if x.get("tips") == "Yes":
         kind = "TIPS"
     elif x.get("floatingRate") == "Yes":
-        kind = "FRN"
+        kind = "Floating-Rate Note"
     label = f"{orig} {kind}".strip()
     if x.get("reopening") == "Yes":
-        label += f" ({_term_short(x.get('securityTerm', ''))} reopening)"
+        noun = {"Bond": "bond", "Note": "note", "TIPS": "TIPS", "Floating-Rate Note": "floating-rate note"}.get(kind, kind.lower())
+        label = f"{orig} {kind}".strip() + f" (reopening of a {orig.lower()} {noun}, {_term_long(x.get('securityTerm', ''))} left)"
     return label
 
 
@@ -127,9 +129,9 @@ def build_result(x: Dict[str, Any]) -> Dict[str, Any]:
     }
     note = []
     if btc is not None:
-        note.append(f"BTC {btc:.2f}")
+        note.append(f"bid-to-cover {btc:.2f}")
     if accepted and indirect is not None:
-        note.append(f"indirect {indirect / accepted * 100:.0f}% of accepted")
+        note.append(f"foreign and other indirect buyers took {indirect / accepted * 100:.0f}%")
     r["stranger_note"] = "; ".join(note) + "." if note else None
     return r
 
@@ -284,7 +286,7 @@ def main() -> int:
         print(f"  ↑ {a['date']} {a['security']} {a['cusip']} size={a['size_billions']}")
     for r in cal["recent_auction_results"]:
         y = r["high_yield_pct"] if r["high_yield_pct"] is not None else f"DM {r['high_discount_margin_pct']}"
-        print(f"  ✓ {r['date']} {r['security']} {y} BTC {r['bid_to_cover']} alloc {r['allocation_at_high_pct']}")
+        print(f"  ✓ {r['date']} {r['security']} {y} bid-to-cover {r['bid_to_cover']} allotment {r['allocation_at_high_pct']}")
     return 0
 
 

@@ -47,17 +47,17 @@ def test_recent_results_sorted_coupons_only():
     assert [x["cusip"] for x in r] == ["912810UW6", "91282CRQ6", "91282CRD5"]
     assert r[0]["high_yield_pct"] == 5.618
     assert r[0]["bid_to_cover"] == 2.54
-    assert r[0]["security"] == "30-Year Bond (29y10m reopening)"
+    assert r[0]["security"] == "30-Year Bond (reopening of a 30-year bond, 29 years 10 months left)"
     assert r[0]["size_billions"] == 22.0
     assert r[2]["high_yield_pct"] is None and r[2]["high_discount_margin_pct"] == 0.04
-    assert r[2]["security"].startswith("2-Year FRN")
+    assert r[2]["security"].startswith("2-Year Floating-Rate Note (reopening of a 2-year floating-rate note, 1 year 10 months left)")
 
 
 def test_upcoming_drops_past_and_bills():
     cal = ftc.build_calendar(AUCTIONED, UPCOMING, today=date(2026, 10, 9))
     ups = cal["upcoming_auctions"]
     assert [u["date"] for u in ups] == ["2026-10-21", "2026-10-22"]
-    assert ups[0]["security"] == "20-Year Bond (19y10m reopening)"
+    assert ups[0]["security"] == "20-Year Bond (reopening of a 20-year bond, 19 years 10 months left)"
     assert ups[1]["security"] == "5-Year TIPS"
 
 
