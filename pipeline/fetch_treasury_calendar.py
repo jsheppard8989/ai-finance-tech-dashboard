@@ -60,6 +60,34 @@ def auction_date(x: Dict[str, Any]) -> Optional[str]:
     return _d(x.get("auctionDate") or x.get("competitiveAuctionCloseDate"))
 
 
+def _pick(x: Dict[str, Any], *keys: str) -> Any:
+    """First non-empty value among keys. TA_WS renamed result fields ~Oct 2026
+    (e.g. allocationPercentage -> allottedAtHighYieldPercentage); old names first."""
+    for k in keys:
+        v = x.get(k)
+        if v not in (None, ""):
+            return v
+    return None
+
+
+RESULT_FIELDS = {
+    "allocation": ("allocationPercentage", "allottedAtHighYieldPercentage",
+                   "allottedAtHighDiscountMarginPercentage", "allottedAtHighRatePercentage"),
+    "tendered": ("totalTendered", "grandTotalParRecognized"),
+    "accepted": ("totalAccepted", "grandTotalParAwarded"),
+    "primary": ("primaryDealerAccepted", "primaryDealersCompetitiveParAwarded"),
+    "direct": ("directBidderAccepted", "directBiddersCompetitiveParAwarded"),
+    "indirect": ("indirectBidderAccepted", "indirectBiddersCompetitiveParAwarded"),
+    "pdf": ("pdfFilenameCompetitiveResults", "treasuryAuctionResultsPressReleaseFileName"),
+}
+
+
+def results_filled(x: Dict[str, Any]) -> int:
+    """How many auction-result fields a record has (announcement records have none)."""
+    n = sum(1 for keys in RESULT_FIELDS.values() if _pick(x, *keys) is not None)
+    return n + sum(1 for k in ("highYield", "highDiscountMargin", "bidToCoverRatio") if x.get(k) not in (None, ""))
+
+
 def _f(v: Any, nd: int = 3) -> Optional[float]:
     try:
         if v in (None, ""):
@@ -104,8 +132,9 @@ def is_coupon(x: Dict[str, Any]) -> bool:
 
 def build_result(x: Dict[str, Any]) -> Dict[str, Any]:
     frn = x.get("floatingRate") == "Yes"
-    accepted = _f(x.get("totalAccepted"), 0)
-    indirect = _f(x.get("indirectBidderAccepted"), 0)
+    R = {k: _pick(x, *keys) for k, keys in RESULT_FIELDS.items()}
+    accepted = _f(R["accepted"], 0)
+    indirect = _f(R["indirect"], 0)
     btc = _f(x.get("bidToCoverRatio"), 2)
     r = {
         "date": auction_date(x),
@@ -118,13 +147,13 @@ def build_result(x: Dict[str, Any]) -> Dict[str, Any]:
         "high_discount_margin_pct": _f(x.get("highDiscountMargin")) if frn else None,
         "coupon_pct": _f(x.get("interestRate")),
         "bid_to_cover": btc,
-        "allocation_at_high_pct": _f(x.get("allocationPercentage"), 2),
-        "total_tendered_billions": _bn(x.get("totalTendered")),
-        "total_accepted_billions": _bn(x.get("totalAccepted")),
-        "primary_dealer_accepted_billions": _bn(x.get("primaryDealerAccepted")),
-        "direct_accepted_billions": _bn(x.get("directBidderAccepted")),
-        "indirect_accepted_billions": _bn(x.get("indirectBidderAccepted")),
-        "results_pdf": x.get("pdfFilenameCompetitiveResults") or None,
+        "allocation_at_high_pct": _f(R["allocation"], 2),
+        "total_tendered_billions": _bn(R["tendered"]),
+        "total_accepted_billions": _bn(R["accepted"]),
+        "primary_dealer_accepted_billions": _bn(R["primary"]),
+        "direct_accepted_billions": _bn(R["direct"]),
+        "indirect_accepted_billions": _bn(R["indirect"]),
+        "results_pdf": R["pdf"],
         "source_url": f"{SEARCH_URL}&cusip={x.get('cusip')}",
     }
     note = []
@@ -184,6 +213,14 @@ def build_calendar(
     recent = [x for x in auctioned if is_coupon(x) and auction_date(x)
               and auction_date(x) <= t
               and (x.get("highYield") or x.get("highDiscountMargin"))]
+    # One record per (cusip, auction date): keep the one with results filled, so size,
+    # yield and bid-to-cover all come from the same completed auction record.
+    best: Dict[Tuple[Any, Any], Dict[str, Any]] = {}
+    for x in recent:
+        k = (x.get("cusip"), auction_date(x))
+        if k not in best or results_filled(x) > results_filled(best[k]):
+            best[k] = x
+    recent = list(best.values())
     recent.sort(key=lambda x: (auction_date(x) or "", x.get("securityTerm") or ""), reverse=True)
 
     seen = set()
