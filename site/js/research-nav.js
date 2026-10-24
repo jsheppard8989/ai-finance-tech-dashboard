@@ -6,7 +6,8 @@
 (function () {
   var RESEARCH_PAGES = [
     { label: 'SpaceX Model', href: 'https://jsheppard8989.github.io/spacex-path/' },
-    { label: 'Healthcare Abundance', href: 'healthcare.html' }
+    { label: 'Healthcare Abundance', href: 'healthcare.html' },
+    { label: 'Why GPU prices matter', href: 'compute-thesis.html' }
   ];
 
   var CSS =
