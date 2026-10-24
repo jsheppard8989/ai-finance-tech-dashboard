@@ -1,6 +1,6 @@
 {
   "prompt": "Will the 10-year Treasury constant-maturity yield (FRED DGS10 official daily) print at or above 5.00% on any observation through Friday 23 Oct 2026 12:00 PM CT?",
-  "editorial_note": "We picked this contract because duration risk\u2014and the buyers who must own it\u2014was live on our Overton board on Sep 4, when we picked it. The 10-year yield is the market's single best gauge of term premium and fiscal-stress pricing; 5.00% is a clean, publicly checkable round number. We pinned expiry to Oct 23 because that date aligns with the TY futures options serial cycle, not the Oct 16 Friday weekly.",
+  "editorial_note": "We picked this contract because duration risk\u2014and the buyers who must own it\u2014was live on our Overton board on Sep 4, when we picked it. The 10-year constant-maturity yield (Treasury's fixed-term yield series) is the market's single best gauge of term premium (extra yield for holding longer bonds) and fiscal-stress pricing; 5.00% is a clean, publicly checkable round number. We pinned expiry to Oct 23 because that date aligns with the expiry cycle for 10-year Treasury futures options (monthly expiries), not the Oct 16 Friday weekly.",
   "expires_rule": "Resolves Friday 2026-10-23 12:00 PM CT \u2014 settlement by FRED DGS10 observation date (not a noon clock print)",
   "crux_theme": "10-year term premium vs 5% print",
   "resolution_clarity": {

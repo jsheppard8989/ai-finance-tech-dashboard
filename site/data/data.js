@@ -1288,7 +1288,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-10-22",
-      "summary": "The episode argues that AI-driven semiconductor demand has created a supply shock that current leading-edge manufacturing cannot satisfy, with equipment availability\u2014especially EUV\u2014acting as the primary bottleneck. Pushkar Ranade says the industry is constrained by the installed tool base and that output growth is likely closer to 2x than 10x, even with aggressive capex, because the upstream supply chain cannot instantly expand.\n\nChris Auth explains how Intel is balancing node innovation, yield, and schedule on 14A and beyond. He says Intel\u2019s 18A began without a mature PDK, but 14A will have a better one \u201cfrom the get-go,\u201d and he argues that Intel\u2019s architecture, including backside power, makes High-NA EUV economically and technically more attractive than for TSMC. He also emphasizes that process development uses phase-gate maturity metrics, inline metrology, defect tracing, and a large factory complexity of roughly 2,000 steps.\n\nA major theme is that the next gains in compute may depend as much on packaging and interconnect as on transistor scaling. Tyler Osborn describes hybrid bonding as a long-run density and power lever, with reliability already shown at a 0.45 micron pitch in the literature and current HVM around 25 micrometer pitch. The discussion frames chip-to-wafer bonding as potentially more practical than wafer-to-wafer in some cases because it preserves yield by bonding known-good dies.\n\nThe episode also explores longer-horizon transistor and materials possibilities, including gate-all-around, backside power, ruthenium interconnects, and eventually exotic 3D structures. But the near-term message is more restrictive than exuberant: the pace of AI compute scaling is increasingly limited by fab tools, packaging constraints, thermal issues, and the difficulty of coordinating the whole semiconductor supply chain.",
+      "summary": "The episode argues that AI-driven semiconductor demand has created a supply shock that current leading-edge manufacturing cannot satisfy, with equipment availability\u2014especially EUV (extreme-ultraviolet lithography tools)\u2014acting as the primary bottleneck. Pushkar Ranade says the industry is constrained by the installed tool base and that output growth is likely closer to 2x than 10x, even with aggressive capex, because the upstream supply chain cannot instantly expand.\n\nChris Auth explains how Intel is balancing node innovation, yield, and schedule on 14A and beyond. He says Intel\u2019s 18A began without a mature PDK (chip design kit), but 14A will have a better one \u201cfrom the get-go,\u201d and he argues that Intel\u2019s architecture, including backside power, makes High-NA EUV economically and technically more attractive than for TSMC. He also emphasizes that process development uses phase-gate maturity metrics, inline metrology, defect tracing, and a large factory complexity of roughly 2,000 steps.\n\nA major theme is that the next gains in compute may depend as much on packaging and interconnect as on transistor scaling. Tyler Osborn describes hybrid bonding as a long-run density and power lever, with reliability already shown at a 0.45 micron pitch in the literature and current HVM (high-volume manufacturing) around 25 micrometer pitch. The discussion frames chip-to-wafer bonding as potentially more practical than wafer-to-wafer in some cases because it preserves yield by bonding known-good dies.\n\nThe episode also explores longer-horizon transistor and materials possibilities, including gate-all-around, backside power, ruthenium interconnects, and eventually exotic 3D structures. But the near-term message is more restrictive than exuberant: the pace of AI compute scaling is increasingly limited by fab tools, packaging constraints, thermal issues, and the difficulty of coordinating the whole semiconductor supply chain.",
       "key_takeaway": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
       "tickers_mentioned": [
         "INTC",
@@ -1433,7 +1433,8 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Erik Bernhardsson",
-          "quote": "Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand."
+          "quote": "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand.",
+          "paraphrase": true
         },
         {
           "speaker": "Erik Bernhardsson",
@@ -1451,7 +1452,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-10-21",
-      "summary": "The episode centers on Tenex\u2019s AI-native software delivery model, where engineers are compensated for output rather than time and the company uses story points as a major calibration tool. Alex Lieberman argues the main feared failure modes of output-based pay\u2014sandbagging estimates and shipping bad code\u2014have not been major problems because Tenex\u2019s AI strategists are accountable for customer retention and growth, so they can push back when work does not serve the client. CJ Hess adds that as models improve, engineers will spend less time coding and more time converting customer context into something the models can use.\n\nA second major theme is Tenex\u2019s internal system, \u201cMetaHarness,\u201d which puts plans, decisions, and evidence into Git so agent work is legible and durable. CJ says the point is to give the team a persistent record of why choices were made, not just what was built, so long-running tasks can be understood and resumed. The discussion frames this as especially important as AI systems take on more of the actual implementation work.\n\nThe conversation also covers enterprise AI adoption benchmarks. Alex says roughly 90% of enterprises have rolled out a general-purpose LLM like Claude or Codex, around 60% have training and enablement, coding agents in engineering are closer to 50%, and agents in production for non-engineering work are only about 5%. The gap between raw model intelligence and real enterprise deployment is presented as the core diffusion problem, with permissioning and RBAC cited as a major blocker.\n\nA final thread is the strategic debate over vertical AI products. The speakers are skeptical that standalone vertical agent products are durable if frontier models keep absorbing the underlying task, but they think value may persist in the workflow layer around the agent\u2014interfaces, integrations, data consolidation, and habits. They also say token-cost pressure has eased versus 6 to 8 months ago, and Alex claims a Claude Code subscription integration could cut costs by about 80%.",
+      "summary": "The episode centers on Tenex\u2019s AI-native software delivery model, where engineers are compensated for output rather than time and the company uses story points as a major calibration tool. Alex Lieberman argues the main feared failure modes of output-based pay\u2014sandbagging estimates and shipping bad code\u2014have not been major problems because Tenex\u2019s AI strategists are accountable for customer retention and growth, so they can push back when work does not serve the client. CJ Hess adds that as models improve, engineers will spend less time coding and more time converting customer context into something the models can use.\n\nA second major theme is Tenex\u2019s internal system, \u201cMetaHarness,\u201d which puts plans, decisions, and evidence into Git so agent work is legible and durable. CJ says the point is to give the team a persistent record of why choices were made, not just what was built, so long-running tasks can be understood and resumed. The discussion frames this as especially important as AI systems take on more of the actual implementation work.\n\nThe conversation also covers enterprise AI adoption benchmarks. Alex says roughly 90% of enterprises have rolled out a general-purpose LLM like Claude or Codex, around 60% have training and enablement, coding agents in engineering are closer to 50%, and agents in production for non-engineering work are only about 5%. The gap between raw model intelligence and real enterprise deployment is presented as the core diffusion problem, with permissioning and RBAC (role-based access control) cited as a major blocker.\n\nA final thread is the strategic debate over vertical AI products. The speakers are skeptical that standalone vertical agent products are durable if frontier models keep absorbing the underlying task, but they think value may persist in the workflow layer around the agent\u2014interfaces, integrations, data consolidation, and habits. They also say token-cost pressure has eased versus 6 to 8 months ago, and Alex claims a Claude Code subscription integration could cut costs by about 80%.",
       "key_takeaway": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1464,11 +1465,13 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Alex Lieberman",
-          "quote": "Tenex\u2019s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn\u2019t serve the client."
+          "quote": "Alex Lieberman argued that Tenex\u2019s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn\u2019t serve the client.",
+          "paraphrase": true
         },
         {
           "speaker": "CJ Hess",
-          "quote": "Plans and decisions are checked into Git alongside the code."
+          "quote": "CJ Hess said Tenex checks its plans and decisions into Git alongside the code.",
+          "paraphrase": true
         },
         {
           "speaker": "Alex Lieberman",
@@ -1513,8 +1516,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-10-21",
-      "summary": "Nikesh Arora argues that quantum computing is approaching a practical inflection point that should be treated as a cryptography migration problem now, not later. He says the debate is less about whether cryptography breaks than whether the midpoint is 2028, 2029, or 2033, and suggests using 2030 as a working assumption. His key warning is that stolen encrypted data can be stored and decrypted years later, so organizations cannot wait until the break is imminent.\n\nArora says the technical pieces of post-quantum cryptography are already known and coded; the real problem is organizational inertia. He frames the practical milestones as demonstrating error correction on running hardware and scaling gate computations from roughly 10,000 today toward 10 million by 2029 if growth continues. He also emphasizes that quantum claims should be independently validated, because the field contains many demonstrations that are not yet commercially real.\n\nThe conversation then shifts to AI economics and enterprise deployment. Arora argues that frontier model usage is expensive, citing about $20 per million tokens and up to $50 at the extreme, while open-weight models on owned GPUs could potentially be run for roughly $1 to $2 per million tokens after about a week of engineering work. He says this cost gap, plus IP leakage concerns and auditability, could drive 75% to 90% of token usage toward open-weight models over the next couple of years.\n\nIn cybersecurity, Arora describes an AI-driven arms race where defenders can use cheaper, faster models, open-weight systems, and trusted intermediaries to distribute patches and reduce attacker advantage. He says AI-assisted code generation still requires verification because models hallucinate, so the bottleneck becomes checking rather than generating. He concludes that SaaS faces major disruption because enterprises rely on hundreds to thousands of vendors, and AI will reduce the defensibility of many independent point solutions, accelerating consolidation.",
-      "key_takeaway": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
+      "summary": "Nikesh Arora argues that quantum computing is approaching a practical inflection point that should be treated as a cryptography migration problem now, not later. He says the debate is less about whether cryptography breaks than whether the midpoint is 2028, 2029, or 2033, and suggests using 2030 as a working assumption. His key warning is that stolen encrypted data can be stored and decrypted years later, so organizations cannot wait until the break is imminent.\n\nArora says the technical pieces of post-quantum cryptography are already known and coded; the real problem is organizational inertia. He frames the practical milestones as demonstrating error correction on running hardware and scaling gate computations from roughly 10,000 today toward 10 million by 2029 if growth continues. He also emphasizes that quantum claims should be independently validated, because the field contains many demonstrations that are not yet commercially real.\n\nThe conversation then shifts to AI economics and enterprise deployment. Arora argues that frontier model usage is expensive, citing about $20 per million tokens and up to $50 at the extreme, while open-weight models (model weights published) on owned GPUs could potentially be run for roughly $1 to $2 per million tokens after about a week of engineering work. He says this cost gap, plus IP leakage concerns and auditability, could drive 75% to 90% of token usage toward open-weight models over the next couple of years.\n\nIn cybersecurity, Arora describes an AI-driven arms race where defenders can use cheaper, faster models, open-weight systems, and trusted intermediaries to distribute patches and reduce attacker advantage. He says AI-assisted code generation still requires verification because models hallucinate, so the bottleneck becomes checking rather than generating. He concludes that SaaS faces major disruption because enterprises rely on hundreds to thousands of vendors, and AI will reduce the defensibility of many independent point solutions, accelerating consolidation.",
+      "key_takeaway": "Quantum-readiness tooling, open-weight (model weights published) inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -1544,7 +1547,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-10-21",
-      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Chamath Palihapitiya pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
+      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Chamath Palihapitiya pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
       "key_takeaway": "AI\u2019s biggest near-term bottleneck is power and compute infrastructure, making energy build-out more important than model capability alone.",
       "tickers_mentioned": [
         "ANTH",
@@ -1644,7 +1647,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-10-20",
-      "summary": "The episode argues that the recent AI selloff is better understood as a panic-driven growth scare and credit-market stress event than as proof that the AI capex cycle is over. Jack Farley says the key bearish catalysts were CoreWeave credit weakness and Anthropic\u2019s slowing revenue growth, but he repeatedly emphasizes that neither implies a terminal collapse in AI demand.\n\nA major supporting point is SpaceX\u2019s reported AI-related compute growth and Elon Musk\u2019s capacity targets. Farley cites SpaceX revenue up 161% and says the AI business tripled in a single quarter. He also highlights Musk\u2019s stated confidence in bringing 10 GW online in 2027, plus an additional 2.5 to 3 GW this year, which he frames as evidence that power and cooling constraints are still being solved rather than becoming binding limits.\n\nThe most explicit credit stress discussion centers on CoreWeave\u2019s unsecured bonds, which Farley says are pricing roughly a 60% cumulative default probability over the next several years. That, combined with broader convertible-bond exposure to AI infrastructure names, is presented as a mechanism by which credit weakness can feed equity pessimism even if the underlying AI buildout is still intact.\n\nThe speakers also debate Anthropic\u2019s reported revenue trajectory and the interpretation of its S-1. Farley argues that slower growth is bearish only relative to \u201cridiculous\u201d expectations, and that headline loss figures may be misleading on an economic basis. Max adds broader market context, including Ramp adoption data, hedge-fund positioning extremes, and the idea that the broader market has not broken down in a way consistent with a true AI demand collapse.",
+      "summary": "The episode argues that the recent AI selloff is better understood as a panic-driven growth scare and credit-market stress event than as proof that the AI capex cycle is over. Jack Farley says the key bearish catalysts were CoreWeave credit weakness and Anthropic\u2019s slowing revenue growth, but he repeatedly emphasizes that neither implies a terminal collapse in AI demand.\n\nA major supporting point is SpaceX\u2019s reported AI-related compute growth and Elon Musk\u2019s capacity targets. Farley cites SpaceX revenue up 161% and says the AI business tripled in a single quarter. He also highlights Musk\u2019s stated confidence in bringing 10 GW online in 2027, plus an additional 2.5 to 3 GW this year, which he frames as evidence that power and cooling constraints are still being solved rather than becoming binding limits.\n\nThe most explicit credit stress discussion centers on CoreWeave\u2019s unsecured bonds, which Farley says are pricing roughly a 60% cumulative default probability over the next several years. That, combined with broader convertible-bond exposure to AI infrastructure names, is presented as a mechanism by which credit weakness can feed equity pessimism even if the underlying AI buildout is still intact.\n\nThe speakers also debate Anthropic\u2019s reported revenue trajectory and the interpretation of its S-1 (IPO filing). Farley argues that slower growth is bearish only relative to \u201cridiculous\u201d expectations, and that headline loss figures may be misleading on an economic basis. Max adds broader market context, including Ramp adoption data, hedge-fund positioning extremes, and the idea that the broader market has not broken down in a way consistent with a true AI demand collapse.",
       "key_takeaway": "The episode\u2019s core claim is that AI fundamentals remain intact and recent weakness is mainly a credit-and-positioning flush, not the end of the AI capex cycle.",
       "tickers_mentioned": [
         "MU"
@@ -2919,7 +2922,7 @@ const dashboardData = {
       "source_name": "The a16z Show",
       "source_date": "2026-10-03",
       "summary": "Alex Atallah described how Stripe's acquisition of OpenRouter began with outreach from Patrick Collison and progressed quickly because Stripe and OpenRouter shared a goal of building neutral, developer-friendly infrastructure. Atallah said OpenRouter was not looking to sell, but Stripe was a top possible acquirer because both companies want many new companies to exist rather than an economy organized around one giant platform.",
-      "key_takeaway": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+      "key_takeaway": "Alex Atallah argues AI infrastructure will shift toward routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
       "tickers_mentioned": [
         "MSFT"
       ],
@@ -14828,24 +14831,6 @@ const dashboardData = {
       "last_mentioned_speaker": "Andy Jassy"
     },
     {
-      "id": 297,
-      "term": "Return to Tangibles",
-      "description": "A sponsor-described thesis that the next cycle favors real assets such as energy, metals, miners, precious metals, and critical metals after a decade of underinvestment.",
-      "first_detected_date": "2026-10-06",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 6,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "The theme frames capital allocation toward physical-world assets exposed to inflation, geopolitics, and commodity supply constraints.",
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 559,
-      "first_detected_speaker": "J Mintzmyer",
-      "last_mentioned_episode_id": 594,
-      "last_mentioned_speaker": "Max"
-    },
-    {
       "id": 296,
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
@@ -17664,7 +17649,8 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Erik Bernhardsson",
-          "quote": "Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand."
+          "quote": "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand.",
+          "paraphrase": true
         },
         {
           "speaker": "Erik Bernhardsson",
@@ -17790,7 +17776,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-10-22",
-      "summary": "The episode argues that AI-driven semiconductor demand has created a supply shock that current leading-edge manufacturing cannot satisfy, with equipment availability\u2014especially EUV\u2014acting as the primary bottleneck. Pushkar Ranade says the industry is constrained by the installed tool base and that output growth is likely closer to 2x than 10x, even with aggressive capex, because the upstream supply chain cannot instantly expand.\n\nChris Auth explains how Intel is balancing node innovation, yield, and schedule on 14A and beyond. He says Intel\u2019s 18A began without a mature PDK, but 14A will have a better one \u201cfrom the get-go,\u201d and he argues that Intel\u2019s architecture, including backside power, makes High-NA EUV economically and technically more attractive than for TSMC. He also emphasizes that process development uses phase-gate maturity metrics, inline metrology, defect tracing, and a large factory complexity of roughly 2,000 steps.\n\nA major theme is that the next gains in compute may depend as much on packaging and interconnect as on transistor scaling. Tyler Osborn describes hybrid bonding as a long-run density and power lever, with reliability already shown at a 0.45 micron pitch in the literature and current HVM around 25 micrometer pitch. The discussion frames chip-to-wafer bonding as potentially more practical than wafer-to-wafer in some cases because it preserves yield by bonding known-good dies.\n\nThe episode also explores longer-horizon transistor and materials possibilities, including gate-all-around, backside power, ruthenium interconnects, and eventually exotic 3D structures. But the near-term message is more restrictive than exuberant: the pace of AI compute scaling is increasingly limited by fab tools, packaging constraints, thermal issues, and the difficulty of coordinating the whole semiconductor supply chain.",
+      "summary": "The episode argues that AI-driven semiconductor demand has created a supply shock that current leading-edge manufacturing cannot satisfy, with equipment availability\u2014especially EUV (extreme-ultraviolet lithography tools)\u2014acting as the primary bottleneck. Pushkar Ranade says the industry is constrained by the installed tool base and that output growth is likely closer to 2x than 10x, even with aggressive capex, because the upstream supply chain cannot instantly expand.\n\nChris Auth explains how Intel is balancing node innovation, yield, and schedule on 14A and beyond. He says Intel\u2019s 18A began without a mature PDK (chip design kit), but 14A will have a better one \u201cfrom the get-go,\u201d and he argues that Intel\u2019s architecture, including backside power, makes High-NA EUV economically and technically more attractive than for TSMC. He also emphasizes that process development uses phase-gate maturity metrics, inline metrology, defect tracing, and a large factory complexity of roughly 2,000 steps.\n\nA major theme is that the next gains in compute may depend as much on packaging and interconnect as on transistor scaling. Tyler Osborn describes hybrid bonding as a long-run density and power lever, with reliability already shown at a 0.45 micron pitch in the literature and current HVM (high-volume manufacturing) around 25 micrometer pitch. The discussion frames chip-to-wafer bonding as potentially more practical than wafer-to-wafer in some cases because it preserves yield by bonding known-good dies.\n\nThe episode also explores longer-horizon transistor and materials possibilities, including gate-all-around, backside power, ruthenium interconnects, and eventually exotic 3D structures. But the near-term message is more restrictive than exuberant: the pace of AI compute scaling is increasingly limited by fab tools, packaging constraints, thermal issues, and the difficulty of coordinating the whole semiconductor supply chain.",
       "key_takeaway": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
       "tickers_mentioned": "[\"INTC\", \"TSM\"]",
       "sentiment": "neutral",
@@ -17827,7 +17813,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-10-21",
-      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Chamath Palihapitiya pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
+      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Chamath Palihapitiya pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
       "key_takeaway": "AI\u2019s biggest near-term bottleneck is power and compute infrastructure, making energy build-out more important than model capability alone.",
       "tickers_mentioned": "[\"ANTH\", \"TSLA\", \"NVDA\", \"FSLR\"]",
       "sentiment": "neutral",
@@ -17861,8 +17847,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-10-21",
-      "summary": "Nikesh Arora argues that quantum computing is approaching a practical inflection point that should be treated as a cryptography migration problem now, not later. He says the debate is less about whether cryptography breaks than whether the midpoint is 2028, 2029, or 2033, and suggests using 2030 as a working assumption. His key warning is that stolen encrypted data can be stored and decrypted years later, so organizations cannot wait until the break is imminent.\n\nArora says the technical pieces of post-quantum cryptography are already known and coded; the real problem is organizational inertia. He frames the practical milestones as demonstrating error correction on running hardware and scaling gate computations from roughly 10,000 today toward 10 million by 2029 if growth continues. He also emphasizes that quantum claims should be independently validated, because the field contains many demonstrations that are not yet commercially real.\n\nThe conversation then shifts to AI economics and enterprise deployment. Arora argues that frontier model usage is expensive, citing about $20 per million tokens and up to $50 at the extreme, while open-weight models on owned GPUs could potentially be run for roughly $1 to $2 per million tokens after about a week of engineering work. He says this cost gap, plus IP leakage concerns and auditability, could drive 75% to 90% of token usage toward open-weight models over the next couple of years.\n\nIn cybersecurity, Arora describes an AI-driven arms race where defenders can use cheaper, faster models, open-weight systems, and trusted intermediaries to distribute patches and reduce attacker advantage. He says AI-assisted code generation still requires verification because models hallucinate, so the bottleneck becomes checking rather than generating. He concludes that SaaS faces major disruption because enterprises rely on hundreds to thousands of vendors, and AI will reduce the defensibility of many independent point solutions, accelerating consolidation.",
-      "key_takeaway": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
+      "summary": "Nikesh Arora argues that quantum computing is approaching a practical inflection point that should be treated as a cryptography migration problem now, not later. He says the debate is less about whether cryptography breaks than whether the midpoint is 2028, 2029, or 2033, and suggests using 2030 as a working assumption. His key warning is that stolen encrypted data can be stored and decrypted years later, so organizations cannot wait until the break is imminent.\n\nArora says the technical pieces of post-quantum cryptography are already known and coded; the real problem is organizational inertia. He frames the practical milestones as demonstrating error correction on running hardware and scaling gate computations from roughly 10,000 today toward 10 million by 2029 if growth continues. He also emphasizes that quantum claims should be independently validated, because the field contains many demonstrations that are not yet commercially real.\n\nThe conversation then shifts to AI economics and enterprise deployment. Arora argues that frontier model usage is expensive, citing about $20 per million tokens and up to $50 at the extreme, while open-weight models (model weights published) on owned GPUs could potentially be run for roughly $1 to $2 per million tokens after about a week of engineering work. He says this cost gap, plus IP leakage concerns and auditability, could drive 75% to 90% of token usage toward open-weight models over the next couple of years.\n\nIn cybersecurity, Arora describes an AI-driven arms race where defenders can use cheaper, faster models, open-weight systems, and trusted intermediaries to distribute patches and reduce attacker advantage. He says AI-assisted code generation still requires verification because models hallucinate, so the bottleneck becomes checking rather than generating. He concludes that SaaS faces major disruption because enterprises rely on hundreds to thousands of vendors, and AI will reduce the defensibility of many independent point solutions, accelerating consolidation.",
+      "key_takeaway": "Quantum-readiness tooling, open-weight (model weights published) inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
       "tickers_mentioned": "[]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -17929,7 +17915,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-10-21",
-      "summary": "The episode centers on Tenex\u2019s AI-native software delivery model, where engineers are compensated for output rather than time and the company uses story points as a major calibration tool. Alex Lieberman argues the main feared failure modes of output-based pay\u2014sandbagging estimates and shipping bad code\u2014have not been major problems because Tenex\u2019s AI strategists are accountable for customer retention and growth, so they can push back when work does not serve the client. CJ Hess adds that as models improve, engineers will spend less time coding and more time converting customer context into something the models can use.\n\nA second major theme is Tenex\u2019s internal system, \u201cMetaHarness,\u201d which puts plans, decisions, and evidence into Git so agent work is legible and durable. CJ says the point is to give the team a persistent record of why choices were made, not just what was built, so long-running tasks can be understood and resumed. The discussion frames this as especially important as AI systems take on more of the actual implementation work.\n\nThe conversation also covers enterprise AI adoption benchmarks. Alex says roughly 90% of enterprises have rolled out a general-purpose LLM like Claude or Codex, around 60% have training and enablement, coding agents in engineering are closer to 50%, and agents in production for non-engineering work are only about 5%. The gap between raw model intelligence and real enterprise deployment is presented as the core diffusion problem, with permissioning and RBAC cited as a major blocker.\n\nA final thread is the strategic debate over vertical AI products. The speakers are skeptical that standalone vertical agent products are durable if frontier models keep absorbing the underlying task, but they think value may persist in the workflow layer around the agent\u2014interfaces, integrations, data consolidation, and habits. They also say token-cost pressure has eased versus 6 to 8 months ago, and Alex claims a Claude Code subscription integration could cut costs by about 80%.",
+      "summary": "The episode centers on Tenex\u2019s AI-native software delivery model, where engineers are compensated for output rather than time and the company uses story points as a major calibration tool. Alex Lieberman argues the main feared failure modes of output-based pay\u2014sandbagging estimates and shipping bad code\u2014have not been major problems because Tenex\u2019s AI strategists are accountable for customer retention and growth, so they can push back when work does not serve the client. CJ Hess adds that as models improve, engineers will spend less time coding and more time converting customer context into something the models can use.\n\nA second major theme is Tenex\u2019s internal system, \u201cMetaHarness,\u201d which puts plans, decisions, and evidence into Git so agent work is legible and durable. CJ says the point is to give the team a persistent record of why choices were made, not just what was built, so long-running tasks can be understood and resumed. The discussion frames this as especially important as AI systems take on more of the actual implementation work.\n\nThe conversation also covers enterprise AI adoption benchmarks. Alex says roughly 90% of enterprises have rolled out a general-purpose LLM like Claude or Codex, around 60% have training and enablement, coding agents in engineering are closer to 50%, and agents in production for non-engineering work are only about 5%. The gap between raw model intelligence and real enterprise deployment is presented as the core diffusion problem, with permissioning and RBAC (role-based access control) cited as a major blocker.\n\nA final thread is the strategic debate over vertical AI products. The speakers are skeptical that standalone vertical agent products are durable if frontier models keep absorbing the underlying task, but they think value may persist in the workflow layer around the agent\u2014interfaces, integrations, data consolidation, and habits. They also say token-cost pressure has eased versus 6 to 8 months ago, and Alex claims a Claude Code subscription integration could cut costs by about 80%.",
       "key_takeaway": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
       "tickers_mentioned": "[]",
       "sentiment": "neutral",
@@ -17942,11 +17928,13 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Alex Lieberman",
-          "quote": "Tenex\u2019s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn\u2019t serve the client."
+          "quote": "Alex Lieberman argued that Tenex\u2019s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn\u2019t serve the client.",
+          "paraphrase": true
         },
         {
           "speaker": "CJ Hess",
-          "quote": "Plans and decisions are checked into Git alongside the code."
+          "quote": "CJ Hess said Tenex checks its plans and decisions into Git alongside the code.",
+          "paraphrase": true
         },
         {
           "speaker": "Alex Lieberman",
@@ -17963,7 +17951,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-10-20",
-      "summary": "The episode argues that the recent AI selloff is better understood as a panic-driven growth scare and credit-market stress event than as proof that the AI capex cycle is over. Jack Farley says the key bearish catalysts were CoreWeave credit weakness and Anthropic\u2019s slowing revenue growth, but he repeatedly emphasizes that neither implies a terminal collapse in AI demand.\n\nA major supporting point is SpaceX\u2019s reported AI-related compute growth and Elon Musk\u2019s capacity targets. Farley cites SpaceX revenue up 161% and says the AI business tripled in a single quarter. He also highlights Musk\u2019s stated confidence in bringing 10 GW online in 2027, plus an additional 2.5 to 3 GW this year, which he frames as evidence that power and cooling constraints are still being solved rather than becoming binding limits.\n\nThe most explicit credit stress discussion centers on CoreWeave\u2019s unsecured bonds, which Farley says are pricing roughly a 60% cumulative default probability over the next several years. That, combined with broader convertible-bond exposure to AI infrastructure names, is presented as a mechanism by which credit weakness can feed equity pessimism even if the underlying AI buildout is still intact.\n\nThe speakers also debate Anthropic\u2019s reported revenue trajectory and the interpretation of its S-1. Farley argues that slower growth is bearish only relative to \u201cridiculous\u201d expectations, and that headline loss figures may be misleading on an economic basis. Max adds broader market context, including Ramp adoption data, hedge-fund positioning extremes, and the idea that the broader market has not broken down in a way consistent with a true AI demand collapse.",
+      "summary": "The episode argues that the recent AI selloff is better understood as a panic-driven growth scare and credit-market stress event than as proof that the AI capex cycle is over. Jack Farley says the key bearish catalysts were CoreWeave credit weakness and Anthropic\u2019s slowing revenue growth, but he repeatedly emphasizes that neither implies a terminal collapse in AI demand.\n\nA major supporting point is SpaceX\u2019s reported AI-related compute growth and Elon Musk\u2019s capacity targets. Farley cites SpaceX revenue up 161% and says the AI business tripled in a single quarter. He also highlights Musk\u2019s stated confidence in bringing 10 GW online in 2027, plus an additional 2.5 to 3 GW this year, which he frames as evidence that power and cooling constraints are still being solved rather than becoming binding limits.\n\nThe most explicit credit stress discussion centers on CoreWeave\u2019s unsecured bonds, which Farley says are pricing roughly a 60% cumulative default probability over the next several years. That, combined with broader convertible-bond exposure to AI infrastructure names, is presented as a mechanism by which credit weakness can feed equity pessimism even if the underlying AI buildout is still intact.\n\nThe speakers also debate Anthropic\u2019s reported revenue trajectory and the interpretation of its S-1 (IPO filing). Farley argues that slower growth is bearish only relative to \u201cridiculous\u201d expectations, and that headline loss figures may be misleading on an economic basis. Max adds broader market context, including Ramp adoption data, hedge-fund positioning extremes, and the idea that the broader market has not broken down in a way consistent with a true AI demand collapse.",
       "key_takeaway": "The episode\u2019s core claim is that AI fundamentals remain intact and recent weakness is mainly a credit-and-positioning flush, not the end of the AI capex cycle.",
       "tickers_mentioned": "[\"MU\"]",
       "sentiment": "neutral",
@@ -18656,35 +18644,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Chamath: AGI Is Here, Anthropic\u2019s $100B Giveaway, Elon\u2019s SpaceX Shares for 72M Kids | EP #304",
       "last_mentioned_episode_date": "2026-10-21",
-      "first_heard_recent": true
-    },
-    {
-      "id": 297,
-      "term": "Return to Tangibles",
-      "description": "A sponsor-described thesis that the next cycle favors real assets such as energy, metals, miners, precious metals, and critical metals after a decade of underinvestment.",
-      "first_detected_date": "2026-10-06",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 6,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "The theme frames capital allocation toward physical-world assets exposed to inflation, geopolitics, and commodity supply constraints.",
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 559,
-      "first_detected_speaker": "J Mintzmyer",
-      "last_mentioned_episode_id": 594,
-      "last_mentioned_speaker": "",
-      "novelty_score": 2.64,
-      "overton_score": 2.64,
-      "resonance_pct": 83,
-      "is_established": false,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
-      "first_detected_episode_date": "2026-10-06",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Is The AI Trade Over? | Jack & Max on Panic in AI Credit, SpaceX Earnings, and Semis",
-      "last_mentioned_episode_date": "2026-10-20",
       "first_heard_recent": true
     },
     {
@@ -34914,7 +34873,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-05-19T12:13:40.714786",
     "updated_at": "2026-05-19 17:13:40",
-    "episode_evidence": "The podcast underscores the defense industrial base's shift from innovation to production capabilities, with a focus on modern manufacturing techniques. Dino Mavruchus states, 'You have to bend the economic cost curve... you have to take a first principles design to the ship.' This approach is crucial for reducing material and labor costs, allowing U.S. manufacturers to compete with international counterparts. The integration of autonomy and software in shipbuilding is highlighted as a means to drastically cut labor hours, with Mavruchus providing a stark comparison: 'Marauders using about a 50,000 labor hour on our first ship... destroyers 7 to 9 million labor hours.' This points to the potential for significant efficiency gains through technology integration. The discussion also emphasizes the importance of engaging commercial markets to sustain production capabilities during peacetime, which is vital for maintaining a resilient defense sector.",
+    "episode_evidence": "The podcast underscores the defense industrial base's shift from innovation to production capabilities, with a focus on modern manufacturing techniques. One guest states, 'You have to bend the economic cost curve... you have to take a first principles design to the ship.' This approach is crucial for reducing material and labor costs, allowing U.S. manufacturers to compete with international counterparts. The integration of autonomy and software in shipbuilding is highlighted as a means to drastically cut labor hours, with the guest providing a stark comparison: 'Marauders using about a 50,000 labor hour on our first ship... destroyers 7 to 9 million labor hours.' This points to the potential for significant efficiency gains through technology integration. The discussion also emphasizes the importance of engaging commercial markets to sustain production capabilities during peacetime, which is vital for maintaining a resilient defense sector.",
     "falsification_tracks": [
       "Should the U.S. defense budget allocations show a consistent decrease in funding for modern manufacturing and production capabilities, it would challenge the thesis of prioritizing production over innovation.",
       "If there is a significant increase in labor hours required for shipbuilding, particularly in the case of autonomous platforms, it would suggest that the integration of autonomy is not yielding the expected efficiency gains.",
@@ -40074,7 +40033,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-06-23T23:40:59.896267",
     "updated_at": "2026-06-24 04:40:59",
-    "episode_evidence": "Ryan Cohen's strategic vision for GameStop and eBay is grounded in operational efficiency and market expansion. He emphasizes the importance of 'pennies in the red is failure and... pennies in the black is success,' highlighting the razor-thin margins in retail and the necessity for cost optimization. Cohen's experience at Chewy has taught him the art of fierce supplier negotiations, which he applies to GameStop to reduce operating expenses. The collectibles market, now accounting for '42% of revenue... $350 million in Q1 revenue,' is a strategic pivot that leverages GameStop's existing infrastructure. Cohen's approach to management is to hire 'diehards that are just willing to put everything in,' prioritizing will over skill, which is crucial for a high-performance culture in a turnaround scenario.",
+    "episode_evidence": "Ryan Cohen's strategic vision for GameStop and eBay is grounded in operational efficiency and market expansion. He emphasizes the importance of 'pennies in the red is failure and... pennies in the black is success,' highlighting the very low margins in retail and the necessity for cost optimization. Cohen's experience at Chewy has taught him the art of fierce supplier negotiations, which he applies to GameStop to reduce operating expenses. The collectibles market, now accounting for '42% of revenue... $350 million in Q1 revenue,' is a strategic pivot that leverages GameStop's existing infrastructure. Cohen's approach to management is to hire 'diehards that are just willing to put everything in,' prioritizing will over skill, which is crucial for a high-performance culture in a turnaround scenario.",
     "falsification_tracks": [
       "Should GameStop's collectibles revenue fail to meet the projected growth, it would challenge Cohen's strategic shift towards this market segment.",
       "A sustained increase in operating expenses at GameStop would undermine Cohen's operational efficiency claims.",
@@ -47385,7 +47344,7 @@ const dashboardData = {
     "id": 430,
     "insight_id": 441,
     "podcast_episode_id": 427,
-    "overview": "Warren Pies points out that the market's reaction to recent data has been overly dovish, which could be a misinterpretation. He argues that the Federal Reserve's tolerance for looking through one-off inflation spikes is wearing thin, influenced by political pressure and the potential for a policy mistake. Pi's analysis suggests that the market may be underestimating the likelihood of a September rate hike, with odds currently around 40%, a significant shift from the 75% odds in July. This underappreciation of macro risks, particularly around the Fed's actions, could have significant implications for market positioning and investor expectations.",
+    "overview": "Warren Pies points out that the market's reaction to recent data has been overly dovish, which could be a misinterpretation. He argues that the Federal Reserve's tolerance for looking through one-off inflation spikes is running out, influenced by political pressure and the potential for a policy mistake. Pi's analysis suggests that the market may be underestimating the likelihood of a September rate hike, with odds currently around 40%, a significant shift from the 75% odds in July. This underappreciation of macro risks, particularly around the Fed's actions, could have significant implications for market positioning and investor expectations.",
     "key_takeaways_detailed": [],
     "investment_thesis": "This period is marked by unfavorable seasonal patterns and market structure, suggesting a time to take down risk. A this thesis would be a higher-than-expected rate hike or a significant shift in Fed rhetoric towards a more hawkish stance, while a disproval would be a Fed hold or a dovish pivot.",
     "ticker_analysis": {
@@ -55391,7 +55350,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-21T05:18:38.377715",
     "updated_at": "2026-10-21 10:18:38",
-    "episode_evidence": "CJ Hess: Plans and decisions are checked into Git alongside the code.\nAlex Lieberman: Tenex\u2019s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn\u2019t serve the client.\nAlex Lieberman: And I would say those two concerns have not been concerns at all because of our AI strategists.\nCJ Hess: I spend a lot of time thinking about this because if I think about my tenure at Tenex, I was coding a lot, coding a little less, and now we\u2019re kind of getting to the point where the models are more or less given the right context and can get you to 90% of the solution.\nAlex Lieberman: But then the next, and this is where like the biggest, I would say, drop off is, where like the biggest diffusion gap is from like raw intelligence to enterprise usage, is agents in production for non-engineering work drops to like 5%.",
+    "episode_evidence": "CJ Hess said Tenex checks its plans and decisions into Git alongside the code.\nAlex Lieberman argued that Tenex\u2019s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn\u2019t serve the client.\nAlex Lieberman: And I would say those two concerns have not been concerns at all because of our AI strategists.\nCJ Hess: I spend a lot of time thinking about this because if I think about my tenure at Tenex, I was coding a lot, coding a little less, and now we\u2019re kind of getting to the point where the models are more or less given the right context and can get you to 90% of the solution.\nAlex Lieberman: But then the next, and this is where like the biggest, I would say, drop off is, where like the biggest diffusion gap is from like raw intelligence to enterprise usage, is agents in production for non-engineering work drops to like 5%.",
     "falsification_tracks": [
       "By 2027-03-31, if Tenex's long-running project metrics show no improvement in median time-to-acceptance or delivery success rate, per an external customer case study or disclosed KPI set, the MetaHarness legibility thesis is wrong.",
       "By 2027-01-31, if defect rate or rework hours for agent-assisted changes rise more than 25% versus the prior baseline in a disclosed Tenex engineering review, the claim that output-based pay is not causing bad-code problems is falsified.",
@@ -55465,7 +55424,7 @@ const dashboardData = {
     "podcast_episode_id": 598,
     "overview": "The most non-obvious point is that the episode treats quantum risk as a data-retention and procurement problem long before it becomes a hardware problem. The key implication is not merely that encryption may someday fail, but that material liability already exists today because intercepted data can be banked for later decryption. That changes the budgeting logic: crypto migration is no longer a speculative R&D spend, but a lifecycle management issue for data with multi-year sensitivity.\n\nA second underappreciated angle is that the speaker separates model capability from model economics. The argument is not just that open-weight models are \u201cgood enough,\u201d but that the cost structure can collapse so sharply that enterprise deployment decisions become dominated by governance, IP control, and auditability rather than raw benchmark performance. That creates a procurement regime where local inference, private GPUs, and narrow task specialization may matter more than access to the best frontier API.\n\nOn cyber, the episode highlights a shift from point-solution defense to coordination and verification. The bottleneck is increasingly checking outputs and distributing fixes, not generating code or finding bugs. That makes the market opportunity less about standalone AI coding tools and more about infrastructure that can validate, route, patch, and standardize responses across a fragmented enterprise stack.",
     "key_takeaways_detailed": [],
-    "investment_thesis": "The practical setup is to watch for companies that make migration cheap, enforceable, and auditable: cryptography-agility tooling, certificate/identity infrastructure, and platforms that can inventory and rotate keys at scale. In AI infrastructure, the higher-probability winners are not necessarily frontier model providers, but operators that can deliver secure local inference, model routing, monitoring, and policy control at a materially lower cost per token. In cybersecurity, the value accrues to systems that reduce verification burden and coordinate defense across many vendors, since the episode argues the attack surface is too broad for manual patchwork. The clearest portfolio lens is to distinguish \u201cmodel spend\u201d from \u201cworkflow control.\u201d The former may commoditize faster than expected; the latter becomes more valuable as enterprises try to keep sensitive data in-house, limit IP leakage, and prove compliance. The same logic applies to SaaS: any vendor whose product can be reduced to a thin workflow layer without strong data moat, embedded compliance, or vertical integration is exposed to compression. The names worth watching are those that own the trust boundary, the data boundary, or the migration path.",
+    "investment_thesis": "The practical setup is to watch for companies that make migration cheap, enforceable, and auditable: cryptography-agility tooling, certificate/identity infrastructure, and platforms that can inventory and rotate keys at scale. In AI infrastructure, the higher-probability winners are not necessarily frontier model providers, but operators that can deliver secure local inference, model routing, monitoring, and policy control at a materially lower cost per token. In cybersecurity, the value accrues to systems that reduce verification burden and coordinate defense across many vendors, since the episode argues the attack surface is too broad for manual patchwork. The clearest portfolio lens is to distinguish \u201cmodel spend\u201d from \u201cworkflow control.\u201d The former may commoditize faster than expected; the latter becomes more valuable as enterprises try to keep sensitive data in-house, limit IP leakage, and prove compliance. The same logic applies to SaaS: any vendor whose product can be reduced to a light workflow layer without strong data moat, embedded compliance, or vertical integration is exposed to compression. The names worth watching are those that own the trust boundary, the data boundary, or the migration path.",
     "ticker_analysis": {},
     "positioning_guidance": "",
     "risk_factors": [],
@@ -55847,7 +55806,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-22T14:06:04.142996",
     "updated_at": "2026-10-22 19:06:04",
-    "episode_evidence": "Erik Bernhardsson: Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand.\nErik Bernhardsson: In the last year, basically now in order to get the capacity we need, we had to work with a much larger set of clouds. We actually work with almost 25 clouds at this point.\nErik Bernhardsson: In many cases, in order to get the capacity we want, like we, we have to go into, you know, three plus year deals and you have to pay a meaningful amount of money upfront. And you\u2019re locking in pricing on a three year term, right?\nErik Bernhardsson: Sandboxes is now about a third of our revenue.\nErik Bernhardsson: 2027 might be the year of non NVIDIA accelerators. Finally, so we\u2019ll see if I\u2019m wrong this year too. But so I, you know, I am these are starting to get like really good scores on certain things.",
+    "episode_evidence": "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand.\nErik Bernhardsson: In the last year, basically now in order to get the capacity we need, we had to work with a much larger set of clouds. We actually work with almost 25 clouds at this point.\nErik Bernhardsson: In many cases, in order to get the capacity we want, like we, we have to go into, you know, three plus year deals and you have to pay a meaningful amount of money upfront. And you\u2019re locking in pricing on a three year term, right?\nErik Bernhardsson: Sandboxes is now about a third of our revenue.\nErik Bernhardsson: 2027 might be the year of non NVIDIA accelerators. Finally, so we\u2019ll see if I\u2019m wrong this year too. But so I, you know, I am these are starting to get like really good scores on certain things.",
     "falsification_tracks": [
       "By 2026-12-31, if Modal\u2019s sandboxes are still below 25% of revenue for two consecutive quarters, the product-mix shift thesis weakens; source: Modal investor updates or board-reported financial disclosures.",
       "By 2026-12-31, if Modal\u2019s median sandbox startup time remains above 8 seconds and p95 creation/restore latency does not improve by at least 20%, the ephemeral-workflow thesis is weakened; source: Modal technical benchmarks or performance blog posts.",
@@ -56238,7 +56197,7 @@ const dashboardData = {
     "mention_score_decayed": 4.99,
     "last_main_idea": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-10-15 \u2022 Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
-    "last_proof_snippet": "This is an existential issue for us. We can easily stop, but if we stop today, we lose. Functionally, capability, safety, security, they're all at exactly the same place. Priority number one. It's our third pod back together. In the last 10",
+    "last_proof_snippet": "You can't separate capability, functionality from safety and security.",
     "supporting_takeaway": "Huang argued that agentic AI depends on memory, knowledge graphs, and tool use, not just larger models, calling these systems a kind of \"harness\" or exoskeleton.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-16T12:12:22.611949",
@@ -56299,7 +56258,7 @@ const dashboardData = {
     "mention_score_decayed": 3.91,
     "last_main_idea": "AI and crypto-era frontier investing are converging into a broader opportunity set where faster startup formation, open models, and new internet economics could reshape multiple industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-22 \u2022 The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
-    "last_proof_snippet": "We're announcing today that we're expanding the ACC Crypto Fund to a 60 Z Frontier. This is the biggest delta between what they really adoptors understand this possible now, or what people understand. That gap is as wide as I've ever seen i",
+    "last_proof_snippet": "Expanding the scope of our crypto fund, to invest in a broader set of frontier technologies and markets that may take years to develop.",
     "supporting_takeaway": "Chris Dixon said stablecoins are now a normal part of the tech landscape and are used by companies like Stripe as part of their toolbox.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
@@ -56360,7 +56319,7 @@ const dashboardData = {
     "mention_score_decayed": 3.56,
     "last_main_idea": "Bianco\u2019s core claim is that long-duration Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-18 \u2022 Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
-    "last_proof_snippet": "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to tangibles. Learn more at Sarmayaetf.com and see the show notes for disclosures",
+    "last_proof_snippet": "Let's call that three-ish percent inflation, and I think inflation is going to stay sticky in the three percent range, and we could go through that if you want, and two-ish percent real growth. So, that will give you between five and six.",
     "supporting_takeaway": "Bianco said inflation is likely to stay \"sticky\" around 3% because tariffs, wars, deglobalization, and supply constraints have reduced the odds of returning to goods deflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-05-10T07:05:08.511229",
@@ -56496,7 +56455,7 @@ const dashboardData = {
     "mention_score_decayed": 2.38,
     "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
+    "last_proof_snippet": "You can literally look at many internet connections today they are actually using agile cryptography they're encrypted using elliptic curves and lattices at the same time.",
     "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -56554,9 +56513,9 @@ const dashboardData = {
     "last_episode_date": "2026-10-05",
     "mention_score": 3,
     "mention_score_decayed": 1.98,
-    "last_main_idea": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
+    "last_main_idea": "Josh Elman joined Olivia Moore to discuss a16z's seventh Top 100 Consumer AI Apps report, which for the first time adds consumer card spend data.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
-    "last_proof_snippet": "The most interesting big new trend is in personal agents. We're in this world where we're so excited by what Chatching Beauty did with turning things into conversation. And now these agents we can get in our messaging apps that turn them in",
+    "last_proof_snippet": "I think the reality is people are now building software and they're building these really rich products",
     "supporting_takeaway": "Olivia Moore claimed consumer AI remains a power-user market because about 4.5% of U.S. consumers pay for an AI subscription, while the top 1% of payers spend $903 per month and the median payer spends $25.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-19T06:57:36.826038",
@@ -56617,7 +56576,7 @@ const dashboardData = {
     "mention_score_decayed": 1.98,
     "last_main_idea": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
-    "last_proof_snippet": "The most interesting big new trend is in personal agents. We're in this world where we're so excited by what Chatching Beauty did with turning things into conversation. And now these agents we can get in our messaging apps that turn them in",
+    "last_proof_snippet": "The top 1% user is spending $903 per month personally on their personal credit cards on AI.",
     "supporting_takeaway": "Olivia Moore claimed consumer AI remains a power-user market because about 4.5% of U.S. consumers pay for an AI subscription, while the top 1% of payers spend $903 per month and the median payer spends $25.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-07-30T12:08:38.280949",
@@ -56682,9 +56641,9 @@ const dashboardData = {
     "last_episode_date": "2026-10-03",
     "mention_score": 3,
     "mention_score_decayed": 1.89,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_main_idea": "Amjad Masad joined OpenRouter's Alex Atallah to discuss Stripe's acquisition of OpenRouter and why AI may run on many models from many companies rather than one giant platform.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+    "last_proof_snippet": "Remember the days when computers did exactly what we told them to do.",
     "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-07-17T12:02:19.435586",
@@ -56801,7 +56760,7 @@ const dashboardData = {
     "mention_score_decayed": 1.45,
     "last_main_idea": "AI infrastructure bottlenecks are shifting from chip design to memory, packaging, power, and optics, creating new investment opportunities in those layers.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-09 \u2022 Chips, Memory, and Power | Pat Gelsinger",
-    "last_proof_snippet": "Then AI, digital age, energy capacity equals economic capacity. Why built the new data center and by a million GPUs, if I can't power that, you're going to see more and more defaults happening on many of those data center projects because t",
+    "last_proof_snippet": "You can design the thing in three months, but I can actually get it into real silicon at scale for nine months.",
     "supporting_takeaway": "Gelsinger argued the main bottlenecks are moving from design into manufacturing, packaging, memory, and power/thermal constraints.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
@@ -56865,9 +56824,9 @@ const dashboardData = {
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
     "mention_score_decayed": 1.37,
-    "last_main_idea": "Implement the CAPA framework to systematically address failures and enhance accountability.",
+    "last_main_idea": "Gurley argues catastrophic failures such as the COVID-19 response need independent investigations and a structured review framework (CAPA) so accountability improves.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
-    "last_proof_snippet": "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
+    "last_proof_snippet": "",
     "supporting_takeaway": "Push for independent investigations in public health crises to ensure transparency.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-19T05:24:40.074414",
@@ -56989,7 +56948,7 @@ const dashboardData = {
     "mention_score_decayed": 1.23,
     "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_proof_snippet": "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, Lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclosures",
+    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
     "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
@@ -58088,7 +58047,7 @@ const dashboardData = {
     "mention_score_decayed": 0.79,
     "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
+    "last_proof_snippet": "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them. The labs say that they fail to break them. That will give you tremendous confidence that our assumptions are valid.",
     "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -58115,7 +58074,7 @@ const dashboardData = {
     "mention_score_decayed": 0.79,
     "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
+    "last_proof_snippet": "",
     "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -58566,7 +58525,7 @@ const dashboardData = {
     "mention_score_decayed": 0.71,
     "last_main_idea": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-08 \u2022 Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
-    "last_proof_snippet": "This episode is brought to you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Theumatics ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclo",
+    "last_proof_snippet": "Right now, however, their order of visibility is very, very strong. And again, it seems to be strengthening regardless of who you're talking to in which part of the industry that they're in.",
     "supporting_takeaway": "Rasgon argues that forward earnings estimates have still been rising since June, so he does not think semiconductors are at an earnings-driven inflection yet.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -58927,9 +58886,9 @@ const dashboardData = {
     "last_episode_date": "2026-10-03",
     "mention_score": 1,
     "mention_score_decayed": 0.63,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+    "last_proof_snippet": "We don't want everyone to be a part of one giant company.",
     "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -61103,7 +61062,7 @@ const dashboardData = {
         },
         {
           "heading": "Global Food Security & Macro Trends",
-          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and thin global grain reserves could amplify these pressures."
+          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and low global grain reserves could amplify these pressures."
         },
         {
           "heading": "Water-Rich Land Strategy",
@@ -66740,7 +66699,7 @@ const dashboardData = {
   {
     "id": 317,
     "name": "Sergey Edunov",
-    "slug": "sergey-yuternoff",
+    "slug": "sergey-edunov",
     "bio": "Sergey Edunov is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Edunov has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
     "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
     "net_worth_usd": 600000000.0,
@@ -69650,129 +69609,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 255,
-    "name": "Dino Mavruchus",
-    "slug": "dino-mavruchus",
-    "bio": "Dino Mavruchus is the CEO of Marathon Marine, a company focused on modernizing shipbuilding. He is known for his work in autonomous shipbuilding and the first principles design approach, aiming to revolutionize the industry by focusing on production, cost, and scale.",
-    "known_for": "Pioneering autonomous shipbuilding and applying first principles design to modernize ship production.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Factual and solution-oriented.",
-    "voice_delivery_notes": "Clear and assertive, with a focus on the future of shipbuilding.",
-    "voice_profile_updated_at": "2026-05-19 17:12:15",
-    "last_seen": "2026-05-19 17:12:15",
-    "last_episode_title": "Rebuilding The American Shipyard",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
-    "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
-    "supporting_takeaway": "Evaluate firms using first principles design to reduce costs and improve efficiency.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-19T12:12:39.355255",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dino Mavruchus",
-      "fetched_at": "2026-05-19T17:12:39.354917+00:00",
-      "cliff_notes": "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability. Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships.",
-      "derived": {
-        "current_role": "CEO of Marathon Marine"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability.",
-        "Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Shipbuilding",
-          "body": "Mavruchus is at the forefront of developing autonomous ships, which can potentially transform the maritime industry by increasing efficiency and reducing costs."
-        },
-        {
-          "heading": "First Principles Design",
-          "body": "He advocates for a first principles design approach in shipbuilding, which involves rethinking the fundamental aspects of ship design and production to achieve better outcomes."
-        },
-        {
-          "heading": "Production Constraints",
-          "body": "Mavruchus identifies production, rather than innovation, as the current constraint in defense, emphasizing the need for faster, more cost-effective, and scalable shipbuilding methods."
-        },
-        {
-          "heading": "Rebuilding the Industrial Base",
-          "body": "He calls for a rebuild of the industrial base, arguing that the current model creates vulnerabilities and is not profitable, and that a new approach is necessary for the next century."
-        }
-      ]
-    }
-  },
-  {
-    "id": 256,
-    "name": "Honorable Duffy",
-    "slug": "honorable-duffy",
-    "bio": "The Honorable Duffy is a former Assistant Secretary of the Navy with extensive experience in defense acquisition. He is known for his understanding of the challenges and opportunities within the defense industrial base and his advocacy for rebuilding the industrial base to meet future defense needs.",
-    "known_for": "Advocating for the modernization and rebuilding of the defense industrial base to address production constraints and vulnerabilities.",
-    "net_worth_usd": 85900000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001212809/terrence-a-duffy",
-    "net_worth_updated_at": "2026-05-19T12:12:51.136425",
-    "voice_tone": "Authoritative and pragmatic.",
-    "voice_style": "Direct and policy-focused.",
-    "voice_delivery_notes": "Emphasizes the need for change and collaboration in the defense sector.",
-    "voice_profile_updated_at": "2026-05-19 17:12:15",
-    "last_seen": "2026-05-19 17:12:15",
-    "last_episode_title": "Rebuilding The American Shipyard",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
-    "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
-    "supporting_takeaway": "Evaluate firms using first principles design to reduce costs and improve efficiency.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-19T12:12:50.208561",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Honorable Duffy",
-      "fetched_at": "2026-05-19T17:12:50.208420+00:00",
-      "cliff_notes": "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense. His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector.",
-      "derived": {
-        "former_positions": "Assistant Secretary of the Navy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense.",
-        "His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector."
-      ],
-      "sections": [
-        {
-          "heading": "Defense Industrial Base",
-          "body": "Honorable Duffy is known for his expertise in understanding the challenges and opportunities within the defense industrial base, particularly the shift from innovation to production as the primary constraint."
-        },
-        {
-          "heading": "Rebuilding the Industrial Base",
-          "body": "Duffy has been a vocal advocate for rebuilding the defense industrial base to address production constraints and vulnerabilities, emphasizing the need for more founders, builders, and government support for change."
-        },
-        {
-          "heading": "Production Constraints",
-          "body": "Honorable Duffy highlights the increasing constraint in defense as production, rather than innovation, and the need for new approaches to manufacturing and procurement to meet future defense needs."
-        }
-      ]
-    },
-    "net_worth": "$85.9M"
   },
   {
     "id": 209,

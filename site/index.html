@@ -2047,7 +2047,7 @@
       <p class="subtitle">Summaries and themes from the podcasts and newsletters in our feed.</p>
       <p style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem;">
         <span id="last-updated">Last updated: —</span>
-        <span id="last-updated-meta"> · <span style="color: #a8b2d1;">Ticker cards show ~2-week % change where available</span></span>
+        <span id="last-updated-meta"></span>
       </p>
     </header>
 
@@ -2120,7 +2120,7 @@
         <!-- The Overton Window: emerging terms from the feed -->
         <div class="card" style="margin-top: 1rem;">
           <h2>The Overton Window</h2>
-          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">New ideas from the feed — ranked by novelty (freshness + source diversity + specificity), not raw volume. Saturated terms like AGI move to the Established tier below.</p>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">New ideas from the feed — ranked by novelty (freshness + source diversity + specificity), not raw volume. Saturated terms like AGI move to the Established tier below. Signal = that novelty score as a percentage; Curated = added by hand from specialist sources.</p>
           <div style="margin-bottom: 1.25rem;"></div>
 
           <div id="overton-window-list">
@@ -2166,7 +2166,7 @@
         <div class="card" id="guests-card">
           <h2>Pundits & Sources</h2>
           <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Podcast guests + curated X/niche voices — tap for profile and latest angle.</p>
-          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Ranked by recency; includes Fed plumbing, macro, and biotech sources.</p>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Ranked by recency; includes Fed money-market, macro, and biotech sources. Presence = recent guest appearances, weighted toward the latest; Latest proof = their most recent episode.</p>
           <div id="guests-list"></div>
           <!-- Niche X/Substack sources (from curated_sources.json) -->
           <div id="niche-sources-list" style="margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
@@ -2433,8 +2433,8 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1792796289"></script>
-  <script src="./js/common.js"></script>
+  <script src="./data/data.js?v=1792807929"></script>
+  <script src="./js/common.js?v=20261023b"></script>
   
   <script>
     var DEBUG_SITE = !!window.DEBUG_SITE;
@@ -2571,7 +2571,7 @@
       function provLine(label, dateStr, by, podcast, epTitle) {
         var bits = [];
         if (dateStr) bits.push(esc(dateStr));
-        bits.push(by ? esc(by) : '—');
+        if (by && by !== '—') bits.push(esc(String(by).replace(/^([^,]+) \(hosts\)$/, '$1 (host)')));
         if (podcast) bits.push(esc(podcast));
         if (epTitle) {
           var t = String(epTitle);
@@ -2676,8 +2676,8 @@
         const lt = (o.last_mentioned_episode_title || '').trim();
         const provBlock =
           '<div class="ow-provenance">' +
-            provLine('First detected', firstDate, firstBy || '—', fp, ft) +
-            provLine('Last detected', lastDate, lastBy || '—', lp, lt) +
+            provLine('First detected', firstDate, firstBy, fp, ft) +
+            provLine('Last detected', lastDate, lastBy, lp, lt) +
           '</div>';
 
         let legacy = '';
@@ -2724,7 +2724,8 @@
             sourceHtml += firstSource;
           }
           if (category) {
-            sourceHtml += ' <span style="color: #6b7280;">(' + category.replace(/_/g, ' ') + ')</span>';
+            const _catLabels = { fed_plumbing: 'Fed money markets', private_credit: 'private credit', ai_capex_credit: 'AI capex credit' };
+            sourceHtml += ' <span style="color: #6b7280;">(' + (_catLabels[c.category] || category.replace(/_/g, ' ')) + ')</span>';
           }
           sourceHtml += '</div>';
         }
@@ -3122,18 +3123,35 @@
             '</div>';
           }
           
+          // Oct 23 2026 sweep (b1/b2): the contract range and the on-demand "Sold Out" field come
+          // from SemiAnalysis's monthly contract table, which can lag the daily index by months.
+          // Hide both (and the "Contract as-of" label) when their period is more than ~1 month
+          // older than the daily date, so a stale month never sits next to today's price.
+          function _cfMonthIdx(label) {
+            const m = String(label || '').match(/([A-Za-z]{3})[A-Za-z]*\.?\s+(\d{4})/);
+            if (!m) return null;
+            const mi = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'].indexOf(m[1].toLowerCase());
+            return mi < 0 ? null : (parseInt(m[2], 10) * 12 + mi);
+          }
+          function _cfFresh(period) {
+            const a = _cfMonthIdx(period), b = _cfMonthIdx(dailyDate);
+            return a !== null && b !== null && (b - a) <= 1;
+          }
+          const showContract = v1y !== '—' && _cfFresh(contractPeriod);
+          const showSpot = vSpot !== '—' && _cfFresh((h100.on_demand && h100.on_demand.period) || contractPeriod);
+
           // Build the widget content - daily composite is PRIMARY
           computeEl.innerHTML = 
             '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
               '<span style="color: #a8b2d1;"><strong>H100:</strong> <span class="plumbing-num" style="color: #00d4ff;">' + vComposite + '</span></span>' +
-              '<span style="color: #a8b2d1;"><strong>1Y contract' + (contractPeriod !== '—' ? ' (' + contractPeriod + ' data)' : '') + ':</strong> <span class="plumbing-num">' + v1y + '</span></span>' +
-              '<span style="color: #a8b2d1;"><strong>Spot:</strong> ' + vSpot + '</span>' +
+              (showContract ? '<span style="color: #a8b2d1;"><strong>1Y contract (' + contractPeriod + '):</strong> <span class="plumbing-num">' + v1y + '</span></span>' : '') +
+              (showSpot ? '<span style="color: #a8b2d1;"><strong>On-demand (' + ((h100.on_demand && h100.on_demand.period) || contractPeriod) + '):</strong> ' + vSpot + '</span>' : '') +
             '</div>' +
             '<div style="margin-top: 0.2rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
               '<span style="color: #a8b2d1;"><strong>Trend:</strong> ' + vTrend + '</span>' +
             '</div>' +
             '<div style="margin-top: 0.25rem; color: #9ca3af; font-size: 0.65rem;">' +
-              '<span>Daily as-of: ' + dailyDate + ' · Contract as-of: ' + contractPeriod + '</span>' +
+              '<span>Daily as-of: ' + dailyDate + (showContract ? ' · Contract as-of: ' + contractPeriod : '') + '</span>' +
             '</div>' +
             staleIndicator;
           
@@ -3193,13 +3211,26 @@
       // Main page: cap to 12 pundits, sorted by Presence (mention_score_decayed) from backend.
       items = items.slice(0, 12);
 
+      // Oct 23 2026 sweep (c14): stored snippets are cut at a fixed length; end on the last full
+      // sentence (or word) instead of mid-word, and hide a snippet shared by several guests.
+      function trimProof(s) {
+        s = String(s || '').trim();
+        if (!s || /[.!?…"”')\]]$/.test(s)) return s;
+        var m = s.match(/^[\s\S]*[.!?](?=\s)/);
+        if (m && m[0].length >= 40) return m[0] + ' …';
+        var w = s.replace(/\s+\S*$/, '');
+        return (w || s) + '…';
+      }
+      var snipCount = {};
+      items.forEach(function(it) { var k = String(it.last_proof_snippet || '').trim(); if (k) snipCount[k] = (snipCount[k] || 0) + 1; });
       container.innerHTML = items.map(function(item) {
         var name = (item.name || 'Guest').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var known = (item.known_for || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var bio = (item.bio || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var idea = (item.last_main_idea || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var proofCite = (item.last_proof_cite || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        var proofSnip = (item.last_proof_snippet || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var rawSnip = String(item.last_proof_snippet || '').trim();
+        var proofSnip = (rawSnip && snipCount[rawSnip] === 1 ? trimProof(rawSnip) : '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var src = '';
         if (item.last_podcast_name || item.last_episode_date) {
           var epDateStr = item.last_episode_date ? formatSiteCalendarDate(item.last_episode_date, { month: 'short', day: 'numeric', year: 'numeric' }) : '';
@@ -3268,7 +3299,7 @@
           last_episode_date: item.last_episode_date || '',
           last_episode_title: item.last_episode_title || '',
           last_main_idea: item.last_main_idea || '',
-          last_proof_snippet: item.last_proof_snippet || '',
+          last_proof_snippet: (rawSnip && snipCount[rawSnip] === 1) ? trimProof(rawSnip) : '',
           last_proof_cite: item.last_proof_cite || '',
           supporting_takeaway: item.supporting_takeaway || '',
           bio: item.bio || '',
@@ -3414,10 +3445,10 @@
           <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📝 Summary</h4>
           <p style="color: #a8b2d1; line-height: 1.6;">${insight.summary}</p>
         </div>
-        <div style="margin-bottom: 1.5rem;">
+        ${tickerHtml ? `<div style="margin-bottom: 1.5rem;">
           <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📈 Key Tickers</h4>
-          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">${tickerHtml || 'None'}</div>
-        </div>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">${tickerHtml}</div>
+        </div>` : ''}
         <div>
           <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">💭 Sentiment</h4>
           <span style="${insight.sentiment === 'bullish' ? 'color: #4caf50;' : insight.sentiment === 'bearish' ? 'color: #f44336;' : 'color: #ffc107;'} font-weight: 600; font-size: 1rem;">${(insight.sentiment || 'neutral').toUpperCase()}</span>
@@ -3484,7 +3515,7 @@
         html += '<div class="source">' + sourceLine + '</div>';
         html += '<div class="text">' + renderInsightRecapHTML(insight) + '</div>';
         html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1; display: flex; justify-content: space-between; align-items: flex-end; gap: 0.5rem;">';
-        html += '<span><strong>Key Tickers:</strong> ' + tickerDisplay + '</span>' + deepDiveBtn;
+        html += (tickerArr.length > 0 ? '<span><strong>Key Tickers:</strong> ' + tickerDisplay + '</span>' : '<span></span>') + deepDiveBtn;
         html += '</div></div></div>';
       }
       container.innerHTML = html;

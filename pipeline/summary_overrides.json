@@ -927,6 +927,163 @@
       "drop_tickers": [
         "AMP"
       ]
+    },
+    {
+      "insight_id": 610,
+      "podcast_episode_id": 600,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c20): first-use jargon glosses",
+      "replacements": [
+        [
+          "especially EUV—acting",
+          "especially EUV (extreme-ultraviolet lithography tools)—acting"
+        ],
+        [
+          "without a mature PDK,",
+          "without a mature PDK (chip design kit),"
+        ],
+        [
+          "current HVM around",
+          "current HVM (high-volume manufacturing) around"
+        ]
+      ]
+    },
+    {
+      "insight_id": 606,
+      "podcast_episode_id": 595,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c20): first-use jargon gloss",
+      "replacements": [
+        [
+          "permissioning and RBAC cited",
+          "permissioning and RBAC (role-based access control) cited"
+        ]
+      ]
+    },
+    {
+      "insight_id": 608,
+      "podcast_episode_id": 598,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c20): first-use jargon gloss",
+      "replacements": [
+        [
+          "Quantum-readiness tooling, open-weight inference stacks",
+          "Quantum-readiness tooling, open-weight (model weights published) inference stacks"
+        ],
+        [
+          "while open-weight models on owned GPUs",
+          "while open-weight models (model weights published) on owned GPUs"
+        ]
+      ]
+    },
+    {
+      "insight_id": 605,
+      "podcast_episode_id": 594,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c20): first-use jargon gloss",
+      "replacements": [
+        [
+          "interpretation of its S-1.",
+          "interpretation of its S-1 (IPO filing)."
+        ]
+      ]
+    },
+    {
+      "insight_id": 609,
+      "podcast_episode_id": 597,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c15): 72M x $140 = $10.08B",
+      "replacements": [
+        [
+          "the total transfer would be about $10.5 billion",
+          "the total transfer would be about $10 billion"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 595,
+      "insight_id": 606,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c21: paraphrases shown as direct quotes become summary lines",
+      "paraphrase_quotes": [
+        [
+          "AI strategists are responsible for customer retention",
+          "Alex Lieberman argued that Tenex’s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn’t serve the client."
+        ],
+        [
+          "checked into Git alongside the code",
+          "CJ Hess said Tenex checks its plans and decisions into Git alongside the code."
+        ]
+      ],
+      "replacements": [
+        [
+          "CJ Hess: Plans and decisions are checked into Git alongside the code.",
+          "CJ Hess said Tenex checks its plans and decisions into Git alongside the code."
+        ],
+        [
+          "Alex Lieberman: Tenex’s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn’t serve the client.",
+          "Alex Lieberman argued that Tenex’s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn’t serve the client."
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 601,
+      "insight_id": 614,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c21: paraphrase shown as a direct quote becomes a summary line",
+      "paraphrase_quotes": [
+        [
+          "Real workloads behave differently",
+          "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand."
+        ]
+      ],
+      "replacements": [
+        [
+          "Erik Bernhardsson: Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand.",
+          "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand."
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 228,
+      "insight_id": 243,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c23: unverifiable garbled guest name removed (no guessed replacement)",
+      "replacements": [
+        [
+          "Dino Mavruchus states, 'You have to bend",
+          "One guest states, 'You have to bend"
+        ],
+        [
+          "with Mavruchus providing a stark comparison",
+          "with the guest providing a stark comparison"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 598,
+      "insight_id": 608,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023): banned word 'thin' outside quotes",
+      "replacements": [
+        [
+          "a thin workflow layer",
+          "a light workflow layer"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 427,
+      "insight_id": 441,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023): banned word 'thin' outside quotes",
+      "replacements": [
+        [
+          "is wearing thin",
+          "is running out"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 308,
+      "insight_id": 323,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023): banned word 'thin' outside quotes",
+      "replacements": [
+        [
+          "highlighting the razor-thin margins in retail",
+          "highlighting the very low margins in retail"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -970,6 +1127,12 @@
       "scope": "overton",
       "drop": true,
       "_note": "Oct 20 2026: Overton mirror of term 859 (overton id 305); quote fragment, duplicate of Superintelligence."
+    },
+    {
+      "term": "Return to Tangibles",
+      "scope": "overton",
+      "drop": true,
+      "_note": "Oct 23 2026 full sweep c19: sponsor ad-read thesis (Sarmaya Partners), not a guest idea; mirror of overton_demote.json id 297."
     }
   ],
   "global_replacements": [
@@ -1272,6 +1435,10 @@
     [
       "Jamoth, Paul Habatilla (as referenced in transcript context)",
       "Chamath Palihapitiya"
+    ],
+    [
+      "neurodiverse routing across multiple models",
+      "routing across multiple models"
     ]
   ],
   "global_name_replacements": [
@@ -2514,6 +2681,16 @@
       "id": 567,
       "name": "Gary Dickerson",
       "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #5): clip in Dwarkesh Intel tour, not a guest"
+    },
+    {
+      "id": 255,
+      "name": "Dino Mavruchus",
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c23: unverifiable garbled name; removed rather than guessed"
+    },
+    {
+      "id": 256,
+      "name": "Honorable Duffy",
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c23: unverifiable garbled name; removed rather than guessed"
     }
   ],
   "pundit_overrides": [
@@ -3370,6 +3547,175 @@
         "last_main_idea": "The “three seas” energy shock is mainly a refinery-products crisis: crude moves, but only 25% to 35% of pre-crisis product flows are moving, keeping crack spreads elevated.",
         "supporting_takeaway": "Dr. Anas Alhajji said Saudi Arabia wants total pipeline capacity to reach 10 million bpd, including bypass routes around vulnerable chokepoints."
       }
+    },
+    {
+      "id": 96,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c5): Jensen Huang: host intro cut mid-sentence -> Jensen's own line from BG2 card 592 notable_quotes",
+      "replacements": [
+        [
+          "This is an existential issue for us. We can easily stop, but if we stop today, we lose. Functionally, capability, safety, security, they're all at exactly the same place. Priority number one. It's our third pod back together. In the last 10",
+          "You can't separate capability, functionality from safety and security."
+        ]
+      ]
+    },
+    {
+      "id": 133,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c6): Chris Dixon: garbled ASR -> Dixon's line from a16z card 612 notable_quotes",
+      "replacements": [
+        [
+          "We're announcing today that we're expanding the ACC Crypto Fund to a 60 Z Frontier. This is the biggest delta between what they really adoptors understand this possible now, or what people understand. That gap is as wide as I've ever seen i",
+          "Expanding the scope of our crypto fund, to invest in a broader set of frontier technologies and markets that may take years to develop."
+        ]
+      ]
+    },
+    {
+      "id": 54,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c7): Jim Bianco: sponsor read -> Bianco's line from Monetary Matters card 600 notable_quotes",
+      "replacements": [
+        [
+          "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to tangibles. Learn more at Sarmayaetf.com and see the show notes for disclosures",
+          "Let's call that three-ish percent inflation, and I think inflation is going to stay sticky in the three percent range, and we could go through that if you want, and two-ish percent real growth. So, that will give you between five and six."
+        ]
+      ]
+    },
+    {
+      "id": 129,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c9): Eddy Lazzarin: host intro with ASR garble -> Lazzarin's line from a16z card 585 notable_quotes",
+      "replacements": [
+        [
+          "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
+          "You can literally look at many internet connections today they are actually using agile cryptography they're encrypted using elliptic curves and lattices at the same time."
+        ]
+      ]
+    },
+    {
+      "id": 530,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c9): Dan Boneh: same garbled host intro -> Boneh's line from card 585 notable_quotes",
+      "replacements": [
+        [
+          "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
+          "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them. The labs say that they fail to break them. That will give you tremendous confidence that our assumptions are valid."
+        ]
+      ]
+    },
+    {
+      "id": 531,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c9): Justin Thaler: same garbled host intro; no Thaler line in source data -> hidden",
+      "replacements": [
+        [
+          "All of a sudden, a new threat merged in the world of photography, which is whether our AI friends can actually attack crypto systems that we thought were secure. The fear here is that the AI labs could break them if they are breakable. The",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c10): Olivia Moore: shared garbled quote -> Moore's own line from card 567 notable_quotes",
+      "replacements": [
+        [
+          "The most interesting big new trend is in personal agents. We're in this world where we're so excited by what Chatching Beauty did with turning things into conversation. And now these agents we can get in our messaging apps that turn them in",
+          "The top 1% user is spending $903 per month personally on their personal credit cards on AI."
+        ]
+      ]
+    },
+    {
+      "id": 305,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c10): Josh Elman: shared garbled quote -> Elman's own line from card 567 notable_quotes; thesis was Moore's",
+      "replacements": [
+        [
+          "The most interesting big new trend is in personal agents. We're in this world where we're so excited by what Chatching Beauty did with turning things into conversation. And now these agents we can get in our messaging apps that turn them in",
+          "I think the reality is people are now building software and they're building these really rich products"
+        ],
+        [
+          "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
+          "Josh Elman joined Olivia Moore to discuss a16z's seventh Top 100 Consumer AI Apps report, which for the first time adds consumer card spend data."
+        ]
+      ]
+    },
+    {
+      "id": 180,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c11): Amjad Masad: garbled quote -> Masad's own line from card 564 notable_quotes; thesis was Atallah's",
+      "replacements": [
+        [
+          "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+          "Remember the days when computers did exactly what we told them to do."
+        ],
+        [
+          "Alex Atallah argues AI infrastructure will shift toward routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+          "Amjad Masad joined OpenRouter's Alex Atallah to discuss Stripe's acquisition of OpenRouter and why AI may run on many models from many companies rather than one giant platform."
+        ]
+      ]
+    },
+    {
+      "id": 505,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c11): Alex Atallah: garbled quote -> Atallah's own line from card 564 notable_quotes",
+      "replacements": [
+        [
+          "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+          "We don't want everyone to be a part of one giant company."
+        ]
+      ]
+    },
+    {
+      "id": 267,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c12): Bill Gurley: host intro -> hidden (no Gurley line in source data); thesis restated from card 511 summary",
+      "replacements": [
+        [
+          "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
+          ""
+        ],
+        [
+          "Implement the CAPA framework to systematically address failures and enhance accountability.",
+          "Gurley argues catastrophic failures such as the COVID-19 response need independent investigations and a structured review framework (CAPA) so accountability improves."
+        ]
+      ]
+    },
+    {
+      "id": 335,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c13): Pat Gelsinger: garbled ASR -> Gelsinger's line from card 577 notable_quotes",
+      "replacements": [
+        [
+          "Then AI, digital age, energy capacity equals economic capacity. Why built the new data center and by a million GPUs, if I can't power that, you're going to see more and more defaults happening on many of those data center projects because t",
+          "You can design the thing in three months, but I can actually get it into real silicon at scale for nine months."
+        ]
+      ]
+    },
+    {
+      "id": 300,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c7): Ed Zitron: same sponsor read -> Zitron's line from his card's notable_quotes",
+      "replacements": [
+        [
+          "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, Lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclosures",
+          "Anthropic, at least in 2025, was a worse business than OpenAI."
+        ]
+      ]
+    },
+    {
+      "id": 515,
+      "_note": "Oct 23 2026 full sweep (cos/sweep_1023_full/fixes.md c7): Stacy Rasgon: same sponsor read -> Rasgon's line from his card's notable_quotes",
+      "replacements": [
+        [
+          "This episode is brought to you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Theumatics ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclo",
+          "Right now, however, their order of visibility is very, very strong. And again, it seems to be strengthening regardless of who you're talking to in which part of the industry that they're in."
+        ]
+      ]
+    },
+    {
+      "id": 317,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c23: slug still carried the garbled 'Yuternoff' form",
+      "set": {
+        "slug": "sergey-edunov"
+      }
+    },
+    {
+      "id": 449,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023): banned word 'thin' outside quotes",
+      "replacements": [
+        [
+          "thin global grain reserves",
+          "low global grain reserves"
+        ]
+      ]
     }
   ],
   "pundit_merges": [

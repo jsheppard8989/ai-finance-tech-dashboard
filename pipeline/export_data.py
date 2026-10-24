@@ -269,6 +269,8 @@ def _apply_summary_overrides(obj):
       Optional 'drop_tickers' removes symbols from tickers_mentioned / key_tickers.
       Optional 'rename_tickers' renames symbols in those fields and ticker_analysis keys.
       Optional 'add_key_tickers' appends missing symbols to key_tickers (idempotent).
+      Optional 'paraphrase_quotes' [[needle, summary]] turns a paraphrased notable quote into a
+      summary line (quote=summary, paraphrase=True; shown without quote marks).
     - 'global_replacements': exact swaps applied to every string anywhere (except title
       fields), e.g. mis-transcribed speaker names in pundits/overton/podcastGuests.
     - 'global_name_replacements': WHOLE-WORD [old, new] swaps on every string except titles,
@@ -298,6 +300,10 @@ def _apply_summary_overrides(obj):
             o["key_tickers"] = _add_key_tickers(o["key_tickers"], r["add_key_tickers"])
         if r.get("drop_quotes") and "notable_quotes" in o:
             o["notable_quotes"] = _drop_quotes(o["notable_quotes"], r["drop_quotes"])
+        # Oct 23 2026 (c21): a "quote" that is really a paraphrase becomes a summary line
+        # (rendered without quote marks or a "Speaker:" label).
+        if r.get("paraphrase_quotes") and "notable_quotes" in o:
+            o["notable_quotes"] = _paraphrase_quotes(o["notable_quotes"], r["paraphrase_quotes"])
         # Oct 21 2026: curated sentiment correction (scoped by ids like the other fields)
         if r.get("set_sentiment") and "sentiment" in o:
             o["sentiment"] = r["set_sentiment"]
@@ -397,6 +403,32 @@ def _drop_quotes(value, needles):
             return value
         if isinstance(parsed, list):
             return json.dumps([q for q in parsed if keep(q)])
+    return value
+
+
+def _paraphrase_quotes(value, pairs):
+    """Oct 23 2026 (c21): [[needle, summary], ...]. A notable_quotes entry whose quote text
+    contains needle gets quote=summary and paraphrase=True (idempotent; list or JSON string)."""
+    def fix(items):
+        out = []
+        for q in items:
+            if isinstance(q, dict):
+                text = q.get("quote", "") or ""
+                for needle, summary in pairs:
+                    if needle and (needle in text or text == summary):
+                        q = dict(q, quote=summary, paraphrase=True)
+                        break
+            out.append(q)
+        return out
+    if isinstance(value, list):
+        return fix(value)
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except Exception:
+            return value
+        if isinstance(parsed, list):
+            return json.dumps(fix(parsed))
     return value
 
 

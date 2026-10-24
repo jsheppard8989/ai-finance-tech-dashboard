@@ -339,7 +339,7 @@
   <div class="container">
     <header>
       <h1>The Long and Short of It</h1>
-      <p class="subtitle">“If a topic can’t yield a clean Yes/No contract, it’s not a topic—it’s a philosophy seminar.” — 6AIndolf, 2026</p>
+      <p class="subtitle">“If a topic can’t yield a clean Yes/No contract, it’s not a topic—it’s a philosophy seminar.”</p>
       <div class="back-link">
         <a href="index.html">← Back to main dashboard</a>
       </div>
@@ -364,7 +364,7 @@
         <button id="vote-down" class="pill" style="cursor:pointer; user-select:none; border-color: rgba(248,113,113,0.55);">
           <strong style="color:#f87171;">👎</strong> <span>Down</span> <span id="vote-down-count" style="opacity:0.9;">0</span>
         </button>
-        <span style="color:#8892b0; font-size:0.8rem;">Quick signal only. (Shared voting backend coming.)</span>
+        <span style="color:#8892b0; font-size:0.8rem;">Quick signal only.</span>
       </div>
       <div class="debate-meta" id="debate-meta"></div>
       <div class="methodology" id="debate-methodology">
@@ -408,7 +408,7 @@
 
     <div class="card" id="history-card">
       <h2>Prior weeks &amp; call status</h2>
-      <p class="tagline">Outcomes use the same Affirmative green / Negative red as debater tags above. Contracts resolve based on publicly verifiable facts — official market closes (Yahoo Finance for equities, CoinGecko for crypto), government announcements, election results, or other documented sources cited in each resolution. You can also set status via <code style="font-size:0.75rem;">debate_weekly.py --mark-resolved</code>. Listen controls appear only when that week’s archive MP3 is on the server.</p>
+      <p class="tagline">Outcomes use the same Affirmative green / Negative red as debater tags above. Contracts resolve based on publicly verifiable facts — official market closes (Yahoo Finance for equities, CoinGecko for crypto), government announcements, election results, or other documented sources cited in each resolution. Listen controls appear only when that week’s archive MP3 is on the server.</p>
       <div id="history-empty" style="color:#8892b0;font-size:0.85rem;">Loading prior weeks…</div>
       <table class="history-table" id="history-table" style="display:none;">
         <thead>
@@ -429,8 +429,8 @@
   <div class="site-disclaimer" style="max-width: 900px; margin: 2rem auto 1.5rem; padding: 0.75rem 1rem; text-align: center; color: #8892b0; font-size: 0.75rem; border-top: 1px solid rgba(255,255,255,0.1);">
     <strong>Disclaimer:</strong> Nothing on this page constitutes investment advice or a recommendation to buy or sell any security.
   </div>
-  <script src="./js/common.js"></script>
-  <script src="./data/data.js?v=1792796289"></script>
+  <script src="./js/common.js?v=20261023b"></script>
+  <script src="./data/data.js?v=1792807929"></script>
   <script>
     (function() {
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
@@ -579,6 +579,21 @@
         }
       }
 
+      // Oct 23 2026 sweep (b12): once a contract is resolved, say so instead of showing the old
+      // "Resolves …" rule as if it were still open.
+      function resolvedExpiryText(c, st) {
+        if (!c || (st !== 'yes' && st !== 'no' && st !== 'void')) return '';
+        var rAt = String(c.resolved_at || '').slice(0, 10);
+        var iso = String(c.resolves_iso || '').slice(0, 10);
+        var out = 'Resolved ' + st.toUpperCase() + (/^\d{4}-\d{2}-\d{2}$/.test(rAt) ? ' on ' + formatDate(rAt) : '');
+        if (/^\d{4}-\d{2}-\d{2}$/.test(iso)) {
+          var dow = new Date(iso + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' });
+          var todayCt = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
+          out += ' (window ' + (todayCt >= iso ? 'closed' : 'closes') + ' ' + dow + ' ' + formatDate(iso) + ', 12:00 PM CT)';
+        }
+        return out;
+      }
+
       function formatResolvesCell(w) {
         var iso = resolvesIsoFromWeek(w);
         if (!iso) return '—';
@@ -699,7 +714,7 @@
           return '<tr><td>' + (w.week_label || w.friday_iso || '—') + '</td>' +
             '<td>' + formatResolvesCell(w) + '</td>' +
             '<td class="history-prompt">' + pr + '</td>' +
-            '<td>' + (w.debater_a || '') + ' vs ' + (w.debater_b || '') + '</td>' +
+            '<td>' + ((w.debater_a || w.debater_b) ? (w.debater_a || '—') + ' vs ' + (w.debater_b || '—') : '—') + '</td>' +
             '<td class="' + cls + '">' + label + (w.resolution_notes ? '<div style="font-size:0.72rem;opacity:0.85;margin-top:0.2rem;">' + String(w.resolution_notes).replace(/</g, '&lt;').slice(0, 120) + '</div>' : '') + '</td>' +
             '<td>' + audio + '</td></tr>';
         });
@@ -789,7 +804,7 @@
         }
         if (callRow) {
           var bs = (contract && contract.bet_status) ? String(contract.bet_status).toLowerCase() : 'open';
-          var exp = contract && contract.expires_rule ? contract.expires_rule : '';
+          var exp = resolvedExpiryText(contract, bs) || (contract && contract.expires_rule ? contract.expires_rule : '');
           var bsLabel = bs === 'open' ? 'OPEN' : ((bs === 'yes' || bs === 'no') ? 'RESOLVED ' + bs.toUpperCase() : bs.toUpperCase());
           var bsNote = (bs !== 'open' && contract && contract.resolution_notes) ? '<div style="font-size:0.78rem;opacity:0.85;margin-top:0.3rem;">' + String(contract.resolution_notes).replace(/</g, '&lt;') + '</div>' : '';
           var bsClass = bs === 'yes' ? 'resolved-yes' : (bs === 'no' ? 'resolved-no' : (bs === 'void' ? 'resolved-void' : 'open'));
@@ -847,7 +862,8 @@
           sourceBits.push('Theme: ' + contract.crux_theme);
         }
         if (contract && contract.expires_rule) {
-          sourceBits.push(`Expires: ${contract.expires_rule}`);
+          var _rx = resolvedExpiryText(contract, String((contract.resolution_status || contract.bet_status) || '').toLowerCase());
+          sourceBits.push(_rx ? _rx.replace(/</g, '&lt;') : `Expires: ${contract.expires_rule}`);
         }
         metaEl.innerHTML = sourceBits.length
           ? sourceBits.map(b => `<span class="pill">${b}</span>`).join(' ')
