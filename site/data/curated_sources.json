@@ -66,7 +66,7 @@
       "x_handle": "@crossbordercap",
       "x_url": "https://x.com/crossbordercap",
       "_note_x": "Oct 23 2026 sweep (a2): @crossabordr not found; @crossbordercap is CrossBorder Capital/ GLIndexes (X API)",
-      "website_url": "https://www.crossbordercapital.com/",
+      "website_url": "https://www.glindexes.com/",
       "last_updated": "2026-09-02",
       "ingestion_status": "seed_only",
       "ingestion_hook": "Website scrape or X API"
