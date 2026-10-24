@@ -57,10 +57,12 @@ def update_portfolio():
     with open(PORTFOLIO_FILE, 'r') as f:
         portfolio = json.load(f)
     
+    any_ok = False
     for basket in portfolio.get("baskets", []):
         print(f"\nUpdating basket: {basket.get('title', 'Unknown')}")
         
         basket_current_value = 0.0
+        all_ok = True
         
         for name in basket.get("names", []):
             for k in EXIT_FIELDS:  # Red Team Fix 4: keep exit fields on every position (null until G fills them)
@@ -83,9 +85,15 @@ def update_portfolio():
                 
                 print(f"${price:.2f} ({change_pct:+.2f}%)")
             else:
-                name["current_value"] = name.get("notional", 1000)
-                basket_current_value += name.get("notional", 1000)
-                print("Failed - using notional")
+                # Keep the last good mark rather than resetting to notional, and do
+                # not advance last_updated, so "Prices as of" never overstates freshness.
+                all_ok = False
+                prev = name.get("current_value")
+                if prev is None:
+                    prev = name.get("notional", 1000)
+                    name["current_value"] = prev
+                basket_current_value += prev
+                print("Failed - keeping previous mark")
         
         basket["basket_current_value"] = round(basket_current_value, 2)
         basket_notional = basket.get("basket_notional_usd", 5000)
@@ -96,9 +104,12 @@ def update_portfolio():
             (basket_current_value / basket_notional) * basket.get("index_start", 100), 2
         )
         
-        basket["last_updated"] = datetime.now().isoformat()
-    
-    portfolio["_metadata"]["last_updated"] = datetime.now().isoformat()
+        if all_ok:
+            basket["last_updated"] = datetime.now().isoformat()
+            any_ok = True
+
+    if any_ok:
+        portfolio.setdefault("_metadata", {})["last_updated"] = datetime.now().isoformat()
     
     with open(PORTFOLIO_FILE, 'w') as f:
         json.dump(portfolio, f, indent=2)

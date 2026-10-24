@@ -47,23 +47,22 @@ def test_recent_results_sorted_coupons_only():
     assert [x["cusip"] for x in r] == ["912810UW6", "91282CRQ6", "91282CRD5"]
     assert r[0]["high_yield_pct"] == 5.618
     assert r[0]["bid_to_cover"] == 2.54
-    assert r[0]["security"] == "30-Year Bond (29y10m reopening)"
+    assert r[0]["security"] == "30-Year Bond (reopening of a 30-year bond, 29 years 10 months left)"
     assert r[0]["size_billions"] == 22.0
     assert r[2]["high_yield_pct"] is None and r[2]["high_discount_margin_pct"] == 0.04
-    assert r[2]["security"].startswith("2-Year FRN")
+    assert r[2]["security"].startswith("2-Year Floating-Rate Note (reopening of a 2-year floating-rate note, 1 year 10 months left)")
 
 
 def test_upcoming_drops_past_and_bills():
     cal = ftc.build_calendar(AUCTIONED, UPCOMING, today=date(2026, 10, 9))
     ups = cal["upcoming_auctions"]
-    assert [u["date"] for u in ups] == ["2026-10-21", "2026-10-22"]
-    assert ups[0]["security"] == "20-Year Bond (19y10m reopening)"
-    assert ups[1]["security"] == "5-Year TIPS"
+    assert [u["date"] for u in ups] == ["2026-10-21"]  # 10/22 5-Year TIPS excluded
+    assert ups[0]["security"] == "20-Year Bond (reopening of a 20-year bond, 19 years 10 months left)"
 
 
 def test_upcoming_filters_relative_to_today():
-    cal = ftc.build_calendar(AUCTIONED, UPCOMING, today=date(2026, 10, 22))
-    assert [u["date"] for u in cal["upcoming_auctions"]] == ["2026-10-22"]
+    cal = ftc.build_calendar(AUCTIONED, UPCOMING, today=date(2026, 10, 21))
+    assert [u["date"] for u in cal["upcoming_auctions"]] == ["2026-10-21"]
 
 
 def test_sizes_filled_from_announced():
@@ -117,3 +116,68 @@ def test_main_fetch_failure_marks_stale(monkeypatch):
 
 def test_tests_never_touch_real_site_data():
     assert "site_data" in str(ftc.MARKET_DATA_FILE)
+
+
+# --- Regression: TA_WS new field names (~Oct 2026) + several records per CUSIP ---
+NEW_SCHEMA_UW6 = [
+    # 10/08 reopening results record (new TA_WS names, no auctionDate)
+    {"securityType": "Bond", "securityTerm": "29-Year 10-Month", "originalSecurityTerm": "30-Year",
+     "reopening": "Yes", "floatingRate": "No", "cusip": "912810UW6",
+     "competitiveAuctionCloseDate": "2026-10-08T00:00:00", "issueDate": "2026-10-15T00:00:00",
+     "offeringAmount": "22000000000", "highYield": "5.618", "bidToCoverRatio": "2.54",
+     "allottedAtHighYieldPercentage": "26.77", "grandTotalParRecognized": "56435875700",
+     "grandTotalParAwarded": "22522535300", "primaryDealersCompetitiveParAwarded": "1490500000",
+     "directBiddersCompetitiveParAwarded": "4583044100", "indirectBiddersCompetitiveParAwarded": "15866059500",
+     "treasuryAuctionResultsPressReleaseFileName": "R_20261008_3.pdf", "allocationPercentage": None,
+     "totalTendered": None},
+    # Same CUSIP + date, announcement-style record with no results except a stale size
+    {"securityType": "Bond", "securityTerm": "29-Year 10-Month", "originalSecurityTerm": "30-Year",
+     "reopening": "Yes", "cusip": "912810UW6", "competitiveAuctionCloseDate": "2026-10-08T00:00:00",
+     "offeringAmount": "16000000000", "highYield": "5.204", "bidToCoverRatio": None},
+    # Earlier auction of the same CUSIP (09/10) stays a separate row
+    {"securityType": "Bond", "securityTerm": "29-Year 11-Month", "originalSecurityTerm": "30-Year",
+     "reopening": "Yes", "cusip": "912810UW6", "competitiveAuctionCloseDate": "2026-09-10T00:00:00",
+     "offeringAmount": "22000000000", "highYield": "5.308", "bidToCoverRatio": "2.61",
+     "allottedAtHighYieldPercentage": "64.29", "grandTotalParRecognized": "57467000000",
+     "treasuryAuctionResultsPressReleaseFileName": "R_20260910_3.pdf"},
+]
+
+
+def test_new_field_names_and_multiple_records_per_cusip():
+    tc = ftc.build_calendar(list(reversed(NEW_SCHEMA_UW6)), [], today=date(2026, 10, 23))
+    rows = [r for r in tc["recent_auction_results"] if r["cusip"] == "912810UW6"]
+    assert [r["date"] for r in rows] == ["2026-10-08", "2026-09-10"]
+    r = rows[0]
+    assert (r["size_billions"], r["high_yield_pct"], r["bid_to_cover"]) == (22.0, 5.618, 2.54)
+    assert r["allocation_at_high_pct"] == 26.77
+    assert r["total_tendered_billions"] == 56.436
+    assert r["total_accepted_billions"] == 22.523
+    assert r["primary_dealer_accepted_billions"] == 1.49
+    assert r["direct_accepted_billions"] == 4.583
+    assert r["indirect_accepted_billions"] == 15.866
+    assert r["results_pdf"] == "R_20261008_3.pdf"
+    assert rows[1]["results_pdf"] == "R_20260910_3.pdf"
+
+
+def test_frn_allotment_new_field():
+    x = {"securityType": "Note", "securityTerm": "1-Year 10-Month", "floatingRate": "Yes", "cusip": "F",
+         "competitiveAuctionCloseDate": "2026-09-23T00:00:00", "highDiscountMargin": "0.04",
+         "allottedAtHighYieldPercentage": "", "allottedAtHighDiscountMarginPercentage": "42.15"}
+    assert ftc.build_result(x)["allocation_at_high_pct"] == 42.15
+
+
+def test_tips_excluded_from_upcoming_and_recent():
+    base = {"securityType": "Note", "securityTerm": "5-Year", "originalSecurityTerm": "5-Year",
+            "floatingRate": "No", "highYield": "2.367", "bidToCoverRatio": "2.41", "offeringAmount": "26000000000"}
+    tips_new = dict(base, cusip="TIPSNEW", type="TIPS", inflationProtected="Yes",
+                    cpiBaseReferencePeriod="1982-1984", competitiveAuctionCloseDate="2026-10-22T00:00:00")
+    tips_old = dict(base, cusip="TIPSOLD", tips="Yes", competitiveAuctionCloseDate="2026-10-20T00:00:00")
+    frn = dict(base, cusip="FRN1", floatingRate="Yes", type="FRN", highYield=None, highDiscountMargin="0.04",
+               competitiveAuctionCloseDate="2026-10-21T00:00:00")
+    nominal = dict(base, cusip="NOM1", type="Note", inflationProtected="No",
+                   competitiveAuctionCloseDate="2026-10-19T00:00:00")
+    up_tips = dict(base, cusip="UPTIPS", inflationProtected="Yes", auctionDate="2026-10-29T00:00:00")
+    up_nom = dict(base, cusip="UPNOM", auctionDate="2026-10-28T00:00:00")
+    tc = ftc.build_calendar([tips_new, tips_old, frn, nominal], [up_tips, up_nom], today=date(2026, 10, 23))
+    assert {r["cusip"] for r in tc["recent_auction_results"]} == {"FRN1", "NOM1"}
+    assert [a["cusip"] for a in tc["upcoming_auctions"]] == ["UPNOM"]

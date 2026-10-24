@@ -60,6 +60,34 @@ def auction_date(x: Dict[str, Any]) -> Optional[str]:
     return _d(x.get("auctionDate") or x.get("competitiveAuctionCloseDate"))
 
 
+def _pick(x: Dict[str, Any], *keys: str) -> Any:
+    """First non-empty value among keys. TA_WS renamed result fields ~Oct 2026
+    (e.g. allocationPercentage -> allottedAtHighYieldPercentage); old names first."""
+    for k in keys:
+        v = x.get(k)
+        if v not in (None, ""):
+            return v
+    return None
+
+
+RESULT_FIELDS = {
+    "allocation": ("allocationPercentage", "allottedAtHighYieldPercentage",
+                   "allottedAtHighDiscountMarginPercentage", "allottedAtHighRatePercentage"),
+    "tendered": ("totalTendered", "grandTotalParRecognized"),
+    "accepted": ("totalAccepted", "grandTotalParAwarded"),
+    "primary": ("primaryDealerAccepted", "primaryDealersCompetitiveParAwarded"),
+    "direct": ("directBidderAccepted", "directBiddersCompetitiveParAwarded"),
+    "indirect": ("indirectBidderAccepted", "indirectBiddersCompetitiveParAwarded"),
+    "pdf": ("pdfFilenameCompetitiveResults", "treasuryAuctionResultsPressReleaseFileName"),
+}
+
+
+def results_filled(x: Dict[str, Any]) -> int:
+    """How many auction-result fields a record has (announcement records have none)."""
+    n = sum(1 for keys in RESULT_FIELDS.values() if _pick(x, *keys) is not None)
+    return n + sum(1 for k in ("highYield", "highDiscountMargin", "bidToCoverRatio") if x.get(k) not in (None, ""))
+
+
 def _f(v: Any, nd: int = 3) -> Optional[float]:
     try:
         if v in (None, ""):
@@ -74,13 +102,14 @@ def _bn(v: Any) -> Optional[float]:
     return round(x / 1e9, 3) if x is not None else None
 
 
-def _term_short(term: str) -> str:
-    """'29-Year 10-Month' -> '29y10m'."""
+def _term_long(term: str) -> str:
+    """'19-Year 10-Month' -> '19 years 10 months'."""
     out = []
     for part in (term or "").split():
         num, _, unit = part.partition("-")
-        out.append(num + (unit[:1].lower() if unit else ""))
-    return "".join(out)
+        u = unit.lower()
+        out.append(f"{num} {u}{'' if num == '1' else 's'}" if u else num)
+    return " ".join(out)
 
 
 def security_label(x: Dict[str, Any]) -> str:
@@ -89,21 +118,32 @@ def security_label(x: Dict[str, Any]) -> str:
     if x.get("tips") == "Yes":
         kind = "TIPS"
     elif x.get("floatingRate") == "Yes":
-        kind = "FRN"
+        kind = "Floating-Rate Note"
     label = f"{orig} {kind}".strip()
     if x.get("reopening") == "Yes":
-        label += f" ({_term_short(x.get('securityTerm', ''))} reopening)"
+        noun = {"Bond": "bond", "Note": "note", "TIPS": "TIPS", "Floating-Rate Note": "floating-rate note"}.get(kind, kind.lower())
+        label = f"{orig} {kind}".strip() + f" (reopening of a {orig.lower()} {noun}, {_term_long(x.get('securityTerm', ''))} left)"
     return label
 
 
+def is_inflation_indexed(x: Dict[str, Any]) -> bool:
+    """TIPS / inflation-indexed, from TA_WS flags (not name text)."""
+    yes = lambda k: str(x.get(k) or "").strip().lower() == "yes"
+    return (yes("tips") or yes("inflationProtected") or yes("inflationIndexSecurity")
+            or (x.get("securityType") or "") == "TIPS" or (x.get("type") or "") == "TIPS"
+            or bool(str(x.get("cpiBaseReferencePeriod") or "").strip()))
+
+
 def is_coupon(x: Dict[str, Any]) -> bool:
-    return (x.get("securityType") or "") in ("Note", "Bond", "TIPS", "FRN")
+    """Regular nominal notes/bonds (incl. FRNs). Bills and TIPS excluded (Jared, 10/23)."""
+    return (x.get("securityType") or "") in ("Note", "Bond", "FRN") and not is_inflation_indexed(x)
 
 
 def build_result(x: Dict[str, Any]) -> Dict[str, Any]:
     frn = x.get("floatingRate") == "Yes"
-    accepted = _f(x.get("totalAccepted"), 0)
-    indirect = _f(x.get("indirectBidderAccepted"), 0)
+    R = {k: _pick(x, *keys) for k, keys in RESULT_FIELDS.items()}
+    accepted = _f(R["accepted"], 0)
+    indirect = _f(R["indirect"], 0)
     btc = _f(x.get("bidToCoverRatio"), 2)
     r = {
         "date": auction_date(x),
@@ -116,20 +156,20 @@ def build_result(x: Dict[str, Any]) -> Dict[str, Any]:
         "high_discount_margin_pct": _f(x.get("highDiscountMargin")) if frn else None,
         "coupon_pct": _f(x.get("interestRate")),
         "bid_to_cover": btc,
-        "allocation_at_high_pct": _f(x.get("allocationPercentage"), 2),
-        "total_tendered_billions": _bn(x.get("totalTendered")),
-        "total_accepted_billions": _bn(x.get("totalAccepted")),
-        "primary_dealer_accepted_billions": _bn(x.get("primaryDealerAccepted")),
-        "direct_accepted_billions": _bn(x.get("directBidderAccepted")),
-        "indirect_accepted_billions": _bn(x.get("indirectBidderAccepted")),
-        "results_pdf": x.get("pdfFilenameCompetitiveResults") or None,
+        "allocation_at_high_pct": _f(R["allocation"], 2),
+        "total_tendered_billions": _bn(R["tendered"]),
+        "total_accepted_billions": _bn(R["accepted"]),
+        "primary_dealer_accepted_billions": _bn(R["primary"]),
+        "direct_accepted_billions": _bn(R["direct"]),
+        "indirect_accepted_billions": _bn(R["indirect"]),
+        "results_pdf": R["pdf"],
         "source_url": f"{SEARCH_URL}&cusip={x.get('cusip')}",
     }
     note = []
     if btc is not None:
-        note.append(f"BTC {btc:.2f}")
+        note.append(f"bid-to-cover {btc:.2f}")
     if accepted and indirect is not None:
-        note.append(f"indirect {indirect / accepted * 100:.0f}% of accepted")
+        note.append(f"foreign and other indirect buyers took {indirect / accepted * 100:.0f}%")
     r["stranger_note"] = "; ".join(note) + "." if note else None
     return r
 
@@ -182,6 +222,14 @@ def build_calendar(
     recent = [x for x in auctioned if is_coupon(x) and auction_date(x)
               and auction_date(x) <= t
               and (x.get("highYield") or x.get("highDiscountMargin"))]
+    # One record per (cusip, auction date): keep the one with results filled, so size,
+    # yield and bid-to-cover all come from the same completed auction record.
+    best: Dict[Tuple[Any, Any], Dict[str, Any]] = {}
+    for x in recent:
+        k = (x.get("cusip"), auction_date(x))
+        if k not in best or results_filled(x) > results_filled(best[k]):
+            best[k] = x
+    recent = list(best.values())
     recent.sort(key=lambda x: (auction_date(x) or "", x.get("securityTerm") or ""), reverse=True)
 
     seen = set()
@@ -198,7 +246,7 @@ def build_calendar(
 
     prior = prior or {}
     return {
-        "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
+        "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills and TIPS excluded.",
         "_fetch_url": UPCOMING_URL,
         "_results_url": AUCTIONED_URL,
         "last_updated": datetime.now().isoformat(timespec="seconds"),
@@ -284,7 +332,7 @@ def main() -> int:
         print(f"  ↑ {a['date']} {a['security']} {a['cusip']} size={a['size_billions']}")
     for r in cal["recent_auction_results"]:
         y = r["high_yield_pct"] if r["high_yield_pct"] is not None else f"DM {r['high_discount_margin_pct']}"
-        print(f"  ✓ {r['date']} {r['security']} {y} BTC {r['bid_to_cover']} alloc {r['allocation_at_high_pct']}")
+        print(f"  ✓ {r['date']} {r['security']} {y} bid-to-cover {r['bid_to_cover']} allotment {r['allocation_at_high_pct']}")
     return 0
 
 

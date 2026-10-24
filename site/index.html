@@ -2060,6 +2060,10 @@
       .plumbing-expand summary:hover { color: #00d4ff; }
       .plumbing-expand[open] summary { color: #00d4ff; }
       .plumbing-expand .expand-content { color: #8892b0; font-size: 0.68rem; line-height: 1.45; margin-top: 0.35rem; padding-left: 0.5rem; border-left: 2px solid rgba(0, 212, 255, 0.2); }
+      /* Market Commentary fills its card. clamp() is the no-JS fallback; fitCommentary() refines it. */
+      #market-commentary { display: flex; flex-direction: column; }
+      #commentary-body { font-size: clamp(15px, 0.55rem + 0.45vw, 20px); overflow-wrap: anywhere; }
+      #commentary-body.fit-box { flex: 1 1 0; min-height: 0; overflow: hidden; }
     </style>
     <div class="plumbing-widgets" style="margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem;">
       <!-- Treasury Calendar -->
@@ -2072,11 +2076,11 @@
         <details class="plumbing-expand" id="treasury-expand">
           <summary>What this means</summary>
           <div class="expand-content">
-            <strong>QRA</strong> (Quarterly Refunding Announcement): Treasury announces issuance sizes for the coming quarter. Markets watch for surprises in coupon vs bill mix.<br><br>
-            <strong>Auction week</strong>: Watch bid-to-cover ratios and dealer vs indirect (foreign) demand. Weak auctions can move yields higher.
+            <strong>Quarterly refunding announcement</strong>: four times a year, the Treasury says how much longer-term debt it plans to sell over the next three months. Markets watch for surprises in the mix of short-term bills and longer notes and bonds.<br><br>
+            <strong>Auction results</strong>: <em>Bid-to-cover</em> is the dollars bid for every dollar sold. Higher means stronger demand. <em>Top accepted yield</em> is the highest rate Treasury accepted. <em>Allotment at top yield</em> is the share of bids at that rate that were filled. A <em>floating-rate note</em> pays interest that resets with the 13-week bill rate. A <em>reopening</em> is extra sales of a bond already on the market, so less time is left on it. Weak demand at auctions can push yields higher.
           </div>
         </details>
-        <div style="margin-top: 0.3rem;"><a href="https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding" target="_blank" style="color: #9ca3af; font-size: 0.65rem;">Source: treasury.gov</a></div>
+        <div style="margin-top: 0.3rem;"><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding" target="_blank" rel="noopener" style="color: #9ca3af; font-size: 0.65rem;">Source: U.S. Treasury, Quarterly Refunding</a></div>
       </div>
 
       <!-- Market Commentary (Ric's latest post; site/data/commentary/latest.json) -->
@@ -2084,7 +2088,7 @@
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📝 Market Commentary</h3>
         <div id="commentary-meta" style="color: #6b7280; font-size: 0.62rem; margin-bottom: 0.35rem;"></div>
         <div id="commentary-title" style="color: #e6f1ff; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;"></div>
-        <div id="commentary-body" class="commentary-body" style="color: #a8b2d1; font-size: 0.72rem; line-height: 1.45;">
+        <div id="commentary-body" class="commentary-body" style="color: #a8b2d1; line-height: 1.45;">
           <span style="color: #a8b2d1;">First commentary coming soon</span>
         </div>
       </div>
@@ -2189,7 +2193,36 @@
             document.getElementById('commentary-title').innerHTML = c.title || '';
             bodyEl.innerHTML = c.html;
           })
-          .catch(soon);
+          .catch(soon)
+          .then(fitCommentary);
+
+        // Fit-to-box: binary-search the largest font size whose text fits the space the
+        // grid row gives this card. Never overflows: if even the readable minimum does not
+        // fit (single-column mobile, or this card sets the row height), fall back to normal
+        // flow at the clamp() size so the card grows instead of clipping.
+        function fitCommentary() {
+          const narrow = window.matchMedia('(max-width: 600px)').matches;
+          const MIN = narrow ? 15 : 14, MAX = 22;
+          bodyEl.style.fontSize = '';
+          bodyEl.classList.add('fit-box');
+          const avail = bodyEl.clientHeight;
+          const fits = px => { bodyEl.style.fontSize = px + 'px'; return bodyEl.scrollHeight <= avail + 1; };
+          if (narrow || avail < 40 || !fits(MIN)) {
+            bodyEl.classList.remove('fit-box');
+            bodyEl.style.fontSize = '';
+            return;
+          }
+          let lo = MIN, hi = MAX;
+          while (hi - lo > 0.25) { const mid = (lo + hi) / 2; if (fits(mid)) lo = mid; else hi = mid; }
+          bodyEl.style.fontSize = lo.toFixed(2) + 'px';
+        }
+        let t;
+        const refit = () => { clearTimeout(t); t = setTimeout(fitCommentary, 120); };
+        window.addEventListener('resize', refit);
+        window.addEventListener('load', refit);
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(refit);
+        const grid = bodyEl.closest('.plumbing-widgets');
+        if (grid && window.ResizeObserver) new ResizeObserver(refit).observe(grid);
       })();
     </script>
 
@@ -2400,7 +2433,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1792700235"></script>
+  <script src="./data/data.js?v=1792796289"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -2456,7 +2489,7 @@
               <span style="font-size: 0.85rem; font-weight: 600;">${formatChange(basketChange)} <span style="color: #8892b0; font-weight: 400; font-size: 0.7rem;">${sinceLabel}</span></span>
             </div>
             <p style="color: #8892b0; font-size: 0.75rem; margin-bottom: 0.5rem;">${subtitle}</p>
-            <p style="color: #6b7280; font-size: 0.65rem; margin-bottom: 0.75rem;">Started: ${asOfLabel}${markedLabel ? ` · Prices as of ${markedLabel}` : ''} · % change ${sinceLabel}</p>
+            <p style="color: #6b7280; font-size: 0.65rem; margin-bottom: 0.75rem;">Started ${esc((basket.as_of || '').slice(0, 10))} · Prices as of ${esc((basket.last_updated || (portfolio._metadata || {}).last_updated || portfolio.last_updated || '').slice(0, 10)) || 'n/a'}</p>
             
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.5rem; margin-bottom: 0.75rem;">
         `;
@@ -2947,17 +2980,19 @@
           if (results.length > 0) {
             html += '<div style="margin-bottom: 0.5rem;">';
             results.slice(0, 2).forEach(function(r) {
-              const shortSec = r.security.replace(' Note', '').replace(' Bond', '');
+              const shortSec = r.security;
               html += '<div style="font-size: 0.72rem; margin-bottom: 0.25rem; padding: 0.25rem 0; border-bottom: 1px solid rgba(0,212,255,0.15);">';
               html += '<div style="color: #10b981; font-weight: 500;">' + r.date + ': ' + shortSec + ' <span style="color: #6b7280; font-weight: 400;">RESULTS</span></div>';
               html += '<div style="color: #a8b2d1; font-size: 0.68rem; margin-top: 0.1rem;">';
               if (r.high_yield_pct != null) {
-                html += '<span class="plumbing-num">' + Number(r.high_yield_pct).toFixed(3) + '%</span> stop · ';
+                html += '<span class="plumbing-num">' + Number(r.high_yield_pct).toFixed(3) + '%</span> <span title="The highest yield Treasury accepted. Every winning bidder gets this rate.">top accepted yield</span> · ';
               } else if (r.high_discount_margin_pct != null) {
-                html += 'DM <span class="plumbing-num">' + Number(r.high_discount_margin_pct).toFixed(3) + '%</span> · ';
+                html += '<span title="For a floating-rate note: the extra interest paid above the 13-week bill rate">Spread over bill rate</span> <span class="plumbing-num">' + Number(r.high_discount_margin_pct).toFixed(3) + '%</span> · ';
               }
-              html += 'BTC <span class="plumbing-num">' + r.bid_to_cover + '</span> · ';
-              html += '<span class="plumbing-num">' + r.allocation_at_high_pct + '%</span> alloc';
+              const btcTxt = (r.bid_to_cover != null) ? Number(r.bid_to_cover).toFixed(2) : 'n/a';
+              const allocTxt = (r.allocation_at_high_pct != null) ? Number(r.allocation_at_high_pct).toFixed(2) + '%' : 'n/a';
+              html += '<span title="Dollars bid for every dollar sold. Higher means stronger demand.">Bid-to-cover</span> <span class="plumbing-num">' + btcTxt + '</span> · ';
+              html += '<span title="Share of bids at the top accepted yield that were filled">Allotment at top yield</span> <span class="plumbing-num">' + allocTxt + '</span>';
               html += '</div>';
               if (r.stranger_note) {
                 html += '<div style="color: #6b7280; font-size: 0.62rem; margin-top: 0.1rem; font-style: italic;">' + r.stranger_note + '</div>';
@@ -2968,7 +3003,7 @@
           }
           
           if (qra && qra.date) {
-            html += '<div style="margin-bottom: 0.4rem;"><span style="color: #a8b2d1;">Next QRA:</span> <span class="plumbing-num">' + qra.date + '</span> <span style="color: #6b7280; font-size: 0.65rem;">(' + (qra.status || 'est.') + ')</span></div>';
+            html += '<div style="margin-bottom: 0.4rem;"><span style="color: #a8b2d1;">Next quarterly refunding announcement:</span> <span class="plumbing-num">' + qra.date + '</span> <span style="color: #6b7280; font-size: 0.65rem;">(' + (qra.status || 'est.') + ')</span></div>';
           }
           
           if (auctions.length > 0) {
@@ -2990,7 +3025,7 @@
           if (tc._stale || pastUpcoming || pastQra || tcOld) {
             const staleSince = (tc.last_updated || tc._stale_since || '').slice(0, 10);
             const why = tc._stale ? ('Stale since ' + (staleSince || 'unknown') + ' (' + (tc._stale_reason || 'fetch failed') + ')') :
-              (pastUpcoming || pastQra) ? 'Shows an auction/QRA date that has already passed' :
+              (pastUpcoming || pastQra) ? 'Shows an auction or refunding date that has already passed' :
               'Calendar last updated ' + tcUpdated;
             html += '<div style="font-size: 0.62rem;">' + _mdStaleBadge(why).replace('margin-left: 0.5rem; ', '') + '</div>';
           }

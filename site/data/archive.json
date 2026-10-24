@@ -1,6 +1,39 @@
 {
   "insights": [
     {
+      "id": 615,
+      "title": "Amazon CEO Andy Jassy on Why Amazon Is Investing $220 Billion in AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-23",
+      "summary": "Andy Jassy framed Amazon\u2019s current strategy as a massive AI infrastructure buildout driven by customer demand, not speculation. He said Amazon expects to spend about $220 billion of capex in 2026 and emphasized that even that level of spending would still leave meaningful demand unmet. He tied that to capacity scarcity across power, cooling, memory, and accelerators, saying the constraint problem is not a one-year issue and will likely persist across different components for several years.\n\nJassy argued that AWS\u2019s AI business is scaling far faster than early AWS did. He said AWS AI is already over a $25 billion annual run rate after the first three years of the current AI wave, versus roughly $60 million after three years in early AWS. He also pointed to AWS growth of 36.7% last quarter and said AWS is now a $169 billion annual revenue run-rate business. The strategic implication was that Amazon can justify very large infrastructure spending because demand visibility is strong and the company is still leaving demand on the table.\n\nA major part of the discussion focused on economics and bottlenecks inside AI infrastructure. Jassy described sold-out capacity across generations of AI systems, and said Amazon must allocate scarce memory between HBM and DRAM rather than simply maxing out one use case. He also highlighted Amazon\u2019s chip strategy, arguing that Graviton delivers about 40% better price performance than comparable x86 processors and that its AI training chips offer roughly 30% to 40% better price performance than comparable processors.\n\nBeyond infrastructure, Jassy said AI will reshape enterprise software development and security. He predicted that most enterprise applications will use inference pervasively over the next 5 to 7 years, that teams will become smaller and more cross-functional, and that companies will need to rewrite almost all code to be agentically capable. He said the most immediate risk is cybersecurity, because applications will need to respond to threats in minutes rather than days, and architectures will have to support rapid agent-driven updates.",
+      "key_takeaway": "Amazon is using massive 2026 capex to capture AI demand, but supply constraints still leave meaningful revenue on the table and support long-run AWS growth.",
+      "tickers_mentioned": [
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 605,
+      "notable_quotes": [
+        {
+          "speaker": "Andy Jassy",
+          "quote": "We\u2019ve said this year in 2026 we expect to spend about $220 billion of capex\u2026 and even spending $220 billion of capex this year, we\u2019re leaving a meaningful amount of demand on the table."
+        },
+        {
+          "speaker": "Andy Jassy",
+          "quote": "In the first three years of this [generative] AI wave, our AI business in AWS is over $25 billion in run rate."
+        },
+        {
+          "speaker": "Andy Jassy",
+          "quote": "I wish I could tell you that I thought that the supply constraints would be just a 2027 issue. I think we\u2019ll see them in different components for several years."
+        }
+      ]
+    },
+    {
       "id": 610,
       "title": "What will computer chips look like in 2045?",
       "source_type": "podcast",
@@ -42,10 +75,7 @@
       "source_date": "2026-10-22",
       "summary": "The episode centers on Anekha Sokhal explaining Moshi, an AI product for traders, and why she believes the winning product is not a generic dashboard or \u201cnew Bloomberg,\u201d but a recommendation and workflow layer that turns large volumes of market data into portfolio-relevant actions. She says Moshi starts with commodity, energy, and macro traders, and ingests structured futures data, fundamentals, news, alternative data like X/Twitter and podcast audio, plus private user data. She emphasizes data cleaning, tagging, ontology building, and a graph-based presentation layer that pushes relevant items directly into the software interface.\n\nA major theme is that trader AI must solve both curation and UI/workflow integration. Sokhal argues that if you solve the recommendation problem, you naturally solve the interface problem because the software can surface what matters in the trader\u2019s existing workflow. She gives a concrete example: if an energy equities company does something that indirectly impacts oil, an oil trader needs to know immediately. She also says Moshi can turn what might take days of manual work into LLM answers in about 30 seconds, and uses the comparison that in the same time it takes her to speak a sentence, Moshi has learned 300 new things.\n\nThe conversation also covers alternative data and trust. Sokhal says traders often rely on a small set of trusted voices, especially in commodities, and that when multiple trusted sources disagree, the disagreement itself can be signal if paired with confidence scoring. She is skeptical of indiscriminate data ingestion, especially for user-provided data, and says Moshi does not want to send such data to third parties. The discussion references Reducto as an off-the-shelf document extraction option, but her answer frames the decision as dependent on privacy and whether the company can justify building in-house.\n\nOn the business side, Sokhal says inbound demand increased sharply after an AI Engineer New York talk, creating meetings, partnership requests, and even a webinar. The episode also includes broader context from her background in energy derivatives trading, JPMorgan, and machine learning research, which she presents as the foundation for Moshi\u2019s approach to financial AI.",
       "key_takeaway": "Moshi\u2019s key claim is that trader AI wins by combining recommendation systems with workflow-native UI, not by building a generic Bloomberg-like interface.",
-      "tickers_mentioned": [
-        "MOSHI",
-        "NASA"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -105,7 +135,7 @@
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-10-22",
-      "summary": "The episode centers on Vincent Gave\u2019s \u201cthree seas\u201d energy shock framework: Gulf, Red Sea, and Black Sea disruptions are not just crude supply issues but a broader logistics and refinery-products crisis. He argues the most important market effect is in diesel and other petroleum products, where moving crude is possible but product flows remain badly impaired. He says Saudi Arabia is responding by expanding pipeline capacity and building bypass optionality around chokepoints like the Strait of Hormuz and the Red Sea.\n\nGave also pushes a contrarian energy view: the world is not in a simple energy transition, but an \u201cenergy addition,\u201d where oil and gas remain structurally central. He says refinery destruction and constrained product movement can keep crack spreads elevated even if crude prices have an implied ceiling, and he warns that demand destruction is already occurring. He cites numbers such as Saudi East-West pipeline capacity rising from 5.5 to 7 million bpd, a target of 10 million bpd total pipeline capacity, and a claim that only 25% to 35% of pre-crisis product levels are moving.\n\nIn the macro segment, Louis-Vincent Gav frames France as a possible sovereign-style stress case rather than a normal developed-market political problem. He points to France\u2019s high tax burden, budget deficits near 5% of GDP, foreign ownership of debt, and an inability to raise taxes further as reasons a fiscal or redenomination crisis could cascade into European banks and insurers. His concern is not just French politics, but systemic euro-area fragility if the situation worsens.\n\nThe trading desk closes with relative-value ideas tied to that stress. Patrick highlights a long JPMorgan / short Deutsche Bank pair trade, a Europe-over-U.S. financials performance gap, and FX hedges that sell the euro versus peripheral European currencies for positive carry. Overall, the episode is bearish on European financial and energy logistics stability, but nuanced: it does not forecast a simple oil blowout, instead emphasizing product scarcity, crack spreads, and second-order financial contagion.",
+      "summary": "The episode centers on Dr. Anas Alhajji\u2019s \u201cthree seas\u201d energy shock framework: Gulf, Red Sea, and Black Sea disruptions are not just crude supply issues but a broader logistics and refinery-products crisis. He argues the most important market effect is in diesel and other petroleum products, where moving crude is possible but product flows remain badly impaired. He says Saudi Arabia is responding by expanding pipeline capacity and building bypass optionality around chokepoints like the Strait of Hormuz and the Red Sea.\n\nAlhajji also pushes a contrarian energy view: the world is not in a simple energy transition, but an \u201cenergy addition,\u201d where oil and gas remain structurally central. He says refinery destruction and constrained product movement can keep crack spreads elevated even if crude prices have an implied ceiling, and he warns that demand destruction is already occurring. He cites numbers such as Saudi East-West pipeline capacity rising from 5.5 to 7 million bpd, a target of 10 million bpd total pipeline capacity, and a claim that only 25% to 35% of pre-crisis product levels are moving.\n\nIn the macro segment, Louis-Vincent Gave frames France as a possible sovereign-style stress case rather than a normal developed-market political problem. He points to France\u2019s high tax burden, budget deficits near 5% of GDP, foreign ownership of debt, and an inability to raise taxes further as reasons a fiscal or redenomination crisis could cascade into European banks and insurers. His concern is not just French politics, but systemic euro-area fragility if the situation worsens.\n\nThe trading desk closes with relative-value ideas tied to that stress. Patrick Ceresna highlights a long JPMorgan / short Deutsche Bank pair trade, a Europe-over-U.S. financials performance gap, and FX hedges that sell the euro versus peripheral European currencies for positive carry. Overall, the episode is bearish on European financial and energy logistics stability, but nuanced: it does not forecast a simple oil blowout, instead emphasizing product scarcity, crack spreads, and second-order financial contagion.",
       "key_takeaway": "The episode\u2019s core claim is that energy disruption will express mainly through refinery-product shortages and crack spreads, while Europe\u2019s France-driven fiscal stress could spill into banks and FX.",
       "tickers_mentioned": [
         "JPM",
@@ -120,15 +150,15 @@
       "podcast_episode_id": 602,
       "notable_quotes": [
         {
-          "speaker": "Vincent Gave",
+          "speaker": "Dr. Anas Alhajji",
           "quote": "he was able to highlight clearly that while they were able to move all this crude, only 25% to 35% of products of pre-crisis levels were moving it."
         },
         {
-          "speaker": "Vincent Gave",
+          "speaker": "Dr. Anas Alhajji",
           "quote": "In a fact that there is no energy transition, there is only energy addition."
         },
         {
-          "speaker": "Louis-Vincent Gav",
+          "speaker": "Louis-Vincent Gave",
           "quote": "France total tax receipts account for roughly 44% of GDP."
         }
       ]
@@ -174,9 +204,7 @@
       "source_date": "2026-10-21",
       "summary": "The episode centers on Tenex\u2019s AI-native software delivery model, where engineers are compensated for output rather than time and the company uses story points as a major calibration tool. Alex Lieberman argues the main feared failure modes of output-based pay\u2014sandbagging estimates and shipping bad code\u2014have not been major problems because Tenex\u2019s AI strategists are accountable for customer retention and growth, so they can push back when work does not serve the client. CJ Hess adds that as models improve, engineers will spend less time coding and more time converting customer context into something the models can use.\n\nA second major theme is Tenex\u2019s internal system, \u201cMetaHarness,\u201d which puts plans, decisions, and evidence into Git so agent work is legible and durable. CJ says the point is to give the team a persistent record of why choices were made, not just what was built, so long-running tasks can be understood and resumed. The discussion frames this as especially important as AI systems take on more of the actual implementation work.\n\nThe conversation also covers enterprise AI adoption benchmarks. Alex says roughly 90% of enterprises have rolled out a general-purpose LLM like Claude or Codex, around 60% have training and enablement, coding agents in engineering are closer to 50%, and agents in production for non-engineering work are only about 5%. The gap between raw model intelligence and real enterprise deployment is presented as the core diffusion problem, with permissioning and RBAC cited as a major blocker.\n\nA final thread is the strategic debate over vertical AI products. The speakers are skeptical that standalone vertical agent products are durable if frontier models keep absorbing the underlying task, but they think value may persist in the workflow layer around the agent\u2014interfaces, integrations, data consolidation, and habits. They also say token-cost pressure has eased versus 6 to 8 months ago, and Alex claims a Claude Code subscription integration could cut costs by about 80%.",
       "key_takeaway": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
-      "tickers_mentioned": [
-        "AMP"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -249,7 +277,7 @@
       "notable_quotes": [
         {
           "speaker": "Nikesh Arora",
-          "quote": "Unfortunately for some of you what's even worse, if you have an encrypted hardlist today that gets stolen, somebody could keep it for five years and break it at that point."
+          "quote": "Unfortunately for some of you what's even worse, if you have encrypted [data] today that gets stolen, somebody could keep it for five years and break it at that point."
         },
         {
           "speaker": "Nikesh Arora",
@@ -267,7 +295,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-10-21",
-      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Jamoth/Paul Habatilla pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
+      "summary": "The episode centers on a big-picture argument that AGI has effectively arrived, but its societal impact is bottlenecked by deployment, power, compute, and institutional design rather than raw model capability. Peter Diamandis and guests frame the next phase as a build-out problem: data centers, energy, inspection regimes, and ownership structures will determine whether AI diffusion is broad and beneficial.\n\nA major segment debates Anthropic\u2019s Public Benefit Fund and whether large-scale equity transfers are truly philanthropic or just reputation-washing. Peter Diamandis highlights Anthropic\u2019s 5% commitment and the possibility of additional shares tied to company value, while Chamath Palihapitiya pushes a skeptical line: the key question is whether there is any real failsafe or measurable outcome if the money simply reverts to low-impact philanthropy. Alex adds that the missing piece is a quid pro quo or broader public-ownership mechanism rather than a discretionary corporate structure.\n\nThe show also discusses Elon Musk\u2019s proposed distribution of one SpaceX share to every U.S. child as a \u201cbetter version of the giving pledge.\u201d Peter Diamandis does the math using 72 million minors and a roughly $140 share price, arguing the total transfer would be about $10.5 billion and that it\u2019s more about teaching ownership than solving poverty. The episode repeatedly contrasts symbolic equity distribution with more systemic ideas like universal basic equity or sovereign-style public ownership.\n\nAnother major thread is the infrastructure constraint behind AI: the speakers argue the binding issue is power generation and data-center buildout, with a compute shortage likely over the next 3\u20134 years. They connect this to broader macro claims about the future of money, suggesting value may increasingly be tied to embedded energy, power plants, mines, and rocket infrastructure rather than fiat currency. The episode closes with a set of AI-era side projects, including idealab.ai\u2019s business-idea platform and security concerns around frontier labs, espionage, and inspection-based safety.",
       "key_takeaway": "AI\u2019s biggest near-term bottleneck is power and compute infrastructure, making energy build-out more important than model capability alone.",
       "tickers_mentioned": [
         "ANTH",
@@ -288,7 +316,7 @@
           "quote": "Quote, subject to stockholder approval. 5% of Anthropic shares will be committed today."
         },
         {
-          "speaker": "Jamoth (Paul Habatilla as referenced in transcript context)",
+          "speaker": "Chamath Palihapitiya",
           "quote": "The real question is, what is their failsafe to course correct? If this mean reverts and becomes what, you know, everything else in the world has overwhelmingly looked like when philanthropically minded people give large sums of money away in big bursts, which is, you know, not a lot of quantifiable outcome."
         },
         {
@@ -307,7 +335,7 @@
       "key_takeaway": "OpenAI\u2019s health-AI edge is its cheaper, frontier-level model plus specialized medical training, which it says can outperform prior models while scaling across workflows like Epic.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-20",
       "archived_date": null,
@@ -1848,6 +1876,37 @@
         {
           "speaker": "Elon Musk",
           "quote": "we don't have just a universal basic income we have universal high income."
+        }
+      ]
+    },
+    {
+      "id": 616,
+      "title": "\u26a1\ufe0f Which GPU Clouds Are Actually Good? | ClusterMAX 3.0",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-02",
+      "summary": "The episode centers on ClusterMAX 3.0, a managed GPU/cluster ratings product for AI-oriented \u201cNeo Clouds.\u201d The speakers say the scope has expanded dramatically, with ClusterMAX now tracking 323 providers and using 10 criteria that emphasize managed-cluster quality, security, reliability, pricing, availability, and ease of use. A major theme is that many providers are still weak on security, with the team describing earlier generations as exposing job visibility, data, and storage across tenants.\n\nA second major argument is that compute rental has become extremely tight. Dylan says it is \u201cthe toughest it's ever been to rent compute,\u201d because small inference providers can now make strong economics on open models, which reduces large-lab access to large clusters. He gives concrete examples of profitable inference businesses, citing 60% gross margins in some cases, and says minimum rentable cluster sizes have shrunk even as labs still want 1,000-, 3,000-, 100,000-, or even 400,000-GPU scale.\n\nThe conversation also argues that AI infrastructure demand is increasingly heterogeneous. Dylan says next year will require multi-silicon support across Neo Clouds, especially for inference and parts of RL, and he frames GB300/VL72 adoption as a gating factor for top-tier rankings because top customers expect those systems and the associated network setup. He also says \u201cGoogle is definitely falling behind\u201d in dedicated AI compute versus OpenAI and Anthropic, although Google retains cost advantages from TPUs and contractual flexibility via 90-day cancellation rights in deals like SpaceX.\n\nFinally, the episode discusses Nvidia\u2019s strategic posture. Dylan argues Nvidia\u2019s acquisitions of Poolside and Hugging Face are defensive moves meant to keep important infrastructure and developer layers inside Nvidia\u2019s ecosystem, supported by enormous free cash flow. He also says Chinese accelerators are improving quickly, with Huawei the strongest of the non-Nvidia Chinese options, and predicts China could reach tens of millions of chips produced by 2028.",
+      "key_takeaway": "Managed AI infrastructure winners will increasingly be those that combine security, reliability, and heterogeneous compute support, not just raw GPU availability.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-10-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 604,
+      "notable_quotes": [
+        {
+          "speaker": "Dylan",
+          "quote": "Even back from the first cluster max, there was pretty significant security issues, um, people not properly implementing network security controls, and so we were able to see other people's jobs, see other people's data, see other people's storage."
+        },
+        {
+          "speaker": "Dylan",
+          "quote": "It's really tough. It's the toughest it's ever been to rent compute."
+        },
+        {
+          "speaker": "Dylan",
+          "quote": "Even small companies ... are running at 60% gross margins on open models using VLM or S Chile using just a little bit of optimizations beyond that, and able to do an awesome job."
         }
       ]
     },
@@ -13481,7 +13540,7 @@
       "first_detected_episode_id": 570,
       "first_detected_speaker": "Nick Bostrom",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 300,
@@ -13524,8 +13583,8 @@
       "term": "HBM",
       "description": "High bandwidth memory, a stacked DRAM architecture used in AI systems. It is more complex to manufacture than standard DRAM and consumes far more wafer area per gigabyte.",
       "first_detected_date": "2026-10-08",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-10-23",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "HBM constraints can keep memory tight and support pricing, margins, and capital equipment demand.",
@@ -13534,8 +13593,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 564,
       "first_detected_speaker": "Stacy Rasgon",
-      "last_mentioned_episode_id": 600,
-      "last_mentioned_speaker": "Chris Auth, Vivek Arya, Peter Wennink"
+      "last_mentioned_episode_id": 605,
+      "last_mentioned_speaker": "Andy Jassy"
     },
     {
       "id": 297,
@@ -13733,7 +13792,7 @@
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 310,
@@ -14057,7 +14116,7 @@
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 267,
@@ -14093,7 +14152,7 @@
       "first_detected_episode_id": 436,
       "first_detected_speaker": "Jensen Huang, Dario Amodei",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 276,
@@ -14165,7 +14224,7 @@
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 602,
-      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav"
+      "last_mentioned_speaker": "Dr. Anas Alhajji, Louis-Vincent Gave"
     },
     {
       "id": 265,
@@ -14291,7 +14350,7 @@
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 135,
@@ -14352,8 +14411,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 54,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 55,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -14362,8 +14421,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 602,
-      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav"
+      "last_mentioned_episode_id": 604,
+      "last_mentioned_speaker": "Jordan (ClusterMAX founder/host in conversation context), Dylan, Will"
     },
     {
       "id": 256,
@@ -14399,7 +14458,7 @@
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Semenuk",
       "last_mentioned_episode_id": 602,
-      "last_mentioned_speaker": "Vincent Gave, Louis-Vincent Gav"
+      "last_mentioned_speaker": "Dr. Anas Alhajji, Louis-Vincent Gave"
     },
     {
       "id": 258,
@@ -14759,7 +14818,7 @@
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 113,
@@ -14849,7 +14908,7 @@
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
     },
     {
       "id": 97,
@@ -14964,8 +15023,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 120,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 121,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -14974,8 +15033,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Jamoth, Paul Habatilla (as referenced in transcript context), Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_episode_id": 604,
+      "last_mentioned_speaker": "Jordan (ClusterMAX founder/host in conversation context), Dylan, Will"
     },
     {
       "id": 162,
