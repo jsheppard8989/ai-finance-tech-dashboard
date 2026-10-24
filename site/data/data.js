@@ -1433,7 +1433,8 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Erik Bernhardsson",
-          "quote": "Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand."
+          "quote": "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand.",
+          "paraphrase": true
         },
         {
           "speaker": "Erik Bernhardsson",
@@ -1464,11 +1465,13 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Alex Lieberman",
-          "quote": "Tenex\u2019s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn\u2019t serve the client."
+          "quote": "Alex Lieberman argued that Tenex\u2019s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn\u2019t serve the client.",
+          "paraphrase": true
         },
         {
           "speaker": "CJ Hess",
-          "quote": "Plans and decisions are checked into Git alongside the code."
+          "quote": "CJ Hess said Tenex checks its plans and decisions into Git alongside the code.",
+          "paraphrase": true
         },
         {
           "speaker": "Alex Lieberman",
@@ -17646,7 +17649,8 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Erik Bernhardsson",
-          "quote": "Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand."
+          "quote": "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand.",
+          "paraphrase": true
         },
         {
           "speaker": "Erik Bernhardsson",
@@ -17924,11 +17928,13 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "Alex Lieberman",
-          "quote": "Tenex\u2019s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn\u2019t serve the client."
+          "quote": "Alex Lieberman argued that Tenex\u2019s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn\u2019t serve the client.",
+          "paraphrase": true
         },
         {
           "speaker": "CJ Hess",
-          "quote": "Plans and decisions are checked into Git alongside the code."
+          "quote": "CJ Hess said Tenex checks its plans and decisions into Git alongside the code.",
+          "paraphrase": true
         },
         {
           "speaker": "Alex Lieberman",
@@ -34867,7 +34873,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-05-19T12:13:40.714786",
     "updated_at": "2026-05-19 17:13:40",
-    "episode_evidence": "The podcast underscores the defense industrial base's shift from innovation to production capabilities, with a focus on modern manufacturing techniques. Dino Mavruchus states, 'You have to bend the economic cost curve... you have to take a first principles design to the ship.' This approach is crucial for reducing material and labor costs, allowing U.S. manufacturers to compete with international counterparts. The integration of autonomy and software in shipbuilding is highlighted as a means to drastically cut labor hours, with Mavruchus providing a stark comparison: 'Marauders using about a 50,000 labor hour on our first ship... destroyers 7 to 9 million labor hours.' This points to the potential for significant efficiency gains through technology integration. The discussion also emphasizes the importance of engaging commercial markets to sustain production capabilities during peacetime, which is vital for maintaining a resilient defense sector.",
+    "episode_evidence": "The podcast underscores the defense industrial base's shift from innovation to production capabilities, with a focus on modern manufacturing techniques. One guest states, 'You have to bend the economic cost curve... you have to take a first principles design to the ship.' This approach is crucial for reducing material and labor costs, allowing U.S. manufacturers to compete with international counterparts. The integration of autonomy and software in shipbuilding is highlighted as a means to drastically cut labor hours, with the guest providing a stark comparison: 'Marauders using about a 50,000 labor hour on our first ship... destroyers 7 to 9 million labor hours.' This points to the potential for significant efficiency gains through technology integration. The discussion also emphasizes the importance of engaging commercial markets to sustain production capabilities during peacetime, which is vital for maintaining a resilient defense sector.",
     "falsification_tracks": [
       "Should the U.S. defense budget allocations show a consistent decrease in funding for modern manufacturing and production capabilities, it would challenge the thesis of prioritizing production over innovation.",
       "If there is a significant increase in labor hours required for shipbuilding, particularly in the case of autonomous platforms, it would suggest that the integration of autonomy is not yielding the expected efficiency gains.",
@@ -40027,7 +40033,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-06-23T23:40:59.896267",
     "updated_at": "2026-06-24 04:40:59",
-    "episode_evidence": "Ryan Cohen's strategic vision for GameStop and eBay is grounded in operational efficiency and market expansion. He emphasizes the importance of 'pennies in the red is failure and... pennies in the black is success,' highlighting the razor-thin margins in retail and the necessity for cost optimization. Cohen's experience at Chewy has taught him the art of fierce supplier negotiations, which he applies to GameStop to reduce operating expenses. The collectibles market, now accounting for '42% of revenue... $350 million in Q1 revenue,' is a strategic pivot that leverages GameStop's existing infrastructure. Cohen's approach to management is to hire 'diehards that are just willing to put everything in,' prioritizing will over skill, which is crucial for a high-performance culture in a turnaround scenario.",
+    "episode_evidence": "Ryan Cohen's strategic vision for GameStop and eBay is grounded in operational efficiency and market expansion. He emphasizes the importance of 'pennies in the red is failure and... pennies in the black is success,' highlighting the very low margins in retail and the necessity for cost optimization. Cohen's experience at Chewy has taught him the art of fierce supplier negotiations, which he applies to GameStop to reduce operating expenses. The collectibles market, now accounting for '42% of revenue... $350 million in Q1 revenue,' is a strategic pivot that leverages GameStop's existing infrastructure. Cohen's approach to management is to hire 'diehards that are just willing to put everything in,' prioritizing will over skill, which is crucial for a high-performance culture in a turnaround scenario.",
     "falsification_tracks": [
       "Should GameStop's collectibles revenue fail to meet the projected growth, it would challenge Cohen's strategic shift towards this market segment.",
       "A sustained increase in operating expenses at GameStop would undermine Cohen's operational efficiency claims.",
@@ -47338,7 +47344,7 @@ const dashboardData = {
     "id": 430,
     "insight_id": 441,
     "podcast_episode_id": 427,
-    "overview": "Warren Pies points out that the market's reaction to recent data has been overly dovish, which could be a misinterpretation. He argues that the Federal Reserve's tolerance for looking through one-off inflation spikes is wearing thin, influenced by political pressure and the potential for a policy mistake. Pi's analysis suggests that the market may be underestimating the likelihood of a September rate hike, with odds currently around 40%, a significant shift from the 75% odds in July. This underappreciation of macro risks, particularly around the Fed's actions, could have significant implications for market positioning and investor expectations.",
+    "overview": "Warren Pies points out that the market's reaction to recent data has been overly dovish, which could be a misinterpretation. He argues that the Federal Reserve's tolerance for looking through one-off inflation spikes is running out, influenced by political pressure and the potential for a policy mistake. Pi's analysis suggests that the market may be underestimating the likelihood of a September rate hike, with odds currently around 40%, a significant shift from the 75% odds in July. This underappreciation of macro risks, particularly around the Fed's actions, could have significant implications for market positioning and investor expectations.",
     "key_takeaways_detailed": [],
     "investment_thesis": "This period is marked by unfavorable seasonal patterns and market structure, suggesting a time to take down risk. A this thesis would be a higher-than-expected rate hike or a significant shift in Fed rhetoric towards a more hawkish stance, while a disproval would be a Fed hold or a dovish pivot.",
     "ticker_analysis": {
@@ -55344,7 +55350,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-21T05:18:38.377715",
     "updated_at": "2026-10-21 10:18:38",
-    "episode_evidence": "CJ Hess: Plans and decisions are checked into Git alongside the code.\nAlex Lieberman: Tenex\u2019s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn\u2019t serve the client.\nAlex Lieberman: And I would say those two concerns have not been concerns at all because of our AI strategists.\nCJ Hess: I spend a lot of time thinking about this because if I think about my tenure at Tenex, I was coding a lot, coding a little less, and now we\u2019re kind of getting to the point where the models are more or less given the right context and can get you to 90% of the solution.\nAlex Lieberman: But then the next, and this is where like the biggest, I would say, drop off is, where like the biggest diffusion gap is from like raw intelligence to enterprise usage, is agents in production for non-engineering work drops to like 5%.",
+    "episode_evidence": "CJ Hess said Tenex checks its plans and decisions into Git alongside the code.\nAlex Lieberman argued that Tenex\u2019s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn\u2019t serve the client.\nAlex Lieberman: And I would say those two concerns have not been concerns at all because of our AI strategists.\nCJ Hess: I spend a lot of time thinking about this because if I think about my tenure at Tenex, I was coding a lot, coding a little less, and now we\u2019re kind of getting to the point where the models are more or less given the right context and can get you to 90% of the solution.\nAlex Lieberman: But then the next, and this is where like the biggest, I would say, drop off is, where like the biggest diffusion gap is from like raw intelligence to enterprise usage, is agents in production for non-engineering work drops to like 5%.",
     "falsification_tracks": [
       "By 2027-03-31, if Tenex's long-running project metrics show no improvement in median time-to-acceptance or delivery success rate, per an external customer case study or disclosed KPI set, the MetaHarness legibility thesis is wrong.",
       "By 2027-01-31, if defect rate or rework hours for agent-assisted changes rise more than 25% versus the prior baseline in a disclosed Tenex engineering review, the claim that output-based pay is not causing bad-code problems is falsified.",
@@ -55418,7 +55424,7 @@ const dashboardData = {
     "podcast_episode_id": 598,
     "overview": "The most non-obvious point is that the episode treats quantum risk as a data-retention and procurement problem long before it becomes a hardware problem. The key implication is not merely that encryption may someday fail, but that material liability already exists today because intercepted data can be banked for later decryption. That changes the budgeting logic: crypto migration is no longer a speculative R&D spend, but a lifecycle management issue for data with multi-year sensitivity.\n\nA second underappreciated angle is that the speaker separates model capability from model economics. The argument is not just that open-weight models are \u201cgood enough,\u201d but that the cost structure can collapse so sharply that enterprise deployment decisions become dominated by governance, IP control, and auditability rather than raw benchmark performance. That creates a procurement regime where local inference, private GPUs, and narrow task specialization may matter more than access to the best frontier API.\n\nOn cyber, the episode highlights a shift from point-solution defense to coordination and verification. The bottleneck is increasingly checking outputs and distributing fixes, not generating code or finding bugs. That makes the market opportunity less about standalone AI coding tools and more about infrastructure that can validate, route, patch, and standardize responses across a fragmented enterprise stack.",
     "key_takeaways_detailed": [],
-    "investment_thesis": "The practical setup is to watch for companies that make migration cheap, enforceable, and auditable: cryptography-agility tooling, certificate/identity infrastructure, and platforms that can inventory and rotate keys at scale. In AI infrastructure, the higher-probability winners are not necessarily frontier model providers, but operators that can deliver secure local inference, model routing, monitoring, and policy control at a materially lower cost per token. In cybersecurity, the value accrues to systems that reduce verification burden and coordinate defense across many vendors, since the episode argues the attack surface is too broad for manual patchwork. The clearest portfolio lens is to distinguish \u201cmodel spend\u201d from \u201cworkflow control.\u201d The former may commoditize faster than expected; the latter becomes more valuable as enterprises try to keep sensitive data in-house, limit IP leakage, and prove compliance. The same logic applies to SaaS: any vendor whose product can be reduced to a thin workflow layer without strong data moat, embedded compliance, or vertical integration is exposed to compression. The names worth watching are those that own the trust boundary, the data boundary, or the migration path.",
+    "investment_thesis": "The practical setup is to watch for companies that make migration cheap, enforceable, and auditable: cryptography-agility tooling, certificate/identity infrastructure, and platforms that can inventory and rotate keys at scale. In AI infrastructure, the higher-probability winners are not necessarily frontier model providers, but operators that can deliver secure local inference, model routing, monitoring, and policy control at a materially lower cost per token. In cybersecurity, the value accrues to systems that reduce verification burden and coordinate defense across many vendors, since the episode argues the attack surface is too broad for manual patchwork. The clearest portfolio lens is to distinguish \u201cmodel spend\u201d from \u201cworkflow control.\u201d The former may commoditize faster than expected; the latter becomes more valuable as enterprises try to keep sensitive data in-house, limit IP leakage, and prove compliance. The same logic applies to SaaS: any vendor whose product can be reduced to a light workflow layer without strong data moat, embedded compliance, or vertical integration is exposed to compression. The names worth watching are those that own the trust boundary, the data boundary, or the migration path.",
     "ticker_analysis": {},
     "positioning_guidance": "",
     "risk_factors": [],
@@ -55800,7 +55806,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-22T14:06:04.142996",
     "updated_at": "2026-10-22 19:06:04",
-    "episode_evidence": "Erik Bernhardsson: Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand.\nErik Bernhardsson: In the last year, basically now in order to get the capacity we need, we had to work with a much larger set of clouds. We actually work with almost 25 clouds at this point.\nErik Bernhardsson: In many cases, in order to get the capacity we want, like we, we have to go into, you know, three plus year deals and you have to pay a meaningful amount of money upfront. And you\u2019re locking in pricing on a three year term, right?\nErik Bernhardsson: Sandboxes is now about a third of our revenue.\nErik Bernhardsson: 2027 might be the year of non NVIDIA accelerators. Finally, so we\u2019ll see if I\u2019m wrong this year too. But so I, you know, I am these are starting to get like really good scores on certain things.",
+    "episode_evidence": "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand.\nErik Bernhardsson: In the last year, basically now in order to get the capacity we need, we had to work with a much larger set of clouds. We actually work with almost 25 clouds at this point.\nErik Bernhardsson: In many cases, in order to get the capacity we want, like we, we have to go into, you know, three plus year deals and you have to pay a meaningful amount of money upfront. And you\u2019re locking in pricing on a three year term, right?\nErik Bernhardsson: Sandboxes is now about a third of our revenue.\nErik Bernhardsson: 2027 might be the year of non NVIDIA accelerators. Finally, so we\u2019ll see if I\u2019m wrong this year too. But so I, you know, I am these are starting to get like really good scores on certain things.",
     "falsification_tracks": [
       "By 2026-12-31, if Modal\u2019s sandboxes are still below 25% of revenue for two consecutive quarters, the product-mix shift thesis weakens; source: Modal investor updates or board-reported financial disclosures.",
       "By 2026-12-31, if Modal\u2019s median sandbox startup time remains above 8 seconds and p95 creation/restore latency does not improve by at least 20%, the ephemeral-workflow thesis is weakened; source: Modal technical benchmarks or performance blog posts.",
@@ -61056,7 +61062,7 @@ const dashboardData = {
         },
         {
           "heading": "Global Food Security & Macro Trends",
-          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and thin global grain reserves could amplify these pressures."
+          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and low global grain reserves could amplify these pressures."
         },
         {
           "heading": "Water-Rich Land Strategy",
@@ -66693,7 +66699,7 @@ const dashboardData = {
   {
     "id": 317,
     "name": "Sergey Edunov",
-    "slug": "sergey-yuternoff",
+    "slug": "sergey-edunov",
     "bio": "Sergey Edunov is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Edunov has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
     "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
     "net_worth_usd": 600000000.0,
@@ -69603,129 +69609,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 255,
-    "name": "Dino Mavruchus",
-    "slug": "dino-mavruchus",
-    "bio": "Dino Mavruchus is the CEO of Marathon Marine, a company focused on modernizing shipbuilding. He is known for his work in autonomous shipbuilding and the first principles design approach, aiming to revolutionize the industry by focusing on production, cost, and scale.",
-    "known_for": "Pioneering autonomous shipbuilding and applying first principles design to modernize ship production.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Factual and solution-oriented.",
-    "voice_delivery_notes": "Clear and assertive, with a focus on the future of shipbuilding.",
-    "voice_profile_updated_at": "2026-05-19 17:12:15",
-    "last_seen": "2026-05-19 17:12:15",
-    "last_episode_title": "Rebuilding The American Shipyard",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
-    "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
-    "supporting_takeaway": "Evaluate firms using first principles design to reduce costs and improve efficiency.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-19T12:12:39.355255",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dino Mavruchus",
-      "fetched_at": "2026-05-19T17:12:39.354917+00:00",
-      "cliff_notes": "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability. Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships.",
-      "derived": {
-        "current_role": "CEO of Marathon Marine"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability.",
-        "Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Shipbuilding",
-          "body": "Mavruchus is at the forefront of developing autonomous ships, which can potentially transform the maritime industry by increasing efficiency and reducing costs."
-        },
-        {
-          "heading": "First Principles Design",
-          "body": "He advocates for a first principles design approach in shipbuilding, which involves rethinking the fundamental aspects of ship design and production to achieve better outcomes."
-        },
-        {
-          "heading": "Production Constraints",
-          "body": "Mavruchus identifies production, rather than innovation, as the current constraint in defense, emphasizing the need for faster, more cost-effective, and scalable shipbuilding methods."
-        },
-        {
-          "heading": "Rebuilding the Industrial Base",
-          "body": "He calls for a rebuild of the industrial base, arguing that the current model creates vulnerabilities and is not profitable, and that a new approach is necessary for the next century."
-        }
-      ]
-    }
-  },
-  {
-    "id": 256,
-    "name": "Honorable Duffy",
-    "slug": "honorable-duffy",
-    "bio": "The Honorable Duffy is a former Assistant Secretary of the Navy with extensive experience in defense acquisition. He is known for his understanding of the challenges and opportunities within the defense industrial base and his advocacy for rebuilding the industrial base to meet future defense needs.",
-    "known_for": "Advocating for the modernization and rebuilding of the defense industrial base to address production constraints and vulnerabilities.",
-    "net_worth_usd": 85900000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001212809/terrence-a-duffy",
-    "net_worth_updated_at": "2026-05-19T12:12:51.136425",
-    "voice_tone": "Authoritative and pragmatic.",
-    "voice_style": "Direct and policy-focused.",
-    "voice_delivery_notes": "Emphasizes the need for change and collaboration in the defense sector.",
-    "voice_profile_updated_at": "2026-05-19 17:12:15",
-    "last_seen": "2026-05-19 17:12:15",
-    "last_episode_title": "Rebuilding The American Shipyard",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
-    "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
-    "supporting_takeaway": "Evaluate firms using first principles design to reduce costs and improve efficiency.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-19T12:12:50.208561",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Honorable Duffy",
-      "fetched_at": "2026-05-19T17:12:50.208420+00:00",
-      "cliff_notes": "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense. His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector.",
-      "derived": {
-        "former_positions": "Assistant Secretary of the Navy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense.",
-        "His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector."
-      ],
-      "sections": [
-        {
-          "heading": "Defense Industrial Base",
-          "body": "Honorable Duffy is known for his expertise in understanding the challenges and opportunities within the defense industrial base, particularly the shift from innovation to production as the primary constraint."
-        },
-        {
-          "heading": "Rebuilding the Industrial Base",
-          "body": "Duffy has been a vocal advocate for rebuilding the defense industrial base to address production constraints and vulnerabilities, emphasizing the need for more founders, builders, and government support for change."
-        },
-        {
-          "heading": "Production Constraints",
-          "body": "Honorable Duffy highlights the increasing constraint in defense as production, rather than innovation, and the need for new approaches to manufacturing and procurement to meet future defense needs."
-        }
-      ]
-    },
-    "net_worth": "$85.9M"
   },
   {
     "id": 209,

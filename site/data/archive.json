@@ -184,7 +184,8 @@
       "notable_quotes": [
         {
           "speaker": "Erik Bernhardsson",
-          "quote": "Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand."
+          "quote": "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand.",
+          "paraphrase": true
         },
         {
           "speaker": "Erik Bernhardsson",
@@ -215,11 +216,13 @@
       "notable_quotes": [
         {
           "speaker": "Alex Lieberman",
-          "quote": "Tenex\u2019s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn\u2019t serve the client."
+          "quote": "Alex Lieberman argued that Tenex\u2019s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn\u2019t serve the client.",
+          "paraphrase": true
         },
         {
           "speaker": "CJ Hess",
-          "quote": "Plans and decisions are checked into Git alongside the code."
+          "quote": "CJ Hess said Tenex checks its plans and decisions into Git alongside the code.",
+          "paraphrase": true
         },
         {
           "speaker": "Alex Lieberman",

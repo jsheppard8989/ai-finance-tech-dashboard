@@ -50,6 +50,9 @@ EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
         "Grandmaster Caz",
         "Steve Stoute",
         "Steve Stout",  # ASR variant
+        # Oct 23 2026 sweep follow-ups (c23): unverifiable garbled names; removed, not guessed
+        "Dino Mavruchus",
+        "Honorable Duffy",
     }
 )
 
