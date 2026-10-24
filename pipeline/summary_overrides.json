@@ -994,6 +994,96 @@
           "the total transfer would be about $10 billion"
         ]
       ]
+    },
+    {
+      "podcast_episode_id": 595,
+      "insight_id": 606,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c21: paraphrases shown as direct quotes become summary lines",
+      "paraphrase_quotes": [
+        [
+          "AI strategists are responsible for customer retention",
+          "Alex Lieberman argued that Tenex’s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn’t serve the client."
+        ],
+        [
+          "checked into Git alongside the code",
+          "CJ Hess said Tenex checks its plans and decisions into Git alongside the code."
+        ]
+      ],
+      "replacements": [
+        [
+          "CJ Hess: Plans and decisions are checked into Git alongside the code.",
+          "CJ Hess said Tenex checks its plans and decisions into Git alongside the code."
+        ],
+        [
+          "Alex Lieberman: Tenex’s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn’t serve the client.",
+          "Alex Lieberman argued that Tenex’s AI strategists are responsible for customer retention and growth, which gives them an incentive to push back on work that doesn’t serve the client."
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 601,
+      "insight_id": 614,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c21: paraphrase shown as a direct quote becomes a summary line",
+      "paraphrase_quotes": [
+        [
+          "Real workloads behave differently",
+          "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand."
+        ]
+      ],
+      "replacements": [
+        [
+          "Erik Bernhardsson: Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand.",
+          "Erik Bernhardsson argued that real workloads grow, spike and fall through the day, so buying for the peak means paying for idle hardware, while buying less risks missing demand."
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 228,
+      "insight_id": 243,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c23: unverifiable garbled guest name removed (no guessed replacement)",
+      "replacements": [
+        [
+          "Dino Mavruchus states, 'You have to bend",
+          "One guest states, 'You have to bend"
+        ],
+        [
+          "with Mavruchus providing a stark comparison",
+          "with the guest providing a stark comparison"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 598,
+      "insight_id": 608,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023): banned word 'thin' outside quotes",
+      "replacements": [
+        [
+          "a thin workflow layer",
+          "a light workflow layer"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 427,
+      "insight_id": 441,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023): banned word 'thin' outside quotes",
+      "replacements": [
+        [
+          "is wearing thin",
+          "is running out"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 308,
+      "insight_id": 323,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023): banned word 'thin' outside quotes",
+      "replacements": [
+        [
+          "highlighting the razor-thin margins in retail",
+          "highlighting the very low margins in retail"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -2591,6 +2681,16 @@
       "id": 567,
       "name": "Gary Dickerson",
       "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #5): clip in Dwarkesh Intel tour, not a guest"
+    },
+    {
+      "id": 255,
+      "name": "Dino Mavruchus",
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c23: unverifiable garbled name; removed rather than guessed"
+    },
+    {
+      "id": 256,
+      "name": "Honorable Duffy",
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c23: unverifiable garbled name; removed rather than guessed"
     }
   ],
   "pundit_overrides": [
@@ -3597,6 +3697,23 @@
         [
           "This episode is brought to you by Sarmaya Partners, who manages the Return to Tangible's ETF, lens, ticker, L-E-N-S, the Sarmaya Theumatics ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclo",
           "Right now, however, their order of visibility is very, very strong. And again, it seems to be strengthening regardless of who you're talking to in which part of the industry that they're in."
+        ]
+      ]
+    },
+    {
+      "id": 317,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c23: slug still carried the garbled 'Yuternoff' form",
+      "set": {
+        "slug": "sergey-edunov"
+      }
+    },
+    {
+      "id": 449,
+      "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023): banned word 'thin' outside quotes",
+      "replacements": [
+        [
+          "thin global grain reserves",
+          "low global grain reserves"
         ]
       ]
     }

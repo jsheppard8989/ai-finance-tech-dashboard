@@ -191,7 +191,7 @@ function parseNotableQuotes(raw) {
   return raw.map(function(q) {
     if (!q) return null;
     if (typeof q === 'string') return { speaker: '', quote: q };
-    return { speaker: q.speaker || q.name || '', quote: q.quote || q.text || '' };
+    return { speaker: q.speaker || q.name || '', quote: q.quote || q.text || '', paraphrase: !!q.paraphrase };
   }).filter(function(q) { return q && q.quote; }).slice(0, 3);
 }
 
@@ -227,6 +227,13 @@ function renderInsightRecapHTML(item) {
   if (quotes.length) {
     html += '<div class="insight-quotes" style="margin-top:0.15rem;">';
     quotes.forEach(function(q) {
+      if (q.paraphrase) {
+        // Oct 23 2026 (c21): a summary of what the speaker said, not a direct quote:
+        // no quote marks and no "Speaker:" label (the line names the speaker itself).
+        html += '<p class="insight-paraphrase" style="margin:0.4rem 0;padding:0.3rem 0.7rem;border-left:2px solid rgba(156,163,175,0.45);color:#c5cde0;font-size:0.9rem;line-height:1.5;">' +
+          escapeDeepDiveText(q.quote) + '</p>';
+        return;
+      }
       var who = q.speaker
         ? '<span style="color:#00d4ff;font-weight:600;">' + escapeDeepDiveText(q.speaker) + ':</span> '
         : '';

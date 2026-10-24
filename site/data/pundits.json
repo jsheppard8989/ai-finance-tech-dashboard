@@ -4885,7 +4885,7 @@
         },
         {
           "heading": "Global Food Security & Macro Trends",
-          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and thin global grain reserves could amplify these pressures."
+          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and low global grain reserves could amplify these pressures."
         },
         {
           "heading": "Water-Rich Land Strategy",
@@ -10522,7 +10522,7 @@
   {
     "id": 317,
     "name": "Sergey Edunov",
-    "slug": "sergey-yuternoff",
+    "slug": "sergey-edunov",
     "bio": "Sergey Edunov is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Edunov has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
     "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
     "net_worth_usd": 600000000.0,
@@ -13432,129 +13432,6 @@
         }
       ]
     }
-  },
-  {
-    "id": 255,
-    "name": "Dino Mavruchus",
-    "slug": "dino-mavruchus",
-    "bio": "Dino Mavruchus is the CEO of Marathon Marine, a company focused on modernizing shipbuilding. He is known for his work in autonomous shipbuilding and the first principles design approach, aiming to revolutionize the industry by focusing on production, cost, and scale.",
-    "known_for": "Pioneering autonomous shipbuilding and applying first principles design to modernize ship production.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Factual and solution-oriented.",
-    "voice_delivery_notes": "Clear and assertive, with a focus on the future of shipbuilding.",
-    "voice_profile_updated_at": "2026-05-19 17:12:15",
-    "last_seen": "2026-05-19 17:12:15",
-    "last_episode_title": "Rebuilding The American Shipyard",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
-    "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
-    "supporting_takeaway": "Evaluate firms using first principles design to reduce costs and improve efficiency.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-19T12:12:39.355255",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dino Mavruchus",
-      "fetched_at": "2026-05-19T17:12:39.354917+00:00",
-      "cliff_notes": "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability. Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships.",
-      "derived": {
-        "current_role": "CEO of Marathon Marine"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability.",
-        "Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Shipbuilding",
-          "body": "Mavruchus is at the forefront of developing autonomous ships, which can potentially transform the maritime industry by increasing efficiency and reducing costs."
-        },
-        {
-          "heading": "First Principles Design",
-          "body": "He advocates for a first principles design approach in shipbuilding, which involves rethinking the fundamental aspects of ship design and production to achieve better outcomes."
-        },
-        {
-          "heading": "Production Constraints",
-          "body": "Mavruchus identifies production, rather than innovation, as the current constraint in defense, emphasizing the need for faster, more cost-effective, and scalable shipbuilding methods."
-        },
-        {
-          "heading": "Rebuilding the Industrial Base",
-          "body": "He calls for a rebuild of the industrial base, arguing that the current model creates vulnerabilities and is not profitable, and that a new approach is necessary for the next century."
-        }
-      ]
-    }
-  },
-  {
-    "id": 256,
-    "name": "Honorable Duffy",
-    "slug": "honorable-duffy",
-    "bio": "The Honorable Duffy is a former Assistant Secretary of the Navy with extensive experience in defense acquisition. He is known for his understanding of the challenges and opportunities within the defense industrial base and his advocacy for rebuilding the industrial base to meet future defense needs.",
-    "known_for": "Advocating for the modernization and rebuilding of the defense industrial base to address production constraints and vulnerabilities.",
-    "net_worth_usd": 85900000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001212809/terrence-a-duffy",
-    "net_worth_updated_at": "2026-05-19T12:12:51.136425",
-    "voice_tone": "Authoritative and pragmatic.",
-    "voice_style": "Direct and policy-focused.",
-    "voice_delivery_notes": "Emphasizes the need for change and collaboration in the defense sector.",
-    "voice_profile_updated_at": "2026-05-19 17:12:15",
-    "last_seen": "2026-05-19 17:12:15",
-    "last_episode_title": "Rebuilding The American Shipyard",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
-    "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
-    "supporting_takeaway": "Evaluate firms using first principles design to reduce costs and improve efficiency.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-19T12:12:50.208561",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Honorable Duffy",
-      "fetched_at": "2026-05-19T17:12:50.208420+00:00",
-      "cliff_notes": "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense. His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector.",
-      "derived": {
-        "former_positions": "Assistant Secretary of the Navy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense.",
-        "His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector."
-      ],
-      "sections": [
-        {
-          "heading": "Defense Industrial Base",
-          "body": "Honorable Duffy is known for his expertise in understanding the challenges and opportunities within the defense industrial base, particularly the shift from innovation to production as the primary constraint."
-        },
-        {
-          "heading": "Rebuilding the Industrial Base",
-          "body": "Duffy has been a vocal advocate for rebuilding the defense industrial base to address production constraints and vulnerabilities, emphasizing the need for more founders, builders, and government support for change."
-        },
-        {
-          "heading": "Production Constraints",
-          "body": "Honorable Duffy highlights the increasing constraint in defense as production, rather than innovation, and the need for new approaches to manufacturing and procurement to meet future defense needs."
-        }
-      ]
-    },
-    "net_worth": "$85.9M"
   },
   {
     "id": 209,
