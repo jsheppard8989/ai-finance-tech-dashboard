@@ -1,5 +1,5 @@
 {
-  "_comment": "Terms hidden from the home Overton pipeline list (2026-09-22; + Project-Based Learning / Curiosity-Driven Learning 2026-09-23; + Bending Spoon(s) company-name demote 2026-09-24). Curated seeds in curated_overton.json still pin above this list. + Gating Mechanism promoted to curated 2026-09-28. + e-values, Quantization, Electrification, Skin in the Game, AI Personhood demoted 2026-09-29. + Liquid AI company-name demote 2026-10-07. Do not hand-edit data.js — this file is the durable demote switch.",
+  "_comment": "Terms hidden from the home Overton pipeline list (2026-09-22; + Project-Based Learning / Curiosity-Driven Learning 2026-09-23; + Bending Spoon(s) company-name demote 2026-09-24). Curated seeds in curated_overton.json still pin above this list. + Gating Mechanism promoted to curated 2026-09-28. + e-values, Quantization, Electrification, Skin in the Game, AI Personhood demoted 2026-09-29. + Liquid AI company-name demote 2026-10-07. + Return to Tangibles (sponsor read) demoted 2026-10-23. Do not hand-edit data.js — this file is the durable demote switch.",
   "_updated": "2026-10-23",
   "demote": [
     {
@@ -66,6 +66,11 @@
       "term": "floor",
       "id": 313,
       "reason": "quote fragment, Jared 10/20 rule (description starts mid-sentence: \"for digital production by making it easier...\"); 2026-10-23"
+    },
+    {
+      "term": "Return to Tangibles",
+      "id": 297,
+      "reason": "Sponsor ad-read thesis, not a guest idea (Oct 23 2026 full sweep c19)"
     }
   ]
 }

@@ -217,6 +217,18 @@
       const esc = (s) => String(s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
       const dateOpts = { month: 'short', day: 'numeric', year: 'numeric' };
       
+      // Oct 23 2026 sweep (c14): stored snippets are cut at a fixed length; end on the last full
+      // sentence (or word) instead of mid-word, and hide a snippet shared by several guests.
+      function trimProof(s) {
+        s = String(s || '').trim();
+        if (!s || /[.!?…"”')\]]$/.test(s)) return s;
+        const m = s.match(/^[\s\S]*[.!?](?=\s)/);
+        if (m && m[0].length >= 40) return m[0] + ' …';
+        const w = s.replace(/\s+\S*$/, '');
+        return (w || s) + '…';
+      }
+      const snipCount = {};
+      items.forEach(p => { const k = String(p.last_proof_snippet || '').trim(); if (k) snipCount[k] = (snipCount[k] || 0) + 1; });
       const html = items.map(p => {
         const name = esc((p.name || 'Pundit').trim());
         const known = esc(p.known_for || '');
@@ -236,7 +248,8 @@
           src = esc(String(p.last_seen).substring(0, 10));
         }
         const proofCite = esc(p.last_proof_cite || '');
-        let proofSnip = esc(p.last_proof_snippet || '');
+        const rawSnip = String(p.last_proof_snippet || '').trim();
+        let proofSnip = (rawSnip && snipCount[rawSnip] === 1) ? esc(trimProof(rawSnip)) : '';
         if (proofSnip.length > 280) proofSnip = proofSnip.substring(0, 277) + '…';
         const arenaBits = [];
         if (mentionScore) arenaBits.push(mentionScore + '× guest spot' + (mentionScore === 1 ? '' : 's'));

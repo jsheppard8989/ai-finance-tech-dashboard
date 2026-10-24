@@ -85,7 +85,7 @@ def _emerging_term_attributed_speaker(analysis: Dict) -> Optional[str]:
     hosts = analysis.get("hosts") or []
     hnames = [(h.get("name") or "").strip() for h in hosts if (h.get("name") or "").strip()]
     if hnames:
-        return ", ".join(hnames[:2]) + " (hosts)"
+        return ", ".join(hnames[:2]) + (" (hosts)" if len(hnames[:2]) > 1 else " (host)")
     return None
 
 
