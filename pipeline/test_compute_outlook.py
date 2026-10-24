@@ -82,14 +82,16 @@ def test_compute_thesis_page():
     assert not re.search(r"\b(bet|bets|thin)\b", text, re.I)
     assert 'data-research-menu' in s and './js/research-nav.js' in s
     assert "ornn.json" not in s and "index_value" not in s
-    for n in (1, 2, 3, 4, 5, 6, 7, 8):
+    for n in (1, 2, 3, 4, 5):
         assert 'data-chart="%d"' % n in s
+    for n in (6, 7, 8):
+        assert 'data-chart="%d"' % n not in s  # charts cut in the Oct 24 follow-up
     for coined in ("Supply Lag Paradox", "Overhang", "Compute Velocity", "fog of war", "toll"):
         assert not re.search(r"\b%s\b" % coined, text, re.I)
     for leak in ("NOTE TO EDITORS", "NOT FOR PUBLICATION", "Chart specs", "**Series:**", "Purpose:"):
         assert leak not in s
     label = "Source: Ornn Compute Price Index (data.ornn.com), used with permission"
-    assert s.count(label) == 2  # charts 3 and 4
+    assert s.count(label) == 1  # chart 3 only
     assert "data.ornn.com/api" not in s  # Ornn values embedded from saved files, never fetched
 
 
@@ -99,6 +101,7 @@ def test_compute_thesis_link_matches_title():
     site = Path(__file__).resolve().parent.parent / "site"
     s = (site / "compute-thesis.html").read_text(encoding="utf-8")
     title = re.search(r"<title>(.*?)</title>", s).group(1)
+    assert title == "Who Keeps the Profit from the AI Compute Shortage"
     assert re.search(r"<h1>(.*?)</h1>", s).group(1) == title
     assert "label: '%s', href: 'compute-thesis.html'" % title in (site / "js" / "research-nav.js").read_text(encoding="utf-8")
     for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html"):

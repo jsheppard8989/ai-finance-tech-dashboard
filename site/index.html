@@ -2039,7 +2039,7 @@
   <div class="container">
     <nav class="site-nav" aria-label="Site sections">
       <a href="debait.html" id="home-debate-listen">Long &amp; Short</a>
-      <div class="nav-research" data-research-menu><noscript><a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a> · <a href="healthcare.html">Healthcare Abundance</a> · <a href="compute-thesis.html">GPU Rental Prices and the AI Builders</a></noscript></div>
+      <div class="nav-research" data-research-menu><noscript><a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a> · <a href="healthcare.html">Healthcare Abundance</a> · <a href="compute-thesis.html">Who Keeps the Profit from the AI Compute Shortage</a></noscript></div>
       <a href="archive.html">Archive</a>
     </nav>
     <header style="position: relative;">
@@ -2341,14 +2341,14 @@
       if (host) host.focus();
     }
 
-    // "GPU Rental Prices and the AI Builders" button: shown only once JG's thesis page exists.
+    // "Who Keeps the Profit from the AI Compute Shortage" button: shown only once JG's thesis page exists.
     (function () {
       var slot = document.getElementById('compute-thesis-slot');
       if (!slot || !window.fetch) return;
       var page = ['compute-thesis', 'html'].join('.');  // JG's thesis page; built at runtime so the hidden button isn't a dead static link
       fetch('./' + page, {method: 'HEAD', cache: 'no-store'}).then(function (r) {
         if (!r.ok) return;
-        slot.innerHTML = '<a href="./' + page + '" class="chart-btn" style="display:inline-block;text-decoration:none;">GPU Rental Prices and the AI Builders</a>';
+        slot.innerHTML = '<a href="./' + page + '" class="chart-btn" style="display:inline-block;text-decoration:none;">Who Keeps the Profit from the AI Compute Shortage</a>';
         slot.hidden = false;
       }).catch(function () {});
     })();
