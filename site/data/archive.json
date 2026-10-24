@@ -1,6 +1,41 @@
 {
   "insights": [
     {
+      "id": 620,
+      "title": "What It Takes to Win as a Founder | Ben Horowitz",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-24",
+      "summary": "Ben Horowitz argues that AI will compress company-building and adoption cycles, but it does not remove the hard parts of entrepreneurship: conviction, product differentiation, and defensibility. He says AI is different from prior platform waves because once it works, it can immediately reach a huge audience without needing a separate network build-out, yet founders still need to create products that are dramatically better than incumbents.\n\nA central theme is that shallow \"GPT wrapper\" products are unlikely to sustain durable advantage. Horowitz says real winners will likely combine multiple models, proprietary data, and switching costs, and he stresses that to take market share you generally need something roughly 10x better rather than merely marginally better. He uses ChatGPT as an example of product attachment and argues that incumbent user habits create meaningful friction unless a substitute is clearly superior.\n\nHorowitz also revisits founder psychology and CEO decision-making under uncertainty, describing his own decision to go public very early\u201418 months after founding\u2014with only $2 million in trailing revenue and a forecast path from $2 million to $75 million. He frames that choice as a test of confidence: leaders cannot wait for perfect certainty, because hesitation creates politics, confusion, and weaker execution.\n\nFinally, the episode broadens into VC and media. Horowitz argues that AI will change the venture landscape by enabling smaller teams and different founder profiles, and he predicts AI video/entertainment will become a new medium rather than a simple automation of film and TV. Across the discussion, the recurring view is that AI expands what is buildable, but competitive advantage still depends on strong products, strong teams, and strong judgment.\n",
+      "key_takeaway": "AI will create faster-growing companies, but only those with dramatic product advantages, proprietary data, and strong founder execution will sustain defensible returns.",
+      "tickers_mentioned": [
+        "META",
+        "AMZN",
+        "IBM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 609,
+      "notable_quotes": [
+        {
+          "speaker": "Ben Horowitz",
+          "quote": "You don't take out a competitor with equally good product. You need something dramatically better."
+        },
+        {
+          "speaker": "Ben Horowitz",
+          "quote": "With AI, like when it works, instantly, you can get to a giant number of users. We've seen companies grow faster than any companies we've ever seen."
+        },
+        {
+          "speaker": "Ben Horowitz",
+          "quote": "We went public on two million dollars in trailing revenue, trailing 12 months revenue, two million dollars, like IPO, two million going to 75."
+        }
+      ]
+    },
+    {
       "id": 615,
       "title": "Amazon CEO Andy Jassy on Why Amazon Is Investing $220 Billion in AI",
       "source_type": "podcast",
@@ -346,7 +381,7 @@
       "key_takeaway": "Document-processing infrastructure, not generic AI reasoning, is becoming the bottleneck for high-stakes agent workflows, and Reducto claims to solve it at high accuracy and penny-per-page economics.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-21",
       "archived_date": null,
