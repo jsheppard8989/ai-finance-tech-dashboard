@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "week_ending": "2026-10-02",
+  "generated_at": "2026-10-02T16:30:00-05:00",
+  "book": "paper",
+  "scoreboard": {
+    "trades": 2,
+    "r_sum": 0.87,
+    "expectancy_r": 0.435,
+    "net_pnl": 559.2,
+    "net_pnl_pct": 0.0056,
+    "flat_week_is_success": true
+  },
+  "spy": { "week_pct": 0.0081, "book_week_pct": 0.0056, "source": "bars cache SPY.json (yahoo, provisional)" },
+  "coach": {
+    "setup_mean_r": {
+      "best": { "setup": "catalyst_breakout", "mean_net_r": 1.52, "n": 1 },
+      "worst": { "setup": "momentum_pullback", "mean_net_r": -0.65, "n": 1 }
+    },
+    "avg_mae_r_winners": { "value": -0.31, "n": 1 },
+    "avg_mfe_r_losers": { "value": 0.42, "n": 1 },
+    "red_alerts_not_flattened": { "count": 0, "trade_ids": [] },
+    "no_trade_days": { "count": 3, "spy_week_pct": 0.0081 },
+    "rule_violations": [],
+    "amendment": null
+  },
+  "setups": [
+    { "setup": "catalyst_breakout", "closed_trades": 1, "mean_net_r": 1.52, "retirement_eligible": false },
+    { "setup": "momentum_pullback", "closed_trades": 1, "mean_net_r": -0.65, "retirement_eligible": false }
+  ]
+}

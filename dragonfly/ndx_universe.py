@@ -43,7 +43,22 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Callable, Dict, List, Mapping, Optional
 
+from dragonfly import gics
+
 NDX_URL = "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+# Membership vs sector tag (Jared/Ditka 2026-09-28). MEMBERSHIP is Jared's call:
+# when dragonfly/universe_approved.json exists it IS the universe (never
+# re-ranked, never refreshed from the screener). Without it, the weekly refresh
+# ranks on Nasdaq's own screener label, as approved on 2026-09-25. GICS
+# (dragonfly/gics.py) is only the per-name SECTOR TAG applied afterwards: it
+# feeds the one-per-sector cap and the red team's sector_lagging flag, never
+# which names are in. The ranking-time label is kept as screener_sector.
+# Tests of the raw ranking mechanics switch GICS tagging off.
+GICS_ENABLED = True
+APPROVED_PATH = Path(__file__).resolve().parent / "universe_approved.json"
+APPROVED_SCHEMA = "dragonfly.universe_approved/1"
+GICS_SECTOR_FIELD = ("sector = GICS tag (dragonfly/gics.py; cap + sector_lagging only); membership and "
+                     "sector_rank come from the ranking on Nasdaq's screener label, kept as screener_sector")
 SCREENER_URL = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true"
 SCHEMA = "dragonfly.ndx_universe/2"  # /2: share classes collapsed
 PER_SECTOR = 5
@@ -153,7 +168,7 @@ def parse_members(ndx_payload: Mapping, screener_payload: Mapping) -> List[dict]
                 "ticker": sym,
                 "name": r.get("companyName"),
                 "market_cap": parse_market_cap(r.get("marketCap")),
-                "sector": sectors.get(sym),
+                "sector": sectors.get(sym),  # Nasdaq's label: the RANKING key (GICS is only a tag)
             }
         )
     if len(out) < MIN_CONSTITUENTS:
@@ -192,6 +207,7 @@ def rank_by_sector(members: List[Mapping], per_sector: int = PER_SECTOR) -> dict
                 "market_cap": parse_market_cap(m["market_cap"]),
                 "issuer": m.get("issuer"),
                 "share_classes": m.get("share_classes"),
+                **{k: m[k] for k in ("screener_sector", "sector_source") if k in m},
             }
             for i, m in enumerate(ranked[:per_sector])
         ]
@@ -244,11 +260,14 @@ def resolve_pinned(pinned: List[str], screener_payload: Optional[Mapping]) -> Li
     out = []
     for t in pinned:
         r = by.get(t) or {}
+        raw = (r.get("sector") or "").strip() or None
+        sector, source = gics.gics_sector(t, raw) if GICS_ENABLED else (raw, "screener")
         out.append(
             {
                 "ticker": t,
                 "name": r.get("name"),
-                "sector": (r.get("sector") or "").strip() or None,
+                "sector": sector,
+                **({"screener_sector": raw, "sector_source": source} if GICS_ENABLED else {}),
                 "market_cap": parse_market_cap(r.get("marketCap")),
                 "sector_rank": None,
                 "origin": [ORIGIN_PINNED],
@@ -310,7 +329,7 @@ def load(path: Path) -> Optional[dict]:
 def fetch_and_rank(get_json: Callable[[str], Mapping], now: datetime, per_sector: int = PER_SECTOR) -> dict:
     members = parse_members(get_json(NDX_URL), get_json(SCREENER_URL))
     ranked = rank_by_sector(members, per_sector)
-    return {
+    doc = {
         "schema": SCHEMA,
         "as_of": now.isoformat(timespec="seconds"),
         "as_of_date": now.date().isoformat(),
@@ -321,6 +340,43 @@ def fetch_and_rank(get_json: Callable[[str], Mapping], now: datetime, per_sector
         "rank_key": "market_cap desc within sector (ties by ticker)",
         **ranked,
     }
+    return apply_gics_tags(doc)
+
+
+def apply_gics_tags(doc: Mapping) -> dict:
+    """Relabel each member's `sector` with its GICS tag; membership, order and
+    sector_rank are untouched. `sectors` is regrouped by tag for display."""
+    if not GICS_ENABLED:
+        return dict(doc)
+    out = dict(doc)
+    members = []
+    for m in doc.get("members") or []:
+        raw = m.get("screener_sector", m.get("sector"))
+        tag, source = gics.gics_sector(m.get("ticker"), raw)
+        members.append(dict(m, sector=tag, screener_sector=raw, sector_source=source))
+    by_tag: Dict[str, List[dict]] = {}
+    for m in members:
+        by_tag.setdefault(m["sector"] or "", []).append(m)
+    out["members"] = members
+    out["sectors"] = {k: v for k, v in sorted(by_tag.items())}
+    out["sector_scheme"] = gics.SCHEME
+    out["sector_field"] = GICS_SECTOR_FIELD
+    return out
+
+
+def load_approved(path: Optional[Path] = None) -> Optional[dict]:
+    """The approved (frozen) membership, or None when the file is absent.
+    A present-but-malformed file raises: never fall back to a re-rank."""
+    path = Path(path) if path else APPROVED_PATH
+    if not path.exists():
+        return None
+    doc = json.loads(path.read_text(encoding="utf-8"))
+    if doc.get("schema") != APPROVED_SCHEMA or not isinstance(doc.get("members"), list) or not doc["members"]:
+        raise ValueError(f"approved universe {path} is malformed (schema {doc.get('schema')!r})")
+    tickers = [m.get("ticker") for m in doc["members"]]
+    if len(set(tickers)) != len(tickers) or not all(tickers):
+        raise ValueError(f"approved universe {path}: duplicate or blank tickers")
+    return doc
 
 
 def get_universe(
@@ -330,13 +386,24 @@ def get_universe(
     refresh: bool = False,
     max_age_days: int = MAX_AGE_DAYS,
     per_sector: int = PER_SECTOR,
+    approved_path=None,
 ) -> dict:
-    """Reuse the persisted membership unless stale or `refresh`; otherwise
+    """dragonfly/universe_approved.json, when present, is the membership (GICS
+    tags applied, persisted to `path`, never re-ranked). Otherwise: reuse the persisted membership unless stale or `refresh`; otherwise
     fetch, rank, and persist. A failed refresh raises (no silent reuse of a
     stale membership). Returns the doc plus `reused` and `age_days`."""
+    approved = load_approved(approved_path) if approved_path is not False else None
+    if approved is not None:
+        # Frozen membership (Jared's call): no fetch, no re-rank, --refresh ignored.
+        tagged = apply_gics_tags(approved)
+        tagged["membership"] = "approved"
+        Path(path).parent.mkdir(parents=True, exist_ok=True)
+        Path(path).write_text(json.dumps(tagged, indent=1) + "\n", encoding="utf-8")
+        return {**tagged, "reused": True, "age_days": universe_age_days(tagged, now.date()),
+                "approved_file": str(approved_path or APPROVED_PATH)}
     doc = load(path)
     if not refresh and not is_stale(doc, now.date(), max_age_days, per_sector):
-        return {**doc, "reused": True, "age_days": universe_age_days(doc, now.date())}
+        return {**apply_gics_tags(doc), "reused": True, "age_days": universe_age_days(doc, now.date())}
     doc = fetch_and_rank(get_json, now, per_sector)
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     Path(path).write_text(json.dumps(doc, indent=1) + "\n", encoding="utf-8")
