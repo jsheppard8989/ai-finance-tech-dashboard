@@ -1439,6 +1439,18 @@
     [
       "neurodiverse routing across multiple models",
       "routing across multiple models"
+    ],
+    [
+      "thin-wrapper",
+      "simple-wrapper"
+    ],
+    [
+      "thin wrapper",
+      "simple wrapper"
+    ],
+    [
+      "bucket is still thin",
+      "bucket is still small"
     ]
   ],
   "global_name_replacements": [
