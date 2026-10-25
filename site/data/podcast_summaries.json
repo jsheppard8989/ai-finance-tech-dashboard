@@ -1,5 +1,23 @@
 [
   {
+    "id": 610,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The New Startup Playbook | Box CEO Aaron Levie",
+    "episode_date": "2026-10-25",
+    "summary": "Aaron Levie argues that AI agents are changing startup economics by shifting the bottleneck from creating work to reviewing, orchestrating, and integrating agent output. He says small teams of roughly 3\u201310 people can begin to look like 50\u2013200 person teams, because advanced founders can see 3\u20135x to 10x leverage rather than a modest productivity bump.\n\nLevie emphasizes that this does not mean agents are perfect. He repeatedly notes that agents make mistakes, need retries, and still require humans to edit and supervise. In his view, the biggest advantage is that the human role becomes the editor/reviewer, which can be \u201c10x\u201d the leverage of the person creating the work.\n\nHe also argues that the opportunity set is enormous: there could be hundreds of AI agent companies reaching $1B to $10B+ market caps by targeting specific industries and job functions. He points to early coding-agent companies like Replit, Cursor, Windsor, Lovable, and Cognition as evidence that the category is already producing very large market caps.\n\nAt the same time, Levie says distribution is still a critical constraint. His contrarian view is that AI may transform product creation, but it will not fundamentally transform go-to-market mechanics, so founders still need audience ownership and distribution strength to avoid being drowned out by competitors.",
+    "key_takeaways": [
+      "Aaron Levie says AI agents shift startup bottlenecks from creation to reviewing, orchestrating, and integrating outputs, which changes competitive dynamics.",
+      "Levie says small teams of 3\u201310 people can increasingly produce output comparable to much larger 50\u2013200 person organizations.",
+      "Levie says advanced founders can experience AI leverage of 3\u20135x to 10x, not just a 10\u201320% productivity lift.",
+      "Levie warns that agents are not a panacea because they make mistakes and require iterative retries and human supervision.",
+      "Levie says the opportunity spans nearly every industry and job function, with hundreds of agent companies potentially reaching $1B\u2013$10B+ market caps.",
+      "Levie argues that distribution remains decisive: product build speed may improve, but startups still need strong go-to-market mechanics to win.",
+      "Levie says incumbents are slower to adopt agent workflows because their existing organizations are not wired for many background agents."
+    ],
+    "investment_thesis": "AI agents could let 3\u201310 person startups compete with 50\u2013200 person incumbents, but only if they solve orchestration and distribution better than everyone else.",
+    "key_tickers": null
+  },
+  {
     "id": 609,
     "podcast_name": "The a16z Show",
     "episode_title": "What It Takes to Win as a Founder | Ben Horowitz",
