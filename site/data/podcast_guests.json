@@ -1,6 +1,18 @@
 [
   {
-    "id": 98312,
+    "id": 98501,
+    "name": "Aaron Levie",
+    "slug": "aaron-levie",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI agents could let 3\u201310 person startups compete with 50\u2013200 person incumbents, but only if they solve orchestration and distribution better than everyone else.",
+    "last_episode_title": "The New Startup Playbook | Box CEO Aaron Levie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-25",
+    "appearance_count": 2
+  },
+  {
+    "id": 98502,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98313,
+    "id": 98503,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98314,
+    "id": 98504,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98315,
+    "id": 98505,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98316,
+    "id": 98506,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98317,
+    "id": 98507,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98318,
+    "id": 98508,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98319,
+    "id": 98509,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98320,
+    "id": 98510,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98321,
+    "id": 98511,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98323,
+    "id": 98513,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 2
   },
   {
-    "id": 98322,
+    "id": 98512,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98324,
+    "id": 98514,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98325,
+    "id": 98515,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98326,
+    "id": 98516,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98327,
+    "id": 98517,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98328,
+    "id": 98518,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98329,
+    "id": 98519,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98330,
+    "id": 98520,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98331,
+    "id": 98521,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98332,
+    "id": 98522,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98333,
+    "id": 98523,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98334,
+    "id": 98524,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98335,
+    "id": 98525,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98336,
+    "id": 98526,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98337,
+    "id": 98527,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98338,
+    "id": 98528,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98339,
+    "id": 98529,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 98340,
+    "id": 98530,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -344,18 +356,6 @@
     "last_main_idea": "David Pawlan argues personal AI agents will compete on proactivity rather than 10% efficiency, citing 122 tracked assistants and cost-saving workflows such as HSA reimbursements, flight credits, and 50% lower water bills.",
     "last_episode_title": "The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-29",
-    "appearance_count": 1
-  },
-  {
-    "id": 98341,
-    "name": "Cathie Wood",
-    "slug": "cathie-wood",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Elon Musk argues that the merger of Tesla and SpaceX will create a comprehensive ecosystem for AI, EVs, and robotics, positioning the combined entity as a leader in technology.",
-    "last_episode_title": "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-29",
     "appearance_count": 1
   }
