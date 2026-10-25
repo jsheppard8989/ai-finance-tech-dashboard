@@ -37,6 +37,37 @@
       ]
     },
     {
+      "id": 622,
+      "title": "Citrini: Monkeys Are The Next Bottleneck | Citrini on AI Drug Discovery Experiment & Reflexive Financing Risk to AI Buildout & Hardware Trade",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-10-25",
+      "summary": "The guest argues that the AI infrastructure trade has shifted from being funded mainly by hyperscaler operating cash flow to being increasingly funded by equity and debt, which makes the whole trade more reflexive and vulnerable to a sudden tightening in sentiment or financing conditions. He says the market is still assuming very optimistic revenue and token-demand trajectories, and that if paid usage does not accelerate enough, the underwriting behind AI buildouts could break.\n\nA central contrarian point is that the next bottleneck in AI may not be model capability or compute, but preclinical experimentation capacity in life sciences. The guest argues AI can compress literature review and idea generation, but it cannot remove hard biological timelines like cell growth, safety testing, and animal studies. He says the economic winners may be experiment-focused businesses, lab automation, and consumables, rather than pure drug-design companies or later-stage clinical services.\n\nHe also walks through a case study of AI-assisted protein binder design for a scorpion antitoxin project, describing 211 designs sent to labs and 17 that bound in vitro, with one candidate competing favorably against an established neutralizing antibody region. He uses that example to support the idea that AI can dramatically speed design, but the real constraint remains validation and testing capacity, including scarce monkey supply for animal studies.\n\nOn broader markets, he remains selectively bullish on semiconductors but is more focused on AI usage and agentic utilities than on the broad infrastructure stack. He also offers relative-value views such as long Meta versus short Google, based on his concern that talent movement and AI search disruption may pressure Alphabet more than the market expects.",
+      "key_takeaway": "AI value is shifting from model design and compute toward experimentation infrastructure, especially preclinical CROs, lab automation, and consumables.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-10-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 611,
+      "notable_quotes": [
+        {
+          "speaker": "Satrini",
+          "quote": "The next bottleneck is less about model ability and more about the speed and capacity of preclinical experimentation and consumables, plus scarce inputs like monkeys."
+        },
+        {
+          "speaker": "Satrini",
+          "quote": "We ended up sending like 211 designs and the thing about just science normally doesn't have to function with like the stock market in the background but like originally the timeline was that we were going to get this published by like the beginning of September."
+        },
+        {
+          "speaker": "Satrini",
+          "quote": "If you're relying on the combined lab AR to be $500 billion, and that's where you're underwriting your kind of assumptions of what gets handled back into infrastructure. If it ends up being 300, then that's a disaster."
+        }
+      ]
+    },
+    {
       "id": 620,
       "title": "What It Takes to Win as a Founder | Ben Horowitz",
       "source_type": "podcast",
@@ -13602,7 +13633,7 @@
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
       "last_mentioned_date": "2026-10-25",
-      "mention_count": 10,
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -13611,8 +13642,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 610,
-      "last_mentioned_speaker": "Aaron Levie"
+      "last_mentioned_episode_id": 611,
+      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
     },
     {
       "id": 314,
@@ -13763,8 +13794,8 @@
       "term": "Scaling law",
       "description": "A relationship showing how performance improves as compute, data, or model size increases for a specific task. In biology, the episode argues these laws are task-dependent and must be discovered, not assumed.",
       "first_detected_date": "2026-10-10",
-      "last_mentioned_date": "2026-10-15",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-10-25",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies that identify the right scaling regime for a biological task can build defensible model advantages and avoid wasted compute on the wrong data.",
@@ -13773,8 +13804,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 567,
       "first_detected_speaker": "Pushmeet Kohli, Sal Candido",
-      "last_mentioned_episode_id": 583,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 611,
+      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
     },
     {
       "id": 307,
@@ -13817,8 +13848,8 @@
       "term": "Return to Tangibles",
       "description": "A sponsor-described thesis that the next cycle favors real assets such as energy, metals, miners, precious metals, and critical metals after a decade of underinvestment.",
       "first_detected_date": "2026-10-06",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-10-25",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The theme frames capital allocation toward physical-world assets exposed to inflation, geopolitics, and commodity supply constraints.",
@@ -13827,8 +13858,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 559,
       "first_detected_speaker": "J Mintzmyer",
-      "last_mentioned_episode_id": 608,
-      "last_mentioned_speaker": "George Noble"
+      "last_mentioned_episode_id": 611,
+      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
     },
     {
       "id": 296,
@@ -14322,7 +14353,7 @@
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
       "last_mentioned_date": "2026-10-25",
-      "mention_count": 30,
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -14331,8 +14362,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 610,
-      "last_mentioned_speaker": "Aaron Levie"
+      "last_mentioned_episode_id": 611,
+      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
     },
     {
       "id": 267,
@@ -14627,8 +14658,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 57,
+      "last_mentioned_date": "2026-10-25",
+      "mention_count": 58,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -14637,8 +14668,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 608,
-      "last_mentioned_speaker": "George Noble"
+      "last_mentioned_episode_id": 611,
+      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
     },
     {
       "id": 256,
@@ -16049,8 +16080,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 49,
+      "last_mentioned_date": "2026-10-25",
+      "mention_count": 50,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -16059,8 +16090,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 601,
-      "last_mentioned_speaker": "Erik Bernhardsson"
+      "last_mentioned_episode_id": 611,
+      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
     },
     {
       "id": 26,
