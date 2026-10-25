@@ -3914,6 +3914,2676 @@
           "Anandkumar"
         ]
       ]
+    },
+    {
+      "id": 305,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Josh Elman cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I think the reality is people are now building software and they're building these really rich products",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 122,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Michael Every cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The joke at the moment is if you're an interest rate trader on FX trader, the moment you have to be an oil trader. You've got to look at that to understand what bond yields are going to do. That was Michael Every. I'm Eric Townsend. This is",
+          "The joke at the moment is if you're an interest rate trader on FX trader, the moment you have to be an oil trader. You've got to look at that to understand what bond yields are going to do."
+        ]
+      ]
+    },
+    {
+      "id": 90,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: David George cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If the premise of your question is, is this going to be successful or that it's going to be successful? The answer in AI is probably, and it's just the most exciting time to ever be an investor and in the technology markets and keeping up w",
+          "If the premise of your question is, is this going to be successful or that it's going to be successful?"
+        ]
+      ]
+    },
+    {
+      "id": 301,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jake Paul cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 160,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ben Lamm cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I was a little terrified backstage when Palmer's like, there's something on the screen that says, I'm not supposed to say this. It's like, for the love of God, whatever it is. Please don't make it about colossal. Please don't say it. So, I",
+          "I was a little terrified backstage when Palmer's like, there's something on the screen that says, I'm not supposed to say this. It's like, for the love of God, whatever it is. Please don't make it about colossal. Please don't say it."
+        ]
+      ]
+    },
+    {
+      "id": 578,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Aaron Levie cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Start-ups can actually outrun these big companies in a way that was just never economically feasible before. You could actually go and compete in almost any category on the dimension of people are missing this whole thing. I really think th",
+          "Start-ups can actually outrun these big companies in a way that was just never economically feasible before. You could actually go and compete in almost any category on the dimension of people are missing this whole thing."
+        ]
+      ]
+    },
+    {
+      "id": 577,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: George Noble cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, Lens, ticker, L-E-N-S, the Sarmaya Thematics ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclosure",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 543,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Andy Jassy cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Even, spending $220 billion this year, we're leaving meaningful amount of demand on the table. We always leave a certain amount for on demand, but 26, obviously, it's about 27 is largely sold out. A good chunk of 28 is sold out. The financi",
+          "Even, spending $220 billion this year, we're leaving meaningful amount of demand on the table. We always leave a certain amount for on demand, but 26, obviously, it's about 27 is largely sold out. A good chunk of 28 is sold out."
+        ]
+      ]
+    },
+    {
+      "id": 183,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Aaron Levie cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Openweight AI is often framed as a threat to frontier labs. Aaron Levie thinks that kits the economics backwards. The box co-founder and CEO joins the OJFI and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 572,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Erik Bernhardsson cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Warm welcome to Basil Chatha, our newest cohost from the Forward Deployed side of the AI Engineering world! We’ll be ramping up a new show with him and couldn’t pass up an interview with Modal’s CEO Eric on the occasion of their monster Ser",
+          "Warm welcome to Basil Chatha, our newest cohost from the Forward Deployed side of the AI Engineering world!"
+        ]
+      ]
+    },
+    {
+      "id": 564,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Chris Auth cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what’s coming next – gate-all-around transistors, backside power, CFET, hybrid bo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 569,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jack Kavalieros cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what’s coming next – gate-all-around transistors, backside power, CFET, hybrid bo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 568,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Kevin Fischer cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what’s coming next – gate-all-around transistors, backside power, CFET, hybrid bo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 571,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Pushkar Ranade cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what’s coming next – gate-all-around transistors, backside power, CFET, hybrid bo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 570,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Tyler Osborn cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what’s coming next – gate-all-around transistors, backside power, CFET, hybrid bo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 563,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Anekha Sokhal cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Tickets and applications now live for AIE CODE - the last flagship AIE of the year. When Anekha Sokhal traded energy derivatives, staying on top of the market meant tracking more information than any person could read. Now, as CEO of Moshi,",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 562,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Nikesh Arora cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I know that you guys have been using the T word a lot, the last day or two in your conversations, the tokens, but maybe we could kind of pivot a little bit away from AI. I guess it's a little bit rooted in AI, but there's been this big conv",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 556,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Adit Abraham cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The day we got into YC, we told that we were going to get a bit. Nobody thinks about complexity when they upload a document to chat to you. You just expect it to work. On the other hand, the tools that you had to solve them were much more p",
+          "The day we got into YC, we told that we were going to get a bit. Nobody thinks about complexity when they upload a document to chat to you. You just expect it to work."
+        ]
+      ]
+    },
+    {
+      "id": 554,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Alex Lieberman cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Last year, Alex Lieberman and his cofounder joined us to explain Tenex’s unusual approach: pay AI engineers for the work they deliver, rather than the hours they spend at a keyboard. If AI makes an engineer faster, an hourly rate can make the en",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 555,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: CJ Hess cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Last year, Alex Lieberman and his cofounder joined us to explain Tenex’s unusual approach: pay AI engineers for the work they deliver, rather than the hours they spend at a keyboard. If AI makes an engineer faster, an hourly rate can make the en",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 553,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Evan Conrad cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world. In the early days of cloud, former guest Martin Casado made something s",
+          "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world."
+        ]
+      ]
+    },
+    {
+      "id": 551,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Karan Singhal cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "5.3 plus trillian we spend on health care for its own country, be the third largest GDP, and yet we have a ton of scarcity. Opening as mission is to ensure AGI benefits all of humanity and give people access to trustworthy abundant reliable",
+          "5.3 plus trillian we spend on health care for its own country, be the third largest GDP, and yet we have a ton of scarcity."
+        ]
+      ]
+    },
+    {
+      "id": 550,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dylan Field cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Dylan Field, welcome to the All-In-Interview. Thank you. Thanks for having me. We are here in beautiful Napa, Yonville, California. Yeah, you're three drinks in. We're a couple of drinks in and we decided to go on camera. Yeah, why not? Why",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 549,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jean-Denis Greze cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Impact in the world is really, really important, really wanted to build something that mattered and helped people. I get pinged by Ben Horowitz. I found this amazing tool, it's called Town, it changed my life, it's so great. We're trying to",
+          "Impact in the world is really, really important, really wanted to build something that mattered and helped people. I get pinged by Ben Horowitz. I found this amazing tool, it's called Town, it changed my life, it's so great."
+        ]
+      ]
+    },
+    {
+      "id": 548,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Mario Martone cut-off proof snippet RESTORED to the sentence end from the source. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I do not expect that, but even after coming from Sing Thierry, I would say the complex of the problem of working not is probably higher now than it was before. An AI system that works 90% of the time might look impressive in a research pape",
+          "An AI system that works 90% of the time might look impressive in a research paper, but when you're handling millions of conversations about people's housing and health care, that remaining 10% becomes an enormous problem."
+        ]
+      ]
+    },
+    {
+      "id": 546,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Nusha Ansari cut-off proof snippet RESTORED to the sentence end from the source. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for th",
+          "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for that?"
+        ]
+      ]
+    },
+    {
+      "id": 230,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jared Isaacman cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Ignition sequenced star. It's good to have an abeater and astronaut in charge. The new NASA Administrator. NASA's still hot. Human climate will not be contained to planet Earth indefinitely. In the next giant leap capabilities that's nuclea",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 544,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Oliver Kharraz cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "In travel, you book a flight. In e-commerce, you buy a product, but in health care, simply booking an appointment can still take weeks. In this episode, A16Z General Partner Julie Yu sits down with Zock Duck founder and CEO Oliver Kharraz to",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 542,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jad Naous cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The world that the AI lives in is all digital, and this is the actual world, and my most things are not necessarily the same. When we started doing AI for coding, it was autocomplete. Nobody really knew to what extent you can actually build",
+          "The world that the AI lives in is all digital, and this is the actual world, and my most things are not necessarily the same. When we started doing AI for coding, it was autocomplete."
+        ]
+      ]
+    },
+    {
+      "id": 541,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Yasir Arafat cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization. That was",
+          "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization."
+        ]
+      ]
+    },
+    {
+      "id": 540,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Terry Angelos cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs which are payment credentials. Amazon recently blocked news and there are m",
+          "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs which are payment credentials."
+        ]
+      ]
+    },
+    {
+      "id": 538,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ian Quigley cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "My co-founder Andrew Blavins and I were at Procursion looking at a small molecule on a screen and then a medicinal chemist walked by as this guy named my Cucarisi and Mike was like, hey, it looks like a Stuart trivert molecule and then we'r",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 537,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Billy Evans cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Billy Evans who is Elizabeth Holmes's partner, the subject of the forthcoming documentary, you can see everything. As had an unconventional love story with her fiance, Billy Evans. The couple first connected as federal authorities were inve",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 536,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ben Inker cut-off proof snippet RESTORED to the sentence end from the source. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "In general, the market does about 4% worse per percent of market cap that comes in in an IPO in a given year. So if we are seeing 6% coming in, that's 24% worse than normal. If we're all short of compute, then sure, I'm going to pay for a fi",
+          "If we're all short of compute, then sure, I'm going to pay for a five-year-old GPU that is less energy efficient."
+        ]
+      ]
+    },
+    {
+      "id": 534,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Nathan Lambert cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "When I think about model progress, it comes down to different forms of capital, and that is compute data and talent. How do you see that playing out in terms of who's going to win in the next couple of years? The Chinese are so good at buil",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 533,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jason Ma cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Watch along AIE NYC and join us at AIE CODE in SF next month! This episode includes a live demo of the Taku robot that is best enjoyed on YouTube. Last month, Dyna made waves by announcing Dyna-2, a world-action model pre-trained on one mil",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 78,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Martin Casado cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
+          "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly."
+        ]
+      ]
+    },
+    {
+      "id": 529,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Charles Lemonides cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This market has gone up into the right without a more than a 25% correction for 18 years. It's sort of silly to think it could be 18 years and two weeks instead of 18 years and six months or 19 years and two months or 22 years and seven mon",
+          "This market has gone up into the right without a more than a 25% correction for 18 years."
+        ]
+      ]
+    },
+    {
+      "id": 436,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Justin Johnson cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today. An art thesis is that there exists anothe",
+          "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today."
+        ]
+      ]
+    },
+    {
+      "id": 74,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Travis Kalanick cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
+          "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber?"
+        ]
+      ]
+    },
+    {
+      "id": 528,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Martin Shkreli cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "He's been called the most hated man in America because he jacked up the cost of a life-saving drug. Raise the price of a life-saving drug, 5,000 percent. He became the poster child for capitalistic greed. Barton Screly, 7 years in prison, w",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 525,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dhaval Adjodah cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself. Can think",
+          "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself."
+        ]
+      ]
+    },
+    {
+      "id": 526,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Owen He cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself. Can think",
+          "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself."
+        ]
+      ]
+    },
+    {
+      "id": 524,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Nick Bostrom cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so. On the other hand, if ther",
+          "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so."
+        ]
+      ]
+    },
+    {
+      "id": 522,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jason Calacanis cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "All right, everybody, welcome back to the number one podcast in the world. The all-in podcast with me, the core four, be original, quartet, Chumapai Hoppetia, David Sachs, Dave Freeberg, I'm Jason Calcantison. We have a doc at How's Everybo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 520,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Pushmeet Kohli cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel mode",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 521,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Sal Candido cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel mode",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 516,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Brent Johnson cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I've been doing this for 26 years now, and for 25 of the 26 years, I've been hearing that the Fed is out of bullets. And my point to people is that they have a lot more bullets than you can possibly imagine. That was Santiago Capital founde",
+          "I've been doing this for 26 years now, and for 25 of the 26 years, I've been hearing that the Fed is out of bullets. And my point to people is that they have a lot more bullets than you can possibly imagine."
+        ]
+      ]
+    },
+    {
+      "id": 514,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ekin Doğuş Çubuk cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "It’s hard to believe that Periodic was only launched last September: One year later, it is considered one of the pre-eminent AI scientist labs, with dizzying talent density and astonishing progress in the autonomous lab buildout: Most peopl",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 513,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Liam Fedus cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "It’s hard to believe that Periodic was only launched last September: One year later, it is considered one of the pre-eminent AI scientist labs, with dizzying talent density and astonishing progress in the autonomous lab buildout: Most peopl",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 512,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Matt Garman cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Agented workflows tended to perform better on AWS than anywhere else. Compute sandboxes, gateways, agent permissions versus people. A lot of those are things that we have built and are building and thinking actively about. The top frontier",
+          "Agented workflows tended to perform better on AWS than anywhere else. Compute sandboxes, gateways, agent permissions versus people. A lot of those are things that we have built and are building and thinking actively about."
+        ]
+      ]
+    },
+    {
+      "id": 511,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Astro Teller cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Thank you for having me, pleasure, Paul, and we have known each other for God knows a couple of decades now. You know, I think most people don't know something about you. It's worth mentioning. Just for fun, since we're talking about geneti",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 510,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: J Mintzmyer cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Words like crisis or historic, really do not even begin to capture what is going on with tankers and the straight of hormones. I mean, you'll get into the numbers, but some of these tanker rates have gone up 25 times, not 25 percent, 25 tim",
+          "Words like crisis or historic, really do not even begin to capture what is going on with tankers and the straight of hormones."
+        ]
+      ]
+    },
+    {
+      "id": 509,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Andrew Wang cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Morgage is top three in terms of undistrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us. The way that we are going about it as an",
+          "Morgage is top three in terms of undistrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us."
+        ]
+      ]
+    },
+    {
+      "id": 508,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Kevin Mandia cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If you don't have a defense on this, you have a great offense to go up against. You want to be the Baltimore Ravens defense at 2000, you kind of want to have your practice offense really push you. That's what Armenians are going to do. We'r",
+          "If you don't have a defense on this, you have a great offense to go up against. You want to be the Baltimore Ravens defense at 2000, you kind of want to have your practice offense really push you. That's what Armenians are going to do."
+        ]
+      ]
+    },
+    {
+      "id": 187,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Luke Gromen cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Gromen of Forest for the Trees Research Luke. Welcome back to Monterey M",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 506,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Richard Socher cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Richard, I'm curious where are we at the moment with RSI? In various weak forms, we already have RSI. We're not quite there yet, but we're very close. When do you believe we reach ASI? I think we'll take us probably several decades. On term",
+          "In various weak forms, we already have RSI. We're not quite there yet, but we're very close."
+        ]
+      ]
+    },
+    {
+      "id": 52,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Alex Karp cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 502,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Seema Amble cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
+          "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them."
+        ]
+      ]
+    },
+    {
+      "id": 503,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Vladimir Keil cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
+          "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them."
+        ]
+      ]
+    },
+    {
+      "id": 499,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Alex Zhang cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Last call for regular tickets for AI Engineer NYC! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps - for new tickets only, no refunds! See you in 2 weeks! While we tend to cover industry",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 497,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Barrett Lyon cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We're really at an inflection point because you have the birth of essentially coin-operated intelligence at scale. The internet is really kind of stagnated bit for the protocol design. There's like not a lot of new stuff all of it's built o",
+          "We're really at an inflection point because you have the birth of essentially coin-operated intelligence at scale. The internet is really kind of stagnated bit for the protocol design."
+        ]
+      ]
+    },
+    {
+      "id": 495,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: David Rosenberg cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Historically, when a one-party power swings to a two-party system with gridlock, 80% of the time, the economy slows, 80% of the time inflation goes down, and 80% of the time bond yields go down in that two-year period after a national elect",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 494,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Si Sheppard cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "New episode with military historian Si Sheppard. The conquests of the Aztec and Inca empires might be the most shocking events in human history. Hernan Cortés and some hundreds of Conquistadors landed on a new continent they knew basically",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 493,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Alex Pall cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 492,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Drew Taggart cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 490,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ari Weinstein cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks: We are no strangers to learning in public and are no stra",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 491,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Nikunj Handa cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks: We are no strangers to learning in public and are no stra",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 489,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ben Pouladian cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I'm joined once again by Ben Pouladian of BEP Research Ben is a semiconductor auto-diadact enthusiast. He's been an investor in Nvidia since 2016. Ben, great to see you again. Welcome back. Glad to be back with you, Jack. So I'm exciting. Th",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 488,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Daniel Ek cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 487,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Cathie Wood cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs. And they're concerned about the old social contract, do well in high school, go to college, get a degree, and go get a",
+          "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs."
+        ]
+      ]
+    },
+    {
+      "id": 486,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Palmer Luckey cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Wow, so much brighter out here. It is. It's, you know, the future is bright. There's a light flare in the future. Yeah. So welcome everybody to the Oscars of optimism, that of course we're opening up the summit with the king of autonomous w",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 484,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: James Elbaor cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Let's take a quick step back and say one thing that I think is abundantly clear. The private credit boom is over. We all saw in Forbes recently around the blue owl founders, other founders of private credit firms becoming billionaires. That",
+          "Let's take a quick step back and say one thing that I think is abundantly clear. The private credit boom is over. We all saw in Forbes recently around the blue owl founders, other founders of private credit firms becoming billionaires."
+        ]
+      ]
+    },
+    {
+      "id": 482,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Henry Peabody cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Got a very important conversation today. We are speaking to Henry Peabody, senior investment strategist at GMO, Henry Welcome to Monetary Matters. Jack, thanks so much for having me. I'm really looking forward to the conversation. I know yo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 481,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Eddy Lazzarin cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The AI debate increasingly asks us to consider the probability of doom. Eddy Lazzarin thinks we should also be asking about the probability of abundance. In this episode, A16Z Crypto-General Partner Eddy Lazzarin joins Theo-Jaffe on MTS to",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 333,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dylan Patel cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 480,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Eric Nguyen cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
+          "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging."
+        ]
+      ]
+    },
+    {
+      "id": 479,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Luca Ferrari cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 478,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Amjad Masad cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Ultimately, the totally beyond people is to question deeply held beliefs. It's to be heretics. You need to learn our way so you can get a job and be a perfect citizen, get married, have kids, and get a house on a car and live happily ever a",
+          "Ultimately, the totally beyond people is to question deeply held beliefs. It's to be heretics."
+        ]
+      ]
+    },
+    {
+      "id": 477,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Steve Hilton cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 475,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: John Platt cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Are you talking about introducing explosive priors that, you know, she based upon some human intuition, or maybe in this case, LOM intuition? When you talk about multiple hypothesis testing, right? There's predictive models and there's desc",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 474,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Blake Scholl cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Set to fly at Mach 1.7 with 103 orders for major airlines. The founder and CEO of Loom Supersonic Glacial. Boeing has a built-in new airplane in 20 years. It's David and Goliath, but Goliath is like a sleet. We're here to bring back two per",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 473,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Naveen Rao cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Naveen Rau, co-founder and CEO of Unconventional AI, which is an AI chip startup, best willing for building and selling to deep tech companies. Naveen is kind of definitely outlier, founder. When I came there, we had about 20 million dollar",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 472,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Adam Foroughi cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 471,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jeremy Boyet cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal. As we saw since maybe August and so far, September, there's been a huge spike i",
+          "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal."
+        ]
+      ]
+    },
+    {
+      "id": 468,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: David Busch cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today, I'm joined by David Busch, Chief Investment Officer of Trajan Wealth, David. Welcome to the monetary matters. Jack, thank you so much for having me. It's truly a pleasure to join you. And as I said in our communication back and forth",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 467,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ali Goodsey cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps. There's one camp which believes that this actually",
+          "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps."
+        ]
+      ]
+    },
+    {
+      "id": 466,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dario Amodei cut-off proof snippet TRIMMED to its last complete sentence (verbatim), dropping the ambiguous 'Sam Elan' sentence (Sam Altman, or 'Sam, Elon'); match text is post-round-2 (global rule already drops that sentence). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Dario Amodei, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+          "Dario Amodei, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Monday, President Trump called it a hoax and China called it a cold war trick."
+        ]
+      ]
+    },
+    {
+      "id": 465,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dina Powell McCormick cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 464,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Harley Bassman cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Bassman, t",
+          "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market."
+        ]
+      ]
+    },
+    {
+      "id": 462,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Gork Amir cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Generative media is along with the coding agent market. What we call is token market fit. Everyone's waiting for a large consumer moment in AI. I believe H3 Max makes it possible. We're surprised by the speed up and the gain you could get f",
+          "Generative media is along with the coding agent market. What we call is token market fit. Everyone's waiting for a large consumer moment in AI. I believe H3 Max makes it possible."
+        ]
+      ]
+    },
+    {
+      "id": 460,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Joseph Wang cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We are live right now, and I am joined by Joseph Wang, former senior trader for the Fed commentator on the Federal Reserve, Joseph, what did you make of the Fed meeting that just concluded Kevin washes third meeting the first hike, what are",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Garrett Langley cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "All right, everybody. Welcome back to the all in interview. This is where we find the people building the future. Sometimes a politician, sometimes a CEO, sometimes an investor, all the time, an important discussion. And one of the most imp",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 459,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Satya Nadella cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "is generated $250 billion with a B and market value from Microsoft. Dots in the Dell Achievement in CEO of Microsoft. And you've been the CEO three and a half years. The stock is up about, I guess it's about 120 percent. I'm good for my 80",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 458,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Gwynne Shotwell cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "What's her latest time that I'm getting to Mars? Getting to Mars? Well, I think we'll put people down within a decade. Welcome [Gwynne] Shotwell, the president and [COO] of [SpaceX]. She's an instrumental, a really crucial person to success the sp",
+          "Well, I think we'll put people down within a decade."
+        ]
+      ]
+    },
+    {
+      "id": 456,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Keith Perez cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Three out of our five founding members came from Facebook, building a revenue team is a very rich problem set. It's something that everyone cares about, it could always be done better. What's the most exciting thing someone's doing with Lig",
+          "Three out of our five founding members came from Facebook, building a revenue team is a very rich problem set. It's something that everyone cares about, it could always be done better."
+        ]
+      ]
+    },
+    {
+      "id": 455,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Martine Rothblatt cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "When do you think we might reach one Japanese gate for us if you know it's a it's a tough question You're currently focused on rejuvenating heart-liver lung kidney You know fundamental organs that we need but when you said the thymus celebr",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 453,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Greg Brockman cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We're now in the AGI era. Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI. We've seen it run coherently for 24 hours to go accomplish tasks that I think are quite amazing. The models will",
+          "We're now in the AGI era. Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI. We've seen it run coherently for 24 hours to go accomplish tasks that I think are quite amazing."
+        ]
+      ]
+    },
+    {
+      "id": 452,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Freddy Brick cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 449,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: John Farris cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "On today's episode of monetary matters, we're doing something a little different. We're going to talk about farmland and food security, and why I think this is one of the more underappreciated real asset stories in markets right now. Everyo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 218,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Joe Schmidt cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
+          "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook?"
+        ]
+      ]
+    },
+    {
+      "id": 440,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Lukasz Kaiser cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "AI is becoming more powerful, but the resources needed to build it are increasingly concentrated. Does it have to stay that way? MTS host Sophia Dew heads to the open source AI summit in San Francisco. To ask researchers and founders across",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 439,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Stéphane Bancel cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed. What was different this time? What is it about mRNA technology that enables the immun",
+          "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed."
+        ]
+      ]
+    },
+    {
+      "id": 438,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dr. Carly Anderson cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance. Because you really do need somebody who's willing to sign a 20 year PBA for",
+          "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance."
+        ]
+      ]
+    },
+    {
+      "id": 437,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ben Milton Hall cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction. We've seen video models as being",
+          "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction."
+        ]
+      ]
+    },
+    {
+      "id": 435,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jared Dillian cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Join today, once again, by Jared Dillian of the Daily Dirt Wrap and the new book, the awesome portfolio. Jared, good to see you. Good to be here, man. Thanks for having me. Yeah, you too, Jared, looking at the front page Bloomberg global bo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 434,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Daniel Litt cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied. Comparing and profit with open AI. D",
+          "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied."
+        ]
+      ]
+    },
+    {
+      "id": 433,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ryan Greenblatt cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "What happens when you give more than 1,000 AI agents the ability to communicate with each other? They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research, joins Theo Jaffee on MTS to unpack a new investigation into the Op",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 430,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dario Amodei cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation. Where's Anthropic in this conve",
+          "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation."
+        ]
+      ]
+    },
+    {
+      "id": 429,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jensen Huang cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation. Where's Anthropic in this conve",
+          "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation."
+        ]
+      ]
+    },
+    {
+      "id": 428,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Samo Burja cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 427,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Bartene Casado cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 426,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ruggle Rugglerum cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 425,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Sam Altman cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
+          "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology."
+        ]
+      ]
+    },
+    {
+      "id": 424,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Matt Bornstein cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
+          "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly."
+        ]
+      ]
+    },
+    {
+      "id": 176,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Sarah Wang cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
+          "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly."
+        ]
+      ]
+    },
+    {
+      "id": 423,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Eric Weinstein cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
+          "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act."
+        ]
+      ]
+    },
+    {
+      "id": 421,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Warren Pies cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
+          "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited."
+        ]
+      ]
+    },
+    {
+      "id": 420,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Anima Anandkumar cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right. And that's the",
+          "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right."
+        ]
+      ]
+    },
+    {
+      "id": 418,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Anish Acharya cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 417,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Michael Kratsios cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Is this administration anti-science? We want to essentially double the scientific output of the United States. Did we lose it? Or did it lead to moments where you have like Fauci? That's great question. Are we in this moment this populous m",
+          "We want to essentially double the scientific output of the United States."
+        ]
+      ]
+    },
+    {
+      "id": 411,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Angela Strange cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
+          "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder."
+        ]
+      ]
+    },
+    {
+      "id": 412,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Gabriel Vasquez cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
+          "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder."
+        ]
+      ]
+    },
+    {
+      "id": 410,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Grant LaFontaine cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If you look at e-commerce today, you have to know exactly what you're looking for. Live commerce is over a third of all commerce in Asia. Send right? 30 to 40 percent of all commerce is live commerce in China. What is it in the U.S today? S",
+          "If you look at e-commerce today, you have to know exactly what you're looking for. Live commerce is over a third of all commerce in Asia. Send right? 30 to 40 percent of all commerce is live commerce in China. What is it in the U.S today?"
+        ]
+      ]
+    },
+    {
+      "id": 409,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Alvin Wang Graylin cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "There seems to be prevailing a view around the campuses that ASI has, you know, five to 10 years out, maybe even 20 years. And so I really curious what the prevailing view is in China. They are not behaving like they believe ASI is around t",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 408,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Andy Unanue cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market. I'",
+          "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market."
+        ]
+      ]
+    },
+    {
+      "id": 406,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Max Pollard cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
+          "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident."
+        ]
+      ]
+    },
+    {
+      "id": 407,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Nick Warner cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
+          "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident."
+        ]
+      ]
+    },
+    {
+      "id": 405,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Russell Clark cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If I look at people 40 and under those in the 20 and 30s, their number one problem is they kind of forward housing. If you want to get housing back to some more reasonable levels, you need to have wages rising about 7% a year. So, doubling",
+          "If I look at people 40 and under those in the 20 and 30s, their number one problem is they kind of forward housing. If you want to get housing back to some more reasonable levels, you need to have wages rising about 7% a year."
+        ]
+      ]
+    },
+    {
+      "id": 404,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Robin Wigglesworth cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 403,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Evan Baker cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "All right, everybody. Welcome back. We all in podcast. The number one podcast in the world. David Sachs and Evan Baker are with us this week. We got a, we got a short crew, but a long docket. And we are going to rock at how are you doing? G",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 402,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Andy McCall cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
+          "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook?"
+        ]
+      ]
+    },
+    {
+      "id": 401,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Rahm Emanuel cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "All right, everybody. We are super pleased to have Ron Emmanuel. Join us for the all and interview today. He was a senior advisor of Bill Clinton, last president, resigned over zero national debt. And he was a Bahamas chief of staff, mayor",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 400,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Milton Berg cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 398,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Garry Tan cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We may never achieve a utopia, but it is worthy and worth it to attempt. Everything that's awesome in my life is kind of a cult. We had to go over to the Windows team. They wouldn't reply to our emails. They wouldn't fix our bugs. And we ha",
+          "We may never achieve a utopia, but it is worthy and worth it to attempt. Everything that's awesome in my life is kind of a cult. We had to go over to the Windows team. They wouldn't reply to our emails. They wouldn't fix our bugs."
+        ]
+      ]
+    },
+    {
+      "id": 397,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Kush Bavaria cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
+          "Sergey Brin is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete."
+        ]
+      ]
+    },
+    {
+      "id": 394,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Matthew McPartlon cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 395,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Neil Patil cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 393,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ryan Greenblatt cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 392,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Emilio Escobar cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it. I do worry about wha",
+          "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it."
+        ]
+      ]
+    },
+    {
+      "id": 259,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Andrew Feldman cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 391,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dean Pernas cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today I'm sitting down with Deiya and Dean Pernas of Pernas Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 389,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Feross Aboukhadijeh cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
+          "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation."
+        ]
+      ]
+    },
+    {
+      "id": 388,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dylan Ayrey cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
+          "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation."
+        ]
+      ]
+    },
+    {
+      "id": 387,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Joel de la Garza cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
+          "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation."
+        ]
+      ]
+    },
+    {
+      "id": 384,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Simon Mow cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 382,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dino Ceranic cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 383,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Vib Altacar cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 378,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Michael Kratsios cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
+          "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible."
+        ]
+      ]
+    },
+    {
+      "id": 377,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Joshua Achiam cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
+          "Heels like AGI is kind of already here and most people have gone like drug."
+        ]
+      ]
+    },
+    {
+      "id": 376,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Victor Haghani cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 375,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Tian Yang cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I'm joined once again by Tian Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 368,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ashwin Srinivas cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
+          "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI."
+        ]
+      ]
+    },
+    {
+      "id": 367,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jesse Zhang cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
+          "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI."
+        ]
+      ]
+    },
+    {
+      "id": 98,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Rory Johnston cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 366,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Frederick Brinkett cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
+          "AI is overhyped and Silicon Valley that's underhyped in Iowa."
+        ]
+      ]
+    },
+    {
+      "id": 365,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Stine Pella cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
+          "AI is overhyped and Silicon Valley that's underhyped in Iowa."
+        ]
+      ]
+    },
+    {
+      "id": 364,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Justin Jo cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
+          "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used."
+        ]
+      ]
+    },
+    {
+      "id": 362,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Amanda McMaster cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 361,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dr. Peter Funkhouser cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 360,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Kathryn Rooney Vera cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Wow. All right. We are here. We are joined by Kathryn Rooney Vera, who's the chief market strategist at StoneX Group. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 358,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Nick Brooks cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 356,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Day Blenden cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 355,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Sriram Krishnan cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
+          "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you."
+        ]
+      ]
+    },
+    {
+      "id": 354,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Travis Kalanick cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Travis Kelenick joins TVPN to discuss why he's building his next company around industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 352,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Underrate Cupathy cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 349,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Mark Cuban cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 348,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Peter Ludwig cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
+          "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones."
+        ]
+      ]
+    },
+    {
+      "id": 347,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Clem Delangue cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
+          "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation."
+        ]
+      ]
+    },
+    {
+      "id": 346,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Nick Nemeth cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 342,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ramin Hasani cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
+          "Mira Murati, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day."
+        ]
+      ]
+    },
+    {
+      "id": 339,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Andy Beam cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
+          "We are all in on the bitter lesson and scale."
+        ]
+      ]
+    },
+    {
+      "id": 340,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Rafael Gómez-Bombarelli cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
+          "We are all in on the bitter lesson and scale."
+        ]
+      ]
+    },
+    {
+      "id": 337,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Moritz Heiden cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 338,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Moritz Seibert cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jack Mallers cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 332,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ben Pouladian cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 329,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Barbara Liskov cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
+          "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro."
+        ]
+      ]
+    },
+    {
+      "id": 328,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Adam Brown cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 326,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Mark Zuckerberg cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
+          "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools."
+        ]
+      ]
+    },
+    {
+      "id": 327,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Priscilla Chan cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
+          "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools."
+        ]
+      ]
+    },
+    {
+      "id": 324,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Adam Neumann cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 322,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Seema Amble cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
+          "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that?"
+        ]
+      ]
+    },
+    {
+      "id": 321,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Darrell Duffie cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 320,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Josh Pristaw cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 319,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Marcus Villik cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
+          "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars."
+        ]
+      ]
+    },
+    {
+      "id": 316,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Evan Feinberg cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
+          "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously."
+        ]
+      ]
+    },
+    {
+      "id": 317,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Sergey Edunov cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
+          "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously."
+        ]
+      ]
+    },
+    {
+      "id": 315,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Rick Rubin cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 314,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Matt Tenzig cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
+          "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity."
+        ]
+      ]
+    },
+    {
+      "id": 313,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Liaquat Ahamed cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 73,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Sam Altman cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 310,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Will Marshall cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
+          "It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable."
+        ]
+      ]
+    },
+    {
+      "id": 309,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Shashank Charanawala cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
+          "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it."
+        ]
+      ]
+    },
+    {
+      "id": 308,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: John Mata cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
+          "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used."
+        ]
+      ]
+    },
+    {
+      "id": 307,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Paul Beckas cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
+          "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used."
+        ]
+      ]
+    },
+    {
+      "id": 302,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Geoffrey Woo cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 298,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jim Chanos cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 299,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Val Zlatev cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 297,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ethan He cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Okay, we're here in a studio with Ethan He, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 296,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Chris Semenuk cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
+          "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months."
+        ]
+      ]
+    },
+    {
+      "id": 295,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Joseph Krause cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
+          "This is the difference between AI for bio and AI for materials."
+        ]
+      ]
+    },
+    {
+      "id": 293,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Satya Nadella cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Satya Nadella. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Satya Nadella. Congratulations on an",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 292,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Santiago Gua Suarez cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
+          "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics."
+        ]
+      ]
+    },
+    {
+      "id": 289,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Brad Gerstner cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Our favorite fifth-besty in the world, the one the only Brad Gerstner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 461,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Brad Gerstner cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box); merged row of #289. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Our favorite fifth-besty in the world, the one the only Brad Gerstner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 64,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Brad Gerstner cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box); merged row of #289. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Our favorite fifth-besty in the world, the one the only Brad Gerstner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 288,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Muhammad Naruzi cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
+          "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image."
+        ]
+      ]
+    },
+    {
+      "id": 164,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Vitalik Buterin cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
+          "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago."
+        ]
+      ]
+    },
+    {
+      "id": 121,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Lyn Alden cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 287,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Brian Armstrong cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
+          "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future."
+        ]
+      ]
+    },
+    {
+      "id": 286,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Larry McDonald cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 284,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Alex Boden cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
+          "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it."
+        ]
+      ]
+    },
+    {
+      "id": 285,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: David A. Asnagi cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
+          "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it."
+        ]
+      ]
+    },
+    {
+      "id": 283,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Conor Coleman cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 282,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Sachin Jain cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
+          "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented."
+        ]
+      ]
+    },
+    {
+      "id": 281,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Bill Maris cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 280,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Alex Tabarrok cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
+          "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt."
+        ]
+      ]
+    },
+    {
+      "id": 279,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Tyler Cowen cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
+          "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt."
+        ]
+      ]
+    },
+    {
+      "id": 278,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Matt Smith cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 277,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Michael Fritzell cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
+          "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028."
+        ]
+      ]
+    },
+    {
+      "id": 276,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Will Brick cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
+          "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right?"
+        ]
+      ]
+    },
+    {
+      "id": 275,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dan Loeb cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
+          "The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective."
+        ]
+      ]
+    },
+    {
+      "id": 273,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: George Prager cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
+          "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet."
+        ]
+      ]
+    },
+    {
+      "id": 271,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Benedict Evans cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
+          "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption."
+        ]
+      ]
+    },
+    {
+      "id": 270,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ray Kurzweil cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
+          "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things."
+        ]
+      ]
+    },
+    {
+      "id": 269,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Bill Ackman cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 268,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Sarah Friar cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "OpenAI's CFO, Sarah Friar. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
+          "We're going to raise actually north of $120 billion."
+        ]
+      ]
+    },
+    {
+      "id": 266,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Delip Tasman cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
+          "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins."
+        ]
+      ]
+    },
+    {
+      "id": 265,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Marc Rowan cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
+          "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market."
+        ]
+      ]
+    },
+    {
+      "id": 264,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Robin Hanson cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
+          "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff."
+        ]
+      ]
+    },
+    {
+      "id": 263,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Andreas Steno Larsen cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
+          "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part."
+        ]
+      ]
+    },
+    {
+      "id": 260,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Clem Delangue cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 258,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Morgan Downey cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 257,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Relow Vora cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
+          "Convincing people of things is possibly the hardest thing we have to do as factors, right?"
+        ]
+      ]
+    },
+    {
+      "id": 254,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Andy Constan cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
+          "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else."
+        ]
+      ]
+    },
+    {
+      "id": 253,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Alex Karp cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 251,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Eric Jang cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 250,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Andrew Perry cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 249,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Mike Green cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 247,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Drew Beglino cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
+          "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate."
+        ]
+      ]
+    },
+    {
+      "id": 246,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Turner Coldwell cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
+          "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate."
+        ]
+      ]
+    },
+    {
+      "id": 244,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Charles Koch cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 245,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Chase Koch cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 243,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Thomas Lloyd Jones cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 241,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: David Wright cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 240,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: David Reich cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 238,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Demis Hassabis cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
+          "Demis Hassabis, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me."
+        ]
+      ]
+    },
+    {
+      "id": 234,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ali Yahya cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
+          "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological."
+        ]
+      ]
+    },
+    {
+      "id": 235,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Eddy Lazzarin cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
+          "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological."
+        ]
+      ]
+    },
+    {
+      "id": 232,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Harris Kupperman cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
+          "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens."
+        ]
+      ]
+    },
+    {
+      "id": 233,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Rodrick Vanzo cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
+          "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens."
+        ]
+      ]
+    },
+    {
+      "id": 228,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Tony James cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
+          "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size."
+        ]
+      ]
+    },
+    {
+      "id": 226,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Warren Pies cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today I was speaking to one of the best and most data-driven analysts around, Warren Pies of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 225,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Sarah B. Rogers cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
+          "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast."
+        ]
+      ]
+    },
+    {
+      "id": 223,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Taylor Lorenz cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
+          "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them?"
+        ]
+      ]
+    },
+    {
+      "id": 197,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Theo Jaffee cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
+          "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them?"
+        ]
+      ]
+    },
+    {
+      "id": 222,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Jacob Pozharny cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 55,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dr. Anas Alhajji cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever. That was Energy Outlook Advisors founder Dr. Otis Alhac",
+          "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever."
+        ]
+      ]
+    },
+    {
+      "id": 574,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Dr. Anas Alhajji cut-off proof snippet TRIMMED to its last complete sentence (verbatim); merged row of #55. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever. That was Energy Outlook Advisors founder Dr. Otis Alhac",
+          "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever."
+        ]
+      ]
+    },
+    {
+      "id": 192,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Deiya Pernas cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today I'm sitting down with Deiya and Dean Pernas of Pernas Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 390,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Deiya Pernas cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box); merged row of #192. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "Today I'm sitting down with Deiya and Dean Pernas of Pernas Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 184,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Steven Sinofsky cut-off proof snippet TRIMMED to its last complete sentence (verbatim). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software."
+        ]
+      ]
+    },
+    {
+      "id": 205,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Steven Sinofsky cut-off proof snippet TRIMMED to its last complete sentence (verbatim); merged row of #184. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software."
+        ]
+      ]
+    },
+    {
+      "id": 171,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Steven Sinofsky cut-off proof snippet TRIMMED to its last complete sentence (verbatim); merged row of #184. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software."
+        ]
+      ]
+    },
+    {
+      "id": 323,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Steven Sinofsky cut-off proof snippet TRIMMED to its last complete sentence (verbatim); merged row of #184. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software."
+        ]
+      ]
+    },
+    {
+      "id": 431,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Steven Sinofsky cut-off proof snippet TRIMMED to its last complete sentence (verbatim); merged row of #184. Matches only this exact cut-off text, so a new episode's snippet is left alone.",
+      "replacements": [
+        [
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
+          "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software."
+        ]
+      ]
     }
   ],
   "pundit_merges": [
