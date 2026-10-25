@@ -2105,6 +2105,10 @@
     [
       "Pella",
       "Pelle"
+    ],
+    [
+      "Jack Mallors Show",
+      "Jack Mallers Show"
     ]
   ],
   "name_replacements": [
@@ -2663,6 +2667,10 @@
     [
       "Oliver Karaz",
       "Oliver Kharraz"
+    ],
+    [
+      "Sergei Bren",
+      "Sergey Brin"
     ]
   ],
   "ticker_renames": [
@@ -5671,6 +5679,16 @@
       "replacements": [
         [
           "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "_note": "Oct 25 2026 N2 follow-up: same Jack Mallers intro-snippet cut as the item 11 rule above, matching the text after the global 'Jack Mallers Show' name fix runs first.",
+      "replacements": [
+        [
+          "Yo, welcome back to another episode of the Jack Mallers Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
           ""
         ]
       ]
