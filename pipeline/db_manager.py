@@ -134,20 +134,79 @@ class DailyScore:
     rank: int = 0
 
 
-def _transcript_proof_snippet(transcript_path: Optional[str], max_chars: int = 240) -> str:
-    """First ~max_chars chars of on-disk transcript (on-hand proof line for pundit cards)."""
-    if not transcript_path:
+# Oct 25 2026 (sweep item 11 follow-up): proof snippets end on a sentence boundary and skip
+# leading ad / intro / outro sentences, instead of the transcript's first 240 characters.
+_SENTENCE_RE = re.compile(r"[^.?!]*[.?!]+[\"\u201d\u2019')\]]*")
+_SNIPPET_SKIP_RE = re.compile(
+    r"(brought to you by|sponsored by|our sponsors?\b|this episode is (?:supported|presented)|"
+    r"\bwelcome (?:back )?to\b|\bwelcome,? everyone\b|\bI'?m joined\b|\bjoining (?:me|us)\b|"
+    r"\bthis is macrovoices\b|\bI'?m (?:your host|Eric Townsend)\b|\bthat was\b.*\bI'?m\b|"
+    r"\btickets?\b|\bpromo code\b|\bdiscount code\b|\bsubscribe\b|\bpodcast network\b|"
+    r"\bnot (?:investment|financial) advice\b|\bfor informational purposes\b|"
+    r"\b(?:dot com|\.com)\s*/)",
+    re.I,
+)
+_SNIPPET_MIN_CHARS = 40
+
+
+def _boundary_cut(text: str, max_chars: int = 240) -> str:
+    """Longest prefix of text (<= max_chars) that ends on . ? or !; "" if none is >= 40 chars."""
+    text = " ".join((text or "").split())
+    if len(text) <= max_chars and re.search(r"[.?!][\"\u201d\u2019')\]]*$", text):
+        return text
+    cut = text[:max_chars]
+    boundary = max(cut.rfind("."), cut.rfind("?"), cut.rfind("!"))
+    if boundary + 1 < _SNIPPET_MIN_CHARS:
         return ""
+    end = boundary + 1
+    while end < len(cut) and cut[end] in "\"\u201d\u2019')]":
+        end += 1
+    return cut[:end].strip()
+
+
+def _clean_proof_snippet(text: str, max_chars: int = 240) -> str:
+    """Skip leading ad/intro/outro sentences, then return whole sentences up to max_chars."""
+    txt = " ".join((text or "").split())
+    sentences = [s.strip() for s in _SENTENCE_RE.findall(txt) if s.strip()]
+    i = 0
+    while i < len(sentences) and _SNIPPET_SKIP_RE.search(sentences[i]):
+        i += 1
+    out = ""
+    for s in sentences[i:]:
+        if _SNIPPET_SKIP_RE.search(s):
+            break
+        cand = (out + " " + s).strip()
+        if len(cand) > max_chars:
+            break
+        out = cand
+    if out and len(out) >= _SNIPPET_MIN_CHARS:
+        return out
+    if not out and i < len(sentences):
+        # first usable sentence is longer than max_chars: no clean cut is possible
+        return ""
+    return out if len(out) >= _SNIPPET_MIN_CHARS else ""
+
+
+def _read_transcript(transcript_path: Optional[str]) -> Tuple[Optional[Path], str]:
+    if not transcript_path:
+        return None, ""
     p = Path(transcript_path.strip())
     if not p.is_absolute():
         p = (workspace_root() / p).resolve()
     if not p.is_file():
-        return ""
+        return None, ""
     try:
-        txt = p.read_text(encoding="utf-8", errors="ignore")
+        return p, " ".join(p.read_text(encoding="utf-8", errors="ignore").split())
     except Exception:
+        return None, ""
+
+
+def _legacy_transcript_proof_snippet(transcript_path: Optional[str], max_chars: int = 240) -> str:
+    """Pre-Oct 25 selection (first max_chars chars). Kept only so pundit_overrides written
+    against that exact text keep matching (see _select_proof_snippet)."""
+    p, txt = _read_transcript(transcript_path)
+    if not txt:
         return ""
-    txt = " ".join(txt.split())
     # The a16z TypeSafe episode transcript opens on a sentence that is not
     # rendered. Drop that first sentence, then end on a sentence boundary.
     if p.name.startswith("the_a16z_show_20260928_d86f541d"):
@@ -160,6 +219,83 @@ def _transcript_proof_snippet(transcript_path: Optional[str], max_chars: int = 2
                 return cut[:boundary + 1].strip()
             return cut.strip()
     return txt[:max_chars].strip()
+
+
+def _transcript_proof_snippet(transcript_path: Optional[str], max_chars: int = 240) -> str:
+    """Proof line for pundit cards from the on-disk transcript: whole sentences only,
+    leading sponsor reads / show intros / host welcomes skipped."""
+    p, txt = _read_transcript(transcript_path)
+    if not txt:
+        return ""
+    if p.name.startswith("the_a16z_show_20260928_d86f541d"):
+        q = txt.find("?")
+        if 0 <= q <= 80:
+            txt = txt[q + 1:].lstrip()
+    return _clean_proof_snippet(txt, max_chars)
+
+
+def _pundit_override_texts(pundit_id) -> List[str]:
+    """Exact-text 'replacements' old strings from summary_overrides.json pundit_overrides
+    for this pundit id (empty on any error)."""
+    try:
+        from export_data import _load_override_rules
+        rules = _load_override_rules().get("pundit_overrides") or []
+    except Exception:
+        return []
+    return _override_texts_by_id(rules).get(_safe_int(pundit_id), [])
+
+
+def _safe_int(v):
+    try:
+        return int(v)
+    except Exception:
+        return None
+
+
+def _override_texts_by_id(rules) -> Dict[int, List[str]]:
+    out: Dict[int, List[str]] = {}
+    for r in rules:
+        rid = _safe_int(r.get("id")) if isinstance(r, dict) else None
+        if rid is None:
+            continue
+        for rep in r.get("replacements") or []:
+            if isinstance(rep, (list, tuple)) and rep and isinstance(rep[0], str) and rep[0]:
+                out.setdefault(rid, []).append(rep[0])
+    return out
+
+
+def _overridden_legacy(pundit_id, legacy: str) -> bool:
+    """True when a hand-written pundit_override targets this exact legacy snippet. The export
+    runs global text/name swaps before pundit rules, so compare after those swaps."""
+    if not legacy or pundit_id is None:
+        return False
+    olds = _pundit_override_texts(pundit_id)
+    if not olds:
+        return False
+    try:
+        from export_data import _apply_summary_overrides
+        probe = [{"id": -10**9, "slug": "-", "mention_score": 0, "last_proof_snippet": legacy}]
+        _apply_summary_overrides(probe)
+        swapped = probe[0].get("last_proof_snippet") or legacy
+    except Exception:
+        swapped = legacy
+    return any(o in legacy or o in swapped for o in olds)
+
+
+def _select_proof_snippet(pundit_id, transcript_path: Optional[str],
+                          supporting_takeaway: Optional[str], max_chars: int = 240) -> str:
+    """Pick the card's proof snippet. If a pundit_override was written against the old
+    first-240-chars text, keep that text so the override still applies on export (it wins).
+    Otherwise use the sentence-boundary, intro-skipping selection."""
+    legacy = _legacy_transcript_proof_snippet(transcript_path, max_chars)
+    if not legacy and supporting_takeaway:
+        legacy = supporting_takeaway[:max_chars]
+    if _overridden_legacy(pundit_id, legacy):
+        return legacy
+    snip = _transcript_proof_snippet(transcript_path, max_chars)
+    if not snip and supporting_takeaway:
+        snip = _boundary_cut(supporting_takeaway, max_chars)
+    return snip
 
 
 class DashboardDB:
@@ -911,9 +1047,7 @@ class DashboardDB:
                 if len(takeaways) > 1:
                     supporting_takeaway = ((takeaways[1] or "").strip()[:420] or None)
 
-                snip = _transcript_proof_snippet(row.get("transcript_path"))
-                if not snip and supporting_takeaway:
-                    snip = supporting_takeaway[:240]
+                snip = _select_proof_snippet(row.get("id"), row.get("transcript_path"), supporting_takeaway)
 
                 cite_parts = []
                 if row.get("last_podcast_name"):
