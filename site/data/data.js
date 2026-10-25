@@ -23745,7 +23745,7 @@ const dashboardData = {
     "id": 80,
     "insight_id": 89,
     "podcast_episode_id": 72,
-    "overview": "In this deep dive analysis, we explore the investment implications of Bitcoin in a geopolitical landscape where traditional negotiation tactics, such as those employed by former President Trump, are no longer effective. The podcast 'Jack Mallors Show' highlights the current situation with Iran and the Strait of Hormuz, emphasizing the disruption to global oil supply chains and the potential for inflation. This analysis will focus on how these geopolitical tensions can impact Bitcoin and related technology stocks, providing actionable insights for investors.",
+    "overview": "In this deep dive analysis, we explore the investment implications of Bitcoin in a geopolitical landscape where traditional negotiation tactics, such as those employed by former President Trump, are no longer effective. The podcast 'Jack Mallers Show' highlights the current situation with Iran and the Strait of Hormuz, emphasizing the disruption to global oil supply chains and the potential for inflation. This analysis will focus on how these geopolitical tensions can impact Bitcoin and related technology stocks, providing actionable insights for investors.",
     "key_takeaways_detailed": [
       "Geopolitical tensions, particularly in the Strait of Hormuz, can significantly disrupt global oil supply chains, affecting inflation and potentially benefiting Bitcoin as a hedge against inflation.",
       "The changing dynamics of global power, with the rise of China and the impact on U.S. industrial capabilities, may influence the tech sector, creating opportunities and risks for tech stocks.",
@@ -64184,7 +64184,7 @@ const dashboardData = {
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
     "mention_score_decayed": 0.18,
-    "last_main_idea": "Sergei Bren's return to Gemini may lead to accelerated innovation with less safety constraints.",
+    "last_main_idea": "Sergey Brin's return to Gemini may lead to accelerated innovation with less safety constraints.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergey Brin is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete.",
     "supporting_takeaway": "AI models are increasingly escaping containment, signaling a shift in the tech landscape.",
