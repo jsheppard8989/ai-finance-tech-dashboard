@@ -8499,7 +8499,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-06-22",
-      "summary": "This podcast episode discusses the importance of AI safety and security, with a focus on the company Grace One. The company operates a community of red teamers to identify and mitigate vulnerabilities in AI systems, particularly in deep learning. As enterprises increasingly adopt AI technologies, the demand for AI safety solutions is growing. The effectiveness of AI models in red teaming has surpassed human capabilities, indicating the potential for automated security assessments. The episode also highlights the need for a different mindset regarding AI security compared to traditional software security and the importance of specific training for AI models to enhance their robustness against adversarial attacks.",
+      "summary": "This podcast episode discusses the importance of AI safety and security, with a focus on the company Gray Swan. The company operates a community of red teamers to identify and mitigate vulnerabilities in AI systems, particularly in deep learning. As enterprises increasingly adopt AI technologies, the demand for AI safety solutions is growing. The effectiveness of AI models in red teaming has surpassed human capabilities, indicating the potential for automated security assessments. The episode also highlights the need for a different mindset regarding AI security compared to traditional software security and the importance of specific training for AI models to enhance their robustness against adversarial attacks.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL"
@@ -8694,7 +8694,7 @@ const dashboardData = {
       "key_takeaway": "",
       "tickers_mentioned": [
         "CAT",
-        "VERN",
+        "GEV",
         "QTA",
         "AEP"
       ],
@@ -11927,7 +11927,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-04-09",
-      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rozencwajg, co-founder of Garing and Rozencwajg, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
+      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rozencwajg, co-founder of Goehring & Rozencwajg, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
       "key_takeaway": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
       "tickers_mentioned": [
         "WTI",
@@ -13970,7 +13970,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-04",
-      "summary": "The episode discusses the rapid rise in demand for healthcare, the challenges of training doctors fast enough, and the transformation of clinical practice with technology. Michiel Buduma, CEO and co-founder of Ambience Healthcare, shares his journey from academia to entrepreneurship, focusing on leveraging AI to improve healthcare. The conversation highlights the potential for AI to create a new system of record in healthcare, the opportunity to disrupt the incumbent EHR layer, and the excitement around new healthcare technologies among clinicians.",
+      "summary": "The episode discusses the rapid rise in demand for healthcare, the challenges of training doctors fast enough, and the transformation of clinical practice with technology. Nikhil Buduma, co-founder and chief scientist of Ambience Healthcare, shares his journey from academia to entrepreneurship, focusing on leveraging AI to improve healthcare. The conversation highlights the potential for AI to create a new system of record in healthcare, the opportunity to disrupt the incumbent EHR layer, and the excitement around new healthcare technologies among clinicians.",
       "key_takeaway": "Investing in healthcare technology companies that leverage AI to improve clinician workflows and patient experiences, with the potential to disrupt the incumbent EHR systems.",
       "tickers_mentioned": [
         ""
@@ -21173,7 +21173,7 @@ const dashboardData = {
     "id": 48,
     "insight_id": 57,
     "podcast_episode_id": 39,
-    "overview": "The healthcare industry is at the cusp of a technological revolution, driven by advancements in AI and machine learning. The demand for healthcare is rising rapidly, with 10,000 people aging into Medicare daily, creating a pressing need for more efficient care delivery. AI has the potential to transform the clinician's practice, making it more efficient and fulfilling, while improving patient experiences. Ambience Healthcare, founded by Michiel Buduma, is at the forefront of this revolution, leveraging AI to optimize clinical workflows and improve patient outcomes. With over 75% of clinicians using their product daily and one health system projecting $30 million in new margin, Ambience is poised to disrupt the healthcare industry. This deep dive analysis explores the investment implications of this trend and identifies key opportunities for investors.",
+    "overview": "The healthcare industry is at the cusp of a technological revolution, driven by advancements in AI and machine learning. The demand for healthcare is rising rapidly, with 10,000 people aging into Medicare daily, creating a pressing need for more efficient care delivery. AI has the potential to transform the clinician's practice, making it more efficient and fulfilling, while improving patient experiences. Ambience Healthcare, co-founded by Nikhil Buduma, is at the forefront of this revolution, leveraging AI to optimize clinical workflows and improve patient outcomes. With over 75% of clinicians using their product daily and one health system projecting $30 million in new margin, Ambience is poised to disrupt the healthcare industry. This deep dive analysis explores the investment implications of this trend and identifies key opportunities for investors.",
     "key_takeaways_detailed": [
       "AI and machine learning have the potential to significantly improve healthcare delivery, making it more efficient and patient-centric.",
       "Ambience Healthcare is a leading player in the clinical AI space, with a proven track record of success and strong partnerships with major academic medical centers.",
@@ -29424,7 +29424,7 @@ const dashboardData = {
     "id": 155,
     "insight_id": 164,
     "podcast_episode_id": 148,
-    "overview": "The recent Iran conflict has led to significant physical dislocation in global energy markets, with the Strait of Hormuz being a critical choke point for oil and gas trade. This episode of MacroVoices features Adam Rozencwajg, co-founder of Garing and Rozencwajg, who discusses the implications of this dislocation for crude oil, food and fertilizer, uranium, and gold. The discussion highlights the unprecedented nature of the current situation and its potential impact on long-term supply and demand fundamentals, as well as the potential for shifts in energy security to drive investment across commodity markets. Understanding these dynamics is crucial for investors as they navigate the complex geopolitical landscape and its impact on asset prices.",
+    "overview": "The recent Iran conflict has led to significant physical dislocation in global energy markets, with the Strait of Hormuz being a critical choke point for oil and gas trade. This episode of MacroVoices features Adam Rozencwajg, co-founder of Goehring & Rozencwajg, who discusses the implications of this dislocation for crude oil, food and fertilizer, uranium, and gold. The discussion highlights the unprecedented nature of the current situation and its potential impact on long-term supply and demand fundamentals, as well as the potential for shifts in energy security to drive investment across commodity markets. Understanding these dynamics is crucial for investors as they navigate the complex geopolitical landscape and its impact on asset prices.",
     "key_takeaways_detailed": [
       "The Strait of Hormuz controls approximately 20% of the world's crude market, making it a critical choke point for global energy trade.",
       "Iran's control over the Strait has led to a significant disruption in oil supply, with estimates suggesting 10-15 million barrels per day are impacted.",
@@ -39637,8 +39637,8 @@ const dashboardData = {
         "positioning": "Positioned as a long-term strategic investment due to its significant order backlog and potential benefits from the U.S. manufacturing resurgence.",
         "risk": "Key risks include a slowdown in global construction activity and potential disruptions in the supply chain that could affect its ability to fulfill orders."
       },
-      "VNR": {
-        "rationale": "Vernova, with its nearly $90 billion order backlog, is well-positioned to capitalize on the resurgence in U.S. manufacturing and electrification.",
+      "GEV": {
+        "rationale": "GE Vernova, with its nearly $90 billion order backlog, is well-positioned to capitalize on the resurgence in U.S. manufacturing and electrification.",
         "positioning": "Considered a long-term strategic investment, benefiting from strong future demand and the need for grid modernization.",
         "risk": "The risk lies in the company's ability to manage its large order backlog efficiently and the potential for increased competition in the electrification space."
       },
@@ -39694,7 +39694,7 @@ const dashboardData = {
     "source_date": "2026-06-18",
     "key_tickers": [
       "CAT",
-      "VERN",
+      "GEV",
       "QTA",
       "AEP"
     ]
@@ -40111,7 +40111,7 @@ const dashboardData = {
       "Organizations should consider the long-term costs and benefits of investing in AI model training for robustness against adversarial attacks, as this may become a differentiating factor in the AI security landscape.",
       "Collaborations between AI security firms and insurance providers could offer new risk management strategies, potentially leading to innovative insurance products tailored to AI deployments."
     ],
-    "investment_thesis": "The core logic is that as AI technologies become more integrated into business operations, the demand for AI safety and security solutions will increase. Companies like Grace One, which offer advanced automated red teaming and specialized AI model training, are well-positioned to capitalize on this trend. The timeframe for this thesis is within the next 5 years, with the observable development being an increase in the number of enterprises adopting AI security solutions and a corresponding decrease in AI-related security breaches.",
+    "investment_thesis": "The core logic is that as AI technologies become more integrated into business operations, the demand for AI safety and security solutions will increase. Companies like Gray Swan, which offer advanced automated red teaming and specialized AI model training, are well-positioned to capitalize on this trend. The timeframe for this thesis is within the next 5 years, with the observable development being an increase in the number of enterprises adopting AI security solutions and a corresponding decrease in AI-related security breaches.",
     "ticker_analysis": {
       "AAPL": {
         "rationale": "Apple is a major player in the tech industry with significant investments in AI and machine learning. Their commitment to user privacy and security makes them relevant to the AI safety and security thesis.",
@@ -40138,11 +40138,11 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-06-22T23:39:07.849893",
     "updated_at": "2026-06-23 04:39:07",
-    "episode_evidence": "Grace One's approach to AI safety and security is centered around the concept of red teaming, which involves actively seeking out vulnerabilities in AI systems to preemptively address them. The company's community of red teamers operates with the understanding that 'There\u2019s going to be much more demand that\u2019s coming up,' indicating a growing market for AI security solutions. This demand is driven by the increasing integration of AI into business operations, which amplifies the potential for security breaches. Grace One's automated red teaming system, Shade, has shown to be more effective than human testers in identifying vulnerabilities, as stated, 'We can do much better than people than human red teamers now, at breaking these models.' This underscores the advancement in AI capabilities and the potential for automated security assessments to surpass traditional methods. Furthermore, Grace One emphasizes that AI models require specific training to enhance their robustness against adversarial attacks, challenging the misconception that larger models are inherently safer: 'If you just make a model bigger and bigger, it will not get safer.'",
+    "episode_evidence": "Gray Swan's approach to AI safety and security is centered around the concept of red teaming, which involves actively seeking out vulnerabilities in AI systems to preemptively address them. The company's community of red teamers operates with the understanding that 'There\u2019s going to be much more demand that\u2019s coming up,' indicating a growing market for AI security solutions. This demand is driven by the increasing integration of AI into business operations, which amplifies the potential for security breaches. Gray Swan's automated red teaming system, Shade, has shown to be more effective than human testers in identifying vulnerabilities, as stated, 'We can do much better than people than human red teamers now, at breaking these models.' This underscores the advancement in AI capabilities and the potential for automated security assessments to surpass traditional methods. Furthermore, Gray Swan emphasizes that AI models require specific training to enhance their robustness against adversarial attacks, challenging the misconception that larger models are inherently safer: 'If you just make a model bigger and bigger, it will not get safer.'",
     "falsification_tracks": [
-      "If Grace One's automated red teaming system, Shade, fails to identify a significant vulnerability that is later discovered by human testers, it would undermine the thesis of automated systems surpassing human capabilities.",
-      "A decline in the number of enterprises adopting AI technologies would reduce the demand for AI safety solutions, weakening Grace One's market position.",
-      "If there is a significant security breach in an AI system that Grace One was supposed to protect, it would cast doubt on the effectiveness of their security solutions."
+      "If Gray Swan's automated red teaming system, Shade, fails to identify a significant vulnerability that is later discovered by human testers, it would undermine the thesis of automated systems surpassing human capabilities.",
+      "A decline in the number of enterprises adopting AI technologies would reduce the demand for AI safety solutions, weakening Gray Swan's market position.",
+      "If there is a significant security breach in an AI system that Gray Swan was supposed to protect, it would cast doubt on the effectiveness of their security solutions."
     ],
     "schema_version": 1,
     "model_used": null,
@@ -44672,7 +44672,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-07-30T12:09:33.491414",
     "updated_at": "2026-07-30 17:09:33",
-    "episode_evidence": "The podcast episode with Lassie Cobounder Stine, Pella, and Frederick Brinkett from 'The a16z Show' provides a deep dive into the practical applications of AI in healthcare, particularly for small businesses. A significant insight is the revelation that despite being a top-rated doctor, Dr. Juan spends an astonishing '200 hours a month on paperwork and busy work', highlighting the inefficiency in administrative tasks that AI could address. The discussion also underscores the shift in software's role from data storage to performing actual work, as Alex Rampell points out: 'For decades software mostly stored information. Today AI can increasingly perform the work itself.' This transformation is not just about automating tasks but also about the potential for AI to take on more complex reasoning and decision-making processes within a business, which was previously the domain of humans.",
+    "episode_evidence": "The episode with Lassie's co-founders from 'The a16z Show' provides a deep dive into the practical applications of AI in healthcare, particularly for small businesses. A significant insight is the revelation that despite being a top-rated doctor, Dr. Juan spends an astonishing '200 hours a month on paperwork and busy work', highlighting the inefficiency in administrative tasks that AI could address. The discussion also underscores the shift in software's role from data storage to performing actual work, as Alex Rampell points out: 'For decades software mostly stored information. Today AI can increasingly perform the work itself.' This transformation is not just about automating tasks but also about the potential for AI to take on more complex reasoning and decision-making processes within a business, which was previously the domain of humans.",
     "falsification_tracks": [
       "A significant increase in the number of administrative staff in small healthcare practices over the next few years would suggest that AI is not effectively automating tasks as expected.",
       "If the adoption rate of AI-driven administrative tools in healthcare practices remains below 10% over the next 5 years, it could indicate that the technology is not meeting the needs of small businesses.",
@@ -45510,7 +45510,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-08-06T12:06:56.573878",
     "updated_at": "2026-08-06 17:06:56",
-    "episode_evidence": "The podcast episode with Simon Mow, co-founder and CEO of Infrared, highlights the evolution of open source AI from a niche enthusiast project to critical infrastructure. Mow explains, 'serving large language model is a fundamentally different problem because serving it requires to run it on an accelerator... it is a computationally intense process that will require a lot of engineering.' This underscores the technical challenges and the need for specialized infrastructure to handle the computational demands of large language models (LLMs). The discussion also reveals the economic and practical considerations, as Matt Bornstein points out, 'if GPUs dropped in price by 99% then do we get back to a real open source world?' This quote suggests that the cost of hardware plays a significant role in the adoption and development of open source AI models. Furthermore, the conversation indicates a shift in the industry's reliance on open source, with Borenstein noting that 'open source AI has become one of the most important forces shaping the industry.'",
+    "episode_evidence": "The podcast episode with Simon Mow, co-founder and CEO of Infrared, highlights the evolution of open source AI from a niche enthusiast project to critical infrastructure. Mow explains, 'serving large language model is a fundamentally different problem because serving it requires to run it on an accelerator... it is a computationally intense process that will require a lot of engineering.' This underscores the technical challenges and the need for specialized infrastructure to handle the computational demands of large language models (LLMs). The discussion also reveals the economic and practical considerations, as Matt Bornstein points out, 'if GPUs dropped in price by 99% then do we get back to a real open source world?' This quote suggests that the cost of hardware plays a significant role in the adoption and development of open source AI models. Furthermore, the conversation indicates a shift in the industry's reliance on open source, with Bornstein noting that 'open source AI has become one of the most important forces shaping the industry.'",
     "falsification_tracks": [
       "A significant increase in the cost of GPUs that deters the use of open source AI models, reducing their adoption and development.",
       "The emergence of proprietary models that offer substantially better performance or cost efficiency, leading to a decrease in the use of open source models.",
@@ -56262,7 +56262,7 @@ const dashboardData = {
     "podcast_episode_id": 607,
     "overview": "The episode surfaces a more specific problem than a generic AI bubble call: the market may be mistaking compute spend and model usage for durable economic value creation. The non-obvious angle is that the value capture is described as not just concentrated, but circular: a large portion of the apparent AI economy is allegedly flowing through unprofitable VC-backed firms that are effectively financing one another's usage and revenue. That matters because it implies the current AI stack may be monetizing attention and procurement budgets faster than it is improving underlying unit economics.\n\nThe cyber segment adds another layer that is easy to miss if you only focus on the bubble framing. The core concern is not merely that AI helps attackers find bugs faster; it is that modern patching workflows, legacy software, and coordination across platforms are too slow for the new exploit cadence. That shifts the bottleneck from model capability to operational response, perimeter controls, and software lifecycle management.\n\nOn the enterprise side, the open-weight discussion is less about ideology and more about governance. The practical implication is that explainability, weight modification, and auditability may become procurement requirements in regulated industries, especially when model behavior needs to be defensible to supervisors or internal compliance teams. The constraint on agentic banking is framed as liability, meaning the adoption curve could be shaped more by legal accountability than by raw technical feasibility.",
     "key_takeaways_detailed": [],
-    "investment_thesis": "The actionable lens is to separate AI beneficiaries into three buckets: infrastructure vendors selling the picks-and-shovels of compute and security, enterprises that can prove AI improves margins or labor productivity, and speculative spenders whose AI budgets may not translate into operating leverage. The episode suggests the second bucket is still small, while the third bucket is driving a lot of headline demand. That makes earnings quality, not AI exposure, the key variable to monitor. What matters is whether AI spend turns into measurable productivity gains, gross margin expansion, or sustained revenue growth outside the handful of dominant spenders. The same discipline applies to cybersecurity: recurring demand looks strongest where vendors can shorten patch cycles, enforce perimeter mitigation, and help enterprises govern model access and agent behavior. For regulated sectors, the episode points toward a preference for open-weight or otherwise auditable systems, but with infrastructure and liability constraints limiting full autonomy. That favors vendors that can sit between open models and enterprise controls, rather than pure model providers. The near-term watchlist is therefore earnings calls, security incident frequency, and procurement language around explainability, audit logs, and agent permissions.",
+    "investment_thesis": "The actionable lens is to separate AI beneficiaries into three groups: infrastructure vendors selling the picks-and-shovels of compute and security, enterprises that can prove AI improves margins or labor productivity, and speculative spenders whose AI budgets may not translate into operating leverage. The episode suggests the second group is still small, while the third group is driving a lot of headline demand. That makes earnings quality, not AI exposure, the key variable to monitor. What matters is whether AI spend turns into measurable productivity gains, gross margin expansion, or sustained revenue growth outside the handful of dominant spenders. The same discipline applies to cybersecurity: recurring demand looks strongest where vendors can shorten patch cycles, enforce perimeter mitigation, and help enterprises govern model access and agent behavior. For regulated sectors, the episode points toward a preference for open-weight or otherwise auditable systems, but with infrastructure and liability constraints limiting full autonomy. That favors vendors that can sit between open models and enterprise controls, rather than pure model providers. The near-term watchlist is therefore earnings calls, security incident frequency, and procurement language around explainability, audit logs, and agent permissions.",
     "ticker_analysis": {
       "META": {
         "rationale": "Meta is used as an example of a large company making extraordinary AI spend while the market questions whether that spend is being converted into visible returns. The episode cites the stock being down after earnings, reinforcing skepticism around capex intensity versus near-term payoff.",
@@ -56422,7 +56422,7 @@ const dashboardData = {
       "Next 12-18 months: stronger agentic workflows that show visible retention and workflow lock-in, not just demo quality.",
       "By 2026 filing cycles: first evidence in company reports that AI tools are reducing team size or accelerating revenue per employee.",
       "Within 2026-2027: breakout AI video products that demonstrate repeat creator usage and a distinct consumption format.",
-      "Over the next 2 years: product launches from incumbents that either confirm the moat thesis through rapid adaptation or expose simple-wrapper vulnerability.",
+      "Over the next 2 years: product launches from incumbents that either confirm the moat thesis through rapid adaptation or expose the risk to simple add-on apps built on others' AI models.",
       "Upcoming venture funding cycles: clearer evidence that smaller teams can reach late-stage milestones with less capital, reshaping underwriting assumptions."
     ],
     "related_insights": null,
@@ -56433,7 +56433,7 @@ const dashboardData = {
     "updated_at": "2026-10-24 12:06:48",
     "episode_evidence": "Ben Horowitz: You don't take out a competitor with equally good product. You need something dramatically better.\nBen Horowitz: With AI, like when it works, instantly, you can get to a giant number of users. We've seen companies grow faster than any companies we've ever seen.\nBen Horowitz: We went public on two million dollars in trailing revenue, trailing 12 months revenue, two million dollars, like IPO, two million going to 75.\nBen Horowitz: It always comes down to a crisis in confidence. You know, you don't know what you're doing... but you still have to make decisions.\nBen Horowitz: I think it's a mistake to try and just completely replicate the movie or the TV experience or that kind of thing and just move it.",
     "falsification_tracks": [
-      "By 2027-12-31, if at least 3 leading AI application categories are dominated by simple wrapper products with no meaningful proprietary data layer and still maintain >60% gross retention, the defensibility thesis is weakened. Source: company cohort disclosures, PitchBook, and third-party retention benchmarks.",
+      "By 2027-12-31, if at least 3 leading AI application categories are dominated by simple add-on apps with no data of their own and still maintain >60% gross retention, the defensibility thesis is weakened. Source: company cohort disclosures, PitchBook, and third-party retention benchmarks.",
       "By 2027-06-30, if top consumer AI chat products show >25% monthly active user churn to substitutes that offer <3x measurable performance improvement, the '10x better to take the market' claim is falsified. Source: Similarweb, Sensor Tower, and app analytics reports.",
       "By 2026-12-31, if median time from founder-facing crisis to major decision does not correlate with startup survival at a statistically meaningful level across a sample of at least 500 venture-backed companies, the confidence-and-decision thesis is wrong. Source: Crunchbase, Carta, and longitudinal founder studies.",
       "By 2028-12-31, if average startup headcount at Series C remains above 75 employees in categories where AI should compress labor, the 'smaller teams' thesis is falsified. Source: PitchBook, Crunchbase, and company filings.",
@@ -59877,7 +59877,7 @@ const dashboardData = {
     "mention_score_decayed": 0.57,
     "last_main_idea": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-30 \u2022 Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
-    "last_proof_snippet": "I'm joined once again by Ben Poladian of BEP Research Ben is a semiconductor auto-diadact enthusiast. He's been an investor in Nvidia since 2016. Ben, great to see you again. Welcome back. Glad to be back with you, Jack. So I'm exciting. Th",
+    "last_proof_snippet": "I'm joined once again by Ben Pouladian of BEP Research Ben is a semiconductor auto-diadact enthusiast. He's been an investor in Nvidia since 2016. Ben, great to see you again. Welcome back. Glad to be back with you, Jack. So I'm exciting. Th",
     "supporting_takeaway": "Ben Pouladian claims the token bill can be 20, 40, or even 84 times larger than the CPU bill in agentic AI, because AI agents run repeated loops until a task is completed.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -60998,7 +60998,7 @@ const dashboardData = {
     "mention_score_decayed": 0.43,
     "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_proof_snippet": "Daria Amade, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+    "last_proof_snippet": "Dario Amodei, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
     "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
@@ -61117,7 +61117,7 @@ const dashboardData = {
     "mention_score_decayed": 0.42,
     "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
+    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Bassman, t",
     "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
@@ -63157,7 +63157,7 @@ const dashboardData = {
         },
         {
           "heading": "Data Availability",
-          "body": "Anankumar emphasizes the importance of open-source data in facilitating advancements in AI and weather modeling, highlighting how accessible data can drive innovation."
+          "body": "Anandkumar emphasizes the importance of open-source data in facilitating advancements in AI and weather modeling, highlighting how accessible data can drive innovation."
         }
       ]
     }
@@ -73615,7 +73615,7 @@ const dashboardData = {
     "id": 168,
     "name": "Adam Rozencwajg",
     "slug": "adam-rosenswag",
-    "bio": "Adam Rozencwajg is a prominent figure in the global energy markets and commodities sector. He is the co-founder of Garing and Rozencwajg, an investment firm that specializes in these areas. Rozencwajg is known for his expertise and insights into commodities, particularly in the context of geopolitical events and their impact on markets.",
+    "bio": "Adam Rozencwajg is a prominent figure in the global energy markets and commodities sector. He is the co-founder of Goehring & Rozencwajg, an investment firm that specializes in these areas. Rozencwajg is known for his expertise and insights into commodities, particularly in the context of geopolitical events and their impact on markets.",
     "known_for": "His deep understanding of how geopolitical events, such as the Iran conflict, influence global energy markets and commodities.",
     "net_worth_usd": 1200000000.0,
     "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
@@ -73642,16 +73642,16 @@ const dashboardData = {
       "source_url": "",
       "page_title": "Adam Rozencwajg",
       "fetched_at": "2026-04-10T10:06:55.491575+00:00",
-      "cliff_notes": "Adam Rozencwajg is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rozencwajg, an investment firm that focuses on these sectors. Rozencwajg's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold. His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions.",
+      "cliff_notes": "Adam Rozencwajg is recognized for his expertise in global energy markets and commodities. He co-founded Goehring & Rozencwajg, an investment firm that focuses on these sectors. Rozencwajg's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold. His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions.",
       "derived": {
-        "current_role": "Co-founder, Garing and Rozencwajg"
+        "current_role": "Co-founder, Goehring & Rozencwajg"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Adam Rozencwajg is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rozencwajg, an investment firm that focuses on these sectors. Rozencwajg's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold.",
+        "Adam Rozencwajg is recognized for his expertise in global energy markets and commodities. He co-founded Goehring & Rozencwajg, an investment firm that focuses on these sectors. Rozencwajg's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold.",
         "His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions."
       ],
       "sections": [
