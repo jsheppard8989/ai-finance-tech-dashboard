@@ -30,7 +30,8 @@ def test_names_fixed_in_archive_and_pundits():
     assert "Nikhil Buduma, co-founder and chief scientist of Ambience Healthcare" in arch
     for bad in ("Garing", "Poladian", "Daria Amade", "Basman", "Anankumar"):
         assert bad not in pund
-    for good in ("Ben Pouladian of BEP", "Dario Amodei, CEO of Anthropic", "Harley Bassman", "Anandkumar emphasizes"):
+    # item 11 cut #489's host-intro snippet (the only "Ben Poladian" text), so it is no longer checked here
+    for good in ("Dario Amodei, CEO of Anthropic", "Harley Bassman", "Anandkumar emphasizes"):
         assert good in pund
 
 
