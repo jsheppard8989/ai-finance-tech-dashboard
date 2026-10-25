@@ -5248,9 +5248,9 @@
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "episode_date": "2026-06-22",
-    "summary": "This podcast episode discusses the importance of AI safety and security, with a focus on the company Grace One. The company operates a community of red teamers to identify and mitigate vulnerabilities in AI systems, particularly in deep learning. As enterprises increasingly adopt AI technologies, the demand for AI safety solutions is growing. The effectiveness of AI models in red teaming has surpassed human capabilities, indicating the potential for automated security assessments. The episode also highlights the need for a different mindset regarding AI security compared to traditional software security and the importance of specific training for AI models to enhance their robustness against adversarial attacks.",
+    "summary": "This podcast episode discusses the importance of AI safety and security, with a focus on the company Gray Swan. The company operates a community of red teamers to identify and mitigate vulnerabilities in AI systems, particularly in deep learning. As enterprises increasingly adopt AI technologies, the demand for AI safety solutions is growing. The effectiveness of AI models in red teaming has surpassed human capabilities, indicating the potential for automated security assessments. The episode also highlights the need for a different mindset regarding AI security compared to traditional software security and the importance of specific training for AI models to enhance their robustness against adversarial attacks.",
     "key_takeaways": [
-      "Grace One is dedicated to identifying and mitigating vulnerabilities in AI systems, particularly as enterprises increasingly adopt these technologies.",
+      "Gray Swan is dedicated to identifying and mitigating vulnerabilities in AI systems, particularly as enterprises increasingly adopt these technologies.",
       "The automated red teaming system, Shade, has demonstrated superior effectiveness in identifying vulnerabilities compared to human testers.",
       "Understanding the lethal trifecta of AI security risks is crucial for developing effective security measures in AI systems.",
       "Scaling AI models does not inherently improve their security; targeted training is necessary to enhance their robustness against adversarial attacks.",
@@ -5393,7 +5393,7 @@
     "investment_thesis": "",
     "key_tickers": [
       "CAT",
-      "VERN",
+      "GEV",
       "QTA",
       "AEP"
     ]

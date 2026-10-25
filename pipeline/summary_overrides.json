@@ -1084,6 +1084,106 @@
           "highlighting the very low margins in retail"
         ]
       ]
+    },
+    {
+      "podcast_episode_id": 297,
+      "insight_id": 313,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 3: GE Vernova trades as GEV (deep dive had VNR/VERN)",
+      "rename_tickers": [
+        [
+          "VNR",
+          "GEV"
+        ],
+        [
+          "VERN",
+          "GEV"
+        ]
+      ],
+      "replacements": [
+        [
+          "Vernova, with its nearly $90 billion order backlog",
+          "GE Vernova, with its nearly $90 billion order backlog"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 39,
+      "insight_id": 57,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 4: guest verified as Nikhil Buduma, co-founder and chief scientist (a16z.com/podcast/deploying-ai-in-healthcare, Mar 4 2026)",
+      "replacements": [
+        [
+          "Michiel Buduma, CEO and co-founder of Ambience Healthcare",
+          "Nikhil Buduma, co-founder and chief scientist of Ambience Healthcare"
+        ],
+        [
+          "founded by Michiel Buduma",
+          "co-founded by Nikhil Buduma"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 389,
+      "insight_id": 404,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 6: Matt Bornstein (a16z)",
+      "replacements": [
+        [
+          "Borenstein",
+          "Bornstein"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 376,
+      "insight_id": 391,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 7: garbled transcript names dropped (no guessed replacement)",
+      "replacements": [
+        [
+          "The podcast episode with Lassie Cobounder Stine, Pella, and Frederick Brinkett from 'The a16z Show'",
+          "The episode with Lassie's co-founders from 'The a16z Show'"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 607,
+      "insight_id": 618,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 8: banned word 'thin' -> G's wording (global swap kept as safety net); both raw and already-swapped forms",
+      "replacements": [
+        [
+          "separate AI beneficiaries into three buckets:",
+          "separate AI beneficiaries into three groups:"
+        ],
+        [
+          "the second bucket is still thin, while the third bucket is",
+          "the second group is still small, while the third group is"
+        ],
+        [
+          "the second bucket is still small, while the third bucket is",
+          "the second group is still small, while the third group is"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 609,
+      "insight_id": 620,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 9: banned word 'thin' -> G's wording (global swap kept as safety net); both raw and already-swapped forms",
+      "replacements": [
+        [
+          "expose thin-wrapper vulnerability",
+          "expose the risk to simple add-on apps built on others' AI models"
+        ],
+        [
+          "expose simple-wrapper vulnerability",
+          "expose the risk to simple add-on apps built on others' AI models"
+        ],
+        [
+          "thin wrapper products with no meaningful proprietary data layer",
+          "simple add-on apps with no data of their own"
+        ],
+        [
+          "simple wrapper products with no meaningful proprietary data layer",
+          "simple add-on apps with no data of their own"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -1451,6 +1551,14 @@
     [
       "bucket is still thin",
       "bucket is still small"
+    ],
+    [
+      "Grace One",
+      "Gray Swan"
+    ],
+    [
+      "Garing and Rozencwajg",
+      "Goehring & Rozencwajg"
     ]
   ],
   "global_name_replacements": [
@@ -1929,6 +2037,18 @@
     [
       "Louis-Vincent Gav",
       "Louis-Vincent Gave"
+    ],
+    [
+      "Poladian",
+      "Pouladian"
+    ],
+    [
+      "Daria Amade",
+      "Dario Amodei"
+    ],
+    [
+      "Basman",
+      "Bassman"
     ]
   ],
   "name_replacements": [
@@ -3726,6 +3846,16 @@
         [
           "thin global grain reserves",
           "low global grain reserves"
+        ]
+      ]
+    },
+    {
+      "id": 420,
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 5: Anima Anandkumar's surname",
+      "replacements": [
+        [
+          "Anankumar",
+          "Anandkumar"
         ]
       ]
     }
