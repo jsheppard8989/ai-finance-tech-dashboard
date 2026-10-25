@@ -5841,7 +5841,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-08-26",
-      "summary": "In this episode of Latent Space, the AI Engineer Podcast, hosts Brandon and RJHONICY interview Anima Anandkumar, a brain professor of mathematics and computer science at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anima shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, the hosts interview Anima Anandkumar, the Bren Professor of Computing and Mathematical Sciences at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anima shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
       "key_takeaway": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
       "tickers_mentioned": [
         "NVDA"
@@ -8690,7 +8690,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-06-18",
-      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the resurgence of U.S. manufacturing after a three-year recession, with industrial production growth at 1.7%. The discussion highlights significant investment opportunities in overlooked U.S. industrial champions, particularly in manufacturing and electrification. Companies like Caterpillar and Vernova are noted for their unprecedented order backlogs, indicating strong future demand. The U.S. is becoming the preferred location for incremental capital investment, with foreign direct investment share rising above 20%. The re-industrialization trend is driven by government policy, rising labor costs abroad, and supply chain disruptions. Automation and advanced manufacturing technologies are key to increasing efficiency and productivity in U.S. factories. The electrification of the U.S. grid is essential, with a projected increase in demand for power driven by manufacturing and data centers. The current U.S. grid infrastructure is outdated, requiring significant investment and skilled labor to modernize. Companies like Quanta and American Electric Power are positioned to benefit from high-voltage infrastructure projects.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the resurgence of U.S. manufacturing after a three-year recession, with industrial production growth at 1.7%. The discussion highlights significant investment opportunities in overlooked U.S. industrial champions, particularly in manufacturing and electrification. Companies like Caterpillar and GE Vernova are noted for their unprecedented order backlogs, indicating strong future demand. The U.S. is becoming the preferred location for incremental capital investment, with foreign direct investment share rising above 20%. The re-industrialization trend is driven by government policy, rising labor costs abroad, and supply chain disruptions. Automation and advanced manufacturing technologies are key to increasing efficiency and productivity in U.S. factories. The electrification of the U.S. grid is essential, with a projected increase in demand for power driven by manufacturing and data centers. The current U.S. grid infrastructure is outdated, requiring significant investment and skilled labor to modernize. Companies like Quanta and American Electric Power are positioned to benefit from high-voltage infrastructure projects.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "CAT",
@@ -39674,10 +39674,10 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-06-18T22:06:58.169319",
     "updated_at": "2026-06-19 03:06:58",
-    "episode_evidence": "The resurgence of U.S. manufacturing is underscored by a 1.7% growth in industrial production, as highlighted by Chris Semenuk: 'We are only three to four months into a recovery... industrial production number... was, I think, 1.7 percent.' This recovery is not just a blip but a significant trend, with companies like Caterpillar and Vernova boasting unprecedented order backlogs. Semenuk elaborates: 'The backlog at Caterpillar is north of $60 billion... backlog at Vernova is north of almost $90 billion.' These figures are not just numbers; they represent a tangible vote of confidence in U.S. manufacturing capabilities and a clear indicator of future demand. The shift towards the U.S. as a preferred location for capital investment is further emphasized by the fact that 'The U.S. share of foreign direct investment is showing that... it's north of 20 percent.' This trend is not only a result of government policy but also a response to rising labor costs abroad and the realities of supply chain disruptions.",
+    "episode_evidence": "The resurgence of U.S. manufacturing is underscored by a 1.7% growth in industrial production, as highlighted by Chris Semenuk: 'We are only three to four months into a recovery... industrial production number... was, I think, 1.7 percent.' This recovery is not just a blip but a significant trend, with companies like Caterpillar and GE Vernova boasting unprecedented order backlogs. Semenuk elaborates: 'The backlog at Caterpillar is north of $60 billion... backlog at Vernova is north of almost $90 billion.' These figures are not just numbers; they represent a tangible vote of confidence in U.S. manufacturing capabilities and a clear indicator of future demand. The shift towards the U.S. as a preferred location for capital investment is further emphasized by the fact that 'The U.S. share of foreign direct investment is showing that... it's north of 20 percent.' This trend is not only a result of government policy but also a response to rising labor costs abroad and the realities of supply chain disruptions.",
     "falsification_tracks": [
       "If the U.S. industrial production growth rate falls below 1% for two consecutive quarters, it could indicate a faltering recovery.",
-      "A significant drop in Caterpillar and Vernova's order backlogs could signal weakening demand for U.S. manufacturing.",
+      "A significant drop in Caterpillar and GE Vernova's order backlogs could signal weakening demand for U.S. manufacturing.",
       "Should the U.S. foreign direct investment share fall below 15%, it might suggest a loss of attractiveness as an investment destination.",
       "Failure to pass key legislation supporting manufacturing and electrification could hinder the progress of re-industrialization.",
       "If there is a notable decrease in the demand for electricity due to a slowdown in manufacturing or data center growth, it would challenge the electrification demand surge narrative."
@@ -60998,7 +60998,7 @@ const dashboardData = {
     "mention_score_decayed": 0.43,
     "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_proof_snippet": "Dario Amodei, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+    "last_proof_snippet": "Dario Amodei, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
     "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
@@ -63105,7 +63105,7 @@ const dashboardData = {
     "id": 420,
     "name": "Anima Anandkumar",
     "slug": "anamah-anankumar",
-    "bio": "Anima Anandkumar is a Brain professor of mathematics and computer science at Caltech, known for her work in combining AI with models of the physical world, including weather and climate modeling.",
+    "bio": "Anima Anandkumar is the Bren Professor of Computing and Mathematical Sciences at Caltech, known for her work in combining AI with models of the physical world, including weather and climate modeling.",
     "known_for": "Her innovative use of AI in weather modeling, which has shown to be nearly as accurate as traditional models but tens of thousands of times faster.",
     "net_worth_usd": null,
     "net_worth_source": "",
@@ -63134,7 +63134,7 @@ const dashboardData = {
       "fetched_at": "2026-08-26T18:42:35.203947+00:00",
       "cliff_notes": "Anima Anandkumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost. This breakthrough has the potential to revolutionize how we understand and predict weather patterns, offering faster and more efficient solutions. Her contributions are significant in the fields of AI and environmental science, making her a key figure in the ongoing development of technology that can better predict and understand our world.",
       "derived": {
-        "current_role": "Brain Professor of Mathematics and Computer Science at Caltech",
+        "current_role": "Bren Professor of Computing and Mathematical Sciences at Caltech",
         "education": "Degrees and institutions not specified",
         "teaching_summary": "Professor of Mathematics and Computer Science at Caltech"
       },
@@ -65396,9 +65396,9 @@ const dashboardData = {
   },
   {
     "id": 366,
-    "name": "Frederick Brinkett",
+    "name": "Fr\u00e9d\u00e9ric Renken",
     "slug": "frederick-brinkett",
-    "bio": "Frederick Brinkett is a professional associated with the development and implementation of AI in healthcare. He has been involved with Lassie and has contributed to the conversation around the role of AI in the medical industry, emphasizing its potential to reduce administrative burdens and free up doctors for more critical tasks.",
+    "bio": "Fr\u00e9d\u00e9ric Renken is a professional associated with the development and implementation of AI in healthcare. He has been involved with Lassie and has contributed to the conversation around the role of AI in the medical industry, emphasizing its potential to reduce administrative burdens and free up doctors for more critical tasks.",
     "known_for": "His insights on the practical applications of AI in healthcare and the impact on medical professionals.",
     "net_worth_usd": null,
     "net_worth_source": "",
@@ -65423,9 +65423,9 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Frederick Brinkett",
+      "page_title": "Fr\u00e9d\u00e9ric Renken",
       "fetched_at": "2026-07-30T17:09:06.542766+00:00",
-      "cliff_notes": "Frederick Brinkett's career has been centered around the intersection of artificial intelligence and healthcare. He has been a part of the team at Lassie, contributing to the development of AI solutions that can assist in healthcare administration, thereby reducing the workload of medical professionals. Brinkett has been vocal about the hype around AI, suggesting that while the technology is powerful, it is not a replacement for human expertise but rather a tool to augment it. His work and commentary highlight the importance of implementing AI in a way that supports and enhances the capabilities of healthcare providers, rather than replacing them.",
+      "cliff_notes": "Fr\u00e9d\u00e9ric Renken's career has been centered around the intersection of artificial intelligence and healthcare. He has been a part of the team at Lassie, contributing to the development of AI solutions that can assist in healthcare administration, thereby reducing the workload of medical professionals. Renken has been vocal about the hype around AI, suggesting that while the technology is powerful, it is not a replacement for human expertise but rather a tool to augment it. His work and commentary highlight the importance of implementing AI in a way that supports and enhances the capabilities of healthcare providers, rather than replacing them.",
       "derived": {
         "current_role": "Primary job title and organization unknown"
       },
@@ -65434,30 +65434,30 @@ const dashboardData = {
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Frederick Brinkett's career has been centered around the intersection of artificial intelligence and healthcare. He has been a part of the team at Lassie, contributing to the development of AI solutions that can assist in healthcare administration, thereby reducing the workload of medical professionals. Brinkett has been vocal about the hype around AI, suggesting that while the technology is powerful, it is not a replacement for human expertise but rather a tool to augment it.",
+        "Fr\u00e9d\u00e9ric Renken's career has been centered around the intersection of artificial intelligence and healthcare. He has been a part of the team at Lassie, contributing to the development of AI solutions that can assist in healthcare administration, thereby reducing the workload of medical professionals. Renken has been vocal about the hype around AI, suggesting that while the technology is powerful, it is not a replacement for human expertise but rather a tool to augment it.",
         "His work and commentary highlight the importance of implementing AI in a way that supports and enhances the capabilities of healthcare providers, rather than replacing them."
       ],
       "sections": [
         {
           "heading": "AI in Healthcare",
-          "body": "Frederick Brinkett has been a key figure in discussing the role of AI in healthcare, emphasizing its potential to reduce administrative burdens on medical professionals."
+          "body": "Fr\u00e9d\u00e9ric Renken has been a key figure in discussing the role of AI in healthcare, emphasizing its potential to reduce administrative burdens on medical professionals."
         },
         {
           "heading": "AI Hype and Reality",
-          "body": "Brinkett has provided a balanced view on the hype surrounding AI, suggesting that while the technology is advanced, it is not without its limitations and should be seen as a tool to assist rather than replace human work."
+          "body": "Renken has provided a balanced view on the hype surrounding AI, suggesting that while the technology is advanced, it is not without its limitations and should be seen as a tool to assist rather than replace human work."
         },
         {
           "heading": "Healthcare Administration",
-          "body": "Brinkett has highlighted the issue of doctors spending a significant amount of time on paperwork, advocating for AI solutions that can automate these tasks and allow doctors to focus on patient care."
+          "body": "Renken has highlighted the issue of doctors spending a significant amount of time on paperwork, advocating for AI solutions that can automate these tasks and allow doctors to focus on patient care."
         }
       ]
     }
   },
   {
     "id": 365,
-    "name": "Stine Pella",
+    "name": "Steijn Pelle",
     "slug": "stine-pella",
-    "bio": "Stine Pella is a co-founder of Lassie, a company that develops AI agents to automate administrative tasks for healthcare practices. She is recognized for her innovative application of AI in healthcare administration, aiming to reduce the workload of healthcare professionals.",
+    "bio": "Steijn Pelle is a co-founder of Lassie, a company that develops AI agents to automate administrative tasks for healthcare practices. He is recognized for his innovative application of AI in healthcare administration, aiming to reduce the workload of healthcare professionals.",
     "known_for": "Innovating the application of AI to automate administrative tasks in healthcare, thereby freeing up doctors to focus on patient care.",
     "net_worth_usd": null,
     "net_worth_source": "",
@@ -65482,9 +65482,9 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Stine Pella",
+      "page_title": "Steijn Pelle",
       "fetched_at": "2026-07-30T17:08:57.418404+00:00",
-      "cliff_notes": "Stine Pella is an entrepreneur in the field of healthcare technology, particularly focusing on the application of artificial intelligence to streamline administrative processes. As the co-founder of Lassie, she has been instrumental in developing AI agents that automate tasks, which has the potential to significantly reduce the administrative burden on healthcare professionals. Her work is significant as it addresses a critical issue in healthcare where doctors often spend a considerable amount of time on paperwork rather than patient care. Pella's innovative approach to leveraging AI technology not only aims to improve efficiency but also to enhance the quality of healthcare delivery by allowing medical professionals to focus on their core responsibilities.",
+      "cliff_notes": "Steijn Pelle is an entrepreneur in the field of healthcare technology, particularly focusing on the application of artificial intelligence to streamline administrative processes. As the co-founder of Lassie, he has been instrumental in developing AI agents that automate tasks, which has the potential to significantly reduce the administrative burden on healthcare professionals. His work is significant as it addresses a critical issue in healthcare where doctors often spend a considerable amount of time on paperwork rather than patient care. Pelle's innovative approach to leveraging AI technology not only aims to improve efficiency but also to enhance the quality of healthcare delivery by allowing medical professionals to focus on their core responsibilities.",
       "derived": {
         "current_role": "Co-founder of Lassie"
       },
@@ -65493,21 +65493,21 @@ const dashboardData = {
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Stine Pella is an entrepreneur in the field of healthcare technology, particularly focusing on the application of artificial intelligence to streamline administrative processes. As the co-founder of Lassie, she has been instrumental in developing AI agents that automate tasks, which has the potential to significantly reduce the administrative burden on healthcare professionals.",
-        "Her work is significant as it addresses a critical issue in healthcare where doctors often spend a considerable amount of time on paperwork rather than patient care. Pella's innovative approach to leveraging AI technology not only aims to improve efficiency but also to enhance the quality of healthcare delivery by allowing medical professionals to focus on their core responsibilities."
+        "Steijn Pelle is an entrepreneur in the field of healthcare technology, particularly focusing on the application of artificial intelligence to streamline administrative processes. As the co-founder of Lassie, he has been instrumental in developing AI agents that automate tasks, which has the potential to significantly reduce the administrative burden on healthcare professionals.",
+        "His work is significant as it addresses a critical issue in healthcare where doctors often spend a considerable amount of time on paperwork rather than patient care. Pelle's innovative approach to leveraging AI technology not only aims to improve efficiency but also to enhance the quality of healthcare delivery by allowing medical professionals to focus on their core responsibilities."
       ],
       "sections": [
         {
           "heading": "Healthcare Automation",
-          "body": "Stine Pella is pioneering the use of AI to automate administrative tasks in healthcare, which has traditionally been a time-consuming manual process."
+          "body": "Steijn Pelle is pioneering the use of AI to automate administrative tasks in healthcare, which has traditionally been a time-consuming manual process."
         },
         {
           "heading": "AI in Administration",
-          "body": "Pella's work with Lassie showcases the potential of AI to not only digitize but also automate tasks that were once performed manually, leading to increased efficiency in healthcare practices."
+          "body": "Pelle's work with Lassie showcases the potential of AI to not only digitize but also automate tasks that were once performed manually, leading to increased efficiency in healthcare practices."
         },
         {
           "heading": "Innovation in Healthcare",
-          "body": "Her contributions to healthcare administration through AI are significant as they aim to alleviate the administrative burden on healthcare professionals, allowing them to dedicate more time to patient care."
+          "body": "His contributions to healthcare administration through AI are significant as they aim to alleviate the administrative burden on healthcare professionals, allowing them to dedicate more time to patient care."
         }
       ]
     }
@@ -68283,7 +68283,7 @@ const dashboardData = {
     "last_main_idea": "U.S. manufacturing is showing signs of recovery after a three-year recession, indicating potential resurgence in manufacturing investments.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
-    "supporting_takeaway": "Companies with significant order backlogs, such as Caterpillar and Vernova, are likely to see revenue growth in the coming quarters.",
+    "supporting_takeaway": "Companies with significant order backlogs, such as Caterpillar and GE Vernova, are likely to see revenue growth in the coming quarters.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-06-18T22:06:11.769482",
     "pundit_profile": {

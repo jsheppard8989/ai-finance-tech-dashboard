@@ -81,7 +81,7 @@ def test_debait_and_dc_buildout_wording():
     assert "Shared voting backend coming" not in deb and "--mark-resolved" not in deb and "6AIndolf" not in deb
     assert "resolvedExpiryText" in deb
     dc = (SITE / "dc-buildout.html").read_text()
-    assert "IN LINE" in dc and "$135–145B" in dc and "not yet reviewed" in dc
+    assert "IN LINE" in dc and "$135–145B" in dc and "not yet reviewed" not in dc  # cut in sweep 10/25 round 2
     assert "Meta-Reports-Third-Quarter-2026-Results" in dc
     assert "John Galt" not in dc and "automated reader" not in dc
     for page in SITE.glob("*.html"):

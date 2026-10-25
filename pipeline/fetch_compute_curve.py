@@ -57,17 +57,41 @@ def tenor_label(tenor_key: str) -> Optional[str]:
         return None
 
 
-def chip_points(chip: Dict[str, Any]):
-    """Monthly points with tenor_key/label/price, skipping the Anchor (dupe of front month)."""
+def is_placeholder(p: Dict[str, Any]) -> bool:
+    """True when the tracker's value is a placeholder, not a price (Oct 25 2026 sweep, item 9).
+
+    Per forward-curves.json's own note: when no quote sets the level, "a closed bracket gives
+    its midpoint, and an open one only a placeholder ... that the site never shows as a price".
+    So a point whose evidence.valueSource is "bracket" with either side open (loOpen/hiOpen)
+    is a placeholder (e.g. H100 Jun/Jul/Aug '27 $3.88/$3.91/$1.35 on Oct 25 2026). An explicit
+    placeholder flag, if the tracker ever adds one, is honoured too.
+    """
+    ev = p.get("evidence") or {}
+    if p.get("placeholder") is True or ev.get("placeholder") is True:
+        return True
+    return ev.get("valueSource") == "bracket" and bool(ev.get("loOpen") or ev.get("hiOpen"))
+
+
+def chip_points(chip: Dict[str, Any], dropped: Optional[list] = None):
+    """Monthly points with tenor_key/label/price, skipping the Anchor (dupe of front month)
+    and any tracker placeholder (its tenor_key is appended to `dropped`)."""
     pts = []
     for p in chip.get("points") or []:
-        key = ((p.get("evidence") or {}).get("tenorKey")) or None
+        ev = p.get("evidence") or {}
+        key = ev.get("tenorKey") or None
         price = p.get("priceUsdPerGpuHour")
         label = tenor_label(key) if key else None
         if not label or price is None:
             continue
-        pts.append({"tenor_key": key, "tenor": label, "price": round(float(price), 2),
-                    "quality": p.get("quality")})
+        if is_placeholder(p):
+            if dropped is not None:
+                dropped.append(key)
+            continue
+        pt = {"tenor_key": key, "tenor": label, "price": round(float(price), 2),
+              "quality": p.get("quality")}
+        if isinstance(ev.get("identified"), bool):
+            pt["identified"] = ev["identified"]
+        pts.append(pt)
     pts.sort(key=lambda x: x["tenor_key"])
     return pts
 
@@ -91,12 +115,14 @@ def parse(raw: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         cid = chip.get("id")
         if cid not in CHIPS:
             continue
-        pts = chip_points(chip)
+        dropped: list = []
+        pts = chip_points(chip, dropped)
         if not pts:
             continue
         prov = chip.get("provenance") or {}
         out[cid] = {
             "points": pts,
+            "placeholders_dropped": sorted(dropped),
             "card": [pts[i] for i in CARD_TENOR_INDEXES if i < len(pts)],
             "two_sided_markets": prov.get("twoSidedMarketCount"),
             "liquidity_usd": round(prov.get("totalLiquidityUsd") or 0),
