@@ -2248,7 +2248,15 @@
         var spot = [];
         (hist[c[0]] || []).forEach(function (v, i) { if (v != null) spot.push([day(hist.dates[i]), v]); });
         var now = spot.length ? spot[spot.length - 1][1] : null;
-        var pts = ((fc && fc[c[0]] && fc[c[0]].points) || []).filter(function (p) { return p.tenor_key > month; });
+        // Oct 25 2026: never plot tracker placeholders (open-bracket edges, not prices), even if an
+        // older or hand-edited market_data.json still carries them.
+        var drop = (fc && fc[c[0]] && fc[c[0]].placeholders_dropped) || [];
+        var pts = ((fc && fc[c[0]] && fc[c[0]].points) || []).filter(function (p) {
+          if (!p || p.placeholder === true || drop.indexOf(p.tenor_key) !== -1) return false;
+          var ev = p.evidence || p;
+          if (ev.valueSource === 'bracket' && (ev.loOpen === true || ev.hiOpen === true)) return false;
+          return p.tenor_key > month && typeof p.price === 'number';
+        });
         var fwd = now == null ? [] : [[tX, now]].concat(pts.map(function (p) { return [day(p.tenor_key + '-15'), p.price, p.tenor]; }));
         return {id: c[0], name: c[1], color: c[2], spot: spot, now: now, fwd: fwd};
       }).filter(function (s) { return s.spot.length; });

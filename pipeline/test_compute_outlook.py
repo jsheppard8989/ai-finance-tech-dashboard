@@ -82,16 +82,16 @@ def test_compute_thesis_page():
     assert not re.search(r"\b(bet|bets|thin)\b", text, re.I)
     assert 'data-research-menu' in s and './js/research-nav.js' in s
     assert "ornn.json" not in s and "index_value" not in s
-    for n in (1, 2, 3, 4, 5):
+    for n in (1, 2, 3, 4):
         assert 'data-chart="%d"' % n in s
-    for n in (6, 7, 8):
-        assert 'data-chart="%d"' % n not in s  # charts cut in the Oct 24 follow-up
+    for n in (5, 6, 7, 8):
+        assert 'data-chart="%d"' % n not in s  # 6-8 cut Oct 24; Kalshi forward chart cut Oct 25 (4->3, 5->4)
     for coined in ("Supply Lag Paradox", "Overhang", "Compute Velocity", "fog of war", "toll"):
         assert not re.search(r"\b%s\b" % coined, text, re.I)
     for leak in ("NOTE TO EDITORS", "NOT FOR PUBLICATION", "Chart specs", "**Series:**", "Purpose:"):
         assert leak not in s
     label = "Source: Ornn Compute Price Index (data.ornn.com), used with permission"
-    assert s.count(label) == 1  # chart 3 only
+    assert s.count(label) == 0  # its only user, the forward chart, was cut Oct 25 (round 2b)
     assert "data.ornn.com/api" not in s  # Ornn values embedded from saved files, never fetched
 
 
