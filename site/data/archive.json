@@ -1,6 +1,37 @@
 {
   "insights": [
     {
+      "id": 623,
+      "title": "OpenAI: When AI Agents Use Computers Faster Than You",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-26",
+      "summary": "The episode\u2019s core argument is that OpenAI\u2019s computer-use capabilities are moving from \u201cassistive\u201d toward genuinely superhuman speed and reliability, with fewer thinking tokens, better task completion, and stronger resistance to prompt injection. James Sun repeatedly frames the shift as not just incremental model improvement, but a change in how people and software will interact: agents can operate legacy apps the way humans do, which makes them a universal interface for software work.\n\nA major theme is enterprise readiness. James Sun says OpenAI has launched enterprise controls that let businesses decide how much human-in-the-loop oversight they want, while a Guardian/auto-approve system evaluates each action for safety. The speakers emphasize deterministic controls, sandboxing, approvals for sensitive actions, and auditability as the practical requirements for deploying agents in regulated or high-stakes workflows.\n\nThe episode also highlights a tension on the open web. James Sun argues that agents create incentives problems for advertisers and publishers, because automated browsing may consume content without producing the same revenue as human traffic. That creates a potential adoption barrier outside approved enterprise software, even as standards like WebMCP are discussed as a way to let agents and humans collaborate on websites without requiring every workflow to be rebuilt around APIs.\n\nOn the product side, the speakers describe rapid recent momentum, including examples of consumer agent behavior that proactively notices missed calendar actions and uses cloud computers to retrieve and analyze logs. The long-term prediction is that computer-use agents will become fast enough that users can no longer track their actions manually, forcing a new layer of controls, standards, and UX patterns to make the experience trustworthy and scalable.",
+      "key_takeaway": "Computer-use agents are approaching superhuman speed and safety, creating a large enterprise automation opportunity if auditability and approval controls can manage risk.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 612,
+      "notable_quotes": [
+        {
+          "speaker": "James Sun",
+          "quote": "One is it is a little bit faster on average because it uses fewer thinking tokens to do the same task."
+        },
+        {
+          "speaker": "James Sun",
+          "quote": "If you look at the system card for it, it is much better at being resistant to prompt injection, it's much better at not taking any kind of unintended actions."
+        },
+        {
+          "speaker": "James Sun",
+          "quote": "One is, we run a business model is not in line with having agents use a product, right? You think about advertisers, publishers, who was business models entirely on advertising, if the agents using the website for them, then where's that revenue current from?"
+        }
+      ]
+    },
+    {
       "id": 621,
       "title": "The New Startup Playbook | Box CEO Aaron Levie",
       "source_type": "podcast",
@@ -44,9 +75,14 @@
       "source_date": "2026-10-25",
       "summary": "The guest argues that the AI infrastructure trade has shifted from being funded mainly by hyperscaler operating cash flow to being increasingly funded by equity and debt, which makes the whole trade more reflexive and vulnerable to a sudden tightening in sentiment or financing conditions. He says the market is still assuming very optimistic revenue and token-demand trajectories, and that if paid usage does not accelerate enough, the underwriting behind AI buildouts could break.\n\nA central contrarian point is that the next bottleneck in AI may not be model capability or compute, but preclinical experimentation capacity in life sciences. The guest argues AI can compress literature review and idea generation, but it cannot remove hard biological timelines like cell growth, safety testing, and animal studies. He says the economic winners may be experiment-focused businesses, lab automation, and consumables, rather than pure drug-design companies or later-stage clinical services.\n\nHe also walks through a case study of AI-assisted protein binder design for a scorpion antitoxin project, describing 211 designs sent to labs and 17 that bound in vitro, with one candidate competing favorably against an established neutralizing antibody region. He uses that example to support the idea that AI can dramatically speed design, but the real constraint remains validation and testing capacity, including scarce monkey supply for animal studies.\n\nOn broader markets, he remains selectively bullish on semiconductors but is more focused on AI usage and agentic utilities than on the broad infrastructure stack. He also offers relative-value views such as long Meta versus short Google, based on his concern that talent movement and AI search disruption may pressure Alphabet more than the market expects.",
       "key_takeaway": "AI value is shifting from model design and compute toward experimentation infrastructure, especially preclinical CROs, lab automation, and consumables.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "CRL",
+        "META",
+        "GOOGL",
+        "LENS"
+      ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-10-25",
       "archived_date": null,
@@ -254,7 +290,7 @@
         "TSM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-22",
       "archived_date": null,
@@ -515,7 +551,7 @@
         "FSLR"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-22",
       "archived_date": null,
@@ -13866,8 +13902,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-10-26",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -13876,8 +13912,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 596,
-      "last_mentioned_speaker": "Adit Abraham"
+      "last_mentioned_episode_id": 612,
+      "last_mentioned_speaker": "James Sun, Ari (name not explicitly provided in transcript)"
     },
     {
       "id": 295,
@@ -14460,8 +14496,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 37,
+      "last_mentioned_date": "2026-10-26",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -14470,8 +14506,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 606,
-      "last_mentioned_speaker": "Dave Blundin, Alex, Salim"
+      "last_mentioned_episode_id": 612,
+      "last_mentioned_speaker": "James Sun, Ari (name not explicitly provided in transcript)"
     },
     {
       "id": 265,
@@ -16350,8 +16386,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-25",
-      "mention_count": 132,
+      "last_mentioned_date": "2026-10-26",
+      "mention_count": 133,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -16360,8 +16396,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 610,
-      "last_mentioned_speaker": "Aaron Levie"
+      "last_mentioned_episode_id": 612,
+      "last_mentioned_speaker": "James Sun, Ari (name not explicitly provided in transcript)"
     },
     {
       "id": 38,
