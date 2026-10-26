@@ -50,7 +50,7 @@ def parse_post(text: str) -> dict:
 
 
 def _inline(escaped: str) -> str:
-    s = re.sub(r"\[([^\]]+)\]\((https?://[^\s)]+)\)",
+    s = re.sub(r"\[([^\]]+)\]\((https?://[^\s)\"'<>]+)\)",
                lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener noreferrer">{m.group(1)}</a>', escaped)
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<em>\1</em>", s)
@@ -64,7 +64,7 @@ def render_markdown(body: str) -> str:
         lines = [l.rstrip() for l in block.strip().splitlines() if l.strip()]
         if not lines:
             continue
-        esc = [html.escape(l, quote=True) for l in lines]
+        esc = [html.escape(l, quote=False) for l in lines]
         if all(re.match(r"^\s*[-*] ", l) for l in lines):
             items = "".join("<li>" + _inline(_BULLET_RE.sub("", e)) + "</li>" for e in esc)
             out.append(f"<ul>{items}</ul>")
@@ -72,7 +72,7 @@ def render_markdown(body: str) -> str:
         m = re.match(r"^(#{1,3}) (.+)$", lines[0])
         if m and len(lines) == 1:
             lvl = len(m.group(1)) + 3  # h4..h6 inside the card
-            out.append(f"<h{lvl}>{_inline(html.escape(m.group(2), quote=True))}</h{lvl}>")
+            out.append(f"<h{lvl}>{_inline(html.escape(m.group(2), quote=False))}</h{lvl}>")
             continue
         out.append("<p>" + "<br>".join(_inline(e) for e in esc) + "</p>")
     return "\n".join(out)
@@ -96,8 +96,8 @@ def build(src_dir: Path = SRC_DIR) -> dict:
     post = latest_post(src_dir)
     if not post:
         return {"empty": True}
-    return {"title": html.escape(post["title"], quote=True), "date": post["date"],
-            "author": html.escape(post["author"], quote=True), "html": render_markdown(post["body"])}
+    return {"title": html.escape(post["title"], quote=False), "date": post["date"],
+            "author": html.escape(post["author"], quote=False), "html": render_markdown(post["body"])}
 
 
 def main(argv=None) -> int:

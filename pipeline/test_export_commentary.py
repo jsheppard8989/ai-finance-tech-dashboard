@@ -63,3 +63,9 @@ def test_home_has_commentary_not_curve():
     assert "Market Commentary" in html and "First commentary coming soon" in html
     assert "Curve Snapshot" not in html and "curve-widget" not in html
     assert html.count("<strong>Disclaimer:</strong>") == 1
+
+
+def test_no_quote_entities_and_quote_safe_links():
+    out = ec.render_markdown("Amazon's \"view\" [x](https://e.com/\"onmouseover=alert(1))")
+    assert "&#x27;" not in out and "&quot;" not in out
+    assert "Amazon's" in out and "<a" not in out
