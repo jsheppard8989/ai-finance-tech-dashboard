@@ -1,5 +1,41 @@
 [
   {
+    "id": 612,
+    "podcast_name": "The a16z Show",
+    "episode_title": "OpenAI: When AI Agents Use Computers Faster Than You",
+    "episode_date": "2026-10-26",
+    "summary": "The episode\u2019s core argument is that OpenAI\u2019s computer-use capabilities are moving from \u201cassistive\u201d toward genuinely superhuman speed and reliability, with fewer thinking tokens, better task completion, and stronger resistance to prompt injection. James Sun repeatedly frames the shift as not just incremental model improvement, but a change in how people and software will interact: agents can operate legacy apps the way humans do, which makes them a universal interface for software work.\n\nA major theme is enterprise readiness. James Sun says OpenAI has launched enterprise controls that let businesses decide how much human-in-the-loop oversight they want, while a Guardian/auto-approve system evaluates each action for safety. The speakers emphasize deterministic controls, sandboxing, approvals for sensitive actions, and auditability as the practical requirements for deploying agents in regulated or high-stakes workflows.\n\nThe episode also highlights a tension on the open web. James Sun argues that agents create incentives problems for advertisers and publishers, because automated browsing may consume content without producing the same revenue as human traffic. That creates a potential adoption barrier outside approved enterprise software, even as standards like WebMCP are discussed as a way to let agents and humans collaborate on websites without requiring every workflow to be rebuilt around APIs.\n\nOn the product side, the speakers describe rapid recent momentum, including examples of consumer agent behavior that proactively notices missed calendar actions and uses cloud computers to retrieve and analyze logs. The long-term prediction is that computer-use agents will become fast enough that users can no longer track their actions manually, forcing a new layer of controls, standards, and UX patterns to make the experience trustworthy and scalable.",
+    "key_takeaways": [
+      "James Sun says computer-use models are now faster than the average human at using a computer.",
+      "James Sun says Astra is more reliable and safer because it uses fewer thinking tokens and is much better at resisting prompt injection.",
+      "James Sun argues that small reliability gains matter disproportionately, citing a 99% vs 97% reliability difference as highly important.",
+      "James Sun says OpenAI has introduced enterprise controls so businesses can tune how much human approval is required for agent actions.",
+      "James Sun says Guardian/auto-approve inspects each action and decides whether it is safe, especially for internet-accessing actions.",
+      "James Sun warns that open-web business models are misaligned with agent traffic because advertisers and publishers rely on human impressions and revenue.",
+      "James Sun says standards like WebMCP could let agents and humans collaborate on websites without replacing the web with API-only integrations."
+    ],
+    "investment_thesis": "Computer-use agents are approaching superhuman speed and safety, creating a large enterprise automation opportunity if auditability and approval controls can manage risk.",
+    "key_tickers": null
+  },
+  {
+    "id": 611,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Citrini: Monkeys Are The Next Bottleneck | Citrini on AI Drug Discovery Experiment & Reflexive Financing Risk to AI Buildout & Hardware Trade",
+    "episode_date": "2026-10-25",
+    "summary": "The guest argues that the AI infrastructure trade has shifted from being funded mainly by hyperscaler operating cash flow to being increasingly funded by equity and debt, which makes the whole trade more reflexive and vulnerable to a sudden tightening in sentiment or financing conditions. He says the market is still assuming very optimistic revenue and token-demand trajectories, and that if paid usage does not accelerate enough, the underwriting behind AI buildouts could break.\n\nA central contrarian point is that the next bottleneck in AI may not be model capability or compute, but preclinical experimentation capacity in life sciences. The guest argues AI can compress literature review and idea generation, but it cannot remove hard biological timelines like cell growth, safety testing, and animal studies. He says the economic winners may be experiment-focused businesses, lab automation, and consumables, rather than pure drug-design companies or later-stage clinical services.\n\nHe also walks through a case study of AI-assisted protein binder design for a scorpion antitoxin project, describing 211 designs sent to labs and 17 that bound in vitro, with one candidate competing favorably against an established neutralizing antibody region. He uses that example to support the idea that AI can dramatically speed design, but the real constraint remains validation and testing capacity, including scarce monkey supply for animal studies.\n\nOn broader markets, he remains selectively bullish on semiconductors but is more focused on AI usage and agentic utilities than on the broad infrastructure stack. He also offers relative-value views such as long Meta versus short Google, based on his concern that talent movement and AI search disruption may pressure Alphabet more than the market expects.",
+    "key_takeaways": [
+      "Satrini says the AI trade is becoming more dependent on equity and debt financing, making it more sensitive to sentiment than when hyperscaler cash flow was the main support.",
+      "Satrini argues that model capability may be improving faster than paid demand, which could make current AI revenue assumptions too optimistic.",
+      "Satrini says the biggest near-term bottleneck in AI drug discovery is preclinical experimentation capacity, not idea generation or design.",
+      "Satrini emphasizes that AI can speed up dry-lab work and literature review, but cannot eliminate irreducible biological timelines like cell growth and animal testing.",
+      "Satrini describes a scorpion antitoxin protein-design workflow where 211 designs were sent to labs and 17 bound in vitro, supporting his view that AI is compressing the design phase.",
+      "Satrini says monkey supply is a real bottleneck for preclinical testing and may create pricing power for experiment-focused CROs.",
+      "Satrini prefers exposure to experiment infrastructure, lab automation, and early-stage CROs over pure drug-idea generators or later-stage clinical services."
+    ],
+    "investment_thesis": "AI value is shifting from model design and compute toward experimentation infrastructure, especially preclinical CROs, lab automation, and consumables.",
+    "key_tickers": null
+  },
+  {
     "id": 610,
     "podcast_name": "The a16z Show",
     "episode_title": "The New Startup Playbook | Box CEO Aaron Levie",
