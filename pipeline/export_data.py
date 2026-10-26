@@ -345,7 +345,7 @@ def _apply_summary_overrides(obj):
     # pundit can't pre-empt "First Last" swaps.
     # Always runs: also enforces pundit_exclusions (host ids + corrected-name check).
     _apply_pundit_rules(obj, rules_all.get("pundit_excludes") or [], rules_all.get("pundit_overrides") or [],
-                        rules_all.get("pundit_merges") or [])
+                        rules_all.get("pundit_merges") or [], name_reps=global_name_reps)
     # Oct 22 2026: a bio like "Referenced via…"/"Mentioned in…" describes a mention, not a guest.
     _drop_mention_bios(obj)
     # Backstop: full known-name list from name_normalizer (quote-safe, exact swaps only).
@@ -354,6 +354,12 @@ def _apply_summary_overrides(obj):
         name_normalizer.apply_to_cards(obj)
     except Exception as e:
         print(f"  ⚠ name_normalizer backstop skipped: {e}")
+    # Oct 26 2026: exact global_replacements again, LAST. The first run (in walk) happens before
+    # the name swaps above, so a fix written against the name-swapped text (e.g. "Garing and
+    # Rozencwajg", which only exists after "Rosenswag" -> "Rozencwajg") was missed on a single
+    # pass and came back in pundits.json / archive.json / data.js. Swaps are idempotent.
+    if global_reps:
+        _apply_global_replacements(obj, global_reps)
     # Final ticker pass (Oct 16 2026): name fixes above (e.g. "TALENT ENERGY" -> "TALEN ENERGY")
     # also touch ticker lists, so a ticker rename applied in walk() could be undone. Re-apply
     # global ticker renames/drops last so ticker fields always end on the mapped symbol.
@@ -368,6 +374,25 @@ def _apply_summary_overrides(obj):
                 for v in o:
                     final_tickers(v)
         final_tickers(obj)
+    return obj
+
+
+def _apply_global_replacements(obj, global_reps):
+    """Exact global_replacements on every string except title fields (same scope as walk())."""
+    if isinstance(obj, dict):
+        for k in list(obj.keys()):
+            v = obj[k]
+            if isinstance(v, str):
+                if k not in TITLE_FIELDS:
+                    obj[k] = _replace_text(v, global_reps)
+            else:
+                _apply_global_replacements(v, global_reps)
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            if isinstance(v, str):
+                obj[i] = _replace_text(v, global_reps)
+            else:
+                _apply_global_replacements(v, global_reps)
     return obj
 
 
@@ -516,7 +541,7 @@ def _drop_mention_bios(obj):
         for v in obj:
             _drop_mention_bios(v)
 
-def _apply_pundit_rules(obj, excludes, overrides, merges=None):
+def _apply_pundit_rules(obj, excludes, overrides, merges=None, name_reps=None):
     """Oct 20 2026: pundit rows scoped by pundit id (DB rows are never deleted).
 
     - 'pundit_excludes': [{"id": 261, "name": "John Doe", ...}] drops that row from every exported
@@ -537,6 +562,17 @@ def _apply_pundit_rules(obj, excludes, overrides, merges=None):
             for k in r.get("unset") or []:
                 o.pop(k, None)
             reps = r.get("replacements") or []
+            if reps and name_reps:
+                # Oct 26 2026: these rules run AFTER global_name_replacements, so an old text
+                # written against the raw snippet (e.g. "... David Sachs, ...") must also match
+                # its name-swapped form ("... David Sacks, ...").
+                extra = []
+                for pair in reps:
+                    if isinstance(pair, (list, tuple)) and len(pair) == 2 and isinstance(pair[0], str):
+                        swapped = _replace_names(pair[0], name_reps)
+                        if swapped != pair[0]:
+                            extra.append([swapped, pair[1]])
+                reps = list(reps) + extra
             if reps:
                 _pundit_word_swap(o, reps)  # whole-word, hyphen-aware; skips slugs/URLs
 
