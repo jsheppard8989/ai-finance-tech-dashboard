@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-27T10:38:16.203606",
+  generatedAt: "2026-10-27T10:43:55.303799",
   chartsVersion: "2026-10-27T07:14:43.933410",
   priceSnapshot: {
   "AAPL": {
@@ -56666,7 +56666,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-25T22:30:08.660244",
     "updated_at": "2026-10-26 03:30:08",
-    "episode_evidence": "Jack Farley: Since probably about March I would say we started focusing on a different part of the AI trade that has a lot more to do with the actual use of AI and the implications of that and who's enabling that, who's benefiting from that.\nJack Farley: If you're relying on the combined lab AR to be $500 billion, and that's where you're underwriting your kind of assumptions of what gets handled back into infrastructure. If it ends up being 300, then that's a disaster.\nJack Farley: Right now the biggest fear that investors have is zoomed out at least what we've seen is model capability improves, and then lab AR goes up. And that has pretty consistently been the case.\nJack Farley: We ended up sending like 211 designs and the thing about just science normally doesn't have to function with like the stock market in the background but like originally the timeline was that we were going to get this published by like the beginning of September.",
+    "episode_evidence": "Jack Farley: Since probably about March I would say we started focusing on a different part of the AI trade that has a lot more to do with the actual use of AI and the implications of that and who's enabling that, who's benefiting from that.\nJack Farley: Right now the biggest fear that investors have is zoomed out at least what we've seen is model capability improves, and then lab AR goes up. And that has pretty consistently been the case.\nJack Farley: We ended up sending like 211 designs and the thing about just science normally doesn't have to function with like the stock market in the background but like originally the timeline was that we were going to get this published by like the beginning of September.",
     "falsification_tracks": [
       "By Q4 2027 10-Qs, if Charles River's early-stage discovery and safety assessment revenue is not growing at least 5% year over year, the experiment-throughput thesis weakens. Source: Charles River 10-Q / 10-K.",
       "By Dec. 31, 2028, if non-human-primate capacity expansion shows fewer than 10% growth in available testing slots while prices stay flat, the monkey-bottleneck argument is wrong. Source: CRO disclosures and industry procurement reports.",
@@ -56715,7 +56715,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-26T06:52:21.164653",
     "updated_at": "2026-10-26 11:52:21",
-    "episode_evidence": "James Sun: One is it is a little bit faster on average because it uses fewer thinking tokens to do the same task.\nJames Sun: If you look at the system card for it, it is much better at being resistant to prompt injection, it's much better at not taking any kind of unintended actions.\nJames Sun: There's sort of the kind of thing where there's a little difference that is hard to receive, but really important between something being 99% reliable and 97% reliable.\nJames Sun: We launched a set of enterprise controls that let businesses choose one, how much human the loop is there? Like do they want the agent to automatically approve everything?\nJames Sun: We have this really awesome system called Guardian or I think auto approve in the app that is a really smart model looking at every single action that the computer use agent is taking to decide if it's safe, if it's a line to the internet.",
+    "episode_evidence": "James Sun: If you look at the system card for it, it is much better at being resistant to prompt injection, it's much better at not taking any kind of unintended actions.\nJames Sun: There's sort of the kind of thing where there's a little difference that is hard to receive, but really important between something being 99% reliable and 97% reliable.\nJames Sun: We launched a set of enterprise controls that let businesses choose one, how much human the loop is there? Like do they want the agent to automatically approve everything?\nJames Sun: We have this really awesome system called Guardian or I think auto approve in the app that is a really smart model looking at every single action that the computer use agent is taking to decide if it's safe, if it's a line to the internet.",
     "falsification_tracks": [
       "By Q2 2027, if OpenAI system-card or third-party benchmark data shows prompt-injection resistance improving by fewer than 2 percentage points versus the prior release, the safety uplift thesis weakens. Source: OpenAI system card and independent red-team benchmark reports.",
       "By Q3 2027, if enterprise deployments report more than 5 unsafe agent actions per 10,000 runs after approval-gating and sandbox controls, the governance thesis is disproven. Source: customer audit logs and OpenAI enterprise security documentation.",
@@ -77319,10 +77319,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4944.19,
-      "basket_change_pct": -1.12,
+      "basket_current_value": 4943.67,
+      "basket_change_pct": -1.13,
       "index_start": 100,
-      "basket_index_value": 98.88,
+      "basket_index_value": 98.87,
       "names": [
         {
           "ticker": "HIMS",
@@ -77331,9 +77331,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 28.14,
-          "current_value": 1001.78,
-          "change_pct": 0.18,
+          "current_price": 28.16,
+          "current_value": 1002.49,
+          "change_pct": 0.25,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77359,9 +77359,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 71.04,
-          "current_value": 911.12,
-          "change_pct": -8.89,
+          "current_price": 71.05,
+          "current_value": 911.24,
+          "change_pct": -8.88,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77373,9 +77373,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 176.52,
-          "current_value": 964.06,
-          "change_pct": -3.59,
+          "current_price": 176.29,
+          "current_value": 962.81,
+          "change_pct": -3.72,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77387,16 +77387,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 103.24,
-          "current_value": 1010.17,
-          "change_pct": 1.02,
+          "current_price": 103.23,
+          "current_value": 1010.07,
+          "change_pct": 1.01,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-27T10:38:03.976815"
+      "last_updated": "2026-10-27T10:43:42.990862"
     }
   ]
 }
