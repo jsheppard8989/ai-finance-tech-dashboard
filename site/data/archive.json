@@ -260,8 +260,7 @@
         "TSLA",
         "ORCL",
         "MU",
-        "ASML",
-        "LENS"
+        "ASML"
       ],
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -1811,7 +1810,6 @@
       "summary": "Jack Farley interviewed J Mintzmyer, founder and president of Value Investors Edge, about the extreme tanker market created by the Iran war and disruptions around the Strait of Hormuz. Mintzmyer said recent VLCC spot fixtures from the Middle East Gulf to China reached roughly $1.0 million to $1.2 million per day, compared with a normal tanker rate of about $20,000 to $40,000 per day, while one-year charter rates recently reached about $150,000 to $170,000 per day.\n\nMintzmyer argued the spike did not come from one factor alone, but from a tight tanker fleet, old ships, low forward supply, longer trade routes after Russia sanctions, Houthi disruptions in the Red Sea, and the sudden dislocation of vessels after the Strait of Hormuz closure and partial reopening. He estimated that roughly 70% to 80% of pre-conflict flows had returned through the Strait of Hormuz, or about 12 million to 14 million barrels per day versus closer to 20 million barrels per day before the conflict, but said AIS data is unreliable in real time because many ships turn off or delay signals.\n\nThe central disagreement was with the instinctive view that disruptions are bad for shipping. Mintzmyer said short-term disruptions often raise rates because they increase ton miles and create vessel scarcity, while permanent closures or long-term export bans can be bearish by destroying cargo demand. He specifically said a several-month US diesel export ban would likely be very bearish for product tankers after a brief panic phase.\n\nMintzmyer was cautious on crude tanker rates and assets, saying $1 million per day rates are unsustainable and could normalize within days or weeks, not months. He differentiated between rates, ship asset values, and equities: he was least bullish on rates, concerned that ship assets were too rich, and described many tanker equities as closer to holds.\n\nHis preferred segment was dry bulk, where he said Capesize rates had risen from about $20,000 per day to $40,000 to $50,000 per day, far below the tanker market's 25x move but still highly profitable. He argued dry bulk could benefit for two to three years from limited supply, older fleets, coal switching from high LNG prices, and China's shift of iron ore and bauxite purchases from Australia toward Guinea, which more than triples the voyage distance to China.",
       "key_takeaway": "J Mintzmyer argues dry bulk, not tankers, has the stronger setup because Capesize rates near $40,000 to $50,000 per day meet restrained supply and longer Guinea-to-China ton miles.",
       "tickers_mentioned": [
-        "LENS",
         "BWET",
         "ECO",
         "DHT",
@@ -2342,7 +2340,6 @@
       "summary": "Jack Farley interviewed Ed Zitron about Reuters reporting on Anthropic's confidential S-1, with Zitron arguing that Anthropic's leaked 2025 figures undercut the market narrative that it is the cleaner or more sustainable AI lab. Zitron said Anthropic lost about $8 billion on $4.6 billion of revenue in 2025, burned $2.75 to make $1, and was slightly worse than OpenAI's reported $2.60 burn per dollar of revenue.",
       "key_takeaway": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
       "tickers_mentioned": [
-        "LENS",
         "AVGO",
         "ORCL",
         "CRWV",

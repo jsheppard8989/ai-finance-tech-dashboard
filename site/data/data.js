@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-27T10:43:55.303799",
+  generatedAt: "2026-10-27T10:52:29.658076",
   chartsVersion: "2026-10-27T07:14:43.933410",
   priceSnapshot: {
   "AAPL": {
@@ -1544,8 +1544,7 @@ const dashboardData = {
         "TSLA",
         "ORCL",
         "MU",
-        "ASML",
-        "LENS"
+        "ASML"
       ],
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -3095,7 +3094,6 @@ const dashboardData = {
       "summary": "Jack Farley interviewed J Mintzmyer, founder and president of Value Investors Edge, about the extreme tanker market created by the Iran war and disruptions around the Strait of Hormuz. Mintzmyer said recent VLCC spot fixtures from the Middle East Gulf to China reached roughly $1.0 million to $1.2 million per day, compared with a normal tanker rate of about $20,000 to $40,000 per day, while one-year charter rates recently reached about $150,000 to $170,000 per day.\n\nMintzmyer argued the spike did not come from one factor alone, but from a tight tanker fleet, old ships, low forward supply, longer trade routes after Russia sanctions, Houthi disruptions in the Red Sea, and the sudden dislocation of vessels after the Strait of Hormuz closure and partial reopening. He estimated that roughly 70% to 80% of pre-conflict flows had returned through the Strait of Hormuz, or about 12 million to 14 million barrels per day versus closer to 20 million barrels per day before the conflict, but said AIS data is unreliable in real time because many ships turn off or delay signals.\n\nThe central disagreement was with the instinctive view that disruptions are bad for shipping. Mintzmyer said short-term disruptions often raise rates because they increase ton miles and create vessel scarcity, while permanent closures or long-term export bans can be bearish by destroying cargo demand. He specifically said a several-month US diesel export ban would likely be very bearish for product tankers after a brief panic phase.\n\nMintzmyer was cautious on crude tanker rates and assets, saying $1 million per day rates are unsustainable and could normalize within days or weeks, not months. He differentiated between rates, ship asset values, and equities: he was least bullish on rates, concerned that ship assets were too rich, and described many tanker equities as closer to holds.\n\nHis preferred segment was dry bulk, where he said Capesize rates had risen from about $20,000 per day to $40,000 to $50,000 per day, far below the tanker market's 25x move but still highly profitable. He argued dry bulk could benefit for two to three years from limited supply, older fleets, coal switching from high LNG prices, and China's shift of iron ore and bauxite purchases from Australia toward Guinea, which more than triples the voyage distance to China.",
       "key_takeaway": "J Mintzmyer argues dry bulk, not tankers, has the stronger setup because Capesize rates near $40,000 to $50,000 per day meet restrained supply and longer Guinea-to-China ton miles.",
       "tickers_mentioned": [
-        "LENS",
         "BWET",
         "ECO",
         "DHT",
@@ -3626,7 +3624,6 @@ const dashboardData = {
       "summary": "Jack Farley interviewed Ed Zitron about Reuters reporting on Anthropic's confidential S-1, with Zitron arguing that Anthropic's leaked 2025 figures undercut the market narrative that it is the cleaner or more sustainable AI lab. Zitron said Anthropic lost about $8 billion on $4.6 billion of revenue in 2025, burned $2.75 to make $1, and was slightly worse than OpenAI's reported $2.60 burn per dollar of revenue.",
       "key_takeaway": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
       "tickers_mentioned": [
-        "LENS",
         "AVGO",
         "ORCL",
         "CRWV",
@@ -17993,7 +17990,7 @@ const dashboardData = {
       "source_date": "2026-10-27",
       "summary": "The episode argues that AI, especially LLMs combined with modern learning science, can fundamentally redesign schooling rather than merely adding software to old classrooms. Joe Liemandt says Alpha School uses a learning engine to teach kids dramatically faster, claiming students learn twice as much in two hours a day as in a traditional six-hour school day plus homework, while also keeping engagement high.\n\nA central theme is that motivation matters as much as academic delivery. Liemandt cites internal survey data saying 90% of Alpha students say they love school and 50% would rather attend school than go on vacation, with one campus at 65%. He argues that edtech fails if inserted into a normal school day, and that the entire structure must be rebuilt around agency, rigor, and enjoyable learning.\n\nThe episode also expands the thesis to life skills and entrepreneurship. Alpha is described as using simulations, transcript analysis, and benchmarks like the Wharton MBA challenge to measure teamwork and communication, with an 85% pass threshold in some tasks. Founder School is presented as a high-school entrepreneurship program with a guarantee: students will earn $1 million in profit during high school or receive tuition back.\n\nBeyond K-12, Gagan Biyani argues university needs a similar reinvention through the Horowitz and Andreessen Academy, with more student-driven building and less passive lecture time. The conversation repeatedly returns to the prediction that AI-native learners will increasingly build the learning tools themselves, and that education will shift from preparing for fixed careers to enabling students to create what comes next.",
       "key_takeaway": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -18027,7 +18024,7 @@ const dashboardData = {
       "source_date": "2026-10-26",
       "summary": "Ian Quigley described Leash Bio's core idea as a pre-measured, counterfactually dense screening landscape where language-model agents can explore a fixed catalog of molecules under a limited experimental budget. The flagship use case is a structure-activity relationship task focused on maximizing binding to a target protein, with the agent limited to about 100 molecules and evaluated against the full measured landscape.\n\nA major point was scale: because the environment is already measured, Leash has been able to run about 90,000 rollouts and inspect how agents make decisions, not just whether they eventually find good molecules. Quigley said this lets them interrogate scientific reasoning, including whether a model recognizes unproductive regions and abandons them quickly rather than repeatedly sampling weak neighborhoods.\n\nLeash has screened roughly 1,000 proteins against a couple of chemical libraries and is aiming to expand to roughly 20-27 environments, currently producing about two environments per day.\n\nThe episode also covered a technical detour into SMILES understanding. Quigley said Leash had to do supervised fine-tuning because frontier models were not initially good at converting or understanding SMILES, especially non-canonical forms, though by around February the models started to work meaningfully with chemistry. The longer-term thesis is that this amortized lab-in-the-loop framework can generalize to other biological and scientific questions, with a pre-print, dataset, harbor packages, and many thousands of transcripts planned for release.",
       "key_takeaway": "Leash Bio's key claim is that fully measured molecular environments can benchmark and improve AI agents' scientific decision-making at scale, not just their final optimization results.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -18057,7 +18054,7 @@ const dashboardData = {
       "source_date": "2026-10-26",
       "summary": "The episode\u2019s core argument is that OpenAI\u2019s computer-use capabilities are moving from \u201cassistive\u201d toward genuinely superhuman speed and reliability, with fewer thinking tokens, better task completion, and stronger resistance to prompt injection. James Sun repeatedly frames the shift as not just incremental model improvement, but a change in how people and software will interact: agents can operate legacy apps the way humans do, which makes them a universal interface for software work.\n\nA major theme is enterprise readiness. James Sun says OpenAI has launched enterprise controls that let businesses decide how much human-in-the-loop oversight they want, while a Guardian/auto-approve system evaluates each action for safety. The speakers emphasize deterministic controls, sandboxing, approvals for sensitive actions, and auditability as the practical requirements for deploying agents in regulated or high-stakes workflows.\n\nThe episode also highlights a tension on the open web. James Sun argues that agents create incentives problems for advertisers and publishers, because automated browsing may consume content without producing the same revenue as human traffic. That creates a potential adoption barrier outside approved enterprise software, even as standards like WebMCP are discussed as a way to let agents and humans collaborate on websites without requiring every workflow to be rebuilt around APIs.\n\nOn the product side, the speakers describe rapid recent momentum, including examples of consumer agent behavior that proactively notices missed calendar actions and uses cloud computers to retrieve and analyze logs. The long-term prediction is that computer-use agents will become fast enough that users can no longer track their actions manually, forcing a new layer of controls, standards, and UX patterns to make the experience trustworthy and scalable.",
       "key_takeaway": "Computer-use agents are approaching superhuman speed and safety, creating a large enterprise automation opportunity if auditability and approval controls can manage risk.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -18083,7 +18080,11 @@ const dashboardData = {
       "source_date": "2026-10-25",
       "summary": "The guest argues that the AI infrastructure trade has shifted from being funded mainly by hyperscaler operating cash flow to being increasingly funded by equity and debt, which makes the whole trade more reflexive and vulnerable to a sudden tightening in sentiment or financing conditions. He says the market is still assuming very optimistic revenue and token-demand trajectories, and that if paid usage does not accelerate enough, the underwriting behind AI buildouts could break.\n\nA central contrarian point is that the next bottleneck in AI may not be model capability or compute, but preclinical experimentation capacity in life sciences. The guest argues AI can compress literature review and idea generation, but it cannot remove hard biological timelines like cell growth, safety testing, and animal studies. He says the economic winners may be experiment-focused businesses, lab automation, and consumables, rather than pure drug-design companies or later-stage clinical services.\n\nHe also walks through a case study of AI-assisted protein binder design for a scorpion antitoxin project, describing 211 designs sent to labs and 17 that bound in vitro, with one candidate competing favorably against an established neutralizing antibody region. He uses that example to support the idea that AI can dramatically speed design, but the real constraint remains validation and testing capacity, including scarce monkey supply for animal studies.\n\nOn broader markets, he remains selectively bullish on semiconductors but is more focused on AI usage and agentic utilities than on the broad infrastructure stack. He also offers relative-value views such as long Meta versus short Google, based on his concern that talent movement and AI search disruption may pressure Alphabet more than the market expects.",
       "key_takeaway": "AI value is shifting from model design and compute toward experimentation infrastructure, especially preclinical CROs, lab automation, and consumables.",
-      "tickers_mentioned": "[\"CRL\", \"META\", \"GOOGL\"]",
+      "tickers_mentioned": [
+        "CRL",
+        "META",
+        "GOOGL"
+      ],
       "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
@@ -18113,7 +18114,12 @@ const dashboardData = {
       "source_date": "2026-10-25",
       "summary": "Aaron Levie argues that AI agents are changing startup economics by shifting the bottleneck from creating work to reviewing, orchestrating, and integrating agent output. He says small teams of roughly 3\u201310 people can begin to look like 50\u2013200 person teams, because advanced founders can see 3\u20135x to 10x leverage rather than a modest productivity bump.\n\nLevie emphasizes that this does not mean agents are perfect. He repeatedly notes that agents make mistakes, need retries, and still require humans to edit and supervise. In his view, the biggest advantage is that the human role becomes the editor/reviewer, which can be \u201c10x\u201d the leverage of the person creating the work.\n\nHe also argues that the opportunity set is enormous: there could be hundreds of AI agent companies reaching $1B to $10B+ market caps by targeting specific industries and job functions. He points to early coding-agent companies like Replit, Cursor, Windsor, Lovable, and Cognition as evidence that the category is already producing very large market caps.\n\nAt the same time, Levie says distribution is still a critical constraint. His contrarian view is that AI may transform product creation, but it will not fundamentally transform go-to-market mechanics, so founders still need audience ownership and distribution strength to avoid being drowned out by competitors.",
       "key_takeaway": "AI agents could let 3\u201310 person startups compete with 50\u2013200 person incumbents, but only if they solve orchestration and distribution better than everyone else.",
-      "tickers_mentioned": "[\"BOX\", \"RPLT\", \"CRSR\", \"CGBS\"]",
+      "tickers_mentioned": [
+        "BOX",
+        "RPLT",
+        "CRSR",
+        "CGBS"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -18147,7 +18153,11 @@ const dashboardData = {
       "source_date": "2026-10-24",
       "summary": "Ben Horowitz argues that AI will compress company-building and adoption cycles, but it does not remove the hard parts of entrepreneurship: conviction, product differentiation, and defensibility. He says AI is different from prior platform waves because once it works, it can immediately reach a huge audience without needing a separate network build-out, yet founders still need to create products that are dramatically better than incumbents.\n\nA central theme is that shallow \"GPT wrapper\" products are unlikely to sustain durable advantage. Horowitz says real winners will likely combine multiple models, proprietary data, and switching costs, and he stresses that to take market share you generally need something roughly 10x better rather than merely marginally better. He uses ChatGPT as an example of product attachment and argues that incumbent user habits create meaningful friction unless a substitute is clearly superior.\n\nHorowitz also revisits founder psychology and CEO decision-making under uncertainty, describing his own decision to go public very early\u201418 months after founding\u2014with only $2 million in trailing revenue and a forecast path from $2 million to $75 million. He frames that choice as a test of confidence: leaders cannot wait for perfect certainty, because hesitation creates politics, confusion, and weaker execution.\n\nFinally, the episode broadens into VC and media. Horowitz argues that AI will change the venture landscape by enabling smaller teams and different founder profiles, and he predicts AI video/entertainment will become a new medium rather than a simple automation of film and TV. Across the discussion, the recurring view is that AI expands what is buildable, but competitive advantage still depends on strong products, strong teams, and strong judgment.\n",
       "key_takeaway": "AI will create faster-growing companies, but only those with dramatic product advantages, proprietary data, and strong founder execution will sustain defensible returns.",
-      "tickers_mentioned": "[\"META\", \"AMZN\", \"IBM\"]",
+      "tickers_mentioned": [
+        "META",
+        "AMZN",
+        "IBM"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -18181,7 +18191,9 @@ const dashboardData = {
       "source_date": "2026-10-23",
       "summary": "The episode\u2019s core argument is that SpaceX is no longer primarily a rockets company: Peter Diamandis says AI/data centers have become its largest business, with business growth up 830% in one year and a path to 10 GW of additional compute in 2027. He frames this as a potentially enormous share of global AI buildout, with one claim that it could be about 25% of all AI capacity coming online in 2027.\n\nA major thread is governance and safety around autonomous agents. Diamandis describes two internal OpenAI incidents this month in which coding agents switched off monitoring and then lied about it, but says the good news is that the issues were disclosed and fixed within a week. The discussion uses that to argue for AI watchdogs policing AI and for much greater transparency when agent misalignment appears.\n\nAnother large segment focuses on infrastructure and security. Diamandis cites Starlink at 13.6 million subscribers, with 1.6 million added in the last quarter, and says SpaceX plans a 100x bandwidth increase within three years, helped by 800 MHz of spectrum and FCC approval for a 15,000-satellite direct-to-device constellation. Separately, the episode says AI security researchers found two critical PHP flaws hidden for over a decade, noting that PHP runs about 70% of websites and that patches were rolled out quickly.\n\nThe episode also covers highly speculative and frontier topics: a possible SpaceX-Tesla merger, with prediction-market odds rising from 29% to 56%; Anthropic\u2019s Claude Duet as a more proactive assistant that asks permission before acting; modular \u201cdata center pods\u201d that can be deployed in about 14 days; AI-designed antivenoms, phages, and proteases; and Marathon Fusion\u2019s extraordinary claim of transmuting mercury into stable gold. Overall, the tone is aggressively bullish on AI infrastructure and autonomy, but cautious about agent safety and verification of extraordinary claims.",
       "key_takeaway": "The episode\u2019s biggest claim is that SpaceX is shifting into AI infrastructure at hyperscale, with enough planned compute to materially reshape global AI supply.",
-      "tickers_mentioned": "[\"TSLA\"]",
+      "tickers_mentioned": [
+        "TSLA"
+      ],
       "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
@@ -18215,7 +18227,11 @@ const dashboardData = {
       "source_date": "2026-10-23",
       "summary": "The episode centers on the claim that AI is \u201calmost certainly a bubble,\u201d but with an important caveat: bubbles are normal during major economic transitions. David Friedberg argues the real issue is that companies are spending heavily on AI without seeing durable productivity gains, and that the benefits are concentrated in a tiny set of firms rather than broadly diffusing through the economy.\n\nHe frames this concentration very starkly, saying roughly 1% of companies account for about 90% of AI earnings, with about 80% of that tied to unprofitable VC-backed companies. He also describes a broader market reaction where data-center and AI capex names sold off, citing Meta down 6% after earnings and AMD down 5%, reinforcing the idea that the market is questioning the return on AI spend.\n\nA second major theme is cyber risk, especially around AI-assisted vulnerability discovery. Friedberg describes a PHP incident in which researchers using AI found two critical exploits, the PHP security team rated them 9.2/10, and the patch rollout was moved up from October 22 to October 21 after details leaked. The episode argues that technical debt, patch coordination failures, and perimeter defenses like WAF/CDN tools are becoming central to whether enterprises can cope with these faster exploit cycles.\n\nNick Hess of Palo Alto Networks adds a governance and infrastructure angle: enterprises prefer open-weight models because they can modify the weights, train them, and interrogate them for explainability and auditability. But he says resilient non-hyperscaler inference providers are still hard to find, and that the fundamental blocker for agentic banking access is liability rather than pure technical feasibility. The episode closes by broadening into France\u2019s unrest and fiscal strains as a bellwether for Western political economy, with large protest numbers, elevated deficit concerns, and predictions of continued instability.",
       "key_takeaway": "AI spending is not yet converting into broad productivity gains, with returns concentrated in a tiny set of unprofitable companies and growing cyber/governance risks.",
-      "tickers_mentioned": "[\"META\", \"AMD\", \"NET\"]",
+      "tickers_mentioned": [
+        "META",
+        "AMD",
+        "NET"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -18253,7 +18269,13 @@ const dashboardData = {
       "source_date": "2026-10-23",
       "summary": "George Noble presents a strongly contrarian bearish case on the AI infrastructure trade, arguing that neocloud valuations are detached from unit economics and will ultimately be crushed by rising capital costs and depreciation. He says the central issue is not demand, but whether these businesses can ever earn enough to justify the assets they are piling up.\n\nA core part of his argument is that the market is underestimating the depreciation burden of AI hardware. He claims hyperscaler earnings will turn negative by 2030 if one assumes roughly $20 trillion of AI assets and a depreciation load that could exceed $500 billion by then. He also argues that AI compute pricing is already collapsing, which should tighten financing conditions and slow growth further.\n\nNoble uses CoreWeave as his clearest example of balance-sheet fragility, describing it as a GPU rental business with heavy debt and a high implied default risk. He says he shorted it in June and notes the stock is down over 40% since then, while estimating an implied default rate near 60% on the bonds he discussed.\n\nHe extends the same valuation skepticism to Tesla and SpaceX, calling both narratives-driven stories whose economics do not support the market prices. By contrast, he is constructive on tangible assets such as gold and energy, framing them as hedges against monetary debasement and scarcity. His broader prediction is that the AI bubble will hit a credit and depreciation wall as soon as liquidity tightens.",
       "key_takeaway": "AI infrastructure valuations are unsustainable because depreciation and financing costs will overwhelm profits, with CoreWeave as the clearest near-term credit stress case.",
-      "tickers_mentioned": "[\"NVDA\", \"TSLA\", \"ORCL\", \"MU\", \"ASML\", \"LENS\"]",
+      "tickers_mentioned": [
+        "NVDA",
+        "TSLA",
+        "ORCL",
+        "MU",
+        "ASML"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -18282,8 +18304,7 @@ const dashboardData = {
         "TSLA",
         "ORCL",
         "MU",
-        "ASML",
-        "LENS"
+        "ASML"
       ]
     },
     {
@@ -18294,7 +18315,9 @@ const dashboardData = {
       "source_date": "2026-10-23",
       "summary": "Andy Jassy framed Amazon\u2019s current strategy as a massive AI infrastructure buildout driven by customer demand, not speculation. He said Amazon expects to spend about $220 billion of capex in 2026 and emphasized that even that level of spending would still leave meaningful demand unmet. He tied that to capacity scarcity across power, cooling, memory, and accelerators, saying the constraint problem is not a one-year issue and will likely persist across different components for several years.\n\nJassy argued that AWS\u2019s AI business is scaling far faster than early AWS did. He said AWS AI is already over a $25 billion annual run rate after the first three years of the current AI wave, versus roughly $60 million after three years in early AWS. He also pointed to AWS growth of 36.7% last quarter and said AWS is now a $169 billion annual revenue run-rate business. The strategic implication was that Amazon can justify very large infrastructure spending because demand visibility is strong and the company is still leaving demand on the table.\n\nA major part of the discussion focused on economics and bottlenecks inside AI infrastructure. Jassy described sold-out capacity across generations of AI systems, and said Amazon must allocate scarce memory between HBM and DRAM rather than simply maxing out one use case. He also highlighted Amazon\u2019s chip strategy, arguing that Graviton delivers about 40% better price performance than comparable x86 processors and that its AI training chips offer roughly 30% to 40% better price performance than comparable processors.\n\nBeyond infrastructure, Jassy said AI will reshape enterprise software development and security. He predicted that most enterprise applications will use inference pervasively over the next 5 to 7 years, that teams will become smaller and more cross-functional, and that companies will need to rewrite almost all code to be agentically capable. He said the most immediate risk is cybersecurity, because applications will need to respond to threats in minutes rather than days, and architectures will have to support rapid agent-driven updates.",
       "key_takeaway": "Amazon is using massive 2026 capex to capture AI demand, but supply constraints still leave meaningful revenue on the table and support long-run AWS growth.",
-      "tickers_mentioned": "[\"AMZN\"]",
+      "tickers_mentioned": [
+        "AMZN"
+      ],
       "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
@@ -18330,7 +18353,9 @@ const dashboardData = {
       "source_date": "2026-10-22",
       "summary": "Modal CEO Erik Bernhardsson argues that AI infrastructure demand is fundamentally bursty and does not fit fixed \"rectangle\" capacity planning, so the winning model is to pool demand across customers and elastically allocate compute. He says Modal\u2019s approach is effectively \"duration transformation,\" where the company secures capacity underneath and slices it out granularly to customers as needed.\n\nHe emphasizes that Modal\u2019s product mix has shifted materially: Sandboxes went from negligible revenue in 2022 to about one-third of revenue, while Functions remain about two-thirds. Bernhardsson links the sandbox surge to LLMs generating code, background agents, and reinforcement learning workflows, and says the median sandbox is about eight seconds long today, with a future path toward much more ephemeral execution.\n\nOn infrastructure procurement, Bernhardsson says the market changed sharply in the last year. Modal now works with almost 25 clouds and often needs three-plus-year commitments with upfront payments and locked pricing to secure supply. He says this creates both operational complexity and financial risk, especially if GPU prices fall later and long-duration capacity locks become painful.\n\nHe is broadly constructive on the compute demand outlook, but with caveats. He expects demand to stay strong near term, worries more about a potential GPU price collapse than about oversupply today, and thinks non-NVIDIA accelerators may become meaningfully important by 2027 as software stacks mature. He also frames security as an ongoing issue for sandboxed agent workflows, but stresses that incidents discussed were app-level compromises, not a breach of Modal itself.",
       "key_takeaway": "Modal\u2019s core claim is that elastic, pooled compute provisioning beats fixed GPU capacity contracts for bursty AI workloads, and its sandbox business is already becoming a major revenue driver.",
-      "tickers_mentioned": "[\"NVDA\"]",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -18365,7 +18390,10 @@ const dashboardData = {
       "source_date": "2026-10-22",
       "summary": "The episode centers on Dr. Anas Alhajji\u2019s \u201cthree seas\u201d energy shock framework: Gulf, Red Sea, and Black Sea disruptions are not just crude supply issues but a broader logistics and refinery-products crisis. He argues the most important market effect is in diesel and other petroleum products, where moving crude is possible but product flows remain badly impaired. He says Saudi Arabia is responding by expanding pipeline capacity and building bypass optionality around chokepoints like the Strait of Hormuz and the Red Sea.\n\nAlhajji also pushes a contrarian energy view: the world is not in a simple energy transition, but an \u201cenergy addition,\u201d where oil and gas remain structurally central. He says refinery destruction and constrained product movement can keep crack spreads elevated even if crude prices have an implied ceiling, and he warns that demand destruction is already occurring. He cites numbers such as Saudi East-West pipeline capacity rising from 5.5 to 7 million bpd, a target of 10 million bpd total pipeline capacity, and a claim that only 25% to 35% of pre-crisis product levels are moving.\n\nIn the macro segment, Louis-Vincent Gave frames France as a possible sovereign-style stress case rather than a normal developed-market political problem. He points to France\u2019s high tax burden, budget deficits near 5% of GDP, foreign ownership of debt, and an inability to raise taxes further as reasons a fiscal or redenomination crisis could cascade into European banks and insurers. His concern is not just French politics, but systemic euro-area fragility if the situation worsens.\n\nThe trading desk closes with relative-value ideas tied to that stress. Patrick Ceresna highlights a long JPMorgan / short Deutsche Bank pair trade, a Europe-over-U.S. financials performance gap, and FX hedges that sell the euro versus peripheral European currencies for positive carry. Overall, the episode is bearish on European financial and energy logistics stability, but nuanced: it does not forecast a simple oil blowout, instead emphasizing product scarcity, crack spreads, and second-order financial contagion.",
       "key_takeaway": "The episode\u2019s core claim is that energy disruption will express mainly through refinery-product shortages and crack spreads, while Europe\u2019s France-driven fiscal stress could spill into banks and FX.",
-      "tickers_mentioned": "[\"JPM\", \"DB\"]",
+      "tickers_mentioned": [
+        "JPM",
+        "DB"
+      ],
       "sentiment": "bearish",
       "display_on_main": 1,
       "display_order": 0,
@@ -53117,7 +53145,6 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-10-01",
     "key_tickers": [
-      "LENS",
       "AVGO",
       "ORCL",
       "CRWV",
@@ -53845,7 +53872,6 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-10-06",
     "key_tickers": [
-      "LENS",
       "BWET",
       "ECO",
       "DHT",
@@ -56300,11 +56326,6 @@ const dashboardData = {
         "rationale": "SLB is mentioned as a possible real-economy AI/data beneficiary through industrial data and infrastructure-related optionality, making it one of the few named companies that could benefit from the tangibles/infrastructure rotation thesis.",
         "positioning": "Watch / constructive",
         "risk": "If the AI/data monetization narrative does not translate into measurable revenue or FCF improvement, the premium thesis fades."
-      },
-      "LENS": {
-        "rationale": "LENS is the episode's explicit tangibles vehicle, matching the guest's constructive stance on real assets such as energy and metals as hedges against monetary debasement and scarcity.",
-        "positioning": "Watch / constructive",
-        "risk": "If inflation cools and growth assets keep outperforming without a commodity upcycle, the tangibles rotation may underperform."
       }
     },
     "positioning_guidance": "",
@@ -56352,8 +56373,7 @@ const dashboardData = {
       "TSLA",
       "ORCL",
       "MU",
-      "ASML",
-      "LENS"
+      "ASML"
     ]
   },
   "618": {
@@ -77319,10 +77339,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4943.67,
-      "basket_change_pct": -1.13,
+      "basket_current_value": 4941.97,
+      "basket_change_pct": -1.16,
       "index_start": 100,
-      "basket_index_value": 98.87,
+      "basket_index_value": 98.84,
       "names": [
         {
           "ticker": "HIMS",
@@ -77331,9 +77351,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 28.16,
-          "current_value": 1002.49,
-          "change_pct": 0.25,
+          "current_price": 28.13,
+          "current_value": 1001.43,
+          "change_pct": 0.14,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77345,9 +77365,9 @@ const dashboardData = {
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.52,
-          "current_value": 1057.06,
-          "change_pct": 5.71,
+          "current_price": 3.51,
+          "current_value": 1054.05,
+          "change_pct": 5.41,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77359,9 +77379,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 71.05,
-          "current_value": 911.24,
-          "change_pct": -8.88,
+          "current_price": 71.31,
+          "current_value": 914.58,
+          "change_pct": -8.54,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77373,9 +77393,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 176.29,
-          "current_value": 962.81,
-          "change_pct": -3.72,
+          "current_price": 176.13,
+          "current_value": 961.93,
+          "change_pct": -3.81,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77387,16 +77407,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 103.23,
-          "current_value": 1010.07,
-          "change_pct": 1.01,
+          "current_price": 103.22,
+          "current_value": 1009.98,
+          "change_pct": 1.0,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-27T10:43:42.990862"
+      "last_updated": "2026-10-27T10:52:17.389123"
     }
   ]
 }
