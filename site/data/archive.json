@@ -50,10 +50,6 @@
       "notable_quotes": [
         {
           "speaker": "James Sun",
-          "quote": "One is it is a little bit faster on average because it uses fewer thinking tokens to do the same task."
-        },
-        {
-          "speaker": "James Sun",
           "quote": "If you look at the system card for it, it is much better at being resistant to prompt injection, it's much better at not taking any kind of unintended actions."
         }
       ]
@@ -64,7 +60,7 @@
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-10-26",
-      "summary": "Ian Quigley described Leash Bio's core idea as a pre-measured, counterfactually dense screening landscape where language-model agents can explore a fixed catalog of molecules under a limited experimental budget. The flagship use case is a structure-activity relationship task focused on maximizing binding to a target protein, with the agent limited to about 100 molecules and evaluated against the full measured landscape.\n\nA major point was scale: because the environment is already measured, Leash has been able to run about 90,000 rollouts and inspect how agents make decisions, not just whether they eventually find good molecules. Quigley said this lets them interrogate scientific reasoning, including whether a model recognizes unproductive regions and abandons them quickly rather than repeatedly sampling weak neighborhoods.\n\nHe also highlighted a capability gradient across models: better models do not merely jump around more, but \"abandon the lousy places fast,\" implying some level of improved inference about where not to search. Leash has screened roughly 1,000 proteins against a couple of chemical libraries and is aiming to expand to roughly 20-27 environments, currently producing about two environments per day.\n\nThe episode also covered a technical detour into SMILES understanding. Quigley said Leash had to do supervised fine-tuning because frontier models were not initially good at converting or understanding SMILES, especially non-canonical forms, though by around February the models started to work meaningfully with chemistry. The longer-term thesis is that this amortized lab-in-the-loop framework can generalize to other biological and scientific questions, with a pre-print, dataset, harbor packages, and many thousands of transcripts planned for release.",
+      "summary": "Ian Quigley described Leash Bio's core idea as a pre-measured, counterfactually dense screening landscape where language-model agents can explore a fixed catalog of molecules under a limited experimental budget. The flagship use case is a structure-activity relationship task focused on maximizing binding to a target protein, with the agent limited to about 100 molecules and evaluated against the full measured landscape.\n\nA major point was scale: because the environment is already measured, Leash has been able to run about 90,000 rollouts and inspect how agents make decisions, not just whether they eventually find good molecules. Quigley said this lets them interrogate scientific reasoning, including whether a model recognizes unproductive regions and abandons them quickly rather than repeatedly sampling weak neighborhoods.\n\nLeash has screened roughly 1,000 proteins against a couple of chemical libraries and is aiming to expand to roughly 20-27 environments, currently producing about two environments per day.\n\nThe episode also covered a technical detour into SMILES understanding. Quigley said Leash had to do supervised fine-tuning because frontier models were not initially good at converting or understanding SMILES, especially non-canonical forms, though by around February the models started to work meaningfully with chemistry. The longer-term thesis is that this amortized lab-in-the-loop framework can generalize to other biological and scientific questions, with a pre-print, dataset, harbor packages, and many thousands of transcripts planned for release.",
       "key_takeaway": "Leash Bio's key claim is that fully measured molecular environments can benchmark and improve AI agents' scientific decision-making at scale, not just their final optimization results.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -163,8 +159,7 @@
       "tickers_mentioned": [
         "CRL",
         "META",
-        "GOOGL",
-        "LENS"
+        "GOOGL"
       ],
       "sentiment": "bullish",
       "display_on_main": 1,
