@@ -127,8 +127,7 @@
       "TSLA",
       "ORCL",
       "MU",
-      "ASML",
-      "LENS"
+      "ASML"
     ]
   },
   {
@@ -1073,7 +1072,6 @@
     ],
     "investment_thesis": "J Mintzmyer argues dry bulk, not tankers, has the stronger setup because Capesize rates near $40,000 to $50,000 per day meet restrained supply and longer Guinea-to-China ton miles.",
     "key_tickers": [
-      "LENS",
       "BWET",
       "ECO",
       "DHT",
@@ -1319,7 +1317,6 @@
     ],
     "investment_thesis": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
     "key_tickers": [
-      "LENS",
       "AVGO",
       "ORCL",
       "CRWV",
