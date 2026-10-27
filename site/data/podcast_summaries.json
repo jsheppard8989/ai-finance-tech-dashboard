@@ -1,5 +1,41 @@
 [
   {
+    "id": 615,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
+    "episode_date": "2026-10-27",
+    "summary": "The episode argues that AI, especially LLMs combined with modern learning science, can fundamentally redesign schooling rather than merely adding software to old classrooms. Joel Amond says Alpha School uses a learning engine to teach kids dramatically faster, claiming students learn twice as much in two hours a day as in a traditional six-hour school day plus homework, while also keeping engagement high.\n\nA central theme is that motivation matters as much as academic delivery. Amond cites internal survey data saying 90% of Alpha students say they love school and 50% would rather attend school than go on vacation, with one campus at 65%. He argues that edtech fails if inserted into a normal school day, and that the entire structure must be rebuilt around agency, rigor, and enjoyable learning.\n\nThe episode also expands the thesis to life skills and entrepreneurship. Alpha is described as using simulations, transcript analysis, and benchmarks like the Wharton MBA challenge to measure teamwork and communication, with an 85% pass threshold in some tasks. Founder School is presented as a high-school entrepreneurship program with a guarantee: students will earn $1 million in profit during high school or receive tuition back.\n\nBeyond K-12, Gagan Biyani argues university needs a similar reinvention through AJA/Horowitz & Dresden Academy, with more student-driven building and less passive lecture time. The conversation repeatedly returns to the prediction that AI-native learners will increasingly build the learning tools themselves, and that education will shift from preparing for fixed careers to enabling students to create what comes next.",
+    "key_takeaways": [
+      "Joel Amond said LLMs plus learning science can build a learning engine that teaches kids 10 times faster than the teacher-in-classroom model.",
+      "Joel Amond reported that 90% of Alpha students say, \"I love school,\" and 50% would rather go to school than go on vacation.",
+      "Joel Amond claimed Alpha students learn twice as much in two hours a day as in a traditional school day with homework.",
+      "Joel Amond said Alpha's model fails if it is treated as normal edtech inserted into a conventional school day.",
+      "Joel Amond said Alpha measures life skills like teamwork and communication with simulations and AI transcript analysis, using an 85% pass threshold in some cases.",
+      "Gagan Biyani said university needs to be reinvented just like K-12, with more student-driven building and less lecture-centric instruction.",
+      "Joel Amond predicted most learning software will be written by students and learned from peer-created software."
+    ],
+    "investment_thesis": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
+    "key_tickers": null
+  },
+  {
+    "id": 614,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\u26a1 An Eval for AI Scientists That Knows the Answer Key - Ian Quigley, Leash Bio",
+    "episode_date": "2026-10-26",
+    "summary": "Ian Quigley described Leash Bio's core idea as a pre-measured, counterfactually dense screening landscape where language-model agents can explore a fixed catalog of molecules under a limited experimental budget. The flagship use case is a structure-activity relationship task focused on maximizing binding to a target protein, with the agent limited to about 100 molecules and evaluated against the full measured landscape.\n\nA major point was scale: because the environment is already measured, Leash has been able to run about 90,000 rollouts and inspect how agents make decisions, not just whether they eventually find good molecules. Quigley said this lets them interrogate scientific reasoning, including whether a model recognizes unproductive regions and abandons them quickly rather than repeatedly sampling weak neighborhoods.\n\nHe also highlighted a capability gradient across models: better models do not merely jump around more, but \"abandon the lousy places fast,\" implying some level of improved inference about where not to search. Leash has screened roughly 1,000 proteins against a couple of chemical libraries and is aiming to expand to roughly 20-27 environments, currently producing about two environments per day.\n\nThe episode also covered a technical detour into SMILES understanding. Quigley said Leash had to do supervised fine-tuning because frontier models were not initially good at converting or understanding SMILES, especially non-canonical forms, though by around February the models started to work meaningfully with chemistry. The longer-term thesis is that this amortized lab-in-the-loop framework can generalize to other biological and scientific questions, with a pre-print, dataset, harbor packages, and many thousands of transcripts planned for release.",
+    "key_takeaways": [
+      "Ian Quigley said Leash's agents operate in a pre-measured molecular landscape with a limited budget, using a catalog of molecules rather than generating arbitrary new ones.",
+      "Ian Quigley said the flagship task is a structure-activity relationship problem aimed at improving binding, with an example budget of 100 molecules.",
+      "Ian Quigley said Leash is already up to about 90,000 rollouts, which makes the environment large enough to study agent behavior at scale.",
+      "Ian Quigley argued the full measured landscape lets them evaluate scientific decision quality, including whether an agent recognizes and exits weak regions quickly.",
+      "Ian Quigley said stronger models \"abandon the lousy places fast,\" suggesting capability shows up as faster rejection of unproductive search neighborhoods.",
+      "Ian Quigley said Leash had to supervised-fine-tune models for SMILES understanding because existing frontier models were not initially good enough.",
+      "Ian Quigley said the team is aiming to release pre-print materials, datasets, harbor packages, and many thousands of transcripts for external use."
+    ],
+    "investment_thesis": "Leash Bio's key claim is that fully measured molecular environments can benchmark and improve AI agents' scientific decision-making at scale, not just their final optimization results.",
+    "key_tickers": null
+  },
+  {
     "id": 612,
     "podcast_name": "The a16z Show",
     "episode_title": "OpenAI: When AI Agents Use Computers Faster Than You",
