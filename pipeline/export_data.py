@@ -269,6 +269,7 @@ def _apply_summary_overrides(obj):
       Optional 'drop_tickers' removes symbols from tickers_mentioned / key_tickers.
       Optional 'rename_tickers' renames symbols in those fields and ticker_analysis keys.
       Optional 'add_key_tickers' appends missing symbols to key_tickers (idempotent).
+      Optional 'drop_takeaways' removes key_takeaways entries containing any needle.
       Optional 'paraphrase_quotes' [[needle, summary]] turns a paraphrased notable quote into a
       summary line (quote=summary, paraphrase=True; shown without quote marks).
     - 'global_replacements': exact swaps applied to every string anywhere (except title
@@ -300,6 +301,10 @@ def _apply_summary_overrides(obj):
             o["key_tickers"] = _add_key_tickers(o["key_tickers"], r["add_key_tickers"])
         if r.get("drop_quotes") and "notable_quotes" in o:
             o["notable_quotes"] = _drop_quotes(o["notable_quotes"], r["drop_quotes"])
+        # Oct 27 2026: 'drop_takeaways' [needle] removes key_takeaways entries containing a needle
+        # (list or JSON string), e.g. a takeaway that re-quotes a garbled transcript line.
+        if r.get("drop_takeaways") and "key_takeaways" in o:
+            o["key_takeaways"] = _drop_quotes(o["key_takeaways"], r["drop_takeaways"])
         # Oct 23 2026 (c21): a "quote" that is really a paraphrase becomes a summary line
         # (rendered without quote marks or a "Speaker:" label).
         if r.get("paraphrase_quotes") and "notable_quotes" in o:
