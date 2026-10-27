@@ -529,12 +529,15 @@
     {
       "insight_id": 560,
       "podcast_episode_id": 544,
-      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: card 560 quote transcript spelling",
+      "_note": "Oct 20 2026 G(ai)ndolf whole-site sweep: card 560 quote transcript spelling. Oct 27 2026 follow-up 3 (G, sweep_1027): LENS dropped (tickers, key_tickers, deep-dive ticker_analysis); transcript EWWMN7492626059 (the one other 'lens' is the common noun: \"their lens\") mentions LENS only inside the Sarmaya Partners sponsor reads (intro, mid-roll, outro), same treatment as 622.",
       "replacements": [
         [
           "Open AI",
           "OpenAI"
         ]
+      ],
+      "drop_tickers": [
+        "LENS"
       ]
     },
     {
@@ -1300,6 +1303,22 @@
           "Multigress",
           "Multigres"
         ]
+      ]
+    },
+    {
+      "insight_id": 617,
+      "podcast_episode_id": 608,
+      "_note": "Oct 27 2026 follow-up 3 (G, sweep_1027): LENS dropped (tickers, key_tickers, deep-dive ticker_analysis); transcript EWWMN8441462003 mentions LENS only inside the Sarmaya Partners sponsor reads (intro, mid-roll, outro), same treatment as 622. Replaces the earlier 'card 617 keeps LENS' call, which was not checked against the transcript.",
+      "drop_tickers": [
+        "LENS"
+      ]
+    },
+    {
+      "insight_id": 569,
+      "podcast_episode_id": 559,
+      "_note": "Oct 27 2026 follow-up 3 (G, sweep_1027): LENS dropped (tickers, key_tickers, deep-dive ticker_analysis); transcript EWWMN9066022330 mentions LENS only inside the Sarmaya Partners sponsor reads (intro, mid-roll, outro), same treatment as 622.",
+      "drop_tickers": [
+        "LENS"
       ]
     }
   ],

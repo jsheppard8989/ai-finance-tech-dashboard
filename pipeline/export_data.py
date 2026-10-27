@@ -149,6 +149,44 @@ def _drop_ticker_analysis(value, drop):
     return value
 
 
+def _normalize_tickers_mentioned(obj):
+    """Oct 27 2026: every exported insight's tickers_mentioned is a real list.
+
+    mainContent insights came out of the DB as a JSON string ('["NVDA", ...]') while archive
+    insights were parsed, so the same card had two shapes in data.js. Parse JSON-string values
+    (non-JSON strings split on commas; blank -> []). In place; idempotent. Returns the count fixed.
+    """
+    fixed = 0
+
+    def norm(v):
+        if not isinstance(v, str):
+            return v
+        s = v.strip()
+        if not s:
+            return []
+        try:
+            parsed = json.loads(s)
+        except Exception:
+            parsed = None
+        if isinstance(parsed, list):
+            return parsed
+        return [t.strip() for t in s.split(",") if t.strip()]
+
+    def walk(o):
+        nonlocal fixed
+        if isinstance(o, dict):
+            if isinstance(o.get("tickers_mentioned"), str):
+                o["tickers_mentioned"] = norm(o["tickers_mentioned"])
+                fixed += 1
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(obj)
+    return fixed
+
+
 def _rename_map(renames):
     """Build old->new map; keys compared case-insensitively on apply."""
     out = {}
@@ -867,6 +905,7 @@ def _apply_summary_overrides_to_files(site_dir: Path) -> None:
             # overton-scoped term rules data.js gets (speaker fixes, drops).
             _apply_overton_term_overrides(data)
         _apply_summary_overrides(data)
+        _normalize_tickers_mentioned(data)  # Oct 27 2026: lists, never JSON strings
         apply_style_gate(data)  # warn-only 'bet' wording check
         if json.dumps(data) != before:
             with open(f, "w") as fh:
@@ -1894,6 +1933,9 @@ def generate_website_js():
                                             if r.get("scope", "suggested") == "suggested"])
     _apply_overton_term_overrides(main_content)
     _apply_overton_term_overrides(archive)
+    # Oct 27 2026: mainContent insights carried tickers_mentioned as a JSON string; export lists.
+    for _part in (archive, main_content, deepdives):
+        _normalize_tickers_mentioned(_part)
     _drop_terms_pinned_as_curated(suggested_terms)
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
