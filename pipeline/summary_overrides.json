@@ -1320,6 +1320,14 @@
       "drop_tickers": [
         "LENS"
       ]
+    },
+    {
+      "insight_id": 600,
+      "podcast_episode_id": 589,
+      "_note": "Oct 27 2026 follow-up 4 (G approved, sweep_1027): LENS dropped from deep-dive 600 ticker_analysis (and any ticker list); transcript EWWMN4804318594 (Jim Bianco) mentions LENS only inside the Sarmaya Partners sponsor reads (intro, mid-roll, outro), same treatment as 617/560/569/622.",
+      "drop_tickers": [
+        "LENS"
+      ]
     }
   ],
   "terms": [
