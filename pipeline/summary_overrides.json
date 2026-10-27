@@ -6622,6 +6622,14 @@
           "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software."
         ]
       ]
+    },
+    {
+      "id": 81,
+      "_note": "Oct 26 2026 routine quote fix (sweep_1023_full c8): Elon Musk's last_proof_snippet was the garbled All-In host intro ('...Yeah, five years went by so quickly with us today. David Sacks is back.'), not Musk's words. Unset the snippet and its cite (the cite would otherwise render alone under the evidence block).",
+      "unset": [
+        "last_proof_snippet",
+        "last_proof_cite"
+      ]
     }
   ],
   "pundit_merges": [

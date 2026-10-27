@@ -58,7 +58,8 @@ def test_single_override_pass_fixes_both_names():
     _assert_clean(json.dumps(pundits))
     assert "Goehring & Rozencwajg" in by_id[168]["bio"]
     assert by_id[168]["pundit_profile"]["derived"]["current_role"] == "Co-founder, Goehring & Rozencwajg"
-    assert by_id[81]["last_proof_snippet"].endswith("David Sacks is back.")
+    # Oct 26 2026 quote fix: Musk's snippet was the All-In host intro, so it is unset (with its cite).
+    assert "last_proof_snippet" not in by_id[81] and "last_proof_cite" not in by_id[81]
     # The hand-written cut for Calacanis (written against the raw 'David Sachs' text) still fires.
     assert not by_id[522]["last_proof_snippet"]
 
