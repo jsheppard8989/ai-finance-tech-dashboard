@@ -28,7 +28,6 @@
       "Ian Quigley said the flagship task is a structure-activity relationship problem aimed at improving binding, with an example budget of 100 molecules.",
       "Ian Quigley said Leash is already up to about 90,000 rollouts, which makes the environment large enough to study agent behavior at scale.",
       "Ian Quigley argued the full measured landscape lets them evaluate scientific decision quality, including whether an agent recognizes and exits weak regions quickly.",
-      "Ian Quigley said stronger models \"abandon the lousy places fast,\" suggesting capability shows up as faster rejection of unproductive search neighborhoods.",
       "Ian Quigley said Leash had to supervised-fine-tune models for SMILES understanding because existing frontier models were not initially good enough.",
       "Ian Quigley said the team is aiming to release pre-print materials, datasets, harbor packages, and many thousands of transcripts for external use."
     ],
