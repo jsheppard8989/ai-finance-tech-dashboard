@@ -7,7 +7,7 @@ import json
 
 import export_data
 
-TARGETS = [(617, 608), (560, 544), (569, 559)]
+TARGETS = [(617, 608), (560, 544), (569, 559), (600, 589)]  # 600: follow-up 4 (Jim Bianco)
 
 
 def _payload():
@@ -68,3 +68,15 @@ def test_normalize_tickers_mentioned():
     got = [i["tickers_mentioned"] for i in data["mainContent"]["insights"]]
     assert got == [["NVDA", "TSLA"], [], [], ["AAPL", "MSFT"], ["META"], None]
     assert export_data._normalize_tickers_mentioned(data) == 0
+
+
+def test_deep_dive_600_lens_analysis_dropped_keeps_wtbn():
+    """Follow-up 4: deep dive 600 had LENS only in ticker_analysis (key_tickers is WTBN)."""
+    data = {"deepDives": {"600": {"id": 600, "insight_id": 600, "podcast_episode_id": 589, "insight_title": "Bianco",
+                                  "key_tickers": ["WTBN"],
+                                  "ticker_analysis": {"WTBN": {"rationale": "a"}, "LENS": {"rationale": "b"}}}},
+            "priceSnapshot": {"LENS": {"price": 1.0}}}
+    export_data._apply_summary_overrides(data)
+    dd = data["deepDives"]["600"]
+    assert dd["key_tickers"] == ["WTBN"] and list(dd["ticker_analysis"]) == ["WTBN"]
+    assert "LENS" in data["priceSnapshot"]  # price data untouched
