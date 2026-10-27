@@ -65,7 +65,7 @@ def test_confirmed_guests_pinned_and_renamed():
     assert is_confirmed_guest_appearance("Adam Pervene", "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market")
     assert is_confirmed_guest_appearance("eden ha", "Why Video Agent models are next — Ethan He, xAI Grok Imagine")
     assert not is_confirmed_guest_appearance("Bill Gross", "Chamath: AGI Is Here")
-    assert len(CONFIRMED_GUEST_APPEARANCES) == 9
+    assert len(CONFIRMED_GUEST_APPEARANCES) == 10  # Oct 27 2026: + Joel Amond (Joe Liemandt, id-keyed rename)
     rules = json.loads((Path(__file__).resolve().parent / "summary_overrides.json").read_text())
     reps = dict(map(tuple, rules["global_name_replacements"]))
     for old, new in [("Adam Pervene", "Adam Foroughi"), ("Eden Ha", "Ethan He"), ("DJ Smith", "Feross Aboukhadijeh"),

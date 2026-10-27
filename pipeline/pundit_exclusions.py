@@ -94,6 +94,8 @@ CONFIRMED_GUEST_APPEARANCES: FrozenSet[tuple] = frozenset(
         ("Joel Deligarza", "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket"),
         ("Peter Ludwig", "Why Physical AI Is the Next Frontier | Applied Intuition"),
         ("Jeff Wu", "Jake Paul & Anti Fund: From Creator to Investor"),
+        # Oct 27 2026: ASR "Joel Amond" = Joe Liemandt (entity 582); display name fixed by pundit_overrides id 582.
+        ("Joel Amond", "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg"),
     }
 )
 

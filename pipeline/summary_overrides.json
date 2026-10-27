@@ -1233,7 +1233,7 @@
     {
       "podcast_episode_id": 611,
       "insight_id": 622,
-      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #11 and #19: ASR 'Satrini' is Citrini (episode title); garbled quote #3 removed (not reworded).",
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #11 and #19: ASR 'Satrini' is Citrini (episode title); garbled quote #3 removed (not reworded). Oct 27 2026 follow-up (G, sweep_1027): LENS dropped (ticker + deep-dive ticker_analysis); it appears only in the Sarmaya Partners sponsor reads, same treatment as 'Return to Tangibles'.",
       "replacements": [
         [
           "Satrini",
@@ -1242,22 +1242,36 @@
       ],
       "drop_quotes": [
         "If you're relying on the combined lab AR to be $500 billion"
+      ],
+      "drop_tickers": [
+        "LENS"
       ]
     },
     {
       "podcast_episode_id": 612,
       "insight_id": 623,
-      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #17: garbled transcript quote #3 removed (not reworded).",
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #17: garbled transcript quote #3 removed (not reworded). Oct 27 2026 follow-up (G, sweep_1027): quote #1 ('fewer thinking tokens') removed; likely Ari Weinstein's answer, not James Sun's.",
       "drop_quotes": [
-        "One is, we run a business model is not in line with having agents use a product"
+        "One is, we run a business model is not in line with having agents use a product",
+        "uses fewer thinking tokens to do the same task"
       ]
     },
     {
       "podcast_episode_id": 614,
       "insight_id": 624,
-      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #18: garbled transcript quote #3 removed (not reworded).",
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #18: garbled transcript quote #3 removed (not reworded). Oct 27 2026 follow-up (G, sweep_1027): the same garbled line cut from the card summary and deepDive 624 episode_evidence.",
       "drop_quotes": [
         "But they especially abandon the lousy places fast."
+      ],
+      "replacements": [
+        [
+          "He also highlighted a capability gradient across models: better models do not merely jump around more, but \"abandon the lousy places fast,\" implying some level of improved inference about where not to search. ",
+          ""
+        ],
+        [
+          "Ian Quigley: But they especially abandon the lousy places fast. And then",
+          "Ian Quigley: And then"
+        ]
       ]
     },
     {
@@ -6869,13 +6883,14 @@
     },
     {
       "id": 580,
-      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) hand-check: James Sun's snippet is the unlabeled cold-open clip; the transcript does not show whether James Sun or Ari Weinstein said it, so unset snippet + cite. Gated to the episode.",
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) hand-check: James Sun's snippet is the unlabeled cold-open clip; the transcript does not show whether James Sun or Ari Weinstein said it, so unset snippet + cite. Gated to the episode. Oct 27 2026 follow-up (G, sweep_1027): takeaway blanked too (the 'fewer thinking tokens' answer looks like Ari Weinstein's).",
       "when": {
         "last_episode_title": "OpenAI: When AI Agents Use Computers Faster Than You"
       },
       "unset": [
         "last_proof_snippet",
-        "last_proof_cite"
+        "last_proof_cite",
+        "supporting_takeaway"
       ]
     },
     {
@@ -6884,6 +6899,24 @@
       "unset": [
         "last_proof_snippet",
         "last_proof_cite"
+      ]
+    },
+    {
+      "id": 582,
+      "_note": "Oct 27 2026 follow-up (G, sweep_1027): DB entity 582 is ASR 'Joel Amond' = Joe Liemandt (episode title names him). Id-keyed name/slug fix plus whole-word swaps on every text field of the row (takeaway etc.); DB not edited. Pairs with CONFIRMED_GUEST_APPEARANCES in pundit_exclusions.py.",
+      "set": {
+        "name": "Joe Liemandt",
+        "slug": "joe-liemandt"
+      },
+      "replacements": [
+        [
+          "Joel Amond",
+          "Joe Liemandt"
+        ],
+        [
+          "Amond",
+          "Liemandt"
+        ]
       ]
     }
   ],
