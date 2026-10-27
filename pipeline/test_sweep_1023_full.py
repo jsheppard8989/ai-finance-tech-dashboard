@@ -36,9 +36,12 @@ def test_proof_quotes_replaced_and_musk_untouched():
     assert new[96]["last_proof_snippet"].startswith("You can't separate capability")
     assert "joined OpenRouter's Alex Atallah" in new[180]["last_main_idea"]
     musk = [i for i, p in new.items() if "Musk" in (p.get("name") or "")]
-    for n in musk:  # G: leave Musk's guest count and quote alone
+    for n in musk:  # G: leave Musk's guest count alone
         assert new[n].get("mention_score") == old[n].get("mention_score")
-        assert new[n].get("last_proof_snippet") == old[n].get("last_proof_snippet")
+        if n == 81:  # Oct 26 2026 quote fix: the All-In host intro is unset, not Musk's words
+            assert "last_proof_snippet" not in new[n]
+        else:
+            assert new[n].get("last_proof_snippet") == old[n].get("last_proof_snippet")
 
 
 def test_proof_quotes_are_verbatim_from_source():

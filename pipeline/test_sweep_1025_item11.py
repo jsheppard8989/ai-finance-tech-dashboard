@@ -33,7 +33,7 @@ def test_export_rerun_has_no_cut_off_snippets():
     export_data._apply_summary_overrides(pund)
     after = [p["id"] for p in pund if (p.get("last_proof_snippet") or "").strip()
              and not ENDS.search(p["last_proof_snippet"].strip())]
-    assert after == [81]  # Musk's quote is left alone (Oct 23 decision, test_sweep_1023_full)
+    assert after == []  # Musk's (#81) garbled host-intro snippet is unset (Oct 26 2026 quote fix)
 
 
 def test_fixes_are_verbatim_and_match_the_site_files():
