@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-27T10:29:15.418709",
+  generatedAt: "2026-10-27T10:38:16.203606",
   chartsVersion: "2026-10-27T07:14:43.933410",
   priceSnapshot: {
   "AAPL": {
@@ -1334,10 +1334,6 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "James Sun",
-          "quote": "One is it is a little bit faster on average because it uses fewer thinking tokens to do the same task."
-        },
-        {
-          "speaker": "James Sun",
           "quote": "If you look at the system card for it, it is much better at being resistant to prompt injection, it's much better at not taking any kind of unintended actions."
         }
       ]
@@ -1348,7 +1344,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-10-26",
-      "summary": "Ian Quigley described Leash Bio's core idea as a pre-measured, counterfactually dense screening landscape where language-model agents can explore a fixed catalog of molecules under a limited experimental budget. The flagship use case is a structure-activity relationship task focused on maximizing binding to a target protein, with the agent limited to about 100 molecules and evaluated against the full measured landscape.\n\nA major point was scale: because the environment is already measured, Leash has been able to run about 90,000 rollouts and inspect how agents make decisions, not just whether they eventually find good molecules. Quigley said this lets them interrogate scientific reasoning, including whether a model recognizes unproductive regions and abandons them quickly rather than repeatedly sampling weak neighborhoods.\n\nHe also highlighted a capability gradient across models: better models do not merely jump around more, but \"abandon the lousy places fast,\" implying some level of improved inference about where not to search. Leash has screened roughly 1,000 proteins against a couple of chemical libraries and is aiming to expand to roughly 20-27 environments, currently producing about two environments per day.\n\nThe episode also covered a technical detour into SMILES understanding. Quigley said Leash had to do supervised fine-tuning because frontier models were not initially good at converting or understanding SMILES, especially non-canonical forms, though by around February the models started to work meaningfully with chemistry. The longer-term thesis is that this amortized lab-in-the-loop framework can generalize to other biological and scientific questions, with a pre-print, dataset, harbor packages, and many thousands of transcripts planned for release.",
+      "summary": "Ian Quigley described Leash Bio's core idea as a pre-measured, counterfactually dense screening landscape where language-model agents can explore a fixed catalog of molecules under a limited experimental budget. The flagship use case is a structure-activity relationship task focused on maximizing binding to a target protein, with the agent limited to about 100 molecules and evaluated against the full measured landscape.\n\nA major point was scale: because the environment is already measured, Leash has been able to run about 90,000 rollouts and inspect how agents make decisions, not just whether they eventually find good molecules. Quigley said this lets them interrogate scientific reasoning, including whether a model recognizes unproductive regions and abandons them quickly rather than repeatedly sampling weak neighborhoods.\n\nLeash has screened roughly 1,000 proteins against a couple of chemical libraries and is aiming to expand to roughly 20-27 environments, currently producing about two environments per day.\n\nThe episode also covered a technical detour into SMILES understanding. Quigley said Leash had to do supervised fine-tuning because frontier models were not initially good at converting or understanding SMILES, especially non-canonical forms, though by around February the models started to work meaningfully with chemistry. The longer-term thesis is that this amortized lab-in-the-loop framework can generalize to other biological and scientific questions, with a pre-print, dataset, harbor packages, and many thousands of transcripts planned for release.",
       "key_takeaway": "Leash Bio's key claim is that fully measured molecular environments can benchmark and improve AI agents' scientific decision-making at scale, not just their final optimization results.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1447,8 +1443,7 @@ const dashboardData = {
       "tickers_mentioned": [
         "CRL",
         "META",
-        "GOOGL",
-        "LENS"
+        "GOOGL"
       ],
       "sentiment": "bullish",
       "display_on_main": 1,
@@ -18030,7 +18025,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-10-26",
-      "summary": "Ian Quigley described Leash Bio's core idea as a pre-measured, counterfactually dense screening landscape where language-model agents can explore a fixed catalog of molecules under a limited experimental budget. The flagship use case is a structure-activity relationship task focused on maximizing binding to a target protein, with the agent limited to about 100 molecules and evaluated against the full measured landscape.\n\nA major point was scale: because the environment is already measured, Leash has been able to run about 90,000 rollouts and inspect how agents make decisions, not just whether they eventually find good molecules. Quigley said this lets them interrogate scientific reasoning, including whether a model recognizes unproductive regions and abandons them quickly rather than repeatedly sampling weak neighborhoods.\n\nHe also highlighted a capability gradient across models: better models do not merely jump around more, but \"abandon the lousy places fast,\" implying some level of improved inference about where not to search. Leash has screened roughly 1,000 proteins against a couple of chemical libraries and is aiming to expand to roughly 20-27 environments, currently producing about two environments per day.\n\nThe episode also covered a technical detour into SMILES understanding. Quigley said Leash had to do supervised fine-tuning because frontier models were not initially good at converting or understanding SMILES, especially non-canonical forms, though by around February the models started to work meaningfully with chemistry. The longer-term thesis is that this amortized lab-in-the-loop framework can generalize to other biological and scientific questions, with a pre-print, dataset, harbor packages, and many thousands of transcripts planned for release.",
+      "summary": "Ian Quigley described Leash Bio's core idea as a pre-measured, counterfactually dense screening landscape where language-model agents can explore a fixed catalog of molecules under a limited experimental budget. The flagship use case is a structure-activity relationship task focused on maximizing binding to a target protein, with the agent limited to about 100 molecules and evaluated against the full measured landscape.\n\nA major point was scale: because the environment is already measured, Leash has been able to run about 90,000 rollouts and inspect how agents make decisions, not just whether they eventually find good molecules. Quigley said this lets them interrogate scientific reasoning, including whether a model recognizes unproductive regions and abandons them quickly rather than repeatedly sampling weak neighborhoods.\n\nLeash has screened roughly 1,000 proteins against a couple of chemical libraries and is aiming to expand to roughly 20-27 environments, currently producing about two environments per day.\n\nThe episode also covered a technical detour into SMILES understanding. Quigley said Leash had to do supervised fine-tuning because frontier models were not initially good at converting or understanding SMILES, especially non-canonical forms, though by around February the models started to work meaningfully with chemistry. The longer-term thesis is that this amortized lab-in-the-loop framework can generalize to other biological and scientific questions, with a pre-print, dataset, harbor packages, and many thousands of transcripts planned for release.",
       "key_takeaway": "Leash Bio's key claim is that fully measured molecular environments can benchmark and improve AI agents' scientific decision-making at scale, not just their final optimization results.",
       "tickers_mentioned": "[]",
       "sentiment": "neutral",
@@ -18073,10 +18068,6 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "James Sun",
-          "quote": "One is it is a little bit faster on average because it uses fewer thinking tokens to do the same task."
-        },
-        {
-          "speaker": "James Sun",
           "quote": "If you look at the system card for it, it is much better at being resistant to prompt injection, it's much better at not taking any kind of unintended actions."
         }
       ],
@@ -18092,7 +18083,7 @@ const dashboardData = {
       "source_date": "2026-10-25",
       "summary": "The guest argues that the AI infrastructure trade has shifted from being funded mainly by hyperscaler operating cash flow to being increasingly funded by equity and debt, which makes the whole trade more reflexive and vulnerable to a sudden tightening in sentiment or financing conditions. He says the market is still assuming very optimistic revenue and token-demand trajectories, and that if paid usage does not accelerate enough, the underwriting behind AI buildouts could break.\n\nA central contrarian point is that the next bottleneck in AI may not be model capability or compute, but preclinical experimentation capacity in life sciences. The guest argues AI can compress literature review and idea generation, but it cannot remove hard biological timelines like cell growth, safety testing, and animal studies. He says the economic winners may be experiment-focused businesses, lab automation, and consumables, rather than pure drug-design companies or later-stage clinical services.\n\nHe also walks through a case study of AI-assisted protein binder design for a scorpion antitoxin project, describing 211 designs sent to labs and 17 that bound in vitro, with one candidate competing favorably against an established neutralizing antibody region. He uses that example to support the idea that AI can dramatically speed design, but the real constraint remains validation and testing capacity, including scarce monkey supply for animal studies.\n\nOn broader markets, he remains selectively bullish on semiconductors but is more focused on AI usage and agentic utilities than on the broad infrastructure stack. He also offers relative-value views such as long Meta versus short Google, based on his concern that talent movement and AI search disruption may pressure Alphabet more than the market expects.",
       "key_takeaway": "AI value is shifting from model design and compute toward experimentation infrastructure, especially preclinical CROs, lab automation, and consumables.",
-      "tickers_mentioned": "[\"CRL\", \"META\", \"GOOGL\", \"LENS\"]",
+      "tickers_mentioned": "[\"CRL\", \"META\", \"GOOGL\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
@@ -56651,11 +56642,6 @@ const dashboardData = {
         "rationale": "Alphabet is the relative short in the episode's Meta-vs-Google trade. The concern is that talent loss, AI search disruption, and product transition risk are underappreciated by the market.",
         "positioning": "Short / underweight",
         "risk": "Search economics may prove more durable than expected, and AI features could protect rather than erode query monetization."
-      },
-      "LENS": {
-        "rationale": "LENS is included as a tangential real-assets exposure tied to inflation and geopolitical diversification. It matters because the episode repeatedly stresses that AI and broader market regimes may be more reflexive and volatile than consensus assumes.",
-        "positioning": "Watch",
-        "risk": "If inflation and commodity support do not persist, the diversification case weakens."
       }
     },
     "positioning_guidance": "",
@@ -56777,7 +56763,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-26T13:46:59.741475",
     "updated_at": "2026-10-26 18:46:59",
-    "episode_evidence": "Ian Quigley: And so the thing that I talked about last time was this idea that we had these large collections of screens, and they were big enough environments and counterfactually dense enough that you could take agents and drop them in there, and then give them tasks, and they could go, do those tasks on a limited budget in this landscape that we had measured completely.\nIan Quigley: And so what we do is we take model, we take an agent like a language model, and then we say here's a catalog that you could look at. You have a budget of 100 molecules.\nIan Quigley: And because it's all pre-measured, you can roll out a lot of these. We're up to about 90,000.\nIan Quigley: And so then you can start to interrogate how good is the agent and making scientific decisions because maybe you don't only got to like the thing that's half as good as the best thing in the entire environment.\nIan Quigley: But they especially abandon the lousy places fast. And then the really performance to currently. It's not just that they jump more. It's that actually they're some they're figuring something out and saying, hey, this is not good. Let's get out of here.",
+    "episode_evidence": "Ian Quigley: And so the thing that I talked about last time was this idea that we had these large collections of screens, and they were big enough environments and counterfactually dense enough that you could take agents and drop them in there, and then give them tasks, and they could go, do those tasks on a limited budget in this landscape that we had measured completely.\nIan Quigley: And so what we do is we take model, we take an agent like a language model, and then we say here's a catalog that you could look at. You have a budget of 100 molecules.\nIan Quigley: And because it's all pre-measured, you can roll out a lot of these. We're up to about 90,000.\nIan Quigley: And so then you can start to interrogate how good is the agent and making scientific decisions because maybe you don't only got to like the thing that's half as good as the best thing in the entire environment.\nIan Quigley: And then the really performance to currently. It's not just that they jump more. It's that actually they're some they're figuring something out and saying, hey, this is not good. Let's get out of here.",
     "falsification_tracks": [
       "By 2026-12-31, if the released pre-print and dataset do not show a fully pre-measured environment with complete outcome labels across the search space, the thesis weakens materially. Source: pre-print PDF and dataset documentation.",
       "By 2026-12-31, if the published rollout logs do not support at least 90,000 total rollouts, the claimed scale advantage is unproven. Source: released transcripts manifest or benchmark logs.",
@@ -58128,6 +58114,33 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 582,
+    "name": "Joe Liemandt",
+    "slug": "joe-liemandt",
+    "bio": "Founder of Alpha School and a proponent of AI-enabled, motivation-first K-12 education and entrepreneurship-focused learning.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-27 12:13:19",
+    "last_episode_title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-27 \u2022 Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
+    "last_proof_snippet": "Are you willing to redesign your school day so kids love it more than vacation? With cognitive science and learning science plus the advent of LLMs, you can build a learning engine that teaches kids 10 times faster.",
+    "supporting_takeaway": "Joe Liemandt reported that 90% of Alpha students say, \"I love school,\" and 50% would rather go to school than go on vacation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 580,
     "name": "James Sun",
     "slug": "james-sun",
@@ -58147,7 +58160,6 @@ const dashboardData = {
     "mention_score": 1,
     "mention_score_decayed": 0.98,
     "last_main_idea": "Computer-use agents are approaching superhuman speed and safety, creating a large enterprise automation opportunity if auditability and approval controls can manage risk.",
-    "supporting_takeaway": "James Sun says Astra is more reliable and safer because it uses fewer thinking tokens and is much better at resisting prompt injection.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -77307,10 +77319,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4935.64,
-      "basket_change_pct": -1.29,
+      "basket_current_value": 4944.19,
+      "basket_change_pct": -1.12,
       "index_start": 100,
-      "basket_index_value": 98.71,
+      "basket_index_value": 98.88,
       "names": [
         {
           "ticker": "HIMS",
@@ -77319,9 +77331,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 28.12,
-          "current_value": 1001.07,
-          "change_pct": 0.11,
+          "current_price": 28.14,
+          "current_value": 1001.78,
+          "change_pct": 0.18,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77333,9 +77345,9 @@ const dashboardData = {
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.51,
-          "current_value": 1054.05,
-          "change_pct": 5.41,
+          "current_price": 3.52,
+          "current_value": 1057.06,
+          "change_pct": 5.71,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77347,9 +77359,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 70.91,
-          "current_value": 909.45,
-          "change_pct": -9.05,
+          "current_price": 71.04,
+          "current_value": 911.12,
+          "change_pct": -8.89,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77361,9 +77373,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 176.12,
-          "current_value": 961.88,
-          "change_pct": -3.81,
+          "current_price": 176.52,
+          "current_value": 964.06,
+          "change_pct": -3.59,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77375,16 +77387,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 103.14,
-          "current_value": 1009.19,
-          "change_pct": 0.92,
+          "current_price": 103.24,
+          "current_value": 1010.17,
+          "change_pct": 1.02,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-27T10:29:02.805302"
+      "last_updated": "2026-10-27T10:38:03.976815"
     }
   ]
 }
