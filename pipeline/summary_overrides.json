@@ -1184,6 +1184,28 @@
           "simple add-on apps with no data of their own"
         ]
       ]
+    },
+    {
+      "podcast_episode_id": 613,
+      "insight_id": 625,
+      "_note": "Oct 27 2026 (G copy fix): banned word 'bet' in Supabase key_takeaway (publish guard style gate blocked evening publish since 10/26)",
+      "replacements": [
+        [
+          "Supabase is betting that long-running compute plus compatibility-first storage and operator rewrites will let it serve a future",
+          "Supabase is counting on long-running compute plus compatibility-first storage and operator rewrites to let it serve a future"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 615,
+      "insight_id": 626,
+      "_note": "Oct 27 2026 (G copy fix): banned word 'bet' in Alpha School Deep Dive overview (publish guard style gate)",
+      "replacements": [
+        [
+          "The episode also surfaces a structural bet: if a school can control",
+          "The episode also lays out a structural idea: if a school can control"
+        ]
+      ]
     }
   ],
   "terms": [
