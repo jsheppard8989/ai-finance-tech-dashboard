@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-27T10:52:29.658076",
+  generatedAt: "2026-10-27T10:57:04.427733",
   chartsVersion: "2026-10-27T07:14:43.933410",
   priceSnapshot: {
   "AAPL": {
@@ -55341,11 +55341,6 @@ const dashboardData = {
     "key_takeaways_detailed": [],
     "investment_thesis": "The actionable setup is a barbell: longer-duration Treasuries look materially better than they did when real growth and inflation were both lower, while lower-quality AI and speculative credit deserves selectivity rather than blanket participation. The key watch item is whether nominal growth remains near Bianco\u2019s 5% to 6% framework; if it does, duration risk is less punitive than the market has assumed. On the credit side, the important distinction is between triple-C stress and broader spread contagion. If widening stays concentrated in the weakest issuers, then the opportunity is in avoiding forced refinancing names rather than abandoning the whole high-yield market. For AI, the question is not whether the theme is real, but which financing channels can absorb the capex wave without creating a funding event. The market signal to watch is whether AI-linked borrowers can refinance at tolerable spreads while still funding growth, because that will determine whether the current selloff remains an idiosyncratic cleanup or turns into a broader repricing of the AI capital stack.",
     "ticker_analysis": {
-      "LENS": {
-        "rationale": "This ETF is presented as a tangibles and real-assets allocation that is meant to diversify a 60/40 portfolio when inflation and geopolitical stress make stocks and bonds move together. It fits the episode\u2019s macro view that inflation is sticky and that energy/materials can matter more than traditional financial exposures in the next regime.",
-        "positioning": "Watch",
-        "risk": "If inflation decelerates or the expected diversification benefit fails during a risk-off episode, the tangibles thesis may not justify the fee drag versus simpler commodity or resource exposure."
-      },
       "WTBN": {
         "rationale": "Bianco is explicitly connected to this ETF, and the discussion signals a constructive stance on duration after a long bearish period. The ticker matters as a proxy for his bond-market framework and any tilt toward longer-duration fixed income.",
         "positioning": "Watch",
@@ -59407,6 +59402,33 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 524,
+    "name": "Nick Bostrom",
+    "slug": "nick-bostrom",
+    "bio": "Professor at Oxford; founding director of the Future of Humanity Institute; founder and principal researcher of the macro strategy research initiative; known for work on superintelligence and existential risk framing.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-11 11:41:42",
+    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-11 \u2022 Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_proof_snippet": "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so.",
+    "supporting_takeaway": "Nick Bostrom says broad or indefinite pauses risk shifting AI work into secretive or highly concentrated \u201cManhattan project\u201d structures.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 148,
     "name": "Matt Barrie",
     "slug": "matt-barry",
@@ -59424,7 +59446,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "The core opportunity lies in AI infrastructure and hardware providers benefiting from enterprise insourcing, while model-facing incumbents face margin compression from zero switching costs and open competition.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-10 \u2022 MacroVoices #549 Matt Barrie: AI-gent Provocateur",
     "last_proof_snippet": "Token costs can escalate rapidly to unsustainable levels, but enterprises can slash expenses by arbitraging across models, including cheaper Chinese alternatives.",
@@ -59465,33 +59487,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$185.0M"
-  },
-  {
-    "id": 524,
-    "name": "Nick Bostrom",
-    "slug": "nick-bostrom",
-    "bio": "Professor at Oxford; founding director of the Future of Humanity Institute; founder and principal researcher of the macro strategy research initiative; known for work on superintelligence and existential risk framing.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-11 11:41:42",
-    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.69,
-    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-11 \u2022 Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_proof_snippet": "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so.",
-    "supporting_takeaway": "Nick Bostrom says broad or indefinite pauses risk shifting AI work into secretive or highly concentrated \u201cManhattan project\u201d structures.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 522,
@@ -77339,10 +77334,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4941.97,
-      "basket_change_pct": -1.16,
+      "basket_current_value": 4947.57,
+      "basket_change_pct": -1.05,
       "index_start": 100,
-      "basket_index_value": 98.84,
+      "basket_index_value": 98.95,
       "names": [
         {
           "ticker": "HIMS",
@@ -77351,9 +77346,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 28.13,
-          "current_value": 1001.43,
-          "change_pct": 0.14,
+          "current_price": 28.16,
+          "current_value": 1002.49,
+          "change_pct": 0.25,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77379,9 +77374,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 71.31,
-          "current_value": 914.58,
-          "change_pct": -8.54,
+          "current_price": 71.33,
+          "current_value": 914.84,
+          "change_pct": -8.52,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77393,9 +77388,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 176.13,
-          "current_value": 961.93,
-          "change_pct": -3.81,
+          "current_price": 176.59,
+          "current_value": 964.45,
+          "change_pct": -3.56,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77407,16 +77402,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 103.22,
-          "current_value": 1009.98,
-          "change_pct": 1.0,
+          "current_price": 103.4,
+          "current_value": 1011.74,
+          "change_pct": 1.17,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-27T10:52:17.389123"
+      "last_updated": "2026-10-27T10:56:52.060035"
     }
   ]
 }
