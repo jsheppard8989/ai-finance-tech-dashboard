@@ -36,7 +36,7 @@ def test_export_rerun_has_no_cut_off_snippets():
     assert after == []  # Musk's (#81) garbled host-intro snippet is unset (Oct 26 2026 quote fix)
 
 
-HOST_INTRO_IDS = {333, 418, 226}  # Oct 26 2026: retired exact-text cuts, now id-keyed unset rules
+HOST_INTRO_IDS = {333, 418, 226, 538}  # Oct 26 2026: retired exact-text cuts, now id-keyed unset rules (Oct 27: #538)
 
 
 def test_fixes_are_verbatim_and_match_the_site_files():

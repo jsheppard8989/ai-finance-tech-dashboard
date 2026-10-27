@@ -57501,8 +57501,6 @@ const dashboardData = {
     "mention_score": 2,
     "mention_score_decayed": 2,
     "last_main_idea": "Leash Bio's key claim is that fully measured molecular environments can benchmark and improve AI agents' scientific decision-making at scale, not just their final optimization results.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-26 \u2022 \u26a1 An Eval for AI Scientists That Knows the Answer Key - Ian Quigley, Leash Bio",
-    "last_proof_snippet": "This is Brandon and RJ, joined with Ian Quigli from Leishbio.",
     "supporting_takeaway": "Ian Quigley said the flagship task is a structure-activity relationship problem aimed at improving binding, with an example budget of 100 molecules.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
