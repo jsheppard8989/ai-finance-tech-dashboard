@@ -169,6 +169,7 @@ EXCLUDED_PUNDIT_IDS: FrozenSet[int] = frozenset(
         132,  # David Friedberg (ASR "David Freiberg")
         36,  # David Friedberg (ASR "Jason Friedberg")
         193,  # Alex Wissner-Gross (ASR "Alex Weiser Gross")
+        584,  # Erik Torenberg (The a16z Show host; Oct 27 2026 sweep_1027 #10)
     }
 )
 

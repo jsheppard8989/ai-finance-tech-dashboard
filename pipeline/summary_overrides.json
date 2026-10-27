@@ -1206,6 +1206,74 @@
           "The episode also lays out a structural idea: if a school can control"
         ]
       ]
+    },
+    {
+      "podcast_episode_id": 615,
+      "insight_id": 626,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #1-3, #6-7: ASR 'Joel Amond' is Joe Liemandt (episode title names him); garbled 'AJA/Horowitz & Dresden Academy' is the Horowitz and Andreessen Academy. Speaker labels and summary only; quote text unchanged.",
+      "replacements": [
+        [
+          "Joel Amond",
+          "Joe Liemandt"
+        ],
+        [
+          "Amond cites",
+          "Liemandt cites"
+        ],
+        [
+          "a similar reinvention through AJA/Horowitz & Dresden Academy,",
+          "a similar reinvention through the Horowitz and Andreessen Academy,"
+        ],
+        [
+          "AJA/Horowitz & Dresden Academy publishing",
+          "Horowitz and Andreessen Academy publishing"
+        ]
+      ]
+    },
+    {
+      "podcast_episode_id": 611,
+      "insight_id": 622,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #11 and #19: ASR 'Satrini' is Citrini (episode title); garbled quote #3 removed (not reworded).",
+      "replacements": [
+        [
+          "Satrini",
+          "Citrini"
+        ]
+      ],
+      "drop_quotes": [
+        "If you're relying on the combined lab AR to be $500 billion"
+      ]
+    },
+    {
+      "podcast_episode_id": 612,
+      "insight_id": 623,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #17: garbled transcript quote #3 removed (not reworded).",
+      "drop_quotes": [
+        "One is, we run a business model is not in line with having agents use a product"
+      ]
+    },
+    {
+      "podcast_episode_id": 614,
+      "insight_id": 624,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #18: garbled transcript quote #3 removed (not reworded).",
+      "drop_quotes": [
+        "But they especially abandon the lousy places fast."
+      ]
+    },
+    {
+      "podcast_episode_id": 613,
+      "insight_id": 625,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #15-16: Supabase product names (ASR 'AurionDB' = OrioleDB, 'Multigress' = Multigres).",
+      "replacements": [
+        [
+          "AurionDB",
+          "OrioleDB"
+        ],
+        [
+          "Multigress",
+          "Multigres"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -1255,6 +1323,116 @@
       "scope": "overton",
       "drop": true,
       "_note": "Oct 23 2026 full sweep c19: sponsor ad-read thesis (Sarmaya Partners), not a guest idea; mirror of overton_demote.json id 297."
+    },
+    {
+      "id": 281,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 615
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #5: Overton 'Simulation' last-mentioned speaker fix, gated to episode 615 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Joe Liemandt, Gagan Biyani, Erik Torenberg"
+      }
+    },
+    {
+      "id": 313,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 611
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #12: Overton 'floor' last-mentioned speaker fix, gated to episode 611 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Citrini"
+      }
+    },
+    {
+      "id": 300,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 611
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #12: Overton 'Scaling law' last-mentioned speaker fix, gated to episode 611 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Citrini"
+      }
+    },
+    {
+      "id": 254,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 611
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #12: Overton 'Hyperscalers' last-mentioned speaker fix, gated to episode 611 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Citrini"
+      }
+    },
+    {
+      "id": 57,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 611
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #12: Overton 'AI Infrastructure' last-mentioned speaker fix, gated to episode 611 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Citrini"
+      }
+    },
+    {
+      "id": 264,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 612
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #13: Overton 'Autonomy' last-mentioned speaker fix, gated to episode 612 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "James Sun, Ari Weinstein"
+      }
+    },
+    {
+      "id": 114,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 612
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #13: Overton 'AI Agents' last-mentioned speaker fix, gated to episode 612 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "James Sun, Ari Weinstein"
+      }
+    },
+    {
+      "id": 312,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 597
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #14: Overton 'Post-capitalist world' last-mentioned speaker fix, gated to episode 597 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Chamath Palihapitiya"
+      }
+    },
+    {
+      "id": 43,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 597
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #14: Overton 'ASI' last-mentioned speaker fix, gated to episode 597 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Chamath Palihapitiya"
+      }
+    },
+    {
+      "id": 10,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 597
+      },
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #14: Overton 'Dyson Swarm' last-mentioned speaker fix, gated to episode 597 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Chamath Palihapitiya"
+      }
     }
   ],
   "global_replacements": [
@@ -2929,6 +3107,11 @@
       "id": 256,
       "name": "Honorable Duffy",
       "_note": "Oct 23 2026 sweep follow-ups (cos/verify_1023) c23: unverifiable garbled name; removed rather than guessed"
+    },
+    {
+      "id": 584,
+      "name": "Erik Torenberg",
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #10: host of The a16z Show, not a guest (same as the a16z GP/host and Friedberg/Wissner-Gross host exclusions)"
     }
   ],
   "pundit_overrides": [
@@ -4272,16 +4455,6 @@
         [
           "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs which are payment credentials. Amazon recently blocked news and there are m",
           "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs which are payment credentials."
-        ]
-      ]
-    },
-    {
-      "id": 538,
-      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 11: Ian Quigley cut-off proof snippet CUT (intro/ad/outro or no complete sentence; card shows no quote box). Matches only this exact cut-off text, so a new episode's snippet is left alone.",
-      "replacements": [
-        [
-          "My co-founder Andrew Blavins and I were at Procursion looking at a small molecule on a screen and then a medicinal chemist walked by as this guy named my Cucarisi and Mike was like, hey, it looks like a Stuart trivert molecule and then we'r",
-          ""
         ]
       ]
     },
@@ -6645,6 +6818,69 @@
     {
       "id": 226,
       "_note": "Oct 26 2026 routine quote fix (G): Warren Pies's last_proof_snippet is the show host's intro, not the guest's words. Id-keyed unset of the snippet and its cite, so it holds whatever text the export produces. Replaces the Oct 25 sweep_1025 exact-text cut rule, which no longer matched the re-selected snippet.",
+      "unset": [
+        "last_proof_snippet",
+        "last_proof_cite"
+      ]
+    },
+    {
+      "id": 583,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #8: bio academy name ('Horowitz and Dresden Academy' = Horowitz and Andreessen Academy).",
+      "replacements": [
+        [
+          "Horowitz and Dresden Academy",
+          "Horowitz and Andreessen Academy"
+        ]
+      ]
+    },
+    {
+      "id": 583,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #4 and #9: takeaway speaker 'Joel Amond' = Joe Liemandt; the proof snippet is Joe Liemandt's line, not Gagan Biyani's, so unset snippet + cite. Gated to the episode.",
+      "when": {
+        "last_episode_title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg"
+      },
+      "replacements": [
+        [
+          "Joel Amond",
+          "Joe Liemandt"
+        ]
+      ],
+      "unset": [
+        "last_proof_snippet",
+        "last_proof_cite"
+      ]
+    },
+    {
+      "id": 584,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #4 and #9: takeaway speaker 'Joel Amond' = Joe Liemandt; the proof snippet is Joe Liemandt's line, not Erik Torenberg's, so unset snippet + cite. Gated to the episode. (Row is also hidden as a host, #10.)",
+      "when": {
+        "last_episode_title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg"
+      },
+      "replacements": [
+        [
+          "Joel Amond",
+          "Joe Liemandt"
+        ]
+      ],
+      "unset": [
+        "last_proof_snippet",
+        "last_proof_cite"
+      ]
+    },
+    {
+      "id": 580,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) hand-check: James Sun's snippet is the unlabeled cold-open clip; the transcript does not show whether James Sun or Ari Weinstein said it, so unset snippet + cite. Gated to the episode.",
+      "when": {
+        "last_episode_title": "OpenAI: When AI Agents Use Computers Faster Than You"
+      },
+      "unset": [
+        "last_proof_snippet",
+        "last_proof_cite"
+      ]
+    },
+    {
+      "id": 538,
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md): Ian Quigley's new snippet ('This is Brandon and RJ, joined with Ian Quigli from Leishbio.') is the show host's intro, not his words. Id-keyed unset of snippet + cite (same as #333/#418/#226), so it holds whatever text the export produces; retires the Oct 25 sweep_1025 exact-text cut rule, which no longer matched.",
       "unset": [
         "last_proof_snippet",
         "last_proof_cite"

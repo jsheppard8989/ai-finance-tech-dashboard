@@ -770,6 +770,9 @@ def _apply_term_overrides(terms, rules=None):
     A rule with "drop": true removes the record (quote fragments such as "floor").
     A rule's optional "scope" ("suggested" / "overton") limits where it applies; ids differ
     between suggested_terms and overton_terms, so id rules should set a scope.
+    Optional "when" {field: value} (Oct 27 2026): the rule applies only if every listed field
+    of the record equals that value (e.g. last_mentioned_episode_id), so a speaker fix for one
+    episode no-ops once a later episode becomes the term's last mention.
     """
     if rules is None:
         rules = _load_override_rules().get("terms", [])
@@ -783,6 +786,9 @@ def _apply_term_overrides(terms, rules=None):
         dropped = False
         for r in rules:
             if _term_rule_matches(r, t):
+                when = r.get("when")
+                if isinstance(when, dict) and any(t.get(k) != v for k, v in when.items()):
+                    continue
                 if r.get("drop"):
                     dropped = True
                     break
@@ -851,6 +857,10 @@ def _apply_summary_overrides_to_files(site_dir: Path) -> None:
                 if isinstance(g, dict) and fixes.get(g.get("name") or ""):
                     g["name"] = fixes[g["name"]]
             _apply_guest_bio_overrides(data, gov)
+        if name == "archive.json" and isinstance(data, dict):
+            # Oct 27 2026: archive.json carries the Overton list too; apply the same
+            # overton-scoped term rules data.js gets (speaker fixes, drops).
+            _apply_overton_term_overrides(data)
         _apply_summary_overrides(data)
         apply_style_gate(data)  # warn-only 'bet' wording check
         if json.dumps(data) != before:
