@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-27T08:23:39.267745",
+  generatedAt: "2026-10-27T10:29:15.418709",
   chartsVersion: "2026-10-27T07:14:43.933410",
   priceSnapshot: {
   "AAPL": {
@@ -1290,7 +1290,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-27",
-      "summary": "The episode argues that AI, especially LLMs combined with modern learning science, can fundamentally redesign schooling rather than merely adding software to old classrooms. Joel Amond says Alpha School uses a learning engine to teach kids dramatically faster, claiming students learn twice as much in two hours a day as in a traditional six-hour school day plus homework, while also keeping engagement high.\n\nA central theme is that motivation matters as much as academic delivery. Amond cites internal survey data saying 90% of Alpha students say they love school and 50% would rather attend school than go on vacation, with one campus at 65%. He argues that edtech fails if inserted into a normal school day, and that the entire structure must be rebuilt around agency, rigor, and enjoyable learning.\n\nThe episode also expands the thesis to life skills and entrepreneurship. Alpha is described as using simulations, transcript analysis, and benchmarks like the Wharton MBA challenge to measure teamwork and communication, with an 85% pass threshold in some tasks. Founder School is presented as a high-school entrepreneurship program with a guarantee: students will earn $1 million in profit during high school or receive tuition back.\n\nBeyond K-12, Gagan Biyani argues university needs a similar reinvention through AJA/Horowitz & Dresden Academy, with more student-driven building and less passive lecture time. The conversation repeatedly returns to the prediction that AI-native learners will increasingly build the learning tools themselves, and that education will shift from preparing for fixed careers to enabling students to create what comes next.",
+      "summary": "The episode argues that AI, especially LLMs combined with modern learning science, can fundamentally redesign schooling rather than merely adding software to old classrooms. Joe Liemandt says Alpha School uses a learning engine to teach kids dramatically faster, claiming students learn twice as much in two hours a day as in a traditional six-hour school day plus homework, while also keeping engagement high.\n\nA central theme is that motivation matters as much as academic delivery. Liemandt cites internal survey data saying 90% of Alpha students say they love school and 50% would rather attend school than go on vacation, with one campus at 65%. He argues that edtech fails if inserted into a normal school day, and that the entire structure must be rebuilt around agency, rigor, and enjoyable learning.\n\nThe episode also expands the thesis to life skills and entrepreneurship. Alpha is described as using simulations, transcript analysis, and benchmarks like the Wharton MBA challenge to measure teamwork and communication, with an 85% pass threshold in some tasks. Founder School is presented as a high-school entrepreneurship program with a guarantee: students will earn $1 million in profit during high school or receive tuition back.\n\nBeyond K-12, Gagan Biyani argues university needs a similar reinvention through the Horowitz and Andreessen Academy, with more student-driven building and less passive lecture time. The conversation repeatedly returns to the prediction that AI-native learners will increasingly build the learning tools themselves, and that education will shift from preparing for fixed careers to enabling students to create what comes next.",
       "key_takeaway": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1302,15 +1302,15 @@ const dashboardData = {
       "podcast_episode_id": 615,
       "notable_quotes": [
         {
-          "speaker": "Joel Amond",
+          "speaker": "Joe Liemandt",
           "quote": "We throw a teacher in front of the classroom, and what's the right way to do this? And now, if you look over the last couple of decades with cognitive science and learning science, plus the advent of LLMs, you can build a learning engine that teaches kids 10 times faster, right?"
         },
         {
-          "speaker": "Joel Amond",
+          "speaker": "Joe Liemandt",
           "quote": "I just got the surveys back last week. 90% of our kids say, I love school. 50% of the kids at the school said, I would rather go to school than go on vacation."
         },
         {
-          "speaker": "Joel Amond",
+          "speaker": "Joe Liemandt",
           "quote": "We guarantee that you'll start a business that will earn a million dollars of profit, while you're in high school, or we give you all your tuition back, right?"
         }
       ]
@@ -1339,10 +1339,6 @@ const dashboardData = {
         {
           "speaker": "James Sun",
           "quote": "If you look at the system card for it, it is much better at being resistant to prompt injection, it's much better at not taking any kind of unintended actions."
-        },
-        {
-          "speaker": "James Sun",
-          "quote": "One is, we run a business model is not in line with having agents use a product, right? You think about advertisers, publishers, who was business models entirely on advertising, if the agents using the website for them, then where's that revenue current from?"
         }
       ]
     },
@@ -1370,10 +1366,6 @@ const dashboardData = {
         {
           "speaker": "Ian Quigley",
           "quote": "And so what we do is we take model, we take an agent like a language model, and then we say here's a catalog that you could look at. You have a budget of 100 molecules."
-        },
-        {
-          "speaker": "Ian Quigley",
-          "quote": "But they especially abandon the lousy places fast. And then the really performance to currently. It's not just that they jump more. It's that actually they're some they're figuring something out and saying, hey, this is not good. Let's get out of here."
         }
       ]
     },
@@ -1383,7 +1375,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-10-26",
-      "summary": "Supabase leadership outlined a major architectural roadmap centered on enabling AI-native, scale-out application development. The headline announcement was Supabase Compute, described as long-running serverless compute in the same private network as the database, removing the prior 2-second Edge Functions constraint and allowing direct Postgres connections for workloads like agents and embeddings.\n\nThey also introduced AurionDB, positioned as a drop-in replacement for Postgres Heap storage that claims roughly 1.5x to 2x better performance while eliminating vacuum and bloat maintenance tasks. The team said it has been validated with Postgres compatibility and testing tooling, and that it is being released in full beta under Apache 2.\n\nA second major theme was Multigress, a ground-up operator rewrite for Postgres clusters. The most important claim was operational reliability: the team said it survived 1,000 sequential failovers without data loss, and they framed the redesign as the basis for future sharding that should require zero query or code changes for users. They said sharding prototypes are expected to land by early next year, depending on platform factors.\n\nThe episode also covered the Turso acquisition, which Supabase says will support an eventual future of billions of database launches per month by bringing SQLite-based MVCC and multi-writer scale-out architecture into the product line. On go-to-market, the company emphasized product-led growth, enterprise expansion through greenfield deployments, and internal AI usage discipline, noting about $300K per month in AI coding spend across roughly 450 employees.",
+      "summary": "Supabase leadership outlined a major architectural roadmap centered on enabling AI-native, scale-out application development. The headline announcement was Supabase Compute, described as long-running serverless compute in the same private network as the database, removing the prior 2-second Edge Functions constraint and allowing direct Postgres connections for workloads like agents and embeddings.\n\nThey also introduced OrioleDB, positioned as a drop-in replacement for Postgres Heap storage that claims roughly 1.5x to 2x better performance while eliminating vacuum and bloat maintenance tasks. The team said it has been validated with Postgres compatibility and testing tooling, and that it is being released in full beta under Apache 2.\n\nA second major theme was Multigres, a ground-up operator rewrite for Postgres clusters. The most important claim was operational reliability: the team said it survived 1,000 sequential failovers without data loss, and they framed the redesign as the basis for future sharding that should require zero query or code changes for users. They said sharding prototypes are expected to land by early next year, depending on platform factors.\n\nThe episode also covered the Turso acquisition, which Supabase says will support an eventual future of billions of database launches per month by bringing SQLite-based MVCC and multi-writer scale-out architecture into the product line. On go-to-market, the company emphasized product-led growth, enterprise expansion through greenfield deployments, and internal AI usage discipline, noting about $300K per month in AI coding spend across roughly 450 employees.",
       "key_takeaway": "Supabase is counting on long-running compute plus compatibility-first storage and operator rewrites to let it serve a future where AI apps drive billions of database launches monthly.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1467,16 +1459,12 @@ const dashboardData = {
       "podcast_episode_id": 611,
       "notable_quotes": [
         {
-          "speaker": "Satrini",
+          "speaker": "Citrini",
           "quote": "The next bottleneck is less about model ability and more about the speed and capacity of preclinical experimentation and consumables, plus scarce inputs like monkeys."
         },
         {
-          "speaker": "Satrini",
+          "speaker": "Citrini",
           "quote": "We ended up sending like 211 designs and the thing about just science normally doesn't have to function with like the stock market in the background but like originally the timeline was that we were going to get this published by like the beginning of September."
-        },
-        {
-          "speaker": "Satrini",
-          "quote": "If you're relying on the combined lab AR to be $500 billion, and that's where you're underwriting your kind of assumptions of what gets handled back into infrastructure. If it ends up being 300, then that's a disaster."
         }
       ]
     },
@@ -15056,7 +15044,7 @@ const dashboardData = {
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
       "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
+      "last_mentioned_speaker": "Citrini"
     },
     {
       "id": 314,
@@ -15200,7 +15188,7 @@ const dashboardData = {
       "first_detected_episode_id": 567,
       "first_detected_speaker": "Pushmeet Kohli, Sal Candido",
       "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
+      "last_mentioned_speaker": "Citrini"
     },
     {
       "id": 307,
@@ -15650,7 +15638,7 @@ const dashboardData = {
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
       "last_mentioned_episode_id": 615,
-      "last_mentioned_speaker": "Joel Amond, Gagan Biyani, Erik Torenberg"
+      "last_mentioned_speaker": "Joe Liemandt, Gagan Biyani, Erik Torenberg"
     },
     {
       "id": 272,
@@ -15776,7 +15764,7 @@ const dashboardData = {
       "first_detected_episode_id": 436,
       "first_detected_speaker": "Jensen Huang, Dario Amodei",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya"
     },
     {
       "id": 276,
@@ -15848,7 +15836,7 @@ const dashboardData = {
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 612,
-      "last_mentioned_speaker": "James Sun, Ari (name not explicitly provided in transcript)"
+      "last_mentioned_speaker": "James Sun, Ari Weinstein"
     },
     {
       "id": 265,
@@ -15974,7 +15962,7 @@ const dashboardData = {
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya"
     },
     {
       "id": 135,
@@ -16046,7 +16034,7 @@ const dashboardData = {
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
+      "last_mentioned_speaker": "Citrini"
     },
     {
       "id": 256,
@@ -16442,7 +16430,7 @@ const dashboardData = {
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Alex (full name not provided in transcript extract), Celine Mismayo (as referenced in episode intro)"
+      "last_mentioned_speaker": "Chamath Palihapitiya"
     },
     {
       "id": 113,
@@ -17468,7 +17456,7 @@ const dashboardData = {
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "Satrini (full name not provided in transcript)"
+      "last_mentioned_speaker": "Citrini"
     },
     {
       "id": 26,
@@ -17738,7 +17726,7 @@ const dashboardData = {
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 612,
-      "last_mentioned_speaker": "James Sun, Ari (name not explicitly provided in transcript)"
+      "last_mentioned_speaker": "James Sun, Ari Weinstein"
     },
     {
       "id": 38,
@@ -18008,7 +17996,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-27",
-      "summary": "The episode argues that AI, especially LLMs combined with modern learning science, can fundamentally redesign schooling rather than merely adding software to old classrooms. Joel Amond says Alpha School uses a learning engine to teach kids dramatically faster, claiming students learn twice as much in two hours a day as in a traditional six-hour school day plus homework, while also keeping engagement high.\n\nA central theme is that motivation matters as much as academic delivery. Amond cites internal survey data saying 90% of Alpha students say they love school and 50% would rather attend school than go on vacation, with one campus at 65%. He argues that edtech fails if inserted into a normal school day, and that the entire structure must be rebuilt around agency, rigor, and enjoyable learning.\n\nThe episode also expands the thesis to life skills and entrepreneurship. Alpha is described as using simulations, transcript analysis, and benchmarks like the Wharton MBA challenge to measure teamwork and communication, with an 85% pass threshold in some tasks. Founder School is presented as a high-school entrepreneurship program with a guarantee: students will earn $1 million in profit during high school or receive tuition back.\n\nBeyond K-12, Gagan Biyani argues university needs a similar reinvention through AJA/Horowitz & Dresden Academy, with more student-driven building and less passive lecture time. The conversation repeatedly returns to the prediction that AI-native learners will increasingly build the learning tools themselves, and that education will shift from preparing for fixed careers to enabling students to create what comes next.",
+      "summary": "The episode argues that AI, especially LLMs combined with modern learning science, can fundamentally redesign schooling rather than merely adding software to old classrooms. Joe Liemandt says Alpha School uses a learning engine to teach kids dramatically faster, claiming students learn twice as much in two hours a day as in a traditional six-hour school day plus homework, while also keeping engagement high.\n\nA central theme is that motivation matters as much as academic delivery. Liemandt cites internal survey data saying 90% of Alpha students say they love school and 50% would rather attend school than go on vacation, with one campus at 65%. He argues that edtech fails if inserted into a normal school day, and that the entire structure must be rebuilt around agency, rigor, and enjoyable learning.\n\nThe episode also expands the thesis to life skills and entrepreneurship. Alpha is described as using simulations, transcript analysis, and benchmarks like the Wharton MBA challenge to measure teamwork and communication, with an 85% pass threshold in some tasks. Founder School is presented as a high-school entrepreneurship program with a guarantee: students will earn $1 million in profit during high school or receive tuition back.\n\nBeyond K-12, Gagan Biyani argues university needs a similar reinvention through the Horowitz and Andreessen Academy, with more student-driven building and less passive lecture time. The conversation repeatedly returns to the prediction that AI-native learners will increasingly build the learning tools themselves, and that education will shift from preparing for fixed careers to enabling students to create what comes next.",
       "key_takeaway": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
       "tickers_mentioned": "[]",
       "sentiment": "neutral",
@@ -18020,15 +18008,15 @@ const dashboardData = {
       "podcast_episode_id": 615,
       "notable_quotes": [
         {
-          "speaker": "Joel Amond",
+          "speaker": "Joe Liemandt",
           "quote": "We throw a teacher in front of the classroom, and what's the right way to do this? And now, if you look over the last couple of decades with cognitive science and learning science, plus the advent of LLMs, you can build a learning engine that teaches kids 10 times faster, right?"
         },
         {
-          "speaker": "Joel Amond",
+          "speaker": "Joe Liemandt",
           "quote": "I just got the surveys back last week. 90% of our kids say, I love school. 50% of the kids at the school said, I would rather go to school than go on vacation."
         },
         {
-          "speaker": "Joel Amond",
+          "speaker": "Joe Liemandt",
           "quote": "We guarantee that you'll start a business that will earn a million dollars of profit, while you're in high school, or we give you all your tuition back, right?"
         }
       ],
@@ -18060,10 +18048,6 @@ const dashboardData = {
         {
           "speaker": "Ian Quigley",
           "quote": "And so what we do is we take model, we take an agent like a language model, and then we say here's a catalog that you could look at. You have a budget of 100 molecules."
-        },
-        {
-          "speaker": "Ian Quigley",
-          "quote": "But they especially abandon the lousy places fast. And then the really performance to currently. It's not just that they jump more. It's that actually they're some they're figuring something out and saying, hey, this is not good. Let's get out of here."
         }
       ],
       "episode_release_date": "2026-10-26",
@@ -18094,10 +18078,6 @@ const dashboardData = {
         {
           "speaker": "James Sun",
           "quote": "If you look at the system card for it, it is much better at being resistant to prompt injection, it's much better at not taking any kind of unintended actions."
-        },
-        {
-          "speaker": "James Sun",
-          "quote": "One is, we run a business model is not in line with having agents use a product, right? You think about advertisers, publishers, who was business models entirely on advertising, if the agents using the website for them, then where's that revenue current from?"
         }
       ],
       "episode_release_date": "2026-10-26",
@@ -18122,16 +18102,12 @@ const dashboardData = {
       "podcast_episode_id": 611,
       "notable_quotes": [
         {
-          "speaker": "Satrini",
+          "speaker": "Citrini",
           "quote": "The next bottleneck is less about model ability and more about the speed and capacity of preclinical experimentation and consumables, plus scarce inputs like monkeys."
         },
         {
-          "speaker": "Satrini",
+          "speaker": "Citrini",
           "quote": "We ended up sending like 211 designs and the thing about just science normally doesn't have to function with like the stock market in the background but like originally the timeline was that we were going to get this published by like the beginning of September."
-        },
-        {
-          "speaker": "Satrini",
-          "quote": "If you're relying on the combined lab AR to be $500 billion, and that's where you're underwriting your kind of assumptions of what gets handled back into infrastructure. If it ends up being 300, then that's a disaster."
         }
       ],
       "episode_release_date": "2026-10-25",
@@ -18623,7 +18599,7 @@ const dashboardData = {
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "",
+      "last_mentioned_speaker": "Citrini",
       "novelty_score": 1.9552,
       "overton_score": 1.9552,
       "resonance_pct": 76,
@@ -18763,7 +18739,7 @@ const dashboardData = {
       "first_detected_episode_id": 236,
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "",
+      "last_mentioned_speaker": "Chamath Palihapitiya",
       "novelty_score": 1.466,
       "overton_score": 1.466,
       "resonance_pct": 69,
@@ -18961,7 +18937,7 @@ const dashboardData = {
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 612,
-      "last_mentioned_speaker": "",
+      "last_mentioned_speaker": "James Sun, Ari Weinstein",
       "novelty_score": 0.5903,
       "overton_score": 0.5903,
       "resonance_pct": 48,
@@ -19163,7 +19139,7 @@ const dashboardData = {
       "first_detected_episode_id": 567,
       "first_detected_speaker": "Pushmeet Kohli, Sal Candido",
       "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "",
+      "last_mentioned_speaker": "Citrini",
       "novelty_score": 2.1272,
       "overton_score": 2.1272,
       "resonance_pct": 78,
@@ -56843,7 +56819,7 @@ const dashboardData = {
       "Public evidence that Founder School students are actually hitting staged revenue milestones, with initial cohorts due during high-school timelines.",
       "Expansion announcements or enrollment data that show demand remains strong as the model scales beyond early adopters.",
       "Third-party validation of transcript-based teamwork scoring or other AI-native assessment tools.",
-      "AJA/Horowitz & Dresden Academy publishing concrete student outcomes or curriculum results that demonstrate a credible university redesign."
+      "Horowitz and Andreessen Academy publishing concrete student outcomes or curriculum results that demonstrate a credible university redesign."
     ],
     "related_insights": null,
     "audio_timestamp_start": null,
@@ -56851,7 +56827,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-27T07:13:43.000248",
     "updated_at": "2026-10-27 12:13:43",
-    "episode_evidence": "Joel Amond: We throw a teacher in front of the classroom, and what's the right way to do this? And now, if you look over the last couple of decades with cognitive science and learning science, plus the advent of LLMs, you can build a learning engine that teaches kids 10 times faster, right?\nJoel Amond: I just got the surveys back last week. 90% of our kids say, I love school. 50% of the kids at the school said, I would rather go to school than go on vacation.\nJoel Amond: And if you look at this learning engine and say, oh, this is like Ed Tech and I'm just going to put it in doing normal school day, it'll fail. It'll be just like everything else.\nJoel Amond: We guarantee that you'll start a business that will earn a million dollars of profit, while you're in high school, or we give you all your tuition back, right?\nJoel Amond: And I absolutely expect most learning software is going to be written by students. Most students are going to learn from learning software written by their peers, right?",
+    "episode_evidence": "Joe Liemandt: We throw a teacher in front of the classroom, and what's the right way to do this? And now, if you look over the last couple of decades with cognitive science and learning science, plus the advent of LLMs, you can build a learning engine that teaches kids 10 times faster, right?\nJoe Liemandt: I just got the surveys back last week. 90% of our kids say, I love school. 50% of the kids at the school said, I would rather go to school than go on vacation.\nJoe Liemandt: And if you look at this learning engine and say, oh, this is like Ed Tech and I'm just going to put it in doing normal school day, it'll fail. It'll be just like everything else.\nJoe Liemandt: We guarantee that you'll start a business that will earn a million dollars of profit, while you're in high school, or we give you all your tuition back, right?\nJoe Liemandt: And I absolutely expect most learning software is going to be written by students. Most students are going to learn from learning software written by their peers, right?",
     "falsification_tracks": [
       "By 2027-06-30, if the next published student survey from Alpha School shows less than 75% of students answering that they love school, source: Alpha School survey report.",
       "By 2027-12-31, if independent standardized testing or comparable growth data do not show at least 1.5x learning gains versus matched peers, source: state assessment records or third-party evaluation.",
@@ -58127,37 +58103,10 @@ const dashboardData = {
     "net_worth": "$3.90B"
   },
   {
-    "id": 584,
-    "name": "Erik Torenberg",
-    "slug": "erik-torenberg",
-    "bio": "Participant in the discussion on education redesign, college structure, and student motivation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-27 12:13:19",
-    "last_episode_title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-27",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-27 \u2022 Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
-    "last_proof_snippet": "Are you willing to redesign your school day so kids love it more than vacation? With cognitive science and learning science plus the advent of LLMs, you can build a learning engine that teaches kids 10 times faster.",
-    "supporting_takeaway": "Joel Amond reported that 90% of Alpha students say, \"I love school,\" and 50% would rather go to school than go on vacation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 583,
     "name": "Gagan Biyani",
     "slug": "gagan-biyani",
-    "bio": "Co-founder of Horowitz and Dresden Academy, focused on rethinking higher education for the AI era.",
+    "bio": "Co-founder of Horowitz and Andreessen Academy, focused on rethinking higher education for the AI era.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -58173,9 +58122,7 @@ const dashboardData = {
     "mention_score": 1,
     "mention_score_decayed": 1,
     "last_main_idea": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-27 \u2022 Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
-    "last_proof_snippet": "Are you willing to redesign your school day so kids love it more than vacation? With cognitive science and learning science plus the advent of LLMs, you can build a learning engine that teaches kids 10 times faster.",
-    "supporting_takeaway": "Joel Amond reported that 90% of Alpha students say, \"I love school,\" and 50% would rather go to school than go on vacation.",
+    "supporting_takeaway": "Joe Liemandt reported that 90% of Alpha students say, \"I love school,\" and 50% would rather go to school than go on vacation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -58200,8 +58147,6 @@ const dashboardData = {
     "mention_score": 1,
     "mention_score_decayed": 0.98,
     "last_main_idea": "Computer-use agents are approaching superhuman speed and safety, creating a large enterprise automation opportunity if auditability and approval controls can manage risk.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-26 \u2022 OpenAI: When AI Agents Use Computers Faster Than You",
-    "last_proof_snippet": "We've gotten computer use now to a place where it's faster than the average human, and I think we're getting really close where it is super human.",
     "supporting_takeaway": "James Sun says Astra is more reliable and safer because it uses fewer thinking tokens and is much better at resisting prompt injection.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -61689,6 +61634,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
+    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
+    "voice_tone": "Candid and thoughtful.",
+    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
+    "voice_profile_updated_at": "2026-08-18 04:34:22",
+    "last_seen": "2026-08-18 04:34:22",
+    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 2,
+    "mention_score_decayed": 0.4,
+    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Garrett Langley",
+      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
+      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
+      "derived": {
+        "current_role": "CEO of Flock"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
+        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
+      ],
+      "sections": [
+        {
+          "heading": "Flock's Impact",
+          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
+        },
+        {
+          "heading": "Safety and Privacy",
+          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
+        },
+        {
+          "heading": "Community Adoption",
+          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
     "id": 459,
     "name": "Satya Nadella",
     "slug": "satya-nadella",
@@ -61706,7 +61710,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The future of AI investment lies in companies that prioritize reliability, competition, and control over AI technologies while addressing economic impacts and interoperability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
     "last_proof_snippet": "",
@@ -61773,7 +61777,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Starlink's low market penetration indicates substantial growth potential in the satellite internet market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
     "last_proof_snippet": "Well, I think we'll put people down within a decade.",
@@ -61832,7 +61836,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in Lightfield presents an opportunity to capitalize on the growing demand for innovative B2B CRM solutions that prioritize customer insights and flexible pricing models.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-16 \u2022 The AI-Native CRM",
     "last_proof_snippet": "Three out of our five founding members came from Facebook, building a revenue team is a very rich problem set. It's something that everyone cares about, it could always be done better.",
@@ -61893,7 +61897,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in companies focused on thymic rejuvenation and scalable organ regeneration technologies presents a compelling opportunity in the burgeoning biotechnology sector.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-15 \u2022 Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
     "last_proof_snippet": "",
@@ -61952,7 +61956,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The core investment opportunity lies in companies that are at the forefront of AGI development and those enhancing compute infrastructure to meet rising AI demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-14 \u2022 Greg Brockman on Why OpenAI Says We\u2019re Entering the AGI Era",
     "last_proof_snippet": "We're now in the AGI era. Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI. We've seen it run coherently for 24 hours to go accomplish tasks that I think are quite amazing.",
@@ -61994,65 +61998,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
-    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
-    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
-    "voice_tone": "Candid and thoughtful.",
-    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
-    "voice_profile_updated_at": "2026-08-18 04:34:22",
-    "last_seen": "2026-08-18 04:34:22",
-    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-18",
-    "mention_score": 2,
-    "mention_score_decayed": 0.4,
-    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Garrett Langley",
-      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
-      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
-      "derived": {
-        "current_role": "CEO of Flock"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
-        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
-      ],
-      "sections": [
-        {
-          "heading": "Flock's Impact",
-          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
-        },
-        {
-          "heading": "Safety and Privacy",
-          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
-        },
-        {
-          "heading": "Community Adoption",
-          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 452,
@@ -62512,7 +62457,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-02 \u2022 Inside Moderna\u2019s Personalized Cancer Vaccine",
     "last_proof_snippet": "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed.",
@@ -62572,7 +62517,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Position nuclear as AI infrastructure: prefer names tied to firm hyperscaler offtake, enrichment/fuel, and factory-built SMR supply chains over pure fusion lottery tickets. Watch PPA announcements, NRC Part 57 and similar licensing milestones, and enrichment capacity expansions as catalysts; falsifiers are hyperscaler PPA pullbacks, permitting stalls, or a step-change cheaper firm clean power that undercuts $100/MWh nuclear bids.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-03 \u2022 MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
     "last_proof_snippet": "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance.",
@@ -62642,7 +62587,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-04 \u2022 Fei Fei Li: The Race to Build World Models For AI",
     "last_proof_snippet": "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction.",
@@ -77362,10 +77307,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4885.04,
-      "basket_change_pct": -2.3,
+      "basket_current_value": 4935.64,
+      "basket_change_pct": -1.29,
       "index_start": 100,
-      "basket_index_value": 97.7,
+      "basket_index_value": 98.71,
       "names": [
         {
           "ticker": "HIMS",
@@ -77374,9 +77319,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 27.59,
-          "current_value": 982.2,
-          "change_pct": -1.78,
+          "current_price": 28.12,
+          "current_value": 1001.07,
+          "change_pct": 0.11,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77388,9 +77333,9 @@ const dashboardData = {
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.56,
-          "current_value": 1069.07,
-          "change_pct": 6.91,
+          "current_price": 3.51,
+          "current_value": 1054.05,
+          "change_pct": 5.41,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77402,9 +77347,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 67.16,
-          "current_value": 861.35,
-          "change_pct": -13.86,
+          "current_price": 70.91,
+          "current_value": 909.45,
+          "change_pct": -9.05,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77416,9 +77361,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 173.25,
-          "current_value": 946.2,
-          "change_pct": -5.38,
+          "current_price": 176.12,
+          "current_value": 961.88,
+          "change_pct": -3.81,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77430,16 +77375,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 104.88,
-          "current_value": 1026.22,
-          "change_pct": 2.62,
+          "current_price": 103.14,
+          "current_value": 1009.19,
+          "change_pct": 0.92,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-27T08:23:27.263354"
+      "last_updated": "2026-10-27T10:29:02.805302"
     }
   ]
 }
