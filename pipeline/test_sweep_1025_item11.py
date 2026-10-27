@@ -36,8 +36,17 @@ def test_export_rerun_has_no_cut_off_snippets():
     assert after == []  # Musk's (#81) garbled host-intro snippet is unset (Oct 26 2026 quote fix)
 
 
+HOST_INTRO_IDS = {333, 418, 226}  # Oct 26 2026: retired exact-text cuts, now id-keyed unset rules
+
+
 def test_fixes_are_verbatim_and_match_the_site_files():
     site = {p["id"]: p for p in json.loads((ROOT / "site" / "data" / "pundits.json").read_text())}
+    # The Oct 25 exact-text cuts for these three stopped matching once the export re-selected
+    # (trimmed) their host-intro snippets; id-keyed unset rules replace them.
+    assert not HOST_INTRO_IDS & {r["id"] for r in _rules()}
+    for pid in HOST_INTRO_IDS:
+        if pid in site:
+            assert not site[pid].get("last_proof_snippet") and not site[pid].get("last_proof_cite"), pid
     names = {"Demisis Abbas": "Demis Hassabis",
              "Sergei Bren": "Sergey Brin", "Miramoradi": "Mira Murati"}
     restored = {548, 536, 546}

@@ -547,7 +547,9 @@ def _apply_pundit_rules(obj, excludes, overrides, merges=None, name_reps=None):
     - 'pundit_excludes': [{"id": 261, "name": "John Doe", ...}] drops that row from every exported
       pundit list (placeholders / non-people).
     - 'pundit_overrides': [{"id": 183, "set": {field: value}, "replacements": [[old, new]]}] sets
-      fields and applies WHOLE-WORD swaps to every string of that one pundit (slugs/URLs skipped) (bio fixes, collisions)."""
+      fields and applies WHOLE-WORD swaps to every string of that one pundit (slugs/URLs skipped) (bio fixes, collisions).
+      Optional "unset": [field] drops keys; optional "when": {field: value} applies the rule only if
+      every listed field of the row equals that value."""
     from pundit_exclusions import is_excluded_pundit
     merges = merges or []
     drop = {int(e["id"] if isinstance(e, dict) else e) for e in excludes}
@@ -557,6 +559,12 @@ def _apply_pundit_rules(obj, excludes, overrides, merges=None, name_reps=None):
 
     def fix_row(o):
         for r in by_id.get(o.get("id"), []):
+            # Oct 26 2026: optional 'when' {field: value} gate; the rule applies only when every
+            # listed field of the row equals its value (e.g. last_episode_title), so a fix for one
+            # episode's snippet no-ops once the pundit's latest episode changes.
+            when = r.get("when")
+            if isinstance(when, dict) and any(o.get(k) != v for k, v in when.items()):
+                continue
             for k, v in (r.get("set") or {}).items():
                 o[k] = copy.deepcopy(v)
             for k in r.get("unset") or []:
