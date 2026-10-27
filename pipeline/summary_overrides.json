@@ -1233,11 +1233,15 @@
     {
       "podcast_episode_id": 611,
       "insight_id": 622,
-      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #11 and #19: ASR 'Satrini' is Citrini (episode title); garbled quote #3 removed (not reworded). Oct 27 2026 follow-up (G, sweep_1027): LENS dropped (ticker + deep-dive ticker_analysis); it appears only in the Sarmaya Partners sponsor reads, same treatment as 'Return to Tangibles'.",
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #11 and #19: ASR 'Satrini' is Citrini (episode title); garbled quote #3 removed (not reworded). Oct 27 2026 follow-up (G, sweep_1027): LENS dropped (ticker + deep-dive ticker_analysis); it appears only in the Sarmaya Partners sponsor reads, same treatment as 'Return to Tangibles'. Oct 27 2026 follow-up 2 (G, sweep_1027 leftovers): the same line (Jack Farley's) cut from deepDive 622 episode_evidence.",
       "replacements": [
         [
           "Satrini",
           "Citrini"
+        ],
+        [
+          "\nJack Farley: If you're relying on the combined lab AR to be $500 billion, and that's where you're underwriting your kind of assumptions of what gets handled back into infrastructure. If it ends up being 300, then that's a disaster.",
+          ""
         ]
       ],
       "drop_quotes": [
@@ -1250,16 +1254,22 @@
     {
       "podcast_episode_id": 612,
       "insight_id": 623,
-      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #17: garbled transcript quote #3 removed (not reworded). Oct 27 2026 follow-up (G, sweep_1027): quote #1 ('fewer thinking tokens') removed; likely Ari Weinstein's answer, not James Sun's.",
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #17: garbled transcript quote #3 removed (not reworded). Oct 27 2026 follow-up (G, sweep_1027): quote #1 ('fewer thinking tokens') removed; likely Ari Weinstein's answer, not James Sun's. Oct 27 2026 follow-up 2 (G, sweep_1027 leftovers): the same line cut from deepDive 623 episode_evidence.",
       "drop_quotes": [
         "One is, we run a business model is not in line with having agents use a product",
         "uses fewer thinking tokens to do the same task"
+      ],
+      "replacements": [
+        [
+          "James Sun: One is it is a little bit faster on average because it uses fewer thinking tokens to do the same task.\n",
+          ""
+        ]
       ]
     },
     {
       "podcast_episode_id": 614,
       "insight_id": 624,
-      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #18: garbled transcript quote #3 removed (not reworded). Oct 27 2026 follow-up (G, sweep_1027): the same garbled line cut from the card summary and deepDive 624 episode_evidence.",
+      "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #18: garbled transcript quote #3 removed (not reworded). Oct 27 2026 follow-up (G, sweep_1027): the same garbled line cut from the card summary and deepDive 624 episode_evidence. Oct 27 2026 follow-up 2 (G, sweep_1027 leftovers): podcast_summaries takeaway that re-quotes the line dropped.",
       "drop_quotes": [
         "But they especially abandon the lousy places fast."
       ],
@@ -1272,6 +1282,9 @@
           "Ian Quigley: But they especially abandon the lousy places fast. And then",
           "Ian Quigley: And then"
         ]
+      ],
+      "drop_takeaways": [
+        "\"abandon the lousy places fast,\""
       ]
     },
     {
