@@ -55,7 +55,7 @@ def _cards():
             {"id": 623, "podcast_episode_id": 612, "title": "OpenAI", "notable_quotes": [
                 {"speaker": "James Sun", "quote": "One is it is a little bit faster on average because it uses fewer thinking tokens to do the same task."},
                 {"speaker": "James Sun", "quote": "If you look at the system card for it."}]},
-            {"id": 617, "podcast_episode_id": 608, "title": "Noble", "tickers_mentioned": ["NVDA", "LENS"]},
+            {"id": 900, "podcast_episode_id": 900, "title": "Other", "tickers_mentioned": ["NVDA", "LENS"]},
         ]},
         "deepDives": {
             "624": {"id": 624, "insight_id": 624, "podcast_episode_id": 614, "insight_title": "x",
@@ -74,7 +74,8 @@ def test_card_cuts_scoped_and_idempotent():
     assert data["deepDives"]["624"]["episode_evidence"] == "Ian Quigley: Before.\nIan Quigley: And then more."
     assert ins[622]["tickers_mentioned"] == ["CRL", "META"]
     assert "LENS" not in json.dumps(data["deepDives"]["622"])
-    assert ins[617]["tickers_mentioned"] == ["NVDA", "LENS"]  # other episodes keep LENS
+    # other episodes keep LENS (617 itself now drops it: sponsor-only, follow-up 3)
+    assert ins[900]["tickers_mentioned"] == ["NVDA", "LENS"]
     assert [q["quote"] for q in ins[623]["notable_quotes"]] == ["If you look at the system card for it."]
     once = copy.deepcopy(data)
     export_data._apply_summary_overrides(data)
