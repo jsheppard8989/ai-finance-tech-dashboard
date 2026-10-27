@@ -67,7 +67,7 @@ def test_item11_override_still_wins(tmp_path, monkeypatch):
 def test_every_real_item11_rule_is_honoured():
     rules = json.loads((ROOT / "pipeline" / "summary_overrides.json").read_text())["pundit_overrides"]
     item11 = [r for r in rules if "item 11:" in r.get("_note", "")]
-    assert len(item11) == 267
+    assert len(item11) == 264  # Oct 26 2026: #333/#418/#226 moved to id-keyed unset rules
     for r in item11:
         (old, _new), = r["replacements"]
         assert dm._overridden_legacy(r["id"], old), r["id"]
