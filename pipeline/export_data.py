@@ -314,8 +314,8 @@ def _apply_summary_overrides(obj):
       fields), e.g. mis-transcribed speaker names in pundits/overton/podcastGuests.
     - 'global_name_replacements': WHOLE-WORD [old, new] swaps on every string except titles,
       slugs and URLs, raw transcript snippets included (Oct 19 2026, e.g. "Oliver Karaz").
-    - 'ticker_renames' / 'global_drop_tickers': applied to every record that has
-      tickers_mentioned, key_tickers, or ticker_analysis (after per-card rules).
+    - 'ticker_renames' / 'global_drop_tickers' / 'sponsor_tickers': applied to every record that
+      has tickers_mentioned, key_tickers, or ticker_analysis (after per-card rules).
     """
     rules_all = _load_override_rules()
     rules = rules_all.get("summaries", [])
@@ -324,7 +324,12 @@ def _apply_summary_overrides(obj):
         _apply_title_overrides(obj, title_ovs)
     global_reps = rules_all.get("global_replacements", [])
     global_ticker_renames = rules_all.get("ticker_renames", [])
-    global_drop_tickers = rules_all.get("global_drop_tickers", [])
+    global_drop_tickers = list(rules_all.get("global_drop_tickers", []))
+    # Oct 28 2026 (G, sweep_1028): 'sponsor_tickers' are podcast sponsors (e.g. LENS, the Sarmaya
+    # Thematic ETF read on Monetary Matters), never a guest's pick. Dropped from every ticker list
+    # (tickers_mentioned, key_tickers, deep-dive ticker_analysis) of every card; priceSnapshot and
+    # free text are untouched ('lens' is also an ordinary word).
+    global_drop_tickers += [t for t in rules_all.get("sponsor_tickers", []) if t not in global_drop_tickers]
 
     def fix_record(o, r):
         reps = r.get("replacements", [])

@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis. Oct 14 2026 (Red Team): 'ticker_renames' and 'global_drop_tickers' fix fake/defunct/private symbols in tickers_mentioned, key_tickers and ticker_analysis on every card; per-card 'rename_tickers' for context-dependent symbols. Oct 20 2026: a 'summaries' rule may carry 'podcast_episode_id' (+ optional 'insight_id') to match that episode's cards by id instead of title text; 'drop_quotes' removes notable_quotes entries whose quote contains a given substring. 'title_overrides' retitle one episode by id (insight/Deep Dive/podcast-summary title fields, Overton first/last_mentioned_episode_title by episode id, pundit/guest last_episode_title and last_proof_cite by podcast + date + old title); never a global string swap. Oct 20 2026 (pundit sweep): 'pundit_excludes' drop placeholder/non-person pundit rows from every exported pundit list by pundit id (DB rows kept); 'pundit_overrides' set fields and apply whole-word (hyphen-aware) swaps on one pundit row by id, after the global name swaps. Oct 20 2026 (G decisions): 'pundit_merges' [{keep, merge:[ids]}] fold duplicate pundit rows into the kept row (latest appearance fields, combined count without double counting, Presence recomputed); merged-away ids are also in 'pundit_excludes'. 'pundit_overrides' may 'unset' keys. Oct 26 2026: a pundit_overrides rule may carry 'when' {field: value} (e.g. last_episode_title) and then applies only when the row matches. Host rows are also hidden by pundit_exclusions.is_excluded_pundit (ids + corrected-name check) after all name overrides.",
+  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis. Oct 14 2026 (Red Team): 'ticker_renames' and 'global_drop_tickers' fix fake/defunct/private symbols in tickers_mentioned, key_tickers and ticker_analysis on every card; per-card 'rename_tickers' for context-dependent symbols. Oct 20 2026: a 'summaries' rule may carry 'podcast_episode_id' (+ optional 'insight_id') to match that episode's cards by id instead of title text; 'drop_quotes' removes notable_quotes entries whose quote contains a given substring. 'title_overrides' retitle one episode by id (insight/Deep Dive/podcast-summary title fields, Overton first/last_mentioned_episode_title by episode id, pundit/guest last_episode_title and last_proof_cite by podcast + date + old title); never a global string swap. Oct 20 2026 (pundit sweep): 'pundit_excludes' drop placeholder/non-person pundit rows from every exported pundit list by pundit id (DB rows kept); 'pundit_overrides' set fields and apply whole-word (hyphen-aware) swaps on one pundit row by id, after the global name swaps. Oct 20 2026 (G decisions): 'pundit_merges' [{keep, merge:[ids]}] fold duplicate pundit rows into the kept row (latest appearance fields, combined count without double counting, Presence recomputed); merged-away ids are also in 'pundit_excludes'. 'pundit_overrides' may 'unset' keys. Oct 26 2026: a pundit_overrides rule may carry 'when' {field: value} (e.g. last_episode_title) and then applies only when the row matches. Host rows are also hidden by pundit_exclusions.is_excluded_pundit (ids + corrected-name check) after all name overrides. 'sponsor_tickers' (Oct 28 2026): podcast-sponsor symbols (LENS) dropped from tickers_mentioned / key_tickers / deep-dive ticker_analysis on every card (same scope as 'global_drop_tickers'); priceSnapshot and free text untouched.",
   "summaries": [
     {
       "insight_id": 572,
@@ -1328,6 +1328,84 @@
       "drop_tickers": [
         "LENS"
       ]
+    },
+    {
+      "insight_id": 627,
+      "podcast_episode_id": 617,
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #1-#4, Vincent Deluard (Monetary Matters): takeaway wording ('Treasure the next 6 months in Treasuries' -> 'Favor Treasuries over equities for the next 6 months'); LENS dropped (sponsor read, same as 617/560/569/574/600; also covered by the global 'sponsor_tickers' rule); sentiment neutral -> bearish (the site's negative value: stagflation + bear market call); garbled quote #1 ('...the Fed being of hiking cycle') dropped, not rewritten.",
+      "replacements": [
+        [
+          "Treasure the next 6 months in Treasuries over equities because",
+          "Favor Treasuries over equities for the next 6 months because"
+        ]
+      ],
+      "drop_tickers": [
+        "LENS"
+      ],
+      "set_sentiment": "bearish",
+      "drop_quotes": [
+        "the index at two percent from the old time high and the Fed being of hiking cycle"
+      ]
+    },
+    {
+      "insight_id": 628,
+      "podcast_episode_id": 616,
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #6-#9, Anthropic on Latent Space: the solo intro is host swyx (not 'Pam'); guest 'Caitlin' is Katelyn Lesse (Head of Engineering, Claude Platform) per the show notes. Garbled 'Trillion 12 month revenue' quote #1 dropped; quote speakers fixed (quote text unchanged); the unsourced '129%' line replaced with what the transcript says. The bare 'Caitlin' -> 'Katelyn Lesse' swap runs last (after the summary phrases) and only reaches the two quote speaker labels; no quote text contains the name.",
+      "drop_quotes": [
+        "Trillion 12 month revenue per employee is now six point six million"
+      ],
+      "replacements": [
+        [
+          "Pam highlights",
+          "Host swyx highlights"
+        ],
+        [
+          "Pam says over 50%",
+          "swyx says over 50%"
+        ],
+        [
+          "which Pam says testers view",
+          "which swyx says testers view"
+        ],
+        [
+          "Caitlin spends",
+          "Katelyn Lesse spends"
+        ],
+        [
+          "Caitlin describes",
+          "Lesse describes"
+        ],
+        [
+          "Anthropic moved from losing 129% of every revenue dollar to making $2 for every $1 of cost",
+          "Anthropic went from losing about half a dollar for every dollar of revenue in Q2 2025 to making $2 for every $1 of cost"
+        ],
+        [
+          "Caitlin",
+          "Katelyn Lesse"
+        ]
+      ]
+    },
+    {
+      "insight_id": 629,
+      "podcast_episode_id": 618,
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #11-#13, Mark Cuban (a16z): 'skews' -> 'SKUs' in summary text and the deep-dive 629 falsification track ('CosplusTrugs.com' -> 'CostPlusDrugs.com'); garbled quote #3 ('Ship a two a research hospital') dropped, not rewritten. Transcript lines in episode_evidence are left as-is.",
+      "replacements": [
+        [
+          "about 4,000 skews",
+          "about 4,000 SKUs"
+        ],
+        [
+          "roughly 4,000 skews",
+          "roughly 4,000 SKUs"
+        ],
+        [
+          "CosplusTrugs.com has fewer than 3,000 drug skews",
+          "CostPlusDrugs.com has fewer than 3,000 drug SKUs"
+        ]
+      ],
+      "drop_quotes": [
+        "Ship a two a research hospital"
+      ]
     }
   ],
   "terms": [
@@ -1486,6 +1564,72 @@
       "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #14: Overton 'Dyson Swarm' last-mentioned speaker fix, gated to episode 597 so a later mention keeps its own speaker.",
       "set": {
         "last_mentioned_speaker": "Chamath Palihapitiya"
+      }
+    },
+    {
+      "id": 317,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 616
+      },
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #10: Overton 'Sub-agents' last-mentioned speaker 'Caitlin, Angela, Kaitlyn' -> Latent Space guests Katelyn Lesse and Angela Jiang (show notes), gated to episode 616 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      }
+    },
+    {
+      "id": 299,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 616
+      },
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #10: Overton 'Pacing the Frontier' last-mentioned speaker 'Caitlin, Angela, Kaitlyn' -> Latent Space guests Katelyn Lesse and Angela Jiang (show notes), gated to episode 616 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      }
+    },
+    {
+      "id": 285,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 616
+      },
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #10: Overton 'Loops' last-mentioned speaker 'Caitlin, Angela, Kaitlyn' -> Latent Space guests Katelyn Lesse and Angela Jiang (show notes), gated to episode 616 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      }
+    },
+    {
+      "id": 270,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 616
+      },
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #10: Overton 'Taste' last-mentioned speaker 'Caitlin, Angela, Kaitlyn' -> Latent Space guests Katelyn Lesse and Angela Jiang (show notes), gated to episode 616 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      }
+    },
+    {
+      "id": 97,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 616
+      },
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #10: Overton 'Distillation' last-mentioned speaker 'Caitlin, Angela, Kaitlyn' -> Latent Space guests Katelyn Lesse and Angela Jiang (show notes), gated to episode 616 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      }
+    },
+    {
+      "id": 161,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 616
+      },
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #10: Overton 'AGI' last-mentioned speaker 'Caitlin, Angela, Kaitlyn' -> Latent Space guests Katelyn Lesse and Angela Jiang (show notes), gated to episode 616 so a later mention keeps its own speaker.",
+      "set": {
+        "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
       }
     }
   ],
@@ -3029,6 +3173,9 @@
     "Altias",
     "C.O.R.N",
     "CROWD"
+  ],
+  "sponsor_tickers": [
+    "LENS"
   ],
   "title_overrides": [
     {
@@ -6957,6 +7104,23 @@
           "Amond",
           "Liemandt"
         ]
+      ]
+    },
+    {
+      "id": 585,
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #1 and #5, Vincent Deluard: main idea wording (same fix as insight 627's takeaway); last_proof_snippet is garbled transcript ('trading video data to only day moving average'), so unset snippet + cite. Gated to the episode.",
+      "when": {
+        "last_episode_title": "The Fed Put Is Dead: Why Stagflation & a Bear Market Are Next | Vincent Deluard | StoneX"
+      },
+      "replacements": [
+        [
+          "Treasure the next 6 months in Treasuries over equities because",
+          "Favor Treasuries over equities for the next 6 months because"
+        ]
+      ],
+      "unset": [
+        "last_proof_snippet",
+        "last_proof_cite"
       ]
     }
   ],
