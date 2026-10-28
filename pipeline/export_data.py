@@ -310,6 +310,9 @@ def _apply_summary_overrides(obj):
       Optional 'drop_takeaways' removes key_takeaways entries containing any needle.
       Optional 'paraphrase_quotes' [[needle, summary]] turns a paraphrased notable quote into a
       summary line (quote=summary, paraphrase=True; shown without quote marks).
+      Optional 'relabel_quotes' [[needle, speaker]] fixes a notable quote's speaker label only.
+      Optional 'drop_list_items' {field: [needle]} removes list entries (e.g. falsification_tracks)
+      containing any needle.
     - 'global_replacements': exact swaps applied to every string anywhere (except title
       fields), e.g. mis-transcribed speaker names in pundits/overton/podcastGuests.
     - 'global_name_replacements': WHOLE-WORD [old, new] swaps on every string except titles,
@@ -352,6 +355,15 @@ def _apply_summary_overrides(obj):
         # (rendered without quote marks or a "Speaker:" label).
         if r.get("paraphrase_quotes") and "notable_quotes" in o:
             o["notable_quotes"] = _paraphrase_quotes(o["notable_quotes"], r["paraphrase_quotes"])
+        # Oct 28 2026 (G, deep dive drafts 616/625/628): 'relabel_quotes' [[needle, speaker]] sets the
+        # speaker label of a notable quote whose text contains needle (quote text never changes).
+        if r.get("relabel_quotes") and "notable_quotes" in o:
+            o["notable_quotes"] = _relabel_quotes(o["notable_quotes"], r["relabel_quotes"])
+        # Oct 28 2026 (G, deep dive drafts 616/625/628): 'drop_list_items' {field: [needle]} removes
+        # entries of a list field (e.g. Deep Dive falsification_tracks) containing any needle.
+        for field, needles in (r.get("drop_list_items") or {}).items():
+            if field in o and needles:
+                o[field] = _drop_quotes(o[field], needles)
         # Oct 21 2026: curated sentiment correction (scoped by ids like the other fields)
         if r.get("set_sentiment") and "sentiment" in o:
             o["sentiment"] = r["set_sentiment"]
@@ -476,6 +488,32 @@ def _drop_quotes(value, needles):
             return value
         if isinstance(parsed, list):
             return json.dumps([q for q in parsed if keep(q)])
+    return value
+
+
+def _relabel_quotes(value, pairs):
+    """Oct 28 2026: [[needle, speaker], ...]. A notable_quotes entry whose quote text contains needle
+    gets speaker=speaker; the quote text is untouched (idempotent; list or JSON string)."""
+    def fix(items):
+        out = []
+        for q in items:
+            if isinstance(q, dict):
+                text = q.get("quote", "") or ""
+                for needle, speaker in pairs:
+                    if needle and needle in text:
+                        q = dict(q, speaker=speaker)
+                        break
+            out.append(q)
+        return out
+    if isinstance(value, list):
+        return fix(value)
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except Exception:
+            return value
+        if isinstance(parsed, list):
+            return json.dumps(fix(parsed))
     return value
 
 

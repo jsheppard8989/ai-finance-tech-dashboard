@@ -88,8 +88,8 @@ def test_627_deluard_card():  # fixes 1-4
 def test_628_anthropic_card():  # fixes 6-9
     data = _apply(_payload())
     c = data["archive"]["insights"][1]
-    assert [q["speaker"] for q in c["notable_quotes"]] == ["Katelyn Lesse", "Katelyn Lesse"]
-    assert [q["quote"] for q in c["notable_quotes"]] == [Q628[1]["quote"], Q628[2]["quote"]]  # text unchanged
+    # Oct 28 2026 deep dive draft review (G_fixes.md 628 fix 6): all three 628 quotes are now dropped.
+    assert c["notable_quotes"] == []
     s = c["summary"]
     assert "Pam" not in s and "Caitlin" not in s and "129%" not in s
     for want in ("Host swyx highlights", "swyx says over 50%", "which swyx says testers view",
