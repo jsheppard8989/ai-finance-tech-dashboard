@@ -1358,7 +1358,7 @@
     {
       "insight_id": 628,
       "podcast_episode_id": 616,
-      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #6-#9, Anthropic on Latent Space: the solo intro is host swyx (not 'Pam'); guest 'Caitlin' is Katelyn Lesse (Head of Engineering, Claude Platform) per the show notes. Garbled 'Trillion 12 month revenue' quote #1 dropped; quote speakers fixed (quote text unchanged); the unsourced '129%' line replaced with what the transcript says. The bare 'Caitlin' -> 'Katelyn Lesse' swap runs last (after the summary phrases) and only reaches the two quote speaker labels; no quote text contains the name.",
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #6-#9, Anthropic on Latent Space: the solo intro is host swyx (not 'Pam'); guest 'Caitlin' is Katelyn Lesse (Head of Engineering, Claude Platform) per the show notes. Garbled 'Trillion 12 month revenue' quote #1 dropped; quote speakers fixed (quote text unchanged); the unsourced '129%' line replaced with what the transcript says. The bare 'Caitlin' -> 'Katelyn Lesse' swap runs last (after the summary phrases) and only reaches the two quote speaker labels; no quote text contains the name. Oct 28 2026 plumbing fix (Wendy): 'Pam:' -> 'swyx:' speaker-label swap added next to the bare Caitlin swap, for regenerated deep-dive evidence lines that carry the diarized 'Pam:' label.",
       "drop_quotes": [
         "Trillion 12 month revenue per employee is now six point six million"
       ],
@@ -1386,6 +1386,10 @@
         [
           "Anthropic moved from losing 129% of every revenue dollar to making $2 for every $1 of cost",
           "Anthropic went from losing about half a dollar for every dollar of revenue in Q2 2025 to making $2 for every $1 of cost"
+        ],
+        [
+          "Pam:",
+          "swyx:"
         ],
         [
           "Caitlin",
