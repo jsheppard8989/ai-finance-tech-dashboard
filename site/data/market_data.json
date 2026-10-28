@@ -7,7 +7,7 @@
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills and TIPS excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-28T13:20:17",
+    "last_updated": "2026-10-28T13:51:50",
     "as_of_date": "2026-10-28",
     "next_refunding_announcement": {
       "date": "2026-11-04",
@@ -253,7 +253,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-28T13:20:15.884180",
+    "last_fetched": "2026-10-28T13:51:48.562075",
     "h100": {
       "daily_date": "Oct 28, 2026",
       "daily_date_iso": "2026-10-28",
@@ -1162,7 +1162,7 @@
     "as_of": "2026-10-28T12:37:52.084Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-10-28T13:20:16.111965",
+    "last_fetched": "2026-10-28T13:51:48.935367",
     "b200": {
       "points": [
         {
@@ -1420,6 +1420,6 @@
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
     "as_of": "2026-10-28",
-    "generated_at": "2026-10-28T13:20:16"
+    "generated_at": "2026-10-28T13:51:48"
   }
 }
