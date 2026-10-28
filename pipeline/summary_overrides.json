@@ -1332,8 +1332,16 @@
     {
       "insight_id": 627,
       "podcast_episode_id": 617,
-      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #1-#4, Vincent Deluard (Monetary Matters): takeaway wording ('Treasure the next 6 months in Treasuries' -> 'Favor Treasuries over equities for the next 6 months'); LENS dropped (sponsor read, same as 617/560/569/574/600; also covered by the global 'sponsor_tickers' rule); sentiment neutral -> bearish (the site's negative value: stagflation + bear market call); garbled quote #1 ('...the Fed being of hiking cycle') dropped, not rewritten.",
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #1-#4, Vincent Deluard (Monetary Matters): takeaway wording ('Treasure the next 6 months in Treasuries' -> 'Favor Treasuries over equities for the next 6 months'); LENS dropped (sponsor read, same as 617/560/569/574/600; also covered by the global 'sponsor_tickers' rule); sentiment neutral -> bearish (the site's negative value: stagflation + bear market call); garbled quote #1 ('...the Fed being of hiking cycle') dropped, not rewritten. Oct 28 2026 follow-up (G, sweep_1028): the same garbled line cut from deepDive 627 episode_evidence (whole line removed, not reworded; same mechanism as 624 on 10/27).",
       "replacements": [
+        [
+          "Vincent Deluard: If you look at the consumer names, I mean, you are seeing just complete massacre most names, like your Nike, your Harley Davidson, your Renault, and McDonald's are down 50, 60% plus, which is very unusual for when you see the index at two percent from the old time high and the Fed being of hiking cycle.\n",
+          ""
+        ],
+        [
+          "\nVincent Deluard: If you look at the consumer names, I mean, you are seeing just complete massacre most names, like your Nike, your Harley Davidson, your Renault, and McDonald's are down 50, 60% plus, which is very unusual for when you see the index at two percent from the old time high and the Fed being of hiking cycle.",
+          ""
+        ],
         [
           "Treasure the next 6 months in Treasuries over equities because",
           "Favor Treasuries over equities for the next 6 months because"
@@ -1388,8 +1396,24 @@
     {
       "insight_id": 629,
       "podcast_episode_id": 618,
-      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #11-#13, Mark Cuban (a16z): 'skews' -> 'SKUs' in summary text and the deep-dive 629 falsification track ('CosplusTrugs.com' -> 'CostPlusDrugs.com'); garbled quote #3 ('Ship a two a research hospital') dropped, not rewritten. Transcript lines in episode_evidence are left as-is.",
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #11-#13, Mark Cuban (a16z): 'skews' -> 'SKUs' in summary text and the deep-dive 629 falsification track ('CosplusTrugs.com' -> 'CostPlusDrugs.com'); garbled quote #3 ('Ship a two a research hospital') dropped, not rewritten. Oct 28 2026 follow-up (G, sweep_1028): two garbled transcript lines ('...4,000 skews give or take...' and '...Ship a two a research hospital...') cut from deepDive 629 episode_evidence (whole lines removed, not reworded; same mechanism as 624 on 10/27).",
       "replacements": [
+        [
+          "Mark Cuban: So, now, as you said, we have 4,000 skews give or take, and our business every week is up into the right.\n",
+          ""
+        ],
+        [
+          "\nMark Cuban: So, now, as you said, we have 4,000 skews give or take, and our business every week is up into the right.",
+          ""
+        ],
+        [
+          "Mark Cuban: These pods cost about $20 million. Ship a two a research hospital. And if they specialize in any types of therapies for those people that are in the N of 1 category, they can make it and iterate very quickly there.\n",
+          ""
+        ],
+        [
+          "\nMark Cuban: These pods cost about $20 million. Ship a two a research hospital. And if they specialize in any types of therapies for those people that are in the N of 1 category, they can make it and iterate very quickly there.",
+          ""
+        ],
         [
           "about 4,000 skews",
           "about 4,000 SKUs"
