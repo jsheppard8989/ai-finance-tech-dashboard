@@ -31,6 +31,7 @@ from typing import Any, Dict, List, Optional, Tuple
 sys.path.insert(0, str(Path(__file__).parent))
 
 from workspace_paths import DB_PATH, INBOX_DIR, TRANSCRIPT_DIR
+from deepdive_skips import filter_skipped_ids, load_permanent_skips
 
 # Optional Stage A digest (same markdown file used for Insight + Deep Dive)
 def _load_podcast_source_text(transcript_path: Path) -> str:
@@ -1435,11 +1436,12 @@ def run_deep_dive_generation_attempts(
     return None, last_error or "generation failed after retries", final_usage
 
 
-def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]:
+def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = False) -> Tuple[int, int, int]:
     """Generate deep dives for insights that don't have them.
 
     Returns (generated_count, attempted_count, quarantined_count).
-    attempted_count excludes insights already blocked from retry.
+    attempted_count excludes insights already blocked from retry and permanent skips
+    (deepdive_permanent_skips.json) unless force_skipped=True.
     """
 
     # Force unbuffered output for real-time logging
@@ -1486,6 +1488,17 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
         )
 
     insights = cursor.fetchall()
+    if not force_skipped:
+        try:
+            perm_skips = load_permanent_skips()
+        except Exception as exc:  # a bad config must not break the nightly run; blocked rows stay excluded
+            print(f"  ⚠ Could not read deepdive_permanent_skips.json ({exc}); no permanent skips applied", flush=True)
+            perm_skips = {}
+        skipped_rows = [r for r in insights if r["id"] in perm_skips]
+        for r in skipped_rows:
+            print(f"  ⏭ Permanent skip: insight {r['id']} ({perm_skips[r['id']].get('reason', 'no reason')}); "
+                  "use --force to retry anyway", flush=True)
+        insights = [r for r in insights if r["id"] not in perm_skips]
 
     if not insights:
         conn.close()
@@ -1691,6 +1704,8 @@ if __name__ == "__main__":
     )
     parser.add_argument('--episode-id', type=int, help='Generate deep dive for a specific episode ID')
     parser.add_argument('--force-legacy', action='store_true', help='Force legacy gpt-5.5 mode for this run (ignores DEEPDIVE_MODE)')
+    parser.add_argument('--force', action='store_true',
+                        help='Also run insights listed in deepdive_permanent_skips.json (skipped by default)')
     parser.add_argument('--fix-placeholder-tickers', action='store_true', help='One-time: remove TICKER1/Ticker2 etc. from existing DB rows')
     args = parser.parse_args()
     
@@ -1703,7 +1718,18 @@ if __name__ == "__main__":
         print("Forcing legacy mode (gpt-5.5)", flush=True)
 
     insight_ids = None
-    
+    perm_skips = {} if args.force else load_permanent_skips()
+
+    def _drop_permanent_skips(ids):
+        kept, skipped = filter_skipped_ids(ids, perm_skips, force=args.force)
+        for i in skipped:
+            print(f"⚠ Insight {i} is a permanent skip ({perm_skips[i].get('reason', 'no reason')}); "
+                  "not retrying. Pass --force to override.", flush=True)
+        if ids and not kept:
+            print("Nothing to do: every requested insight is a permanent skip.", flush=True)
+            sys.exit(0)
+        return kept
+
     if args.episode_id:
         conn = get_db_connection()
         row = conn.execute(
@@ -1716,6 +1742,7 @@ if __name__ == "__main__":
             sys.exit(1)
         insight_ids = [row["id"]]
         print(f"Episode {args.episode_id} → insight {insight_ids[0]}", flush=True)
+        insight_ids = _drop_permanent_skips(insight_ids)
         conn = get_db_connection()
         conn.execute("DELETE FROM deep_dive_content WHERE insight_id = ?", (insight_ids[0],))
         conn.commit()
@@ -1726,6 +1753,7 @@ if __name__ == "__main__":
         if not raw:
             print('No IDs in --force-ids', flush=True)
             sys.exit(1)
+        raw = _drop_permanent_skips(raw)
         conn = get_db_connection()
         ensure_deep_dive_schema(conn)
         ph = ','.join('?' * len(raw))
@@ -1735,9 +1763,9 @@ if __name__ == "__main__":
         print(f'Removed Deep Dive row(s) for insight_id(s): {raw}', flush=True)
         insight_ids = raw
     elif args.insight_ids:
-        insight_ids = [int(x.strip()) for x in args.insight_ids.split(',')]
+        insight_ids = _drop_permanent_skips([int(x.strip()) for x in args.insight_ids.split(',')])
 
-    gen, need, quarantined = generate_missing_deepdives(insight_ids)
+    gen, need, quarantined = generate_missing_deepdives(insight_ids, force_skipped=args.force)
     if need > 0 and gen == 0 and quarantined == 0:
         clients = get_ai_clients()
         if not clients:
