@@ -50,10 +50,18 @@ def test_fixes_are_verbatim_and_match_the_site_files():
     names = {"Demisis Abbas": "Demis Hassabis",
              "Sergei Bren": "Sergey Brin", "Miramoradi": "Mira Murati"}
     restored = {548, 536, 546}
+    pre = {p["id"]: p for p in _old("site/data/pundits.json")}
     for r in _rules():
         (old, new), = r["replacements"]
         if r["id"] in site:
-            assert site[r["id"]].get("last_proof_snippet") == new
+            moved_on = (r["id"] in pre and site[r["id"]].get("last_episode_title")
+                        != pre[r["id"]].get("last_episode_title"))
+            if moved_on:
+                # Oct 28 2026: the pundit's next episode brought a new snippet (e.g. #349 Mark Cuban,
+                # a16z 10/28), so the exact-text rule no-ops by design; the old cut-off text is gone.
+                assert old not in (site[r["id"]].get("last_proof_snippet") or ""), r["id"]
+            else:
+                assert site[r["id"]].get("last_proof_snippet") == new
         if not new or r["id"] in restored:
             continue
         for a, b in names.items():

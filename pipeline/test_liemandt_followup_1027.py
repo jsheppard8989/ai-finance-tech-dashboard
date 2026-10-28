@@ -74,8 +74,8 @@ def test_card_cuts_scoped_and_idempotent():
     assert data["deepDives"]["624"]["episode_evidence"] == "Ian Quigley: Before.\nIan Quigley: And then more."
     assert ins[622]["tickers_mentioned"] == ["CRL", "META"]
     assert "LENS" not in json.dumps(data["deepDives"]["622"])
-    # other episodes keep LENS (617 itself now drops it: sponsor-only, follow-up 3)
-    assert ins[900]["tickers_mentioned"] == ["NVDA", "LENS"]
+    # Oct 28 2026: LENS is now a global 'sponsor_tickers' symbol, so other episodes drop it too
+    assert ins[900]["tickers_mentioned"] == ["NVDA"]
     assert [q["quote"] for q in ins[623]["notable_quotes"]] == ["If you look at the system card for it."]
     once = copy.deepcopy(data)
     export_data._apply_summary_overrides(data)

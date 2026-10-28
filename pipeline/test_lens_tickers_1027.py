@@ -37,10 +37,11 @@ def test_lens_dropped_for_sponsor_only_episodes_by_id():
         assert list(data["deepDives"][str(iid)]["ticker_analysis"]) == ["NVDA"]
         assert eps[pe]["key_tickers"] == ["NVDA"]
     assert data["mainContent"]["insights"][0]["tickers_mentioned"] == ["NVDA"]
-    # an unrelated episode keeps LENS (no global drop)
-    assert by[900]["tickers_mentioned"] == ["NVDA", "LENS"]
-    assert "LENS" in data["deepDives"]["900"]["ticker_analysis"]
-    assert eps[900]["key_tickers"] == ["NVDA", "LENS"]
+    # Oct 28 2026 (sweep_1028): LENS is a global 'sponsor_tickers' symbol, so an unrelated episode
+    # drops it too (was: kept, no global drop); see test_sweep_1028.py
+    assert by[900]["tickers_mentioned"] == ["NVDA"]
+    assert "LENS" not in data["deepDives"]["900"]["ticker_analysis"]
+    assert eps[900]["key_tickers"] == ["NVDA"]
     once = copy.deepcopy(data)
     export_data._apply_summary_overrides(data)
     export_data._normalize_tickers_mentioned(data)
