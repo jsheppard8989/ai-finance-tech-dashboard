@@ -7,3 +7,5 @@ https://api.substack.com/feed/podcast/1084089.rss
 https://api.substack.com/feed/podcast/69345.rss
 # Macro Voices - Treasury/Fed liquidity plumbing, curve/positioning
 https://feed.podbean.com/macrovoices/feed.xml
+# TRIAL (approved by Jared 2026-10-28 2:37 PM CT, decisions.md): Blockspace - miners, neoclouds, data-center deals; 4-week trial, review ~2026-11-25
+https://rss.beehiiv.com/podcasts/019dbc32-d0bc-72d2-a970-951247013bb3.xml
