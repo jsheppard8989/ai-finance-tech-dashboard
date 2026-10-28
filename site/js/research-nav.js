@@ -7,7 +7,8 @@
   var RESEARCH_PAGES = [
     { label: 'SpaceX Model', href: 'https://jsheppard8989.github.io/spacex-path/' },
     { label: 'Healthcare Abundance', href: 'healthcare.html' },
-    { label: 'Who Keeps the Profit from the AI Compute Shortage', href: 'compute-thesis.html' }
+    { label: 'Who Keeps the Profit from the AI Compute Shortage', href: 'compute-thesis.html' },
+    { label: 'Micron and the Memory Cycle', href: 'mu-memory-cycle.html' }
   ];
 
   var CSS =
