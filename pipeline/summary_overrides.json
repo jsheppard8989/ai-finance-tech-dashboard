@@ -1358,9 +1358,11 @@
     {
       "insight_id": 628,
       "podcast_episode_id": 616,
-      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #6-#9, Anthropic on Latent Space: the solo intro is host swyx (not 'Pam'); guest 'Caitlin' is Katelyn Lesse (Head of Engineering, Claude Platform) per the show notes. Garbled 'Trillion 12 month revenue' quote #1 dropped; quote speakers fixed (quote text unchanged); the unsourced '129%' line replaced with what the transcript says. The bare 'Caitlin' -> 'Katelyn Lesse' swap runs last (after the summary phrases) and only reaches the two quote speaker labels; no quote text contains the name. Oct 28 2026 plumbing fix (Wendy): 'Pam:' -> 'swyx:' speaker-label swap added next to the bare Caitlin swap, for regenerated deep-dive evidence lines that carry the diarized 'Pam:' label.",
+      "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #6-#9, Anthropic on Latent Space: the solo intro is host swyx (not 'Pam'); guest 'Caitlin' is Katelyn Lesse (Head of Engineering, Claude Platform) per the show notes. Garbled 'Trillion 12 month revenue' quote #1 dropped; quote speakers fixed (quote text unchanged); the unsourced '129%' line replaced with what the transcript says. The bare 'Caitlin' -> 'Katelyn Lesse' swap runs last (after the summary phrases) and only reaches the two quote speaker labels; no quote text contains the name. Oct 28 2026 plumbing fix (Wendy): 'Pam:' -> 'swyx:' speaker-label swap added next to the bare Caitlin swap, for regenerated deep-dive evidence lines that carry the diarized 'Pam:' label. Oct 28 2026 deep dive draft review (cos/deepdive_drafts_1028/G_fixes.md, 628 fixes 1-14): evidence cut to the one verbatim swyx line (ep616 line 33); each cut matches both the raw 'Pam:'/'Caitlin:' and the relabeled 'swyx:'/'Katelyn Lesse:' forms and runs before the label swaps. All three card quotes dropped. Thesis, catalysts 1-2 and falsifiers 1, 2, 5 reworded to the S-1 facts; falsifiers 3-4 cut.",
       "drop_quotes": [
-        "Trillion 12 month revenue per employee is now six point six million"
+        "Trillion 12 month revenue per employee is now six point six million",
+        "harder to distill from",
+        "Somewhere, like, 40 to 50%"
       ],
       "replacements": [
         [
@@ -1388,6 +1390,102 @@
           "Anthropic went from losing about half a dollar for every dollar of revenue in Q2 2025 to making $2 for every $1 of cost"
         ],
         [
+          "Pam: Trillion 12 month revenue per employee is now six point six million, uh, as compared to one year ago it was one point four million.\n",
+          ""
+        ],
+        [
+          "\nPam: Trillion 12 month revenue per employee is now six point six million, uh, as compared to one year ago it was one point four million.",
+          ""
+        ],
+        [
+          "swyx: Trillion 12 month revenue per employee is now six point six million, uh, as compared to one year ago it was one point four million.\n",
+          ""
+        ],
+        [
+          "\nswyx: Trillion 12 month revenue per employee is now six point six million, uh, as compared to one year ago it was one point four million.",
+          ""
+        ],
+        [
+          "Pam: And so, uh, something that's also interesting in the Claude platform that, uh, was disclosed is over fifty percent of their customers with a hundred thousand more-- dollar or more revenue on a trailing 12 month basis use Claude Platform.",
+          "swyx: Ultimately, it looks like Anthropic is really positioning their IPO to talk about going from chatbots to copilots to virtual collaborators."
+        ],
+        [
+          "swyx: And so, uh, something that's also interesting in the Claude platform that, uh, was disclosed is over fifty percent of their customers with a hundred thousand more-- dollar or more revenue on a trailing 12 month basis use Claude Platform.",
+          "swyx: Ultimately, it looks like Anthropic is really positioning their IPO to talk about going from chatbots to copilots to virtual collaborators."
+        ],
+        [
+          "Caitlin: We did do a lot of work on trying to make our API harder to distill from, and so there has been some changes that we have made to go and make that a little bit more concrete.\n",
+          ""
+        ],
+        [
+          "\nCaitlin: We did do a lot of work on trying to make our API harder to distill from, and so there has been some changes that we have made to go and make that a little bit more concrete.",
+          ""
+        ],
+        [
+          "Katelyn Lesse: We did do a lot of work on trying to make our API harder to distill from, and so there has been some changes that we have made to go and make that a little bit more concrete.\n",
+          ""
+        ],
+        [
+          "\nKatelyn Lesse: We did do a lot of work on trying to make our API harder to distill from, and so there has been some changes that we have made to go and make that a little bit more concrete.",
+          ""
+        ],
+        [
+          "Caitlin: We literally built an entire fork of the entire API in Rust, and then started running shadow traffic through it and verifying that the outputs that we were getting from the Python system and the Rust system.\n",
+          ""
+        ],
+        [
+          "\nCaitlin: We literally built an entire fork of the entire API in Rust, and then started running shadow traffic through it and verifying that the outputs that we were getting from the Python system and the Rust system.",
+          ""
+        ],
+        [
+          "Katelyn Lesse: We literally built an entire fork of the entire API in Rust, and then started running shadow traffic through it and verifying that the outputs that we were getting from the Python system and the Rust system.\n",
+          ""
+        ],
+        [
+          "\nKatelyn Lesse: We literally built an entire fork of the entire API in Rust, and then started running shadow traffic through it and verifying that the outputs that we were getting from the Python system and the Rust system.",
+          ""
+        ],
+        [
+          "Caitlin: Somewhere, like, 40 to 50%. Something, like, really crazy. And then latency, I think we saw somewhere between, like, 10 and 20%, improvement on, like, time to first token specifically.\n",
+          ""
+        ],
+        [
+          "\nCaitlin: Somewhere, like, 40 to 50%. Something, like, really crazy. And then latency, I think we saw somewhere between, like, 10 and 20%, improvement on, like, time to first token specifically.",
+          ""
+        ],
+        [
+          "Katelyn Lesse: Somewhere, like, 40 to 50%. Something, like, really crazy. And then latency, I think we saw somewhere between, like, 10 and 20%, improvement on, like, time to first token specifically.\n",
+          ""
+        ],
+        [
+          "\nKatelyn Lesse: Somewhere, like, 40 to 50%. Something, like, really crazy. And then latency, I think we saw somewhere between, like, 10 and 20%, improvement on, like, time to first token specifically.",
+          ""
+        ],
+        [
+          "persist in post-IPO filings",
+          "persist in its filings once it is a public company"
+        ],
+        [
+          "Anthropic’s IPO filing and first post-IPO investor materials, expected within weeks of the episode’s recording window.",
+          "Anthropic’s IPO: it filed a public S-1 with the SEC on Oct. 26, 2026, to list on Nasdaq as “ANT”; the price range and listing date have not been set."
+        ],
+        [
+          "The first post-IPO quarterly report, which should reveal whether the revenue-per-employee and margin inflection persists.",
+          "Anthropic’s first quarterly report as a public company, which will show whether revenue per employee (over $6.6 million for the 12 months to Sept. 30, 2026, per the S-1) keeps rising."
+        ],
+        [
+          "By the first post-IPO 10-Q due in 2026, GAAP operating margin falls below 10% and revenue per employee is below $4.0 million, per Anthropic 10-Q.",
+          "By 2027-06-30, if Anthropic has listed and its first quarterly report as a public company (Form 10-Q or earnings release) shows trailing-12-month revenue per employee below the $6.6 million it reported in its S-1 for Sept. 30, 2026, the efficiency story is weakening. Source: SEC EDGAR."
+        ],
+        [
+          "By the first post-IPO 10-Q due in 2026, the share of customers with $100,000+ trailing-12-month revenue using Claude Platform is below 40%, per Anthropic 10-Q or shareholder letter.",
+          "By 2027-06-30, if Anthropic’s first quarterly report as a public company shows the share of $100,000+ customers using both Claude Platform and at least one Anthropic app below 50% (the S-1 figure for the quarter ended Sept. 30, 2026), the platform-stickiness thesis weakens. Source: SEC EDGAR."
+        ],
+        [
+          "By Jan. 31, 2027, if a credible external benchmark or peer-reviewed security writeup shows the anti-distillation protections are bypassed at scale in fewer than 3 steps, the safety-hardening thesis is undermined, per published research and Anthropic technical response.",
+          "By 2027-01-31, if published security research or an Anthropic disclosure shows outside parties successfully distilling Claude Opus 5.5 through the public API, the anti-distillation work has not held. Source: published research or Anthropic’s news and security posts."
+        ],
+        [
           "Pam:",
           "swyx:"
         ],
@@ -1395,7 +1493,13 @@
           "Caitlin",
           "Katelyn Lesse"
         ]
-      ]
+      ],
+      "drop_list_items": {
+        "falsification_tracks": [
+          "Messages API CPU savings from the Rust rewrite",
+          "time-to-first-token improvement on the production Messages API"
+        ]
+      }
     },
     {
       "insight_id": 629,
@@ -1433,6 +1537,171 @@
       ],
       "drop_quotes": [
         "Ship a two a research hospital"
+      ]
+    },
+    {
+      "insight_id": 616,
+      "podcast_episode_id": 604,
+      "_note": "Oct 28 2026 deep dive draft review (cos/deepdive_drafts_1028/G_fixes.md, 616 fixes 1-16), ClusterMAX 3.0: garbled evidence lines 1 and 4 cut; line 2 swapped for a verbatim Dylan Patel line (ep604 lines 115-116); line 3 relabeled Dylan Patel; the SpaceX-Google line is Jordan Nanos (verbatim, ep604 lines 293-294). Overview plain-language and SpaceX SEC-filing date fix; GB300 NVL72 name; falsifiers 1, 2, 4 cut and 3, 5 replaced (two remain). Card quotes: two garbled quotes dropped, 'It's really tough' speaker relabeled Dylan Patel (quote text unchanged).",
+      "replacements": [
+        [
+          "Dylan: So there's 10 criteria to ground on the website.\n",
+          ""
+        ],
+        [
+          "\nDylan: So there's 10 criteria to ground on the website.",
+          ""
+        ],
+        [
+          "Dylan: Even back from the first cluster max, there was pretty significant security issues, um, people not properly implementing network security controls, and so we were able to see other people's jobs, see other people's data, see other people's storage.",
+          "Dylan Patel: And it's like, good God, we're just like here to test the cluster and we can, like, see this stuff."
+        ],
+        [
+          "Dylan: It's really tough. It's the toughest it's ever been to rent compute.",
+          "Dylan Patel: It's really tough. It's the toughest it's ever been to rent compute."
+        ],
+        [
+          "Dylan: Even small companies ... are running at 60% gross margins on open models using VLM or S Chile using just a little bit of optimizations beyond that, and able to do an awesome job.\n",
+          ""
+        ],
+        [
+          "\nDylan: Even small companies ... are running at 60% gross margins on open models using VLM or S Chile using just a little bit of optimizations beyond that, and able to do an awesome job.",
+          ""
+        ],
+        [
+          "Dylan: SpaceX's contract with Google, for example, has mutual 90-day cancellation rights.",
+          "Jordan Nanos: And so SpaceX's contract with Google, for example, has mutual 90-day cancellation rights."
+        ],
+        [
+          "support heterogeneous chips for inference and RL.",
+          "support a mix of chip types for inference and reinforcement learning."
+        ],
+        [
+          "The episode also implies that contract structure is becoming strategically important, because optionality and 90-day exit windows can make big compute deals more reversible than they appear on paper.",
+          "The episode also suggests contract terms matter more than they look: SpaceX's SEC filing on its June 2026 cloud agreement with Google says either side can end it on 90 days' notice after Dec. 31, 2026, so big compute deals can be more reversible than they appear."
+        ],
+        [
+          "Evidence of broader GB300/VL72 adoption among top-tier customers, likely during the next procurement cycle.",
+          "Evidence of broader GB300 NVL72 adoption among top-tier customers, likely during the next procurement cycle."
+        ],
+        [
+          "By 2027-12-31, if leading managed NeoClouds still cannot support mixed-silicon inference/RL deployments with at least 95% job success in published benchmarks, the heterogeneity thesis is wrong. Source: provider benchmark reports and ClusterMAX revisions.",
+          "By 2027-06-30, if the Silicon Data H100 Rental Price Index (SDH100RT) is more than 20% below its Oct. 28, 2026 level of $2.90 per GPU-hour, Dylan Patel's claim that compute is the hardest it has ever been to rent no longer holds. Source: silicondata.com H100 Rental Price Index."
+        ],
+        [
+          "By 2028-12-31, if independent manufacturing and customs data show Chinese accelerator output remains below 5 million chips annually, the Huawei/China scaling thesis is wrong. Source: customs data, supply-chain audits, or semiconductor industry reports.",
+          "By 2029-03-31, if published industry estimates put China's 2028 domestic AI chip output below 10 million chips, Dylan Patel's claim that China will reach tens of millions of chips produced by 2028 is wrong. Source: SemiAnalysis, TrendForce, or similar industry reports."
+        ]
+      ],
+      "drop_list_items": {
+        "falsification_tracks": [
+          "if ClusterMAX publishes a methodology update showing fewer than 10 criteria",
+          "OpenAI and Anthropic still below DeepMind in dedicated R&D compute",
+          "shows Google's SpaceX deal lacks mutual 90-day cancellation rights"
+        ]
+      },
+      "drop_quotes": [
+        "Even back from the first cluster max",
+        "using VLM or S Chile"
+      ],
+      "relabel_quotes": [
+        [
+          "It's really tough. It's the toughest it's ever been to rent compute.",
+          "Dylan Patel"
+        ]
+      ]
+    },
+    {
+      "insight_id": 625,
+      "podcast_episode_id": 613,
+      "_note": "Oct 28 2026 deep dive draft review (cos/deepdive_drafts_1028/G_fixes.md, 625 fixes 1-19), Supabase: evidence speaker is Paul Copplestone per Exa diarization (line 1 relabeled; line 2 swapped for verbatim ep613 line 17); lines 3-5 cut (disfluent/unresolved speaker). All three card quotes dropped. DBX and Stripe (XYZ/SQ) tickers dropped; AWS rationale corrected; overview plain language; catalysts dated/sourced; all five falsifiers replaced. Runs after the earlier 625 rules (OrioleDB/Multigres names).",
+      "replacements": [
+        [
+          "Ant (Supabase): \"So tomorrow we're announcing, and by the time this comes out, Supabase Compute, which is you can run anything.\"",
+          "Paul Copplestone: \"So tomorrow we're announcing, and by the time this comes out, Supabase Compute, which is you can run anything.\""
+        ],
+        [
+          "Ant (Supabase): \"It is a drop-in replacement for the c- the current Postgres storage engine, which is Heap, and it runs about hun- 1.5 to two times faster, and you don't have to change anything else.\"",
+          "Paul Copplestone: \"It completely removes the need for some of these background tasks, like vacuum and bloat, so it's actually very efficient for your database as well.\""
+        ],
+        [
+          "Ant (Supabase): \"We actually ran it, uh, again through very rigorous testing, and we've done a thou- uh, 1,000 sequential failovers, and it didn't lose any data, and we've tested it in basically every way we can, clobbering it to see whether it will ever lose data.\"\n",
+          ""
+        ],
+        [
+          "\nAnt (Supabase): \"We actually ran it, uh, again through very rigorous testing, and we've done a thou- uh, 1,000 sequential failovers, and it didn't lose any data, and we've tested it in basically every way we can, clobbering it to see whether it will ever lose data.\"",
+          ""
+        ],
+        [
+          "Ant (Supabase): \"At the moment, we launch about five million databases on our platform every single month, and kinda the future where we know we're going, we think that we're going to have to launch billions per month.\"\n",
+          ""
+        ],
+        [
+          "\nAnt (Supabase): \"At the moment, we launch about five million databases on our platform every single month, and kinda the future where we know we're going, we think that we're going to have to launch billions per month.\"",
+          ""
+        ],
+        [
+          "Ant (Supabase): \"So currently we spend about 300K per month. Yeah. Uh, for 600 people. No, for 450. So 450 people. 4-450 people.\"\n",
+          ""
+        ],
+        [
+          "\nAnt (Supabase): \"So currently we spend about 300K per month. Yeah. Uh, for 600 people. No, for 450. So 450 people. 4-450 people.\"",
+          ""
+        ],
+        [
+          "AWS is implicitly relevant because Supabase’s early scaling and compute capacity constraints reference AWS as the fallback cloud and because the product relies on cloud infrastructure economics.",
+          "AWS is relevant because Supabase runs on it: the founders describe moving from DigitalOcean to AWS after Y Combinator, and say they meet AWS repeatedly about compute capacity."
+        ],
+        [
+          "an execution-and-storage substrate for AI-native apps",
+          "a place where AI-built apps both run and store their data"
+        ],
+        [
+          "the company is explicitly designing for a launch-rate regime, not a seat-count regime.",
+          "the company is planning around how many databases get created, not how many people use them."
+        ],
+        [
+          "Supabase Compute rollout and early developer adoption data, starting immediately after launch.",
+          "Supabase Compute moving from private alpha (announced Oct. 2, 2026) to wider availability, plus early developer adoption data."
+        ],
+        [
+          "OrioleDB full beta feedback, benchmark results, and post-launch issue reports over the next 1-2 quarters.",
+          "OrioleDB public beta feedback, benchmark results, and post-launch issue reports over the next 1-2 quarters."
+        ],
+        [
+          "Multigres sharding prototype milestones expected by early next year, followed by customer testing.",
+          "First Multigres sharding features, which the founders said should start to land by early 2027, followed by customer testing."
+        ],
+        [
+          "By Q2 2027, if Supabase Compute does not support sustained runtimes materially above the old 2-second Edge Functions limit in production workloads, as shown in release notes or customer benchmarks from Supabase, the core compute thesis weakens.",
+          "By 2027-06-30, if Supabase Compute is still in private alpha rather than open to all paid projects, per Supabase's docs or changelog, the core compute thesis weakens."
+        ],
+        [
+          "By Q2 2027, if OrioleDB deployments still require routine vacuum/autovacuum-style maintenance above 1 comparable maintenance cycle per week per production cluster, as reflected in Supabase engineering docs or incident reports, the storage-engine simplification claim would be false.",
+          "By 2027-06-30, if Supabase's OrioleDB docs still label it beta and not for production use, the storage-engine thesis weakens. Source: supabase.com/docs/guides/database/orioledb."
+        ],
+        [
+          "By Q1 2027, if Multigres has fewer than 1,000 successfully repeated failovers in public or customer-facing validation and any confirmed failover-related data-loss incident appears in a Supabase postmortem or GitHub issue, the reliability thesis is broken.",
+          "By 2027-03-31, if a Supabase incident report, postmortem, or Multigres GitHub issue confirms data loss during a Multigres failover, the reliability thesis is broken. Source: status.supabase.com incident history and the Multigres GitHub repo."
+        ],
+        [
+          "By Q4 2027, if Supabase is still materially below 50 million database launches per month and shows no credible path toward triple-digit million scale in usage reporting or customer disclosures, the “billions per month” roadmap would look overstated, per Supabase usage metrics.",
+          "By 2027-12-31, if Supabase has not publicly reported launching at least 50 million databases in a single month (the founders said about five million a month in this episode), the “billions per month” plan looks overstated. Source: Supabase blog, press releases, or founder posts."
+        ],
+        [
+          "By early next year plus 6 months, if sharding requires more than 0 query changes and any customer migration notes from Supabase document application rewrites, the zero-code-change promise for Multigres would be falsified.",
+          "By 2027-09-30, if Supabase's Multigres docs or release notes say sharding requires changes to application queries, or sharding still has not shipped, the founders' zero-code-change promise fails. Source: supabase.com/docs/guides/database/multigres and the Supabase changelog."
+        ]
+      ],
+      "drop_tickers": [
+        "DBX",
+        "SQ",
+        "XYZ"
+      ],
+      "drop_quotes": [
+        "drop-in replacement for the c- the current Postgres storage engine",
+        "1,000 sequential failovers",
+        "we launch about five million databases on our platform"
       ]
     }
   ],
