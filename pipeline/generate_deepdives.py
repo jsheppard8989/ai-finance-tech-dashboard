@@ -564,7 +564,17 @@ def overview_vs_card_overlap(summary: str, key_takeaway: str, overview: str) -> 
     return evidence_vs_card_overlap(summary, key_takeaway, overview)
 
 
-SPEAKER_LINE_RE = re.compile(r"^[A-Z][A-Za-z.'-]*(?:\s+[A-Z][A-Za-z.'-]+)+\s*:\s*\S")
+# Speaker label: one or more capitalized name tokens plus an optional "(...)" qualifier, e.g.
+# "Jack Farley:", "Pam:", "Dylan:", "Ant (Supabase):". Single names were rejected before 2026-10-28,
+# which blocked insights 616/625/628 (diarized transcripts that only carry first names).
+SPEAKER_NAME_PATTERN = r"[A-Z][A-Za-z.'-]*(?:\s+[A-Z][A-Za-z.'-]+)*(?:\s*\([^)\n]*\))?"
+SPEAKER_LINE_RE = re.compile(r"^" + SPEAKER_NAME_PATTERN + r"\s*:\s*\S")
+_GENERIC_SPEAKER_LABELS = {"host", "guest", "author", "speaker"}
+
+
+def _speaker_base_name(label: str) -> str:
+    """Name part of a speaker label without any "(...)" qualifier, lower-cased."""
+    return re.sub(r"\s*\([^)]*\)\s*$", "", label or "").strip().lower()
 
 
 def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
@@ -584,12 +594,12 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     )
     if quote_like < 2 and quote_first_lines < 2:
         return False, "source_quotes must be quote-first (bullets or quoted lines)"
-    # Match speaker names like "J Mintzmyer:", "Jack Farley:", allowing single-letter first names
+    # Match speaker names like "J Mintzmyer:", "Jack Farley:", "Pam:", "Ant (Supabase):"
     named = re.findall(
-        r"(?:^|\n)\s*[-•]?\s*([A-Z][A-Za-z.'-]*(?:\s+[A-Z][A-Za-z.'-]+)+)\s*:",
+        r"(?:^|\n)\s*[-•]?\s*(" + SPEAKER_NAME_PATTERN + r")\s*:",
         ev,
     )
-    named = [n for n in named if n.lower() not in {"host", "guest", "author", "speaker"}]
+    named = [n for n in named if _speaker_base_name(n) not in _GENERIC_SPEAKER_LABELS]
     if len(named) < 2:
         return False, "source_quotes need at least two lines that name the speaker (Full Name: \"quote\")"
     if lines and RECAP_OPENING_RE.match(lines[0]) and quote_like < 1:
