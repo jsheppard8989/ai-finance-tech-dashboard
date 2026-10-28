@@ -6,7 +6,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-28",
-      "summary": "Mark Cuban argues that U.S. healthcare is structurally broken because incentives, pricing, and contracting are opaque and noncompetitive. He says employers and patients are disadvantaged by carriers, PBMs, ASOs, and TPAs that control claims information, making it hard to understand what they are paying for or to protect themselves before signing contracts.\n\nHis near-term answer is transparency plus AI. Cuban repeatedly says employers should run benefits contracts through AI before signing, because AI can surface harmful clauses and hidden economics quickly, but he also insists AI alone cannot fix a broken system once the contract is already in place. He frames this as especially important for self-insured employers facing rising premiums, deductibles, and administrative markups.\n\nCuban also details the scale-up of his cost-plus drug businesses. He says Cost Plus Drugs launched on January 19, 2022 with 111 medications and has expanded to about 4,000 skews, while the pharmacy-card network includes 17,000 pharmacies and pays affiliate pharmacies a $12 fill fee. He says the sterile-injectables marketplace sells at cost-plus 10 or 12 and can save hospitals millions annually, though procurement teams often resist adoption.\n\nHe further describes modular robotic manufacturing \u201cpods\u201d that shrink production into a tractor-trailer-sized footprint, cost about $20 million each, and can support N-of-1 therapies at research hospitals. Looking longer term, he predicts personalized medicine will push the marginal cost of drug design toward zero and that doctors will shift toward interpretation and human-in-the-loop decision-making rather than being replaced by AI.",
+      "summary": "Mark Cuban argues that U.S. healthcare is structurally broken because incentives, pricing, and contracting are opaque and noncompetitive. He says employers and patients are disadvantaged by carriers, PBMs, ASOs, and TPAs that control claims information, making it hard to understand what they are paying for or to protect themselves before signing contracts.\n\nHis near-term answer is transparency plus AI. Cuban repeatedly says employers should run benefits contracts through AI before signing, because AI can surface harmful clauses and hidden economics quickly, but he also insists AI alone cannot fix a broken system once the contract is already in place. He frames this as especially important for self-insured employers facing rising premiums, deductibles, and administrative markups.\n\nCuban also details the scale-up of his cost-plus drug businesses. He says Cost Plus Drugs launched on January 19, 2022 with 111 medications and has expanded to about 4,000 SKUs, while the pharmacy-card network includes 17,000 pharmacies and pays affiliate pharmacies a $12 fill fee. He says the sterile-injectables marketplace sells at cost-plus 10 or 12 and can save hospitals millions annually, though procurement teams often resist adoption.\n\nHe further describes modular robotic manufacturing \u201cpods\u201d that shrink production into a tractor-trailer-sized footprint, cost about $20 million each, and can support N-of-1 therapies at research hospitals. Looking longer term, he predicts personalized medicine will push the marginal cost of drug design toward zero and that doctors will shift toward interpretation and human-in-the-loop decision-making rather than being replaced by AI.",
       "key_takeaway": "Cuban\u2019s central claim is that pre-contract AI review, not AI alone, could materially reduce healthcare costs by exposing hidden terms in employer and provider contracts.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -24,10 +24,6 @@
         {
           "speaker": "Mark Cuban",
           "quote": "And I literally can save hospitals millions of dollars a year. But our biggest challenge there is we can visit the CEOs but we can't always convince the purchasing people to do it."
-        },
-        {
-          "speaker": "Mark Cuban",
-          "quote": "These pods cost about $20 million. Ship a two a research hospital. And if they specialize in any types of therapies for those people that are in the N of 1 category, they can make it and iterate very quickly there."
         }
       ]
     },
@@ -69,11 +65,9 @@
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-10-27",
       "summary": "Vincent Deluard argues the U.S. is already moving into a stagflationary bear-market regime: inflation is sticky, real growth is weakening outside AI-related capex, and fiscal support that had boosted margins is fading. He says the market is underpricing how much earnings support will disappear after midterms, while consumer names are already showing unusually severe drawdowns.\n\nOn policy, Deluard\u2019s core view is that Treasuries should outperform equities over the next roughly 6 months because of liquidity and positioning, not because bonds are especially cheap on valuation. He says the \u201cFed put\u201d is largely gone for the next two years because the Fed will be constrained by higher-than-desired inflation, and the \u201cfiscal put\u201d is also fading as divided government limits new support.\n\nHe gives several concrete numbers to support this: consumer names such as Nike, Harley-Davidson, Renault, and McDonald\u2019s are described as down 50-60%+; average pension funding ratios are near 1.15, the best in 25 years; and corporate margin support from fiscal measures is estimated at a bit more than $300 billion. He also says long-term Treasury yields could ultimately rise into the 6-7% area if inflation stays around 3.5% and term premium normalizes.\n\nDeluard extends the macro argument to Europe, especially France, where he sees late-stage fiscal and political deterioration. France\u2019s deficit is cited at about 5.5% of GDP, growth is described as non-existent, and debt service costs are worsening as old near-zero-rate debt rolls to roughly 5%. His broader Europe conclusion is that the adjustment likely requires euro weakness and broader pain, rather than a quick domestic fix.\n\nHe also flags a geopolitical tail risk: a scenario where oil and yields rise together if conflict and supply disruptions lift refining spreads and force Treasury issuance. In that regime, traditional risk-off hedges could fail, making the environment especially difficult for both equities and bonds.",
-      "key_takeaway": "Treasure the next 6 months in Treasuries over equities because sticky inflation and fading fiscal support make the U.S. market vulnerable to a stagflationary bear phase.",
-      "tickers_mentioned": [
-        "LENS"
-      ],
-      "sentiment": "neutral",
+      "key_takeaway": "Favor Treasuries over equities for the next 6 months because sticky inflation and fading fiscal support make the U.S. market vulnerable to a stagflationary bear phase.",
+      "tickers_mentioned": [],
+      "sentiment": "bearish",
       "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-10-27",
@@ -81,10 +75,6 @@
       "archived_reason": null,
       "podcast_episode_id": 617,
       "notable_quotes": [
-        {
-          "speaker": "Vincent Deluard",
-          "quote": "If you look at the consumer names, I mean, you are seeing just complete massacre most names, like your Nike, your Harley Davidson, your Renault, and McDonald's are down 50, 60% plus, which is very unusual for when you see the index at two percent from the old time high and the Fed being of hiking cycle."
-        },
         {
           "speaker": "Vincent Deluard",
           "quote": "I think the primary reason to own treasuries is just liquidity. The seller's in treasuries bring their own buyers."
@@ -101,7 +91,7 @@
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-10-27",
-      "summary": "The episode is framed around Anthropic\u2019s newly filed S-1 and the company\u2019s reported step-change in operating efficiency ahead of its expected IPO. Pam highlights that trailing-12-month revenue per employee rose to $6.6 million from $1.4 million a year earlier, and that Anthropic moved from losing 129% of every revenue dollar to making $2 for every $1 of cost, with the host characterizing the company\u2019s first profitable quarter as 19% GAAP profit.\n\nA second major thread is product adoption and platform breadth. Pam says over 50% of customers with $100,000+ trailing-12-month revenue use Claude Platform, interpreting that as evidence that Anthropic is becoming not just a model lab but also a cloud/platform business. The episode also discusses Opus 5.5, which Pam says testers view as the best model in the world, with improved writing quality and more attractive pricing.\n\nCaitlin spends most of the guest segment on how Anthropic ships frontier models safely while scaling agentic products. She says the company has made the API harder to distill from, emphasizing that the concern is safety, not just commercialization, and that the team is preserving thinking blocks across turns and adjusting API behavior to reduce extraction risk. She also explains that model-launch safety work now consumes a majority of effort, including online/offline safeguards, data-retention policies, verification programs, and authorization threading for dual-use programs.\n\nThe infrastructure discussion is unusually concrete. Caitlin describes Anthropic\u2019s secure-by-default \u201cbrain vs. hands\u201d architecture, with separate credential vaulting and egress controls, and says a full Rust rewrite of the Messages API saved roughly 40% to 50% of CPU and improved time-to-first-token latency by about 10% to 20%. The episode closes on the view that the next major growth area is long-running agentic workflows\u2014especially in enterprise, cyber, and bio use cases\u2014while underinvesting in evals is the biggest mistake teams can make.",
+      "summary": "The episode is framed around Anthropic\u2019s newly filed S-1 and the company\u2019s reported step-change in operating efficiency ahead of its expected IPO. Host swyx highlights that trailing-12-month revenue per employee rose to $6.6 million from $1.4 million a year earlier, and that Anthropic went from losing about half a dollar for every dollar of revenue in Q2 2025 to making $2 for every $1 of cost, with the host characterizing the company\u2019s first profitable quarter as 19% GAAP profit.\n\nA second major thread is product adoption and platform breadth. swyx says over 50% of customers with $100,000+ trailing-12-month revenue use Claude Platform, interpreting that as evidence that Anthropic is becoming not just a model lab but also a cloud/platform business. The episode also discusses Opus 5.5, which swyx says testers view as the best model in the world, with improved writing quality and more attractive pricing.\n\nKatelyn Lesse spends most of the guest segment on how Anthropic ships frontier models safely while scaling agentic products. She says the company has made the API harder to distill from, emphasizing that the concern is safety, not just commercialization, and that the team is preserving thinking blocks across turns and adjusting API behavior to reduce extraction risk. She also explains that model-launch safety work now consumes a majority of effort, including online/offline safeguards, data-retention policies, verification programs, and authorization threading for dual-use programs.\n\nThe infrastructure discussion is unusually concrete. Lesse describes Anthropic\u2019s secure-by-default \u201cbrain vs. hands\u201d architecture, with separate credential vaulting and egress controls, and says a full Rust rewrite of the Messages API saved roughly 40% to 50% of CPU and improved time-to-first-token latency by about 10% to 20%. The episode closes on the view that the next major growth area is long-running agentic workflows\u2014especially in enterprise, cyber, and bio use cases\u2014while underinvesting in evals is the biggest mistake teams can make.",
       "key_takeaway": "Anthropic\u2019s S-1 suggests a sharp efficiency inflection, with large CPU savings from infrastructure rewrites and rising platform adoption supporting margin expansion post-IPO.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -113,15 +103,11 @@
       "podcast_episode_id": 616,
       "notable_quotes": [
         {
-          "speaker": "Pam",
-          "quote": "Trillion 12 month revenue per employee is now six point six million, uh, as compared to one year ago it was one point four million."
-        },
-        {
-          "speaker": "Caitlin",
+          "speaker": "Katelyn Lesse",
           "quote": "We did do a lot of work on trying to make our API harder to distill from, and so there has been some changes that we have made to go and make that a little bit more concrete."
         },
         {
-          "speaker": "Caitlin",
+          "speaker": "Katelyn Lesse",
           "quote": "Somewhere, like, 40 to 50%. Something, like, really crazy. And then latency, I think we saw somewhere between, like, 10 and 20%, improvement on, like, time to first token specifically."
         }
       ]
@@ -13847,7 +13833,7 @@
       "first_detected_episode_id": 610,
       "first_detected_speaker": "Aaron Levie",
       "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Caitlin, Angela, Kaitlyn"
+      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
     },
     {
       "id": 313,
@@ -14189,7 +14175,7 @@
       "first_detected_episode_id": 531,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Caitlin, Angela, Kaitlyn"
+      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
     },
     {
       "id": 303,
@@ -14387,7 +14373,7 @@
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Caitlin, Angela, Kaitlyn"
+      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
     },
     {
       "id": 284,
@@ -14549,7 +14535,7 @@
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
       "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Caitlin, Angela, Kaitlyn"
+      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
     },
     {
       "id": 267,
@@ -15359,7 +15345,7 @@
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Caitlin, Angela, Kaitlyn"
+      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
     },
     {
       "id": 174,
@@ -15467,7 +15453,7 @@
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Caitlin, Angela, Kaitlyn"
+      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
     },
     {
       "id": 162,
