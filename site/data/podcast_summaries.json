@@ -1,5 +1,23 @@
 [
   {
+    "id": 618,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Mark Cuban\u2019s Plan to Make Healthcare Affordable",
+    "episode_date": "2026-10-28",
+    "summary": "Mark Cuban argues that U.S. healthcare is structurally broken because incentives, pricing, and contracting are opaque and noncompetitive. He says employers and patients are disadvantaged by carriers, PBMs, ASOs, and TPAs that control claims information, making it hard to understand what they are paying for or to protect themselves before signing contracts.\n\nHis near-term answer is transparency plus AI. Cuban repeatedly says employers should run benefits contracts through AI before signing, because AI can surface harmful clauses and hidden economics quickly, but he also insists AI alone cannot fix a broken system once the contract is already in place. He frames this as especially important for self-insured employers facing rising premiums, deductibles, and administrative markups.\n\nCuban also details the scale-up of his cost-plus drug businesses. He says Cost Plus Drugs launched on January 19, 2022 with 111 medications and has expanded to about 4,000 skews, while the pharmacy-card network includes 17,000 pharmacies and pays affiliate pharmacies a $12 fill fee. He says the sterile-injectables marketplace sells at cost-plus 10 or 12 and can save hospitals millions annually, though procurement teams often resist adoption.\n\nHe further describes modular robotic manufacturing \u201cpods\u201d that shrink production into a tractor-trailer-sized footprint, cost about $20 million each, and can support N-of-1 therapies at research hospitals. Looking longer term, he predicts personalized medicine will push the marginal cost of drug design toward zero and that doctors will shift toward interpretation and human-in-the-loop decision-making rather than being replaced by AI.",
+    "key_takeaways": [
+      "Mark Cuban says U.S. healthcare is \u201cnot in an efficient health care market\u201d because incentives and economics are broken.",
+      "Cuban says employers should run every benefits contract through AI before signing to identify where they are \u201cgetting screwed.\u201d",
+      "Cuban claims Cost Plus Drugs launched with 111 medications in January 2022 and has grown to roughly 4,000 skews.",
+      "Cuban says the discount card network spans 17,000 pharmacies and pays affiliate pharmacies a $12 fill fee.",
+      "Cuban says the sterile-injectables marketplace can save hospitals millions of dollars a year, but purchasing departments are a major adoption bottleneck.",
+      "Cuban says modular manufacturing pods cost about $20 million and can be configured for N-of-1 therapies at research hospitals.",
+      "Cuban says AI will not replace doctors; instead, physicians will shift toward interpreting AI outputs and adding clinical context."
+    ],
+    "investment_thesis": "Cuban\u2019s central claim is that pre-contract AI review, not AI alone, could materially reduce healthcare costs by exposing hidden terms in employer and provider contracts.",
+    "key_tickers": null
+  },
+  {
     "id": 617,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "The Fed Put Is Dead: Why Stagflation & a Bear Market Are Next | Vincent Deluard | StoneX",

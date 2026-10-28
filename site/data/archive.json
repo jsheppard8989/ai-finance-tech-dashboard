@@ -1,6 +1,37 @@
 {
   "insights": [
     {
+      "id": 629,
+      "title": "Mark Cuban\u2019s Plan to Make Healthcare Affordable",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-28",
+      "summary": "Mark Cuban argues that U.S. healthcare is structurally broken because incentives, pricing, and contracting are opaque and noncompetitive. He says employers and patients are disadvantaged by carriers, PBMs, ASOs, and TPAs that control claims information, making it hard to understand what they are paying for or to protect themselves before signing contracts.\n\nHis near-term answer is transparency plus AI. Cuban repeatedly says employers should run benefits contracts through AI before signing, because AI can surface harmful clauses and hidden economics quickly, but he also insists AI alone cannot fix a broken system once the contract is already in place. He frames this as especially important for self-insured employers facing rising premiums, deductibles, and administrative markups.\n\nCuban also details the scale-up of his cost-plus drug businesses. He says Cost Plus Drugs launched on January 19, 2022 with 111 medications and has expanded to about 4,000 skews, while the pharmacy-card network includes 17,000 pharmacies and pays affiliate pharmacies a $12 fill fee. He says the sterile-injectables marketplace sells at cost-plus 10 or 12 and can save hospitals millions annually, though procurement teams often resist adoption.\n\nHe further describes modular robotic manufacturing \u201cpods\u201d that shrink production into a tractor-trailer-sized footprint, cost about $20 million each, and can support N-of-1 therapies at research hospitals. Looking longer term, he predicts personalized medicine will push the marginal cost of drug design toward zero and that doctors will shift toward interpretation and human-in-the-loop decision-making rather than being replaced by AI.",
+      "key_takeaway": "Cuban\u2019s central claim is that pre-contract AI review, not AI alone, could materially reduce healthcare costs by exposing hidden terms in employer and provider contracts.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 618,
+      "notable_quotes": [
+        {
+          "speaker": "Mark Cuban",
+          "quote": "Take every benefits contract you're about to sign, run it through AI, and ask where you're getting screwed."
+        },
+        {
+          "speaker": "Mark Cuban",
+          "quote": "And I literally can save hospitals millions of dollars a year. But our biggest challenge there is we can visit the CEOs but we can't always convince the purchasing people to do it."
+        },
+        {
+          "speaker": "Mark Cuban",
+          "quote": "These pods cost about $20 million. Ship a two a research hospital. And if they specialize in any types of therapies for those people that are in the N of 1 category, they can make it and iterate very quickly there."
+        }
+      ]
+    },
+    {
       "id": 626,
       "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
       "source_type": "podcast",
@@ -558,7 +589,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-22",
       "archived_date": null,
@@ -14021,8 +14052,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-10-26",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -14031,8 +14062,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 613,
-      "last_mentioned_speaker": "Ant (Supabase), Coppol (Supabase)"
+      "last_mentioned_episode_id": 618,
+      "last_mentioned_speaker": "Mark Cuban"
     },
     {
       "id": 295,
@@ -16505,8 +16536,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-26",
-      "mention_count": 133,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 134,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -16515,8 +16546,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 612,
-      "last_mentioned_speaker": "James Sun, Ari Weinstein"
+      "last_mentioned_episode_id": 618,
+      "last_mentioned_speaker": "Mark Cuban"
     },
     {
       "id": 38,
