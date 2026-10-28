@@ -1,0 +1,13 @@
+{
+  "description": "Deep Dive insights permanently skipped (approved). check_blocked_deepdives.py lists these as 'SKIPPED (permanent)' and does not alert on them; generate_deepdives.py never retries them (an explicit --insight-ids/--force-ids/--episode-id run skips them with a warning unless --force is given). To undo a skip, remove its entry.",
+  "skips": [
+    {
+      "insight_id": 429,
+      "podcast_episode_id": 414,
+      "title": "China's Endgame: ASI Timelines",
+      "reason": "blocked by provider content filter since 2026-08-23 (3 retries)",
+      "approved_by": "Wendy (CoS) 2026-10-28",
+      "undo": "remove this entry"
+    }
+  ]
+}
