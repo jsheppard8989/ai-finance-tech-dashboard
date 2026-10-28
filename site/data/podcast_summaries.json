@@ -1,5 +1,23 @@
 [
   {
+    "id": 617,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The Fed Put Is Dead: Why Stagflation & a Bear Market Are Next | Vincent Deluard | StoneX",
+    "episode_date": "2026-10-27",
+    "summary": "Vincent Deluard argues the U.S. is already moving into a stagflationary bear-market regime: inflation is sticky, real growth is weakening outside AI-related capex, and fiscal support that had boosted margins is fading. He says the market is underpricing how much earnings support will disappear after midterms, while consumer names are already showing unusually severe drawdowns.\n\nOn policy, Deluard\u2019s core view is that Treasuries should outperform equities over the next roughly 6 months because of liquidity and positioning, not because bonds are especially cheap on valuation. He says the \u201cFed put\u201d is largely gone for the next two years because the Fed will be constrained by higher-than-desired inflation, and the \u201cfiscal put\u201d is also fading as divided government limits new support.\n\nHe gives several concrete numbers to support this: consumer names such as Nike, Harley-Davidson, Renault, and McDonald\u2019s are described as down 50-60%+; average pension funding ratios are near 1.15, the best in 25 years; and corporate margin support from fiscal measures is estimated at a bit more than $300 billion. He also says long-term Treasury yields could ultimately rise into the 6-7% area if inflation stays around 3.5% and term premium normalizes.\n\nDeluard extends the macro argument to Europe, especially France, where he sees late-stage fiscal and political deterioration. France\u2019s deficit is cited at about 5.5% of GDP, growth is described as non-existent, and debt service costs are worsening as old near-zero-rate debt rolls to roughly 5%. His broader Europe conclusion is that the adjustment likely requires euro weakness and broader pain, rather than a quick domestic fix.\n\nHe also flags a geopolitical tail risk: a scenario where oil and yields rise together if conflict and supply disruptions lift refining spreads and force Treasury issuance. In that regime, traditional risk-off hedges could fail, making the environment especially difficult for both equities and bonds.",
+    "key_takeaways": [
+      "Vincent Deluard says a U.S. equity bear market may already be underway because roughly two-thirds of stocks are below their 200-day moving average.",
+      "Deluard says consumer stocks are showing extreme stress, citing Nike, Harley-Davidson, Renault, and McDonald\u2019s as down 50-60%+.",
+      "Deluard argues Treasuries are preferable to equities over the next ~6 months because of liquidity and buyer behavior, not because of attractive term-premium valuation.",
+      "Deluard says the Fed put is \u201cmostly expired\u201d because sticky inflation will constrain rate cuts for the next two years.",
+      "Deluard says the fiscal put is fading after midterms because roughly $300 billion of corporate margin support is unwinding.",
+      "Deluard says pension demand could support Treasuries because the average funding ratio is about 1.15, the best in 25 years.",
+      "Deluard says France\u2019s deficit near 5.5% of GDP and rising debt-service costs make Europe\u2019s fiscal problem much harder to solve without euro weakness or broader pain."
+    ],
+    "investment_thesis": "Treasure the next 6 months in Treasuries over equities because sticky inflation and fading fiscal support make the U.S. market vulnerable to a stagflationary bear phase.",
+    "key_tickers": null
+  },
+  {
     "id": 615,
     "podcast_name": "The a16z Show",
     "episode_title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
