@@ -37,9 +37,10 @@ def test_mu_page_style_gate_clean():
 def test_mu_page_nav_and_slots():
     s = _src()
     assert "data-research-menu" in s and "./js/research-nav.js" in s
-    for slot in ("title", "asof", "summary", "chart1", "chart2", "body"):
-        assert "<!-- CONTENT: %s -->" % slot in s, slot
-        assert "<!-- /CONTENT: %s -->" % slot in s, slot
+    # Oct 29 2026: template CONTENT slot markers (and all HTML comments) are stripped from the
+    # published page after the fill, so view-source carries no template notes.
+    assert "<!--" not in s and "CONTENT:" not in s
+    assert "<title>Micron and the Memory Cycle" in s and "Micron and the Memory Cycle</h1>" in s
     for n in (1, 2):
         assert re.search(
             r'<a class="chart-full" href="charts/mu/0%d\.png" data-lightbox[^>]*>\s*<img src="charts/mu/0%d\.png"' % (n, n), s
