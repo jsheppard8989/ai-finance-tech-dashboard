@@ -97,3 +97,12 @@ def test_pundit_586_gate_holds_for_new_episode():
     rows = _pundits(title="A later Seelaus episode")
     export_data._apply_summary_overrides(rows)
     assert rows["pundits"][0]["last_proof_snippet"].startswith("Speaker 1")
+
+
+def test_633_buckets_wording_matches_618_fix():
+    old = "The actionable setup is to separate AI beneficiaries into three buckets: owners of complements"
+    data = {"deepDives": {"633": {"insight_id": 633, "podcast_episode_id": 620, "investment_thesis": old}},
+            "archive": {"insights": [{"id": 9633, "podcast_episode_id": 9620, "investment_thesis": old}]}}
+    _apply(data)
+    assert data["deepDives"]["633"]["investment_thesis"].endswith("into three groups: owners of complements")
+    assert data["archive"]["insights"][0]["investment_thesis"] == old  # other cards untouched
