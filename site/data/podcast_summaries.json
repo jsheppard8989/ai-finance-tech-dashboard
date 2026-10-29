@@ -36,6 +36,24 @@
     "key_tickers": null
   },
   {
+    "id": 616,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+    "episode_date": "2026-10-27",
+    "summary": "The episode is framed around Anthropic\u2019s newly filed S-1 and the company\u2019s reported step-change in operating efficiency ahead of its expected IPO. Host swyx highlights that trailing-12-month revenue per employee rose to $6.6 million from $1.4 million a year earlier, and that Anthropic went from losing about half a dollar for every dollar of revenue in Q2 2025 to making $2 for every $1 of cost, with the host characterizing the company\u2019s first profitable quarter as 19% GAAP profit.\n\nA second major thread is product adoption and platform breadth. swyx says over 50% of customers with $100,000+ trailing-12-month revenue use Claude Platform, interpreting that as evidence that Anthropic is becoming not just a model lab but also a cloud/platform business. The episode also discusses Opus 5.5, which swyx says testers view as the best model in the world, with improved writing quality and more attractive pricing.\n\nKatelyn Lesse spends most of the guest segment on how Anthropic ships frontier models safely while scaling agentic products. She says the company has made the API harder to distill from, emphasizing that the concern is safety, not just commercialization, and that the team is preserving thinking blocks across turns and adjusting API behavior to reduce extraction risk. She also explains that model-launch safety work now consumes a majority of effort, including online/offline safeguards, data-retention policies, verification programs, and authorization threading for dual-use programs.\n\nThe infrastructure discussion is unusually concrete. Lesse describes Anthropic\u2019s secure-by-default \u201cbrain vs. hands\u201d architecture, with separate credential vaulting and egress controls, and says a full Rust rewrite of the Messages API saved roughly 40% to 50% of CPU and improved time-to-first-token latency by about 10% to 20%. The episode closes on the view that the next major growth area is long-running agentic workflows\u2014especially in enterprise, cyber, and bio use cases\u2014while underinvesting in evals is the biggest mistake teams can make.",
+    "key_takeaways": [
+      "Pam said Anthropic\u2019s trailing-12-month revenue per employee rose to $6.6 million from $1.4 million a year earlier, implying roughly 5x productivity improvement.",
+      "Pam said Anthropic went from losing about half a dollar for every dollar of revenue in Q2 2025 to making $2 for every $1 of cost, framing a major operating inflection.",
+      "Pam said over 50% of Anthropic customers with $100,000+ trailing-12-month revenue use Claude Platform, showing meaningful platform adoption among larger customers.",
+      "Pam said Opus 5.5 is viewed by high-taste testers as the best model in the world, while also noting pricing cuts and better writing quality.",
+      "Katelyn Lesse said Anthropic has made its API harder to distill from because unsafe downstream use of extracted models could create harmful outcomes.",
+      "Katelyn Lesse said the Rust port of the Messages API saved about 40% to 50% of CPU and improved time-to-first-token latency by roughly 10% to 20%.",
+      "Katelyn Lesse said underinvesting in evals is \u201cmaybe, like, the biggest mistake\u201d for agent developers."
+    ],
+    "investment_thesis": "Anthropic\u2019s S-1 suggests a sharp efficiency inflection, with large CPU savings from infrastructure rewrites and rising platform adoption supporting margin expansion post-IPO.",
+    "key_tickers": null
+  },
+  {
     "id": 615,
     "podcast_name": "The a16z Show",
     "episode_title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
@@ -68,6 +86,24 @@
       "Ian Quigley said the team is aiming to release pre-print materials, datasets, harbor packages, and many thousands of transcripts for external use."
     ],
     "investment_thesis": "Leash Bio's key claim is that fully measured molecular environments can benchmark and improve AI agents' scientific decision-making at scale, not just their final optimization results.",
+    "key_tickers": null
+  },
+  {
+    "id": 613,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Supabase\u2019s Plan for a Billion AI-Built Apps",
+    "episode_date": "2026-10-26",
+    "summary": "Supabase leadership outlined a major architectural roadmap centered on enabling AI-native, scale-out application development. The headline announcement was Supabase Compute, described as long-running serverless compute in the same private network as the database, removing the prior 2-second Edge Functions constraint and allowing direct Postgres connections for workloads like agents and embeddings.\n\nThey also introduced OrioleDB, positioned as a drop-in replacement for Postgres Heap storage that claims roughly 1.5x to 2x better performance while eliminating vacuum and bloat maintenance tasks. The team said it has been validated with Postgres compatibility and testing tooling, and that it is being released in full beta under Apache 2.\n\nA second major theme was Multigres, a ground-up operator rewrite for Postgres clusters. The most important claim was operational reliability: the team said it survived 1,000 sequential failovers without data loss, and they framed the redesign as the basis for future sharding that should require zero query or code changes for users. They said sharding prototypes are expected to land by early next year, depending on platform factors.\n\nThe episode also covered the Turso acquisition, which Supabase says will support an eventual future of billions of database launches per month by bringing SQLite-based MVCC and multi-writer scale-out architecture into the product line. On go-to-market, the company emphasized product-led growth, enterprise expansion through greenfield deployments, and internal AI usage discipline, noting about $300K per month in AI coding spend across roughly 450 employees.",
+    "key_takeaways": [
+      "Ant said Supabase Compute removes the old 2-second runtime ceiling and lets users run long-running workloads in the same private network as the database.",
+      "Ant said OrioleDB is a drop-in replacement for the current Postgres storage engine and is about 1.5x to 2x faster without requiring changes elsewhere.",
+      "Ant said Multigres has been tested through 1,000 sequential failovers without data loss, which is the clearest reliability claim in the episode.",
+      "Ant said Supabase currently launches about 5 million databases per month, but the long-run need is closer to billions per month.",
+      "Ant said the Turso acquisition matters because its SQLite MVCC architecture is aimed at enabling agentic, scale-out databases.",
+      "Ant said Supabase spends about $300K per month on AI coding tools for about 450 people, and he views token spend above a 1.5 ratio to human salary as a warning sign.",
+      "Ant said the company wants to focus on landing inside enterprises first and expanding from there, rather than depending on risky migration-heavy enterprise deals."
+    ],
+    "investment_thesis": "Supabase is counting on long-running compute plus compatibility-first storage and operator rewrites to let it serve a future where AI apps drive billions of database launches monthly.",
     "key_tickers": null
   },
   {
@@ -225,6 +261,24 @@
     "key_tickers": [
       "AMZN"
     ]
+  },
+  {
+    "id": 619,
+    "podcast_name": "The Credit Edge by Bloomberg Intelligence",
+    "episode_title": "Mom-and-Pop Buyers Pounce on Battered Hyperscaler Bonds, Says Seelaus",
+    "episode_date": "2026-10-22",
+    "summary": "Annie Seelaus argues that credit markets look deceptively calm: spreads are tight and trading remains efficient, yet rising yields are exposing \u201cfundamental cracks\u201d at the riskiest end of the market. Her core framing is that macro rate moves work with a lag, so stress often shows up later in the weakest pockets after the initial move, with \u201cwho\u2019s left on the beach\u201d becoming visible only after the tide goes out.\n\nShe says liquidity is still functional, even on volatile days, but it would likely deteriorate first in less-liquid sectors such as BDCs and REITs. In her view, the next cycle will be driven more by technicals and flows than fundamentals, especially if forced selling, redemption pressure, or a primary-market wobble hits weaker segments.\n\nOn the opportunity side, she remains constructive on oversold credit and says retail investors are re-entering because absolute yields are finally compelling. She points to long-end corporates, some munis, preferreds, and certain IG paper as attractive, while warning that investors should not deploy all dry powder at once because repricing opportunities may continue.\n\nA major theme is AI/data-center financing. Seelaus says hyperscalers still have substantial issuance needs through 2027 and are not pausing because of this rate move. At the same time, she warns that data-center credit has opaque contract terms, correlated tenant/supplier webs, and limited stress-testing, making security selection and contract-level diligence far more important than broad sector exposure.\n\nShe also sees ABS and private credit growth as investable but increasingly demanding. Her caution is that rapid expansion can breed complacency, and structure, collateral quality, and underwriting discipline matter more as these markets scale.",
+    "key_takeaways": [
+      "Annie Seelaus says spreads are still tight, but the market has \u201cfundamental cracks\u201d and rising rates are exposing stress at the weakest end of credit.",
+      "Seelaus says rate moves hit with a lag, meaning the real damage shows up later when the tide goes out and the weakest borrowers are revealed.",
+      "Seelaus expects liquidity to dry up first in less-liquid sectors like BDCs and REITs, where bid/offer spreads can widen quickly.",
+      "Seelaus argues the next cycle will be driven more by technicals and forced selling than by fundamentals.",
+      "Seelaus says hyperscalers still have major issuance plans and their 2027 programmatic issuance is not being derailed by the current rate move.",
+      "Seelaus says data-center credit is attractive only with contract-level diligence, because confidentiality and interconnected counterparty risk make the space hard to underwrite.",
+      "Seelaus remains positive on ABS growth but warns that rapid expansion demands extreme discipline on structure and collateral quality."
+    ],
+    "investment_thesis": "The episode\u2019s main claim is that current calm credit spreads hide lagged technical stress, making selective liquidity-sensitive and AI/data-center underwriting more important than broad market averages.",
+    "key_tickers": null
   },
   {
     "id": 603,
@@ -1245,6 +1299,24 @@
       "Alex Atallah claims OpenRouter's fusion model achieved roughly Fable-level quality at 2x lower cost by combining outputs from model labs trained on different data sources."
     ],
     "investment_thesis": "Alex Atallah argues AI infrastructure will shift toward routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "key_tickers": null
+  },
+  {
+    "id": 604,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\u26a1\ufe0f Which GPU Clouds Are Actually Good? | ClusterMAX 3.0",
+    "episode_date": "2026-10-02",
+    "summary": "The episode centers on ClusterMAX 3.0, a managed GPU/cluster ratings product for AI-oriented \u201cNeo Clouds.\u201d The speakers say the scope has expanded dramatically, with ClusterMAX now tracking 323 providers and using 10 criteria that emphasize managed-cluster quality, security, reliability, pricing, availability, and ease of use. A major theme is that many providers are still weak on security, with the team describing earlier generations as exposing job visibility, data, and storage across tenants.\n\nA second major argument is that compute rental has become extremely tight. Dylan says it is \u201cthe toughest it's ever been to rent compute,\u201d because small inference providers can now make strong economics on open models, which reduces large-lab access to large clusters. He gives concrete examples of profitable inference businesses, citing 60% gross margins in some cases, and says minimum rentable cluster sizes have shrunk even as labs still want 1,000-, 3,000-, 100,000-, or even 400,000-GPU scale.\n\nThe conversation also argues that AI infrastructure demand is increasingly heterogeneous. Dylan says next year will require multi-silicon support across Neo Clouds, especially for inference and parts of RL, and he frames GB300/VL72 adoption as a gating factor for top-tier rankings because top customers expect those systems and the associated network setup. He also says \u201cGoogle is definitely falling behind\u201d in dedicated AI compute versus OpenAI and Anthropic, although Google retains cost advantages from TPUs and contractual flexibility via 90-day cancellation rights in deals like SpaceX.\n\nFinally, the episode discusses Nvidia\u2019s strategic posture. Dylan argues Nvidia\u2019s acquisitions of Poolside and Hugging Face are defensive moves meant to keep important infrastructure and developer layers inside Nvidia\u2019s ecosystem, supported by enormous free cash flow. He also says Chinese accelerators are improving quickly, with Huawei the strongest of the non-Nvidia Chinese options, and predicts China could reach tens of millions of chips produced by 2028.",
+    "key_takeaways": [
+      "Dylan says ClusterMAX 3.0 now tracks 323 total providers, showing the product\u2019s coverage has expanded materially.",
+      "Dylan says many Neo Clouds still have serious security flaws, including earlier cases where users could see other people\u2019s jobs, data, and storage.",
+      "Dylan says ClusterMAX is evaluating managed clusters, not bare metal or inference endpoints, so rankings should not be confused with overall company quality.",
+      "Dylan says compute is tighter than ever, stating it is \u201cthe toughest it's ever been to rent compute\u201d because inference providers are monetizing small clusters effectively.",
+      "Dylan says some inference businesses are running at roughly 60% gross margins on open models, which is squeezing supply available to large labs.",
+      "Dylan says multi-silicon support will be a major requirement next year for leading Neo Clouds, especially for inference and RL workloads.",
+      "Dylan says Nvidia\u2019s acquisitions of Poolside and Hugging Face are defensive ecosystem moves, not just talent buys, because Nvidia wants to keep critical infrastructure inside its orbit."
+    ],
+    "investment_thesis": "Managed AI infrastructure winners will increasingly be those that combine security, reliability, and heterogeneous compute support, not just raw GPU availability.",
     "key_tickers": null
   },
   {
