@@ -514,6 +514,24 @@
     "key_tickers": null
   },
   {
+    "id": 623,
+    "podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "episode_title": "Christina Cacioppo - Building an Enduring Software Company in the Age of AI - [Invest Like the Best, EP.496]",
+    "episode_date": "2026-10-20",
+    "summary": "The episode centers on Christina Cacioppo\u2019s view of how Vanta is evolving from a compliance automation company into a broader trust and security platform built for the AI era. She says Vanta started eight years ago, now serves about 16,000 customers globally, has about five products, and connects into roughly 400 tools through a trust graph that powers automation and agentic workflows.\n\nA major theme is product design and monetization under agentic AI. Christina argues that an agent-driven experience is better than a watchdog or red-alert model because it can take actions with permission and create a better user experience and retention. She is explicitly skeptical of token-markup pricing, saying customers quickly compare any markup to the underlying cloud model and push back. Vanta is currently absorbing token costs rather than passing them through.\n\nShe also frames enterprise security as structurally stronger in the AI era because AI raises perceived agent risk and increases the need for industrial-grade proof, continuous remediation, and richer controls. Her long-term picture is a security system that behaves like a constant penetration test: agents continuously probe, find issues, and speed up fixes, which changes prioritization because machine speed forces teams to remediate faster.\n\nOn the business side, Christina says Vanta is modularizing its codebase so smaller-context agents can operate safely, but she is not interested in building Tableau-like embedded BI and prefers on-demand chart generation. She also notes that enterprise procurement can require AI features to be turned off early in the sales cycle, creating a practical go-to-market constraint. Overall, her argument is that trust software should win by combining integrations, agentic action, and durable enterprise demand rather than by monetizing model tokens.",
+    "key_takeaways": [
+      "Christina Cacioppo said Vanta is now \"about 16,000 customers, global with about five products.\"",
+      "Christina said Vanta\u2019s integrations connect answers to \"one of 400 tools\" and that this data powers \"the automation, the agent, the AI.\"",
+      "Christina argued Vanta\u2019s agentic UX is superior because it can act on behalf of users, not just raise alerts, and she said that should improve retention.",
+      "Christina said token-based pricing is a disadvantage because customers quickly compare it to the base model and notice if a vendor is just marking up cloud tokens.",
+      "Christina said Vanta is currently \"eating the token costs\" instead of passing them through, because the user experience matters more than short-term margin.",
+      "Christina described a future security model where agents create a \"constant penetration test\" by continuously probing and finding issues faster than humans can prioritize them.",
+      "Christina said enterprise procurement can require AI features to be disabled initially, which means go-to-market may need to support a dual-track rollout."
+    ],
+    "investment_thesis": "Vanta believes deep integrations plus agentic workflows will create a superior trust-security platform that can grow without relying on token markups.",
+    "key_tickers": null
+  },
+  {
     "id": 594,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Is The AI Trade Over? | Jack & Max on Panic in AI Credit, SpaceX Earnings, and Semis",

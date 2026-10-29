@@ -2,7 +2,7 @@
   "_metadata": {
     "schema_version": 1,
     "note": "Inception shares fixed; daily marks update current_* only.",
-    "last_updated": "2026-10-29T10:11:58.881988",
+    "last_updated": "2026-10-29T12:31:17.211968",
     "exit_fields_note": "Each position carries exit (price or condition), exit_date (ISO), expiry (ISO; cards default 21 days). null until G fills them. publish_guard process_checks STALE reads them (Red Team Fix 4, 2026-10-16)."
   },
   "baskets": [
@@ -14,10 +14,10 @@
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 5157.29,
-      "basket_change_pct": 3.15,
+      "basket_current_value": 5160.22,
+      "basket_change_pct": 3.2,
       "index_start": 100,
-      "basket_index_value": 103.15,
+      "basket_index_value": 103.2,
       "names": [
         {
           "ticker": "HIMS",
@@ -26,9 +26,9 @@
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 29.79,
-          "current_value": 1060.52,
-          "change_pct": 6.05,
+          "current_price": 29.95,
+          "current_value": 1066.22,
+          "change_pct": 6.62,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -40,9 +40,9 @@
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.6,
-          "current_value": 1081.08,
-          "change_pct": 8.11,
+          "current_price": 3.56,
+          "current_value": 1069.07,
+          "change_pct": 6.91,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -54,9 +54,9 @@
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 77.25,
-          "current_value": 990.76,
-          "change_pct": -0.92,
+          "current_price": 77.8,
+          "current_value": 997.82,
+          "change_pct": -0.22,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -68,9 +68,9 @@
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 184.78,
-          "current_value": 1009.18,
-          "change_pct": 0.92,
+          "current_price": 185.43,
+          "current_value": 1012.73,
+          "change_pct": 1.27,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -82,16 +82,16 @@
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 103.81,
-          "current_value": 1015.75,
-          "change_pct": 1.58,
+          "current_price": 103.67,
+          "current_value": 1014.38,
+          "change_pct": 1.44,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-29T10:11:58.881978"
+      "last_updated": "2026-10-29T12:31:17.211952"
     }
   ]
 }
