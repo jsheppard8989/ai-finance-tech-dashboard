@@ -936,6 +936,41 @@
       ]
     },
     {
+      "id": 634,
+      "title": "Christina Cacioppo - Building an Enduring Software Company in the Age of AI - [Invest Like the Best, EP.496]",
+      "source_type": "podcast",
+      "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "source_date": "2026-10-20",
+      "summary": "The episode centers on Christina Cacioppo\u2019s view of how Vanta is evolving from a compliance automation company into a broader trust and security platform built for the AI era. She says Vanta started eight years ago, now serves about 16,000 customers globally, has about five products, and connects into roughly 400 tools through a trust graph that powers automation and agentic workflows.\n\nA major theme is product design and monetization under agentic AI. Christina argues that an agent-driven experience is better than a watchdog or red-alert model because it can take actions with permission and create a better user experience and retention. She is explicitly skeptical of token-markup pricing, saying customers quickly compare any markup to the underlying cloud model and push back. Vanta is currently absorbing token costs rather than passing them through.\n\nShe also frames enterprise security as structurally stronger in the AI era because AI raises perceived agent risk and increases the need for industrial-grade proof, continuous remediation, and richer controls. Her long-term picture is a security system that behaves like a constant penetration test: agents continuously probe, find issues, and speed up fixes, which changes prioritization because machine speed forces teams to remediate faster.\n\nOn the business side, Christina says Vanta is modularizing its codebase so smaller-context agents can operate safely, but she is not interested in building Tableau-like embedded BI and prefers on-demand chart generation. She also notes that enterprise procurement can require AI features to be turned off early in the sales cycle, creating a practical go-to-market constraint. Overall, her argument is that trust software should win by combining integrations, agentic action, and durable enterprise demand rather than by monetizing model tokens.",
+      "key_takeaway": "Vanta believes deep integrations plus agentic workflows will create a superior trust-security platform that can grow without relying on token markups.",
+      "tickers_mentioned": [
+        "VANTA",
+        "RAMP",
+        "ROGO"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 623,
+      "notable_quotes": [
+        {
+          "speaker": "Christina Cacioppo",
+          "quote": "So now you can connect the answer to one of 400 tools. We pull a ton of data out of those tools, and that's what powers the automation, the agent, the AI, all of that."
+        },
+        {
+          "speaker": "Christina Cacioppo",
+          "quote": "When we go benchmark where we are from a agent and our product, perspective against quote unquote AI applications, we have yet to find someone who is further along."
+        },
+        {
+          "speaker": "Christina Cacioppo",
+          "quote": "If you try to charge them based on tokens, they are very quick to say, Oh, you've just marked up a cloud token for x. Are you for x as good as cloud?"
+        }
+      ]
+    },
+    {
       "id": 601,
       "title": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
       "source_type": "podcast",
@@ -14038,8 +14073,8 @@
       "term": "Context layer",
       "description": "The owned layer of user data, memories, and contacts that sits above raw model access and helps an agent stay useful over time. Town argues this should remain portable and customer-controlled.",
       "first_detected_date": "2026-10-19",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Portability and ownership of context may determine switching costs, retention, and enterprise trust in agent software.",
@@ -14048,8 +14083,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 590,
       "first_detected_speaker": "Jean-Denis Greze",
-      "last_mentioned_episode_id": 620,
-      "last_mentioned_speaker": "Cliff Sosin"
+      "last_mentioned_episode_id": 623,
+      "last_mentioned_speaker": "Christina Cacioppo"
     },
     {
       "id": 315,
@@ -14524,8 +14559,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -14534,8 +14569,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      "last_mentioned_episode_id": 623,
+      "last_mentioned_speaker": "Christina Cacioppo"
     },
     {
       "id": 284,
@@ -14686,8 +14721,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -14696,8 +14731,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 622,
-      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+      "last_mentioned_episode_id": 623,
+      "last_mentioned_speaker": "Christina Cacioppo"
     },
     {
       "id": 267,
@@ -15010,8 +15045,8 @@
       "term": "Authenticity",
       "description": "The quality of being genuine or original, often associated with products or businesses that have a personal, non-corporate touch.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authentic family businesses are increasingly valued by consumers, especially younger generations, for their perceived trustworthiness and connection to tradition.",
@@ -15020,8 +15055,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 301,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 606,
-      "last_mentioned_speaker": "Dave Blundin, Alex, Salim"
+      "last_mentioned_episode_id": 623,
+      "last_mentioned_speaker": "Christina Cacioppo"
     },
     {
       "id": 266,
@@ -16684,8 +16719,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 136,
+      "last_mentioned_date": "2026-10-20",
+      "mention_count": 137,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -16694,8 +16729,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 622,
-      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+      "last_mentioned_episode_id": 623,
+      "last_mentioned_speaker": "Christina Cacioppo"
     },
     {
       "id": 38,
