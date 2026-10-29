@@ -28,6 +28,75 @@
       ]
     },
     {
+      "id": 631,
+      "title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-28",
+      "summary": "The episode argues that the AI infrastructure boom is entering a financial stress phase even as the underlying technology continues to improve. The hosts describe a potential \u201cbubble pop\u201d in the neocloud segment, pointing to leveraged GPU/data-center financing, sharp share declines in names like CoreWeave and Nebius, and the risk that bad debt structures\u2014not AI demand itself\u2014will cause the damage. One prediction is that weak operators could be washed out by around 2027, similar to a prior overbuild cycle in dark fiber.\n\nA major segment focuses on Anthropic\u2019s IPO, which the episode frames as fundamentally strong but governance-complicated. The discussion cites H1 2026 revenue of $16.3 billion versus $1.16 billion in H1 2025, first operating profit in Q2 2026, and compute efficiency improving to $2.8 of revenue per $1 of compute from $0.40 eighteen months earlier. At the same time, the hosts flag concerns about the long-term benefit trust and OST-share structure, arguing it may reduce public shareholder accountability and concentrate ideological control.\n\nThe show also emphasizes that compute and electricity remain bottlenecks, with the U.S. and China likely pulling further ahead of Europe unless major infrastructure action occurs. That theme connects to a broader view that AI progress is accelerating faster than verification, whether in frontier-model claims, red-team security, or scientific discovery. The hosts stress that side-channel leakage among agents suggests isolation assumptions are increasingly fragile.\n\nFinally, the episode surveys rapid model-price/performance improvements and open-vs-closed convergence, using Kimi K3.1 Pro and GPT 6.1 Terra as examples. The discussion extends into more speculative territory with OpenAI\u2019s reported math/CS/physics results, Chain Theory\u2019s attempt to derive the fine-structure constant, and Warhound\u2019s cloning/engineering of working dogs, which is presented as a biotech service-business opportunity but with major ethical and regulatory risk.",
+      "key_takeaway": "AI infrastructure demand remains strong, but weak neocloud capital structures may suffer a 2027 shakeout even as frontier labs like Anthropic keep improving economics rapidly.",
+      "tickers_mentioned": [
+        "ANT",
+        "MU"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 622,
+      "notable_quotes": [
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "Anthropica now earns $2.8 in revenue for every dollar of compute, up from 40 cents just 18 months ago, put in a dollar compute and double it in revenue."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "They announced this thing, which is a really interesting, a pretty radical form of corporate governance. There's a new class of shares called OST shares that are the long-term benefit trust, which is a financially independent group of trustees."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "The problem that Palmer noted is that today, more than 80% of working dogs come from Europe, and fewer than half of them are fit for service."
+        }
+      ]
+    },
+    {
+      "id": 632,
+      "title": "Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-10-28",
+      "summary": "The episode centers on whether the AI data-center boom is still economically self-sustaining even with higher rates and massive capital intensity. Steve Hou argues the business can look profitable at the EBITDA level, but depreciation and buildout costs keep net income weak, so the key question is not whether GPUs are being used, but whether returns remain durable enough to justify continued capex.\n\nA major theme is the divergence between token prices and GPU rental economics. Steve Hou says token prices have been falling since late May while rental rates for advanced GPUs such as H100, H200, and B300 are rising sharply, which he interprets as evidence of continued demand and tight supply rather than a collapse in AI economics. He also says the forward rental curve has risen since October and implies higher future rates, making long-duration lockups less attractive unless buyers are compensated.\n\nThe discussion uses Anthropic\u2019s S-1 to push back against bearish claims that frontier models are being sold at a loss. Jack Farley cites 87% gross margin in Q1/Q2 and an implied 88% gross margin in Q2, plus 8% operating margin in Q2, arguing that the company\u2019s economics are stronger than many public reports suggest. The guest\u2019s broader point is that enterprise adoption appears meaningful, and cheaper token prices may be expanding usage rather than destroying economics.\n\nThe episode also touches on hyperscaler capex, with Google cited as growing search 12% and cloud revenue over 100%, alongside margins moving from 23% last year to 36% in the quarter discussed. Jack Farley frames this as evidence that AI investment can still be profitable, though he and Steve Hou also note that public-market skepticism persists for leveraged compute brokers and data-center credits because investors doubt earnings sustainability, not merely because interest rates are high.",
+      "key_takeaway": "Rising GPU rental rates and strong Anthropic margins suggest AI compute economics remain profitable enough to support the capex cycle despite falling token prices.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 621,
+      "notable_quotes": [
+        {
+          "speaker": "Steve Ho(head)",
+          "quote": "So since then, token prices down and rental rates up. Which doesn't sound great, but just explain, explain why the bears are 100% right here."
+        },
+        {
+          "speaker": "Steve Ho(head)",
+          "quote": "And then you've got the rental price for a B300. They are all surging and in most recent weeks, you know, that we naturally almost go in vertical."
+        },
+        {
+          "speaker": "Jack Farley",
+          "quote": "the gross margin of anthropic in the Q1 and Q2 was 87%. Actually, that was Q2 was implied 88% gross margin and just to give a percentage, that's a higher gross margin than Microsoft Adobe Salesforce Service now."
+        }
+      ]
+    },
+    {
       "id": 626,
       "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
       "source_type": "podcast",
@@ -102,6 +171,39 @@
       "archived_reason": null,
       "podcast_episode_id": 616,
       "notable_quotes": []
+    },
+    {
+      "id": 633,
+      "title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "source_type": "podcast",
+      "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "source_date": "2026-10-27",
+      "summary": "Cliff Sosin argues that intelligence is not an unlimited force that can reliably solve every complex problem. He says simulation error compounds in dynamic systems, so even very strong models hit practical limits unless they can \u201ctouch reality\u201d through experiments, data, or direct feedback loops.\n\nA central theme is that as intelligence becomes cheap and ubiquitous, the economic advantage shifts away from intelligence itself and toward complements to intelligence: proprietary data, attention, physical scale/proximity, and sometimes regulatory capture. Sosin uses Meta as a prime example, saying its advantage comes from data and attention rather than model quality alone.\n\nHe also warns that frontier intelligence may commoditize quickly, shrinking the economic value of many tasks that are currently considered high-value. He says forecasting both demand and supply for inference is extremely hard, and investors should focus on bottlenecks and value capture in the AI stack rather than assuming all buildout creates durable returns.\n\nOn market structure, Sosin expects agents to change pricing and switching dynamics by making comparison and re-pricing more continuous, potentially pushing prices closer to marginal cost. He extends this into a broader investing view: as AI improves portfolio construction, investors may spend less time optimizing weights and more time deciding what businesses are worth owning.",
+      "key_takeaway": "Cheap, ubiquitous intelligence will commoditize many model-layer tasks, so durable returns should accrue to businesses with strong data, attention, scale, or other complements to intelligence.",
+      "tickers_mentioned": [
+        "META"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 620,
+      "notable_quotes": [
+        {
+          "speaker": "Cliff Sosin",
+          "quote": "If intelligence becomes cheap and ubiquitous, what you want on or the compliments to intelligence. And so the compliments to intelligence are their data, attention, love, affection, whatever sort of emotional attachment you want."
+        },
+        {
+          "speaker": "Cliff Sosin",
+          "quote": "This idea of how much more inference will people use as intelligence gets better and cheaper is really really hard thing. Equally hard is how much better and cheaper inference is going to get and then even if you could somehow guess it those things then there's the whole value chain."
+        },
+        {
+          "speaker": "Cliff Sosin",
+          "quote": "In the 10,000 footer, or let's talk about meta from space, the highest view. They have 250 billion of revenue, and they spend 250 billion dollars a year."
+        }
+      ]
     },
     {
       "id": 623,
@@ -255,7 +357,7 @@
         "IBM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-24",
       "archived_date": null,
@@ -360,7 +462,7 @@
         "NET"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-24",
       "archived_date": null,
@@ -393,7 +495,7 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-24",
       "archived_date": null,
@@ -584,16 +686,9 @@
       "source_type": "podcast",
       "source_name": "The Credit Edge by Bloomberg Intelligence",
       "source_date": "2026-10-22",
-      "summary": "Annie Seelaus argues that credit markets look deceptively calm: spreads are tight and trading remains efficient, yet rising yields are exposing \u201cfundamental cracks\u201d at the riskiest end of the market. Her core framing is that macro rate moves work with a lag, so stress often shows up later in the weakest pockets after the initial move, with \u201cwho\u2019s left on the beach\u201d becoming visible only after the tide goes out.\n\nShe says liquidity is still functional, even on volatile days, but it would likely deteriorate first in less-liquid sectors such as BDCs and REITs. In her view, the next cycle will be driven more by technicals and flows than fundamentals, especially if forced selling, redemption pressure, or a primary-market wobble hits weaker segments.\n\nOn the opportunity side, she remains constructive on oversold credit and says retail investors are re-entering because absolute yields are finally compelling. She points to long-end corporates, some munis, preferreds, and certain IG paper as attractive, while warning that investors should not deploy all dry powder at once because repricing opportunities may continue.\n\nA major theme is AI/data-center financing. Seelaus says hyperscalers still have substantial issuance needs through 2027 and are not pausing because of this rate move. At the same time, she warns that data-center credit has opaque contract terms, correlated tenant/supplier webs, and limited stress-testing, making security selection and contract-level diligence far more important than broad sector exposure.\n\nShe also sees ABS and private credit growth as investable but increasingly demanding. Her caution is that rapid expansion can breed complacency, and structure, collateral quality, and underwriting discipline matter more as these markets scale.",
-      "key_takeaway": "The episode\u2019s main claim is that current calm credit spreads hide lagged technical stress, making selective liquidity-sensitive and AI/data-center underwriting more important than broad market averages.",
-      "tickers_mentioned": [
-        "BDC",
-        "REIT",
-        "IG",
-        "HY",
-        "ABS",
-        "CMBS"
-      ],
+      "summary": "Annie Seelaus argues that credit markets look deceptively calm: spreads are tight and trading remains efficient, yet rising yields are exposing \u201cfundamental cracks\u201d at the riskiest end of the market. Her core framing is that macro rate moves work with a lag, so stress often shows up later in the weakest pockets after the initial move, with \u201cwho\u2019s left on the beach\u201d becoming visible only after the tide goes out.\n\nShe says liquidity is still functional, even on volatile days, but it would likely deteriorate first in less-liquid sectors such as business development companies (BDCs) and real estate investment trusts (REITs). In her view, the next cycle will be driven more by technicals and flows than fundamentals, especially if forced selling, redemption pressure, or a primary-market wobble hits weaker segments.\n\nOn the opportunity side, she remains constructive on oversold credit and says retail investors are re-entering because absolute yields are finally compelling. She points to long-end corporates, some munis, preferreds, and some investment-grade corporate bonds as attractive, while warning that investors should not put all their spare cash to work at once because repricing opportunities may continue.\n\nA major theme is AI/data-center financing. Seelaus says hyperscalers still have substantial issuance needs through 2027 and are not pausing because of this rate move. At the same time, she warns that data-center credit has opaque contract terms, correlated tenant/supplier webs, and limited stress-testing, making security selection and contract-level diligence far more important than broad sector exposure.\n\nShe also sees the growth of asset-backed securities and private credit as investable but increasingly demanding. Her caution is that rapid expansion can breed complacency, and structure, collateral quality, and underwriting discipline matter more as these markets scale.",
+      "key_takeaway": "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market.",
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
@@ -13849,12 +13944,48 @@
       "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
     },
     {
+      "id": 318,
+      "term": "Neocloud",
+      "description": "A class of GPU/data-center rental firms that finance compute capacity and lease it out to AI customers. The episode treats the segment as vulnerable to leverage, refinancing stress, and demand timing risk.",
+      "first_detected_date": "2026-10-23",
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "If credit tightens before utilization catches up, weaker operators may be forced into consolidation or insolvency.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 608,
+      "first_detected_speaker": "George Noble",
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+    },
+    {
+      "id": 320,
+      "term": "Open-weight models",
+      "description": "Models whose weights can be accessed and modified by the enterprise, rather than kept fully closed by the provider. They are presented as preferable for auditability, customization, and regulatory validation.",
+      "first_detected_date": "2026-10-23",
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Could increase demand for governance, monitoring, and security tooling around enterprise AI deployment.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 607,
+      "first_detected_speaker": "Nick Hess",
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+    },
+    {
       "id": 313,
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-10-25",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -13863,8 +13994,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "Citrini"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 314,
@@ -13903,6 +14034,24 @@
       "last_mentioned_speaker": "Nick Hess"
     },
     {
+      "id": 319,
+      "term": "Context layer",
+      "description": "The owned layer of user data, memories, and contacts that sits above raw model access and helps an agent stay useful over time. Town argues this should remain portable and customer-controlled.",
+      "first_detected_date": "2026-10-19",
+      "last_mentioned_date": "2026-10-27",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Portability and ownership of context may determine switching costs, retention, and enterprise trust in agent software.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 590,
+      "first_detected_speaker": "Jean-Denis Greze",
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin"
+    },
+    {
       "id": 315,
       "term": "free money",
       "description": "rather than traditional productivity, and he adds that financially and bureaucratically burdensome consumer workflows could create large vertical opportunities even if the winning horizontal agent int",
@@ -13925,8 +14074,8 @@
       "term": "Cost of intelligence",
       "description": "The effective cost of producing useful intelligence, which the speakers expect to decline as compute scales and models become more efficient. It is treated as a key analog to Moore\u2019s Law.",
       "first_detected_date": "2026-10-15",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-27",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Lower intelligence costs should expand AI adoption across enterprises, robotics, science, and consumer applications.",
@@ -13935,8 +14084,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 580,
       "first_detected_speaker": "Jensen Huang",
-      "last_mentioned_episode_id": 592,
-      "last_mentioned_speaker": "Karan Singhal"
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin"
     },
     {
       "id": 304,
@@ -14087,8 +14236,8 @@
       "term": "AI Debt",
       "description": "AI Debt refers to the bond, leveraged loan, private credit, and project finance raised to fund AI labs, GPU purchases, and data center construction. In this episode, Zitron framed it as the main transmission channel from AI hype to credit-market stress.",
       "first_detected_date": "2026-10-01",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because refinancing costs, spreads, and failed debt sales can determine whether AI infrastructure projects remain viable.",
@@ -14097,8 +14246,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 544,
       "first_detected_speaker": "Ed Zitron",
-      "last_mentioned_episode_id": 619,
-      "last_mentioned_speaker": "Annie Seelaus"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 306,
@@ -14213,8 +14362,8 @@
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -14223,8 +14372,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 606,
-      "last_mentioned_speaker": "Dave Blundin, Alex, Salim"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 310,
@@ -14447,8 +14596,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -14457,8 +14606,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 615,
-      "last_mentioned_speaker": "Joe Liemandt, Gagan Biyani, Erik Torenberg"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 272,
@@ -14537,8 +14686,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -14547,8 +14696,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 267,
@@ -14645,8 +14794,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-26",
-      "mention_count": 38,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 39,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -14655,8 +14804,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 612,
-      "last_mentioned_speaker": "James Sun, Ari Weinstein"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 265,
@@ -14681,8 +14830,8 @@
       "term": "Quantization",
       "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
       "first_detected_date": "2026-07-19",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-10-27",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
@@ -14691,8 +14840,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 356,
       "first_detected_speaker": "Alex Wissner-Gross, Salim Ismail, Emad Mostaque",
-      "last_mentioned_episode_id": 601,
-      "last_mentioned_speaker": "Erik Bernhardsson"
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin"
     },
     {
       "id": 259,
@@ -14771,8 +14920,8 @@
       "term": "ASI",
       "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 31,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
@@ -14781,8 +14930,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Chamath Palihapitiya"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 135,
@@ -15239,8 +15388,8 @@
       "term": "Dyson Swarm",
       "description": "A hypothetical megastructure of numerous small satellites surrounding a star to capture its energy output, discussed here as a future AI-enabled energy breakthrough.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Long-term exposure to space tech, advanced energy infrastructure, and AI-driven applied physics could position investors ahead of secular shifts in global energy production.",
@@ -15249,8 +15398,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Chamath Palihapitiya"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 113,
@@ -15329,8 +15478,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 86,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 87,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -15339,16 +15488,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 606,
-      "last_mentioned_speaker": "Dave Blundin, Alex, Salim"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "A training technique where a model learns from another model\u2019s outputs or reasoning traces. Lambert argues it is often oversimplified as the main way open models can catch frontier systems.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 64,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 66,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If distillation is less effective than assumed, open-model catch-up may take longer and favor integrated frontier labs over open ecosystems.",
@@ -15357,8 +15506,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 174,
@@ -15455,8 +15604,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 123,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 124,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -15465,8 +15614,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 162,
@@ -16265,8 +16414,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-25",
-      "mention_count": 50,
+      "last_mentioned_date": "2026-10-27",
+      "mention_count": 51,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -16275,8 +16424,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "Citrini"
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin"
     },
     {
       "id": 26,
@@ -16536,7 +16685,7 @@
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-10-28",
-      "mention_count": 134,
+      "mention_count": 136,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -16545,8 +16694,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 618,
-      "last_mentioned_speaker": "Mark Cuban"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 38,

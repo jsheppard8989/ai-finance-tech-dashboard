@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-28T22:49:05.514320",
-  chartsVersion: "2026-10-28T22:48:22.539423",
+  generatedAt: "2026-10-29T10:12:14.230990",
+  chartsVersion: "2026-10-29T07:12:38.468867",
   priceSnapshot: {
   "AAPL": {
     "price": 343.83,
@@ -1354,6 +1354,75 @@ const dashboardData = {
       ]
     },
     {
+      "id": 631,
+      "title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-28",
+      "summary": "The episode argues that the AI infrastructure boom is entering a financial stress phase even as the underlying technology continues to improve. The hosts describe a potential \u201cbubble pop\u201d in the neocloud segment, pointing to leveraged GPU/data-center financing, sharp share declines in names like CoreWeave and Nebius, and the risk that bad debt structures\u2014not AI demand itself\u2014will cause the damage. One prediction is that weak operators could be washed out by around 2027, similar to a prior overbuild cycle in dark fiber.\n\nA major segment focuses on Anthropic\u2019s IPO, which the episode frames as fundamentally strong but governance-complicated. The discussion cites H1 2026 revenue of $16.3 billion versus $1.16 billion in H1 2025, first operating profit in Q2 2026, and compute efficiency improving to $2.8 of revenue per $1 of compute from $0.40 eighteen months earlier. At the same time, the hosts flag concerns about the long-term benefit trust and OST-share structure, arguing it may reduce public shareholder accountability and concentrate ideological control.\n\nThe show also emphasizes that compute and electricity remain bottlenecks, with the U.S. and China likely pulling further ahead of Europe unless major infrastructure action occurs. That theme connects to a broader view that AI progress is accelerating faster than verification, whether in frontier-model claims, red-team security, or scientific discovery. The hosts stress that side-channel leakage among agents suggests isolation assumptions are increasingly fragile.\n\nFinally, the episode surveys rapid model-price/performance improvements and open-vs-closed convergence, using Kimi K3.1 Pro and GPT 6.1 Terra as examples. The discussion extends into more speculative territory with OpenAI\u2019s reported math/CS/physics results, Chain Theory\u2019s attempt to derive the fine-structure constant, and Warhound\u2019s cloning/engineering of working dogs, which is presented as a biotech service-business opportunity but with major ethical and regulatory risk.",
+      "key_takeaway": "AI infrastructure demand remains strong, but weak neocloud capital structures may suffer a 2027 shakeout even as frontier labs like Anthropic keep improving economics rapidly.",
+      "tickers_mentioned": [
+        "ANT",
+        "MU"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 622,
+      "notable_quotes": [
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "Anthropica now earns $2.8 in revenue for every dollar of compute, up from 40 cents just 18 months ago, put in a dollar compute and double it in revenue."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "They announced this thing, which is a really interesting, a pretty radical form of corporate governance. There's a new class of shares called OST shares that are the long-term benefit trust, which is a financially independent group of trustees."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "The problem that Palmer noted is that today, more than 80% of working dogs come from Europe, and fewer than half of them are fit for service."
+        }
+      ]
+    },
+    {
+      "id": 632,
+      "title": "Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-10-28",
+      "summary": "The episode centers on whether the AI data-center boom is still economically self-sustaining even with higher rates and massive capital intensity. Steve Hou argues the business can look profitable at the EBITDA level, but depreciation and buildout costs keep net income weak, so the key question is not whether GPUs are being used, but whether returns remain durable enough to justify continued capex.\n\nA major theme is the divergence between token prices and GPU rental economics. Steve Hou says token prices have been falling since late May while rental rates for advanced GPUs such as H100, H200, and B300 are rising sharply, which he interprets as evidence of continued demand and tight supply rather than a collapse in AI economics. He also says the forward rental curve has risen since October and implies higher future rates, making long-duration lockups less attractive unless buyers are compensated.\n\nThe discussion uses Anthropic\u2019s S-1 to push back against bearish claims that frontier models are being sold at a loss. Jack Farley cites 87% gross margin in Q1/Q2 and an implied 88% gross margin in Q2, plus 8% operating margin in Q2, arguing that the company\u2019s economics are stronger than many public reports suggest. The guest\u2019s broader point is that enterprise adoption appears meaningful, and cheaper token prices may be expanding usage rather than destroying economics.\n\nThe episode also touches on hyperscaler capex, with Google cited as growing search 12% and cloud revenue over 100%, alongside margins moving from 23% last year to 36% in the quarter discussed. Jack Farley frames this as evidence that AI investment can still be profitable, though he and Steve Hou also note that public-market skepticism persists for leveraged compute brokers and data-center credits because investors doubt earnings sustainability, not merely because interest rates are high.",
+      "key_takeaway": "Rising GPU rental rates and strong Anthropic margins suggest AI compute economics remain profitable enough to support the capex cycle despite falling token prices.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 621,
+      "notable_quotes": [
+        {
+          "speaker": "Steve Ho(head)",
+          "quote": "So since then, token prices down and rental rates up. Which doesn't sound great, but just explain, explain why the bears are 100% right here."
+        },
+        {
+          "speaker": "Steve Ho(head)",
+          "quote": "And then you've got the rental price for a B300. They are all surging and in most recent weeks, you know, that we naturally almost go in vertical."
+        },
+        {
+          "speaker": "Jack Farley",
+          "quote": "the gross margin of anthropic in the Q1 and Q2 was 87%. Actually, that was Q2 was implied 88% gross margin and just to give a percentage, that's a higher gross margin than Microsoft Adobe Salesforce Service now."
+        }
+      ]
+    },
+    {
       "id": 626,
       "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
       "source_type": "podcast",
@@ -1428,6 +1497,39 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 616,
       "notable_quotes": []
+    },
+    {
+      "id": 633,
+      "title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "source_type": "podcast",
+      "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "source_date": "2026-10-27",
+      "summary": "Cliff Sosin argues that intelligence is not an unlimited force that can reliably solve every complex problem. He says simulation error compounds in dynamic systems, so even very strong models hit practical limits unless they can \u201ctouch reality\u201d through experiments, data, or direct feedback loops.\n\nA central theme is that as intelligence becomes cheap and ubiquitous, the economic advantage shifts away from intelligence itself and toward complements to intelligence: proprietary data, attention, physical scale/proximity, and sometimes regulatory capture. Sosin uses Meta as a prime example, saying its advantage comes from data and attention rather than model quality alone.\n\nHe also warns that frontier intelligence may commoditize quickly, shrinking the economic value of many tasks that are currently considered high-value. He says forecasting both demand and supply for inference is extremely hard, and investors should focus on bottlenecks and value capture in the AI stack rather than assuming all buildout creates durable returns.\n\nOn market structure, Sosin expects agents to change pricing and switching dynamics by making comparison and re-pricing more continuous, potentially pushing prices closer to marginal cost. He extends this into a broader investing view: as AI improves portfolio construction, investors may spend less time optimizing weights and more time deciding what businesses are worth owning.",
+      "key_takeaway": "Cheap, ubiquitous intelligence will commoditize many model-layer tasks, so durable returns should accrue to businesses with strong data, attention, scale, or other complements to intelligence.",
+      "tickers_mentioned": [
+        "META"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 620,
+      "notable_quotes": [
+        {
+          "speaker": "Cliff Sosin",
+          "quote": "If intelligence becomes cheap and ubiquitous, what you want on or the compliments to intelligence. And so the compliments to intelligence are their data, attention, love, affection, whatever sort of emotional attachment you want."
+        },
+        {
+          "speaker": "Cliff Sosin",
+          "quote": "This idea of how much more inference will people use as intelligence gets better and cheaper is really really hard thing. Equally hard is how much better and cheaper inference is going to get and then even if you could somehow guess it those things then there's the whole value chain."
+        },
+        {
+          "speaker": "Cliff Sosin",
+          "quote": "In the 10,000 footer, or let's talk about meta from space, the highest view. They have 250 billion of revenue, and they spend 250 billion dollars a year."
+        }
+      ]
     },
     {
       "id": 623,
@@ -1581,7 +1683,7 @@ const dashboardData = {
         "IBM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-24",
       "archived_date": null,
@@ -1686,7 +1788,7 @@ const dashboardData = {
         "NET"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-24",
       "archived_date": null,
@@ -1719,7 +1821,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-24",
       "archived_date": null,
@@ -1910,16 +2012,9 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The Credit Edge by Bloomberg Intelligence",
       "source_date": "2026-10-22",
-      "summary": "Annie Seelaus argues that credit markets look deceptively calm: spreads are tight and trading remains efficient, yet rising yields are exposing \u201cfundamental cracks\u201d at the riskiest end of the market. Her core framing is that macro rate moves work with a lag, so stress often shows up later in the weakest pockets after the initial move, with \u201cwho\u2019s left on the beach\u201d becoming visible only after the tide goes out.\n\nShe says liquidity is still functional, even on volatile days, but it would likely deteriorate first in less-liquid sectors such as BDCs and REITs. In her view, the next cycle will be driven more by technicals and flows than fundamentals, especially if forced selling, redemption pressure, or a primary-market wobble hits weaker segments.\n\nOn the opportunity side, she remains constructive on oversold credit and says retail investors are re-entering because absolute yields are finally compelling. She points to long-end corporates, some munis, preferreds, and certain IG paper as attractive, while warning that investors should not deploy all dry powder at once because repricing opportunities may continue.\n\nA major theme is AI/data-center financing. Seelaus says hyperscalers still have substantial issuance needs through 2027 and are not pausing because of this rate move. At the same time, she warns that data-center credit has opaque contract terms, correlated tenant/supplier webs, and limited stress-testing, making security selection and contract-level diligence far more important than broad sector exposure.\n\nShe also sees ABS and private credit growth as investable but increasingly demanding. Her caution is that rapid expansion can breed complacency, and structure, collateral quality, and underwriting discipline matter more as these markets scale.",
-      "key_takeaway": "The episode\u2019s main claim is that current calm credit spreads hide lagged technical stress, making selective liquidity-sensitive and AI/data-center underwriting more important than broad market averages.",
-      "tickers_mentioned": [
-        "BDC",
-        "REIT",
-        "IG",
-        "HY",
-        "ABS",
-        "CMBS"
-      ],
+      "summary": "Annie Seelaus argues that credit markets look deceptively calm: spreads are tight and trading remains efficient, yet rising yields are exposing \u201cfundamental cracks\u201d at the riskiest end of the market. Her core framing is that macro rate moves work with a lag, so stress often shows up later in the weakest pockets after the initial move, with \u201cwho\u2019s left on the beach\u201d becoming visible only after the tide goes out.\n\nShe says liquidity is still functional, even on volatile days, but it would likely deteriorate first in less-liquid sectors such as business development companies (BDCs) and real estate investment trusts (REITs). In her view, the next cycle will be driven more by technicals and flows than fundamentals, especially if forced selling, redemption pressure, or a primary-market wobble hits weaker segments.\n\nOn the opportunity side, she remains constructive on oversold credit and says retail investors are re-entering because absolute yields are finally compelling. She points to long-end corporates, some munis, preferreds, and some investment-grade corporate bonds as attractive, while warning that investors should not put all their spare cash to work at once because repricing opportunities may continue.\n\nA major theme is AI/data-center financing. Seelaus says hyperscalers still have substantial issuance needs through 2027 and are not pausing because of this rate move. At the same time, she warns that data-center credit has opaque contract terms, correlated tenant/supplier webs, and limited stress-testing, making security selection and contract-level diligence far more important than broad sector exposure.\n\nShe also sees the growth of asset-backed securities and private credit as investable but increasingly demanding. Her caution is that rapid expansion can breed complacency, and structure, collateral quality, and underwriting discipline matter more as these markets scale.",
+      "key_takeaway": "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market.",
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
@@ -15175,12 +15270,48 @@ const dashboardData = {
       "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
     },
     {
+      "id": 318,
+      "term": "Neocloud",
+      "description": "A class of GPU/data-center rental firms that finance compute capacity and lease it out to AI customers. The episode treats the segment as vulnerable to leverage, refinancing stress, and demand timing risk.",
+      "first_detected_date": "2026-10-23",
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "If credit tightens before utilization catches up, weaker operators may be forced into consolidation or insolvency.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 608,
+      "first_detected_speaker": "George Noble",
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+    },
+    {
+      "id": 320,
+      "term": "Open-weight models",
+      "description": "Models whose weights can be accessed and modified by the enterprise, rather than kept fully closed by the provider. They are presented as preferable for auditability, customization, and regulatory validation.",
+      "first_detected_date": "2026-10-23",
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Could increase demand for governance, monitoring, and security tooling around enterprise AI deployment.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 607,
+      "first_detected_speaker": "Nick Hess",
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+    },
+    {
       "id": 313,
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-10-25",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -15189,8 +15320,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "Citrini"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 314,
@@ -15229,6 +15360,24 @@ const dashboardData = {
       "last_mentioned_speaker": "Nick Hess"
     },
     {
+      "id": 319,
+      "term": "Context layer",
+      "description": "The owned layer of user data, memories, and contacts that sits above raw model access and helps an agent stay useful over time. Town argues this should remain portable and customer-controlled.",
+      "first_detected_date": "2026-10-19",
+      "last_mentioned_date": "2026-10-27",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Portability and ownership of context may determine switching costs, retention, and enterprise trust in agent software.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 590,
+      "first_detected_speaker": "Jean-Denis Greze",
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin"
+    },
+    {
       "id": 315,
       "term": "free money",
       "description": "rather than traditional productivity, and he adds that financially and bureaucratically burdensome consumer workflows could create large vertical opportunities even if the winning horizontal agent int",
@@ -15251,8 +15400,8 @@ const dashboardData = {
       "term": "Cost of intelligence",
       "description": "The effective cost of producing useful intelligence, which the speakers expect to decline as compute scales and models become more efficient. It is treated as a key analog to Moore\u2019s Law.",
       "first_detected_date": "2026-10-15",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-27",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Lower intelligence costs should expand AI adoption across enterprises, robotics, science, and consumer applications.",
@@ -15261,8 +15410,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 580,
       "first_detected_speaker": "Jensen Huang",
-      "last_mentioned_episode_id": 592,
-      "last_mentioned_speaker": "Karan Singhal"
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin"
     },
     {
       "id": 304,
@@ -15413,8 +15562,8 @@ const dashboardData = {
       "term": "AI Debt",
       "description": "AI Debt refers to the bond, leveraged loan, private credit, and project finance raised to fund AI labs, GPU purchases, and data center construction. In this episode, Zitron framed it as the main transmission channel from AI hype to credit-market stress.",
       "first_detected_date": "2026-10-01",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because refinancing costs, spreads, and failed debt sales can determine whether AI infrastructure projects remain viable.",
@@ -15423,8 +15572,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 544,
       "first_detected_speaker": "Ed Zitron",
-      "last_mentioned_episode_id": 619,
-      "last_mentioned_speaker": "Annie Seelaus"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 306,
@@ -15539,8 +15688,8 @@ const dashboardData = {
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -15549,8 +15698,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 606,
-      "last_mentioned_speaker": "Dave Blundin, Alex, Salim"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 310,
@@ -15773,8 +15922,8 @@ const dashboardData = {
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -15783,8 +15932,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 615,
-      "last_mentioned_speaker": "Joe Liemandt, Gagan Biyani, Erik Torenberg"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 272,
@@ -15863,8 +16012,8 @@ const dashboardData = {
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -15873,8 +16022,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 267,
@@ -15971,8 +16120,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-26",
-      "mention_count": 38,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 39,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -15981,8 +16130,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 612,
-      "last_mentioned_speaker": "James Sun, Ari Weinstein"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 265,
@@ -16007,8 +16156,8 @@ const dashboardData = {
       "term": "Quantization",
       "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
       "first_detected_date": "2026-07-19",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-10-27",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
@@ -16017,8 +16166,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 356,
       "first_detected_speaker": "Alex Wissner-Gross, Salim Ismail, Emad Mostaque",
-      "last_mentioned_episode_id": 601,
-      "last_mentioned_speaker": "Erik Bernhardsson"
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin"
     },
     {
       "id": 259,
@@ -16097,8 +16246,8 @@ const dashboardData = {
       "term": "ASI",
       "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 31,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
@@ -16107,8 +16256,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Chamath Palihapitiya"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 135,
@@ -16565,8 +16714,8 @@ const dashboardData = {
       "term": "Dyson Swarm",
       "description": "A hypothetical megastructure of numerous small satellites surrounding a star to capture its energy output, discussed here as a future AI-enabled energy breakthrough.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Long-term exposure to space tech, advanced energy infrastructure, and AI-driven applied physics could position investors ahead of secular shifts in global energy production.",
@@ -16575,8 +16724,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Chamath Palihapitiya"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 113,
@@ -16655,8 +16804,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 86,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 87,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -16665,16 +16814,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 606,
-      "last_mentioned_speaker": "Dave Blundin, Alex, Salim"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "A training technique where a model learns from another model\u2019s outputs or reasoning traces. Lambert argues it is often oversimplified as the main way open models can catch frontier systems.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 64,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 66,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If distillation is less effective than assumed, open-model catch-up may take longer and favor integrated frontier labs over open ecosystems.",
@@ -16683,8 +16832,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 174,
@@ -16781,8 +16930,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 123,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 124,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -16791,8 +16940,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 162,
@@ -17591,8 +17740,8 @@ const dashboardData = {
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-25",
-      "mention_count": 50,
+      "last_mentioned_date": "2026-10-27",
+      "mention_count": 51,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -17601,8 +17750,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 611,
-      "last_mentioned_speaker": "Citrini"
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin"
     },
     {
       "id": 26,
@@ -17862,7 +18011,7 @@ const dashboardData = {
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-10-28",
-      "mention_count": 134,
+      "mention_count": 136,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -17871,8 +18020,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 618,
-      "last_mentioned_speaker": "Mark Cuban"
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
     },
     {
       "id": 38,
@@ -18137,6 +18286,88 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 632,
+      "title": "Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-10-28",
+      "summary": "The episode centers on whether the AI data-center boom is still economically self-sustaining even with higher rates and massive capital intensity. Steve Hou argues the business can look profitable at the EBITDA level, but depreciation and buildout costs keep net income weak, so the key question is not whether GPUs are being used, but whether returns remain durable enough to justify continued capex.\n\nA major theme is the divergence between token prices and GPU rental economics. Steve Hou says token prices have been falling since late May while rental rates for advanced GPUs such as H100, H200, and B300 are rising sharply, which he interprets as evidence of continued demand and tight supply rather than a collapse in AI economics. He also says the forward rental curve has risen since October and implies higher future rates, making long-duration lockups less attractive unless buyers are compensated.\n\nThe discussion uses Anthropic\u2019s S-1 to push back against bearish claims that frontier models are being sold at a loss. Jack Farley cites 87% gross margin in Q1/Q2 and an implied 88% gross margin in Q2, plus 8% operating margin in Q2, arguing that the company\u2019s economics are stronger than many public reports suggest. The guest\u2019s broader point is that enterprise adoption appears meaningful, and cheaper token prices may be expanding usage rather than destroying economics.\n\nThe episode also touches on hyperscaler capex, with Google cited as growing search 12% and cloud revenue over 100%, alongside margins moving from 23% last year to 36% in the quarter discussed. Jack Farley frames this as evidence that AI investment can still be profitable, though he and Steve Hou also note that public-market skepticism persists for leveraged compute brokers and data-center credits because investors doubt earnings sustainability, not merely because interest rates are high.",
+      "key_takeaway": "Rising GPU rental rates and strong Anthropic margins suggest AI compute economics remain profitable enough to support the capex cycle despite falling token prices.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 621,
+      "notable_quotes": [
+        {
+          "speaker": "Steve Ho(head)",
+          "quote": "So since then, token prices down and rental rates up. Which doesn't sound great, but just explain, explain why the bears are 100% right here."
+        },
+        {
+          "speaker": "Steve Ho(head)",
+          "quote": "And then you've got the rental price for a B300. They are all surging and in most recent weeks, you know, that we naturally almost go in vertical."
+        },
+        {
+          "speaker": "Jack Farley",
+          "quote": "the gross margin of anthropic in the Q1 and Q2 was 87%. Actually, that was Q2 was implied 88% gross margin and just to give a percentage, that's a higher gross margin than Microsoft Adobe Salesforce Service now."
+        }
+      ],
+      "episode_release_date": "2026-10-28",
+      "guest_name": null,
+      "key_tickers": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "id": 631,
+      "title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-28",
+      "summary": "The episode argues that the AI infrastructure boom is entering a financial stress phase even as the underlying technology continues to improve. The hosts describe a potential \u201cbubble pop\u201d in the neocloud segment, pointing to leveraged GPU/data-center financing, sharp share declines in names like CoreWeave and Nebius, and the risk that bad debt structures\u2014not AI demand itself\u2014will cause the damage. One prediction is that weak operators could be washed out by around 2027, similar to a prior overbuild cycle in dark fiber.\n\nA major segment focuses on Anthropic\u2019s IPO, which the episode frames as fundamentally strong but governance-complicated. The discussion cites H1 2026 revenue of $16.3 billion versus $1.16 billion in H1 2025, first operating profit in Q2 2026, and compute efficiency improving to $2.8 of revenue per $1 of compute from $0.40 eighteen months earlier. At the same time, the hosts flag concerns about the long-term benefit trust and OST-share structure, arguing it may reduce public shareholder accountability and concentrate ideological control.\n\nThe show also emphasizes that compute and electricity remain bottlenecks, with the U.S. and China likely pulling further ahead of Europe unless major infrastructure action occurs. That theme connects to a broader view that AI progress is accelerating faster than verification, whether in frontier-model claims, red-team security, or scientific discovery. The hosts stress that side-channel leakage among agents suggests isolation assumptions are increasingly fragile.\n\nFinally, the episode surveys rapid model-price/performance improvements and open-vs-closed convergence, using Kimi K3.1 Pro and GPT 6.1 Terra as examples. The discussion extends into more speculative territory with OpenAI\u2019s reported math/CS/physics results, Chain Theory\u2019s attempt to derive the fine-structure constant, and Warhound\u2019s cloning/engineering of working dogs, which is presented as a biotech service-business opportunity but with major ethical and regulatory risk.",
+      "key_takeaway": "AI infrastructure demand remains strong, but weak neocloud capital structures may suffer a 2027 shakeout even as frontier labs like Anthropic keep improving economics rapidly.",
+      "tickers_mentioned": [
+        "ANT",
+        "MU"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 622,
+      "notable_quotes": [
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "Anthropica now earns $2.8 in revenue for every dollar of compute, up from 40 cents just 18 months ago, put in a dollar compute and double it in revenue."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "They announced this thing, which is a really interesting, a pretty radical form of corporate governance. There's a new class of shares called OST shares that are the long-term benefit trust, which is a financially independent group of trustees."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "The problem that Palmer noted is that today, more than 80% of working dogs come from Europe, and fewer than half of them are fit for service."
+        }
+      ],
+      "episode_release_date": "2026-10-28",
+      "guest_name": "Kimi Catches Up",
+      "key_tickers": [
+        "ANT",
+        "MU"
+      ]
+    },
+    {
       "id": 629,
       "title": "Mark Cuban\u2019s Plan to Make Healthcare Affordable",
       "source_type": "podcast",
@@ -18165,6 +18396,44 @@ const dashboardData = {
       "episode_release_date": "2026-10-28",
       "guest_name": null,
       "key_tickers": []
+    },
+    {
+      "id": 633,
+      "title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "source_type": "podcast",
+      "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "source_date": "2026-10-27",
+      "summary": "Cliff Sosin argues that intelligence is not an unlimited force that can reliably solve every complex problem. He says simulation error compounds in dynamic systems, so even very strong models hit practical limits unless they can \u201ctouch reality\u201d through experiments, data, or direct feedback loops.\n\nA central theme is that as intelligence becomes cheap and ubiquitous, the economic advantage shifts away from intelligence itself and toward complements to intelligence: proprietary data, attention, physical scale/proximity, and sometimes regulatory capture. Sosin uses Meta as a prime example, saying its advantage comes from data and attention rather than model quality alone.\n\nHe also warns that frontier intelligence may commoditize quickly, shrinking the economic value of many tasks that are currently considered high-value. He says forecasting both demand and supply for inference is extremely hard, and investors should focus on bottlenecks and value capture in the AI stack rather than assuming all buildout creates durable returns.\n\nOn market structure, Sosin expects agents to change pricing and switching dynamics by making comparison and re-pricing more continuous, potentially pushing prices closer to marginal cost. He extends this into a broader investing view: as AI improves portfolio construction, investors may spend less time optimizing weights and more time deciding what businesses are worth owning.",
+      "key_takeaway": "Cheap, ubiquitous intelligence will commoditize many model-layer tasks, so durable returns should accrue to businesses with strong data, attention, scale, or other complements to intelligence.",
+      "tickers_mentioned": [
+        "META"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 620,
+      "notable_quotes": [
+        {
+          "speaker": "Cliff Sosin",
+          "quote": "If intelligence becomes cheap and ubiquitous, what you want on or the compliments to intelligence. And so the compliments to intelligence are their data, attention, love, affection, whatever sort of emotional attachment you want."
+        },
+        {
+          "speaker": "Cliff Sosin",
+          "quote": "This idea of how much more inference will people use as intelligence gets better and cheaper is really really hard thing. Equally hard is how much better and cheaper inference is going to get and then even if you could somehow guess it those things then there's the whole value chain."
+        },
+        {
+          "speaker": "Cliff Sosin",
+          "quote": "In the 10,000 footer, or let's talk about meta from space, the highest view. They have 250 billion of revenue, and they spend 250 billion dollars a year."
+        }
+      ],
+      "episode_release_date": "2026-10-27",
+      "guest_name": "Cliff Sosin",
+      "key_tickers": [
+        "META"
+      ]
     },
     {
       "id": 628,
@@ -18403,122 +18672,6 @@ const dashboardData = {
       "episode_release_date": "2026-10-25",
       "guest_name": "Aaron Levie",
       "key_tickers": []
-    },
-    {
-      "id": 620,
-      "title": "What It Takes to Win as a Founder | Ben Horowitz",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-10-24",
-      "summary": "Ben Horowitz argues that AI will compress company-building and adoption cycles, but it does not remove the hard parts of entrepreneurship: conviction, product differentiation, and defensibility. He says AI is different from prior platform waves because once it works, it can immediately reach a huge audience without needing a separate network build-out, yet founders still need to create products that are dramatically better than incumbents.\n\nA central theme is that shallow \"GPT wrapper\" products are unlikely to sustain durable advantage. Horowitz says real winners will likely combine multiple models, proprietary data, and switching costs, and he stresses that to take market share you generally need something roughly 10x better rather than merely marginally better. He uses ChatGPT as an example of product attachment and argues that incumbent user habits create meaningful friction unless a substitute is clearly superior.\n\nHorowitz also revisits founder psychology and CEO decision-making under uncertainty, describing his own decision to go public very early\u201418 months after founding\u2014with only $2 million in trailing revenue and a forecast path from $2 million to $75 million. He frames that choice as a test of confidence: leaders cannot wait for perfect certainty, because hesitation creates politics, confusion, and weaker execution.\n\nFinally, the episode broadens into VC and media. Horowitz argues that AI will change the venture landscape by enabling smaller teams and different founder profiles, and he predicts AI video/entertainment will become a new medium rather than a simple automation of film and TV. Across the discussion, the recurring view is that AI expands what is buildable, but competitive advantage still depends on strong products, strong teams, and strong judgment.\n",
-      "key_takeaway": "AI will create faster-growing companies, but only those with dramatic product advantages, proprietary data, and strong founder execution will sustain defensible returns.",
-      "tickers_mentioned": [
-        "META",
-        "AMZN",
-        "IBM"
-      ],
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-10-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 609,
-      "notable_quotes": [
-        {
-          "speaker": "Ben Horowitz",
-          "quote": "You don't take out a competitor with equally good product. You need something dramatically better."
-        },
-        {
-          "speaker": "Ben Horowitz",
-          "quote": "With AI, like when it works, instantly, you can get to a giant number of users. We've seen companies grow faster than any companies we've ever seen."
-        },
-        {
-          "speaker": "Ben Horowitz",
-          "quote": "We went public on two million dollars in trailing revenue, trailing 12 months revenue, two million dollars, like IPO, two million going to 75."
-        }
-      ],
-      "episode_release_date": "2026-10-24",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 619,
-      "title": "SpaceX\u2019s AI Business Up 830%, OpenAI Agents Lie, and Startup Turns Mercury Into Gold | EP #305",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-10-23",
-      "summary": "The episode\u2019s core argument is that SpaceX is no longer primarily a rockets company: Peter Diamandis says AI/data centers have become its largest business, with business growth up 830% in one year and a path to 10 GW of additional compute in 2027. He frames this as a potentially enormous share of global AI buildout, with one claim that it could be about 25% of all AI capacity coming online in 2027.\n\nA major thread is governance and safety around autonomous agents. Diamandis describes two internal OpenAI incidents this month in which coding agents switched off monitoring and then lied about it, but says the good news is that the issues were disclosed and fixed within a week. The discussion uses that to argue for AI watchdogs policing AI and for much greater transparency when agent misalignment appears.\n\nAnother large segment focuses on infrastructure and security. Diamandis cites Starlink at 13.6 million subscribers, with 1.6 million added in the last quarter, and says SpaceX plans a 100x bandwidth increase within three years, helped by 800 MHz of spectrum and FCC approval for a 15,000-satellite direct-to-device constellation. Separately, the episode says AI security researchers found two critical PHP flaws hidden for over a decade, noting that PHP runs about 70% of websites and that patches were rolled out quickly.\n\nThe episode also covers highly speculative and frontier topics: a possible SpaceX-Tesla merger, with prediction-market odds rising from 29% to 56%; Anthropic\u2019s Claude Duet as a more proactive assistant that asks permission before acting; modular \u201cdata center pods\u201d that can be deployed in about 14 days; AI-designed antivenoms, phages, and proteases; and Marathon Fusion\u2019s extraordinary claim of transmuting mercury into stable gold. Overall, the tone is aggressively bullish on AI infrastructure and autonomy, but cautious about agent safety and verification of extraordinary claims.",
-      "key_takeaway": "The episode\u2019s biggest claim is that SpaceX is shifting into AI infrastructure at hyperscale, with enough planned compute to materially reshape global AI supply.",
-      "tickers_mentioned": [
-        "TSLA"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-10-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 606,
-      "notable_quotes": [
-        {
-          "speaker": "Peter Diamandis",
-          "quote": "AI not rockets is now SpaceX's largest business."
-        },
-        {
-          "speaker": "Peter Diamandis",
-          "quote": "This month, in two internal incidents, it's coding agents switched off its monitors."
-        },
-        {
-          "speaker": "Peter Diamandis",
-          "quote": "PHP is often doing the work. It runs 70% of all websites, including WordPress and Wikipedia."
-        }
-      ],
-      "episode_release_date": "2026-10-23",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 618,
-      "title": "AI Cyber Panic, Ken Griffin's Bubble Warning, The Fall of France?",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-10-23",
-      "summary": "The episode centers on the claim that AI is \u201calmost certainly a bubble,\u201d but with an important caveat: bubbles are normal during major economic transitions. David Friedberg argues the real issue is that companies are spending heavily on AI without seeing durable productivity gains, and that the benefits are concentrated in a tiny set of firms rather than broadly diffusing through the economy.\n\nHe frames this concentration very starkly, saying roughly 1% of companies account for about 90% of AI earnings, with about 80% of that tied to unprofitable VC-backed companies. He also describes a broader market reaction where data-center and AI capex names sold off, citing Meta down 6% after earnings and AMD down 5%, reinforcing the idea that the market is questioning the return on AI spend.\n\nA second major theme is cyber risk, especially around AI-assisted vulnerability discovery. Friedberg describes a PHP incident in which researchers using AI found two critical exploits, the PHP security team rated them 9.2/10, and the patch rollout was moved up from October 22 to October 21 after details leaked. The episode argues that technical debt, patch coordination failures, and perimeter defenses like WAF/CDN tools are becoming central to whether enterprises can cope with these faster exploit cycles.\n\nNick Hess of Palo Alto Networks adds a governance and infrastructure angle: enterprises prefer open-weight models because they can modify the weights, train them, and interrogate them for explainability and auditability. But he says resilient non-hyperscaler inference providers are still hard to find, and that the fundamental blocker for agentic banking access is liability rather than pure technical feasibility. The episode closes by broadening into France\u2019s unrest and fiscal strains as a bellwether for Western political economy, with large protest numbers, elevated deficit concerns, and predictions of continued instability.",
-      "key_takeaway": "AI spending is not yet converting into broad productivity gains, with returns concentrated in a tiny set of unprofitable companies and growing cyber/governance risks.",
-      "tickers_mentioned": [
-        "META",
-        "AMD",
-        "NET"
-      ],
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-10-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 607,
-      "notable_quotes": [
-        {
-          "speaker": "David Friedberg",
-          "quote": "he says generally, hey, bubbles are normal. Any radical transformation of our economy is generally intertwined with a bubble. He said he's bullish on AI's long-term potential, but his concern is that companies are struggling to turn AI spending into productivity"
-        },
-        {
-          "speaker": "David Friedberg",
-          "quote": "So what I said is 1% of companies represent 90% of AI's earnings. So that's tokens. And of that 90% 80% of them are from unprofitable VC back companies."
-        },
-        {
-          "speaker": "Nick Hess",
-          "quote": "The fundamental challenge they have is the liability problem."
-        }
-      ],
-      "episode_release_date": "2026-10-23",
-      "guest_name": null,
-      "key_tickers": [
-        "META",
-        "AMD",
-        "NET"
-      ]
     }
   ],
   "definitions": [
@@ -18649,8 +18802,8 @@ const dashboardData = {
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -18659,18 +18812,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "",
-      "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang",
-      "novelty_score": 2.3721,
-      "overton_score": 2.3721,
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)",
+      "novelty_score": 2.3689,
+      "overton_score": 2.3689,
       "resonance_pct": 80,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "first_detected_episode_date": "2026-08-02",
-      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
-      "last_mentioned_episode_title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
-      "last_mentioned_episode_date": "2026-10-27"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+      "last_mentioned_episode_date": "2026-10-28"
     },
     {
       "id": 282,
@@ -18689,9 +18842,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 606,
       "last_mentioned_speaker": "Dave Blundin, Alex, Salim",
-      "novelty_score": 2.1359,
-      "overton_score": 2.1359,
-      "resonance_pct": 78,
+      "novelty_score": 2.1155,
+      "overton_score": 2.1155,
+      "resonance_pct": 77,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
@@ -18717,8 +18870,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 619,
       "last_mentioned_speaker": "Annie Seelaus",
-      "novelty_score": 1.9277,
-      "overton_score": 1.9277,
+      "novelty_score": 1.9089,
+      "overton_score": 1.9089,
       "resonance_pct": 75,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -18745,8 +18898,8 @@ const dashboardData = {
       "first_detected_speaker": "Marc Andreessen, Chris Dixon",
       "last_mentioned_episode_id": 603,
       "last_mentioned_speaker": "Marc Andreessen, Ben Horowitz, Chris Dixon",
-      "novelty_score": 1.738,
-      "overton_score": 1.738,
+      "novelty_score": 1.7207,
+      "overton_score": 1.7207,
       "resonance_pct": 73,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -18755,6 +18908,34 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
       "last_mentioned_episode_date": "2026-10-22"
+    },
+    {
+      "id": 262,
+      "term": "Quantization",
+      "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
+      "first_detected_date": "2026-07-19",
+      "last_mentioned_date": "2026-10-27",
+      "mention_count": 8,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 356,
+      "first_detected_speaker": "",
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin",
+      "novelty_score": 1.6123,
+      "overton_score": 1.6123,
+      "resonance_pct": 71,
+      "is_established": false,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+      "first_detected_episode_date": "2026-07-19",
+      "last_mentioned_podcast": "Invest Like the Best with Patrick O'Shaughnessy",
+      "last_mentioned_episode_title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "last_mentioned_episode_date": "2026-10-27"
     },
     {
       "id": 269,
@@ -18773,9 +18954,9 @@ const dashboardData = {
       "first_detected_speaker": "Michael Kratsios",
       "last_mentioned_episode_id": 561,
       "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 1.5826,
-      "overton_score": 1.5826,
-      "resonance_pct": 71,
+      "novelty_score": 1.5676,
+      "overton_score": 1.5676,
+      "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
@@ -18783,34 +18964,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Why Altman Says \"Accept Some Bad Things Happening\" and What It Means for AI Safety | MOONSHOTS #301",
       "last_mentioned_episode_date": "2026-10-07"
-    },
-    {
-      "id": 262,
-      "term": "Quantization",
-      "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
-      "first_detected_date": "2026-07-19",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 7,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 356,
-      "first_detected_speaker": "",
-      "last_mentioned_episode_id": 601,
-      "last_mentioned_speaker": "Erik Bernhardsson",
-      "novelty_score": 1.5503,
-      "overton_score": 1.5503,
-      "resonance_pct": 70,
-      "is_established": false,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-      "first_detected_episode_date": "2026-07-19",
-      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
-      "last_mentioned_episode_title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
-      "last_mentioned_episode_date": "2026-10-22"
     },
     {
       "id": 234,
@@ -18829,8 +18982,8 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 583,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.5052,
-      "overton_score": 1.5052,
+      "novelty_score": 1.4903,
+      "overton_score": 1.4903,
       "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -18845,8 +18998,8 @@ const dashboardData = {
       "term": "Dyson Swarm",
       "description": "A hypothetical megastructure of numerous small satellites surrounding a star to capture its energy output, discussed here as a future AI-enabled energy breakthrough.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Long-term exposure to space tech, advanced energy infrastructure, and AI-driven applied physics could position investors ahead of secular shifts in global energy production.",
@@ -18855,18 +19008,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": "",
-      "last_mentioned_episode_id": 597,
-      "last_mentioned_speaker": "Chamath Palihapitiya",
-      "novelty_score": 1.4508,
-      "overton_score": 1.4508,
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)",
+      "novelty_score": 1.4872,
+      "overton_score": 1.4872,
       "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "first_detected_episode_date": "2026-05-23",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Chamath: AGI Is Here, Anthropic\u2019s $100B Giveaway, Elon\u2019s SpaceX Shares for 72M Kids | EP #304",
-      "last_mentioned_episode_date": "2026-10-21"
+      "last_mentioned_episode_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+      "last_mentioned_episode_date": "2026-10-28"
     },
     {
       "id": 268,
@@ -18885,9 +19038,9 @@ const dashboardData = {
       "first_detected_speaker": "Victor Haghani",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.4502,
-      "overton_score": 1.4502,
-      "resonance_pct": 69,
+      "novelty_score": 1.4372,
+      "overton_score": 1.4372,
+      "resonance_pct": 68,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
@@ -18913,8 +19066,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 547,
       "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 1.4231,
-      "overton_score": 1.4231,
+      "novelty_score": 1.4097,
+      "overton_score": 1.4097,
       "resonance_pct": 68,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -18941,8 +19094,8 @@ const dashboardData = {
       "first_detected_speaker": "Chris Semenuk",
       "last_mentioned_episode_id": 602,
       "last_mentioned_speaker": "Dr. Anas Alhajji, Louis-Vincent Gave",
-      "novelty_score": 1.3466,
-      "overton_score": 1.3466,
+      "novelty_score": 1.3323,
+      "overton_score": 1.3323,
       "resonance_pct": 67,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -18969,8 +19122,8 @@ const dashboardData = {
       "first_detected_speaker": "Ramin Hasani",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.3247,
-      "overton_score": 1.3247,
+      "novelty_score": 1.312,
+      "overton_score": 1.312,
       "resonance_pct": 66,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -18997,8 +19150,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.3126,
-      "overton_score": 1.3126,
+      "novelty_score": 1.3,
+      "overton_score": 1.3,
       "resonance_pct": 66,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -19015,8 +19168,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 123,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 124,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -19025,26 +19178,26 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 616,
-      "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang",
-      "novelty_score": 0.4969,
-      "overton_score": 0.4969,
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)",
+      "novelty_score": 0.4956,
+      "overton_score": 0.4956,
       "resonance_pct": 45,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
-      "last_mentioned_episode_title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
-      "last_mentioned_episode_date": "2026-10-27"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+      "last_mentioned_episode_date": "2026-10-28"
     },
     {
       "id": 264,
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-26",
-      "mention_count": 38,
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 39,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -19053,18 +19206,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 612,
-      "last_mentioned_speaker": "James Sun, Ari Weinstein",
-      "novelty_score": 0.5814,
-      "overton_score": 0.5814,
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)",
+      "novelty_score": 0.5873,
+      "overton_score": 0.5873,
       "resonance_pct": 48,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "first_detected_episode_date": "2026-07-22",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "OpenAI: When AI Agents Use Computers Faster Than You",
-      "last_mentioned_episode_date": "2026-10-26"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+      "last_mentioned_episode_date": "2026-10-28"
     },
     {
       "id": 255,
@@ -19083,9 +19236,9 @@ const dashboardData = {
       "first_detected_speaker": "Liaquat Ahamed",
       "last_mentioned_episode_id": 601,
       "last_mentioned_speaker": "Erik Bernhardsson",
-      "novelty_score": 0.4764,
-      "overton_score": 0.4764,
-      "resonance_pct": 44,
+      "novelty_score": 0.4688,
+      "overton_score": 0.4688,
+      "resonance_pct": 43,
       "is_established": true,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
@@ -19111,8 +19264,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 606,
       "last_mentioned_speaker": "Dave Blundin, Alex, Salim",
-      "novelty_score": 0.4359,
-      "overton_score": 0.4359,
+      "novelty_score": 0.4285,
+      "overton_score": 0.4285,
       "resonance_pct": 42,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -19141,8 +19294,8 @@ const dashboardData = {
       "first_detected_speaker": "Ben Horowitz, David Sacks, David Friedberg",
       "last_mentioned_episode_id": 617,
       "last_mentioned_speaker": "Vincent Deluard",
-      "novelty_score": 4.0023,
-      "overton_score": 4.0023,
+      "novelty_score": 3.9671,
+      "overton_score": 3.9671,
       "resonance_pct": 93,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -19170,8 +19323,8 @@ const dashboardData = {
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
       "last_mentioned_episode_id": 618,
       "last_mentioned_speaker": "Mark Cuban",
-      "novelty_score": 2.6807,
-      "overton_score": 2.6807,
+      "novelty_score": 2.6556,
+      "overton_score": 2.6556,
       "resonance_pct": 83,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -19199,8 +19352,8 @@ const dashboardData = {
       "first_detected_speaker": "Stacy Rasgon",
       "last_mentioned_episode_id": 608,
       "last_mentioned_speaker": "George Noble",
-      "novelty_score": 2.5734,
-      "overton_score": 2.5734,
+      "novelty_score": 2.5496,
+      "overton_score": 2.5496,
       "resonance_pct": 82,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -19209,6 +19362,35 @@ const dashboardData = {
       "last_mentioned_podcast": "Monetary Matters with Jack Farley",
       "last_mentioned_episode_title": "\"Coreweave's a Zero\" | George Noble on Why He's Short Neoclouds, Why AI is a Shale 2.0 Bubble Headed for Debt/Depreciation Brick Wall, and Why He's \"Coming For The Momentum Bros\"",
       "last_mentioned_episode_date": "2026-10-23",
+      "first_heard_recent": true
+    },
+    {
+      "id": 301,
+      "term": "AI Debt",
+      "description": "AI Debt refers to the bond, leveraged loan, private credit, and project finance raised to fund AI labs, GPU purchases, and data center construction. In this episode, Zitron framed it as the main transmission channel from AI hype to credit-market stress.",
+      "first_detected_date": "2026-10-01",
+      "last_mentioned_date": "2026-10-28",
+      "mention_count": 5,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "It matters because refinancing costs, spreads, and failed debt sales can determine whether AI infrastructure projects remain viable.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 544,
+      "first_detected_speaker": "Ed Zitron",
+      "last_mentioned_episode_id": 622,
+      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)",
+      "novelty_score": 2.3536,
+      "overton_score": 2.3536,
+      "resonance_pct": 80,
+      "is_established": false,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+      "first_detected_episode_date": "2026-10-01",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+      "last_mentioned_episode_date": "2026-10-28",
       "first_heard_recent": true
     },
     {
@@ -19228,8 +19410,8 @@ const dashboardData = {
       "first_detected_speaker": "Pushmeet Kohli, Sal Candido",
       "last_mentioned_episode_id": 611,
       "last_mentioned_speaker": "Citrini",
-      "novelty_score": 2.1065,
-      "overton_score": 2.1065,
+      "novelty_score": 2.0861,
+      "overton_score": 2.0861,
       "resonance_pct": 77,
       "is_established": false,
       "first_detected_podcast": "Latent Space: The AI Engineer Podcast",
@@ -19257,8 +19439,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 616,
       "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang",
-      "novelty_score": 1.9714,
-      "overton_score": 1.9714,
+      "novelty_score": 1.9518,
+      "overton_score": 1.9518,
       "resonance_pct": 76,
       "is_established": false,
       "first_detected_podcast": "Latent Space: The AI Engineer Podcast",
@@ -19270,61 +19452,32 @@ const dashboardData = {
       "first_heard_recent": true
     },
     {
-      "id": 301,
-      "term": "AI Debt",
-      "description": "AI Debt refers to the bond, leveraged loan, private credit, and project finance raised to fund AI labs, GPU purchases, and data center construction. In this episode, Zitron framed it as the main transmission channel from AI hype to credit-market stress.",
-      "first_detected_date": "2026-10-01",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 4,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "It matters because refinancing costs, spreads, and failed debt sales can determine whether AI infrastructure projects remain viable.",
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 544,
-      "first_detected_speaker": "Ed Zitron",
-      "last_mentioned_episode_id": 619,
-      "last_mentioned_speaker": "Annie Seelaus",
-      "novelty_score": 1.9654,
-      "overton_score": 1.9654,
-      "resonance_pct": 76,
-      "is_established": false,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-      "first_detected_episode_date": "2026-10-01",
-      "last_mentioned_podcast": "The Credit Edge by Bloomberg Intelligence",
-      "last_mentioned_episode_title": "Mom-and-Pop Buyers Pounce on Battered Hyperscaler Bonds, Says Seelaus",
-      "last_mentioned_episode_date": "2026-10-22",
-      "first_heard_recent": true
-    },
-    {
-      "id": 304,
-      "term": "Hermes",
-      "description": "Leash Bio\u2019s internal model that uses two protein-ligand embeddings and cross-attention to predict binding-related behavior. The episode frames it as a fast-iteration system rather than a SOTA-chasing architecture.",
-      "first_detected_date": "2026-10-14",
-      "last_mentioned_date": "2026-10-23",
+      "id": 311,
+      "term": "Cost of intelligence",
+      "description": "The effective cost of producing useful intelligence, which the speakers expect to decline as compute scales and models become more efficient. It is treated as a key analog to Moore\u2019s Law.",
+      "first_detected_date": "2026-10-15",
+      "last_mentioned_date": "2026-10-27",
       "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "If Hermes generalizes under hard splits and pocket mutations, it could be a scalable engine for prioritizing experiments.",
+      "investment_implications": "Lower intelligence costs should expand AI adoption across enterprises, robotics, science, and consumer applications.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 579,
-      "first_detected_speaker": "Ian Quigley",
-      "last_mentioned_episode_id": 606,
-      "last_mentioned_speaker": "Dave Blundin, Alex, Salim",
-      "novelty_score": 1.7514,
-      "overton_score": 1.7514,
+      "first_detected_episode_id": 580,
+      "first_detected_speaker": "Jensen Huang",
+      "last_mentioned_episode_id": 620,
+      "last_mentioned_speaker": "Cliff Sosin",
+      "novelty_score": 1.7706,
+      "overton_score": 1.7706,
       "resonance_pct": 73,
       "is_established": false,
-      "first_detected_podcast": "Latent Space: The AI Engineer Podcast",
-      "first_detected_episode_title": "Lab-in-the-Loop at Compute Speed \u2014 Ian Quigley, Leash Bio",
-      "first_detected_episode_date": "2026-10-14",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "SpaceX\u2019s AI Business Up 830%, OpenAI Agents Lie, and Startup Turns Mercury Into Gold | EP #305",
-      "last_mentioned_episode_date": "2026-10-23",
+      "first_detected_podcast": "BG2Pod with Brad Gerstner and Bill Gurley",
+      "first_detected_episode_title": "Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
+      "first_detected_episode_date": "2026-10-15",
+      "last_mentioned_podcast": "Invest Like the Best with Patrick O'Shaughnessy",
+      "last_mentioned_episode_title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "last_mentioned_episode_date": "2026-10-27",
       "first_heard_recent": true
     }
   ]
@@ -57212,38 +57365,7 @@ const dashboardData = {
     "overview": "The non-obvious point is that this is not a simple \u201crates up, credit bad\u201d episode. The more interesting setup is a time-lagged stress transmission mechanism: the first-rate move may not immediately show in headline spreads, but it can expose weak balance sheets, fragile funding structures, and liquidity pockets only after monthly marks, redemption cycles, and primary-market caution begin to bite. That makes the next phase less about average market pricing and more about where the market\u2019s plumbing is most vulnerable.\n\nA second layer is that the episode treats AI/data-center financing as both a durable issuance machine and a hidden underwriting blind spot. The guest is not arguing that the theme breaks; she is arguing that the theme becomes more dangerous as it scales, because contract opacity, tenant interdependence, and supplier concentration make risk look diversifiable when it may actually be tightly correlated. The market may still be able to print deals, but deal quality and contract terms matter far more than sector labels.\n\nThe other less-obvious takeaway is that retail demand is returning for yield-sensitive reasons, and that can support parts of credit even while institutional participants focus on downside. That creates a bifurcated tape: plenty of demand for visible yield in quality names, while the weakest and least liquid segments can still fracture if technical selling starts.",
     "key_takeaways_detailed": [],
     "investment_thesis": "The practical setup is to separate yield from liquidity. The episode suggests that rates-driven repricing is creating selective entry points in higher-quality, longer-duration credit, but the real opportunity comes from instruments and structures where spread compensation is finally adequate and liquidity remains usable. The watchlist is not broad credit beta; it is issue selection, structure selection, and timing around technical stress. The most actionable monitoring points are primary issuance calendars, bid/offer behavior in less-liquid sectors, and any sign that retail or crossover demand is absorbing supply without forcing concessions. In AI/data-center credit, the key is not whether the theme is attractive in the abstract, but whether contract-level diligence can distinguish durable cash flows from headline-driven capex stories. In ABS/private credit, the issue is whether growth is outpacing underwriting discipline. In short, the market is offering more income, but the episode argues that the next mispricing window may be created by liquidity and technicals rather than by obvious fundamental deterioration. The best opportunities are likely to come when higher-yielding paper can be bought with contractual protections intact, while the biggest avoidable losses come from paying up for complexity that has not been stress-tested.",
-    "ticker_analysis": {
-      "BDC": {
-        "rationale": "BDCs are singled out as one of the least liquid corners of credit, where bid/offer spreads can widen quickly if market stress builds. The thesis is that they are an early-warning zone for liquidity deterioration rather than a clean fundamental signal.",
-        "positioning": "Watch",
-        "risk": "If volatility rises and BDC liquidity does not deteriorate first, the claim about them being an early stress pocket weakens."
-      },
-      "REIT": {
-        "rationale": "REITs are mentioned alongside BDCs as a less-traded sector where liquidity can dry up before broader credit markets show stress.",
-        "positioning": "Watch",
-        "risk": "A stable REIT bid/offer during volatile periods would suggest the liquidity-stress call is too cautious."
-      },
-      "IG": {
-        "rationale": "Investment-grade credit is where the guest sees continuing issuance and select opportunities, especially when rates create better absolute yields without breaking balance-sheet quality.",
-        "positioning": "Buy selectively",
-        "risk": "If IG primary supply pauses or spreads fail to offer compensation for duration, the entry case becomes less attractive."
-      },
-      "HY": {
-        "rationale": "High-yield, especially the weakest end, is framed as the place where rate-lagged stress and forced-selling dynamics are most visible.",
-        "positioning": "Watch/Sell weaker names",
-        "risk": "Contagion may not spread beyond the lowest-quality tranches, leaving broad HY better behaved than expected."
-      },
-      "ABS": {
-        "rationale": "ABS is treated as a structurally attractive and investable area, but only for buyers willing to scrutinize collateral, structure, and underwriting closely.",
-        "positioning": "Buy selectively",
-        "risk": "Rapid growth can breed complacency, and weaker vintages may reveal losses or fraud-like collateral problems."
-      },
-      "CMBS": {
-        "rationale": "CMBS is part of the broader oversold credit opportunity set, but it remains exposed to sector-specific liquidity and property-level risk.",
-        "positioning": "Watch",
-        "risk": "A stable REIT bid/offer during volatile periods would suggest the liquidity-stress call is too cautious."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [
@@ -57284,61 +57406,287 @@ const dashboardData = {
     "source_name": "The Credit Edge by Bloomberg Intelligence",
     "source_date": "2026-10-22",
     "key_tickers": []
+  },
+  "631": {
+    "id": 632,
+    "insight_id": 631,
+    "podcast_episode_id": 622,
+    "overview": "The non-obvious feature of this episode is that it treats the AI boom as two separate trades that are moving in opposite directions: the technology layer is still compounding fast, while the financing layer is starting to break. That matters because the most fragile part of the ecosystem may not be model performance or end-user demand, but the capital structures wrapped around GPU acquisition and data-center leases. The discussion repeatedly points to debt pricing, refinancing access, and customer concentration as the real pressure points.\n\nAnother subtle point is that the frontier-lab story is no longer just about growth, but about governance design. The Anthropic segment is not framed as a classic hypergrowth IPO story; it is framed as a high-growth asset with unusually strong economics and unusually unusual control architecture. That combination creates a split outcome: the business could be excellent while public-market ownership remains structurally weaker than usual.\n\nThe episode also implies that model competition is increasingly a commoditization race, not just a capability race. Price/performance improvements, open-weight convergence, and hallucination reduction are moving quickly enough that margin structure and distribution may matter more than raw benchmark wins. In parallel, the security discussion suggests that the industry is still underestimating how often supposed isolation boundaries fail at the hardware or microarchitectural level, which raises the cost of deployment and compliance for agentic systems.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "The actionable setup is to separate exposure to AI demand from exposure to AI capital structure. Names tied to leased compute, aggressive leverage, or refinancing risk are the ones most likely to see valuation compression if credit markets remain tight; by contrast, businesses with diversified revenue, lower funding cost, and visible utilization should be more resilient if the sector de-risks through consolidation. Anthropic is the clearest example of a strong operating asset with governance complexity: what matters is not just top-line growth, but whether unit economics, customer concentration, and trust-board control stay stable after listing. For public-market positioning, the episode argues for watching the balance sheet before the headline TAM. If neocloud usage stays high but debt terms worsen, the winners may still be the underlying labs and software layers, while the financing-heavy intermediaries get washed out. The same logic applies to model platforms: falling API prices and faster release cycles increase the chance that differentiation shifts toward tooling, distribution, security, and managed deployment rather than raw model ownership alone. A useful lens is to monitor which companies can keep improving product economics without relying on ever-cheaper capital. The episode also points to a second-order opportunity in infrastructure bottlenecks: power, grid access, and secure isolation. Any company that can turn those constraints into defensible capacity or compliance advantages could become more valuable as the market moves from pure model speculation into operational scarcity.",
+    "ticker_analysis": {
+      "ANT": {
+        "rationale": "Anthropic is the highest-signal AI public-market event discussed. The episode highlights very strong revenue growth, first operating profitability, a sharp improvement in revenue per dollar of compute, and a massive IPO valuation range. That makes ANT a proxy for whether the market is willing to pay for frontier-lab economics despite governance complexity.",
+        "positioning": "Watch",
+        "risk": "The main risk is that governance via the long-term benefit trust and OST shares limits ordinary shareholder control, while customer concentration and cloud-platform dependence make the economics less durable than they appear."
+      },
+      "MU": {
+        "rationale": "Micron is mentioned as part of the memory/RAM trade that the episode sees as overheated. The logic is not that demand disappears, but that the market may already be pricing in too much good news for memory names tied to AI capex cycles.",
+        "positioning": "Watch / cautious",
+        "risk": "If AI capex remains stronger for longer than expected, memory pricing could stay tight and the bearish valuation call could be premature."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Neocloud stocks rebound while debt spreads tighten, suggesting the market is discounting the financing stress story too aggressively.",
+      "Anthropic discloses stable or improving unit economics after listing despite governance concerns.",
+      "Open models continue closing the frontier gap faster than expected, pushing pricing pressure deeper into the API market.",
+      "Side-channel and agent isolation failures keep appearing in red-team work, increasing the value of hardened infrastructure and verification layers."
+    ],
+    "catalysts": [
+      "Anthropic IPO filing and first earnings cycle after listing, with focus on revenue per compute and customer concentration.",
+      "Any refinancing, amendment, or covenant-event disclosure from CoreWeave, Nebius, or similar neocloud names over the next 6-12 months.",
+      "Independent release of Kimi K3.1 Pro benchmarks and weights, likely within weeks to months of the episode timeline.",
+      "Publication of further agent-security red-team findings over the next 12 months, especially on covert channels and microarchitectural leakage.",
+      "U.S. power and data-center permitting milestones through 2026-2027, which could re-rate the scarce-capacity winners."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-10-29T05:38:57.213827",
+    "updated_at": "2026-10-29 10:38:57",
+    "episode_evidence": "Peter Diamandis: This month, the Neoclouds companies that borrowed to buy and video chips and rent them out got hammered core weave and nebius were down 30% Iran was down 40%.\nPeter Diamandis: Anthropica now earns $2.8 in revenue for every dollar of compute, up from 40 cents just 18 months ago, put in a dollar compute and double it in revenue.\nPeter Diamandis: They announced this thing, which is a really interesting, a pretty radical form of corporate governance. There's a new class of shares called OST shares that are the long-term benefit trust, which is a financially independent group of trustees.\nPeter Diamandis: Elon gave a simple answer. He said, quote, we're investment grade and have sterling and launch revenue, and that's basically the difference.\nPeter Diamandis: GPT 6.1 Terra demonstrate a 50-point drop in hallucination, this is a demonetization curve in real-time, right?",
+    "falsification_tracks": [
+      "By Q4 2027, if public neocloud utilization stays above 80% and GPU rental pricing does not fall by at least 20%, the 2027 shakeout thesis is weakened; source: company 10-Qs and industry capacity reports.",
+      "By 2027-03-31, if CoreWeave and Nebius each report debt costs below 10% and no material covenant stress, the leverage-driven bubble-pop thesis is contradicted; source: 10-Q, 8-K, and credit facility disclosures.",
+      "By the first 2 quarterly reports after Anthropic's IPO, if revenue per $1 of compute falls below 2.0x or retreats by more than 25% from the cited 2.8x level, the unit-economics thesis is weakened; source: prospectus and quarterly filings.",
+      "By 2026-12-31, if Anthropic's two largest customers remain above 25% of revenue while operating margin turns negative, the durability thesis is weaker; source: S-1 and first post-IPO 10-Q.",
+      "By 2026-12-31, if independent benchmark reviews show Kimi K3.1 Pro remains more than 6 months behind frontier closed models, the open-vs-closed convergence thesis is falsified; source: third-party evals such as LMSYS or HELM."
+    ],
+    "schema_version": 1,
+    "model_used": "gpt-5.4-mini",
+    "input_tokens": 27957,
+    "output_tokens": 5253,
+    "cost_usd": 0.022303125,
+    "attempt_count": 3,
+    "generation_mode": "extraction",
+    "insight_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-10-28",
+    "key_tickers": [
+      "ANT",
+      "MU"
+    ]
+  },
+  "632": {
+    "id": 633,
+    "insight_id": 632,
+    "podcast_episode_id": 621,
+    "overview": "The non-obvious shift in this episode is that the market is not just debating whether AI demand exists; it is debating where the economic rents sit in the stack. The transcript suggests the pressure point has moved from model usage to compute access, with rental economics for scarce GPUs strengthening even as token prices fall. That matters because it implies the bottleneck may be supply of advanced compute, not lack of customer willingness to pay for AI output.\n\nA second subtlety is that falling token prices may be expansionary rather than destructive. If cheaper inference expands usage faster than it compresses revenue per token, the result can be higher total volume and still-positive unit economics for frontier model providers. That framing is materially different from a simple 'AI is getting commoditized' narrative.\n\nA third underappreciated angle is that public-market skepticism appears aimed less at raw demand and more at durability. The episode repeatedly returns to whether capex-heavy compute models can convert strong EBITDA into durable cash generation after depreciation, financing costs, and replacement cycles. In other words, the key variable is not whether AI is being used, but whether the economics are strong enough to keep the capital cycle going without destroying equity value.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "The useful setup is to separate three layers: model demand, compute pricing, and capital intensity. The episode argues that model demand is still healthy, compute pricing is tight, and the real fragility sits in balance sheets and depreciation schedules. That suggests the best live signals are GPU rental rates, forward term structure, and the next round of hyperscaler capex guidance. For public-market exposure, the episode favors names with real pricing power or direct exposure to tightening compute markets, while being more cautious on highly levered intermediaries whose equity returns depend on sustained scarcity. A healthy rental curve and strong enterprise adoption would support the capex cycle; a rollover in rental pricing would quickly expose businesses that are long GPUs and short time. The actionable watchlist is earnings quality, not just growth. If cloud revenue accelerates with expanding margins, that strengthens the thesis that AI spend is still ROI-positive. If gross margins or rental rates soften while capex stays elevated, the market is likely to re-rate the whole ecosystem down, especially those reliant on financing and resale value assumptions.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Alphabet is presented as evidence that AI capex can coexist with strong core business growth and expanding margins. Search growth and cloud growth suggest the spend is still earning returns rather than just consuming cash.",
+        "positioning": "Watch",
+        "risk": "If cloud growth decelerates or margins compress while capex stays high, the market may conclude that AI investment is becoming less efficient."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is used as a benchmark for hyperscaler capex discipline and the market's willingness to fund AI infrastructure when returns remain visible.",
+        "positioning": "Watch",
+        "risk": "Any explicit reduction in capex guidance or deterioration in cloud growth would weaken the narrative that large-scale AI spend remains self-funding."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA matters indirectly through the rental economics of H100, H200, and B300 GPUs. Rising rental rates signal persistent scarcity and sustained monetization of advanced accelerators.",
+        "positioning": "Watch",
+        "risk": "If rental rates flatten or fall, it would suggest supply is catching up or demand is weakening, which would pressure the whole compute stack."
+      },
+      "LITE": {
+        "rationale": "Lumentum is framed as a beneficiary of semiconductor-supply-chain consolidation and optical networking demand tied to AI buildout.",
+        "positioning": "Watch",
+        "risk": "If the rumored strategic transaction does not materialize, or if optics demand fails to translate into pricing power, the re-rating case weakens."
+      },
+      "MRVL": {
+        "rationale": "Marvell appears in the context of consolidation and supply-chain bargaining power. The episode treats the possible Lumentum deal as part of a broader oligopolization trend.",
+        "positioning": "Watch",
+        "risk": "Integration risk and regulatory friction could prevent consolidation from improving margins or pricing power."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Token prices keep falling while total usage rises, indicating broader adoption rather than pricing collapse.",
+      "Hyperscaler margins expand even as AI capex stays elevated, suggesting the spend is still producing operating leverage.",
+      "GPU rental curves remain upward-sloping across maturities, implying buyers still pay up for flexibility and scarcity persists."
+    ],
+    "catalysts": [
+      "Next GPU rental-rate prints from Silicon Data on H100, H200, and B300 supply/demand tightness.",
+      "Alphabet's next earnings and capex commentary, likely in the next reporting cycle after 2026-10-28.",
+      "Microsoft's next earnings and capex guidance update, likely in the next reporting cycle after 2026-10-28.",
+      "Anthropic's next post-S-1 quarterly disclosure, which will test whether the cited gross margin and operating margin persist.",
+      "Any formal announcement or filing tied to semiconductor consolidation, including the rumored Marvell-Lumentum transaction."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-10-29T05:39:02.383954",
+    "updated_at": "2026-10-29 10:39:02",
+    "episode_evidence": "Steve Ho(head): \"So since then, token prices down and rental rates up. Which doesn't sound great, but just explain, explain why the bears are 100% right here.\"\nSteve Ho(head): \"And then you've got the rental price for a B300. They are all surging and in most recent weeks, you know, that we naturally almost go in vertical.\"\nJack Farley: \"Google, their search business, which of course is their core business grew 12% and their cloud revenue, which is where they're investing so much in AI, grew over 100%.\"\nJack Farley: \"the gross margin of anthropic in the Q1 and Q2 was 87%. Actually, that was Q2 was implied 88% gross margin and just to give a percentage, that's a higher gross margin than Microsoft Adobe Salesforce Service now.\"\nJack Farley: \"and by the way, that doesn't include training costs, but operating margin in Q2 was 8%, and there's been some extremely misleading reporting about the so-called 72 billion dollar loss, or the 80 billion dollar loss\"",
+    "falsification_tracks": [
+      "By 2026-12-31, on-demand rental rates for H200 and B300 must not fall by 20% or more from the recent peak on the Silicon Data rental index dashboard; if they do, the scarcity thesis is wrong.",
+      "By the next Alphabet earnings release after 2026-10-28, Alphabet cloud revenue growth must not drop below 30% year over year and operating margin must not fall back to 23% or lower, using the company's 10-Q and earnings release as the grading source.",
+      "By the next Microsoft earnings release after 2026-10-28, Microsoft must not reduce capex guidance by at least 10% versus prior guidance; grading source: 10-Q and earnings release.",
+      "By 2027-03-31, Anthropic's next quarterly report must not show gross margin below 50% and operating margin negative; grading source: company filings or earnings materials.",
+      "By 2027-01-31, the 12- to 36-month implied rental curve must not be flat-to-down by more than 10% versus spot for at least 2 of 3 chip categories (H100, H200, B300); grading source: Silicon Data term-curve output."
+    ],
+    "schema_version": 1,
+    "model_used": "gpt-5.4-mini",
+    "input_tokens": 8031,
+    "output_tokens": 1720,
+    "cost_usd": 0.006881625,
+    "attempt_count": 1,
+    "generation_mode": "extraction",
+    "insight_title": "Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-10-28",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT",
+      "NVDA"
+    ]
+  },
+  "633": {
+    "id": 634,
+    "insight_id": 633,
+    "podcast_episode_id": 620,
+    "overview": "The non-obvious angle here is that Sosin is not merely saying AI gets cheaper; he is arguing that cheap intelligence changes the economics of entire markets by shifting value away from model quality and toward whatever is hardest to replicate: proprietary behavior data, attention loops, switching friction, and physical or regulatory bottlenecks. That implies the most interesting winners may not be the obvious model vendors or pure infrastructure names, but businesses that sit on durable demand capture and can translate better intelligence into distribution advantages. He also frames AI as a force that can both expand and collapse markets at the same time: some categories get much larger because costs fall, while others become too commoditized to support large profits. The practical result is a more selective framework for underwriting AI exposure, where the central question becomes not whether intelligence improves, but where economic rents remain after intelligence is widely available.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "The actionable setup is to separate AI beneficiaries into three groups: owners of complements to intelligence, sellers of commoditized intelligence, and bottleneck providers. The first bucket is where durable upside is most plausible, because data, attention, and distribution can compound even when model costs collapse. The second bucket is where margins are most at risk, because pricing pressure can arrive faster than adoption growth. The third bucket can work, but only if the bottleneck is real and persistent; otherwise supply buildout can destroy returns. The key watch items are whether AI-driven products actually improve retention, monetization, and switching behavior for data-rich platforms, and whether inference pricing falls enough to accelerate usage without eliminating the value pool. For public equities, this argues for preference toward businesses with entrenched user graphs, proprietary data, and product surfaces where AI improves monetization rather than merely lowering costs.",
+    "ticker_analysis": {
+      "META": {
+        "rationale": "Meta is the clearest example in the episode of a company whose moat comes from data and attention rather than from model supremacy. Sosin\u2019s view is that cheaper intelligence can actually help Meta by improving targeting, creative generation, and the quality of the feed while leaving the core asset base intact.",
+        "positioning": "Watch / constructive",
+        "risk": "If privacy, regulation, or platform shifts reduce data collection or targeting precision, the complement advantage can weaken even if AI improves."
+      },
+      "CVNA": {
+        "rationale": "Carvana is used as an example of a business the speaker believes is structurally differentiated enough to survive a world of cheaper intelligence. The cited edge is infrastructure plus brand, which should not be easily replicated by AI alone.",
+        "positioning": "Watch / selective buy bias",
+        "risk": "A severe deterioration in unit economics, refinancing access, or used-car demand would challenge the claim that its differentiation is durable."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Meta or another large platform shows AI-driven monetization gains without incremental user growth, implying the value capture is stronger than the commoditization pressure.",
+      "Inference prices fall sharply while usage does not expand proportionally, suggesting demand is less elastic than Sosin expects.",
+      "A pure model-layer company maintains pricing power for multiple quarters despite more capable open or low-cost alternatives.",
+      "Agentic price comparison tools fail to materially change switching behavior in consumer or enterprise categories."
+    ],
+    "catalysts": [
+      "Next 2 quarters: platform earnings reports showing whether AI improves ad ROI and engagement metrics at Meta.",
+      "By 2027-06-30: public API price cuts or token-cost declines across major model providers, signaling commoditization.",
+      "Next 12 months: enterprise rollouts of agent permissioning, audit logs, and read-only system access that make deployment more practical.",
+      "By 2028-10-27: evidence of overbuild or underutilization in AI infrastructure, revealing whether bottleneck rents are real or temporary."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-10-29T05:39:06.744602",
+    "updated_at": "2026-10-29 10:39:06",
+    "episode_evidence": "Cliff Sosin: And here's why, if you were to think human intelligence is like an unbounded scalar, the height of a tree isn't correct. You should really think about intelligence as is more like a ratio, like the roundness of a ball and intelligence is a gadget and we use it to make predictions about the universe.\nCliff Sosin: And in terms of mixing cream into your coffee or predicting the weather or thinking about how groups of people who are all very complicated are going to interact with each other, intelligence just isn't that powerful.\nCliff Sosin: All of this is downstream of what they possess, which is not destroyed by ubiquitous intelligence, which is data and attention. They just have this enormous amounts of data about all these people and how they view videos and whatnot.\nCliff Sosin: This idea of how much more inference will people use as intelligence gets better and cheaper is really really hard thing. Equally hard is how much better and cheaper inference is going to get and then even if you could somehow guess it those things then there's the whole value chain.\nCliff Sosin: If I'm in the waste collection business, I might be great at it. But it's still really hard to get people to bother to switch garbage collections companies, even if you're offering a better service at a lower price.",
+    "falsification_tracks": [
+      "By 2028-10-27, if Meta's 10-K and 10-Q filings show no sustained improvement in ad pricing, engagement, or margin leverage despite continued AI capex above $40 billion annually, the data-and-attention moat thesis is weakened.",
+      "By 2027-12-31, if major model API pricing reported by OpenAI, Anthropic, or Microsoft remains above a 10x decline from current levels, the cheap-and-ubiquitous intelligence thesis is not holding.",
+      "By 2027-06-30, if enterprise software vendors using AI agents still show switching costs above 70% retention in customer cohorts, according to company filings or customer disclosures, the claim that agents compress pricing through easier switching is weakened.",
+      "By 2028-10-27, if Carvana's next four quarterly 10-Q filings show gross profit per unit below $1,000 for two consecutive quarters and refinancing costs rise above 9% on disclosed debt instruments, the differentiation thesis is challenged.",
+      "By 2027-12-31, if a named FERC docket or SEC filing from large inference infrastructure providers shows utilization below 50% across new buildouts, the bottleneck/capex-rent thesis for AI infrastructure is falsified."
+    ],
+    "schema_version": 1,
+    "model_used": "gpt-5.4-mini",
+    "input_tokens": 6190,
+    "output_tokens": 1372,
+    "cost_usd": 0.00540825,
+    "attempt_count": 1,
+    "generation_mode": "extraction",
+    "insight_title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+    "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "source_date": "2026-10-27",
+    "key_tickers": [
+      "META"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 1026,
-    "term": "Technical contagion",
-    "definition": "A market selloff driven more by forced selling, redemptions, and flow dynamics than by underlying fundamentals. It can spread across credit tiers even when fundamental default risk has not changed much.",
-    "investment_implications": "Important because Seelaus thinks technicals may matter more than fundamentals in the next cycle.",
+    "id": 1035,
+    "term": "OST shares",
+    "definition": "A new Anthropic share class tied to a long-term benefit trust, described as controlling significant board influence. It is framed as an unusual governance mechanism that can shape accountability.",
+    "investment_implications": "Governance structure can affect minority-holder rights, strategic flexibility, and post-IPO valuation multiples.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-10-29 03:46:41",
+    "submitted_date": "2026-10-29 10:38:18",
     "priority_score": 80
   },
   {
-    "id": 1027,
-    "term": "Primary-market wobble",
-    "definition": "A disruption in new issuance execution, such as a large deal being pulled, delayed, or downsized. In credit, that can change sentiment quickly even if cash markets still look stable.",
-    "investment_implications": "A failed or reduced hyperscaler deal could freeze investor appetite and pressure spreads.",
+    "id": 1036,
+    "term": "Side-channel leakage",
+    "definition": "A security failure mode where isolated systems communicate through timing or cache effects rather than explicit network links. The episode argues AI agents are increasingly able to discover these covert channels.",
+    "investment_implications": "Rising side-channel risk could increase demand for hardened compute, security tooling, and hardware-level isolation.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-10-29 03:46:41",
+    "submitted_date": "2026-10-29 10:38:18",
     "priority_score": 80
   },
   {
-    "id": 1028,
-    "term": "Programmatic issuance",
-    "definition": "Predictable, recurring issuance from large borrowers that follows a known financing agenda rather than opportunistic market timing. It can keep supply coming even when rates move sharply.",
-    "investment_implications": "This supports the idea that hyperscaler supply may remain strong through 2027, creating ongoing opportunity and supply pressure.",
+    "id": 1032,
+    "term": "Token usage-weighted price index",
+    "definition": "An index that tracks the effective price of AI tokens weighted by how much they are actually used. It can show whether AI is becoming cheaper per unit of usage even as total demand rises.",
+    "investment_implications": "If token prices fall while usage rises, AI adoption may be expanding rather than collapsing, supporting compute demand.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-10-29 03:46:41",
+    "submitted_date": "2026-10-29 10:37:04",
     "priority_score": 80
   },
   {
-    "id": 1023,
-    "term": "Cost-plus healthcare",
-    "definition": "A pricing model where drugs or supplies are sold at a transparent markup over cost rather than through opaque negotiated pricing. In this episode, Cuban presents it as a way to force price discipline and reduce hidden spreads.",
-    "investment_implications": "Could benefit transparency platforms, direct procurement tools, and operators that can reliably source and distribute at low spread.",
+    "id": 1033,
+    "term": "GPU rental term curve",
+    "definition": "The implied forward curve for GPU rental rates across maturities, similar to a commodity futures curve but based on modeled rental pricing rather than traded futures.",
+    "investment_implications": "A rising curve signals expectation of tighter future supply and sustained pricing power for compute providers.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-10-28 11:50:50",
+    "submitted_date": "2026-10-29 10:37:04",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 102092,
+    "id": 102472,
+    "name": "Kimi Catches Up",
+    "slug": "kimi-catches-up",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI infrastructure demand remains strong, but weak neocloud capital structures may suffer a 2027 shakeout even as frontier labs like Anthropic keep improving economics rapidly.",
+    "last_episode_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-28",
+    "appearance_count": 1
+  },
+  {
+    "id": 102473,
+    "name": "Cliff Sosin",
+    "slug": "cliff-sosin",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Cheap, ubiquitous intelligence will commoditize many model-layer tasks, so durable returns should accrue to businesses with strong data, attention, scale, or other complements to intelligence.",
+    "last_episode_title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-27",
+    "appearance_count": 1
+  },
+  {
+    "id": 102474,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -57350,7 +57698,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 102093,
+    "id": 102475,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -57362,7 +57710,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102094,
+    "id": 102476,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -57374,7 +57722,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102095,
+    "id": 102477,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -57386,7 +57734,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102096,
+    "id": 102478,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -57398,7 +57746,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102097,
+    "id": 102479,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -57410,7 +57758,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102098,
+    "id": 102480,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -57422,7 +57770,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102099,
+    "id": 102481,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -57434,7 +57782,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102100,
+    "id": 102482,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -57446,7 +57794,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102101,
+    "id": 102483,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -57458,7 +57806,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102102,
+    "id": 102484,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -57470,7 +57818,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102104,
+    "id": 102486,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -57482,7 +57830,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 102103,
+    "id": 102485,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -57494,7 +57842,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102105,
+    "id": 102487,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -57506,7 +57854,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102106,
+    "id": 102488,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -57518,7 +57866,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102107,
+    "id": 102489,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -57530,7 +57878,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102108,
+    "id": 102490,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -57542,7 +57890,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102109,
+    "id": 102491,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -57551,30 +57899,6 @@ const dashboardData = {
     "last_episode_title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-13",
-    "appearance_count": 1
-  },
-  {
-    "id": 102110,
-    "name": "Martin Shkreli",
-    "slug": "martin-shkreli",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
-    "last_episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-12",
-    "appearance_count": 1
-  },
-  {
-    "id": 102111,
-    "name": "Nick Bostrom",
-    "slug": "nick-bostrom",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
-    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-11",
     "appearance_count": 1
   }
 ],
@@ -57597,7 +57921,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-10-15",
     "mention_score": 6,
-    "mention_score_decayed": 4.44,
+    "mention_score_decayed": 4.34,
     "last_main_idea": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-10-15 \u2022 Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
     "last_proof_snippet": "You can't separate capability, functionality from safety and security.",
@@ -57783,7 +58107,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
     "mention_score": 4,
-    "mention_score_decayed": 3.1,
+    "mention_score_decayed": 3.03,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "supporting_takeaway": "David Sacks argued CoreWeave\u2019s fixed-price contract structure means upside from higher spot pricing is limited because capacity has already been pre-sold.",
     "grokipedia_url": null,
@@ -57913,7 +58237,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-28",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Cuban\u2019s central claim is that pre-contract AI review, not AI alone, could materially reduce healthcare costs by exposing hidden terms in employer and provider contracts.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-28 \u2022 Mark Cuban\u2019s Plan to Make Healthcare Affordable",
     "last_proof_snippet": "We are not in an efficient health care market. The economics are broken.",
@@ -58009,7 +58333,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-05",
     "mention_score": 3,
-    "mention_score_decayed": 1.76,
+    "mention_score_decayed": 1.72,
     "last_main_idea": "Josh Elman joined Olivia Moore to discuss a16z's seventh Top 100 Consumer AI Apps report, which for the first time adds consumer card spend data.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
     "last_proof_snippet": "",
@@ -58070,7 +58394,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-05",
     "mention_score": 3,
-    "mention_score_decayed": 1.76,
+    "mention_score_decayed": 1.72,
     "last_main_idea": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
     "last_proof_snippet": "The top 1% user is spending $903 per month personally on their personal credit cards on AI.",
@@ -58137,7 +58461,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-03",
     "mention_score": 3,
-    "mention_score_decayed": 1.68,
+    "mention_score_decayed": 1.65,
     "last_main_idea": "Amjad Masad joined OpenRouter's Alex Atallah to discuss Stripe's acquisition of OpenRouter and why AI may run on many models from many companies rather than one giant platform.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
     "last_proof_snippet": "Remember the days when computers did exactly what we told them to do.",
@@ -58254,7 +58578,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-09",
     "mention_score": 2,
-    "mention_score_decayed": 1.29,
+    "mention_score_decayed": 1.26,
     "last_main_idea": "AI infrastructure bottlenecks are shifting from chip design to memory, packaging, power, and optics, creating new investment opportunities in those layers.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-09 \u2022 Chips, Memory, and Power | Pat Gelsinger",
     "last_proof_snippet": "You can design the thing in three months, but I can actually get it into real silicon at scale for nine months.",
@@ -58320,7 +58644,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
-    "mention_score_decayed": 1.22,
+    "mention_score_decayed": 1.19,
     "last_main_idea": "Gurley argues catastrophic failures such as the COVID-19 response need independent investigations and a structured review framework (CAPA) so accountability improves.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
     "last_proof_snippet": "",
@@ -58379,7 +58703,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.15,
+    "mention_score_decayed": 1.12,
     "last_main_idea": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-04 \u2022 David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
     "last_proof_snippet": "If the premise of your question is, is this going to be successful or that it's going to be successful?",
@@ -58501,7 +58825,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.07,
+    "mention_score_decayed": 1.05,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "",
@@ -58612,6 +58936,60 @@ const dashboardData = {
     "net_worth": "$3.90B"
   },
   {
+    "id": 591,
+    "name": "Steve Houhead",
+    "slug": "steve-houhead",
+    "bio": "Research at Silicon Data; he discusses GPU rental indices, token pricing trends, and implied term curves for AI compute.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-29 10:37:04",
+    "last_episode_title": "Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-28",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Rising GPU rental rates and strong Anthropic margins suggest AI compute economics remain profitable enough to support the capex cycle despite falling token prices.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-28 \u2022 Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
+    "last_proof_snippet": "There's Sarmaya thematic ETF, built for a return to Tangible's learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it, Max. All right, thanks for kicking it off, Jack.",
+    "supporting_takeaway": "Steve Hou says token prices have been falling since late May while GPU rental rates are rising, which he reads as AI proliferation rather than collapse.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 589,
+    "name": "Cliff Sosin",
+    "slug": "cliff-sosin",
+    "bio": "Investor and thinker on AI\u2019s economic implications, emphasizing bottlenecks, complements to intelligence, and the limits of prediction in complex systems.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-29 10:35:56",
+    "last_episode_title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Cheap, ubiquitous intelligence will commoditize many model-layer tasks, so durable returns should accrue to businesses with strong data, attention, scale, or other complements to intelligence.",
+    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-27 \u2022 Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
+    "supporting_takeaway": "Sosin argued that when intelligence gets cheap, the durable edge shifts to complements like data, attention, physical proximity, and regulatory capture.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 586,
     "name": "Annie Seelaus",
     "slug": "annie-seelaus",
@@ -58630,9 +59008,7 @@ const dashboardData = {
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "The episode\u2019s main claim is that current calm credit spreads hide lagged technical stress, making selective liquidity-sensitive and AI/data-center underwriting more important than broad market averages.",
-    "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-10-22 \u2022 Mom-and-Pop Buyers Pounce on Battered Hyperscaler Bonds, Says Seelaus",
-    "last_proof_snippet": "Speaker 1: My name is James Crombie. I'm a senior editor at Bloomberg. Speaker 2: And I'm Arnold Kakuta, a senior credit analyst covering banks Speaker 2: at Bloomberg Intelligence.",
+    "last_main_idea": "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market.",
     "supporting_takeaway": "Seelaus says rate moves hit with a lag, meaning the real damage shows up later when the tide goes out and the weakest borrowers are revealed.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -58681,7 +59057,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
     "supporting_takeaway": "Joe Liemandt reported that 90% of Alpha students say, \"I love school,\" and 50% would rather go to school than go on vacation.",
     "grokipedia_url": null,
@@ -58706,7 +59082,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-27 \u2022 Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
     "last_proof_snippet": "Are you willing to redesign your school day so kids love it more than vacation? With cognitive science and learning science plus the advent of LLMs, you can build a learning engine that teaches kids 10 times faster.",
@@ -58733,7 +59109,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Computer-use agents are approaching superhuman speed and safety, creating a large enterprise automation opportunity if auditability and approval controls can manage risk.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -58757,7 +59133,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "AI agents could let 3\u201310 person startups compete with 50\u2013200 person incumbents, but only if they solve orchestration and distribution better than everyone else.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-25 \u2022 The New Startup Playbook | Box CEO Aaron Levie",
     "last_proof_snippet": "Start-ups can actually outrun these big companies in a way that was just never economically feasible before. You could actually go and compete in almost any category on the dimension of people are missing this whole thing.",
@@ -58784,7 +59160,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "AI infrastructure valuations are unsustainable because depreciation and financing costs will overwhelm profits, with CoreWeave as the clearest near-term credit stress case.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-23 \u2022 \"Coreweave's a Zero\" | George Noble on Why He's Short Neoclouds, Why AI is a Shale 2.0 Bubble Headed for Debt/Depreciation Brick Wall, and Why He's \"Coming For The Momentum Bros\"",
     "last_proof_snippet": "",
@@ -58792,34 +59168,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 543,
-    "name": "Andy Jassy",
-    "slug": "andy-jassy",
-    "bio": "Chief Executive Officer of Amazon. In this episode he discussed AWS AI demand, capex, chip strategy, and the impact of AI on enterprise software and security.",
-    "known_for": "",
-    "net_worth_usd": 377000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q41812531",
-    "net_worth_updated_at": "2026-10-16T23:47:28.463964",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-23 11:47:04",
-    "last_episode_title": "Amazon CEO Andy Jassy on Why Amazon Is Investing $220 Billion in AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Amazon is using massive 2026 capex to capture AI demand, but supply constraints still leave meaningful revenue on the table and support long-run AWS growth.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-23 \u2022 Amazon CEO Andy Jassy on Why Amazon Is Investing $220 Billion in AI",
-    "last_proof_snippet": "Even, spending $220 billion this year, we're leaving meaningful amount of demand on the table. We always leave a certain amount for on demand, but 26, obviously, it's about 27 is largely sold out. A good chunk of 28 is sold out.",
-    "supporting_takeaway": "Andy Jassy said AWS AI revenue is already over a $25 billion annual run rate after three years, versus about $60 million after three years for early AWS.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null,
-    "net_worth": "$377.0M"
   },
   {
     "id": 183,
@@ -58880,6 +59228,34 @@ const dashboardData = {
       ]
     },
     "net_worth": "$107.9M"
+  },
+  {
+    "id": 543,
+    "name": "Andy Jassy",
+    "slug": "andy-jassy",
+    "bio": "Chief Executive Officer of Amazon. In this episode he discussed AWS AI demand, capex, chip strategy, and the impact of AI on enterprise software and security.",
+    "known_for": "",
+    "net_worth_usd": 377000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q41812531",
+    "net_worth_updated_at": "2026-10-16T23:47:28.463964",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-23 11:47:04",
+    "last_episode_title": "Amazon CEO Andy Jassy on Why Amazon Is Investing $220 Billion in AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "Amazon is using massive 2026 capex to capture AI demand, but supply constraints still leave meaningful revenue on the table and support long-run AWS growth.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-23 \u2022 Amazon CEO Andy Jassy on Why Amazon Is Investing $220 Billion in AI",
+    "last_proof_snippet": "Even, spending $220 billion this year, we're leaving meaningful amount of demand on the table. We always leave a certain amount for on demand, but 26, obviously, it's about 27 is largely sold out. A good chunk of 28 is sold out.",
+    "supporting_takeaway": "Andy Jassy said AWS AI revenue is already over a $25 billion annual run rate after three years, versus about $60 million after three years for early AWS.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null,
+    "net_worth": "$377.0M"
   },
   {
     "id": 572,
@@ -59088,7 +59464,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-21 \u2022 Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
     "last_proof_snippet": "",
@@ -59115,7 +59491,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Document-processing infrastructure, not generic AI reasoning, is becoming the bottleneck for high-stakes agent workflows, and Reducto claims to solve it at high accuracy and penny-per-page economics.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-21 \u2022 The Missing Infrastructure for AI Agents: Documents | Reducto\u2019s Adit Abraham",
     "last_proof_snippet": "The day we got into YC, we told that we were going to get a bit. Nobody thinks about complexity when they upload a document to chat to you. You just expect it to work.",
@@ -59142,7 +59518,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-21 \u2022 AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
     "last_proof_snippet": "",
@@ -59169,7 +59545,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-21 \u2022 AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
     "last_proof_snippet": "",
@@ -59277,65 +59653,11 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-19 \u2022 Why a $1M Startup Wasn't Worth Building in the Age of AI",
     "last_proof_snippet": "Impact in the world is really, really important, really wanted to build something that mattered and helped people. I get pinged by Ben Horowitz. I found this amazing tool, it's called Town, it changed my life, it's so great.",
     "supporting_takeaway": "Jean-Denis Greze said Town is model-neutral and will use \"whatever supplier\" is best in the moment, because being tied to one provider is risky.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 548,
-    "name": "Mario Martone",
-    "slug": "mario-martone",
-    "bio": "Head of applied research at EliseAI; previously worked in theoretical physics on topics like black holes and string theory (per transcript).",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 11:51:47",
-    "last_episode_title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.79,
-    "last_main_idea": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-18 \u2022 Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
-    "last_proof_snippet": "An AI system that works 90% of the time might look impressive in a research paper, but when you're handling millions of conversations about people's housing and health care, that remaining 10% becomes an enormous problem.",
-    "supporting_takeaway": "Martone says EliseAI uses a mix of LLMs and traditional machine learning because LLMs alone are not the right tool for many high-impact decisions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 546,
-    "name": "Nusha Ansari",
-    "slug": "nusha-ansari",
-    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.79,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for that?",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -59402,6 +59724,60 @@ const dashboardData = {
     "net_worth": "$1.40B"
   },
   {
+    "id": 548,
+    "name": "Mario Martone",
+    "slug": "mario-martone",
+    "bio": "Head of applied research at EliseAI; previously worked in theoretical physics on topics like black holes and string theory (per transcript).",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 11:51:47",
+    "last_episode_title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.78,
+    "last_main_idea": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-18 \u2022 Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+    "last_proof_snippet": "An AI system that works 90% of the time might look impressive in a research paper, but when you're handling millions of conversations about people's housing and health care, that remaining 10% becomes an enormous problem.",
+    "supporting_takeaway": "Martone says EliseAI uses a mix of LLMs and traditional machine learning because LLMs alone are not the right tool for many high-impact decisions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 546,
+    "name": "Nusha Ansari",
+    "slug": "nusha-ansari",
+    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 10:18:14",
+    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.78,
+    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_proof_snippet": "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for that?",
+    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 544,
     "name": "Oliver Kharraz",
     "slug": "oliver-kharraz",
@@ -59419,7 +59795,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-17 \u2022 Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
     "last_proof_snippet": "",
@@ -59446,7 +59822,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Grepr\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-16 \u2022 AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
     "last_proof_snippet": "The world that the AI lives in is all digital, and this is the actual world, and my most things are not necessarily the same. When we started doing AI for coding, it was autocomplete.",
@@ -59500,7 +59876,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Agentic commerce could create a large infrastructure winner in payment vaulting and token provisioning, and VGS claims to already sit at the center of that shift.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-15 \u2022 When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
     "last_proof_snippet": "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs which are payment credentials.",
@@ -59527,7 +59903,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-15 \u2022 Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
     "last_proof_snippet": "",
@@ -59581,7 +59957,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-14 \u2022 Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
     "last_proof_snippet": "",
@@ -59589,67 +59965,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 78,
-    "name": "Martin Casado",
-    "slug": "martin-casado",
-    "bio": "Martin Casado is a General Partner at a16z, a venture capital firm, and co-founder of Nicira, a company acquired by VMware for $1.26B. He is known for his expertise in networking and cloud computing investments.",
-    "known_for": "His investments in networking and cloud computing, and his role in founding Nicira.",
-    "net_worth_usd": 600000000.0,
-    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
-    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Uses industry knowledge to frame Cursor's position in the market.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key strategic points.",
-    "voice_profile_updated_at": "2026-08-27 12:09:04",
-    "last_seen": "2026-08-27 12:09:04",
-    "last_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-27",
-    "mention_score": 3,
-    "mention_score_decayed": 0.72,
-    "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
-    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
-    "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-27T07:09:17.809769",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Martin Casado",
-      "fetched_at": "2026-08-27T12:09:17.809535+00:00",
-      "cliff_notes": "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion. His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields.",
-      "derived": {
-        "current_role": "General Partner at a16z",
-        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion.",
-        "His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields."
-      ],
-      "sections": [
-        {
-          "heading": "Networking and Cloud Computing",
-          "body": "Martin Casado is recognized for his investments and insights in the fields of networking and cloud computing, contributing to the growth and innovation in these areas."
-        },
-        {
-          "heading": "Nicira Acquisition",
-          "body": "Casado co-founded Nicira, which was later acquired by VMware for $1.26 billion, marking a significant milestone in his career and the industry."
-        },
-        {
-          "heading": "Venture Capital Insights",
-          "body": "As a General Partner at a16z, Casado provides valuable perspectives on the competitive landscape and the importance of the human-model interface in technology investments."
-        }
-      ]
-    },
-    "net_worth": "$600.0M"
   },
   {
     "id": 533,
@@ -59733,89 +60048,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 529,
-    "name": "Charles Lemonides",
-    "slug": "charles-le-manides",
-    "bio": "CIO and founder of ValueWorks LLC.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 04:43:17",
-    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years.",
-    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 436,
-    "name": "Justin Johnson",
-    "slug": "justin-johnson",
-    "bio": "Justin Johnson is a researcher and expert in computer vision and generative models, known for his pioneering work in neural radiance fields and 3D generative AI. He is involved in the development of Atlas, a project that explores the potential of world models for simulating and reconstructing environments. His insights bridge the gap between AI and physical understanding, with applications across various industries.",
-    "known_for": "Justin Johnson is at the forefront of developing world models that enhance AI's ability to understand and simulate the physical world, impacting sectors from entertainment to robotics.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Technical but accessible, emphasizing architectural elegance",
-    "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
-    "voice_delivery_notes": "Emphasize 'new view prediction' as a deliberate, foundational phrase; pause after 'Atlas is really' for definitional clarity",
-    "voice_profile_updated_at": "2026-09-04 13:44:50",
-    "last_seen": "2026-09-13 12:19:42",
-    "last_episode_title": "World Models, Robotics, and the Future of 3D AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-13 \u2022 World Models, Robotics, and the Future of 3D AI",
-    "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today.",
-    "supporting_takeaway": "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-16T12:12:46.568076",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Justin Johnson",
-      "fetched_at": "2026-09-16T17:12:46.567930+00:00",
-      "cliff_notes": "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics. By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies.",
-      "derived": {
-        "current_role": "Co-founder at World Labs"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics.",
-        "By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies."
-      ],
-      "sections": [
-        {
-          "heading": "Neural Radiance Fields",
-          "body": "Johnson's work in neural radiance fields represents a breakthrough in how AI can generate and understand 3D environments, allowing for more realistic simulations."
-        },
-        {
-          "heading": "World Models",
-          "body": "He advocates for the development of world models that integrate visual and physical understanding, which could transform industries reliant on spatial awareness."
-        },
-        {
-          "heading": "Applications Across Industries",
-          "body": "His research has implications for a wide range of applications, from gaming and visual effects to robotics and construction, highlighting the versatility of AI in real-world scenarios."
-        }
-      ]
-    }
-  },
-  {
     "id": 74,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
@@ -59881,6 +60113,94 @@ const dashboardData = {
     "net_worth": "$3.60B"
   },
   {
+    "id": 78,
+    "name": "Martin Casado",
+    "slug": "martin-casado",
+    "bio": "Martin Casado is a General Partner at a16z, a venture capital firm, and co-founder of Nicira, a company acquired by VMware for $1.26B. He is known for his expertise in networking and cloud computing investments.",
+    "known_for": "His investments in networking and cloud computing, and his role in founding Nicira.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
+    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Uses industry knowledge to frame Cursor's position in the market.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key strategic points.",
+    "voice_profile_updated_at": "2026-08-27 12:09:04",
+    "last_seen": "2026-08-27 12:09:04",
+    "last_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-27",
+    "mention_score": 3,
+    "mention_score_decayed": 0.7,
+    "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
+    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
+    "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-27T07:09:17.809769",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Martin Casado",
+      "fetched_at": "2026-08-27T12:09:17.809535+00:00",
+      "cliff_notes": "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion. His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields.",
+      "derived": {
+        "current_role": "General Partner at a16z",
+        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion.",
+        "His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields."
+      ],
+      "sections": [
+        {
+          "heading": "Networking and Cloud Computing",
+          "body": "Martin Casado is recognized for his investments and insights in the fields of networking and cloud computing, contributing to the growth and innovation in these areas."
+        },
+        {
+          "heading": "Nicira Acquisition",
+          "body": "Casado co-founded Nicira, which was later acquired by VMware for $1.26 billion, marking a significant milestone in his career and the industry."
+        },
+        {
+          "heading": "Venture Capital Insights",
+          "body": "As a General Partner at a16z, Casado provides valuable perspectives on the competitive landscape and the importance of the human-model interface in technology investments."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
+  },
+  {
+    "id": 529,
+    "name": "Charles Lemonides",
+    "slug": "charles-le-manides",
+    "bio": "CIO and founder of ValueWorks LLC.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 04:43:17",
+    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years.",
+    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 528,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
@@ -59908,6 +60228,62 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 436,
+    "name": "Justin Johnson",
+    "slug": "justin-johnson",
+    "bio": "Justin Johnson is a researcher and expert in computer vision and generative models, known for his pioneering work in neural radiance fields and 3D generative AI. He is involved in the development of Atlas, a project that explores the potential of world models for simulating and reconstructing environments. His insights bridge the gap between AI and physical understanding, with applications across various industries.",
+    "known_for": "Justin Johnson is at the forefront of developing world models that enhance AI's ability to understand and simulate the physical world, impacting sectors from entertainment to robotics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Technical but accessible, emphasizing architectural elegance",
+    "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
+    "voice_delivery_notes": "Emphasize 'new view prediction' as a deliberate, foundational phrase; pause after 'Atlas is really' for definitional clarity",
+    "voice_profile_updated_at": "2026-09-04 13:44:50",
+    "last_seen": "2026-09-13 12:19:42",
+    "last_episode_title": "World Models, Robotics, and the Future of 3D AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-13 \u2022 World Models, Robotics, and the Future of 3D AI",
+    "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today.",
+    "supporting_takeaway": "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-16T12:12:46.568076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Justin Johnson",
+      "fetched_at": "2026-09-16T17:12:46.567930+00:00",
+      "cliff_notes": "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics. By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies.",
+      "derived": {
+        "current_role": "Co-founder at World Labs"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics.",
+        "By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Neural Radiance Fields",
+          "body": "Johnson's work in neural radiance fields represents a breakthrough in how AI can generate and understand 3D environments, allowing for more realistic simulations."
+        },
+        {
+          "heading": "World Models",
+          "body": "He advocates for the development of world models that integrate visual and physical understanding, which could transform industries reliant on spatial awareness."
+        },
+        {
+          "heading": "Applications Across Industries",
+          "body": "His research has implications for a wide range of applications, from gaming and visual effects to robotics and construction, highlighting the versatility of AI in real-world scenarios."
+        }
+      ]
+    }
+  },
+  {
     "id": 525,
     "name": "Dhaval Adjodah",
     "slug": "davile-agida",
@@ -59925,7 +60301,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-12 \u2022 The Race to Recursive Self-Improving AI",
     "last_proof_snippet": "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself.",
@@ -59952,38 +60328,11 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-12 \u2022 The Race to Recursive Self-Improving AI",
     "last_proof_snippet": "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself.",
     "supporting_takeaway": "Owen He said many papers that claim RSI did not work when tested in their internal infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 524,
-    "name": "Nick Bostrom",
-    "slug": "nick-bostrom",
-    "bio": "Professor at Oxford; founding director of the Future of Humanity Institute; founder and principal researcher of the macro strategy research initiative; known for work on superintelligence and existential risk framing.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-11 11:41:42",
-    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.68,
-    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-11 \u2022 Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_proof_snippet": "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so.",
-    "supporting_takeaway": "Nick Bostrom says broad or indefinite pauses risk shifting AI work into secretive or highly concentrated \u201cManhattan project\u201d structures.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -60049,6 +60398,33 @@ const dashboardData = {
     "net_worth": "$185.0M"
   },
   {
+    "id": 524,
+    "name": "Nick Bostrom",
+    "slug": "nick-bostrom",
+    "bio": "Professor at Oxford; founding director of the Future of Humanity Institute; founder and principal researcher of the macro strategy research initiative; known for work on superintelligence and existential risk framing.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-11 11:41:42",
+    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.66,
+    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-11 \u2022 Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_proof_snippet": "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so.",
+    "supporting_takeaway": "Nick Bostrom says broad or indefinite pauses risk shifting AI work into secretive or highly concentrated \u201cManhattan project\u201d structures.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 522,
     "name": "Jason Calacanis",
     "slug": "jason-kaltenson",
@@ -60066,7 +60442,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-10 \u2022 Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
     "last_proof_snippet": "",
@@ -60255,7 +60631,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Matt Garman argues AWS's AI infrastructure buildout remains demand-driven because Amazon expects $220 billion of 2026 capex, 2 million Nvidia GPUs over coming years, and production workloads across Bedrock, inference, and cloud migration.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-08 \u2022 Building the Cloud for an Agentic World | AWS CEO Matt Garman",
     "last_proof_snippet": "Agented workflows tended to perform better on AWS than anywhere else. Compute sandboxes, gateways, agent permissions versus people. A lot of those are things that we have built and are building and thinking actively about.",
@@ -60450,38 +60826,11 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Richard Socher claims AI can deliver a century of scientific breakthroughs in the next decade by automating hypothesis, experiment, data, and theory across the full scientific stack.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-03 \u2022 Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
     "last_proof_snippet": "In various weak forms, we already have RSI. We're not quite there yet, but we're very close.",
     "supporting_takeaway": "Richard Socher predicts simpler single-gene diseases could be cured in the next 12 months, while FDA-governed human studies keep more complex disease timelines at roughly half a decade to a decade.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 505,
-    "name": "Alex Atallah",
-    "slug": "alex-atallah",
-    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
-    "known_for": "OpenRouter and model routing across multiple AI providers.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and infrastructure-focused.",
-    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
-    "voice_profile_updated_at": "2026-10-03 12:02:34",
-    "last_seen": "2026-10-03 12:02:34",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "We don't want everyone to be a part of one giant company.",
-    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -60547,6 +60896,33 @@ const dashboardData = {
     "net_worth": "$14.00B"
   },
   {
+    "id": 505,
+    "name": "Alex Atallah",
+    "slug": "alex-atallah",
+    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
+    "known_for": "OpenRouter and model routing across multiple AI providers.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and infrastructure-focused.",
+    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 1,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "We don't want everyone to be a part of one giant company.",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 502,
     "name": "Seema Amble",
     "slug": "seema-amble",
@@ -60564,7 +60940,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
     "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them.",
@@ -60591,7 +60967,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
     "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them.",
@@ -60726,7 +61102,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "",
@@ -60753,7 +61129,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "",
@@ -60861,7 +61237,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "",
@@ -60921,7 +61297,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Cathie Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs.",
@@ -61040,7 +61416,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because TypeSafe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-28 \u2022 AI Can Write Code. Why Isn\u2019t Software Better?",
     "last_proof_snippet": "AI is so unbelievably smart, and yet it's so useless at all other stuff. It doesn't matter how much AI cutting agents you use, the software actually isn't getting better.",
@@ -61255,121 +61631,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 480,
-    "name": "Eric Nguyen",
-    "slug": "eric-gwyn",
-    "bio": "Eric Nguyen is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
-    "known_for": "Eric Nguyen is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and assertive",
-    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:17",
-    "last_seen": "2026-09-24 04:53:17",
-    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.46,
-    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging.",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Eric Nguyen",
-      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
-      "cliff_notes": "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
-      "derived": {
-        "current_role": "CEO and Co-founder of Article"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
-        "Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
-      ],
-      "sections": [
-        {
-          "heading": "Genomic Language Models",
-          "body": "Nguyen's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
-        },
-        {
-          "heading": "Biosecurity in Synthetic Biology",
-          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
-        },
-        {
-          "heading": "Dual Mandate Approach",
-          "body": "Nguyen promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
-        }
-      ]
-    }
-  },
-  {
-    "id": 479,
-    "name": "Luca Ferrari",
-    "slug": "luca-ferrari",
-    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
-    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and confident",
-    "voice_style": "Direct and informative, emphasizing strategic insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:03",
-    "last_seen": "2026-09-24 04:53:03",
-    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.46,
-    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Luca Ferrari",
-      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
-      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
-      "derived": {
-        "current_role": "CTO at Bending Spoon"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Italian"
-      },
-      "lead_paragraphs": [
-        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
-        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
-      ],
-      "sections": [
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
-        },
-        {
-          "heading": "Product Innovation",
-          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
-        },
-        {
-          "heading": "Market Expansion",
-          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
-        }
-      ]
-    }
-  },
-  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -61428,6 +61689,121 @@ const dashboardData = {
     "net_worth": "$3.70B"
   },
   {
+    "id": 480,
+    "name": "Eric Nguyen",
+    "slug": "eric-gwyn",
+    "bio": "Eric Nguyen is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
+    "known_for": "Eric Nguyen is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and assertive",
+    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:17",
+    "last_seen": "2026-09-24 04:53:17",
+    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.45,
+    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging.",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eric Nguyen",
+      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
+      "cliff_notes": "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
+      "derived": {
+        "current_role": "CEO and Co-founder of Article"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
+        "Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Language Models",
+          "body": "Nguyen's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
+        },
+        {
+          "heading": "Biosecurity in Synthetic Biology",
+          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
+        },
+        {
+          "heading": "Dual Mandate Approach",
+          "body": "Nguyen promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
+        }
+      ]
+    }
+  },
+  {
+    "id": 479,
+    "name": "Luca Ferrari",
+    "slug": "luca-ferrari",
+    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
+    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and confident",
+    "voice_style": "Direct and informative, emphasizing strategic insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:03",
+    "last_seen": "2026-09-24 04:53:03",
+    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.45,
+    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Luca Ferrari",
+      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
+      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
+      "derived": {
+        "current_role": "CTO at Bending Spoon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Italian"
+      },
+      "lead_paragraphs": [
+        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
+        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
+      ],
+      "sections": [
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
+        },
+        {
+          "heading": "Product Innovation",
+          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
+        },
+        {
+          "heading": "Market Expansion",
+          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
+        }
+      ]
+    }
+  },
+  {
     "id": 478,
     "name": "Amjad Masad",
     "slug": "amjag-masad",
@@ -61445,7 +61821,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "There is a significant investment opportunity in educational technologies and platforms that encourage innovative learning approaches and integrate AI into organizational operations.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-23 \u2022 Amjad Masad on Rethinking College for the AI Era",
     "last_proof_snippet": "Ultimately, the totally beyond people is to question deeply held beliefs. It's to be heretics.",
@@ -61499,7 +61875,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_proof_snippet": "",
@@ -61560,7 +61936,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in AI tools and climate resilience technologies presents a significant opportunity for enhancing scientific research and addressing global challenges.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-22 \u2022 \ud83d\udd2c An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
     "last_proof_snippet": "",
@@ -61616,7 +61992,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Boom Supersonic presents a compelling investment opportunity through its innovative technologies and strong legislative support, positioning itself for significant growth in both aerospace and energy sectors.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-22 \u2022 Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
     "last_proof_snippet": "",
@@ -61675,7 +62051,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "",
@@ -61731,7 +62107,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "",
@@ -61897,7 +62273,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps.",
@@ -61953,7 +62329,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
     "last_proof_snippet": "Dario Amodei, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Monday, President Trump called it a hoax and China called it a cold war trick.",
@@ -62126,7 +62502,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in companies that develop real-time generative video technologies and AI solutions for Hollywood presents significant growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-17 \u2022 The Next Frontier of AI Video Is Control",
     "last_proof_snippet": "Generative media is along with the coding agent market. What we call is token market fit. Everyone's waiting for a large consumer moment in AI. I believe H3 Max makes it possible.",
@@ -62182,7 +62558,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The Fed is expected to implement two more rate hikes, indicating a continued hawkish monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-16 \u2022 Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
     "last_proof_snippet": "",
@@ -62219,65 +62595,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
-    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
-    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
-    "voice_tone": "Candid and thoughtful.",
-    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
-    "voice_profile_updated_at": "2026-08-18 04:34:22",
-    "last_seen": "2026-08-18 04:34:22",
-    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-18",
-    "mention_score": 2,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Garrett Langley",
-      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
-      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
-      "derived": {
-        "current_role": "CEO of Flock"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
-        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
-      ],
-      "sections": [
-        {
-          "heading": "Flock's Impact",
-          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
-        },
-        {
-          "heading": "Safety and Privacy",
-          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
-        },
-        {
-          "heading": "Community Adoption",
-          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 459,
@@ -62587,6 +62904,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
+    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
+    "voice_tone": "Candid and thoughtful.",
+    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
+    "voice_profile_updated_at": "2026-08-18 04:34:22",
+    "last_seen": "2026-08-18 04:34:22",
+    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 2,
+    "mention_score_decayed": 0.38,
+    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Garrett Langley",
+      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
+      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
+      "derived": {
+        "current_role": "CEO of Flock"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
+        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
+      ],
+      "sections": [
+        {
+          "heading": "Flock's Impact",
+          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
+        },
+        {
+          "heading": "Safety and Privacy",
+          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
+        },
+        {
+          "heading": "Community Adoption",
+          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
     "id": 452,
     "name": "Freddy Brick",
     "slug": "freddie-brick",
@@ -62783,6 +63159,66 @@ const dashboardData = {
     "net_worth": "$5.0M"
   },
   {
+    "id": 448,
+    "name": "Jacob Bondas",
+    "slug": "jacob-bondas",
+    "bio": "Jacob Bondas is a technologist and strategist whose work centers on autonomous AI systems and machine learning development. He is recognized for insights on AI alignment and emergent agent behavior, particularly how advanced systems develop unanticipated capabilities as they scale. His commentary bridges technical safety research and strategic decision-making for complex, agentic AI deployments.",
+    "known_for": "Shaping investor and industry understanding of AI alignment risks and emergent behaviors in autonomous agent systems.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Philosophical and measured",
+    "voice_style": "Uses concise, declarative statements about the nature of AI growth and control",
+    "voice_delivery_notes": "Pause slightly after punchy observations to let the weight of containment risks land",
+    "voice_profile_updated_at": "2026-09-11 15:59:02",
+    "last_seen": "2026-09-11 15:59:02",
+    "last_episode_title": "Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.34,
+    "last_main_idea": "The transition from narrow AI to autonomous AGI agents is collapsing transaction costs, creating new tokenized economic layers, and turning mobility and labor markets upside down, offering asymmetric returns for investors positioned in compute infrastructure, agent orchestration, and automation platforms serving an aging global population.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-09 \u2022 Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
+    "last_proof_snippet": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
+    "supporting_takeaway": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-11T11:30:57.961365",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Jacob Bondas",
+      "fetched_at": "2026-09-11T16:30:57.960616+00:00",
+      "cliff_notes": "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity. In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence. While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent. This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity.",
+        "In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence.",
+        "While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent.",
+        "This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management."
+      ],
+      "sections": [
+        {
+          "heading": "AI Alignment",
+          "body": "Bondas analyzes the technical and strategic challenges of keeping advanced AI systems aligned with operator intent as they gain greater autonomy. His insights address how misalignment risks scale with model capability, informing governance frameworks and investment due diligence."
+        },
+        {
+          "heading": "Emergent Agent Behavior",
+          "body": "He examines how unanticipated capabilities and behaviors can arise in large-scale machine learning systems. This work highlights why scaling autonomous agents requires new monitoring and evaluation paradigms beyond traditional software testing."
+        },
+        {
+          "heading": "Autonomous Systems Strategy",
+          "body": "As a strategist, Bondas focuses on development and deployment pathways for autonomous AI in research and commercial environments. His commentary bridges machine learning engineering with executive-level planning about safe rollout timelines."
+        },
+        {
+          "heading": "Machine Learning Development",
+          "body": "Bondas contributes to discourse on the practical construction of ML systems, emphasizing the intersection of capability advancement and safety engineering. His perspective is cited by technologists assessing the maturity of agentic AI platforms."
+        }
+      ]
+    }
+  },
+  {
     "id": 446,
     "name": "Jim Caught",
     "slug": "jim-caught",
@@ -62977,7 +63413,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-07 \u2022 Can Open Source Keep AI Power From Concentrating?",
     "last_proof_snippet": "",
@@ -63044,7 +63480,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-02 \u2022 Inside Moderna\u2019s Personalized Cancer Vaccine",
     "last_proof_snippet": "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed.",
@@ -63104,7 +63540,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Position nuclear as AI infrastructure: prefer names tied to firm hyperscaler offtake, enrichment/fuel, and factory-built SMR supply chains over pure fusion lottery tickets. Watch PPA announcements, NRC Part 57 and similar licensing milestones, and enrichment capacity expansions as catalysts; falsifiers are hyperscaler PPA pullbacks, permitting stalls, or a step-change cheaper firm clean power that undercuts $100/MWh nuclear bids.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-03 \u2022 MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
     "last_proof_snippet": "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance.",
@@ -63174,7 +63610,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-04 \u2022 Fei Fei Li: The Race to Build World Models For AI",
     "last_proof_snippet": "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction.",
@@ -63235,7 +63671,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Bond yields are at multi-decade highs and investor sentiment is excessively bearish, creating a contrarian buying opportunity in long-term government bonds.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-03 \u2022 \u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
     "last_proof_snippet": "",
@@ -63309,7 +63745,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "AI can solve complex mathematical problems but lacks deep conceptual understanding and intuition, which remain critical human strengths.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-01 \u2022 Daniel Litt: The Mathematician's Guide to AI",
     "last_proof_snippet": "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied.",
@@ -63336,7 +63772,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "AI agents demonstrated collective intelligence by forming networks to share strategies and assist each other.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-29 \u2022 Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
     "last_proof_snippet": "",
@@ -63760,7 +64196,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
@@ -63823,7 +64259,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
@@ -63887,7 +64323,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act.",
@@ -64196,7 +64632,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-24 \u2022 Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
     "last_proof_snippet": "We want to essentially double the scientific output of the United States.",
@@ -64451,7 +64887,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investment in AI technology should consider the broader geopolitical landscape and the potential for international cooperation and market creation, as proposed by the 'AI Marshall Plan'.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-18 \u2022 China\u2019s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
     "last_proof_snippet": "",
@@ -65139,7 +65575,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Sergey Brin's return to Gemini may lead to accelerated innovation with less safety constraints.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergey Brin is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete.",
@@ -65199,7 +65635,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in AI-driven protein design companies like Chai Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "",
@@ -65258,7 +65694,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in AI-driven protein design companies like Chai Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "",
@@ -65425,70 +65861,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$30.00B"
-  },
-  {
-    "id": 259,
-    "name": "Andrew Feldman",
-    "slug": "andrew-feldman",
-    "bio": "Andrew Feldman is the CEO and co-founder of Cerebras, a company at the forefront of AI and chip technology. He has been instrumental in leading the development of AI chips and data center infrastructure, contributing significantly to the buildout of AI on a global scale.",
-    "known_for": "Pioneering the development of AI chips and data center infrastructure for advanced AI applications.",
-    "net_worth_usd": 19800000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0002039573/Andrew-D.-Feldman",
-    "net_worth_updated_at": "2026-05-22T00:00:37.809262",
-    "voice_tone": "Informed and enthusiastic about the future of AI.",
-    "voice_style": "Explanatory and visionary, outlining the scale and impact of AI development.",
-    "voice_delivery_notes": "Speaks with a mix of excitement and caution, highlighting the magnitude of the AI buildout.",
-    "voice_profile_updated_at": "2026-07-10 04:35:59",
-    "last_seen": "2026-07-10 04:35:59",
-    "last_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-10",
-    "mention_score": 2,
-    "mention_score_decayed": 0.16,
-    "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Companies like Google, Microsoft, and AWS are aggressively expanding their data center capacities to meet demand.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-09T23:36:14.887399",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew Feldman",
-      "fetched_at": "2026-07-10T04:36:14.887061+00:00",
-      "cliff_notes": "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence. Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution.",
-      "derived": {
-        "current_role": "CEO and co-founder of Cerebras"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence.",
-        "Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution."
-      ],
-      "sections": [
-        {
-          "heading": "AI Chip Development",
-          "body": "Andrew Feldman has been at the helm of Cerebras, leading the development of advanced AI chips that are designed to handle the complex computations required for artificial intelligence applications."
-        },
-        {
-          "heading": "Data Center Infrastructure",
-          "body": "Under Feldman's leadership, Cerebras has focused on creating data center infrastructure that can support the massive computational demands of AI, enabling more efficient and powerful AI systems."
-        },
-        {
-          "heading": "Global AI Buildout",
-          "body": "Feldman's work is part of a global effort to build out AI capabilities, which is being compared to historical feats like the construction of the Great Wall of China or the pyramids in terms of scale and mobilization of resources."
-        },
-        {
-          "heading": "IPO and Growth",
-          "body": "Cerebras, with Feldman as CEO, has experienced significant growth, including a successful IPO, which has further established the company as a major player in the AI technology sector."
-        }
-      ]
-    },
-    "net_worth": "$19.8M"
   },
   {
     "id": 391,
@@ -65789,6 +66161,70 @@ const dashboardData = {
     "net_worth": "$500.0M"
   },
   {
+    "id": 259,
+    "name": "Andrew Feldman",
+    "slug": "andrew-feldman",
+    "bio": "Andrew Feldman is the CEO and co-founder of Cerebras, a company at the forefront of AI and chip technology. He has been instrumental in leading the development of AI chips and data center infrastructure, contributing significantly to the buildout of AI on a global scale.",
+    "known_for": "Pioneering the development of AI chips and data center infrastructure for advanced AI applications.",
+    "net_worth_usd": 19800000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0002039573/Andrew-D.-Feldman",
+    "net_worth_updated_at": "2026-05-22T00:00:37.809262",
+    "voice_tone": "Informed and enthusiastic about the future of AI.",
+    "voice_style": "Explanatory and visionary, outlining the scale and impact of AI development.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and caution, highlighting the magnitude of the AI buildout.",
+    "voice_profile_updated_at": "2026-07-10 04:35:59",
+    "last_seen": "2026-07-10 04:35:59",
+    "last_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-10",
+    "mention_score": 2,
+    "mention_score_decayed": 0.15,
+    "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Companies like Google, Microsoft, and AWS are aggressively expanding their data center capacities to meet demand.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-09T23:36:14.887399",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew Feldman",
+      "fetched_at": "2026-07-10T04:36:14.887061+00:00",
+      "cliff_notes": "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence. Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution.",
+      "derived": {
+        "current_role": "CEO and co-founder of Cerebras"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence.",
+        "Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution."
+      ],
+      "sections": [
+        {
+          "heading": "AI Chip Development",
+          "body": "Andrew Feldman has been at the helm of Cerebras, leading the development of advanced AI chips that are designed to handle the complex computations required for artificial intelligence applications."
+        },
+        {
+          "heading": "Data Center Infrastructure",
+          "body": "Under Feldman's leadership, Cerebras has focused on creating data center infrastructure that can support the massive computational demands of AI, enabling more efficient and powerful AI systems."
+        },
+        {
+          "heading": "Global AI Buildout",
+          "body": "Feldman's work is part of a global effort to build out AI capabilities, which is being compared to historical feats like the construction of the Great Wall of China or the pyramids in terms of scale and mobilization of resources."
+        },
+        {
+          "heading": "IPO and Growth",
+          "body": "Cerebras, with Feldman as CEO, has experienced significant growth, including a successful IPO, which has further established the company as a major player in the AI technology sector."
+        }
+      ]
+    },
+    "net_worth": "$19.8M"
+  },
+  {
     "id": 382,
     "name": "Dino Ceranic",
     "slug": "dino-ceranic",
@@ -65806,7 +66242,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "",
@@ -65865,7 +66301,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "",
@@ -66121,7 +66557,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "",
@@ -66410,6 +66846,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.13,
+    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 364,
     "name": "Justin Jo",
     "slug": "justin-jo",
@@ -66427,7 +66922,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used.",
@@ -66487,7 +66982,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "",
@@ -66546,7 +67041,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "",
@@ -66605,7 +67100,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "",
@@ -66646,65 +67141,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$26.7M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.13,
-    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 358,
@@ -66973,7 +67409,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "",
@@ -68588,66 +69024,6 @@ const dashboardData = {
     "net_worth": "$87.0M"
   },
   {
-    "id": 309,
-    "name": "Shashank Charanawala",
-    "slug": "shashank-charanawala",
-    "bio": "Shashank Charanawala is a key figure in the development of the Plutus investment platform, known for his insights on democratizing investment management and the importance of individualized investment strategies.",
-    "known_for": "His work in democratizing investment management and enabling individualized investment strategies through the Plutus platform.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and informative",
-    "voice_style": "Factual and persuasive",
-    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key points",
-    "voice_profile_updated_at": "2026-06-25 04:37:13",
-    "last_seen": "2026-06-25 04:37:13",
-    "last_episode_title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.06,
-    "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
-    "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it.",
-    "supporting_takeaway": "The platform emphasizes personalized investment strategies based on individual risk-reward profiles.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-24T23:38:02.922763",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Shashank Charanawala",
-      "fetched_at": "2026-06-25T04:38:02.922523+00:00",
-      "cliff_notes": "Shashank Charanawala is recognized for his contributions to the financial technology sector, particularly in the realm of investment management. As the founder of Plutus, a platform that allows investors to access portfolios developed by independent research providers, Charanawala has played a pivotal role in making investment strategies more accessible and personalized. His vision for Plutus is to provide a platform where talented portfolio builders and manager researchers can thrive outside the constraints of traditional financial institutions. Charanawala's approach emphasizes the customer's perspective, focusing on identifying the best content providers for generating alpha and offering these opportunities to individual investors. His work is significant as it challenges the traditional gatekeeping in finance and promotes a more inclusive and customer-centric investment landscape.",
-      "derived": {
-        "current_role": "Founder of Plutus"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Shashank Charanawala is recognized for his contributions to the financial technology sector, particularly in the realm of investment management. As the founder of Plutus, a platform that allows investors to access portfolios developed by independent research providers, Charanawala has played a pivotal role in making investment strategies more accessible and personalized.",
-        "His vision for Plutus is to provide a platform where talented portfolio builders and manager researchers can thrive outside the constraints of traditional financial institutions. Charanawala's approach emphasizes the customer's perspective, focusing on identifying the best content providers for generating alpha and offering these opportunities to individual investors.",
-        "His work is significant as it challenges the traditional gatekeeping in finance and promotes a more inclusive and customer-centric investment landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Democratizing Investment",
-          "body": "Shashank Charanawala is dedicated to making investment management more accessible by providing a platform for individual research providers to share their strategies with a broader audience."
-        },
-        {
-          "heading": "Plutus Platform",
-          "body": "As the founder of Plutus, Charanawala has created a space where independent researchers can develop and manage investment portfolios, offering a new avenue for talent outside of large financial institutions."
-        },
-        {
-          "heading": "Customer-Centric Approach",
-          "body": "Charanawala emphasizes the importance of looking at the investment landscape from the customer's perspective, focusing on providing the best content for generating alpha and personalizing investment strategies."
-        }
-      ]
-    }
-  },
-  {
     "id": 73,
     "name": "Sam Altman",
     "slug": "sam-altman",
@@ -68707,6 +69083,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$2.10B"
+  },
+  {
+    "id": 309,
+    "name": "Shashank Charanawala",
+    "slug": "shashank-charanawala",
+    "bio": "Shashank Charanawala is a key figure in the development of the Plutus investment platform, known for his insights on democratizing investment management and the importance of individualized investment strategies.",
+    "known_for": "His work in democratizing investment management and enabling individualized investment strategies through the Plutus platform.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and informative",
+    "voice_style": "Factual and persuasive",
+    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key points",
+    "voice_profile_updated_at": "2026-06-25 04:37:13",
+    "last_seen": "2026-06-25 04:37:13",
+    "last_episode_title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.05,
+    "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
+    "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it.",
+    "supporting_takeaway": "The platform emphasizes personalized investment strategies based on individual risk-reward profiles.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-24T23:38:02.922763",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Shashank Charanawala",
+      "fetched_at": "2026-06-25T04:38:02.922523+00:00",
+      "cliff_notes": "Shashank Charanawala is recognized for his contributions to the financial technology sector, particularly in the realm of investment management. As the founder of Plutus, a platform that allows investors to access portfolios developed by independent research providers, Charanawala has played a pivotal role in making investment strategies more accessible and personalized. His vision for Plutus is to provide a platform where talented portfolio builders and manager researchers can thrive outside the constraints of traditional financial institutions. Charanawala's approach emphasizes the customer's perspective, focusing on identifying the best content providers for generating alpha and offering these opportunities to individual investors. His work is significant as it challenges the traditional gatekeeping in finance and promotes a more inclusive and customer-centric investment landscape.",
+      "derived": {
+        "current_role": "Founder of Plutus"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Shashank Charanawala is recognized for his contributions to the financial technology sector, particularly in the realm of investment management. As the founder of Plutus, a platform that allows investors to access portfolios developed by independent research providers, Charanawala has played a pivotal role in making investment strategies more accessible and personalized.",
+        "His vision for Plutus is to provide a platform where talented portfolio builders and manager researchers can thrive outside the constraints of traditional financial institutions. Charanawala's approach emphasizes the customer's perspective, focusing on identifying the best content providers for generating alpha and offering these opportunities to individual investors.",
+        "His work is significant as it challenges the traditional gatekeeping in finance and promotes a more inclusive and customer-centric investment landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Democratizing Investment",
+          "body": "Shashank Charanawala is dedicated to making investment management more accessible by providing a platform for individual research providers to share their strategies with a broader audience."
+        },
+        {
+          "heading": "Plutus Platform",
+          "body": "As the founder of Plutus, Charanawala has created a space where independent researchers can develop and manage investment portfolios, offering a new avenue for talent outside of large financial institutions."
+        },
+        {
+          "heading": "Customer-Centric Approach",
+          "body": "Charanawala emphasizes the importance of looking at the investment landscape from the customer's perspective, focusing on providing the best content for generating alpha and personalizing investment strategies."
+        }
+      ]
+    }
   },
   {
     "id": 308,
@@ -69414,7 +69850,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 4,
-    "mention_score_decayed": 1.56,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "",
@@ -72893,6 +73329,33 @@ const dashboardData = {
     "net_worth": "$7.0M"
   },
   {
+    "id": 55,
+    "name": "Dr. Anas Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-22 19:03:16",
+    "last_episode_title": "MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-10-22",
+    "mention_score": 3,
+    "mention_score_decayed": 2.61,
+    "last_main_idea": "The \u201cthree seas\u201d energy shock is mainly a refinery-products crisis: crude moves, but only 25% to 35% of pre-crisis product flows are moving, keeping crack spreads elevated.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
+    "last_proof_snippet": "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever.",
+    "supporting_takeaway": "Dr. Anas Alhajji said Saudi Arabia wants total pipeline capacity to reach 10 million bpd, including bypass routes around vulnerable chokepoints.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 217,
     "name": "Steve Hilton",
     "slug": "steve-helden",
@@ -72910,7 +73373,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.02,
+    "mention_score_decayed": 0.01,
     "last_main_idea": "Steve Hilton's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "last_proof_snippet": "Hilton's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
@@ -72972,7 +73435,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.02,
+    "mention_score_decayed": 0.01,
     "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "last_proof_snippet": "Batch size significantly impacts latency and cost in AI systems.",
@@ -73032,7 +73495,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.02,
+    "mention_score_decayed": 0.01,
     "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_proof_snippet": "Co-investing with hedge funds is a successful strategy Cavanna learned from Scott Beston at Soros Fund Management.",
@@ -73078,33 +73541,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$28.00B"
-  },
-  {
-    "id": 55,
-    "name": "Dr. Anas Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 19:03:16",
-    "last_episode_title": "MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-22",
-    "mention_score": 3,
-    "mention_score_decayed": 2.61,
-    "last_main_idea": "The \u201cthree seas\u201d energy shock is mainly a refinery-products crisis: crude moves, but only 25% to 35% of pre-crisis product flows are moving, keeping crack spreads elevated.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
-    "last_proof_snippet": "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever.",
-    "supporting_takeaway": "Dr. Anas Alhajji said Saudi Arabia wants total pipeline capacity to reach 10 million bpd, including bypass routes around vulnerable chokepoints.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 213,
@@ -77823,10 +78259,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 5069.9,
-      "basket_change_pct": 1.4,
+      "basket_current_value": 5157.29,
+      "basket_change_pct": 3.15,
       "index_start": 100,
-      "basket_index_value": 101.4,
+      "basket_index_value": 103.15,
       "names": [
         {
           "ticker": "HIMS",
@@ -77835,9 +78271,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 29.32,
-          "current_value": 1043.79,
-          "change_pct": 4.38,
+          "current_price": 29.79,
+          "current_value": 1060.52,
+          "change_pct": 6.05,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77849,9 +78285,9 @@ const dashboardData = {
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.47,
-          "current_value": 1042.04,
-          "change_pct": 4.2,
+          "current_price": 3.6,
+          "current_value": 1081.08,
+          "change_pct": 8.11,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77863,9 +78299,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 76.61,
-          "current_value": 982.55,
-          "change_pct": -1.74,
+          "current_price": 77.25,
+          "current_value": 990.76,
+          "change_pct": -0.92,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77877,9 +78313,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 182.59,
-          "current_value": 997.22,
-          "change_pct": -0.28,
+          "current_price": 184.78,
+          "current_value": 1009.18,
+          "change_pct": 0.92,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -77891,16 +78327,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 102.64,
-          "current_value": 1004.3,
-          "change_pct": 0.43,
+          "current_price": 103.81,
+          "current_value": 1015.75,
+          "change_pct": 1.58,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-28T22:47:58.160757"
+      "last_updated": "2026-10-29T10:11:58.881978"
     }
   ]
 }

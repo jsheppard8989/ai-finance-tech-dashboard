@@ -1,5 +1,48 @@
 [
   {
+    "id": 622,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+    "episode_date": "2026-10-28",
+    "summary": "The episode argues that the AI infrastructure boom is entering a financial stress phase even as the underlying technology continues to improve. The hosts describe a potential \u201cbubble pop\u201d in the neocloud segment, pointing to leveraged GPU/data-center financing, sharp share declines in names like CoreWeave and Nebius, and the risk that bad debt structures\u2014not AI demand itself\u2014will cause the damage. One prediction is that weak operators could be washed out by around 2027, similar to a prior overbuild cycle in dark fiber.\n\nA major segment focuses on Anthropic\u2019s IPO, which the episode frames as fundamentally strong but governance-complicated. The discussion cites H1 2026 revenue of $16.3 billion versus $1.16 billion in H1 2025, first operating profit in Q2 2026, and compute efficiency improving to $2.8 of revenue per $1 of compute from $0.40 eighteen months earlier. At the same time, the hosts flag concerns about the long-term benefit trust and OST-share structure, arguing it may reduce public shareholder accountability and concentrate ideological control.\n\nThe show also emphasizes that compute and electricity remain bottlenecks, with the U.S. and China likely pulling further ahead of Europe unless major infrastructure action occurs. That theme connects to a broader view that AI progress is accelerating faster than verification, whether in frontier-model claims, red-team security, or scientific discovery. The hosts stress that side-channel leakage among agents suggests isolation assumptions are increasingly fragile.\n\nFinally, the episode surveys rapid model-price/performance improvements and open-vs-closed convergence, using Kimi K3.1 Pro and GPT 6.1 Terra as examples. The discussion extends into more speculative territory with OpenAI\u2019s reported math/CS/physics results, Chain Theory\u2019s attempt to derive the fine-structure constant, and Warhound\u2019s cloning/engineering of working dogs, which is presented as a biotech service-business opportunity but with major ethical and regulatory risk.",
+    "key_takeaways": [
+      "Peter Diamandis says neocloud companies that borrowed heavily to rent out GPUs were hit hard, with CoreWeave and Nebius both down 30% and another name down 40%.",
+      "Peter Diamandis says Anthropic earned $2.8 in revenue for every $1 of compute, up from $0.40 just 18 months earlier, indicating sharply improved unit economics.",
+      "Peter Diamandis says Anthropic is planning to raise $100 billion at a $1.5 trillion to $2 trillion valuation, making the IPO unusually large.",
+      "Peter Diamandis says Anthropic\u2019s new OST share structure is a \u201cradical form of corporate governance\u201d because a long-term benefit trust controls board influence.",
+      "Peter Diamandis says the AI market\u2019s main bottleneck remains compute and electricity, and that without action Europe could fall further behind the U.S. and China.",
+      "Peter Diamandis says Kimi K3.1 Pro is a 2.8 trillion-parameter model with 104 billion active parameters, 1 million-token context, and $2 per million tokens pricing.",
+      "Peter Diamandis says GPT 6.1 Terra cut hallucinations by 50 points and came in at less than half the price of the prior Terra model."
+    ],
+    "investment_thesis": "AI infrastructure demand remains strong, but weak neocloud capital structures may suffer a 2027 shakeout even as frontier labs like Anthropic keep improving economics rapidly.",
+    "key_tickers": [
+      "ANT",
+      "MU"
+    ]
+  },
+  {
+    "id": 621,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
+    "episode_date": "2026-10-28",
+    "summary": "The episode centers on whether the AI data-center boom is still economically self-sustaining even with higher rates and massive capital intensity. Steve Hou argues the business can look profitable at the EBITDA level, but depreciation and buildout costs keep net income weak, so the key question is not whether GPUs are being used, but whether returns remain durable enough to justify continued capex.\n\nA major theme is the divergence between token prices and GPU rental economics. Steve Hou says token prices have been falling since late May while rental rates for advanced GPUs such as H100, H200, and B300 are rising sharply, which he interprets as evidence of continued demand and tight supply rather than a collapse in AI economics. He also says the forward rental curve has risen since October and implies higher future rates, making long-duration lockups less attractive unless buyers are compensated.\n\nThe discussion uses Anthropic\u2019s S-1 to push back against bearish claims that frontier models are being sold at a loss. Jack Farley cites 87% gross margin in Q1/Q2 and an implied 88% gross margin in Q2, plus 8% operating margin in Q2, arguing that the company\u2019s economics are stronger than many public reports suggest. The guest\u2019s broader point is that enterprise adoption appears meaningful, and cheaper token prices may be expanding usage rather than destroying economics.\n\nThe episode also touches on hyperscaler capex, with Google cited as growing search 12% and cloud revenue over 100%, alongside margins moving from 23% last year to 36% in the quarter discussed. Jack Farley frames this as evidence that AI investment can still be profitable, though he and Steve Hou also note that public-market skepticism persists for leveraged compute brokers and data-center credits because investors doubt earnings sustainability, not merely because interest rates are high.",
+    "key_takeaways": [
+      "Steve Hou argues AI data centers can be EBITDA-profitable even if heavy depreciation keeps net income weak.",
+      "Steve Hou says token prices have been falling since late May while GPU rental rates are rising, which he reads as AI proliferation rather than collapse.",
+      "Steve Hou says H100, H200, and B300 rental rates are all surging, with the newest chips rising the fastest.",
+      "Steve Hou says the implied rental term curve has risen since October and suggests the market expects higher future rental rates.",
+      "Jack Farley says Anthropic\u2019s Q2 gross margin was implied at 88% and operating margin was 8%, contradicting claims that it is structurally loss-making.",
+      "Jack Farley says Google\u2019s search business grew 12% and cloud revenue grew over 100%, with operating margin rising from 23% last year to 36% in the quarter discussed.",
+      "Jack Farley says market skepticism toward compute businesses is about sustainability of earnings and margins, not just the direct effect of higher interest rates."
+    ],
+    "investment_thesis": "Rising GPU rental rates and strong Anthropic margins suggest AI compute economics remain profitable enough to support the capex cycle despite falling token prices.",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT",
+      "NVDA"
+    ]
+  },
+  {
     "id": 618,
     "podcast_name": "The a16z Show",
     "episode_title": "Mark Cuban\u2019s Plan to Make Healthcare Affordable",
@@ -16,6 +59,26 @@
     ],
     "investment_thesis": "Cuban\u2019s central claim is that pre-contract AI review, not AI alone, could materially reduce healthcare costs by exposing hidden terms in employer and provider contracts.",
     "key_tickers": null
+  },
+  {
+    "id": 620,
+    "podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "episode_title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+    "episode_date": "2026-10-27",
+    "summary": "Cliff Sosin argues that intelligence is not an unlimited force that can reliably solve every complex problem. He says simulation error compounds in dynamic systems, so even very strong models hit practical limits unless they can \u201ctouch reality\u201d through experiments, data, or direct feedback loops.\n\nA central theme is that as intelligence becomes cheap and ubiquitous, the economic advantage shifts away from intelligence itself and toward complements to intelligence: proprietary data, attention, physical scale/proximity, and sometimes regulatory capture. Sosin uses Meta as a prime example, saying its advantage comes from data and attention rather than model quality alone.\n\nHe also warns that frontier intelligence may commoditize quickly, shrinking the economic value of many tasks that are currently considered high-value. He says forecasting both demand and supply for inference is extremely hard, and investors should focus on bottlenecks and value capture in the AI stack rather than assuming all buildout creates durable returns.\n\nOn market structure, Sosin expects agents to change pricing and switching dynamics by making comparison and re-pricing more continuous, potentially pushing prices closer to marginal cost. He extends this into a broader investing view: as AI improves portfolio construction, investors may spend less time optimizing weights and more time deciding what businesses are worth owning.",
+    "key_takeaways": [
+      "Cliff Sosin said intelligence is limited in complex dynamic systems because errors compound and perfect prediction is impossible without real-world feedback.",
+      "Sosin argued that when intelligence gets cheap, the durable edge shifts to complements like data, attention, physical proximity, and regulatory capture.",
+      "Sosin used Meta as an example, saying its value comes from enormous data and attention advantages rather than from intelligence being scarce.",
+      "Sosin said frontier model capabilities will commoditize, which could shrink the addressable market for many tasks as prices fall.",
+      "Sosin said forecasting AI inference supply and demand is extremely difficult.",
+      "Sosin predicted that AI agents will make pricing more dynamic and closer to marginal cost by reducing switching friction and increasing comparison shopping.",
+      "Sosin suggested investors may increasingly rely on AI for portfolio construction, shifting human effort toward deciding what to own rather than precise weighting."
+    ],
+    "investment_thesis": "Cheap, ubiquitous intelligence will commoditize many model-layer tasks, so durable returns should accrue to businesses with strong data, attention, scale, or other complements to intelligence.",
+    "key_tickers": [
+      "META"
+    ]
   },
   {
     "id": 617,
@@ -267,7 +330,7 @@
     "podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "episode_title": "Mom-and-Pop Buyers Pounce on Battered Hyperscaler Bonds, Says Seelaus",
     "episode_date": "2026-10-22",
-    "summary": "Annie Seelaus argues that credit markets look deceptively calm: spreads are tight and trading remains efficient, yet rising yields are exposing \u201cfundamental cracks\u201d at the riskiest end of the market. Her core framing is that macro rate moves work with a lag, so stress often shows up later in the weakest pockets after the initial move, with \u201cwho\u2019s left on the beach\u201d becoming visible only after the tide goes out.\n\nShe says liquidity is still functional, even on volatile days, but it would likely deteriorate first in less-liquid sectors such as BDCs and REITs. In her view, the next cycle will be driven more by technicals and flows than fundamentals, especially if forced selling, redemption pressure, or a primary-market wobble hits weaker segments.\n\nOn the opportunity side, she remains constructive on oversold credit and says retail investors are re-entering because absolute yields are finally compelling. She points to long-end corporates, some munis, preferreds, and certain IG paper as attractive, while warning that investors should not deploy all dry powder at once because repricing opportunities may continue.\n\nA major theme is AI/data-center financing. Seelaus says hyperscalers still have substantial issuance needs through 2027 and are not pausing because of this rate move. At the same time, she warns that data-center credit has opaque contract terms, correlated tenant/supplier webs, and limited stress-testing, making security selection and contract-level diligence far more important than broad sector exposure.\n\nShe also sees ABS and private credit growth as investable but increasingly demanding. Her caution is that rapid expansion can breed complacency, and structure, collateral quality, and underwriting discipline matter more as these markets scale.",
+    "summary": "Annie Seelaus argues that credit markets look deceptively calm: spreads are tight and trading remains efficient, yet rising yields are exposing \u201cfundamental cracks\u201d at the riskiest end of the market. Her core framing is that macro rate moves work with a lag, so stress often shows up later in the weakest pockets after the initial move, with \u201cwho\u2019s left on the beach\u201d becoming visible only after the tide goes out.\n\nShe says liquidity is still functional, even on volatile days, but it would likely deteriorate first in less-liquid sectors such as business development companies (BDCs) and real estate investment trusts (REITs). In her view, the next cycle will be driven more by technicals and flows than fundamentals, especially if forced selling, redemption pressure, or a primary-market wobble hits weaker segments.\n\nOn the opportunity side, she remains constructive on oversold credit and says retail investors are re-entering because absolute yields are finally compelling. She points to long-end corporates, some munis, preferreds, and some investment-grade corporate bonds as attractive, while warning that investors should not put all their spare cash to work at once because repricing opportunities may continue.\n\nA major theme is AI/data-center financing. Seelaus says hyperscalers still have substantial issuance needs through 2027 and are not pausing because of this rate move. At the same time, she warns that data-center credit has opaque contract terms, correlated tenant/supplier webs, and limited stress-testing, making security selection and contract-level diligence far more important than broad sector exposure.\n\nShe also sees the growth of asset-backed securities and private credit as investable but increasingly demanding. Her caution is that rapid expansion can breed complacency, and structure, collateral quality, and underwriting discipline matter more as these markets scale.",
     "key_takeaways": [
       "Annie Seelaus says spreads are still tight, but the market has \u201cfundamental cracks\u201d and rising rates are exposing stress at the weakest end of credit.",
       "Seelaus says rate moves hit with a lag, meaning the real damage shows up later when the tide goes out and the weakest borrowers are revealed.",
@@ -277,7 +340,7 @@
       "Seelaus says data-center credit is attractive only with contract-level diligence, because confidentiality and interconnected counterparty risk make the space hard to underwrite.",
       "Seelaus remains positive on ABS growth but warns that rapid expansion demands extreme discipline on structure and collateral quality."
     ],
-    "investment_thesis": "The episode\u2019s main claim is that current calm credit spreads hide lagged technical stress, making selective liquidity-sensitive and AI/data-center underwriting more important than broad market averages.",
+    "investment_thesis": "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market.",
     "key_tickers": null
   },
   {

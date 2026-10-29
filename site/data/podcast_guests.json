@@ -1,6 +1,30 @@
 [
   {
-    "id": 102092,
+    "id": 102472,
+    "name": "Kimi Catches Up",
+    "slug": "kimi-catches-up",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI infrastructure demand remains strong, but weak neocloud capital structures may suffer a 2027 shakeout even as frontier labs like Anthropic keep improving economics rapidly.",
+    "last_episode_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-28",
+    "appearance_count": 1
+  },
+  {
+    "id": 102473,
+    "name": "Cliff Sosin",
+    "slug": "cliff-sosin",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Cheap, ubiquitous intelligence will commoditize many model-layer tasks, so durable returns should accrue to businesses with strong data, attention, scale, or other complements to intelligence.",
+    "last_episode_title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-27",
+    "appearance_count": 1
+  },
+  {
+    "id": 102474,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -12,7 +36,7 @@
     "appearance_count": 2
   },
   {
-    "id": 102093,
+    "id": 102475,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -24,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102094,
+    "id": 102476,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -36,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102095,
+    "id": 102477,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -48,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102096,
+    "id": 102478,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -60,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102097,
+    "id": 102479,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -72,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102098,
+    "id": 102480,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -84,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102099,
+    "id": 102481,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -96,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102100,
+    "id": 102482,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -108,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102101,
+    "id": 102483,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -120,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102102,
+    "id": 102484,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -132,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102104,
+    "id": 102486,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -144,7 +168,7 @@
     "appearance_count": 2
   },
   {
-    "id": 102103,
+    "id": 102485,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -156,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102105,
+    "id": 102487,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -168,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102106,
+    "id": 102488,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -180,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102107,
+    "id": 102489,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -192,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102108,
+    "id": 102490,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -204,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102109,
+    "id": 102491,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -216,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102110,
+    "id": 102492,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -228,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102111,
+    "id": 102493,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -240,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102112,
+    "id": 102494,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -252,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102113,
+    "id": 102495,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -264,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102114,
+    "id": 102496,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -276,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102115,
+    "id": 102497,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -288,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102116,
+    "id": 102498,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -300,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102117,
+    "id": 102499,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -312,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102118,
+    "id": 102500,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -324,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 102119,
+    "id": 102501,
     "name": "Ben Pouladian",
     "slug": "ben-pouladian",
     "bio": null,
@@ -333,30 +357,6 @@
     "last_episode_title": "Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-30",
-    "appearance_count": 1
-  },
-  {
-    "id": 102120,
-    "name": "Jake Paul & The Chainsmokers",
-    "slug": "jake-paul--the-chainsmokers",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
-    "last_episode_title": "Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-30",
-    "appearance_count": 1
-  },
-  {
-    "id": 102121,
-    "name": "Anish Acharya & David Pawlan",
-    "slug": "anish-acharya--david-pawlan",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "David Pawlan argues personal AI agents will compete on proactivity rather than 10% efficiency, citing 122 tracked assistants and cost-saving workflows such as HSA reimbursements, flight credits, and 50% lower water bills.",
-    "last_episode_title": "The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-29",
     "appearance_count": 1
   }
 ]
