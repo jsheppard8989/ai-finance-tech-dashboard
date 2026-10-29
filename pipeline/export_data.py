@@ -317,8 +317,8 @@ def _apply_summary_overrides(obj):
       fields), e.g. mis-transcribed speaker names in pundits/overton/podcastGuests.
     - 'global_name_replacements': WHOLE-WORD [old, new] swaps on every string except titles,
       slugs and URLs, raw transcript snippets included (Oct 19 2026, e.g. "Oliver Karaz").
-    - 'ticker_renames' / 'global_drop_tickers' / 'sponsor_tickers': applied to every record that
-      has tickers_mentioned, key_tickers, or ticker_analysis (after per-card rules).
+    - 'ticker_renames' / 'global_drop_tickers' / 'sponsor_tickers' / 'asset_class_tickers': applied
+      to every record that has tickers_mentioned, key_tickers, or ticker_analysis (after per-card rules).
     """
     rules_all = _load_override_rules()
     rules = rules_all.get("summaries", [])
@@ -333,6 +333,10 @@ def _apply_summary_overrides(obj):
     # (tickers_mentioned, key_tickers, deep-dive ticker_analysis) of every card; priceSnapshot and
     # free text are untouched ('lens' is also an ordinary word).
     global_drop_tickers += [t for t in rules_all.get("sponsor_tickers", []) if t not in global_drop_tickers]
+    # Oct 29 2026 (G, sweep_1029): 'asset_class_tickers' are bond/asset-type abbreviations (BDC, REIT,
+    # IG, HY, ABS, CMBS, ...) an analyzer sometimes lists as tickers. Not stock symbols, so dropped from
+    # every ticker list the same way as sponsor_tickers; priceSnapshot and free text untouched.
+    global_drop_tickers += [t for t in rules_all.get("asset_class_tickers", []) if t not in global_drop_tickers]
 
     def fix_record(o, r):
         reps = r.get("replacements", [])
