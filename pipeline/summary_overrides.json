@@ -1703,6 +1703,33 @@
         "1,000 sequential failovers",
         "we launch about five million databases on our platform"
       ]
+    },
+    {
+      "insight_id": 630,
+      "podcast_episode_id": 619,
+      "_note": "Oct 29 2026 daily site check (cos/sweep_1029/fixes.md) #2-#3, Annie Seelaus (The Credit Edge): plain-language summary edits (quotes untouched) and a clearer key_takeaway. Sentiment stays neutral. Asset-class 'tickers' handled by global asset_class_tickers.",
+      "replacements": [
+        [
+          "such as BDCs and REITs",
+          "such as business development companies (BDCs) and real estate investment trusts (REITs)"
+        ],
+        [
+          "certain IG paper",
+          "some investment-grade corporate bonds"
+        ],
+        [
+          "deploy all dry powder at once",
+          "put all their spare cash to work at once"
+        ],
+        [
+          "She also sees ABS and private credit growth",
+          "She also sees the growth of asset-backed securities and private credit"
+        ],
+        [
+          "The episode’s main claim is that current calm credit spreads hide lagged technical stress, making selective liquidity-sensitive and AI/data-center underwriting more important than broad market averages.",
+          "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market."
+        ]
+      ]
     }
   ],
   "terms": [
@@ -7419,6 +7446,23 @@
         "last_proof_snippet",
         "last_proof_cite"
       ]
+    },
+    {
+      "id": 586,
+      "_note": "Oct 29 2026 daily site check (cos/sweep_1029/fixes.md) #4, Annie Seelaus: last_proof_snippet is the hosts' intro (James Crombie, Arnold Kakuta), not her words, so unset snippet + cite (same as the 585 fix); main idea matches card 630's new takeaway. Gated to the episode.",
+      "when": {
+        "last_episode_title": "Mom-and-Pop Buyers Pounce on Battered Hyperscaler Bonds, Says Seelaus"
+      },
+      "replacements": [
+        [
+          "The episode’s main claim is that current calm credit spreads hide lagged technical stress, making selective liquidity-sensitive and AI/data-center underwriting more important than broad market averages.",
+          "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market."
+        ]
+      ],
+      "unset": [
+        "last_proof_snippet",
+        "last_proof_cite"
+      ]
     }
   ],
   "pundit_merges": [
@@ -7466,5 +7510,16 @@
       "name": "Dr. Anas Alhajji",
       "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #3): MacroVoices #554, 2026-10-22 (energy)"
     }
+  ],
+  "asset_class_tickers": [
+    "BDC",
+    "REIT",
+    "IG",
+    "HY",
+    "ABS",
+    "CMBS",
+    "MBS",
+    "RMBS",
+    "CLO"
   ]
 }
