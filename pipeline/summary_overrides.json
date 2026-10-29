@@ -1730,6 +1730,17 @@
           "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market."
         ]
       ]
+    },
+    {
+      "insight_id": 633,
+      "podcast_episode_id": 620,
+      "_note": "Oct 29 2026 (sweep_1029 publish): new Cliff Sosin card (Invest Like the Best EP.497) reuses 'separate AI beneficiaries into three buckets:', the exact old text of the 618 fix, so publish_guard read it as that fix undone. Same wording swap as 618 ('buckets' -> 'groups'); summary text only.",
+      "replacements": [
+        [
+          "separate AI beneficiaries into three buckets:",
+          "separate AI beneficiaries into three groups:"
+        ]
+      ]
     }
   ],
   "terms": [
