@@ -1,5 +1,23 @@
 [
   {
+    "id": 625,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Startups Rebuilding American Industry | The AD50",
+    "episode_date": "2026-10-29",
+    "summary": "The episode argues that rebuilding the U.S. industrial base is now a strategic priority because defense readiness depends on the broader ability to make materials, components, and finished hardware at scale. Aaron Price says the hollowing out of industrial capacity has had real battlefield consequences, and Connor Love frames the current moment as one where government and capital are finally willing to fund the rebuild.\n\nA major theme is that AI matters, but mostly as a software layer for physical systems rather than as direct manual automation. Love says AI can be a phenomenal tool in the physical world, but it cannot yet \u201cturn a wrench,\u201d while Price highlights software that lets manufacturing engineers reconfigure production lines in about 20 minutes instead of waiting around three months and spending hundreds of thousands of dollars on a system integrator.\n\nThe speakers repeatedly emphasize dual-use dynamics: defense spending can de-risk capex for factories such as PCB fabs, and those same components later flow into robotics, cars, hearing aids, and medical devices. They also argue that the \u201cmanufacturing middle\u201d is changing, with suppliers increasingly expected to co-engineer new subsystems rather than simply keep producing legacy parts. That shift, they say, is visible in examples like Mariana Minerals, SpaceX, Tesla, DJI, and legacy suppliers such as Honeywell.\n\nThe episode is strongly optimistic about the investment cycle. Price says that in the first half of 2026, more risk dollars went into the defense ecosystem than in all of the prior years they reference, and Love argues that even if only half of the demand materializes, companies won\u2019t revert because the new designs and economics will be too compelling to unwind. The main risks they identify are long build times, policy friction, and the need for community buy-in around visible industrial projects.",
+    "key_takeaways": [
+      "Aaron Price said you cannot have a defense industrial base without a broader industrial base, and that decades of hollowing out have already had battlefield consequences.",
+      "Connor Love said AI will be powerful in the physical world, but it still cannot directly perform manual tasks like wrenching.",
+      "Aaron Price said manufacturing engineers can reconfigure lines in about 20 minutes with cloud tools, versus roughly three months and hundreds of thousands of dollars with a system integrator.",
+      "Aaron Price said the first half of 2026 saw more risk dollars flow into the defense ecosystem than all of the prior year and the year before that combined.",
+      "Connor Love argued that defense and energy demand can subsidize factory capex, making downstream components cheaper for commercial uses as well.",
+      "Connor Love described a new manufacturing middle layer where suppliers must co-engineer subsystems instead of just repeating legacy specs.",
+      "Aaron Price said rebuilding American industrial capacity is not mainly a technology problem, but a question of will and national commitment."
+    ],
+    "investment_thesis": "Defense-led capex is de-risking new U.S. industrial capacity, creating durable dual-use manufacturing winners in components, tooling, and process software.",
+    "key_tickers": null
+  },
+  {
     "id": 622,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Anthropic\u2019s $2T IPO, Elon Predicts Neocloud Death, and China\u2019s Kimi Catches Up | #306",

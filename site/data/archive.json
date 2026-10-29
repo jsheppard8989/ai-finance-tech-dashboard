@@ -1,6 +1,73 @@
 {
   "insights": [
     {
+      "id": 635,
+      "title": "The Startups Rebuilding American Industry | The AD50",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-29",
+      "summary": "The episode argues that rebuilding the U.S. industrial base is now a strategic priority because defense readiness depends on the broader ability to make materials, components, and finished hardware at scale. Aaron Price says the hollowing out of industrial capacity has had real battlefield consequences, and Connor Love frames the current moment as one where government and capital are finally willing to fund the rebuild.\n\nA major theme is that AI matters, but mostly as a software layer for physical systems rather than as direct manual automation. Love says AI can be a phenomenal tool in the physical world, but it cannot yet \u201cturn a wrench,\u201d while Price highlights software that lets manufacturing engineers reconfigure production lines in about 20 minutes instead of waiting around three months and spending hundreds of thousands of dollars on a system integrator.\n\nThe speakers repeatedly emphasize dual-use dynamics: defense spending can de-risk capex for factories such as PCB fabs, and those same components later flow into robotics, cars, hearing aids, and medical devices. They also argue that the \u201cmanufacturing middle\u201d is changing, with suppliers increasingly expected to co-engineer new subsystems rather than simply keep producing legacy parts. That shift, they say, is visible in examples like Mariana Minerals, SpaceX, Tesla, DJI, and legacy suppliers such as Honeywell.\n\nThe episode is strongly optimistic about the investment cycle. Price says that in the first half of 2026, more risk dollars went into the defense ecosystem than in all of the prior years they reference, and Love argues that even if only half of the demand materializes, companies won\u2019t revert because the new designs and economics will be too compelling to unwind. The main risks they identify are long build times, policy friction, and the need for community buy-in around visible industrial projects.",
+      "key_takeaway": "Defense-led capex is de-risking new U.S. industrial capacity, creating durable dual-use manufacturing winners in components, tooling, and process software.",
+      "tickers_mentioned": [
+        "MAR",
+        "TSLA",
+        "DJI",
+        "HON"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 625,
+      "notable_quotes": [
+        {
+          "speaker": "Aaron Price",
+          "quote": "We've been saying for a while, you don't have a defense industrial base without an industrial base, and I think this year really put that into perspective with conflicts going on in the world."
+        },
+        {
+          "speaker": "Connor Love",
+          "quote": "The reality is AI cannot turn a wrench yet. Well, at some point, but we're far off that, you know, again, we can maybe have discussion about the, you know, robotic models and autonomy that that we see in this world."
+        },
+        {
+          "speaker": "Aaron Price",
+          "quote": "Like, if you look at just the first half of 2026, more, more risk dollars went into the defense ecosystem, then all of last year combined, which was many times what went into the defense ecosystem, and all of the previous year combined."
+        }
+      ]
+    },
+    {
+      "id": 636,
+      "title": "What I learned about power from LBJ and Robert Moses",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-10-29",
+      "summary": "The episode is a deep dive into how political power is accumulated and preserved through institutional design, using Robert Moses and Lyndon B. Johnson as case studies. On Moses, the core argument is that he did not merely exercise power; he drafted the legal architecture that locked it in. The discussion emphasizes public authorities, bond structures, and contract protections as mechanisms that let Moses build infrastructure at scale while insulating those powers from ordinary political reversal.\n\nThe transcript highlights one especially important mechanism: Moses allegedly inserted language allowing an authority to refinance expiring bonds into new 40-year obligations for different corporate purposes. That, combined with constitutional contract protections, is presented as making the authority\u2019s powers effectively immune to repeal by legislators, governors, or mayors absent extraordinary constitutional action. The episode also cites the scale of Moses\u2019s reach, including claims like 899 highway miles completed in New York State by 1964, 672 of them built by Moses, and a 1946 borrowing comparison of $150 million for New York City versus $360 million for the authority.\n\nThe LBJ half of the episode focuses on procedural mastery inside the Senate rather than headline ideology. Johnson\u2019s leverage allegedly came from three places: controlling favors and threats, controlling agenda-setting through unanimous consent agreements, and controlling information flows through staff and committee intelligence. The episode claims he used that system to engineer outcomes like committee assignments and to pass the Civil Rights Act of 1957 via deal-making and side-payments, despite deep factional conflict.\n\nA recurring undercurrent is contrarian: the episode suggests Moses may be over-blamed for New York\u2019s later decline, since broader structural forces were also driving urban deterioration. The overall argument is that durable power comes less from charisma or office title than from the ability to shape rules, contracts, and procedural chokepoints that outlast election cycles.",
+      "key_takeaway": "The episode\u2019s main claim is that public authorities can create quasi-permanent financial and political power when bond covenants and refinancing rights are drafted to outlast elected officials.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-10-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 624,
+      "notable_quotes": [
+        {
+          "speaker": "Dwarkesh Podcast host (Dwarkesh)",
+          "quote": "However, in a subsection of section nine, Moses added a single sentence that said that the authority could quote from time to time and quote pay off its old bonds by issuing new ones."
+        },
+        {
+          "speaker": "Dwarkesh Podcast host (Dwarkesh)",
+          "quote": "Johnson's main tool for controlling the agenda was the unanimous consent agreement. By default, Senate debate is unlimited. A senator can talk about a bill for as long as he likes, and as he does so, he can also offer amendments that have nothing to do with that bill."
+        },
+        {
+          "speaker": "Dwarkesh Podcast host (Dwarkesh)",
+          "quote": "From the moment that those bonds were sold, those powers could no longer be revoked by the legislature, or by the governor, or by the mayor, by anything, in fact, short of a constitutional convention."
+        }
+      ]
+    },
+    {
       "id": 629,
       "title": "Mark Cuban\u2019s Plan to Make Healthcare Affordable",
       "source_type": "podcast",
@@ -291,7 +358,7 @@
         "CGBS"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-25",
       "archived_date": null,
@@ -14019,8 +14086,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 12,
+      "last_mentioned_date": "2026-10-29",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -14029,8 +14096,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 622,
-      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+      "last_mentioned_episode_id": 625,
+      "last_mentioned_speaker": "Aaron Price, Wright (name partially obscured in transcript), Connor Love"
     },
     {
       "id": 314,
@@ -14829,8 +14896,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-10-29",
+      "mention_count": 40,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -14839,8 +14906,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 622,
-      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+      "last_mentioned_episode_id": 625,
+      "last_mentioned_speaker": "Aaron Price, Wright (name partially obscured in transcript), Connor Love"
     },
     {
       "id": 265,
