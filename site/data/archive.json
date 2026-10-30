@@ -32,6 +32,37 @@
       ]
     },
     {
+      "id": 642,
+      "title": "Robert Caro \u2013 The master biographer reflects at 91",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-10-30",
+      "summary": "Robert Caro argues that the key to understanding both Robert Moses and Lyndon Johnson is not charisma alone, but the underlying power and leverage that let them overcome resistance. He says that for large public works, modern safeguards may slow projects, but they do not eliminate the core problem: dozens or hundreds of property owners can still block construction, and a highly determined figure can still find a way through.\n\nCaro contrasts historical and modern infrastructure execution with sharp numbers. He notes that the Second Avenue subway took around 50 years to open just 1.5 miles and cost over $4 billion, while California spent about $15 billion over a decade without adding a new rail line or mile. He also contrasts that with China\u2019s much faster rail expansion over the last 10-20 years, while acknowledging the social costs of displacement and recklessness.\n\nHe uses Moses as a case study in both idealism and ruthlessness: Moses began with reformist instincts, then became more willing to evict and crush opponents. Caro says Moses benefited from the Great Depression because it made architects and labor cheap, and he recounts the Jones Beach and Cross Bronx Expressway stories as examples of how Moses got things built. On Johnson, Caro says his legislative power came from the force behind his persuasion, not charm alone, and that Kennedy would not have passed the same domestic agenda because he lacked Johnson\u2019s overriding desire to change America.\n\nCaro also reflects on his own craft: he says he reduces a book to a single sentence to keep it coherent, and he describes the editing of The Power Broker, which began as a 1,050,000-word manuscript that had to be cut to about 700,000 words. He emphasizes loneliness as a major biographical theme and a feature of his own working life, and says his archives and interviews will remain valuable to future scholars.\n",
+      "key_takeaway": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 631,
+      "notable_quotes": [
+        {
+          "speaker": "Robert Caro",
+          "quote": "When Robert Moses started, there were also safeguards. People were also saying, \u201cYou can\u2019t build anything.\u201d This was in the 1920s."
+        },
+        {
+          "speaker": "Robert Caro",
+          "quote": "I\u2019m not sure there is a good spot. What you just said is the situation. To build anything on a large scale, you\u2019re confronted with dozens or scores or perhaps hundreds of property owners who don\u2019t want it built there."
+        },
+        {
+          "speaker": "Robert Caro",
+          "quote": "I gave Bob Gottlieb, my editor, a manuscript that was 1,050,000 words long. The most they could fit into one volume \u2014 and he really worked at this \u2014 was 700 pages, or about 700,000 words."
+        }
+      ]
+    },
+    {
       "id": 635,
       "title": "The Startups Rebuilding American Industry | The AD50",
       "source_type": "podcast",
@@ -430,7 +461,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-26",
       "archived_date": null,
@@ -14240,7 +14271,7 @@
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
       "last_mentioned_date": "2026-10-30",
-      "mention_count": 15,
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -14249,8 +14280,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 630,
-      "last_mentioned_speaker": "J. Madesh"
+      "last_mentioned_episode_id": 631,
+      "last_mentioned_speaker": "Robert Caro"
     },
     {
       "id": 314,
@@ -14851,8 +14882,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-06",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-10-30",
+      "mention_count": 40,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -14861,8 +14892,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 629,
-      "last_mentioned_speaker": "Andrew Huberman"
+      "last_mentioned_episode_id": 631,
+      "last_mentioned_speaker": "Robert Caro"
     },
     {
       "id": 272,
