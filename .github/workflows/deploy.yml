@@ -35,6 +35,12 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       
+      # Trap Map guard: fails the deploy on a bad site/data/trap_map.json or a stale trap-map.html.
+      - name: Trap Map check
+        run: |
+          python3 pipeline/trap_map_check.py
+          python3 pipeline/build_trap_map.py --check
+
       - name: Copy static files
         run: |
           mkdir -p ./_site
