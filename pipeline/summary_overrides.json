@@ -1868,6 +1868,50 @@
           "meta-OpenAI Anthropic"
         ]
       ]
+    },
+    {
+      "insight_id": 381,
+      "podcast_episode_id": 366,
+      "_note": "Oct 30 2026 (G approved): Hugging Face deep-dive quote names the companies; only the two names are bracketed. Long needle so it can't overlap the card 601 'open AI' rule.",
+      "replacements": [
+        [
+          "using either anthropic or open AI, both models refused",
+          "using either [Anthropic] or [OpenAI], both models refused"
+        ]
+      ]
+    },
+    {
+      "insight_id": 404,
+      "podcast_episode_id": 389,
+      "_note": "Oct 30 2026 (G approved): 'open AI' here means open-source AI (episode is about open-source models), not the company; prose, not a quote.",
+      "replacements": [
+        [
+          "the future of open AI.",
+          "the future of open-source AI."
+        ]
+      ]
+    },
+    {
+      "insight_id": 450,
+      "podcast_episode_id": 436,
+      "_note": "Oct 30 2026 (G approved): 'open AI models' means open-source AI models; falsification track prose, not a quote.",
+      "replacements": [
+        [
+          "targeting open AI models",
+          "targeting open-source AI models"
+        ]
+      ]
+    },
+    {
+      "insight_id": 473,
+      "podcast_episode_id": 458,
+      "_note": "Oct 30 2026 (G approved): 'open AI architectures' means open-source AI (sentence is about open weights); thesis prose, not a quote.",
+      "replacements": [
+        [
+          "build open AI architectures",
+          "build open-source AI architectures"
+        ]
+      ]
     }
   ],
   "terms": [
