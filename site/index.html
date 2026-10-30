@@ -2033,7 +2033,64 @@
     .site-nav a:hover {
       text-decoration: underline;
     }
-  </style>
+      /* Hero banner refresh (Oct 30, 2026): layered gradient + faint grid + scarcity-to-abundance dot field; symmetric padding so text is centered both ways */
+    header {
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 220px;
+      padding: 2.5rem 1.5rem;
+      background:
+        radial-gradient(ellipse 60% 90% at 50% 0%, rgba(0, 212, 255, 0.16), transparent 70%),
+        radial-gradient(ellipse 50% 80% at 100% 100%, rgba(123, 44, 191, 0.28), transparent 70%),
+        radial-gradient(ellipse 40% 70% at 0% 100%, rgba(0, 212, 255, 0.10), transparent 70%),
+        linear-gradient(135deg, #0b1024 0%, #121a3a 55%, #1c1240 100%);
+      border: 1px solid rgba(0, 212, 255, 0.18);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    }
+    /* Faint grid, fading out toward the edges */
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background-image:
+        linear-gradient(rgba(136, 146, 176, 0.09) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(136, 146, 176, 0.09) 1px, transparent 1px);
+      background-size: 32px 32px;
+      background-position: center center;
+      -webkit-mask-image: radial-gradient(ellipse 75% 85% at 50% 50%, #000 30%, transparent 100%);
+      mask-image: radial-gradient(ellipse 75% 85% at 50% 50%, #000 30%, transparent 100%);
+      pointer-events: none;
+    }
+    /* Scarcity -> abundance: glowing dots that grow denser and brighter left to right */
+    header::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background-image:
+        radial-gradient(circle, rgba(0, 212, 255, 0.55) 1.2px, transparent 1.8px),
+        radial-gradient(circle, rgba(167, 112, 255, 0.45) 1px, transparent 1.6px);
+      background-size: 16px 16px, 16px 16px;
+      background-position: 0 0, 8px 8px;
+      -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.05) 25%, rgba(0,0,0,0.35) 65%, rgba(0,0,0,0.8) 100%);
+      mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.05) 25%, rgba(0,0,0,0.35) 65%, rgba(0,0,0,0.8) 100%);
+      pointer-events: none;
+    }
+    header h1 { margin-bottom: 0.6rem; filter: drop-shadow(0 2px 12px rgba(0, 212, 255, 0.18)); }
+    header .subtitle { color: #b4bdd8; max-width: 40rem; margin: 0 auto; }
+    header > p:last-child { color: #9aa4c4 !important; }
+    @media (max-width: 768px) {
+      header { min-height: 0; padding: 1.75rem 1rem; }
+      header::after { background-size: 14px 14px, 14px 14px; background-position: 0 0, 7px 7px; opacity: 0.55; }
+    }
+</style>
 </head>
 <body>
   <div class="container">
