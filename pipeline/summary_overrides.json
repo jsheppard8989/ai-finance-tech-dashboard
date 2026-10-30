@@ -7609,6 +7609,90 @@
         "last_proof_snippet",
         "last_proof_cite"
       ]
+    },
+    {
+      "id": 600,
+      "_note": "Oct 30 2026 (G approved): pundit-row text copied from card 639; exact swap only, rest of the text unchanged.",
+      "replacements": [
+        [
+          "a Woop member wears Woop 23. 6 hours",
+          "a [WHOOP] member wears [WHOOP] 23.6 hours"
+        ]
+      ]
+    },
+    {
+      "id": 599,
+      "_note": "Oct 30 2026 (G approved): pundit-row text copied from card 638; exact swap only, rest of the text unchanged.",
+      "replacements": [
+        [
+          "NuBank’s",
+          "Nubank’s"
+        ],
+        [
+          "says NuBank has",
+          "says Nubank has"
+        ]
+      ]
+    },
+    {
+      "id": 596,
+      "_note": "Oct 30 2026 (G approved): pundit-row text copied from card 635; exact swap only, rest of the text unchanged.",
+      "replacements": [
+        [
+          "Defense-led capex is de-risking new U.S. industrial capacity",
+          "Defense spending is making new U.S. factories less risky to build"
+        ]
+      ]
+    },
+    {
+      "id": 597,
+      "_note": "Oct 30 2026 (G approved): pundit-row text copied from card 635; exact swap only, rest of the text unchanged.",
+      "replacements": [
+        [
+          "Defense-led capex is de-risking new U.S. industrial capacity",
+          "Defense spending is making new U.S. factories less risky to build"
+        ]
+      ]
+    },
+    {
+      "id": 591,
+      "_note": "Oct 30 2026 (G approved): pundit-row text copied from card 632; exact swap only, rest of the text unchanged.",
+      "replacements": [
+        [
+          "enough to support the capex cycle",
+          "enough to keep the data center building going"
+        ]
+      ]
+    },
+    {
+      "id": 78,
+      "_note": "Oct 30 2026 (G approved): pundit-row text copied from card Cursor snippet; exact swap only, rest of the text unchanged.",
+      "replacements": [
+        [
+          "compete with anthropic and open AI on models",
+          "compete with [Anthropic] and [OpenAI] on models"
+        ]
+      ]
+    },
+    {
+      "id": 424,
+      "_note": "Oct 30 2026 (G approved): pundit-row text copied from card Cursor snippet; exact swap only, rest of the text unchanged.",
+      "replacements": [
+        [
+          "compete with anthropic and open AI on models",
+          "compete with [Anthropic] and [OpenAI] on models"
+        ]
+      ]
+    },
+    {
+      "id": 176,
+      "_note": "Oct 30 2026 (G approved): pundit-row text copied from card Cursor snippet; exact swap only, rest of the text unchanged.",
+      "replacements": [
+        [
+          "compete with anthropic and open AI on models",
+          "compete with [Anthropic] and [OpenAI] on models"
+        ]
+      ]
     }
   ],
   "pundit_merges": [
