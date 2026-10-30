@@ -1,5 +1,23 @@
 [
   {
+    "id": 628,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+    "episode_date": "2026-10-29",
+    "summary": "Will Ahmed argues that WHOOP\u2019s core advantage is the combination of massive longitudinal physiological data, strong engagement, and a subscription model that aligns incentives around member outcomes rather than hardware refreshes. He says the company has just over 4 million members at year-end pace, members wear the device 23.6 hours a day on average, and that has generated more than 50 billion hours of continuous physiological data.\n\nA major part of the discussion centers on WHOOP\u2019s use of AI and proprietary models. Ahmed says WHOOP is building foundational models on top of its sensor data, plus uploaded blood tests, medical records, journal entries, and user feedback, with the goal of predicting when biomarkers may be out of range without directly measuring them. He also says journal participation is already just over 50% daily, which should improve personalization and model quality over time.\n\nRegulation is another key theme. Ahmed describes WHOOP\u2019s blood pressure insights as having triggered an FDA warning letter and public disagreement, but says later guideline changes allowed the feature to remain available in a wellness framing. He contrasts that with WHOOP\u2019s FDA-cleared ECG capability. He repeatedly frames the company as selling membership and insights, not user data, and says the business does not sell customer data.\n\nThe episode also highlights anecdotal clinical value and future roadmap claims: members allegedly use WHOOP signals to catch respiratory rate and temperature changes early, the AI coach is currently around 7.5/10, and WHOOP is building GLP-1-related guidance to help preserve muscle through activity and protein recommendations. Ahmed is optimistic that continuous use, more member interaction, and more labeled data will improve both the product and its predictive power.",
+    "key_takeaways": [
+      "Will Ahmed says WHOOP has just over 50 billion hours of continuous physiological data because members wear the device 23.6 hours per day on average.",
+      "Ahmed says WHOOP reached 1 million members after about 12 years, then scaled to 2 million in roughly 18 months and to around 3 million in about six months.",
+      "Ahmed says the subscription model creates better incentives than hardware cycles because WHOOP only wants to launch hardware when it is a meaningful step-function improvement.",
+      "Ahmed says WHOOP is training its own foundational models on sensor data, uploaded labs/medical records, and journal feedback to predict health signals and potentially detect biomarkers out of range.",
+      "Ahmed says more than 50% of members journal every day, which he sees as a key input for personalized coaching and model improvement.",
+      "Ahmed says WHOOP\u2019s blood pressure insights faced an FDA warning letter and public disagreement, but the feature remains available in a wellness framing after guideline updates.",
+      "Ahmed says WHOOP\u2019s ECG feature is FDA-cleared, and he positions privacy as a differentiator by saying the company does not sell user data."
+    ],
+    "investment_thesis": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
+    "key_tickers": null
+  },
+  {
     "id": 626,
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
