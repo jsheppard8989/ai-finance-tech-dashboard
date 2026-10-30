@@ -56,3 +56,19 @@ def test_mu_page_link_matches_title():
     assert "label: '%s', href: 'mu-memory-cycle.html'" % title in (SITE / "js" / "research-nav.js").read_text(encoding="utf-8")
     for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html", "mu-memory-cycle.html"):
         assert '<a href="mu-memory-cycle.html">%s</a>' % title in (SITE / page).read_text(encoding="utf-8"), page
+
+
+def test_mu_page_chart3():
+    """Oct 30 2026 (v2): Chart 3, price path vs modeled bottom, sits after Chart 2 with its own image,
+    caption naming the revenue-peak anchor (FQ4 FY26, provisional), alt text and source note."""
+    s = _src()
+    for n in (1, 2, 3):
+        assert 'id="chart-%d"' % n in s, n
+        assert (SITE / "charts" / "mu" / ("0%d.png" % n)).is_file(), n
+    assert s.index('id="chart-2"') < s.index('id="chart-3"') < s.index('data-slot="body"')
+    fig = re.search(r'<figure class="chart" id="chart-3">(.*?)</figure>', s, re.S).group(1)
+    assert re.search(r'<a class="chart-full" href="charts/mu/03\.png" data-lightbox[^>]*>\s*<img src="charts/mu/03\.png"', fig)
+    assert re.search(r'<img [^>]*alt="[^"]{40,}"', fig)
+    cap = _text(fig)
+    assert "Chart 3" in cap and "revenue-peak" in cap and "FQ4 FY26" in cap and "provisional" in cap
+    assert "Source:" in cap
