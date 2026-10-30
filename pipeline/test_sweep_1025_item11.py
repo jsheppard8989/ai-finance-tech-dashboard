@@ -61,7 +61,10 @@ def test_fixes_are_verbatim_and_match_the_site_files():
                 # a16z 10/28), so the exact-text rule no-ops by design; the old cut-off text is gone.
                 assert old not in (site[r["id"]].get("last_proof_snippet") or ""), r["id"]
             else:
-                assert site[r["id"]].get("last_proof_snippet") == new
+                # Oct 30 2026 (#667, G approved): [Anthropic]/[OpenAI] swap chained on #78/#424/#176.
+                expected = new.replace("compete with anthropic and open AI on models",
+                                       "compete with [Anthropic] and [OpenAI] on models")
+                assert site[r["id"]].get("last_proof_snippet") == expected
         if not new or r["id"] in restored:
             continue
         for a, b in names.items():
