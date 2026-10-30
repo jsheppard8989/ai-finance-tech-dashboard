@@ -7,14 +7,39 @@
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills and TIPS excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-30T05:26:55",
+    "last_updated": "2026-10-30T12:59:31",
     "as_of_date": "2026-10-30",
     "next_refunding_announcement": {
       "date": "2026-11-04",
       "status": "scheduled",
       "notes": "Quarterly Refunding Announcement (QRA), 8:30 AM ET; sets coupon sizes for next quarter"
     },
-    "upcoming_auctions": [],
+    "upcoming_auctions": [
+      {
+        "date": "2026-11-09",
+        "security": "3-Year Note",
+        "cusip": "91282CRW3",
+        "size_billions": null,
+        "announcement_date": "2026-11-04",
+        "issue_date": "2026-11-16"
+      },
+      {
+        "date": "2026-11-10",
+        "security": "10-Year Note",
+        "cusip": "91282CRX1",
+        "size_billions": null,
+        "announcement_date": "2026-11-04",
+        "issue_date": "2026-11-16"
+      },
+      {
+        "date": "2026-11-12",
+        "security": "30-Year Bond",
+        "cusip": "912810UY2",
+        "size_billions": null,
+        "announcement_date": "2026-11-04",
+        "issue_date": "2026-11-16"
+      }
+    ],
     "recent_auction_results": [
       {
         "date": "2026-10-29",
@@ -244,14 +269,14 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-30T05:26:54.494385",
+    "last_fetched": "2026-10-30T12:59:30.076156",
     "h100": {
       "daily_date": "Oct 30, 2026",
       "daily_date_iso": "2026-10-30",
       "composite_index": {
-        "display": "$3.41",
+        "display": "$3.42",
         "type": "single",
-        "value": 3.41
+        "value": 3.42
       },
       "contract_period": "Sep 2026",
       "1y_contract": {
@@ -277,21 +302,21 @@
       ],
       "daily_trend": {
         "data_points": 1115,
-        "latest_value": 3.41,
+        "latest_value": 3.42,
         "latest_date": "Oct 30, 2026",
         "short_term": {
-          "change_pct": 1.2,
+          "change_pct": 1.5,
           "comparison_date": "Oct 23, 2026",
           "comparison_value": 3.37,
           "days_back": 7
         },
         "long_term": {
-          "change_pct": 4.3,
+          "change_pct": 4.6,
           "anchor_date": "Sep 30, 2026",
           "anchor_value": 3.27,
           "days_back": 30
         },
-        "change_pct": 1.2,
+        "change_pct": 1.5,
         "comparison_date": "Oct 23, 2026"
       },
       "contract_trend": {
@@ -921,7 +946,7 @@
         3.37,
         3.39,
         3.41,
-        3.41
+        3.42
       ],
       "b200": [
         4.7,
@@ -1150,10 +1175,10 @@
     "_api_url": "https://aicomputetracker.com/forward-curves.json",
     "_settles_on": "Ornn Compute Price Index (OCPI)",
     "_license": "AI Compute Tracker (aicomputetracker.com), CC BY 4.0; third-party terms apply to data from Kalshi (KalshiEX LLC)",
-    "as_of": "2026-10-30T06:37:41.859Z",
+    "as_of": "2026-10-30T12:37:45.818Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-10-30T05:26:54.826374",
+    "last_fetched": "2026-10-30T12:59:30.408451",
     "b200": {
       "points": [
         {
@@ -1166,7 +1191,7 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 9.75,
+          "price": 9.76,
           "quality": "quality-passed",
           "identified": true
         },
@@ -1204,8 +1229,8 @@
           "identified": false
         }
       ],
-      "two_sided_markets": 40,
-      "liquidity_usd": 151102,
+      "two_sided_markets": 37,
+      "liquidity_usd": 145059,
       "kalshi_series": "KXB200MS",
       "last_trade_at": "2026-10-27T19:53:03.065Z"
     },
@@ -1219,21 +1244,15 @@
           "identified": false
         },
         {
-          "tenor_key": "2026-11",
-          "tenor": "Nov '26",
-          "price": 5.92,
-          "quality": "quality-passed",
-          "identified": true
-        },
-        {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 4.02,
+          "price": 4.01,
           "quality": "thin",
           "identified": false
         }
       ],
       "placeholders_dropped": [
+        "2026-11",
         "2026-12",
         "2027-02",
         "2027-03",
@@ -1250,17 +1269,10 @@
           "price": 5.77,
           "quality": "thin",
           "identified": false
-        },
-        {
-          "tenor_key": "2027-01",
-          "tenor": "Jan '27",
-          "price": 4.02,
-          "quality": "thin",
-          "identified": false
         }
       ],
-      "two_sided_markets": 23,
-      "liquidity_usd": 117691,
+      "two_sided_markets": 21,
+      "liquidity_usd": 104633,
       "kalshi_series": "KXH200MS",
       "last_trade_at": "2026-10-27T19:53:03.066Z"
     },
@@ -1276,14 +1288,14 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 3.03,
+          "price": 3.13,
           "quality": "quality-passed",
           "identified": true
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 3.31,
+          "price": 3.4,
           "quality": "thin",
           "identified": false
         }
@@ -1309,13 +1321,13 @@
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 3.31,
+          "price": 3.4,
           "quality": "thin",
           "identified": false
         }
       ],
-      "two_sided_markets": 25,
-      "liquidity_usd": 18897,
+      "two_sided_markets": 21,
+      "liquidity_usd": 7265,
       "kalshi_series": "KXH100MS",
       "last_trade_at": "2026-10-27T19:53:03.066Z"
     },
@@ -1338,7 +1350,7 @@
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 1.1,
+          "price": 1.11,
           "quality": "thin",
           "identified": false
         },
@@ -1382,13 +1394,13 @@
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 1.1,
+          "price": 1.11,
           "quality": "thin",
           "identified": false
         }
       ],
-      "two_sided_markets": 9,
-      "liquidity_usd": 17180,
+      "two_sided_markets": 6,
+      "liquidity_usd": 11199,
       "kalshi_series": "KXA100MS",
       "last_trade_at": "2026-10-27T19:53:03.064Z"
     }
@@ -1406,24 +1418,24 @@
         "trend": "rising"
       },
       "h100": {
-        "spot": 3.41,
-        "spot_30d_pct": 4.3,
-        "spot_90d_pct": 7.2,
-        "forward_vs_spot_pct": -7.0,
-        "score": 1.5,
+        "spot": 3.42,
+        "spot_30d_pct": 4.6,
+        "spot_90d_pct": 7.5,
+        "forward_vs_spot_pct": -4.5,
+        "score": 2.5,
         "trend": "steady"
       },
       "a100": {
         "spot": 1.76,
         "spot_30d_pct": -1.1,
         "spot_90d_pct": -1.7,
-        "forward_vs_spot_pct": -32.2,
-        "score": -11.7,
+        "forward_vs_spot_pct": -32.0,
+        "score": -11.6,
         "trend": "dropping"
       }
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
     "as_of": "2026-10-30",
-    "generated_at": "2026-10-30T05:26:54"
+    "generated_at": "2026-10-30T12:59:30"
   }
 }
