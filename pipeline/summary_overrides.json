@@ -1741,6 +1741,122 @@
           "separate AI beneficiaries into three groups:"
         ]
       ]
+    },
+    {
+      "insight_id": 639,
+      "podcast_episode_id": 628,
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #8: WHOOP is private (no ticker); quote fix is only the transcribed company name ('Woop' -> '[WHOOP]'), rest of the quote unchanged.",
+      "drop_tickers": [
+        "WHOOP"
+      ],
+      "replacements": [
+        [
+          "a Woop member wears Woop",
+          "a [WHOOP] member wears [WHOOP]"
+        ]
+      ]
+    },
+    {
+      "insight_id": 634,
+      "podcast_episode_id": 623,
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #9: Vanta, Ramp and Rogo are private; RAMP is LiveRamp's ticker, not Ramp.",
+      "drop_tickers": [
+        "VANTA",
+        "RAMP",
+        "ROGO"
+      ]
+    },
+    {
+      "insight_id": 631,
+      "podcast_episode_id": 622,
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #10: Anthropic isn't listed yet (ANT dropped, MU kept); quote fix is only the transcribed name 'Anthropica' -> '[Anthropic]'.",
+      "drop_tickers": [
+        "ANT"
+      ],
+      "replacements": [
+        [
+          "Anthropica now earns",
+          "[Anthropic] now earns"
+        ]
+      ]
+    },
+    {
+      "insight_id": 632,
+      "podcast_episode_id": 621,
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #11: Steve Hou speaker label (quote text unchanged), plain-language takeaway/summary, sentiment positive.",
+      "replacements": [
+        [
+          "Steve Ho(head)",
+          "Steve Hou"
+        ],
+        [
+          "support the capex cycle",
+          "support the AI spending cycle"
+        ],
+        [
+          "can look profitable at the EBITDA level",
+          "can look profitable before counting the wear-out of its equipment"
+        ]
+      ],
+      "set_sentiment": "positive"
+    },
+    {
+      "insight_id": 638,
+      "podcast_episode_id": 627,
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #12: 'NuBank' -> 'Nubank' in summary and takeaway (no quote contains it).",
+      "replacements": [
+        [
+          "NuBank",
+          "Nubank"
+        ]
+      ]
+    },
+    {
+      "insight_id": 637,
+      "podcast_episode_id": 626,
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #13: sentiment negative; plain-language yield move.",
+      "replacements": [
+        [
+          "a one-day 20 bps drop in the 10-year yield",
+          "a one-day 0.20 percentage-point drop in the 10-year Treasury yield"
+        ]
+      ],
+      "set_sentiment": "negative"
+    },
+    {
+      "insight_id": 635,
+      "podcast_episode_id": 625,
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #14: plain-language takeaway/summary; sentiment positive (summary says 'strongly optimistic').",
+      "replacements": [
+        [
+          "Defense-led capex is de-risking",
+          "Defense spending is lowering the risk of building"
+        ],
+        [
+          "de-risk capex for factories",
+          "lower the risk of building factories"
+        ]
+      ],
+      "set_sentiment": "positive"
+    },
+    {
+      "insight_id": 636,
+      "podcast_episode_id": 624,
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #15: speaker label only (quote text unchanged).",
+      "relabel_quotes": [
+        [
+          "Moses added a single sentence",
+          "Dwarkesh Patel"
+        ],
+        [
+          "unanimous consent agreement",
+          "Dwarkesh Patel"
+        ],
+        [
+          "From the moment that those bonds were sold",
+          "Dwarkesh Patel"
+        ]
+      ]
     }
   ],
   "terms": [
