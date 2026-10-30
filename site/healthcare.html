@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Healthcare Abundance: Consumerization of Precision Medicine</title>
+  <title>Healthcare Abundance</title>
   <link rel="icon" href="data:,">
   <style>
     :root{--bg:#05070d;--panel:#0c111b;--ink:#e8edf3;--mut:#9aa7b6;--line:#1d2635;--acc:#5cc8ff}
     *{box-sizing:border-box}
     body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-    a{color:var(--acc)}
+    a{color:var(--acc);overflow-wrap:anywhere}
     .site-nav{display:flex;flex-wrap:wrap;gap:1rem 1.25rem;justify-content:center;align-items:center;padding:0.65rem 1rem;background:rgba(0,0,0,0.28);border-bottom:1px solid var(--line)}
     .site-nav a{color:#00d4ff;text-decoration:none;font-size:0.95rem;font-weight:500}
     .site-nav a:hover{text-decoration:underline}
@@ -19,7 +19,35 @@
     .sub{color:var(--mut);margin:0;max-width:760px}
     .wrap{max-width:760px;margin:0 auto;padding:36px 20px 24px}
     .wrap p{margin:0 0 1.15em}
+    .wrap h2{font-size:1.35rem;line-height:1.3;margin:2.2em 0 .7em;padding-top:1.2em;border-top:1px solid var(--line)}
+    .wrap h2:first-child{margin-top:0;padding-top:0;border-top:0}
+    .wrap ul{padding-left:1.2em;margin:0 0 1.15em}.wrap li{margin:0 0 .5em}
+    .wrap strong{color:#fff}
+    .tbl{overflow-x:auto;margin:0 0 1.3em}
+    table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.5;min-width:520px}
+    th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+    thead th{background:var(--panel);color:var(--acc)}
+    td:first-child{color:#fff;white-space:nowrap}
+    figure.chart{margin:1.6em 0 1.8em;padding:14px 14px 10px;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+    figcaption{font-weight:600;line-height:1.35;margin-bottom:8px}
+    .cnum{display:inline-block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin-right:6px}
+    .csub{display:block;font-weight:400;font-size:13px;color:var(--mut);margin-top:2px}
+    .chart-host svg{display:block;width:100%;height:auto}
+    .cnote{font-size:12.5px;line-height:1.5;color:var(--mut);margin:8px 0 0 !important}
+    .mut{color:var(--mut);font-size:13px}
+    .sources li{font-size:14px}
     footer{max-width:760px;margin:0 auto;padding:20px 20px 48px;border-top:1px solid var(--line);color:var(--mut);font-size:13px}
+    .wrap h3{font-size:1.08rem;line-height:1.35;margin:1.6em 0 .5em}
+    .wrap code{font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 4px}
+    .wrap hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+    .asof{color:var(--mut);font-size:13px;margin:10px 0 0}
+    .summary-box{margin:0 0 1.8em;padding:16px 18px 6px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:10px}
+    .summary-box h2{font-size:1.05rem;margin:0 0 .6em !important;padding:0 !important;border:0 !important;color:var(--acc);text-transform:uppercase;letter-spacing:.08em}
+    figure.chart a.chart-full{display:block;cursor:zoom-in}
+    figure.chart img{display:block;width:100%;height:auto;border-radius:6px;background:#0a0e16}
+    .lbl{display:inline-block;font-size:10.5px;line-height:1.5;font-weight:700;letter-spacing:.06em;padding:0 6px;border-radius:4px;vertical-align:1px;border:1px solid currentColor}
+    .lbl-fact{color:#34d399}.lbl-reported{color:#5cc8ff}.lbl-inference{color:#c084fc}
+    .lbl-estimate{color:#facc15}.lbl-opinion{color:#ff9a5c}.lbl-unverified{color:#f87171}
   </style>
 </head>
 <body>
@@ -30,23 +58,115 @@
     <a href="archive.html">Archive</a>
   </nav>
   <header class="hero">
-    <p class="kicker">Scarcity &amp; Abundance · Research · Sep 18, 2026</p>
+    <p class="kicker">Healthcare · Research</p>
     <h1>Healthcare Abundance</h1>
     <p class="sub">Consumerization of Precision Medicine</p>
+    <p class="asof">As of Oct 30, 2026, using Oct 29 closing prices. First published Sep 18, 2026.</p>
   </header>
   <main class="wrap">
     <article>
+      <section class="summary-box" aria-labelledby="summary-h">
+        <h2 id="summary-h">The short version</h2>
+        <p><strong>Our view (<span class="lbl lbl-opinion">OPINION</span>): Positive. We are keeping the Sep 18 basket of Hims &amp; Hers (HIMS), GoodRx (GDRX), Tempus AI (TEM), Guardant Health (GH) and Abbott (ABT).</strong> Our rule is to stay long unless an exit rule is hit, and none has been.</p>
+        <p>The $5,000 basket was worth $5,152.90 at the Oct 29 close, 3.1% above cost (<span class="lbl lbl-fact">FACT</span>, entry prices from the <a href="https://jsheppard8989.github.io/ai-finance-tech-dashboard/data/portfolio.json">site's portfolio record</a>, closes from <a href="https://finance.yahoo.com/quote/HIMS/history/">Yahoo Finance</a>).</p>
+        <p>The dated test is Hims &amp; Hers' third-quarter report after the market closes on Mon Nov 9, 2026. If it shows fewer than 2.891 million paying subscribers, we exit.</p>
+      </section>
+
+      <h2>Our view and paper trade</h2>
+      <p><strong>View (<span class="lbl lbl-opinion">OPINION</span>): Positive on the five-company basket. Kept, not changed.</strong> These five companies are making care cheaper and easier to get: online prescriptions (Hims &amp; Hers), drug price discounts (GoodRx), AI-driven cancer testing (Tempus AI and Guardant Health) and a large diagnostics maker (Abbott). Nothing since Sep 18 has broken the case, so we hold.</p>
+      <p><strong>Paper trade.</strong> Long stock: $1,000 in each of the five companies, $5,000 in total, opened Sep 18, 2026.</p>
+      <ul>
+        <li>Entry: Hims &amp; Hers $28.09, GoodRx $3.33, Tempus AI $77.97, Guardant Health $183.10, Abbott $102.20. These are the prices at about 9:30 AM CT on Sep 18, 2026, as recorded in the <a href="https://jsheppard8989.github.io/ai-finance-tech-dashboard/data/portfolio.json">site's portfolio record</a> when the basket was opened (<span class="lbl lbl-fact">FACT</span>).</li>
+        <li>Strike and expiry: none. These are shares, not options.</li>
+        <li>Max loss: we exit if the basket closes below 90 on an index where 100 is the cost. That is about 10% below cost, or about $500 on $5,000, and about 12.7% below the Oct 29 close of 103.1 (<span class="lbl lbl-inference">INFERENCE</span>, our arithmetic). The rule uses closing prices, so a sharp overnight drop, for example after an earnings report, could take us out below 90 and cost more than $500. As with any stock, the most that can be lost is the full $5,000.</li>
+        <li>What proves us wrong: either exit rule. (1) The basket index closes below 90. (2) Hims &amp; Hers reports fewer than 2.891 million paying subscribers for the third quarter of 2026, which is below its second-quarter count. Both rules were set when the basket was opened and will not be loosened.</li>
+        <li>Grade date: none. The trade is graded on the day an exit rule is hit: Right if we exit above cost, Wrong if below. Until then it is shown next to an S&amp;P 500 fund purchase of the same size made on Sep 18, 2026.</li>
+        <li>Why we hold through the earnings reports (<span class="lbl lbl-opinion">OPINION</span>): we think the market underprices how lasting subscriber growth at Hims &amp; Hers is and how fast revenue is growing at Tempus AI and Guardant Health. The result that proves it is Hims &amp; Hers third-quarter subscribers at or above 2.891 million on Nov 9, with Tempus AI (Nov 2) and Guardant Health (Nov 5) showing revenue still growing.</li>
+        <li>The Nov 9 bar is a tough one (<span class="lbl lbl-inference">INFERENCE</span>). The second quarter's jump of about 307,000 subscribers included the purchase of Eucalyptus (completed Jun 1, 2026), and Hims &amp; Hers did not say how many subscribers came from that deal (<span class="lbl lbl-fact">FACT</span>, <a href="https://www.sec.gov/Archives/edgar/data/1773751/000177375126000163/hims-20260630.htm">second-quarter 10-Q</a>). So the Nov 9 comparison is harder than in past quarters.</li>
+        <li>The options market expects big moves on these reports (<span class="lbl lbl-inference">INFERENCE</span>). Implied volatility, the size of swing that option prices assume, was 73% for Hims &amp; Hers options expiring Nov 6, before its report, and 106% for those expiring Nov 13, after it. For Tempus AI it was 63% before and 94% after (<span class="lbl lbl-fact">FACT</span>, <a href="https://finance.yahoo.com/quote/HIMS/options/">Yahoo option chains</a>, 1:52 PM CT Oct 29, 2026).</li>
+      </ul>
+
+      <h2>What to watch, with dates</h2>
+      <div class="tbl"><table>
+        <thead><tr><th>Date (CT)</th><th>Event</th><th>Status and source</th></tr></thead>
+        <tbody>
+          <tr><td>Mon Nov 2, before the market opens (call 7:45 AM)</td><td>Tempus AI third-quarter 2026 results. Analysts expect revenue of about $409.4 million (<span class="lbl lbl-reported">REPORTED</span>, <a href="https://www.marketbeat.com/earnings/reports/2026-11-2-tempus-ai-inc-stock/">MarketBeat</a>).</td><td><span class="lbl lbl-fact">FACT</span> date set by the company: <a href="https://www.tempus.com/news/pr/tempus-to-report-third-quarter-2026-financial-results-on-november-2/">Tempus AI release</a></td></tr>
+          <tr><td>Nov 3 after the close, or Nov 10 before the open</td><td>GoodRx third-quarter 2026 results</td><td><span class="lbl lbl-unverified">UNVERIFIED</span> GoodRx has not announced a date (<a href="https://goodrx.gcs-web.com/news-and-events/press-releases">GoodRx releases</a>). <a href="https://www.marketbeat.com/earnings/reports/2026-11-3-goodrx-holdings-inc-stock/">MarketBeat</a> estimates Nov 3; <a href="https://bullstory.io/en/stocks/gdrx/earnings/2026-q3">Bullstory</a> lists Nov 10.</td></tr>
+          <tr><td>Thu Nov 5, after the close (call 3:30 PM)</td><td>Guardant Health third-quarter 2026 results. Analysts expect revenue of about $350.7 million (<span class="lbl lbl-reported">REPORTED</span>, <a href="https://www.tradingview.com/news/tradingview:b419dd2a42e6e:0-gh-q3-26-earnings-revenue-estimate-is-350-72m-usd/">TradingView</a>).</td><td><span class="lbl lbl-fact">FACT</span> date set by the company: <a href="https://investors.guardanthealth.com/press-releases/press-releases/2026/Guardant-Health-to-Report-Third-Quarter-2026-Financial-Results-on-November-5-2026/default.aspx">Guardant Health release</a></td></tr>
+          <tr><td><strong>Mon Nov 9, after the close (call 4:00 PM)</strong></td><td><strong>Hims &amp; Hers third-quarter 2026 results. This report can trigger the subscriber exit rule (fewer than 2.891 million).</strong> The company guided to third-quarter revenue of $880 million to $900 million.</td><td><span class="lbl lbl-fact">FACT</span> date set by the company: <a href="https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Third-Quarter-2026-Financial-Results-on-November-9-2026/default.aspx">Hims &amp; Hers release</a>; guidance in the <a href="https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx">second-quarter release</a></td></tr>
+          <tr><td>Not yet released</td><td>Medicare's final 2027 payment rule for hospital outpatient services. Last year's came out Nov 25, 2025. Most outpatient lab tests are paid under a separate lab fee schedule, so the direct effect on Tempus AI and Guardant Health is likely small (<span class="lbl lbl-inference">INFERENCE</span>).</td><td><span class="lbl lbl-fact">FACT</span> not out as of the morning of Oct 30: <a href="https://www.cms.gov/medicare/payment/prospective-payment-systems/hospital-outpatient/regulations-notices">CMS rules page</a>, <a href="https://www.federalregister.gov/public-inspection/current">Federal Register</a>; <a href="https://www.govinfo.gov/content/pkg/FR-2026-07-07/html/2026-13656.htm">proposed rule</a></td></tr>
+          <tr><td>About Jan 22, 2027</td><td>Abbott fourth-quarter 2026 results</td><td><span class="lbl lbl-unverified">UNVERIFIED</span> not announced; our estimate from Abbott's usual late-January timing. Last report was Oct 21, 2026: <a href="https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance">Abbott release</a></td></tr>
+        </tbody>
+      </table></div>
+
+      <figure class="chart" id="chart-1">
+        <figcaption><span class="cnum">Chart 1</span> The basket since Sep 18: below cost for most of October, back above it by Oct 29. The lowest close was 94.4, above the exit line at 90.</figcaption>
+        <a class="chart-full" href="charts/healthcare/01.png" data-lightbox aria-label="Open chart 1 full size"><img src="charts/healthcare/01.png" alt="Line chart of the five-stock basket from Sep 18 to Oct 29, 2026, as an index where 100 is the $5,000 cost. It moves between about 94 and 103, with a lowest close of 94.4 on Oct 19 and 103.1 on Oct 29. A dashed red line at 90 marks the exit rule." loading="lazy" decoding="async"></a>
+        <p class="cnote">Source: entry prices and share counts from the site's portfolio record (Sep 18, 2026, about 9:30 AM CT); daily closes from Yahoo Finance. Data through the Oct 29, 2026 close. The S&amp;P 500 comparison is not drawn because we did not have its daily prices for this update. Click the chart to open it full size.</p>
+      </figure>
+      <figure class="chart" id="chart-2">
+        <figcaption><span class="cnum">Chart 2</span> Hims &amp; Hers paying subscribers rose in each of the last eight quarters. The third-quarter count, due Nov 9, must be at least 2.891 million.</figcaption>
+        <a class="chart-full" href="charts/healthcare/02.png" data-lightbox aria-label="Open chart 2 full size"><img src="charts/healthcare/02.png" alt="Bar chart of Hims and Hers paying subscribers at the end of each quarter from the third quarter of 2024 to the second quarter of 2026: 2.047, 2.229, 2.366, 2.439, 2.471, 2.511, 2.584 and 2.891 million. A dashed red line at 2.891 million marks the exit rule." loading="lazy" decoding="async"></a>
+        <p class="cnote">Source: Hims &amp; Hers 10-Q and 10-K filings on SEC EDGAR, "Subscribers (end of period)" table, pulled Oct 29, 2026. The second-quarter 2026 count includes Eucalyptus, which the company did not split out. Click the chart to open it full size.</p>
+      </figure>
+      <figure class="chart" id="chart-3">
+        <figcaption><span class="cnum">Chart 3</span> Tempus AI's quarterly revenue more than doubled in two years. GoodRx's stayed between $194 million and $203 million.</figcaption>
+        <a class="chart-full" href="charts/healthcare/03.png" data-lightbox aria-label="Open chart 3 full size"><img src="charts/healthcare/03.png" alt="Paired bar chart of quarterly revenue from the third quarter of 2024 to the second quarter of 2026. Tempus AI rises from $181 million to $382 million. GoodRx stays between $194 million and $203 million." loading="lazy" decoding="async"></a>
+        <p class="cnote">Source: SEC EDGAR company filings (10-Q and 10-K revenue), pulled Oct 29, 2026. Fourth-quarter figures are not filed on their own; they are full-year revenue minus the first three quarters (our arithmetic), shown hatched. Click the chart to open it full size.</p>
+      </figure>
+
+      <h2>Where the five companies stand</h2>
+      <div class="tbl"><table>
+        <thead><tr><th>Company</th><th>Its role in the idea</th><th>Entry (Sep 18)</th><th>Oct 29 close</th><th>Change</th></tr></thead>
+        <tbody>
+          <tr><td>Hims &amp; Hers (HIMS)</td><td>Owns the consumer relationship</td><td>$28.09</td><td>$29.67</td><td>+5.6%</td></tr>
+          <tr><td>GoodRx (GDRX)</td><td>Removes friction in getting a prescription filled</td><td>$3.33</td><td>$3.54</td><td>+6.3%</td></tr>
+          <tr><td>Tempus AI (TEM)</td><td>Matches patients to treatments using test data</td><td>$77.97</td><td>$77.84</td><td>−0.2%</td></tr>
+          <tr><td>Guardant Health (GH)</td><td>Finds and monitors cancer with blood tests</td><td>$183.10</td><td>$185.31</td><td>+1.2%</td></tr>
+          <tr><td>Abbott (ABT)</td><td>Continuous measurement, such as glucose sensors</td><td>$102.20</td><td>$104.57</td><td>+2.3%</td></tr>
+        </tbody>
+      </table></div>
+      <p class="mut">Entry prices from the <a href="https://jsheppard8989.github.io/ai-finance-tech-dashboard/data/portfolio.json">site's portfolio record</a>; Oct 29 closes from Yahoo Finance (<a href="https://finance.yahoo.com/quote/HIMS/history/">HIMS</a>, <a href="https://finance.yahoo.com/quote/GDRX/history/">GDRX</a>, <a href="https://finance.yahoo.com/quote/TEM/history/">TEM</a>, <a href="https://finance.yahoo.com/quote/GH/history/">GH</a>, <a href="https://finance.yahoo.com/quote/ABT/history/">ABT</a>) (<span class="lbl lbl-fact">FACT</span>).</p>
+      <ul>
+        <li>Hims &amp; Hers, second quarter 2026: revenue $753.2 million, up 38% from a year earlier; 2.891 million subscribers, up 19%; average monthly revenue per subscriber $92 ($90 without Eucalyptus). Full-year revenue guidance was raised to $3.1 billion to $3.3 billion (<span class="lbl lbl-fact">FACT</span>, <a href="https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx">company release</a>).</li>
+        <li>GoodRx, second quarter 2026: revenue $200.4 million, down 1%. Revenue from prescription discounts fell 26%, while programs paid for by drugmakers grew 76% to $61.6 million and subscriptions grew 39% to $28.5 million (<span class="lbl lbl-fact">FACT</span>, <a href="https://www.sec.gov/Archives/edgar/data/1809519/000180951926000151/gdrxq226-exx991pressrelease.htm">company release</a>).</li>
+        <li>Tempus AI, second quarter 2026: revenue $382.5 million, up 22%; cancer-test volume up 31%. Full-year revenue guidance was raised to $1.595 billion to $1.605 billion, about 25% growth (<span class="lbl lbl-fact">FACT</span>, <a href="https://www.sec.gov/Archives/edgar/data/1717115/000119312526326083/tem-ex99_1.htm">company release</a>).</li>
+        <li>Guardant Health, second quarter 2026: revenue $335.0 million, up 44%. Its Shield blood test for colorectal cancer brought in $52.9 million on about 66,000 tests, up from $14.8 million on about 16,000 a year earlier (<span class="lbl lbl-fact">FACT</span>, <a href="https://www.sec.gov/Archives/edgar/data/1576280/000157628026000036/gh-06302026xexhibit991.htm">company release</a>).</li>
+        <li>Abbott, third quarter 2026: sales $13.013 billion, up 7.0% on a comparable basis. It now expects about 6% comparable sales growth for 2026 (<span class="lbl lbl-fact">FACT</span>, <a href="https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance">company release</a>), down from 6.5% to 7.5% before (<span class="lbl lbl-reported">REPORTED</span>, <a href="https://finance.yahoo.com/healthcare/articles/abbott-lowers-2026-sales-growth-113220440.html">Reuters via Yahoo</a>).</li>
+      </ul>
+      <p><strong>The weakest names (<span class="lbl lbl-opinion">OPINION</span>).</strong> GoodRx is the weakest. Its revenue has stayed between $194 million and $203 million for eight quarters, and the fast-growing parts have not yet moved the total (Chart 3). Abbott is the second name to watch. It cut its 2026 sales growth outlook on Oct 21, and it now owns Exact Sciences and sells a blood test for colorectal cancer that competes with Guardant Health's Shield (<span class="lbl lbl-fact">FACT</span>, <a href="https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance">Abbott release</a>).</p>
+
+      <h2>The historical rhyme</h2>
+      <p>Our rhyme is the companies' own record. Hims &amp; Hers subscribers rose every quarter for eight quarters, from 2.047 million to 2.891 million. Tempus AI's quarterly revenue went from $180.9 million to $382.5 million over the same two years, while GoodRx stayed flat (<span class="lbl lbl-fact">FACT</span>, <a href="https://www.sec.gov/Archives/edgar/data/1773751/000177375126000163/hims-20260630.htm">SEC filings</a>; Charts 2 and 3). In that eight-quarter record, the subscriber exit rule would never have been hit (<span class="lbl lbl-inference">INFERENCE</span>). The caveat is the Eucalyptus purchase described above, which makes Nov 9 a harder comparison.</p>
+
+      <h2>Upside versus downside</h2>
+      <ul>
+        <li>Downside: about 12.7% from the Oct 29 close of 103.1 to the exit line at 90 (<span class="lbl lbl-inference">INFERENCE</span>, our arithmetic), and more if a stock drops sharply overnight.</li>
+        <li>Upside: if all five returned to their highest prices of the past year (Hims &amp; Hers $48.34, GoodRx $3.89, Tempus AI $91.83, Guardant Health $191.05, Abbott $132.03; <span class="lbl lbl-fact">FACT</span>, <a href="https://finance.yahoo.com/quote/HIMS/">Yahoo Finance</a>, Oct 29, 2026), the index would be about 128.0, or about 24.2% above the Oct 29 close (<span class="lbl lbl-inference">INFERENCE</span>, our arithmetic, not a forecast). Guardant Health and GoodRx are already close to those highs, so most of that room is in Hims &amp; Hers, Abbott and Tempus AI.</li>
+        <li>Our read (<span class="lbl lbl-opinion">OPINION</span>): the downside is defined and close. The upside depends mostly on Hims &amp; Hers, which is also the company behind the subscriber exit rule, so Nov 9 is the report that matters most.</li>
+      </ul>
+
+      <h2>What we could not verify</h2>
+      <ul>
+        <li>GoodRx's third-quarter report date. The company has not announced it, and outside sites disagree (Nov 3 or Nov 10) (<span class="lbl lbl-unverified">UNVERIFIED</span>).</li>
+        <li>Abbott's fourth-quarter report date. About Jan 22, 2027 is our estimate only (<span class="lbl lbl-unverified">UNVERIFIED</span>).</li>
+        <li>How many of Hims &amp; Hers' second-quarter subscribers came from Eucalyptus. The company has not said.</li>
+        <li>The date of Medicare's final 2027 outpatient payment rule, and whether it changes how molecular lab tests are paid. We have not read the full proposed rule on that point.</li>
+      </ul>
+      <p><strong>How to read the labels.</strong> <span class="lbl lbl-fact">FACT</span> comes from a primary source such as a company release or SEC filing, linked on each line. <span class="lbl lbl-reported">REPORTED</span> comes from a named secondary source, also linked. <span class="lbl lbl-inference">INFERENCE</span> is our own arithmetic or reasoning, shown. <span class="lbl lbl-opinion">OPINION</span> is our judgment. <span class="lbl lbl-unverified">UNVERIFIED</span> means we could not confirm it.</p>
+
+      <h2>The original idea (Sep 18, 2026)</h2>
       <p>The scarce thing in medicine is moving. For a long time the hard problem was inventing a treatment that worked, then forcing it through a slow and expensive system. AI and genomics are making new therapies more common and cheaper to discover. When that happens, “another molecule” stops being the bottleneck. The hard problem becomes finding the right person, diagnosing them early, choosing the treatment that fits, delivering it conveniently, and keeping them on it. That is the interface between a human and the healthcare system. This note is about who owns that interface — not necessarily who owns the drug.</p>
       <p>The consumerization of precision medicine is where 3 forces meet. First, more therapies exist, so abundance replaces scarcity at the discovery step. Second, people start managing health as a habit — testing, monitoring, refilling — instead of showing up only when they are already sick. Third, digital rails make care something you can buy like a consumer service: a relationship, a subscription, a same-day fill, a wearable that talks back. The winner does not have to manufacture the breakthrough. They may own the last mile of trust, data, and fulfillment.</p>
       <p>This is the next layer after genomics and discovery investing. Discovery asks whether we will invent more. This thesis asks who captures value when therapies are plentiful and consumers actually show up. Both can win in a growing pie. They are sequential, not substitutes. If AI is going to help grow us out of fiscal pressure — including Medicare and Medicaid — the public needs a win they can feel: more cures, lower cost of care.</p>
-      <p>Three engines decide who captures the rent.</p>
+      <p>Three engines decide who keeps most of the profit.</p>
       <p>The first is unit economics at the patient, not the visit. The right score is revenue per patient times retention times conditions per patient. Visits are activity; that product is franchise value. A company that owns the consumer relationship can add a second and third condition without paying again to acquire the person. AI inside the clinician–patient loop makes that expansion cheaper: better intake, better routing, better adherence nudges.</p>
-      <p>The second engine is friction removal and transaction monetization. Someone has to make the filled prescription cheaper, clearer, and easier to complete. Price comparison, manufacturer-direct programs, coupons, and fulfillment do not diagnose — they clear the path between “the right therapy exists” and “the patient actually got it.” When the menu of therapies explodes, the transaction layer gets more valuable, not less. One business owns the patient. Another owns the transaction. Different P&amp;Ls, same flywheel.</p>
+      <p>The second engine is friction removal and transaction monetization. Someone has to make the filled prescription cheaper, clearer, and easier to complete. Price comparison, manufacturer-direct programs, coupons, and fulfillment do not diagnose — they clear the path between “the right therapy exists” and “the patient actually got it.” When the menu of therapies explodes, the transaction layer gets more valuable, not less. One business owns the patient. Another owns the transaction. Different businesses, each feeding the other.</p>
       <p>The third engine is the loop: measure, understand, act, measure again. If hundreds of therapies exist, you need continuous signal — who needs which one, when, and whether it is working. Labs, wearables, and consumer diagnostics turn the body into a feed. That feed lets an interface company personalize, retain, and expand conditions per patient. Without the loop, abundance is noise. With the loop, abundance becomes a habit.</p>
       <p>Here is how those engines map onto five parts of the value chain.</p>
       <p>The consumer relationship sells ongoing care rather than a single formulation: subscription access, clinician time, an assortment of approved therapies, and a product that widens across conditions. The ideal is simple: each person stays longer, spends more over time, and brings more of their health needs into the same relationship. If that happens, this is the prototype of the whole thesis. If people come for one campaign and leave, the interface story fails here first.</p>
       <p>Friction removal and the transaction sit between “a therapy exists” and “a person got it filled at a price they will accept.” This business monetizes the access path, not the diagnosis. As therapy menus grow, comparison, manufacturer programs, and fulfillment become infrastructure. It wins when more people finish getting the medicine they need, at a price they will pay, through this path. It loses when the big pharmacies, middlemen, or drugmakers build that same easy path themselves and cut it out.</p>
-      <p>Diagnose-and-fit at scale combines tests, longitudinal clinical data, and AI so the right treatment gets matched to the right person — and gets better as volume grows. It is picks-and-shovels for finding and fitting the patient, not the consumer brand. The contribution is decision quality: fewer wrong starts, faster right starts, evidence that compounds with each new case.</p>
+      <p>Diagnose-and-fit at scale combines tests, longitudinal clinical data, and AI so the right treatment gets matched to the right person — and gets better as volume grows. It is the behind-the-scenes toolmaker for finding and fitting the patient, not the consumer brand. The contribution is decision quality: fewer wrong starts, faster right starts, evidence that compounds with each new case.</p>
       <p>Find-and-monitor early matters most where early detection changes outcomes. Liquid biopsy and related monitoring find, select, and then watch whether disease is returning or responding. Medicine becomes a feedback system instead of a one-time event — the clinical version of measure, understand, act, measure again.</p>
       <p>Continuous consumer measurement takes a clinical sensor into everyday life — continuous glucose and adjacent metabolic feeds as a habit, not only as a disease label. Without that feed, the other pieces guess; with it, relationship, access, and diagnose-and-fit can personalize and retain.</p>
       <p>Upstream discovery tools, trial infrastructure, and wholesale distribution still matter. They are durable — and they are not this expression of the idea. The bottleneck has moved to interface, access, fit, find-and-monitor, and continuous measurement.</p>
@@ -54,8 +174,46 @@
     </article>
   </main>
   <footer>
-    <p><strong>Disclaimer:</strong> This note is for informational and educational purposes only. It is not investment advice, a solicitation, or a recommendation to buy, sell, or hold any security. Investing involves risk, including the possible loss of principal. Past performance is not indicative of future results. Do your own research and, if needed, consult a qualified advisor.</p>
+    <p><strong>Disclaimer:</strong> This note, including its paper trades, is for informational and educational purposes only. It is not investment advice, a solicitation, or a recommendation to buy, sell, or hold any security. Investing involves risk, including the possible loss of principal. Past performance is not indicative of future results. Do your own research and, if needed, consult a qualified advisor.</p>
   </footer>
   <script src="./js/research-nav.js"></script>
+  <script>
+  // Chart lightbox, same behavior as the home page's expanded chart: click to open,
+  // Esc / backdrop / close button to close. Without JS the link opens the full-size PNG.
+  (function () {
+    var ov;
+    function close() { if (!ov) return; ov.style.display = 'none'; document.body.style.overflow = ''; if (ov._from) ov._from.focus(); }
+    function open(a) {
+      if (!ov) {
+        ov = document.createElement('div');
+        ov.id = 'chart-lightbox';
+        ov.setAttribute('role', 'dialog');
+        ov.setAttribute('aria-modal', 'true');
+        ov.style.cssText = 'position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,0.88);display:flex;align-items:center;justify-content:center;padding:max(12px,env(safe-area-inset-top)) 12px 12px;box-sizing:border-box;';
+        ov.innerHTML = '<img id="chart-lightbox-img" alt="" style="max-width:96vw;max-height:92vh;width:auto;height:auto;border-radius:6px;background:#0a0e16">' +
+          '<button type="button" id="chart-lightbox-close" aria-label="Close chart" style="position:fixed;top:max(10px,env(safe-area-inset-top));right:10px;z-index:1;width:44px;height:44px;border-radius:50%;border:1px solid #4b5563;background:#111827;color:#e5e7eb;font-size:22px;line-height:1;cursor:pointer;">&times;</button>';
+        document.body.appendChild(ov);
+        ov.addEventListener('click', function (e) { if (e.target === ov) close(); });
+        document.getElementById('chart-lightbox-close').addEventListener('click', close);
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && ov.style.display !== 'none') close(); });
+      }
+      var src = a.querySelector('img');
+      var img = document.getElementById('chart-lightbox-img');
+      img.src = a.getAttribute('href');
+      img.alt = src ? src.alt : '';
+      ov.setAttribute('aria-label', (src && src.alt ? src.alt : 'Chart') + ', expanded');
+      ov._from = a;
+      ov.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+      document.getElementById('chart-lightbox-close').focus();
+    }
+    Array.prototype.forEach.call(document.querySelectorAll('a[data-lightbox]'), function (a) {
+      a.addEventListener('click', function (e) {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return; // let new-tab clicks through
+        e.preventDefault(); open(a);
+      });
+    });
+  })();
+  </script>
 </body>
 </html>
