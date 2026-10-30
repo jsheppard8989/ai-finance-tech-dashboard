@@ -102,6 +102,39 @@
       ]
     },
     {
+      "id": 639,
+      "title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-10-29",
+      "summary": "Will Ahmed argues that WHOOP\u2019s core advantage is the combination of massive longitudinal physiological data, strong engagement, and a subscription model that aligns incentives around member outcomes rather than hardware refreshes. He says the company has just over 4 million members at year-end pace, members wear the device 23.6 hours a day on average, and that has generated more than 50 billion hours of continuous physiological data.\n\nA major part of the discussion centers on WHOOP\u2019s use of AI and proprietary models. Ahmed says WHOOP is building foundational models on top of its sensor data, plus uploaded blood tests, medical records, journal entries, and user feedback, with the goal of predicting when biomarkers may be out of range without directly measuring them. He also says journal participation is already just over 50% daily, which should improve personalization and model quality over time.\n\nRegulation is another key theme. Ahmed describes WHOOP\u2019s blood pressure insights as having triggered an FDA warning letter and public disagreement, but says later guideline changes allowed the feature to remain available in a wellness framing. He contrasts that with WHOOP\u2019s FDA-cleared ECG capability. He repeatedly frames the company as selling membership and insights, not user data, and says the business does not sell customer data.\n\nThe episode also highlights anecdotal clinical value and future roadmap claims: members allegedly use WHOOP signals to catch respiratory rate and temperature changes early, the AI coach is currently around 7.5/10, and WHOOP is building GLP-1-related guidance to help preserve muscle through activity and protein recommendations. Ahmed is optimistic that continuous use, more member interaction, and more labeled data will improve both the product and its predictive power.",
+      "key_takeaway": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
+      "tickers_mentioned": [
+        "WHOOP"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 628,
+      "notable_quotes": [
+        {
+          "speaker": "Will Ahmed",
+          "quote": "On average, a Woop member wears Woop 23.6 hours a day, we have just over 50 billion hours of continuous physiological data."
+        },
+        {
+          "speaker": "Will Ahmed",
+          "quote": "We're building our own models, you know, foundational models within the company that are essentially training on top of this data."
+        },
+        {
+          "speaker": "Will Ahmed",
+          "quote": "They actually sent us a warning letter. There was a big disagreement that played out. That was quite public about it."
+        }
+      ]
+    },
+    {
       "id": 629,
       "title": "Mark Cuban\u2019s Plan to Make Healthcare Affordable",
       "source_type": "podcast",
@@ -316,7 +349,7 @@
       "key_takeaway": "Computer-use agents are approaching superhuman speed and safety, creating a large enterprise automation opportunity if auditability and approval controls can manage risk.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-26",
       "archived_date": null,
@@ -15105,8 +15138,8 @@
       "term": "Healthspan",
       "description": "The period of life spent in good health, free from chronic disease and disability, as distinguished from simple lifespan extension.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-10-29",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consumer willingness to pay directly for healthspan optimization creates premium pricing power and recurring revenue opportunities outside insurance reimbursement.",
@@ -15115,8 +15148,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 606,
-      "last_mentioned_speaker": "Dave Blundin, Alex, Salim"
+      "last_mentioned_episode_id": 628,
+      "last_mentioned_speaker": "Will Ahmed"
     },
     {
       "id": 255,
