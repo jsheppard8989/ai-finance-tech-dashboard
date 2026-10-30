@@ -1857,6 +1857,17 @@
           "Dwarkesh Patel"
         ]
       ]
+    },
+    {
+      "insight_id": 640,
+      "podcast_episode_id": 629,
+      "_note": "Oct 30 2026: card 640 quote ASR name fixes ('open AI' -> 'OpenAI', 'andthropic' -> 'Anthropic'), same swap as card 601 (Oct 20); scoped by episode id because 'open AI' elsewhere (card 404) means open-source AI. Only the misspelled words change.",
+      "replacements": [
+        [
+          "meta-open AI andthropic",
+          "meta-OpenAI Anthropic"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -2978,6 +2989,10 @@
     [
       "Jack Mallors Show",
       "Jack Mallers Show"
+    ],
+    [
+      "Steve Houhead",
+      "Steve Hou"
     ]
   ],
   "name_replacements": [
@@ -3540,6 +3555,10 @@
     [
       "Sergei Bren",
       "Sergey Brin"
+    ],
+    [
+      "Steve Houhead",
+      "Steve Hou"
     ]
   ],
   "ticker_renames": [
