@@ -221,12 +221,19 @@ window.addEventListener('hashchange',openLinked);openLinked();}})();
 """
 
 
-def render_strip(d: dict) -> str:
+def grade_label(grade_date, today: date | None = None) -> str:
+    """'Grades <date>' while the grade date is still ahead (CT), 'Graded <date>' once reached."""
+    today = today or datetime.now(CT).date()
+    gd = date.fromisoformat(str(grade_date)[:10])
+    return ("Grades " if gd > today else "Graded ") + fmt_date(grade_date)
+
+
+def render_strip(d: dict, today: date | None = None) -> str:
     T = d["totals"]
     chips = "".join(
         f'<a class="trap-chip" href="trap-map.html#{e(r["id"])}" style="display:inline-block;margin:0.2rem 0.35rem 0.2rem 0;padding:0.3rem 0.55rem;border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:#e6f1ff;text-decoration:none;font-size:0.75rem;">'
         f'<strong>{e(r["ticker"])}</strong> <span style="color:{"#34d399" if r["lean"] == "Positive" else "#f87171"};">{e(r["lean"])}</span> '
-        f'<span style="color:#9ca3af;">· {e(("Graded " + fmt_date(r["trade"]["grade_date"])) if r["trade"].get("grade_date") else "Holding until stopped out")}'
+        f'<span style="color:#9ca3af;">· {e(grade_label(r["trade"]["grade_date"], today) if r["trade"].get("grade_date") else "Holding until stopped out")}'
         f' · worth {money(r["trade"]["value"])} (paid {money(r["trade"]["cost"])})</span></a>'
         for r in sorted_rows(d))
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'
