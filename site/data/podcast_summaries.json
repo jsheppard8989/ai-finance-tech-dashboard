@@ -1,5 +1,26 @@
 [
   {
+    "id": 626,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "episode_date": "2026-10-29",
+    "summary": "Luke Gromen argues that the feared immediate economic fallout from the Strait of Hormuz disruption has been delayed because China constrained demand, drew down reserves, and global strategic petroleum releases added supply. He says the market underestimated how much buffer existed, but also argues those buffers are now largely exhausted, so the lagged effects may still emerge later through higher food and fertilizer costs.\n\nHe pivots to refining capacity and says strikes and outages have caused real damage that can persist for years because refineries take roughly 10 years to build. Yet he thinks markets are still not fully pricing the stress, even as product markets like diesel have tightened significantly.\n\nA major part of the episode is his view on Iran/U.S. escalation: he frames the conflict as an attrition contest in air-defense missiles and says Iran does not need to beat the U.S. militarily, only to outlast U.S. replenishment and pressure the bond market. He then discusses a strange Treasury move, including a one-day 20 bps drop in the 10-year yield, which he speculates could reflect election-linked expectations for fiscal consolidation.\n\nThe most contrarian section is his AI-credit thesis. Gromen argues that AI job displacement could hit consumer credit, not just corporate capex financing, and he gives a rough math example: $19 trillion of consumer debt, 5% default equals about $1 trillion, versus roughly $2.6 trillion of U.S. banking equity. The market desk segment separately highlights oil strength, gold/copper/uranium setups, and a Capital One put-spread idea tied to consumer-credit risk.",
+    "key_takeaways": [
+      "Luke Gromen says the market underestimated China\u2019s role in absorbing the shock by constraining demand and initially running down strategic reserves.",
+      "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
+      "He says refinery damage matters because refineries take about 10 years to build, making current capacity losses potentially long-lived.",
+      "Gromen frames Iran\u2019s strategy as an attrition war: it only needs to outlast U.S. missile replenishment and pressure U.S. financing conditions.",
+      "He calls a one-day 20 bps drop in the 10-year Treasury yield unusual and suggests it may reflect an election-related fiscal-consolidation signal.",
+      "Gromen says AI could trigger consumer-credit losses through white-collar displacement, not just through direct corporate AI financing stress.",
+      "Patrick Suresna says Capital One is a candidate to express that consumer-credit concern because of its exposure to credit cards and auto lending."
+    ],
+    "investment_thesis": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
+    "key_tickers": [
+      "MSFT",
+      "COF"
+    ]
+  },
+  {
     "id": 625,
     "podcast_name": "The a16z Show",
     "episode_title": "The Startups Rebuilding American Industry | The AD50",
