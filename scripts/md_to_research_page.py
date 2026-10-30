@@ -208,13 +208,15 @@ def main(argv=None) -> int:
     ap.add_argument("--drop-heading", action="append", default=[],
                     help="regex; drop any section whose heading matches (repeatable), e.g. 'Charts: placeholders'")
     ap.add_argument("--keep-relative-links", action="store_true")
-    for n in (1, 2):
+    for n in (1, 2, 3):
         ap.add_argument(f"--chart{n}-caption")
         ap.add_argument(f"--chart{n}-sub", help="smaller second caption line")
         ap.add_argument(f"--chart{n}-alt")
         ap.add_argument(f"--chart{n}-note", help="source note under the chart")
     ap.add_argument("--sync-nav", action="store_true",
                     help="if the title changed, update research-nav.js and every page's noscript link text")
+    ap.add_argument("--strip-comments", action="store_true",
+                    help="remove all HTML comments (incl. CONTENT markers) from the output, as the live page requires")
     ap.add_argument("--strict", action="store_true", help="exit 1 on any warning")
     a = ap.parse_args(argv)
 
@@ -249,7 +251,7 @@ def main(argv=None) -> int:
     body = render(normalize(body_md, a.keep_relative_links, notes))
     page = fill_slot(page, "body", f'      <section class="body" data-slot="body">\n{indent(body)}\n      </section>')
 
-    for n in (1, 2):
+    for n in (1, 2, 3):
         m = slot_re(f"chart{n}").search(page)
         if not m:
             warns.append(f"chart{n} slot missing")
@@ -326,6 +328,8 @@ def main(argv=None) -> int:
     for src in re.findall(r'<img src="([^"]+)"', page):
         if not re.match(r"https?:", src) and not (out.parent / src).is_file():
             warns.append(f"chart image not found next to {out.name}: {src}")
+    if a.strip_comments:
+        page = re.sub(r"[ \t]*<!--.*?-->[ \t]*\n?", "", page, flags=re.S)
     out.write_text(page, encoding="utf-8")
     print(f"wrote {out} ({len(page):,} bytes; body {len(body):,} bytes, "
           f"{body.count('<table>')} table(s), {n_badges} label badge(s))")
