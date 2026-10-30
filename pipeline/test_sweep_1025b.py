@@ -63,7 +63,7 @@ def test_site_data_has_no_old_forms():
 def test_dc_buildout_cleanup():
     html = (SITE / "dc-buildout.html").read_text(encoding="utf-8")
     assert "not yet reviewed" not in html
-    assert "PJM plans an emergency power-buying filing with federal regulators on Thu Oct 29. The cost" in html
+    assert "PJM filed its revised emergency power-buying plan with federal regulators on Thu Oct 29 (docket ER27-330-000)" in html
     assert "falling to $2.27 by Jun 2027" not in html and "expected to fall that fast" not in html
     assert "Kalshi" not in html and "aicomputetracker.com" not in html
     # Round 2b fallback: Ornn link, no Ornn index number
