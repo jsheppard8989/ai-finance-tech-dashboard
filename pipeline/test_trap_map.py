@@ -35,12 +35,14 @@ class TestValidator(unittest.TestCase):
     def test_repo_data_passes(self):
         self.assertEqual(tc.check(DATA, today=TODAY), [])
 
-    def test_six_rows(self):
-        self.assertEqual([r["ticker"] for r in DATA["rows"]], ["HIMS", "ASTS", "FRMI", "TSAT", "MU", "Basket"])
-        self.assertFalse({"IREN", "MP", "TSLA"} & {r["ticker"] for r in DATA["rows"]})
+    def test_five_rows(self):
+        # v9: the HIMS call-spread row is gone; HIMS is only in the Healthcare basket.
+        self.assertEqual([r["ticker"] for r in DATA["rows"]], ["ASTS", "FRMI", "TSAT", "MU", "Basket"])
+        self.assertFalse({"IREN", "MP", "TSLA", "HIMS"} & {r["ticker"] for r in DATA["rows"]})
+        self.assertIn("HIMS", [l["ticker"] for l in rows(DATA)["healthcare-five"]["trade"]["legs"]])
 
     def test_missing_link(self):
-        self.assertFails(lambda d, r: r["hims-q3"]["event"].update(link=""), "missing primary link")
+        self.assertFails(lambda d, r: r["asts-q3"]["event"].update(link=""), "missing primary link")
         self.assertFails(lambda d, r: r["mu-cycle"]["event"].update(link="nope.html"), "not found")
 
     def test_long_reason(self):
@@ -51,10 +53,10 @@ class TestValidator(unittest.TestCase):
         self.assertFails(lambda d, r: r["frmi-q3"].update(notes="Trading is thin."), "'thin'")
 
     def test_past_dated_live_row(self):
-        self.assertFails(lambda d, r: r["hims-q3"]["trade"].update(grade_date="2026-10-29"), "past-dated")
+        self.assertFails(lambda d, r: r["asts-q3"]["trade"].update(grade_date="2026-10-29"), "past-dated")
 
     def test_non_stock_ticker(self):
-        self.assertFails(lambda d, r: r["hims-q3"].update(ticker="SPY"), "non-stock")
+        self.assertFails(lambda d, r: r["asts-q3"].update(ticker="SPY"), "non-stock")
         self.assertFails(lambda d, r: r["healthcare-five"]["trade"]["legs"][0].update(ticker="BTC"), "non-stock")
 
     def test_unconfirmed_date(self):
@@ -82,7 +84,35 @@ class TestValidator(unittest.TestCase):
     def test_benchmark_buys(self):
         b = DATA["benchmark"]["buys"]
         self.assertEqual([(x["date"], x["price"], x["dollars"]) for x in b],
-                         [("2026-10-29", 769.36, 12686.5), ("2026-09-18", 761.69, 5000.0)])
+                         [("2026-10-29", 769.36, 11231.5), ("2026-09-18", 761.69, 5000.0)])
+        self.assertNotIn("hims-q3", DATA["benchmark"]["buys"][0]["rows"])
+
+    def test_direction_matches_trade(self):
+        self.assertEqual({r["id"]: r["direction"] for r in DATA["rows"]},
+                         {"asts-q3": "Net short", "frmi-q3": "Net short", "tsat-notes": "Net short",
+                          "mu-cycle": "Net short", "healthcare-five": "Long"})
+        self.assertFails(lambda d, r: r["asts-q3"].update(direction="Net long"), "doesn't match the trade")
+        self.assertFails(lambda d, r: r["healthcare-five"].update(direction="Net short"), "doesn't match")
+        self.assertFails(lambda d, r: r["mu-cycle"].update(direction="Sideways"), "not one of")
+        self.assertFails(lambda d, r: r["frmi-q3"].pop("direction"), "not one of")
+        self.assertFails(lambda d, r: r["tsat-notes"]["trade"].pop("expression"), "no expression")
+        self.assertFails(lambda d, r: r["asts-q3"]["trade"]["expression"].update(type="Call debit spread"), "expression")
+        self.assertFails(lambda d, r: r["asts-q3"].update(lean="Positive"), "lean")
+        # a call debit spread reads Net long
+        def call(d, r):
+            t = r["asts-q3"]["trade"]
+            t["legs"] = [{"right": "C", "strike": 43, "qty": 1}, {"right": "C", "strike": 50, "qty": -1}]
+            t["text"] = t["text"].replace("put spread", "call spread")
+            t["expression"]["type"] = "Call debit spread"
+            r["asts-q3"].update(direction="Net long", lean="Positive")
+        self.assertEqual(self.errs(call), [])
+
+    def test_healthcare_stop_is_fixed(self):
+        t = rows(DATA)["healthcare-five"]["trade"]
+        self.assertEqual(t["stop_rule"], {"type": "index_level_or_event", "index_below": 90,
+                                          "event": "HIMS Q3 subscribers under 2.891 million", "fixed": True})
+        self.assertIn("never moves", t["stop"])
+        self.assertGreater(t["index_now"], t["stop_rule"]["index_below"])
         self.assertFails(lambda d, r: d["benchmark"]["buys"][0].pop("source"), "missing source")
 
 
@@ -91,10 +121,24 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(build_trap_map.build(write=False), [], "run python3 pipeline/build_trap_map.py")
 
     def test_totals_and_changes(self):
-        self.assertEqual((DATA["totals"]["cost"], DATA["totals"]["value"], DATA["totals"]["spy_value"]),
-                         (17686.5, 17852.4, 17736.85))
+        # v9 snapshot: quotes as of Oct 30, 11:16 AM CT.
+        T = DATA["totals"]
+        self.assertEqual((T["cost"], T["value"], T["spy_value"], T["change"]), (16231.5, 18150.77, 16020.49, 1919.27))
+        self.assertEqual(DATA["quotes_as_of"], "2026-10-30T11:16:00-05:00")
+        self.assertEqual({r["id"]: r["trade"]["change"] for r in DATA["rows"]},
+                         {"asts-q3": 399.0, "frmi-q3": 750.0, "tsat-notes": 125.0, "mu-cycle": 707.5,
+                          "healthcare-five": -62.23})
+        self.assertEqual(tc.check_computed(DATA), [])
         self.assertEqual(len(DATA["changes"]), 6)
         self.assertEqual(DATA["changes"][0]["text"][:10], "Every call")
+
+    def test_computed_checks(self):
+        d = copy.deepcopy(DATA)
+        rows(d)["frmi-q3"]["trade"]["change"] = 1.0
+        d["totals"]["value"] = 1.0
+        e = tc.check_computed(d)
+        self.assertTrue(any("frmi-q3: change" in x for x in e), e)
+        self.assertTrue(any("totals.value" in x for x in e), e)
 
     def test_page(self):
         page = (PIPE.parent / "site" / "trap-map.html").read_text(encoding="utf-8")
@@ -103,13 +147,28 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(page.count("not advice"), 1)
         self.assertIn("paper trades", page)
         self.assertNotIn("Track record", page)
-        for rid in ("hims-q3", "asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five"):
-            self.assertIn(f'<details class="ev" id="{rid}"', page)
+        self.assertNotIn("What changed", page)
+        self.assertNotIn('id="row-hims-q3"', page)
+        self.assertIn("Quotes as of Oct 30, 2026, 11:16 AM CT", page)
+        for rid in ("asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five"):
+            self.assertRegex(page, rf'<tr class="[LS]" id="row-{rid}"')
+            self.assertRegex(page, rf'<details class="ev" id="{rid}" data-dir="[LS]"')
+        self.assertIn('href="index.html"', page)
+        # Old #hims-q3 links land on the Healthcare basket (hidden anchor, no HIMS row).
+        self.assertIn('<details class="ev" id="hims-q3" data-moved-to="healthcare-five" hidden></details>', page)
+        self.assertIn('"hims-q3": "healthcare-five"', page)
         self.assertIn('href="mu-memory-cycle.html"', page)
         self.assertIn('href="healthcare.html"', page)
         idx = (PIPE.parent / "site" / "index.html").read_text(encoding="utf-8")
         self.assertIn('id="trap-map-strip"', idx)
         self.assertEqual(idx.count("TRAP_STRIP:START"), 1)
+        strip = idx[idx.index("TRAP_STRIP:START"):idx.index("TRAP_STRIP:END")]
+        self.assertNotIn("hims-q3", strip)
+        self.assertNotIn("Positive", strip)
+        self.assertNotIn("Negative", strip)
+        self.assertEqual(strip.count("Net short"), 4)
+        for s in ("$16,231.50", "$18,150.77", "$16,020.49", "Quotes as of Oct 30, 11:16 AM CT", ">Long<"):
+            self.assertIn(s, strip)
 
 
 class TestPricePull(unittest.TestCase):
@@ -119,7 +178,7 @@ class TestPricePull(unittest.TestCase):
         with mock.patch.object(fp, "_get", side_effect=OSError("down")), \
              mock.patch.object(fp, "yahoo_quotes", side_effect=OSError("down")):
             warn = fp.pull(d)
-        self.assertEqual(len(warn), 7)
+        self.assertEqual(len(warn), 6)  # 5 rows + SPY
         for r in d["rows"]:
             for k in ("mid", "value", "mid_time"):
                 self.assertEqual(r["trade"].get(k), before[r["id"]].get(k))
@@ -128,15 +187,15 @@ class TestPricePull(unittest.TestCase):
 
     def test_spread_mid_and_grade(self):
         d = copy.deepcopy(DATA)
-        r = rows(d)["hims-q3"]
-        q = {fp.occ("HIMS", "2026-11-13", "C", 30): (3.0, 3.2), fp.occ("HIMS", "2026-11-13", "C", 35): (1.0, 1.2)}
+        r = rows(d)["asts-q3"]
+        q = {fp.occ("ASTS", "2026-11-13", "P", 43): (5.0, 5.2), fp.occ("ASTS", "2026-11-13", "P", 37): (2.0, 2.2)}
         from datetime import datetime
         now = datetime(2026, 11, 10, 18, 0, tzinfo=fp.CT)
         with mock.patch.object(fp, "cboe_quotes", return_value=(q, now)), \
              mock.patch.object(fp, "yahoo_close", side_effect=OSError("x")):
             fp.pull({"rows": [r], "benchmark": d["benchmark"]}, now=now)
-        self.assertEqual(r["trade"]["mid"], 2.0)
-        self.assertEqual(r["trade"]["value"], 2000.0)
+        self.assertEqual(r["trade"]["mid"], 3.0)
+        self.assertEqual(r["trade"]["value"], 2100.0)
         self.assertEqual((r["status"], r["outcome"]), ("graded", "Right"))
 
     def test_never_places_orders(self):
