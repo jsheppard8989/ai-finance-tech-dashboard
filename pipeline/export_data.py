@@ -1003,22 +1003,9 @@ def export_website_data():
 
     _stamp_debate_contract_publishable()
 
-    # Trap Map retired 2026-10-22: trap_map_home.json is no longer regenerated.
+    # Trap Map v5 (2026-10-30) builds from site/data/trap_map.json via build_trap_map.py.
 
     return stats
-
-
-def _regenerate_trap_home() -> None:
-    """Regenerate trap_map_home.json from trap_map.json for home page summary."""
-    try:
-        from regenerate_trap_home import regenerate_trap_home, write_trap_home, TRAP_MAP_PATH, TRAP_HOME_PATH
-        if not TRAP_MAP_PATH.is_file():
-            return
-        home_data = regenerate_trap_home()
-        write_trap_home(home_data)
-        print(f"  ✓ Regenerated trap_map_home.json ({len(home_data.get('last_monitored', []))} monitored, {len(home_data.get('upcoming_watches', []))} upcoming)")
-    except Exception as e:
-        print(f"  ⚠ Could not regenerate trap_map_home.json: {e}")
 
 
 def _stamp_debate_contract_publishable() -> None:

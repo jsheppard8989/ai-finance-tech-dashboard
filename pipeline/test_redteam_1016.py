@@ -55,17 +55,7 @@ class RedTeam1016Tests(unittest.TestCase):
         src = (PIPE / "export_data.py").read_text(encoding="utf-8")
         self.assertIn('str(w.get("friday_iso") or "").strip() == own', src)
 
-    @unittest.skipUnless((Path(__file__).resolve().parent.parent / "site" / "trap-map.html").exists(), "Trap Map retired 2026-10-22")
-    def test_trap_map_asts_and_last_monitored(self):
-        t = (SITE / "trap-map.html").read_text(encoding="utf-8")
-        self.assertIn("Oct 15 close ($44.46), ASTS fell about 26.7%", t)
-        self.assertIn("$777.22 to $771.79, down about 0.7%", t)
-        self.assertNotIn("lender test on leased capacity around Nov 10", t)
-        for f in (SITE / "data" / "trap_map_home.json", PIPE / "trap_home_override.json"):
-            d = json.loads(f.read_text(encoding="utf-8"))
-            for row in d["last_monitored"]:
-                m = re.fullmatch(r"Checked (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{1,2})", row["updated_at"])
-                self.assertIsNotNone(m, row)
+
 
 
 if __name__ == "__main__":

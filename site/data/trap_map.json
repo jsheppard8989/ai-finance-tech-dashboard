@@ -1,0 +1,515 @@
+{
+ "schema_version": 4,
+ "as_of": "2026-10-29T15:00:00-05:00",
+ "title": "Trap Map",
+ "purpose": "Stocks where we think the market has it wrong, each with a dated event that will prove us right or wrong.",
+ "how_we_grade": "Every call names a paper trade priced the day it was added. On the grade date, the call is Right if the trade is worth more than it cost at that day's close, and Wrong otherwise. Nothing else decides the grade. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good.",
+ "disclaimer": "Our opinion, not advice. Calls are tracked as paper trades only.",
+ "rules": {
+  "graded_rows_on_main_screen_days": 14,
+  "price_source": "Yahoo Finance option mids and daily closes",
+  "grade_rule": "Right if the paper trade's value at the grade-date close is above its debit; Wrong otherwise."
+ },
+ "rows": [
+  {
+   "id": "hims-q3",
+   "ticker": "HIMS",
+   "company": "Hims & Hers",
+   "lean": "Positive",
+   "horizon": "Nov 9 report",
+   "reason": "We think the market underprices subscriber growth under the Novo deal.",
+   "event": {
+    "name": "Q3 results",
+    "date": "2026-11-09",
+    "when": "Mon Nov 9, after the close",
+    "link": "https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Third-Quarter-2026-Financial-Results-on-November-9-2026/default.aspx",
+    "link_label": "Hims & Hers release, Oct 12",
+    "date_confirmed": true,
+    "date_source": "Hims & Hers release, Oct 12"
+   },
+   "trade": {
+    "text": "Nov 13 $30/$35 call spread, 10 contracts, $1.455 debit at mid (stock $29.68)",
+    "max_loss": "$1,455",
+    "quoted": "Yahoo, Oct 29, 1:57 PM CT",
+    "grade_date": "2026-11-10",
+    "grade_rule": "Right if the spread is worth more than its debit at the Nov 10 close; Wrong otherwise.",
+    "mid": 1.47,
+    "value": 1470.0,
+    "cost": 1455.0,
+    "mid_time": "2026-10-29T15:42:00-05:00",
+    "posted": "2026-10-29",
+    "expiry": "2026-11-13",
+    "underlying": "HIMS",
+    "contracts": 10,
+    "legs": [
+     {
+      "right": "C",
+      "strike": 30,
+      "qty": 1
+     },
+     {
+      "right": "C",
+      "strike": 35,
+      "qty": -1
+     }
+    ],
+    "mid_source": "Yahoo Finance"
+   },
+   "status": "live",
+   "owner": "JG",
+   "date_added": "2026-10-15",
+   "last_reviewed": "2026-10-29",
+   "why_we_hold": "Subscriber count and revenue per subscriber.",
+   "what_proves_it": "Q3 subscribers at or above 3.00M and revenue per subscriber of at least $90 (the count includes subscribers from the Eucalyptus purchase).",
+   "kind": "spread",
+   "history": [
+    {
+     "at": "2026-10-29T15:00:00-05:00",
+     "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+    },
+    {
+     "at": "2026-10-29T14:57:00-05:00",
+     "text": "Added a dated paper trade to every open row."
+    }
+   ],
+   "next_earnings": "2026-11-09",
+   "earnings_reason": "The trade is set up to hold through the Nov 9 report it is meant to test."
+  },
+  {
+   "id": "asts-q3",
+   "ticker": "ASTS",
+   "company": "AST SpaceMobile",
+   "lean": "Negative",
+   "horizon": "Nov 9 update",
+   "reason": "The market underprices how fast building costs are outrunning cash raised without selling stock.",
+   "event": {
+    "name": "Q3 business update",
+    "date": "2026-11-09",
+    "when": "Mon Nov 9, 4 PM CT",
+    "link": "https://www.businesswire.com/news/home/20261026877819/en/AST-SpaceMobile-to-Host-Third-Quarter-2026-Business-Update-Call-on-November-9-2026",
+    "link_label": "AST SpaceMobile release, Oct 26",
+    "date_confirmed": true,
+    "date_source": "AST SpaceMobile release, Oct 26"
+   },
+   "trade": {
+    "text": "Nov 13 $43/$37 put spread, 7 contracts, $2.295 debit at mid (stock $43.38)",
+    "max_loss": "$1,607",
+    "quoted": "Yahoo, Oct 29, 1:57 PM CT",
+    "grade_date": "2026-11-10",
+    "grade_rule": "Right if the spread is worth more than its debit at the Nov 10 close; Wrong otherwise.",
+    "mid": 2.385,
+    "value": 1669.5,
+    "cost": 1606.5,
+    "mid_time": "2026-10-29T15:42:00-05:00",
+    "posted": "2026-10-29",
+    "expiry": "2026-11-13",
+    "underlying": "ASTS",
+    "contracts": 7,
+    "legs": [
+     {
+      "right": "P",
+      "strike": 43,
+      "qty": 1
+     },
+     {
+      "right": "P",
+      "strike": 37,
+      "qty": -1
+     }
+    ],
+    "mid_source": "Yahoo Finance"
+   },
+   "status": "live",
+   "owner": "JG",
+   "date_added": "2026-10-14",
+   "last_reviewed": "2026-10-29",
+   "why_we_hold": "Quarterly spending on satellites, the share count, and any new stock or convertible bond sales.",
+   "what_proves_it": "Q3 capital spending of at least $429.6M, and either the share count tops 310.0M or there is a new stock sale or convertible bond offering.",
+   "kind": "spread",
+   "history": [
+    {
+     "at": "2026-10-29T15:00:00-05:00",
+     "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+    },
+    {
+     "at": "2026-10-29T14:57:00-05:00",
+     "text": "Added a dated paper trade to every open row."
+    },
+    {
+     "at": "2026-10-27T12:00:00-05:00",
+     "text": "AST SpaceMobile: the facts that would prove us wrong were updated."
+    }
+   ],
+   "next_earnings": "2026-11-09",
+   "earnings_reason": "The trade is set up to hold through the Nov 9 update it is meant to test."
+  },
+  {
+   "id": "frmi-q3",
+   "ticker": "FRMI",
+   "company": "Fermi",
+   "lean": "Negative",
+   "horizon": "Nov 12 report",
+   "reason": "The market underprices the risk that the auditor's warning about the company's survival stays and no paying tenant is signed.",
+   "event": {
+    "name": "Q3 results",
+    "date": "2026-11-12",
+    "when": "Thu Nov 12, 6 AM CT, before the open",
+    "link": "https://www.nasdaq.com/press-release/fermi-announces-third-quarter-2026-earnings-release-and-call-date-2026-10-12",
+    "link_label": "Fermi release, Oct 12",
+    "date_confirmed": true,
+    "date_source": "Fermi release, Oct 12"
+   },
+   "trade": {
+    "text": "Nov 13 $3.00/$2.50 put spread, 60 contracts, $0.225 debit at mid (stock $2.835); few contracts trade, so a fill at mid isn't assured",
+    "max_loss": "$1,350",
+    "quoted": "Yahoo, Oct 29, 1:57 PM CT",
+    "grade_date": "2026-11-12",
+    "grade_rule": "Right if the spread is worth more than its debit at the Nov 12 close; Wrong otherwise.",
+    "mid": 0.25,
+    "value": 1500.0,
+    "cost": 1350.0,
+    "mid_time": "2026-10-29T15:42:00-05:00",
+    "posted": "2026-10-29",
+    "expiry": "2026-11-13",
+    "underlying": "FRMI",
+    "contracts": 60,
+    "legs": [
+     {
+      "right": "P",
+      "strike": 3.0,
+      "qty": 1
+     },
+     {
+      "right": "P",
+      "strike": 2.5,
+      "qty": -1
+     }
+    ],
+    "mid_source": "Yahoo Finance"
+   },
+   "status": "live",
+   "owner": "JG",
+   "date_added": "2026-10-14",
+   "last_reviewed": "2026-10-29",
+   "why_we_hold": "Whether the auditor's warning is dropped, cash on hand, and any signed tenant.",
+   "what_proves_it": "The auditor's warning stays in the Q3 report and no paying tenant is signed.",
+   "kind": "spread",
+   "history": [
+    {
+     "at": "2026-10-29T15:00:00-05:00",
+     "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+    },
+    {
+     "at": "2026-10-29T14:57:00-05:00",
+     "text": "Added a dated paper trade to every open row."
+    },
+    {
+     "at": "2026-10-28T12:00:00-05:00",
+     "text": "Fermi's report date corrected to Nov 12, as the company announced on Oct 12."
+    }
+   ],
+   "next_earnings": "2026-11-12",
+   "earnings_reason": "The trade is set up to hold through the Nov 12 report it is meant to test."
+  },
+  {
+   "id": "tsat-notes",
+   "ticker": "TSAT",
+   "company": "Telesat",
+   "lean": "Negative",
+   "horizon": "Debt due in December",
+   "reason": "Notes of about US$387M are due in December, and no funded refinancing has been announced.",
+   "event": {
+    "name": "Notes come due",
+    "date": "2026-12-07",
+    "when": "Due Sun Dec 6, paid Mon Dec 7; graded at the Dec 8 close",
+    "link": "https://www.globenewswire.com/news-release/2026/10/29/3391128/0/en/telesat-reports-results-for-the-three-and-nine-months-ended-september-30-2026.html",
+    "link_label": "Telesat Q3 release, Oct 29",
+    "date_confirmed": true,
+    "date_source": "Telesat Q3 filing, Oct 29: notes maturing December 2026; due date Dec 6 per the notes' terms"
+   },
+   "trade": {
+    "text": "Dec 18 $40/$30 put spread, 5 contracts, $2.95 debit at mid (stock $41.89); very little open interest, so the mid is a rough guide",
+    "max_loss": "$1,475",
+    "quoted": "Yahoo, Oct 29, 1:57 PM CT",
+    "grade_date": "2026-12-08",
+    "grade_rule": "Right if the spread is worth more than its debit at the Dec 8 close; Wrong otherwise.",
+    "mid": 2.525,
+    "value": 1262.5,
+    "cost": 1475.0,
+    "mid_time": "2026-10-29T15:42:00-05:00",
+    "posted": "2026-10-29",
+    "expiry": "2026-12-18",
+    "underlying": "TSAT",
+    "contracts": 5,
+    "legs": [
+     {
+      "right": "P",
+      "strike": 40,
+      "qty": 1
+     },
+     {
+      "right": "P",
+      "strike": 30,
+      "qty": -1
+     }
+    ],
+    "mid_source": "Yahoo Finance"
+   },
+   "status": "live",
+   "owner": "JG",
+   "date_added": "2026-10-14",
+   "last_reviewed": "2026-10-29",
+   "why_we_hold": "Whether a funded refinancing is filed before the notes come due.",
+   "what_proves_it": "No funded refinancing is in place when the notes come due.",
+   "main_risk": "Main risk: a reported C$3.2B lender rescue proposal (reported by the Wall Street Journal).",
+   "notes": "2026 senior secured notes due Dec 6",
+   "kind": "spread",
+   "history": [
+    {
+     "at": "2026-10-29T15:00:00-05:00",
+     "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+    },
+    {
+     "at": "2026-10-29T14:57:00-05:00",
+     "text": "Added a dated paper trade to every open row."
+    },
+    {
+     "at": "2026-10-29T14:59:00-05:00",
+     "text": "Telesat's call is graded at the Dec 8 close."
+    }
+   ],
+   "next_earnings": null
+  },
+  {
+   "id": "mu-cycle",
+   "ticker": "MU",
+   "company": "Micron",
+   "lean": "Negative",
+   "horizon": "Long-term view, graded at expiry Dec 15, 2028",
+   "reason": "A low price-to-earnings ratio looks like safety, but it rests on peak memory profits.",
+   "event": {
+    "name": "Paper trade expires",
+    "date": "2028-12-15",
+    "when": "Next check-in: Micron's next quarterly report (date not yet set)",
+    "link": "mu-memory-cycle.html",
+    "link_label": "Our Micron research page",
+    "date_confirmed": true,
+    "date_source": "Option expiry, Dec 15, 2028"
+   },
+   "trade": {
+    "text": "Dec 15, 2028 $700/$500 put spread, 1 contract, $68 debit at mid (stock $957.72)",
+    "max_loss": "$6,800",
+    "quoted": "Yahoo, Oct 29, 8:32 AM CT",
+    "grade_date": "2028-12-15",
+    "grade_rule": "Right if the spread is worth more than its debit at the Dec 15, 2028 close (expiry); Wrong otherwise.",
+    "mid": 67.975,
+    "value": 6797.5,
+    "cost": 6800.0,
+    "mid_time": "2026-10-29T15:42:00-05:00",
+    "posted": "2026-10-29",
+    "expiry": "2028-12-15",
+    "underlying": "MU",
+    "contracts": 1,
+    "legs": [
+     {
+      "right": "P",
+      "strike": 700,
+      "qty": 1
+     },
+     {
+      "right": "P",
+      "strike": 500,
+      "qty": -1
+     }
+    ],
+    "mid_source": "Yahoo Finance"
+   },
+   "status": "new",
+   "owner": "JG",
+   "date_added": "2026-10-29",
+   "last_reviewed": "2026-10-29",
+   "why_we_hold": "Memory prices and Micron's profit margins are near peak levels today.",
+   "what_proves_it": "Memory prices and profit margins fall enough that Micron closes below $632 (the break-even) at expiry.",
+   "research": {
+    "url": "https://jsheppard8989.github.io/ai-finance-tech-dashboard/mu-memory-cycle.html",
+    "label": "Read our Micron research"
+   },
+   "kind": "spread",
+   "history": [
+    {
+     "at": "2026-10-29T15:00:00-05:00",
+     "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+    },
+    {
+     "at": "2026-10-29T14:57:00-05:00",
+     "text": "Added a dated paper trade to every open row."
+    },
+    {
+     "at": "2026-10-29T14:58:00-05:00",
+     "text": "Added Micron (Negative) after our Micron research page went live."
+    }
+   ],
+   "next_earnings": "2026-12-23",
+   "earnings_reason": "A long-term view on the memory cycle, so the trade spans many quarterly reports by design."
+  },
+  {
+   "id": "healthcare-five",
+   "ticker": "Basket",
+   "company": "Healthcare Abundance (HIMS, GDRX, TEM, GH, ABT)",
+   "lean": "Positive",
+   "horizon": "Long-term hold",
+   "reason": "Five companies making care cheaper and easier to get.",
+   "event": {
+    "name": "No end date",
+    "date": null,
+    "when": "Held until a stop is hit",
+    "link": "https://jsheppard8989.github.io/ai-finance-tech-dashboard/healthcare.html",
+    "link_label": "Read our Healthcare research",
+    "date_confirmed": true,
+    "date_source": "No end date: held until the fixed stop is hit"
+   },
+   "trade": {
+    "text": "$1,000 each in HIMS ($28.09), GDRX ($3.33), TEM ($77.97), GH ($183.10) and ABT ($102.20), bought Sep 18 at about 9:30 AM CT",
+    "max_loss": "$5,000",
+    "cost": 5000.0,
+    "value": 5152.9,
+    "mid": null,
+    "mid_time": "2026-10-29T15:00:00-05:00",
+    "posted": "2026-09-18",
+    "legs": [
+     {
+      "ticker": "HIMS",
+      "entry": 28.09,
+      "dollars": 1000,
+      "shares": 35.5998576005696,
+      "close": 29.67,
+      "value": 1056.25
+     },
+     {
+      "ticker": "GDRX",
+      "entry": 3.33,
+      "dollars": 1000,
+      "shares": 300.3003003003003,
+      "close": 3.54,
+      "value": 1063.06
+     },
+     {
+      "ticker": "TEM",
+      "entry": 77.97,
+      "dollars": 1000,
+      "shares": 12.825445684237527,
+      "close": 77.84,
+      "value": 998.33
+     },
+     {
+      "ticker": "GH",
+      "entry": 183.1,
+      "dollars": 1000,
+      "shares": 5.461496450027307,
+      "close": 185.31,
+      "value": 1012.07
+     },
+     {
+      "ticker": "ABT",
+      "entry": 102.2,
+      "dollars": 1000,
+      "shares": 9.784735812133071,
+      "close": 104.57,
+      "value": 1023.19
+     }
+    ],
+    "stop": "Stop: the basket index (100 at entry) closes below 90, or HIMS Q3 subscribers come in under 2.891 million. The stop is fixed and never moves.",
+    "index_now": 103.1,
+    "grade_rule": "Graded only when stopped out: Right if we exit above cost, Wrong below.",
+    "quoted": "Prices: Yahoo closes, Oct 29",
+    "stop_rule": {
+     "type": "index_level_or_event",
+     "index_below": 90,
+     "event": "HIMS Q3 subscribers under 2.891 million",
+     "fixed": true
+    },
+    "grade_date": null
+   },
+   "status": "holding",
+   "owner": "JG",
+   "date_added": "2026-09-18",
+   "last_reviewed": "2026-10-29",
+   "what_proves_it": "HIMS keeps adding subscribers (Q3 at or above 2.891M on Nov 9), TEM and GH keep growing revenue, and GDRX revenue finally moves above its $194–203M range.",
+   "why_we_hold": "Five companies making care cheaper and easier to get: online prescriptions (HIMS), drug price discounts (GDRX), AI-driven cancer testing (TEM, GH), and a big diagnostics maker (ABT).",
+   "kind": "basket",
+   "history": []
+  }
+ ],
+ "past_calls": [],
+ "benchmark": {
+  "name": "S&P 500 (SPY)",
+  "ticker": "SPY",
+  "spy_close_now": 769.36,
+  "spy_close_time": "2026-10-29T15:00:00-05:00",
+  "spy_close_source": "Yahoo Finance daily close (query1.finance.yahoo.com/v8/finance/chart/SPY), pulled Oct 30, 2026",
+  "buys": [
+   {
+    "date": "2026-10-29",
+    "price": 769.36,
+    "dollars": 12686.5,
+    "shares": 16.48968,
+    "source": "Yahoo Finance daily close (query1.finance.yahoo.com/v8/finance/chart/SPY), pulled Oct 30, 2026",
+    "rows": [
+     "hims-q3",
+     "asts-q3",
+     "frmi-q3",
+     "tsat-notes",
+     "mu-cycle"
+    ]
+   },
+   {
+    "date": "2026-09-18",
+    "price": 761.69,
+    "dollars": 5000.0,
+    "shares": 6.56435,
+    "source": "Yahoo Finance daily close (query1.finance.yahoo.com/v8/finance/chart/SPY), pulled Oct 30, 2026",
+    "rows": [
+     "healthcare-five"
+    ]
+   }
+  ]
+ },
+ "totals": {
+  "cost": 17686.5,
+  "value": 17852.4,
+  "spy_value": 17736.85,
+  "computed_by": "pipeline/build_trap_map.py"
+ },
+ "changes": [
+  {
+   "date": "2026-10-29",
+   "at": "2026-10-29T15:00:00-05:00",
+   "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+  },
+  {
+   "date": "2026-10-29",
+   "at": "2026-10-29T14:59:00-05:00",
+   "text": "Telesat's call is graded at the Dec 8 close."
+  },
+  {
+   "date": "2026-10-29",
+   "at": "2026-10-29T14:58:00-05:00",
+   "text": "Added Micron (Negative) after our Micron research page went live."
+  },
+  {
+   "date": "2026-10-29",
+   "at": "2026-10-29T14:57:00-05:00",
+   "text": "Added a dated paper trade to every open row."
+  },
+  {
+   "date": "2026-10-28",
+   "at": "2026-10-28T12:00:00-05:00",
+   "text": "Fermi's report date corrected to Nov 12, as the company announced on Oct 12."
+  },
+  {
+   "date": "2026-10-27",
+   "at": "2026-10-27T12:00:00-05:00",
+   "text": "AST SpaceMobile: the facts that would prove us wrong were updated."
+  }
+ ]
+}

@@ -55,21 +55,7 @@ class RedTeam1015Tests(unittest.TestCase):
         h = (SITE / "index.html").read_text(encoding="utf-8")
         self.assertIn("since ${startDate}", h)
 
-    @unittest.skipUnless((Path(__file__).resolve().parent.parent / "site" / "trap-map.html").exists(), "Trap Map retired 2026-10-22")
-    def test_trap_map_dates(self):
-        t = (SITE / "trap-map.html").read_text(encoding="utf-8")
-        self.assertNotIn("Sun Dec 6", t)
-        self.assertIn("Dec 6 (Sunday; payment due next business day, Dec 7)", t)
-        self.assertIn("§113", t)
-        self.assertNotIn("−15.2%", t)
-        self.assertIn("Oct 15 close ($44.46)", t)  # refreshed Oct 16 (Red Team N-3)
-        self.assertNotIn("As of Oct 12, Telesat", t)
-        self.assertNotIn("checked Oct 3", t)
-        for f in (SITE / "data" / "trap_map_home.json", ROOT / "pipeline" / "trap_home_override.json"):
-            d = json.loads(f.read_text(encoding="utf-8"))
-            labels = {u["trap_id"]: u["date_label"] for u in d["upcoming_watches"]}
-            self.assertFalse(labels["tsat"].startswith("Sun"))
-            self.assertEqual(labels["hims"], "Mon Nov 9")
+
 
 
 if __name__ == "__main__":
