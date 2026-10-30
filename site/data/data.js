@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-30T10:21:48.287350",
+  generatedAt: "2026-10-30T10:28:41.330241",
   chartsVersion: "2026-10-30T06:56:43.402020",
   priceSnapshot: {
   "AAPL": {
@@ -59571,7 +59571,7 @@ const dashboardData = {
     "mention_score_decayed": 1,
     "last_main_idea": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-29 \u2022 WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
-    "last_proof_snippet": "On average, a Woop member wears Woop 23. 6 hours a day, we have just over 50 billion hours of continuous physiological data. So it's one of the largest health data sets in the world.",
+    "last_proof_snippet": "On average, a [WHOOP] member wears [WHOOP] 23.6 hours a day, we have just over 50 billion hours of continuous physiological data. So it's one of the largest health data sets in the world.",
     "supporting_takeaway": "Ahmed says WHOOP reached 1 million members after about 12 years, then scaled to 2 million in roughly 18 months and to around 3 million in about six months.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -59596,10 +59596,10 @@ const dashboardData = {
     "last_episode_date": "2026-10-13",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "NuBank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
+    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
     "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
-    "supporting_takeaway": "David V\u00e9lez says NuBank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
+    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -59650,7 +59650,7 @@ const dashboardData = {
     "last_episode_date": "2026-10-29",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "Defense-led capex is de-risking new U.S. industrial capacity, creating durable dual-use manufacturing winners in components, tooling, and process software.",
+    "last_main_idea": "Defense spending is making new U.S. factories less risky to build, creating durable dual-use manufacturing winners in components, tooling, and process software.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-29 \u2022 The Startups Rebuilding American Industry | The AD50",
     "last_proof_snippet": "You don't have a defense industrial base without an industrial base. It's been a real wake-up call that we need to get building again. AI will be a phenomenal tool that can be used in the physical world.",
     "supporting_takeaway": "Connor Love said AI will be powerful in the physical world, but it still cannot directly perform manual tasks like wrenching.",
@@ -59677,7 +59677,7 @@ const dashboardData = {
     "last_episode_date": "2026-10-29",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "Defense-led capex is de-risking new U.S. industrial capacity, creating durable dual-use manufacturing winners in components, tooling, and process software.",
+    "last_main_idea": "Defense spending is making new U.S. factories less risky to build, creating durable dual-use manufacturing winners in components, tooling, and process software.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-29 \u2022 The Startups Rebuilding American Industry | The AD50",
     "last_proof_snippet": "You don't have a defense industrial base without an industrial base. It's been a real wake-up call that we need to get building again. AI will be a phenomenal tool that can be used in the physical world.",
     "supporting_takeaway": "Connor Love said AI will be powerful in the physical world, but it still cannot directly perform manual tasks like wrenching.",
@@ -59758,7 +59758,7 @@ const dashboardData = {
     "last_episode_date": "2026-10-28",
     "mention_score": 1,
     "mention_score_decayed": 0.98,
-    "last_main_idea": "Rising GPU rental rates and strong Anthropic margins suggest AI compute economics remain profitable enough to support the capex cycle despite falling token prices.",
+    "last_main_idea": "Rising GPU rental rates and strong Anthropic margins suggest AI compute economics remain profitable enough to keep the data center building going despite falling token prices.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-28 \u2022 Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
     "last_proof_snippet": "There's Sarmaya thematic ETF, built for a return to Tangible's learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it, Max. All right, thanks for kicking it off, Jack.",
     "supporting_takeaway": "Steve Hou says token prices have been falling since late May while GPU rental rates are rising, which he reads as AI proliferation rather than collapse.",
@@ -61047,7 +61047,7 @@ const dashboardData = {
     "mention_score_decayed": 0.68,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
-    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
+    "last_proof_snippet": "We don't need to compete with [Anthropic] and [OpenAI] on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
     "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-27T07:09:17.809769",
@@ -63401,73 +63401,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 459,
-    "name": "Satya Nadella",
-    "slug": "satya-nadella",
-    "bio": "Satya Nadella is the CEO of Microsoft, where he has been instrumental in transforming the company into a leader in cloud computing and artificial intelligence. Under his leadership, Microsoft has focused on innovation and technology that serves humanity, emphasizing the importance of responsible AI development. Nadella's vision has significantly increased Microsoft's market value and stock performance.",
-    "known_for": "Transforming Microsoft into a leader in cloud computing and AI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and insightful",
-    "voice_style": "Analytical with a focus on practical implications",
-    "voice_delivery_notes": "Paced with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-16 15:21:39",
-    "last_seen": "2026-09-16 15:21:39",
-    "last_episode_title": "Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.37,
-    "last_main_idea": "The future of AI investment lies in companies that prioritize reliability, competition, and control over AI technologies while addressing economic impacts and interoperability.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Enterprises must focus on AI solutions that allow for customization and control over data privacy.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-16T12:12:07.944779",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Satya Nadella",
-      "fetched_at": "2026-09-16T17:12:07.944602+00:00",
-      "cliff_notes": "Satya Nadella has been at the helm of Microsoft since February 2014, succeeding Steve Ballmer. His tenure has been marked by a strategic pivot towards cloud computing and AI, which has not only revitalized the company's growth but also positioned it as a leader in these critical areas. Nadella's approach emphasizes empathy and collaboration, fostering a culture of innovation within Microsoft. He has overseen significant investments in Azure, Microsoft's cloud platform, which has become a cornerstone of the company's business strategy. Nadella's leadership style is characterized by a focus on inclusivity and a commitment to using technology to empower individuals and organizations. His vision for Microsoft is to create technology that serves humanity, ensuring that advancements in AI and other fields are developed responsibly and ethically. This has resonated with investors and tech enthusiasts alike, as Microsoft continues to thrive in an increasingly competitive landscape.",
-      "derived": {
-        "current_role": "CEO of Microsoft",
-        "former_positions": "Vice President of Business Solutions; Vice President of Server & Tools; Senior Vice President of Research and Development for the Online Services Division",
-        "education": "Master's in Business Administration from the University of Chicago; Master's in Computer Science from the University of Wisconsin-Milwaukee; Bachelor's in Electrical Engineering from Manipal Institute of Technology",
-        "books_or_works": "Hit Refresh"
-      },
-      "infobox": {
-        "Born": "August 19, 1967",
-        "Nationality": "Indian-American"
-      },
-      "lead_paragraphs": [
-        "Satya Nadella has been at the helm of Microsoft since February 2014, succeeding Steve Ballmer. His tenure has been marked by a strategic pivot towards cloud computing and AI, which has not only revitalized the company's growth but also positioned it as a leader in these critical areas. Nadella's approach emphasizes empathy and collaboration, fostering a culture of innovation within Microsoft.",
-        "He has overseen significant investments in Azure, Microsoft's cloud platform, which has become a cornerstone of the company's business strategy. Nadella's leadership style is characterized by a focus on inclusivity and a commitment to using technology to empower individuals and organizations. His vision for Microsoft is to create technology that serves humanity, ensuring that advancements in AI and other fields are developed responsibly and ethically.",
-        "This has resonated with investors and tech enthusiasts alike, as Microsoft continues to thrive in an increasingly competitive landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Computing Leadership",
-          "body": "Nadella has transformed Microsoft into a dominant player in cloud computing, particularly through the development and expansion of Azure, which has become a key revenue driver for the company."
-        },
-        {
-          "heading": "AI and Technology Innovation",
-          "body": "Under Nadella's leadership, Microsoft has heavily invested in artificial intelligence, focusing on creating tools that enhance productivity and empower users."
-        },
-        {
-          "heading": "Cultural Transformation",
-          "body": "Nadella has fostered a culture of empathy and collaboration at Microsoft, encouraging innovation and inclusivity within the workforce."
-        },
-        {
-          "heading": "Market Performance",
-          "body": "Since becoming CEO, Nadella has overseen a significant increase in Microsoft's stock price and market value, reflecting investor confidence in his strategic vision."
-        }
-      ]
-    }
-  },
-  {
     "id": 40,
     "name": "Garrett Langley",
     "slug": "garrett-langley",
@@ -63525,6 +63458,73 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 459,
+    "name": "Satya Nadella",
+    "slug": "satya-nadella",
+    "bio": "Satya Nadella is the CEO of Microsoft, where he has been instrumental in transforming the company into a leader in cloud computing and artificial intelligence. Under his leadership, Microsoft has focused on innovation and technology that serves humanity, emphasizing the importance of responsible AI development. Nadella's vision has significantly increased Microsoft's market value and stock performance.",
+    "known_for": "Transforming Microsoft into a leader in cloud computing and AI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and insightful",
+    "voice_style": "Analytical with a focus on practical implications",
+    "voice_delivery_notes": "Paced with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-16 15:21:39",
+    "last_seen": "2026-09-16 15:21:39",
+    "last_episode_title": "Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.36,
+    "last_main_idea": "The future of AI investment lies in companies that prioritize reliability, competition, and control over AI technologies while addressing economic impacts and interoperability.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Enterprises must focus on AI solutions that allow for customization and control over data privacy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-16T12:12:07.944779",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Satya Nadella",
+      "fetched_at": "2026-09-16T17:12:07.944602+00:00",
+      "cliff_notes": "Satya Nadella has been at the helm of Microsoft since February 2014, succeeding Steve Ballmer. His tenure has been marked by a strategic pivot towards cloud computing and AI, which has not only revitalized the company's growth but also positioned it as a leader in these critical areas. Nadella's approach emphasizes empathy and collaboration, fostering a culture of innovation within Microsoft. He has overseen significant investments in Azure, Microsoft's cloud platform, which has become a cornerstone of the company's business strategy. Nadella's leadership style is characterized by a focus on inclusivity and a commitment to using technology to empower individuals and organizations. His vision for Microsoft is to create technology that serves humanity, ensuring that advancements in AI and other fields are developed responsibly and ethically. This has resonated with investors and tech enthusiasts alike, as Microsoft continues to thrive in an increasingly competitive landscape.",
+      "derived": {
+        "current_role": "CEO of Microsoft",
+        "former_positions": "Vice President of Business Solutions; Vice President of Server & Tools; Senior Vice President of Research and Development for the Online Services Division",
+        "education": "Master's in Business Administration from the University of Chicago; Master's in Computer Science from the University of Wisconsin-Milwaukee; Bachelor's in Electrical Engineering from Manipal Institute of Technology",
+        "books_or_works": "Hit Refresh"
+      },
+      "infobox": {
+        "Born": "August 19, 1967",
+        "Nationality": "Indian-American"
+      },
+      "lead_paragraphs": [
+        "Satya Nadella has been at the helm of Microsoft since February 2014, succeeding Steve Ballmer. His tenure has been marked by a strategic pivot towards cloud computing and AI, which has not only revitalized the company's growth but also positioned it as a leader in these critical areas. Nadella's approach emphasizes empathy and collaboration, fostering a culture of innovation within Microsoft.",
+        "He has overseen significant investments in Azure, Microsoft's cloud platform, which has become a cornerstone of the company's business strategy. Nadella's leadership style is characterized by a focus on inclusivity and a commitment to using technology to empower individuals and organizations. His vision for Microsoft is to create technology that serves humanity, ensuring that advancements in AI and other fields are developed responsibly and ethically.",
+        "This has resonated with investors and tech enthusiasts alike, as Microsoft continues to thrive in an increasingly competitive landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Computing Leadership",
+          "body": "Nadella has transformed Microsoft into a dominant player in cloud computing, particularly through the development and expansion of Azure, which has become a key revenue driver for the company."
+        },
+        {
+          "heading": "AI and Technology Innovation",
+          "body": "Under Nadella's leadership, Microsoft has heavily invested in artificial intelligence, focusing on creating tools that enhance productivity and empower users."
+        },
+        {
+          "heading": "Cultural Transformation",
+          "body": "Nadella has fostered a culture of empathy and collaboration at Microsoft, encouraging innovation and inclusivity within the workforce."
+        },
+        {
+          "heading": "Market Performance",
+          "body": "Since becoming CEO, Nadella has overseen a significant increase in Microsoft's stock price and market value, reflecting investor confidence in his strategic vision."
+        }
+      ]
+    }
   },
   {
     "id": 458,
@@ -64943,7 +64943,7 @@ const dashboardData = {
     "mention_score_decayed": 0.23,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
-    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
+    "last_proof_snippet": "We don't need to compete with [Anthropic] and [OpenAI] on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
     "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-27T07:09:36.958032",
@@ -65006,7 +65006,7 @@ const dashboardData = {
     "mention_score_decayed": 0.23,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
-    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
+    "last_proof_snippet": "We don't need to compete with [Anthropic] and [OpenAI] on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
     "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-30T13:55:47.591997",
@@ -79003,10 +79003,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4983.17,
-      "basket_change_pct": -0.34,
+      "basket_current_value": 4967.54,
+      "basket_change_pct": -0.65,
       "index_start": 100,
-      "basket_index_value": 99.66,
+      "basket_index_value": 99.35,
       "names": [
         {
           "ticker": "HIMS",
@@ -79015,9 +79015,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 27.82,
-          "current_value": 990.39,
-          "change_pct": -0.96,
+          "current_price": 27.8,
+          "current_value": 989.68,
+          "change_pct": -1.03,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79043,9 +79043,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 73.75,
-          "current_value": 945.87,
-          "change_pct": -5.41,
+          "current_price": 72.88,
+          "current_value": 934.72,
+          "change_pct": -6.53,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79057,9 +79057,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 180.38,
-          "current_value": 985.15,
-          "change_pct": -1.49,
+          "current_price": 179.62,
+          "current_value": 980.99,
+          "change_pct": -1.9,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79071,16 +79071,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 105.75,
-          "current_value": 1034.73,
-          "change_pct": 3.47,
+          "current_price": 105.79,
+          "current_value": 1035.12,
+          "change_pct": 3.51,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-30T10:21:23.236850"
+      "last_updated": "2026-10-30T10:28:14.822396"
     }
   ]
 }
