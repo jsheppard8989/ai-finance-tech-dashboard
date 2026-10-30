@@ -1,5 +1,23 @@
 [
   {
+    "id": 631,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
+    "episode_date": "2026-10-30",
+    "summary": "Robert Caro argues that the key to understanding both Robert Moses and Lyndon Johnson is not charisma alone, but the underlying power and leverage that let them overcome resistance. He says that for large public works, modern safeguards may slow projects, but they do not eliminate the core problem: dozens or hundreds of property owners can still block construction, and a highly determined figure can still find a way through.\n\nCaro contrasts historical and modern infrastructure execution with sharp numbers. He notes that the Second Avenue subway took around 50 years to open just 1.5 miles and cost over $4 billion, while California spent about $15 billion over a decade without adding a new rail line or mile. He also contrasts that with China\u2019s much faster rail expansion over the last 10-20 years, while acknowledging the social costs of displacement and recklessness.\n\nHe uses Moses as a case study in both idealism and ruthlessness: Moses began with reformist instincts, then became more willing to evict and crush opponents. Caro says Moses benefited from the Great Depression because it made architects and labor cheap, and he recounts the Jones Beach and Cross Bronx Expressway stories as examples of how Moses got things built. On Johnson, Caro says his legislative power came from the force behind his persuasion, not charm alone, and that Kennedy would not have passed the same domestic agenda because he lacked Johnson\u2019s overriding desire to change America.\n\nCaro also reflects on his own craft: he says he reduces a book to a single sentence to keep it coherent, and he describes the editing of The Power Broker, which began as a 1,050,000-word manuscript that had to be cut to about 700,000 words. He emphasizes loneliness as a major biographical theme and a feature of his own working life, and says his archives and interviews will remain valuable to future scholars.\n",
+    "key_takeaways": [
+      "Robert Caro says large-scale building is still obstructed by property-owner resistance, even if modern safeguards exist.",
+      "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
+      "Robert Caro says the Second Avenue subway is evidence of how slowly and expensively the U.S. builds infrastructure: about 50 years, 1.5 miles, and more than $4 billion.",
+      "Robert Caro contrasts that with California's roughly $15 billion spent over a decade without a new rail line or mile added.",
+      "Robert Caro says the Great Depression helped Moses because it created abundant cheap talent and labor, making early projects easier to staff.",
+      "Robert Caro says Johnson\u2019s political persuasion worked because of the power behind it, not just his personality.",
+      "Robert Caro says Kennedy would not have passed Johnson\u2019s domestic agenda because Kennedy lacked Johnson\u2019s overriding desire to change America."
+    ],
+    "investment_thesis": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
+    "key_tickers": null
+  },
+  {
     "id": 630,
     "podcast_name": "The a16z Show",
     "episode_title": "Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses",
