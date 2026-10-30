@@ -5942,7 +5942,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-06",
-      "summary": "In this episode of the a16z Show, Elena Burger and Matt Bornstein are joined by Simon Mow, co-founder and CEO of Infrared, to discuss the critical role of open source inference in AI and how it has become infrastructure for AI systems. They delve into the differences between large language models (LLMs) and traditional ML workloads, the economic incentives required to support open source AI models, and the potential for open source models to close the gap with proprietary models. The conversation also touches on model licensing, inference economics, and the future of open AI.",
+      "summary": "In this episode of the a16z Show, Elena Burger and Matt Bornstein are joined by Simon Mow, co-founder and CEO of Infrared, to discuss the critical role of open source inference in AI and how it has become infrastructure for AI systems. They delve into the differences between large language models (LLMs) and traditional ML workloads, the economic incentives required to support open source AI models, and the potential for open source models to close the gap with proprietary models. The conversation also touches on model licensing, inference economics, and the future of open-source AI.",
       "key_takeaway": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
       "tickers_mentioned": [
         "NVDA",

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-30T10:28:41.330241",
+  generatedAt: "2026-10-30T10:37:05.937204",
   chartsVersion: "2026-10-30T06:56:43.402020",
   priceSnapshot: {
   "AAPL": {
@@ -7303,7 +7303,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-06",
-      "summary": "In this episode of the a16z Show, Elena Burger and Matt Bornstein are joined by Simon Mow, co-founder and CEO of Infrared, to discuss the critical role of open source inference in AI and how it has become infrastructure for AI systems. They delve into the differences between large language models (LLMs) and traditional ML workloads, the economic incentives required to support open source AI models, and the potential for open source models to close the gap with proprietary models. The conversation also touches on model licensing, inference economics, and the future of open AI.",
+      "summary": "In this episode of the a16z Show, Elena Burger and Matt Bornstein are joined by Simon Mow, co-founder and CEO of Infrared, to discuss the critical role of open source inference in AI and how it has become infrastructure for AI systems. They delve into the differences between large language models (LLMs) and traditional ML workloads, the economic incentives required to support open source AI models, and the potential for open source models to close the gap with proprietary models. The conversation also touches on model licensing, inference economics, and the future of open-source AI.",
       "key_takeaway": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
       "tickers_mentioned": [
         "NVDA",
@@ -44779,7 +44779,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-07-24T23:38:11.619887",
     "updated_at": "2026-07-25 04:38:11",
-    "episode_evidence": "The podcast episode delves into the complexities of AI investment and development, with a specific focus on the recent breach at Hugging Face, a leading platform for AI model sharing. The host mentions, 'Hugging face, the leading open platform for sharing testing and deploying AI models, got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refused.' This incident underscores the challenges in AI security and the potential for unintended consequences when AI systems interact. Additionally, the valuation of Moonshot AI at around $20 billion and the comparison to frontier labs valued at a trillion each highlight the significant investment and potential in the AI sector. The discussion also touches on the radical extension of human life expectancy, with one guest suggesting that if all causes of aging were cured, humans could live up to 1,750 years, which is a stark contrast to the current average life expectancy.",
+    "episode_evidence": "The podcast episode delves into the complexities of AI investment and development, with a specific focus on the recent breach at Hugging Face, a leading platform for AI model sharing. The host mentions, 'Hugging face, the leading open platform for sharing testing and deploying AI models, got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either [Anthropic] or [OpenAI], both models refused.' This incident underscores the challenges in AI security and the potential for unintended consequences when AI systems interact. Additionally, the valuation of Moonshot AI at around $20 billion and the comparison to frontier labs valued at a trillion each highlight the significant investment and potential in the AI sector. The discussion also touches on the radical extension of human life expectancy, with one guest suggesting that if all causes of aging were cured, humans could live up to 1,750 years, which is a stark contrast to the current average life expectancy.",
     "falsification_tracks": [
       "A significant security breach at a major AI company that results in substantial financial loss or data leakage would reduce conviction in the AI investment thesis.",
       "Prolonged underperformance of AI-focused companies or funds relative to the broader market could indicate that the market is not valuing AI as highly as the podcast suggests.",
@@ -48750,7 +48750,7 @@ const dashboardData = {
     "updated_at": "2026-08-28 20:54:20",
     "episode_evidence": "- Jensen Huang: 'The world needs both frontier close models and frontier open models.'\n- Dario Amodei: 'Banning open models will stifle innovation; we must adopt safety testing instead.'",
     "falsification_tracks": [
-      "A significant regulatory crackdown specifically targeting open AI models across Western countries that leads to major investment pullbacks.",
+      "A significant regulatory crackdown specifically targeting open-source AI models across Western countries that leads to major investment pullbacks.",
       "A major breakthrough in AGI by a competitor not currently on the radar, clearly outpacing the current front-runners like NVIDIA and Anthropic.",
       "Substantial drops in user engagement or adoption of emerging AI technologies, particularly tools like Kimi K3, impacting their perceived viability.",
       "Breakdown of the collaborations between tech companies and governments, leading to a decrease in funding for AGI-related initiatives."
@@ -49769,7 +49769,7 @@ const dashboardData = {
     "podcast_episode_id": 458,
     "overview": "The podcast highlights a significant shift in focus from standalone AI models towards an ecosystem where open weights facilitate faster innovation through collaborative development. This transition is amplified by the need for model routing solutions that yield better performance and efficiency in enterprises. Furthermore, as companies adopt multi-model strategies, predictions suggest a need for expanded finding tools or platforms that simplify this process, indicating a surge in startup activity specifically targeting model routing functionalities that can intelligently orchestrate diverse AI capabilities.",
     "key_takeaways_detailed": [],
-    "investment_thesis": "If the trend toward open weights and model routing holds true, investors may find strong opportunities in firms that build open AI architectures and routing technologies, especially over the next 1-3 years. However, any significant delays or lack of adoption in these areas could weaken the narrative and undermine projected growth.",
+    "investment_thesis": "If the trend toward open weights and model routing holds true, investors may find strong opportunities in firms that build open-source AI architectures and routing technologies, especially over the next 1-3 years. However, any significant delays or lack of adoption in these areas could weaken the narrative and undermine projected growth.",
     "ticker_analysis": {
       "NVDA": {
         "rationale": "NVIDIA stands out as a prime investment related to open weights due to its dominant position in providing GPUs and AI infrastructure that support both open and closed model deployments.",
@@ -79003,10 +79003,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4967.54,
-      "basket_change_pct": -0.65,
+      "basket_current_value": 4971.97,
+      "basket_change_pct": -0.56,
       "index_start": 100,
-      "basket_index_value": 99.35,
+      "basket_index_value": 99.44,
       "names": [
         {
           "ticker": "HIMS",
@@ -79015,9 +79015,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 27.8,
-          "current_value": 989.68,
-          "change_pct": -1.03,
+          "current_price": 27.7,
+          "current_value": 986.12,
+          "change_pct": -1.39,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79029,9 +79029,9 @@ const dashboardData = {
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.42,
-          "current_value": 1027.03,
-          "change_pct": 2.7,
+          "current_price": 3.44,
+          "current_value": 1033.03,
+          "change_pct": 3.3,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79043,9 +79043,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 72.88,
-          "current_value": 934.72,
-          "change_pct": -6.53,
+          "current_price": 72.78,
+          "current_value": 933.43,
+          "change_pct": -6.66,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79057,9 +79057,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 179.62,
-          "current_value": 980.99,
-          "change_pct": -1.9,
+          "current_price": 179.79,
+          "current_value": 981.92,
+          "change_pct": -1.81,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79071,16 +79071,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 105.79,
-          "current_value": 1035.12,
-          "change_pct": 3.51,
+          "current_price": 106.03,
+          "current_value": 1037.47,
+          "change_pct": 3.75,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-30T10:28:14.822396"
+      "last_updated": "2026-10-30T10:36:44.616456"
     }
   ]
 }
