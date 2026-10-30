@@ -14,11 +14,11 @@ def _card(iid=640, ep=629, quote=Q):
 
 
 def test_card_640_openai_name_fix_scoped_and_idempotent():
-    data = {"archive": {"insights": [_card(), _card(404, 389, "the future of open AI.")]}}
+    data = {"archive": {"insights": [_card(), _card(9404, 9389, "the future of open AI.")]}}
     _apply_summary_overrides(data)
     c640, c404 = data["archive"]["insights"]
     assert c640["notable_quotes"][0]["quote"] == "Anyone who thinks that meta-OpenAI Anthropic or Elon's got neural"
-    assert c404["notable_quotes"][0]["quote"] == "the future of open AI."  # open-source AI, untouched
+    assert c404["notable_quotes"][0]["quote"] == "the future of open AI."  # other cards untouched
     once = json.dumps(data)
     _apply_summary_overrides(data)
     assert json.dumps(data) == once
