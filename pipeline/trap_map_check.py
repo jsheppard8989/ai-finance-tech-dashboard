@@ -12,6 +12,10 @@ Checks, per row:
   - expiry past next earnings needs earnings_reason
   - a Holding row needs a fixed stop rule (an index level or an event)
   - a grade date, unless the status is Holding
+  - v9: every open row has a direction (Long/Short/Net long/Net short) and an expression; the direction
+    matches the trade type (put debit spread -> Net short, call debit spread -> Net long, stock basket -> Long)
+    and the lean (Positive for long, Negative for short)
+  - v9 (check_computed, after build): each row's change equals value minus cost, and totals equal the row sums
 
 Usage: python3 pipeline/trap_map_check.py [path/to/trap_map.json]   (exit 1 on any failure)
 """
@@ -114,11 +118,79 @@ def check(d: dict, today: date | None = None, site: Path = SITE) -> list[str]:
             for k in ("cost", "value", "mid_time"):
                 if tr.get(k) in (None, ""):
                     errs.append(f"{rid}: trade.{k} is blank")
+        if st != "graded":
+            errs.extend(_direction_errs(r, rid))
     b = d.get("benchmark") or {}
     for x in b.get("buys") or []:
         for k in ("date", "price", "shares", "source"):
             if x.get(k) in (None, ""):
                 errs.append(f"benchmark buy {x.get('date')}: missing {k}")
+    return errs
+
+
+DIRECTIONS = ("Long", "Short", "Net long", "Net short")
+
+
+def expected_direction(r: dict) -> str | None:
+    """What the trade itself says: put debit spread -> Net short, call debit spread -> Net long, basket -> Long."""
+    tr = r.get("trade") or {}
+    legs = tr.get("legs") or []
+    if r.get("kind") == "basket" or (legs and isinstance(legs[0], dict) and "ticker" in legs[0]):
+        return "Long"
+    rights = {l.get("right") for l in legs}
+    long_k = [l["strike"] for l in legs if (l.get("qty") or 0) > 0]
+    short_k = [l["strike"] for l in legs if (l.get("qty") or 0) < 0]
+    if rights == {"P"} and long_k and short_k and max(long_k) > max(short_k):
+        return "Net short"
+    if rights == {"C"} and long_k and short_k and min(long_k) < min(short_k):
+        return "Net long"
+    text = (tr.get("text") or "").lower()
+    if "put spread" in text:
+        return "Net short"
+    if "call spread" in text:
+        return "Net long"
+    return None
+
+
+def _direction_errs(r: dict, rid: str) -> list[str]:
+    errs = []
+    dr = r.get("direction")
+    if dr not in DIRECTIONS:
+        return [f"{rid}: direction {dr!r} not one of {DIRECTIONS}"]
+    ex = (r.get("trade") or {}).get("expression") or {}
+    if not (ex.get("type") or "").strip():
+        errs.append(f"{rid}: no expression")
+    want = expected_direction(r)
+    if want is None:
+        errs.append(f"{rid}: can't tell the direction from the trade")
+    elif dr != want:
+        errs.append(f"{rid}: direction {dr} doesn't match the trade ({want})")
+    ty = (ex.get("type") or "").lower()
+    if ("put" in ty and dr != "Net short") or ("call" in ty and dr != "Net long") or ("basket" in ty and dr != "Long"):
+        errs.append(f"{rid}: direction {dr} doesn't match the expression {ex.get('type')!r}")
+    lean = r.get("lean")
+    if lean and lean != ("Negative" if "hort" in dr else "Positive"):
+        errs.append(f"{rid}: direction {dr} doesn't match the lean {lean}")
+    return errs
+
+
+def check_computed(d: dict) -> list[str]:
+    """After build: each open row's change equals value minus cost; totals equal the row sums."""
+    errs = []
+    rows = [r for r in d.get("rows") or [] if r.get("status") != "graded" and (r.get("trade") or {}).get("cost") is not None]
+    for r in rows:
+        t = r["trade"]
+        if t.get("change") is None or abs(t["change"] - (t["value"] - t["cost"])) >= 0.005:
+            errs.append(f"{r.get('id')}: change {t.get('change')} isn't value minus cost")
+    T = d.get("totals") or {}
+    b = d.get("benchmark") or {}
+    want = {"cost": sum(r["trade"]["cost"] for r in rows), "value": sum(r["trade"]["value"] for r in rows),
+            "spy_value": sum(x["shares"] for x in b.get("buys") or []) * (b.get("spy_close_now") or 0)}
+    for k, v in want.items():
+        if T.get(k) is None or abs(T[k] - v) >= 0.01:
+            errs.append(f"totals.{k} {T.get(k)} doesn't match the rows ({v:.2f})")
+    if T.get("change") is None or abs(T["change"] - (T.get("value", 0) - T.get("cost", 0))) >= 0.005:
+        errs.append("totals.change isn't value minus cost")
     return errs
 
 
