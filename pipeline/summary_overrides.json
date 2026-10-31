@@ -2530,6 +2530,42 @@
     [
       "Sachs also discussed",
       "Sacks also discussed"
+    ],
+    [
+      "Price says that in the first half of 2026",
+      "Price-Wright says that in the first half of 2026"
+    ],
+    [
+      "while Price highlights",
+      "while Price-Wright highlights"
+    ],
+    [
+      "integration of cursor into X.AI",
+      "integration of Cursor into xAI"
+    ],
+    [
+      "integrating cursor into X.AI",
+      "integrating Cursor into xAI"
+    ],
+    [
+      "integration of cursor into xAI",
+      "integration of Cursor into xAI"
+    ],
+    [
+      "integrating cursor into xAI",
+      "integrating Cursor into xAI"
+    ],
+    [
+      "merger of SpaceX and XAI",
+      "merger of SpaceX and xAI"
+    ],
+    [
+      "and XAI and X-related revenues",
+      "and xAI and X-related revenues"
+    ],
+    [
+      "'I predict that this is going to move SpaceX XAI and cursor to the front",
+      "'I predict that this is going to move SpaceX [xAI] and [Cursor] to the front"
     ]
   ],
   "global_name_replacements": [
@@ -3048,6 +3084,122 @@
     [
       "Steve Houhead",
       "Steve Hou"
+    ],
+    [
+      "J. Madesh",
+      "Jay Madheswaran"
+    ],
+    [
+      "Madesh",
+      "Madheswaran"
+    ],
+    [
+      "Aaron Price",
+      "Erin Price-Wright"
+    ],
+    [
+      "Jeremy Boyet",
+      "Jérémie Boyer"
+    ],
+    [
+      "Will Brick",
+      "Will Bryk"
+    ],
+    [
+      "Bolligies Renovison",
+      "Balaji Srinivasan"
+    ],
+    [
+      "Ali Goodsey",
+      "Ali Ghodsi"
+    ],
+    [
+      "Ben Milton Hall",
+      "Ben Mildenhall"
+    ],
+    [
+      "Underrate Cupathy",
+      "Eiso Kant"
+    ],
+    [
+      "Vib Altacar",
+      "Vibhav Altekar"
+    ],
+    [
+      "Relow Vora",
+      "Rahul Vohra"
+    ],
+    [
+      "Andrew Beglinow",
+      "Drew Baglino"
+    ],
+    [
+      "Drew Beglino",
+      "Drew Baglino"
+    ],
+    [
+      "Turner Coldwell",
+      "Turner Caldwell"
+    ],
+    [
+      "Marcus Villik",
+      "Markus Villig"
+    ],
+    [
+      "David Blondon",
+      "Dave Blundin"
+    ],
+    [
+      "Day Blenden",
+      "Dave Blundin"
+    ],
+    [
+      "X.AI",
+      "xAI"
+    ],
+    [
+      "Gork Amir",
+      "Gorkem Yurtseven"
+    ],
+    [
+      "Bartene Casado",
+      "Martin Casado"
+    ],
+    [
+      "Ruggle Rugglerum",
+      "Raghu Raghuram"
+    ],
+    [
+      "Kremio Rekuei",
+      "Cremieux Recueil"
+    ],
+    [
+      "Delip Tasman",
+      "Dileep Thazhmon"
+    ],
+    [
+      "Muhammad Naruzi",
+      "Mohammad Norouzi"
+    ],
+    [
+      "Matt Tenzig",
+      "Matt Tancik"
+    ],
+    [
+      "Chandler Lujica",
+      "Chandler Luzsicza"
+    ],
+    [
+      "Bridget Memplar",
+      "Bridgit Mendler"
+    ],
+    [
+      "Santiago Gua Suarez",
+      "Santiago Suárez"
+    ],
+    [
+      "Rodrick Vanzo",
+      "Roderick van Zuylen"
     ]
   ],
   "name_replacements": [
@@ -3838,6 +3990,36 @@
       "id": 584,
       "name": "Erik Torenberg",
       "_note": "Oct 27 2026 daily site check (cos/sweep_1027/fixes.md) #10: host of The a16z Show, not a guest (same as the a16z GP/host and Friedberg/Wissner-Gross host exclusions)"
+    },
+    {
+      "id": 142,
+      "name": "Andrew Beglinow",
+      "_note": "Oct 31 2026 (G, sweep_1031) R16 merged into 247"
+    },
+    {
+      "id": 246,
+      "name": "Turner Coldwell",
+      "_note": "Oct 31 2026 (G, sweep_1031) R17 merged into 124"
+    },
+    {
+      "id": 356,
+      "name": "Day Blenden",
+      "_note": "Oct 31 2026 (G, sweep_1031) R20 merged into 178"
+    },
+    {
+      "id": 427,
+      "name": "Bartene Casado",
+      "_note": "Oct 31 2026 (G, sweep_1031) R29 merged into 78"
+    },
+    {
+      "id": 446,
+      "name": "Jim Caught",
+      "_note": "Oct 31 2026 (G, sweep_1031) R39 unconfirmed name"
+    },
+    {
+      "id": 159,
+      "name": "Dr. Frenner",
+      "_note": "Oct 31 2026 (G, sweep_1031) R40 unconfirmed name"
     }
   ],
   "pundit_overrides": [
@@ -7748,6 +7930,200 @@
           "compete with [Anthropic] and [OpenAI] on models"
         ]
       ]
+    },
+    {
+      "id": 247,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Beglinow",
+          "Baglino"
+        ],
+        [
+          "Beglino",
+          "Baglino"
+        ]
+      ]
+    },
+    {
+      "id": 142,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Beglinow",
+          "Baglino"
+        ]
+      ]
+    },
+    {
+      "id": 426,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Rugglerum",
+          "Raghuram"
+        ]
+      ]
+    },
+    {
+      "id": 288,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Naruzi",
+          "Norouzi"
+        ]
+      ]
+    },
+    {
+      "id": 314,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Tenzig",
+          "Tancik"
+        ]
+      ]
+    },
+    {
+      "id": 123,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Lujica",
+          "Luzsicza"
+        ]
+      ]
+    },
+    {
+      "id": 108,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Memplar",
+          "Mendler"
+        ]
+      ]
+    },
+    {
+      "id": 292,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Gua Suarez",
+          "Suárez"
+        ]
+      ]
+    },
+    {
+      "id": 257,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Vora",
+          "Vohra"
+        ]
+      ]
+    },
+    {
+      "id": 266,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Tasman",
+          "Thazhmon"
+        ]
+      ]
+    },
+    {
+      "id": 319,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Villik",
+          "Villig"
+        ]
+      ]
+    },
+    {
+      "id": 471,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Boyet",
+          "Boyer"
+        ]
+      ]
+    },
+    {
+      "id": 467,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Goodsey",
+          "Ghodsi"
+        ]
+      ]
+    },
+    {
+      "id": 462,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Amir",
+          "Yurtseven"
+        ]
+      ]
+    },
+    {
+      "id": 383,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Altacar",
+          "Altekar"
+        ]
+      ]
+    },
+    {
+      "id": 352,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Cupathy",
+          "Kant"
+        ]
+      ]
+    },
+    {
+      "id": 233,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Vanzo",
+          "van Zuylen"
+        ]
+      ]
+    },
+    {
+      "id": 213,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Rekuei",
+          "Recueil"
+        ]
+      ]
+    },
+    {
+      "id": 198,
+      "_note": "Oct 31 2026 (G, sweep_1031): bare surname in this pundit's profile text",
+      "replacements": [
+        [
+          "Renovison",
+          "Srinivasan"
+        ]
+      ]
     }
   ],
   "pundit_merges": [
@@ -7794,6 +8170,38 @@
       ],
       "name": "Dr. Anas Alhajji",
       "_note": "Oct 23 2026 G(ai)ndolf sweep (fixes.md #3): MacroVoices #554, 2026-10-22 (energy)"
+    },
+    {
+      "keep": 247,
+      "merge": [
+        142
+      ],
+      "name": "Drew Baglino",
+      "_note": "Oct 31 2026 (G, sweep_1031) R16: Andrew Beglinow + Drew Beglino, one person"
+    },
+    {
+      "keep": 124,
+      "merge": [
+        246
+      ],
+      "name": "Turner Caldwell",
+      "_note": "Oct 31 2026 (G, sweep_1031) R17"
+    },
+    {
+      "keep": 178,
+      "merge": [
+        356
+      ],
+      "name": "Dave Blundin",
+      "_note": "Oct 31 2026 (G, sweep_1031) R20"
+    },
+    {
+      "keep": 78,
+      "merge": [
+        427
+      ],
+      "name": "Martin Casado",
+      "_note": "Oct 31 2026 (G, sweep_1031) R29"
     }
   ],
   "asset_class_tickers": [
