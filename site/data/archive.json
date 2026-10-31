@@ -1,12 +1,111 @@
 {
   "insights": [
     {
+      "id": 644,
+      "title": "Can AI Fix Professional Networking? | Inside Cosign",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-31",
+      "summary": "The episode argues that professional networking should move from cold outreach and job boards toward trusted reputation graphs built on co-signs, curated lists, and verified relationships. David Booth frames the core idea as turning a single strong referral signal into a network that increases a person\u2019s \u201csurface area for luck,\u201d while Drew Gupta describes Cosign as a lightweight curation layer on top of a growing people graph.\n\nA major thread is Cosign Awards, which is positioned as a way to spotlight underrecognized operators across people, companies, and products, not just founders and CEOs. Drew says the platform already has \u201c40, 50,000 people across the site\u201d and \u201cabout 400\u201d people making company lists, while David notes there are \u201c135 so far\u201d in the rising stars category. The awards and lists are meant to create both visibility and a source of truth for talent discovery.\n\nThe speakers also make a stronger platform thesis: existing incumbents like LinkedIn are structurally limited for graph-based search and agent-native discovery. Drew explicitly says LinkedIn \u201cwill never\u201d provide vast graph search access, and the team believes Cosign can fill that gap by combining profiles, lists, and AI search. They expect that as users contribute more data, agents will produce much better personalized answers.\n\nA second forward-looking theme is agent-to-agent networking. The guests describe Ask Cosign, a message agent, and MCP-style integrations that let users access agents \u201canywhere,\u201d including external tools like Muse, Grokbot, and Instinct. David goes further, suggesting that personal agents could eventually negotiate with company agents for hiring, doing an initial mutual-fit evaluation before a human ever gets involved. The broader conclusion is that reputation graphs plus agent workflows could materially improve hiring, introductions, and career outcomes.",
+      "key_takeaway": "Cosign\u2019s core claim is that trusted reputation graphs plus agent-native search and introductions can outperform job boards and cold outreach in career discovery.",
+      "tickers_mentioned": [
+        "MUSES",
+        "MCP"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 634,
+      "notable_quotes": [
+        {
+          "speaker": "David Booth",
+          "quote": "The biggest opportunities in your career often come down to one person willing to vouch for you."
+        },
+        {
+          "speaker": "Drew Gupta",
+          "quote": "LinkedIn will never do is introduce an MTP that allows you to have vast search access over the graph."
+        },
+        {
+          "speaker": "David Booth",
+          "quote": "It's almost easiest form. I hope it's a place where you can increase your surface area for luck. It's a place where you can go and you know that if you build a profile out or if you browse the graph and you sort of you teach co-sign."
+        }
+      ]
+    },
+    {
+      "id": 645,
+      "title": "\u26a1 Building ChatGPT for Finance \u2014 Joseph Kim, OpenAI's Head of Financial Services",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-31",
+      "summary": "Joseph Kim argues that OpenAI has launched \u201cChatGPT for Financial Services,\u201d an enterprise product that layers firm-specific templates and finance data sources on top of consumer-style ChatGPT capabilities. He says design partners Morgan Stanley and Evercore have already given it \u201cincredible\u201d reception, and that OpenAI is trying to make its financial-reasoning capabilities broadly available to both internal products and outside builders.\n\nA central part of the discussion is product differentiation. Kim says base-model capability gets builders \u201cabout 80% of the way,\u201d but the missing 20% is the crucial \u201csecret sauce\u201d involving data control, UI, and integrations. He gives a concrete example from testing third-party MCP connections: some had \u201c40% plus error rate,\u201d which led OpenAI to conclude that bundling data in-house was necessary to control quality at scale.\n\nKim also frames safety and autonomy as a workflow problem, not just a model problem. He says the current product assumes a human-in-the-loop review layer, and predicts that by 2027\u20132028 models will improve enough that the hardest remaining gap will be \u201chuman taste\u201d and judgment rather than basic factual reliability. He expects finance products to move up the task stack from junior-analyst work toward associate- and MD-level tasks.\n\nA major contrarian theme is benchmarking. Kim says there is no good financial \u201cE-value\u201d today because existing benchmarks are saturated, broken, or gameable, and he wants profession-specific benchmarks\u2014such as an investment-banking E-value\u2014that better predict actual automation potential. He says OpenAI is hiring product managers and subject-matter experts to help build these evaluation systems.",
+      "key_takeaway": "Joseph Kim said OpenAI has \"just released\" ChatGPT for Financial Services, an enterprise-focused product with firm-specific templates and finance data sources.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 633,
+      "notable_quotes": [
+        {
+          "speaker": "Joseph Kim",
+          "quote": "And the reality is we went and tested the all these MCPs. And what we found was the error rates were really, really high. Some of the MCPs that we connected, some big names, 40% plus error rate on the MCPs."
+        },
+        {
+          "speaker": "Joseph Kim",
+          "quote": "The only way we can go about fixing this at scale is to bring the data in-house, like, just control that experience and to end. And the extra money that you pay on top to bundle that data is worth it."
+        },
+        {
+          "speaker": "Joseph Kim",
+          "quote": "Going into 2027, we're going to start to move up the stack, right? We're going to go from the task that a GDRAELUS can do to some of the tasks that an associate can do to some of the tasks that an MD would do and move up that chain."
+        }
+      ]
+    },
+    {
+      "id": 646,
+      "title": "Using Agents for Long-Horizon Financial Work \u2014 Aman Singh, Arca",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-31",
+      "summary": "Aman Singh describes Arca as an AI-native wealth management firm that is not a SaaS wrapper but the firm itself, using agents to replace the work around advisors rather than advisors themselves. He says clients do not directly interact with AI; instead, they receive a higher-touch service delivered by human advisors with agent support. The system is designed for long-horizon financial work such as tax planning, portfolio analysis, insurance, and estate planning.\n\nA key theme is that Arca automates analysis while keeping money movement and client-facing execution under human control. Singh says agents can prepare analysis and plans, but they cannot autonomously execute trades or liquidations. Arca uses custodian APIs, but strict deterministic guardrails and multiple verification layers keep decision rights with humans. He also emphasizes auditability, saying every action is logged by default across both agent and human workflows.\n\nOn the technical side, Singh explains that Arca uses a model-agnostic harness with tiered routing based on task complexity. Claude is the primary model, while Anthropic and OpenAI models are part of the stack; he also notes prior Gemini usage and says a model called Luna proved too slow and expensive for Arca's needs. For safety and compliance, Arca combines deterministic constraints, LLM-based verification, prompt-injection checks, PII and data-exfiltration safeguards, and decision models such as Jev to catch stale or incorrect financial facts.\n\nSingh also describes a memory and reflection system that supports roughly ten-day workflows, including a nightly meta-agent loop that learns from traces in the wild and suggests improvements to prompts, tools, and harness behavior. He argues that owning this intelligence layer matters strategically, and that depending on managed-agent infrastructure could create control and moat risks. A concrete example he gives is a prospective client discovering undisclosed fees and that their current advisor was not fiduciary after Arca analyzed their documents and goals.",
+      "key_takeaway": "Arca's core edge is an AI-native wealth workflow that automates analysis while keeping execution human-controlled, using strict verification to deliver better client outcomes at scale.",
+      "tickers_mentioned": [
+        "ARCA",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 635,
+      "notable_quotes": [
+        {
+          "speaker": "Aman Singh",
+          "quote": "The role of AI at Arca is not to replace the advisor. It is to replace all of the work around the advisor."
+        },
+        {
+          "speaker": "Aman Singh",
+          "quote": "The analysis part is fully automated, but, um, they're unable to actually execute, uh, any sort of money movement or liquidation automatically."
+        },
+        {
+          "speaker": "Aman Singh",
+          "quote": "I think we are very bullish on the models from, uh, from Anthropic and, and labs like OpenAI- Mm... um, but less so on, on taking a dependency on a product like managed agents."
+        }
+      ]
+    },
+    {
       "id": 641,
       "title": "Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses",
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-30",
-      "summary": "The episode argues that AI legal agents, centered on Eve, can expand access to plaintiff-side legal services by removing attorney labor bottlenecks across the full case lifecycle. J. Madesh says the product answers intake calls, qualifies cases, and continues through demand and settlement work so attorneys can handle far more matters without adding headcount.\n\nA core claim is that plaintiff law is structurally constrained by contingency economics: if a case does not justify enough fees, firms reject it. Madesh says that today many lawyers need at least $5,000 in fees to even consider a case, and that in labor and employment about 96% of cases are rejected. The discussion frames this as a market failure driven by expensive human labor, not a lack of legal demand.\n\nThe episode also argues that legal work is far more process-heavy than most people assume. Madesh says a single case may involve roughly 10,000 back-and-forth touches, while something like medical record retrieval can take about two weeks today. Eve is presented as a system that can reduce those touches, improve qualification, and help firms manage up to 5x more cases, with one LA firm anecdote rising from about 100 clients per attorney to 500.\n\nLooking forward, the conversation predicts that agent-to-agent negotiation will become standard, defense tactics will adapt, and automated dispute resolution will grow in some categories. The speakers also suggest that small plaintiff firms could scale into very large businesses by operating more like software companies, using proprietary case data, specialization, and outcome-oriented pricing.",
+      "summary": "The episode argues that AI legal agents, centered on Eve, can expand access to plaintiff-side legal services by removing attorney labor bottlenecks across the full case lifecycle. Jay Madheswaran says the product answers intake calls, qualifies cases, and continues through demand and settlement work so attorneys can handle far more matters without adding headcount.\n\nA core claim is that plaintiff law is structurally constrained by contingency economics: if a case does not justify enough fees, firms reject it. Madheswaran says that today many lawyers need at least $5,000 in fees to even consider a case, and that in labor and employment about 96% of cases are rejected. The discussion frames this as a market failure driven by expensive human labor, not a lack of legal demand.\n\nThe episode also argues that legal work is far more process-heavy than most people assume. Madheswaran says a single case may involve roughly 10,000 back-and-forth touches, while something like medical record retrieval can take about two weeks today. Eve is presented as a system that can reduce those touches, improve qualification, and help firms manage up to 5x more cases, with one LA firm anecdote rising from about 100 clients per attorney to 500.\n\nLooking forward, the conversation predicts that agent-to-agent negotiation will become standard, defense tactics will adapt, and automated dispute resolution will grow in some categories. The speakers also suggest that small plaintiff firms could scale into very large businesses by operating more like software companies, using proprietary case data, specialization, and outcome-oriented pricing.",
       "key_takeaway": "Eve\u2019s key claim is that AI can expand plaintiff-firm revenue by turning labor-constrained case handling into software-like throughput, not merely by cutting costs.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -18,15 +117,15 @@
       "podcast_episode_id": 630,
       "notable_quotes": [
         {
-          "speaker": "J. Madesh",
+          "speaker": "Jay Madheswaran",
           "quote": "What Eve is is legally I for real people, right? Like people like you, me, not institutions, not in house legal, not the people that already have all the resources, but how do we actually provide legal services to people that otherwise can't afford it?"
         },
         {
-          "speaker": "J. Madesh",
+          "speaker": "Jay Madheswaran",
           "quote": "Today, if a lawyer doesn't make at least 5,000 fees off a case, they do not take it on. That is the market dynamic today. And even at 5,000, they're losing money on a lot of cases."
         },
         {
-          "speaker": "J. Madesh",
+          "speaker": "Jay Madheswaran",
           "quote": "A single case has probably 10,000 back and forth, 10,000, something like that because, here's how you think about it, right? A client comes in, let's say it's a PI case."
         }
       ]
@@ -102,7 +201,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-29",
-      "summary": "The episode argues that rebuilding the U.S. industrial base is now a strategic priority because defense readiness depends on the broader ability to make materials, components, and finished hardware at scale. Aaron Price says the hollowing out of industrial capacity has had real battlefield consequences, and Connor Love frames the current moment as one where government and capital are finally willing to fund the rebuild.\n\nA major theme is that AI matters, but mostly as a software layer for physical systems rather than as direct manual automation. Love says AI can be a phenomenal tool in the physical world, but it cannot yet \u201cturn a wrench,\u201d while Price highlights software that lets manufacturing engineers reconfigure production lines in about 20 minutes instead of waiting around three months and spending hundreds of thousands of dollars on a system integrator.\n\nThe speakers repeatedly emphasize dual-use dynamics: defense spending can lower the risk of building factories such as PCB fabs, and those same components later flow into robotics, cars, hearing aids, and medical devices. They also argue that the \u201cmanufacturing middle\u201d is changing, with suppliers increasingly expected to co-engineer new subsystems rather than simply keep producing legacy parts. That shift, they say, is visible in examples like Mariana Minerals, SpaceX, Tesla, DJI, and legacy suppliers such as Honeywell.\n\nThe episode is strongly optimistic about the investment cycle. Price says that in the first half of 2026, more risk dollars went into the defense ecosystem than in all of the prior years they reference, and Love argues that even if only half of the demand materializes, companies won\u2019t revert because the new designs and economics will be too compelling to unwind. The main risks they identify are long build times, policy friction, and the need for community buy-in around visible industrial projects.",
+      "summary": "The episode argues that rebuilding the U.S. industrial base is now a strategic priority because defense readiness depends on the broader ability to make materials, components, and finished hardware at scale. Erin Price-Wright says the hollowing out of industrial capacity has had real battlefield consequences, and Connor Love frames the current moment as one where government and capital are finally willing to fund the rebuild.\n\nA major theme is that AI matters, but mostly as a software layer for physical systems rather than as direct manual automation. Love says AI can be a phenomenal tool in the physical world, but it cannot yet \u201cturn a wrench,\u201d while Price-Wright highlights software that lets manufacturing engineers reconfigure production lines in about 20 minutes instead of waiting around three months and spending hundreds of thousands of dollars on a system integrator.\n\nThe speakers repeatedly emphasize dual-use dynamics: defense spending can lower the risk of building factories such as PCB fabs, and those same components later flow into robotics, cars, hearing aids, and medical devices. They also argue that the \u201cmanufacturing middle\u201d is changing, with suppliers increasingly expected to co-engineer new subsystems rather than simply keep producing legacy parts. That shift, they say, is visible in examples like Mariana Minerals, SpaceX, Tesla, DJI, and legacy suppliers such as Honeywell.\n\nThe episode is strongly optimistic about the investment cycle. Price-Wright says that in the first half of 2026, more risk dollars went into the defense ecosystem than in all of the prior years they reference, and Love argues that even if only half of the demand materializes, companies won\u2019t revert because the new designs and economics will be too compelling to unwind. The main risks they identify are long build times, policy friction, and the need for community buy-in around visible industrial projects.",
       "key_takeaway": "Defense spending is lowering the risk of building new U.S. industrial capacity, creating durable dual-use manufacturing winners in components, tooling, and process software.",
       "tickers_mentioned": [
         "MAR",
@@ -119,7 +218,7 @@
       "podcast_episode_id": 625,
       "notable_quotes": [
         {
-          "speaker": "Aaron Price",
+          "speaker": "Erin Price-Wright",
           "quote": "We've been saying for a while, you don't have a defense industrial base without an industrial base, and I think this year really put that into perspective with conflicts going on in the world."
         },
         {
@@ -127,7 +226,7 @@
           "quote": "The reality is AI cannot turn a wrench yet. Well, at some point, but we're far off that, you know, again, we can maybe have discussion about the, you know, robotic models and autonomy that that we see in this world."
         },
         {
-          "speaker": "Aaron Price",
+          "speaker": "Erin Price-Wright",
           "quote": "Like, if you look at just the first half of 2026, more, more risk dollars went into the defense ecosystem, then all of last year combined, which was many times what went into the defense ecosystem, and all of the previous year combined."
         }
       ]
@@ -364,7 +463,7 @@
       "key_takeaway": "Favor Treasuries over equities for the next 6 months because sticky inflation and fading fiscal support make the U.S. market vulnerable to a stagflationary bear phase.",
       "tickers_mentioned": [],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-27",
       "archived_date": null,
@@ -391,7 +490,7 @@
       "key_takeaway": "Anthropic\u2019s S-1 suggests a sharp efficiency inflection, with large CPU savings from infrastructure rewrites and rising platform adoption supporting margin expansion post-IPO.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-27",
       "archived_date": null,
@@ -411,7 +510,7 @@
         "META"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-29",
       "archived_date": null,
@@ -8054,7 +8153,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-06-17",
-      "summary": "This episode of the a16z Show features Adi, a fintech company that serves over 3 million consumers and 50,000 merchants in Colombia. Adi has transitioned from a buy now pay later model to a comprehensive platform that includes payments, logistics, and banking. The company's success is attributed to its strong technology foundation, AI integration, and a focus on hiring top talent. The founder, Santiago Gua Suarez, discusses Adi's contrarian market entry strategy, the importance of a North Star metric for performance tracking, and the company's future ambitions to expand globally and enhance operational efficiency through AI.",
+      "summary": "This episode of the a16z Show features Adi, a fintech company that serves over 3 million consumers and 50,000 merchants in Colombia. Adi has transitioned from a buy now pay later model to a comprehensive platform that includes payments, logistics, and banking. The company's success is attributed to its strong technology foundation, AI integration, and a focus on hiring top talent. The founder, Santiago Su\u00e1rez, discusses Adi's contrarian market entry strategy, the importance of a North Star metric for performance tracking, and the company's future ambitions to expand globally and enhance operational efficiency through AI.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL"
@@ -8316,7 +8415,7 @@
       "source_type": "podcast",
       "source_name": "BG2Pod with Brad Gerstner and Bill Gurley",
       "source_date": "2026-06-11",
-      "summary": "The podcast discusses SpaceX's anticipated IPO and its potential to generate significant revenue, with projections reaching $160 billion by 2028. Key investment themes include the rapid deployment of data centers, the consolidation of the AI compute market, and the growth potential of Starlink's broadband service. The show also highlights SpaceX's profitability in AI compute contracts and the potential impact of integrating cursor into X.AI on revenue growth.",
+      "summary": "The podcast discusses SpaceX's anticipated IPO and its potential to generate significant revenue, with projections reaching $160 billion by 2028. Key investment themes include the rapid deployment of data centers, the consolidation of the AI compute market, and the growth potential of Starlink's broadband service. The show also highlights SpaceX's profitability in AI compute contracts and the potential impact of integrating Cursor into xAI on revenue growth.",
       "key_takeaway": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
       "tickers_mentioned": [
         "TSLA"
@@ -10150,7 +10249,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-05-06",
-      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Kupperman and Rodrick Vanzo, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Kupperman and Roderick van Zuylen, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
       "key_takeaway": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
@@ -10708,7 +10807,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-04-22",
-      "summary": "The podcast discusses the breakdown in trust across media, hiring, and online communication due to the rise of synthetic content and the need for a new stack built on cryptography, on-chain data, and verifiable records. The conversation emphasizes the shift from relying on institutions to assert truth to systems that make truth provable. Bolligies Renovison, an Angel Investor, Entrepreneur, and author, shares insights on replacing trust with provable facts in a world of infinite content.",
+      "summary": "The podcast discusses the breakdown in trust across media, hiring, and online communication due to the rise of synthetic content and the need for a new stack built on cryptography, on-chain data, and verifiable records. The conversation emphasizes the shift from relying on institutions to assert truth to systems that make truth provable. Balaji Srinivasan, an Angel Investor, Entrepreneur, and author, shares insights on replacing trust with provable facts in a world of infinite content.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "COIN",
@@ -11736,7 +11835,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-31",
-      "summary": "The podcast discusses the challenges and innovations in the energy sector, focusing on the limitations of the current grid infrastructure and the need for new solutions. The conversation revolves around the increasing demand for electricity due to data centers, electrified transport, and industrialization, and how new power delivery methods are essential for economic growth and sustainable energy. Guests Doug Burnower, CEO of Radiant, and Andrew Beglinow, CEO of Heron, alongside A16Z General Partner Erin Price-Wright, explore the potential of portable nuclear reactors and solid-state power electronics in transforming the grid from the edge.",
+      "summary": "The podcast discusses the challenges and innovations in the energy sector, focusing on the limitations of the current grid infrastructure and the need for new solutions. The conversation revolves around the increasing demand for electricity due to data centers, electrified transport, and industrialization, and how new power delivery methods are essential for economic growth and sustainable energy. Guests Doug Burnower, CEO of Radiant, and Drew Baglino, CEO of Heron, alongside A16Z General Partner Erin Price-Wright, explore the potential of portable nuclear reactors and solid-state power electronics in transforming the grid from the edge.",
       "key_takeaway": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
       "tickers_mentioned": [
         "TSLA",
@@ -11934,7 +12033,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-27",
-      "summary": "This episode of the a16z Show features a conversation with Chandler Lujica, CEO of Galladine, and Turner Caldwell, CEO of Mariana Minerals, both alumni of SpaceX and Tesla respectively. They discuss the lessons they learned from their time at these companies and how they're applying those lessons to their current ventures in missile propulsion and critical mineral supply chains. The discussion covers the importance of setting aggressive targets, preventing data silos, and the value of having a strong technical foundation when starting a company.",
+      "summary": "This episode of the a16z Show features a conversation with Chandler Luzsicza, CEO of Galladine, and Turner Caldwell, CEO of Mariana Minerals, both alumni of SpaceX and Tesla respectively. They discuss the lessons they learned from their time at these companies and how they're applying those lessons to their current ventures in missile propulsion and critical mineral supply chains. The discussion covers the importance of setting aggressive targets, preventing data silos, and the value of having a strong technical foundation when starting a company.",
       "key_takeaway": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
       "tickers_mentioned": [
         "TSLA",
@@ -12114,7 +12213,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-24",
-      "summary": "In this episode of 'The a16z Show', Erin Price-Wright speaks with Adam Warmouth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the US Army, about the growing importance of power systems in modern warfare. They discuss the shift towards an electronic battlefield and the need for a tactical power layer that can support the increasing electronic capabilities of the military without giving away their position or becoming a liability. The conversation covers the inefficiencies of current power solutions and how Chariot Defense is addressing these challenges with innovative power systems that are more intelligent and tactical.",
+      "summary": "In this episode of 'The a16z Show', Erin Price-Wright Wright speaks with Adam Warmouth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the US Army, about the growing importance of power systems in modern warfare. They discuss the shift towards an electronic battlefield and the need for a tactical power layer that can support the increasing electronic capabilities of the military without giving away their position or becoming a liability. The conversation covers the inefficiencies of current power solutions and how Chariot Defense is addressing these challenges with innovative power systems that are more intelligent and tactical.",
       "key_takeaway": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
       "tickers_mentioned": [
         "AAPL",
@@ -12182,7 +12281,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-23",
-      "summary": "In this episode of the a16z Show, Bridget Memplar, co-founder and CEO of Northwood, discusses the importance of ground infrastructure in the space economy. Northwood is a company that builds systems to connect satellites back to Earth, making space missions useful. Bridget shares her unconventional path into the space industry and how a modern, vertically integrated approach could unlock the next wave of innovation in space. The conversation touches on the importance of resilience in ground stations, the potential of inner satellite links, and the analogy of the space economy to the early internet.",
+      "summary": "In this episode of the a16z Show, Bridgit Mendler, co-founder and CEO of Northwood, discusses the importance of ground infrastructure in the space economy. Northwood is a company that builds systems to connect satellites back to Earth, making space missions useful. Bridget shares her unconventional path into the space industry and how a modern, vertically integrated approach could unlock the next wave of innovation in space. The conversation touches on the importance of resilience in ground stations, the potential of inner satellite links, and the analogy of the space economy to the early internet.",
       "key_takeaway": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
       "tickers_mentioned": [
         "AAPL",
@@ -12592,7 +12691,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-03-17",
-      "summary": "In this episode of Moonshots with Peter Diamandis, Elon Musk discusses a range of topics including the merger of SpaceX and XAI, the timeline for launching data centers, the progression towards AGI and ASI, and the future of robotics. Musk also shares his thoughts on the potential for extended longevity, the harnessing of solar energy, and the economic implications of advanced AI and robotics. The conversation touches on the future of work, universal high income, and the potential for human trials in genetic reprogramming.",
+      "summary": "In this episode of Moonshots with Peter Diamandis, Elon Musk discusses a range of topics including the merger of SpaceX and xAI, the timeline for launching data centers, the progression towards AGI and ASI, and the future of robotics. Musk also shares his thoughts on the potential for extended longevity, the harnessing of solar energy, and the economic implications of advanced AI and robotics. The conversation touches on the future of work, universal high income, and the potential for human trials in genetic reprogramming.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "TSLA"
@@ -14520,8 +14619,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -14530,8 +14629,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 618,
-      "last_mentioned_speaker": "Mark Cuban"
+      "last_mentioned_episode_id": 635,
+      "last_mentioned_speaker": "Aman Singh"
     },
     {
       "id": 295,
@@ -14799,9 +14898,9 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 489,
-      "first_detected_speaker": "Gork Amir, Batuan Tashkaya",
+      "first_detected_speaker": "Gorkem Yurtseven, Batuan Tashkaya",
       "last_mentioned_episode_id": 519,
-      "last_mentioned_speaker": "Gork Amir, Batuan Tashkaya"
+      "last_mentioned_speaker": "Gorkem Yurtseven, Batuan Tashkaya"
     },
     {
       "id": 290,
@@ -14844,8 +14943,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -14854,8 +14953,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 623,
-      "last_mentioned_speaker": "Christina Cacioppo"
+      "last_mentioned_episode_id": 635,
+      "last_mentioned_speaker": "Aman Singh"
     },
     {
       "id": 284,
@@ -14896,20 +14995,20 @@
     {
       "id": 282,
       "term": "e-values",
-      "description": "e-values are evaluation methods used to test whether models are aligned or deceptive, especially during longer training runs or agent tasks.",
+      "description": "Benchmarking systems intended to measure financial-work automation potential and model quality in profession-specific tasks.",
       "first_detected_date": "2026-08-24",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The term matters because AI safety testing may become part of enterprise procurement and frontier-model differentiation.",
+      "investment_implications": "Benchmark infrastructure may become a key layer for validating AI performance in regulated, high-stakes domains.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 421,
       "first_detected_speaker": "NG ZDN",
-      "last_mentioned_episode_id": 606,
-      "last_mentioned_speaker": "Dave Blundin, Alex, Salim"
+      "last_mentioned_episode_id": 633,
+      "last_mentioned_speaker": "Joseph Kim, Richard"
     },
     {
       "id": 281,
@@ -15006,8 +15105,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-10-20",
-      "mention_count": 35,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 36,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -15016,8 +15115,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 623,
-      "last_mentioned_speaker": "Christina Cacioppo"
+      "last_mentioned_episode_id": 633,
+      "last_mentioned_speaker": "Joseph Kim, Richard"
     },
     {
       "id": 267,
@@ -15114,8 +15213,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-29",
-      "mention_count": 40,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -15124,8 +15223,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 625,
-      "last_mentioned_speaker": "Aaron Price, Wright (name partially obscured in transcript), Connor Love"
+      "last_mentioned_episode_id": 633,
+      "last_mentioned_speaker": "Joseph Kim, Richard"
     },
     {
       "id": 265,
@@ -15393,7 +15492,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 292,
-      "first_detected_speaker": "Santiago Gua Suarez",
+      "first_detected_speaker": "Santiago Su\u00e1rez",
       "last_mentioned_episode_id": 585,
       "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
     },
@@ -17004,8 +17103,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-30",
-      "mention_count": 140,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 142,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -17014,8 +17113,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 630,
-      "last_mentioned_speaker": "J. Madesh"
+      "last_mentioned_episode_id": 635,
+      "last_mentioned_speaker": "Aman Singh"
     },
     {
       "id": 38,
@@ -17141,7 +17240,7 @@
       "first_detected_episode_id": 85,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 321,
-      "last_mentioned_speaker": "Matt Tenzig, Zachia"
+      "last_mentioned_speaker": "Matt Tancik, Zachia"
     },
     {
       "id": 61,
