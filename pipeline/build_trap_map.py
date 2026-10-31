@@ -267,6 +267,7 @@ def _card(r, today: date, max_p: float) -> str:
             f'{_gl_bar(t["change"], t["cost"], max_p)}</div></div></details>')
 
 
+PAGE_SUBTITLE = "Paper trades at real prices. The market keeps score."  # page only; homepage strip keeps d["purpose"]
 CLOSED_PREVIEW = Path(__file__).resolve().parent / "trap_map_closed_preview.json"
 ENDED = {"Target": ("Hit target", "RIGHT"), "Stop": ("Hit stop", "WRONG"), "Not placed": ("Not placed", "NONE")}
 
@@ -335,10 +336,13 @@ def _closed_card(c) -> str:
     """Closed position: only what the data states (no computed results, $ only)."""
     word, cls = ENDED.get(c.get("ended"), (c.get("ended") or "Closed", "NONE"))
     money_html = f'<div class="lbl">Allocated</div><div class="cost">{money(c["allocated"])}</div>' if c.get("allocated") else ""
-    if c.get("result_usd") is not None:
-        r = c["result_usd"]
+    usd, pct = c.get("result_usd"), c.get("result_pct")
+    if usd is not None or pct is not None:
+        sign = (usd if usd is not None else pct) >= 0
+        pct_s = f'{"+" if pct >= 0 else MINUS}{abs(pct):.1f}%' if pct is not None else ""
+        val = f"{_sg(usd)} ({pct_s})" if usd is not None and pct_s else (_sg(usd) if usd is not None else pct_s)
         money_html += (f'<div class="lbl" style="margin-top:6px">Result{" (approx.)" if c.get("approx") else ""}</div>'
-                       f'<div class="chg {"up" if r >= 0 else "dn"}">{_sg(r)}</div>')
+                       f'<div class="chg {"up" if sign else "dn"}">{val}</div>')
     edge = {"RIGHT": "cu", "WRONG": "cd"}.get(cls, "cn")
     return (f'<article class="card closed {edge}"><div class="tk"><div class="sym">{e(c["ticker"])}</div>'
             f'<div class="co">{e(c["company"])}</div><div class="added">Added {e(fmt_date(c["opened"]))}</div></div>'
@@ -390,7 +394,7 @@ h2{{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute
 .card{{grid-template-columns:1fr auto;gap:10px 14px;padding:14px}}.card .tk{{grid-column:1}}.card .money{{grid-column:2;grid-row:1}}.card .why,.card .exit{{grid-column:1/-1}}.chg{{font-size:20px}}.money .gl{{width:120px;margin-left:auto}}}}
 </style></head><body><div class="wrap" id="top">
 <a class="home" href="index.html">\u2190 Home</a>
-<h1>{e(d["title"])}</h1><p class="sub">{e(d["purpose"])}</p><span class="asof" id="asof">Quotes as of {e(_fmt_full(d["quotes_as_of"]))}</span>
+<h1>{e(d["title"])}</h1><p class="sub">{e(PAGE_SUBTITLE)}</p><span class="asof" id="asof">Quotes as of {e(_fmt_full(d["quotes_as_of"]))}</span>
 <section class="hero" id="tot"><div class="hgrid">
 <div><div class="k">Our trades are worth</div><div class="v">{money(T["value"])}</div><div class="sm">Allocated {money(T["cost"])}</div></div>
 <div><div class="k">Our gain</div><div class="v s {up(T["change"])}">{_sg(T["change"])}</div></div>
