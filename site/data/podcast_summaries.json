@@ -1,5 +1,26 @@
 [
   {
+    "id": 632,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Anthropic S-1 Shocker, Greatest Business Ever? Google's $500B Wipeout, Midterm Predictions",
+    "episode_date": "2026-10-30",
+    "summary": "The episode centers on Anthropic\u2019s S-1 and what it says about AI economics, with the hosts arguing that the company is far more capital-efficient than the market narrative suggests. Chamath Palihapitiya says the widely discussed roughly $80 billion loss was a \u201cphantom\u201d accounting effect tied to convertibles, and that Anthropic has raised about $110 billion, spent only around $9\u201310 billion, and still holds about $100+ billion in cash or equivalents. The speakers also emphasize fast customer growth, especially among customers spending $100,000+ per year, and claim gross margin is around 85% with incremental margins improving sharply.\n\nA major theme is that AI cost curves are still falling rapidly. Chamath argues Anthropic is seeing roughly 10x year-over-year improvement in task capability cost, which he frames as evidence that compute multipliers and model improvements are driving both better margins and faster adoption. The episode repeatedly returns to the idea that AI enterprises may be monetizing well enough to justify massive capex, with one estimate suggesting customers may be earning 2\u201310x what they spend on AI.\n\nThe hosts also worry about the macro and political consequences of AI buildout. They argue the binding constraint is not just chips but data centers and power, and Chamath says this could become a regulatory lever where governments effectively allocate compute capacity. He also claims AI firms\u2019 financing needs could crowd out Treasury demand, creating broader market risk. In that same vein, the episode speculates about recursive self-improvement and whether Anthropic is pushing that frontier quickly enough to create both a competitive edge and a policy backlash.\n\nThe second major thread is Google/Alphabet. David Friedberg says the core Google ad/search business is under real pressure as AI answer engines potentially reduce ad clicks even if searches remain high, while Google Cloud is growing strongly and generating meaningful operating income. The discussion cites a large stock drawdown and a roughly $500 billion market value wipeout, with concern that search monetization quality could deteriorate even if top-line growth remains resilient. The episode closes with midterm-election forecasting and broader skepticism about polling, using Polymarket as a guide for political probabilities.",
+    "key_takeaways": [
+      "Chamath Palihapitiya says Anthropic\u2019s widely cited ~$80 billion loss is a phantom accounting effect tied to convertibles, not evidence of a broken business.",
+      "Chamath Palihapitiya says Anthropic raised about $110 billion, spent only about $9\u201310 billion, and still has roughly $100+ billion of cash or equivalents.",
+      "Chamath Palihapitiya says Anthropic\u2019s gross margin is around 85% and that the company is seeing roughly 10x year-over-year improvement in task delivery cost.",
+      "David Friedberg says the S-1 shows a sharp ramp in customers spending $100,000 or more, citing a move from 200 in 2024 to 11,900 by the end of September in the noisy transcript.",
+      "David Friedberg says Google\u2019s core ad revenue is facing a real challenge because AI answers may reduce the effectiveness of ad clicks even if searches keep growing.",
+      "David Friedberg says Google Cloud is a major offset, citing strong operating income growth and continued expansion in the business.",
+      "Chamath Palihapitiya says the AI complex\u2019s financing needs could crowd out capital markets and even compete with Treasury issuance, creating systemic risk."
+    ],
+    "investment_thesis": "Anthropic may be an unusually capital-efficient AI platform with 85% gross margins and rapidly rising enterprise demand, despite headline losses that the hosts argue are largely non-cash accounting noise.",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT"
+    ]
+  },
+  {
     "id": 631,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
