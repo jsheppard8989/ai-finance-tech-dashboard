@@ -9,7 +9,7 @@ import build_trap_map as b
 DATA = b.compute(json.loads(b.DATA.read_text(encoding="utf-8")))
 CLOSED = [{"ticker": "AAA", "company": "A Co", "direction": "Long", "call": "Long from $1.", "opened": "2026-10-20",
            "closed": "2026-10-26", "ended": "Stop", "how": "Closed at the stop.", "allocated": 1000,
-           "result_usd": -10.5, "approx": True},
+           "result_usd": -10.5, "result_pct": -1.1, "approx": True},
           {"ticker": "BBB", "company": "B Co", "direction": "Long", "call": "Long from $2.", "opened": "2026-10-21",
            "closed": "2026-10-29", "ended": "Target", "how": "Closed at the target.", "allocated": None, "result_usd": None}]
 
@@ -25,7 +25,7 @@ class Scorecard(unittest.TestCase):
         self.assertEqual(p.count("not advice"), 1)
         text = re.sub(r"<[^>]+>", " ", re.sub(r"<script.*?</script>", " ", p, flags=re.S))
         self.assertNotRegex(text, r"(?i)\b(bet|thin|grade|graded|grades|grading)\b")
-        self.assertNotRegex(text, r"\d+\.\d%")  # dollars only
+        self.assertNotRegex(text.split("Closed positions")[0], r"\d+\.\d%")  # open rows: dollars only
 
     def test_expected_exit_is_option_expiry(self):
         p = self.page()
@@ -46,7 +46,7 @@ class Scorecard(unittest.TestCase):
         self.assertGreater(p.index("AAA"), p.index("Closed positions"))
         self.assertIn("Hit stop", p)
         self.assertIn("Hit target", p)
-        self.assertIn("\u2212$10.50", p)
+        self.assertIn("\u2212$10.50 (\u22121.1%)", p)
         bbb = p[p.index("BBB"):]
         self.assertNotIn("Result", bbb[:bbb.index("</article>")])
 
