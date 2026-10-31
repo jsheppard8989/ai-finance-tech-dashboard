@@ -87,6 +87,7 @@ from dragonfly.risk_math import (  # noqa: E402
     D,
     MODELED_SPREAD_SOURCES,
     SPREAD_SOURCE_YAHOO,
+    is_modeled_spread,
     resolve_quote,
     stock_spread_limit,
     universe_reasons,
@@ -254,7 +255,7 @@ def yahoo_quote(ticker: str) -> Quote:
     return info.get("bid"), info.get("ask")
 
 
-def yahoo_quote_full(ticker: str) -> Dict[str, Optional[float]]:
+def _yahoo_info_quote(ticker: str) -> Dict[str, Optional[float]]:
     """bid, ask and last trade from one yfinance info call (guarded)."""
     guards.before_fetch()  # pipeline lock + daemon window
     import yfinance as yf  # lazy
@@ -275,6 +276,221 @@ def yahoo_quote_full(ticker: str) -> Dict[str, Optional[float]]:
         # for AAPL), so halt status is unknown here, never fabricated.
         "halted": None,
     }
+
+
+# Quote chain (Jared 2026-09-28, PAPER ONLY): Yahoo quote (yfinance .info),
+# then the Nasdaq quote (api.nasdaq.com), then the chart's last price. Yahoo's
+# quote endpoint needs a crumb; when the crumb fetch is rate-limited (429) or
+# rejected (401 Invalid Crumb) .info comes back empty. api.nasdaq.com needs no
+# crumb and returns a real-time bid/ask plus last sale (pre-market and after
+# hours included). The chart endpoint gives a last price only: no bid/ask, so
+# risk_math.resolve_quote applies the existing rule, a modeled $0.05 spread
+# around the last trade (modeled_last_0.05, provisional, live-blocked).
+# A Nasdaq bid/ask goes through the SAME resolve_quote gate as Yahoo's; when it
+# passes, the row is relabelled spread_source "nasdaq" (a real, observed spread);
+# when it fails, the modeled rules apply unchanged. A Yahoo quote that answers
+# but has no gate-passing bid/ask (after-hours zeros) still moves on to Nasdaq;
+# if neither has a real spread, the first non-empty quote is modeled. Every row carries
+# quote_source: yahoo_info | nasdaq_quote | chart_last_fallback | none.
+QUOTE_SOURCE_INFO = "yahoo_info"
+QUOTE_SOURCE_NASDAQ = "nasdaq_quote"
+QUOTE_SOURCE_CHART = "chart_last_fallback"
+QUOTE_SOURCE_NONE = "none"
+SPREAD_SOURCE_NASDAQ = "nasdaq"
+NASDAQ_QUOTE_URL = "https://api.nasdaq.com/api/quote/{symbol}/info?assetclass={assetclass}"
+NASDAQ_ETFS = frozenset({"SPY", "QQQ", "IWM", "DIA"})
+
+
+def _positive_or_none(v) -> Optional[float]:
+    f = _float_or_none(v)
+    return f if f is not None and f > 0 else None
+
+
+def quote_is_empty(q: Optional[Mapping]) -> bool:
+    """No last trade and no two-sided bid/ask: the lookup gave nothing usable."""
+    if not q:
+        return True
+    return _positive_or_none(q.get("last")) is None and (
+        _positive_or_none(q.get("bid")) is None or _positive_or_none(q.get("ask")) is None
+    )
+
+
+def _nasdaq_money(v) -> Optional[float]:
+    if v is None:
+        return None
+    txt = str(v).replace("$", "").replace(",", "").strip()
+    return _positive_or_none(txt) if txt else None
+
+
+_NASDAQ_TS_RE = re.compile(r"([A-Z][a-z]{2} \d{1,2}, \d{4} \d{1,2}:\d{2} [AP]M) ET")
+
+
+def _nasdaq_epoch(label) -> Optional[float]:
+    """'Sep 28, 2026 6:53 PM ET' (or 'Closed at Sep 28, 2026 4:00 PM ET') -> epoch seconds."""
+    from zoneinfo import ZoneInfo
+
+    m = _NASDAQ_TS_RE.search(str(label or ""))
+    if not m:
+        return None
+    try:
+        dt = datetime.strptime(m.group(1), "%b %d, %Y %I:%M %p").replace(tzinfo=ZoneInfo("America/New_York"))
+    except ValueError:
+        return None
+    return dt.timestamp()
+
+
+def parse_nasdaq_quote(payload: Optional[Mapping]) -> dict:
+    """api.nasdaq.com /api/quote/<sym>/info -> bid, ask, last (primaryData: the
+    live print, pre-market / regular / after-hours) and the prior close
+    (secondaryData when it reads 'Closed at ...'). Pure."""
+    data = (payload or {}).get("data") or {}
+    prim = data.get("primaryData") or {}
+    sec = data.get("secondaryData") or {}
+    status = data.get("marketStatus")
+    prev = _nasdaq_money(sec.get("lastSalePrice")) if "Closed" in str(sec.get("lastTradeTimestamp") or "") else None
+    return {
+        "bid": _nasdaq_money(prim.get("bidPrice")),
+        "ask": _nasdaq_money(prim.get("askPrice")),
+        "last": _nasdaq_money(prim.get("lastSalePrice")),
+        "last_source": f"nasdaq:{status}" if status else "nasdaq",
+        "quote_time": _nasdaq_epoch(prim.get("lastTradeTimestamp")),
+        "previous_close": prev,
+        "market_state": status,
+        "is_real_time": prim.get("isRealTime"),
+        "halted": None,
+    }
+
+
+def nasdaq_quote(ticker: str) -> dict:
+    """Guarded api.nasdaq.com quote (no crumb, no key)."""
+    guards.before_fetch()
+    if not ticker or ticker.startswith("^"):
+        raise ValueError(f"no nasdaq quote for {ticker!r}")
+    assetclass = "etf" if ticker in NASDAQ_ETFS else "stocks"
+    url = NASDAQ_QUOTE_URL.format(symbol=ticker.replace("-", "."), assetclass=assetclass)
+    req = urllib.request.Request(url, headers={
+        "User-Agent": UA, "Accept": "application/json, text/plain, */*",
+        "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        payload = json.loads(resp.read().decode("utf-8"))
+    return parse_nasdaq_quote(payload)
+
+
+def chart_last(ticker: str) -> Tuple[float, float]:
+    """(last price, epoch seconds) from Yahoo's chart endpoint (no crumb needed).
+    1-minute bars incl. extended hours for the latest day; else the last daily close."""
+    guards.before_fetch()
+    import yfinance as yf  # lazy
+
+    tk = yf.Ticker(ticker)
+    for kwargs in ({"period": "1d", "interval": "1m", "prepost": True}, {"period": "5d", "interval": "1d"}):
+        frame = tk.history(auto_adjust=False, actions=False, **kwargs)
+        if frame is not None and len(frame):
+            frame = frame.dropna(subset=["Close"])
+        if frame is not None and len(frame):
+            close = float(frame["Close"].iloc[-1])
+            if close > 0:
+                return close, float(frame.index[-1].timestamp())
+    raise RuntimeError("chart returned no price")
+
+
+def _err(exc: BaseException) -> str:
+    return f"{type(exc).__name__}: {str(exc)[:160]}"
+
+
+def _real_spread(q: Mapping) -> bool:
+    """The quote's own bid/ask passes resolve_quote's spread gate (a real spread)."""
+    r = resolve_quote(q.get("bid"), q.get("ask"), q.get("last"))
+    return bool(r.get("usable")) and r.get("spread_source") == SPREAD_SOURCE_YAHOO
+
+
+def with_chart_fallback(ticker: str, info_quote_fn: Callable, chart_fn: Callable = chart_last,
+                        nasdaq_fn: Optional[Callable] = None) -> dict:
+    """Yahoo info quote, then the Nasdaq quote (when nasdaq_fn is given), then
+    the chart's last price.
+
+    A source wins outright when its bid/ask passes the spread gate (a real
+    spread). Otherwise the next source is tried: empty or an exception (401
+    Invalid Crumb, 429, network) always moves on, and so does a quote with no
+    gate-passing bid/ask when a later quote source remains. If no source has a
+    real spread, the first non-empty quote is used (Yahoo before Nasdaq) and
+    resolve_quote models it; with none at all, the chart's last price
+    (modeled_last_0.05). Guard stops always propagate."""
+    errors: Dict[str, str] = {}
+    fallback: Optional[Tuple[str, dict]] = None
+    base: dict = {}
+    for source, fn in ((QUOTE_SOURCE_INFO, info_quote_fn), (QUOTE_SOURCE_NASDAQ, nasdaq_fn)):
+        if fn is None:
+            continue
+        try:
+            q = fn(ticker)
+        except guards.GuardBlocked:
+            raise
+        except Exception as exc:  # 401 Invalid Crumb, 429, network
+            q, errors[source] = None, _err(exc)
+        if source == QUOTE_SOURCE_INFO:
+            base = dict(q or {})
+        if quote_is_empty(q):
+            errors.setdefault(source, "empty_quote")
+            continue
+        if _real_spread(q):
+            out = dict(q, quote_source=source)
+            if errors:
+                out["quote_errors"] = dict(errors)
+            if QUOTE_SOURCE_INFO in errors:
+                out["info_error"] = errors[QUOTE_SOURCE_INFO]
+            return out
+        errors[source] = "no_real_spread"
+        if fallback is None:
+            fallback = (source, dict(q))
+    if fallback is not None:
+        source, q = fallback
+        out = dict(q, quote_source=source, quote_errors=dict(errors))
+        if source != QUOTE_SOURCE_INFO:
+            out["info_error"] = errors.get(QUOTE_SOURCE_INFO)
+        return out
+    base["info_error"] = errors.get(QUOTE_SOURCE_INFO, "empty_quote")
+    base["quote_errors"] = dict(errors)
+    try:
+        last, ts = chart_fn(ticker)
+    except guards.GuardBlocked:
+        raise
+    except Exception as exc:
+        return dict(base, quote_source=QUOTE_SOURCE_NONE, chart_error=_err(exc))
+    return dict(base, bid=None, ask=None, last=last, quote_time=ts, last_source="chart",
+                quote_source=QUOTE_SOURCE_CHART)
+
+
+def spread_label(resolved: Mapping, quote_source: Optional[str]) -> Optional[str]:
+    """resolve_quote labels any gate-passing bid/ask "yahoo"; a Nasdaq bid/ask is "nasdaq"."""
+    src = resolved.get("spread_source")
+    if src == SPREAD_SOURCE_YAHOO and quote_source == QUOTE_SOURCE_NASDAQ:
+        return SPREAD_SOURCE_NASDAQ
+    return src
+
+
+def quote_mix(rows: Sequence[Mapping]) -> dict:
+    """Real vs modeled for the report. real_spread = an observed bid/ask that
+    passed the spread gate (Yahoo or Nasdaq); modeled = modeled_mid/last_0.05."""
+    by_source: Dict[str, int] = {}
+    for r in rows:
+        k = r.get("quote_source") or QUOTE_SOURCE_INFO
+        by_source[k] = by_source.get(k, 0) + 1
+    chart = sorted(r["ticker"] for r in rows if r.get("quote_source") == QUOTE_SOURCE_CHART)
+    return {
+        "real_spread": sum(1 for r in rows if r.get("spread_source") and not is_modeled_spread(r.get("spread_source"))),
+        "modeled": sum(1 for r in rows if is_modeled_spread(r.get("spread_source"))),
+        "by_quote_source": dict(sorted(by_source.items())),
+        "real_spread_by_source": {
+            s: sum(1 for r in rows if r.get("spread_source") == s) for s in (SPREAD_SOURCE_YAHOO, SPREAD_SOURCE_NASDAQ)},
+        "chart_fallback": len(chart),
+        "chart_fallback_names": chart,
+    }
+
+
+def yahoo_quote_full(ticker: str) -> Dict[str, Optional[float]]:
+    """bid, ask and last trade (guarded): Yahoo quote, then Nasdaq quote, then chart last."""
+    return with_chart_fallback(ticker, _yahoo_info_quote, chart_last, nasdaq_quote)
 
 
 def _quote_parts(q) -> Tuple[Optional[float], Optional[float], Optional[float]]:
@@ -448,6 +664,7 @@ def _select_modeled(rows, quote_fn, cap, batch, workers) -> dict:
                 continue
             if res["fallback_reason"]:
                 fallbacks[r["ticker"]] = res["fallback_reason"]
+            qsrc = (q.get("quote_source") or QUOTE_SOURCE_INFO) if isinstance(q, Mapping) else QUOTE_SOURCE_INFO
             admitted.append(
                 {
                     "ticker": r["ticker"],
@@ -461,7 +678,7 @@ def _select_modeled(rows, quote_fn, cap, batch, workers) -> dict:
                     "mid": float(res["mid"]),
                     "spread": float(res["spread"]),
                     "spread_limit": float(stock_spread_limit(res["mid"])),
-                    "spread_source": res["spread_source"],
+                    "spread_source": spread_label(res, qsrc),
                     "mid_source": res["mid_source"],
                     "provisional": True,
                     "yahoo_bid": _float_or_none(bid),
@@ -469,6 +686,7 @@ def _select_modeled(rows, quote_fn, cap, batch, workers) -> dict:
                     "last_trade": _float_or_none(last),
                     "quote_time": q.get("quote_time") if isinstance(q, Mapping) else None,
                     "market_state": q.get("market_state") if isinstance(q, Mapping) else None,
+                    "quote_source": qsrc,
                 }
             )
     for r in shortlist[i:]:
@@ -492,7 +710,10 @@ def _select_modeled(rows, quote_fn, cap, batch, workers) -> dict:
             "admitted_by_spread_source": dict(sorted(by_source.items())),
             "mid_from_last_trade": sum(1 for n in admitted if n["mid_source"] == "last_trade"),
             "mid_unverified": sum(1 for n in admitted if n["mid_source"] == "quote_mid_unverified"),
+            "quote_chart_fallback": sum(1 for n in admitted if n.get("quote_source") == QUOTE_SOURCE_CHART),
         },
+        "chart_fallback_names": sorted(n["ticker"] for n in admitted if n.get("quote_source") == QUOTE_SOURCE_CHART),
+        "quote_mix": quote_mix(admitted),
         "excluded_summary": dict(sorted(summary.items())),
     }
 
@@ -731,6 +952,9 @@ def build(
             "reused": universe["reused"],
             "age_days": universe["age_days"],
             "refresh": universe.get("refresh"),
+            "membership": universe.get("membership", "ranked"),
+            "approved_file": universe.get("approved_file"),
+            "sector_scheme": universe.get("sector_scheme"),
             "sector_field": universe.get("sector_field"),
             "market_cap_field": universe.get("market_cap_field"),
             "sector_sizes": universe.get("sector_sizes"),
@@ -785,6 +1009,8 @@ def build(
         "pinned": result["pinned"],
         "names": result["names"],
         "quote_fallbacks": result.get("fallbacks", {}),
+        "quote_chart_fallback_names": result.get("chart_fallback_names", []),
+        "quote_mix": result.get("quote_mix"),
         "excluded": result["excluded_members"],
     }
     out.write_text(json.dumps(doc, indent=1) + "\n", encoding="utf-8")
