@@ -752,7 +752,7 @@ def _merge_pundit_rows(rows, merges):
 NAME_PROTECT_KEYS = frozenset(TITLE_FIELDS) | {
     "quote", "quotes", "notable_quotes", "last_proof_snippet", "last_proof_cite",
     "last_episode_title", "last_mentioned_episode_title", "transcript_excerpt",
-    "slug", "url", "source_url", "link", "net_worth_source", "grokipedia_url",
+    "slug", "term", "url", "source_url", "link", "net_worth_source", "grokipedia_url",
 }
 _QUOTED_SPAN_RE = re.compile(
     r'"[^"\n]*"|\u201c[^\u201d]*\u201d|\u2018[^\u2019]*\u2019(?![A-Za-z])'

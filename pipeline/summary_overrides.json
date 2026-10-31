@@ -1796,6 +1796,10 @@
         [
           "can look profitable at the EBITDA level",
           "can look profitable before counting the wear-out of its equipment"
+        ],
+        [
+          "support the capital spending cycle",
+          "support the AI spending cycle"
         ]
       ],
       "set_sentiment": "positive"
@@ -1834,6 +1838,14 @@
         ],
         [
           "de-risk capex for factories",
+          "lower the risk of building factories"
+        ],
+        [
+          "Defense-led capital spending is de-risking",
+          "Defense spending is lowering the risk of building"
+        ],
+        [
+          "de-risk capital spending for factories",
           "lower the risk of building factories"
         ]
       ],
@@ -1944,6 +1956,17 @@
         ]
       },
       "set_key_takeaway": "Eric Wallerstein says a garden-variety bear market is increasingly his base case, driven by fiscal drag, energy-supply shocks and rate hikes."
+    },
+    {
+      "podcast_episode_id": 621,
+      "insight_id": 632,
+      "_note": "Oct 31 2026 (G, R66 review hit #234) PREVIEW: drop grading wording",
+      "replacements": [
+        [
+          "; grading source: 10-Q and earnings release.",
+          "; source: 10-Q and earnings release."
+        ]
+      ]
     }
   ],
   "terms": [
@@ -3791,6 +3814,270 @@
     [
       "They are betting that the future of professional",
       "Their view is that the future of professional"
+    ],
+    [
+      "Apple's services moat",
+      "Apple's lasting edge from services"
+    ],
+    [
+      "the bottleneck/capex-rent thesis for AI infrastructure",
+      "the thesis that owners of AI-infrastructure bottlenecks can earn rent on their capital spending"
+    ],
+    [
+      "dual-use manufacturing. He emphasizes capex",
+      "manufacturing with both civilian and military uses. He emphasizes capital spending"
+    ],
+    [
+      "Rebuild every moat thesis from scratch.",
+      "Every thesis about lasting competitive edge needs rebuilding from scratch."
+    ],
+    [
+      "creating natural moats for hyperscalers",
+      "creating natural lasting competitive edges for hyperscalers"
+    ],
+    [
+      "a significant shift from capex to opex",
+      "a significant shift from buying equipment up front to paying for it as an ongoing cost"
+    ],
+    [
+      "a defensible drug-discovery data moat",
+      "a lasting edge in drug-discovery data"
+    ],
+    [
+      "the more speculative AI capex complex",
+      "the more speculative group of AI-spending stocks"
+    ],
+    [
+      "the proprietary data-loop moat claim",
+      "the claim that its own data loop gives it a lasting edge"
+    ],
+    [
+      "the shift from capex to opex models",
+      "the shift from buying equipment up front to paying for it as an ongoing cost"
+    ],
+    [
+      "competitive moat in cost leadership",
+      "lasting competitive edge in cost leadership"
+    ],
+    [
+      "the capex to operating income ratio",
+      "the ratio of capital spending to operating income"
+    ],
+    [
+      "whether capex-heavy compute models",
+      "whether compute businesses that need heavy capital spending"
+    ],
+    [
+      "the data-and-attention moat thesis",
+      "the thesis that data and attention give a lasting edge"
+    ],
+    [
+      "the competitive moat in AI cloud",
+      "the lasting competitive edge in AI cloud"
+    ],
+    [
+      "Every competitive moat analysis",
+      "Every analysis of lasting competitive edge"
+    ],
+    [
+      "Every moat, every pricing model",
+      "Every competitive edge, every pricing model"
+    ],
+    [
+      "data-center and AI capex names",
+      "data-center and AI-spending stocks"
+    ],
+    [
+      "the transactional-quality moat",
+      "the lasting edge from transaction quality"
+    ],
+    [
+      "the quality-control moat claim",
+      "the claim that quality control gives a lasting edge"
+    ],
+    [
+      "expensive, capex-heavy growth",
+      "expensive growth that needs heavy capital spending"
+    ],
+    [
+      "the core moat question shifts",
+      "the core question of what gives a lasting edge shifts"
+    ],
+    [
+      "services moat remains strong",
+      "lasting edge from services remains strong"
+    ],
+    [
+      "capital expenditures (capex)",
+      "capital spending"
+    ],
+    [
+      "workflow/data-moat companies",
+      "companies with a lasting edge in workflow or data"
+    ],
+    [
+      "Regarding capex investments",
+      "Regarding capital spending"
+    ],
+    [
+      "the capex-de-risking thesis",
+      "the thesis that defense contracts lower the risk of new capital spending"
+    ],
+    [
+      "reframes the moat question",
+      "reframes the question of what gives a lasting edge"
+    ],
+    [
+      "the return-on-capex debate",
+      "the debate over the return on capital spending"
+    ],
+    [
+      "a hidden operational moat",
+      "a hidden, lasting operational edge"
+    ],
+    [
+      "a stronger long-term moat",
+      "a stronger lasting competitive edge"
+    ],
+    [
+      "capex-heavy, but portable",
+      "costly to build, but portable"
+    ],
+    [
+      "a major competitive moat",
+      "a major lasting competitive edge"
+    ],
+    [
+      "capex investment targets",
+      "capital spending targets"
+    ],
+    [
+      "part of the product moat",
+      "part of the product's lasting competitive edge"
+    ],
+    [
+      "without strong data moat",
+      "without a strong, lasting edge from data"
+    ],
+    [
+      "GOOGL as defensive moat",
+      "GOOGL for a lasting defensive edge"
+    ],
+    [
+      "confirm the moat thesis",
+      "confirm the thesis that incumbents keep a lasting competitive edge"
+    ],
+    [
+      "around a data moat that",
+      "around a lasting edge from data that"
+    ],
+    [
+      "best long-term moat is",
+      "best lasting competitive edge is"
+    ],
+    [
+      "as a competitive moat",
+      "as a lasting competitive edge"
+    ],
+    [
+      "its distribution moat",
+      "its lasting edge in distribution"
+    ],
+    [
+      "competitive moat will",
+      "lasting competitive edge will"
+    ],
+    [
+      "disclosed capex ramps",
+      "disclosed increases in capital spending"
+    ],
+    [
+      "a data-and-eval moat",
+      "a lasting edge in data and evaluation"
+    ],
+    [
+      "the data-moat thesis",
+      "the thesis that its data gives a lasting edge"
+    ],
+    [
+      "a new scalable moat",
+      "a new lasting competitive edge that can scale"
+    ],
+    [
+      "the investable moat",
+      "the lasting competitive edge worth investing in"
+    ],
+    [
+      "the AI-capex story",
+      "the AI capital-spending story"
+    ],
+    [
+      "capex investments",
+      "capital spending"
+    ],
+    [
+      "Defensive moat - ",
+      "Lasting defensive edge - "
+    ],
+    [
+      "Defensive moat in",
+      "Lasting defensive edge in"
+    ],
+    [
+      "capex utilization",
+      "how fully new equipment is used"
+    ],
+    [
+      "the network moat",
+      "the lasting edge from its network"
+    ],
+    [
+      "capex durability",
+      "how long capital spending lasts"
+    ],
+    [
+      "capex intensity",
+      "how heavy its capital spending is"
+    ],
+    [
+      "capex spending",
+      "capital spending"
+    ],
+    [
+      "a durable moat",
+      "a lasting competitive edge"
+    ],
+    [
+      "Data moat for",
+      "Lasting edge from data for"
+    ],
+    [
+      "high-ROIC",
+      "high-return"
+    ],
+    [
+      "PBMs, ASOs, and TPAs",
+      "pharmacy benefit managers, administrative-services contracts and third-party administrators"
+    ],
+    [
+      "non-cash accounting noise",
+      "accounting items that don't involve cash"
+    ],
+    [
+      "efficiency inflection",
+      "turning point in efficiency"
+    ],
+    [
+      "competitive moat",
+      "lasting competitive edge"
+    ],
+    [
+      "capex",
+      "capital spending"
+    ],
+    [
+      "moat",
+      "lasting competitive edge"
     ]
   ],
   "ticker_renames": [
@@ -7903,6 +8190,10 @@
         [
           "Defense-led capex is de-risking new U.S. industrial capacity",
           "Defense spending is making new U.S. factories less risky to build"
+        ],
+        [
+          "Defense-led capital spending is de-risking new U.S. industrial capacity",
+          "Defense spending is making new U.S. factories less risky to build"
         ]
       ]
     },
@@ -7913,6 +8204,10 @@
         [
           "Defense-led capex is de-risking new U.S. industrial capacity",
           "Defense spending is making new U.S. factories less risky to build"
+        ],
+        [
+          "Defense-led capital spending is de-risking new U.S. industrial capacity",
+          "Defense spending is making new U.S. factories less risky to build"
         ]
       ]
     },
@@ -7922,6 +8217,10 @@
       "replacements": [
         [
           "enough to support the capex cycle",
+          "enough to keep the data center building going"
+        ],
+        [
+          "enough to support the capital spending cycle",
           "enough to keep the data center building going"
         ]
       ]
