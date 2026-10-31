@@ -121,13 +121,14 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(build_trap_map.build(write=False), [], "run python3 pipeline/build_trap_map.py")
 
     def test_totals_and_changes(self):
-        # v9 snapshot: quotes as of Oct 30, 11:16 AM CT.
+        # v9 structure: 5 rows, $16,231.50 allocated. Values/changes move with every Actions
+        # price refresh, so they are checked for internal consistency, not pinned to one snapshot.
         T = DATA["totals"]
-        self.assertEqual((T["cost"], T["value"], T["spy_value"], T["change"]), (16231.5, 18150.77, 16020.49, 1919.27))
-        self.assertEqual(DATA["quotes_as_of"], "2026-10-30T11:16:00-05:00")
-        self.assertEqual({r["id"]: r["trade"]["change"] for r in DATA["rows"]},
-                         {"asts-q3": 399.0, "frmi-q3": 750.0, "tsat-notes": 125.0, "mu-cycle": 707.5,
-                          "healthcare-five": -62.23})
+        self.assertEqual(T["cost"], 16231.5)
+        self.assertAlmostEqual(T["change"], round(T["value"] - T["cost"], 2), places=2)
+        self.assertTrue(DATA["quotes_as_of"])
+        self.assertEqual([r["id"] for r in DATA["rows"]],
+                         ["asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five"])
         self.assertEqual(tc.check_computed(DATA), [])
         self.assertEqual(len(DATA["changes"]), 6)
         self.assertEqual(DATA["changes"][0]["text"][:10], "Every call")
@@ -149,7 +150,7 @@ class TestBuild(unittest.TestCase):
         self.assertNotIn("Track record", page)
         self.assertNotIn("What changed", page)
         self.assertNotIn('id="row-hims-q3"', page)
-        self.assertIn("Quotes as of Oct 30, 2026, 11:16 AM CT", page)
+        self.assertIn(f"Quotes as of {build_trap_map._fmt_full(DATA['quotes_as_of'])}", page)
         for rid in ("asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five"):
             self.assertRegex(page, rf'<tr class="[LS]" id="row-{rid}"')
             self.assertRegex(page, rf'<details class="ev" id="{rid}" data-dir="[LS]"')
@@ -167,7 +168,10 @@ class TestBuild(unittest.TestCase):
         self.assertNotIn("Positive", strip)
         self.assertNotIn("Negative", strip)
         self.assertEqual(strip.count("Net short"), 4)
-        for s in ("$16,231.50", "$18,150.77", "$16,020.49", "Quotes as of Oct 30, 11:16 AM CT", ">Long<"):
+        T = DATA["totals"]
+        self.assertIn("$16,231.50", strip)
+        for s in (build_trap_map.money(T["value"]), build_trap_map.money(T["spy_value"]),
+                  f"Quotes as of {build_trap_map.fmt_time(DATA['quotes_as_of'])}", ">Long<"):
             self.assertIn(s, strip)
 
 

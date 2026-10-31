@@ -164,6 +164,13 @@ def _run(path):
         conn.close()
 
 
+@pytest.fixture(autouse=True)
+def _pin_now(monkeypatch):
+    # main() uses the wall clock; pin it so the "fresh" (<48h) fixture insight stays fresh.
+    real = cbd.find_problems
+    monkeypatch.setattr(cbd, "find_problems", lambda conn, now=None: real(conn, now=now or NOW))
+
+
 def test_clean_db_ok_exit0(tmp_path, capsys):
     db = tmp_path / "d.db"
     _make_db(db, fresh=True)  # a <48h insight without a deep dive is not an alert yet
