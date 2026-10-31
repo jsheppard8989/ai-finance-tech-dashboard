@@ -338,9 +338,15 @@ def _closed_card(c) -> str:
     money_html = f'<div class="lbl">Allocated</div><div class="cost">{money(c["allocated"])}</div>' if c.get("allocated") else ""
     usd, pct = c.get("result_usd"), c.get("result_pct")
     if usd is not None or pct is not None:
-        sign = (usd if usd is not None else pct) >= 0
+        sign = next(v for v in (usd, c.get("result_per_share"), pct) if v is not None) >= 0
         pct_s = f'{"+" if pct >= 0 else MINUS}{abs(pct):.1f}%' if pct is not None else ""
-        val = f"{_sg(usd)} ({pct_s})" if usd is not None and pct_s else (_sg(usd) if usd is not None else pct_s)
+        ps = c.get("result_per_share")
+        if usd is not None:
+            val = f"{_sg(usd)} ({pct_s})" if pct_s else _sg(usd)
+        elif ps is not None:  # no size logged: per-share move, entry to exit
+            val = f"{_sg(ps)} per share ({pct_s})" if pct_s else f"{_sg(ps)} per share"
+        else:
+            val = pct_s
         money_html += (f'<div class="lbl" style="margin-top:6px">Result{" (approx.)" if c.get("approx") else ""}</div>'
                        f'<div class="chg {"up" if sign else "dn"}">{val}</div>')
     edge = {"RIGHT": "cu", "WRONG": "cd"}.get(cls, "cn")

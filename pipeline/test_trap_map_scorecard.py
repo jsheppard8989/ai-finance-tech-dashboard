@@ -11,7 +11,7 @@ CLOSED = [{"ticker": "AAA", "company": "A Co", "direction": "Long", "call": "Lon
            "closed": "2026-10-26", "ended": "Stop", "how": "Closed at the stop.", "allocated": 1000,
            "result_usd": -10.5, "result_pct": -1.1, "approx": True},
           {"ticker": "BBB", "company": "B Co", "direction": "Long", "call": "Long from $2.", "opened": "2026-10-21",
-           "closed": "2026-10-29", "ended": "Target", "how": "Closed at the target.", "allocated": None, "result_usd": None}]
+           "closed": "2026-10-29", "ended": "Target", "how": "Closed at the target.", "allocated": None, "result_usd": None, "result_per_share": 84.98, "result_pct": 6.7}]
 
 
 class Scorecard(unittest.TestCase):
@@ -48,7 +48,8 @@ class Scorecard(unittest.TestCase):
         self.assertIn("Hit target", p)
         self.assertIn("\u2212$10.50 (\u22121.1%)", p)
         bbb = p[p.index("BBB"):]
-        self.assertNotIn("Result", bbb[:bbb.index("</article>")])
+        self.assertIn("+$84.98 per share (+6.7%)", bbb[:bbb.index("</article>")])  # no size: per-share only
+        self.assertNotIn("$84.98 (", p)
 
     def test_closed_empty_state(self):
         self.assertIn("No closed positions yet", self.page(closed=[]))
