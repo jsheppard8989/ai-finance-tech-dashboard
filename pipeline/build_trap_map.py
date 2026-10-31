@@ -89,11 +89,25 @@ def sorted_rows(d):
     return sorted(d["rows"], key=lambda r: (ORDER.get(r["status"], 9), (r["event"].get("date") or "9999")))
 
 
+def is_midpoint(r: dict) -> bool:
+    """Option rows still priced at the bid-ask midpoint (not yet re-pulled at bid + 1/3)."""
+    t = r.get("trade") or {}
+    return r.get("kind") == "spread" and r.get("status") != "graded" and t.get("priced") != "bottom_third"
+
+
+def midpoint_note(d: dict) -> str:
+    rows = [r for r in d["rows"] if is_midpoint(r)]
+    if not rows:
+        return ""
+    n = max(_dt(r["trade"]["mid_time"]) for r in rows)
+    return f"Midpoint marks as of {n.strftime('%b')} {n.day}; bid + 1/3 repricing Monday. Not final."
+
+
 def _value_line(r):
     t = r["trade"]
     if t.get("value") is None:
         return ""
-    px = f"Mid {t['mid']}, " if t.get("mid") is not None else "Close, "
+    px = f"Midpoint {t['mid']}, not final, " if t.get("mid") is not None else "Close, "
     return f"<br>Worth {money(t['value'])} (paid {money(t['cost'])})<br>{px}{e(fmt_time(t['mid_time']))}"
 
 
@@ -329,7 +343,7 @@ def _open_card(r, today: date, mx: float) -> str:
             f'<div class="sm"><b>What proves it:</b> {e(r["what_proves_it"])}</div>{note}</div>\n'
             f'<div class="exit"><div class="lbl">Expected exit</div>{_exit(r, today)}</div>\n'
             f'<div class="money"><div class="lbl">Allocated</div><div class="cost">{money(t["cost"])}</div>'
-            f'<div class="lbl" style="margin-top:6px">Change</div><div class="chg {"up" if c >= 0 else "dn"}">{_sg(c)}</div>{_bar(c, mx)}</div>\n</article></details>')
+            f'<div class="lbl" style="margin-top:6px">Change</div><div class="chg {"up" if c >= 0 else "dn"}">{_sg(c)}</div>{'<div class="sm mid-tag">Midpoint, not final (bid + 1/3 repricing Monday)</div>' if is_midpoint(r) else ""}{_bar(c, mx)}</div>\n</article></details>')
 
 
 def _closed_card(c) -> str:
@@ -401,7 +415,7 @@ h2{{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute
 </style></head><body><div class="wrap" id="top">
 <a class="home" href="index.html">\u2190 Home</a>
 <h1>{e(d["title"])}</h1><p class="sub">{e(PAGE_SUBTITLE)}</p><span class="asof" id="asof">Quotes as of {e(_fmt_full(d["quotes_as_of"]))}</span>
-<section class="hero" id="tot"><div class="hgrid">
+<section class="hero" id="tot">{('<div class="sm" id="midpoint-note" style="font-weight:700;margin-bottom:8px">' + e(midpoint_note(d)) + '</div>') if midpoint_note(d) else ""}<div class="hgrid">
 <div><div class="k">Our trades are worth</div><div class="v">{money(T["value"])}</div><div class="sm">Allocated {money(T["cost"])}</div></div>
 <div><div class="k">Our gain</div><div class="v s {up(T["change"])}">{_sg(T["change"])}</div></div>
 <div><div class="k">Same money in the S&amp;P 500</div><div class="v s">{money(T["spy_value"])}</div><div class="sm {up(spy_c)}">{_sg(spy_c)}</div></div></div>
@@ -434,14 +448,15 @@ def render_strip(d: dict, today: date | None = None) -> str:
         f'<a class="trap-chip" href="trap-map.html#{e(r["id"])}" style="display:inline-block;margin:0.2rem 0.35rem 0.2rem 0;padding:0.3rem 0.55rem;border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:#e6f1ff;text-decoration:none;font-size:0.75rem;">'
         f'<strong>{e(r["ticker"])}</strong> <span style="color:{"#34d399" if _is_long(r["direction"]) else "#f87171"};">{e(r["direction"])}</span> '
         f'<span style="color:#9ca3af;">· {e(grade_label(r["trade"]["grade_date"], today) if r["trade"].get("grade_date") else "Holding until stopped out")}'
-        f' · worth {money(r["trade"]["value"])} (allocated {money(r["trade"]["cost"])}'
+        f' · worth {money(r["trade"]["value"])}{" at midpoint, not final" if is_midpoint(r) else ""} (allocated {money(r["trade"]["cost"])}'
         f'{", index " + str(r["trade"]["index_now"]) if r["trade"].get("index_now") is not None else ""})</span></a>'
         for r in sorted_rows(d))
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'
             f'      <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;"><a href="trap-map.html" style="color:#00d4ff;text-decoration:none;">🪤 Trap Map</a></h3>\n'
             f'      <p style="color: #9ca3af; font-size: 0.7rem; margin-bottom: 0.4rem;">{e(d["purpose"])} Tracked as paper trades. '
             f'Allocated {money(T["cost"])} · worth now {money(T["value"])} ({_sg(T["change"])}) · same money in the S&amp;P 500: '
-            f'{money(T["spy_value"])} ({_sg(round(T["spy_value"] - T["cost"], 2))}). Quotes as of {e(fmt_time(d["quotes_as_of"]))}.</p>\n'
+            f'{money(T["spy_value"])} ({_sg(round(T["spy_value"] - T["cost"], 2))}). Quotes as of {e(fmt_time(d["quotes_as_of"]))}.'
+            f'{(" <strong>" + e(midpoint_note(d)) + "</strong>") if midpoint_note(d) else ""}</p>\n'
             f'      <div>{chips}</div>\n    </div>\n    {END}')
 
 
