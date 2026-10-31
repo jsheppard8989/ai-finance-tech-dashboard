@@ -50,7 +50,18 @@ def fmt_time(s) -> str:
     return f"{t.strftime('%b')} {t.day}, {t.strftime('%I:%M %p').lstrip('0')} CT"
 
 
+def newest_quote_time(d: dict):
+    """Newest price timestamp actually written: open-row trade.mid_time and the SPY close time."""
+    stamps = [(r.get("trade") or {}).get("mid_time") for r in d["rows"] if r.get("status") != "graded"]
+    stamps.append((d.get("benchmark") or {}).get("spy_close_time"))
+    parsed = [datetime.fromisoformat(s).astimezone(CT) for s in stamps if s]
+    return max(parsed).isoformat(timespec="seconds") if parsed else None
+
+
 def compute(d: dict) -> dict:
+    newest = newest_quote_time(d)
+    if newest:
+        d["quotes_as_of"] = newest
     rows = [r for r in d["rows"] if r.get("status") != "graded" and (r.get("trade") or {}).get("cost") is not None]
     b = d["benchmark"]
     d["totals"] = {
