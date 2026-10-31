@@ -63,3 +63,26 @@ class Scorecard(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestMidpointLabel(unittest.TestCase):
+    def test_midpoint_totals_labeled(self):
+        import copy, json as _j
+        from pathlib import Path as _P
+        d = b.compute(_j.loads((_P(__file__).resolve().parents[1] / "site/data/trap_map.json").read_text()))
+        note = b.midpoint_note(d)
+        self.assertRegex(note, r"^Midpoint marks as of [A-Z][a-z]{2} \d+; bid \+ 1/3 repricing Monday")
+        page = b.render_page(d)
+        self.assertIn(note, page)
+        n = sum(b.is_midpoint(r) for r in d["rows"])
+        self.assertEqual(page.count("Midpoint, not final"), n)
+        self.assertIn(note, b.render_strip(d))
+        for r in d["rows"]:
+            r["trade"]["priced"] = "bottom_third"
+        self.assertEqual(b.midpoint_note(d), "")
+
+    def test_cifr_not_approx(self):
+        import json as _j
+        from pathlib import Path as _P
+        c = _j.loads((_P(__file__).resolve().parent / "trap_map_closed_preview.json").read_text())
+        self.assertNotIn("approx", next(x for x in c if x["ticker"] == "CIFR"))
