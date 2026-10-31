@@ -5,13 +5,14 @@ Checks, per row:
   - a primary link (event.link; a relative link must exist under site/)
   - reason of 20 words or fewer
   - no banned word ("bet", "thin", and the house list below) anywhere in the public data
-  - no live/new row whose grade date (or event date) is already past
+  - no live/new row whose exit date (the option expiry) is already past
   - stock tickers only (a basket's legs must each be a stock)
   - every event date confirmed (event.date_confirmed + event.date_source)
-  - grade date on or before the option expiry
+  - every option row exits at its expiry: trade.exit = {type: expiry, date: trade.expiry}
   - expiry past next earnings needs earnings_reason
   - a Holding row needs a fixed stop rule (an index level or an event)
-  - a grade date, unless the status is Holding
+  - no grading anywhere (Jared, Oct 31): no "grade"/"graded" words in public text, no grade* keys
+  - past_calls: each entry has ticker, outcome_text, exit_reason (one of EXIT_REASONS) and evidence_url
   - v9: every open row has a direction (Long/Short/Net long/Net short) and an expression; the direction
     matches the trade type (put debit spread -> Net short, call debit spread -> Net long, stock basket -> Long)
     and the lean (Positive for long, Negative for short)
@@ -33,12 +34,16 @@ SITE = ROOT / "site"
 DATA = SITE / "data" / "trap_map.json"
 # Kept here, not in the public JSON (the list itself would trip the site style gate).
 ALWAYS_BANNED = ("bet", "bets", "betting", "thin", "ATM", "going-concern", "going concern", "RPO", "Scout", "IV",
-                 "convert", "agent")
+                 "convert", "agent", "grade", "grades", "graded", "grading")
 NON_STOCK = {"SPY", "QQQ", "IWM", "DIA", "VOO", "VTI", "TLT", "GLD", "SLV", "USO", "VIX", "VIXY", "UVXY",
              "SPX", "NDX", "RUT", "BTC", "ETH", "SOL", "IBIT", "GBTC", "ETHA", "TQQQ", "SQQQ", "XLK", "XLF",
              "XLE", "XLV", "SMH", "SOXX", "ARKK", "HYG", "LQD", "EEM", "EFA"}
 TICKER_RE = re.compile(r"^[A-Z]{1,5}(\.[A-Z])?$")
 LIVE = ("live", "new")
+CLOSED = "closed"
+# How a past call ended. "not placed" and "no data" are listed but never counted.
+EXIT_REASONS = ("stop", "target", "expiry", "time exit", "reported", "no trade", "open", "not placed", "no data")
+PAST_CALL_FIELDS = ("ticker", "outcome_text", "exit_reason", "evidence_url")
 
 
 def _d(s):
@@ -87,7 +92,14 @@ def check(d: dict, today: date | None = None, site: Path = SITE) -> list[str]:
             errs.append(f"{rid}: reason over 20 words")
         if not (r.get("reason") or "").strip():
             errs.append(f"{rid}: missing reason")
-        if r.get("kind") == "basket" or tr.get("legs") and isinstance(tr["legs"][0], dict) and "ticker" in tr["legs"][0]:
+        if r.get("kind") == "spread_set":
+            und = [s.get("underlying") for s in tr.get("spreads") or []]
+            if not und or not all(_is_stock(t) for t in und):
+                errs.append(f"{rid}: spread set has a non-stock underlying {und}")
+            for s in tr.get("spreads") or []:
+                if s.get("expiry") != tr.get("expiry"):
+                    errs.append(f"{rid}: {s.get('underlying')} spread expiry {s.get('expiry')} differs from the row expiry")
+        elif r.get("kind") == "basket" or tr.get("legs") and isinstance(tr["legs"][0], dict) and "ticker" in tr["legs"][0]:
             legs = [l.get("ticker") for l in tr.get("legs") or []]
             if not legs or not all(_is_stock(t) for t in legs):
                 errs.append(f"{rid}: basket has a non-stock leg {legs}")
@@ -97,34 +109,67 @@ def check(d: dict, today: date | None = None, site: Path = SITE) -> list[str]:
             errs.append(f"{rid}: unconfirmed date {ev.get('date')}")
         if ev.get("date_confirmed") is False:
             errs.append(f"{rid}: unconfirmed date")
-        gd, exp = _d(tr.get("grade_date")), _d(tr.get("expiry"))
+        exp = _d(tr.get("expiry"))
+        ex = tr.get("exit") or {}
         if st == "holding":
             sr = tr.get("stop_rule") or {}
             if not (sr.get("fixed") is True and (sr.get("index_below") is not None or (sr.get("event") or "").strip())
                     and (tr.get("stop") or "").strip()):
                 errs.append(f"{rid}: Holding row without a fixed stop rule (index level or event)")
-        elif not gd:
-            errs.append(f"{rid}: missing grade date")
-        if gd and exp and gd > exp:
-            errs.append(f"{rid}: grade date {gd} after expiry {exp}")
+        elif st in LIVE:
+            if not exp:
+                errs.append(f"{rid}: option row without an expiry")
+            elif ex.get("type") != "expiry" or _d(ex.get("date")) != exp:
+                errs.append(f"{rid}: exit must be the option expiry {exp} (got {ex.get('type')} {ex.get('date')})")
         ne = _d(r.get("next_earnings"))
         if exp and ne and exp > ne and not (r.get("earnings_reason") or "").strip():
             errs.append(f"{rid}: expiry {exp} past earnings {ne} without earnings_reason")
         if st in LIVE:
-            last = gd or _d(ev.get("date"))
+            last = exp
             if last and last < today:
                 errs.append(f"{rid}: live row is past-dated ({last})")
         if st in LIVE + ("holding",):
             for k in ("cost", "value", "mid_time"):
                 if tr.get(k) in (None, ""):
                     errs.append(f"{rid}: trade.{k} is blank")
-        if st != "graded":
+        if st != CLOSED:
             errs.extend(_direction_errs(r, rid))
+    errs.extend(_grade_key_errs(d))
+    errs.extend(check_past_calls(d.get("past_calls") or []))
     b = d.get("benchmark") or {}
     for x in b.get("buys") or []:
         for k in ("date", "price", "shares", "source"):
             if x.get(k) in (None, ""):
                 errs.append(f"benchmark buy {x.get('date')}: missing {k}")
+    return errs
+
+
+def _grade_key_errs(obj, path="") -> list[str]:
+    out = []
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if "grade" in k.lower():
+                out.append(f"grading field {path}{k} (no grading: positions show market value; exits are expiry/target/stop)")
+            out.extend(_grade_key_errs(v, f"{path}{k}."))
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            out.extend(_grade_key_errs(v, f"{path}{i}."))
+    return out
+
+
+def check_past_calls(calls: list) -> list[str]:
+    """Required fields and allowed exit reasons for every published past call."""
+    errs = []
+    for i, c in enumerate(calls):
+        tag = f"past_calls[{i}] {c.get('ticker') or '?'}"
+        for k in PAST_CALL_FIELDS:
+            if not str(c.get(k) or "").strip():
+                errs.append(f"{tag}: missing {k.replace('_', ' ')}")
+        if c.get("exit_reason") and c["exit_reason"] not in EXIT_REASONS:
+            errs.append(f"{tag}: exit reason {c['exit_reason']!r} not one of {EXIT_REASONS}")
+        url = str(c.get("evidence_url") or "")
+        if url and not re.match(r"https?://", url):
+            errs.append(f"{tag}: evidence link must be a full http(s) URL")
     return errs
 
 
@@ -135,6 +180,9 @@ def expected_direction(r: dict) -> str | None:
     """What the trade itself says: put debit spread -> Net short, call debit spread -> Net long, basket -> Long."""
     tr = r.get("trade") or {}
     legs = tr.get("legs") or []
+    if r.get("kind") == "spread_set":
+        dirs = {expected_direction({"trade": {"legs": s.get("legs") or []}}) for s in tr.get("spreads") or []}
+        return dirs.pop() if len(dirs) == 1 else None
     if r.get("kind") == "basket" or (legs and isinstance(legs[0], dict) and "ticker" in legs[0]):
         return "Long"
     rights = {l.get("right") for l in legs}
@@ -177,7 +225,7 @@ def _direction_errs(r: dict, rid: str) -> list[str]:
 def check_computed(d: dict) -> list[str]:
     """After build: each open row's change equals value minus cost; totals equal the row sums."""
     errs = []
-    rows = [r for r in d.get("rows") or [] if r.get("status") != "graded" and (r.get("trade") or {}).get("cost") is not None]
+    rows = [r for r in d.get("rows") or [] if r.get("status") != CLOSED and (r.get("trade") or {}).get("cost") is not None]
     for r in rows:
         t = r["trade"]
         if t.get("change") is None or abs(t["change"] - (t["value"] - t["cost"])) >= 0.005:

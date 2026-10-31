@@ -31,7 +31,8 @@ INDEX = SITE / "index.html"
 CT = ZoneInfo("America/Chicago")
 START, END = "<!-- TRAP_STRIP:START -->", "<!-- TRAP_STRIP:END -->"
 MINUS = "\u2212"
-ORDER = {"live": 0, "new": 1, "holding": 2, "graded": 3}
+ORDER = {"live": 0, "new": 1, "holding": 2, "closed": 3}
+EXIT_WORD = {"expiry": "Closed at expiry", "stop": "Closed at its stop", "target": "Closed at its target"}
 e = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 
 
@@ -52,7 +53,7 @@ def fmt_time(s) -> str:
 
 def newest_quote_time(d: dict):
     """Newest price timestamp actually written: open-row trade.mid_time and the SPY close time."""
-    stamps = [(r.get("trade") or {}).get("mid_time") for r in d["rows"] if r.get("status") != "graded"]
+    stamps = [(r.get("trade") or {}).get("mid_time") for r in d["rows"] if r.get("status") != "closed"]
     stamps.append((d.get("benchmark") or {}).get("spy_close_time"))
     parsed = [datetime.fromisoformat(s).astimezone(CT) for s in stamps if s]
     return max(parsed).isoformat(timespec="seconds") if parsed else None
@@ -62,7 +63,7 @@ def compute(d: dict) -> dict:
     newest = newest_quote_time(d)
     if newest:
         d["quotes_as_of"] = newest
-    rows = [r for r in d["rows"] if r.get("status") != "graded" and (r.get("trade") or {}).get("cost") is not None]
+    rows = [r for r in d["rows"] if r.get("status") != "closed" and (r.get("trade") or {}).get("cost") is not None]
     b = d["benchmark"]
     d["totals"] = {
         "cost": round(sum(r["trade"]["cost"] for r in rows), 2),
@@ -86,27 +87,21 @@ def compute(d: dict) -> dict:
 
 
 def sorted_rows(d):
-    return sorted(d["rows"], key=lambda r: (ORDER.get(r["status"], 9), (r["event"].get("date") or "9999")))
+    return sorted(d["rows"], key=lambda r: (ORDER.get(r["status"], 9), _exit_date(r)))
+
+
+def _exit_date(r) -> str:
+    """Planned exit: the option expiry; a stop-only row (the basket) sorts last."""
+    return (r.get("trade") or {}).get("expiry") or "9999"
 
 
 def _value_line(r):
     t = r["trade"]
     if t.get("value") is None:
         return ""
-    px = f"Mid {t['mid']}, " if t.get("mid") is not None else "Close, "
+    m = t.get("mark", t.get("mid"))
+    px = f"Mark {m} (bottom third of bid\u2013ask), " if m is not None else "Close, "
     return f"<br>Worth {money(t['value'])} (paid {money(t['cost'])})<br>{px}{e(fmt_time(t['mid_time']))}"
-
-
-def _graded_on(r):
-    t = r["trade"]
-    if r["status"] == "graded":
-        return (f'<span class="out {e(r["outcome"])}">{e(r["outcome"])}</span>'
-                f'<div class="small">Graded {e(fmt_date(r["graded_on"]))}. {e(r.get("grade_detail", ""))}</div>')
-    if r["status"] == "holding":
-        idx = f" Index now {t['index_now']}." if t.get("index_now") is not None else ""
-        return (f'<span class="margin">Stay long unless stopped out</span><div class="small">{e(t["stop"])}{e(idx)}</div>'
-                + (f'<div class="small">{e(t["grade_rule"])}</div>' if t.get("grade_rule") else ""))
-    return f'<span class="margin">{e(fmt_date(t["grade_date"]))} close</span><div class="small">{e(t["grade_rule"])}</div>'
 
 
 def _why(r):
@@ -179,36 +174,57 @@ def _is_long(direction: str) -> bool:
     return "short" not in direction.lower()
 
 
-def _exit_cell(r, today: date) -> str:
-    t, ev = r["trade"], r["event"]
-    prog = ""
-    if not t.get("grade_date"):
-        top, sub = "When a stop is hit", e(t["stop"])
-    elif r["status"] == "graded" or date.fromisoformat(t["grade_date"]) < today:
-        top, sub = "Graded", e(ev["name"])
-    else:
-        gd = date.fromisoformat(t["grade_date"])
-        left = (gd - today).days
-        tot = max(1, (gd - date.fromisoformat(t.get("posted") or r["date_added"])).days)
-        done = max(2, 100 * (tot - left) / tot)
-        top, sub = e(fmt_date(t["grade_date"])), f"{e(ev['name'])} · {e(ev['when'])}"
-        prog = f'<div class="prog"><i style="width:{done:.1f}%"></i></div><div class="small">{left} days to go</div>'
-    return (f'<div class="exit">{top}</div>{prog}<div class="small" style="margin-top:3px">{sub}</div>'
+def _watch(r) -> str:
+    """The news item we are watching. Informational only: it is not an exit date."""
+    ev = r.get("event") or {}
+    if not ev.get("name"):
+        return ""
+    if ev.get("date") == (r.get("trade") or {}).get("expiry") or (not ev.get("date") and ev.get("date_confirmed")):
+        # not a news item (e.g. the expiry itself): keep only the research link
+        return f'<div class="small" style="margin-top:3px"><a href="{e(_rel(ev["link"]))}">{e(ev["link_label"])}</a></div>'
+    return (f'<div class="small" style="margin-top:3px">News to watch: {e(ev["name"])} \u00b7 {e(ev["when"])}</div>'
             f'<div class="small"><a href="{e(_rel(ev["link"]))}">{e(ev["link_label"])}</a></div>')
+
+
+def _exit_cell(r, today: date) -> str:
+    t = r["trade"]
+    prog = ""
+    if r["status"] == "closed":
+        x = r.get("exit") or {}
+        res = x.get("result")
+        top = EXIT_WORD.get(x.get("reason"), "Closed")
+        sub = f'{e(fmt_date(x["date"]))}' + (f" \u00b7 {_sg(res)}" if res is not None else "") if x.get("date") else ""
+    elif not t.get("expiry") or r["status"] == "holding":
+        top, sub = "When the stop is hit", e(t["stop"])
+    else:
+        ex = date.fromisoformat(t["expiry"])
+        left = (ex - today).days
+        tot = max(1, (ex - date.fromisoformat(t.get("posted") or r["date_added"])).days)
+        done = min(100, max(2, 100 * (tot - left) / tot))
+        top, sub = f"{e(fmt_date(t['expiry']))} expiry", "Held to expiry; the result is what the spread is worth then"
+        if t.get("target") or t.get("stop"):
+            sub = " ".join(e(t[k]) for k in ("target", "stop") if t.get(k)) + " Otherwise held to expiry."
+        prog = f'<div class="prog"><i style="width:{done:.1f}%"></i></div><div class="small">{max(0, left)} days to go</div>'
+    return f'<div class="exit">{top}</div>{prog}<div class="small" style="margin-top:3px">{sub}</div>{_watch(r)}'
 
 
 def _expr_cell(r) -> str:
     t = r["trade"]
     x = t["expression"]
+    if x.get("spreads"):
+        dl = "".join(f'<dt>{e(s["ticker"])}</dt><dd>{e(s["strikes"])} calls, {e(s["contracts"])}x at {e(s["debit"])}; target {e(s["target"])}</dd>'
+                     for s in x["spreads"])
+        dl += f'<dt>Expiry</dt><dd>{e(x["expiry"])}</dd><dt>Most it can lose</dt><dd>{e(t["max_loss"])}</dd>'
+        return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl></div>'
     if x.get("holdings"):
         dl = "".join(f'<dt>{e(h["ticker"])}</dt><dd>{e(h["shares"])} sh at ${h["entry"]:.2f}</dd>' for h in x["holdings"])
         dl += f'<dt>Bought</dt><dd>{e(x["bought"])}</dd><dt>Most it can lose</dt><dd>{e(t["max_loss"])}</dd>'
-        return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl>' + (f'<div class="small" style="margin-top:4px">{e(t["grade_rule"])}</div>' if t.get("grade_rule") else "") + '</div>'
+        return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl></div>'
     dl = (f'<dt>Strikes</dt><dd>{e(x["strikes"])}</dd><dt>Expiry</dt><dd>{e(x["expiry"])}</dd>'
           f'<dt>Contracts</dt><dd>{e(x["contracts"])}</dd><dt>Cost</dt><dd>{e(x["debit"])}</dd>'
           f'<dt>Stock then</dt><dd>{e(x["stock_then"])}</dd><dt>Most it can lose</dt><dd>{e(t["max_loss"])}</dd>')
     note = f'<div class="note">Note: {e(x["caveat"])}.</div>' if x.get("caveat") else ""
-    return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl>{note}<div class="small" style="margin-top:4px">{e(t["grade_rule"])}</div></div>'
+    return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl>{note}</div>'
 
 
 def _gl_bar(c, cost, max_p) -> str:
@@ -229,8 +245,10 @@ def _row(r, today: date, max_p: float) -> str:
         why += f'<div class="note">{e(r["main_risk"])}</div>'
     why += (f'<div class="small" style="margin-top:4px"><b>What proves it:</b> {e(r["what_proves_it"])}</div>'
             f'<div class="small"><b>Why we hold this view:</b> {e(r["why_we_hold"])}</div>')
-    if r["status"] == "graded":
-        why += f'<div class="small"><b>Graded {e(fmt_date(r["graded_on"]))}: {e(r["outcome"])}.</b> {e(r.get("grade_detail", ""))}</div>'
+    if r["status"] == "closed" and r.get("exit"):
+        x = r["exit"]
+        why += (f'<div class="small"><b>{e(EXIT_WORD.get(x["reason"], "Closed"))} {e(fmt_date(x["date"]))}:</b> worth '
+                f'{money(x["value"])} ({_sg(x["result"])}).</div>')
     return (f'<tr class="{k}" id="row-{e(r["id"])}">'
             f'<td><div class="stk"><div class="mono" style="background:{_hue(r["ticker"])}">{e(r["ticker"][:4])}</div><div>'
             f'<div class="tk">{e(r["ticker"])}</div><div class="co">{e(r["company"])}</div>'
@@ -271,8 +289,8 @@ def render_page(d: dict) -> str:
     """v9 layout. Server-rendered from the JSON (no separate data file, no client script)."""
     T = d["totals"]
     today = _dt(d["quotes_as_of"]).date()
-    open_rows = sorted((r for r in d["rows"] if r["status"] != "graded"), key=lambda r: r["event"].get("date") or "9999")
-    closed = [r for r in d["rows"] if r["status"] == "graded"]
+    open_rows = sorted((r for r in d["rows"] if r["status"] != "closed"), key=_exit_date)
+    closed = [r for r in d["rows"] if r["status"] == "closed"]
     spy_c = round(T["spy_value"] - T["cost"], 2)
     zm = max(abs(T["change"]), abs(spy_c)) * 1.15 or 1
 
@@ -299,9 +317,8 @@ def render_page(d: dict) -> str:
     past = d.get("past_calls") or []
     closed_html = ""
     if closed or past:
-        closed_html = ("<h2>Closed</h2><table><tbody>" + "".join(_row(r, today, max_p) for r in closed) + "".join(
-            f'<tr><td><div class="tk">{e(c["ticker"])}</div></td><td colspan="4">{e(c["outcome_text"])}</td>'
-            f'<td>Graded: {e(c["grade"])}</td></tr>' for c in past) + "</tbody></table>")
+        closed_html = ("<h2>Closed</h2><table><tbody>" + "".join(_row(r, today, max_p) for r in closed) + "</tbody></table>"
+                       + render_past_calls(past))
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Trap Map</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <!-- Generated by pipeline/build_trap_map.py from site/data/trap_map.json. Do not edit by hand. -->
@@ -377,11 +394,37 @@ window.addEventListener('hashchange',openLinked);openLinked();}})();
 """
 
 
-def grade_label(grade_date, today: date | None = None) -> str:
-    """'Grades <date>' while the grade date is still ahead (CT), 'Graded <date>' once reached."""
-    today = today or datetime.now(CT).date()
-    gd = date.fromisoformat(str(grade_date)[:10])
-    return ("Grades " if gd > today else "Graded ") + fmt_date(grade_date)
+COUNTED_OUT = ("not placed", "no data")
+
+
+def exit_label(r) -> str:
+    """Strip chip text: when the position is planned to end (never a grade)."""
+    t = r["trade"]
+    if r["status"] == "closed":
+        return EXIT_WORD.get((r.get("exit") or {}).get("reason"), "Closed")
+    if t.get("expiry") and r["status"] != "holding":
+        return "Held to " + fmt_date(t["expiry"]) + " expiry"
+    return "Holding until stopped out"
+
+
+def render_past_calls(past: list, preview: bool = False) -> str:
+    """Past calls: what happened and how each exited. 'not placed' / 'no data' calls are listed, never counted."""
+    if not past:
+        return ""
+    counted = [c for c in past if c.get("exit_reason") not in COUNTED_OUT]
+    tally = {}
+    for c in counted:
+        tally[c["exit_reason"]] = tally.get(c["exit_reason"], 0) + 1
+    summ = ", ".join(f"{n} {k}" for k, n in sorted(tally.items(), key=lambda kv: -kv[1]))
+    trs = []
+    for c in past:
+        url = c.get("evidence_url")
+        ev = (f'<a href="{e(url)}">Evidence</a>' if url else
+              ('<span class="small" style="color:#b42318">Evidence link pending</span>' if preview else ""))
+        trs.append(f'<tr><td><div class="tk">{e(c["ticker"])}</div></td>'
+                   f'<td colspan="4">{e(c["outcome_text"])}</td><td><b>Exit:</b> {e(c["exit_reason"])}<div class="small">{ev}</div></td></tr>')
+    return (f'<h2>Past calls</h2><p class="small">{len(counted)} counted ({e(summ)}). '
+            f'Calls marked not placed or no data are listed but not counted.</p><table><tbody>' + "".join(trs) + "</tbody></table>")
 
 
 def render_strip(d: dict, today: date | None = None) -> str:
@@ -389,7 +432,7 @@ def render_strip(d: dict, today: date | None = None) -> str:
     chips = "".join(
         f'<a class="trap-chip" href="trap-map.html#{e(r["id"])}" style="display:inline-block;margin:0.2rem 0.35rem 0.2rem 0;padding:0.3rem 0.55rem;border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:#e6f1ff;text-decoration:none;font-size:0.75rem;">'
         f'<strong>{e(r["ticker"])}</strong> <span style="color:{"#34d399" if _is_long(r["direction"]) else "#f87171"};">{e(r["direction"])}</span> '
-        f'<span style="color:#9ca3af;">· {e(grade_label(r["trade"]["grade_date"], today) if r["trade"].get("grade_date") else "Holding until stopped out")}'
+        f'<span style="color:#9ca3af;">· {e(exit_label(r))}'
         f' · worth {money(r["trade"]["value"])} (allocated {money(r["trade"]["cost"])}'
         f'{", index " + str(r["trade"]["index_now"]) if r["trade"].get("index_now") is not None else ""})</span></a>'
         for r in sorted_rows(d))
@@ -409,8 +452,10 @@ def apply_strip(index_html: str, strip: str) -> str:
     return index_html.replace(anchor, "    " + strip + "\n\n" + anchor, 1)
 
 
-def build(write=True):
-    d = json.loads(DATA.read_text(encoding="utf-8"))
+def build(write=True, data=None, page_path=None, index=None):
+    """Check, compute and render. Paths default to site/; sync_past_calls --preview points them at /tmp/preview."""
+    DATA_, PAGE_, INDEX_ = data or DATA, page_path or PAGE, index or INDEX
+    d = json.loads(DATA_.read_text(encoding="utf-8"))
     errs = trap_map_check.check(d)
     if errs:
         raise SystemExit("Trap Map check failed:\n  " + "\n  ".join(errs))
@@ -420,8 +465,8 @@ def build(write=True):
         raise SystemExit("Trap Map check failed after compute:\n  " + "\n  ".join(errs))
     data_out = json.dumps(d, indent=1, ensure_ascii=False) + "\n"
     page = render_page(d)
-    idx = apply_strip(INDEX.read_text(encoding="utf-8"), render_strip(d))
-    outs = {DATA: data_out, PAGE: page, INDEX: idx}
+    idx = apply_strip(INDEX_.read_text(encoding="utf-8"), render_strip(d))
+    outs = {DATA_: data_out, PAGE_: page, INDEX_: idx}
     stale = [p for p, s in outs.items() if not p.exists() or p.read_text(encoding="utf-8") != s]
     if write:
         for p in stale:
