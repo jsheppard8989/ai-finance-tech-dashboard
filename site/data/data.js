@@ -57948,11 +57948,11 @@ const dashboardData = {
     "updated_at": "2026-10-29 10:39:02",
     "episode_evidence": "Steve Hou: \"So since then, token prices down and rental rates up. Which doesn't sound great, but just explain, explain why the bears are 100% right here.\"\nSteve Hou: \"And then you've got the rental price for a B300. They are all surging and in most recent weeks, you know, that we naturally almost go in vertical.\"\nJack Farley: \"Google, their search business, which of course is their core business grew 12% and their cloud revenue, which is where they're investing so much in AI, grew over 100%.\"\nJack Farley: \"the gross margin of anthropic in the Q1 and Q2 was 87%. Actually, that was Q2 was implied 88% gross margin and just to give a percentage, that's a higher gross margin than Microsoft Adobe Salesforce Service now.\"\nJack Farley: \"and by the way, that doesn't include training costs, but operating margin in Q2 was 8%, and there's been some extremely misleading reporting about the so-called 72 billion dollar loss, or the 80 billion dollar loss\"",
     "falsification_tracks": [
-      "By 2026-12-31, on-demand rental rates for H200 and B300 must not fall by 20% or more from the recent peak on the Silicon Data rental index dashboard; if they do, the scarcity thesis is wrong.",
-      "By the next Alphabet earnings release after 2026-10-28, Alphabet cloud revenue growth must not drop below 30% year over year and operating margin must not fall back to 23% or lower, using the company's 10-Q and earnings release as the grading source.",
-      "By the next Microsoft earnings release after 2026-10-28, Microsoft must not reduce capex guidance by at least 10% versus prior guidance; grading source: 10-Q and earnings release.",
-      "By 2027-03-31, Anthropic's next quarterly report must not show gross margin below 50% and operating margin negative; grading source: company filings or earnings materials.",
-      "By 2027-01-31, the 12- to 36-month implied rental curve must not be flat-to-down by more than 10% versus spot for at least 2 of 3 chip categories (H100, H200, B300); grading source: Silicon Data term-curve output."
+      "By 2026-12-31, on-demand rental rates for H200 and B300 must not fall by 20% or more from the recent peak on the Silicon Data rental index dashboard; if they do, that would undercut the scarcity thesis.",
+      "By the next Alphabet earnings release after 2026-10-28, Alphabet cloud revenue growth must not drop below 30% year over year and operating margin must not fall back to 23% or lower, per the company's 10-Q and earnings release.",
+      "By the next Microsoft earnings release after 2026-10-28, Microsoft must not reduce capex guidance by at least 10% versus prior guidance; source: 10-Q and earnings release.",
+      "By 2027-03-31, Anthropic's next quarterly report must not show gross margin below 50% and operating margin negative; source: company filings or earnings materials.",
+      "By 2027-01-31, the 12- to 36-month implied rental curve must not be flat-to-down by more than 10% versus spot for at least 2 of 3 chip categories (H100, H200, B300); source: Silicon Data term-curve output."
     ],
     "schema_version": 1,
     "model_used": "gpt-5.4-mini",

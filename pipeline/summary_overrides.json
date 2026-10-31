@@ -1960,11 +1960,27 @@
     {
       "podcast_episode_id": 621,
       "insight_id": 632,
-      "_note": "Oct 31 2026 (G, R66 review hit #234) PREVIEW: drop grading wording",
+      "_note": "Oct 31 2026 (G, R66 review hit #234 + follow-up) PREVIEW: remove all grading wording from card 632 falsification tracks",
       "replacements": [
         [
           "; grading source: 10-Q and earnings release.",
           "; source: 10-Q and earnings release."
+        ],
+        [
+          ", using the company's 10-Q and earnings release as the grading source.",
+          ", per the company's 10-Q and earnings release."
+        ],
+        [
+          "; grading source: company filings or earnings materials.",
+          "; source: company filings or earnings materials."
+        ],
+        [
+          "; grading source: Silicon Data term-curve output.",
+          "; source: Silicon Data term-curve output."
+        ],
+        [
+          "; if they do, the scarcity thesis is wrong.",
+          "; if they do, that would undercut the scarcity thesis."
         ]
       ]
     }
