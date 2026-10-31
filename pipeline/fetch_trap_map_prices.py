@@ -162,6 +162,7 @@ def pull(d, now=None):
                 t.pop("mid", None)
                 t["mark"], t["value"] = mark, round(mark * 100 * t["contracts"], 2)
                 t["mid_time"] = ts.astimezone(CT).isoformat(timespec="minutes")
+                t["priced"] = "bottom_third"
                 t.pop("quote_flags", None)
             elif r.get("kind") == "spread_set":
                 marks, ts, flags = [], None, []
@@ -179,6 +180,7 @@ def pull(d, now=None):
                         s["mark"], s["value"] = m, round(m * 100 * s["contracts"], 2)
                     t["value"] = round(sum(s["value"] for s in t["spreads"]), 2)
                     t["mid_time"] = ts.astimezone(CT).isoformat(timespec="minutes")
+                    t["priced"] = "bottom_third"
                     t.pop("quote_flags", None)
                 il = (t.get("stop_rule") or {}).get("index_legs")
                 if il:

@@ -629,6 +629,14 @@
   "value": 17692.67,
   "spy_value": 15024.05,
   "change": 2469.5,
+  "midpoint_rows": [
+   "asts-q3",
+   "frmi-q3",
+   "tsat-notes",
+   "mu-cycle",
+   "healthcare-five",
+   "ceg-q3"
+  ],
   "computed_by": "pipeline/build_trap_map.py"
  },
  "changes": [

@@ -59,6 +59,21 @@ def newest_quote_time(d: dict):
     return max(parsed).isoformat(timespec="seconds") if parsed else None
 
 
+def is_midpoint(r: dict) -> bool:
+    """Option rows whose price has not yet been re-pulled at the bottom third of the bid-ask."""
+    t = r.get("trade") or {}
+    return r.get("kind") in ("spread", "spread_set") and r.get("status") != "closed" and t.get("priced") != "bottom_third"
+
+
+def midpoint_note(d: dict) -> str:
+    """Plain label for any total/value still priced at the midpoint ('' when none are)."""
+    rows = [r for r in d["rows"] if is_midpoint(r)]
+    if not rows:
+        return ""
+    newest = max(_dt(r["trade"]["mid_time"]) for r in rows)
+    return f"Midpoint marks as of {newest.strftime('%b')} {newest.day}; bid + 1/3 repricing Monday. Not final."
+
+
 def compute(d: dict) -> dict:
     newest = newest_quote_time(d)
     if newest:
@@ -70,6 +85,7 @@ def compute(d: dict) -> dict:
         "value": round(sum(r["trade"]["value"] for r in rows), 2),
         "spy_value": round(sum(x["shares"] for x in b["buys"]) * b["spy_close_now"], 2),
         "change": round(sum(r["trade"]["value"] for r in rows) - sum(r["trade"]["cost"] for r in rows), 2),
+        "midpoint_rows": [r["id"] for r in rows if is_midpoint(r)],
         "computed_by": "pipeline/build_trap_map.py",
     }
     for r in rows:
@@ -100,7 +116,10 @@ def _value_line(r):
     if t.get("value") is None:
         return ""
     m = t.get("mark", t.get("mid"))
-    px = f"Mark {m} (bottom third of bid\u2013ask), " if m is not None else "Close, "
+    if is_midpoint(r):
+        px = f"Midpoint {m}, not final (bid + 1/3 repricing Monday), " if m is not None else "Midpoint, not final, "
+    else:
+        px = f"Mark {m} (bottom third of bid\u2013ask), " if m is not None else "Close, "
     return f"<br>Worth {money(t['value'])} (paid {money(t['cost'])})<br>{px}{e(fmt_time(t['mid_time']))}"
 
 
@@ -131,6 +150,10 @@ def _event(r):
 def _rel(url: str) -> str:
     """Own-site links stay relative so they work on any host."""
     return re.sub(r"^https://jsheppard8989\.github\.io/ai-finance-tech-dashboard/", "", url)
+
+
+def _mid_tag(r) -> str:
+    return '<div class="small mid-tag">Midpoint, not final (bid + 1/3 repricing Monday)</div>' if is_midpoint(r) else ""
 
 
 def _status(r):
@@ -255,7 +278,7 @@ def _row(r, today: date, max_p: float) -> str:
             f'<div class="added">Added {e(fmt_date(r["date_added"]))}</div></div></div></td>\n'
             f' <td><span class="dir d{k}">{e(r["direction"])}</span><div class="small" style="margin-top:5px">{e(r["horizon"])}</div></td>\n'
             f' <td>{why}</td>\n <td>{_exit_cell(r, today)}</td><td>{_expr_cell(r)}</td>\n'
-            f' <td class="money"><div class="paid">Allocated {money(t["cost"])}</div><div class="d {_cl(t["change"])}">{_sg(t["change"])}</div>'
+            f' <td class="money"><div class="paid">Allocated {money(t["cost"])}</div><div class="d {_cl(t["change"])}">{_sg(t["change"])}</div>{_mid_tag(r)}'
             f'{_gl_bar(t["change"], t["cost"], max_p)}</td></tr>')
 
 
@@ -276,12 +299,12 @@ def _card(r, today: date, max_p: float) -> str:
             f'<div class="small"><b>Why we hold this view:</b> {e(r["why_we_hold"])}</div>')
     return (f'<details class="ev" id="{e(r["id"])}" data-dir="{k}" data-published="{e(t.get("posted") or r["date_added"])}">'
             f'<summary><span class="tk">{e(r["ticker"])}</span> <span class="dir d{k}">{e(r["direction"])}</span> '
-            f'<span class="d {_cl(t["change"])}">{_sg(t["change"])}</span>'
+            f'<span class="d {_cl(t["change"])}">{_sg(t["change"])}{" (midpoint, not final)" if is_midpoint(r) else ""}</span>'
             f'<span class="sumline">{e(r["reason"])}</span>'
             f'<span class="small">{e(r["company"])} · {e(r["horizon"])} · Allocated {money(t["cost"])}</span></summary>'
             f'<div class="cb"><div>{why}</div><h4>Expected exit</h4><div>{_exit_cell(r, today)}</div>'
             f'<h4>Expression</h4><div>{_expr_cell(r)}</div><h4>Money</h4><div class="money">'
-            f'<div class="paid">Allocated {money(t["cost"])}</div><div class="d {_cl(t["change"])}">{_sg(t["change"])}</div>'
+            f'<div class="paid">Allocated {money(t["cost"])}</div><div class="d {_cl(t["change"])}">{_sg(t["change"])}</div>{_mid_tag(r)}'
             f'{_gl_bar(t["change"], t["cost"], max_p)}</div></div></details>')
 
 
@@ -301,7 +324,9 @@ def render_page(d: dict) -> str:
                 f'background:{"var(--pos)" if c >= 0 else "var(--neg)"}"></i></div>'
                 f'<span class="chg {_cl(c)}">{_sg(c)} ({"+" if c >= 0 else MINUS}{abs(100 * c / T["cost"]):.1f}%)</span></div>')
     axis = f"${int(zm):,}"
-    hero = (f'<div class="kpis"><div><div class="lbl">Our trades are worth</div><div class="big">{money(T["value"])}</div></div>'
+    mnote = midpoint_note(d)
+    hero = ((f'<p class="small" id="midpoint-note" style="font-weight:700;margin:0 0 6px">{e(mnote)}</p>' if mnote else "") +
+            f'<div class="kpis"><div><div class="lbl">Our trades are worth</div><div class="big">{money(T["value"])}</div></div>'
             f'<div><div class="lbl">Allocated</div><div class="mid">{money(T["cost"])}</div></div>'
             f'<div><div class="lbl">Same money in the S&amp;P 500</div><div class="mid">{money(T["spy_value"])}</div></div></div>\n'
             f'<div class="zbar"><div class="lbl">Gain or loss since each trade was added</div>{zr(T["change"], "Our trades")}'
@@ -433,14 +458,15 @@ def render_strip(d: dict, today: date | None = None) -> str:
         f'<a class="trap-chip" href="trap-map.html#{e(r["id"])}" style="display:inline-block;margin:0.2rem 0.35rem 0.2rem 0;padding:0.3rem 0.55rem;border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:#e6f1ff;text-decoration:none;font-size:0.75rem;">'
         f'<strong>{e(r["ticker"])}</strong> <span style="color:{"#34d399" if _is_long(r["direction"]) else "#f87171"};">{e(r["direction"])}</span> '
         f'<span style="color:#9ca3af;">· {e(exit_label(r))}'
-        f' · worth {money(r["trade"]["value"])} (allocated {money(r["trade"]["cost"])}'
+        f' · worth {money(r["trade"]["value"])}{" at midpoint, not final" if is_midpoint(r) else ""} (allocated {money(r["trade"]["cost"])}'
         f'{", index " + str(r["trade"]["index_now"]) if r["trade"].get("index_now") is not None else ""})</span></a>'
         for r in sorted_rows(d))
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'
             f'      <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;"><a href="trap-map.html" style="color:#00d4ff;text-decoration:none;">🪤 Trap Map</a></h3>\n'
             f'      <p style="color: #9ca3af; font-size: 0.7rem; margin-bottom: 0.4rem;">{e(d["purpose"])} Tracked as paper trades. '
             f'Allocated {money(T["cost"])} · worth now {money(T["value"])} ({_sg(T["change"])}) · same money in the S&amp;P 500: '
-            f'{money(T["spy_value"])} ({_sg(round(T["spy_value"] - T["cost"], 2))}). Quotes as of {e(fmt_time(d["quotes_as_of"]))}.</p>\n'
+            f'{money(T["spy_value"])} ({_sg(round(T["spy_value"] - T["cost"], 2))}). Quotes as of {e(fmt_time(d["quotes_as_of"]))}.'
+            f'{(" <strong>" + e(midpoint_note(d)) + "</strong>") if midpoint_note(d) else ""}</p>\n'
             f'      <div>{chips}</div>\n    </div>\n    {END}')
 
 

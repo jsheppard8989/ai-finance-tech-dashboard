@@ -249,6 +249,7 @@ class TestPricePull(unittest.TestCase):
         self.assertNotIn("mid", r["trade"])
         self.assertNotIn("quote_flags", r["trade"])
         self.assertEqual(r["status"], "live")  # priced only; no grading
+        self.assertEqual(r["trade"]["priced"], "bottom_third")
 
     def test_unrealistic_quotes_keep_last_good_price(self):
         from datetime import datetime, timedelta
@@ -295,3 +296,27 @@ class TestPricePull(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestMidpointLabel(unittest.TestCase):
+    def setUp(self):
+        self.d = build_trap_map.compute(copy.deepcopy(DATA))
+
+    def test_midpoint_totals_labeled(self):
+        self.assertTrue(self.d["totals"]["midpoint_rows"])
+        note = build_trap_map.midpoint_note(self.d)
+        self.assertRegex(note, r"^Midpoint marks as of [A-Z][a-z]{2} \d+; bid \+ 1/3 repricing Monday")
+        self.assertIn(note, build_trap_map.render_page(self.d))
+        strip = build_trap_map.render_strip(self.d)
+        self.assertIn(note, strip)
+        self.assertIn("at midpoint, not final", strip)
+        page = build_trap_map.render_page(self.d)
+        self.assertNotIn("(bottom third of bid", page)
+        n_mid = len(self.d["totals"]["midpoint_rows"])
+        self.assertEqual(page.count("Midpoint, not final (bid + 1/3"), 2 * n_mid)  # desktop row + phone card
+
+    def test_label_goes_away_after_bottom_third_pull(self):
+        for r in self.d["rows"]:
+            (r.get("trade") or {})["priced"] = "bottom_third"
+        self.assertEqual(build_trap_map.midpoint_note(self.d), "")
+        self.assertNotIn("midpoint-note", build_trap_map.render_page(self.d))
