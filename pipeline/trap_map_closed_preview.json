@@ -24,7 +24,8 @@
   "how": "Closed at the stop: $406.13 on Oct 30.",
   "allocated": null,
   "result_usd": null,
-  "result_pct": -5.1
+  "result_pct": -5.1,
+  "result_per_share": -21.67
  },
  {
   "ticker": "LLY",
@@ -37,6 +38,7 @@
   "how": "Closed at the target: $1,350.77 on Oct 29.",
   "allocated": null,
   "result_usd": null,
-  "result_pct": 6.7
+  "result_pct": 6.7,
+  "result_per_share": 84.98
  }
 ]
