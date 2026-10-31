@@ -157,12 +157,20 @@ def _grade_key_errs(obj, path="") -> list[str]:
     return out
 
 
+def _own_decision(c: dict) -> bool:
+    """Only exemption from the evidence link: a call we chose not to place (exit reason 'not placed'
+    and the public text says 'Not placed'). Nothing else is exempt."""
+    return c.get("exit_reason") == "not placed" and "Not placed" in str(c.get("outcome_text") or "")
+
+
 def check_past_calls(calls: list) -> list[str]:
     """Required fields and allowed exit reasons for every published past call."""
     errs = []
     for i, c in enumerate(calls):
         tag = f"past_calls[{i}] {c.get('ticker') or '?'}"
         for k in PAST_CALL_FIELDS:
+            if k == "evidence_url" and _own_decision(c):
+                continue  # our own decision not to place it: nothing external to link
             if not str(c.get(k) or "").strip():
                 errs.append(f"{tag}: missing {k.replace('_', ' ')}")
         if c.get("exit_reason") and c["exit_reason"] not in EXIT_REASONS:

@@ -116,6 +116,8 @@ def _value_line(r):
     if t.get("value") is None:
         return ""
     m = t.get("mark", t.get("mid"))
+    if m is not None and round(m, 3) != m:  # e.g. 10.2667 -> 10.27 (display only)
+        m = f"{m:.2f}"
     if is_midpoint(r):
         px = f"Midpoint {m}, not final (bid + 1/3 repricing Monday), " if m is not None else "Midpoint, not final, "
     else:

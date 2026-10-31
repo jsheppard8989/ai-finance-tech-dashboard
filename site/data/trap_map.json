@@ -528,7 +528,7 @@
     "link_label": "Constellation newsroom"
    },
    "trade": {
-    "text": "Nov 20 $260/$290 call spread, 1 contract, $10.2667 debit (stock $262.38, Oct 30 close)",
+    "text": "Nov 20 $260/$290 call spread, 1 contract, $10.27 debit (stock $262.38, Oct 30 close)",
     "max_loss": "$1,026.67",
     "max_gain": "$1,973.33",
     "quoted": "Oct 30 closing quotes, pulled Oct 31, 6:35 PM CT",
@@ -563,22 +563,23 @@
      "strikes": "$260 / $290",
      "expiry": "Nov 20",
      "contracts": 1,
-     "debit": "$10.2667 per share",
+     "debit": "$10.27 per share",
      "stock_then": "$262.38",
-     "caveat": "The $260 call traded only 8 contracts on Oct 30, so a real fill could cost more"
+     "caveat": "Low volume: the $260 call traded only 8 contracts on Oct 30, so a real fill could cost more"
     },
     "change": 0.0
    },
    "date_added": "2026-10-31",
    "last_reviewed": "2026-10-31",
-   "why_we_hold": "Break-even at expiry is $270.27.",
+   "why_we_hold": "Our view (OPINION): the market still prices Constellation like a regular power company, while data-center buyers are paying up for round-the-clock carbon-free power. The Nov 9 report is part of the idea. We hold through it because new or extended data-center power contracts there are the most likely thing to move the stock toward $290, and the spread caps the loss at $1,026.67 if it disappoints.",
    "what_proves_it": "CEG closes above $270.27 at the Nov 20 expiry.",
    "history": [
     {
      "at": "2026-10-31T18:35:00-05:00",
      "text": "Constellation Energy: new Nov 20 call spread added."
     }
-   ]
+   ],
+   "main_risk": "Wrong if: CEG closes below $242.64 (the stop), or the Nov 9 report shows no new data-center contract news and the stock gives back the gap."
   }
  ],
  "past_calls": [],

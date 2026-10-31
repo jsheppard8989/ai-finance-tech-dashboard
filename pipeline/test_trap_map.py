@@ -320,3 +320,20 @@ class TestMidpointLabel(unittest.TestCase):
             (r.get("trade") or {})["priced"] = "bottom_third"
         self.assertEqual(build_trap_map.midpoint_note(self.d), "")
         self.assertNotIn("midpoint-note", build_trap_map.render_page(self.d))
+
+
+class TestNotPlacedExemption(unittest.TestCase):
+    base = {"ticker": "IREN", "outcome_text": "Oct 26: Sell one Nov 27 $20 put at $1.30. Not placed (passed Oct 26).",
+            "exit_reason": "not placed", "evidence_url": None}
+
+    def test_not_placed_needs_no_link(self):
+        self.assertEqual(tc.check_past_calls([dict(self.base)]), [])
+
+    def test_exemption_is_narrow(self):
+        for k, v in (("exit_reason", "no trade"), ("exit_reason", "stop"), ("outcome_text", "Passed.")):
+            c = dict(self.base, **{k: v})
+            self.assertTrue(any("evidence" in x for x in tc.check_past_calls([c])), (k, v))
+        c = dict(self.base, evidence_url="ftp://x")
+        self.assertTrue(tc.check_past_calls([c]))
+        c = dict(self.base, ticker="")
+        self.assertTrue(tc.check_past_calls([c]))
