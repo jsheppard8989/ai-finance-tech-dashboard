@@ -90,7 +90,7 @@ def sorted_rows(d):
 
 
 def is_midpoint(r: dict) -> bool:
-    """Option rows still priced at the bid-ask midpoint (not yet re-pulled at bid + 1/3)."""
+    """Option rows still priced at the bid-ask midpoint (not yet re-pulled at a third of the spread from the worst side)."""
     t = r.get("trade") or {}
     return r.get("kind") == "spread" and r.get("status") != "graded" and t.get("priced") != "bottom_third"
 
@@ -100,7 +100,7 @@ def midpoint_note(d: dict) -> str:
     if not rows:
         return ""
     n = max(_dt(r["trade"]["mid_time"]) for r in rows)
-    return f"Midpoint marks as of {n.strftime('%b')} {n.day}; bid + 1/3 repricing Monday. Not final."
+    return f"Midpoint marks as of {n.strftime('%b')} {n.day}; repricing Monday at a third of the spread from the worst side. Not final."
 
 
 def _value_line(r):
@@ -283,7 +283,12 @@ def _card(r, today: date, max_p: float) -> str:
 
 PAGE_SUBTITLE = "Paper trades at real prices. The market keeps score."  # page only; homepage strip keeps d["purpose"]
 CLOSED_PREVIEW = Path(__file__).resolve().parent / "trap_map_closed_preview.json"
-ENDED = {"Target": ("Hit target", "RIGHT"), "Stop": ("Hit stop", "WRONG"), "Not placed": ("Not placed", "NONE")}
+ENDED = {"Target": ("Hit target", "RIGHT"), "Stop": ("Hit stop", "WRONG")}
+
+
+def is_not_placed(c) -> bool:
+    txt = " ".join(str(c.get(k) or "") for k in ("ended", "exit_reason", "outcome_text")).lower()
+    return "not placed" in txt
 
 
 def _closed_extra():
@@ -343,7 +348,7 @@ def _open_card(r, today: date, mx: float) -> str:
             f'<div class="sm"><b>What proves it:</b> {e(r["what_proves_it"])}</div>{note}</div>\n'
             f'<div class="exit"><div class="lbl">Expected exit</div>{_exit(r, today)}</div>\n'
             f'<div class="money"><div class="lbl">Allocated</div><div class="cost">{money(t["cost"])}</div>'
-            f'<div class="lbl" style="margin-top:6px">Change</div><div class="chg {"up" if c >= 0 else "dn"}">{_sg(c)}</div>{'<div class="sm mid-tag">Midpoint, not final (bid + 1/3 repricing Monday)</div>' if is_midpoint(r) else ""}{_bar(c, mx)}</div>\n</article></details>')
+            f'<div class="lbl" style="margin-top:6px">Change</div><div class="chg {"up" if c >= 0 else "dn"}">{_sg(c)}</div>{'<div class="sm mid-tag">Midpoint, not final (repricing Monday)</div>' if is_midpoint(r) else ""}{_bar(c, mx)}</div>\n</article></details>')
 
 
 def _closed_card(c) -> str:
@@ -378,7 +383,8 @@ def render_page(d: dict, closed_extra=None) -> str:
     today = _dt(d["quotes_as_of"]).date()
     open_rows = sorted((r for r in d["rows"] if r["status"] != "graded"),
                        key=lambda r: r["trade"].get("expiry") or "9999")
-    closed = list(d.get("past_calls") or []) + list(_closed_extra() if closed_extra is None else closed_extra)
+    closed = [c for c in list(d.get("past_calls") or []) + list(_closed_extra() if closed_extra is None else closed_extra)
+              if not is_not_placed(c)]  # not-placed calls are never shown (Jared, Oct 31)
     spy_c = round(T["spy_value"] - sum(b["dollars"] for b in B["buys"]), 2)
     sc = max(abs(T["change"]), abs(spy_c)) or 1
     mx = max([abs(r["trade"]["change"]) for r in open_rows] or [1]) or 1
