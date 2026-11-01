@@ -404,7 +404,7 @@
       "value": 1039.14
      }
     ],
-    "stop": "Stop: an equal-weight index of HIMS, GDRX, TEM, GH and ABT, set to 100 at the Sep 18 entries. Close the whole basket if the index closes below 90 (about $500 on the $5,000 cost). The stop is fixed and never moves.",
+    "stop": "Stop (JG's proposal, approved by Jared Oct 31): an equal-weight index of HIMS, GDRX, TEM, GH and ABT, set to 100 at the Sep 18 entries. Close the whole basket if the index closes below 90 (about $500 on the $5,000 cost). The stop is fixed and never moves.",
     "quoted": "Prices: Oct 30 close (Yahoo chart API, pulled Oct 31, 7:06–7:15 PM CT)",
     "expression": {
      "type": "Stock basket, equal dollars",
@@ -467,8 +467,7 @@
      ],
      "fixed": true
     },
-    "index_now": 99.51,
-    "quote_source": "/workspace/cos/healthcare_rewrite/basket_vs_spx.csv"
+    "index_now": 99.51
    },
    "status": "holding",
    "owner": "JG",
