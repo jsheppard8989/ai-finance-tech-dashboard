@@ -398,9 +398,8 @@
       "value": 1039.14
      }
     ],
-    "stop": "Stop (JG's proposal, approved by Jared Oct 31): an equal-weight index of HIMS, GDRX, TEM, GH and ABT, set to 100 at the Sep 18 entries. Close the whole basket if the index closes below 90 (about $500 on the $5,000 cost). The stop is fixed and never moves.",
+    "stop": "Stop: basket closes if the index closes below 90",
     "index_now": 99.51,
-    "grade_rule": "Graded only when stopped out: Right if we exit above cost, Wrong below.",
     "quoted": "Prices: Oct 30 close (Yahoo Finance daily closes)",
     "stop_rule": {
      "type": "index_level",
@@ -430,7 +429,6 @@
      ],
      "fixed": true
     },
-    "grade_date": null,
     "expression": {
      "type": "Stock basket, equal dollars",
      "holdings": [
