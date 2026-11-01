@@ -17,6 +17,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
 from site_text_sanitize import apply_style_gate, report_style_gate_misses, sanitize_public_text, strip_cjk_public_text
 from extract_guests import load_overrides
+from investors_should_strip import apply_investors_should_strip, _norm as _r41_norm
 from workspace_paths import (
     DB_PATH,
     PIPELINE_DIR,
@@ -752,7 +753,7 @@ def _merge_pundit_rows(rows, merges):
 NAME_PROTECT_KEYS = frozenset(TITLE_FIELDS) | {
     "quote", "quotes", "notable_quotes", "last_proof_snippet", "last_proof_cite",
     "last_episode_title", "last_mentioned_episode_title", "transcript_excerpt",
-    "slug", "url", "source_url", "link", "net_worth_source", "grokipedia_url",
+    "slug", "term", "url", "source_url", "link", "net_worth_source", "grokipedia_url",
 }
 _QUOTED_SPAN_RE = re.compile(
     r'"[^"\n]*"|\u201c[^\u201d]*\u201d|\u2018[^\u2019]*\u2019(?![A-Za-z])'
@@ -1948,6 +1949,14 @@ def _apply_guest_bio_overrides(guests, ov=None):
     return guests
 
 
+def _r41_canon(text):
+    """Tails are stored as published on 10/31; canonicalize through the current name swaps so later
+    phrase rules (e.g. R66) don't break the match."""
+    rules = _load_override_rules()
+    pairs = list(rules.get("name_replacements") or [])
+    return _r41_norm(replace_outside_quotes(text, pairs) if pairs else text)
+
+
 def generate_website_js():
     """Generate JavaScript file with data for website."""
     print("\n" + "="*60)
@@ -1967,6 +1976,9 @@ def generate_website_js():
     _apply_summary_overrides(archive)
     _apply_summary_overrides(main_content)
     _apply_summary_overrides(deepdives)
+    # Oct 31 2026 (sweep_1031 R41 rev2): rule-listed trailing 'Investors should' sentences, card-safe.
+    _r41 = apply_investors_should_strip(deepdives, canon=_r41_canon)
+    print(f"  ✓ R41 strip: {_r41[0]} deep dives edited, {_r41[1]} skipped (would blank a field)")
     _apply_summary_overrides(podcast_guests)
     _apply_term_overrides(suggested_terms, [r for r in _load_override_rules().get("terms", [])
                                             if r.get("scope", "suggested") == "suggested"])

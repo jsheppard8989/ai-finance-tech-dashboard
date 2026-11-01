@@ -2127,7 +2127,7 @@
       <!-- Treasury Calendar -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📊 Treasury Calendar</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Upcoming coupon auctions and the next Quarterly Refunding date — when Treasury sets how much paper the market must absorb.</p>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Upcoming coupon auctions and the next Quarterly Refunding date — when Treasury sets how much in bonds the market must absorb.</p>
         <div id="treasury-widget" style="font-size: 0.8rem; color: #a8b2d1;">
           <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
         </div>
@@ -2302,7 +2302,7 @@
       if (!host) return;
       var hist = cf && cf.spot_history;
       if (!hist || !Array.isArray(hist.dates) || !hist.dates.length) {
-        host.innerHTML = '<span style="color: #9ca3af; font-size: 0.68rem;">Chart unavailable: no spot history in market_data.json.</span>';
+        host.innerHTML = '<span style="color: #9ca3af; font-size: 0.68rem;">Chart unavailable: no price history yet.</span>';
         return;
       }
       if (line) line.textContent = (outlook && outlook.line) ? outlook.line : '';
@@ -2415,11 +2415,11 @@
       if (host) host.focus();
     }
 
-    // "Who Keeps the Profit from the AI Compute Shortage" button: shown only once JG's thesis page exists.
+    // "Who Keeps the Profit from the AI Compute Shortage" button: shown only once thesis page exists.
     (function () {
       var slot = document.getElementById('compute-thesis-slot');
       if (!slot || !window.fetch) return;
-      var page = ['compute-thesis', 'html'].join('.');  // JG's thesis page; built at runtime so the hidden button isn't a dead static link
+      var page = ['compute-thesis', 'html'].join('.');  // thesis page; built at runtime so the hidden button isn't a dead static link
       fetch('./' + page, {method: 'HEAD', cache: 'no-store'}).then(function (r) {
         if (!r.ok) return;
         slot.innerHTML = '<a href="./' + page + '" class="chart-btn" style="display:inline-block;text-decoration:none;">Who Keeps the Profit from the AI Compute Shortage</a>';
@@ -3237,7 +3237,7 @@
         const unavailable =
           '<span style="color: #f59e0b;">Unavailable</span>';
         const hint =
-          '<div style="color: #6b7280; font-size: 0.65rem; margin-top: 0.2rem;">market_data.json stale/unavailable</div>';
+          '<div style="color: #6b7280; font-size: 0.65rem; margin-top: 0.2rem;">Market data temporarily unavailable</div>';
         ['treasury-widget', 'compute-forward-widget'].forEach(function(id) {
           const el = document.getElementById(id);
           if (el) el.innerHTML = unavailable + hint;

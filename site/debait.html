@@ -368,7 +368,7 @@
       </div>
       <div class="debate-meta" id="debate-meta"></div>
       <div class="methodology" id="debate-methodology">
-        We fight the real villains: stale consensus, tribal certainty, narrative capture, and “ceteris paribus” thinking.
+        We fight the real villains: stale consensus, tribal certainty, narrative capture, and “all else equal” thinking.
         The goal is not to win — it’s to see.
       </div>
     </div>
@@ -742,7 +742,7 @@
         const publishable = !(contract && contract.publishable === false);
         const holdEl = document.getElementById('quality-hold-banner');
         const listenCard = document.getElementById('listen-card');
-        // A graded contract is not "this week's" and is never "held for review" (Red Team N-1, Oct 16).
+        // A graded contract is not "this week's" and is never "held for review".
         var curSt = String((contract && (contract.resolution_status || contract.bet_status)) || 'open').toLowerCase();
         var curResolved = (curSt === 'yes' || curSt === 'no' || curSt === 'void');
         function shortDate(iso) {
