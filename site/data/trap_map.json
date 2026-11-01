@@ -398,14 +398,36 @@
       "value": 1039.14
      }
     ],
-    "stop": "Stop: the basket index (100 at entry) closes below 90, or HIMS Q3 subscribers come in under 2.891 million. The stop is fixed and never moves.",
-    "index_now": 99.5,
+    "stop": "Stop (JG's proposal, approved by Jared Oct 31): an equal-weight index of HIMS, GDRX, TEM, GH and ABT, set to 100 at the Sep 18 entries. Close the whole basket if the index closes below 90 (about $500 on the $5,000 cost). The stop is fixed and never moves.",
+    "index_now": 99.51,
     "grade_rule": "Graded only when stopped out: Right if we exit above cost, Wrong below.",
-    "quoted": "Prices: Yahoo, Oct 30, 11:16 AM CT",
+    "quoted": "Prices: Oct 30 close (Yahoo Finance daily closes)",
     "stop_rule": {
-     "type": "index_level_or_event",
+     "type": "index_level",
      "index_below": 90,
-     "event": "HIMS Q3 subscribers under 2.891 million",
+     "weights": "equal",
+     "index_legs": [
+      {
+       "ticker": "HIMS",
+       "base": 28.09
+      },
+      {
+       "ticker": "GDRX",
+       "base": 3.33
+      },
+      {
+       "ticker": "TEM",
+       "base": 77.97
+      },
+      {
+       "ticker": "GH",
+       "base": 183.1
+      },
+      {
+       "ticker": "ABT",
+       "base": 102.2
+      }
+     ],
      "fixed": true
     },
     "grade_date": null,
@@ -445,7 +467,7 @@
    "status": "holding",
    "owner": "JG",
    "date_added": "2026-09-18",
-   "last_reviewed": "2026-10-29",
+   "last_reviewed": "2026-10-31",
    "what_proves_it": "HIMS keeps adding subscribers (Q3 at or above 2.891M on Nov 9), TEM and GH keep growing revenue, and GDRX revenue finally moves above its $194–203M range.",
    "why_we_hold": "Five companies making care cheaper and easier to get: online prescriptions (HIMS), drug price discounts (GDRX), AI-driven cancer testing (TEM, GH), and a big diagnostics maker (ABT).",
    "kind": "basket",
