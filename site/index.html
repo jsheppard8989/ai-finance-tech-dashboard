@@ -1125,23 +1125,6 @@
       transform: rotate(180deg);
     }
 
-    /* Ripple Effect */
-    .ripple {
-      position: absolute;
-      border-radius: 50%;
-      background: rgba(0, 212, 255, 0.4);
-      transform: scale(0);
-      animation: ripple-animation 0.6s ease-out;
-      pointer-events: none;
-    }
-
-    @keyframes ripple-animation {
-      to {
-        transform: scale(4);
-        opacity: 0;
-      }
-    }
-
     /* Title ticker symbols */
     .title-ticker {
       background: rgba(0, 212, 255, 0.15);
@@ -2089,11 +2072,10 @@
       to   { transform: scale(1.08) translate(-1.5%, -1%); }
     }
     @keyframes hero-flicker {
-      0%, 100% { opacity: 0.55; transform: translate(-50%, -50%) scale(1); }
-      20%      { opacity: 0.85; transform: translate(-50%, -50%) scale(1.05); }
-      35%      { opacity: 0.6;  transform: translate(-50%, -50%) scale(0.98); }
-      60%      { opacity: 0.95; transform: translate(-50%, -50%) scale(1.07); }
-      80%      { opacity: 0.65; transform: translate(-50%, -50%) scale(1.01); }
+      0%, 100% { opacity: 0.62; transform: translate(-50%, -50%) scale(1); }
+      30%      { opacity: 0.82; transform: translate(-50%, -50%) scale(1.035); }
+      55%      { opacity: 0.70; transform: translate(-50%, -50%) scale(1.01); }
+      75%      { opacity: 0.90; transform: translate(-50%, -50%) scale(1.05); }
     }
     @media (prefers-reduced-motion: reduce) {
       header::before, header::after { animation: none; }
@@ -2109,6 +2091,55 @@
     @media (max-width: 768px) {
       header { min-height: 200px; padding: 1.75rem 1rem 2rem; --hero-img: url("img/hero-banner-mobile.webp"); --glow-y: 67%; --glow-x: 50%; }
       header::after { width: 80%; }
+    }
+    /* ---- Motion pass (Nov 2026): one ease curve, transform/opacity/shadow only (no 'transition: all') ---- */
+    :root { --ease-out: cubic-bezier(.22, 1, .36, 1); }
+    .overton-window-item, .ticker-card, .insight-item, .guest-item, .portfolio-card-clickable {
+      transition: transform .35s var(--ease-out), box-shadow .35s var(--ease-out), border-color .35s var(--ease-out), background-color .35s var(--ease-out);
+    }
+    .overton-window-item:hover, .ticker-card:hover, .insight-item:hover, .portfolio-card-clickable:hover { transform: translateY(-3px); }
+    .portfolio-card-clickable:hover { box-shadow: 0 8px 26px rgba(123, 44, 191, 0.18); }
+    .vote-btn, .play-tag, .action-btn, .title-ticker, .chart-btn, .tab {
+      transition: transform .2s var(--ease-out), background-color .2s var(--ease-out), border-color .2s var(--ease-out), color .2s var(--ease-out), box-shadow .2s var(--ease-out);
+    }
+    .action-btn:hover, .chart-btn:hover, .title-ticker:hover, .play-tag:hover { transform: translateY(-1px); }
+    .submit-btn { transition: opacity .2s var(--ease-out), transform .12s var(--ease-out); }
+
+    /* Landing-light spill: the booster's flame in the banner lights the cards below it.
+       1) .landing-spill: one big warm radial gradient behind the cards, anchored under the booster (78% desktop, 50% phone).
+       2) each .card gets a top-edge amber tint whose strength (--spill, 0..1) is set by distance from the booster (JS below).
+       Both sit behind or on the card edge, never over the text. */
+    .container { position: relative; isolation: isolate; }
+    .landing-spill {
+      position: absolute; left: 0; right: 0; height: 900px; margin-top: -40px; z-index: -1; pointer-events: none;
+      background: radial-gradient(ellipse 55% 60% at var(--spill-x, 78%) 0%, rgba(255, 168, 72, 0.30), rgba(255, 120, 40, 0.12) 45%, transparent 75%);
+      transform-origin: var(--spill-x, 78%) 0; will-change: transform, opacity;
+      animation: spill-breathe 3.2s ease-in-out infinite, spill-drift 26s ease-in-out infinite alternate;
+    }
+    .card { position: relative; }
+    .card::after {
+      content: ""; position: absolute; left: 10%; right: 10%; top: -1px; height: 2px; pointer-events: none;
+      left: calc(var(--spill-fx, 50%) - 40%); right: auto; width: 80%;
+      background: linear-gradient(90deg, transparent, rgba(255, 190, 100, 1), transparent);
+      box-shadow: 0 0 18px 3px rgba(255, 150, 60, 0.7), 0 -8px 28px rgba(255, 150, 60, 0.45);
+      border-radius: 1px; opacity: var(--spill, 0);
+      animation: spill-edge 3.2s ease-in-out infinite;
+    }
+    /* faint amber wash in the corner nearest the booster; painted as a background layer, so it sits under the text */
+    .container .card { background-image: radial-gradient(ellipse 60% 45% at var(--spill-cx, 100%) 0%, rgba(255, 160, 70, calc(var(--spill, 0) * 0.16)), transparent 70%); }
+    @keyframes spill-breathe { 0%, 100% { opacity: .85; } 30% { opacity: 1; } 55% { opacity: .9; } 75% { opacity: 1; } }
+    @keyframes spill-drift { from { transform: translateX(0); } to { transform: translateX(-1.5%); } }
+    @keyframes spill-edge { 0%, 100% { opacity: calc(var(--spill, 0) * 0.85); } 75% { opacity: var(--spill, 0); } }
+    @media (max-width: 768px) { .landing-spill { --spill-x: 50%; height: 700px; } }
+
+    /* gentle reveal-on-scroll for cards below the fold (class added by JS only, so no-JS shows everything) */
+    .rv { opacity: 0; transform: translateY(16px); transition: opacity .7s var(--ease-out), transform .7s var(--ease-out); }
+    .rv.rv-in { opacity: 1; transform: none; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+      .card::after { opacity: calc(var(--spill, 0) * 0.8); }
+      .rv { opacity: 1; transform: none; }
     }
 </style>
 </head>
@@ -2129,6 +2160,7 @@
       </p>
       <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:ORBCOMM-2_First-Stage_Landing_%2823271687254%29.jpg" target="_blank" rel="noopener">Photo: SpaceX (CC0), via Wikimedia Commons</a>
     </header>
+    <div class="landing-spill" aria-hidden="true"></div>
 
     <!-- Market Plumbing Widgets (compact band between header and grid) -->
     <style>
@@ -3943,7 +3975,7 @@
     // Track active card
     let activeCard = null;
 
-    // Handle card click with ripple effect
+    // Handle card click
     function handleCardClick(e) {
       const card = e.currentTarget;
 
@@ -3952,21 +3984,7 @@
         return;
       }
 
-      // Create ripple effect
-      const rect = card.getBoundingClientRect();
-      const ripple = document.createElement('span');
-      const size = Math.max(rect.width, rect.height);
-      const x = e.clientX - rect.left - size / 2;
-      const y = e.clientY - rect.top - size / 2;
-
-      ripple.style.width = ripple.style.height = size + 'px';
-      ripple.style.left = x + 'px';
-      ripple.style.top = y + 'px';
-      ripple.classList.add('ripple');
-
-      card.appendChild(ripple);
-
-      setTimeout(() => ripple.remove(), 600);
+      // (ripple removed in the Nov 2026 motion pass: hover lift + glow carry the feedback)
 
       // Pundits: show episode evidence modal instead of expanding
       if (card.classList.contains('guest-item')) {
@@ -4366,5 +4384,38 @@
     }
   </script>
   <script src="./js/research-nav.js"></script>
+  <script>
+  /* Motion pass (Nov 2026): landing-light spill strength per card + reveal-on-scroll. */
+  (function () {
+    var header = document.querySelector('.container > header'); if (!header) return;
+    var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function spill() {
+      var hr = header.getBoundingClientRect(), phone = innerWidth <= 768;
+      var bx = hr.left + hr.width * (phone ? 0.5 : 0.78), by = hr.bottom - hr.height * 0.12; // booster spot in the banner
+      var R = phone ? 700 : 1100;
+      document.querySelectorAll('.container .card').forEach(function (c) {
+        var r = c.getBoundingClientRect(); if (!r.width) return;
+        var nx = Math.max(r.left, Math.min(bx, r.right)), d = Math.hypot(nx - bx, r.top - by); // nearest point on the card's top edge
+        var k = Math.max(0, 1 - d / R); k = Math.pow(k, 1.3);
+        c.style.setProperty('--spill', k.toFixed(3));
+        c.style.setProperty('--spill-cx', (bx >= r.right ? 100 : bx <= r.left ? 0 : (bx - r.left) / r.width * 100).toFixed(0) + '%');
+        c.style.setProperty('--spill-fx', Math.max(40, Math.min(60, (nx - r.left) / r.width * 100)).toFixed(1) + '%');
+      });
+    }
+    var t; function later() { clearTimeout(t); t = setTimeout(spill, 80); }
+    addEventListener('resize', later); addEventListener('load', later);
+    if ('ResizeObserver' in window) new ResizeObserver(later).observe(document.querySelector('.container'));
+    later();
+    if (reduce || !('IntersectionObserver' in window)) return;
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+    function arm() {
+      document.querySelectorAll('.container .grid .card').forEach(function (el, i) {
+        if (el.classList.contains('rv')) return; var r = el.getBoundingClientRect(); if (r.top < innerHeight) return;
+        el.classList.add('rv'); el.style.transitionDelay = (i % 3) * 70 + 'ms'; io.observe(el);
+      });
+    }
+    if (document.readyState === 'complete') arm(); else addEventListener('load', arm);
+  })();
+  </script>
 </body>
 </html>
