@@ -41,8 +41,9 @@ NON_STOCK = {"SPY", "QQQ", "IWM", "DIA", "VOO", "VTI", "TLT", "GLD", "SLV", "USO
 TICKER_RE = re.compile(r"^[A-Z]{1,5}(\.[A-Z])?$")
 LIVE = ("live", "new")
 CLOSED = "closed"
-# How a past call ended. "not placed" and "no data" are listed but never counted.
-EXIT_REASONS = ("stop", "target", "expiry", "time exit", "reported", "no trade", "open", "not placed", "no data")
+# How a past call ended. "no data" is listed but never counted. Not-placed calls never go on the site
+# (Jared, Oct 31 6:58 PM CT: we state convictions), so "not placed" is not an allowed exit reason.
+EXIT_REASONS = ("stop", "target", "expiry", "time exit", "reported", "no trade", "open", "no data")
 PAST_CALL_FIELDS = ("ticker", "outcome_text", "exit_reason", "evidence_url")
 
 
@@ -157,10 +158,9 @@ def _grade_key_errs(obj, path="") -> list[str]:
     return out
 
 
-def _own_decision(c: dict) -> bool:
-    """Only exemption from the evidence link: a call we chose not to place (exit reason 'not placed'
-    and the public text says 'Not placed'). Nothing else is exempt."""
-    return c.get("exit_reason") == "not placed" and "Not placed" in str(c.get("outcome_text") or "")
+def is_not_placed(c: dict) -> bool:
+    """A call we never placed. These are removed from the site entirely."""
+    return str(c.get("exit_reason") or "").lower() == "not placed" or "not placed" in str(c.get("outcome_text") or "").lower()
 
 
 def check_past_calls(calls: list) -> list[str]:
@@ -169,12 +169,12 @@ def check_past_calls(calls: list) -> list[str]:
     for i, c in enumerate(calls):
         tag = f"past_calls[{i}] {c.get('ticker') or '?'}"
         for k in PAST_CALL_FIELDS:
-            if k == "evidence_url" and _own_decision(c):
-                continue  # our own decision not to place it: nothing external to link
             if not str(c.get(k) or "").strip():
                 errs.append(f"{tag}: missing {k.replace('_', ' ')}")
         if c.get("exit_reason") and c["exit_reason"] not in EXIT_REASONS:
             errs.append(f"{tag}: exit reason {c['exit_reason']!r} not one of {EXIT_REASONS}")
+        if is_not_placed(c):
+            errs.append(f"{tag}: not-placed calls are not shown on the site")
         url = str(c.get("evidence_url") or "")
         if url and not re.match(r"https?://", url):
             errs.append(f"{tag}: evidence link must be a full http(s) URL")

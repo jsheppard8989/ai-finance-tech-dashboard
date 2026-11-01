@@ -1,5 +1,6 @@
 """Trap Map v5: validator rules, build is up to date, price pull keeps last mid on failure."""
 import copy
+import html
 import json
 import re
 import sys
@@ -235,21 +236,33 @@ class TestPricePull(unittest.TestCase):
         return {fp.occ("ASTS", "2026-11-13", "P", 43): fp._q(*long_q),
                 fp.occ("ASTS", "2026-11-13", "P", 37): fp._q(*short_q)}
 
-    def test_bottom_third_rule(self):
-        self.assertAlmostEqual(fp.bottom_third(3.0, 3.6), 3.2)
-        self.assertAlmostEqual(fp.bottom_third(1.0, 1.0), 1.0)
+    def test_fill_rule_third_from_worst(self):
+        self.assertAlmostEqual(fp.buy_fill(3.0, 3.6), 3.4)   # ask - (ask - bid)/3
+        self.assertAlmostEqual(fp.sell_fill(3.0, 3.6), 3.2)  # bid + (ask - bid)/3
+        self.assertAlmostEqual(fp.buy_fill(1.0, 1.0), 1.0)
+        # opening a long leg / closing a short leg = buy; opening a short leg / closing a long leg = sell
+        self.assertAlmostEqual(fp.leg_fill(3.0, 3.6, 1, closing=False), 3.4)
+        self.assertAlmostEqual(fp.leg_fill(3.0, 3.6, -1, closing=True), 3.4)
+        self.assertAlmostEqual(fp.leg_fill(3.0, 3.6, -1, closing=False), 3.2)
+        self.assertAlmostEqual(fp.leg_fill(3.0, 3.6, 1, closing=True), 3.2)
+        # CEG Oct 30 quotes: 260C 13.60/17.20, 290C 3.80/6.00
+        q = [(13.60, 17.20, 1), (3.80, 6.00, -1)]
+        self.assertAlmostEqual(fp.spread_price(q, closing=False), 16.00 - (3.80 + 2.20 / 3), places=4)
+        self.assertAlmostEqual(fp.spread_price(q, closing=True), (13.60 + 1.20) - (6.00 - 2.20 / 3), places=4)
+        self.assertFalse(hasattr(fp, "bottom_third"))
 
-    def test_spread_marked_at_bottom_third(self):
+    def test_spread_marked_at_closing_fill(self):
         from datetime import datetime
         now = datetime(2026, 11, 2, 10, 0, tzinfo=fp.CT)
         r, warn = self._pull(self._asts((5.0, 5.3, 10, 100, now), (2.0, 2.3, 10, 100, now)), now)
         self.assertEqual([w for w in warn if not w.startswith("SPY")], [])
-        self.assertAlmostEqual(r["trade"]["mark"], (5.0 + 0.1) - (2.0 + 0.1))
-        self.assertEqual(r["trade"]["value"], 2100.0)
+        # closing: sell the long leg a third above its bid, buy back the short leg a third below its ask
+        self.assertAlmostEqual(r["trade"]["mark"], (5.0 + 0.1) - (2.3 - 0.1))
+        self.assertEqual(r["trade"]["value"], 2030.0)
         self.assertNotIn("mid", r["trade"])
         self.assertNotIn("quote_flags", r["trade"])
         self.assertEqual(r["status"], "live")  # priced only; no grading
-        self.assertEqual(r["trade"]["priced"], "bottom_third")
+        self.assertEqual(r["trade"]["priced"], "third_from_worst")
 
     def test_unrealistic_quotes_keep_last_good_price(self):
         from datetime import datetime, timedelta
@@ -274,7 +287,7 @@ class TestPricePull(unittest.TestCase):
         now = datetime(2026, 11, 13, 16, 0, tzinfo=fp.CT)
         r, _ = self._pull(self._asts((5.0, 5.3, 10, 100, now), (2.0, 2.3, 10, 100, now)), now)
         self.assertEqual(r["status"], "closed")
-        self.assertEqual(r["exit"], {"reason": "expiry", "date": "2026-11-13", "value": 2100.0, "result": round(2100.0 - r["trade"]["cost"], 2)})
+        self.assertEqual(r["exit"], {"reason": "expiry", "date": "2026-11-13", "value": 2030.0, "result": round(2030.0 - r["trade"]["cost"], 2)})
         self.assertNotIn("outcome", r)
         self.assertNotRegex(json.dumps(r["exit"]), r"(?i)grade|right|wrong")
         # basket-style index stop closes the whole row
@@ -305,35 +318,55 @@ class TestMidpointLabel(unittest.TestCase):
     def test_midpoint_totals_labeled(self):
         self.assertTrue(self.d["totals"]["midpoint_rows"])
         note = build_trap_map.midpoint_note(self.d)
-        self.assertRegex(note, r"^Midpoint marks as of [A-Z][a-z]{2} \d+; bid \+ 1/3 repricing Monday")
-        self.assertIn(note, build_trap_map.render_page(self.d))
+        self.assertRegex(note, r"^Midpoint marks as of [A-Z][a-z]{2} \d+; repricing Monday at a third of the spread from the worst side")
+        self.assertIn(html.escape(note), build_trap_map.render_page(self.d))
         strip = build_trap_map.render_strip(self.d)
-        self.assertIn(note, strip)
+        self.assertIn(html.escape(note), strip)
         self.assertIn("at midpoint, not final", strip)
         page = build_trap_map.render_page(self.d)
-        self.assertNotIn("(bottom third of bid", page)
-        n_mid = len(self.d["totals"]["midpoint_rows"])
-        self.assertEqual(page.count("Midpoint, not final (bid + 1/3"), 2 * n_mid)  # desktop row + phone card
+        self.assertNotRegex(page, r"bid \+ 1/3|bottom third")
+        rows = [r for r in self.d["rows"] if r["id"] in self.d["totals"]["midpoint_rows"]]
+        pend = sum(1 for r in rows if r["trade"].get("entry_pending"))
+        noted = sum(1 for r in rows if r["trade"].get("price_note") and not r["trade"].get("entry_pending"))
+        self.assertEqual(page.count("Midpoint, not final (repricing Monday)"), 2 * (len(rows) - pend - noted))
+        self.assertEqual(page.count("Priced from Oct 30 closing quotes, not final"), 2 * noted)
+        hc = [r for r in self.d["rows"] if r["id"] == "healthcare-five"][0]["trade"]
+        self.assertNotIn("entry_pending", hc)  # Healthcare is out of Monday's repricing (Jared, 7:01 PM CT)
+        self.assertEqual(hc["cost"], 2965.0)
+        self.assertEqual(page.count("pending JG&#x27;s Monday repricing, not final"), 2 * pend)
 
     def test_label_goes_away_after_bottom_third_pull(self):
         for r in self.d["rows"]:
-            (r.get("trade") or {})["priced"] = "bottom_third"
+            (r.get("trade") or {})["priced"] = "third_from_worst"
         self.assertEqual(build_trap_map.midpoint_note(self.d), "")
         self.assertNotIn("midpoint-note", build_trap_map.render_page(self.d))
 
 
-class TestNotPlacedExemption(unittest.TestCase):
-    base = {"ticker": "IREN", "outcome_text": "Oct 26: Sell one Nov 27 $20 put at $1.30. Not placed (passed Oct 26).",
-            "exit_reason": "not placed", "evidence_url": None}
+class TestNotPlacedRemoved(unittest.TestCase):
+    iren = {"ticker": "IREN", "outcome_text": "Oct 26: Sell one Nov 27 $20 put at $1.30. Not placed (passed Oct 26).",
+            "exit_reason": "not placed", "evidence_url": "https://example.com/x"}
 
-    def test_not_placed_needs_no_link(self):
-        self.assertEqual(tc.check_past_calls([dict(self.base)]), [])
+    def test_check_rejects_not_placed(self):
+        self.assertTrue(tc.check_past_calls([dict(self.iren)]))
+        self.assertTrue(tc.check_past_calls([dict(self.iren, exit_reason="open")]))  # text alone is enough
+        self.assertTrue(any("evidence" in x for x in tc.check_past_calls([dict(self.iren, exit_reason="stop", outcome_text="x", evidence_url=None)])))
 
-    def test_exemption_is_narrow(self):
-        for k, v in (("exit_reason", "no trade"), ("exit_reason", "stop"), ("outcome_text", "Passed.")):
-            c = dict(self.base, **{k: v})
-            self.assertTrue(any("evidence" in x for x in tc.check_past_calls([c])), (k, v))
-        c = dict(self.base, evidence_url="ftp://x")
-        self.assertTrue(tc.check_past_calls([c]))
-        c = dict(self.base, ticker="")
-        self.assertTrue(tc.check_past_calls([c]))
+    def test_not_placed_never_renders(self):
+        ok = dict(self.iren, ticker="CIFR", outcome_text="Stopped at $7.71.", exit_reason="stop")
+        html = build_trap_map.render_past_calls([dict(self.iren), ok], preview=True)
+        self.assertNotIn("IREN", html)
+        self.assertNotIn("Not placed", html)
+        self.assertIn("CIFR", html)
+        self.assertEqual(build_trap_map.render_past_calls([dict(self.iren)], preview=True), "")
+
+    def test_sync_drops_not_placed(self):
+        import sync_past_calls as sp
+        src = [dict(self.iren), dict(self.iren, ticker="CIFR", outcome_text="Stopped.", exit_reason="stop", evidence_url=None)]
+        kept = [c for c in src if not tc.is_not_placed(c)]
+        ok, held = sp.split_publishable(kept)
+        self.assertEqual([c["ticker"] for c, _ in held], ["CIFR"])
+        self.assertFalse(any(c["ticker"] == "IREN" for c in ok))
+
+    def test_site_has_no_not_placed(self):
+        self.assertFalse([c for c in DATA.get("past_calls") or [] if tc.is_not_placed(c)])
+        self.assertNotIn("not placed", json.dumps(DATA).lower())

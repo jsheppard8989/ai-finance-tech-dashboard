@@ -67,10 +67,12 @@ def main(argv=None) -> int:
     ap.add_argument("--row-trades", type=Path, default=ROW_TRADES)
     a = ap.parse_args(argv)
 
-    calls = load_source(a.source)
+    src = load_source(a.source)
+    calls = [c for c in src if not trap_map_check.is_not_placed(c)]  # never on the site, not even in preview
     ok, held = split_publishable(calls)
     d = json.loads(btm.DATA.read_text(encoding="utf-8"))
-    report = [f"{len(calls)} past calls in source; {len(ok)} pass the check; {len(held)} held back"]
+    report = [f"{len(src)} past calls in source; {len(src) - len(calls)} not placed (removed, never shown); "
+              f"{len(ok)} pass the check; {len(held)} held back"]
     report += [f"  held: #{c.get('n', '?')} {c.get('ticker')}: {'; '.join(e)}" for c, e in held]
     md = a.row_trades.read_text(encoding="utf-8") if a.row_trades.is_file() else None
     report += reconcile_rows(d, md)

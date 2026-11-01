@@ -355,7 +355,7 @@
     "date_source": "Option expiry, Dec 18, 2026"
    },
    "trade": {
-    "text": "Three Dec 18 call spreads: HIMS $30/$34 10 contracts at $1.06, TEM $75/$90 2 contracts at $4.15, ABT $110/$120 5 contracts at $2.15 (bottom third of the bid–ask, Oct 30 closing quotes)",
+    "text": "Three Dec 18 call spreads: HIMS $30/$34 10 contracts at $1.06, TEM $75/$90 2 contracts at $4.15, ABT $110/$120 5 contracts at $2.15 (Oct 30 closing quotes)",
     "max_loss": "$2,965",
     "max_gain": "$9,035",
     "quoted": "Oct 30 closing quotes, pulled Oct 31, 6:35 PM CT",
@@ -487,7 +487,8 @@
      ],
      "expiry": "Dec 18, 2026"
     },
-    "change": 0.0
+    "change": 0.0,
+    "price_note": "Priced from Oct 30 closing quotes"
    },
    "status": "new",
    "owner": "JG",
@@ -567,7 +568,8 @@
      "stock_then": "$262.38",
      "caveat": "Low volume: the $260 call traded only 8 contracts on Oct 30, so a real fill could cost more"
     },
-    "change": 0.0
+    "change": 0.0,
+    "entry_pending": "Entry numbers pending JG's Monday repricing"
    },
    "date_added": "2026-10-31",
    "last_reviewed": "2026-10-31",
@@ -683,5 +685,5 @@
   }
  ],
  "quotes_as_of": "2026-10-30T20:53:00-05:00",
- "how_we_track": "Every view is a paper trade priced the day it was added, at the bid plus one third of the gap to the ask. A trade ends only at its target, its stop or its expiry. Put spreads are held to expiry. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good."
+ "how_we_track": "Every view is a paper trade priced the day it was added, priced a third of the spread from the worst side (buys a third below the ask, sells a third above the bid), never the midpoint. A trade ends only at its target, its stop or its expiry. Put spreads are held to expiry. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good."
 }

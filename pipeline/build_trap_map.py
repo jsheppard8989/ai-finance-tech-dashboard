@@ -60,9 +60,9 @@ def newest_quote_time(d: dict):
 
 
 def is_midpoint(r: dict) -> bool:
-    """Option rows whose price has not yet been re-pulled at the bottom third of the bid-ask."""
+    """Option rows whose price has not yet been re-pulled under the fill rule (a third of the spread from the worst side)."""
     t = r.get("trade") or {}
-    return r.get("kind") in ("spread", "spread_set") and r.get("status") != "closed" and t.get("priced") != "bottom_third"
+    return r.get("kind") in ("spread", "spread_set") and r.get("status") != "closed" and t.get("priced") != "third_from_worst"
 
 
 def midpoint_note(d: dict) -> str:
@@ -71,7 +71,11 @@ def midpoint_note(d: dict) -> str:
     if not rows:
         return ""
     newest = max(_dt(r["trade"]["mid_time"]) for r in rows)
-    return f"Midpoint marks as of {newest.strftime('%b')} {newest.day}; bid + 1/3 repricing Monday. Not final."
+    pend = [("Healthcare" if r["ticker"].upper() == "BASKET" else r["ticker"]) for r in rows if r["trade"].get("entry_pending")]
+    pend_s = f" Entry numbers for {' and '.join(pend)} are pending JG's Monday repricing." if pend else ""
+    if all(r["trade"].get("price_note") or r["trade"].get("entry_pending") for r in rows) and not pend:
+        return "Current values are not final."
+    return f"Midpoint marks as of {newest.strftime('%b')} {newest.day}; repricing Monday at a third of the spread from the worst side. Not final.{pend_s}"
 
 
 def compute(d: dict) -> dict:
@@ -118,10 +122,14 @@ def _value_line(r):
     m = t.get("mark", t.get("mid"))
     if m is not None and round(m, 3) != m:  # e.g. 10.2667 -> 10.27 (display only)
         m = f"{m:.2f}"
-    if is_midpoint(r):
-        px = f"Midpoint {m}, not final (bid + 1/3 repricing Monday), " if m is not None else "Midpoint, not final, "
+    if t.get("entry_pending"):
+        px = f"{t['entry_pending']}, not final, "
+    elif t.get("price_note") and is_midpoint(r):
+        px = f"{t['price_note']}, not final, "
+    elif is_midpoint(r):
+        px = f"Midpoint {m}, not final (repricing Monday), " if m is not None else "Midpoint, not final, "
     else:
-        px = f"Mark {m} (bottom third of bid\u2013ask), " if m is not None else "Close, "
+        px = f"Mark {m} (priced a third of the spread from the worst side), " if m is not None else "Close, "
     return f"<br>Worth {money(t['value'])} (paid {money(t['cost'])})<br>{px}{e(fmt_time(t['mid_time']))}"
 
 
@@ -155,7 +163,11 @@ def _rel(url: str) -> str:
 
 
 def _mid_tag(r) -> str:
-    return '<div class="small mid-tag">Midpoint, not final (bid + 1/3 repricing Monday)</div>' if is_midpoint(r) else ""
+    if (r.get("trade") or {}).get("entry_pending") and r.get("status") != "closed":
+        return f'<div class="small mid-tag">{e(r["trade"]["entry_pending"])}, not final</div>'
+    if (r.get("trade") or {}).get("price_note") and is_midpoint(r):
+        return f'<div class="small mid-tag">{e(r["trade"]["price_note"])}, not final</div>'
+    return '<div class="small mid-tag">Midpoint, not final (repricing Monday)</div>' if is_midpoint(r) else ""
 
 
 def _status(r):
@@ -421,7 +433,7 @@ window.addEventListener('hashchange',openLinked);openLinked();}})();
 """
 
 
-COUNTED_OUT = ("not placed", "no data")
+COUNTED_OUT = ("no data",)
 
 
 def exit_label(r) -> str:
@@ -435,7 +447,9 @@ def exit_label(r) -> str:
 
 
 def render_past_calls(past: list, preview: bool = False) -> str:
-    """Past calls: what happened and how each exited. 'not placed' / 'no data' calls are listed, never counted."""
+    """Past calls: what happened and how each exited. 'no data' calls are listed, never counted.
+    Not-placed calls never render (Jared, Oct 31 6:58 PM CT)."""
+    past = [c for c in (past or []) if not trap_map_check.is_not_placed(c)]
     if not past:
         return ""
     counted = [c for c in past if c.get("exit_reason") not in COUNTED_OUT]
@@ -451,7 +465,7 @@ def render_past_calls(past: list, preview: bool = False) -> str:
         trs.append(f'<tr><td><div class="tk">{e(c["ticker"])}</div></td>'
                    f'<td colspan="4">{e(c["outcome_text"])}</td><td><b>Exit:</b> {e(c["exit_reason"])}<div class="small">{ev}</div></td></tr>')
     return (f'<h2>Past calls</h2><p class="small">{len(counted)} counted ({e(summ)}). '
-            f'Calls marked not placed or no data are listed but not counted.</p><table><tbody>' + "".join(trs) + "</tbody></table>")
+            f'Calls marked no data are listed but not counted.</p><table><tbody>' + "".join(trs) + "</tbody></table>")
 
 
 def render_strip(d: dict, today: date | None = None) -> str:
@@ -460,7 +474,7 @@ def render_strip(d: dict, today: date | None = None) -> str:
         f'<a class="trap-chip" href="trap-map.html#{e(r["id"])}" style="display:inline-block;margin:0.2rem 0.35rem 0.2rem 0;padding:0.3rem 0.55rem;border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:#e6f1ff;text-decoration:none;font-size:0.75rem;">'
         f'<strong>{e(r["ticker"])}</strong> <span style="color:{"#34d399" if _is_long(r["direction"]) else "#f87171"};">{e(r["direction"])}</span> '
         f'<span style="color:#9ca3af;">· {e(exit_label(r))}'
-        f' · worth {money(r["trade"]["value"])}{" at midpoint, not final" if is_midpoint(r) else ""} (allocated {money(r["trade"]["cost"])}'
+        f' · worth {money(r["trade"]["value"])}{(", entry pending JG's Monday repricing" if r["trade"].get("entry_pending") else ", not final" if r["trade"].get("price_note") else " at midpoint, not final") if is_midpoint(r) else ""} (allocated {money(r["trade"]["cost"])}'
         f'{", index " + str(r["trade"]["index_now"]) if r["trade"].get("index_now") is not None else ""})</span></a>'
         for r in sorted_rows(d))
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'

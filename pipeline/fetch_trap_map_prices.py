@@ -2,9 +2,11 @@
 """After-close price pull for the Trap Map (free sources only; read-only; never places orders).
 
 For each open spread row: leg bid/ask from Cboe's free delayed-quotes JSON (cdn.cboe.com), falling
-back to Yahoo Finance's public options endpoint. Every leg is marked at the bottom third of its
-bid-ask spread, bid + (ask - bid) / 3 (Jared, Oct 31: used for every open, quote and close), and the
-spread's per-share mark is sum(qty x leg mark). Writes trade.mark, trade.value and trade.mid_time.
+back to Yahoo Finance's public options endpoint. Fill rule (Jared, Oct 31 6:58 PM CT): a third of the
+spread in from the worst price, never the midpoint. Buys (opening a long leg, closing a short leg) are
+priced at ask - (ask - bid) / 3; sells (opening a short leg, closing a long leg) at bid + (ask - bid) / 3.
+An open spread is marked at what closing it would fetch: each long leg is sold and each short leg bought
+back, so the per-share mark is sum(qty x leg fill on the closing side). Writes trade.mark, trade.value and trade.mid_time.
 Basket legs and the SPY benchmark use Yahoo Finance daily closes.
 
 Unrealistic quotes are not used: no bid, no ask, bid > ask, zero volume and zero open interest, a quote
@@ -82,9 +84,26 @@ def _q(bid, ask, volume=None, oi=None, ts=None):
     return {"bid": bid, "ask": ask, "volume": volume, "oi": oi, "ts": ts}
 
 
-def bottom_third(bid: float, ask: float) -> float:
-    """Jared's price rule for every open, quote and close: bid + (ask - bid) / 3."""
+def buy_fill(bid: float, ask: float) -> float:
+    """Price for a buy (opening a long leg, closing a short leg): a third of the spread in from the ask."""
+    return ask - (ask - bid) / 3
+
+
+def sell_fill(bid: float, ask: float) -> float:
+    """Price for a sell (opening a short leg, closing a long leg): a third of the spread in from the bid."""
     return bid + (ask - bid) / 3
+
+
+def leg_fill(bid: float, ask: float, qty: float, closing: bool) -> float:
+    """Fill for one leg. qty > 0 is a long leg. Opening a long leg or closing a short leg is a buy."""
+    buying = (qty > 0) != closing
+    return buy_fill(bid, ask) if buying else sell_fill(bid, ask)
+
+
+def spread_price(quotes, closing: bool) -> float:
+    """Per-share net price of a spread from [(bid, ask, qty), ...]: the entry debit when opening, the
+    mark (what closing would fetch) when closing."""
+    return sum(qty * leg_fill(b, a, qty, closing) for b, a, qty in quotes)
 
 
 def quote_problems(sym: str, q: dict, now: datetime) -> list[str]:
@@ -114,7 +133,7 @@ class UnrealisticQuote(Exception):
 
 
 def spread_mark(t, now=None):
-    """Per-share spread mark at the bottom third of each leg's bid-ask. Raises UnrealisticQuote with the
+    """Per-share spread mark at the fill rule's closing price (spread_price(closing=True)). Raises UnrealisticQuote with the
     flags if the first source that answers has a leg that fails quote_problems()."""
     now = now or datetime.now(timezone.utc)
     legs = [(occ(t["underlying"], t["expiry"], l["right"], l["strike"]), l["qty"]) for l in t["legs"]]
@@ -125,7 +144,7 @@ def spread_mark(t, now=None):
             flags = [f for sym, _ in legs for f in quote_problems(sym, q[sym], now)]
             if flags:
                 raise UnrealisticQuote(flags)
-            mark = sum(qty * bottom_third(q[sym]["bid"], q[sym]["ask"]) for sym, qty in legs)
+            mark = spread_price([(q[sym]["bid"], q[sym]["ask"], qty) for sym, qty in legs], closing=True)
             return round(mark, 4), ts
         except UnrealisticQuote:
             raise  # a real quote that looks wrong: don't shop for a better-looking one
@@ -162,7 +181,7 @@ def pull(d, now=None):
                 t.pop("mid", None)
                 t["mark"], t["value"] = mark, round(mark * 100 * t["contracts"], 2)
                 t["mid_time"] = ts.astimezone(CT).isoformat(timespec="minutes")
-                t["priced"] = "bottom_third"
+                t["priced"] = "third_from_worst"
                 t.pop("quote_flags", None)
             elif r.get("kind") == "spread_set":
                 marks, ts, flags = [], None, []
@@ -180,7 +199,7 @@ def pull(d, now=None):
                         s["mark"], s["value"] = m, round(m * 100 * s["contracts"], 2)
                     t["value"] = round(sum(s["value"] for s in t["spreads"]), 2)
                     t["mid_time"] = ts.astimezone(CT).isoformat(timespec="minutes")
-                    t["priced"] = "bottom_third"
+                    t["priced"] = "third_from_worst"
                     t.pop("quote_flags", None)
                 il = (t.get("stop_rule") or {}).get("index_legs")
                 if il:
