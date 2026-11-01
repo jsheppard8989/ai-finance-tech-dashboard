@@ -16,7 +16,7 @@ import html
 import json
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -65,12 +65,24 @@ def is_midpoint(r: dict) -> bool:
     return r.get("kind") in ("spread", "spread_set") and r.get("status") != "closed" and t.get("priced") != "third_from_worst"
 
 
+def quote_session(s):
+    """Trading day a midpoint mark's quotes come from: the pull time in CT, rolled back to the last weekday
+    session that had opened (before 8:30 AM CT or on a weekend, the quotes are the previous session's)."""
+    t = _dt(s)
+    day = t.date()
+    if (t.hour, t.minute) < (8, 30):
+        day -= timedelta(days=1)
+    while day.weekday() >= 5:
+        day -= timedelta(days=1)
+    return day
+
+
 def midpoint_note(d: dict) -> str:
     """Plain label for any total/value still priced at the midpoint ('' when none are)."""
     rows = [r for r in d["rows"] if is_midpoint(r)]
     if not rows:
         return ""
-    newest = max(_dt(r["trade"]["mid_time"]) for r in rows)
+    newest = max(quote_session(r["trade"]["mid_time"]) for r in rows)
     pend = [("Healthcare" if r["ticker"].upper() == "BASKET" else r["ticker"]) for r in rows if r["trade"].get("entry_pending")]
     pend_s = f" Entry numbers for {' and '.join(pend)} are pending JG's Monday repricing." if pend else ""
     if all(r["trade"].get("price_note") or r["trade"].get("entry_pending") for r in rows) and not pend:

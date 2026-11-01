@@ -380,3 +380,16 @@ class TestNotPlacedRemoved(unittest.TestCase):
     def test_site_has_no_not_placed(self):
         self.assertFalse([c for c in DATA.get("past_calls") or [] if tc.is_not_placed(c)])
         self.assertNotIn("not placed", json.dumps(DATA).lower())
+
+
+class TestMidpointNoteDate(unittest.TestCase):
+    def test_note_uses_quote_session_not_pull_date(self):
+        d = copy.deepcopy(DATA)
+        mids = [r for r in d["rows"] if build_trap_map.is_midpoint(r)]
+        for r in mids:
+            r["trade"]["mid_time"] = "2026-10-30T15:00-05:00"
+        mids[0]["trade"]["mid_time"] = "2026-10-31T09:56:00+00:00"  # Sat 4:56 AM CT pull of Fri quotes
+        mids[1]["trade"]["mid_time"] = "2026-10-31T18:35:00-05:00"  # Sat evening pull
+        self.assertIn("Midpoint marks as of Oct 30;", build_trap_map.midpoint_note(d))
+        self.assertEqual(str(build_trap_map.quote_session("2026-11-02T07:00-06:00")), "2026-10-30")  # Mon pre-open
+        self.assertEqual(str(build_trap_map.quote_session("2026-11-02T15:10-06:00")), "2026-11-02")
