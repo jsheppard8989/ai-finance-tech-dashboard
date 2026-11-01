@@ -1,6 +1,6 @@
 [
   {
-    "id": 105364,
+    "id": 105557,
     "name": "Can AI Fix Professional Networking?",
     "slug": "can-ai-fix-professional-networking",
     "bio": null,
@@ -12,7 +12,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105365,
+    "id": 105558,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -24,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105366,
+    "id": 105559,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -36,7 +36,7 @@
     "appearance_count": 2
   },
   {
-    "id": 105367,
+    "id": 105560,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -48,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105368,
+    "id": 105561,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -60,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105369,
+    "id": 105562,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -72,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105370,
+    "id": 105563,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -84,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105371,
+    "id": 105564,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -96,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105372,
+    "id": 105565,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -108,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105373,
+    "id": 105566,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -120,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105374,
+    "id": 105567,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -132,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105375,
+    "id": 105568,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -144,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105376,
+    "id": 105569,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -156,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105377,
+    "id": 105570,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -168,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105379,
+    "id": 105572,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -180,7 +180,7 @@
     "appearance_count": 2
   },
   {
-    "id": 105378,
+    "id": 105571,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -192,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105380,
+    "id": 105573,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -204,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105381,
+    "id": 105574,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -216,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105382,
+    "id": 105575,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -228,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105383,
+    "id": 105576,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -240,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105384,
+    "id": 105577,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -252,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105385,
+    "id": 105578,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -264,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105386,
+    "id": 105579,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -276,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105387,
+    "id": 105580,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -288,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105388,
+    "id": 105581,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -300,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105389,
+    "id": 105582,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105390,
+    "id": 105583,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105391,
+    "id": 105584,
     "name": "Andrew Huberman",
     "slug": "andrew-huberman",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105392,
+    "id": 105585,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -348,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105393,
+    "id": 105586,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
