@@ -69,3 +69,16 @@ def test_no_quote_entities_and_quote_safe_links():
     out = ec.render_markdown("Amazon's \"view\" [x](https://e.com/\"onmouseover=alert(1))")
     assert "&#x27;" not in out and "&quot;" not in out
     assert "Amazon's" in out and "<a" not in out
+
+
+def test_bake_embeds_last_good_and_keeps_it_on_empty(tmp_path):
+    page = tmp_path / "index.html"
+    page.write_text("<div>" + ec.BAKE_START + ec.BAKE_END + "</div>")
+    data = {"title": "T", "date": "2026-10-29", "author": "Ric", "html": "<p>a</script>&b</p>"}
+    assert ec.bake(page, data)
+    out = page.read_text()
+    assert out.count('id="commentary-lastgood"') == 1 and "</script>&b" not in out
+    blob = out.split('id="commentary-lastgood">', 1)[1].split("</script>", 1)[0]
+    assert json.loads(blob) == data
+    assert ec.bake(page, data) and page.read_text().count('id="commentary-lastgood"') == 1
+    assert not ec.bake(page, {"empty": True}) and json.loads(page.read_text().split('lastgood">', 1)[1].split("</script>", 1)[0]) == data

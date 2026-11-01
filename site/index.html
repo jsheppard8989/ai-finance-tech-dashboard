@@ -2147,8 +2147,9 @@
         <div id="commentary-meta" style="color: #6b7280; font-size: 0.62rem; margin-bottom: 0.35rem;"></div>
         <div id="commentary-title" style="color: #e6f1ff; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;"></div>
         <div id="commentary-body" class="commentary-body" style="color: #a8b2d1; line-height: 1.45;">
-          <span style="color: #a8b2d1;">First commentary coming soon</span>
+          <span style="color: #a8b2d1;">Loading commentary…</span>
         </div>
+        <!--commentary-lastgood:start--><!--commentary-lastgood:end-->
       </div>
 
       <!-- Compute Forward -->
@@ -2248,18 +2249,30 @@
       (function () {
         const bodyEl = document.getElementById('commentary-body');
         if (!bodyEl) return;
-        const soon = () => { bodyEl.textContent = 'First commentary coming soon'; };
+        // Fallback chain: live latest.json -> last copy this browser saw -> copy baked into the
+        // page at deploy -> only then "coming soon". A failed fetch never blanks a known post.
+        const KEY = 'commentary:lastgood';
+        const ok = c => !!(c && !c.empty && c.html && c.date);
+        const baked = () => { try { const e = document.getElementById('commentary-lastgood'); return e ? JSON.parse(e.textContent) : null; } catch (_) { return null; } };
+        const stored = () => { try { return JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (_) { return null; } };
+        const newest = (...cs) => cs.filter(ok).sort((x, y) => (y.date > x.date ? 1 : y.date < x.date ? -1 : 0))[0] || null;
+        const render = c => {
+          const d = new Date(c.date + 'T12:00:00');
+          const when = isNaN(d) ? c.date : d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+          document.getElementById('commentary-meta').innerHTML = when + (c.author ? ' · ' + c.author : '');  // author is pre-escaped
+          document.getElementById('commentary-title').innerHTML = c.title || '';
+          bodyEl.innerHTML = c.html;  // pre-escaped by export_commentary.py
+        };
+        const fallback = () => { const c = newest(stored(), baked()); if (c) render(c); else bodyEl.textContent = 'First commentary coming soon'; };
+        fallback();  // show the last good post right away, then upgrade to the live one
         fetch('./data/commentary/latest.json?v=' + Date.now(), { cache: 'no-store' })
-          .then(r => r.ok ? r.json() : null)
+          .then(r => { if (!r.ok) throw new Error('latest.json HTTP ' + r.status); return r.json(); })
           .then(c => {
-            if (!c || c.empty || !c.html) return soon();
-            const d = new Date(c.date + 'T12:00:00');
-            const when = isNaN(d) ? c.date : d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-            document.getElementById('commentary-meta').innerHTML = when + (c.author ? ' · ' + c.author : '');  // author is pre-escaped
-            document.getElementById('commentary-title').innerHTML = c.title || '';
-            bodyEl.innerHTML = c.html;
+            if (!ok(c)) return fallback();
+            render(c);
+            try { localStorage.setItem(KEY, JSON.stringify(c)); } catch (_) {}
           })
-          .catch(soon)
+          .catch(fallback)
           .then(fitCommentary);
 
         // Fit-to-box: binary-search the largest font size whose text fits the space the
