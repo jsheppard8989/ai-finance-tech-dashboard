@@ -51,7 +51,7 @@ jobs:
       # Market Commentary: render the newest commentary/YYYY-MM-DD.md (escaped) into the
       # artifact, so a merged post goes live without waiting for a Mac publish.
       - name: Build Market Commentary
-        run: python3 pipeline/export_commentary.py --out ./_site/data/commentary/latest.json
+        run: python3 pipeline/export_commentary.py --out ./_site/data/commentary/latest.json --bake ./_site/index.html
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

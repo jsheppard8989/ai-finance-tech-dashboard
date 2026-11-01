@@ -100,11 +100,31 @@ def build(src_dir: Path = SRC_DIR) -> dict:
             "author": html.escape(post["author"], quote=False), "html": render_markdown(post["body"])}
 
 
+BAKE_START = "<!--commentary-lastgood:start-->"
+BAKE_END = "<!--commentary-lastgood:end-->"
+
+
+def bake(page: Path, data: dict) -> bool:
+    """Embed the last good post in the page between the BAKE markers, so the card can still
+    show it when latest.json fails to load. An empty export never overwrites a baked copy."""
+    if data.get("empty") or not data.get("html"):
+        return False
+    text = page.read_text(encoding="utf-8")
+    a, b = text.find(BAKE_START), text.find(BAKE_END)
+    if a < 0 or b < a:
+        raise ValueError(f"{page}: commentary bake markers not found")
+    blob = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+    tag = f'<script type="application/json" id="commentary-lastgood">{blob}</script>'
+    page.write_text(text[:a + len(BAKE_START)] + tag + text[b:], encoding="utf-8")
+    return True
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--src", type=Path, default=SRC_DIR)
     ap.add_argument("--out", type=Path, default=OUT_PATH)
     ap.add_argument("--check", type=Path, help="validate one post file and exit")
+    ap.add_argument("--bake", type=Path, help="also embed the post in this HTML page as the last-good fallback")
     a = ap.parse_args(argv)
     if a.check:
         if not _FILE_RE.match(a.check.name):
@@ -119,6 +139,8 @@ def main(argv=None) -> int:
     data = build(a.src)
     a.out.parent.mkdir(parents=True, exist_ok=True)
     a.out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    if a.bake and bake(a.bake, data):
+        print(f"  ✓ commentary: baked last-good copy into {a.bake}")
     print(f"  ✓ commentary: {'no post yet' if data.get('empty') else data['date'] + ' ' + data['title']}")
     return 0
 
