@@ -152,7 +152,6 @@ class TestBuild(unittest.TestCase):
         self.assertNotIn('id="row-hims-q3"', page)
         self.assertIn(f"Quotes as of {build_trap_map._fmt_full(DATA['quotes_as_of'])}", page)
         for rid in ("asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five"):
-            self.assertRegex(page, rf'<tr class="[LS]" id="row-{rid}"')
             self.assertRegex(page, rf'<details class="ev" id="{rid}" data-dir="[LS]"')
         self.assertIn('href="index.html"', page)
         # Old #hims-q3 links land on the Healthcare basket (hidden anchor, no HIMS row).

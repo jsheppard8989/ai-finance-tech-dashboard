@@ -89,11 +89,25 @@ def sorted_rows(d):
     return sorted(d["rows"], key=lambda r: (ORDER.get(r["status"], 9), (r["event"].get("date") or "9999")))
 
 
+def is_midpoint(r: dict) -> bool:
+    """Option rows still priced at the bid-ask midpoint (not yet re-pulled at a third of the spread from the worst side)."""
+    t = r.get("trade") or {}
+    return r.get("kind") == "spread" and r.get("status") != "graded" and t.get("priced") != "bottom_third"
+
+
+def midpoint_note(d: dict) -> str:
+    rows = [r for r in d["rows"] if is_midpoint(r)]
+    if not rows:
+        return ""
+    n = max(_dt(r["trade"]["mid_time"]) for r in rows)
+    return f"Midpoint marks as of {n.strftime('%b')} {n.day}; repricing Monday at a third of the spread from the worst side. Not final."
+
+
 def _value_line(r):
     t = r["trade"]
     if t.get("value") is None:
         return ""
-    px = f"Mid {t['mid']}, " if t.get("mid") is not None else "Close, "
+    px = f"Midpoint {t['mid']}, not final, " if t.get("mid") is not None else "Close, "
     return f"<br>Worth {money(t['value'])} (paid {money(t['cost'])})<br>{px}{e(fmt_time(t['mid_time']))}"
 
 
@@ -267,110 +281,160 @@ def _card(r, today: date, max_p: float) -> str:
             f'{_gl_bar(t["change"], t["cost"], max_p)}</div></div></details>')
 
 
-def render_page(d: dict) -> str:
-    """v9 layout. Server-rendered from the JSON (no separate data file, no client script)."""
-    T = d["totals"]
-    today = _dt(d["quotes_as_of"]).date()
-    open_rows = sorted((r for r in d["rows"] if r["status"] != "graded"), key=lambda r: r["event"].get("date") or "9999")
-    closed = [r for r in d["rows"] if r["status"] == "graded"]
-    spy_c = round(T["spy_value"] - T["cost"], 2)
-    zm = max(abs(T["change"]), abs(spy_c)) * 1.15 or 1
+PAGE_SUBTITLE = "Paper trades at real prices. The market keeps score."  # page only; homepage strip keeps d["purpose"]
+CLOSED_PREVIEW = Path(__file__).resolve().parent / "trap_map_closed_preview.json"
+ENDED = {"Target": ("Hit target", "RIGHT"), "Stop": ("Hit stop", "WRONG")}
 
-    def zr(c, lab):
-        w = 50 * abs(c) / zm
-        pos = "left:50%" if c >= 0 else f"left:{50 - w:.2f}%"
-        return (f'<div class="zrow"><b>{lab}</b><div class="ztrk"><b></b><i style="{pos};width:{w:.2f}%;'
-                f'background:{"var(--pos)" if c >= 0 else "var(--neg)"}"></i></div>'
-                f'<span class="chg {_cl(c)}">{_sg(c)} ({"+" if c >= 0 else MINUS}{abs(100 * c / T["cost"]):.1f}%)</span></div>')
-    axis = f"${int(zm):,}"
-    hero = (f'<div class="kpis"><div><div class="lbl">Our trades are worth</div><div class="big">{money(T["value"])}</div></div>'
-            f'<div><div class="lbl">Allocated</div><div class="mid">{money(T["cost"])}</div></div>'
-            f'<div><div class="lbl">Same money in the S&amp;P 500</div><div class="mid">{money(T["spy_value"])}</div></div></div>\n'
-            f'<div class="zbar"><div class="lbl">Gain or loss since each trade was added</div>{zr(T["change"], "Our trades")}'
-            f'{zr(spy_c, "S&amp;P 500")}<div class="zax"><span></span><div><span>\u2212{axis}</span><span>$0</span>'
-            f'<span>+{axis}</span></div><span></span></div></div>')
-    max_p = max([abs(r["trade"]["change"] / r["trade"]["cost"]) for r in open_rows] or [1])
-    trs = "\n".join(_row(r, today, max_p) for r in open_rows)
-    cards = "\n".join(_card(r, today, max_p) for r in open_rows + closed)
+
+def is_not_placed(c) -> bool:
+    txt = " ".join(str(c.get(k) or "") for k in ("ended", "exit_reason", "outcome_text")).lower()
+    return "not placed" in txt
+
+
+def _closed_extra():
+    """Closed rows kept outside trap_map.json (preview copy; edit or delete this one file to change them)."""
+    return json.loads(CLOSED_PREVIEW.read_text(encoding="utf-8")) if CLOSED_PREVIEW.exists() else []
+
+
+def _plain(r) -> str:
+    if not _is_long(r["direction"]):
+        return "We expect the stock to fall"
+    return "We expect these stocks to rise" if r.get("kind") == "basket" else "We expect the stock to rise"
+
+
+def _bar(c, scale) -> str:
+    w = 48 * abs(c) / scale if scale else 0
+    pos = "left:50%" if c >= 0 else f"left:{50 - w:.2f}%"
+    return f'<div class="gl"><span class="mid"></span><i class="{"p" if c >= 0 else "n"}" style="{pos};width:{max(w, .8):.2f}%"></i></div>'
+
+
+def _paper(t) -> str:
+    x = t.get("expression") or {}
+    if x.get("holdings"):
+        return ", ".join(h["ticker"] for h in x["holdings"]) + " stock basket, equal dollars"
+    n = x.get("contracts")
+    return f'{x["expiry"]} {x["strikes"].replace(" ", "")} put spread, {n} contract{"s" if n != 1 else ""}'
+
+
+def _exit(r, today: date) -> str:
+    """Spreads are held to expiry by default, so the expected exit is the option expiry."""
+    t = r["trade"]
+    if not t.get("expiry"):
+        return f'<div class="ex">Until a stop is hit</div><div class="sm">{e(t.get("stop", ""))}</div>'
+    ex = date.fromisoformat(t["expiry"])
+    left = max(0, (ex - today).days)
+    tot = max(1, (ex - date.fromisoformat(t.get("posted") or r["date_added"])).days)
+    return (f'<div class="ex">{e(fmt_date(t["expiry"]))}</div><div class="prog"><i style="width:{max(3, 100 * (tot - left) / tot):.0f}%">'
+            f'</i></div><div class="sm">{left} days to go · Option expiry</div>')
+
+
+def _open_card(r, today: date, mx: float) -> str:
+    t = r["trade"]
+    c = t["change"]
+    lng = _is_long(r["direction"])
+    res = r.get("research")
+    ev = r.get("event") or {}
+    if not res and ev.get("link") and _rel(ev["link"]) != ev["link"]:  # own-site research page
+        res = {"url": ev["link"], "label": ev.get("link_label") or "Read our research"}
+    link = f' <a href="{e(_rel(res["url"]))}">{e(res["label"])} \u2192</a>' if res else ""
+    cav = (t.get("expression") or {}).get("caveat") or ""
+    note = f'<div class="note">Note: {e(cav)}.</div>' if "open interest" in cav else ""
+    return (f'<details class="ev" id="{e(r["id"])}" data-dir="{"L" if lng else "S"}" open><summary hidden></summary>'
+            f'<article class="card {"cu" if c >= 0 else "cd"}">\n'
+            f'<div class="tk"><div class="sym">{e(r["ticker"])}</div><div class="co">{e(r["company"])}</div>'
+            f'<div class="added">Added {e(fmt_date(r["date_added"]))}</div></div>\n'
+            f'<div class="why"><span class="chip {"lg" if lng else "sh"}">{e(r["direction"])}</span> <span class="exp">{_plain(r)}</span><br> '
+            f'<span class="sm"><b>Paper trade:</b> {e(_paper(t))}</span><p>{e(r["reason"])}{link}</p>'
+            f'<div class="sm"><b>What proves it:</b> {e(r["what_proves_it"])}</div>{note}</div>\n'
+            f'<div class="exit"><div class="lbl">Expected exit</div>{_exit(r, today)}</div>\n'
+            f'<div class="money"><div class="lbl">Allocated</div><div class="cost">{money(t["cost"])}</div>'
+            f'<div class="lbl" style="margin-top:6px">Change</div><div class="chg {"up" if c >= 0 else "dn"}">{_sg(c)}</div>{'<div class="sm mid-tag">Midpoint, not final (repricing Monday)</div>' if is_midpoint(r) else ""}{_bar(c, mx)}</div>\n</article></details>')
+
+
+def _closed_card(c) -> str:
+    """Closed position: only what the data states (no computed results, $ only)."""
+    word, cls = ENDED.get(c.get("ended"), (c.get("ended") or "Closed", "NONE"))
+    money_html = f'<div class="lbl">Allocated</div><div class="cost">{money(c["allocated"])}</div>' if c.get("allocated") else ""
+    usd, pct = c.get("result_usd"), c.get("result_pct")
+    if usd is not None or pct is not None:
+        sign = next(v for v in (usd, c.get("result_per_share"), pct) if v is not None) >= 0
+        pct_s = f'{"+" if pct >= 0 else MINUS}{abs(pct):.1f}%' if pct is not None else ""
+        ps = c.get("result_per_share")
+        if usd is not None:
+            val = f"{_sg(usd)} ({pct_s})" if pct_s else _sg(usd)
+        elif ps is not None:  # no size logged: per-share move, entry to exit
+            val = f"{_sg(ps)} per share ({pct_s})" if pct_s else f"{_sg(ps)} per share"
+        else:
+            val = pct_s
+        money_html += (f'<div class="lbl" style="margin-top:6px">Result{" (approx.)" if c.get("approx") else ""}</div>'
+                       f'<div class="chg {"up" if sign else "dn"}">{val}</div>')
+    edge = {"RIGHT": "cu", "WRONG": "cd"}.get(cls, "cn")
+    return (f'<article class="card closed {edge}"><div class="tk"><div class="sym">{e(c["ticker"])}</div>'
+            f'<div class="co">{e(c["company"])}</div><div class="added">Added {e(fmt_date(c["opened"]))}</div></div>'
+            f'<div class="why"><span class="chip {"sh" if "short" in c["direction"].lower() else "lg"}">{e(c["direction"])}</span>'
+            f'<p>{e(c["call"])}</p></div><div class="exit"><div class="lbl">Closed</div><div class="ex">{e(fmt_date(c["closed"]))}</div>'
+            f'<span class="badge {cls}">{e(word)}</span>'
+            f'<div class="sm">{e(c["how"])}</div></div><div class="money">{money_html}</div></article>')
+
+
+def render_page(d: dict, closed_extra=None) -> str:
+    """Scorecard layout. Server-rendered from the JSON (no client script)."""
+    T, B = d["totals"], d["benchmark"]
+    today = _dt(d["quotes_as_of"]).date()
+    open_rows = sorted((r for r in d["rows"] if r["status"] != "graded"),
+                       key=lambda r: r["trade"].get("expiry") or "9999")
+    closed = [c for c in list(d.get("past_calls") or []) + list(_closed_extra() if closed_extra is None else closed_extra)
+              if not is_not_placed(c)]  # not-placed calls are never shown (Jared, Oct 31)
+    spy_c = round(T["spy_value"] - sum(b["dollars"] for b in B["buys"]), 2)
+    sc = max(abs(T["change"]), abs(spy_c)) or 1
+    mx = max([abs(r["trade"]["change"]) for r in open_rows] or [1]) or 1
     ids = {r["id"] for r in d["rows"]}
-    moved = {o: n for o, n in MOVED.items() if n in ids and o not in ids}
-    cards += "".join(f'\n<details class="ev" id="{e(o)}" data-moved-to="{e(n)}" hidden></details>' for o, n in moved.items())
-    moved_js = json.dumps(moved)
-    past = d.get("past_calls") or []
-    closed_html = ""
-    if closed or past:
-        closed_html = ("<h2>Closed</h2><table><tbody>" + "".join(_row(r, today, max_p) for r in closed) + "".join(
-            f'<tr><td><div class="tk">{e(c["ticker"])}</div></td><td colspan="4">{e(c["outcome_text"])}</td>'
-            f'<td>Graded: {e(c["grade"])}</td></tr>' for c in past) + "</tbody></table>")
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Trap Map</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
+    mv = {o: n for o, n in MOVED.items() if n in ids and o not in ids}
+    moved = "".join(f'\n<details class="ev" id="{e(o)}" data-moved-to="{e(n)}" hidden></details>' for o, n in mv.items())
+    cl = "".join(_closed_card(c) for c in closed) or \
+        '<div class="empty">No closed positions yet. Trades move here once they are closed.</div>'
+    up = lambda c: "up" if c >= 0 else "dn"
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Trap Map</title>
 <!-- Generated by pipeline/build_trap_map.py from site/data/trap_map.json. Do not edit by hand. -->
 <style>
-:root{{--pos:#0f7b4a;--neg:#b42318;--ink:#1b1f24;--mute:#5d6670;--line:#e3e6ea;--bg:#f4f6f9}}
-*{{box-sizing:border-box}}body{{margin:0;font:15px/1.45 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}}
-.wrap{{max-width:1220px;margin:0 auto;padding:22px 24px 40px}}
-h1{{margin:0 0 4px;font-size:30px;letter-spacing:-.02em}}.sub{{color:var(--mute);margin:0 0 4px}}.asof{{font-size:13px;color:var(--mute);margin:0 0 16px;font-weight:600}}
-.bar{{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:16px}}
-.card{{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:0 1px 2px rgba(16,24,40,.04)}}
-.hero{{flex:1;background:linear-gradient(135deg,#ffffff,#f3f8f5)}}
-.kpis{{display:flex;gap:28px;align-items:flex-end}}
-.lbl{{font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--mute);font-weight:600}}
-.big{{font-size:32px;font-weight:800;letter-spacing:-.02em;line-height:1.1;font-variant-numeric:tabular-nums}}.mid{{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}}
-.chg{{font-weight:700;font-variant-numeric:tabular-nums}}
-.zbar{{margin-top:14px}}.zrow{{display:grid;grid-template-columns:120px 1fr 120px;gap:10px;align-items:center;font-size:13px;margin:6px 0}}
-.ztrk{{position:relative;height:14px;background:#eef0f3;border-radius:7px}}.ztrk i{{position:absolute;top:0;height:100%;border-radius:7px}}.ztrk b{{position:absolute;left:50%;top:-4px;width:2px;height:22px;background:#6b7580}}
-.zax{{display:grid;grid-template-columns:120px 1fr 120px;gap:10px;font-size:11px;color:var(--mute)}}.zax div{{display:flex;justify-content:space-between}}
-.legend{{flex:2;min-width:300px;font-size:13px;color:var(--mute)}}
-table{{width:100%;border-collapse:separate;border-spacing:0 8px;margin-top:-8px}}
-th{{text-align:left;border:0!important;background:transparent!important;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);background:#fafbfc;padding:10px;border-bottom:1px solid var(--line)}}
-td{{padding:12px 10px;vertical-align:top;background:#fff;border-top:1.5px solid #cfd5dc;border-bottom:1.5px solid #cfd5dc}}
-td:last-child{{border-right:1.5px solid #cfd5dc;border-radius:0 10px 10px 0}}
-td:first-child{{border-left:1.5px solid #cfd5dc;border-radius:10px 0 0 10px}}
-tbody tr:nth-child(even) td{{background:#fcfdfe}}
-tr.L td:first-child{{border-left:5px solid var(--pos)}}tr.S td:first-child{{border-left:5px solid var(--neg)}}
-.stk{{display:flex;gap:9px;align-items:flex-start}}
-.mono{{flex:none;width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;color:#fff}}
-.tk{{font-weight:800;font-size:16px}}.co{{color:var(--mute);font-size:12.5px}}.added{{font-size:12px;color:var(--mute);margin-top:3px}}
-.dir{{display:inline-block;font-weight:700;font-size:12.5px;padding:3px 9px;border-radius:999px;white-space:nowrap}}
-.dL{{background:#e6f4ec;color:var(--pos);border:1px solid #9fd4b8}}.dS{{background:#fdecea;color:var(--neg);border:1px solid #f0aaa3}}
-.small{{font-size:12.5px;color:var(--mute)}}.note{{font-size:12.5px;color:#7a4b00;margin-top:3px}}
-.exit{{font-weight:800;font-size:16px}}.up{{color:var(--pos)}}.down{{color:var(--neg)}}
-.prog{{height:6px;background:#eef0f3;border-radius:3px;margin:6px 0 2px;overflow:hidden}}.prog i{{display:block;height:100%;background:#4a74c9;border-radius:3px}}
-.expr .ty{{font-weight:700;font-size:13px}}.expr dl{{margin:4px 0 0;display:grid;grid-template-columns:auto 1fr;gap:1px 8px;font-size:12.5px}}.expr dt{{color:var(--mute)}}.expr dd{{margin:0}}
-.money .paid{{font-size:12.5px;color:var(--mute)}}.money .d{{font-size:18px;font-weight:800;font-variant-numeric:tabular-nums}}
-.gl{{position:relative;height:10px;background:#eef0f3;border-radius:5px;margin-top:6px}}.gl i{{position:absolute;top:0;height:100%;border-radius:5px}}.gl b{{position:absolute;left:50%;top:-3px;width:1px;height:16px;background:#9aa3ad}}
-.pct{{font-size:12px;font-weight:600}}
-a{{color:#0b5cad}}h2{{font-size:17px;margin:22px 0 8px}}
-.log li{{margin:3px 0}}.foot{{font-size:12.5px;color:var(--mute);margin-top:18px}}
-
-.cards{{display:none}}
-details.ev{{background:#fff;border:1.5px solid #cfd5dc;border-radius:10px;margin:0 0 10px}}details.ev[data-dir=L]{{border-left:5px solid var(--pos)}}details.ev[data-dir=S]{{border-left:5px solid var(--neg)}}
-details.ev summary{{list-style:none;cursor:pointer;padding:12px 14px;display:block}}details.ev summary::-webkit-details-marker{{display:none}}
-details.ev summary::after{{content:"Tap for details \u25be";display:block;font-size:12px;color:#0b5cad;margin-top:4px}}details.ev[open] summary::after{{content:"Hide details \u25b4"}}
-details.ev .d{{font-weight:800;float:right}}.sumline{{display:block;margin:6px 0 2px}}
-.cb{{padding:0 14px 14px;border-top:1px solid var(--line)}}.cb h4{{margin:10px 0 2px;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}}
-@media (max-width:760px){{.wrap{{padding:14px 12px 30px}}table{{display:none}}.cards{{display:block}}.kpis{{flex-wrap:wrap;gap:14px}}.zrow,.zax{{grid-template-columns:80px 1fr 110px}}}}
-</style></head><body><div class="wrap">
-<div class="top" style="font-size:13px;margin-bottom:10px"><a href="index.html">\u2190 Home</a></div>
-<h1>Trap Map</h1>
-<p class="sub">{e(d["purpose"])}</p>
-<p class="asof" id="asof">Quotes as of {e(_fmt_full(d["quotes_as_of"]))}</p>
-<div class="bar">
- <div class="card hero" id="tot">{hero}</div>
-</div>
-<table class="desk"><thead><tr><th style="width:170px">Stock</th><th style="width:96px">Direction</th><th>Why we think so</th><th style="width:170px">Expected exit</th><th style="width:235px">Expression</th><th style="width:140px">Money</th></tr></thead><tbody id="rows">
-{trs}
-</tbody></table>
-<div class="cards">
-{cards}
-</div>
-<div id="closedwrap">{closed_html}</div>
-<p class="foot">This is our opinion, not advice. These are paper trades only. Prices from Yahoo Finance.</p>
+:root{{--bg1:#1a1a2e;--bg2:#16213e;--bg3:#0f3460;--card:rgba(255,255,255,.045);--line:rgba(255,255,255,.14);--ink:#eef2f8;--mute:#9aa7bd;--pos:#2ee59d;--neg:#ff5c6c;--acc:#00d4ff;--acc2:#7b2cbf}}
+*{{box-sizing:border-box}}body{{margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:linear-gradient(135deg,var(--bg1),var(--bg2) 50%,var(--bg3));background-attachment:fixed;min-height:100vh}}
+.wrap{{max-width:1180px;margin:0 auto;padding:28px 24px 40px}}a{{color:var(--acc)}}
+.home{{font-size:13px;text-decoration:none}}h1{{margin:8px 0 2px;font-size:38px;background:linear-gradient(135deg,var(--acc),#b67cff);-webkit-background-clip:text;background-clip:text;color:transparent}}
+.sub{{color:var(--mute);margin:0}}.asof{{display:inline-block;margin-top:10px;padding:4px 12px;border:1px solid var(--line);border-radius:99px;font-size:12.5px;color:var(--ink);background:rgba(0,0,0,.25)}}
+.hero{{margin:22px 0 26px;padding:22px 24px;border:1px solid rgba(0,212,255,.35);border-radius:16px;background:linear-gradient(135deg,rgba(0,212,255,.10),rgba(123,44,191,.14));box-shadow:0 10px 40px rgba(0,0,0,.35)}}
+.hgrid{{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:18px}}.k{{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}}.v{{font-size:30px;font-weight:800}}.v.s{{font-size:22px;font-weight:700}}
+.cmp{{margin-top:18px;display:grid;grid-template-columns:150px 1fr 110px;gap:8px 14px;align-items:center;font-size:14px}}
+.verdict{{margin-top:14px;font-size:15px}}.verdict b{{color:var(--pos)}}
+.gl{{position:relative;height:12px;border-radius:6px;background:rgba(255,255,255,.08);overflow:hidden}}.gl .mid{{position:absolute;left:50%;top:0;bottom:0;width:2px;background:rgba(255,255,255,.45)}}.gl i{{position:absolute;top:0;bottom:0;border-radius:6px}}.gl i.p{{background:linear-gradient(90deg,#14b87a,var(--pos))}}.gl i.n{{background:linear-gradient(90deg,var(--neg),#c9303f)}}
+h2{{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin:28px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}}
+.card{{display:grid;grid-template-columns:170px 1fr 190px 200px;gap:20px;padding:18px 20px;margin-bottom:12px;border:1.5px solid rgba(255,255,255,.22);border-left:6px solid var(--pos);border-radius:12px;background:var(--card)}}.card.cd{{border-left-color:var(--neg)}}
+.sym{{font-size:22px;font-weight:800;letter-spacing:.02em}}.co{{color:var(--mute);font-size:13px}}.added{{margin-top:8px;display:inline-block;font-size:12px;padding:2px 8px;border-radius:6px;background:rgba(0,212,255,.12);color:var(--acc);border:1px solid rgba(0,212,255,.3)}}
+.why p{{margin:6px 0}}.sm{{font-size:12.5px;color:var(--mute)}}.sm b{{color:var(--ink)}}
+.chip{{font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:99px;border:1px solid}}.chip.sh{{color:#ff9aa5;border-color:rgba(255,92,108,.5);background:rgba(255,92,108,.12)}}.chip.lg{{color:#8ff3c9;border-color:rgba(46,229,157,.5);background:rgba(46,229,157,.12)}}
+.ex{{font-weight:700;font-size:16px}}.prog{{height:6px;border-radius:3px;background:rgba(255,255,255,.1);margin:6px 0 4px;overflow:hidden}}.prog i{{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--acc2))}}
+.money{{text-align:right}}.lbl{{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--mute)}}.cost{{font-size:15px}}.chg{{font-size:24px;font-weight:800;margin:0 0 6px}}.up{{color:var(--pos)}}.dn{{color:var(--neg)}}
+.note{{margin-top:6px;font-size:12.5px;color:#ffd27a;border-left:3px solid #ffd27a;padding-left:8px}}.exp{{font-size:12.5px;color:var(--ink);font-weight:600}}.badge{{display:inline-block;margin:6px 0 4px;padding:3px 12px;border-radius:6px;font-weight:800;font-size:13px;letter-spacing:.06em}}.badge.RIGHT{{background:rgba(46,229,157,.18);color:var(--pos);border:1px solid var(--pos)}}.badge.WRONG{{background:rgba(255,92,108,.18);color:var(--neg);border:1px solid var(--neg)}}details.ev>summary{{display:none}}.card.closed{{opacity:.92}}.card.cn{{border-left-color:var(--mute)}}.badge.NONE{{background:rgba(255,255,255,.08);color:var(--mute);border:1px solid var(--line)}}.empty{{padding:16px 20px;border:1px dashed var(--line);border-radius:12px;color:var(--mute)}}
+.how{{margin-top:26px;font-size:13px;color:var(--mute)}}.foot{{margin-top:22px;padding-top:12px;border-top:1px solid var(--line);font-size:12.5px;color:var(--mute);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}}
+@media(max-width:760px){{.wrap{{padding:18px 14px}}h1{{font-size:30px}}.hgrid{{grid-template-columns:1fr 1fr}}.hgrid>div:first-child{{grid-column:1/-1}}.cmp{{grid-template-columns:90px 1fr 92px;font-size:13px}}
+.card{{grid-template-columns:1fr auto;gap:10px 14px;padding:14px}}.card .tk{{grid-column:1}}.card .money{{grid-column:2;grid-row:1}}.card .why,.card .exit{{grid-column:1/-1}}.chg{{font-size:20px}}.money .gl{{width:120px;margin-left:auto}}}}
+</style></head><body><div class="wrap" id="top">
+<a class="home" href="index.html">\u2190 Home</a>
+<h1>{e(d["title"])}</h1><p class="sub">{e(PAGE_SUBTITLE)}</p><span class="asof" id="asof">Quotes as of {e(_fmt_full(d["quotes_as_of"]))}</span>
+<section class="hero" id="tot">{('<div class="sm" id="midpoint-note" style="font-weight:700;margin-bottom:8px">' + e(midpoint_note(d)) + '</div>') if midpoint_note(d) else ""}<div class="hgrid">
+<div><div class="k">Our trades are worth</div><div class="v">{money(T["value"])}</div><div class="sm">Allocated {money(T["cost"])}</div></div>
+<div><div class="k">Our gain</div><div class="v s {up(T["change"])}">{_sg(T["change"])}</div></div>
+<div><div class="k">Same money in the S&amp;P 500</div><div class="v s">{money(T["spy_value"])}</div><div class="sm {up(spy_c)}">{_sg(spy_c)}</div></div></div>
+<div class="cmp"><div>Our trades</div>{_bar(T["change"], sc)}<div class="{up(T["change"])}" style="text-align:right;font-weight:700">{_sg(T["change"])}</div>
+<div>S&amp;P 500</div>{_bar(spy_c, sc)}<div class="{up(spy_c)}" style="text-align:right;font-weight:700">{_sg(spy_c)}</div></div>
+<div class="verdict sm">Each day a trade was added, the same dollars went into the S&amp;P 500 at that day's close.</div></section>
+<h2>Open positions \u00b7 {len(open_rows)}</h2>{"".join(_open_card(r, today, mx) for r in open_rows)}{moved}
+<h2>Closed positions \u00b7 {len(closed)}</h2>{cl}
+<div class="foot"><span>This is our opinion, not advice. These are paper trades only. Prices from Yahoo Finance.</span><a href="#top">Back to top \u2191</a></div>
 </div>
 <script>
-(function(){{var moved={moved_js};function openLinked(){{var id=location.hash.slice(1);if(!id)return;id=moved[id]||id;
-var el=document.getElementById(id);if(el&&el.tagName==='DETAILS'){{el.open=true;}}
-var row=document.getElementById('row-'+id);var target=(row&&row.offsetParent!==null)?row:el;if(target)target.scrollIntoView();}}
+(function(){{var moved={json.dumps(mv)};function openLinked(){{var id=location.hash.slice(1);if(!id)return;id=moved[id]||id;
+var el=document.getElementById(id);if(el){{el.open=true;el.scrollIntoView();}}}}
 window.addEventListener('hashchange',openLinked);openLinked();}})();
 </script>
 </body></html>
@@ -390,14 +454,15 @@ def render_strip(d: dict, today: date | None = None) -> str:
         f'<a class="trap-chip" href="trap-map.html#{e(r["id"])}" style="display:inline-block;margin:0.2rem 0.35rem 0.2rem 0;padding:0.3rem 0.55rem;border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:#e6f1ff;text-decoration:none;font-size:0.75rem;">'
         f'<strong>{e(r["ticker"])}</strong> <span style="color:{"#34d399" if _is_long(r["direction"]) else "#f87171"};">{e(r["direction"])}</span> '
         f'<span style="color:#9ca3af;">· {e(grade_label(r["trade"]["grade_date"], today) if r["trade"].get("grade_date") else "Holding until stopped out")}'
-        f' · worth {money(r["trade"]["value"])} (allocated {money(r["trade"]["cost"])}'
+        f' · worth {money(r["trade"]["value"])}{" at midpoint, not final" if is_midpoint(r) else ""} (allocated {money(r["trade"]["cost"])}'
         f'{", index " + str(r["trade"]["index_now"]) if r["trade"].get("index_now") is not None else ""})</span></a>'
         for r in sorted_rows(d))
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'
             f'      <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;"><a href="trap-map.html" style="color:#00d4ff;text-decoration:none;">🪤 Trap Map</a></h3>\n'
             f'      <p style="color: #9ca3af; font-size: 0.7rem; margin-bottom: 0.4rem;">{e(d["purpose"])} Tracked as paper trades. '
             f'Allocated {money(T["cost"])} · worth now {money(T["value"])} ({_sg(T["change"])}) · same money in the S&amp;P 500: '
-            f'{money(T["spy_value"])} ({_sg(round(T["spy_value"] - T["cost"], 2))}). Quotes as of {e(fmt_time(d["quotes_as_of"]))}.</p>\n'
+            f'{money(T["spy_value"])} ({_sg(round(T["spy_value"] - T["cost"], 2))}). Quotes as of {e(fmt_time(d["quotes_as_of"]))}.'
+            f'{(" <strong>" + e(midpoint_note(d)) + "</strong>") if midpoint_note(d) else ""}</p>\n'
             f'      <div>{chips}</div>\n    </div>\n    {END}')
 
 

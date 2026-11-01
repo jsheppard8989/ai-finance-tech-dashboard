@@ -1,0 +1,43 @@
+[
+ {
+  "ticker": "CIFR",
+  "company": "Cipher Mining",
+  "direction": "Long",
+  "call": "Long $1,000 from about $8.98, target $11.34, out on a close below $7.90.",
+  "opened": "2026-10-20",
+  "closed": "2026-10-26",
+  "ended": "Stop",
+  "how": "Closed at the stop: $7.71 on Oct 26.",
+  "allocated": 1000,
+  "result_usd": -141.43,
+  "result_pct": -14.1
+ },
+ {
+  "ticker": "TSM",
+  "company": "Taiwan Semiconductor",
+  "direction": "Long",
+  "call": "Long from $427.80, target $457.30, out on a close below $408.14.",
+  "opened": "2026-10-21",
+  "closed": "2026-10-30",
+  "ended": "Stop",
+  "how": "Closed at the stop: $406.13 on Oct 30.",
+  "allocated": null,
+  "result_usd": null,
+  "result_pct": -5.1,
+  "result_per_share": -21.67
+ },
+ {
+  "ticker": "LLY",
+  "company": "Eli Lilly",
+  "direction": "Long",
+  "call": "Long from $1,265.79, target $1,350.77, out on a close below $1,209.14.",
+  "opened": "2026-10-21",
+  "closed": "2026-10-29",
+  "ended": "Target",
+  "how": "Closed at the target: $1,350.77 on Oct 29.",
+  "allocated": null,
+  "result_usd": null,
+  "result_pct": 6.7,
+  "result_per_share": 84.98
+ }
+]
