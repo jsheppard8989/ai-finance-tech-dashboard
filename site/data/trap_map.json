@@ -2,7 +2,7 @@
  "schema_version": 5,
  "as_of": "2026-10-31T04:56-05:00",
  "title": "Trap Map",
- "purpose": "Stocks where we think the market has it wrong, each one held to its expiry or its stop, and the market decides.",
+ "purpose": "Stocks where we think the market has it wrong, each held as a paper trade until its target, stop or expiry.",
  "disclaimer": "Our opinion, not advice. Calls are tracked as paper trades only.",
  "rules": {
   "price_source": "Yahoo Finance option mids and daily closes",
