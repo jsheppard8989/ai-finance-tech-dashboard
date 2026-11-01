@@ -71,7 +71,7 @@ class TestMidpointLabel(unittest.TestCase):
         from pathlib import Path as _P
         d = b.compute(_j.loads((_P(__file__).resolve().parents[1] / "site/data/trap_map.json").read_text()))
         note = b.midpoint_note(d)
-        self.assertRegex(note, r"^Midpoint marks as of [A-Z][a-z]{2} \d+; bid \+ 1/3 repricing Monday")
+        self.assertRegex(note, r"^Midpoint marks as of [A-Z][a-z]{2} \d+; repricing Monday at a third of the spread from the worst side")
         page = b.render_page(d)
         self.assertIn(note, page)
         n = sum(b.is_midpoint(r) for r in d["rows"])
@@ -86,3 +86,13 @@ class TestMidpointLabel(unittest.TestCase):
         from pathlib import Path as _P
         c = _j.loads((_P(__file__).resolve().parent / "trap_map_closed_preview.json").read_text())
         self.assertNotIn("approx", next(x for x in c if x["ticker"] == "CIFR"))
+
+
+class TestNotPlacedNeverShown(unittest.TestCase):
+    def test_not_placed_row_never_renders(self):
+        import build_trap_map as b
+        self.assertTrue(b.is_not_placed({"ended": "Not placed"}))
+        self.assertNotIn("Not placed", b.ENDED)
+        page = Path(b.__file__).resolve().parent.parent.joinpath("site/trap-map.html").read_text(encoding="utf-8")
+        self.assertNotIn("Not placed", page)
+        self.assertNotIn("bid + 1/3", page)
