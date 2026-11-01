@@ -1923,6 +1923,27 @@
           "he has rotated out of most semiconductor stocks since about March and is short some AI hardware, though he says he is still bullish on Nvidia. His focus is now on AI usage and what he calls agentic utilities."
         ]
       ]
+    },
+    {
+      "insight_id": 528,
+      "podcast_episode_id": 513,
+      "_note": "Oct 31 2026 (G, sweep_1031 R1-R4; Jared approved shipping 6:58 PM CT, decisions.md)",
+      "replacements": [
+        [
+          "Jack Farley discusses",
+          "Jack Farley and guest Eric Wallerstein discuss"
+        ],
+        [
+          "NVIDIA represents a strong investment opportunity, as it stands at",
+          "NVIDIA stands at"
+        ]
+      ],
+      "drop_list_items": {
+        "catalysts": [
+          "Fed meeting on November 1, 2023"
+        ]
+      },
+      "set_key_takeaway": "Eric Wallerstein says a garden-variety bear market is increasingly his base case, driven by fiscal drag, energy-supply shocks and rate hikes."
     }
   ],
   "terms": [
