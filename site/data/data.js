@@ -5091,8 +5091,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-09-23",
-      "summary": "In this episode, Jack Farley discusses the increasing likelihood of a bear market driven by fiscal drag, supply shocks, and rate hikes. The divergence between the Federal Reserve's view of neutral interest rates and market expectations could lead to volatility, while energy prices significantly influence global interest rates. Additionally, the episode highlights South Korea's potential to benefit from the AI boom and the challenges facing European economies amidst tightening monetary policies.",
-      "key_takeaway": "",
+      "summary": "In this episode, Jack Farley and guest Eric Wallerstein discuss the increasing likelihood of a bear market driven by fiscal drag, supply shocks, and rate hikes. The divergence between the Federal Reserve's view of neutral interest rates and market expectations could lead to volatility, while energy prices significantly influence global interest rates. Additionally, the episode highlights South Korea's potential to benefit from the AI boom and the challenges facing European economies amidst tightening monetary policies.",
+      "key_takeaway": "Eric Wallerstein says a garden-variety bear market is increasingly his base case, driven by fiscal drag, energy-supply shocks and rate hikes.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -52391,7 +52391,7 @@ const dashboardData = {
     "investment_thesis": "If these economic pressures lead to a bear market as expected, portfolio reallocation towards defensive assets and sectors will become critical, particularly in the face of increased volatility. The timeframe for this evolution may occur over the next 6 to 12 months, as financial conditions tighten and consumer sentiment declines. Should the anticipated downturn emerge, proving the soundness of hedging strategies will be essential.",
     "ticker_analysis": {
       "NVDA": {
-        "rationale": "NVIDIA represents a strong investment opportunity, as it stands at the forefront of the AI boom, which is expected to buoy South Korean equities despite broader market fluctuations.",
+        "rationale": "NVIDIA stands at the forefront of the AI boom, which is expected to buoy South Korean equities despite broader market fluctuations.",
         "positioning": "",
         "risk": ""
       }
@@ -52399,9 +52399,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Fed meeting on November 1, 2023, where new interest rate guidance may be issued."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,

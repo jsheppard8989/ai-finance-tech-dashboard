@@ -313,6 +313,8 @@ def _apply_summary_overrides(obj):
       Optional 'relabel_quotes' [[needle, speaker]] fixes a notable quote's speaker label only.
       Optional 'drop_list_items' {field: [needle]} removes list entries (e.g. falsification_tracks)
       containing any needle.
+      Optional 'set_key_takeaway' text fills a card's key_takeaway only when it is empty (never
+      overwrites existing text).
     - 'global_replacements': exact swaps applied to every string anywhere (except title
       fields), e.g. mis-transcribed speaker names in pundits/overton/podcastGuests.
     - 'global_name_replacements': WHOLE-WORD [old, new] swaps on every string except titles,
@@ -368,6 +370,9 @@ def _apply_summary_overrides(obj):
         for field, needles in (r.get("drop_list_items") or {}).items():
             if field in o and needles:
                 o[field] = _drop_quotes(o[field], needles)
+        # Oct 31 2026 (G, sweep_1031 R1): 'set_key_takeaway' fills an EMPTY key_takeaway only.
+        if r.get("set_key_takeaway") and "key_takeaway" in o and not str(o.get("key_takeaway") or "").strip():
+            o["key_takeaway"] = r["set_key_takeaway"]
         # Oct 21 2026: curated sentiment correction (scoped by ids like the other fields)
         if r.get("set_sentiment") and "sentiment" in o:
             o["sentiment"] = r["set_sentiment"]
