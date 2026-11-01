@@ -2,13 +2,11 @@
  "schema_version": 5,
  "as_of": "2026-10-31T04:56-05:00",
  "title": "Trap Map",
- "purpose": "Stocks where we think the market has it wrong, each with a dated event that will prove us right or wrong.",
- "how_we_grade": "Every call names a paper trade priced the day it was added. On the grade date, the call is Right if the trade is worth more than it cost at that day's close, and Wrong otherwise. Nothing else decides the grade. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good.",
+ "purpose": "Stocks where we think the market has it wrong, each held as a paper trade until its target, stop or expiry.",
  "disclaimer": "Our opinion, not advice. Calls are tracked as paper trades only.",
  "rules": {
-  "graded_rows_on_main_screen_days": 14,
   "price_source": "Yahoo Finance option mids and daily closes",
-  "grade_rule": "Right if the paper trade's value at the grade-date close is above its debit; Wrong otherwise."
+  "closed_rows_on_main_screen_days": 14
  },
  "rows": [
   {
@@ -16,7 +14,7 @@
    "ticker": "ASTS",
    "company": "AST SpaceMobile",
    "lean": "Negative",
-   "horizon": "Nov 9 update",
+   "horizon": "Nov 13 expiry",
    "reason": "The market underprices how fast building costs are outrunning cash raised without selling stock.",
    "event": {
     "name": "Q3 business update",
@@ -31,8 +29,6 @@
     "text": "Nov 13 $43/$37 put spread, 7 contracts, $2.295 debit at mid (stock $43.38)",
     "max_loss": "$1,607",
     "quoted": "Yahoo, Oct 29, 1:57 PM CT",
-    "grade_date": "2026-11-10",
-    "grade_rule": "Right if the spread is worth more than its debit at the Nov 10 close; Wrong otherwise.",
     "mid": 3.005,
     "value": 2103.5,
     "cost": 1606.5,
@@ -63,19 +59,27 @@
      "stock_then": "$43.38",
      "caveat": ""
     },
-    "change": 497.0
+    "change": 497.0,
+    "exit": {
+     "type": "expiry",
+     "date": "2026-11-13"
+    }
    },
    "status": "live",
    "owner": "JG",
    "date_added": "2026-10-14",
    "last_reviewed": "2026-10-29",
    "why_we_hold": "Quarterly spending on satellites, the share count, and any new stock or convertible bond sales.",
-   "what_proves_it": "Q3 capital spending of at least $429.6M, and either the share count tops 310.0M or there is a new stock sale or convertible bond offering.",
+   "what_proves_it": "Q3 capital spending of at least $429.6M, and either Class A shares top 310.0M at Sep 30 (299.7M at Jun 30) or there is a new stock sale or convertible bond offering.",
    "kind": "spread",
    "history": [
     {
-     "at": "2026-10-29T15:00:00-05:00",
-     "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+     "at": "2026-10-31T18:31:00-05:00",
+     "text": "AST SpaceMobile: the share-count test now names Class A shares at Sep 30."
+    },
+    {
+     "at": "2026-10-31T18:30:00-05:00",
+     "text": "Exits are now only the target, the stop or the expiry. Put spreads are held to expiry."
     },
     {
      "at": "2026-10-29T14:57:00-05:00",
@@ -87,7 +91,7 @@
     }
    ],
    "next_earnings": "2026-11-09",
-   "earnings_reason": "The trade is set up to hold through the Nov 9 update it is meant to test.",
+   "earnings_reason": "The trade holds through the Nov 9 update to its Nov 13 expiry.",
    "direction": "Net short"
   },
   {
@@ -95,7 +99,7 @@
    "ticker": "FRMI",
    "company": "Fermi",
    "lean": "Negative",
-   "horizon": "Nov 12 report",
+   "horizon": "Held to expiry Nov 13",
    "reason": "The market underprices the risk that the auditor's warning about the company's survival stays and no paying tenant is signed.",
    "event": {
     "name": "Q3 results",
@@ -110,8 +114,6 @@
     "text": "Nov 13 $3.00/$2.50 put spread, 60 contracts, $0.225 debit at mid (stock $2.835); few contracts trade, so a fill at mid isn't assured",
     "max_loss": "$1,350",
     "quoted": "Yahoo, Oct 29, 1:57 PM CT",
-    "grade_date": "2026-11-12",
-    "grade_rule": "Right if the spread is worth more than its debit at the Nov 12 close; Wrong otherwise.",
     "mid": 0.4,
     "value": 2400.0,
     "cost": 1350.0,
@@ -142,7 +144,11 @@
      "stock_then": "$2.835",
      "caveat": "few contracts trade, so a fill at mid isn't assured"
     },
-    "change": 1050.0
+    "change": 1050.0,
+    "exit": {
+     "type": "expiry",
+     "date": "2026-11-13"
+    }
    },
    "status": "live",
    "owner": "JG",
@@ -153,8 +159,8 @@
    "kind": "spread",
    "history": [
     {
-     "at": "2026-10-29T15:00:00-05:00",
-     "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+     "at": "2026-10-31T18:30:00-05:00",
+     "text": "Exits are now only the target, the stop or the expiry. Put spreads are held to expiry."
     },
     {
      "at": "2026-10-29T14:57:00-05:00",
@@ -174,12 +180,12 @@
    "ticker": "TSAT",
    "company": "Telesat",
    "lean": "Negative",
-   "horizon": "Debt due in December",
+   "horizon": "Held to expiry Dec 18",
    "reason": "Notes of about US$387M are due in December, and no funded refinancing has been announced.",
    "event": {
     "name": "Notes come due",
     "date": "2026-12-07",
-    "when": "Due Sun Dec 6, paid Mon Dec 7; graded at the Dec 8 close",
+    "when": "Due Sun Dec 6, paid Mon Dec 7",
     "link": "https://www.globenewswire.com/news-release/2026/10/29/3391128/0/en/telesat-reports-results-for-the-three-and-nine-months-ended-september-30-2026.html",
     "link_label": "Telesat Q3 release, Oct 29",
     "date_confirmed": true,
@@ -189,8 +195,6 @@
     "text": "Dec 18 $40/$30 put spread, 5 contracts, $2.95 debit at mid (stock $41.89); very little open interest, so the mid is a rough guide",
     "max_loss": "$1,475",
     "quoted": "Yahoo, Oct 29, 1:57 PM CT",
-    "grade_date": "2026-12-08",
-    "grade_rule": "Right if the spread is worth more than its debit at the Dec 8 close; Wrong otherwise.",
     "mid": 3.15,
     "value": 1575.0,
     "cost": 1475.0,
@@ -221,7 +225,11 @@
      "stock_then": "$41.89",
      "caveat": "very little open interest, so the mid is a rough guide"
     },
-    "change": 100.0
+    "change": 100.0,
+    "exit": {
+     "type": "expiry",
+     "date": "2026-12-18"
+    }
    },
    "status": "live",
    "owner": "JG",
@@ -234,16 +242,12 @@
    "kind": "spread",
    "history": [
     {
-     "at": "2026-10-29T15:00:00-05:00",
-     "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+     "at": "2026-10-31T18:30:00-05:00",
+     "text": "Exits are now only the target, the stop or the expiry. Put spreads are held to expiry."
     },
     {
      "at": "2026-10-29T14:57:00-05:00",
      "text": "Added a dated paper trade to every open row."
-    },
-    {
-     "at": "2026-10-29T14:59:00-05:00",
-     "text": "Telesat's call is graded at the Dec 8 close."
     }
    ],
    "next_earnings": null,
@@ -254,7 +258,7 @@
    "ticker": "MU",
    "company": "Micron",
    "lean": "Negative",
-   "horizon": "Long-term view, graded at expiry Dec 15, 2028",
+   "horizon": "Long-term view, held to expiry Dec 15, 2028",
    "reason": "A low price-to-earnings ratio looks like safety, but it rests on peak memory profits.",
    "event": {
     "name": "Paper trade expires",
@@ -269,8 +273,6 @@
     "text": "Dec 15, 2028 $700/$500 put spread, 1 contract, $68 debit at mid (stock $957.72)",
     "max_loss": "$6,800",
     "quoted": "Yahoo, Oct 29, 8:32 AM CT",
-    "grade_date": "2028-12-15",
-    "grade_rule": "Right if the spread is worth more than its debit at the Dec 15, 2028 close (expiry); Wrong otherwise.",
     "mid": 76.225,
     "value": 7622.5,
     "cost": 6800.0,
@@ -301,7 +303,11 @@
      "stock_then": "$957.72",
      "caveat": ""
     },
-    "change": 822.5
+    "change": 822.5,
+    "exit": {
+     "type": "expiry",
+     "date": "2028-12-15"
+    }
    },
    "status": "new",
    "owner": "JG",
@@ -316,8 +322,8 @@
    "kind": "spread",
    "history": [
     {
-     "at": "2026-10-29T15:00:00-05:00",
-     "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+     "at": "2026-10-31T18:30:00-05:00",
+     "text": "Exits are now only the target, the stop or the expiry. Put spreads are held to expiry."
     },
     {
      "at": "2026-10-29T14:57:00-05:00",
@@ -342,11 +348,11 @@
    "event": {
     "name": "No end date",
     "date": null,
-    "when": "Held until a stop is hit",
+    "when": "Holding, no end date",
     "link": "https://jsheppard8989.github.io/ai-finance-tech-dashboard/healthcare.html",
     "link_label": "Read our Healthcare research",
     "date_confirmed": true,
-    "date_source": "No end date: held until the fixed stop is hit"
+    "date_source": "No end date"
    },
    "trade": {
     "text": "$1,000 each in HIMS ($28.09), GDRX ($3.33), TEM ($77.97), GH ($183.10) and ABT ($102.20), bought Sep 18 at about 9:30 AM CT",
@@ -399,36 +405,7 @@
      }
     ],
     "stop": "Stop: basket closes if the index closes below 90",
-    "index_now": 99.51,
-    "quoted": "Prices: Oct 30 close (Yahoo Finance daily closes)",
-    "stop_rule": {
-     "type": "index_level",
-     "index_below": 90,
-     "weights": "equal",
-     "index_legs": [
-      {
-       "ticker": "HIMS",
-       "base": 28.09
-      },
-      {
-       "ticker": "GDRX",
-       "base": 3.33
-      },
-      {
-       "ticker": "TEM",
-       "base": 77.97
-      },
-      {
-       "ticker": "GH",
-       "base": 183.1
-      },
-      {
-       "ticker": "ABT",
-       "base": 102.2
-      }
-     ],
-     "fixed": true
-    },
+    "quoted": "Prices: Oct 30 close (Yahoo chart API, pulled Oct 31, 7:06–7:15 PM CT)",
     "expression": {
      "type": "Stock basket, equal dollars",
      "holdings": [
@@ -460,7 +437,37 @@
      ],
      "bought": "Sep 18, about 9:30 AM CT"
     },
-    "change": -24.64
+    "change": -24.64,
+    "price_note": "Valued at Oct 30 closing prices",
+    "stop_rule": {
+     "type": "index_level",
+     "index_below": 90,
+     "weights": "equal",
+     "index_legs": [
+      {
+       "ticker": "HIMS",
+       "base": 28.09
+      },
+      {
+       "ticker": "GDRX",
+       "base": 3.33
+      },
+      {
+       "ticker": "TEM",
+       "base": 77.97
+      },
+      {
+       "ticker": "GH",
+       "base": 183.1
+      },
+      {
+       "ticker": "ABT",
+       "base": 102.2
+      }
+     ],
+     "fixed": true
+    },
+    "index_now": 99.51
    },
    "status": "holding",
    "owner": "JG",
@@ -469,8 +476,94 @@
    "what_proves_it": "HIMS keeps adding subscribers (Q3 at or above 2.891M on Nov 9), TEM and GH keep growing revenue, and GDRX revenue finally moves above its $194–203M range.",
    "why_we_hold": "Five companies making care cheaper and easier to get: online prescriptions (HIMS), drug price discounts (GDRX), AI-driven cancer testing (TEM, GH), and a big diagnostics maker (ABT).",
    "kind": "basket",
-   "history": [],
+   "history": [
+    {
+     "at": "2026-10-31T18:35:00-05:00",
+     "text": "Healthcare: rebuilt as three Dec 18 call spreads on HIMS, TEM and ABT; GH and GDRX left out because their December options don't trade enough to price fairly."
+    },
+    {
+     "at": "2026-10-31T18:30:00-05:00",
+     "text": "Exits are now only the target, the stop or the expiry. Put spreads are held to expiry."
+    },
+    {
+     "at": "2026-10-31T19:10:00-05:00",
+     "text": "Healthcare: back to the logged Sep 18 five-stock basket (HIMS, GDRX, TEM, GH, ABT); option spreads removed. Stop: five-name index below 90."
+    }
+   ],
    "direction": "Long"
+  },
+  {
+   "id": "ceg-q3",
+   "ticker": "CEG",
+   "company": "Constellation Energy",
+   "lean": "Positive",
+   "direction": "Net long",
+   "kind": "spread",
+   "status": "new",
+   "owner": "JG",
+   "horizon": "Nov 20 expiry",
+   "reason": "Power demand from data centers keeps lifting what Constellation's nuclear fleet can earn.",
+   "event": {
+    "name": "Q3 results (date reported, not yet confirmed by the company)",
+    "date": null,
+    "when": "Reported for Mon Nov 9, before the open",
+    "link": "https://www.constellationenergy.com/news.html",
+    "link_label": "Constellation newsroom"
+   },
+   "trade": {
+    "text": "Nov 20 $260/$290 call spread, 1 contract, $10.27 debit (stock $262.38, Oct 30 close)",
+    "max_loss": "$1,026.67",
+    "max_gain": "$1,973.33",
+    "quoted": "Oct 30 closing quotes, pulled Oct 31, 6:35 PM CT",
+    "mark": 10.2667,
+    "value": 1026.67,
+    "cost": 1026.67,
+    "mid_time": "2026-10-30T15:00-05:00",
+    "posted": "2026-10-31",
+    "expiry": "2026-11-20",
+    "underlying": "CEG",
+    "contracts": 1,
+    "legs": [
+     {
+      "right": "C",
+      "strike": 260,
+      "qty": 1
+     },
+     {
+      "right": "C",
+      "strike": 290,
+      "qty": -1
+     }
+    ],
+    "target": "Close when the spread is worth $25.00.",
+    "stop": "Close if CEG closes below $242.64.",
+    "exit": {
+     "type": "expiry",
+     "date": "2026-11-20"
+    },
+    "expression": {
+     "type": "Call debit spread",
+     "strikes": "$260 / $290",
+     "expiry": "Nov 20",
+     "contracts": 1,
+     "debit": "$10.27 per share",
+     "stock_then": "$262.38",
+     "caveat": "Low volume: the $260 call traded only 8 contracts on Oct 30, so a real fill could cost more"
+    },
+    "change": 0.0,
+    "entry_pending": "Entry numbers pending JG's Monday repricing"
+   },
+   "date_added": "2026-10-31",
+   "last_reviewed": "2026-10-31",
+   "why_we_hold": "Our view (OPINION): the market still prices Constellation like a regular power company, while data-center buyers are paying up for round-the-clock carbon-free power. The Nov 9 report is part of the idea. We hold through it because new or extended data-center power contracts there are the most likely thing to move the stock toward $290, and the spread caps the loss at $1,026.67 if it disappoints.",
+   "what_proves_it": "CEG closes above $270.27 at the Nov 20 expiry.",
+   "history": [
+    {
+     "at": "2026-10-31T18:35:00-05:00",
+     "text": "Constellation Energy: new Nov 20 call spread added."
+    }
+   ],
+   "main_risk": "Wrong if: CEG closes below $242.64 (the stop), or the Nov 9 report shows no new data-center contract news and the stock gives back the gap."
   }
  ],
  "past_calls": [],
@@ -503,26 +596,58 @@
     "rows": [
      "healthcare-five"
     ]
+   },
+   {
+    "date": "2026-10-30",
+    "price": 755.72,
+    "dollars": 1026.67,
+    "shares": 1.35853,
+    "source": "Yahoo Finance SPY close, Oct 30, 2026 (pending Jared)",
+    "rows": [
+     "ceg-q3"
+    ]
    }
   ]
  },
  "totals": {
-  "cost": 16231.5,
-  "value": 18676.36,
-  "spy_value": 15993.19,
+  "cost": 17258.17,
+  "value": 19703.03,
+  "spy_value": 17019.86,
   "change": 2444.86,
+  "midpoint_rows": [
+   "asts-q3",
+   "frmi-q3",
+   "tsat-notes",
+   "mu-cycle",
+   "ceg-q3"
+  ],
   "computed_by": "pipeline/build_trap_map.py"
  },
  "changes": [
   {
-   "date": "2026-10-29",
-   "at": "2026-10-29T15:00:00-05:00",
-   "text": "Every call is now graded only on its paper trade: right if the trade is worth more than it cost at the grade-date close."
+   "date": "2026-10-31",
+   "at": "2026-10-31T19:10:00-05:00",
+   "text": "Healthcare: back to the logged Sep 18 five-stock basket (HIMS, GDRX, TEM, GH, ABT); option spreads removed. Stop: five-name index below 90."
   },
   {
-   "date": "2026-10-29",
-   "at": "2026-10-29T14:59:00-05:00",
-   "text": "Telesat's call is graded at the Dec 8 close."
+   "date": "2026-10-31",
+   "at": "2026-10-31T18:35:00-05:00",
+   "text": "Healthcare: rebuilt as three Dec 18 call spreads on HIMS, TEM and ABT; GH and GDRX left out because their December options don't trade enough to price fairly."
+  },
+  {
+   "date": "2026-10-31",
+   "at": "2026-10-31T18:35:00-05:00",
+   "text": "Constellation Energy: new Nov 20 call spread added."
+  },
+  {
+   "date": "2026-10-31",
+   "at": "2026-10-31T18:31:00-05:00",
+   "text": "AST SpaceMobile: the share-count test now names Class A shares at Sep 30."
+  },
+  {
+   "date": "2026-10-31",
+   "at": "2026-10-31T18:30:00-05:00",
+   "text": "Exits are now only the target, the stop or the expiry. Put spreads are held to expiry."
   },
   {
    "date": "2026-10-29",
@@ -545,5 +670,6 @@
    "text": "AST SpaceMobile: the facts that would prove us wrong were updated."
   }
  ],
- "quotes_as_of": "2026-10-30T20:53:00-05:00"
+ "quotes_as_of": "2026-10-30T20:53:00-05:00",
+ "how_we_track": "Every view is a paper trade priced the day it was added, priced a third of the spread from the worst side (buys a third below the ask, sells a third above the bid), never the midpoint. A trade ends only at its target, its stop or its expiry. Put spreads are held to expiry. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good."
 }
