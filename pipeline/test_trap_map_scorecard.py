@@ -1,5 +1,6 @@
 """Scorecard layout (preview): header date, expiry exits, plain-words tags, closed rows from the side file."""
 import copy
+from pathlib import Path
 import json
 import re
 import unittest
