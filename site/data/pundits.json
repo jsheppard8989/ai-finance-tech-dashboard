@@ -845,65 +845,6 @@
     "net_worth": "$13.0M"
   },
   {
-    "id": 300,
-    "name": "Ed Zitron",
-    "slug": "ed-zitron",
-    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
-    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Blunt, skeptical, and highly animated.",
-    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
-    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
-    "voice_profile_updated_at": "2026-10-02 03:15:54",
-    "last_seen": "2026-10-02 03:15:54",
-    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-01",
-    "mention_score": 2,
-    "mention_score_decayed": 1.02,
-    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
-    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Zitron",
-      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
-      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
-      "derived": {
-        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
-        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
-      ],
-      "sections": [
-        {
-          "heading": "AI and ROI",
-          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
-        },
-        {
-          "heading": "Contrarian Views",
-          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
-        },
-        {
-          "heading": "Podcast and Newsletter",
-          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
-        }
-      ]
-    }
-  },
-  {
     "id": 607,
     "name": "Aman Singh",
     "slug": "aman-singh",
@@ -1010,6 +951,65 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 300,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
+    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Blunt, skeptical, and highly animated.",
+    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
+    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
+    "voice_profile_updated_at": "2026-10-02 03:15:54",
+    "last_seen": "2026-10-02 03:15:54",
+    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-01",
+    "mention_score": 2,
+    "mention_score_decayed": 1.0,
+    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
+    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Zitron",
+      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
+      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
+      "derived": {
+        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
+        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
+      ],
+      "sections": [
+        {
+          "heading": "AI and ROI",
+          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
+        },
+        {
+          "heading": "Contrarian Views",
+          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
+        },
+        {
+          "heading": "Podcast and Newsletter",
+          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
+        }
+      ]
+    }
   },
   {
     "id": 301,
@@ -1157,60 +1157,6 @@
     "pundit_profile": null
   },
   {
-    "id": 599,
-    "name": "David V\u00e9lez",
-    "slug": "david-v\u00e9lez",
-    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:25:46",
-    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
-    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
-    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 598,
-    "name": "Luke Gromen",
-    "slug": "luke-gromen",
-    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:24:49",
-    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
-    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 160,
     "name": "Ben Lamm",
     "slug": "ben-lamm",
@@ -1273,6 +1219,60 @@
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 599,
+    "name": "David V\u00e9lez",
+    "slug": "david-v\u00e9lez",
+    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:25:46",
+    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.95,
+    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
+    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
+    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 598,
+    "name": "Luke Gromen",
+    "slug": "luke-gromen",
+    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:24:49",
+    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.95,
+    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
+    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 596,
@@ -2019,7 +2019,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-20 \u2022 The Programmable Data Center \u2014 Evan Conrad, SF Compute",
     "last_proof_snippet": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.",
@@ -2073,7 +2073,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-19 \u2022 Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
     "last_proof_snippet": "",
@@ -3213,7 +3213,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 0.58,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "",
@@ -3283,6 +3283,33 @@
     "pundit_profile": null
   },
   {
+    "id": 505,
+    "name": "Alex Atallah",
+    "slug": "alex-atallah",
+    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
+    "known_for": "OpenRouter and model routing across multiple AI providers.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and infrastructure-focused.",
+    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "We don't want everyone to be a part of one giant company.",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 52,
     "name": "Alex Karp",
     "slug": "alex-carp",
@@ -3300,7 +3327,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 0.53,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "",
@@ -3341,33 +3368,6 @@
       ]
     },
     "net_worth": "$14.00B"
-  },
-  {
-    "id": 505,
-    "name": "Alex Atallah",
-    "slug": "alex-atallah",
-    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
-    "known_for": "OpenRouter and model routing across multiple AI providers.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and infrastructure-focused.",
-    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
-    "voice_profile_updated_at": "2026-10-03 12:02:34",
-    "last_seen": "2026-10-03 12:02:34",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "We don't want everyone to be a part of one giant company.",
-    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 502,
@@ -3441,7 +3441,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Alex Zhang predicts language models may become hidden swarms under simple interfaces because composing agents through shared context can solve problems like OpenAI's 10,000-agent experiment.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-02 \u2022 Academia is for Ambition \u2014 Alex Zhang, MIT",
     "last_proof_snippet": "",
@@ -4833,7 +4833,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
     "last_proof_snippet": "",
@@ -5604,66 +5604,6 @@
       ]
     },
     "net_worth": "$21.0M"
-  },
-  {
-    "id": 448,
-    "name": "Jacob Bondas",
-    "slug": "jacob-bondas",
-    "bio": "Jacob Bondas is a technologist and strategist whose work centers on autonomous AI systems and machine learning development. He is recognized for insights on AI alignment and emergent agent behavior, particularly how advanced systems develop unanticipated capabilities as they scale. His commentary bridges technical safety research and strategic decision-making for complex, agentic AI deployments.",
-    "known_for": "Shaping investor and industry understanding of AI alignment risks and emergent behaviors in autonomous agent systems.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Philosophical and measured",
-    "voice_style": "Uses concise, declarative statements about the nature of AI growth and control",
-    "voice_delivery_notes": "Pause slightly after punchy observations to let the weight of containment risks land",
-    "voice_profile_updated_at": "2026-09-11 15:59:02",
-    "last_seen": "2026-09-11 15:59:02",
-    "last_episode_title": "Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.31,
-    "last_main_idea": "The transition from narrow AI to autonomous AGI agents is collapsing transaction costs, creating new tokenized economic layers, and turning mobility and labor markets upside down, offering asymmetric returns for investors positioned in compute infrastructure, agent orchestration, and automation platforms serving an aging global population.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-09 \u2022 Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
-    "last_proof_snippet": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
-    "supporting_takeaway": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-11T11:30:57.961365",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:kimi-k2.6",
-      "source_url": "",
-      "page_title": "Jacob Bondas",
-      "fetched_at": "2026-09-11T16:30:57.960616+00:00",
-      "cliff_notes": "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity. In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence. While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent. This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity.",
-        "In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence.",
-        "While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent.",
-        "This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management."
-      ],
-      "sections": [
-        {
-          "heading": "AI Alignment",
-          "body": "Bondas analyzes the technical and strategic challenges of keeping advanced AI systems aligned with operator intent as they gain greater autonomy. His insights address how misalignment risks scale with model capability, informing governance frameworks and investment due diligence."
-        },
-        {
-          "heading": "Emergent Agent Behavior",
-          "body": "He examines how unanticipated capabilities and behaviors can arise in large-scale machine learning systems. This work highlights why scaling autonomous agents requires new monitoring and evaluation paradigms beyond traditional software testing."
-        },
-        {
-          "heading": "Autonomous Systems Strategy",
-          "body": "As a strategist, Bondas focuses on development and deployment pathways for autonomous AI in research and commercial environments. His commentary bridges machine learning engineering with executive-level planning about safe rollout timelines."
-        },
-        {
-          "heading": "Machine Learning Development",
-          "body": "Bondas contributes to discourse on the practical construction of ML systems, emphasizing the intersection of capability advancement and safety engineering. His perspective is cited by technologists assessing the maturity of agentic AI platforms."
-        }
-      ]
-    }
   },
   {
     "id": 445,
@@ -7527,7 +7467,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "",
@@ -8093,7 +8033,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "",
@@ -10817,7 +10757,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Clarion Partners manages over $70 billion in real estate assets, with a significant portion in industrial logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "",
@@ -11811,7 +11751,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "",
@@ -11872,7 +11812,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "U.S. manufacturing is showing signs of recovery after a three-year recession, indicating potential resurgence in manufacturing investments.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months.",
