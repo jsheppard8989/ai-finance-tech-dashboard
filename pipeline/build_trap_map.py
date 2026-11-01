@@ -165,7 +165,7 @@ def _rel(url: str) -> str:
 def _mid_tag(r) -> str:
     if (r.get("trade") or {}).get("entry_pending") and r.get("status") != "closed":
         return f'<div class="small mid-tag">{e(r["trade"]["entry_pending"])}, not final</div>'
-    if (r.get("trade") or {}).get("price_note") and is_midpoint(r):
+    if (r.get("trade") or {}).get("price_note") and (is_midpoint(r) or r.get("kind") == "basket"):
         return f'<div class="small mid-tag">{e(r["trade"]["price_note"])}, not final</div>'
     return '<div class="small mid-tag">Midpoint, not final (repricing Monday)</div>' if is_midpoint(r) else ""
 
@@ -474,7 +474,7 @@ def render_strip(d: dict, today: date | None = None) -> str:
         f'<a class="trap-chip" href="trap-map.html#{e(r["id"])}" style="display:inline-block;margin:0.2rem 0.35rem 0.2rem 0;padding:0.3rem 0.55rem;border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:#e6f1ff;text-decoration:none;font-size:0.75rem;">'
         f'<strong>{e(r["ticker"])}</strong> <span style="color:{"#34d399" if _is_long(r["direction"]) else "#f87171"};">{e(r["direction"])}</span> '
         f'<span style="color:#9ca3af;">· {e(exit_label(r))}'
-        f' · worth {money(r["trade"]["value"])}{(", entry pending JG's Monday repricing" if r["trade"].get("entry_pending") else ", not final" if r["trade"].get("price_note") else " at midpoint, not final") if is_midpoint(r) else ""} (allocated {money(r["trade"]["cost"])}'
+        f' · worth {money(r["trade"]["value"])}{(", entry pending JG's Monday repricing" if r["trade"].get("entry_pending") else ", not final" if r["trade"].get("price_note") else " at midpoint, not final") if is_midpoint(r) else (", not final" if r["trade"].get("price_note") else "")} (allocated {money(r["trade"]["cost"])}'
         f'{", index " + str(r["trade"]["index_now"]) if r["trade"].get("index_now") is not None else ""})</span></a>'
         for r in sorted_rows(d))
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'

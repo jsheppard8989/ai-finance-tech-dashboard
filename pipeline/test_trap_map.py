@@ -40,7 +40,12 @@ class TestValidator(unittest.TestCase):
         # v9: the HIMS call-spread row is gone; HIMS is only in the Healthcare basket.
         self.assertEqual([r["ticker"] for r in DATA["rows"]], ["ASTS", "FRMI", "TSAT", "MU", "Basket", "CEG"])
         self.assertFalse({"IREN", "MP", "TSLA", "HIMS"} & {r["ticker"] for r in DATA["rows"]})
-        self.assertEqual([s["underlying"] for s in rows(DATA)["healthcare-five"]["trade"]["spreads"]], ["HIMS", "TEM", "ABT"])
+        # Healthcare is the logged Sep 18 five-stock basket again (Jared 7:01 PM, Wendy approved); no option spreads
+        hc = rows(DATA)["healthcare-five"]
+        self.assertEqual(hc["kind"], "basket")
+        self.assertNotIn("spreads", hc["trade"])
+        self.assertEqual([(l["ticker"], l["entry"]) for l in hc["trade"]["legs"]],
+                         [("HIMS", 28.09), ("GDRX", 3.33), ("TEM", 77.97), ("GH", 183.1), ("ABT", 102.2)])
 
     def test_missing_link(self):
         self.assertFails(lambda d, r: r["asts-q3"]["event"].update(link=""), "missing primary link")
@@ -58,7 +63,7 @@ class TestValidator(unittest.TestCase):
 
     def test_non_stock_ticker(self):
         self.assertFails(lambda d, r: r["asts-q3"].update(ticker="SPY"), "non-stock")
-        self.assertFails(lambda d, r: r["healthcare-five"]["trade"]["spreads"][0].update(underlying="BTC"), "non-stock")
+        self.assertFails(lambda d, r: r["healthcare-five"]["trade"]["legs"][0].update(ticker="BTC"), "non-stock")
 
     def test_unconfirmed_date(self):
         self.assertFails(lambda d, r: r["tsat-notes"]["event"].update(date_confirmed=False), "unconfirmed")
@@ -85,7 +90,8 @@ class TestValidator(unittest.TestCase):
         self.assertFails(lambda d, r: self._holding(d, r) or r["healthcare-five"]["trade"]["stop_rule"].update(fixed=False), "fixed stop")
 
     def test_event_only_stop_ok(self):
-        e = self.errs(lambda d, r: self._holding(d, r) or r["healthcare-five"]["trade"]["stop_rule"].pop("index_below"))
+        e = self.errs(lambda d, r: self._holding(d, r) or (r["healthcare-five"]["trade"]["stop_rule"].pop("index_below"),
+                                                    r["healthcare-five"]["trade"]["stop_rule"].update(event="HIMS Q3 subscribers under 2.891 million")) and None)
         self.assertEqual(e, [])
 
     def test_no_grading_anywhere(self):
@@ -119,9 +125,9 @@ class TestValidator(unittest.TestCase):
     def test_direction_matches_trade(self):
         self.assertEqual({r["id"]: r["direction"] for r in DATA["rows"]},
                          {"asts-q3": "Net short", "frmi-q3": "Net short", "tsat-notes": "Net short",
-                          "mu-cycle": "Net short", "healthcare-five": "Net long", "ceg-q3": "Net long"})
+                          "mu-cycle": "Net short", "healthcare-five": "Long", "ceg-q3": "Net long"})
         self.assertFails(lambda d, r: r["asts-q3"].update(direction="Net long"), "doesn't match the trade")
-        self.assertFails(lambda d, r: r["healthcare-five"].update(direction="Long"), "doesn't match")
+        self.assertFails(lambda d, r: r["healthcare-five"].update(direction="Net long"), "doesn't match")
         self.assertFails(lambda d, r: r["mu-cycle"].update(direction="Sideways"), "not one of")
         self.assertFails(lambda d, r: r["frmi-q3"].pop("direction"), "not one of")
         self.assertFails(lambda d, r: r["tsat-notes"]["trade"].pop("expression"), "no expression")
@@ -140,8 +146,9 @@ class TestValidator(unittest.TestCase):
         t = rows(DATA)["healthcare-five"]["trade"]
         sr = t["stop_rule"]
         self.assertEqual((sr["index_below"], sr["fixed"], sr["weights"]), (90, True, "equal"))
-        self.assertEqual([(l["ticker"], l["base"]) for l in sr["index_legs"]], [("HIMS", 27.68), ("TEM", 72.22), ("ABT", 106.2)])
-        self.assertEqual(t["cost"], 2965.0)
+        self.assertEqual([(l["ticker"], l["base"]) for l in sr["index_legs"]], [("HIMS", 28.09), ("GDRX", 3.33), ("TEM", 77.97), ("GH", 183.1), ("ABT", 102.2)])
+        self.assertEqual(t["cost"], 5000.0)
+        self.assertEqual(t["index_now"], 99.51)  # matches Scout's basket_vs_spx.csv, Oct 30
         self.assertEqual(fp.equal_weight_index([(27.68, 27.68), (72.22, 72.22), (106.2, 106.2)]), 100.0)
         # equal weight: each name is one third of its own move
         self.assertEqual(fp.equal_weight_index([(27.68, 27.68 * 0.7), (72.22, 72.22), (106.2, 106.2)]), 90.0)
@@ -332,7 +339,10 @@ class TestMidpointLabel(unittest.TestCase):
         self.assertEqual(page.count("Priced from Oct 30 closing quotes, not final"), 2 * noted)
         hc = [r for r in self.d["rows"] if r["id"] == "healthcare-five"][0]["trade"]
         self.assertNotIn("entry_pending", hc)  # Healthcare is out of Monday's repricing (Jared, 7:01 PM CT)
-        self.assertEqual(hc["cost"], 2965.0)
+        self.assertEqual(hc["cost"], 5000.0)
+        self.assertNotIn("healthcare-five", self.d["totals"]["midpoint_rows"])
+        self.assertEqual(page.count("Valued at Oct 30 closing prices, not final"), 2)
+        self.assertNotIn("$2,965", page)
         self.assertEqual(page.count("pending JG&#x27;s Monday repricing, not final"), 2 * pend)
 
     def test_label_goes_away_after_bottom_third_pull(self):
