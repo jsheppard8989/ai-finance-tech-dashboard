@@ -491,7 +491,7 @@ def render_strip(d: dict, today: date | None = None) -> str:
         for r in sorted_rows(d))
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'
             f'      <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;"><a href="trap-map.html" style="color:#00d4ff;text-decoration:none;">🪤 Trap Map</a></h3>\n'
-            f'      <p style="color: #9ca3af; font-size: 0.7rem; margin-bottom: 0.4rem;">{e(d["purpose"])} Tracked as paper trades. '
+            f'      <p style="color: #9ca3af; font-size: 0.7rem; margin-bottom: 0.4rem;">{e(d["purpose"])} '
             f'Allocated {money(T["cost"])} · worth now {money(T["value"])} ({_sg(T["change"])}) · same money in the S&amp;P 500: '
             f'{money(T["spy_value"])} ({_sg(round(T["spy_value"] - T["cost"], 2))}). Quotes as of {e(fmt_time(d["quotes_as_of"]))}.'
             f'{(" <strong>" + e(midpoint_note(d)) + "</strong>") if midpoint_note(d) else ""}</p>\n'
