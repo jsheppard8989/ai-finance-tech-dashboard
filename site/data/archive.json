@@ -100,6 +100,39 @@
       ]
     },
     {
+      "id": 647,
+      "title": "Making Sense of This Week\u2019s AI Market Crashes | #x307",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-31",
+      "summary": "The episode focuses on whether AI is approaching an inflection point where frontier capability, cost, and infrastructure bottlenecks determine winners. A major thread is Alphabet/Google: the speakers argue Gemini for Carbon sits near the frontier on intelligence-versus-cost, while Google DeepMind\u2019s Genie 4 is presented as a world model for interactive 3D simulation and future convergence with Gemini.\n\nA second major theme is market reaction and business-model risk at Alphabet. The discussion cites a 13% one-day stock drop, about $500 billion of market value erased, revenue growth of 25% to $127 billion, and concerns that search advertising may plateau or decline as agents change user behavior. The speakers frame Google\u2019s long-term upside as shifting toward cloud, compute, and integrated AI systems, even as near-term ad weakness and capex intensity pressure margins.\n\nThe conversation also highlights security and crypto fragility. One speaker describes the Binance hack as a human compromise rather than a purely technical exploit, with $6.3 billion reportedly moved in about 20 minutes and much of it in stablecoins that could be frozen. That leads into broader claims that AI, quantum, and human-process weaknesses could reshape cybersecurity, but not necessarily annihilate Bitcoin.\n\nFinally, the episode widens into physical AI and infrastructure. The hosts discuss Tesla Optimus manufacturing targets of a million robots per year, first deliveries in 2027, Waymo\u2019s cost-per-mile advantages, and the possibility that CPU and RAM, not just GPUs, become the next bottleneck as agents proliferate. Education declines in CS and MBA programs are used as evidence that AI is already changing labor-market expectations.",
+      "key_takeaway": "Google\u2019s AI advantage may matter most if Gemini and Genie help offset search-ad decay by shifting value toward cloud, compute, and integrated frontier infrastructure.",
+      "tickers_mentioned": [
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 636,
+      "notable_quotes": [
+        {
+          "speaker": "Alex Wissner-Gross",
+          "quote": "Gemini for carbon is exactly just, you can extrapolate that line. It's exactly on that frontier."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "Carbon found 88% of vulnerabilities on a benchmark called SEC Bench Pro."
+        },
+        {
+          "speaker": "Alex Wissner-Gross",
+          "quote": "Binance got hacked... six point three billion got ported out, and it's the largest crypto theft in history."
+        }
+      ]
+    },
+    {
       "id": 641,
       "title": "Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses",
       "source_type": "podcast",
@@ -337,7 +370,7 @@
       "key_takeaway": "Cuban\u2019s central claim is that pre-contract AI review, not AI alone, could materially reduce healthcare costs by exposing hidden terms in employer and provider contracts.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-28",
       "archived_date": null,
@@ -14781,8 +14814,8 @@
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-30",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -14791,8 +14824,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 632,
-      "last_mentioned_speaker": "David Friedberg, David Friedberg"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 310,
@@ -15015,8 +15048,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-30",
-      "mention_count": 40,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -15025,8 +15058,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 631,
-      "last_mentioned_speaker": "Robert Caro"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 272,
@@ -15106,7 +15139,7 @@
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
       "last_mentioned_date": "2026-10-31",
-      "mention_count": 36,
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -15115,8 +15148,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 633,
-      "last_mentioned_speaker": "Joseph Kim, Richard"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 267,
@@ -15214,7 +15247,7 @@
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
       "last_mentioned_date": "2026-10-31",
-      "mention_count": 41,
+      "mention_count": 42,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -15223,8 +15256,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 633,
-      "last_mentioned_speaker": "Joseph Kim, Richard"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 265,
@@ -15339,8 +15372,8 @@
       "term": "ASI",
       "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
@@ -15349,8 +15382,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 622,
-      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 135,
@@ -15411,8 +15444,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-30",
-      "mention_count": 61,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 62,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -15421,8 +15454,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 632,
-      "last_mentioned_speaker": "David Friedberg, David Friedberg"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 256,
@@ -15897,8 +15930,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 87,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 88,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -15907,16 +15940,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 622,
-      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "A training technique where a model learns from another model\u2019s outputs or reasoning traces. Lambert argues it is often oversimplified as the main way open models can catch frontier systems.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-30",
-      "mention_count": 67,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 68,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If distillation is less effective than assumed, open-model catch-up may take longer and favor integrated frontier labs over open ecosystems.",
@@ -15925,8 +15958,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 632,
-      "last_mentioned_speaker": "David Friedberg, David Friedberg"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 174,
@@ -16833,8 +16866,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 51,
+      "last_mentioned_date": "2026-10-31",
+      "mention_count": 52,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -16843,8 +16876,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 620,
-      "last_mentioned_speaker": "Cliff Sosin"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 26,
@@ -17104,7 +17137,7 @@
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-10-31",
-      "mention_count": 142,
+      "mention_count": 143,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -17113,8 +17146,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 635,
-      "last_mentioned_speaker": "Aman Singh"
+      "last_mentioned_episode_id": 636,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 38,

@@ -1,5 +1,26 @@
 [
   {
+    "id": 636,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Making Sense of This Week\u2019s AI Market Crashes | #x307",
+    "episode_date": "2026-10-31",
+    "summary": "The episode focuses on whether AI is approaching an inflection point where frontier capability, cost, and infrastructure bottlenecks determine winners. A major thread is Alphabet/Google: the speakers argue Gemini for Carbon sits near the frontier on intelligence-versus-cost, while Google DeepMind\u2019s Genie 4 is presented as a world model for interactive 3D simulation and future convergence with Gemini.\n\nA second major theme is market reaction and business-model risk at Alphabet. The discussion cites a 13% one-day stock drop, about $500 billion of market value erased, revenue growth of 25% to $127 billion, and concerns that search advertising may plateau or decline as agents change user behavior. The speakers frame Google\u2019s long-term upside as shifting toward cloud, compute, and integrated AI systems, even as near-term ad weakness and capex intensity pressure margins.\n\nThe conversation also highlights security and crypto fragility. One speaker describes the Binance hack as a human compromise rather than a purely technical exploit, with $6.3 billion reportedly moved in about 20 minutes and much of it in stablecoins that could be frozen. That leads into broader claims that AI, quantum, and human-process weaknesses could reshape cybersecurity, but not necessarily annihilate Bitcoin.\n\nFinally, the episode widens into physical AI and infrastructure. The hosts discuss Tesla Optimus manufacturing targets of a million robots per year, first deliveries in 2027, Waymo\u2019s cost-per-mile advantages, and the possibility that CPU and RAM, not just GPUs, become the next bottleneck as agents proliferate. Education declines in CS and MBA programs are used as evidence that AI is already changing labor-market expectations.",
+    "key_takeaways": [
+      "Alex Wissner-Gross said Gemini for Carbon is \"exactly on that frontier\" and may resemble an Opus 5.5 equivalent at higher reasoning cost.",
+      "Peter Diamandis said Gemini for Carbon found 88% of vulnerabilities on SEC Bench Pro and wrote working patches for 71%, supporting the security-capability thesis.",
+      "Peter Diamandis said Alphabet suffered its worst stock day, falling 13% and wiping out $500 billion, despite revenue growth to $127 billion.",
+      "Alex Wissner-Gross predicted search advertising will top out in Q1 as AI agents increasingly drive purchasing and SEO behavior.",
+      "Alex Wissner-Gross said the Binance theft was primarily a human weak-link problem, not a purely technical exploit, and that the stolen value was mostly stablecoins rather than Bitcoin.",
+      "Peter Diamandis said Tesla Optimus is being designed for one million robots per year, with 20,000 robots per week capacity and first deliveries expected in 2027.",
+      "Dave argued that as AI agents proliferate, the bottleneck may shift from GPUs to CPUs and RAM, creating a new supply-chain constraint.",
+      "Peter Diamandis said municipal resistance to robotaxis will eventually fail because safety and cost advantages will force adoption."
+    ],
+    "investment_thesis": "Google\u2019s AI advantage may matter most if Gemini and Genie help offset search-ad decay by shifting value toward cloud, compute, and integrated frontier infrastructure.",
+    "key_tickers": [
+      "TSLA"
+    ]
+  },
+  {
     "id": 635,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Using Agents for Long-Horizon Financial Work \u2014 Aman Singh, Arca",
