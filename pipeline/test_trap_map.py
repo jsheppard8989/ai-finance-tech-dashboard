@@ -74,7 +74,8 @@ class TestValidator(unittest.TestCase):
         self.assertFails(lambda d, r: r["healthcare-five"]["trade"]["stop_rule"].update(fixed=False), "fixed stop")
 
     def test_event_only_stop_ok(self):
-        e = self.errs(lambda d, r: r["healthcare-five"]["trade"]["stop_rule"].pop("index_below"))
+        e = self.errs(lambda d, r: (r["healthcare-five"]["trade"]["stop_rule"].pop("index_below"),
+                                    r["healthcare-five"]["trade"]["stop_rule"].update(event="HIMS Q3 subscribers under 2.891 million")) and None)
         self.assertEqual(e, [])
 
     def test_grade_date_required_unless_holding(self):
@@ -109,10 +110,20 @@ class TestValidator(unittest.TestCase):
 
     def test_healthcare_stop_is_fixed(self):
         t = rows(DATA)["healthcare-five"]["trade"]
-        self.assertEqual(t["stop_rule"], {"type": "index_level_or_event", "index_below": 90,
-                                          "event": "HIMS Q3 subscribers under 2.891 million", "fixed": True})
+        sr = t["stop_rule"]
+        self.assertEqual((sr["type"], sr["index_below"], sr["fixed"], sr["weights"]), ("index_level", 90, True, "equal"))
+        self.assertEqual([(l["ticker"], l["base"]) for l in sr["index_legs"]],
+                         [("HIMS", 28.09), ("GDRX", 3.33), ("TEM", 77.97), ("GH", 183.1), ("ABT", 102.2)])
         self.assertIn("never moves", t["stop"])
-        self.assertGreater(t["index_now"], t["stop_rule"]["index_below"])
+        self.assertIn("JG's proposal, approved", t["stop"])
+        self.assertIn("Oct 30 close", t["quoted"])
+        self.assertEqual(t["value"], 4975.36)
+        # equal-weight index, 100 at the Sep 18 entries, on the Oct 30 closes
+        closes = {l["ticker"]: l["close"] for l in t["legs"]}
+        idx = round(100 * sum(closes[l["ticker"]] / l["base"] for l in sr["index_legs"]) / len(sr["index_legs"]), 2)
+        self.assertEqual(t["index_now"], idx)
+        self.assertEqual(t["index_now"], 99.51)
+        self.assertGreater(t["index_now"], sr["index_below"])
         self.assertFails(lambda d, r: d["benchmark"]["buys"][0].pop("source"), "missing source")
 
 
