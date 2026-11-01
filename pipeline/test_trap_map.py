@@ -114,8 +114,9 @@ class TestValidator(unittest.TestCase):
         self.assertEqual((sr["type"], sr["index_below"], sr["fixed"], sr["weights"]), ("index_level", 90, True, "equal"))
         self.assertEqual([(l["ticker"], l["base"]) for l in sr["index_legs"]],
                          [("HIMS", 28.09), ("GDRX", 3.33), ("TEM", 77.97), ("GH", 183.1), ("ABT", 102.2)])
-        self.assertIn("never moves", t["stop"])
-        self.assertIn("JG's proposal, approved", t["stop"])
+        self.assertEqual(t["stop"], "Stop: basket closes if the index closes below 90")
+        self.assertNotIn("grade_rule", t)
+        self.assertNotIn("grade_date", t)
         self.assertIn("Oct 30 close", t["quoted"])
         self.assertEqual(t["value"], 4975.36)
         # equal-weight index, 100 at the Sep 18 entries, on the Oct 30 closes

@@ -105,7 +105,7 @@ def _graded_on(r):
     if r["status"] == "holding":
         idx = f" Index now {t['index_now']}." if t.get("index_now") is not None else ""
         return (f'<span class="margin">Stay long unless stopped out</span><div class="small">{e(t["stop"])}{e(idx)}</div>'
-                f'<div class="small">{e(t["grade_rule"])}</div>')
+                + (f'<div class="small">{e(t["grade_rule"])}</div>' if t.get("grade_rule") else ""))
     return f'<span class="margin">{e(fmt_date(t["grade_date"]))} close</span><div class="small">{e(t["grade_rule"])}</div>'
 
 
@@ -203,7 +203,7 @@ def _expr_cell(r) -> str:
     if x.get("holdings"):
         dl = "".join(f'<dt>{e(h["ticker"])}</dt><dd>{e(h["shares"])} sh at ${h["entry"]:.2f}</dd>' for h in x["holdings"])
         dl += f'<dt>Bought</dt><dd>{e(x["bought"])}</dd><dt>Most it can lose</dt><dd>{e(t["max_loss"])}</dd>'
-        return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl><div class="small" style="margin-top:4px">{e(t["grade_rule"])}</div></div>'
+        return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl>' + (f'<div class="small" style="margin-top:4px">{e(t["grade_rule"])}</div>' if t.get("grade_rule") else "") + '</div>'
     dl = (f'<dt>Strikes</dt><dd>{e(x["strikes"])}</dd><dt>Expiry</dt><dd>{e(x["expiry"])}</dd>'
           f'<dt>Contracts</dt><dd>{e(x["contracts"])}</dd><dt>Cost</dt><dd>{e(x["debit"])}</dd>'
           f'<dt>Stock then</dt><dd>{e(x["stock_then"])}</dd><dt>Most it can lose</dt><dd>{e(t["max_loss"])}</dd>')
