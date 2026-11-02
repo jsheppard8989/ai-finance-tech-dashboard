@@ -179,7 +179,7 @@
    "event": {
     "name": "Notes come due",
     "date": "2026-12-07",
-    "when": "Due Sun Dec 6, paid Mon Dec 7; graded at the Dec 8 close",
+    "when": "Due Sun Dec 6, paid Mon Dec 7; settles at the Dec 8 close",
     "link": "https://www.globenewswire.com/news-release/2026/10/29/3391128/0/en/telesat-reports-results-for-the-three-and-nine-months-ended-september-30-2026.html",
     "link_label": "Telesat Q3 release, Oct 29",
     "date_confirmed": true,
@@ -243,7 +243,7 @@
     },
     {
      "at": "2026-10-29T14:59:00-05:00",
-     "text": "Telesat's call is graded at the Dec 8 close."
+     "text": "Telesat's call settles at the Dec 8 close."
     }
    ],
    "next_earnings": null,
@@ -254,7 +254,7 @@
    "ticker": "MU",
    "company": "Micron",
    "lean": "Negative",
-   "horizon": "Long-term view, graded at expiry Dec 15, 2028",
+   "horizon": "Long-term view, settles at expiry Dec 15, 2028",
    "reason": "A low price-to-earnings ratio looks like safety, but it rests on peak memory profits.",
    "event": {
     "name": "Paper trade expires",
@@ -522,7 +522,7 @@
   {
    "date": "2026-10-29",
    "at": "2026-10-29T14:59:00-05:00",
-   "text": "Telesat's call is graded at the Dec 8 close."
+   "text": "Telesat's call settles at the Dec 8 close."
   },
   {
    "date": "2026-10-29",
