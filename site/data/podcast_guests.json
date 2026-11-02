@@ -1,6 +1,30 @@
 [
   {
-    "id": 105750,
+    "id": 107690,
+    "name": "Tutor Intelligence",
+    "slug": "tutor-intelligence",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Tutor\u2019s edge is a full-stack robotics flywheel that turns real deployments into data, models, and faster customer adoption, while using greenfield demand to justify a cost-per-task ROI model.",
+    "last_episode_title": "The Robots Already Working in American Factories | Tutor Intelligence",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-02",
+    "appearance_count": 1
+  },
+  {
+    "id": 107691,
+    "name": "Luca Ferrari",
+    "slug": "luca-ferrari",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Ferrari\u2019s core claim is that Bending Spoons can compound value by acquiring software businesses, integrating them tightly, and improving cash generation while keeping leverage conservative.",
+    "last_episode_title": "How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-01",
+    "appearance_count": 1
+  },
+  {
+    "id": 107692,
     "name": "Can AI Fix Professional Networking?",
     "slug": "can-ai-fix-professional-networking",
     "bio": null,
@@ -12,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105751,
+    "id": 107693,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -24,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105752,
+    "id": 107694,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -36,7 +60,7 @@
     "appearance_count": 2
   },
   {
-    "id": 105753,
+    "id": 107695,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -48,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105754,
+    "id": 107696,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -60,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105755,
+    "id": 107697,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -72,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105756,
+    "id": 107698,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -84,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105757,
+    "id": 107699,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -96,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105758,
+    "id": 107700,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -108,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105759,
+    "id": 107701,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -120,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105760,
+    "id": 107702,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -132,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105761,
+    "id": 107703,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -144,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105762,
+    "id": 107704,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -156,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105763,
+    "id": 107705,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -168,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105765,
+    "id": 107707,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -180,7 +204,7 @@
     "appearance_count": 2
   },
   {
-    "id": 105764,
+    "id": 107706,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -192,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105766,
+    "id": 107708,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -204,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105767,
+    "id": 107709,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -216,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105768,
+    "id": 107710,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -228,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105769,
+    "id": 107711,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -240,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105770,
+    "id": 107712,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -252,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105771,
+    "id": 107713,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -264,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105772,
+    "id": 107714,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -276,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105773,
+    "id": 107715,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -288,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105774,
+    "id": 107716,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -300,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105775,
+    "id": 107717,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -312,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105776,
+    "id": 107718,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -324,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 105777,
+    "id": 107719,
     "name": "Andrew Huberman",
     "slug": "andrew-huberman",
     "bio": null,
@@ -333,30 +357,6 @@
     "last_episode_title": "Andrew Huberman - The Frontier of Neurotechnology - [Invest Like the Best, EP.494]",
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-10-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 105778,
-    "name": "Astro Teller",
-    "slug": "astro-teller",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
-    "last_episode_title": "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-05",
-    "appearance_count": 1
-  },
-  {
-    "id": 105779,
-    "name": "Alex Atallah & Amjad Masad",
-    "slug": "alex-atallah--amjad-masad",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
     "appearance_count": 1
   }
 ]
