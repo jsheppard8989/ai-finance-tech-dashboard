@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Nasdaq-100 Is a Filter, Not a Stock Picker</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root{--bg:#05070d;--panel:#0c111b;--ink:#e8edf3;--mut:#9aa7b6;--line:#1d2635;--acc:#5cc8ff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    a{color:var(--acc);overflow-wrap:anywhere}
+    .site-nav{display:flex;flex-wrap:wrap;gap:1rem 1.25rem;justify-content:center;align-items:center;padding:0.65rem 1rem;background:rgba(0,0,0,0.28);border-bottom:1px solid var(--line)}
+    .site-nav a{color:#00d4ff;text-decoration:none;font-size:0.95rem;font-weight:500}
+    .site-nav a:hover{text-decoration:underline}
+    .hero{padding:56px 5vw 28px;border-bottom:1px solid var(--line);background:radial-gradient(1200px 400px at 20% 0%,#0f2238 0%,var(--bg) 70%)}
+    .kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--acc);margin:0 0 8px}
+    h1{font-size:clamp(28px,4.4vw,48px);line-height:1.15;margin:0 0 12px;max-width:900px}
+    .sub{color:var(--mut);margin:0;max-width:760px}
+    .wrap{max-width:760px;margin:0 auto;padding:36px 20px 24px}
+    .wrap p{margin:0 0 1.15em}
+    .wrap h2{font-size:1.35rem;line-height:1.3;margin:2.2em 0 .7em;padding-top:1.2em;border-top:1px solid var(--line)}
+    .wrap h2:first-child{margin-top:0;padding-top:0;border-top:0}
+    .wrap ul{padding-left:1.2em;margin:0 0 1.15em}.wrap li{margin:0 0 .5em}
+    .wrap strong{color:#fff}
+    .tbl{overflow-x:auto;margin:0 0 1.3em}
+    table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.5;min-width:520px}
+    th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+    thead th{background:var(--panel);color:var(--acc)}
+    td:first-child{color:#fff;white-space:nowrap}
+    figure.chart{margin:1.6em 0 1.8em;padding:14px 14px 10px;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+    figcaption{font-weight:600;line-height:1.35;margin-bottom:8px}
+    .cnum{display:inline-block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin-right:6px}
+    .csub{display:block;font-weight:400;font-size:13px;color:var(--mut);margin-top:2px}
+    .chart-host svg{display:block;width:100%;height:auto}
+    .cnote{font-size:12.5px;line-height:1.5;color:var(--mut);margin:8px 0 0 !important}
+    .mut{color:var(--mut);font-size:13px}
+    .sources li{font-size:14px}
+    footer{max-width:760px;margin:0 auto;padding:20px 20px 48px;border-top:1px solid var(--line);color:var(--mut);font-size:13px}
+    .wrap h3{font-size:1.08rem;line-height:1.35;margin:1.6em 0 .5em}
+    .wrap code{font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 4px}
+    .wrap hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+    .asof{color:var(--mut);font-size:13px;margin:10px 0 0}
+    .summary-box{margin:0 0 1.8em;padding:16px 18px 6px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:10px}
+    .summary-box h2{font-size:1.05rem;margin:0 0 .6em !important;padding:0 !important;border:0 !important;color:var(--acc);text-transform:uppercase;letter-spacing:.08em}
+    figure.chart a.chart-full{display:block;cursor:zoom-in}
+    figure.chart img{display:block;width:100%;height:auto;border-radius:6px;background:#0a0e16}
+    .lbl{display:inline-block;font-size:10.5px;line-height:1.5;font-weight:700;letter-spacing:.06em;padding:0 6px;border-radius:4px;vertical-align:1px;border:1px solid currentColor}
+    .lbl-fact{color:#34d399}.lbl-reported{color:#5cc8ff}.lbl-inference{color:#c084fc}
+    .lbl-estimate{color:#facc15}.lbl-opinion{color:#ff9a5c}.lbl-unverified{color:#f87171}
+  </style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Site sections">
+    <a href="index.html">Home</a>
+    <a href="debait.html">Long &amp; Short</a>
+    <div class="nav-research" data-research-menu><noscript><a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a> · <a href="healthcare.html">Healthcare Abundance</a> · <a href="compute-thesis.html">Who Keeps the Profit from the AI Compute Shortage</a> · <a href="mu-memory-cycle.html">Micron and the Memory Cycle</a> · <a href="qqq-filter.html">The Nasdaq-100 Is a Filter, Not a Stock Picker</a></noscript></div>
+    <a href="archive.html">Archive</a>
+  </nav>
+    <header class="hero">
+    <p class="kicker">Markets · Research</p>
+    <h1>The Nasdaq-100 Is a Filter, Not a Stock Picker</h1>
+    <p class="sub">Why owning the sieve beats guessing the gold nugget</p>
+    <p class="asof">As of Oct 31, 2026. Model numbers on this page come from an illustrative simulation, not market data.</p>
+  </header>
+  <main class="wrap">
+    <article>
+      <section class="summary-box" aria-labelledby="view-h">
+        <h2 id="view-h">Our view (opinion)</h2>
+        <p><strong>The Nasdaq-100 is less a portfolio of clever picks and more a bouncer with a tape measure.</strong> Every December it lets in companies that got big, shows the door to the ones that shrank, and lets a handful of giant compounders do almost all the heavy lifting. Owning the index (the QQQ fund tracks it) means you automatically own the next monster winner once it is large enough to notice, and you never have to work up the nerve to hold it through a 50% drop.</p>
+        <p>Picking single stocks is a different sport. Most stocks, history says, are a long walk to nowhere. A few are rocket ships. The hard part is not spotting the rocket. It is still being on board when it finally lifts off.</p>
+      </section>
+
+      <h2>The historical rhyme</h2>
+      <p>In 2018 finance professor Hendrik Bessembinder looked at every US common stock in the CRSP database from 1926 to 2016, all 25,332 of them, and asked a rude question: did they beat one-month Treasury bills? Mostly, no. His paper (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X18301521"><em>Do Stocks Outperform Treasury Bills?</em>, Journal of Financial Economics, 2018</a>) found:</p>
+      <ul>
+        <li>Just 1,092 companies, about 4.3% of the total, account for all of the stock market's net wealth creation over T-bills. The other 96% or so, taken together, roughly matched T-bills.</li>
+        <li>The top 5 companies alone account for 10.07% of that wealth creation. The top 50 account for 39.29%. Just 90 companies, 0.36% of the list, account for more than half.</li>
+        <li>About 58% of stocks failed to beat T-bills over their lifetimes (<a href="https://news.wpcarey.asu.edu/20180917-do-stocks-outperform-treasury-bills">ASU W. P. Carey summary, Sep 17, 2018</a>).</li>
+      </ul>
+      <p>So the stock market is a lottery where the house is generous overall, but only because a tiny number of tickets pay off like crazy. If you hold five stocks, the odds are good that none of them is one of the 90.</p>
+      <p>Now look at how the Nasdaq-100 chooses its members. Per the <a href="https://indexes.nasdaq.com/docs/methodology_NDX.pdf">official methodology</a>, it holds 100 of the largest non-financial companies listed on Nasdaq, weighted by market value with caps so one giant cannot swallow the whole thing. Each December it ranks everyone by size, takes the top 75, keeps existing members still in the top 100, gives members ranked 101 to 125 a grace period if they were top-100 last time, and fills any gaps with newcomers. Quarterly reviews can also kick out members that fall below 125th, and a "Fast Entry" rule lets a very large newcomer in early.</p>
+      <p>That is momentum with a filing cabinet. Nasdaq says that from 2021 to 2025 an average of 91.6% of members were picked in the first two steps, purely on size (<a href="https://www.nasdaq.com/articles/global-indexes/2025-nasdaq-100-reconstitution-and-performance-highlights">Nasdaq, 2025 reconstitution highlights</a>). In the December 2025 shuffle, six companies came in, and Nasdaq notes each had gained at least 50% that year. Six went out, including The Trade Desk and Lululemon, down 68% and 46% in 2025. Nobody had to feel sad about it. The rule just did its job.</p>
+
+      <h2>A toy model of the filter</h2>
+      <p>To see why the filter matters, we built an <strong>illustrative simulation</strong>. It is synthetic and not calibrated to real stocks, so treat every number below as a cartoon of the idea, not a forecast. The setup: 300 made-up companies, 100 of them in a cap-weighted index rebuilt once a year with the same 75 / 100 / 125 rules, 20 years of monthly prices, run 500 times. The fake stocks are wild on purpose: big swings (50% a year), fat tails, a slight downward drift on average, and a 1% yearly chance of going to zero. Dead companies get replaced by small newcomers that sometimes grow up.</p>
+
+      <div class="tbl"><table>
+        <thead><tr><th>Illustrative simulation, 20 years</th><th>Result</th></tr></thead>
+        <tbody>
+          <tr><td>Index, growth of $1 (median / average)</td><td>15.1x / 62.7x</td></tr>
+          <tr><td>One random stock, bought and held (median / average)</td><td>0.18x / 18.7x</td></tr>
+          <tr><td>Single stocks ending below where they started</td><td>70.6%</td></tr>
+          <tr><td>Original index members that beat the index</td><td>9.4% on average</td></tr>
+          <tr><td>Share of total net gain from the top 5 names (median)</td><td>89%</td></tr>
+          <tr><td>Share of total net gain from the top 10 names (median)</td><td>99%</td></tr>
+        </tbody>
+      </table></div>
+      <p>Read the second row twice. The typical single stock turned $1 into 18 cents, while the average turned it into $18.70. That gap is the whole story: a few freak winners drag the average up while the typical stock quietly sinks. It is the same shape Bessembinder found in real data, just turned up to eleven by our dramatic settings.</p>
+
+      <figure class="chart" id="chart-1">
+        <figcaption><span class="cnum">Chart 1</span>A hundred stocks wander off; the index keeps walking<span class="csub">Grey lines are the 100 original members, the blue line is the index rebuilt each year. Illustrative simulation, one sample run.</span></figcaption>
+        <a class="chart-full" href="charts/qqq/01.png" data-lightbox aria-label="Open chart 1 full size"><img src="charts/qqq/01.png" alt="Log-scale line chart over 20 simulated years. About a hundred grey single-stock lines spread from near zero to over 100 times their start, with many collapsing. A thick blue index line climbs steadily to about 6 times its start." loading="lazy" decoding="async"></a>
+        <p class="cnote">Source: our illustrative simulation (synthetic data, fixed random seed). Not market data. Click the chart to open it full size.</p>
+      </figure>
+
+      <figure class="chart" id="chart-2">
+        <figcaption><span class="cnum">Chart 2</span>Where the gains come from: basically one stock<span class="csub">Each bar is one original member's 20-year gain per $1, ranked best to worst. In this run the top 10 produced about 102% of the net gain, meaning everybody else combined lost money. Illustrative simulation.</span></figcaption>
+        <a class="chart-full" href="charts/qqq/02.png" data-lightbox aria-label="Open chart 2 full size"><img src="charts/qqq/02.png" alt="Bar chart of 100 simulated stocks ranked by 20-year gain per dollar. The top stock gains about 425 dollars per dollar, the next few gain 15 to 35, and from about the 20th stock onward the bars are flat at or below zero." loading="lazy" decoding="async"></a>
+        <p class="cnote">Source: our illustrative simulation (synthetic data, fixed random seed). Not market data.</p>
+      </figure>
+
+      <h2>Hold, bleed, sell, watch it spike</h2>
+      <p>Here is the very human way to own a single stock. Buy it. Watch it drop. Hold on bravely. Watch it drop more. Finally sell, just to make the pain go away. Then watch it rally without you. In the simulation we tested two common pain thresholds: sell once a stock falls 30% from its peak, or 50%.</p>
+      <div class="tbl"><table>
+        <thead><tr><th>Illustrative simulation</th><th>Sell after a 30% drop</th><th>Sell after a 50% drop</th></tr></thead>
+        <tbody>
+          <tr><td>How often the sell rule fired</td><td>99% of runs</td><td>96% of runs</td></tr>
+          <tr><td>Stock later traded above the sale price</td><td>93% of sales</td><td>92% of sales</td></tr>
+          <tr><td>Growth of $1 (median / average)</td><td>0.79x / 1.39x</td><td>0.64x / 2.82x</td></tr>
+        </tbody>
+      </table></div>
+      <p>With swings this big, the sell rule goes off almost every time, and more than nine times out of ten the stock later trades above where you bailed. Selling does protect you from the true zeros (the median is better than holding), but it also guarantees you miss most of the rocket ships. The index never panics. It simply keeps whatever is big.</p>
+
+      <figure class="chart" id="chart-3">
+        <figcaption><span class="cnum">Chart 3</span>One stock's story, in four acts<span class="csub">Buy at the top, sell after a 50% fall, then see it rebound to 2.2 times the sale price. Fair to note: this one later slid much lower, so selling was not crazy here. Illustrative simulation.</span></figcaption>
+        <a class="chart-full" href="charts/qqq/03.png" data-lightbox aria-label="Open chart 3 full size"><img src="charts/qqq/03.png" alt="Log-scale price path for one simulated stock over 20 years. It is bought at 1.0, which turns out to be its peak, sold near 0.45 after a 50 percent fall, rebounds to about 0.95 within three years, then drifts down to about 0.1 by year 20." loading="lazy" decoding="async"></a>
+        <p class="cnote">Source: our illustrative simulation (synthetic data, fixed random seed). Not market data.</p>
+      </figure>
+
+      <h2>Upside versus downside</h2>
+      <p><strong>Upside.</strong> You own the filter, so you never have to guess which company becomes the next giant. When it gets big enough, it shows up in your portfolio on its own, and the losers get escorted out without you having to admit anything. History (Bessembinder) says the whole market's gains come from a tiny group of winners, and a size-ranked index is built to end up holding them.</p>
+      <p><strong>Downside.</strong> The filter only notices a company after it has already grown, and it drops companies after they have already fallen. That is buying high and selling low on purpose, just in a way that has tended to work because the winners keep winning. It is also concentrated: a few mega-caps drive the result in both directions, and this index has had very large drawdowns in the past. Our simulation numbers come from settings we chose to make the point loudly; real markets are calmer and messier.</p>
+      <p>Our read: if you cannot reliably find the 4% in advance (and almost nobody can), owning the bouncer is a lot easier on the nerves than owning a handful of guests.</p>
+    </article>
+  </main>
+  <footer>
+    <p><strong>Disclaimer:</strong> This note is for informational and educational purposes only. Simulation results are illustrative and are not predictions. It is not investment advice, a solicitation, or a recommendation to buy, sell, or hold any security. Investing involves risk, including the possible loss of principal. Past performance is not indicative of future results.</p>
+  </footer>
+  <script src="./js/research-nav.js"></script>
+  <script>
+  // Chart lightbox, same behavior as the home page's expanded chart: click to open,
+  // Esc / backdrop / close button to close. Without JS the link opens the full-size PNG.
+  (function () {
+    var ov;
+    function close() { if (!ov) return; ov.style.display = 'none'; document.body.style.overflow = ''; if (ov._from) ov._from.focus(); }
+    function open(a) {
+      if (!ov) {
+        ov = document.createElement('div');
+        ov.id = 'chart-lightbox';
+        ov.setAttribute('role', 'dialog');
+        ov.setAttribute('aria-modal', 'true');
+        ov.style.cssText = 'position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,0.88);display:flex;align-items:center;justify-content:center;padding:max(12px,env(safe-area-inset-top)) 12px 12px;box-sizing:border-box;';
+        ov.innerHTML = '<img id="chart-lightbox-img" alt="" style="max-width:96vw;max-height:92vh;width:auto;height:auto;border-radius:6px;background:#0a0e16">' +
+          '<button type="button" id="chart-lightbox-close" aria-label="Close chart" style="position:fixed;top:max(10px,env(safe-area-inset-top));right:10px;z-index:1;width:44px;height:44px;border-radius:50%;border:1px solid #4b5563;background:#111827;color:#e5e7eb;font-size:22px;line-height:1;cursor:pointer;">&times;</button>';
+        document.body.appendChild(ov);
+        ov.addEventListener('click', function (e) { if (e.target === ov) close(); });
+        document.getElementById('chart-lightbox-close').addEventListener('click', close);
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && ov.style.display !== 'none') close(); });
+      }
+      var src = a.querySelector('img');
+      var img = document.getElementById('chart-lightbox-img');
+      img.src = a.getAttribute('href');
+      img.alt = src ? src.alt : '';
+      ov.setAttribute('aria-label', (src && src.alt ? src.alt : 'Chart') + ', expanded');
+      ov._from = a;
+      ov.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+      document.getElementById('chart-lightbox-close').focus();
+    }
+    Array.prototype.forEach.call(document.querySelectorAll('a[data-lightbox]'), function (a) {
+      a.addEventListener('click', function (e) {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return; // let new-tab clicks through
+        e.preventDefault(); open(a);
+      });
+    });
+  })();
+  </script>
+</body>
+</html>
