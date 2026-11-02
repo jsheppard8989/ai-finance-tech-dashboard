@@ -507,7 +507,6 @@
    "direction": "Net long",
    "kind": "spread",
    "status": "new",
-   "owner": "JG",
    "horizon": "Nov 20 expiry",
    "reason": "Power demand from data centers keeps lifting what Constellation's nuclear fleet can earn.",
    "event": {
