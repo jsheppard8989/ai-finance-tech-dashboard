@@ -4407,7 +4407,7 @@
     if ('ResizeObserver' in window) new ResizeObserver(later).observe(document.querySelector('.container'));
     later();
     if (reduce || !('IntersectionObserver' in window)) return;
-    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px', threshold: 0 }); // threshold 0: a tall card (Latest Insights is ~22000px on phones) can never reach 5% visible, so it stayed at opacity 0
     function arm() {
       document.querySelectorAll('.container .grid .card').forEach(function (el, i) {
         if (el.classList.contains('rv')) return; var r = el.getBoundingClientRect(); if (r.top < innerHeight) return;

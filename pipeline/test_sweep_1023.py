@@ -90,3 +90,8 @@ def test_floor_demoted_and_filtered():
 def test_brazil_notes():
     t = (ROOT / "site/debate_history.json").read_text()
     assert "scheduled for Oct 4, 2026" not in t and "Brazil's first round was held Oct 4, 2026" in t
+
+
+def test_free_money_demoted():
+    dem = json.loads((ROOT / "site/data/overton_demote.json").read_text())["demote"]
+    assert any(d["term"] == "free money" and d.get("id") == 315 for d in dem)
