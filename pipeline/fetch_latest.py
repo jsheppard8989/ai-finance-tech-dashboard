@@ -265,7 +265,9 @@ def episode_audio_filename(episode):
     # Fallback: Simplecast and other feeds often use generic URLs (e.g. default.mp3)
     # so every episode would overwrite. Use a unique name from podcast + date + guid/title.
     stem = Path(filename).stem
-    if stem == 'default' or 'simplecast.com' in audio_url:
+    generic_stems = {'default', 'audio', 'episode', 'media', 'stream', 'file', 'download', 'index', 'play', 'listen', 'mp3'}
+    if (stem.lower() in generic_stems or 'simplecast.com' in audio_url
+            or 'omny.fm' in audio_url):
         pub = (episode.get('published_date') or '').replace('-', '')[:8]
         guid = (episode.get('rss_guid') or '')
         if guid and len(guid) < 50 and '/' not in guid:
