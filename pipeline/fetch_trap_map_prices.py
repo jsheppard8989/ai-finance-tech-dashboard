@@ -179,7 +179,9 @@ def pull(d, now=None):
                     warn.append(f"{r['id']}: unrealistic quote, kept last good price ({t.get('mid_time')}): {uq}")
                     continue
                 t.pop("mid", None)
-                t["mark"], t["value"] = mark, round(mark * 100 * t["contracts"], 2)
+                # a cash-secured put: cash set aside plus premium kept, less what buying it back costs now
+                cash = (t.get("cash_secured") or 0) + (t.get("premium") or 0)
+                t["mark"], t["value"] = mark, round(cash + mark * 100 * t["contracts"], 2)
                 t["mid_time"] = ts.astimezone(CT).isoformat(timespec="minutes")
                 t["priced"] = "third_from_worst"
                 t.pop("quote_flags", None)

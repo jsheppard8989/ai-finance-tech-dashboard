@@ -574,6 +574,82 @@
     }
    ],
    "main_risk": "Wrong if: CEG closes below $242.64 (the stop), or the Nov 9 report shows no new data-center contract news and the stock gives back the gap."
+  },
+  {
+   "id": "lrcx-put",
+   "ticker": "LRCX",
+   "company": "Lam Research",
+   "lean": "Positive",
+   "direction": "Net long",
+   "kind": "spread",
+   "status": "new",
+   "horizon": "Dec 4 expiry",
+   "reason": "Chip-equipment spending holds up, and we are glad to own Lam near $204 if the stock falls.",
+   "research": {
+    "url": "",
+    "label": "Read JG's Lam Research research"
+   },
+   "event": {
+    "name": "Lam annual shareholder meeting",
+    "date": "2026-11-03",
+    "when": "Tue Nov 3, 9:30 AM PT",
+    "link": "https://investor.lamresearch.com/events?item=95",
+    "link_label": "Lam Research events page",
+    "date_confirmed": true,
+    "date_source": "Lam Research events page"
+   },
+   "trade": {
+    "text": "Sold 1 Dec 4 $210 put at $5.5667, $556.67 premium collected, $21,000 cash set aside (stock $233.94)",
+    "max_loss": "$20,443.33",
+    "quoted": "Yahoo Finance option quotes, Nov 2, 11:11 AM CT ($210 put 5.00/6.70; may be up to 15 minutes delayed)",
+    "premium": 556.67,
+    "cash_secured": 21000.0,
+    "effective_entry": 204.43,
+    "mark": -6.1333,
+    "value": 20943.34,
+    "cost": 21000.0,
+    "mid_time": "2026-11-02T11:11-06:00",
+    "posted": "2026-11-02",
+    "expiry": "2026-12-04",
+    "underlying": "LRCX",
+    "contracts": 1,
+    "legs": [
+     {
+      "right": "P",
+      "strike": 210,
+      "qty": -1
+     }
+    ],
+    "target": "Buy the put back at $1.00.",
+    "stop": "Buy the put back if LRCX closes below $200.",
+    "exit": {
+     "type": "expiry",
+     "date": "2026-12-04"
+    },
+    "expression": {
+     "type": "Cash-secured put",
+     "strikes": "$210",
+     "expiry": "Dec 4",
+     "contracts": 1,
+     "credit": "$5.5667 per share",
+     "stock_then": "$233.94",
+     "caveat": "Effective entry if assigned: $204.43. Entry priced at 11:11 AM CT on Nov 2"
+    },
+    "priced": "third_from_worst",
+    "change": -56.66
+   },
+   "date_added": "2026-11-02",
+   "last_reviewed": "2026-11-02",
+   "notes": "Few contracts change hands at this strike (one traded today, 50 open) and the gap between bid and ask is wide ($1.70), so buying it back early can cost more than the quote suggests.",
+   "why_we_hold": "Our view (OPINION): chip makers keep buying Lam's equipment, and owning the stock at an effective $204.43, about 13% below today's price, is a level we are glad to pay. The Dec 4 expiry ends weeks before Lam's next earnings.",
+   "what_proves_it": "LRCX closes above $210 at the Dec 4 expiry, so we keep the $556.67 premium.",
+   "main_risk": "Wrong if: LRCX closes below $200 (the stop). If the stock falls hard we may have to buy 100 shares at $210; the most it can lose is $20,443.33.",
+   "history": [
+    {
+     "at": "2026-11-02T12:00:00-06:00",
+     "text": "Lam Research: new Dec 4 cash-secured put added."
+    }
+   ]
   }
  ],
  "past_calls": [],
@@ -616,18 +692,33 @@
     "rows": [
      "ceg-q3"
     ]
+   },
+   {
+    "date": "2026-11-02",
+    "price": 755.72,
+    "dollars": 21000.0,
+    "shares": 27.78807,
+    "source": "Yahoo Finance SPY close, Oct 30, 2026 (latest close on file when the row was added Nov 2)",
+    "rows": [
+     "lrcx-put"
+    ]
    }
   ]
  },
  "totals": {
-  "cost": 17408.17,
-  "value": 18901.69,
-  "spy_value": 17169.86,
-  "change": 1493.52,
+  "cost": 38408.17,
+  "value": 39845.03,
+  "spy_value": 38169.86,
+  "change": 1436.86,
   "midpoint_rows": [],
   "computed_by": "pipeline/build_trap_map.py"
  },
  "changes": [
+  {
+   "date": "2026-11-02",
+   "at": "2026-11-02T12:00:00-06:00",
+   "text": "Lam Research: new Dec 4 cash-secured put added."
+  },
   {
    "date": "2026-11-02",
    "at": "2026-11-02T09:10:00-06:00",
@@ -679,7 +770,7 @@
    "text": "AST SpaceMobile: the facts that would prove us wrong were updated."
   }
  ],
- "quotes_as_of": "2026-11-02T09:29:00-06:00",
+ "quotes_as_of": "2026-11-02T11:11:00-06:00",
  "how_we_track": "Every view is a paper trade priced the day it was added, priced a third of the spread from the worst side (buys a third below the ask, sells a third above the bid), never the midpoint. A trade ends only at its target, its stop or its expiry. Put spreads are held to expiry. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good.",
- "price_banner": "Prices as of 9:29 AM CT on Nov 2 (quotes may be up to 15 minutes delayed). Each price sits a third of the spread in from the worst quote. Options that haven't traded yet today show an estimated price."
+ "price_banner": "Prices as of 9:29 AM CT on Nov 2, Lam Research as of 11:11 AM CT (quotes may be up to 15 minutes delayed). Each price sits a third of the spread in from the worst quote. Options that haven't traded yet today show an estimated price."
 }

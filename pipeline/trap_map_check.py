@@ -200,12 +200,22 @@ def expected_direction(r: dict) -> str | None:
         return "Net short"
     if rights == {"C"} and long_k and short_k and min(long_k) < min(short_k):
         return "Net long"
+    if is_short_put(r):
+        return "Net long"
     text = (tr.get("text") or "").lower()
     if "put spread" in text:
         return "Net short"
     if "call spread" in text:
         return "Net long"
     return None
+
+
+def is_short_put(r: dict) -> bool:
+    """A single sold put (cash-secured): one put leg, sold, and cash set aside to buy the shares."""
+    tr = r.get("trade") or {}
+    legs = tr.get("legs") or []
+    return (len(legs) == 1 and legs[0].get("right") == "P" and (legs[0].get("qty") or 0) < 0
+            and (tr.get("cash_secured") or 0) > 0)
 
 
 def _direction_errs(r: dict, rid: str) -> list[str]:
@@ -222,7 +232,9 @@ def _direction_errs(r: dict, rid: str) -> list[str]:
     elif dr != want:
         errs.append(f"{rid}: direction {dr} doesn't match the trade ({want})")
     ty = (ex.get("type") or "").lower()
-    if ("put" in ty and dr != "Net short") or ("call" in ty and dr != "Net long") or ("basket" in ty and dr != "Long"):
+    if is_short_put(r) and "cash-secured put" not in ty:
+        errs.append(f"{rid}: a sold put must be shown as a cash-secured put (got {ex.get('type')!r})")
+    if ("put" in ty and not is_short_put(r) and dr != "Net short") or ("call" in ty and dr != "Net long") or ("basket" in ty and dr != "Long"):
         errs.append(f"{rid}: direction {dr} doesn't match the expression {ex.get('type')!r}")
     lean = r.get("lean")
     if lean and lean != ("Negative" if "hort" in dr else "Positive"):
