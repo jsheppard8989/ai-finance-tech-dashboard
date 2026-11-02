@@ -1149,7 +1149,7 @@
     {
       "podcast_episode_id": 607,
       "insight_id": 618,
-      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 8: banned word 'thin' -> G's wording (global swap kept as safety net); both raw and already-swapped forms",
+      "_note": "Oct 25 2026 sweep (cos/sweep_1025/fixes.md) item 8: banned word 'thin' -> G's wording (global swap kept as safety net); both raw and already-swapped forms | Nov 2 2026 (publish-guard fix): #715 swapped 'capex intensity' file-wide in data.js (incl. this card's Deep Dive META rationale) but only card 647 got a durable rule, so the evening re-export brought it back here and publish_guard blocked. Same plain-wording fix, scoped to this card.",
       "replacements": [
         [
           "separate AI beneficiaries into three buckets:",
@@ -1162,6 +1162,10 @@
         [
           "the second bucket is still small, while the third bucket is",
           "the second group is still small, while the third group is"
+        ],
+        [
+          "capex intensity",
+          "heavy capital spending"
         ]
       ]
     },
@@ -2642,6 +2646,14 @@
     [
       "'I predict that this is going to move SpaceX XAI and cursor to the front",
       "'I predict that this is going to move SpaceX [xAI] and [Cursor] to the front"
+    ],
+    [
+      "a classic venture-style bet on repeated step-change invention",
+      "a classic venture-style model that depends on repeated step-change invention"
+    ],
+    [
+      "venture-style bet",
+      "venture-style approach"
     ]
   ],
   "global_name_replacements": [
