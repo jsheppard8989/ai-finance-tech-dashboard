@@ -1,6 +1,141 @@
 {
   "insights": [
     {
+      "id": 650,
+      "title": "The Robots Already Working in American Factories | Tutor Intelligence",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-02",
+      "summary": "Josh Gruenstein\u2019s core argument is that robotics only works as a full-stack business: you have to solve intelligence, hardware, manufacturing, supply chain, customer onboarding, and deployment together, not just build a model. He says Tutor Intelligence has deployed robots across the U.S. at meaningful scale and used those real deployments to train frontier robot AI models, with a claim from Claude that Tutor robots have helped manufacture and ship over a quarter of a billion products.\n\nHe frames the U.S. market as still mostly greenfield, arguing that if nine out of ten factories and warehouses have no robots, adoption depends on proving practical ROI rather than impressive demos. Tutor\u2019s go-to-market is built around fast sales and deployment: he says the average time from first call to signed contract is 40 to 60 days, and then about 40 days from contract to robots on site doing work.\n\nThe episode also focuses on unit economics and operating costs. Gruenstein says ongoing inference and teleoperation costs are now more important than upfront capex in the cost picture, and he explicitly ties the economics of human tutors to the cost of serving models on an H200. The strategy is to use human tutors where needed, but minimize them through better models, real-world data, and repeated iteration.\n\nOn the product side, he describes two robot embodiments: Cassie, a heavy-duty single-arm robot with suction cups and foundation models in the 200 to 400 million parameter range, and Sunny, a semi-humanoid designed for indoor industrial reliability over three to ten years. He says Tutor has about 100 Sunnys operating in Boston in its data factory, ships code daily, and runs software releases roughly every two weeks, while also increasing verticalization and U.S.-based manufacturing capacity.",
+      "key_takeaway": "Tutor\u2019s edge is a full-stack robotics flywheel that turns real deployments into data, models, and faster customer adoption, while using greenfield demand to justify a cost-per-task ROI model.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 640,
+      "notable_quotes": [
+        {
+          "speaker": "Josh Gruenstein",
+          "quote": "We have an average time from that first call to a robot signing contract of 40 to 60 days. We have an average time from that signed contract to robots actually in the customer site of about 40 days doing work."
+        },
+        {
+          "speaker": "Josh Gruenstein",
+          "quote": "Claude told me last night that it estimates Tudor robots have helped manufacture and ship over a quarter of a billion products."
+        },
+        {
+          "speaker": "Josh Gruenstein",
+          "quote": "Think about what is the cost to serve models with an H200, right? And you can map that out and what's the duty cycle and utilization of that H200. And you can think very similarly about human intelligence."
+        }
+      ]
+    },
+    {
+      "id": 651,
+      "title": "Preparing For 2027 Inflection in Global Liquidity | Michael Howell\u2019s Bull Case For Bonds and Tepid View of Liquidity-Sensitive Assets",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-02",
+      "summary": "Michael Howell argues the global liquidity cycle peaked in late 2025 and is now turning down, with the key distinction that liquidity is still high in level terms but is slowing in growth. He frames the next phase as a late-cycle \"turbulence\" period in which refinancing stress, collateral tightness, and funding-market fragility matter more than simple rate changes.\n\nA central part of his argument is that financial stress is a refinancing problem, not just a rates problem: debt must be rolled repeatedly, and when liquidity growth slows, repo and collateral markets become the pressure point. He says the Fed is managing this more subtly through an ample-reserves framework and reserve management purchases, while the Treasury is using bill issuance and buybacks as a more powerful liquidity tool than conventional QE.\n\nHe also makes asset-specific calls. Credit is already weakening, with high yield and lower-quality spreads widening. Longer-duration government bonds are the preferred defensive asset. Bitcoin is described as the most liquidity-sensitive asset, with an expected retest of 70,000 in 2027 if liquidity worsens. Gold remains constructive in his view because Chinese liquidity and monetization needs should continue to support it.\n\nOn rates, he rejects the idea that long yields are mainly driven by fiscal fear, instead arguing that term premium and rate expectations tied to nominal growth matter more. He estimates U.S. 10-year fair value around 5.5% to 6%, and sees 2027 as the likely inflection window for liquidity to bottom and for policy to respond more forcefully if refinancing stress intensifies.",
+      "key_takeaway": "Late-2025 liquidity rollover should favor long-duration Treasuries over credit and leave Bitcoin and gold highly sensitive to 2027 policy and refinancing stress.",
+      "tickers_mentioned": [
+        "TLT",
+        "HYG"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 639,
+      "notable_quotes": [
+        {
+          "speaker": "Michael Howell",
+          "quote": "The important thing to say is that this is really measuring the growth of liquidity into financial markets so it's not looking at the level. The level is still relatively high but what we're seeing is a very clear slowdown."
+        },
+        {
+          "speaker": "Michael Howell",
+          "quote": "currently bills Treasury bills very short dated got federal debt account for about 23% of total federal debt outstanding I think that's going to be pushed up to 30 that's not the highest there have been has been a lot higher in the past but let's say 30 is a target"
+        },
+        {
+          "speaker": "Michael Howell",
+          "quote": "Bitcoin is an excellent brometer of liquidity okay I think it really pays attention to watch because looking at all the evidence and the statistical what we've done we confirm that Bitcoin is the most liquidity sensitive asset on the planet so it's very sensitive to movement and liquidity"
+        }
+      ]
+    },
+    {
+      "id": 648,
+      "title": "How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-01",
+      "summary": "Luca Ferrari lays out Bending Spoons as a long-horizon acquisition-and-integration platform: buy technology companies, fold them into a shared stack and core team, and use operational improvements to make them more cash-generative over a 10-year view. He frames this as a compounding model rather than a classic venture-style model that depends on repeated step-change invention, arguing that most companies do not get multiple \u201cwatershed\u201d moments.\n\nA key theme is the distinction between radical invention and relentless optimization. Ferrari says companies can be highly innovative while optimizing, but that step-change invention is different and rare; he cites Apple\u2019s iPhone and Nvidia\u2019s AI inflection as examples, and points to Google Search still dominating decades later as evidence that the right initial invention can remain durable for a very long time.\n\nHe is skeptical of the \u201cSaaS apocalypse\u201d narrative, arguing that AI lowered the barriers to coding but did not erase the real moats in digital businesses. In his view, brand, switching costs, network effects, and proprietary data still matter, and valuation resets were more about markets repricing unrealistic assumptions than about software becoming obsolete.\n\nFerrari also details Bending Spoons\u2019 internal automation push. He says the firm uses a Slack-based internal agent with access to repositories, files, and credentials workflows, and claims AI now handles most internal coding and data work: roughly 90% of data fetching/cleaning/plotting and about 94% of coding at the last check. On capital structure, he says the firm keeps leverage well below 3x, is currently around 2.4-2.5x, and refinances debt to keep maturities 5+ years out, with default risk assessed as close to zero.",
+      "key_takeaway": "Ferrari\u2019s core claim is that Bending Spoons can compound value by acquiring software businesses, integrating them tightly, and improving cash generation while keeping leverage conservative.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "AAPL",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 637,
+      "notable_quotes": [
+        {
+          "speaker": "Luca Ferrari",
+          "quote": "And then we integrate them into our platform same foundational technologies, same core team, and try to transform them so there are a lot more cash-generative with a 10-year view, so a long, long horizon."
+        },
+        {
+          "speaker": "Luca Ferrari",
+          "quote": "So, I think that the the top of quality is and the minds that you need to max out innovation or at least radical invention, because I think you can be very innovative as you optimize, but I think, you know, like more radical, step-change innovation versus optimization incremental innovation are quite different."
+        },
+        {
+          "speaker": "Luca Ferrari",
+          "quote": "And our assessment right now is that our risk of defaulting on our debt is a close to zero."
+        }
+      ]
+    },
+    {
+      "id": 649,
+      "title": "The Fed Has AI\u2019s Back | Dan Krausz on \u201cLiquidity Trap Door\u201d In AI Infrastructure and Why Policymakers Are Inclined to Support Financial Conditions",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-01",
+      "summary": "Dan Krausz argues the AI infrastructure trade is being driven less by AI end-demand and more by liquidity and financing conditions. He frames liquidity as the global availability of capital, influenced by Treasury issuance, Fed policy, bank lending standards, private credit, and the dollar, and says the most credit-dependent parts of the AI supply chain get hit first when liquidity weakens.\n\nHe says the central bear case for AI is not collapsing usage demand, but constrained financing. In his view, hyperscalers funded much of last year\u2019s capex with cash from prior years, but now the market must absorb more financing burden. He cites CoreWeave unsecured bonds yielding as much as 15% and Oracle CDS widening as examples of stress spreading through AI-adjacent credits.\n\nKrausz also argues policymakers have incentives to avoid \u201cpricking the bubble\u201d in AI if inflation is not re-accelerating. He thinks the Fed and Treasury may use marginal liquidity-supportive tools, and he treats issuance mix as important: front-end Treasury issuance versus long-end issuance, in particular, is something he says can materially affect gold. He also says the Fed is not necessarily too tight yet, and policy may remain measured to preserve optionality.\n\nOn the broader macro path, he expects material slowing in gross output next year, weakening ISM through the year, and softer non-AI cyclicals, with consumption weakening but not necessarily implying recession. He is skeptical that AI will broadly create durable margin expansion, arguing it can commoditize products and shift gains to consumers rather than producers, though he sees pockets of pricing power, such as Anthropic\u2019s reported operating profitability.",
+      "key_takeaway": "AI infrastructure is increasingly a liquidity trade: financing stress, not demand, is the main near-term risk, while top-tier credits remain funded first.",
+      "tickers_mentioned": [
+        "JPM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 638,
+      "notable_quotes": [
+        {
+          "speaker": "Dan Krausz",
+          "quote": "The demand is there. And I'm really saying is companies are finding uses for it. It's not as if we've spent all this capex into an technology that then is falling flat and usage."
+        },
+        {
+          "speaker": "Dan Krausz",
+          "quote": "And the simple rule is whatever needs liquidity most, right, gets hit fastest when liquidity goes in. And what's happened now is that those buckets at the top of, you know, of the waterfall got much bigger in a short amount of time."
+        },
+        {
+          "speaker": "Dan Krausz",
+          "quote": "Gold is the highest correlated asset that I have found with changes in the how treasury issuance is happening. So when treasury issues more at the front end relative to long end tends to be very bullish for gold, right?"
+        }
+      ]
+    },
+    {
       "id": 644,
       "title": "Can AI Fix Professional Networking? | Inside Cosign",
       "source_type": "podcast",
@@ -240,7 +375,7 @@
         "HON"
       ],
       "sentiment": "positive",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-29",
       "archived_date": null,
@@ -305,7 +440,7 @@
         "COF"
       ],
       "sentiment": "negative",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-29",
       "archived_date": null,
@@ -396,7 +531,7 @@
         "MU"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-29",
       "archived_date": null,
@@ -431,7 +566,7 @@
         "NVDA"
       ],
       "sentiment": "positive",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-29",
       "archived_date": null,
@@ -14591,6 +14726,24 @@
       "last_mentioned_speaker": "Jensen Huang"
     },
     {
+      "id": 321,
+      "term": "Cost to serve",
+      "description": "The operational cost required to maintain and support each customer, including infrastructure, labor, and branch overhead.",
+      "first_detected_date": "2026-10-13",
+      "last_mentioned_date": "2026-11-02",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "A structurally lower cost to serve can support better pricing, higher returns, and faster customer acquisition.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 627,
+      "first_detected_speaker": "David V\u00e9lez",
+      "last_mentioned_episode_id": 640,
+      "last_mentioned_speaker": "Josh Gruenstein"
+    },
+    {
       "id": 300,
       "term": "Scaling law",
       "description": "A relationship showing how performance improves as compute, data, or model size increases for a specific task. In biology, the episode argues these laws are task-dependent and must be discovered, not assumed.",
@@ -14973,8 +15126,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 24,
+      "last_mentioned_date": "2026-11-02",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -14983,8 +15136,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 635,
-      "last_mentioned_speaker": "Aman Singh"
+      "last_mentioned_episode_id": 640,
+      "last_mentioned_speaker": "Josh Gruenstein"
     },
     {
       "id": 284,
@@ -15045,8 +15198,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 41,
+      "last_mentioned_date": "2026-11-02",
+      "mention_count": 42,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -15055,8 +15208,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 636,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 640,
+      "last_mentioned_speaker": "Josh Gruenstein"
     },
     {
       "id": 272,
@@ -15135,8 +15288,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 37,
+      "last_mentioned_date": "2026-11-01",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -15145,8 +15298,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 636,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 637,
+      "last_mentioned_speaker": "Luca Ferrari"
     },
     {
       "id": 267,
@@ -15441,8 +15594,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 62,
+      "last_mentioned_date": "2026-11-01",
+      "mention_count": 63,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -15451,8 +15604,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 636,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 638,
+      "last_mentioned_speaker": "Dan Krausz"
     },
     {
       "id": 256,
@@ -15603,8 +15756,8 @@
       "term": "AI CapEx",
       "description": "Large-scale capital spending on AI infrastructure, including GPUs, custom accelerators, data centers, power projects, memory, chips, and construction capacity. In this episode, it centers on Amazon's expected $220 billion of 2026 capex and AWS's plan to buy 2 million Nvidia GPUs over the next couple of years.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-10-29",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-11-02",
+      "mention_count": 36,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It reframes cloud growth around physical supply chains, power availability, depreciation risk, and multi-year infrastructure planning.",
@@ -15613,8 +15766,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 626,
-      "last_mentioned_speaker": "Luke Gromen"
+      "last_mentioned_episode_id": 639,
+      "last_mentioned_speaker": "Michael Howell"
     },
     {
       "id": 234,
@@ -15693,8 +15846,8 @@
       "term": "SaaS Apocalypse",
       "description": "A term describing the decline in the SaaS market, which Almeida predicts will reverse due to AI integration.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 43,
+      "last_mentioned_date": "2026-11-01",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The resurgence of SaaS value through AI could create significant investment opportunities.",
@@ -15703,8 +15856,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
+      "last_mentioned_episode_id": 637,
+      "last_mentioned_speaker": "Luca Ferrari"
     },
     {
       "id": 275,
@@ -16863,8 +17016,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 52,
+      "last_mentioned_date": "2026-11-01",
+      "mention_count": 53,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -16873,8 +17026,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 636,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 638,
+      "last_mentioned_speaker": "Dan Krausz"
     },
     {
       "id": 26,
@@ -17061,8 +17214,8 @@
       "term": "AI Race",
       "description": "The idea that countries and companies are competing to reach and control leading AI capability first. The panel contrasted this race framing with arguments that the technology is open-ended and may run for decades.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-11-01",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because race dynamics can accelerate chip demand, government spending, and regulatory intervention.",
@@ -17071,8 +17224,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 595,
-      "last_mentioned_speaker": "Alex Lieberman, CJ Hess"
+      "last_mentioned_episode_id": 638,
+      "last_mentioned_speaker": "Dan Krausz"
     },
     {
       "id": 12,
