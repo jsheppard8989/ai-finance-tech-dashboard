@@ -1944,6 +1944,61 @@
         ]
       },
       "set_key_takeaway": "Eric Wallerstein says a garden-variety bear market is increasingly his base case, driven by fiscal drag, energy-supply shocks and rate hikes."
+    },
+    {
+      "insight_id": 644,
+      "podcast_episode_id": 634,
+      "_note": "Nov 2 2026 (G daily check, sweep_1102; routine-fix rule): MUSES (Muse app) and MCP (connector standard) are not stock tickers",
+      "drop_tickers": [
+        "MUSES",
+        "MCP"
+      ]
+    },
+    {
+      "insight_id": 645,
+      "podcast_episode_id": 633,
+      "_note": "Nov 2 2026 (G daily check, sweep_1102; routine-fix rule): 'E-value' is a speech-to-text garble of 'eval' (summary text, not a quote)",
+      "replacements": [
+        [
+          "financial “E-value”",
+          "financial “eval” (a test that scores AI on real finance work)"
+        ],
+        [
+          "investment-banking E-value",
+          "investment-banking eval"
+        ],
+        [
+          "profession-specific E-values",
+          "profession-specific evals"
+        ]
+      ]
+    },
+    {
+      "insight_id": 646,
+      "podcast_episode_id": 635,
+      "_note": "Nov 2 2026 (G daily check, sweep_1102; routine-fix rule): Arca is a private wealth firm, not a listed ticker; keep GOOGL",
+      "drop_tickers": [
+        "ARCA"
+      ]
+    },
+    {
+      "insight_id": 647,
+      "podcast_episode_id": 636,
+      "_note": "Nov 2 2026 (G daily check, sweep_1102; routine-fix rule): model name is Gemini 4 Carbon (Podcast Rex notes); lowercase 'Gemini for carbon' inside quotes left as said; jargon fix; card is mostly about Alphabet",
+      "replacements": [
+        [
+          "Gemini for Carbon",
+          "Gemini 4 Carbon"
+        ],
+        [
+          "capex intensity",
+          "heavy capital spending"
+        ]
+      ],
+      "set_tickers_mentioned": [
+        "GOOGL",
+        "TSLA"
+      ]
     }
   ],
   "terms": [
@@ -3229,6 +3284,10 @@
     [
       "Lama II and Lama III",
       "Llama 2 and Llama 3"
+    ],
+    [
+      "Drew Gupta",
+      "Dhruv Gupta"
     ]
   ],
   "name_replacements": [
