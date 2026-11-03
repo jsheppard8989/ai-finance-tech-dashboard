@@ -236,8 +236,23 @@ def _is_long(direction: str) -> bool:
     return "short" not in direction.lower()
 
 
+def _research_link(r) -> str:
+    """Our research page for the row, in the same format as an event-linked research page (MU).
+    Skipped when the event link already points to it."""
+    res = r.get("research") or {}
+    url = (res.get("url") or "").strip()
+    ev_link = ((r.get("event") or {}).get("link") or "").strip()
+    if not url or _rel(url) == _rel(ev_link):
+        return ""
+    return f'<div class="small" style="margin-top:3px"><a href="{e(_rel(url))}">{e(res["label"])}</a></div>'
+
+
 def _watch(r) -> str:
     """The news item we are watching. Informational only: it is not an exit date."""
+    return _watch_event(r) + _research_link(r)
+
+
+def _watch_event(r) -> str:
     ev = r.get("event") or {}
     if not ev.get("name"):
         return ""
