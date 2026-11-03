@@ -89,6 +89,7 @@ def load_overrides():
         "insight_guest_by_id": {},
         "insight_host_by_id": {},
         "insight_guest_org_by_id": {},
+        "guest_list_renames": {},
     }
     if OVERRIDES_PATH.exists():
         try:
@@ -102,6 +103,7 @@ def load_overrides():
                 data["insight_guest_by_id"] = raw.get("insight_guest_by_id", {}) or {}
                 data["insight_host_by_id"] = raw.get("insight_host_by_id", {}) or {}
                 data["insight_guest_org_by_id"] = raw.get("insight_guest_org_by_id", {}) or {}
+                data["guest_list_renames"] = raw.get("guest_list_renames", {}) or {}
         except Exception:
             pass
     _OVERRIDES_CACHE = data

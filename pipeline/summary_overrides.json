@@ -2143,6 +2143,29 @@
           "keeps net debt well below 3 times yearly operating earnings (EBITDA), currently around 2.4-2.5 times"
         ]
       ]
+    },
+    {
+      "insight_id": 632,
+      "podcast_episode_id": 621,
+      "_note": "Nov 3 2026 (G live check of #734, Jared's Oct 31 no-grading rule): 'grading source' in 4 'what would change our view' lines",
+      "replacements": [
+        [
+          "using the company's 10-Q and earnings release as the grading source.",
+          "using the company's 10-Q and earnings release."
+        ],
+        [
+          "; grading source: 10-Q and earnings release.",
+          "; source: 10-Q and earnings release."
+        ],
+        [
+          "; grading source: company filings or earnings materials.",
+          "; source: company filings or earnings materials."
+        ],
+        [
+          "; grading source: Silicon Data term-curve output.",
+          "; source: Silicon Data term-curve output."
+        ]
+      ]
     }
   ],
   "terms": [
