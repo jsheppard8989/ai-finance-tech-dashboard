@@ -174,7 +174,7 @@ def _event(r):
     ev = r["event"]
     res = r.get("research")
     out = e(ev["name"])
-    if res:
+    if res and (res.get("url") or "").strip():
         out += f'<div class="small"><a href="{e(_rel(res["url"]))}"><b>{e(res["label"])}</b></a></div>'
     out += f'<div class="small">{e(ev["when"])}</div><div class="small"><a href="{e(_rel(ev["link"]))}">{e(ev["link_label"])}</a></div>'
     return out
@@ -283,7 +283,7 @@ def _expr_cell(r) -> str:
         dl += f'<dt>Bought</dt><dd>{e(x["bought"])}</dd><dt>Most it can lose</dt><dd>{e(t["max_loss"])}</dd>'
         return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl></div>'
     dl = (f'<dt>Strikes</dt><dd>{e(x["strikes"])}</dd><dt>Expiry</dt><dd>{e(x["expiry"])}</dd>'
-          f'<dt>Contracts</dt><dd>{e(x["contracts"])}</dd><dt>Cost</dt><dd>{e(x["debit"])}</dd>'
+          f'<dt>Contracts</dt><dd>{e(x["contracts"])}</dd>{("<dt>Premium collected</dt><dd>" + e(x["credit"]) + "</dd><dt>Cash set aside</dt><dd>" + money(t["cash_secured"]) + "</dd>") if x.get("credit") else "<dt>Cost</dt><dd>" + e(x["debit"]) + "</dd>"}'
           f'<dt>Stock then</dt><dd>{e(x["stock_then"])}</dd><dt>Most it can lose</dt><dd>{e(t["max_loss"])}</dd>')
     note = f'<div class="note">Note: {e(x["caveat"])}.</div>' if x.get("caveat") else ""
     return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl>{note}</div>'

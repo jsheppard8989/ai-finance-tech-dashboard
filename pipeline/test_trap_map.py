@@ -38,7 +38,7 @@ class TestValidator(unittest.TestCase):
 
     def test_five_rows(self):
         # v9: the HIMS call-spread row is gone; HIMS is only in the Healthcare basket.
-        self.assertEqual([r["ticker"] for r in DATA["rows"]], ["ASTS", "FRMI", "TSAT", "MU", "Basket", "CEG"])
+        self.assertEqual([r["ticker"] for r in DATA["rows"]], ["ASTS", "FRMI", "TSAT", "MU", "Basket", "CEG", "LRCX"])
         self.assertFalse({"IREN", "MP", "TSLA", "HIMS"} & {r["ticker"] for r in DATA["rows"]})
         # Healthcare is the logged Sep 18 five-stock basket again (Jared 7:01 PM, Wendy approved); no option spreads
         hc = rows(DATA)["healthcare-five"]
@@ -125,7 +125,8 @@ class TestValidator(unittest.TestCase):
     def test_direction_matches_trade(self):
         self.assertEqual({r["id"]: r["direction"] for r in DATA["rows"]},
                          {"asts-q3": "Net short", "frmi-q3": "Net short", "tsat-notes": "Net short",
-                          "mu-cycle": "Net short", "healthcare-five": "Long", "ceg-q3": "Net long"})
+                          "mu-cycle": "Net short", "healthcare-five": "Long", "ceg-q3": "Net long",
+                          "lrcx-put": "Net long"})
         self.assertFails(lambda d, r: r["asts-q3"].update(direction="Net long"), "doesn't match the trade")
         self.assertFails(lambda d, r: r["healthcare-five"].update(direction="Net long"), "doesn't match")
         self.assertFails(lambda d, r: r["mu-cycle"].update(direction="Sideways"), "not one of")
@@ -167,7 +168,7 @@ class TestBuild(unittest.TestCase):
         self.assertAlmostEqual(T["change"], round(T["value"] - T["cost"], 2), places=2)
         self.assertTrue(DATA["quotes_as_of"])
         self.assertEqual([r["id"] for r in DATA["rows"]],
-                         ["asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five", "ceg-q3"])
+                         ["asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five", "ceg-q3", "lrcx-put"])
         self.assertEqual(tc.check_computed(DATA), [])
         self.assertTrue(any(c["text"].startswith("Exits are now only") for c in DATA["changes"]))
 
@@ -324,7 +325,7 @@ class TestMidpointLabel(unittest.TestCase):
 
     def test_prices_labeled(self):
         EST = "Estimated price: this option hasn't traded yet today (quote as of 9:29 AM CT)."
-        BANNER = ("Prices as of 9:29 AM CT on Nov 2 (quotes may be up to 15 minutes delayed). Each price sits a third of the "
+        BANNER = ("Prices as of 9:29 AM CT on Nov 2, Lam Research as of 11:11 AM CT (quotes may be up to 15 minutes delayed). Each price sits a third of the "
                   "spread in from the worst quote. Options that haven't traded yet today show an estimated price.")
         self.assertEqual(self.d["totals"]["midpoint_rows"], [])
         self.assertEqual(build_trap_map.midpoint_note(self.d), "")
@@ -357,7 +358,7 @@ class TestMidpointLabel(unittest.TestCase):
         self.assertNotRegex(page.lower(), r"not final|valued at oct 30")
         self.assertIn("worth $4,975.36, priced at Oct 30 closes", strip)
         self.assertNotRegex(strip.lower(), r"not final|indicative|midpoint")
-        ceg_card = page[page.index('id="ceg-q3"'):][:6000]
+        ceg_card = page[page.index('id="ceg-q3"'):][:6000].split('id="lrcx-put"')[0]  # stop at the next row
         self.assertEqual(ceg_card.count("Entry priced at 9:13 AM CT on Nov 2."), ceg_card.count("Entry priced at"))
         self.assertGreaterEqual(ceg_card.count("Entry priced at 9:13 AM CT on Nov 2."), 1)
         ceg_json = json.dumps([r for r in self.d["rows"] if r["id"] == "ceg-q3"] + [h for h in self.d.get("history", []) + self.d.get("changes", []) if "Constellation" in json.dumps(h)])
@@ -431,3 +432,25 @@ class TestMidpointNoteDate(unittest.TestCase):
         self.assertIn("Midpoint marks as of Oct 30;", build_trap_map.midpoint_note(d))
         self.assertEqual(str(build_trap_map.quote_session("2026-11-02T07:00-06:00")), "2026-10-30")  # Mon pre-open
         self.assertEqual(str(build_trap_map.quote_session("2026-11-02T15:10-06:00")), "2026-11-02")
+
+
+def test_lrcx_cash_secured_put_row():
+    import json as _j
+    from pathlib import Path as _P
+    import trap_map_check as _c
+    d = _j.loads((_P(__file__).resolve().parent.parent / "site/data/trap_map.json").read_text())
+    r = next(x for x in d["rows"] if x["id"] == "lrcx-put")
+    t = r["trade"]
+    assert _c.is_short_put(r) and _c.expected_direction(r) == "Net long" and r["lean"] == "Positive"
+    assert t["cost"] == 21000.0 and t["premium"] == 556.67 and t["max_loss"] == "$20,443.33"
+    assert abs(t["value"] - (t["cash_secured"] + t["premium"] + t["mark"] * 100 * t["contracts"])) < 0.01
+    assert "research" in r  # url is filled in once JG's research page exists
+
+
+def test_sold_put_must_be_cash_secured_put_and_net_long():
+    import trap_map_check as _c
+    r = {"direction": "Net short", "lean": "Negative",
+         "trade": {"legs": [{"right": "P", "strike": 210, "qty": -1}], "cash_secured": 21000,
+                   "expression": {"type": "Put credit"}}}
+    errs = _c._direction_errs(r, "x")
+    assert any("cash-secured put" in e for e in errs) and any("doesn't match the trade" in e for e in errs)
