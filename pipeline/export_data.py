@@ -963,6 +963,7 @@ def _apply_summary_overrides_to_files(site_dir: Path) -> None:
             for g in data:
                 if isinstance(g, dict) and fixes.get(g.get("name") or ""):
                     g["name"] = fixes[g["name"]]
+            _apply_guest_list_renames(data, gov)
             _apply_guest_bio_overrides(data, gov)
         if name == "archive.json" and isinstance(data, dict):
             # Oct 27 2026: archive.json carries the Overton list too; apply the same
@@ -1936,8 +1937,24 @@ def _apply_guest_export_overrides(main_content: dict, podcast_guests: list) -> t
         fixed = fixes.get(g.get("name") or "")
         if fixed:
             g["name"] = fixed
+    _apply_guest_list_renames(filtered, ov)
     _apply_guest_bio_overrides(filtered, ov)
     return main_content, filtered
+
+
+def _apply_guest_list_renames(guests, ov=None):
+    """Nov 3 2026 (G, sweep_1103): guest_overrides.json 'guest_list_renames' {old: new} renames an
+    entry of the podcast guest list ONLY (podcastGuests / podcast_guests.json), by exact name.
+    Unlike 'fixes' (which name_normalizer also uses as a site-wide name swap), it never touches
+    summaries, pundit bios or any other text. Idempotent."""
+    ov = ov if ov is not None else load_overrides()
+    renames = ov.get("guest_list_renames") or {}
+    if not renames or not isinstance(guests, list):
+        return guests
+    for g in guests:
+        if isinstance(g, dict) and (g.get("name") or "") in renames:
+            g["name"] = renames[g["name"]]
+    return guests
 
 
 def _apply_guest_bio_overrides(guests, ov=None):

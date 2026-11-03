@@ -146,5 +146,8 @@
   },
   "insight_guest_org_by_id": {
     "604": "SF Compute"
+  },
+  "guest_list_renames": {
+    "Tutor Intelligence": "Josh Gruenstein (Tutor Intelligence)"
   }
 }
