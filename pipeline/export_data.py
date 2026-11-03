@@ -7,7 +7,7 @@ Called by cron job for midday price refreshes.
 import re
 import sys
 from pathlib import Path
-from datetime import datetime
+from datetime import date, datetime
 import copy
 import json
 import sqlite3
@@ -17,6 +17,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
 from site_text_sanitize import apply_style_gate, report_style_gate_misses, sanitize_public_text, strip_cjk_public_text
 from extract_guests import load_overrides
+from deepdive_future_only import drop_past_falsifiers
 from workspace_paths import (
     DB_PATH,
     PIPELINE_DIR,
@@ -1972,6 +1973,9 @@ def generate_website_js():
     _apply_summary_overrides(archive)
     _apply_summary_overrides(main_content)
     _apply_summary_overrides(deepdives)
+    # "What would change our view" lists name only future events: drop lines dated before today.
+    for _iid, _line in drop_past_falsifiers(deepdives, date.today()):
+        print(f"  ✓ Deep Dive {_iid}: dropped past-dated 'what would change our view' line: {_line[:80]}")
     _apply_summary_overrides(podcast_guests)
     _apply_term_overrides(suggested_terms, [r for r in _load_override_rules().get("terms", [])
                                             if r.get("scope", "suggested") == "suggested"])
