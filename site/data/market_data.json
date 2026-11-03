@@ -1,14 +1,14 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
-  "_updated": "2026-11-02",
+  "_updated": "2026-11-03",
   "_data_status": "live",
   "schema_version": 1,
   "treasury_calendar": {
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills and TIPS excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-11-02T17:58:11",
-    "as_of_date": "2026-11-02",
+    "last_updated": "2026-11-03T05:19:20",
+    "as_of_date": "2026-11-03",
     "next_refunding_announcement": {
       "date": "2026-11-04",
       "status": "scheduled",
@@ -269,10 +269,10 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-11-02T17:58:11.261046",
+    "last_fetched": "2026-11-03T05:19:18.422059",
     "h100": {
-      "daily_date": "Nov 02, 2026",
-      "daily_date_iso": "2026-11-02",
+      "daily_date": "Nov 03, 2026",
+      "daily_date_iso": "2026-11-03",
       "composite_index": {
         "display": "$3.41",
         "type": "single",
@@ -301,23 +301,23 @@
         "Sep 2026"
       ],
       "daily_trend": {
-        "data_points": 1118,
+        "data_points": 1119,
         "latest_value": 3.41,
-        "latest_date": "Nov 02, 2026",
+        "latest_date": "Nov 03, 2026",
         "short_term": {
-          "change_pct": 1.5,
-          "comparison_date": "Oct 26, 2026",
-          "comparison_value": 3.36,
+          "change_pct": 1.2,
+          "comparison_date": "Oct 27, 2026",
+          "comparison_value": 3.37,
           "days_back": 7
         },
         "long_term": {
           "change_pct": 3.3,
-          "anchor_date": "Oct 03, 2026",
+          "anchor_date": "Oct 04, 2026",
           "anchor_value": 3.3,
           "days_back": 30
         },
-        "change_pct": 1.5,
-        "comparison_date": "Oct 26, 2026"
+        "change_pct": 1.2,
+        "comparison_date": "Oct 27, 2026"
       },
       "contract_trend": {
         "data_points": 22,
@@ -368,24 +368,24 @@
       "period": "Sep 2026"
     },
     "b200": {
-      "daily_date": "Nov 02, 2026",
+      "daily_date": "Nov 03, 2026",
       "composite_index": {
-        "display": "$6.49",
+        "display": "$6.47",
         "type": "single",
-        "value": 6.49
+        "value": 6.47
       }
     },
     "a100": {
-      "daily_date": "Nov 02, 2026",
+      "daily_date": "Nov 03, 2026",
       "composite_index": {
-        "display": "$1.73",
+        "display": "$1.72",
         "type": "single",
-        "value": 1.73
+        "value": 1.72
       }
     },
     "spot_history": {
-      "start": "2026-05-04",
-      "end": "2026-11-02",
+      "start": "2026-05-05",
+      "end": "2026-11-03",
       "days": 183,
       "points": 183,
       "available_from": {
@@ -394,7 +394,6 @@
         "b200": "2025-06-08"
       },
       "dates": [
-        "2026-05-04",
         "2026-05-05",
         "2026-05-06",
         "2026-05-07",
@@ -576,10 +575,10 @@
         "2026-10-30",
         "2026-10-31",
         "2026-11-01",
-        "2026-11-02"
+        "2026-11-02",
+        "2026-11-03"
       ],
       "a100": [
-        1.49,
         1.48,
         1.47,
         1.48,
@@ -761,10 +760,10 @@
         1.76,
         1.75,
         1.74,
-        1.73
+        1.73,
+        1.72
       ],
       "h100": [
-        2.89,
         2.88,
         2.87,
         2.86,
@@ -946,10 +945,10 @@
         3.42,
         3.46,
         3.44,
+        3.41,
         3.41
       ],
       "b200": [
-        4.76,
         4.75,
         4.75,
         4.76,
@@ -1131,14 +1130,15 @@
         6.59,
         6.52,
         6.47,
-        6.49
+        6.49,
+        6.47
       ]
     },
     "history_summary": {
       "oldest_period": "1H 2023",
       "newest_period": "Sep 2026",
-      "newest_daily": "Nov 02, 2026",
-      "total_daily_points": 1239,
+      "newest_daily": "Nov 03, 2026",
+      "total_daily_points": 1240,
       "total_contract_periods": 23,
       "recent_5": [
         {
@@ -1178,7 +1178,7 @@
     "as_of": "2026-10-31T18:37:41.096Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-11-02T17:58:11.427821",
+    "last_fetched": "2026-11-03T05:19:18.823789",
     "b200": {
       "points": [
         {
@@ -1429,11 +1429,11 @@
     "explanation": "demand strong for B200 and H100, supply catching up on older ones.",
     "chips": {
       "b200": {
-        "spot": 6.49,
-        "spot_30d_pct": 8.5,
-        "spot_90d_pct": 19.1,
-        "forward_vs_spot_pct": 21.5,
-        "score": 16.4,
+        "spot": 6.47,
+        "spot_30d_pct": 6.8,
+        "spot_90d_pct": 18.5,
+        "forward_vs_spot_pct": 21.9,
+        "score": 15.7,
         "trend": "rising"
       },
       "h100": {
@@ -1445,16 +1445,16 @@
         "trend": "rising"
       },
       "a100": {
-        "spot": 1.73,
+        "spot": 1.72,
         "spot_30d_pct": -0.6,
-        "spot_90d_pct": -3.9,
-        "forward_vs_spot_pct": -30.5,
-        "score": -11.7,
+        "spot_90d_pct": -5.5,
+        "forward_vs_spot_pct": -30.1,
+        "score": -12.1,
         "trend": "dropping"
       }
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
-    "as_of": "2026-11-02",
-    "generated_at": "2026-11-02T17:58:11"
+    "as_of": "2026-11-03",
+    "generated_at": "2026-11-03T05:19:18"
   }
 }
