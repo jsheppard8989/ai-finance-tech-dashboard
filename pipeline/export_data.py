@@ -315,6 +315,7 @@ def _apply_summary_overrides(obj):
       Optional 'drop_list_items' {field: [needle]} removes list entries (e.g. falsification_tracks)
       containing any needle.
       Optional 'set_tickers_mentioned' [symbols] sets tickers_mentioned to that exact list.
+      Optional 'set_guest_name' text sets guest_name on matched records that have that field.
       Optional 'set_key_takeaway' text fills a card's key_takeaway only when it is empty (never
       overwrites existing text).
     - 'global_replacements': exact swaps applied to every string anywhere (except title
@@ -379,6 +380,11 @@ def _apply_summary_overrides(obj):
         # exact list (e.g. card 647 is mostly about Alphabet: ['GOOGL', 'TSLA']). Idempotent.
         if r.get("set_tickers_mentioned") is not None and "tickers_mentioned" in o:
             o["tickers_mentioned"] = [str(t) for t in r["set_tickers_mentioned"]]
+        # Nov 3 2026 (G, sweep_1103): 'set_guest_name' sets a card's guest_name (archive and main
+        # cards carry it) when the stored value is a company, e.g. card 650 'Tutor Intelligence' ->
+        # 'Josh Gruenstein'. Only touches records that already have a guest_name key. Idempotent.
+        if r.get("set_guest_name") and "guest_name" in o:
+            o["guest_name"] = r["set_guest_name"]
         # Oct 21 2026: curated sentiment correction (scoped by ids like the other fields)
         if r.get("set_sentiment") and "sentiment" in o:
             o["sentiment"] = r["set_sentiment"]
