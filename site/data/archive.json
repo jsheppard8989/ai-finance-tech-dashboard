@@ -68,6 +68,37 @@
       ]
     },
     {
+      "id": 652,
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-11-02",
+      "summary": "Jacob Lauritzen argues that legal AI\u2019s moat is not \u201cMythos-level\u201d intelligence, but workflow design, governance, and model routing for regulated confidential work. He says Legora started as \u201cChatGPT with Swedish laws and search,\u201d then expanded into drafting, editing, collaboration, and agentic orchestration for legal teams.\n\nA major theme is measurable product improvement from model updates and evaluation discipline. Lauritzen cites a case where citation correctness improved from roughly 70% to 99% after a model release, and says Legora runs an evals team tracking performance across practice areas because it cannot inspect confidential traces directly.\n\nHe also emphasizes scale and practical utility: Tabular Review can fan out extraction across large document sets, with one example reaching up to a million cells in a day. Legora\u2019s citations link outputs back to source documents, and the company has acquired Wexler to extend fact intelligence for litigation, including extracting facts from very large document pools.\n\nOn the business and industry side, Lauritzen predicts lawyers will spend more time on judgment and client work and less on document trolling, while pricing will shift toward project/flat-fee structures. He says legal customers initially resisted AWS/Google and forced Legora onto Azure, underscoring that trust, vendor approvals, and privacy constraints are core to adoption.",
+      "key_takeaway": "Legora\u2019s edge is governed, citation-backed legal workflow automation that measurably improves citation accuracy and high-volume document review under enterprise privacy constraints.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 641,
+      "notable_quotes": [
+        {
+          "speaker": "Jacob Lauritzen",
+          "quote": "I think realistically a lot of legal work does not require Mythos-level intelligence."
+        },
+        {
+          "speaker": "Jacob Lauritzen",
+          "quote": "It wouldn't cite properly, and so we were like, 'Next model release solved.' It went from, like, seventy percent to, like, ninety-nine."
+        },
+        {
+          "speaker": "Jacob Lauritzen",
+          "quote": "The way everything started was ChatGPT with, uh, Swedish laws- Okay... and search tool in it. That was literally the entire everything."
+        }
+      ]
+    },
+    {
       "id": 648,
       "title": "How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
       "source_type": "podcast",
@@ -471,7 +502,7 @@
       "key_takeaway": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-30",
       "archived_date": null,
@@ -14526,6 +14557,24 @@
       "first_detected_speaker": "Aaron Levie",
       "last_mentioned_episode_id": 616,
       "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+    },
+    {
+      "id": 322,
+      "term": "GPT wrapper",
+      "description": "A product that mainly layers a user interface or workflow on top of a foundation model without creating meaningful proprietary differentiation.",
+      "first_detected_date": "2026-10-24",
+      "last_mentioned_date": "2026-11-02",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Horowitz argues these are weak businesses unless they evolve into more differentiated systems with data, workflow lock-in, or better outcomes.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 609,
+      "first_detected_speaker": "Ben Horowitz",
+      "last_mentioned_episode_id": 641,
+      "last_mentioned_speaker": "Jacob Lauritzen"
     },
     {
       "id": 318,

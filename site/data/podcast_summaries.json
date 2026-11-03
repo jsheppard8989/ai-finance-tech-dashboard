@@ -1,5 +1,23 @@
 [
   {
+    "id": 641,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+    "episode_date": "2026-11-02",
+    "summary": "Jacob Lauritzen argues that legal AI\u2019s moat is not \u201cMythos-level\u201d intelligence, but workflow design, governance, and model routing for regulated confidential work. He says Legora started as \u201cChatGPT with Swedish laws and search,\u201d then expanded into drafting, editing, collaboration, and agentic orchestration for legal teams.\n\nA major theme is measurable product improvement from model updates and evaluation discipline. Lauritzen cites a case where citation correctness improved from roughly 70% to 99% after a model release, and says Legora runs an evals team tracking performance across practice areas because it cannot inspect confidential traces directly.\n\nHe also emphasizes scale and practical utility: Tabular Review can fan out extraction across large document sets, with one example reaching up to a million cells in a day. Legora\u2019s citations link outputs back to source documents, and the company has acquired Wexler to extend fact intelligence for litigation, including extracting facts from very large document pools.\n\nOn the business and industry side, Lauritzen predicts lawyers will spend more time on judgment and client work and less on document trolling, while pricing will shift toward project/flat-fee structures. He says legal customers initially resisted AWS/Google and forced Legora onto Azure, underscoring that trust, vendor approvals, and privacy constraints are core to adoption.",
+    "key_takeaways": [
+      "Jacob Lauritzen says most legal work does not require \u201cMythos-level intelligence,\u201d implying product value comes from workflow and routing rather than frontier-model power.",
+      "Lauritzen says a citation problem improved from about 70% to 99% after a \u201cnext model release,\u201d showing model upgrades can have large measurable effects.",
+      "Lauritzen says Legora\u2019s evals team tracks model performance across practice areas and tasks because the company cannot access customer traces due to confidentiality.",
+      "Lauritzen says Tabular Review can handle up to about a million cells in a single day, highlighting large-scale extraction/review throughput.",
+      "Lauritzen says Legora\u2019s outputs include citations back to source documents, cells, and rows to constrain hallucinations and support governance.",
+      "Lauritzen says Legora\u2019s infrastructure is on Azure because law firms initially did not trust AWS, making vendor trust a deployment constraint.",
+      "Lauritzen says Legora acquired Wexler for litigation fact intelligence, including extracting facts from huge document sets and comparing corroboration vs disagreement."
+    ],
+    "investment_thesis": "Legora\u2019s edge is governed, citation-backed legal workflow automation that measurably improves citation accuracy and high-volume document review under enterprise privacy constraints.",
+    "key_tickers": null
+  },
+  {
     "id": 640,
     "podcast_name": "The a16z Show",
     "episode_title": "The Robots Already Working in American Factories | Tutor Intelligence",
