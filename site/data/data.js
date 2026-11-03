@@ -54298,7 +54298,6 @@ const dashboardData = {
     "updated_at": "2026-10-03 10:29:10",
     "episode_evidence": "- Salim Ismail: \"What happens if somebody breaks the agreement, right? Then you have something that's worth actually celebrating.\"\n- Emad Mostaque: \"To evaluate a swarm that can solve Navier Stokes, you need a crap ton of compute and you need to be incredibly talented.\"\n- Peter Diamandis: \"If there's no user, if the AI from the lab is causing the harm onto itself, the lab should have never released an agent that could do that.\"",
     "falsification_tracks": [
-      "By Q2 2026, the White House accord is converted into binding federal licensing that requires pre-deployment approval for frontier model releases, materially slowing release cadence at OpenAI, Anthropic, Google DeepMind, or xAI.",
       "Through 2026, leading open-weight models remain more than 15 percentage points behind the best closed model on SWE-bench Verified and GPQA Diamond, while major closed-model API prices fall by less than 50%.",
       "A court, FTC action, or federal statute before year-end 2026 assigns strict liability to a frontier lab for third-party agent misuse, causing major labs to withdraw or heavily gate agent APIs.",
       "Independent AI audit firms publish standardized safety results adopted by at least five frontier labs by 2026, with at least two model launches delayed or modified because of failed external evaluations.",
@@ -54732,7 +54731,6 @@ const dashboardData = {
     "updated_at": "2026-10-08 10:38:15",
     "episode_evidence": "Sam Altman: \"we believe that the world should accept some bad things happening.\"\nSalim Ismail: \"You should be doing incident reporting, identity, liability, all of these other mechanisms as scaffolding around the technology to help guide the path.\"",
     "falsification_tracks": [
-      "By Q2 2026, the White House, Congress, or major state regulators require frontier-model licensing, pre-release approval, or mandatory shutdown authority that delays major model launches by more than one quarter.",
       "By year-end 2026, no open-weight model comes within 10 points of the leading closed model on Artificial Analysis or a comparable public benchmark, weakening the claim that capability diffusion is hard to contain.",
       "After a major AI-caused incident, cyber or E&O insurers broadly exclude autonomous-agent use from standard enterprise coverage, forcing large customers to pause deployments rather than absorb liability.",
       "GPU lease pricing for high-end Nvidia-class systems falls more than 40% from current quoted levels while delivery times compress to under three months, suggesting scarcity is no longer pushing firms toward risky shortcuts.",
@@ -56262,8 +56260,7 @@ const dashboardData = {
       "By Nov 9, 2026, if the company\u2019s Q3 2026 10-Q or equivalent disclosure does not show median time-to-appointment at or below 7 days for booked visits in core markets, the access-speed claim is weakened.",
       "By Dec 31, 2026, if an independent audit or internal KPI disclosure in an 8-K or investor deck shows scheduling-data accuracy below 98.5%, the >99% accuracy claim fails.",
       "By Q4 2026, if provider-reported load-factor improvement in disclosed network metrics does not exceed 2 percentage points versus the prior year, as shown in management reporting or a third-party study, the capacity-filling thesis is less credible.",
-      "By Mar 31, 2027, if there are fewer than 3 active third-party AI or payer integrations disclosed in a company update, press release, or product documentation, the multi-front-door strategy looks underdeveloped.",
-      "By Sep 30, 2026, if an NPS, booking-completion, or cancellation metric in a company report shows booking failure or patient dissatisfaction above 5% on connected inventory, the transactional-quality moat is called into question."
+      "By Mar 31, 2027, if there are fewer than 3 active third-party AI or payer integrations disclosed in a company update, press release, or product documentation, the multi-front-door strategy looks underdeveloped."
     ],
     "schema_version": 1,
     "model_used": "gpt-5.4-mini",
@@ -56308,7 +56305,6 @@ const dashboardData = {
     "episode_evidence": "Mario Martone: An AI system that works 90% of the time might look impressive in a research paper, but when you're handling millions of conversations about people's housing and health care, that remaining 10% becomes an enormous problem.\nMario Martone: Voice is extremely difficult, like you're talking about doing tens, hundreds of operations in a span of like a second and a half.\nMario Martone: I think that when you're talking about reliability, they're like, okay, if the LLM can take it up to 90% and then we say 90% that means for like 60 million phone calls per month per year, it means like, an enormous amount of failures that is totally unbearable.\nMario Martone: Basically, the idea is, okay, if we obviously have something that is really bad on our current stack, and it is a new solution that you can apply, then you go in full force, otherwise you're trying to constantly understanding and prioritizing.\nMario Martone: For example, like ... the leasing people that are interested in apartments ... they basically can do the entirety of the ... starting from like looking at the website ... to move again, it could be kind of fully, literally fully automated.",
     "falsification_tracks": [
       "By 2026-12-31, if internal or customer-reported task success for core housing workflows remains at 90% or below, according to customer KPI reports or SOC 2 audit artifacts, the reliability-at-scale thesis is wrong.",
-      "By 2026-09-30, if end-to-end voice latency exceeds 1.5 seconds on more than 5% of calls in production, according to internal voice telemetry or a vendor performance report, the voice-stack thesis is weakened.",
       "By 2026-12-31, if renewal-risk or leasing decisions are made by LLM-only systems in more than 50% of cases, as shown in a product architecture disclosure or technical audit, the hybrid-architecture claim is falsified.",
       "By 2026-12-31, if fully automated leasing still completes fewer than 1,000,000 calls per month, according to company KPIs or customer case studies, the scale claims are not supported.",
       "By 2027-03-31, if maintenance automation cannot reduce human/vendor intervention below 25% of tickets, according to customer operations dashboards or a third-party implementation report, the path to end-to-end automation is not materializing."
@@ -56797,7 +56793,6 @@ const dashboardData = {
       "By 2027-01-01, source: customer production reports / SOC2 audit artifacts \u2014 if end-to-end field extraction exact-match stays below 95% on representative healthcare, legal, or finance document workflows, the high-90s accuracy claim is wrong.",
       "By 2026-12-31, source: independent evaluation harness results / benchmark reproduction \u2014 if a frontier baseline plus comparable validation rules matches or exceeds Reducto\u2019s recall on long, messy documents by at least 2 percentage points, the silent-drop advantage thesis is wrong.",
       "By 2027-03-01, source: Reducto cost model / invoices / unit economics logs \u2014 if realized marginal cost per page exceeds $0.02 on a sustained run of 100 million+ pages, the penny-per-page economics thesis is wrong.",
-      "By 2026-10-31, source: Reducto internal metrics / press release \u2014 if cumulative processed pages are still below 8 billion at the stated October checkpoint, the scale trajectory claim is wrong.",
       "By 2026-12-15, source: post-release user telemetry / product analytics \u2014 if the document editing plugin fails to reduce human correction rate by at least 20% versus baseline editing workflows, the write-back roadmap thesis is wrong."
     ],
     "schema_version": 1,
@@ -57418,8 +57413,7 @@ const dashboardData = {
       "By Q4 2027, if company 10-Ks/10-Qs and investor materials show that AI-related spending is producing broad-based operating income growth across more than 25% of public companies using it materially, the concentration thesis weakens.",
       "By Dec 2026, if fewer than 3 high-severity (CVSS >= 9.0) web-facing vulnerability incidents are reported in a rolling 90-day window by the CISA / NVD advisory feeds, the claim that AI-enabled exploit cycles are accelerating materially is weakened.",
       "By mid-2028, if major financial-services procurement documents and regulator guidance do not add model auditability or open-weight language in at least 5 large enterprise RFPs tracked through public filings or vendor disclosures, the open-weight governance thesis is weakened.",
-      "By Q2 2027, if at least 10 major banks publicly allow third-party agent logins without new liability disclaimers, controls, or account restrictions in their terms updates or security bulletins, the 'liability problem' thesis is weakened.",
-      "By Oct 31, 2026, if Moody's and S&P issue no downgrade for France and the French 10-year yield does not sustain above 5.0% for at least 4 consecutive weeks, the near-term fiscal-stress thesis is weakened."
+      "By Q2 2027, if at least 10 major banks publicly allow third-party agent logins without new liability disclaimers, controls, or account restrictions in their terms updates or security bulletins, the 'liability problem' thesis is weakened."
     ],
     "schema_version": 1,
     "model_used": "gpt-5.4-mini",
@@ -58664,7 +58658,6 @@ const dashboardData = {
     "falsification_tracks": [
       "By 2032, California state transportation reporting must show at least 1 new rail line-mile opened from the current baseline; if official Caltrans or state rail agency reports still show 0 net new rail line-miles after the stated spending window, the thesis that safeguards alone do not necessarily stall all delivery weakens.",
       "By the FY2027 10-K or equivalent annual report, any infrastructure contractor or transit developer used as a proxy for execution capacity must show project completion rates above 80% on schedule; if completion slips below 80%, the claim that strong execution capability is the differentiator fails. Source: company 10-K.",
-      "By Nov. 1, 2026, the federal data release or agency dashboard for a major US transit project must show cost overrun below 15% and schedule slip below 12 months; if both exceed those levels, the idea that modern governance meaningfully contains the Moses-style bottleneck problem is weakened. Source: FTA project dashboard or GAO project review.",
       "By Dec. 31, 2027, at least 2 large publicly funded US rail or transit projects should have completed environmental review and moved into construction without major land-acquisition litigation affecting more than 10% of parcels; if litigation exceeds 10%, distributed property-owner resistance remains the binding constraint. Source: NEPA docket / agency project filings.",
       "By the next published LBJ Library archival release or scholarly compilation dated 2026-12-31, if documentary evidence shows Johnson\u2019s major legislative wins occurred without credible leverage over committee assignments, funding, or floor timing in at least 3 instances, the claim that his persuasion worked through underlying power is falsified. Source: LBJ Library / Senate records."
     ],
@@ -58954,7 +58947,6 @@ const dashboardData = {
     "episode_evidence": "Alex Wissner-Gross: Gemini for carbon is exactly just, you can extrapolate that line. It's exactly on that frontier.\nAlex Wissner-Gross: Gemini for carbon might look like, essentially at the back end, the equivalent of an Opus 5.5 with fallback simply cranked up to higher reasoning level and therefore at higher cost.\nPeter Diamandis: Carbon found 88% of vulnerabilities on a benchmark called SEC Bench Pro.\nPeter Diamandis: The first customer deliveries are expected in 2027.\nAlex Wissner-Gross: Binance got hacked... six point three billion got ported out, and it's the largest crypto theft in history.",
     "falsification_tracks": [
       "By Alphabet's next quarterly 10-Q in 2026, Search & Other revenue must not show a decline greater than 5% quarter-over-quarter; if it does, the \"plateau first, then decline\" ad thesis is materially reinforced rather than falsified. Source: Alphabet 10-Q.",
-      "By the Q2 2026 Alphabet earnings release, Google Cloud revenue growth must remain above 20% year-over-year; if growth falls below 20%, the thesis that AI can offset search weakness through cloud demand is weakened. Source: Alphabet earnings release / shareholder letter.",
       "By the end of 2027, Tesla must report at least 1,000 Optimus units delivered to external customers; if deliveries stay below 1,000, the million-robots-per-year manufacturing thesis is not tracking. Source: Tesla shareholder deck / 10-K.",
       "By the end of 2026, Waymo must exceed 700,000 paid rides per week; if weekly paid rides remain below that number, the autonomy scale-up implied by the episode is slower than assumed. Source: Waymo / Alphabet public safety and operating disclosures.",
       "By the next major SEC or exchange incident report published in 2026, a crypto exchange breach attributed primarily to \"human compromise\" must still account for at least $1 billion in losses; if not, the claim that process weakness is the dominant attack vector is overstated. Source: exchange incident report / regulatory filing."
