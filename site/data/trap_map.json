@@ -586,8 +586,8 @@
    "horizon": "Dec 4 expiry",
    "reason": "Chip-equipment spending holds up, and we are glad to own Lam near $204 if the stock falls.",
    "research": {
-    "url": "",
-    "label": "Read JG's Lam Research research"
+    "url": "https://jsheppard8989.github.io/ai-finance-tech-dashboard/lrcx-put.html",
+    "label": "Read our Lam Research research"
    },
    "event": {
     "name": "Lam annual shareholder meeting",
