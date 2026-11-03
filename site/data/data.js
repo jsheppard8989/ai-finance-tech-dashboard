@@ -3,1366 +3,1366 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-11-03T07:15:47.287515",
-  chartsVersion: "2026-11-03T07:15:25.145170",
+  generatedAt: "2026-11-03T12:33:46.822997",
+  chartsVersion: "2026-11-03T12:33:26.603167",
   priceSnapshot: {
   "AAPL": {
-    "price": 338.32,
-    "change_pct": -1.35,
+    "price": 332.54,
+    "change_pct": -2.77,
     "name": "Apple Inc.",
-    "updated_at": "2026-11-03T07:14:25.158383",
-    "price_14d_ago": 342.96
+    "updated_at": "2026-11-03T12:32:24.630430",
+    "price_14d_ago": 342.0
   },
   "AEP": {
-    "price": 130.33,
-    "change_pct": 3.33,
+    "price": 130.17,
+    "change_pct": 4.73,
     "name": "American Electric Power Company",
-    "updated_at": "2026-11-03T07:14:25.671731",
-    "price_14d_ago": 126.13
+    "updated_at": "2026-11-03T12:32:25.045872",
+    "price_14d_ago": 124.29
   },
   "AMD": {
-    "price": 466.84,
-    "change_pct": -18.22,
+    "price": 493.96,
+    "change_pct": -12.14,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-11-03T07:14:26.061102",
-    "price_14d_ago": 570.82
+    "updated_at": "2026-11-03T12:32:25.441844",
+    "price_14d_ago": 562.23
   },
   "AMGN": {
-    "price": 465.45,
-    "change_pct": 9.23,
+    "price": 463.21,
+    "change_pct": 6.72,
     "name": "Amgen Inc.",
-    "updated_at": "2026-11-03T07:14:26.246968",
-    "price_14d_ago": 426.11
+    "updated_at": "2026-11-03T12:32:25.646590",
+    "price_14d_ago": 434.03
   },
   "AMZN": {
-    "price": 245.63,
-    "change_pct": -3.33,
+    "price": 250.81,
+    "change_pct": -1.55,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-11-03T07:14:26.647296",
-    "price_14d_ago": 254.08
+    "updated_at": "2026-11-03T12:32:26.048061",
+    "price_14d_ago": 254.76
   },
   "APO": {
-    "price": 119.46,
-    "change_pct": 5.35,
+    "price": 114.23,
+    "change_pct": 2.11,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-11-03T07:14:27.205929",
-    "price_14d_ago": 113.39
+    "updated_at": "2026-11-03T12:32:26.635473",
+    "price_14d_ago": 111.87
   },
   "APTV": {
-    "price": 44.23,
-    "change_pct": 0.91,
+    "price": 42.45,
+    "change_pct": -6.06,
     "name": "Aptiv PLC",
-    "updated_at": "2026-11-03T07:14:27.404988",
-    "price_14d_ago": 43.83
+    "updated_at": "2026-11-03T12:32:26.838713",
+    "price_14d_ago": 45.19
   },
   "AVGO": {
-    "price": 322.23,
-    "change_pct": -6.94,
+    "price": 332.6,
+    "change_pct": -3.41,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-11-03T07:14:28.261972",
-    "price_14d_ago": 346.25
+    "updated_at": "2026-11-03T12:32:27.634449",
+    "price_14d_ago": 344.33
   },
   "BA": {
-    "price": 175.4,
-    "change_pct": -5.01,
+    "price": 174.72,
+    "change_pct": -7.43,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-11-03T07:14:28.671621",
-    "price_14d_ago": 184.66
+    "updated_at": "2026-11-03T12:32:28.102604",
+    "price_14d_ago": 188.73
   },
   "BABA": {
-    "price": 101.5,
-    "change_pct": -8.7,
+    "price": 100.31,
+    "change_pct": -9.74,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-11-03T07:14:28.858997",
-    "price_14d_ago": 111.17
+    "updated_at": "2026-11-03T12:32:28.289546",
+    "price_14d_ago": 111.13
   },
   "BAC": {
-    "price": 49.57,
-    "change_pct": -3.54,
+    "price": 49.7,
+    "change_pct": -3.86,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-11-03T07:14:29.086442",
-    "price_14d_ago": 51.39
+    "updated_at": "2026-11-03T12:32:28.503910",
+    "price_14d_ago": 51.7
   },
   "BAM": {
-    "price": 51.47,
-    "change_pct": 15.38,
+    "price": 51.44,
+    "change_pct": 11.87,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-11-03T07:14:29.291769",
-    "price_14d_ago": 44.61
+    "updated_at": "2026-11-03T12:32:28.695984",
+    "price_14d_ago": 45.98
   },
   "BIDU": {
-    "price": 76.9,
-    "change_pct": -6.06,
+    "price": 77.07,
+    "change_pct": -6.65,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-11-03T07:14:29.869415",
-    "price_14d_ago": 81.86
+    "updated_at": "2026-11-03T12:32:29.388259",
+    "price_14d_ago": 82.56
   },
   "BP": {
-    "price": 47.88,
-    "change_pct": -1.91,
+    "price": 47.75,
+    "change_pct": -1.42,
     "name": "BP p.l.c.",
-    "updated_at": "2026-11-03T07:14:30.766252",
-    "price_14d_ago": 48.81
+    "updated_at": "2026-11-03T12:32:30.066196",
+    "price_14d_ago": 48.44
   },
   "BTC": {
-    "price": 77186.51,
-    "change_pct": -8.12,
+    "price": 77660.72,
+    "change_pct": -7.56,
     "name": "Bitcoin USD",
-    "updated_at": "2026-11-03T07:14:30.949138",
+    "updated_at": "2026-11-03T12:32:30.251462",
     "price_14d_ago": 84011.97
   },
   "BTC-USD": {
-    "price": 77186.51,
-    "change_pct": -8.12,
+    "price": 77660.72,
+    "change_pct": -7.56,
     "name": "Bitcoin USD",
-    "updated_at": "2026-11-03T07:14:31.144956",
+    "updated_at": "2026-11-03T12:32:30.510098",
     "price_14d_ago": 84011.97
   },
   "BX": {
-    "price": 120.14,
-    "change_pct": 13.12,
+    "price": 118.12,
+    "change_pct": 8.17,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-11-03T07:14:31.518542",
-    "price_14d_ago": 106.21
+    "updated_at": "2026-11-03T12:32:30.909448",
+    "price_14d_ago": 109.2
   },
   "BYD": {
-    "price": 77.04,
-    "change_pct": 10.53,
+    "price": 77.19,
+    "change_pct": 8.76,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-11-03T07:14:31.722818",
-    "price_14d_ago": 69.7
+    "updated_at": "2026-11-03T12:32:31.107773",
+    "price_14d_ago": 70.97
   },
   "CAT": {
-    "price": 613.62,
-    "change_pct": -18.07,
+    "price": 626.2,
+    "change_pct": -14.88,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-11-03T07:14:32.358877",
-    "price_14d_ago": 748.98
+    "updated_at": "2026-11-03T12:32:31.726250",
+    "price_14d_ago": 735.64
   },
   "CCJ": {
-    "price": 73.38,
-    "change_pct": -9.93,
+    "price": 72.71,
+    "change_pct": -12.64,
     "name": "Cameco Corporation",
-    "updated_at": "2026-11-03T07:14:32.606363",
-    "price_14d_ago": 81.47
+    "updated_at": "2026-11-03T12:32:31.934348",
+    "price_14d_ago": 83.23
   },
   "CEG": {
-    "price": 257.25,
-    "change_pct": -7.97,
+    "price": 267.61,
+    "change_pct": -2.69,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-11-03T07:14:32.798703",
-    "price_14d_ago": 279.54
+    "updated_at": "2026-11-03T12:32:32.123218",
+    "price_14d_ago": 275.0
   },
   "COIN": {
-    "price": 137.83,
-    "change_pct": -20.28,
+    "price": 146.7,
+    "change_pct": -20.19,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-11-03T07:14:33.831864",
-    "price_14d_ago": 172.89
+    "updated_at": "2026-11-03T12:32:33.109981",
+    "price_14d_ago": 183.81
   },
   "COPPER": {
-    "price": 6.39,
-    "change_pct": -1.8,
+    "price": 6.4,
+    "change_pct": -1.73,
     "name": "Copper",
-    "updated_at": "2026-11-03T07:14:34.091959",
+    "updated_at": "2026-11-03T12:32:33.301011",
     "price_14d_ago": 6.51
   },
   "CORN": {
-    "price": 17.36,
-    "change_pct": -5.75,
+    "price": 17.21,
+    "change_pct": -6.21,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-11-03T07:14:34.295407",
-    "price_14d_ago": 18.42
+    "updated_at": "2026-11-03T12:32:33.485571",
+    "price_14d_ago": 18.35
   },
   "CRM": {
-    "price": 226.18,
-    "change_pct": -4.14,
+    "price": 222.98,
+    "change_pct": -9.63,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-11-03T07:14:34.696246",
-    "price_14d_ago": 235.95
+    "updated_at": "2026-11-03T12:32:33.880121",
+    "price_14d_ago": 246.74
   },
   "CROWD": {
-    "price": 241.81,
-    "change_pct": -3.0,
+    "price": 245.2,
+    "change_pct": 0.26,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-11-03T07:14:34.874524",
-    "price_14d_ago": 249.29
+    "updated_at": "2026-11-03T12:32:34.069481",
+    "price_14d_ago": 244.57
   },
   "DBC": {
-    "price": 32.46,
-    "change_pct": -2.55,
+    "price": 32.4,
+    "change_pct": -2.7,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-11-03T07:14:36.164396",
-    "price_14d_ago": 33.31
+    "updated_at": "2026-11-03T12:32:35.213378",
+    "price_14d_ago": 33.3
   },
   "DELL": {
-    "price": 392.78,
-    "change_pct": -22.67,
+    "price": 409.58,
+    "change_pct": -13.48,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-11-03T07:14:36.536747",
-    "price_14d_ago": 507.93
+    "updated_at": "2026-11-03T12:32:35.587755",
+    "price_14d_ago": 473.39
   },
   "DIS": {
-    "price": 113.11,
-    "change_pct": 3.78,
+    "price": 113.83,
+    "change_pct": 2.84,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-11-03T07:14:36.969556",
-    "price_14d_ago": 108.99
+    "updated_at": "2026-11-03T12:32:36.041631",
+    "price_14d_ago": 110.68
   },
   "DOCS": {
-    "price": 32.87,
-    "change_pct": 9.86,
+    "price": 32.72,
+    "change_pct": 3.87,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-11-03T07:14:37.422401",
-    "price_14d_ago": 29.92
+    "updated_at": "2026-11-03T12:32:36.420683",
+    "price_14d_ago": 31.5
   },
   "DVN": {
-    "price": 48.63,
-    "change_pct": -2.58,
+    "price": 48.1,
+    "change_pct": -2.31,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-11-03T07:14:37.662603",
-    "price_14d_ago": 49.92
+    "updated_at": "2026-11-03T12:32:36.629641",
+    "price_14d_ago": 49.24
   },
   "EBAY": {
-    "price": 120.93,
-    "change_pct": 3.47,
+    "price": 120.31,
+    "change_pct": -2.12,
     "name": "eBay Inc.",
-    "updated_at": "2026-11-03T07:14:37.850835",
-    "price_14d_ago": 116.88
+    "updated_at": "2026-11-03T12:32:36.827405",
+    "price_14d_ago": 122.91
   },
   "ETH-USD": {
-    "price": 2276.16,
-    "change_pct": -7.88,
+    "price": 2296.27,
+    "change_pct": -7.06,
     "name": "Ethereum USD",
-    "updated_at": "2026-11-03T07:14:38.215445",
+    "updated_at": "2026-11-03T12:32:37.293133",
     "price_14d_ago": 2470.77
   },
   "F": {
-    "price": 12.6,
-    "change_pct": 4.56,
+    "price": 12.38,
+    "change_pct": 0.61,
     "name": "Ford Motor Company",
-    "updated_at": "2026-11-03T07:14:38.435734",
-    "price_14d_ago": 12.05
+    "updated_at": "2026-11-03T12:32:37.519790",
+    "price_14d_ago": 12.31
   },
   "FB": {
     "price": 45.3,
-    "change_pct": -1.1,
+    "change_pct": -1.3,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-11-03T07:14:38.622090",
-    "price_14d_ago": 45.8
+    "updated_at": "2026-11-03T12:32:37.710308",
+    "price_14d_ago": 45.89
   },
   "FCX": {
-    "price": 62.97,
-    "change_pct": -9.55,
+    "price": 61.9,
+    "change_pct": -11.65,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-11-03T07:14:38.863309",
-    "price_14d_ago": 69.62
+    "updated_at": "2026-11-03T12:32:37.986276",
+    "price_14d_ago": 70.06
   },
   "FSK": {
-    "price": 11.44,
-    "change_pct": 8.54,
+    "price": 11.12,
+    "change_pct": 3.68,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-11-03T07:14:40.110481",
-    "price_14d_ago": 10.54
+    "updated_at": "2026-11-03T12:32:39.260905",
+    "price_14d_ago": 10.73
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-11-03T07:14:40.689295",
+    "updated_at": "2026-11-03T12:32:39.851103",
     "price_14d_ago": null
   },
   "GD": {
-    "price": 373.46,
-    "change_pct": 11.59,
+    "price": 374.76,
+    "change_pct": 11.2,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-11-03T07:14:40.915220",
-    "price_14d_ago": 334.66
+    "updated_at": "2026-11-03T12:32:40.075283",
+    "price_14d_ago": 337.03
   },
   "GE": {
-    "price": 315.78,
-    "change_pct": 2.85,
+    "price": 321.36,
+    "change_pct": 3.0,
     "name": "GE Aerospace",
-    "updated_at": "2026-11-03T07:14:41.142210",
-    "price_14d_ago": 307.02
+    "updated_at": "2026-11-03T12:32:40.319631",
+    "price_14d_ago": 312.0
   },
   "GLD": {
-    "price": 361.65,
-    "change_pct": -3.81,
+    "price": 360.09,
+    "change_pct": -5.91,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-11-03T07:14:41.324123",
-    "price_14d_ago": 375.99
+    "updated_at": "2026-11-03T12:32:40.510501",
+    "price_14d_ago": 382.71
   },
   "GME": {
-    "price": 24.19,
-    "change_pct": -10.9,
+    "price": 24.42,
+    "change_pct": -12.85,
     "name": "GameStop Corporation",
-    "updated_at": "2026-11-03T07:14:41.518137",
-    "price_14d_ago": 27.15
+    "updated_at": "2026-11-03T12:32:40.713306",
+    "price_14d_ago": 28.02
   },
   "GOLD": {
-    "price": 3941.1,
-    "change_pct": -5.49,
+    "price": 3941.4,
+    "change_pct": -5.48,
     "name": "Gold",
-    "updated_at": "2026-11-03T07:14:41.701516",
+    "updated_at": "2026-11-03T12:32:40.912627",
     "price_14d_ago": 4170.1
   },
   "GOOG": {
-    "price": 278.04,
-    "change_pct": -19.09,
+    "price": 279.23,
+    "change_pct": -19.04,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-11-03T07:14:41.889221",
-    "price_14d_ago": 343.65
+    "updated_at": "2026-11-03T12:32:41.167448",
+    "price_14d_ago": 344.91
   },
   "GOOGL": {
-    "price": 278.99,
-    "change_pct": -19.75,
+    "price": 280.37,
+    "change_pct": -19.72,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-11-03T07:14:42.084462",
-    "price_14d_ago": 347.64
+    "updated_at": "2026-11-03T12:32:41.357830",
+    "price_14d_ago": 349.22
   },
   "GS": {
-    "price": 898.72,
-    "change_pct": 2.28,
+    "price": 897.46,
+    "change_pct": 0.69,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-11-03T07:14:42.284037",
-    "price_14d_ago": 878.72
+    "updated_at": "2026-11-03T12:32:41.582126",
+    "price_14d_ago": 891.28
   },
   "Gold": {
-    "price": 40.14,
-    "change_pct": 3.67,
+    "price": 39.3,
+    "change_pct": -0.85,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-11-03T07:14:42.476834",
-    "price_14d_ago": 38.72
+    "updated_at": "2026-11-03T12:32:41.811131",
+    "price_14d_ago": 39.63
   },
   "HFGM": {
-    "price": 29.49,
-    "change_pct": -5.19,
+    "price": 29.37,
+    "change_pct": -5.01,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-11-03T07:14:42.657544",
-    "price_14d_ago": 31.1
+    "updated_at": "2026-11-03T12:32:41.997872",
+    "price_14d_ago": 30.92
   },
   "HG": {
-    "price": 36.28,
-    "change_pct": 3.42,
+    "price": 36.24,
+    "change_pct": 2.1,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-11-03T07:14:42.846554",
-    "price_14d_ago": 35.08
+    "updated_at": "2026-11-03T12:32:42.182690",
+    "price_14d_ago": 35.5
   },
   "IBM": {
-    "price": 252.51,
-    "change_pct": 10.81,
+    "price": 249.83,
+    "change_pct": 6.71,
     "name": "International Business Machines",
-    "updated_at": "2026-11-03T07:14:44.297664",
-    "price_14d_ago": 227.88
+    "updated_at": "2026-11-03T12:32:43.819991",
+    "price_14d_ago": 234.12
   },
   "IEF": {
-    "price": 91.5,
-    "change_pct": 2.0,
+    "price": 91.17,
+    "change_pct": 0.9,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-11-03T07:14:44.564192",
-    "price_14d_ago": 89.71
+    "updated_at": "2026-11-03T12:32:44.071239",
+    "price_14d_ago": 90.35
   },
   "INDA": {
-    "price": 48.45,
-    "change_pct": 3.0,
+    "price": 48.77,
+    "change_pct": 1.7,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-11-03T07:14:45.077182",
-    "price_14d_ago": 47.04
+    "updated_at": "2026-11-03T12:32:44.461991",
+    "price_14d_ago": 47.95
   },
   "INFY": {
-    "price": 12.53,
-    "change_pct": 9.15,
+    "price": 11.96,
+    "change_pct": -1.36,
     "name": "Infosys Limited",
-    "updated_at": "2026-11-03T07:14:45.392510",
-    "price_14d_ago": 11.48
+    "updated_at": "2026-11-03T12:32:44.733534",
+    "price_14d_ago": 12.13
   },
   "INTC": {
-    "price": 59.97,
-    "change_pct": -38.88,
+    "price": 60.65,
+    "change_pct": -36.41,
     "name": "Intel Corporation",
-    "updated_at": "2026-11-03T07:14:45.591042",
-    "price_14d_ago": 98.12
+    "updated_at": "2026-11-03T12:32:44.952677",
+    "price_14d_ago": 95.37
   },
   "IWD": {
-    "price": 259.36,
-    "change_pct": 2.03,
+    "price": 259.37,
+    "change_pct": 1.27,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-11-03T07:14:45.796615",
-    "price_14d_ago": 254.2
+    "updated_at": "2026-11-03T12:32:45.174328",
+    "price_14d_ago": 256.12
   },
   "IWF": {
-    "price": 116.22,
-    "change_pct": -6.48,
+    "price": 117.88,
+    "change_pct": -5.12,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-11-03T07:14:45.994980",
-    "price_14d_ago": 124.27
+    "updated_at": "2026-11-03T12:32:45.385625",
+    "price_14d_ago": 124.24
   },
   "IWM": {
-    "price": 279.14,
-    "change_pct": 2.86,
+    "price": 281.36,
+    "change_pct": 2.28,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-11-03T07:14:46.186815",
-    "price_14d_ago": 271.37
+    "updated_at": "2026-11-03T12:32:45.592499",
+    "price_14d_ago": 275.08
   },
   "JNJ": {
-    "price": 270.56,
-    "change_pct": 6.56,
+    "price": 267.29,
+    "change_pct": 5.53,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-11-03T07:14:46.418205",
-    "price_14d_ago": 253.91
+    "updated_at": "2026-11-03T12:32:45.843589",
+    "price_14d_ago": 253.28
   },
   "JPM": {
-    "price": 340.58,
-    "change_pct": 1.58,
+    "price": 337.9,
+    "change_pct": 0.71,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-11-03T07:14:46.696997",
-    "price_14d_ago": 335.28
+    "updated_at": "2026-11-03T12:32:46.059018",
+    "price_14d_ago": 335.53
   },
   "KKR": {
-    "price": 98.01,
-    "change_pct": 14.5,
+    "price": 96.17,
+    "change_pct": 9.74,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-11-03T07:14:46.891761",
-    "price_14d_ago": 85.6
+    "updated_at": "2026-11-03T12:32:46.388873",
+    "price_14d_ago": 87.63
   },
   "LLY": {
-    "price": 1410.99,
-    "change_pct": 16.73,
+    "price": 1421.68,
+    "change_pct": 13.59,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-11-03T07:14:47.580211",
-    "price_14d_ago": 1208.74
+    "updated_at": "2026-11-03T12:32:47.140407",
+    "price_14d_ago": 1251.61
   },
   "LMT": {
-    "price": 643.15,
-    "change_pct": 23.15,
+    "price": 643.67,
+    "change_pct": 20.85,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-11-03T07:14:47.802823",
-    "price_14d_ago": 522.23
+    "updated_at": "2026-11-03T12:32:47.380190",
+    "price_14d_ago": 532.64
   },
   "LYFT": {
-    "price": 16.62,
-    "change_pct": 0.85,
+    "price": 16.64,
+    "change_pct": -3.0,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-11-03T07:14:48.583210",
-    "price_14d_ago": 16.48
+    "updated_at": "2026-11-03T12:32:48.194516",
+    "price_14d_ago": 17.16
   },
   "META": {
-    "price": 606.73,
-    "change_pct": -17.74,
+    "price": 623.08,
+    "change_pct": -15.43,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-11-03T07:14:49.390571",
-    "price_14d_ago": 737.54
+    "updated_at": "2026-11-03T12:32:49.013436",
+    "price_14d_ago": 736.72
   },
   "MGM": {
-    "price": 30.56,
-    "change_pct": 5.52,
+    "price": 31.14,
+    "change_pct": 5.63,
     "name": "MGM Resorts International",
-    "updated_at": "2026-11-03T07:14:49.590288",
-    "price_14d_ago": 28.96
+    "updated_at": "2026-11-03T12:32:49.210997",
+    "price_14d_ago": 29.48
   },
   "MINE": {
-    "price": 2.45,
-    "change_pct": 4.26,
+    "price": 2.37,
+    "change_pct": -5.58,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-11-03T07:14:49.775854",
-    "price_14d_ago": 2.35
+    "updated_at": "2026-11-03T12:32:49.391812",
+    "price_14d_ago": 2.51
   },
   "MRK": {
-    "price": 148.36,
-    "change_pct": 0.67,
+    "price": 144.74,
+    "change_pct": -0.31,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-11-03T07:14:50.223330",
-    "price_14d_ago": 147.37
+    "updated_at": "2026-11-03T12:32:49.894000",
+    "price_14d_ago": 145.19
   },
   "MRNA": {
-    "price": 220.83,
-    "change_pct": -2.42,
+    "price": 232.04,
+    "change_pct": -1.89,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-11-03T07:14:50.454625",
-    "price_14d_ago": 226.3
+    "updated_at": "2026-11-03T12:32:50.080635",
+    "price_14d_ago": 236.5
   },
   "MS": {
-    "price": 185.73,
-    "change_pct": 2.32,
+    "price": 186.44,
+    "change_pct": 2.38,
     "name": "Morgan Stanley",
-    "updated_at": "2026-11-03T07:14:50.665194",
-    "price_14d_ago": 181.51
+    "updated_at": "2026-11-03T12:32:50.276929",
+    "price_14d_ago": 182.1
   },
   "MSFT": {
-    "price": 507.12,
-    "change_pct": -4.98,
+    "price": 520.06,
+    "change_pct": -3.59,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-11-03T07:14:50.881342",
-    "price_14d_ago": 533.69
+    "updated_at": "2026-11-03T12:32:50.540755",
+    "price_14d_ago": 539.44
   },
   "MSTR": {
-    "price": 130.76,
-    "change_pct": -8.71,
+    "price": 136.42,
+    "change_pct": -9.83,
     "name": "Strategy Inc",
-    "updated_at": "2026-11-03T07:14:51.071865",
-    "price_14d_ago": 143.24
+    "updated_at": "2026-11-03T12:32:50.721072",
+    "price_14d_ago": 151.29
   },
   "MU": {
-    "price": 833.59,
-    "change_pct": -8.81,
+    "price": 853.75,
+    "change_pct": -8.32,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-11-03T07:14:51.281288",
-    "price_14d_ago": 914.13
+    "updated_at": "2026-11-03T12:32:50.919447",
+    "price_14d_ago": 931.24
   },
   "NEE": {
-    "price": 85.03,
-    "change_pct": 8.5,
+    "price": 84.35,
+    "change_pct": 6.83,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-11-03T07:14:52.086202",
-    "price_14d_ago": 78.37
+    "updated_at": "2026-11-03T12:32:51.678441",
+    "price_14d_ago": 78.96
   },
   "NFLX": {
-    "price": 62.34,
-    "change_pct": -11.66,
+    "price": 62.8,
+    "change_pct": -13.52,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-11-03T07:14:52.462392",
-    "price_14d_ago": 70.57
+    "updated_at": "2026-11-03T12:32:52.051087",
+    "price_14d_ago": 72.61
   },
   "NKE": {
-    "price": 39.12,
-    "change_pct": 10.82,
+    "price": 38.36,
+    "change_pct": 3.28,
     "name": "Nike, Inc.",
-    "updated_at": "2026-11-03T07:14:53.110541",
-    "price_14d_ago": 35.3
+    "updated_at": "2026-11-03T12:32:52.682173",
+    "price_14d_ago": 37.14
   },
   "NOC": {
-    "price": 555.32,
-    "change_pct": 12.03,
+    "price": 551.37,
+    "change_pct": 10.36,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-11-03T07:14:53.386968",
-    "price_14d_ago": 495.69
+    "updated_at": "2026-11-03T12:32:52.983231",
+    "price_14d_ago": 499.63
   },
   "NVDA": {
-    "price": 202.06,
-    "change_pct": -8.69,
+    "price": 208.33,
+    "change_pct": -4.1,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-11-03T07:14:53.596238",
-    "price_14d_ago": 221.3
+    "updated_at": "2026-11-03T12:32:53.263442",
+    "price_14d_ago": 217.23
   },
   "NVS": {
-    "price": 161.52,
-    "change_pct": 9.97,
+    "price": 159.96,
+    "change_pct": 6.37,
     "name": "Novartis AG",
-    "updated_at": "2026-11-03T07:14:54.013768",
-    "price_14d_ago": 146.88
+    "updated_at": "2026-11-03T12:32:53.669581",
+    "price_14d_ago": 150.38
   },
   "Nasdaq": {
-    "price": 681.09,
-    "change_pct": -6.57,
+    "price": 687.84,
+    "change_pct": -5.52,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-11-03T07:14:54.223357",
-    "price_14d_ago": 728.95
+    "updated_at": "2026-11-03T12:32:53.864033",
+    "price_14d_ago": 728.0
   },
   "OKLO": {
-    "price": 23.52,
-    "change_pct": -19.01,
+    "price": 23.5,
+    "change_pct": -21.69,
     "name": "Oklo Inc.",
-    "updated_at": "2026-11-03T07:14:54.659843",
-    "price_14d_ago": 29.04
+    "updated_at": "2026-11-03T12:32:54.263429",
+    "price_14d_ago": 30.01
   },
   "ORCL": {
-    "price": 119.22,
-    "change_pct": -8.68,
+    "price": 126.96,
+    "change_pct": -5.58,
     "name": "Oracle Corporation",
-    "updated_at": "2026-11-03T07:14:55.106986",
-    "price_14d_ago": 130.55
+    "updated_at": "2026-11-03T12:32:54.724723",
+    "price_14d_ago": 134.47
   },
   "PALL": {
-    "price": 17.46,
-    "change_pct": -11.95,
+    "price": 16.97,
+    "change_pct": -17.53,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-11-03T07:14:55.301961",
-    "price_14d_ago": 19.83
+    "updated_at": "2026-11-03T12:32:54.912651",
+    "price_14d_ago": 20.58
   },
   "PANW": {
-    "price": 351.72,
-    "change_pct": -6.22,
+    "price": 352.2,
+    "change_pct": -4.88,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-11-03T07:14:55.494469",
-    "price_14d_ago": 375.04
+    "updated_at": "2026-11-03T12:32:55.114412",
+    "price_14d_ago": 370.27
   },
   "PBR": {
     "price": 21.16,
-    "change_pct": -18.43,
+    "change_pct": -16.38,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-11-03T07:14:55.695243",
-    "price_14d_ago": 25.94
+    "updated_at": "2026-11-03T12:32:55.322680",
+    "price_14d_ago": 25.3
   },
   "PFE": {
-    "price": 30.67,
-    "change_pct": 5.0,
+    "price": 30.48,
+    "change_pct": 3.52,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-11-03T07:14:56.097079",
-    "price_14d_ago": 29.21
+    "updated_at": "2026-11-03T12:32:55.764158",
+    "price_14d_ago": 29.44
   },
   "PLTM": {
-    "price": 13.83,
-    "change_pct": -9.9,
+    "price": 13.7,
+    "change_pct": -12.24,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-11-03T07:14:56.276671",
-    "price_14d_ago": 15.35
+    "updated_at": "2026-11-03T12:32:55.966820",
+    "price_14d_ago": 15.61
   },
   "PLTR": {
-    "price": 178.34,
-    "change_pct": -11.26,
+    "price": 175.68,
+    "change_pct": -12.38,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-11-03T07:14:56.459859",
-    "price_14d_ago": 200.97
+    "updated_at": "2026-11-03T12:32:56.145525",
+    "price_14d_ago": 200.5
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-11-03T07:14:56.822148",
+    "updated_at": "2026-11-03T12:32:56.524275",
     "price_14d_ago": null
   },
   "PQUS": {
-    "price": 28.1,
-    "change_pct": -2.12,
+    "price": 28.27,
+    "change_pct": -1.87,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-11-03T07:14:57.010687",
-    "price_14d_ago": 28.71
+    "updated_at": "2026-11-03T12:32:56.703721",
+    "price_14d_ago": 28.81
   },
   "PSBD": {
-    "price": 10.07,
-    "change_pct": 5.45,
+    "price": 9.89,
+    "change_pct": 1.33,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-11-03T07:14:57.281585",
-    "price_14d_ago": 9.55
+    "updated_at": "2026-11-03T12:32:56.898993",
+    "price_14d_ago": 9.76
   },
   "PYPL": {
-    "price": 58.78,
-    "change_pct": 4.78,
+    "price": 58.92,
+    "change_pct": 3.08,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-11-03T07:14:57.466899",
-    "price_14d_ago": 56.1
+    "updated_at": "2026-11-03T12:32:57.082168",
+    "price_14d_ago": 57.16
   },
   "QQQ": {
-    "price": 681.09,
-    "change_pct": -6.57,
+    "price": 687.83,
+    "change_pct": -5.52,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-11-03T07:14:57.899490",
-    "price_14d_ago": 728.95
+    "updated_at": "2026-11-03T12:32:57.568964",
+    "price_14d_ago": 728.0
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-11-03T07:14:58.087920",
+    "updated_at": "2026-11-03T12:32:57.760500",
     "price_14d_ago": null
   },
   "RBLX": {
-    "price": 42.88,
-    "change_pct": -9.8,
+    "price": 46.05,
+    "change_pct": -9.93,
     "name": "Roblox Corporation",
-    "updated_at": "2026-11-03T07:14:58.454634",
-    "price_14d_ago": 47.54
+    "updated_at": "2026-11-03T12:32:58.151506",
+    "price_14d_ago": 51.13
   },
   "RKLB": {
-    "price": 52.07,
-    "change_pct": -12.01,
+    "price": 54.2,
+    "change_pct": -1.91,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-11-03T07:14:59.053514",
-    "price_14d_ago": 59.18
+    "updated_at": "2026-11-03T12:32:58.826505",
+    "price_14d_ago": 55.25
   },
   "Russell": {
-    "price": 279.14,
-    "change_pct": 2.86,
+    "price": 281.31,
+    "change_pct": 2.26,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-11-03T07:15:00.015172",
-    "price_14d_ago": 271.37
+    "updated_at": "2026-11-03T12:32:59.877733",
+    "price_14d_ago": 275.08
   },
   "S&P": {
-    "price": 7541.4,
-    "change_pct": -2.3,
+    "price": 7591.03,
+    "change_pct": -1.98,
     "name": "S&P 500",
-    "updated_at": "2026-11-03T07:15:00.197687",
-    "price_14d_ago": 7718.94
+    "updated_at": "2026-11-03T12:33:00.072253",
+    "price_14d_ago": 7744.06
   },
   "S&P 500": {
-    "price": 7541.4,
-    "change_pct": -2.3,
+    "price": 7591.03,
+    "change_pct": -1.98,
     "name": "S&P 500",
-    "updated_at": "2026-11-03T07:15:00.412866",
-    "price_14d_ago": 7718.94
+    "updated_at": "2026-11-03T12:33:00.327819",
+    "price_14d_ago": 7744.06
   },
   "SAMSUNG ELECTRONICS": {
     "price": 219500.0,
     "change_pct": 4.52,
     "name": "SamsungElec",
-    "updated_at": "2026-11-03T07:15:00.618661",
+    "updated_at": "2026-11-03T12:33:00.552226",
     "price_14d_ago": 210000.0
   },
   "SAP": {
-    "price": 233.62,
-    "change_pct": 5.95,
+    "price": 231.85,
+    "change_pct": 3.04,
     "name": "SAP  SE",
-    "updated_at": "2026-11-03T07:15:00.872598",
-    "price_14d_ago": 220.49
+    "updated_at": "2026-11-03T12:33:00.755871",
+    "price_14d_ago": 225.0
   },
   "SF": {
-    "price": 68.67,
-    "change_pct": 1.28,
+    "price": 68.92,
+    "change_pct": 0.33,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-11-03T07:15:01.086770",
-    "price_14d_ago": 67.8
+    "updated_at": "2026-11-03T12:33:00.976009",
+    "price_14d_ago": 68.69
   },
   "SK HYNIX": {
     "price": 1398000.0,
     "change_pct": 10.78,
     "name": "SK hynix",
-    "updated_at": "2026-11-03T07:15:01.498238",
+    "updated_at": "2026-11-03T12:33:01.373212",
     "price_14d_ago": 1262000.0
   },
   "SLB": {
-    "price": 52.31,
-    "change_pct": 7.83,
+    "price": 52.55,
+    "change_pct": 8.63,
     "name": "SLB Limited",
-    "updated_at": "2026-11-03T07:15:01.737706",
-    "price_14d_ago": 48.51
+    "updated_at": "2026-11-03T12:33:01.660493",
+    "price_14d_ago": 48.37
   },
   "SMH": {
-    "price": 508.31,
-    "change_pct": -9.99,
+    "price": 520.92,
+    "change_pct": -6.78,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-11-03T07:15:01.932330",
-    "price_14d_ago": 564.74
+    "updated_at": "2026-11-03T12:33:01.867807",
+    "price_14d_ago": 558.84
   },
   "SMR": {
-    "price": 5.35,
-    "change_pct": -8.23,
+    "price": 5.37,
+    "change_pct": -12.68,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-11-03T07:15:02.122279",
-    "price_14d_ago": 5.83
+    "updated_at": "2026-11-03T12:33:02.120155",
+    "price_14d_ago": 6.15
   },
   "SNAP": {
-    "price": 5.45,
-    "change_pct": -10.66,
+    "price": 5.61,
+    "change_pct": -12.83,
     "name": "Snap Inc.",
-    "updated_at": "2026-11-03T07:15:02.303987",
-    "price_14d_ago": 6.1
+    "updated_at": "2026-11-03T12:33:02.314624",
+    "price_14d_ago": 6.44
   },
   "SNWGF": {
-    "price": 9.44,
-    "change_pct": -3.43,
+    "price": 9.21,
+    "change_pct": -12.23,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-11-03T07:15:02.496749",
-    "price_14d_ago": 9.77
+    "updated_at": "2026-11-03T12:33:02.504706",
+    "price_14d_ago": 10.49
   },
   "SOYB": {
-    "price": 25.81,
-    "change_pct": -5.08,
+    "price": 25.69,
+    "change_pct": -4.64,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-11-03T07:15:02.681177",
-    "price_14d_ago": 27.19
+    "updated_at": "2026-11-03T12:33:02.696950",
+    "price_14d_ago": 26.94
   },
   "SPCE": {
-    "price": 2.47,
-    "change_pct": -3.14,
+    "price": 2.5,
+    "change_pct": -3.1,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-11-03T07:15:02.939980",
-    "price_14d_ago": 2.55
+    "updated_at": "2026-11-03T12:33:02.898175",
+    "price_14d_ago": 2.58
   },
   "SPX": {
-    "price": 7541.4,
-    "change_pct": -2.3,
+    "price": 7590.99,
+    "change_pct": -1.98,
     "name": "S&P 500",
-    "updated_at": "2026-11-03T07:15:03.476048",
-    "price_14d_ago": 7718.94
+    "updated_at": "2026-11-03T12:33:03.630147",
+    "price_14d_ago": 7744.06
   },
   "SPY": {
-    "price": 752.1,
-    "change_pct": -2.27,
+    "price": 756.69,
+    "change_pct": -1.96,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-11-03T07:15:03.685331",
-    "price_14d_ago": 769.6
+    "updated_at": "2026-11-03T12:33:03.845325",
+    "price_14d_ago": 771.79
   },
   "SQQQ": {
-    "price": 43.55,
-    "change_pct": 20.97,
+    "price": 42.3,
+    "change_pct": 17.03,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-11-03T07:15:03.871025",
-    "price_14d_ago": 36.0
+    "updated_at": "2026-11-03T12:33:04.044312",
+    "price_14d_ago": 36.14
   },
   "SQUARE": {
-    "price": 77.08,
-    "change_pct": 1.62,
+    "price": 76.17,
+    "change_pct": -4.59,
     "name": "Block, Inc.",
-    "updated_at": "2026-11-03T07:15:04.053278",
-    "price_14d_ago": 75.85
+    "updated_at": "2026-11-03T12:33:04.224656",
+    "price_14d_ago": 79.83
   },
   "Semiconductors": {
-    "price": 508.31,
-    "change_pct": -9.99,
+    "price": 520.92,
+    "change_pct": -6.78,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-11-03T07:15:04.251179",
-    "price_14d_ago": 564.74
+    "updated_at": "2026-11-03T12:33:04.490643",
+    "price_14d_ago": 558.84
   },
   "T": {
-    "price": 21.44,
-    "change_pct": -6.98,
+    "price": 21.26,
+    "change_pct": -9.53,
     "name": "AT&T Inc.",
-    "updated_at": "2026-11-03T07:15:04.466891",
-    "price_14d_ago": 23.05
+    "updated_at": "2026-11-03T12:33:04.702946",
+    "price_14d_ago": 23.5
   },
   "TDOC": {
-    "price": 8.63,
-    "change_pct": 48.54,
+    "price": 8.86,
+    "change_pct": 48.32,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-11-03T07:15:04.869420",
-    "price_14d_ago": 5.81
+    "updated_at": "2026-11-03T12:33:05.119628",
+    "price_14d_ago": 5.97
   },
   "TIPS": {
     "price": 0.0,
-    "change_pct": 40.0,
+    "change_pct": 66.67,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-11-03T07:15:05.508191",
+    "updated_at": "2026-11-03T12:33:05.849883",
     "price_14d_ago": 0.0
   },
   "TLT": {
-    "price": 81.73,
-    "change_pct": 3.6,
+    "price": 81.06,
+    "change_pct": 1.36,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-11-03T07:15:05.708754",
-    "price_14d_ago": 78.89
+    "updated_at": "2026-11-03T12:33:06.063952",
+    "price_14d_ago": 79.97
   },
   "TSLA": {
-    "price": 403.82,
-    "change_pct": 9.98,
+    "price": 399.05,
+    "change_pct": 10.1,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-11-03T07:15:05.890315",
-    "price_14d_ago": 367.16
+    "updated_at": "2026-11-03T12:33:06.265274",
+    "price_14d_ago": 362.44
   },
   "TSM": {
-    "price": 398.63,
-    "change_pct": -7.3,
+    "price": 406.75,
+    "change_pct": -3.67,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-11-03T07:15:06.098954",
-    "price_14d_ago": 430.0
+    "updated_at": "2026-11-03T12:33:06.585508",
+    "price_14d_ago": 422.25
   },
   "UBER": {
-    "price": 66.71,
-    "change_pct": -3.72,
+    "price": 66.57,
+    "change_pct": -6.59,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-11-03T07:15:06.542587",
-    "price_14d_ago": 69.29
+    "updated_at": "2026-11-03T12:33:06.992101",
+    "price_14d_ago": 71.27
   },
   "UNG": {
-    "price": 9.0,
-    "change_pct": -19.79,
+    "price": 9.06,
+    "change_pct": -18.26,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-11-03T07:15:06.727263",
-    "price_14d_ago": 11.22
+    "updated_at": "2026-11-03T12:33:07.186708",
+    "price_14d_ago": 11.09
   },
   "URANIUM": {
-    "price": 32.93,
-    "change_pct": -7.34,
+    "price": 33.05,
+    "change_pct": -8.5,
     "name": "Uranium ETF",
-    "updated_at": "2026-11-03T07:15:07.171362",
-    "price_14d_ago": 35.54
+    "updated_at": "2026-11-03T12:33:07.579661",
+    "price_14d_ago": 36.12
   },
   "USD": {
-    "price": 66.02,
-    "change_pct": -21.93,
+    "price": 69.93,
+    "change_pct": -15.05,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-11-03T07:15:07.387283",
-    "price_14d_ago": 84.57
+    "updated_at": "2026-11-03T12:33:07.799042",
+    "price_14d_ago": 82.32
   },
   "USDX": {
     "price": 25.61,
-    "change_pct": 0.16,
+    "change_pct": 0.14,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-11-03T07:15:07.571914",
+    "updated_at": "2026-11-03T12:33:07.983590",
     "price_14d_ago": 25.57
   },
   "USO": {
-    "price": 156.87,
-    "change_pct": 2.16,
+    "price": 157.31,
+    "change_pct": -0.0,
     "name": "United States Oil Fund",
-    "updated_at": "2026-11-03T07:15:07.755385",
-    "price_14d_ago": 153.56
+    "updated_at": "2026-11-03T12:33:08.176066",
+    "price_14d_ago": 157.31
   },
   "UTHR": {
-    "price": 596.13,
-    "change_pct": 10.39,
+    "price": 600.59,
+    "change_pct": 10.91,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-11-03T07:15:07.940761",
-    "price_14d_ago": 540.03
+    "updated_at": "2026-11-03T12:33:08.361400",
+    "price_14d_ago": 541.51
   },
   "UUU": {
     "price": 5.29,
-    "change_pct": 7.74,
+    "change_pct": 3.73,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-11-03T07:15:08.168990",
-    "price_14d_ago": 4.91
+    "updated_at": "2026-11-03T12:33:08.559858",
+    "price_14d_ago": 5.1
   },
   "V": {
-    "price": 425.51,
-    "change_pct": 8.71,
+    "price": 422.43,
+    "change_pct": 5.67,
     "name": "Visa Inc.",
-    "updated_at": "2026-11-03T07:15:08.564120",
-    "price_14d_ago": 391.43
+    "updated_at": "2026-11-03T12:33:08.966917",
+    "price_14d_ago": 399.75
   },
   "VEEV": {
-    "price": 307.0,
-    "change_pct": 3.25,
+    "price": 304.53,
+    "change_pct": -2.72,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-11-03T07:15:09.159564",
-    "price_14d_ago": 297.35
+    "updated_at": "2026-11-03T12:33:09.586581",
+    "price_14d_ago": 313.03
   },
   "VIX": {
-    "price": 21.32,
-    "change_pct": 29.53,
+    "price": 20.45,
+    "change_pct": 24.24,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-11-03T07:15:09.895185",
+    "updated_at": "2026-11-03T12:33:10.375991",
     "price_14d_ago": 16.46
   },
   "VLO": {
-    "price": 381.46,
-    "change_pct": -17.03,
+    "price": 391.04,
+    "change_pct": -11.94,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-11-03T07:15:10.104903",
-    "price_14d_ago": 459.78
+    "updated_at": "2026-11-03T12:33:10.592425",
+    "price_14d_ago": 444.06
   },
   "VRTX": {
-    "price": 553.15,
-    "change_pct": 10.96,
+    "price": 535.4,
+    "change_pct": 5.24,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-11-03T07:15:10.284363",
-    "price_14d_ago": 498.5
+    "updated_at": "2026-11-03T12:33:10.840500",
+    "price_14d_ago": 508.75
   },
   "WFC": {
-    "price": 85.89,
-    "change_pct": 6.17,
+    "price": 85.43,
+    "change_pct": 3.24,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-11-03T07:15:10.502778",
-    "price_14d_ago": 80.9
+    "updated_at": "2026-11-03T12:33:11.108256",
+    "price_14d_ago": 82.75
   },
   "WIT": {
     "price": 2.15,
-    "change_pct": 19.44,
+    "change_pct": 15.24,
     "name": "Wipro Limited",
-    "updated_at": "2026-11-03T07:15:10.889642",
-    "price_14d_ago": 1.8
+    "updated_at": "2026-11-03T12:33:11.504677",
+    "price_14d_ago": 1.87
   },
   "WMT": {
-    "price": 127.69,
-    "change_pct": 9.93,
+    "price": 125.03,
+    "change_pct": 6.08,
     "name": "Walmart Inc.",
-    "updated_at": "2026-11-03T07:15:11.105862",
-    "price_14d_ago": 116.16
+    "updated_at": "2026-11-03T12:33:11.721452",
+    "price_14d_ago": 117.87
   },
   "WTBN": {
-    "price": 24.36,
-    "change_pct": 1.35,
+    "price": 24.3,
+    "change_pct": 0.5,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-11-03T07:15:11.299592",
-    "price_14d_ago": 24.03
+    "updated_at": "2026-11-03T12:33:11.947187",
+    "price_14d_ago": 24.18
   },
   "WTI": {
-    "price": 97.51,
-    "change_pct": -0.47,
+    "price": 95.91,
+    "change_pct": -2.1,
     "name": "WTI Crude",
-    "updated_at": "2026-11-03T07:15:11.487214",
+    "updated_at": "2026-11-03T12:33:12.180553",
     "price_14d_ago": 97.97
   },
   "WTI CRUDE OIL": {
-    "price": 97.51,
-    "change_pct": -0.47,
+    "price": 95.91,
+    "change_pct": -2.1,
     "name": "WTI Crude",
-    "updated_at": "2026-11-03T07:15:11.606767",
+    "updated_at": "2026-11-03T12:33:12.382474",
     "price_14d_ago": 97.97
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-11-03T07:15:12.062979",
+    "updated_at": "2026-11-03T12:33:12.773613",
     "price_14d_ago": 0.0
   },
   "XOM": {
-    "price": 179.67,
-    "change_pct": 1.5,
+    "price": 178.18,
+    "change_pct": 2.0,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-11-03T07:15:12.291443",
-    "price_14d_ago": 177.01
+    "updated_at": "2026-11-03T12:33:13.021579",
+    "price_14d_ago": 174.68
   },
   "ZIM": {
-    "price": 28.35,
-    "change_pct": -4.99,
+    "price": 29.22,
+    "change_pct": -1.08,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-11-03T07:15:12.668474",
-    "price_14d_ago": 29.84
+    "updated_at": "2026-11-03T12:33:13.463612",
+    "price_14d_ago": 29.54
   },
   "HIMS": {
-    "price": 25.24,
-    "change_pct": -8.95,
+    "price": 25.68,
+    "change_pct": -12.59,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-11-03T07:15:13.036769",
-    "price_14d_ago": 27.72
+    "updated_at": "2026-11-03T12:33:13.838447",
+    "price_14d_ago": 29.38
   },
   "GDRX": {
-    "price": 3.55,
-    "change_pct": 5.03,
+    "price": 3.56,
+    "change_pct": 1.43,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-11-03T07:15:13.217427",
-    "price_14d_ago": 3.38
+    "updated_at": "2026-11-03T12:33:14.038743",
+    "price_14d_ago": 3.51
   },
   "TEM": {
-    "price": 78.48,
-    "change_pct": 14.87,
+    "price": 80.78,
+    "change_pct": 13.57,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-11-03T07:15:13.417846",
-    "price_14d_ago": 68.32
+    "updated_at": "2026-11-03T12:33:14.240969",
+    "price_14d_ago": 71.13
   },
   "GH": {
-    "price": 170.73,
-    "change_pct": 4.75,
+    "price": 174.94,
+    "change_pct": 5.46,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-11-03T07:15:13.605908",
-    "price_14d_ago": 162.99
+    "updated_at": "2026-11-03T12:33:14.498457",
+    "price_14d_ago": 165.88
   },
   "ABT": {
-    "price": 110.16,
-    "change_pct": 6.98,
+    "price": 109.88,
+    "change_pct": 4.97,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-11-03T07:15:13.820469",
-    "price_14d_ago": 102.97
+    "updated_at": "2026-11-03T12:33:14.704239",
+    "price_14d_ago": 104.68
   },
   "ARM": {
-    "price": 196.79,
-    "change_pct": -17.32,
+    "price": 203.21,
+    "change_pct": -16.99,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-11-03T07:14:27.867774",
-    "price_14d_ago": 238.01
+    "updated_at": "2026-11-03T12:32:27.239603",
+    "price_14d_ago": 244.79
   },
   "HOOD": {
-    "price": 83.84,
-    "change_pct": -17.06,
+    "price": 85.12,
+    "change_pct": -18.15,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-11-03T07:14:43.250635",
-    "price_14d_ago": 101.08
+    "updated_at": "2026-11-03T12:32:42.607329",
+    "price_14d_ago": 103.99
   },
   "SPOT": {
-    "price": 594.04,
-    "change_pct": 13.38,
+    "price": 595.38,
+    "change_pct": 11.63,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-11-03T07:15:03.118347",
-    "price_14d_ago": 523.96
+    "updated_at": "2026-11-03T12:33:03.249485",
+    "price_14d_ago": 533.37
   },
   "CRWV": {
-    "price": 50.15,
-    "change_pct": -23.76,
+    "price": 52.98,
+    "change_pct": -23.98,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-11-03T07:14:35.502388",
-    "price_14d_ago": 65.78
+    "updated_at": "2026-11-03T12:32:34.624900",
+    "price_14d_ago": 69.69
   },
   "LENS": {
-    "price": 42.02,
-    "change_pct": -2.66,
+    "price": 41.95,
+    "change_pct": -3.55,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-11-03T07:14:47.074114",
-    "price_14d_ago": 43.17
+    "updated_at": "2026-11-03T12:32:46.601014",
+    "price_14d_ago": 43.49
   },
   "TCEHY": {
-    "price": 50.3,
-    "change_pct": -5.54,
+    "price": 50.53,
+    "change_pct": -5.73,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-11-03T07:15:04.683898",
-    "price_14d_ago": 53.25
+    "updated_at": "2026-11-03T12:33:04.922817",
+    "price_14d_ago": 53.6
   },
   "SHOP": {
-    "price": 156.22,
-    "change_pct": -9.44,
+    "price": 148.75,
+    "change_pct": -16.5,
     "name": "Shopify Inc.",
-    "updated_at": "2026-11-03T07:15:01.283358",
-    "price_14d_ago": 172.5
+    "updated_at": "2026-11-03T12:33:01.163695",
+    "price_14d_ago": 178.14
   },
   "BWET": {
-    "price": 912.6,
-    "change_pct": -8.53,
+    "price": 841.08,
+    "change_pct": -7.35,
     "name": "Breakwave Tanker Shipping ETF",
-    "updated_at": "2026-11-03T07:14:31.323926",
-    "price_14d_ago": 997.66
+    "updated_at": "2026-11-03T12:32:30.708183",
+    "price_14d_ago": 907.84
   },
   "CRWD": {
-    "price": 241.81,
-    "change_pct": -3.0,
+    "price": 245.3,
+    "change_pct": 0.3,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-11-03T07:14:35.243720",
-    "price_14d_ago": 249.29
+    "updated_at": "2026-11-03T12:32:34.442802",
+    "price_14d_ago": 244.57
   },
   "DHT": {
-    "price": 23.86,
-    "change_pct": -4.37,
+    "price": 23.99,
+    "change_pct": 2.39,
     "name": "DHT Holdings, Inc.",
-    "updated_at": "2026-11-03T07:14:36.728780",
-    "price_14d_ago": 24.95
+    "updated_at": "2026-11-03T12:32:35.793466",
+    "price_14d_ago": 23.43
   },
   "ECO": {
-    "price": 91.25,
-    "change_pct": -4.61,
+    "price": 93.19,
+    "change_pct": 4.5,
     "name": "Okeanis Eco Tankers Corp.",
-    "updated_at": "2026-11-03T07:14:38.032732",
-    "price_14d_ago": 95.66
+    "updated_at": "2026-11-03T12:32:37.075068",
+    "price_14d_ago": 89.18
   },
   "FMCC": {
-    "price": 4.67,
-    "change_pct": 59.93,
+    "price": 4.86,
+    "change_pct": 45.95,
     "name": "Freddie Mac",
-    "updated_at": "2026-11-03T07:14:39.431337",
-    "price_14d_ago": 2.92
+    "updated_at": "2026-11-03T12:32:38.607412",
+    "price_14d_ago": 3.33
   },
   "FNMA": {
-    "price": 5.06,
-    "change_pct": 60.63,
+    "price": 5.26,
+    "change_pct": 43.72,
     "name": "Fannie Mae",
-    "updated_at": "2026-11-03T07:14:39.702370",
-    "price_14d_ago": 3.15
+    "updated_at": "2026-11-03T12:32:38.827437",
+    "price_14d_ago": 3.66
   },
   "FRO": {
-    "price": 52.08,
-    "change_pct": -7.45,
+    "price": 52.64,
+    "change_pct": 0.19,
     "name": "Frontline Plc",
-    "updated_at": "2026-11-03T07:14:39.912242",
-    "price_14d_ago": 56.27
+    "updated_at": "2026-11-03T12:32:39.042585",
+    "price_14d_ago": 52.54
   },
   "FTNT": {
-    "price": 126.21,
-    "change_pct": -31.43,
+    "price": 128.07,
+    "change_pct": -29.59,
     "name": "Fortinet, Inc.",
-    "updated_at": "2026-11-03T07:14:40.497177",
-    "price_14d_ago": 184.05
+    "updated_at": "2026-11-03T12:32:39.657902",
+    "price_14d_ago": 181.91
   },
   "QLYS": {
-    "price": 207.6,
-    "change_pct": 9.48,
+    "price": 210.21,
+    "change_pct": 9.11,
     "name": "Qualys, Inc.",
-    "updated_at": "2026-11-03T07:14:57.654055",
-    "price_14d_ago": 189.63
+    "updated_at": "2026-11-03T12:32:57.279893",
+    "price_14d_ago": 192.65
   },
   "RITM": {
-    "price": 9.45,
-    "change_pct": 13.17,
+    "price": 9.23,
+    "change_pct": 5.99,
     "name": "Rithm Capital Corp.",
-    "updated_at": "2026-11-03T07:14:58.835106",
-    "price_14d_ago": 8.35
+    "updated_at": "2026-11-03T12:32:58.534460",
+    "price_14d_ago": 8.71
   },
   "RPD": {
-    "price": 14.86,
-    "change_pct": 19.99,
+    "price": 14.81,
+    "change_pct": 13.26,
     "name": "Rapid7, Inc.",
-    "updated_at": "2026-11-03T07:14:59.424854",
-    "price_14d_ago": 12.38
+    "updated_at": "2026-11-03T12:32:59.297743",
+    "price_14d_ago": 13.08
   },
   "AMAT": {
-    "price": 374.53,
-    "change_pct": -16.14,
+    "price": 382.52,
+    "change_pct": -11.04,
     "name": "Applied Materials, Inc.",
-    "updated_at": "2026-11-03T07:14:25.864115",
-    "price_14d_ago": 446.63
+    "updated_at": "2026-11-03T12:32:25.247897",
+    "price_14d_ago": 430.01
   },
   "LRCX": {
-    "price": 227.56,
-    "change_pct": -20.69,
+    "price": 230.75,
+    "change_pct": -16.83,
     "name": "Lam Research Corporation",
-    "updated_at": "2026-11-03T07:14:48.001993",
-    "price_14d_ago": 286.92
+    "updated_at": "2026-11-03T12:32:47.581548",
+    "price_14d_ago": 277.46
   },
   "HUBS": {
-    "price": 233.49,
-    "change_pct": 3.21,
+    "price": 233.13,
+    "change_pct": -2.42,
     "name": "HubSpot, Inc.",
-    "updated_at": "2026-11-03T07:14:43.435880",
-    "price_14d_ago": 226.23
+    "updated_at": "2026-11-03T12:32:42.876660",
+    "price_14d_ago": 238.91
   },
   "MCD": {
-    "price": 265.64,
-    "change_pct": 11.47,
+    "price": 262.76,
+    "change_pct": 8.36,
     "name": "McDonald's Corporation",
-    "updated_at": "2026-11-03T07:14:49.021583",
-    "price_14d_ago": 238.31
+    "updated_at": "2026-11-03T12:32:48.646592",
+    "price_14d_ago": 242.5
   },
   "CART": {
-    "price": 57.59,
-    "change_pct": 16.58,
+    "price": 57.92,
+    "change_pct": 13.29,
     "name": "Maplebear Inc.",
-    "updated_at": "2026-11-03T07:14:32.092741",
-    "price_14d_ago": 49.4
+    "updated_at": "2026-11-03T12:32:31.504045",
+    "price_14d_ago": 51.13
   },
   "VGS": {
     "price": 0,
     "change_pct": 0,
     "name": "VGS",
-    "updated_at": "2026-11-03T07:15:09.529369",
+    "updated_at": "2026-11-03T12:33:09.967859",
     "price_14d_ago": null
   },
   "LEU": {
-    "price": 94.9,
-    "change_pct": -20.88,
+    "price": 96.24,
+    "change_pct": -24.23,
     "name": "Centrus Energy Corp.",
-    "updated_at": "2026-11-03T07:14:47.283385",
-    "price_14d_ago": 119.95
+    "updated_at": "2026-11-03T12:32:46.832296",
+    "price_14d_ago": 127.01
   },
   "AMP": {
-    "price": 504.31,
-    "change_pct": 1.71,
+    "price": 505.2,
+    "change_pct": 0.52,
     "name": "Ameriprise Financial, Inc.",
-    "updated_at": "2026-11-03T07:14:26.450544",
-    "price_14d_ago": 495.82
+    "updated_at": "2026-11-03T12:32:25.852916",
+    "price_14d_ago": 502.58
   },
   "ANTH": {
     "price": 0.0,
     "change_pct": -28.57,
     "name": "ANTHERA PHARMACEUTICALS INC",
-    "updated_at": "2026-11-03T07:14:27.007292",
+    "updated_at": "2026-11-03T12:32:26.428458",
     "price_14d_ago": 0.0
   },
   "DB": {
-    "price": 34.09,
-    "change_pct": 3.93,
+    "price": 34.13,
+    "change_pct": 3.88,
     "name": "Deutsche Bank AG",
-    "updated_at": "2026-11-03T07:14:35.961807",
-    "price_14d_ago": 32.8
+    "updated_at": "2026-11-03T12:32:35.016836",
+    "price_14d_ago": 32.86
   },
   "FSLR": {
-    "price": 182.05,
-    "change_pct": 1.66,
+    "price": 187.76,
+    "change_pct": 5.01,
     "name": "First Solar, Inc.",
-    "updated_at": "2026-11-03T07:14:40.294243",
-    "price_14d_ago": 179.08
+    "updated_at": "2026-11-03T12:32:39.462489",
+    "price_14d_ago": 178.81
   },
   "NASA": {
-    "price": 19.83,
-    "change_pct": -8.11,
+    "price": 20.44,
+    "change_pct": -3.81,
     "name": "Tema Space Innovators ETF",
-    "updated_at": "2026-11-03T07:14:51.685777",
-    "price_14d_ago": 21.58
+    "updated_at": "2026-11-03T12:32:51.290318",
+    "price_14d_ago": 21.25
   },
   "ASML": {
-    "price": 1526.14,
-    "change_pct": -7.51,
+    "price": 1560.34,
+    "change_pct": -5.86,
     "name": "ASML Holding N.V. - New York Re",
-    "updated_at": "2026-11-03T07:14:28.064656",
-    "price_14d_ago": 1650.0
+    "updated_at": "2026-11-03T12:32:27.437978",
+    "price_14d_ago": 1657.44
   },
   "NET": {
-    "price": 265.17,
-    "change_pct": -18.24,
+    "price": 276.65,
+    "change_pct": -12.54,
     "name": "Cloudflare, Inc.",
-    "updated_at": "2026-11-03T07:14:52.276054",
-    "price_14d_ago": 324.33
+    "updated_at": "2026-11-03T12:32:51.860918",
+    "price_14d_ago": 316.32
   },
   "BOX": {
-    "price": 43.24,
-    "change_pct": 13.58,
+    "price": 43.43,
+    "change_pct": 10.01,
     "name": "Box, Inc.",
-    "updated_at": "2026-11-03T07:14:30.552742",
-    "price_14d_ago": 38.07
+    "updated_at": "2026-11-03T12:32:29.804397",
+    "price_14d_ago": 39.48
   },
   "CRSR": {
-    "price": 12.2,
-    "change_pct": -7.44,
+    "price": 12.41,
+    "change_pct": -6.27,
     "name": "Corsair Gaming, Inc.",
-    "updated_at": "2026-11-03T07:14:35.061813",
-    "price_14d_ago": 13.18
+    "updated_at": "2026-11-03T12:32:34.256573",
+    "price_14d_ago": 13.24
   },
   "CRL": {
-    "price": 338.54,
-    "change_pct": 12.1,
+    "price": 353.3,
+    "change_pct": 15.37,
     "name": "Charles River Laboratories Inte",
-    "updated_at": "2026-11-03T07:14:34.485517",
-    "price_14d_ago": 302.0
+    "updated_at": "2026-11-03T12:32:33.669285",
+    "price_14d_ago": 306.24
   },
   "BDC": {
-    "price": 107.44,
-    "change_pct": 3.28,
+    "price": 108.83,
+    "change_pct": 4.42,
     "name": "Belden Inc",
-    "updated_at": "2026-11-03T07:14:29.687498",
-    "price_14d_ago": 104.03
+    "updated_at": "2026-11-03T12:32:29.180542",
+    "price_14d_ago": 104.22
   },
   "CMBS": {
-    "price": 47.77,
-    "change_pct": 0.74,
+    "price": 47.65,
+    "change_pct": 0.29,
     "name": "iShares CMBS Bond ETF",
-    "updated_at": "2026-11-03T07:14:33.197032",
-    "price_14d_ago": 47.42
+    "updated_at": "2026-11-03T12:32:32.514443",
+    "price_14d_ago": 47.51
   },
   "DBX": {
-    "price": 35.64,
-    "change_pct": 0.06,
+    "price": 35.33,
+    "change_pct": -3.31,
     "name": "Dropbox, Inc.",
-    "updated_at": "2026-11-03T07:14:36.352340",
-    "price_14d_ago": 35.62
+    "updated_at": "2026-11-03T12:32:35.402838",
+    "price_14d_ago": 36.54
   },
   "HY": {
-    "price": 29.13,
-    "change_pct": -5.02,
+    "price": 29.71,
+    "change_pct": -1.3,
     "name": "Hyster-Yale, Inc.",
-    "updated_at": "2026-11-03T07:14:43.869315",
-    "price_14d_ago": 30.67
+    "updated_at": "2026-11-03T12:32:43.292749",
+    "price_14d_ago": 30.1
   },
   "IG": {
     "price": 19.71,
-    "change_pct": 0.46,
+    "change_pct": -0.3,
     "name": "Principal Investment Grade Corp",
-    "updated_at": "2026-11-03T07:14:44.768416",
-    "price_14d_ago": 19.62
+    "updated_at": "2026-11-03T12:32:44.270952",
+    "price_14d_ago": 19.77
   },
   "REIT": {
-    "price": 29.27,
-    "change_pct": 3.74,
+    "price": 29.32,
+    "change_pct": 3.03,
     "name": "ALPS Active REIT ETF",
-    "updated_at": "2026-11-03T07:14:58.642905",
-    "price_14d_ago": 28.21
+    "updated_at": "2026-11-03T12:32:58.338699",
+    "price_14d_ago": 28.45
   },
   "RAMP": {
     "price": 38.5,
     "change_pct": 0.0,
     "name": "LiveRamp Holdings, Inc.",
-    "updated_at": "2026-11-03T07:14:58.264808",
+    "updated_at": "2026-11-03T12:32:57.949613",
     "price_14d_ago": null
   },
   "DJI": {
     "price": 0,
     "change_pct": 0,
     "name": "DJI",
-    "updated_at": "2026-11-03T07:14:37.236243",
+    "updated_at": "2026-11-03T12:32:36.228577",
     "price_14d_ago": null
   },
   "HON": {
-    "price": 223.77,
-    "change_pct": 7.78,
+    "price": 225.0,
+    "change_pct": 6.89,
     "name": "Honeywell International Inc.",
-    "updated_at": "2026-11-03T07:14:43.070362",
-    "price_14d_ago": 207.61
+    "updated_at": "2026-11-03T12:32:42.409755",
+    "price_14d_ago": 210.5
   },
   "MAR": {
-    "price": 416.3,
-    "change_pct": 11.96,
+    "price": 418.32,
+    "change_pct": 8.45,
     "name": "Marriott International",
-    "updated_at": "2026-11-03T07:14:48.781542",
-    "price_14d_ago": 371.82
+    "updated_at": "2026-11-03T12:32:48.417002",
+    "price_14d_ago": 385.71
   },
   "COF": {
-    "price": 210.77,
-    "change_pct": 8.45,
+    "price": 208.78,
+    "change_pct": 4.99,
     "name": "Capital One Financial Corporati",
-    "updated_at": "2026-11-03T07:14:33.650967",
-    "price_14d_ago": 194.35
+    "updated_at": "2026-11-03T12:32:32.910277",
+    "price_14d_ago": 198.86
   },
   "HYG": {
-    "price": 76.89,
-    "change_pct": 0.1,
+    "price": 76.98,
+    "change_pct": -0.19,
     "name": "iShares iBoxx $ High Yield Corp",
-    "updated_at": "2026-11-03T07:14:44.071882",
-    "price_14d_ago": 76.81
+    "updated_at": "2026-11-03T12:32:43.587656",
+    "price_14d_ago": 77.13
   }
 },
   tickerScores: [],
@@ -59367,9 +59367,9 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 108470,
-    "name": "Josh Gruenstein (Tutor Intelligence)",
-    "slug": "tutor-intelligence",
+    "id": 108665,
+    "name": "Josh Gruenstein",
+    "slug": "josh-gruenstein",
     "bio": null,
     "known_for": null,
     "last_main_idea": "Tutor\u2019s edge is a full-stack robotics flywheel that turns real deployments into data, models, and faster customer adoption, while using greenfield demand to justify a cost-per-task ROI model.",
@@ -59379,7 +59379,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108471,
+    "id": 108666,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -59391,7 +59391,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108472,
+    "id": 108667,
     "name": "Can AI Fix Professional Networking?",
     "slug": "can-ai-fix-professional-networking",
     "bio": null,
@@ -59403,7 +59403,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108473,
+    "id": 108668,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -59415,7 +59415,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108474,
+    "id": 108669,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -59427,7 +59427,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 108475,
+    "id": 108670,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -59439,7 +59439,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108476,
+    "id": 108671,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -59451,7 +59451,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108477,
+    "id": 108672,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -59463,7 +59463,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108478,
+    "id": 108673,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -59475,7 +59475,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108479,
+    "id": 108674,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -59487,7 +59487,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108480,
+    "id": 108675,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -59499,7 +59499,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108481,
+    "id": 108676,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -59511,7 +59511,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108482,
+    "id": 108677,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -59523,7 +59523,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108483,
+    "id": 108678,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -59535,7 +59535,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108484,
+    "id": 108679,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -59547,7 +59547,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108485,
+    "id": 108680,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -59559,7 +59559,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108487,
+    "id": 108682,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -59571,7 +59571,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 108486,
+    "id": 108681,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -59583,7 +59583,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108488,
+    "id": 108683,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -59595,7 +59595,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108489,
+    "id": 108684,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -59936,7 +59936,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-01",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "Ferrari\u2019s core claim is that Bending Spoons can compound value by acquiring software businesses, integrating them tightly, and improving cash generation while keeping leverage conservative.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-01 \u2022 How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
     "last_proof_snippet": "Vending Spoons has built a very different kind of technology company. By great products, improve them, generate more cash, and use that cash to do it again at a larger scale.",
@@ -59995,7 +59995,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-13",
     "mention_score": 3,
-    "mention_score_decayed": 1.89,
+    "mention_score_decayed": 1.85,
     "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
     "last_proof_snippet": "You can literally look at many internet connections today they are actually using agile cryptography they're encrypted using elliptic curves and lattices at the same time.",
@@ -60815,33 +60815,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 603,
-    "name": "Robert Caro",
-    "slug": "robert-caro",
-    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 17:14:06",
-    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-10-30",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
-    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
-    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 301,
     "name": "Jake Paul",
     "slug": "jake-paul",
@@ -60968,6 +60941,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 603,
+    "name": "Robert Caro",
+    "slug": "robert-caro",
+    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 17:14:06",
+    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-10-30",
+    "mention_score": 1,
+    "mention_score_decayed": 0.91,
+    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
+    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
+    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 600,
@@ -61149,7 +61149,7 @@ const dashboardData = {
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Vanta believes deep integrations plus agentic workflows will create a superior trust-security platform that can grow without relying on token markups.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-20 \u2022 Christina Cacioppo - Building an Enduring Software Company in the Age of AI - [Invest Like the Best, EP.496]",
     "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
@@ -61393,66 +61393,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 183,
-    "name": "Aaron Levie",
-    "slug": "aaron-levy",
-    "bio": "Co-founder and CEO of Box, the cloud content management company.",
-    "known_for": "Co-founding and leading Box as CEO; commentary on enterprise software and AI.",
-    "net_worth_usd": 107852195.0,
-    "net_worth_source": "https://strike.market/key-executives/0001606525",
-    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
-    "voice_tone": "Measured and analytical with policy-aware framing",
-    "voice_style": "Builds arguments through logical contrasts and economic analogies rather than hype",
-    "voice_delivery_notes": "Speaks in complete paragraphs with deliberate pacing; emphasize the 'not either/or but both/and' structure of his open vs closed model argument",
-    "voice_profile_updated_at": "2026-09-05 17:12:26",
-    "last_seen": "2026-09-05 17:12:26",
-    "last_episode_title": "Aaron Levie on Why Open AI Wins",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-05",
-    "mention_score": 3,
-    "mention_score_decayed": 0.79,
-    "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "U.S. policy and investment in open weights models is critical to avoid technological dependence on China, which currently leads in this domain",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Aaron Levie",
-      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
-      "cliff_notes": "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
-      "derived": {
-        "current_role": "CEO at Box"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
-        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Content Management",
-          "body": "Aaron Levie has been at the forefront of cloud content management, leading Box to become a major player in the industry."
-        },
-        {
-          "heading": "AI and Technology Integration",
-          "body": "Levie has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
-        },
-        {
-          "heading": "Economic Implications of Technology",
-          "body": "Levie has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
-        }
-      ]
-    },
-    "net_worth": "$107.9M"
-  },
-  {
     "id": 543,
     "name": "Andy Jassy",
     "slug": "andy-jassy",
@@ -61508,6 +61448,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 183,
+    "name": "Aaron Levie",
+    "slug": "aaron-levy",
+    "bio": "Co-founder and CEO of Box, the cloud content management company.",
+    "known_for": "Co-founding and leading Box as CEO; commentary on enterprise software and AI.",
+    "net_worth_usd": 107852195.0,
+    "net_worth_source": "https://strike.market/key-executives/0001606525",
+    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
+    "voice_tone": "Measured and analytical with policy-aware framing",
+    "voice_style": "Builds arguments through logical contrasts and economic analogies rather than hype",
+    "voice_delivery_notes": "Speaks in complete paragraphs with deliberate pacing; emphasize the 'not either/or but both/and' structure of his open vs closed model argument",
+    "voice_profile_updated_at": "2026-09-05 17:12:26",
+    "last_seen": "2026-09-05 17:12:26",
+    "last_episode_title": "Aaron Levie on Why Open AI Wins",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-05",
+    "mention_score": 3,
+    "mention_score_decayed": 0.77,
+    "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "U.S. policy and investment in open weights models is critical to avoid technological dependence on China, which currently leads in this domain",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levie",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levie has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levie has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levie has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": "$107.9M"
+  },
+  {
     "id": 564,
     "name": "Chris Auth",
     "slug": "chris-auth",
@@ -61525,7 +61525,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -61552,7 +61552,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -61579,7 +61579,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -61606,7 +61606,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -61633,7 +61633,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -61660,7 +61660,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Moshi\u2019s key claim is that trader AI wins by combining recommendation systems with workflow-native UI, not by building a generic Bloomberg-like interface.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-22 \u2022 You are the Team  \u2014 Anekha Sokhal, Moshi",
     "last_proof_snippet": "",
@@ -61822,7 +61822,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "OpenAI\u2019s health-AI edge is its cheaper, frontier-level model plus specialized medical training, which it says can outperform prior models while scaling across workflows like Epic.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-20 \u2022 What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
     "last_proof_snippet": "5.3 plus trillian we spend on health care for its own country, be the third largest GDP, and yet we have a ton of scarcity.",
@@ -62217,60 +62217,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 530,
-    "name": "Dan Boneh",
-    "slug": "dan-bonay",
-    "bio": "Stanford professor introduced in the episode. He focuses on why current AI progress does not yet equal a demonstrated break of deployed cryptography.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 17:37:30",
-    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.63,
-    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them. The labs say that they fail to break them. That will give you tremendous confidence that our assumptions are valid.",
-    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 531,
-    "name": "Justin Thaler",
-    "slug": "justin-daler",
-    "bio": "Research Partner at a16z. He emphasizes operational defenses, crypto agility, and startup opportunities in AI-driven security tooling.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 17:37:30",
-    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.63,
-    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 74,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
@@ -62334,6 +62280,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 530,
+    "name": "Dan Boneh",
+    "slug": "dan-bonay",
+    "bio": "Stanford professor introduced in the episode. He focuses on why current AI progress does not yet equal a demonstrated break of deployed cryptography.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 17:37:30",
+    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.62,
+    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
+    "last_proof_snippet": "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them. The labs say that they fail to break them. That will give you tremendous confidence that our assumptions are valid.",
+    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 531,
+    "name": "Justin Thaler",
+    "slug": "justin-daler",
+    "bio": "Research Partner at a16z. He emphasizes operational defenses, crypto agility, and startup opportunities in AI-driven security tooling.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 17:37:30",
+    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.62,
+    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 529,
@@ -62561,6 +62561,33 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 524,
+    "name": "Nick Bostrom",
+    "slug": "nick-bostrom",
+    "bio": "Professor at Oxford; founding director of the Future of Humanity Institute; founder and principal researcher of the macro strategy research initiative; known for work on superintelligence and existential risk framing.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-11 11:41:42",
+    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.59,
+    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-11 \u2022 Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_proof_snippet": "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so.",
+    "supporting_takeaway": "Nick Bostrom says broad or indefinite pauses risk shifting AI work into secretive or highly concentrated \u201cManhattan project\u201d structures.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 148,
     "name": "Matt Barrie",
     "slug": "matt-barry",
@@ -62578,7 +62605,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The core opportunity lies in AI infrastructure and hardware providers benefiting from enterprise insourcing, while model-facing incumbents face margin compression from zero switching costs and open competition.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-10 \u2022 MacroVoices #549 Matt Barrie: AI-gent Provocateur",
     "last_proof_snippet": "Token costs can escalate rapidly to unsustainable levels, but enterprises can slash expenses by arbitraging across models, including cheaper Chinese alternatives.",
@@ -62619,33 +62646,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$185.0M"
-  },
-  {
-    "id": 524,
-    "name": "Nick Bostrom",
-    "slug": "nick-bostrom",
-    "bio": "Professor at Oxford; founding director of the Future of Humanity Institute; founder and principal researcher of the macro strategy research initiative; known for work on superintelligence and existential risk framing.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-11 11:41:42",
-    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.59,
-    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-11 \u2022 Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_proof_snippet": "If we do develop this safely, then human life expectancy could go up hugely. If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so.",
-    "supporting_takeaway": "Nick Bostrom says broad or indefinite pauses risk shifting AI work into secretive or highly concentrated \u201cManhattan project\u201d structures.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 522,
@@ -62800,7 +62800,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
     "last_proof_snippet": "",
@@ -62827,7 +62827,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
     "last_proof_snippet": "",
@@ -63298,7 +63298,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Si Sheppard argues Spain's 16th-century silver windfall imported inflation and delayed capital-market development, while England and the Netherlands advanced through banking, trade, and industrial investment.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-01 \u2022 Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",
     "last_proof_snippet": "",
@@ -64761,6 +64761,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
+    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
+    "voice_tone": "Candid and thoughtful.",
+    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
+    "voice_profile_updated_at": "2026-08-18 04:34:22",
+    "last_seen": "2026-08-18 04:34:22",
+    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 2,
+    "mention_score_decayed": 0.34,
+    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Garrett Langley",
+      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
+      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
+      "derived": {
+        "current_role": "CEO of Flock"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
+        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
+      ],
+      "sections": [
+        {
+          "heading": "Flock's Impact",
+          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
+        },
+        {
+          "heading": "Safety and Privacy",
+          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
+        },
+        {
+          "heading": "Community Adoption",
+          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
     "id": 459,
     "name": "Satya Nadella",
     "slug": "satya-nadella",
@@ -64778,7 +64837,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The future of AI investment lies in companies that prioritize reliability, competition, and control over AI technologies while addressing economic impacts and interoperability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
     "last_proof_snippet": "",
@@ -64845,7 +64904,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Starlink's low market penetration indicates substantial growth potential in the satellite internet market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
     "last_proof_snippet": "Well, I think we'll put people down within a decade.",
@@ -64904,7 +64963,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in Lightfield presents an opportunity to capitalize on the growing demand for innovative B2B CRM solutions that prioritize customer insights and flexible pricing models.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-16 \u2022 The AI-Native CRM",
     "last_proof_snippet": "Three out of our five founding members came from Facebook, building a revenue team is a very rich problem set. It's something that everyone cares about, it could always be done better.",
@@ -64965,7 +65024,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in companies focused on thymic rejuvenation and scalable organ regeneration technologies presents a compelling opportunity in the burgeoning biotechnology sector.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-15 \u2022 Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
     "last_proof_snippet": "",
@@ -65024,7 +65083,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The core investment opportunity lies in companies that are at the forefront of AGI development and those enhancing compute infrastructure to meet rising AI demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-14 \u2022 Greg Brockman on Why OpenAI Says We\u2019re Entering the AGI Era",
     "last_proof_snippet": "We're now in the AGI era. Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI. We've seen it run coherently for 24 hours to go accomplish tasks that I think are quite amazing.",
@@ -65066,65 +65125,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
-    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
-    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
-    "voice_tone": "Candid and thoughtful.",
-    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
-    "voice_profile_updated_at": "2026-08-18 04:34:22",
-    "last_seen": "2026-08-18 04:34:22",
-    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-18",
-    "mention_score": 2,
-    "mention_score_decayed": 0.34,
-    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Garrett Langley",
-      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
-      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
-      "derived": {
-        "current_role": "CEO of Flock"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
-        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
-      ],
-      "sections": [
-        {
-          "heading": "Flock's Impact",
-          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
-        },
-        {
-          "heading": "Safety and Privacy",
-          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
-        },
-        {
-          "heading": "Community Adoption",
-          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 452,
@@ -65192,66 +65192,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 218,
-    "name": "Joe Schmidt",
-    "slug": "joe-schmidt",
-    "bio": "Joe Schmidt is an investor at a16z with a focus on enterprise software and AI startups. He is known for his expertise in go-to-market strategies for AI companies and lessons from building sales organizations.",
-    "known_for": "His insights on sales strategies and the framework for evaluating which playbook AI companies should follow.",
-    "net_worth_usd": 21000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
-    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
-    "voice_tone": "Analytical and insightful",
-    "voice_style": "Factual and informative",
-    "voice_delivery_notes": "Clear and concise with a focus on actionable insights",
-    "voice_profile_updated_at": "2026-08-13 17:06:10",
-    "last_seen": "2026-08-13 17:06:10",
-    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.31,
-    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
-    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook?",
-    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-13T12:06:19.499034",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Joe Schmidt",
-      "fetched_at": "2026-08-13T17:06:19.498693+00:00",
-      "cliff_notes": "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations. His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies.",
-      "derived": {
-        "current_role": "Investor at a16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations.",
-        "His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies."
-      ],
-      "sections": [
-        {
-          "heading": "Go-to-Market Strategies",
-          "body": "Joe Schmidt is known for his expertise in go-to-market strategies for AI companies. He has developed frameworks for evaluating which sales playbook to follow, such as the lighthouse and land grab strategies."
-        },
-        {
-          "heading": "AI Startups",
-          "body": "As an investor at a16z, Joe Schmidt focuses on enterprise software and AI startups. He helps these companies scale their operations and provides insights on sales strategies and building sales organizations."
-        },
-        {
-          "heading": "Sales Playbooks",
-          "body": "Schmidt has developed a framework for evaluating which sales playbook AI companies should follow, such as targeting obvious companies with social value or finding customers who need their solution."
-        }
-      ]
-    },
-    "net_worth": "$21.0M"
   },
   {
     "id": 449,
@@ -65323,6 +65263,66 @@ const dashboardData = {
     "net_worth": "$5.0M"
   },
   {
+    "id": 218,
+    "name": "Joe Schmidt",
+    "slug": "joe-schmidt",
+    "bio": "Joe Schmidt is an investor at a16z with a focus on enterprise software and AI startups. He is known for his expertise in go-to-market strategies for AI companies and lessons from building sales organizations.",
+    "known_for": "His insights on sales strategies and the framework for evaluating which playbook AI companies should follow.",
+    "net_worth_usd": 21000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
+    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
+    "voice_tone": "Analytical and insightful",
+    "voice_style": "Factual and informative",
+    "voice_delivery_notes": "Clear and concise with a focus on actionable insights",
+    "voice_profile_updated_at": "2026-08-13 17:06:10",
+    "last_seen": "2026-08-13 17:06:10",
+    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.3,
+    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook?",
+    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-13T12:06:19.499034",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joe Schmidt",
+      "fetched_at": "2026-08-13T17:06:19.498693+00:00",
+      "cliff_notes": "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations. His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies.",
+      "derived": {
+        "current_role": "Investor at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations.",
+        "His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies."
+      ],
+      "sections": [
+        {
+          "heading": "Go-to-Market Strategies",
+          "body": "Joe Schmidt is known for his expertise in go-to-market strategies for AI companies. He has developed frameworks for evaluating which sales playbook to follow, such as the lighthouse and land grab strategies."
+        },
+        {
+          "heading": "AI Startups",
+          "body": "As an investor at a16z, Joe Schmidt focuses on enterprise software and AI startups. He helps these companies scale their operations and provides insights on sales strategies and building sales organizations."
+        },
+        {
+          "heading": "Sales Playbooks",
+          "body": "Schmidt has developed a framework for evaluating which sales playbook AI companies should follow, such as targeting obvious companies with social value or finding customers who need their solution."
+        }
+      ]
+    },
+    "net_worth": "$21.0M"
+  },
+  {
     "id": 445,
     "name": "Rayan Krishnan",
     "slug": "ryan-krishneth",
@@ -65340,7 +65340,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Independent benchmarking and third-party model evaluation are becoming critical infrastructure as enterprise AI token spend rapidly outpaces traditional labor costs, creating opportunities in validation services and internal ROI optimization platforms while mitigating risks from benchmark gaming.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-09 \u2022 Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan",
     "last_proof_snippet": "Public benchmarks frequently misrepresent true model capabilities; investors and enterprises must rely on private held-out evaluations to avoid misallocation of capital.",
@@ -65397,7 +65397,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "A16Z's Speedrun program targets high-conviction, pre-seed investments in small, bootstrapped teams with unique founder experiences, while the firm leverages long-term founder relationships and policy advocacy to mitigate geographic and regulatory risks.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-11 \u2022 What It Takes to Build a Startup | Andrew Chen & Matt Perault",
     "last_proof_snippet": "Early-stage founders face severe regulatory burdens but lack representation or time to engage in policy, creating a structural disadvantage that threatens startup viability.",
@@ -65533,7 +65533,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-02 \u2022 Inside Moderna\u2019s Personalized Cancer Vaccine",
     "last_proof_snippet": "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed.",
@@ -65593,7 +65593,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Position nuclear as AI infrastructure: prefer names tied to firm hyperscaler offtake, enrichment/fuel, and factory-built SMR supply chains over pure fusion lottery tickets. Watch PPA announcements, NRC Part 57 and similar licensing milestones, and enrichment capacity expansions as catalysts; falsifiers are hyperscaler PPA pullbacks, permitting stalls, or a step-change cheaper firm clean power that undercuts $100/MWh nuclear bids.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-03 \u2022 MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
     "last_proof_snippet": "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance.",
@@ -65663,7 +65663,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-04 \u2022 Fei Fei Li: The Race to Build World Models For AI",
     "last_proof_snippet": "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction.",
@@ -65724,7 +65724,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Bond yields are at multi-decade highs and investor sentiment is excessively bearish, creating a contrarian buying opportunity in long-term government bonds.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-03 \u2022 \u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
     "last_proof_snippet": "",
@@ -66813,7 +66813,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Live commerce has the potential to disrupt traditional e-commerce by combining shopping with entertainment and community, creating a more engaging and enjoyable experience for users and opening up new opportunities for small businesses.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-19 \u2022 How Whatnot Built a Global Marketplace",
     "last_proof_snippet": "If you look at e-commerce today, you have to know exactly what you're looking for. Live commerce is over a third of all commerce in Asia. Send right? 30 to 40 percent of all commerce is live commerce in China. What is it in the U.S today?",
@@ -67809,7 +67809,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Enterprises are increasingly adopting AI, impacting how businesses operate and develop software.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-11 \u2022 The CISO Playbook for AI Agents | Datadog",
     "last_proof_snippet": "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it.",
@@ -69213,7 +69213,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Open-source AI models are growing rapidly, challenging existing models and increasing market competition.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you.",
@@ -69945,76 +69945,6 @@ const dashboardData = {
     "net_worth": "$1.90B"
   },
   {
-    "id": 329,
-    "name": "Barbara Liskov",
-    "slug": "barbara-liskov",
-    "bio": "Barbara Liskov is a Turing Award-winning computer scientist renowned for her pioneering work in distributed systems, particularly in the areas of state machine replication and practical Byzantine fault tolerance. Her research has significantly impacted the development of secure and reliable systems, including the advent of blockchain technology.",
-    "known_for": "Her groundbreaking work in distributed systems, especially state machine replication and Byzantine fault tolerance, which has shaped the security and reliability of modern computing systems.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Reflective and authoritative.",
-    "voice_style": "Liskov speaks with a focus on the importance of understanding theoretical foundations and their practical applications.",
-    "voice_delivery_notes": "Liskov's delivery is measured and thoughtful, emphasizing key points with clarity.",
-    "voice_profile_updated_at": "2026-07-13 17:03:39",
-    "last_seen": "2026-07-13 17:03:39",
-    "last_episode_title": "Before Blockchains, There Was State Machine Replication",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.08,
-    "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
-    "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro.",
-    "supporting_takeaway": "Understanding theoretical computer science is crucial for practical applications, as it forms the backbone of the field.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-13T12:04:24.666964",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Barbara Liskov",
-      "fetched_at": "2026-07-13T17:04:24.666605+00:00",
-      "cliff_notes": "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks. Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research.",
-      "derived": {
-        "former_positions": "Institute Professor Emerita, Massachusetts Institute of Technology;",
-        "education": "Ph.D. in Computer Science, Stanford University; M.S. in Mathematics, University of California, Berkeley; B.S. in Mathematics, University of California, Berkeley;",
-        "books_or_works": "Principles of Distributed Systems; A History of Programming Languages;",
-        "teaching_summary": "Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology;"
-      },
-      "infobox": {
-        "Born": "1939",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks.",
-        "Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research."
-      ],
-      "sections": [
-        {
-          "heading": "Distributed Systems",
-          "body": "Barbara Liskov's work in distributed systems has been foundational, particularly her contributions to state machine replication and Byzantine fault tolerance."
-        },
-        {
-          "heading": "State Machine Replication",
-          "body": "Liskov's research on state machine replication has provided a robust framework for maintaining consistency across distributed systems, even in the presence of faults."
-        },
-        {
-          "heading": "Byzantine Fault Tolerance",
-          "body": "Her work on Byzantine fault tolerance has been crucial for developing systems that can tolerate malicious attacks while ensuring reliability."
-        },
-        {
-          "heading": "Blockchain Technology",
-          "body": "Liskov's replication techniques have been fundamental in the development of blockchain technology, which relies on secure and reliable distributed ledgers."
-        },
-        {
-          "heading": "Research Impact",
-          "body": "Her research has had a profound impact on the field of computer science, influencing the design and implementation of secure and reliable systems."
-        }
-      ]
-    }
-  },
-  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -70073,6 +70003,76 @@ const dashboardData = {
       ]
     },
     "net_worth": "$50.0M"
+  },
+  {
+    "id": 329,
+    "name": "Barbara Liskov",
+    "slug": "barbara-liskov",
+    "bio": "Barbara Liskov is a Turing Award-winning computer scientist renowned for her pioneering work in distributed systems, particularly in the areas of state machine replication and practical Byzantine fault tolerance. Her research has significantly impacted the development of secure and reliable systems, including the advent of blockchain technology.",
+    "known_for": "Her groundbreaking work in distributed systems, especially state machine replication and Byzantine fault tolerance, which has shaped the security and reliability of modern computing systems.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Reflective and authoritative.",
+    "voice_style": "Liskov speaks with a focus on the importance of understanding theoretical foundations and their practical applications.",
+    "voice_delivery_notes": "Liskov's delivery is measured and thoughtful, emphasizing key points with clarity.",
+    "voice_profile_updated_at": "2026-07-13 17:03:39",
+    "last_seen": "2026-07-13 17:03:39",
+    "last_episode_title": "Before Blockchains, There Was State Machine Replication",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.07,
+    "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
+    "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro.",
+    "supporting_takeaway": "Understanding theoretical computer science is crucial for practical applications, as it forms the backbone of the field.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-13T12:04:24.666964",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Barbara Liskov",
+      "fetched_at": "2026-07-13T17:04:24.666605+00:00",
+      "cliff_notes": "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks. Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research.",
+      "derived": {
+        "former_positions": "Institute Professor Emerita, Massachusetts Institute of Technology;",
+        "education": "Ph.D. in Computer Science, Stanford University; M.S. in Mathematics, University of California, Berkeley; B.S. in Mathematics, University of California, Berkeley;",
+        "books_or_works": "Principles of Distributed Systems; A History of Programming Languages;",
+        "teaching_summary": "Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology;"
+      },
+      "infobox": {
+        "Born": "1939",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks.",
+        "Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research."
+      ],
+      "sections": [
+        {
+          "heading": "Distributed Systems",
+          "body": "Barbara Liskov's work in distributed systems has been foundational, particularly her contributions to state machine replication and Byzantine fault tolerance."
+        },
+        {
+          "heading": "State Machine Replication",
+          "body": "Liskov's research on state machine replication has provided a robust framework for maintaining consistency across distributed systems, even in the presence of faults."
+        },
+        {
+          "heading": "Byzantine Fault Tolerance",
+          "body": "Her work on Byzantine fault tolerance has been crucial for developing systems that can tolerate malicious attacks while ensuring reliability."
+        },
+        {
+          "heading": "Blockchain Technology",
+          "body": "Liskov's replication techniques have been fundamental in the development of blockchain technology, which relies on secure and reliable distributed ledgers."
+        },
+        {
+          "heading": "Research Impact",
+          "body": "Her research has had a profound impact on the field of computer science, influencing the design and implementation of secure and reliable systems."
+        }
+      ]
+    }
   },
   {
     "id": 328,
@@ -70354,7 +70354,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Assess the interdependencies of enterprise software solutions to evaluate their long-term viability within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that?",
@@ -70779,7 +70779,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "AI tools are enhancing creativity but still require human direction.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity.",
@@ -72205,70 +72205,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 282,
-    "name": "Sachin Jain",
-    "slug": "sachin-jane",
-    "bio": "Sachin Jain is a partner at a16z, focusing on investing in AI and machine learning startups. He is particularly interested in the applications of AI in healthcare and the future of work.",
-    "known_for": "His expertise in AI applications in healthcare and the future of work, and his role in shaping the technology's impact on society.",
-    "net_worth_usd": 50000000.0,
-    "net_worth_source": "https://www.celebsagewiki.com/sachin-h-jain",
-    "net_worth_updated_at": "2026-06-10T12:05:47.279021",
-    "voice_tone": "Confident and insightful",
-    "voice_style": "Analytical and solution-oriented",
-    "voice_delivery_notes": "Clear and concise, with a focus on actionable insights",
-    "voice_profile_updated_at": "2026-06-10 17:05:35",
-    "last_seen": "2026-06-10 17:05:35",
-    "last_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-10",
-    "mention_score": 1,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "AI can significantly reduce administrative costs in healthcare, making it more accessible and affordable.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
-    "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented.",
-    "supporting_takeaway": "Curiosity and a willingness to experiment with AI tools will be key traits of successful employees in the AI-driven economy.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-10T12:05:46.282423",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sachin Jain",
-      "fetched_at": "2026-06-10T17:05:46.282058+00:00",
-      "cliff_notes": "Sachin Jain is a partner at a16z, a venture capital firm, where he specializes in investing in AI and machine learning startups. His focus is on the intersection of AI and healthcare, as well as the broader implications of AI on the future of work. Jain is passionate about ensuring that AI technology benefits all of society, particularly in the realm of healthcare, which he sees as one of the most complex and administrative industries. He believes AI has the potential to reshape how healthcare organizations operate and how patients experience the system, moving away from a focus on administration towards direct patient care. Jain's work at a16z and his insights into the transformative power of AI have made him a key figure in the technology and healthcare sectors.",
-      "derived": {
-        "current_role": "Partner at a16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Sachin Jain is a partner at a16z, a venture capital firm, where he specializes in investing in AI and machine learning startups. His focus is on the intersection of AI and healthcare, as well as the broader implications of AI on the future of work. Jain is passionate about ensuring that AI technology benefits all of society, particularly in the realm of healthcare, which he sees as one of the most complex and administrative industries.",
-        "He believes AI has the potential to reshape how healthcare organizations operate and how patients experience the system, moving away from a focus on administration towards direct patient care. Jain's work at a16z and his insights into the transformative power of AI have made him a key figure in the technology and healthcare sectors."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Healthcare",
-          "body": "Sachin Jain is a strong advocate for the use of AI in healthcare, arguing that it can make important things like healthcare more affordable and accessible to society."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Jain's work at a16z involves exploring how AI will shape the future of work, focusing on the potential for AI to do work on behalf of humans and fundamentally change how organizations operate."
-        },
-        {
-          "heading": "Human-AI Connection",
-          "body": "Jain emphasizes the emotional connection that AI can make with humans, seeing it as a powerful and beautiful aspect of this technology that should be embraced rather than feared."
-        },
-        {
-          "heading": "Healthcare Spending",
-          "body": "He points out that a significant portion of healthcare spending is tied to administration rather than direct patient care, and believes AI can help change this dynamic."
-        }
-      ]
-    },
-    "net_worth": "$50.0M"
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -72394,6 +72330,70 @@ const dashboardData = {
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 282,
+    "name": "Sachin Jain",
+    "slug": "sachin-jane",
+    "bio": "Sachin Jain is a partner at a16z, focusing on investing in AI and machine learning startups. He is particularly interested in the applications of AI in healthcare and the future of work.",
+    "known_for": "His expertise in AI applications in healthcare and the future of work, and his role in shaping the technology's impact on society.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.celebsagewiki.com/sachin-h-jain",
+    "net_worth_updated_at": "2026-06-10T12:05:47.279021",
+    "voice_tone": "Confident and insightful",
+    "voice_style": "Analytical and solution-oriented",
+    "voice_delivery_notes": "Clear and concise, with a focus on actionable insights",
+    "voice_profile_updated_at": "2026-06-10 17:05:35",
+    "last_seen": "2026-06-10 17:05:35",
+    "last_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-10",
+    "mention_score": 1,
+    "mention_score_decayed": 0.03,
+    "last_main_idea": "AI can significantly reduce administrative costs in healthcare, making it more accessible and affordable.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+    "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented.",
+    "supporting_takeaway": "Curiosity and a willingness to experiment with AI tools will be key traits of successful employees in the AI-driven economy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-10T12:05:46.282423",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sachin Jain",
+      "fetched_at": "2026-06-10T17:05:46.282058+00:00",
+      "cliff_notes": "Sachin Jain is a partner at a16z, a venture capital firm, where he specializes in investing in AI and machine learning startups. His focus is on the intersection of AI and healthcare, as well as the broader implications of AI on the future of work. Jain is passionate about ensuring that AI technology benefits all of society, particularly in the realm of healthcare, which he sees as one of the most complex and administrative industries. He believes AI has the potential to reshape how healthcare organizations operate and how patients experience the system, moving away from a focus on administration towards direct patient care. Jain's work at a16z and his insights into the transformative power of AI have made him a key figure in the technology and healthcare sectors.",
+      "derived": {
+        "current_role": "Partner at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sachin Jain is a partner at a16z, a venture capital firm, where he specializes in investing in AI and machine learning startups. His focus is on the intersection of AI and healthcare, as well as the broader implications of AI on the future of work. Jain is passionate about ensuring that AI technology benefits all of society, particularly in the realm of healthcare, which he sees as one of the most complex and administrative industries.",
+        "He believes AI has the potential to reshape how healthcare organizations operate and how patients experience the system, moving away from a focus on administration towards direct patient care. Jain's work at a16z and his insights into the transformative power of AI have made him a key figure in the technology and healthcare sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Healthcare",
+          "body": "Sachin Jain is a strong advocate for the use of AI in healthcare, arguing that it can make important things like healthcare more affordable and accessible to society."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Jain's work at a16z involves exploring how AI will shape the future of work, focusing on the potential for AI to do work on behalf of humans and fundamentally change how organizations operate."
+        },
+        {
+          "heading": "Human-AI Connection",
+          "body": "Jain emphasizes the emotional connection that AI can make with humans, seeing it as a powerful and beautiful aspect of this technology that should be embraced rather than feared."
+        },
+        {
+          "heading": "Healthcare Spending",
+          "body": "He points out that a significant portion of healthcare spending is tied to administration rather than direct patient care, and believes AI can help change this dynamic."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
   },
   {
     "id": 281,
@@ -73185,67 +73185,6 @@ const dashboardData = {
     "net_worth": "$1.50B"
   },
   {
-    "id": 265,
-    "name": "Marc Rowan",
-    "slug": "mark-rowan",
-    "bio": "Marc Rowan is the CEO of Apollo Global Management, a leading firm in the transition into retirement services and alternative asset management. He has been instrumental in the firm's growth and diversification, emphasizing clean sheet thinking and adaptability in a rapidly changing market.",
-    "known_for": "His leadership in transforming Apollo Global Management into one of the world's largest alternative asset managers and his insights on the importance of private markets for diversification.",
-    "net_worth_usd": 577000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/4157/marc-j-rowan",
-    "net_worth_updated_at": "2026-05-27T12:04:09.655698",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-05-27 17:03:40",
-    "last_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "High-growth private companies like Anthropic, OpenAI, and SpaceX offer significant investment opportunities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-    "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market.",
-    "supporting_takeaway": "High-growth private companies like Anthropic, OpenAI, and SpaceX offer significant investment opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-27T12:04:08.533279",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Marc Rowan",
-      "fetched_at": "2026-05-27T17:04:08.532910+00:00",
-      "cliff_notes": "Marc Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate. Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community.",
-      "derived": {
-        "current_role": "CEO of Apollo Global Management",
-        "former_positions": "Distressed investing at Drexel; Founder of Apollo Global Management"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Marc Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate.",
-        "Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community."
-      ],
-      "sections": [
-        {
-          "heading": "Apollo Global Management",
-          "body": "Marc Rowan has led Apollo Global Management's transition into retirement services and alternative asset management, making it one of the world's largest alternative asset managers."
-        },
-        {
-          "heading": "Private Markets",
-          "body": "Rowan has emphasized the importance of private markets for diversification, arguing that most investors have zero exposure to high-growth private companies like Anthropic, OpenAI and SpaceX."
-        },
-        {
-          "heading": "Technology and the Economy",
-          "body": "Rowan has spoken about the proliferation of AI across the economy and the assumption that every job will be replaced or enhanced by software, highlighting the need for investors to adapt to these changes."
-        }
-      ]
-    },
-    "net_worth": "$577.0M"
-  },
-  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -73311,6 +73250,67 @@ const dashboardData = {
       ]
     },
     "net_worth": "$25.0M"
+  },
+  {
+    "id": 265,
+    "name": "Marc Rowan",
+    "slug": "mark-rowan",
+    "bio": "Marc Rowan is the CEO of Apollo Global Management, a leading firm in the transition into retirement services and alternative asset management. He has been instrumental in the firm's growth and diversification, emphasizing clean sheet thinking and adaptability in a rapidly changing market.",
+    "known_for": "His leadership in transforming Apollo Global Management into one of the world's largest alternative asset managers and his insights on the importance of private markets for diversification.",
+    "net_worth_usd": 577000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/4157/marc-j-rowan",
+    "net_worth_updated_at": "2026-05-27T12:04:09.655698",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-27 17:03:40",
+    "last_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-27",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "High-growth private companies like Anthropic, OpenAI, and SpaceX offer significant investment opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market.",
+    "supporting_takeaway": "High-growth private companies like Anthropic, OpenAI, and SpaceX offer significant investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-27T12:04:08.533279",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Marc Rowan",
+      "fetched_at": "2026-05-27T17:04:08.532910+00:00",
+      "cliff_notes": "Marc Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate. Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community.",
+      "derived": {
+        "current_role": "CEO of Apollo Global Management",
+        "former_positions": "Distressed investing at Drexel; Founder of Apollo Global Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Marc Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate.",
+        "Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community."
+      ],
+      "sections": [
+        {
+          "heading": "Apollo Global Management",
+          "body": "Marc Rowan has led Apollo Global Management's transition into retirement services and alternative asset management, making it one of the world's largest alternative asset managers."
+        },
+        {
+          "heading": "Private Markets",
+          "body": "Rowan has emphasized the importance of private markets for diversification, arguing that most investors have zero exposure to high-growth private companies like Anthropic, OpenAI and SpaceX."
+        },
+        {
+          "heading": "Technology and the Economy",
+          "body": "Rowan has spoken about the proliferation of AI across the economy and the assumption that every job will be replaced or enhanced by software, highlighting the need for investors to adapt to these changes."
+        }
+      ]
+    },
+    "net_worth": "$577.0M"
   },
   {
     "id": 264,
@@ -79904,10 +79904,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4981.47,
-      "basket_change_pct": -0.37,
+      "basket_current_value": 5050.4,
+      "basket_change_pct": 1.01,
       "index_start": 100,
-      "basket_index_value": 99.63,
+      "basket_index_value": 101.01,
       "names": [
         {
           "ticker": "HIMS",
@@ -79916,9 +79916,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 25.24,
-          "current_value": 898.54,
-          "change_pct": -10.15,
+          "current_price": 25.68,
+          "current_value": 914.21,
+          "change_pct": -8.58,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79930,9 +79930,9 @@ const dashboardData = {
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.55,
-          "current_value": 1066.07,
-          "change_pct": 6.61,
+          "current_price": 3.56,
+          "current_value": 1069.07,
+          "change_pct": 6.91,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79944,9 +79944,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 78.48,
-          "current_value": 1006.54,
-          "change_pct": 0.65,
+          "current_price": 80.82,
+          "current_value": 1036.55,
+          "change_pct": 3.66,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79958,9 +79958,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 170.73,
-          "current_value": 932.44,
-          "change_pct": -6.76,
+          "current_price": 174.94,
+          "current_value": 955.43,
+          "change_pct": -4.46,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
@@ -79972,16 +79972,16 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 110.16,
-          "current_value": 1077.88,
-          "change_pct": 7.79,
+          "current_price": 109.88,
+          "current_value": 1075.14,
+          "change_pct": 7.51,
           "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
           "exit_date": "2026-11-10",
           "expiry": "2026-11-10"
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-11-03T07:15:14.925354"
+      "last_updated": "2026-11-03T12:33:15.913846"
     }
   ]
 }
