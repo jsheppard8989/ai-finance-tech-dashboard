@@ -2003,6 +2003,146 @@
         "GOOGL",
         "TSLA"
       ]
+    },
+    {
+      "insight_id": 649,
+      "podcast_episode_id": 638,
+      "_note": "Nov 3 2026 (G daily check, sweep_1103; routine-fix rule): no-grading rule (DD falsifier); plain words for capex/CDS/ISM in non-quote text (the 'spent all this capex' quote is left as said); summary's stress examples are CoreWeave bonds and Oracle credit",
+      "replacements": [
+        [
+          "GLD/XAUUSD as the grading source",
+          "GLD/XAUUSD as the source"
+        ],
+        [
+          "last year’s capex with",
+          "last year’s capital spending with"
+        ],
+        [
+          "not just capex announcements",
+          "not just capital spending announcements"
+        ],
+        [
+          "Oracle CDS widening",
+          "Oracle's credit default swaps (the price of insurance against its default) widening"
+        ],
+        [
+          "credit spreads, CDS, issuance mix",
+          "credit spreads, credit default swaps, issuance mix"
+        ],
+        [
+          "unsecured bond and CDS moves",
+          "unsecured bond and credit default swap moves"
+        ],
+        [
+          "weakening ISM through the year",
+          "weakening ISM factory survey through the year"
+        ]
+      ],
+      "set_tickers_mentioned": [
+        "JPM",
+        "CRWV",
+        "ORCL"
+      ]
+    },
+    {
+      "insight_id": 644,
+      "podcast_episode_id": 634,
+      "_note": "Nov 3 2026 (G daily check, sweep_1103; routine-fix rule): no-grading rule (DD falsifier)",
+      "replacements": [
+        [
+          "graded by an independent evaluation study",
+          "scored by an independent evaluation study"
+        ]
+      ]
+    },
+    {
+      "insight_id": 650,
+      "podcast_episode_id": 640,
+      "_note": "Nov 3 2026 (G daily check, sweep_1103; routine-fix rule): Claude is cited as an estimate; 'Tudor' is a transcript garble of the company name (bracket only); plain words for capex; guest is Josh Gruenstein (Tutor is his company)",
+      "replacements": [
+        [
+          "with a claim from Claude that Tutor robots have helped manufacture and ship",
+          "and he cites an estimate from Claude, Anthropic's AI assistant, that Tutor robots have helped manufacture and ship"
+        ],
+        [
+          "estimates Tudor robots",
+          "estimates [Tutor] robots"
+        ],
+        [
+          "upfront capex",
+          "upfront hardware costs"
+        ],
+        [
+          "industrial automation capex",
+          "industrial automation spending"
+        ]
+      ],
+      "set_guest_name": "Josh Gruenstein"
+    },
+    {
+      "insight_id": 651,
+      "podcast_episode_id": 639,
+      "_note": "Nov 3 2026 (G daily check, sweep_1103; routine-fix rule): plain words (long-dated/long-term, term premium and QE glosses, $70,000); 'brometer' is a transcript garble of 'barometer' (bracket only)",
+      "replacements": [
+        [
+          "Longer-duration government bonds",
+          "Longer-dated government bonds"
+        ],
+        [
+          "long-duration Treasuries",
+          "long-term Treasuries"
+        ],
+        [
+          "Long-duration Treasuries",
+          "Long-term Treasuries"
+        ],
+        [
+          "arguing that term premium and rate expectations",
+          "arguing that term premium (the extra yield investors demand to hold long bonds) and rate expectations"
+        ],
+        [
+          "If term premium rises",
+          "If term premium (the extra yield investors demand to hold long bonds) rises"
+        ],
+        [
+          "than conventional QE.",
+          "than conventional QE (the Fed buying bonds)."
+        ],
+        [
+          "retest of 70,000",
+          "retest of $70,000"
+        ],
+        [
+          "Bitcoin is an excellent brometer of liquidity",
+          "Bitcoin is an excellent [barometer] of liquidity"
+        ]
+      ]
+    },
+    {
+      "insight_id": 652,
+      "podcast_episode_id": 641,
+      "_note": "Nov 3 2026 (G daily check, sweep_1103; routine-fix rule): 'trolling' is a speech-to-text garble of 'trawling'; gloss evals team",
+      "replacements": [
+        [
+          "less on document trolling",
+          "less on combing through documents"
+        ],
+        [
+          "runs an evals team",
+          "runs an evaluation team that tests the AI"
+        ]
+      ]
+    },
+    {
+      "insight_id": 648,
+      "podcast_episode_id": 637,
+      "_note": "Nov 3 2026 (G daily check, sweep_1103; routine-fix rule): plain words for the 3x leverage",
+      "replacements": [
+        [
+          "keeps leverage well below 3x, is currently around 2.4-2.5x",
+          "keeps net debt well below 3 times yearly operating earnings (EBITDA), currently around 2.4-2.5 times"
+        ]
+      ]
     }
   ],
   "terms": [
