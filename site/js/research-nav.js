@@ -10,7 +10,7 @@
     { label: 'Who Keeps the Profit from the AI Compute Shortage', href: 'compute-thesis.html' },
     { label: 'Micron and the Memory Cycle', href: 'mu-memory-cycle.html' },
     { label: 'The Nasdaq-100 Is a Filter, Not a Stock Picker', href: 'qqq-filter.html' },
-    { label: 'Lam Research: Paid to Wait on the Memory Toolmaker', href: 'lrcx-put.html' }
+    { label: 'Lam Research: Paid to Wait on the Memory Build-Out', href: 'lrcx-paid-to-wait.html' }
   ];
 
   var CSS =
