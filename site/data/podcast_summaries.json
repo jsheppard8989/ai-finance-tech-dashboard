@@ -1,5 +1,23 @@
 [
   {
+    "id": 642,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Andrew Huberman\u2019s Three Rules for Better Health and Focus",
+    "episode_date": "2026-11-03",
+    "summary": "The episode is a practical, highly personalized health and cognition routine from Andrew Huberman, centered on circadian timing, exercise efficiency, sleep quality, supplementation, and attention management. He argues the \u201cthree rules\u201d for better health and cognition are morning bright light, resistance training, and maximizing sleep quality, with the rest of the routine built around those priorities.\n\nHuberman emphasizes that meditation works less by making the mind quiet and more by training awareness of mental chaos. He says the real value is observing thoughts rather than suppressing them, and he ties that interpretation to brain-imaging work he cites from the University of Wisconsin. He also gives a detailed, low-volume strength-training structure: three lifting days per week, two hard work sets to momentary failure, and a total of roughly 45\u201360 minutes of hard work time.\n\nA major theme is individualized performance scheduling. He says his peak cognitive windows are roughly 9:30 a.m. to 12:30 p.m. and 4:35 p.m. to 7:00 p.m., and warns that distraction during those windows can destroy disproportionately large amounts of output. He describes social media as the hardest habit to control and says he moved X and Instagram to a separate phone kept in a lock box to reduce access and cognitive capture.\n\nThe episode also covers sleep and neurotechnology. Huberman describes dimming lights before bed, using yoga nidra when short on sleep, stopping caffeine around 2 p.m., and using devices or supplements that improve sleep quality. He predicts the first big neurotech breakthrough will be in sleep/wake transitions, such as sleep masks that can control eye movement and potentially induce sleep or wakefulness. Throughout, he grounds his claims in specific numbers and habits, including 10,000-lux light, 20-second all-out cardio intervals, and a vitamin/supplement stack that includes vitamin D3, Lovaza, and acetylcysteine.",
+    "key_takeaways": [
+      "Andrew Huberman says the core health stack is morning bright light, resistance training, and sleep quality optimization.",
+      "Andrew Huberman says meditation\u2019s main benefit is learning to observe mental chaos rather than forcing the mind to go quiet.",
+      "Andrew Huberman says a low-volume lifting protocol with two hard sets to failure can be more time-efficient and recovery-friendly than higher-volume training.",
+      "Andrew Huberman says his peak work windows are 9:30 a.m.\u201312:30 p.m. and 4:35 p.m.\u20137:00 p.m., and that interruptions in those windows are extremely costly.",
+      "Andrew Huberman says social media is the hardest habit to manage and that physically separating X and Instagram onto a locked phone reduces cognitive capture.",
+      "Andrew Huberman says sleep technology will likely advance first in the area of sleep/wake transitions, especially via sleep masks that can control eye movement.",
+      "Andrew Huberman says zero alcohol is better than any amount up to two drinks per week, based on the data he cites."
+    ],
+    "investment_thesis": "Huberman\u2019s most important claim is that personalized sleep, attention, and neurotechnology tools can materially improve cognition and performance, with sleep/wake manipulation likely the first commercial breakthrough.",
+    "key_tickers": null
+  },
+  {
     "id": 641,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
