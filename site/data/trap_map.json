@@ -1,6 +1,6 @@
 {
  "schema_version": 5,
- "as_of": "2026-10-31T04:56-05:00",
+ "as_of": "2026-11-04T10:35-06:00",
  "title": "Trap Map",
  "purpose": "Stocks where we think the market has it wrong, each held as a paper trade until its target, stop or expiry.",
  "disclaimer": "Our opinion, not advice. Calls are tracked as paper trades only.",
@@ -29,10 +29,9 @@
     "text": "Nov 13 $43/$37 put spread, 7 contracts, $2.295 debit at mid (stock $43.38)",
     "max_loss": "$1,607",
     "quoted": "Yahoo Finance option quotes, Nov 2, 9:29 AM CT (may be up to 15 minutes delayed)",
-    "mid": 3.005,
-    "value": 2349.67,
+    "value": 2998.31,
     "cost": 1606.5,
-    "mid_time": "2026-11-02T09:29-06:00",
+    "mid_time": "2026-11-04T10:35-06:00",
     "posted": "2026-10-29",
     "expiry": "2026-11-13",
     "underlying": "ASTS",
@@ -59,12 +58,12 @@
      "stock_then": "$43.38",
      "caveat": ""
     },
-    "change": 743.17,
+    "change": 1391.81,
     "exit": {
      "type": "expiry",
      "date": "2026-11-13"
     },
-    "mark": 3.3567,
+    "mark": 4.2833,
     "priced": "third_from_worst",
     "estimate_note": "Estimated price: this option hasn't traded yet today (quote as of 9:29 AM CT)."
    },
@@ -116,10 +115,9 @@
     "text": "Nov 13 $3.00/$2.50 put spread, 60 contracts, $0.225 debit at mid (stock $2.835); few contracts trade, so a fill at mid isn't assured",
     "max_loss": "$1,350",
     "quoted": "Yahoo Finance option quotes, Nov 2, 9:29 AM CT (may be up to 15 minutes delayed)",
-    "mid": 0.4,
-    "value": 1700.0,
+    "value": 2400.0,
     "cost": 1350.0,
-    "mid_time": "2026-11-02T09:29-06:00",
+    "mid_time": "2026-11-04T05:03-06:00",
     "posted": "2026-10-29",
     "expiry": "2026-11-13",
     "underlying": "FRMI",
@@ -146,12 +144,12 @@
      "stock_then": "$2.835",
      "caveat": "few contracts trade, so a fill at mid isn't assured"
     },
-    "change": 350.0,
+    "change": 1050.0,
     "exit": {
      "type": "expiry",
      "date": "2026-11-13"
     },
-    "mark": 0.2833,
+    "mark": 0.4,
     "priced": "third_from_worst",
     "estimate_note": "Estimated price: this option hasn't traded yet today (quote as of 9:29 AM CT)."
    },
@@ -199,10 +197,9 @@
     "text": "Dec 18 $40/$30 put spread, 5 contracts, $2.95 debit at mid (stock $41.89); very little open interest, so the mid is a rough guide",
     "max_loss": "$1,475",
     "quoted": "Yahoo Finance option quotes, Nov 2, 9:29 AM CT (may be up to 15 minutes delayed)",
-    "mid": 3.15,
-    "value": 1533.33,
+    "value": 1450.0,
     "cost": 1475.0,
-    "mid_time": "2026-11-02T09:29-06:00",
+    "mid_time": "2026-11-04T05:02-06:00",
     "posted": "2026-10-29",
     "expiry": "2026-12-18",
     "underlying": "TSAT",
@@ -229,12 +226,12 @@
      "stock_then": "$41.89",
      "caveat": "very little open interest, so the mid is a rough guide"
     },
-    "change": 58.33,
+    "change": -25.0,
     "exit": {
      "type": "expiry",
      "date": "2026-12-18"
     },
-    "mark": 3.0667,
+    "mark": 2.9,
     "priced": "third_from_worst",
     "estimate_note": "Estimated price: this option hasn't traded yet today (quote as of 9:29 AM CT)."
    },
@@ -279,10 +276,9 @@
     "text": "Dec 15, 2028 $700/$500 put spread, 1 contract, $68 debit at mid (stock $957.72)",
     "max_loss": "$6,800",
     "quoted": "Yahoo Finance option quotes, Nov 2, 9:29 AM CT (may be up to 15 minutes delayed)",
-    "mid": 76.225,
-    "value": 7233.33,
+    "value": 8488.33,
     "cost": 6800.0,
-    "mid_time": "2026-11-02T09:29-06:00",
+    "mid_time": "2026-11-04T10:35-06:00",
     "posted": "2026-10-29",
     "expiry": "2028-12-15",
     "underlying": "MU",
@@ -309,12 +305,12 @@
      "stock_then": "$957.72",
      "caveat": ""
     },
-    "change": 433.33,
+    "change": 1688.33,
     "exit": {
      "type": "expiry",
      "date": "2028-12-15"
     },
-    "mark": 72.3333,
+    "mark": 84.8833,
     "priced": "third_from_worst",
     "estimate_note": "Estimated price: this option hasn't traded yet today (quote as of 9:29 AM CT)."
    },
@@ -366,9 +362,9 @@
     "text": "$1,000 each in HIMS ($28.09), GDRX ($3.33), TEM ($77.97), GH ($183.10) and ABT ($102.20), bought Sep 18 at about 9:30 AM CT",
     "max_loss": "$5,000",
     "cost": 5000.0,
-    "value": 4975.36,
+    "value": 4987.0,
     "mid": null,
-    "mid_time": "2026-10-30T15:00-05:00",
+    "mid_time": "2026-11-03T15:00-06:00",
     "posted": "2026-09-18",
     "legs": [
      {
@@ -376,8 +372,8 @@
       "entry": 28.09,
       "dollars": 1000,
       "shares": 35.5998576005696,
-      "close": 27.68,
-      "value": 985.4
+      "close": 25.7,
+      "value": 914.92
      },
      {
       "ticker": "GDRX",
@@ -392,24 +388,24 @@
       "entry": 77.97,
       "dollars": 1000,
       "shares": 12.825445684237527,
-      "close": 72.22,
-      "value": 926.25
+      "close": 77.8,
+      "value": 997.82
      },
      {
       "ticker": "GH",
       "entry": 183.1,
       "dollars": 1000,
       "shares": 5.461496450027307,
-      "close": 178.8,
-      "value": 976.52
+      "close": 175.0,
+      "value": 955.76
      },
      {
       "ticker": "ABT",
       "entry": 102.2,
       "dollars": 1000,
       "shares": 9.784735812133071,
-      "close": 106.2,
-      "value": 1039.14
+      "close": 109.4,
+      "value": 1070.45
      }
     ],
     "stop": "Stop: basket closes if the index closes below 90",
@@ -445,7 +441,7 @@
      ],
      "bought": "Sep 18, about 9:30 AM CT"
     },
-    "change": -24.64,
+    "change": -13.0,
     "price_note": "Priced at Oct 30 closes.",
     "stop_rule": {
      "type": "index_level",
@@ -475,7 +471,7 @@
      ],
      "fixed": true
     },
-    "index_now": 99.51
+    "index_now": 99.7
    },
    "status": "holding",
    "date_added": "2026-09-18",
@@ -557,7 +553,10 @@
      "caveat": "Entry priced at 9:13 AM CT on Nov 2."
     },
     "change": -66.67,
-    "priced": "third_from_worst"
+    "priced": "third_from_worst",
+    "quote_flags": [
+     "CEG261120C00290000: spread 0.85/1.8 is wider than 50% of mid"
+    ]
    },
    "date_added": "2026-10-31",
    "last_reviewed": "2026-11-02",
@@ -605,10 +604,10 @@
     "premium": 556.67,
     "cash_secured": 21000.0,
     "effective_entry": 204.43,
-    "mark": -6.1333,
-    "value": 20943.34,
+    "mark": -9.3333,
+    "value": 20623.34,
     "cost": 21000.0,
-    "mid_time": "2026-11-02T11:11-06:00",
+    "mid_time": "2026-11-04T10:29-06:00",
     "posted": "2026-11-02",
     "expiry": "2026-12-04",
     "underlying": "LRCX",
@@ -636,7 +635,7 @@
      "caveat": "Effective entry if assigned: $204.43. Entry priced at 11:11 AM CT on Nov 2"
     },
     "priced": "third_from_worst",
-    "change": -56.66
+    "change": -376.66
    },
    "date_added": "2026-11-02",
    "last_reviewed": "2026-11-02",
@@ -656,8 +655,8 @@
  "benchmark": {
   "name": "S&P 500 (SPY)",
   "ticker": "SPY",
-  "spy_close_now": 755.72,
-  "spy_close_time": "2026-10-30T15:00-05:00",
+  "spy_close_now": 754.35,
+  "spy_close_time": "2026-11-03T15:00-06:00",
   "spy_close_source": "Yahoo Finance quote (query1.finance.yahoo.com/v8/finance/chart/SPY), Oct 30, 2026, 11:16 AM CT",
   "buys": [
    {
@@ -707,9 +706,9 @@
  },
  "totals": {
   "cost": 38408.17,
-  "value": 39845.03,
-  "spy_value": 38169.86,
-  "change": 1436.86,
+  "value": 42056.98,
+  "spy_value": 38100.66,
+  "change": 3648.81,
   "midpoint_rows": [],
   "computed_by": "pipeline/build_trap_map.py"
  },
@@ -770,7 +769,7 @@
    "text": "AST SpaceMobile: the facts that would prove us wrong were updated."
   }
  ],
- "quotes_as_of": "2026-11-02T11:11:00-06:00",
+ "quotes_as_of": "2026-11-04T10:35:00-06:00",
  "how_we_track": "Every view is a paper trade priced the day it was added, priced a third of the spread from the worst side (buys a third below the ask, sells a third above the bid), never the midpoint. A trade ends only at its target, its stop or its expiry. Put spreads are held to expiry. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good.",
  "price_banner": "Quotes may be up to 15 minutes delayed. Each price sits a third of the spread in from the worst quote. Options that haven't traded yet today show an estimated price."
 }
