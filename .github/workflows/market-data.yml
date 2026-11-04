@@ -62,11 +62,12 @@ jobs:
         working-directory: pipeline
         run: python fetch_treasury_calendar.py
 
-      # Trap Map after-close price pull (evening run / manual only). Free sources only
+      # Trap Map price pull (both weekday runs, evening run, manual). Free sources only
       # (Cboe delayed quotes, Yahoo Finance); read-only, never places orders. On a failed
       # quote a row keeps its last mid and time. Rebuilds trap-map.html + homepage strip.
       - name: Trap Map after-close price pull
-        if: ${{ !cancelled() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '15 21 * * 1-5' || github.event.schedule == '45 3 * * 2-6') }}
+        id: trap_map
+        if: ${{ !cancelled() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 15 * * 1-5' || github.event.schedule == '15 21 * * 1-5' || github.event.schedule == '45 3 * * 2-6') }}
         continue-on-error: true
         run: python pipeline/fetch_trap_map_prices.py
 
@@ -97,3 +98,10 @@ jobs:
           # Merges made with GITHUB_TOKEN don't fire push workflows; dispatch Pages.
           gh workflow run deploy.yml --ref main
           echo "Merged $url and dispatched deploy.yml"
+
+      # Other cards still commit/deploy above; this makes a failed Trap Map pull fail the run.
+      - name: Fail run if Trap Map price pull failed
+        if: ${{ always() && steps.trap_map.outcome == 'failure' }}
+        run: |
+          echo "::error title=Trap Map price pull failed::pipeline/fetch_trap_map_prices.py failed; Trap Map prices were not refreshed. See the 'Trap Map after-close price pull' step log."
+          exit 1
