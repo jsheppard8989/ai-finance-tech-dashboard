@@ -1,6 +1,6 @@
 {
  "schema_version": 5,
- "as_of": "2026-11-04T10:35-06:00",
+ "as_of": "2026-11-04T10:44-06:00",
  "title": "Trap Map",
  "purpose": "Stocks where we think the market has it wrong, each held as a paper trade until its target, stop or expiry.",
  "disclaimer": "Our opinion, not advice. Calls are tracked as paper trades only.",
@@ -29,9 +29,9 @@
     "text": "Nov 13 $43/$37 put spread, 7 contracts, $2.295 debit at mid (stock $43.38)",
     "max_loss": "$1,607",
     "quoted": "Yahoo Finance option quotes, Nov 2, 9:29 AM CT (may be up to 15 minutes delayed)",
-    "value": 2998.31,
+    "value": 2881.69,
     "cost": 1606.5,
-    "mid_time": "2026-11-04T10:35-06:00",
+    "mid_time": "2026-11-04T10:43-06:00",
     "posted": "2026-10-29",
     "expiry": "2026-11-13",
     "underlying": "ASTS",
@@ -58,12 +58,12 @@
      "stock_then": "$43.38",
      "caveat": ""
     },
-    "change": 1391.81,
+    "change": 1275.19,
     "exit": {
      "type": "expiry",
      "date": "2026-11-13"
     },
-    "mark": 4.2833,
+    "mark": 4.1167,
     "priced": "third_from_worst",
     "estimate_note": "Estimated price: this option hasn't traded yet today (quote as of 9:29 AM CT)."
    },
@@ -276,9 +276,9 @@
     "text": "Dec 15, 2028 $700/$500 put spread, 1 contract, $68 debit at mid (stock $957.72)",
     "max_loss": "$6,800",
     "quoted": "Yahoo Finance option quotes, Nov 2, 9:29 AM CT (may be up to 15 minutes delayed)",
-    "value": 8488.33,
+    "value": 8486.67,
     "cost": 6800.0,
-    "mid_time": "2026-11-04T10:35-06:00",
+    "mid_time": "2026-11-04T10:43-06:00",
     "posted": "2026-10-29",
     "expiry": "2028-12-15",
     "underlying": "MU",
@@ -305,12 +305,12 @@
      "stock_then": "$957.72",
      "caveat": ""
     },
-    "change": 1688.33,
+    "change": 1686.67,
     "exit": {
      "type": "expiry",
      "date": "2028-12-15"
     },
-    "mark": 84.8833,
+    "mark": 84.8667,
     "priced": "third_from_worst",
     "estimate_note": "Estimated price: this option hasn't traded yet today (quote as of 9:29 AM CT)."
    },
@@ -607,7 +607,7 @@
     "mark": -9.3333,
     "value": 20623.34,
     "cost": 21000.0,
-    "mid_time": "2026-11-04T10:29-06:00",
+    "mid_time": "2026-11-04T10:42-06:00",
     "posted": "2026-11-02",
     "expiry": "2026-12-04",
     "underlying": "LRCX",
@@ -706,9 +706,9 @@
  },
  "totals": {
   "cost": 38408.17,
-  "value": 42056.98,
+  "value": 41938.7,
   "spy_value": 38100.66,
-  "change": 3648.81,
+  "change": 3530.53,
   "midpoint_rows": [],
   "computed_by": "pipeline/build_trap_map.py"
  },
@@ -769,7 +769,7 @@
    "text": "AST SpaceMobile: the facts that would prove us wrong were updated."
   }
  ],
- "quotes_as_of": "2026-11-04T10:35:00-06:00",
+ "quotes_as_of": "2026-11-04T10:43:00-06:00",
  "how_we_track": "Every view is a paper trade priced the day it was added, priced a third of the spread from the worst side (buys a third below the ask, sells a third above the bid), never the midpoint. A trade ends only at its target, its stop or its expiry. Put spreads are held to expiry. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good.",
  "price_banner": "Quotes may be up to 15 minutes delayed. Each price sits a third of the spread in from the worst quote. Options that haven't traded yet today show an estimated price."
 }
