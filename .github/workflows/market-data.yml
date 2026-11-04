@@ -8,13 +8,15 @@ name: Market Data Refresh
 # No secrets: all sources are public. Replaces the Mac launchd path for these
 # three (auto_pipeline.py skips them unless MARKET_DATA_FETCH_LOCAL=1).
 #
-# Cron is UTC. Paired entries cover CDT (UTC-5) and CST (UTC-6).
+# Cron is UTC. Two weekday runs at 9:00 AM and 3:15 PM CT, set for CST (UTC-6).
+# During CDT (UTC-5, from Mar 8 2027) these fire at 10:00 AM / 4:15 PM CT; change them
+# to "0 14 * * 1-5" and "15 20 * * 1-5" then.
+# The "45 3 * * 2-6" entry is the separate evening Treasury run (curve posted after close).
 on:
   schedule:
-    - cron: "15 12 * * 1-5"   # ~07:15 CDT / 06:15 CST  morning
-    - cron: "15 13 * * 1-5"   # ~07:15 CST (winter)
-    - cron: "30 17 * * 1-5"   # ~12:30 CDT midday
-    - cron: "45 3 * * 2-6"    # ~22:45 CDT / 21:45 CST evening (Treasury curve posted)
+    - cron: "0 15 * * 1-5"    # 9:00 AM CST
+    - cron: "15 21 * * 1-5"   # 3:15 PM CST (after close; Trap Map price pull)
+    - cron: "45 3 * * 2-6"    # ~9:45 PM CST evening Treasury
   workflow_dispatch:
 
 permissions:
@@ -64,7 +66,7 @@ jobs:
       # (Cboe delayed quotes, Yahoo Finance); read-only, never places orders. On a failed
       # quote a row keeps its last mid and time. Rebuilds trap-map.html + homepage strip.
       - name: Trap Map after-close price pull
-        if: ${{ !cancelled() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '45 3 * * 2-6') }}
+        if: ${{ !cancelled() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '15 21 * * 1-5' || github.event.schedule == '45 3 * * 2-6') }}
         continue-on-error: true
         run: python pipeline/fetch_trap_map_prices.py
 

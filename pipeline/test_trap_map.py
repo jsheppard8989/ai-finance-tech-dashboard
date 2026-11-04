@@ -325,7 +325,7 @@ class TestMidpointLabel(unittest.TestCase):
 
     def test_prices_labeled(self):
         EST = "Estimated price: this option hasn't traded yet today (quote as of 9:29 AM CT)."
-        BANNER = ("Prices as of 9:29 AM CT on Nov 2, Lam Research as of 11:11 AM CT (quotes may be up to 15 minutes delayed). Each price sits a third of the "
+        BANNER = ("Quotes may be up to 15 minutes delayed. Each price sits a third of the "
                   "spread in from the worst quote. Options that haven't traded yet today show an estimated price.")
         self.assertEqual(self.d["totals"]["midpoint_rows"], [])
         self.assertEqual(build_trap_map.midpoint_note(self.d), "")

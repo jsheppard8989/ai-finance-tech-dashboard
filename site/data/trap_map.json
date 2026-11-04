@@ -772,5 +772,5 @@
  ],
  "quotes_as_of": "2026-11-02T11:11:00-06:00",
  "how_we_track": "Every view is a paper trade priced the day it was added, priced a third of the spread from the worst side (buys a third below the ask, sells a third above the bid), never the midpoint. A trade ends only at its target, its stop or its expiry. Put spreads are held to expiry. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good.",
- "price_banner": "Prices as of 9:29 AM CT on Nov 2, Lam Research as of 11:11 AM CT (quotes may be up to 15 minutes delayed). Each price sits a third of the spread in from the worst quote. Options that haven't traded yet today show an estimated price."
+ "price_banner": "Quotes may be up to 15 minutes delayed. Each price sits a third of the spread in from the worst quote. Options that haven't traded yet today show an estimated price."
 }
