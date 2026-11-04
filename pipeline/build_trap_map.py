@@ -450,9 +450,8 @@ details.ev .d{{font-weight:800;float:right}}.sumline{{display:block;margin:6px 0
 <div class="top" style="font-size:13px;margin-bottom:10px"><a href="index.html">\u2190 Home</a></div>
 <h1>Trap Map</h1>
 <p class="sub">{e(d["purpose"])}</p>
-<p class="asof" id="asof">Quotes as of {e(_fmt_full(d["quotes_as_of"]))}</p>
 <div class="bar">
- <div class="card hero" id="tot">{hero}</div>
+ <div class="card hero" id="tot"><p class="asof" id="asof" style="margin:0 0 6px">Quotes as of {e(_fmt_full(d["quotes_as_of"]))}</p>{hero}</div>
 </div>
 <table class="desk"><thead><tr><th style="width:170px">Stock</th><th style="width:96px">Direction</th><th>Why we think so</th><th style="width:170px">Expected exit</th><th style="width:235px">Expression</th><th style="width:140px">Money</th></tr></thead><tbody id="rows">
 {trs}
@@ -508,13 +507,16 @@ def render_past_calls(past: list, preview: bool = False) -> str:
             f'Calls marked no data are listed but not counted.</p><table><tbody>' + "".join(trs) + "</tbody></table>")
 
 
+_ENTRY_PENDING_NOTE = ", entry pending JG's Monday repricing"
+
+
 def render_strip(d: dict, today: date | None = None) -> str:
     T = d["totals"]
     chips = "".join(
         f'<a class="trap-chip" href="trap-map.html#{e(r["id"])}" style="display:inline-block;margin:0.2rem 0.35rem 0.2rem 0;padding:0.3rem 0.55rem;border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:#e6f1ff;text-decoration:none;font-size:0.75rem;">'
         f'<strong>{e(r["ticker"])}</strong> <span style="color:{"#34d399" if _is_long(r["direction"]) else "#f87171"};">{e(r["direction"])}</span> '
         f'<span style="color:#9ca3af;">· {e(exit_label(r))}'
-        f' · worth {money(r["trade"]["value"])}{(", entry pending JG's Monday repricing" if r["trade"].get("entry_pending") else ", " + r["trade"]["price_note"][0].lower() + r["trade"]["price_note"][1:].rstrip(".") if r["trade"].get("price_note") else " at midpoint, not final") if is_midpoint(r) else (", " + r["trade"]["price_note"][0].lower() + r["trade"]["price_note"][1:].rstrip(".") if r["trade"].get("price_note") else "")} (allocated {money(r["trade"]["cost"])}'
+        f' · worth {money(r["trade"]["value"])}{(_ENTRY_PENDING_NOTE if r["trade"].get("entry_pending") else ", " + r["trade"]["price_note"][0].lower() + r["trade"]["price_note"][1:].rstrip(".") if r["trade"].get("price_note") else " at midpoint, not final") if is_midpoint(r) else (", " + r["trade"]["price_note"][0].lower() + r["trade"]["price_note"][1:].rstrip(".") if r["trade"].get("price_note") else "")} (allocated {money(r["trade"]["cost"])}'
         f'{", index " + str(r["trade"]["index_now"]) if r["trade"].get("index_now") is not None else ""})</span></a>'
         for r in sorted_rows(d))
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'
