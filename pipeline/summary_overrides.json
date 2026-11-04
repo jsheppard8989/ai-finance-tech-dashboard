@@ -2166,6 +2166,91 @@
           "; source: Silicon Data term-curve output."
         ]
       ]
+    },
+    {
+      "insight_id": 644,
+      "podcast_episode_id": 634,
+      "_note": "Nov 4 2026 (G daily check, sweep_1104; routine-fix rule): speaker is Dhruv Gupta (card's speaker list), not 'Drew'; guest_name was the episode title",
+      "replacements": [
+        [
+          "Drew says",
+          "Gupta says"
+        ],
+        [
+          "Drew explicitly says",
+          "Gupta explicitly says"
+        ]
+      ],
+      "set_guest_name": "David Booth & Dhruv Gupta"
+    },
+    {
+      "insight_id": 654,
+      "podcast_episode_id": 643,
+      "_note": "Nov 4 2026 (G daily check, sweep_1104; routine-fix rule): no-grading rule; 'e-values' is a speech-to-text garble of 'evals'; the 40% rise is tied to confidence in the approach, not costs; 'agente' garble bracketed; plain words for PR/sub/MCP",
+      "replacements": [
+        [
+          "Lloyd says Warp grades agent outputs with e-values",
+          "Lloyd says Warp scores agent outputs with evals (automated checks run by AI judges)"
+        ],
+        [
+          "retroactive grading",
+          "retroactive scoring"
+        ],
+        [
+          "e-values are a noisy proxy",
+          "evals are a noisy proxy"
+        ],
+        [
+          "while throughput improved and revert rate did not rise, though he says costs have still increased about 40% in the last month",
+          "and he says a measure the team tracks rose about 40% over the last month with no rise in the revert rate (how often changes get rolled back)"
+        ],
+        [
+          "like a agente system in the cloud",
+          "like a [agentic] system in the cloud"
+        ],
+        [
+          "reduced its own cost per PR from",
+          "reduced its own cost per pull request (each proposed code change) from"
+        ],
+        [
+          "publish before/after cost per PR and",
+          "publish before/after cost per pull request (each proposed code change) and"
+        ],
+        [
+          "bundled sub-based usage",
+          "bundled subscription-based usage"
+        ],
+        [
+          "GitHub, and MCPs.",
+          "GitHub, and MCP connectors (a standard way to plug outside tools into AI agents)."
+        ],
+        [
+          "GitHub, and MCP-linked systems",
+          "GitHub, and systems linked through MCP connectors (a standard way to plug outside tools into AI agents)"
+        ]
+      ]
+    },
+    {
+      "insight_id": 653,
+      "podcast_episode_id": 642,
+      "_note": "Nov 4 2026 (G daily check, sweep_1104; routine-fix rule): X (the social app) is privately held, not a valid ticker; garbled alcohol quote can't be repaired without inventing words; plain words for PSG/actigraphy",
+      "replacements": [
+        [
+          "PSG, actigraphy",
+          "sleep-lab tests (polysomnography), wrist-worn sleep trackers (actigraphy)"
+        ],
+        [
+          "PSG-backed studies",
+          "sleep-lab-backed studies"
+        ]
+      ],
+      "drop_tickers": [
+        "X"
+      ],
+      "set_tickers_mentioned": [],
+      "drop_quotes": [
+        "The data say zero is better than any two per week"
+      ]
     }
   ],
   "terms": [
@@ -2390,6 +2475,15 @@
       "_note": "Oct 28 2026 daily site check (cos/sweep_1028/fixes.md) #10: Overton 'AGI' last-mentioned speaker 'Caitlin, Angela, Kaitlyn' -> Latent Space guests Katelyn Lesse and Angela Jiang (show notes), gated to episode 616 so a later mention keeps its own speaker.",
       "set": {
         "last_mentioned_speaker": "Katelyn Lesse, Angela Jiang"
+      }
+    },
+    {
+      "id": 282,
+      "scope": "overton",
+      "_note": "Nov 4 2026 (G daily check, sweep_1104; routine-fix rule): Overton 'e-values' is a speech-to-text garble of 'evals'; no-grading rule",
+      "set": {
+        "term": "Evals",
+        "description": "A scoring system using AI judge models to score agent outputs and detect recurring failure modes, such as redundant tests. It is used to evaluate quality beyond raw throughput."
       }
     }
   ],
@@ -8389,6 +8483,16 @@
         [
           "Renovison",
           "Srinivasan"
+        ]
+      ]
+    },
+    {
+      "id": 613,
+      "_note": "Nov 4 2026 (G daily check, sweep_1104; routine-fix rule): Zach Lloyd is founder and CEO of Warp",
+      "replacements": [
+        [
+          "Warp executive focused on",
+          "Founder and CEO of Warp, focused on"
         ]
       ]
     }
