@@ -1,5 +1,23 @@
 [
   {
+    "id": 643,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\u26a1\ufe0f The 2026 Software Factory Standard \u2014 Zach Lloyd, Warp.dev",
+    "episode_date": "2026-11-03",
+    "summary": "Zach Lloyd argues that a \"software factory\" is not a vague metaphor, but a concrete cloud system for orchestrating coding agents with defined roles, measurable workflows, and closed-loop optimization. He says the goal is to make software delivery observable and tunable, with one factory per product surface and full traces of agent actions, artifacts, and human interventions.\n\nA major theme is measurement. Lloyd says Warp grades agent outputs with e-values, detects failure modes like redundant tests, and benchmarks runs across different models and harnesses so teams can choose the best cost-versus-correctness configuration. He frames this as moving teams away from \"vibes\" and toward a repeatable operating system for agentic engineering.\n\nHe also gives concrete economic claims. Warp reportedly reduced its own cost per PR from about $80 to roughly $15-$20, while throughput improved and revert rate did not rise, though he says costs have still increased about 40% in the last month. Lloyd argues that direct pay-by-API usage can be 5x to 50x more expensive than bundled sub-based usage, making optimization especially important at scale.\n\nThe episode also draws a line around customer fit and implementation complexity. Lloyd suggests the platform makes the most sense once teams reach roughly 5-10 engineers, often in mid-market or larger orgs, and notes that bespoke internal infrastructure can make adoption harder. He emphasizes pluggable sandbox, inference, and harness components, plus integrations through tools like Slack, Linear, GitHub, and MCPs.",
+    "key_takeaways": [
+      "Zach Lloyd says a software factory is an agent system in the cloud with explicit roles, autonomy, and measurable workflows for building software.",
+      "Lloyd argues Warp makes factories \"real\" by letting teams orchestrate them, measure them, and define one factory per product surface.",
+      "He says full traces across agent conversations, screenshots, and tool interactions let teams see exactly how coding agents are performing in real time.",
+      "Lloyd says historical runs can be re-graded by agents to identify failure modes such as redundant tests, which is a common coding-agent problem.",
+      "He claims Warp reduced internal cost per PR from about $80 to around $15-$20, and says revert rate did not increase even as throughput improved.",
+      "Lloyd says direct pay-by-API usage can be 5x to 50x more expensive than using bundled subs, making economics a core issue for scaling agent workflows.",
+      "He suggests the platform is best suited for teams above roughly 5-10 engineers, and may be overkill for very small teams using simpler tools directly."
+    ],
+    "investment_thesis": "The episode's core claim is that observable, benchmarked \"software factory\" infrastructure can materially cut coding-agent cost per PR while preserving quality, especially for teams large enough to justify the orchestration layer.",
+    "key_tickers": null
+  },
+  {
     "id": 642,
     "podcast_name": "The a16z Show",
     "episode_title": "Andrew Huberman\u2019s Three Rules for Better Health and Focus",

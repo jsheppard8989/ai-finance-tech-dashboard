@@ -34,6 +34,37 @@
       ]
     },
     {
+      "id": 654,
+      "title": "\u26a1\ufe0f The 2026 Software Factory Standard \u2014 Zach Lloyd, Warp.dev",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-11-03",
+      "summary": "Zach Lloyd argues that a \"software factory\" is not a vague metaphor, but a concrete cloud system for orchestrating coding agents with defined roles, measurable workflows, and closed-loop optimization. He says the goal is to make software delivery observable and tunable, with one factory per product surface and full traces of agent actions, artifacts, and human interventions.\n\nA major theme is measurement. Lloyd says Warp grades agent outputs with e-values, detects failure modes like redundant tests, and benchmarks runs across different models and harnesses so teams can choose the best cost-versus-correctness configuration. He frames this as moving teams away from \"vibes\" and toward a repeatable operating system for agentic engineering.\n\nHe also gives concrete economic claims. Warp reportedly reduced its own cost per PR from about $80 to roughly $15-$20, while throughput improved and revert rate did not rise, though he says costs have still increased about 40% in the last month. Lloyd argues that direct pay-by-API usage can be 5x to 50x more expensive than bundled sub-based usage, making optimization especially important at scale.\n\nThe episode also draws a line around customer fit and implementation complexity. Lloyd suggests the platform makes the most sense once teams reach roughly 5-10 engineers, often in mid-market or larger orgs, and notes that bespoke internal infrastructure can make adoption harder. He emphasizes pluggable sandbox, inference, and harness components, plus integrations through tools like Slack, Linear, GitHub, and MCPs.",
+      "key_takeaway": "The episode's core claim is that observable, benchmarked \"software factory\" infrastructure can materially cut coding-agent cost per PR while preserving quality, especially for teams large enough to justify the orchestration layer.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 643,
+      "notable_quotes": [
+        {
+          "speaker": "Zach Lloyd",
+          "quote": "What I think it means or maybe I'll just define what it means to me is like a agente system in the cloud where you're defining what are the roles of various agents across building software for your team or for your product and there's a certain amount of autonomy in that system."
+        },
+        {
+          "speaker": "Zach Lloyd",
+          "quote": "A lot of a lot of people go straight to API of pay by API and that is between 5 to 50 times more expensive than just getting a whole bunch of subs do people do that is is that like so against terms of service that like just don't bother."
+        },
+        {
+          "speaker": "Zach Lloyd",
+          "quote": "Over the last month it's gone up by 40% we measure like the revert rate and it hasn't gone up and so I really feel like a lot of confidence in this general approach of like observe measure tune."
+        }
+      ]
+    },
+    {
       "id": 650,
       "title": "The Robots Already Working in American Factories | Tutor Intelligence",
       "source_type": "podcast",
@@ -371,7 +402,7 @@
       "key_takeaway": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-30",
       "archived_date": null,
@@ -14652,8 +14683,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-10-30",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-11-03",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -14662,8 +14693,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 631,
-      "last_mentioned_speaker": "Robert Caro"
+      "last_mentioned_episode_id": 643,
+      "last_mentioned_speaker": "Zach Lloyd"
     },
     {
       "id": 314,
@@ -14994,8 +15025,8 @@
       "term": "Artifacts",
       "description": "Persistent data storage features in Claude Code that enhance collaboration among multiple agents.",
       "first_detected_date": "2026-09-29",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-11-03",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Utilizing artifacts can streamline project workflows and improve team collaboration.",
@@ -15004,8 +15035,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 531,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 596,
-      "last_mentioned_speaker": "Adit Abraham"
+      "last_mentioned_episode_id": 643,
+      "last_mentioned_speaker": "Zach Lloyd"
     },
     {
       "id": 299,
@@ -15114,6 +15145,24 @@
       "first_detected_speaker": "Ben Horowitz",
       "last_mentioned_episode_id": 512,
       "last_mentioned_speaker": "Amjad Masad"
+    },
+    {
+      "id": 323,
+      "term": "System One Models",
+      "description": "A new class of AI models optimized for direct code consumption, contrasting with traditional instruction-following models.",
+      "first_detected_date": "2026-09-21",
+      "last_mentioned_date": "2026-11-03",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in companies developing system one models could capitalize on their potential to disrupt existing AI applications.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 505,
+      "first_detected_speaker": "Diogo",
+      "last_mentioned_episode_id": 643,
+      "last_mentioned_speaker": "Zach Lloyd"
     },
     {
       "id": 106,
@@ -15262,20 +15311,20 @@
     {
       "id": 282,
       "term": "e-values",
-      "description": "Benchmarking systems intended to measure financial-work automation potential and model quality in profession-specific tasks.",
+      "description": "A scoring system using judge models to grade agent outputs and detect recurring failure modes, such as redundant tests. It is used to evaluate quality beyond raw throughput.",
       "first_detected_date": "2026-08-24",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-11-03",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Benchmark infrastructure may become a key layer for validating AI performance in regulated, high-stakes domains.",
+      "investment_implications": "Scoring and evaluation layers could become core products for measuring AI agent performance across engineering workflows.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 421,
       "first_detected_speaker": "NG ZDN",
-      "last_mentioned_episode_id": 633,
-      "last_mentioned_speaker": "Joseph Kim, Richard"
+      "last_mentioned_episode_id": 643,
+      "last_mentioned_speaker": "Zach Lloyd"
     },
     {
       "id": 281,
@@ -15480,8 +15529,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 42,
+      "last_mentioned_date": "2026-11-03",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -15490,8 +15539,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 636,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 643,
+      "last_mentioned_speaker": "Zach Lloyd"
     },
     {
       "id": 265,
