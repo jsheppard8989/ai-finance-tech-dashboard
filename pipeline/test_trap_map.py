@@ -226,6 +226,8 @@ class TestPricePull(unittest.TestCase):
         self.assertEqual(lrcx["status"], "closed")
         self.assertEqual(lrcx["exit"]["result"], -1043.33)
         self.assertEqual(len(open_rows), 7)
+        self.assertEqual(d["totals"]["cost"], round(sum(r["trade"]["cost"] for r in open_rows), 2))
+        self.assertEqual(d["totals"]["portfolio_value"], round(d["totals"]["value"] + d["totals"]["closed_cash"], 2))
         with mock.patch.object(fp, "_get", side_effect=OSError("down")), \
              mock.patch.object(fp, "yahoo_quotes", side_effect=OSError("down")):
             warn = fp.pull(d)
