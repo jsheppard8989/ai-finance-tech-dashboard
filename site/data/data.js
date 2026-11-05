@@ -1416,7 +1416,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-04",
-      "summary": "The episode argues that AI agents are moving out of the generic \u201cassistant\u201d phase and into a more specialized, trust-sensitive phase where different products serve productivity, shopping, social, and even \u201cgossip\u201d use cases. The speakers repeatedly frame this as a Cambrian moment: the category is changing quickly, but the winning products are still unclear.\n\nA central theme is trust. David Paulen says trust is the main fear in his analysis of more than 147 assistants and roughly 3,600 messages, and the conversation returns to permissioning, fences, and scope control as the practical way to let agents handle more sensitive tasks. Josh Elman emphasizes that personal agents should access personal channels but not work ones, and the group treats embarrassment, discretion, and privacy as related but distinct issues.\n\nThe episode also compares real agent behavior in benchmark-style tests. David Paulen describes a same-day flower-ordering test where Instinct performed exceptionally well on price while still meeting delivery constraints, while Kicker and Season also did well. In travel planning, he says he tested three agents on a luxury-but-cost-efficient weekend to Los Angeles, and different systems balanced those goals differently.\n\nAnother major thread is that the next breakout products may not simply save time or money. The speakers suggest that \u201csecret superpower\u201d experiences, social discovery, and life-context agents may matter more than classic productivity. They point to products like Bobby, Scout, Tomo, Dots, and Apple\u2019s privacy posture as examples of where context, personalization, and controlled data access could create new behavior and new investment opportunities.",
+      "summary": "The episode argues that AI agents are moving out of the generic \u201cassistant\u201d phase and into a more specialized, trust-sensitive phase where different products serve productivity, shopping, social, and even \u201cgossip\u201d use cases. The speakers repeatedly frame this as a Cambrian moment: the category is changing quickly, but the winning products are still unclear.\n\nA central theme is trust. David Pawlan says trust is the main fear in his analysis of more than 140 AI assistants and roughly 3,600 messages, and the conversation returns to permissioning, fences, and scope control as the practical way to let agents handle more sensitive tasks. Josh Elman emphasizes that personal agents should access personal channels but not work ones, and the group treats embarrassment, discretion, and privacy as related but distinct issues.\n\nThe episode also compares real agent behavior in benchmark-style tests. David Pawlan describes a same-day flower-ordering test where Instinct performed exceptionally well on price while still meeting delivery constraints, while Kicker and Season also did well. In travel planning, he says he tested three agents on a luxury-but-cost-efficient weekend to Los Angeles, and different systems balanced those goals differently.\n\nAnother major thread is that the next breakout products may not simply save time or money. The speakers suggest that \u201csecret superpower\u201d experiences, social discovery, and life-context agents may matter more than classic productivity. They point to products like Bobby, Scout, Tomo, Dots, and Apple\u2019s privacy posture as examples of where context, personalization, and controlled data access could create new behavior and new investment opportunities.",
       "key_takeaway": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
       "tickers_mentioned": [
         "AAPL"
@@ -1430,7 +1430,7 @@ const dashboardData = {
       "podcast_episode_id": 644,
       "notable_quotes": [
         {
-          "speaker": "David Paulen",
+          "speaker": "David Pawlan",
           "quote": "From over 147 different assistants that have come across my plates so far, the number one fear that people talk about 22% of the messages are talking about trust as the main year."
         },
         {
@@ -1438,7 +1438,7 @@ const dashboardData = {
           "quote": "I think the whole point of like, wait, okay, that I personally agent should have access to my personal things and my personal communication channels, but not my work ones."
         },
         {
-          "speaker": "David Paulen",
+          "speaker": "David Pawlan",
           "quote": "I ran another test that was I had three different agents test in booking travel to LA. So I said, okay, book me a flight to LA, planned an entire weekend for me, and I want a luxurious, cost-efficient weekend."
         }
       ]
@@ -16869,7 +16869,7 @@ const dashboardData = {
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
       "last_mentioned_episode_id": 644,
-      "last_mentioned_speaker": "David Paulen, Josh Elman"
+      "last_mentioned_speaker": "David Pawlan, Josh Elman"
     },
     {
       "id": 267,
@@ -19137,7 +19137,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-04",
-      "summary": "The episode argues that AI agents are moving out of the generic \u201cassistant\u201d phase and into a more specialized, trust-sensitive phase where different products serve productivity, shopping, social, and even \u201cgossip\u201d use cases. The speakers repeatedly frame this as a Cambrian moment: the category is changing quickly, but the winning products are still unclear.\n\nA central theme is trust. David Paulen says trust is the main fear in his analysis of more than 147 assistants and roughly 3,600 messages, and the conversation returns to permissioning, fences, and scope control as the practical way to let agents handle more sensitive tasks. Josh Elman emphasizes that personal agents should access personal channels but not work ones, and the group treats embarrassment, discretion, and privacy as related but distinct issues.\n\nThe episode also compares real agent behavior in benchmark-style tests. David Paulen describes a same-day flower-ordering test where Instinct performed exceptionally well on price while still meeting delivery constraints, while Kicker and Season also did well. In travel planning, he says he tested three agents on a luxury-but-cost-efficient weekend to Los Angeles, and different systems balanced those goals differently.\n\nAnother major thread is that the next breakout products may not simply save time or money. The speakers suggest that \u201csecret superpower\u201d experiences, social discovery, and life-context agents may matter more than classic productivity. They point to products like Bobby, Scout, Tomo, Dots, and Apple\u2019s privacy posture as examples of where context, personalization, and controlled data access could create new behavior and new investment opportunities.",
+      "summary": "The episode argues that AI agents are moving out of the generic \u201cassistant\u201d phase and into a more specialized, trust-sensitive phase where different products serve productivity, shopping, social, and even \u201cgossip\u201d use cases. The speakers repeatedly frame this as a Cambrian moment: the category is changing quickly, but the winning products are still unclear.\n\nA central theme is trust. David Pawlan says trust is the main fear in his analysis of more than 140 AI assistants and roughly 3,600 messages, and the conversation returns to permissioning, fences, and scope control as the practical way to let agents handle more sensitive tasks. Josh Elman emphasizes that personal agents should access personal channels but not work ones, and the group treats embarrassment, discretion, and privacy as related but distinct issues.\n\nThe episode also compares real agent behavior in benchmark-style tests. David Pawlan describes a same-day flower-ordering test where Instinct performed exceptionally well on price while still meeting delivery constraints, while Kicker and Season also did well. In travel planning, he says he tested three agents on a luxury-but-cost-efficient weekend to Los Angeles, and different systems balanced those goals differently.\n\nAnother major thread is that the next breakout products may not simply save time or money. The speakers suggest that \u201csecret superpower\u201d experiences, social discovery, and life-context agents may matter more than classic productivity. They point to products like Bobby, Scout, Tomo, Dots, and Apple\u2019s privacy posture as examples of where context, personalization, and controlled data access could create new behavior and new investment opportunities.",
       "key_takeaway": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
       "tickers_mentioned": [
         "AAPL"
@@ -19151,7 +19151,7 @@ const dashboardData = {
       "podcast_episode_id": 644,
       "notable_quotes": [
         {
-          "speaker": "David Paulen",
+          "speaker": "David Pawlan",
           "quote": "From over 147 different assistants that have come across my plates so far, the number one fear that people talk about 22% of the messages are talking about trust as the main year."
         },
         {
@@ -19159,7 +19159,7 @@ const dashboardData = {
           "quote": "I think the whole point of like, wait, okay, that I personally agent should have access to my personal things and my personal communication channels, but not my work ones."
         },
         {
-          "speaker": "David Paulen",
+          "speaker": "David Pawlan",
           "quote": "I ran another test that was I had three different agents test in booking travel to LA. So I said, okay, book me a flight to LA, planned an entire weekend for me, and I want a luxurious, cost-efficient weekend."
         }
       ],
@@ -19707,7 +19707,7 @@ const dashboardData = {
       "first_detected_episode_id": 380,
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 644,
-      "last_mentioned_speaker": "David Paulen, Josh Elman",
+      "last_mentioned_speaker": "David Pawlan, Josh Elman",
       "novelty_score": 2.3261,
       "overton_score": 2.3261,
       "resonance_pct": 80,
@@ -59624,7 +59624,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-11-05T12:18:48.398412",
     "updated_at": "2026-11-05 18:18:48",
-    "episode_evidence": "David Paulen: From over 147 different assistants that have come across my plates so far, the number one fear that people talk about 22% of the messages are talking about trust as the main year.\nJosh Elman: I think the whole point of like, wait, okay, that I personally agent should have access to my personal things and my personal communication channels, but not my work ones.\nDavid Paulen: I ran another test that was I had three different agents test in booking travel to LA. So I said, okay, book me a flight to LA, planned an entire weekend for me, and I want a luxurious, cost-efficient weekend.\nDavid Paulen: By and large, most people I talk to still are not using as their preference of the, I did a survey of, you know, AI Power users, 254 people, only 3% were actually using it as their primary agent.\nDavid Paulen: I love Patrick's vision, and I think that that, that like broadly that will be true that agents will make often better choices on our behalf than we might make for ourselves, but I do think that agents are going to have their own revealed preferences and their own sort of directions of irrationality.",
+    "episode_evidence": "David Pawlan: From over 147 different assistants that have come across my plates so far, the number one fear that people talk about 22% of the messages are talking about trust as the main year.\nJosh Elman: I think the whole point of like, wait, okay, that I personally agent should have access to my personal things and my personal communication channels, but not my work ones.\nDavid Pawlan: I ran another test that was I had three different agents test in booking travel to LA. So I said, okay, book me a flight to LA, planned an entire weekend for me, and I want a luxurious, cost-efficient weekend.\nDavid Pawlan: By and large, most people I talk to still are not using as their preference of the, I did a survey of, you know, AI Power users, 254 people, only 3% were actually using it as their primary agent.\nDavid Pawlan: I love Patrick's vision, and I think that that, that like broadly that will be true that agents will make often better choices on our behalf than we might make for ourselves, but I do think that agents are going to have their own revealed preferences and their own sort of directions of irrationality.",
     "falsification_tracks": [
       "By 2026-12-31, if the share of AI power users naming trust as a top concern stays at or above 20% in a published survey, the trust-layer improvement thesis is not working; source: survey report from a named AI-user panel provider.",
       "By 2027-03-31, if a standardized personal-agent benchmark shows same-day shopping tasks below 80% task completion across leading apps, the execution-and-reliability thesis is falsified; source: independent benchmark report.",
@@ -60896,8 +60896,8 @@ const dashboardData = {
   },
   {
     "id": 614,
-    "name": "David Paulen",
-    "slug": "david-paulen",
+    "name": "David Pawlan",
+    "slug": "david-pawlan",
     "bio": "Creator of Assistant Benchmark and a prolific evaluator of AI assistants, with experience testing more than 140 systems.",
     "known_for": null,
     "net_worth_usd": null,
