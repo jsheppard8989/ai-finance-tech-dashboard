@@ -679,8 +679,8 @@
    "lean": "Positive",
    "direction": "Net long",
    "kind": "spread",
-   "status": "new",
-   "horizon": "Dec 4 expiry",
+   "status": "closed",
+   "horizon": "Stopped out Nov 5, 2026",
    "reason": "Chip-equipment spending holds up, and we are glad to own Lam near $204 if the stock falls.",
    "research": {
     "url": "https://jsheppard8989.github.io/ai-finance-tech-dashboard/lrcx-paid-to-wait.html",
@@ -702,10 +702,10 @@
     "premium": 556.67,
     "cash_secured": 21000.0,
     "effective_entry": 204.43,
-    "mark": -30.45,
-    "value": 18511.67,
+    "mark": -16.0,
+    "value": 19956.67,
     "cost": 21000.0,
-    "mid_time": "2026-11-05T15:11-06:00",
+    "mid_time": "2026-11-05T05:13-06:00",
     "posted": "2026-11-02",
     "expiry": "2026-12-04",
     "underlying": "LRCX",
@@ -717,11 +717,10 @@
       "qty": -1
      }
     ],
-    "target": "Buy the put back at $1.00.",
-    "stop": "Buy the put back if LRCX closes below $200.",
+    "stop": "Closed on the $200 stock stop at the open on Nov 5, 2026.",
     "exit": {
-     "type": "expiry",
-     "date": "2026-12-04"
+     "type": "stop",
+     "date": "2026-11-05"
     },
     "expression": {
      "type": "Cash-secured put",
@@ -730,23 +729,39 @@
      "contracts": 1,
      "credit": "$5.5667 per share",
      "stock_then": "$233.94",
-     "caveat": "Effective entry if assigned: $204.43. Entry priced at 11:11 AM CT on Nov 2"
+     "caveat": "Entry credit $5.5667 per share on Nov 2; bought back at $16.00 per share on Nov 5. Realized loss $1,043.33."
     },
-    "priced": "third_from_worst",
-    "change": -2488.33
+    "priced": "stated_exit_fill",
+    "change": -1043.33,
+    "price_note": "Closed at $16.00 per share, the stated paper exit fill on Nov 5, 2026."
    },
    "date_added": "2026-11-02",
-   "last_reviewed": "2026-11-02",
-   "notes": "Few contracts change hands at this strike (one traded today, 50 open) and the gap between bid and ask is wide ($1.70), so buying it back early can cost more than the quote suggests.",
+   "last_reviewed": "2026-11-05",
+   "notes": "Stopped out Nov 5, 2026 on the $200 stock stop at the open. Bought back the Dec 4 $210 put at $16.00 per share ($1,600.00); realized loss −$1,043.33 from the original $556.67 credit. Position closed; no replacement.",
    "why_we_hold": "Our view (OPINION): chip makers keep buying Lam's equipment, and owning the stock at an effective $204.43, about 13% below today's price, is a level we are glad to pay. The Dec 4 expiry ends weeks before Lam's next earnings.",
-   "what_proves_it": "LRCX closes above $210 at the Dec 4 expiry, so we keep the $556.67 premium.",
-   "main_risk": "Wrong if: LRCX closes below $200 (the stop). If the stock falls hard we may have to buy 100 shares at $210; the most it can lose is $20,443.33.",
+   "what_proves_it": "Position closed at its stop; realized loss −$1,043.33.",
+   "main_risk": "The $200 stock stop was triggered at the open on Nov 5, 2026; the position is no longer held.",
    "history": [
     {
      "at": "2026-11-02T12:00:00-06:00",
      "text": "Lam Research: new Dec 4 cash-secured put added."
+    },
+    {
+     "at": "2026-11-05T15:21:00-06:00",
+     "text": "Lam Research: Stopped out Nov 5, 2026 on the $200 stock stop at the open. Bought back the Dec 4 $210 put at $16.00 per share ($1,600.00); realized loss −$1,043.33 from the original $556.67 credit. Position closed; no replacement."
     }
-   ]
+   ],
+   "exit": {
+    "reason": "stop",
+    "date": "2026-11-05",
+    "session": "open",
+    "stock_stop": 200,
+    "premium_per_share": 16.0,
+    "buyback_dollars": 1600.0,
+    "value": 19956.67,
+    "result": -1043.33,
+    "source": "Owner-stated paper fill, confirmed Nov 5, 2026 at 3:21 PM CT; morning open stop event. Not a bid/ask-derived quote."
+   }
   },
   {
    "id": "gev-power",
@@ -891,14 +906,25 @@
   ]
  },
  "totals": {
-  "cost": 40817.34,
-  "value": 42642.61,
+  "cost": 19817.34,
+  "value": 24130.94,
   "spy_value": 39322.13,
-  "change": 1825.27,
+  "change": 4313.6,
   "midpoint_rows": [],
-  "computed_by": "pipeline/build_trap_map.py"
+  "computed_by": "pipeline/build_trap_map.py",
+  "closed_cash": 19956.67,
+  "realized_change": -1043.33,
+  "portfolio_cost": 40817.34,
+  "portfolio_value": 44087.61,
+  "portfolio_change": 3270.27,
+  "spy_change": -1495.21
  },
  "changes": [
+  {
+   "date": "2026-11-05",
+   "at": "2026-11-05T15:21:00-06:00",
+   "text": "Lam Research: Stopped out Nov 5, 2026 on the $200 stock stop at the open. Bought back the Dec 4 $210 put at $16.00 per share ($1,600.00); realized loss −$1,043.33 from the original $556.67 credit. Position closed; no replacement."
+  },
   {
    "date": "2026-11-05",
    "at": "2026-11-05T14:37:00-06:00",
