@@ -38,7 +38,7 @@ class TestValidator(unittest.TestCase):
 
     def test_five_rows(self):
         # v9: the HIMS call-spread row is gone; HIMS is only in the Healthcare basket.
-        self.assertEqual([r["ticker"] for r in DATA["rows"]], ["ASTS", "FRMI", "TSAT", "MU", "Basket", "CEG", "LRCX"])
+        self.assertEqual([r["ticker"] for r in DATA["rows"]], ["ASTS", "FRMI", "TSAT", "MU", "Basket", "CEG", "LRCX", "GEV"])
         self.assertFalse({"IREN", "MP", "TSLA", "HIMS"} & {r["ticker"] for r in DATA["rows"]})
         # Healthcare is the logged Sep 18 five-stock basket again (Jared 7:01 PM, Wendy approved); no option spreads
         hc = rows(DATA)["healthcare-five"]
@@ -126,7 +126,7 @@ class TestValidator(unittest.TestCase):
         self.assertEqual({r["id"]: r["direction"] for r in DATA["rows"]},
                          {"asts-q3": "Net short", "frmi-q3": "Net short", "tsat-notes": "Net short",
                           "mu-cycle": "Net short", "healthcare-five": "Long", "ceg-q3": "Net long",
-                          "lrcx-put": "Net long"})
+                          "lrcx-put": "Net long", "gev-power": "Net long"})
         self.assertFails(lambda d, r: r["asts-q3"].update(direction="Net long"), "doesn't match the trade")
         self.assertFails(lambda d, r: r["healthcare-five"].update(direction="Net long"), "doesn't match")
         self.assertFails(lambda d, r: r["mu-cycle"].update(direction="Sideways"), "not one of")
@@ -168,7 +168,7 @@ class TestBuild(unittest.TestCase):
         self.assertAlmostEqual(T["change"], round(T["value"] - T["cost"], 2), places=2)
         self.assertTrue(DATA["quotes_as_of"])
         self.assertEqual([r["id"] for r in DATA["rows"]],
-                         ["asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five", "ceg-q3", "lrcx-put"])
+                         ["asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five", "ceg-q3", "lrcx-put", "gev-power"])
         self.assertEqual(tc.check_computed(DATA), [])
         self.assertTrue(any(c["text"].startswith("Exits are now only") for c in DATA["changes"]))
 
@@ -454,3 +454,23 @@ def test_sold_put_must_be_cash_secured_put_and_net_long():
                    "expression": {"type": "Put credit"}}}
     errs = _c._direction_errs(r, "x")
     assert any("cash-secured put" in e for e in errs) and any("doesn't match the trade" in e for e in errs)
+
+
+def test_gev_power_call_spread_row():
+    """GEV Jan 15 2027 860/900 call debit spread; links to power-bottleneck research."""
+    import json
+    from pathlib import Path
+    d = json.loads((Path(__file__).resolve().parent.parent / "site" / "data" / "trap_map.json").read_text())
+    r = next(x for x in d["rows"] if x["id"] == "gev-power")
+    assert r["ticker"] == "GEV" and r["direction"] == "Net long" and r["lean"] == "Positive"
+    t = r["trade"]
+    assert t["cost"] == 1420.0 and t["max_loss"] == "$1,420" and t["max_gain"] == "$2,580"
+    assert t["expiry"] == "2027-01-15" and t["exit"] == {"type": "expiry", "date": "2027-01-15"}
+    assert t["legs"] == [{"right": "C", "strike": 860, "qty": 1}, {"right": "C", "strike": 900, "qty": -1}]
+    assert t["priced"] == "third_from_worst"
+    assert "target" not in t and "stop" not in t
+    assert "950" not in t["text"] and "950" not in json.dumps(t["expression"])
+    assert r["research"]["url"].endswith("power-bottleneck.html")
+    page = (Path(__file__).resolve().parent.parent / "site" / "trap-map.html").read_text(encoding="utf-8")
+    assert 'id="gev-power"' in page and "power-bottleneck.html" in page
+    assert "$860 / $900" in page and "$1,420" in page

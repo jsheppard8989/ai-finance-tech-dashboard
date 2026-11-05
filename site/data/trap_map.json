@@ -646,6 +646,84 @@
      "text": "Lam Research: new Dec 4 cash-secured put added."
     }
    ]
+  },
+  {
+   "id": "gev-power",
+   "ticker": "GEV",
+   "company": "GE Vernova",
+   "lean": "Positive",
+   "direction": "Net long",
+   "kind": "spread",
+   "status": "new",
+   "horizon": "Jan 15, 2027 expiry",
+   "reason": "Turbine slots stay scarce and data-center gas pricing keeps rising.",
+   "research": {
+    "url": "https://jsheppard8989.github.io/ai-finance-tech-dashboard/power-bottleneck.html",
+    "label": "Read our power research"
+   },
+   "event": {
+    "name": "PJM 2029/30 capacity auction results",
+    "date": "2026-12-22",
+    "when": "Tue Dec 22",
+    "link": "https://www.pjm.com/markets-and-operations/rpm.aspx",
+    "link_label": "PJM capacity market",
+    "date_confirmed": true,
+    "date_source": "PJM auction calendar; results Tue Dec 22"
+   },
+   "trade": {
+    "text": "Jan 15, 2027 $860/$900 call spread, 1 contract, $14.20 debit (stock $776.49). Entry priced at about 2:35 PM CT on Nov 5.",
+    "max_loss": "$1,420",
+    "max_gain": "$2,580",
+    "quoted": "Yahoo Finance option quotes, Nov 5, about 2:35 PM CT (860C 42.00/48.00, 900C 30.30/34.80; may be up to 15 minutes delayed)",
+    "mark": 14.2,
+    "value": 1420.0,
+    "cost": 1420.0,
+    "mid_time": "2026-11-05T14:35-06:00",
+    "posted": "2026-11-05",
+    "expiry": "2027-01-15",
+    "underlying": "GEV",
+    "contracts": 1,
+    "legs": [
+     {
+      "right": "C",
+      "strike": 860,
+      "qty": 1
+     },
+     {
+      "right": "C",
+      "strike": 900,
+      "qty": -1
+     }
+    ],
+    "exit": {
+     "type": "expiry",
+     "date": "2027-01-15"
+    },
+    "expression": {
+     "type": "Call debit spread",
+     "strikes": "$860 / $900",
+     "expiry": "Jan 15, 2027",
+     "contracts": 1,
+     "debit": "$14.20 per share",
+     "stock_then": "$776.49",
+     "caveat": "Entry priced at about 2:35 PM CT on Nov 5. Held to expiry; no stop or target. Breakeven $874.20"
+    },
+    "priced": "third_from_worst",
+    "change": 0.0
+   },
+   "date_added": "2026-11-05",
+   "last_reviewed": "2026-11-05",
+   "next_earnings": "2027-01-27",
+   "why_we_hold": "Our view (OPINION): for the next 12 to 24 months an AI chip is only worth as much as the energized megawatt under it, and the turbine delivery slot is the cleaner uncapped upside versus PJM's capped capacity price. The debit spread caps the loss at $1,420.",
+   "what_proves_it": "GEV closes at or above $900 at the Jan 15, 2027 expiry, so the spread pays its $2,580 maximum.",
+   "main_risk": "Wrong if: GEV finishes at or below $860 at expiry (the whole debit is lost), or slot reservations stop turning into firm orders and turbine pricing rolls over.",
+   "notes": "The 860 call had 21 contracts traded and a $6.00-wide market at entry; the 900 call had more activity (844 contracts). Held to expiry.",
+   "history": [
+    {
+     "at": "2026-11-05T14:37:00-06:00",
+     "text": "GE Vernova: new Jan 15, 2027 $860/$900 call debit spread added."
+    }
+   ]
   }
  ],
  "past_calls": [],
@@ -698,18 +776,33 @@
     "rows": [
      "lrcx-put"
     ]
+   },
+   {
+    "date": "2026-11-05",
+    "price": 766.81,
+    "dollars": 1420.0,
+    "shares": 1.85183,
+    "source": "Yahoo Finance SPY close on file (Nov 4, 2026), used when the GEV row was added Nov 5",
+    "rows": [
+     "gev-power"
+    ]
    }
   ]
  },
  "totals": {
-  "cost": 38408.17,
-  "value": 41357.11,
-  "spy_value": 38729.99,
+  "cost": 39828.17,
+  "value": 42777.11,
+  "spy_value": 40150.0,
   "change": 2948.94,
   "midpoint_rows": [],
   "computed_by": "pipeline/build_trap_map.py"
  },
  "changes": [
+  {
+   "date": "2026-11-05",
+   "at": "2026-11-05T14:37:00-06:00",
+   "text": "GE Vernova: new Jan 15, 2027 $860/$900 call debit spread added."
+  },
   {
    "date": "2026-11-02",
    "at": "2026-11-02T12:00:00-06:00",
@@ -766,7 +859,7 @@
    "text": "AST SpaceMobile: the facts that would prove us wrong were updated."
   }
  ],
- "quotes_as_of": "2026-11-05T05:13:00-06:00",
+ "quotes_as_of": "2026-11-05T14:35:00-06:00",
  "how_we_track": "Every view is a paper trade priced the day it was added, priced a third of the spread from the worst side (buys a third below the ask, sells a third above the bid), never the midpoint. A trade ends only at its target, its stop or its expiry. Put spreads are held to expiry. The \"Why we hold this view\" line explains our reasoning; sometimes it is better to be lucky than good.",
  "price_banner": "Quotes may be up to 15 minutes delayed. Each price sits a third of the spread in from the worst quote. Options that haven't traded yet today show an estimated price."
 }
