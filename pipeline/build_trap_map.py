@@ -308,7 +308,7 @@ def _expr_cell(r) -> str:
         dl += f'<dt>Bought</dt><dd>{e(x["bought"])}</dd><dt>Most it can lose</dt><dd>{e(t["max_loss"])}</dd>'
         return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl></div>'
     dl = (f'<dt>Strikes</dt><dd>{e(x["strikes"])}</dd><dt>Expiry</dt><dd>{e(x["expiry"])}</dd>'
-          f'<dt>Contracts</dt><dd>{e(x["contracts"])}</dd>{("<dt>Premium collected</dt><dd>" + e(x["credit"]) + "</dd><dt>Cash set aside</dt><dd>" + money(t["cash_secured"]) + "</dd>") if x.get("credit") else "<dt>Cost</dt><dd>" + e(x["debit"]) + "</dd>"}'
+          f'<dt>Contracts</dt><dd>{e(x["contracts"])}</dd>{("<dt>Premium collected</dt><dd>" + e(x["credit"]) + "</dd><dt>" + ("Original cash set aside" if r["status"] == "closed" else "Cash set aside") + "</dt><dd>" + money(t["cash_secured"]) + "</dd>") if x.get("credit") else "<dt>Cost</dt><dd>" + e(x["debit"]) + "</dd>"}'
           f'<dt>Stock then</dt><dd>{e(x["stock_then"])}</dd><dt>Most it can lose</dt><dd>{e(t["max_loss"])}</dd>')
     note = f'<div class="note">Note: {e(x["caveat"])}.</div>' if x.get("caveat") else ""
     return f'<div class="expr"><div class="ty">{e(x["type"])}</div><dl>{dl}</dl>{note}</div>'
@@ -320,6 +320,15 @@ def _gl_bar(c, cost, max_p) -> str:
     pos = "left:50%" if p >= 0 else f"left:{50 - w:.2f}%"
     return (f'<div class="gl"><b></b><i style="{pos};width:{w:.2f}%;background:var(--{"pos" if p >= 0 else "neg"})"></i></div>'
             f'<div class="pct {_cl(c)}">{"+" if p >= 0 else MINUS}{abs(100 * p):.1f}%</div>')
+
+
+def _allocation_line(r) -> str:
+    """Current allocation is zero after exit; historical cost remains the return basis."""
+    t = r["trade"]
+    if r["status"] == "closed":
+        cash = (r.get("exit") or {}).get("value", t["value"])
+        return f'Allocated {money(0)} · Freed cash {money(cash)} · Original capital {money(t["cost"])}'
+    return f'Allocated {money(t["cost"])}'
 
 
 def _row(r, today: date, max_p: float) -> str:
@@ -342,7 +351,7 @@ def _row(r, today: date, max_p: float) -> str:
             f'<div class="added">Added {e(fmt_date(r["date_added"]))}</div></div></div></td>\n'
             f' <td><span class="dir d{k}">{e(r["direction"])}</span><div class="small" style="margin-top:5px">{e(r["horizon"])}</div></td>\n'
             f' <td>{why}</td>\n <td>{_exit_cell(r, today)}</td><td>{_expr_cell(r)}</td>\n'
-            f' <td class="money"><div class="paid">Allocated {money(t["cost"])}</div><div class="d {_cl(t["change"])}">{_sg(t["change"])}</div>{_mid_tag(r)}'
+            f' <td class="money"><div class="paid">{_allocation_line(r)}</div><div class="d {_cl(t["change"])}">{_sg(t["change"])}</div>{_mid_tag(r)}'
             f'{_gl_bar(t["change"], t["cost"], max_p)}</td></tr>')
 
 
@@ -365,10 +374,10 @@ def _card(r, today: date, max_p: float) -> str:
             f'<summary><span class="tk">{e(r["ticker"])}</span> <span class="dir d{k}">{e(r["direction"])}</span> '
             f'<span class="d {_cl(t["change"])}">{_sg(t["change"])}{" (midpoint, not final)" if is_midpoint(r) else ""}</span>'
             f'<span class="sumline">{e(r["reason"])}</span>'
-            f'<span class="small">{e(r["company"])} · {e(r["horizon"])} · Allocated {money(t["cost"])}</span></summary>'
+            f'<span class="small">{e(r["company"])} · {e(r["horizon"])} · {_allocation_line(r)}</span></summary>'
             f'<div class="cb"><div>{why}</div><h4>Expected exit</h4><div>{_exit_cell(r, today)}</div>'
             f'<h4>Expression</h4><div>{_expr_cell(r)}</div><h4>Money</h4><div class="money">'
-            f'<div class="paid">Allocated {money(t["cost"])}</div><div class="d {_cl(t["change"])}">{_sg(t["change"])}</div>{_mid_tag(r)}'
+            f'<div class="paid">{_allocation_line(r)}</div><div class="d {_cl(t["change"])}">{_sg(t["change"])}</div>{_mid_tag(r)}'
             f'{_gl_bar(t["change"], t["cost"], max_p)}</div></div></details>')
 
 
@@ -390,15 +399,18 @@ def render_page(d: dict) -> str:
     axis = f"${int(zm):,}"
     mnote = price_banner(d)
     hero = ((f'<p class="small" id="{"midpoint-note" if midpoint_note(d) else "price-note"}" style="font-weight:700;margin:0 0 6px">{e(mnote)}</p>' if mnote else "") +
-            f'<div class="kpis"><div><div class="lbl">Portfolio including closed cash</div><div class="big">{money(T["portfolio_value"])}</div></div>'
-            f'<div><div class="lbl">Original allocation</div><div class="mid">{money(T["portfolio_cost"])}</div></div>'
-            f'<div><div class="lbl">Same money in the S&amp;P 500</div><div class="mid">{money(T["spy_value"])}</div></div></div>\n'
-            f'<div class="zbar"><div class="lbl">Gain or loss since each trade was added</div>{zr(T["portfolio_change"], "Our trades")}'
+            f'<div class="kpis"><div><div class="lbl">Total portfolio value</div><div class="big">{money(T["portfolio_value"])}</div></div>'
+            f'<div><div class="lbl">Allocated capital</div><div class="mid">{money(T["cost"])}</div></div>'
+            f'<div><div class="lbl">Open position value</div><div class="mid">{money(T["value"])}</div></div>'
+            f'<div><div class="lbl">Freed cash</div><div class="mid">{money(T["closed_cash"])}</div></div></div>\n'
+            f'<p class="small">Starting capital {money(T["portfolio_cost"])} · Same money in the S&amp;P 500: {money(T["spy_value"])}</p>'
+            f'<div class="zbar"><div class="lbl">Return on starting capital since each trade was added (including realized results)</div>{zr(T["portfolio_change"], "Our trades")}'
             f'{zr(spy_c, "S&amp;P 500")}<div class="zax"><span></span><div><span>\u2212{axis}</span><span>$0</span>'
             f'<span>+{axis}</span></div><span></span></div></div>')
-    hero += (f'<p class="small">Open positions: {money(T["cost"])} allocated, {money(T["value"])} worth. '
-             f'Closed cash: {money(T["closed_cash"])} · Realized gain/loss: {_sg(T["realized_change"])}. '
-             'Closed proceeds remain in cash; original S&amp;P 500 purchases are retained.</p>')
+    hero += (f'<p class="small">Allocated capital covers open positions only ({len(open_rows)} open). '
+             f'Open value {money(T["value"])} + freed cash {money(T["closed_cash"])} = total portfolio value {money(T["portfolio_value"])}. '
+             f'Unrealized gain/loss: {_sg(T["change"])} · Realized gain/loss: {_sg(T["realized_change"])}. '
+             'Original S&amp;P 500 purchases are retained for the same-starting-capital comparison; closed proceeds remain in cash.</p>')
     max_p = max([abs(r["trade"]["change"] / r["trade"]["cost"]) for r in open_rows + closed] or [1])
     trs = "\n".join(_row(r, today, max_p) for r in open_rows)
     cards = "\n".join(_card(r, today, max_p) for r in open_rows + closed)
@@ -529,15 +541,17 @@ def render_strip(d: dict, today: date | None = None) -> str:
         f'<a class="trap-chip" href="trap-map.html#{e(r["id"])}" style="display:inline-block;margin:0.2rem 0.35rem 0.2rem 0;padding:0.3rem 0.55rem;border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:#e6f1ff;text-decoration:none;font-size:0.75rem;">'
         f'<strong>{e(r["ticker"])}</strong> <span style="color:{"#34d399" if _is_long(r["direction"]) else "#f87171"};">{e(r["direction"])}</span> '
         f'<span style="color:#9ca3af;">· {e(exit_label(r))}'
-        f' · worth {money(r["trade"]["value"])}{(_ENTRY_PENDING_NOTE if r["trade"].get("entry_pending") else ", " + r["trade"]["price_note"][0].lower() + r["trade"]["price_note"][1:].rstrip(".") if r["trade"].get("price_note") else " at midpoint, not final") if is_midpoint(r) else (", " + r["trade"]["price_note"][0].lower() + r["trade"]["price_note"][1:].rstrip(".") if r["trade"].get("price_note") else "")} (allocated {money(r["trade"]["cost"])}'
+        f' · worth {money(r["trade"]["value"])}{(_ENTRY_PENDING_NOTE if r["trade"].get("entry_pending") else ", " + r["trade"]["price_note"][0].lower() + r["trade"]["price_note"][1:].rstrip(".") if r["trade"].get("price_note") else " at midpoint, not final") if is_midpoint(r) else (", " + r["trade"]["price_note"][0].lower() + r["trade"]["price_note"][1:].rstrip(".") if r["trade"].get("price_note") else "")} ({_allocation_line(r)}'
         f'{", index " + str(r["trade"]["index_now"]) if r["trade"].get("index_now") is not None else ""})</span></a>'
         for r in sorted_rows(d))
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'
             f'      <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;"><a href="trap-map.html" style="color:#00d4ff;text-decoration:none;">🪤 Trap Map</a></h3>\n'
             f'      <p style="color: #9ca3af; font-size: 0.7rem; margin-bottom: 0.4rem;">{e(d["purpose"])} '
-            f'Original allocation {money(T["portfolio_cost"])} · portfolio including closed cash {money(T["portfolio_value"])} ({_sg(T["portfolio_change"])}) · same money in the S&amp;P 500: '
+            f'Allocated capital {money(T["cost"])} · total portfolio value {money(T["portfolio_value"])} ({_sg(T["portfolio_change"])}) · same money in the S&amp;P 500: '
             f'{money(T["spy_value"])} ({_sg(T["spy_change"])}). '
-            f'Open allocation {money(T["cost"])} · open worth {money(T["value"])} · closed cash {money(T["closed_cash"])} · realized {_sg(T["realized_change"])}. '
+            f'Open value {money(T["value"])} + freed cash {money(T["closed_cash"])} = total portfolio value {money(T["portfolio_value"])}. '
+            f'Realized {_sg(T["realized_change"])} · starting capital {money(T["portfolio_cost"])} (original S&amp;P 500 purchases retained). '
+            f'Allocated capital is open positions only. '
             f'Quotes as of {e(fmt_time(d["quotes_as_of"]))}.'
             f'{(" <strong>" + e(price_banner(d)) + "</strong>") if price_banner(d) else ""}</p>\n'
             f'      <div>{chips}</div>\n    </div>\n    {END}')

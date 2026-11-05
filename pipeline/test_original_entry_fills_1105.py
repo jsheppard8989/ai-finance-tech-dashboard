@@ -70,8 +70,22 @@ def test_original_date_benchmark_and_totals():
     assert len(open_rows) == 7
     assert d["totals"]["cost"] == round(sum(r["trade"]["cost"] for r in open_rows), 2) == 19817.34
     assert d["totals"]["realized_change"] == -1043.33
-    assert d["totals"]["portfolio_cost"] == 40817.34
+    # Original funded capital is the return/benchmark basis, NOT current allocation.
+    original_capital = sum(r["trade"]["cost"] for r in d["rows"])
+    released_capital = lrcx["trade"]["cost"]
+    assert released_capital == 21000
+    assert d["totals"]["portfolio_cost"] == round(original_capital, 2) == 40817.34
+    assert d["totals"]["cost"] == round(original_capital - released_capital, 2)
+    assert d["totals"]["value"] == round(sum(r["trade"]["value"] for r in open_rows), 2)
+    assert d["totals"]["closed_cash"] == lrcx["exit"]["value"] == 19956.67
     assert d["totals"]["portfolio_value"] == round(d["totals"]["value"] + d["totals"]["closed_cash"], 2)
+    assert d["totals"]["portfolio_change"] == round(d["totals"]["change"] + d["totals"]["realized_change"], 2)
+    assert d["totals"]["portfolio_change"] == round(d["totals"]["portfolio_value"] - original_capital, 2)
+    assert d["totals"]["spy_change"] == round(d["totals"]["spy_value"] - original_capital, 2)
+    assert any("lrcx-put" in lot.get("rows", []) for lot in d["benchmark"]["buys"])
+    page = build_trap_map.render_page(d)
+    assert 'Allocated capital</div><div class="mid">$19,817.34</div>' in page
+    assert 'Original allocation</div>' not in page
     assert build_trap_map.compute(copy.deepcopy(d)) == d
 
 
