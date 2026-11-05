@@ -221,10 +221,16 @@ class TestPricePull(unittest.TestCase):
     def test_failure_keeps_last_mid(self):
         d = copy.deepcopy(DATA)
         before = {r["id"]: dict(r["trade"]) for r in d["rows"]}
+        open_rows = [r for r in d["rows"] if r["status"] != "closed"]
+        lrcx = next(r for r in d["rows"] if r["id"] == "lrcx-put")
+        self.assertEqual(lrcx["status"], "closed")
+        self.assertEqual(lrcx["exit"]["result"], -1043.33)
+        self.assertEqual(len(open_rows), 7)
         with mock.patch.object(fp, "_get", side_effect=OSError("down")), \
              mock.patch.object(fp, "yahoo_quotes", side_effect=OSError("down")):
             warn = fp.pull(d)
-        self.assertEqual(len(warn), len(d["rows"]) + 1)  # each row + SPY
+        # pull() skips closed rows; one warn per open row + SPY
+        self.assertEqual(len(warn), len(open_rows) + 1)
         for r in d["rows"]:
             for k in ("mid", "mark", "value", "mid_time"):
                 self.assertEqual(r["trade"].get(k), before[r["id"]].get(k))
