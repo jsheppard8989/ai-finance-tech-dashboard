@@ -1,5 +1,13 @@
 """Nov 3 2026 follow-up to #734: no 'grading source' in Deep Dive 632 'what would change our view'
-lines, and the guest-list-only rename Tutor Intelligence -> Josh Gruenstein (Tutor Intelligence)."""
+lines, and the guest-list rename for Josh Gruenstein (Tutor Intelligence CEO).
+
+Nov 5 2026: G kept the plain guest-list name "Josh Gruenstein" (no company parenthetical;
+consistent with other guest records; the bio / episode title already name Tutor Intelligence).
+The dead guest_list_renames entry Tutor Intelligence -> Josh Gruenstein (Tutor Intelligence)
+was removed because later exports mint a person-named row (id 109640), so that rename can
+never fire. Scope rule unchanged: guest_list_renames must not leak into body text or
+name_normalizer (unlike 'fixes').
+"""
 import json
 import re
 from pathlib import Path
@@ -8,7 +16,9 @@ import export_data
 import publish_guard
 
 ROOT = Path(__file__).resolve().parent.parent
-GUEST = "Josh Gruenstein (Tutor Intelligence)"
+GUEST = "Josh Gruenstein"
+GUEST_ID = 109640
+GUEST_SLUG = "josh-gruenstein"
 
 
 def _site():
@@ -44,20 +54,36 @@ def test_dd_632_rule_reapplies_on_fresh_export_idempotent():
 
 def test_guest_list_rename_live_and_scoped():
     d = _site()
-    names = [g["name"] for g in d["podcastGuests"]]
-    assert GUEST in names and "Tutor Intelligence" not in names
+    guests = d["podcastGuests"]
+    names = [g["name"] for g in guests]
+    assert GUEST in names
+    assert "Tutor Intelligence" not in names
+    assert "Josh Gruenstein (Tutor Intelligence)" not in names
+    row = next(g for g in guests if g["id"] == GUEST_ID)
+    assert row["name"] == GUEST and row["slug"] == GUEST_SLUG
     pj = json.loads((ROOT / "site" / "data" / "podcast_guests.json").read_text(encoding="utf-8"))
-    assert GUEST in [g["name"] for g in pj]
-    # pundit bios untouched
+    pj_row = next(g for g in pj if g["id"] == GUEST_ID)
+    assert pj_row["name"] == GUEST and pj_row["slug"] == GUEST_SLUG
+    assert "Josh Gruenstein (Tutor Intelligence)" not in [g["name"] for g in pj]
+    # pundit bios untouched (company name stays in bio text; guest_list_renames never rewrote it)
     assert "Co-founder and CEO of Tutor Intelligence." in (ROOT / "site" / "data" / "pundits.json").read_text()
 
 
 def test_guest_list_rename_mechanism():
+    """guest_list_renames stays empty for this guest (person row already minted), is not in
+    'fixes' (site-wide name swaps), and the helper still only renames the guest-list name field.
+    """
     gov = json.loads((ROOT / "pipeline" / "guest_overrides.json").read_text(encoding="utf-8"))
-    assert gov["guest_list_renames"] == {"Tutor Intelligence": GUEST}
-    assert "Tutor Intelligence" not in gov["fixes"]  # fixes are also site-wide name swaps
+    assert gov.get("guest_list_renames") == {}
+    assert "Tutor Intelligence" not in (gov.get("fixes") or {})
+    # Mechanism still scoped: episode title / other fields untouched; only exact name match.
     guests = [{"name": "Tutor Intelligence", "last_episode_title": "x | Tutor Intelligence"}]
-    mc, out = export_data._apply_guest_export_overrides({"insights": []}, guests)
-    assert out[0]["name"] == GUEST and out[0]["last_episode_title"] == "x | Tutor Intelligence"
-    export_data._apply_guest_list_renames(out, gov)
-    assert out[0]["name"] == GUEST
+    synthetic = {"guest_list_renames": {"Tutor Intelligence": "Josh Gruenstein (Tutor Intelligence)"}}
+    out = export_data._apply_guest_list_renames(guests, synthetic)
+    assert out[0]["name"] == "Josh Gruenstein (Tutor Intelligence)"
+    assert out[0]["last_episode_title"] == "x | Tutor Intelligence"
+    # Live overrides leave a person-named row alone (no parenthetical rewrite).
+    live = [{"name": GUEST, "id": GUEST_ID, "slug": GUEST_SLUG,
+             "last_episode_title": "The Robots Already Working in American Factories | Tutor Intelligence"}]
+    export_data._apply_guest_list_renames(live, gov)
+    assert live[0]["name"] == GUEST

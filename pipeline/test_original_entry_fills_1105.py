@@ -62,7 +62,16 @@ def test_original_date_benchmark_and_totals():
     assert lot["price"] == 769.36
     assert lot["dollars"] == 12220.67
     assert lot["shares"] == pytest.approx(12220.67 / 769.36, abs=0.000005)
-    assert d["totals"]["cost"] == 40817.34
+    # After #760 LRCX is closed: open allocation excludes it; portfolio_* retains original capital.
+    open_rows = [r for r in d["rows"] if r["status"] != "closed"]
+    lrcx = next(r for r in d["rows"] if r["id"] == "lrcx-put")
+    assert lrcx["status"] == "closed"
+    assert lrcx["exit"]["result"] == -1043.33
+    assert len(open_rows) == 7
+    assert d["totals"]["cost"] == round(sum(r["trade"]["cost"] for r in open_rows), 2) == 19817.34
+    assert d["totals"]["realized_change"] == -1043.33
+    assert d["totals"]["portfolio_cost"] == 40817.34
+    assert d["totals"]["portfolio_value"] == round(d["totals"]["value"] + d["totals"]["closed_cash"], 2)
     assert build_trap_map.compute(copy.deepcopy(d)) == d
 
 
