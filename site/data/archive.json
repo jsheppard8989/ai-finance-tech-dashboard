@@ -1,6 +1,74 @@
 {
   "insights": [
     {
+      "id": 655,
+      "title": "Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
+      "source_type": "podcast",
+      "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "source_date": "2026-11-04",
+      "summary": "Martin Casado argues that investors and venture capitalists operate in different \"styles,\" ranging from traditional financial investing to productive investing, frontier VC, and pure speculation. He uses that framing to explain why so much startup analysis misfires: people confuse what creates value with how value scales, and they overfocus on \"defensibility\" when markets are still expanding.\n\nA major theme is his critique of how people use \"network effects.\" Casado says the term is often muddled because people mix up the underlying mechanism with the shape of the effect, and he argues that in growing markets, companies can create enormous value even without classic moat-like defensibility. He also says private markets are efficient enough that investors should not rely on truffle-hunting for mispriced assets; instead they should do diligence and choose the strongest company in a legitimate sector.\n\nOn AI, Casado is highly specific and contrarian. He argues frontier models currently win the majority of market dollars when demand is strong, but their commercial lifespan is short \u2014 he says three to six months \u2014 which forces rapid release cycles. He suggests that if the market saturates or slows, value could shift toward open source, while model providers will continue to face pricing pressure from competition and product cadence risk.\n\nCasado also says the real bottleneck in AI infrastructure is hardware supply and power, not capital or debt. In his view, neoclouds and inference providers are constrained by physical capacity, with most demand flowing to scale providers. He extends this logic to strategic M&A, saying acquisitions work when there is deep trust, personal alignment, and an obvious option on a large market; he cites examples including his VMware/Yammer exit at about $1.26B and a Tabular acquisition to Databricks.",
+      "key_takeaway": "Casado\u2019s core claim is that frontier AI model value depends on a 3-6 month release cycle, while the real infrastructure bottleneck is hardware and power rather than capital.",
+      "tickers_mentioned": [
+        "SNOW",
+        "DBX",
+        "CRWD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 645,
+      "notable_quotes": [
+        {
+          "speaker": "Martin Casado",
+          "quote": "I think the root of the confusion is conceptually we conflate the mechanism with the shape of the mode."
+        },
+        {
+          "speaker": "Martin Casado",
+          "quote": "I would say that a lifespan of a model is three to six months."
+        },
+        {
+          "speaker": "Martin Casado",
+          "quote": "I think the actual real limitation right now is hardware supply. That's it. It's not capital. It's not debt that's the actual real limitation. And power."
+        }
+      ]
+    },
+    {
+      "id": 656,
+      "title": "The New AI Agents That Shop, Plan, and Gossip",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-04",
+      "summary": "The episode argues that AI agents are moving out of the generic \u201cassistant\u201d phase and into a more specialized, trust-sensitive phase where different products serve productivity, shopping, social, and even \u201cgossip\u201d use cases. The speakers repeatedly frame this as a Cambrian moment: the category is changing quickly, but the winning products are still unclear.\n\nA central theme is trust. David Paulen says trust is the main fear in his analysis of more than 147 assistants and roughly 3,600 messages, and the conversation returns to permissioning, fences, and scope control as the practical way to let agents handle more sensitive tasks. Josh Elman emphasizes that personal agents should access personal channels but not work ones, and the group treats embarrassment, discretion, and privacy as related but distinct issues.\n\nThe episode also compares real agent behavior in benchmark-style tests. David Paulen describes a same-day flower-ordering test where Instinct performed exceptionally well on price while still meeting delivery constraints, while Kicker and Season also did well. In travel planning, he says he tested three agents on a luxury-but-cost-efficient weekend to Los Angeles, and different systems balanced those goals differently.\n\nAnother major thread is that the next breakout products may not simply save time or money. The speakers suggest that \u201csecret superpower\u201d experiences, social discovery, and life-context agents may matter more than classic productivity. They point to products like Bobby, Scout, Tomo, Dots, and Apple\u2019s privacy posture as examples of where context, personalization, and controlled data access could create new behavior and new investment opportunities.",
+      "key_takeaway": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 644,
+      "notable_quotes": [
+        {
+          "speaker": "David Paulen",
+          "quote": "From over 147 different assistants that have come across my plates so far, the number one fear that people talk about 22% of the messages are talking about trust as the main year."
+        },
+        {
+          "speaker": "Josh Elman",
+          "quote": "I think the whole point of like, wait, okay, that I personally agent should have access to my personal things and my personal communication channels, but not my work ones."
+        },
+        {
+          "speaker": "David Paulen",
+          "quote": "I ran another test that was I had three different agents test in booking travel to LA. So I said, okay, book me a flight to LA, planned an entire weekend for me, and I want a luxurious, cost-efficient weekend."
+        }
+      ]
+    },
+    {
       "id": 653,
       "title": "Andrew Huberman\u2019s Three Rules for Better Health and Focus",
       "source_type": "podcast",
@@ -236,7 +304,7 @@
       "key_takeaway": "Cosign\u2019s core claim is that trusted reputation graphs plus agent-native search and introductions can outperform job boards and cold outreach in career discovery.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-31",
       "archived_date": null,
@@ -430,7 +498,7 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-30",
       "archived_date": null,
@@ -14639,20 +14707,20 @@
     {
       "id": 318,
       "term": "Neocloud",
-      "description": "A class of GPU/data-center rental firms that finance compute capacity and lease it out to AI customers. The episode treats the segment as vulnerable to leverage, refinancing stress, and demand timing risk.",
+      "description": "Casado uses this to describe infrastructure providers that act like data centers with GPUs, effectively serving as physical token factories for AI workloads.",
       "first_detected_date": "2026-10-23",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "If credit tightens before utilization catches up, weaker operators may be forced into consolidation or insolvency.",
+      "investment_implications": "If hardware and power are the bottlenecks, the winners may be the scaled infrastructure operators that can secure supply and power access.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 608,
       "first_detected_speaker": "George Noble",
-      "last_mentioned_episode_id": 622,
-      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+      "last_mentioned_episode_id": 645,
+      "last_mentioned_speaker": "Martin Casado"
     },
     {
       "id": 320,
@@ -14731,8 +14799,8 @@
       "term": "Context layer",
       "description": "The owned layer of user data, memories, and contacts that sits above raw model access and helps an agent stay useful over time. Town argues this should remain portable and customer-controlled.",
       "first_detected_date": "2026-10-19",
-      "last_mentioned_date": "2026-10-06",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Portability and ownership of context may determine switching costs, retention, and enterprise trust in agent software.",
@@ -14741,8 +14809,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 590,
       "first_detected_speaker": "Jean-Denis Greze",
-      "last_mentioned_episode_id": 629,
-      "last_mentioned_speaker": "Andrew Huberman"
+      "last_mentioned_episode_id": 645,
+      "last_mentioned_speaker": "Martin Casado"
     },
     {
       "id": 315,
@@ -15415,8 +15483,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-11-03",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 40,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -15425,8 +15493,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 642,
-      "last_mentioned_speaker": "Andrew Huberman"
+      "last_mentioned_episode_id": 644,
+      "last_mentioned_speaker": "David Paulen, Josh Elman"
     },
     {
       "id": 267,
@@ -15649,8 +15717,8 @@
       "term": "ASI",
       "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
@@ -15659,8 +15727,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 636,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 645,
+      "last_mentioned_speaker": "Martin Casado"
     },
     {
       "id": 135,
@@ -17413,8 +17481,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 143,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 144,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -17423,8 +17491,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 636,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 645,
+      "last_mentioned_speaker": "Martin Casado"
     },
     {
       "id": 38,
