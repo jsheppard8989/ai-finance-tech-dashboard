@@ -1,5 +1,40 @@
 [
   {
+    "id": 645,
+    "podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "episode_title": "Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
+    "episode_date": "2026-11-04",
+    "summary": "Martin Casado argues that investors and venture capitalists operate in different \"styles,\" ranging from traditional financial investing to productive investing, frontier VC, and pure speculation. He uses that framing to explain why so much startup analysis misfires: people confuse what creates value with how value scales, and they overfocus on \"defensibility\" when markets are still expanding.\n\nA major theme is his critique of how people use \"network effects.\" Casado says the term is often muddled because people mix up the underlying mechanism with the shape of the effect, and he argues that in growing markets, companies can create enormous value even without classic moat-like defensibility. He also says private markets are efficient enough that investors should not rely on truffle-hunting for mispriced assets; instead they should do diligence and choose the strongest company in a legitimate sector.\n\nOn AI, Casado is highly specific and contrarian. He argues frontier models currently win the majority of market dollars when demand is strong, but their commercial lifespan is short \u2014 he says three to six months \u2014 which forces rapid release cycles. He suggests that if the market saturates or slows, value could shift toward open source, while model providers will continue to face pricing pressure from competition and product cadence risk.\n\nCasado also says the real bottleneck in AI infrastructure is hardware supply and power, not capital or debt. In his view, neoclouds and inference providers are constrained by physical capacity, with most demand flowing to scale providers. He extends this logic to strategic M&A, saying acquisitions work when there is deep trust, personal alignment, and an obvious option on a large market; he cites examples including his VMware/Yammer exit at about $1.26B and a Tabular acquisition to Databricks.",
+    "key_takeaways": [
+      "Martin Casado says investing breaks into four styles: traditional/financial, productive, frontier, and speculative market timing.",
+      "Casado argues \"network effects\" are often misunderstood because investors confuse the mechanism with the shape of the effect.",
+      "Casado says value can accrue in growing markets even when a product is not strongly defensible in the classic moat sense.",
+      "Casado claims frontier models capture most market dollars when demand is hot, but model economics depend on rapid release cycles.",
+      "Casado says a frontier model's lifespan is only three to six months, making cadence a core risk for providers like Anthropic.",
+      "Casado argues the binding constraint on AI infrastructure is hardware supply and power, not capital or debt."
+    ],
+    "investment_thesis": "Casado\u2019s core claim is that frontier AI model value depends on a 3-6 month release cycle, while the real infrastructure bottleneck is hardware and power rather than capital.",
+    "key_tickers": null
+  },
+  {
+    "id": 644,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The New AI Agents That Shop, Plan, and Gossip",
+    "episode_date": "2026-11-04",
+    "summary": "The episode argues that AI agents are moving out of the generic \u201cassistant\u201d phase and into a more specialized, trust-sensitive phase where different products serve productivity, shopping, social, and even \u201cgossip\u201d use cases. The speakers repeatedly frame this as a Cambrian moment: the category is changing quickly, but the winning products are still unclear.\n\nA central theme is trust. David Paulen says trust is the main fear in his analysis of more than 147 assistants and roughly 3,600 messages, and the conversation returns to permissioning, fences, and scope control as the practical way to let agents handle more sensitive tasks. Josh Elman emphasizes that personal agents should access personal channels but not work ones, and the group treats embarrassment, discretion, and privacy as related but distinct issues.\n\nThe episode also compares real agent behavior in benchmark-style tests. David Paulen describes a same-day flower-ordering test where Instinct performed exceptionally well on price while still meeting delivery constraints, while Kicker and Season also did well. In travel planning, he says he tested three agents on a luxury-but-cost-efficient weekend to Los Angeles, and different systems balanced those goals differently.\n\nAnother major thread is that the next breakout products may not simply save time or money. The speakers suggest that \u201csecret superpower\u201d experiences, social discovery, and life-context agents may matter more than classic productivity. They point to products like Bobby, Scout, Tomo, Dots, and Apple\u2019s privacy posture as examples of where context, personalization, and controlled data access could create new behavior and new investment opportunities.",
+    "key_takeaways": [
+      "David Paulen said trust is the dominant fear in his analysis, accounting for 22% of messages across AI power-user discussions.",
+      "Josh Elman argued that the key design principle is permission scoping: a personal agent should have access to personal channels, but not work systems.",
+      "David Paulen said Instinct \u201creally did a phenomenal job\u201d in a same-day flower test by repeatedly finding the best price while meeting delivery timing.",
+      "David Paulen said he ran a travel-planning test with three agents and asked for a luxury yet cost-efficient weekend in Los Angeles.",
+      "David Paulen said that in a survey of 254 AI power users, only 3% were using a specific assistant as their primary agent.",
+      "Josh Elman said Apple\u2019s privacy posture and private cloud compute could matter more in the AI era as trust becomes a product feature.",
+      "David Paulen argued that agents may develop their own \u201crevealed preferences\u201d and irrationalities rather than making users uniformly more rational."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
+    "key_tickers": null
+  },
+  {
     "id": 643,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "\u26a1\ufe0f The 2026 Software Factory Standard \u2014 Zach Lloyd, Warp.dev",
