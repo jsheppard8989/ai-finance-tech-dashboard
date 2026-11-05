@@ -2251,6 +2251,17 @@
       "drop_quotes": [
         "The data say zero is better than any two per week"
       ]
+    },
+    {
+      "insight_id": 132,
+      "podcast_episode_id": 117,
+      "_note": "Nov 5 2026 (G daily check, sweep_1105; routine-fix rule): 'agente' is a speech-to-text garble of 'agentic' in our Deep Dive text",
+      "replacements": [
+        [
+          "the new agente system",
+          "the new agentic system"
+        ]
+      ]
     }
   ],
   "terms": [

@@ -28119,7 +28119,7 @@ const dashboardData = {
     "podcast_episode_id": 117,
     "overview": "The investment thesis revolves around the rapid advancements in artificial intelligence (AI), particularly focusing on the performance and market positioning of Anthropic, a company that has been making significant strides in the AI space. The recent product releases and strategic moves by Anthropic suggest a generational run, potentially disrupting the current AI landscape. This analysis is timely given the recent developments in AI technology and the competitive dynamics between major players like OpenAI and Anthropic. The focus is on understanding the investment implications of these advancements for key technology stocks.",
     "key_takeaways_detailed": [
-      "Anthropic's recent product releases, such as Claude Code and the new agente system for enterprise-grade functionality, indicate a significant step function in productivity and team efficiency.",
+      "Anthropic's recent product releases, such as Claude Code and the new agentic system for enterprise-grade functionality, indicate a significant step function in productivity and team efficiency.",
       "The company's focus on coding as a gateway into enterprise markets has allowed for rapid revenue growth and the potential for further product extensions.",
       "Investors should monitor the regulatory environment, as Anthropic's push for a permissioning regime could impact the competitive landscape and create barriers for new entrants.",
       "The dispute with the Pentagon highlights the ethical considerations and potential risks associated with AI technology in military applications.",
