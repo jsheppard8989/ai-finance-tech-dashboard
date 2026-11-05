@@ -2922,6 +2922,10 @@
     [
       "venture-style bet",
       "venture-style approach"
+    ],
+    [
+      "more than 147 assistants",
+      "more than 140 AI assistants"
     ]
   ],
   "global_name_replacements": [
@@ -3568,6 +3572,10 @@
     [
       "Drew Gupta",
       "Dhruv Gupta"
+    ],
+    [
+      "David Paulen",
+      "David Pawlan"
     ]
   ],
   "name_replacements": [
@@ -4138,6 +4146,10 @@
     [
       "They are betting that the future of professional",
       "Their view is that the future of professional"
+    ],
+    [
+      "David Paulen",
+      "David Pawlan"
     ]
   ],
   "ticker_renames": [
@@ -8506,6 +8518,14 @@
           "Founder and CEO of Warp, focused on"
         ]
       ]
+    },
+    {
+      "id": 614,
+      "_note": "Nov 5 2026 (G, a16z insight 656): ASR 'David Paulen' is David Pawlan; slug still carried the garble",
+      "set": {
+        "name": "David Pawlan",
+        "slug": "david-pawlan"
+      }
     }
   ],
   "pundit_merges": [
