@@ -1431,7 +1431,7 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "David Pawlan",
-          "quote": "From over 147 different assistants that have come across my plates so far, the number one fear that people talk about 22% of the messages are talking about trust as the main year."
+          "quote": "From over 147 different assistants that have come across my plate so far, the number one fear that people talk about, 22% of the messages are talking about trust as the main fear."
         },
         {
           "speaker": "Josh Elman",
@@ -19152,7 +19152,7 @@ const dashboardData = {
       "notable_quotes": [
         {
           "speaker": "David Pawlan",
-          "quote": "From over 147 different assistants that have come across my plates so far, the number one fear that people talk about 22% of the messages are talking about trust as the main year."
+          "quote": "From over 147 different assistants that have come across my plate so far, the number one fear that people talk about, 22% of the messages are talking about trust as the main fear."
         },
         {
           "speaker": "Josh Elman",
@@ -59624,7 +59624,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-11-05T12:18:48.398412",
     "updated_at": "2026-11-05 18:18:48",
-    "episode_evidence": "David Pawlan: From over 147 different assistants that have come across my plates so far, the number one fear that people talk about 22% of the messages are talking about trust as the main year.\nJosh Elman: I think the whole point of like, wait, okay, that I personally agent should have access to my personal things and my personal communication channels, but not my work ones.\nDavid Pawlan: I ran another test that was I had three different agents test in booking travel to LA. So I said, okay, book me a flight to LA, planned an entire weekend for me, and I want a luxurious, cost-efficient weekend.\nDavid Pawlan: By and large, most people I talk to still are not using as their preference of the, I did a survey of, you know, AI Power users, 254 people, only 3% were actually using it as their primary agent.\nDavid Pawlan: I love Patrick's vision, and I think that that, that like broadly that will be true that agents will make often better choices on our behalf than we might make for ourselves, but I do think that agents are going to have their own revealed preferences and their own sort of directions of irrationality.",
+    "episode_evidence": "David Pawlan: From over 147 different assistants that have come across my plate so far, the number one fear that people talk about, 22% of the messages are talking about trust as the main fear.\nJosh Elman: I think the whole point of like, wait, okay, that I personally agent should have access to my personal things and my personal communication channels, but not my work ones.\nDavid Pawlan: I ran another test that was I had three different agents test in booking travel to LA. So I said, okay, book me a flight to LA, planned an entire weekend for me, and I want a luxurious, cost-efficient weekend.\nDavid Pawlan: By and large, most people I talk to still are not using as their preference of the, I did a survey of, you know, AI Power users, 254 people, only 3% were actually using it as their primary agent.\nDavid Pawlan: I love Patrick's vision, and I think that that, that like broadly that will be true that agents will make often better choices on our behalf than we might make for ourselves, but I do think that agents are going to have their own revealed preferences and their own sort of directions of irrationality.",
     "falsification_tracks": [
       "By 2026-12-31, if the share of AI power users naming trust as a top concern stays at or above 20% in a published survey, the trust-layer improvement thesis is not working; source: survey report from a named AI-user panel provider.",
       "By 2027-03-31, if a standardized personal-agent benchmark shows same-day shopping tasks below 80% task completion across leading apps, the execution-and-reliability thesis is falsified; source: independent benchmark report.",
