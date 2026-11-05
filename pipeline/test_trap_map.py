@@ -471,6 +471,8 @@ def test_gev_power_call_spread_row():
     assert "target" not in t and "stop" not in t
     assert "950" not in t["text"] and "950" not in json.dumps(t["expression"])
     assert r["research"]["url"].endswith("power-bottleneck.html")
+    assert "earns its $2,580 maximum profit" in r["what_proves_it"]
+    assert "pays its $2,580 maximum" not in r["what_proves_it"]
     page = (Path(__file__).resolve().parent.parent / "site" / "trap-map.html").read_text(encoding="utf-8")
     assert 'id="gev-power"' in page and "power-bottleneck.html" in page
     assert "$860 / $900" in page and "$1,420" in page
