@@ -115,6 +115,16 @@ def compute(d: dict) -> dict:
         "midpoint_rows": [r["id"] for r in rows if is_midpoint(r)],
         "computed_by": "pipeline/build_trap_map.py",
     }
+    # Open exposure stays separate from closed proceeds. Retain every original SPY
+    # purchase and compare it with the whole paper portfolio, including cash exits.
+    closed = [r for r in d["rows"] if r.get("status") == "closed" and r.get("exit")]
+    T = d["totals"]
+    T["closed_cash"] = round(sum(r["exit"]["value"] for r in closed), 2)
+    T["realized_change"] = round(sum(r["exit"]["result"] for r in closed), 2)
+    T["portfolio_cost"] = round(T["cost"] + sum(r["trade"]["cost"] for r in closed), 2)
+    T["portfolio_value"] = round(T["value"] + T["closed_cash"], 2)
+    T["portfolio_change"] = round(T["change"] + T["realized_change"], 2)
+    T["spy_change"] = round(T["spy_value"] - T["portfolio_cost"], 2)
     for r in rows:
         r["trade"]["change"] = round(r["trade"]["value"] - r["trade"]["cost"], 2)
     seen, changes = set(), []
@@ -368,25 +378,28 @@ def render_page(d: dict) -> str:
     today = _dt(d["quotes_as_of"]).date()
     open_rows = sorted((r for r in d["rows"] if r["status"] != "closed"), key=_exit_date)
     closed = [r for r in d["rows"] if r["status"] == "closed"]
-    spy_c = round(T["spy_value"] - T["cost"], 2)
-    zm = max(abs(T["change"]), abs(spy_c)) * 1.15 or 1
+    spy_c = T["spy_change"]
+    zm = max(abs(T["portfolio_change"]), abs(spy_c)) * 1.15 or 1
 
     def zr(c, lab):
         w = 50 * abs(c) / zm
         pos = "left:50%" if c >= 0 else f"left:{50 - w:.2f}%"
         return (f'<div class="zrow"><b>{lab}</b><div class="ztrk"><b></b><i style="{pos};width:{w:.2f}%;'
                 f'background:{"var(--pos)" if c >= 0 else "var(--neg)"}"></i></div>'
-                f'<span class="chg {_cl(c)}">{_sg(c)} ({"+" if c >= 0 else MINUS}{abs(100 * c / T["cost"]):.1f}%)</span></div>')
+                f'<span class="chg {_cl(c)}">{_sg(c)} ({"+" if c >= 0 else MINUS}{abs(100 * c / T["portfolio_cost"]):.1f}%)</span></div>')
     axis = f"${int(zm):,}"
     mnote = price_banner(d)
     hero = ((f'<p class="small" id="{"midpoint-note" if midpoint_note(d) else "price-note"}" style="font-weight:700;margin:0 0 6px">{e(mnote)}</p>' if mnote else "") +
-            f'<div class="kpis"><div><div class="lbl">Our trades are worth</div><div class="big">{money(T["value"])}</div></div>'
-            f'<div><div class="lbl">Allocated</div><div class="mid">{money(T["cost"])}</div></div>'
+            f'<div class="kpis"><div><div class="lbl">Portfolio including closed cash</div><div class="big">{money(T["portfolio_value"])}</div></div>'
+            f'<div><div class="lbl">Original allocation</div><div class="mid">{money(T["portfolio_cost"])}</div></div>'
             f'<div><div class="lbl">Same money in the S&amp;P 500</div><div class="mid">{money(T["spy_value"])}</div></div></div>\n'
-            f'<div class="zbar"><div class="lbl">Gain or loss since each trade was added</div>{zr(T["change"], "Our trades")}'
+            f'<div class="zbar"><div class="lbl">Gain or loss since each trade was added</div>{zr(T["portfolio_change"], "Our trades")}'
             f'{zr(spy_c, "S&amp;P 500")}<div class="zax"><span></span><div><span>\u2212{axis}</span><span>$0</span>'
             f'<span>+{axis}</span></div><span></span></div></div>')
-    max_p = max([abs(r["trade"]["change"] / r["trade"]["cost"]) for r in open_rows] or [1])
+    hero += (f'<p class="small">Open positions: {money(T["cost"])} allocated, {money(T["value"])} worth. '
+             f'Closed cash: {money(T["closed_cash"])} · Realized gain/loss: {_sg(T["realized_change"])}. '
+             'Closed proceeds remain in cash; original S&amp;P 500 purchases are retained.</p>')
+    max_p = max([abs(r["trade"]["change"] / r["trade"]["cost"]) for r in open_rows + closed] or [1])
     trs = "\n".join(_row(r, today, max_p) for r in open_rows)
     cards = "\n".join(_card(r, today, max_p) for r in open_rows + closed)
     ids = {r["id"] for r in d["rows"]}
@@ -522,8 +535,10 @@ def render_strip(d: dict, today: date | None = None) -> str:
     return (f'{START}\n    <div class="card" id="trap-map-strip" style="padding: 0.75rem; margin: 0 0 1rem 0;">\n'
             f'      <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;"><a href="trap-map.html" style="color:#00d4ff;text-decoration:none;">🪤 Trap Map</a></h3>\n'
             f'      <p style="color: #9ca3af; font-size: 0.7rem; margin-bottom: 0.4rem;">{e(d["purpose"])} '
-            f'Allocated {money(T["cost"])} · worth now {money(T["value"])} ({_sg(T["change"])}) · same money in the S&amp;P 500: '
-            f'{money(T["spy_value"])} ({_sg(round(T["spy_value"] - T["cost"], 2))}). Quotes as of {e(fmt_time(d["quotes_as_of"]))}.'
+            f'Original allocation {money(T["portfolio_cost"])} · portfolio including closed cash {money(T["portfolio_value"])} ({_sg(T["portfolio_change"])}) · same money in the S&amp;P 500: '
+            f'{money(T["spy_value"])} ({_sg(T["spy_change"])}). '
+            f'Open allocation {money(T["cost"])} · open worth {money(T["value"])} · closed cash {money(T["closed_cash"])} · realized {_sg(T["realized_change"])}. '
+            f'Quotes as of {e(fmt_time(d["quotes_as_of"]))}.'
             f'{(" <strong>" + e(price_banner(d)) + "</strong>") if price_banner(d) else ""}</p>\n'
             f'      <div>{chips}</div>\n    </div>\n    {END}')
 
