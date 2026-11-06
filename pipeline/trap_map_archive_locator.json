@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "retired_date_CT": "2026-11-05",
+  "private_repository": "jsheppard8989/dragonfly-private",
+  "private_archive_path": "trap_map_archive_2026-11-05",
+  "private_commit": "d88f058d6602f3f0374d679d68ee819e81af5723",
+  "ops_archive_path": "/workspace/cos/trap_map_archive_2026-11-05",
+  "manifest_sha256": "692ec92e87a2cbcdd4662320db8554cc77b80dbd05f292742287588cdadee1fd",
+  "public_historical_portfolio_sha256": "4ebf3187f46c4af2145c8db080be04ce4703463bcc90bdd6b4ab36559a9fa297"
+}

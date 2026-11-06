@@ -1,3 +1,4 @@
+from trap_map_test_support import private_records
 """The approved LRCX stop fill must survive rebuilds and price refreshes."""
 import copy
 import json
@@ -9,7 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def data():
-    return json.loads((ROOT / "pipeline/private_archive/trap_map/trap_map.json").read_text())
+    return private_records()
 
 
 def test_lrcx_stopped_at_authorized_fill():

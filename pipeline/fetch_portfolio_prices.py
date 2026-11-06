@@ -47,7 +47,7 @@ def update_portfolio():
     """Legacy internal updater; the retired public basket record is frozen."""
     root = Path(__file__).resolve().parent.parent
     public_record = root / "site" / "data" / "portfolio.json"
-    retirement = root / "pipeline" / "private_archive" / "trap_map" / "manifest.json"
+    retirement = root / "pipeline" / "TRAP_MAP_RETIREMENT.md"
     if retirement.is_file() and PORTFOLIO_FILE.resolve() == public_record.resolve():
         print("Historical portfolio.json is frozen; no quotes fetched and nothing written")
         return True

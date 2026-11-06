@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Retired Trap Map (Nov 5, 2026): require its complete frozen archive and no public
-page/data/links. The original Trap Map rules below remain for historical fixtures.
+Retired Trap Map (Nov 5, 2026): require its private-archive locator and no record
+payloads anywhere in this public repository or Pages. The original Trap Map rules below remain for historical fixtures.
 
 Evening publish guard (decisions log 2026-10-14 8:27 AM CT, packet item #4):
 block any export that regresses public site content. Built after the 10/13
@@ -280,12 +280,14 @@ def check_staleness(site: Path, today: date | None = None) -> tuple[list[str], l
 def check_trap_map(site: Path, pipeline: Path, baselines: dict[str, dict[str, str]]) -> list[str]:
     reasons = []
     page_path = site / "trap-map.html"
-    archive = pipeline / "private_archive" / "trap_map"
-    if (archive / "manifest.json").is_file() or not page_path.is_file():
+    pointer = pipeline / "TRAP_MAP_RETIREMENT.md"
+    locator = pipeline / "trap_map_archive_locator.json"
+    actual_pipeline = pipeline.resolve() == Path(__file__).resolve().parent
+    if actual_pipeline or (pipeline / "trap_map_archive.py").is_file() or pointer.is_file() or locator.is_file() or not page_path.is_file():
         # Nov 5 retirement replaces the old missing-page bypass with a stronger
-        # archive-integrity + zero-public-surface requirement. All other guards stay.
+        # private-locator + zero-public-record requirement. All other guards stay.
         from trap_map_archive import check_retirement
-        return check_retirement(site, archive, baselines)
+        return check_retirement(site, pipeline, baselines)
     page = page_path.read_text(encoding="utf-8", errors="replace")
     have = card_ids(page)
 

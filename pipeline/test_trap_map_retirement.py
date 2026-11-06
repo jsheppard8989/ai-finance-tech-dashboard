@@ -9,10 +9,12 @@ import build_trap_map as build
 import publish_guard
 
 ROOT = Path(__file__).resolve().parent.parent
-ARCHIVE = ROOT / "pipeline/private_archive/trap_map"
+from trap_map_archive import ARCHIVE
+from trap_map_test_support import private_archive
 
 
 def test_archive_is_complete_and_hashed():
+    private_archive()  # Historical contents are optional local fixtures, never public CI inputs.
     manifest = json.loads((ARCHIVE / "manifest.json").read_text())
     assert manifest["retired_date_CT"] == "2026-11-05"
     for name, digest in manifest["files"].items():
@@ -45,9 +47,13 @@ def test_build_defaults_are_archive_only_and_public_overrides_refused():
     assert build.DATA == ARCHIVE / "trap_map.json"
     assert build.PAGE == ARCHIVE / "trap-map.html"
     assert build.INDEX == ARCHIVE / "index.html"
-    assert build.build(write=False) == []
     with pytest.raises(ValueError, match="retired"):
         build.build(write=False, page_path=ROOT / "site/trap-map.html")
+
+
+def test_private_build_outputs_are_reproducible():
+    private_archive()
+    assert build.build(write=False) == []
 
 
 def test_market_workflow_keeps_other_refreshes_without_retired_pull():
@@ -63,26 +69,38 @@ def test_market_workflow_keeps_other_refreshes_without_retired_pull():
     assert "build_trap_map.py --check" not in deploy
 
 
-def test_missing_archive_now_blocks_publish(tmp_path):
+def test_missing_private_archive_locator_blocks_publish(tmp_path):
     site, pipeline = tmp_path / "site", tmp_path / "pipeline"
     site.mkdir(); pipeline.mkdir()
     errors = publish_guard.check_trap_map(site, pipeline, {})
-    assert any("archive" in e.lower() for e in errors)
+    assert any("locator" in e.lower() for e in errors)
 
 
-def test_archive_guard_detects_corruption_and_public_links(tmp_path):
-    site, pipeline = tmp_path / "site", tmp_path / "pipeline"
-    site.mkdir(); pipeline.mkdir()
-    archive = pipeline / "private_archive/trap_map"
-    shutil.copytree(ARCHIVE, archive)
-    (site / "data").mkdir()
-    shutil.copyfile(ARCHIVE / "portfolio.json", site / "data/portfolio.json")
+def public_fixture(tmp_path):
+    repo = tmp_path / "public"
+    site, pipeline = repo / "site", repo / "pipeline"
+    (site / "data").mkdir(parents=True)
+    pipeline.mkdir()
+    for name in ("TRAP_MAP_RETIREMENT.md", "trap_map_archive_locator.json"):
+        shutil.copyfile(ROOT / "pipeline" / name, pipeline / name)
+    shutil.copyfile(ROOT / "site/data/portfolio.json", site / "data/portfolio.json")
+    return site, pipeline
+
+
+def test_public_locator_guard_detects_public_links_without_private_records(tmp_path):
+    site, pipeline = public_fixture(tmp_path)
     assert publish_guard.check_trap_map(site, pipeline, {}) == []
     (site / "index.html").write_text('<a href="trap-map.html">old</a>')
     assert any("public" in e.lower() for e in publish_guard.check_trap_map(site, pipeline, {}))
-    (site / "index.html").unlink()
+
+
+def test_optional_local_archive_guard_still_detects_record_corruption(tmp_path):
+    from trap_map_archive import check_archive
+    archive = tmp_path / "local-private-fixture"
+    shutil.copytree(private_archive(), archive)
+    assert check_archive(archive) == []
     (archive / "trap_map.json").write_text('{}')
-    assert any("archive" in e.lower() for e in publish_guard.check_trap_map(site, pipeline, {}))
+    assert any("archive" in e.lower() for e in check_archive(archive))
 
 
 def test_retired_price_cli_cannot_refresh_the_snapshot():
@@ -113,18 +131,18 @@ def test_portfolio_record_is_frozen_without_changing_its_bytes():
     before = path.read_bytes()
     with mock.patch.object(prices, "fetch_yahoo_price", side_effect=AssertionError("frozen record must not reprice")):
         assert prices.update_portfolio() is True
-    assert path.read_bytes() == before == (ARCHIVE / "portfolio.json").read_bytes()
+    locator = json.loads((ROOT / "pipeline/trap_map_archive_locator.json").read_text())
+    assert path.read_bytes() == before
+    assert hashlib.sha256(before).hexdigest() == locator["public_historical_portfolio_sha256"]
     source = (ROOT / "pipeline/auto_pipeline.py").read_text()
     assert 'run_script("Fetch Portfolio Prices", "fetch_portfolio_prices.py"' not in source
 
 
 def test_public_basket_cannot_silently_resume_live_marks(tmp_path):
     from trap_map_archive import check_retirement
-    site = tmp_path / "site"
-    (site / "data").mkdir(parents=True)
-    (site / "data/portfolio.json").write_bytes((ARCHIVE / "portfolio.json").read_bytes())
-    assert check_retirement(site, ARCHIVE) == []
+    site, pipeline = public_fixture(tmp_path)
+    assert check_retirement(site, pipeline) == []
     d = json.loads((site / "data/portfolio.json").read_text())
     d["baskets"][0]["basket_current_value"] = 999999
     (site / "data/portfolio.json").write_text(json.dumps(d))
-    assert any("frozen historical basket" in error for error in check_retirement(site, ARCHIVE))
+    assert any("frozen historical basket" in error for error in check_retirement(site, pipeline))

@@ -5,12 +5,12 @@ import unittest
 
 import build_trap_map as b
 
-DATA = json.loads(b.DATA.read_text(encoding="utf-8"))
+from trap_map_test_support import private_records
 
 
 class QuotesAsOf(unittest.TestCase):
     def _d(self):
-        d = copy.deepcopy(DATA)
+        d = copy.deepcopy(private_records())
         d["quotes_as_of"] = "2026-10-30T11:16:00-05:00"
         open_rows = [r for r in d["rows"] if r["status"] != "graded"]
         for r in open_rows:
@@ -34,11 +34,11 @@ class QuotesAsOf(unittest.TestCase):
 
     def test_values_untouched(self):
         d = b.compute(self._d())
-        for r, r0 in zip(d["rows"], DATA["rows"]):
+        for r, r0 in zip(d["rows"], private_records()["rows"]):
             self.assertEqual((r["trade"].get("value"), r["trade"].get("cost")), (r0["trade"].get("value"), r0["trade"].get("cost")))
 
     def test_committed_data_is_current(self):
-        self.assertEqual(DATA["quotes_as_of"], b.newest_quote_time(DATA))
+        self.assertEqual(private_records()["quotes_as_of"], b.newest_quote_time(private_records()))
 
 
 if __name__ == "__main__":
