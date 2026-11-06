@@ -1,0 +1,107 @@
+name: Market Data Refresh
+
+# Refreshes the public-source cards in site/data/market_data.json:
+#   Compute Forward chart: fetch_gpu_index.py (6-month daily spot history) then
+#   fetch_compute_curve.py (A100/H100/B200/H200 forwards + regenerates compute_outlook line),
+#   and Treasury calendar (fetch_treasury_calendar.py).
+#   (COT removed 2026-10-22; Curve Snapshot retired 2026-10-22 for Market Commentary.)
+# No secrets: all sources are public. Replaces the Mac launchd path for these
+# three (auto_pipeline.py skips them unless MARKET_DATA_FETCH_LOCAL=1).
+#
+# Cron is UTC. Two weekday runs at 9:00 AM and 3:15 PM CT, set for CST (UTC-6).
+# During CDT (UTC-5, from Mar 8 2027) these fire at 10:00 AM / 4:15 PM CT; change them
+# to "0 14 * * 1-5" and "15 20 * * 1-5" then.
+# The "45 3 * * 2-6" entry is the separate evening Treasury run (curve posted after close).
+on:
+  schedule:
+    - cron: "0 15 * * 1-5"    # 9:00 AM CST
+    - cron: "15 21 * * 1-5"   # 3:15 PM CST (after close; Trap Map price pull)
+    - cron: "45 3 * * 2-6"    # ~9:45 PM CST evening Treasury
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: market-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: America/Chicago
+      PYTHONUNBUFFERED: "1"
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch Compute Forward (GPU index)
+        working-directory: pipeline
+        continue-on-error: true
+        run: python fetch_gpu_index.py
+
+      - name: Fetch Compute Forward curve (Kalshi-implied, via AI Compute Tracker)
+        working-directory: pipeline
+        continue-on-error: true
+        run: python fetch_compute_curve.py
+
+      # No continue-on-error: a stale/failed Treasury fetch exits 1 and fails this step
+      # (and the run). Later steps still run so the other cards' data is committed.
+      - name: Fetch Treasury calendar (TreasuryDirect)
+        id: treasury
+        working-directory: pipeline
+        run: python fetch_treasury_calendar.py
+
+      # Trap Map price pull (both weekday runs, evening run, manual). Free sources only
+      # (Cboe delayed quotes, Yahoo Finance); read-only, never places orders. On a failed
+      # quote a row keeps its last mid and time. Rebuilds trap-map.html + homepage strip.
+      - name: Trap Map after-close price pull
+        id: trap_map
+        if: ${{ !cancelled() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 15 * * 1-5' || github.event.schedule == '15 21 * * 1-5' || github.event.schedule == '45 3 * * 2-6') }}
+        continue-on-error: true
+        run: python pipeline/fetch_trap_map_prices.py
+
+      - name: Validate market_data.json
+        if: ${{ !cancelled() }}
+        run: python -c "import json; json.load(open('site/data/market_data.json'))"
+
+      - name: Commit via PR, merge, trigger Pages
+        if: ${{ !cancelled() }}
+        run: |
+          set -euo pipefail
+          TRAP="site/data/trap_map.json site/trap-map.html site/index.html"
+          if git diff --quiet -- site/data/market_data.json $TRAP; then
+            echo "No market data change."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ts=$(date +%Y-%m-%d-%H%M)
+          branch="data/market-data-${ts}"
+          git checkout -b "$branch"
+          git add -u -- site/data/market_data.json $TRAP  # site/data is gitignored; files are tracked
+          git commit -m "Market data refresh ${ts} CT (Actions: GPU spot + forwards, Treasury, Trap Map prices)"
+          git push origin "$branch"
+          url=$(gh pr create --base main --head "$branch" \
+            --title "Market data refresh ${ts} CT" \
+            --body "Automated by .github/workflows/market-data.yml (run ${GITHUB_RUN_ID}).")
+          gh pr merge "$url" --merge --delete-branch
+          # Merges made with GITHUB_TOKEN don't fire push workflows; dispatch Pages.
+          gh workflow run deploy.yml --ref main
+          echo "Merged $url and dispatched deploy.yml"
+
+      # Other cards still commit/deploy above; this makes a failed Trap Map pull fail the run.
+      - name: Fail run if Trap Map price pull failed
+        if: ${{ always() && steps.trap_map.outcome == 'failure' }}
+        run: |
+          echo "::error title=Trap Map price pull failed::pipeline/fetch_trap_map_prices.py failed; Trap Map prices were not refreshed. See the 'Trap Map after-close price pull' step log."
+          exit 1

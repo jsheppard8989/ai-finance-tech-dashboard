@@ -18,7 +18,8 @@ No grading: option spreads are held to expiry (the result is the spread's value 
 basket is held until its fixed stop. After the close on an option's expiry day the row is closed at that
 day's value (exit: expiry); a basket whose index closes under its stop is closed (exit: stop).
 
-Then rebuilds site/trap-map.html + homepage strip via build_trap_map.py.
+Historical refresh logic below is retained for internal tests/reference only.
+The public quote CLI is retired; it does not fetch or write anything.
 Usage: python3 pipeline/fetch_trap_map_prices.py [--dry-run]
 """
 from __future__ import annotations
@@ -254,6 +255,11 @@ def close_row(r, reason, now):
 
 
 def main():
+    raise SystemExit("Trap Map quote CLI retired Nov 5, 2026; frozen records are archive-only")
+
+
+def _historical_main():
+    """Original command preserved for reference; not called by any workflow or entry point."""
     d = json.loads(DATA.read_text(encoding="utf-8"))
     warn = pull(d)
     for w in warn:

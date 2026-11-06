@@ -1,0 +1,97 @@
+{
+  "_metadata": {
+    "schema_version": 1,
+    "note": "Inception shares fixed; daily marks update current_* only.",
+    "last_updated": "2026-11-05T12:19:43.891751",
+    "exit_fields_note": "Each position carries exit (price or condition), exit_date (ISO), expiry (ISO; cards default 21 days). null until G fills them. publish_guard process_checks STALE reads them (Red Team Fix 4, 2026-10-16)."
+  },
+  "baskets": [
+    {
+      "id": "healthcare-abundance-five",
+      "title": "Healthcare Abundance",
+      "subtitle": "Consumerization of Precision Medicine \u2014 interface layer after discovery",
+      "as_of": "2026-09-18T09:30:00-05:00",
+      "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
+      "notional_each_usd": 1000,
+      "basket_notional_usd": 5000,
+      "basket_current_value": 4713.04,
+      "basket_change_pct": -5.74,
+      "index_start": 100,
+      "basket_index_value": 94.26,
+      "names": [
+        {
+          "ticker": "HIMS",
+          "name": "Hims & Hers",
+          "role": "Owns the consumer relationship",
+          "inception_price": 28.09,
+          "shares": 35.5999,
+          "notional": 1000,
+          "current_price": 23.38,
+          "current_value": 832.33,
+          "change_pct": -16.77,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
+        },
+        {
+          "ticker": "GDRX",
+          "name": "GoodRx",
+          "role": "Access / friction removal",
+          "inception_price": 3.33,
+          "shares": 300.3003,
+          "notional": 1000,
+          "current_price": 3.52,
+          "current_value": 1057.06,
+          "change_pct": 5.71,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
+        },
+        {
+          "ticker": "TEM",
+          "name": "Tempus AI",
+          "role": "Diagnose and fit with data",
+          "inception_price": 77.97,
+          "shares": 12.8254,
+          "notional": 1000,
+          "current_price": 67.87,
+          "current_value": 870.46,
+          "change_pct": -12.95,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
+        },
+        {
+          "ticker": "GH",
+          "name": "Guardant Health",
+          "role": "Find and monitor the right patient",
+          "inception_price": 183.1,
+          "shares": 5.4615,
+          "notional": 1000,
+          "current_price": 154.66,
+          "current_value": 844.68,
+          "change_pct": -15.53,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
+        },
+        {
+          "ticker": "ABT",
+          "name": "Abbott",
+          "role": "Continuous consumer measurement",
+          "inception_price": 102.2,
+          "shares": 9.7847,
+          "notional": 1000,
+          "current_price": 113.29,
+          "current_value": 1108.51,
+          "change_pct": 10.85,
+          "exit": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+          "exit_date": "2026-11-10",
+          "expiry": "2026-11-10"
+        }
+      ],
+      "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
+      "last_updated": "2026-11-05T12:19:43.891736"
+    }
+  ]
+}

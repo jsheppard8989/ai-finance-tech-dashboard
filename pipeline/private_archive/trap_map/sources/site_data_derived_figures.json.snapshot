@@ -1,0 +1,40 @@
+{
+  "_schema_version": 1,
+  "_comment": "Derived-figure map (Red Team Fix 2, 2026-10-16). G maintains this file. Each figure is a total built from parts. publish_guard recomputes every total from its parts on publish and warns on a mismatch (warn only). When you edit a part anywhere on the site, edit it here too and re-check the totals it feeds.",
+  "_field_definitions": {
+    "id": "stable slug",
+    "total": "the number the site shows for the total (in `unit`)",
+    "op": "sum (default) | product | diff (parts[0] - rest) | ratio (parts[0] / parts[1])",
+    "parts": "list of {label, value} in the same unit; value may also be the id of another figure",
+    "unit": "free text, e.g. 'M shares' or '$B'",
+    "tolerance": "absolute slack for rounding (default 0.5% of total)",
+    "total_text": "optional: exact text the site shows for the total (e.g. 'about 2.43B shares'); warns if it is no longer found on the site, so a stale copy elsewhere gets noticed",
+    "where": "optional: files/cards that show the total"
+  },
+  "_example": {
+    "id": "spacex-l1-unlock-shares",
+    "total": 2426.0,
+    "unit": "M shares",
+    "op": "sum",
+    "tolerance": 5,
+    "parts": [
+      {
+        "label": "tranche A",
+        "value": 328.4
+      },
+      {
+        "label": "tranche B",
+        "value": 1300.0
+      },
+      {
+        "label": "tranche C",
+        "value": 797.6
+      }
+    ],
+    "total_text": "about 2.43B shares",
+    "where": [
+      "trap-map.html#spacex"
+    ]
+  },
+  "figures": []
+}

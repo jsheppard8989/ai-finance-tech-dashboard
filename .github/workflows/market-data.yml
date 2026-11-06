@@ -15,7 +15,7 @@ name: Market Data Refresh
 on:
   schedule:
     - cron: "0 15 * * 1-5"    # 9:00 AM CST
-    - cron: "15 21 * * 1-5"   # 3:15 PM CST (after close; Trap Map price pull)
+    - cron: "15 21 * * 1-5"   # 3:15 PM CST (after-close market data)
     - cron: "45 3 * * 2-6"    # ~9:45 PM CST evening Treasury
   workflow_dispatch:
 
@@ -62,14 +62,7 @@ jobs:
         working-directory: pipeline
         run: python fetch_treasury_calendar.py
 
-      # Trap Map price pull (both weekday runs, evening run, manual). Free sources only
-      # (Cboe delayed quotes, Yahoo Finance); read-only, never places orders. On a failed
-      # quote a row keeps its last mid and time. Rebuilds trap-map.html + homepage strip.
-      - name: Trap Map after-close price pull
-        id: trap_map
-        if: ${{ !cancelled() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 15 * * 1-5' || github.event.schedule == '15 21 * * 1-5' || github.event.schedule == '45 3 * * 2-6') }}
-        continue-on-error: true
-        run: python pipeline/fetch_trap_map_prices.py
+      # Trap Map retired Nov 5, 2026; its frozen archive is not refreshed or published.
 
       - name: Validate market_data.json
         if: ${{ !cancelled() }}
@@ -79,8 +72,7 @@ jobs:
         if: ${{ !cancelled() }}
         run: |
           set -euo pipefail
-          TRAP="site/data/trap_map.json site/trap-map.html site/index.html"
-          if git diff --quiet -- site/data/market_data.json $TRAP; then
+          if git diff --quiet -- site/data/market_data.json; then
             echo "No market data change."; exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -88,8 +80,8 @@ jobs:
           ts=$(date +%Y-%m-%d-%H%M)
           branch="data/market-data-${ts}"
           git checkout -b "$branch"
-          git add -u -- site/data/market_data.json $TRAP  # site/data is gitignored; files are tracked
-          git commit -m "Market data refresh ${ts} CT (Actions: GPU spot + forwards, Treasury, Trap Map prices)"
+          git add -u -- site/data/market_data.json  # site/data is gitignored; files are tracked
+          git commit -m "Market data refresh ${ts} CT (Actions: GPU spot + forwards, Treasury)"
           git push origin "$branch"
           url=$(gh pr create --base main --head "$branch" \
             --title "Market data refresh ${ts} CT" \
@@ -98,10 +90,3 @@ jobs:
           # Merges made with GITHUB_TOKEN don't fire push workflows; dispatch Pages.
           gh workflow run deploy.yml --ref main
           echo "Merged $url and dispatched deploy.yml"
-
-      # Other cards still commit/deploy above; this makes a failed Trap Map pull fail the run.
-      - name: Fail run if Trap Map price pull failed
-        if: ${{ always() && steps.trap_map.outcome == 'failure' }}
-        run: |
-          echo "::error title=Trap Map price pull failed::pipeline/fetch_trap_map_prices.py failed; Trap Map prices were not refreshed. See the 'Trap Map after-close price pull' step log."
-          exit 1

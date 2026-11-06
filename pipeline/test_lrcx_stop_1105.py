@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def data():
-    return json.loads((ROOT / "site/data/trap_map.json").read_text())
+    return json.loads((ROOT / "pipeline/private_archive/trap_map/trap_map.json").read_text())
 
 
 def test_lrcx_stopped_at_authorized_fill():

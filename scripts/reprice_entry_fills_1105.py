@@ -92,7 +92,7 @@ def apply(d: dict) -> dict:
 def main():
     sys.path.insert(0, str(ROOT / "pipeline"))
     import build_trap_map
-    path = ROOT / "site/data/trap_map.json"
+    path = build_trap_map.DATA
     d = apply(json.loads(path.read_text(encoding="utf-8")))
     path.write_text(json.dumps(d, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     build_trap_map.build()

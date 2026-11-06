@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
-"""Build the Trap Map from its one source of truth, site/data/trap_map.json.
+"""Historical/internal Trap Map builder; public publishing retired Nov 5, 2026.
+
+Default inputs/outputs live only under pipeline/private_archive/trap_map.
+The original public generator and exact outputs are preserved in that archive.
+The archived output format below is retained for reproducibility, not public deployment.
 
 Writes:
-  - site/trap-map.html             (v9 layout: one card-row per trade; scrolls sideways on phones)
-  - the homepage strip in site/index.html between <!-- TRAP_STRIP:START --> / <!-- TRAP_STRIP:END -->
+  - pipeline/private_archive/trap_map/trap-map.html (historical full page)
+  - the historical TRAP_STRIP in pipeline/private_archive/trap_map/index.html
   - computed fields back into trap_map.json: totals (paid, value now, S&P value) and changes
     (generated from each row's history, newest first). Nothing here is typed by hand.
 
@@ -25,9 +29,10 @@ import trap_map_check  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
-DATA = SITE / "data" / "trap_map.json"
-PAGE = SITE / "trap-map.html"
-INDEX = SITE / "index.html"
+ARCHIVE = ROOT / "pipeline" / "private_archive" / "trap_map"
+DATA = ARCHIVE / "trap_map.json"
+PAGE = ARCHIVE / "trap-map.html"
+INDEX = ARCHIVE / "index.html"
 CT = ZoneInfo("America/Chicago")
 START, END = "<!-- TRAP_STRIP:START -->", "<!-- TRAP_STRIP:END -->"
 MINUS = "\u2212"
@@ -568,8 +573,10 @@ def apply_strip(index_html: str, strip: str) -> str:
 
 
 def build(write=True, data=None, page_path=None, index=None):
-    """Check, compute and render. Paths default to site/; sync_past_calls --preview points them at /tmp/preview."""
+    """Reproduce archived outputs only; explicit previews may never target public site/."""
     DATA_, PAGE_, INDEX_ = data or DATA, page_path or PAGE, index or INDEX
+    if any(Path(p).resolve().is_relative_to(SITE.resolve()) for p in (DATA_, PAGE_, INDEX_)):
+        raise ValueError("Trap Map public output is retired; use the archive or an internal preview")
     d = json.loads(DATA_.read_text(encoding="utf-8"))
     errs = trap_map_check.check(d)
     if errs:
