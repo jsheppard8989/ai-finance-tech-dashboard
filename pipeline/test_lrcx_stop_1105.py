@@ -45,11 +45,14 @@ def test_closed_cash_and_realized_loss_reconcile_with_retained_benchmark():
     open_rows = [r for r in d["rows"] if r["status"] != "closed"]
     assert t["cost"] == round(sum(r["trade"]["cost"] for r in open_rows), 2)
     assert t["value"] == round(sum(r["trade"]["value"] for r in open_rows), 2)
-    assert t["realized_change"] == -1043.33
-    assert t["closed_cash"] == 19956.67
-    assert t["portfolio_cost"] == round(t["cost"] + 21000, 2)
+    ceg = next(r for r in d["rows"] if r["id"] == "ceg-q3")
+    assert ceg["status"] == "closed" and ceg["exit"]["result"] == -715.01
+    assert t["realized_change"] == -1758.34
+    assert t["closed_cash"] == 20418.33
+    assert len(open_rows) == 6
+    assert t["portfolio_cost"] == round(t["cost"] + 21000 + ceg["trade"]["cost"], 2)
     assert t["portfolio_value"] == round(t["value"] + t["closed_cash"], 2)
-    assert t["portfolio_change"] == round(t["change"] - 1043.33, 2)
+    assert t["portfolio_change"] == round(t["change"] - 1758.34, 2)
     assert t["spy_change"] == round(t["spy_value"] - t["portfolio_cost"], 2)
     assert d["benchmark"]["buys"] == buys
 

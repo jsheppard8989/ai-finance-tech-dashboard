@@ -9,14 +9,17 @@ ROOT = Path(__file__).resolve().parent.parent
 def test_closed_allocation_is_zero_on_desktop_phone_and_home():
     d = json.loads((ROOT / "site/data/trap_map.json").read_text())
     page = build.render_page(d)
-    closed = page.split('id="closedwrap"')[1]
-    phone = page.split('id="lrcx-put"')[1].split('</details>')[0]
-    chip = build.render_strip(d).split('href="trap-map.html#lrcx-put"')[1].split('</a>')[0]
-    for surface in (closed, phone, chip):
-        assert "Allocated $0.00" in surface
-        assert "Allocated $21,000.00" not in surface
-        assert "$19,956.67" in surface
-    assert "−$1,043.33" in closed and "−$1,043.33" in phone
+    assert len([r for r in d["rows"] if r["status"] != "closed"]) == 6
+    assert d["totals"]["cost"] == 18640.67
+    for rid, cash, loss in (("lrcx-put", "$19,956.67", "−$1,043.33"),
+                            ("ceg-q3", "$461.66", "−$715.01")):
+        closed = page.split('id="row-' + rid + '"')[1].split('</tr>')[0]
+        phone = page.split('id="' + rid + '"')[1].split('</details>')[0]
+        chip = build.render_strip(d).split('href="trap-map.html#' + rid + '"')[1].split('</a>')[0]
+        for surface in (closed, phone, chip):
+            assert "Allocated $0.00" in surface
+            assert "Freed cash " + cash in surface
+        assert loss in closed and loss in phone
     for r in d["rows"]:
         if r["status"] != "closed":
             card = page.split('id="'+r["id"]+'"')[1].split('</details>')[0]

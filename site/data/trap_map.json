@@ -603,8 +603,8 @@
    "lean": "Positive",
    "direction": "Net long",
    "kind": "spread",
-   "status": "new",
-   "horizon": "Nov 20 expiry",
+   "status": "closed",
+   "horizon": "Stopped out Nov 5, 2026 (modeled close)",
    "reason": "Power demand from data centers keeps lifting what Constellation's nuclear fleet can earn.",
    "event": {
     "name": "Q3 results (date reported, not yet confirmed by the company)",
@@ -618,8 +618,8 @@
     "max_loss": "$1,176.67",
     "max_gain": "$1,823.33",
     "quoted": "Yahoo Finance option quotes, Nov 2, 9:13 AM CT (260C 15.40/16.80, 290C 3.80/6.10)",
-    "mark": 4.6167,
-    "value": 461.67,
+    "mark": 4.6166,
+    "value": 461.66,
     "cost": 1176.67,
     "mid_time": "2026-11-05T15:19-06:00",
     "posted": "2026-10-31",
@@ -641,8 +641,8 @@
     "target": "Close when the spread is worth $25.00.",
     "stop": "Close if CEG closes below $242.64.",
     "exit": {
-     "type": "expiry",
-     "date": "2026-11-20"
+     "type": "stop",
+     "date": "2026-11-05"
     },
     "expression": {
      "type": "Call debit spread",
@@ -653,13 +653,14 @@
      "stock_then": "$265.87",
      "caveat": "Entry priced at 9:13 AM CT on Nov 2."
     },
-    "change": -715.0,
-    "priced": "third_from_worst"
+    "change": -715.01,
+    "priced": "modeled_exit",
+    "price_note": "modeled close on late-day quotes, Nov 5, 2026; not a contemporaneous fill."
    },
    "date_added": "2026-10-31",
-   "last_reviewed": "2026-11-02",
-   "why_we_hold": "Our view (OPINION): the market still prices Constellation like a regular power company, while data-center buyers are paying up for round-the-clock carbon-free power. The Nov 9 report is part of the idea. We hold through it because new or extended data-center power contracts there are the most likely thing to move the stock toward $290, and the spread caps the loss at $1,176.67 if it disappoints.",
-   "what_proves_it": "CEG closes above $271.77 at the Nov 20 expiry.",
+   "last_reviewed": "2026-11-05",
+   "why_we_hold": "Original view (OPINION): data-center buyers would pay more for round-the-clock nuclear power. The spread capped the downside. The stock closed below the fixed stop on Nov 5; the position is no longer held.",
+   "what_proves_it": "Closed at the Nov 5 stock stop; modeled realized loss −$715.01.",
    "history": [
     {
      "at": "2026-10-31T18:35:00-05:00",
@@ -668,9 +669,28 @@
     {
      "at": "2026-11-02T09:10:00-06:00",
      "text": "Constellation Energy: Entry repriced to $1,176.67 at 9:13 AM CT on Nov 2. Target and stop unchanged."
+    },
+    {
+     "at": "2026-11-05T18:25:00-06:00",
+     "text": "Constellation Energy: modeled close on late-day quotes, Nov 5, 2026; not a contemporaneous fill. CEG closed at $239.65, below the unchanged $242.64 stock stop. Modeled exit: sell the 260 call at $5.6333 and buy the 290 call at $1.0167; net credit $4.6166 per share × 100 = $461.66. Original cost $1,176.67 (the displayed $11.77 debit is rounded); $461.66 − $1,176.67 = −$715.01 realized. Position closed; no replacement."
     }
    ],
-   "main_risk": "Wrong if: CEG closes below $242.64 (the stop), or the Nov 9 report shows no new data-center contract news and the stock gives back the gap."
+   "main_risk": "Wrong if: CEG closes below $242.64 (the stop), or the Nov 9 report shows no new data-center contract news and the stock gives back the gap.",
+   "notes": "modeled close on late-day quotes, Nov 5, 2026; not a contemporaneous fill. CEG closed at $239.65, below the unchanged $242.64 stock stop. Modeled exit: sell the 260 call at $5.6333 and buy the 290 call at $1.0167; net credit $4.6166 per share × 100 = $461.66. Original cost $1,176.67 (the displayed $11.77 debit is rounded); $461.66 − $1,176.67 = −$715.01 realized. Position closed; no replacement.",
+   "exit": {
+    "reason": "stop",
+    "date": "2026-11-05",
+    "modeled": true,
+    "description": "modeled close on late-day quotes, Nov 5, 2026; not a contemporaneous fill.",
+    "stock_close": 239.65,
+    "stock_stop": 242.64,
+    "sell_260C": 5.6333,
+    "buy_290C": 1.0167,
+    "net_credit_per_share": 4.6166,
+    "value": 461.66,
+    "result": -715.01,
+    "source": "Supplied late-day fill-rule marks for Nov 5, 2026, recorded in the 6:25 PM CT stop decision; modeled, not a contemporaneous fill. No new after-hours quote used."
+   }
   },
   {
    "id": "lrcx-put",
@@ -906,20 +926,25 @@
   ]
  },
  "totals": {
-  "cost": 19817.34,
-  "value": 24130.94,
+  "cost": 18640.67,
+  "value": 23669.27,
   "spy_value": 39322.13,
-  "change": 4313.6,
+  "change": 5028.6,
   "midpoint_rows": [],
   "computed_by": "pipeline/build_trap_map.py",
-  "closed_cash": 19956.67,
-  "realized_change": -1043.33,
+  "closed_cash": 20418.33,
+  "realized_change": -1758.34,
   "portfolio_cost": 40817.34,
-  "portfolio_value": 44087.61,
-  "portfolio_change": 3270.27,
+  "portfolio_value": 44087.6,
+  "portfolio_change": 3270.26,
   "spy_change": -1495.21
  },
  "changes": [
+  {
+   "date": "2026-11-05",
+   "at": "2026-11-05T18:25:00-06:00",
+   "text": "Constellation Energy: modeled close on late-day quotes, Nov 5, 2026; not a contemporaneous fill. CEG closed at $239.65, below the unchanged $242.64 stock stop. Modeled exit: sell the 260 call at $5.6333 and buy the 290 call at $1.0167; net credit $4.6166 per share × 100 = $461.66. Original cost $1,176.67 (the displayed $11.77 debit is rounded); $461.66 − $1,176.67 = −$715.01 realized. Position closed; no replacement."
+  },
   {
    "date": "2026-11-05",
    "at": "2026-11-05T15:21:00-06:00",
