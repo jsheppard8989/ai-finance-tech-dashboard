@@ -225,7 +225,9 @@ class TestPricePull(unittest.TestCase):
         lrcx = next(r for r in d["rows"] if r["id"] == "lrcx-put")
         self.assertEqual(lrcx["status"], "closed")
         self.assertEqual(lrcx["exit"]["result"], -1043.33)
-        self.assertEqual(len(open_rows), 7)
+        ceg = next(r for r in d["rows"] if r["id"] == "ceg-q3")
+        self.assertEqual((ceg["status"], ceg["exit"]["result"], ceg["exit"]["modeled"]), ("closed", -715.01, True))
+        self.assertEqual(len(open_rows), 6)
         self.assertEqual(d["totals"]["cost"], round(sum(r["trade"]["cost"] for r in open_rows), 2))
         self.assertEqual(d["totals"]["portfolio_value"], round(d["totals"]["value"] + d["totals"]["closed_cash"], 2))
         with mock.patch.object(fp, "_get", side_effect=OSError("down")), \
@@ -352,19 +354,30 @@ class TestMidpointLabel(unittest.TestCase):
         self.assertEqual(page.count(f'<div class="small mid-tag">{html.escape(EST)}</div>'), 2 * len(est))
         self.assertNotIn(html.escape(EST) + " Not final", page)
         self.assertNotIn(html.escape(EST) + ", not final", page)
-        ceg = [r for r in self.d["rows"] if r["id"] == "ceg-q3"][0]["trade"]
-        self.assertNotIn("estimate_note", ceg)  # both legs traded today: firm mark
-        self.assertNotIn("price_note", ceg)
-        self.assertEqual((ceg["value"], ceg["cost"]), (1110.0, 1176.67))
-        for rid, val in {"asts-q3": 2349.67, "frmi-q3": 1700.0, "tsat-notes": 1533.33, "mu-cycle": 7233.33}.items():
-            self.assertEqual([r for r in self.d["rows"] if r["id"] == rid][0]["trade"]["value"], val)
+        ceg_row = next(r for r in self.d["rows"] if r["id"] == "ceg-q3")
+        ceg = ceg_row["trade"]
+        self.assertEqual(ceg_row["status"], "closed")
+        self.assertTrue(ceg_row["exit"]["modeled"])
+        self.assertNotIn("estimate_note", ceg)  # no stale pre-open estimate masquerading as an exit
+        self.assertIn("modeled close on late-day quotes", ceg["price_note"])
+        self.assertIn("not a contemporaneous fill", ceg["price_note"])
+        self.assertEqual((ceg["value"], ceg["cost"], ceg["change"]), (461.66, 1176.67, -715.01))
+        for surface in (page, strip):
+            self.assertIn(html.escape(ceg["price_note"].rstrip(".")), surface)
+        # Live marks refresh; verify the contract math and rendered change instead of obsolete Nov 2 snapshots.
+        for rid in ("asts-q3", "frmi-q3", "tsat-notes", "mu-cycle"):
+            row = next(r for r in self.d["rows"] if r["id"] == rid)
+            trade = row["trade"]
+            self.assertEqual(trade["value"], round(trade["mark"] * 100 * trade["contracts"], 2))
+            card = page.split('id="' + rid + '"')[1].split('</details>')[0]
+            self.assertIn(build_trap_map._sg(trade["change"]), card)
         self.assertEqual(self.d["totals"]["value"], round(sum(r["trade"]["value"] for r in self.d["rows"] if r.get("status") != "closed" and (r.get("trade") or {}).get("cost") is not None), 2))
         hc = [r for r in self.d["rows"] if r["id"] == "healthcare-five"][0]["trade"]
         self.assertNotIn("entry_pending", hc)  # Healthcare is out of Monday's repricing (Jared, 7:01 PM CT)
         self.assertEqual(hc["cost"], 5000.0)
         self.assertEqual(page.count("Priced at Oct 30 closes."), 2)
         self.assertNotRegex(page.lower(), r"not final|valued at oct 30")
-        self.assertIn("worth $4,975.36, priced at Oct 30 closes", strip)
+        self.assertIn("worth " + build_trap_map.money(hc["value"]) + ", priced at Oct 30 closes", strip)
         self.assertNotRegex(strip.lower(), r"not final|indicative|midpoint")
         ceg_card = page[page.index('id="ceg-q3"'):][:6000].split('id="lrcx-put"')[0]  # stop at the next row
         self.assertEqual(ceg_card.count("Entry priced at 9:13 AM CT on Nov 2."), ceg_card.count("Entry priced at"))

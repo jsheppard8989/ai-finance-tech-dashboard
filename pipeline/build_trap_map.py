@@ -196,6 +196,8 @@ def _rel(url: str) -> str:
 
 
 def _mid_tag(r) -> str:
+    if r.get("status") == "closed" and (r.get("exit") or {}).get("modeled"):
+        return f'<div class="small mid-tag">{e(r["trade"]["price_note"])}</div>'
     if (r.get("trade") or {}).get("entry_pending") and r.get("status") != "closed":
         return f'<div class="small mid-tag">{e(r["trade"]["entry_pending"])}, not final</div>'
     if (r.get("trade") or {}).get("price_note") and (is_midpoint(r) or r.get("kind") == "basket"):
