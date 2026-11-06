@@ -146,12 +146,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             raise EngineError(f"--date {session_date} is not today ({now_fn().date()}); "
                               "pass --now <date>T08:07:00-05:00 to simulate the clock for a dry run")
         if args.once:
-            result = engine.run_pass()
+            rc = engine.run_guarded(once=True)
+            if rc != 0:
+                return rc
+            result = engine.last_result
             summary = {"tick": result["tick"], "written": result["written"], "pending": result["pending"],
                        "frozen_changed": result["frozen_changed"], "done": bool(result["done"])}
             print(core.dumps(summary), end="")
             return 0
-        return engine.run_loop()
+        return engine.run_guarded(argv=list(argv) if argv is not None else sys.argv[1:])
     except EngineError as exc:
         log.error("%s", exc)
         return 2

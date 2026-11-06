@@ -26,12 +26,13 @@ os.environ["DRAGONFLY_PIPELINE_LOCK"] = os.path.join(_TMP, "no-such.lock")
 os.environ["DRAGONFLY_ALLOW_DAEMON_WINDOW"] = "1"
 
 from dragonfly import guards  # noqa: E402
-from dragonfly.build_watchlist import _quote_parts, select_watchlist, yahoo_quote_full  # noqa: E402
+from dragonfly.build_watchlist import _quote_parts, select_watchlist, with_chart_fallback, yahoo_quote_full  # noqa: E402
 from dragonfly.risk_math import (  # noqa: E402
     MODELED_SPREAD,
     paper_buy_fill,
     QUOTE_MAX_AGE,
     in_regular_session,
+    is_modeled_spread,
     paper_entry_fill,
     paper_fill,
     paper_sell_fill,
@@ -106,6 +107,18 @@ def test_resolve_quote() -> None:
     check(r["spread_source"] == "modeled_mid_0.05", "low price: $0.05 floor is the sanity width")
     r = resolve_quote(20.30, 20.00, 20.06)  # crossed, mid 20.15, |0.09| > 0.05
     check(r["spread_source"] == "modeled_last_0.05", "low price sanity swap")
+
+    # accepted Yahoo quote is sanity-checked against last too (QQQ, dry run #2)
+    r = resolve_quote(717.24, 717.49, 745.40)  # spread 0.25 passes the gate; mid 717.365 is 28.04 off last
+    check(r["usable"] and r["spread_source"] == "modeled_last_0.05", "QQQ: gate-passing quote far from last -> modeled_last")
+    check(r["mid"] == D("745.4") and r["mid_source"] == "last_trade", "QQQ: last trade becomes the mid")
+    check(r["bid"] == D("745.375") and r["ask"] == D("745.425"), "QQQ: modeled around last")
+    check(r["fallback_reason"] == "quote_passes_gate+mid_far_from_last", "QQQ: reason names the sanity check")
+    check(r["yahoo_bid"] == 717.24 and r["yahoo_ask"] == 717.49, "QQQ: raw Yahoo quote kept for audit")
+    r = resolve_quote(717.24, 717.49, 717.40)  # same quote, last next to mid -> real quote
+    check(r["spread_source"] == "yahoo" and r["mid"] == D("717.365"), "gate-passing quote near last stays yahoo")
+    r = resolve_quote(20.00, 20.05, 20.20)  # mid 20.025, |0.175| > $0.05 floor -> last
+    check(r["spread_source"] == "modeled_last_0.05", "low-price yahoo quote far from last -> last")
 
     # mid usable, no last trade: admitted but unverified (only exclude when both missing)
     r = resolve_quote(99.80, 100.20, None)
@@ -335,6 +348,138 @@ def test_full_quote_fetcher_guarded() -> None:
         lock.unlink()
 
 
+def test_chart_fallback() -> None:
+    """Quote lookup empty / 401 / 429 -> the chart's last price, modeled $0.05, visible."""
+    chart_calls = []
+
+    def chart(t):
+        chart_calls.append(t)
+        if t == "DEAD":
+            raise RuntimeError("chart down too")
+        return 50.0, 1790366400.0
+
+    def info(t):
+        if t == "CRUMB":
+            raise RuntimeError("HTTP Error 401: Invalid Crumb")
+        if t == "RATE":
+            raise RuntimeError("429 Too Many Requests")
+        if t in ("EMPTY", "DEAD"):
+            return {"bid": None, "ask": None, "last": None, "quote_time": None}
+        if t == "ZERO":
+            return {"bid": 0, "ask": 0, "last": None}
+        return {"bid": 60.0, "ask": 60.02, "last": 60.01, "quote_time": 1790366401}
+
+    good = with_chart_fallback("GOOD", info, chart)
+    check(good["quote_source"] == "yahoo_info" and good["bid"] == 60.0 and chart_calls == [], "good info quote kept, chart not called")
+    for t in ("CRUMB", "RATE", "EMPTY", "ZERO"):
+        q = with_chart_fallback(t, info, chart)
+        check(q["quote_source"] == "chart_last_fallback" and q["last"] == 50.0 and q["bid"] is None
+              and q["ask"] is None and q["quote_time"] == 1790366400.0 and q["info_error"], f"{t}: chart-last fallback")
+        r = resolve_quote(q["bid"], q["ask"], q["last"])
+        check(r["usable"] and r["spread_source"] == "modeled_last_0.05" and r["provisional"] is True,
+              f"{t}: modeled_last_0.05, provisional")
+        check(is_modeled_spread(r["spread_source"]), f"{t}: fallback quote is modeled (live-blocked)")
+    check("401" in with_chart_fallback("CRUMB", info, chart)["info_error"], "401 error kept for the record")
+    dead = with_chart_fallback("DEAD", info, chart)
+    check(dead["quote_source"] == "none" and dead["last"] is None and dead["chart_error"], "chart failure -> unusable")
+
+    def blocked(t):
+        raise guards.GuardBlocked("lock")
+    for fn, label in ((lambda: with_chart_fallback("X", blocked, chart), "guard stop in info propagates"),
+                      (lambda: with_chart_fallback("EMPTY", info, blocked), "guard stop in chart propagates")):
+        try:
+            fn()
+        except guards.GuardBlocked:
+            check(True, label)
+        else:
+            check(False, label)
+
+    rows = [_row(t, 9e9 - i * 1e8) for i, t in enumerate(("GOOD", "CRUMB", "RATE", "EMPTY", "DEAD"))]
+    res = select_watchlist(rows, lambda t: with_chart_fallback(t, info, chart), cap=10, batch=5, workers=1,
+                           spread_mode="modeled")
+    names = {n["ticker"]: n for n in res["names"]}
+    check(sorted(names) == ["CRUMB", "EMPTY", "GOOD", "RATE"], "fallback names admitted, chart failure excluded")
+    check(res["chart_fallback_names"] == ["CRUMB", "EMPTY", "RATE"], "fallback names listed")
+    check(res["funnel"]["quote_chart_fallback"] == 3, "fallback counted in the funnel")
+    check(names["GOOD"]["quote_source"] == "yahoo_info" and names["GOOD"]["spread_source"] == "yahoo", "real quote tagged")
+    check(all(names[t]["spread_source"] == "modeled_last_0.05" and names[t]["quote_source"] == "chart_last_fallback"
+              for t in ("CRUMB", "RATE", "EMPTY")), "fallback rows tagged modeled_last_0.05 / chart_last_fallback")
+    check(res["excluded"]["DEAD"] == "no_usable_mid_or_last", "chart failure excluded as no_usable_mid_or_last")
+
+
+def test_nasdaq_quote_chain() -> None:
+    """Yahoo quote -> Nasdaq quote -> chart last. Nasdaq bid/ask is real if it passes the gate."""
+    from dragonfly import build_watchlist as bw
+
+    # shape captured from api.nasdaq.com/api/quote/COST/info?assetclass=stocks, 2026-09-28 17:53 CT (after hours)
+    payload = {"data": {"symbol": "COST", "primaryData": {
+        "lastSalePrice": "$921.85", "lastTradeTimestamp": "Sep 28, 2026 6:53 PM ET", "isRealTime": True,
+        "bidPrice": "$921.31", "askPrice": "$922.00", "bidSize": "2", "askSize": "10"},
+        "secondaryData": {"lastSalePrice": "$922.92", "lastTradeTimestamp": "Closed at Sep 28, 2026 4:00 PM ET",
+                          "bidPrice": "", "askPrice": ""}, "marketStatus": "After-Hours"}}
+    q = bw.parse_nasdaq_quote(payload)
+    check(q["bid"] == 921.31 and q["ask"] == 922.00 and q["last"] == 921.85, f"nasdaq bid/ask/last parsed {q}")
+    check(q["previous_close"] == 922.92 and q["market_state"] == "After-Hours", "prior close + status")
+    check(q["quote_time"] == datetime(2026, 9, 28, 17, 53, tzinfo=ZoneInfo("America/Chicago")).timestamp(),
+          "ET timestamp -> epoch")
+    check(bw.parse_nasdaq_quote({"data": None})["last"] is None, "null data -> empty quote")
+    check(bw.parse_nasdaq_quote({"data": {"primaryData": {"lastSalePrice": "$1,096.50", "bidPrice": "N/A"}}})["last"]
+          == 1096.5 and bw.parse_nasdaq_quote({"data": {"primaryData": {"bidPrice": "N/A"}}})["bid"] is None,
+          "commas / N/A handled")
+    order = []
+
+    def info(t):
+        order.append("info")
+        raise RuntimeError("HTTP Error 401: Invalid Crumb")
+
+    def nasdaq(t):
+        order.append("nasdaq")
+        return {"bid": 100.00, "ask": 100.04, "last": 100.02, "quote_time": 1.0} if t == "OK" else (
+            {"bid": None, "ask": None, "last": None} if t == "EMPTY" else {"bid": 94.0, "ask": 96.0, "last": 95.0})
+
+    def chart(t):
+        order.append("chart")
+        return 50.0, 2.0
+
+    ok = bw.with_chart_fallback("OK", info, chart, nasdaq)
+    check(order == ["info", "nasdaq"] and ok["quote_source"] == "nasdaq_quote" and "401" in ok["info_error"],
+          "Yahoo 401 -> Nasdaq, chart not called")
+    r = resolve_quote(ok["bid"], ok["ask"], ok["last"])
+    check(bw.spread_label(r, ok["quote_source"]) == "nasdaq" and r["spread"] == Decimal("0.04"), "gate-passing Nasdaq = real")
+    order.clear()
+    em = bw.with_chart_fallback("EMPTY", info, chart, nasdaq)
+    check(order == ["info", "nasdaq", "chart"] and em["quote_source"] == "chart_last_fallback"
+          and em["quote_errors"]["nasdaq_quote"] == "empty_quote", "Nasdaq empty -> chart last")
+    wide = bw.with_chart_fallback("WIDE", info, chart, nasdaq)
+    rw = resolve_quote(wide["bid"], wide["ask"], wide["last"])
+    check(wide["quote_source"] == "nasdaq_quote" and bw.spread_label(rw, "nasdaq_quote") == "modeled_mid_0.05",
+          "wide Nasdaq bid/ask -> modeled (same gate as Yahoo)")
+    order.clear()
+    good = bw.with_chart_fallback("OK", lambda t: {"bid": 10.0, "ask": 10.02, "last": 10.01}, chart, nasdaq)
+    check(good["quote_source"] == "yahoo_info" and order == [], "good Yahoo quote: Nasdaq and chart not called")
+    # Yahoo answers but with no real spread (after-hours zeros): Nasdaq's real spread wins
+    order.clear()
+    yz = lambda t: {"bid": 0, "ask": 0, "last": 100.01}  # noqa: E731
+    got = bw.with_chart_fallback("OK", yz, chart, nasdaq)
+    check(got["quote_source"] == "nasdaq_quote" and got["bid"] == 100.0 and order == ["nasdaq"]
+          and got["quote_errors"]["yahoo_info"] == "no_real_spread", "Yahoo modeled-only -> Nasdaq real spread wins")
+    # neither has a real spread: Yahoo's (first non-empty) quote is kept and modeled
+    order.clear()
+    got = bw.with_chart_fallback("WIDE", yz, chart, nasdaq)
+    check(got["quote_source"] == "yahoo_info" and got["last"] == 100.01 and order == ["nasdaq"],
+          "no real spread anywhere -> first non-empty (Yahoo), chart not called")
+    order.clear()
+    got = bw.with_chart_fallback("WIDE", info, chart, nasdaq)
+    check(got["quote_source"] == "nasdaq_quote" and "401" in got["info_error"] and order == ["info", "nasdaq"],
+          "Yahoo 401 + wide Nasdaq -> Nasdaq quote, modeled")
+    check(bw.spread_label(resolve_quote(10.0, 10.02, 10.01), "yahoo_info") == "yahoo", "Yahoo label unchanged")
+    res = select_watchlist([_row("OK", 9e9), _row("EMPTY", 8e9)], lambda t: bw.with_chart_fallback(t, info, chart, nasdaq),
+                           cap=5, batch=2, workers=1, spread_mode="modeled")
+    mix = res["quote_mix"]
+    check(mix["real_spread"] == 1 and mix["modeled"] == 1 and mix["real_spread_by_source"]["nasdaq"] == 1
+          and mix["by_quote_source"] == {"chart_last_fallback": 1, "nasdaq_quote": 1}, f"watchlist quote mix {mix}")
+
+
 def main() -> None:
     test_resolve_quote()
     test_fills()
@@ -342,6 +487,8 @@ def main() -> None:
     test_governor()
     test_selection()
     test_full_quote_fetcher_guarded()
+    test_chart_fallback()
+    test_nasdaq_quote_chain()
     print(f"dragonfly phase1 modeled spread: all {CHECKS} checks passed (offline)")
 
 
