@@ -15,7 +15,7 @@ import build_trap_map  # noqa: E402
 import fetch_trap_map_prices as fp  # noqa: E402
 import trap_map_check as tc  # noqa: E402
 
-DATA = json.loads((PIPE.parent / "pipeline" / "private_archive" / "trap_map" / "trap_map.json").read_text(encoding="utf-8"))
+from trap_map_test_support import private_records, private_archive
 TODAY = date(2026, 10, 30)
 
 
@@ -25,7 +25,7 @@ def rows(d):
 
 class TestValidator(unittest.TestCase):
     def errs(self, mutate):
-        d = copy.deepcopy(DATA)
+        d = copy.deepcopy(private_records())
         mutate(d, rows(d))
         return tc.check(d, today=TODAY)
 
@@ -34,14 +34,14 @@ class TestValidator(unittest.TestCase):
         self.assertTrue(any(re.search(pat, x) for x in e), e)
 
     def test_repo_data_passes(self):
-        self.assertEqual(tc.check(DATA, today=TODAY), [])
+        self.assertEqual(tc.check(private_records(), today=TODAY), [])
 
     def test_five_rows(self):
         # v9: the HIMS call-spread row is gone; HIMS is only in the Healthcare basket.
-        self.assertEqual([r["ticker"] for r in DATA["rows"]], ["ASTS", "FRMI", "TSAT", "MU", "Basket", "CEG", "LRCX", "GEV"])
-        self.assertFalse({"IREN", "MP", "TSLA", "HIMS"} & {r["ticker"] for r in DATA["rows"]})
+        self.assertEqual([r["ticker"] for r in private_records()["rows"]], ["ASTS", "FRMI", "TSAT", "MU", "Basket", "CEG", "LRCX", "GEV"])
+        self.assertFalse({"IREN", "MP", "TSLA", "HIMS"} & {r["ticker"] for r in private_records()["rows"]})
         # Healthcare is the logged Sep 18 five-stock basket again (Jared 7:01 PM, Wendy approved); no option spreads
-        hc = rows(DATA)["healthcare-five"]
+        hc = rows(private_records())["healthcare-five"]
         self.assertEqual(hc["kind"], "basket")
         self.assertNotIn("spreads", hc["trade"])
         self.assertEqual([(l["ticker"], l["entry"]) for l in hc["trade"]["legs"]],
@@ -101,7 +101,7 @@ class TestValidator(unittest.TestCase):
         self.assertFails(lambda d, r: r["mu-cycle"].update(horizon="graded at expiry"), "'graded'")
         self.assertFails(lambda d, r: d["past_calls"].append({"ticker": "TSM", "outcome_text": "x", "exit_reason": "stop",
                                                             "evidence_url": "https://x", "grade": "Right"}), "grading field")
-        raw = json.dumps(DATA).lower()
+        raw = json.dumps(private_records()).lower()
         self.assertNotIn("grade", raw)
 
     def test_past_call_required_fields(self):
@@ -116,14 +116,14 @@ class TestValidator(unittest.TestCase):
 
     def test_benchmark_buys(self):
         # each SPY buy matches the money put into its rows on the same day (no snapshot pinning)
-        cost = {r["id"]: r["trade"]["cost"] for r in DATA["rows"]}
-        for x in DATA["benchmark"]["buys"]:
+        cost = {r["id"]: r["trade"]["cost"] for r in private_records()["rows"]}
+        for x in private_records()["benchmark"]["buys"]:
             self.assertAlmostEqual(x["dollars"], sum(cost[i] for i in x["rows"]), places=2)
             self.assertAlmostEqual(x["shares"], x["dollars"] / x["price"], places=3)
-        self.assertNotIn("hims-q3", DATA["benchmark"]["buys"][0]["rows"])
+        self.assertNotIn("hims-q3", private_records()["benchmark"]["buys"][0]["rows"])
 
     def test_direction_matches_trade(self):
-        self.assertEqual({r["id"]: r["direction"] for r in DATA["rows"]},
+        self.assertEqual({r["id"]: r["direction"] for r in private_records()["rows"]},
                          {"asts-q3": "Net short", "frmi-q3": "Net short", "tsat-notes": "Net short",
                           "mu-cycle": "Net short", "healthcare-five": "Long", "ceg-q3": "Net long",
                           "lrcx-put": "Net long", "gev-power": "Net long"})
@@ -144,7 +144,7 @@ class TestValidator(unittest.TestCase):
         self.assertEqual(self.errs(call), [])
 
     def test_healthcare_stop_is_fixed(self):
-        t = rows(DATA)["healthcare-five"]["trade"]
+        t = rows(private_records())["healthcare-five"]["trade"]
         sr = t["stop_rule"]
         self.assertEqual((sr["index_below"], sr["fixed"], sr["weights"]), (90, True, "equal"))
         self.assertEqual([(l["ticker"], l["base"]) for l in sr["index_legs"]], [("HIMS", 28.09), ("GDRX", 3.33), ("TEM", 77.97), ("GH", 183.1), ("ABT", 102.2)])
@@ -158,22 +158,23 @@ class TestValidator(unittest.TestCase):
 
 class TestBuild(unittest.TestCase):
     def test_outputs_up_to_date(self):
+        private_archive()  # Explicit local-only fixture; public CI never fetches it.
         self.assertEqual(build_trap_map.build(write=False), [], "run python3 pipeline/build_trap_map.py")
 
     def test_totals_and_changes(self):
         # v9 structure: 5 rows, $16,231.50 allocated. Values/changes move with every Actions
         # price refresh, so they are checked for internal consistency, not pinned to one snapshot.
-        T = DATA["totals"]
-        self.assertAlmostEqual(T["cost"], sum(r["trade"]["cost"] for r in DATA["rows"] if r["status"] != "closed"), places=2)
+        T = private_records()["totals"]
+        self.assertAlmostEqual(T["cost"], sum(r["trade"]["cost"] for r in private_records()["rows"] if r["status"] != "closed"), places=2)
         self.assertAlmostEqual(T["change"], round(T["value"] - T["cost"], 2), places=2)
-        self.assertTrue(DATA["quotes_as_of"])
-        self.assertEqual([r["id"] for r in DATA["rows"]],
+        self.assertTrue(private_records()["quotes_as_of"])
+        self.assertEqual([r["id"] for r in private_records()["rows"]],
                          ["asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five", "ceg-q3", "lrcx-put", "gev-power"])
-        self.assertEqual(tc.check_computed(DATA), [])
-        self.assertTrue(any(c["text"].startswith("Exits are now only") for c in DATA["changes"]))
+        self.assertEqual(tc.check_computed(private_records()), [])
+        self.assertTrue(any(c["text"].startswith("Exits are now only") for c in private_records()["changes"]))
 
     def test_computed_checks(self):
-        d = copy.deepcopy(DATA)
+        d = copy.deepcopy(private_records())
         rows(d)["frmi-q3"]["trade"]["change"] = 1.0
         d["totals"]["value"] = 1.0
         e = tc.check_computed(d)
@@ -181,7 +182,7 @@ class TestBuild(unittest.TestCase):
         self.assertTrue(any("totals.value" in x for x in e), e)
 
     def test_archived_page_and_home_strip(self):
-        page = (PIPE.parent / "pipeline" / "private_archive" / "trap_map" / "trap-map.html").read_text(encoding="utf-8")
+        page = (private_archive() / "trap-map.html").read_text(encoding="utf-8")
         text = re.sub(r"<[^>]+>", " ", page)
         self.assertNotRegex(text, r"(?i)\b(bet|thin)\b")
         self.assertNotRegex(text, r"(?i)grad(e|ed|es|ing)\b")
@@ -190,7 +191,7 @@ class TestBuild(unittest.TestCase):
         self.assertNotIn("Track record", page)
         self.assertNotIn("What changed", page)
         self.assertNotIn('id="row-hims-q3"', page)
-        self.assertIn(f"Quotes as of {build_trap_map._fmt_full(DATA['quotes_as_of'])}", page)
+        self.assertIn(f"Quotes as of {build_trap_map._fmt_full(private_records()['quotes_as_of'])}", page)
         for rid in ("asts-q3", "frmi-q3", "tsat-notes", "mu-cycle", "healthcare-five", "ceg-q3"):
             self.assertRegex(page, rf'<tr class="[LS]" id="row-{rid}"')
             self.assertRegex(page, rf'<details class="ev" id="{rid}" data-dir="[LS]"')
@@ -209,17 +210,17 @@ class TestBuild(unittest.TestCase):
         self.assertNotIn("Positive", strip)
         self.assertNotIn("Negative", strip)
         self.assertEqual(strip.count("Net short"), 4)
-        T = DATA["totals"]
+        T = private_records()["totals"]
         self.assertNotRegex(strip, r"(?i)grade")
         self.assertIn("Held to Nov 13 expiry", strip)
         for s in (build_trap_map.money(T["cost"]), build_trap_map.money(T["value"]), build_trap_map.money(T["spy_value"]),
-                  f"Quotes as of {build_trap_map.fmt_time(DATA['quotes_as_of'])}", ">Net long<"):
+                  f"Quotes as of {build_trap_map.fmt_time(private_records()['quotes_as_of'])}", ">Net long<"):
             self.assertIn(s, strip)
 
 
 class TestPricePull(unittest.TestCase):
     def test_failure_keeps_last_mid(self):
-        d = copy.deepcopy(DATA)
+        d = copy.deepcopy(private_records())
         before = {r["id"]: dict(r["trade"]) for r in d["rows"]}
         open_rows = [r for r in d["rows"] if r["status"] != "closed"]
         lrcx = next(r for r in d["rows"] if r["id"] == "lrcx-put")
@@ -239,10 +240,10 @@ class TestPricePull(unittest.TestCase):
             for k in ("mid", "mark", "value", "mid_time"):
                 self.assertEqual(r["trade"].get(k), before[r["id"]].get(k))
             self.assertIsNotNone(r["trade"]["mid_time"])
-        self.assertEqual(d["benchmark"]["spy_close_now"], DATA["benchmark"]["spy_close_now"])
+        self.assertEqual(d["benchmark"]["spy_close_now"], private_records()["benchmark"]["spy_close_now"])
 
     def _pull(self, quotes, now, rid="asts-q3"):
-        d = copy.deepcopy(DATA)
+        d = copy.deepcopy(private_records())
         r = rows(d)[rid]
         with mock.patch.object(fp, "cboe_quotes", return_value=(quotes, now)), \
              mock.patch.object(fp, "yahoo_quotes", side_effect=OSError("x")), \
@@ -293,7 +294,7 @@ class TestPricePull(unittest.TestCase):
             "wider than 50% of mid": ((5.0, 5.3, 10, 100, now), (20.0, 40.0, 10, 2, now)),  # like TSAT's $40 leg
         }
         for want, (lq, sq) in cases.items():
-            before = dict(rows(DATA)["asts-q3"]["trade"])
+            before = dict(rows(private_records())["asts-q3"]["trade"])
             r, warn = self._pull(self._asts(lq, sq), now)
             self.assertTrue(any(want in f for f in r["trade"]["quote_flags"]), (want, r["trade"].get("quote_flags")))
             for k in ("mid", "value", "mid_time"):
@@ -309,7 +310,7 @@ class TestPricePull(unittest.TestCase):
         self.assertNotIn("outcome", r)
         self.assertNotRegex(json.dumps(r["exit"]), r"(?i)grade|right|wrong")
         # basket-style index stop closes the whole row
-        d = copy.deepcopy(DATA)
+        d = copy.deepcopy(private_records())
         h = rows(d)["healthcare-five"]
         h["trade"]["index_now"] = 89.0
         fp.close_row(h, "stop", now) if h["trade"]["index_now"] < 90 else None
@@ -331,7 +332,7 @@ if __name__ == "__main__":
 
 class TestMidpointLabel(unittest.TestCase):
     def setUp(self):
-        self.d = build_trap_map.compute(copy.deepcopy(DATA))
+        self.d = build_trap_map.compute(copy.deepcopy(private_records()))
 
     def test_prices_labeled(self):
         EST = "Estimated price: this option hasn't traded yet today (quote as of 9:29 AM CT)."
@@ -435,13 +436,13 @@ class TestNotPlacedRemoved(unittest.TestCase):
         self.assertFalse(any(c["ticker"] == "IREN" for c in ok))
 
     def test_site_has_no_not_placed(self):
-        self.assertFalse([c for c in DATA.get("past_calls") or [] if tc.is_not_placed(c)])
-        self.assertNotIn("not placed", json.dumps(DATA).lower())
+        self.assertFalse([c for c in private_records().get("past_calls") or [] if tc.is_not_placed(c)])
+        self.assertNotIn("not placed", json.dumps(private_records()).lower())
 
 
 class TestMidpointNoteDate(unittest.TestCase):
     def test_note_uses_quote_session_not_pull_date(self):
-        d = copy.deepcopy(DATA)
+        d = copy.deepcopy(private_records())
         for r in d["rows"]:
             if r.get("kind") in ("spread", "spread_set"):
                 r["trade"].pop("priced", None)  # back to unrepriced marks to exercise the old note
@@ -459,7 +460,7 @@ def test_lrcx_cash_secured_put_row():
     import json as _j
     from pathlib import Path as _P
     import trap_map_check as _c
-    d = _j.loads((_P(__file__).resolve().parent.parent / "pipeline/private_archive/trap_map/trap_map.json").read_text())
+    d = private_records()
     r = next(x for x in d["rows"] if x["id"] == "lrcx-put")
     t = r["trade"]
     assert _c.is_short_put(r) and _c.expected_direction(r) == "Net long" and r["lean"] == "Positive"
@@ -481,7 +482,7 @@ def test_gev_power_call_spread_row():
     """GEV Jan 15 2027 860/900 call debit spread; links to power-bottleneck research."""
     import json
     from pathlib import Path
-    d = json.loads((Path(__file__).resolve().parent.parent / "pipeline" / "private_archive" / "trap_map" / "trap_map.json").read_text())
+    d = private_records()
     r = next(x for x in d["rows"] if x["id"] == "gev-power")
     assert r["ticker"] == "GEV" and r["direction"] == "Net long" and r["lean"] == "Positive"
     t = r["trade"]
@@ -494,6 +495,6 @@ def test_gev_power_call_spread_row():
     assert r["research"]["url"].endswith("power-bottleneck.html")
     assert "earns its $2,580 maximum profit" in r["what_proves_it"]
     assert "pays its $2,580 maximum" not in r["what_proves_it"]
-    page = (Path(__file__).resolve().parent.parent / "pipeline" / "private_archive" / "trap_map" / "trap-map.html").read_text(encoding="utf-8")
+    page = (private_archive() / "trap-map.html").read_text(encoding="utf-8")
     assert 'id="gev-power"' in page and "power-bottleneck.html" in page
     assert "$860 / $900" in page and "$1,420" in page

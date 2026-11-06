@@ -1,3 +1,4 @@
+from trap_map_test_support import private_records
 """Approved modeled stop exit: preserve actual entry basis, not rounded display debit."""
 import copy
 import json
@@ -12,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def data():
-    return json.loads((ROOT / "pipeline/private_archive/trap_map/trap_map.json").read_text())
+    return private_records()
 
 
 def test_ceg_modeled_stop_math_and_archived_disclosure():

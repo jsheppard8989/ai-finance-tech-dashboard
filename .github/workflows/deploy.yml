@@ -35,8 +35,8 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       
-      # Fail closed if the historical archive is lost or a retired surface reappears.
-      - name: Trap Map archive preservation and public retirement check
+      # Fail closed on a missing private locator or any public record payload; no private CI access.
+      - name: Trap Map private locator and public record absence check
         run: python3 pipeline/trap_map_archive.py --check
 
       - name: Copy static files

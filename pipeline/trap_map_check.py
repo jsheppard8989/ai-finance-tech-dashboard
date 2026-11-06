@@ -31,7 +31,8 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
-DATA = ROOT / "pipeline" / "private_archive" / "trap_map" / "trap_map.json"
+from trap_map_archive import private_archive_path
+DATA = private_archive_path() / "trap_map.json"
 # Kept here, not in the public JSON (the list itself would trip the site style gate).
 ALWAYS_BANNED = ("bet", "bets", "betting", "thin", "ATM", "going-concern", "going concern", "RPO", "Scout", "IV",
                  "convert", "agent", "grade", "grades", "graded", "grading")

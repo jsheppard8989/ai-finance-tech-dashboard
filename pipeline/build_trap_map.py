@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Historical/internal Trap Map builder; public publishing retired Nov 5, 2026.
 
-Default inputs/outputs live only under pipeline/private_archive/trap_map.
-The original public generator and exact outputs are preserved in that archive.
+Default inputs/outputs live only in the external private archive (TRAP_MAP_PRIVATE_ARCHIVE).
+The original public generator and exact outputs are preserved privately; see TRAP_MAP_RETIREMENT.md.
 The archived output format below is retained for reproducibility, not public deployment.
 
 Writes:
-  - pipeline/private_archive/trap_map/trap-map.html (historical full page)
-  - the historical TRAP_STRIP in pipeline/private_archive/trap_map/index.html
+  - <private archive>/trap-map.html (historical full page)
+  - the historical TRAP_STRIP in <private archive>/index.html
   - computed fields back into trap_map.json: totals (paid, value now, S&P value) and changes
     (generated from each row's history, newest first). Nothing here is typed by hand.
 
@@ -29,7 +29,8 @@ import trap_map_check  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
-ARCHIVE = ROOT / "pipeline" / "private_archive" / "trap_map"
+from trap_map_archive import private_archive_path
+ARCHIVE = private_archive_path()
 DATA = ARCHIVE / "trap_map.json"
 PAGE = ARCHIVE / "trap-map.html"
 INDEX = ARCHIVE / "index.html"
@@ -573,10 +574,10 @@ def apply_strip(index_html: str, strip: str) -> str:
 
 
 def build(write=True, data=None, page_path=None, index=None):
-    """Reproduce archived outputs only; explicit previews may never target public site/."""
+    """Reproduce archived outputs only; explicit previews may never target any part of the public repository."""
     DATA_, PAGE_, INDEX_ = data or DATA, page_path or PAGE, index or INDEX
-    if any(Path(p).resolve().is_relative_to(SITE.resolve()) for p in (DATA_, PAGE_, INDEX_)):
-        raise ValueError("Trap Map public output is retired; use the archive or an internal preview")
+    if any(Path(p).resolve().is_relative_to(ROOT.resolve()) for p in (DATA_, PAGE_, INDEX_)):
+        raise ValueError("Trap Map public output is retired; records/outputs must stay outside the public repository")
     d = json.loads(DATA_.read_text(encoding="utf-8"))
     errs = trap_map_check.check(d)
     if errs:
