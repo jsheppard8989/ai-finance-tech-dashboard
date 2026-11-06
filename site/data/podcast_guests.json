@@ -1,6 +1,42 @@
 [
   {
-    "id": 109640,
+    "id": 110030,
+    "name": "Russell Clark",
+    "slug": "russell-clark",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The key claim is that AI capex is still being funded and should not yet be shorted because demand and capital-market support remain stronger than the bear case assumes.",
+    "last_episode_title": "Why This Short Seller Doesn\u2019t Want to Short the AI Bubble | Russell Clark",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-11-05",
+    "appearance_count": 2
+  },
+  {
+    "id": 110031,
+    "name": "Figma CFO Praveer Melwani",
+    "slug": "figma-cfo-praveer-melwani",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The episode\u2019s core claim is that finance automation will be constrained more by data readiness and auditability than by AI model power, making workflow and governance infrastructure the key winners.",
+    "last_episode_title": "The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-05",
+    "appearance_count": 1
+  },
+  {
+    "id": 110032,
+    "name": "\u26a1 Behind Latent Space",
+    "slug": "behind-latent-space",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Coding agents may compress SaaS moats by enabling fast cloning and customization, making embedded AI tooling and defensible data/integration layers more valuable.",
+    "last_episode_title": "\u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-11-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 110033,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -12,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109641,
+    "id": 110034,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -24,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109642,
+    "id": 110035,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -36,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109643,
+    "id": 110036,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -48,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109644,
+    "id": 110037,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -60,7 +96,7 @@
     "appearance_count": 2
   },
   {
-    "id": 109645,
+    "id": 110038,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -72,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109646,
+    "id": 110039,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -84,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109647,
+    "id": 110040,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -96,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109648,
+    "id": 110041,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -108,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109649,
+    "id": 110042,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -120,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109650,
+    "id": 110043,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -132,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109651,
+    "id": 110044,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -144,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109652,
+    "id": 110045,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -156,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109653,
+    "id": 110046,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -168,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109654,
+    "id": 110047,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -180,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109655,
+    "id": 110048,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -192,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109657,
+    "id": 110050,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -204,7 +240,7 @@
     "appearance_count": 2
   },
   {
-    "id": 109656,
+    "id": 110049,
     "name": "Billy Evans",
     "slug": "billy-evans",
     "bio": null,
@@ -216,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109658,
+    "id": 110051,
     "name": "Alex Rampell & Terry Angelos",
     "slug": "alex-rampell--terry-angelos",
     "bio": null,
@@ -228,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109659,
+    "id": 110052,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -240,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109660,
+    "id": 110053,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -252,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109661,
+    "id": 110054,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -264,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109662,
+    "id": 110055,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -276,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109663,
+    "id": 110056,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -288,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109664,
+    "id": 110057,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -300,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109665,
+    "id": 110058,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -312,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 109666,
+    "id": 110059,
     "name": "Matt Garman",
     "slug": "matt-garman",
     "bio": null,
@@ -321,42 +357,6 @@
     "last_episode_title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 109667,
-    "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
-    "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
-    "last_episode_title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-10-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 109668,
-    "name": "Stacy Rasgon",
-    "slug": "stacy-rasgon",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
-    "last_episode_title": "Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 109669,
-    "name": "Andrew Huberman",
-    "slug": "andrew-huberman",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The most important claim is that direct, precise measurement and modulation of nervous-system states will create a major neurotech category, especially in sleep and waking-state control.",
-    "last_episode_title": "Andrew Huberman - The Frontier of Neurotechnology - [Invest Like the Best, EP.494]",
-    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
-    "last_episode_date": "2026-10-06",
     "appearance_count": 1
   }
 ]

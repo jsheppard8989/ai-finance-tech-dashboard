@@ -1,6 +1,138 @@
 {
   "insights": [
     {
+      "id": 657,
+      "title": "Why This Short Seller Doesn\u2019t Want to Short the AI Bubble | Russell Clark",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-05",
+      "summary": "Russell Clark argues that the post-midterm political and market setup should be read less as a temporary cyclical disinflation story and more as a structural regime of persistent fiscal support, higher wages, and stickier inflation. He says voters wanted \u201cmore money,\u201d and that policy choices around immigration, oil, and benefit cuts weakened Trump\u2019s coalition while reinforcing a shift toward more spending.\n\nOn inflation, Clark\u2019s central point is that wages\u2014not oil\u2014are the real long-duration driver now. He says inflation is \u201cnot cyclical anymore,\u201d because governments keep pushing wages higher and labor costs feed through to the economy. He also suggests that if the Fed or markets focus only on oil, they may misread the regime and get the long end of the bond market wrong.\n\nA major portion of the discussion is about AI and data-center capex. Clark is skeptical that a short thesis is compelling right now, saying there is no \u201csmoking gun\u201d that funding is drying up. He argues hyperscalers are still booked out, GPU/cloud/rental prices are not collapsing, and capital markets remain willing to fund buildout even when credit is expensive. He also says political efforts to block data-center construction may not work because the strategic competition with China, Europe, and Japan keeps the buildout going.\n\nClark also highlights crowding-out effects from AI-related issuance and a broader scarcity of capital. In his view, huge equity and debt raises by AI-linked firms can pressure other corporate borrowers and sectors, raising funding costs and potentially compressing margins. He points to homebuilders as one area where higher labor, energy, and financing costs could cut margins from about 15% toward 5%\u20137%, which could trigger a derating. By contrast, he likes select Japanese banks and sees Apple as an example of a big tech company that is comparatively insulated because it is returning capital via buybacks rather than joining the AI capex arms race.",
+      "key_takeaway": "The key claim is that AI capex is still being funded and should not yet be shorted because demand and capital-market support remain stronger than the bear case assumes.",
+      "tickers_mentioned": [
+        "ORCL",
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 647,
+      "notable_quotes": [
+        {
+          "speaker": "Russell Clark",
+          "quote": "Normally, for the good short opportunities I've seen in my career, normally what happens is that for some reason, an industry over-builds, okay. And industries don't over-build because everyone's an idiot."
+        },
+        {
+          "speaker": "Russell Clark",
+          "quote": "I keep repeating that they're fully booked out for this year next year. So the demand stories to list is something we'll have to give in the politics. I think we point towards some restrictions, but, you know, the story keeps going."
+        },
+        {
+          "speaker": "Russell Clark",
+          "quote": "But, you know, the AI debt market is a different squeezed out other quote, you know, is basically taking liquidity out of the other corporate markets because they're offering, you know, if you take the soft bank offering, it's like 78% for three year money."
+        }
+      ]
+    },
+    {
+      "id": 659,
+      "title": "Invesco\u2019s Private Credit CIO Eyes \u2018Equity-Like\u2019 Returns in Loans",
+      "source_type": "podcast",
+      "source_name": "The Credit Edge by Bloomberg Intelligence",
+      "source_date": "2026-11-05",
+      "summary": "Scott Baskind argues that private credit should be viewed alongside public credit rather than as a standalone winner, because dislocations in public spreads create opportunities on the private side. He says the key edge in private credit is not just yield, but structural protections, covenant discipline, and matching liquidity to the asset profile.\n\nHe frames current non-investment-grade private credit yields as roughly SOFR plus 475 to 575 basis points, with the illiquidity premium generally around 150 to 250 basis points and likely to normalize toward about 200 basis points wide by Q4 as markets stabilize and issuance stays constructive. He also notes that yields were wider in 2023, when normal transactions could reach SOFR plus 600 basis points and overall yields were north of 12%.\n\nOn risk, Baskind says the market\u2019s stress over the last year-plus began as a liquidity issue, but AI is now creating more direct operating stress in certain leveraged technology and software businesses. He emphasizes that outcomes are increasingly bifurcated: strong businesses with good cash flow and balance sheets can perform well through stress, while challenged businesses and questionable business models face weaker recoveries regardless of capital stack.\n\nHe also makes the case that CLOs remain the bedrock of the leveraged loan market, with demand likely north of 70% today, up from around 50% pre-GFC and 60% to 70% around 2020. He expects some growth in trading and retail access through funds and interval structures, but he does not expect private credit to converge fully with public credit because the structural and correlation differences will remain.\n\nThe episode is broadly constructive on private credit but not complacent: Baskind\u2019s core message is that disciplined underwriting, senior-secured positioning, and liquidity matching matter more than chasing upside, especially in an environment of elevated rates, refinancing pressure, and sector-specific AI disruption.",
+      "key_takeaway": "Private credit remains attractive because Baskind expects today\u2019s illiquidity premium and SOFR-plus yields to stay compelling while disciplined underwriting and CLO demand support returns.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 650,
+      "notable_quotes": [
+        {
+          "speaker": "Scott Baskind",
+          "quote": "we're probably in the tighter end of that range, but our expectations would be as markets normalize over the next, particularly in Q4, as issuance continues to remain fairly constructive and healthy, we would anticipate that we're right back into that mid-level 200 basis points wide."
+        },
+        {
+          "speaker": "Scott Baskind",
+          "quote": "generally we're looking at SOFR plus 475 to 575 today. that's historically, it's right in the middle range of the fairway of where we've been historically."
+        },
+        {
+          "speaker": "Scott Baskind",
+          "quote": "as AI has become much more transformative and impactful, we're starting to not only see the rhetoric around the implications from this AI acceleration, but also some of the direct impacts on corporate performance."
+        }
+      ]
+    },
+    {
+      "id": 660,
+      "title": "MacroVoices #557 Michael Every: The Blue Tsunami Lands on Markets... and Geopolitics",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-11-05",
+      "summary": "The episode argues that the U.S. midterm result, framed as a \u201cblue tsunami,\u201d materially changes the geopolitical operating environment by increasing Congress\u2019s role in constraining war funding and approval. Michael Every\u2019s core contention is that foreign policy is now more politically bounded, making it harder for the U.S. to sustain or escalate conflicts in the Middle East and potentially in Russia-Ukraine. He frames this as a structural shift, not a one-off election effect.\n\nEvery says the key question is whether the U.S. can still act as a global enforcer if domestic politics increasingly blocks intervention. He suggests that if the U.S. steps back, regional actors may fill the vacuum, with consequences for Israel, Iran, and broader instability. He also downplays near-term nuclear risk, saying it is not something to \u201close too much sleep over\u201d for the moment, while still acknowledging escalation pathways remain live.\n\nA major market implication is that energy and macro pricing may not yet reflect the full geopolitical shift. The guest and trading desk discuss oil, refining margins, gold, the dollar, and bonds as cross-asset signals, arguing that the bond market has not yet confirmed a durable regime change. They also discuss data center pauses in multiple states and possible tariff regime changes, with the view that tariffs may be reshaped rather than eliminated.\n\nPatrick Suresna adds a tactical trade idea in Marathon Petroleum (MPC), arguing the stock\u2019s sharp sell-off may have overshot the fundamental impact of lower crude because refining margins can stay supported if refining capacity remains constrained. He points to a recent oil correction, elevated spread dynamics, and proposes a December 18, 2026 390/450 bull call spread. He also treats gold\u2019s move above $4,000 as an oversold bounce rather than proof of a new bull market.",
+      "key_takeaway": "Congressional constraints on U.S. foreign policy could keep energy risk premia and refining margins elevated longer than markets expect, supporting a tactical rebound in MPC.",
+      "tickers_mentioned": [
+        "MPC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 649,
+      "notable_quotes": [
+        {
+          "speaker": "Michael Every",
+          "quote": "If this is something that's going to be the norm, just not for this war, but more generally that the U.S. is now constrained on foreign policy by a Congress that doesn't want the kind of adventures that have been quite normal up until recently, it means that the U.S. is a greatly constrained geopolitical actor."
+        },
+        {
+          "speaker": "Michael Every",
+          "quote": "Data centers are going to be paused in a bunch of states. Some people are actually using the phrase regime change in Texas to describe the what's just happened there."
+        },
+        {
+          "speaker": "Patrick Suresna",
+          "quote": "With mpc trading around $392 and 68 cents, I'm looking at the December 18th, 2026, 390 to 450 bull call spread with approximately 43 days till its expiration."
+        }
+      ]
+    },
+    {
+      "id": 661,
+      "title": "The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-05",
+      "summary": "Praveer Mulwani argues that AI is changing finance from a backward-looking \u201ctraffic cop\u201d into a forward-looking business enabler, with the biggest gains coming from removing repetitive reconciliation and collections work. He says the bottleneck is not model capability alone but data readiness: in his view, roughly 95% of the challenge is getting the data in the right place before AI can be useful.\n\nAt Figma, he describes automation already reaching credit and collections workflows, corporate finance reconciliation across multiple systems, and corporate development diligence where AI can prototype acquisition targets and simulate leadership-team reactions before presentations. He also says some of these tasks can move from days or weeks to minutes or even hours, which materially changes how finance teams operate.\n\nMulwani repeatedly stresses that AI should augment, not replace, human judgment. He argues people should not outsource their thinking, that outputs need review and simplification barriers, and that audit-ready trustworthiness is the standard for deeper automation. In his view, deterministic tasks should be automated first, while more ambiguous work still needs human accountability.\n\nLooking ahead 12\u201318 months, he expects more partial automation, faster workflows, and potentially less need for headcount growth if complexity does not increase. He also thinks Excel will remain central because it helps people organize their thoughts and build trust, even as AI tools increasingly handle the tedious parts of finance work.",
+      "key_takeaway": "The episode\u2019s core claim is that finance automation will be constrained more by data readiness and auditability than by AI model power, making workflow and governance infrastructure the key winners.",
+      "tickers_mentioned": [
+        "FIG",
+        "COIN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 648,
+      "notable_quotes": [
+        {
+          "speaker": "Praveer Mulwani",
+          "quote": "Collections work flows are automated. Corporate finance can reconcile messy data across multiple systems and minutes, and the Corp Dev team can use AI to prototype an acquisition targets product and run investment in that most against simulated versions of Figma's own leadership team before presenting them."
+        },
+        {
+          "speaker": "Praveer Mulwani",
+          "quote": "95% of the challenge there is just like getting your data in the right spot. What do we think changes in the next 12 to 18 months? If our basis is complexity was staying the same, I think we probably wouldn't need the same number of people a year from now."
+        },
+        {
+          "speaker": "Praveer Mulwani",
+          "quote": "I think maybe I'd start with the pieces that are like truly deterministic and like how can I feed it with enough information so that I can feel that the output there you know it's completely completely trustworthy."
+        }
+      ]
+    },
+    {
       "id": 655,
       "title": "Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
       "source_type": "podcast",
@@ -65,6 +197,75 @@
         {
           "speaker": "David Pawlan",
           "quote": "I ran another test that was I had three different agents test in booking travel to LA. So I said, okay, book me a flight to LA, planned an entire weekend for me, and I want a luxurious, cost-efficient weekend."
+        }
+      ]
+    },
+    {
+      "id": 658,
+      "title": "Big Tech\u2019s $3T AI Bet, Claude Writes 90% of Anthropic\u2019s Code, AIs Editing AI Brains | EP #308",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-11-04",
+      "summary": "The episode centers on the claim that AI capability is outpacing institutional readiness across politics, business, security, and space infrastructure. Peter Diamandis argues that by 2028 most voters will consult AI agents before making ballot decisions, saying AI influence is already embedded through human intermediaries rather than requiring \u201cAI personhood\u201d in the legal sense.\n\nA major theme is the scale of AI capex. Diamandis says five companies\u2014Alphabet, Meta, Microsoft, Amazon, and Oracle\u2014have disclosed more than $3 trillion in combined commitments for AI power and equipment, with Google alone over $1 trillion and Meta over $800 billion. He contrasts that with Apollo\u2019s roughly $280 billion inflation-adjusted cost and says chip demand may remain nearly unlimited for 3-5 years unless a radical computing shift arrives.\n\nThe episode also highlights accelerating model performance and recursive self-improvement. Diamandis cites Life Val and GDPX benchmarks to argue that AI is improving on everyday tasks and complex work, and he points to Anthropic\u2019s internal metrics\u2014cloud allegedly writing more than 90% of September code and internal usage growing more than 250x\u2014as evidence that software development is becoming increasingly machine-driven. He frames new work on directly editing neural network weights as a possible shortcut to interpretability and self-improvement.\n\nBeyond AI, the discussion touches on cybersecurity and industrial risk, including remote hacks of supermarket fridges and freezers that allegedly raised temperatures to 55\u00b0C, causing real losses. The episode closes with space-race milestones\u2014Artemis III in 2027 and Artemis IV in 2028\u2014and the idea that competition with China could prevent another decades-long pause in lunar exploration.",
+      "key_takeaway": "The episode\u2019s core claim is that AI capex, agentic workflows, and recursive self-improvement are accelerating fast enough to create massive infrastructure winners while raising systemic cyber and governance risks.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "META",
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 646,
+      "notable_quotes": [
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "I mean, it's going to be dominant in the 2028 election. I mean, almost everybody's going to have an agent or two or ten that they trust. And there's, they're not going to make any decisions in 2028 without consulting their agent."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "Alphabet, meta, Microsoft, Amazon and Oracle have now disclosed more than three trillion in combined commitments on Lisa's building's power and equipment. Google alone is over a trillion of that. Nearly eight times their last year's figure."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "In one example, the researchers gave Astra a small open model when 3.5, which was getting stuck in endless thinking loops. Astra found the cause in the weights, edited them, actually edited 0.016% of the weights."
+        }
+      ]
+    },
+    {
+      "id": 662,
+      "title": "\u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-11-04",
+      "summary": "This episode centers on AIEi Shanghai, framed as the first AI Engineer conference in China, and uses it as a case study in how AI communities are crossing borders through local ownership, partnerships, and shared publishing. The guest says Shanghai brought the event to Shanghai, not the reverse, and emphasizes that the conference is scaling through a franchise-like model that preserves brand standards while letting local organizers run the event.\n\nA major theme is that the AI engineer discipline is relatively stable, but the hot topics inside it keep changing: from RAG to agents, harnesses, memory, and loop engineering. The guest argues that the most useful AI systems should be \"system one models\" and \"smarter software\"\u2014models embedded into code paths instead of isolated in a chat window. They also highlight underappreciated areas like interaction models, full-duplex interruptible systems, and continual learning.\n\nThe episode makes a strong economic claim: SaaS, especially SMB-focused SaaS, is increasingly vulnerable because coding agents can clone and customize workflows faster than vendors can ship support. The guest gives a concrete example of spending $40,000 on conference software, paying $10,000 to clone a slow vendor product, and ending up with 69 submissions in a competition, only about five of which were actually usable. Their broader point is that if a business owner can recreate the needed functionality quickly, the vendor's moat weakens sharply.\n\nThere is also a darker macro view. The guest warns that the biggest near-term risk is not just job displacement but safety, cybersecurity, and extreme misuse, including bio-weapon-like scenarios. They also say an AI winter could be the longest in human history and could bankrupt hype-dependent companies. Overall, the discussion is bullish on AI engineering as a field, but neutral-to-bearish on the durability of generic SaaS business models.",
+      "key_takeaway": "Coding agents may compress SaaS moats by enabling fast cloning and customization, making embedded AI tooling and defensible data/integration layers more valuable.",
+      "tickers_mentioned": [
+        "DOCU",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 651,
+      "notable_quotes": [
+        {
+          "speaker": "Latent Space",
+          "quote": "In all of human history, when a more advanced civilization comes along and meets a less advanced civilization, the less advanced civilization goes extinct And this thing is evolving roughly 1,000 times faster than us"
+        },
+        {
+          "speaker": "Latent Space",
+          "quote": "The moment I had access to your software can clone it So good luck And I think that is the reality I would say that If you're a SaaS owner Nobody knows that"
+        },
+        {
+          "speaker": "Latent Space",
+          "quote": "You smart way should just be at every point smarter Instead of at one point smart And then everything else is dumb That's really dumb"
         }
       ]
     },
@@ -138,7 +339,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-02",
       "archived_date": null,
@@ -238,7 +439,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-01",
       "archived_date": null,
@@ -273,7 +474,7 @@
         "ORCL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-01",
       "archived_date": null,
@@ -335,7 +536,7 @@
       "key_takeaway": "Joseph Kim said OpenAI has \"just released\" ChatGPT for Financial Services, an enterprise-focused product with firm-specific templates and finance data sources.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-31",
       "archived_date": null,
@@ -368,7 +569,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-31",
       "archived_date": null,
@@ -402,7 +603,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-31",
       "archived_date": null,
@@ -14669,6 +14870,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 325,
+      "term": "Fences",
+      "description": "A permissioning model that separates data and actions across domains such as personal and work systems. The idea is to let agents be useful without letting them cross into unsafe or unwanted contexts.",
+      "first_detected_date": "2026-11-04",
+      "last_mentioned_date": "2026-11-05",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "This points to a potential category of trust, policy, and access-control infrastructure for enterprise and consumer agents.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 644,
+      "first_detected_speaker": "David Pawlan, Josh Elman",
+      "last_mentioned_episode_id": 649,
+      "last_mentioned_speaker": "Michael Every"
+    },
+    {
       "id": 317,
       "term": "Sub-agents",
       "description": "Specialized agent components that each own a particular part of code or workflow, rather than relying on one universal agent. Levie frames this as a practical answer to the context problem.",
@@ -14739,6 +14958,24 @@
       "first_detected_speaker": "Nick Hess",
       "last_mentioned_episode_id": 622,
       "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+    },
+    {
+      "id": 324,
+      "term": "Defensive co-scaling",
+      "description": "A governance approach where AI systems are used to monitor and police other AI systems as autonomy increases. It is presented as a practical answer to rising agent risk.",
+      "first_detected_date": "2026-10-23",
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "If adopted widely, it could create demand for AI safety tooling, monitoring infrastructure, and compliance layers.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 606,
+      "first_detected_speaker": "Dave Blundin, Alex, Salim",
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 313,
@@ -14817,8 +15054,8 @@
       "term": "free money",
       "description": "rather than traditional productivity, and he adds that financially and bureaucratically burdensome consumer workflows could create large vertical opportunities even if the winning horizontal agent int",
       "first_detected_date": "2026-10-17",
-      "last_mentioned_date": "2026-10-27",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -14827,8 +15064,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 585,
       "first_detected_speaker": "Ben Horowitz, David Sacks, David Friedberg",
-      "last_mentioned_episode_id": 617,
-      "last_mentioned_speaker": "Vincent Deluard"
+      "last_mentioned_episode_id": 651,
+      "last_mentioned_speaker": "Latent Space"
     },
     {
       "id": 311,
@@ -14979,8 +15216,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -14989,8 +15226,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 635,
-      "last_mentioned_speaker": "Aman Singh"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 295,
@@ -15015,8 +15252,8 @@
       "term": "AI Debt",
       "description": "AI Debt refers to the bond, leveraged loan, private credit, and project finance raised to fund AI labs, GPU purchases, and data center construction. In this episode, Zitron framed it as the main transmission channel from AI hype to credit-market stress.",
       "first_detected_date": "2026-10-01",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-11-05",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because refinancing costs, spreads, and failed debt sales can determine whether AI infrastructure projects remain viable.",
@@ -15025,8 +15262,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 544,
       "first_detected_speaker": "Ed Zitron",
-      "last_mentioned_episode_id": 622,
-      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+      "last_mentioned_episode_id": 647,
+      "last_mentioned_speaker": "Russell Clark"
     },
     {
       "id": 306,
@@ -15123,8 +15360,8 @@
       "term": "Tokenization",
       "description": "Tokenization is the process of converting physical or digital assets into digital tokens that can be traded on blockchain platforms.",
       "first_detected_date": "2026-09-29",
-      "last_mentioned_date": "2026-10-15",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-05",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Tokenization can democratize access to investments and improve liquidity in financial markets.",
@@ -15133,16 +15370,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 535,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 581,
-      "last_mentioned_speaker": "Terry Angelos"
+      "last_mentioned_episode_id": 650,
+      "last_mentioned_speaker": "Scott Baskind"
     },
     {
       "id": 292,
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -15151,7 +15388,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 636,
+      "last_mentioned_episode_id": 646,
       "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
@@ -15211,20 +15448,20 @@
     {
       "id": 323,
       "term": "System One Models",
-      "description": "A new class of AI models optimized for direct code consumption, contrasting with traditional instruction-following models.",
+      "description": "An approach where models are embedded directly into software decision paths, making the application itself smarter rather than placing intelligence in a separate interface. The idea emphasizes reliability and context-aware behavior.",
       "first_detected_date": "2026-09-21",
-      "last_mentioned_date": "2026-11-03",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in companies developing system one models could capitalize on their potential to disrupt existing AI applications.",
+      "investment_implications": "Supports investing in infrastructure that integrates AI into core product logic, not just chat wrappers.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 505,
       "first_detected_speaker": "Diogo",
-      "last_mentioned_episode_id": 643,
-      "last_mentioned_speaker": "Zach Lloyd"
+      "last_mentioned_episode_id": 651,
+      "last_mentioned_speaker": "Latent Space"
     },
     {
       "id": 106,
@@ -15321,8 +15558,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-11-02",
-      "mention_count": 25,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 26,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -15331,8 +15568,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 640,
-      "last_mentioned_speaker": "Josh Gruenstein"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 284,
@@ -15375,8 +15612,8 @@
       "term": "Evals",
       "description": "A scoring system using AI judge models to score agent outputs and detect recurring failure modes, such as redundant tests. It is used to evaluate quality beyond raw throughput.",
       "first_detected_date": "2026-08-24",
-      "last_mentioned_date": "2026-11-03",
-      "mention_count": 12,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Scoring and evaluation layers could become core products for measuring AI agent performance across engineering workflows.",
@@ -15385,8 +15622,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 421,
       "first_detected_speaker": "NG ZDN",
-      "last_mentioned_episode_id": 643,
-      "last_mentioned_speaker": "Zach Lloyd"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 281,
@@ -15484,7 +15721,7 @@
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
       "last_mentioned_date": "2026-11-04",
-      "mention_count": 40,
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -15493,16 +15730,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 644,
-      "last_mentioned_speaker": "David Pawlan, Josh Elman"
+      "last_mentioned_episode_id": 651,
+      "last_mentioned_speaker": "Latent Space"
     },
     {
       "id": 267,
       "term": "Stablecoins",
       "description": "Stablecoins are digital currencies pegged to stable assets, allowing for reduced volatility and easier transactions.",
       "first_detected_date": "2026-08-01",
-      "last_mentioned_date": "2026-10-13",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The recognition of stablecoins as cash equivalents could transform financial transactions and payment systems.",
@@ -15511,8 +15748,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 379,
       "first_detected_speaker": "Marc Andreessen, Chris Dixon",
-      "last_mentioned_episode_id": 627,
-      "last_mentioned_speaker": "David V\u00e9lez"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 312,
@@ -15591,8 +15828,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-11-03",
-      "mention_count": 43,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -15601,8 +15838,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 643,
-      "last_mentioned_speaker": "Zach Lloyd"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 265,
@@ -15718,7 +15955,7 @@
       "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
       "last_mentioned_date": "2026-11-04",
-      "mention_count": 34,
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
@@ -15727,16 +15964,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 645,
-      "last_mentioned_speaker": "Martin Casado"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 135,
       "term": "Healthspan",
       "description": "The period of life spent in good health, free from chronic disease and disability, as distinguished from simple lifespan extension.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-29",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consumer willingness to pay directly for healthspan optimization creates premium pricing power and recurring revenue opportunities outside insurance reimbursement.",
@@ -15745,16 +15982,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 628,
-      "last_mentioned_speaker": "Will Ahmed"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 255,
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-29",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-11-05",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -15763,8 +16000,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Liaquat Ahamed",
-      "last_mentioned_episode_id": 626,
-      "last_mentioned_speaker": "Luke Gromen"
+      "last_mentioned_episode_id": 647,
+      "last_mentioned_speaker": "Russell Clark"
     },
     {
       "id": 279,
@@ -15789,8 +16026,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-01",
-      "mention_count": 63,
+      "last_mentioned_date": "2026-11-05",
+      "mention_count": 65,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -15799,8 +16036,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 638,
-      "last_mentioned_speaker": "Dan Krausz"
+      "last_mentioned_episode_id": 650,
+      "last_mentioned_speaker": "Scott Baskind"
     },
     {
       "id": 256,
@@ -15969,8 +16206,8 @@
       "term": "AI Personhood",
       "description": "The debate over whether advanced AI systems deserve legal, moral, social, or economic rights. The panel focused on Anthropic's Claude Constitution and whether models should be trained to consider welfare, consent, and consciousness.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-10-15",
-      "mention_count": 25,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 26,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because model governance, hosting revenue, agent deployment, and legal liability could change if AI rights become socially or legally recognized.",
@@ -15979,8 +16216,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 583,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 59,
@@ -16185,8 +16422,8 @@
       "term": "Dyson Swarm",
       "description": "A hypothetical megastructure of numerous small satellites surrounding a star to capture its energy output, discussed here as a future AI-enabled energy breakthrough.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-10-28",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Long-term exposure to space tech, advanced energy infrastructure, and AI-driven applied physics could position investors ahead of secular shifts in global energy production.",
@@ -16195,8 +16432,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 622,
-      "last_mentioned_speaker": "Alex Wissner-Gross, Dave (speaker name not fully specified), Salim (speaker name not fully specified)"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 113,
@@ -16275,8 +16512,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-31",
-      "mention_count": 88,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 89,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -16285,7 +16522,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 636,
+      "last_mentioned_episode_id": 646,
       "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
@@ -16401,8 +16638,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-30",
-      "mention_count": 125,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 126,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -16411,8 +16648,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 632,
-      "last_mentioned_speaker": "David Friedberg, David Friedberg"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 162,
@@ -17211,8 +17448,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-11-01",
-      "mention_count": 53,
+      "last_mentioned_date": "2026-11-05",
+      "mention_count": 54,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -17221,8 +17458,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 638,
-      "last_mentioned_speaker": "Dan Krausz"
+      "last_mentioned_episode_id": 649,
+      "last_mentioned_speaker": "Michael Every"
     },
     {
       "id": 26,
@@ -17482,7 +17719,7 @@
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-11-04",
-      "mention_count": 144,
+      "mention_count": 145,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -17491,8 +17728,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 645,
-      "last_mentioned_speaker": "Martin Casado"
+      "last_mentioned_episode_id": 646,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 38,

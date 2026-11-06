@@ -2005,6 +2005,17 @@
       ]
     },
     {
+      "insight_id": 658,
+      "podcast_episode_id": 646,
+      "_note": "Nov 5 2026 evening publish unblock: new Deep Dive 658 META risk reintroduced 'capex intensity' (publish_guard attributed it to summaries[618]/[647] pairs). Same plain-wording fix, scoped to this card.",
+      "replacements": [
+        [
+          "capex intensity",
+          "heavy capital spending"
+        ]
+      ]
+    },
+    {
       "insight_id": 649,
       "podcast_episode_id": 638,
       "_note": "Nov 3 2026 (G daily check, sweep_1103; routine-fix rule): no-grading rule (DD falsifier); plain words for capex/CDS/ISM in non-quote text (the 'spent all this capex' quote is left as said); summary's stress examples are CoreWeave bonds and Oracle credit",
