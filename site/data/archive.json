@@ -1,6 +1,70 @@
 {
   "insights": [
     {
+      "id": 664,
+      "title": "Ramtin Naimi on the State of Venture Investing - [Invest Like the Best, EP.499]",
+      "source_type": "podcast",
+      "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "source_date": "2026-11-06",
+      "summary": "Ramtin Naimi argues that venture markets have become faster and more structured around multi-tranche financings, with secondary tranches now often pricing at 3x to 5x instead of the 2x fast-follow pattern he associates with 2021. He says that is not automatically a sign of dysfunction, because many companies are so capital intensive that they need capital staged across primary and secondary tranches rather than all up front.\n\nHe is skeptical of simplistic private-market revenue comparisons, saying top-line figures can be distorted by annualized revenue, usage-based billing, data sales, and different margin structures. At the same time, he points to portfolio companies that are improving both growth and margins, citing a pattern of margins moving from negative 15% to positive 35% while revenue remains rapid.\n\nA major theme is that liquidity for LPs is concentrated in a few outsized names. Naimi says exposure to SpaceX, Anthropic, OpenAI, and Databricks is what meaningfully moves the needle for venture liquidity, and he argues many funds underestimated how quickly capital would need to be deployed and recycled. He also notes venture funds often raise for an 18-24 month deployment window, but deployment has effectively become about 3x faster than expected.\n\nOn AI, he says the constraint is less raw compute supply than the ability to match compute financing with the scale and risk of private frontier-model builders, or \"neo labs.\" He suggests the industry may need new capital structures such as debt or compute-linked vehicles, and he frames current valuation goalposts as having shifted toward trillion-dollar outcomes. He ends up broadly constructive on backing exceptional founders early, but warns that consensus strategies and untethered pricing can create risk.",
+      "key_takeaway": "The key claim is that venture returns increasingly depend on staging capital and underwriting a few AI-era needle-movers, not on broad exposure to headline revenue growth.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 654,
+      "notable_quotes": [
+        {
+          "speaker": "Ramtin Naimi",
+          "quote": "In this market, it's like, okay, we lost this round, but we don't want to wait for the next round. What do we need to pay to get into this financing today? And it's usually not two X. It's usually like three to four to five X happening in tandem with the primary."
+        },
+        {
+          "speaker": "Ramtin Naimi",
+          "quote": "The most glaring stat in that thing is that they've raised 140 billion and they've spent 10 of that and they have 132 billion on the balance sheet."
+        },
+        {
+          "speaker": "Ramtin Naimi",
+          "quote": "It's SpaceX, Amthropic, and OpenAI, and Databricks, and a number of companies like that, those are the names that need to generate liquidity for these guys to get their exposure levels to the asset class down."
+        }
+      ]
+    },
+    {
+      "id": 665,
+      "title": "Inside Salesforce\u2019s $100 Billion M&A Playbook | John Somorjai",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-06",
+      "summary": "John Somorjai frames Salesforce's M&A and venture strategy as a disciplined way to accelerate customer value, distribution, and product adoption rather than a simple buy-and-integrate playbook. He says Salesforce starts with customer feedback and strategic fit, then checks whether the product can be scaled through Salesforce's 15,000 sales reps and 8,000+ partners, and whether the acquisition can fit the stack and team culturally.\n\nA major theme is Salesforce's shift toward headless access and outcome-based pricing. Somorjai says Salesforce products can be accessed through Slack and other surfaces, and that consumption and resolution-based pricing are becoming more important. He points to Finn as a proof point: Salesforce says it got Finn running internally in 14 days, versus a typical 16-day ramp, and that Finn now handles over 40% of help.salesforce.com traffic while delivering 65% of resolutions without a human.\n\nHe also argues acquisitions can create huge distribution leverage. Slack, acquired in 2020, has become Salesforce's fastest-growing product and has grown to nearly three times its acquisition-time revenue, in part because it is a strong conversational interface for AI. Somorjai says Salesforce's service cloud foundation traces back to a 2008 acquisition, Instranet, and that the company has repeatedly used acquisitions to move faster than building alone.\n\nOn the investing side, Somorjai is openly skeptical of venture valuations. He says the universe of buyers above $10 billion is limited and that only about 1% or less of venture-backed companies go public, making a valuation reckoning inevitable for many startups. He ties that discipline to diligence, saying security and customer attrition are common deal-killers, and gives a harsh example where penetration testing exposed source code and even a CEO laptop.\n",
+      "key_takeaway": "Salesforce's distribution and acquisition platform can rapidly turn AI-native products into high-adoption, outcome-priced workflows, as shown by Finn and Slack.",
+      "tickers_mentioned": [
+        "CRM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 653,
+      "notable_quotes": [
+        {
+          "speaker": "John Somorjai",
+          "quote": "On our help.salesforce.com website, it's now handling over 40% of the traffic."
+        },
+        {
+          "speaker": "John Somorjai",
+          "quote": "And it is delivering 65% resolutions without going to a human."
+        },
+        {
+          "speaker": "John Somorjai",
+          "quote": "in fact, very, very few companies go public, probably 1% or less."
+        }
+      ]
+    },
+    {
       "id": 657,
       "title": "Why This Short Seller Doesn\u2019t Want to Short the AI Bubble | Russell Clark",
       "source_type": "podcast",
@@ -317,7 +381,7 @@
       "key_takeaway": "Huberman\u2019s most important claim is that personalized sleep, attention, and neurotechnology tools can materially improve cognition and performance, with sleep/wake manipulation likely the first commercial breakthrough.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-03",
       "archived_date": null,
@@ -442,7 +506,7 @@
       "key_takeaway": "Legora\u2019s edge is governed, citation-backed legal workflow automation that measurably improves citation accuracy and high-volume document review under enterprise privacy constraints.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-02",
       "archived_date": null,
@@ -15092,8 +15156,8 @@
       "term": "Context layer",
       "description": "The owned layer of user data, memories, and contacts that sits above raw model access and helps an agent stay useful over time. Town argues this should remain portable and customer-controlled.",
       "first_detected_date": "2026-10-19",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-11-06",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Portability and ownership of context may determine switching costs, retention, and enterprise trust in agent software.",
@@ -15102,8 +15166,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 590,
       "first_detected_speaker": "Jean-Denis Greze",
-      "last_mentioned_episode_id": 645,
-      "last_mentioned_speaker": "Martin Casado"
+      "last_mentioned_episode_id": 654,
+      "last_mentioned_speaker": "Ramtin Naimi"
     },
     {
       "id": 315,
@@ -15630,20 +15694,20 @@
     {
       "id": 284,
       "term": "Outcome-Based Pricing",
-      "description": "A pricing model where software is charged based on results, such as CPC or CPA, rather than seats or tokens. The hosts argue AI software may eventually migrate toward this model.",
+      "description": "A pricing model where customers pay for results or resolutions rather than only seats, licenses, or usage volume. It aligns vendor revenue with delivered business value.",
       "first_detected_date": "2026-09-02",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-11-06",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "A shift away from token-based pricing could expand TAM and improve monetization for vendors that can prove outcomes.",
+      "investment_implications": "Can support higher willingness to pay if AI systems reliably improve outcomes and reduce human labor.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 455,
       "first_detected_speaker": "Elon Musk",
-      "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
+      "last_mentioned_episode_id": 653,
+      "last_mentioned_speaker": "John Somorjai"
     },
     {
       "id": 283,
@@ -16082,8 +16146,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 66,
+      "last_mentioned_date": "2026-11-06",
+      "mention_count": 67,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -16092,8 +16156,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 652,
-      "last_mentioned_speaker": "Andy Constan"
+      "last_mentioned_episode_id": 654,
+      "last_mentioned_speaker": "Ramtin Naimi"
     },
     {
       "id": 256,
@@ -17774,8 +17838,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 145,
+      "last_mentioned_date": "2026-11-06",
+      "mention_count": 146,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -17784,8 +17848,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 646,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 654,
+      "last_mentioned_speaker": "Ramtin Naimi"
     },
     {
       "id": 38,

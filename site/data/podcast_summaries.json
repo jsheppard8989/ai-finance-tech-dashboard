@@ -1,5 +1,46 @@
 [
   {
+    "id": 654,
+    "podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "episode_title": "Ramtin Naimi on the State of Venture Investing - [Invest Like the Best, EP.499]",
+    "episode_date": "2026-11-06",
+    "summary": "Ramtin Naimi argues that venture markets have become faster and more structured around multi-tranche financings, with secondary tranches now often pricing at 3x to 5x instead of the 2x fast-follow pattern he associates with 2021. He says that is not automatically a sign of dysfunction, because many companies are so capital intensive that they need capital staged across primary and secondary tranches rather than all up front.\n\nHe is skeptical of simplistic private-market revenue comparisons, saying top-line figures can be distorted by annualized revenue, usage-based billing, data sales, and different margin structures. At the same time, he points to portfolio companies that are improving both growth and margins, citing a pattern of margins moving from negative 15% to positive 35% while revenue remains rapid.\n\nA major theme is that liquidity for LPs is concentrated in a few outsized names. Naimi says exposure to SpaceX, Anthropic, OpenAI, and Databricks is what meaningfully moves the needle for venture liquidity, and he argues many funds underestimated how quickly capital would need to be deployed and recycled. He also notes venture funds often raise for an 18-24 month deployment window, but deployment has effectively become about 3x faster than expected.\n\nOn AI, he says the constraint is less raw compute supply than the ability to match compute financing with the scale and risk of private frontier-model builders, or \"neo labs.\" He suggests the industry may need new capital structures such as debt or compute-linked vehicles, and he frames current valuation goalposts as having shifted toward trillion-dollar outcomes. He ends up broadly constructive on backing exceptional founders early, but warns that consensus strategies and untethered pricing can create risk.",
+    "key_takeaways": [
+      "Ramtin Naimi says secondary tranches are now often priced at 3x to 5x, not the 2x fast-follow pattern that was common in 2021.",
+      "Naimi argues tranche financing is often rational for capital-intensive companies, because they do not want to raise all their needs in one primary round.",
+      "He says private-market revenue growth is often misleading unless investors adjust for annualized revenue, usage models, data sales, and different margin structures.",
+      "Naimi points to portfolio companies moving from negative 15% margins to positive 35% margins while still growing quickly, showing that growth and profitability can improve together.",
+      "He says LP liquidity in venture is concentrated in a few \"needle-mover\" companies, especially SpaceX, Anthropic, OpenAI, and Databricks.",
+      "Naimi says venture funds are designed around 18-24 month deployment windows, but actual capital deployment has been about 3x faster than expected.",
+      "He argues AI compute financing will likely require new structures, because equity alone may be poorly matched to the spending patterns of frontier-model builders.",
+      "Naimi says venture pricing goalposts have shifted dramatically, with early-stage investors now thinking in trillion-dollar outcome terms and seeing far wider price dispersion.",
+      "He believes the best venture alpha still comes from backing exceptional founders early in non-obvious markets rather than chasing consensus deals.",
+      "Naimi cautions that consensus pricing strategies have become more common, which reduces their edge even if the underlying companies remain excellent."
+    ],
+    "investment_thesis": "The key claim is that venture returns increasingly depend on staging capital and underwriting a few AI-era needle-movers, not on broad exposure to headline revenue growth.",
+    "key_tickers": null
+  },
+  {
+    "id": 653,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Inside Salesforce\u2019s $100 Billion M&A Playbook | John Somorjai",
+    "episode_date": "2026-11-06",
+    "summary": "John Somorjai frames Salesforce's M&A and venture strategy as a disciplined way to accelerate customer value, distribution, and product adoption rather than a simple buy-and-integrate playbook. He says Salesforce starts with customer feedback and strategic fit, then checks whether the product can be scaled through Salesforce's 15,000 sales reps and 8,000+ partners, and whether the acquisition can fit the stack and team culturally.\n\nA major theme is Salesforce's shift toward headless access and outcome-based pricing. Somorjai says Salesforce products can be accessed through Slack and other surfaces, and that consumption and resolution-based pricing are becoming more important. He points to Finn as a proof point: Salesforce says it got Finn running internally in 14 days, versus a typical 16-day ramp, and that Finn now handles over 40% of help.salesforce.com traffic while delivering 65% of resolutions without a human.\n\nHe also argues acquisitions can create huge distribution leverage. Slack, acquired in 2020, has become Salesforce's fastest-growing product and has grown to nearly three times its acquisition-time revenue, in part because it is a strong conversational interface for AI. Somorjai says Salesforce's service cloud foundation traces back to a 2008 acquisition, Instranet, and that the company has repeatedly used acquisitions to move faster than building alone.\n\nOn the investing side, Somorjai is openly skeptical of venture valuations. He says the universe of buyers above $10 billion is limited and that only about 1% or less of venture-backed companies go public, making a valuation reckoning inevitable for many startups. He ties that discipline to diligence, saying security and customer attrition are common deal-killers, and gives a harsh example where penetration testing exposed source code and even a CEO laptop.\n",
+    "key_takeaways": [
+      "John Somorjai says Salesforce evaluates acquisitions first on customer value and strategic fit, then on whether they can be scaled through Salesforce's distribution engine.",
+      "John Somorjai says Salesforce has 15,000 sales reps and more than 8,000 partners, which he sees as a major advantage for commercializing acquisitions.",
+      "John Somorjai says Salesforce is moving toward consumption and outcome/resolution-based pricing, not just seat-based pricing.",
+      "John Somorjai says Finn was running internally in 14 days, handles over 40% of help.salesforce.com traffic, and resolves 65% of issues without a human.",
+      "John Somorjai says Slack is now almost three times the revenue it had when Salesforce bought it in 2020, and he calls it the perfect conversational interface for AI.",
+      "John Somorjai says venture valuations are often too high and that an inevitable reckoning will come because the buyer universe is limited and IPO exits are rare.",
+      "John Somorjai says security is one of 14 diligence functions and can kill deals outright if penetration testing finds major vulnerabilities."
+    ],
+    "investment_thesis": "Salesforce's distribution and acquisition platform can rapidly turn AI-native products into high-adoption, outcome-priced workflows, as shown by Finn and Slack.",
+    "key_tickers": [
+      "CRM"
+    ]
+  },
+  {
     "id": 650,
     "podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "episode_title": "Invesco\u2019s Private Credit CIO Eyes \u2018Equity-Like\u2019 Returns in Loans",
