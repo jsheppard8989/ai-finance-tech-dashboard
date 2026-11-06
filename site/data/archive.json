@@ -270,6 +270,44 @@
       ]
     },
     {
+      "id": 663,
+      "title": "Growth Expectations Are Probably Too High | Andy Constan on Post-Midterms Macro View, Bond Supply Issue, and QRA (Quarterly Refunding Announcement)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-04",
+      "summary": "The episode centers on a macro view that post-election fiscal gridlock reduces the odds of major new stimulus, making fiscal policy marginally contractionary rather than expansionary. Andy Constan argues that the absence of unified political conditions for large fiscal action means the economy is now more likely to be dragged by gridlock than boosted by fresh spending.\n\nConstan\u2019s bond framework is that yields are primarily driven by growth expectations and inflation expectations, with supply/demand as an additional edge. He says bonds have become more investable again after the early-October rally, but he also warns that the market is still sensitive to Treasury issuance, the Quarterly Refunding Announcement, and any policy intervention around long-end yields.\n\nOn the Treasury side, he highlights Scott Bessent\u2019s long-end buyback program, saying the pace was increased on August 18 from roughly $64 billion per year to about $192 billion per year for 20s and 30s, and that the QRA maintained that pace rather than escalating it further. His takeaway is that Treasury is not abandoning support, but also not aggressively doubling down.\n\nOn risk assets, Constan is neutral on equities in the near term and thinks growth expectations are too high for the next 3\u20136 months. He frames recent AI and semiconductor weakness less as a permanent collapse in AI demand and more as a repricing of broad growth and earnings expectations, while also noting that some AI infrastructure names have seen sharp drawdowns.\n\nHe also argues that the corporate buyback regime may be shifting materially: net share reduction has long been around 2% of GDP, but could move toward roughly 0% next year. In AI, he says serving large language models can be profitable, citing Anthropic, but rising compute costs and falling token prices are key headwinds.",
+      "key_takeaway": "Growth expectations are too high for the next 3\u20136 months, while Treasury buybacks and net equity supply shifts are becoming more important to cross-asset pricing.",
+      "tickers_mentioned": [
+        "MSFT",
+        "META",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "PLTR"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 652,
+      "notable_quotes": [
+        {
+          "speaker": "Andy Constan",
+          "quote": "my bet today is that we're going to see a period of you know three to six months we're going to see a disappointment relative to growth expectations."
+        },
+        {
+          "speaker": "Andy Constan",
+          "quote": "as of August 18th when he increased the size of the long-term bond buyback program which already was buying roughly $64 billion worth of 20 is 20 and 30 year bonds per year that's the pace he increased that to $192 billion per year pace"
+        },
+        {
+          "speaker": "Andy Constan",
+          "quote": "I will say that it was an open question to me about whether the business of serving token being a large language model was a profitable business and and thropic in Q2 and Q3 showwed that the answer to that question is yes."
+        }
+      ]
+    },
+    {
       "id": 653,
       "title": "Andrew Huberman\u2019s Three Rules for Better Health and Focus",
       "source_type": "podcast",
@@ -373,7 +411,7 @@
         "HYG"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-02",
       "archived_date": null,
@@ -14870,6 +14908,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 326,
+      "term": "Blue tsunami",
+      "description": "The episode\u2019s framing for a strong Democratic election result that increases congressional leverage over foreign policy and war funding. It is used as a political regime-shift concept rather than just an election label.",
+      "first_detected_date": "2026-11-05",
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Could alter energy risk premia, defense policy, and geopolitical uncertainty pricing across oil, gold, and defense-related assets.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 649,
+      "first_detected_speaker": "Michael Every",
+      "last_mentioned_episode_id": 652,
+      "last_mentioned_speaker": "Andy Constan"
+    },
+    {
       "id": 325,
       "term": "Fences",
       "description": "A permissioning model that separates data and actions across domains such as personal and work systems. The idea is to let agents be useful without letting them cross into unsafe or unwanted contexts.",
@@ -14982,8 +15038,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-11-03",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -14992,8 +15048,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 643,
-      "last_mentioned_speaker": "Zach Lloyd"
+      "last_mentioned_episode_id": 652,
+      "last_mentioned_speaker": "Andy Constan"
     },
     {
       "id": 314,
@@ -16026,8 +16082,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-05",
-      "mention_count": 65,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 66,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -16036,8 +16092,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 650,
-      "last_mentioned_speaker": "Scott Baskind"
+      "last_mentioned_episode_id": 652,
+      "last_mentioned_speaker": "Andy Constan"
     },
     {
       "id": 256,
@@ -16188,8 +16244,8 @@
       "term": "AI CapEx",
       "description": "Large-scale capital spending on AI infrastructure, including GPUs, custom accelerators, data centers, power projects, memory, chips, and construction capacity. In this episode, it centers on Amazon's expected $220 billion of 2026 capex and AWS's plan to buy 2 million Nvidia GPUs over the next couple of years.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-11-02",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It reframes cloud growth around physical supply chains, power availability, depreciation risk, and multi-year infrastructure planning.",
@@ -16198,8 +16254,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 639,
-      "last_mentioned_speaker": "Michael Howell"
+      "last_mentioned_episode_id": 652,
+      "last_mentioned_speaker": "Andy Constan"
     },
     {
       "id": 234,
@@ -17448,8 +17504,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-11-05",
-      "mention_count": 54,
+      "last_mentioned_date": "2026-11-04",
+      "mention_count": 55,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -17458,8 +17514,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 649,
-      "last_mentioned_speaker": "Michael Every"
+      "last_mentioned_episode_id": 652,
+      "last_mentioned_speaker": "Andy Constan"
     },
     {
       "id": 26,

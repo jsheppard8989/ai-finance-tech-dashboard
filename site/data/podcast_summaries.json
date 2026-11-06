@@ -77,6 +77,31 @@
     ]
   },
   {
+    "id": 652,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Growth Expectations Are Probably Too High | Andy Constan on Post-Midterms Macro View, Bond Supply Issue, and QRA (Quarterly Refunding Announcement)",
+    "episode_date": "2026-11-04",
+    "summary": "The episode centers on a macro view that post-election fiscal gridlock reduces the odds of major new stimulus, making fiscal policy marginally contractionary rather than expansionary. Andy Constan argues that the absence of unified political conditions for large fiscal action means the economy is now more likely to be dragged by gridlock than boosted by fresh spending.\n\nConstan\u2019s bond framework is that yields are primarily driven by growth expectations and inflation expectations, with supply/demand as an additional edge. He says bonds have become more investable again after the early-October rally, but he also warns that the market is still sensitive to Treasury issuance, the Quarterly Refunding Announcement, and any policy intervention around long-end yields.\n\nOn the Treasury side, he highlights Scott Bessent\u2019s long-end buyback program, saying the pace was increased on August 18 from roughly $64 billion per year to about $192 billion per year for 20s and 30s, and that the QRA maintained that pace rather than escalating it further. His takeaway is that Treasury is not abandoning support, but also not aggressively doubling down.\n\nOn risk assets, Constan is neutral on equities in the near term and thinks growth expectations are too high for the next 3\u20136 months. He frames recent AI and semiconductor weakness less as a permanent collapse in AI demand and more as a repricing of broad growth and earnings expectations, while also noting that some AI infrastructure names have seen sharp drawdowns.\n\nHe also argues that the corporate buyback regime may be shifting materially: net share reduction has long been around 2% of GDP, but could move toward roughly 0% next year. In AI, he says serving large language models can be profitable, citing Anthropic, but rising compute costs and falling token prices are key headwinds.",
+    "key_takeaways": [
+      "Andy Constan says the election outcome implies gridlock, reducing the odds of major fiscal expansion and making fiscal policy modestly contractionary.",
+      "Constan\u2019s base case is not recession, but a 3\u20136 month period of disappointment versus currently elevated growth expectations.",
+      "He argues bond yields are driven mainly by growth expectations and inflation expectations, with Treasury supply/demand as an extra edge.",
+      "Constan says Treasury\u2019s long-end buyback pace was raised from about $64 billion per year to about $192 billion per year on August 18 and then maintained in the QRA.",
+      "He believes equities are range-bound and near-term neutral, with options dangerous in low-volatility regimes.",
+      "Constan says the AI trade has not fully \u201cpopped\u201d at the index level, but semis and AI infrastructure names have seen sharp drawdowns as growth expectations reset.",
+      "He warns that corporate share repurchases may be moving from a roughly 2% of GDP support regime toward near 0% of GDP next year, which could change equity supply dynamics."
+    ],
+    "investment_thesis": "Growth expectations are too high for the next 3\u20136 months, while Treasury buybacks and net equity supply shifts are becoming more important to cross-asset pricing.",
+    "key_tickers": [
+      "MSFT",
+      "META",
+      "NVDA",
+      "GOOGL",
+      "AMZN",
+      "PLTR"
+    ]
+  },
+  {
     "id": 651,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "\u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
