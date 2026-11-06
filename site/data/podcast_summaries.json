@@ -1,5 +1,122 @@
 [
   {
+    "id": 650,
+    "podcast_name": "The Credit Edge by Bloomberg Intelligence",
+    "episode_title": "Invesco\u2019s Private Credit CIO Eyes \u2018Equity-Like\u2019 Returns in Loans",
+    "episode_date": "2026-11-05",
+    "summary": "Scott Baskind argues that private credit should be viewed alongside public credit rather than as a standalone winner, because dislocations in public spreads create opportunities on the private side. He says the key edge in private credit is not just yield, but structural protections, covenant discipline, and matching liquidity to the asset profile.\n\nHe frames current non-investment-grade private credit yields as roughly SOFR plus 475 to 575 basis points, with the illiquidity premium generally around 150 to 250 basis points and likely to normalize toward about 200 basis points wide by Q4 as markets stabilize and issuance stays constructive. He also notes that yields were wider in 2023, when normal transactions could reach SOFR plus 600 basis points and overall yields were north of 12%.\n\nOn risk, Baskind says the market\u2019s stress over the last year-plus began as a liquidity issue, but AI is now creating more direct operating stress in certain leveraged technology and software businesses. He emphasizes that outcomes are increasingly bifurcated: strong businesses with good cash flow and balance sheets can perform well through stress, while challenged businesses and questionable business models face weaker recoveries regardless of capital stack.\n\nHe also makes the case that CLOs remain the bedrock of the leveraged loan market, with demand likely north of 70% today, up from around 50% pre-GFC and 60% to 70% around 2020. He expects some growth in trading and retail access through funds and interval structures, but he does not expect private credit to converge fully with public credit because the structural and correlation differences will remain.\n\nThe episode is broadly constructive on private credit but not complacent: Baskind\u2019s core message is that disciplined underwriting, senior-secured positioning, and liquidity matching matter more than chasing upside, especially in an environment of elevated rates, refinancing pressure, and sector-specific AI disruption.",
+    "key_takeaways": [
+      "Scott Baskind said private credit and public credit should be analyzed together, because spread widening in public markets can create opportunity in private markets.",
+      "Scott Baskind said the private credit market is currently around SOFR plus 475 to 575 basis points, which he views as the middle of the historical range.",
+      "Scott Baskind expects the illiquidity premium for leveraged non-investment-grade private loans to normalize toward about 200 basis points wide by Q4.",
+      "Scott Baskind said the market\u2019s stress over the last year-plus started mainly as a liquidity challenge, not initially as a pure credit problem.",
+      "Scott Baskind said AI is now starting to affect corporate performance directly, especially in leveraged technology and software where the cushion is deteriorating.",
+      "Scott Baskind said CLOs are \u201cthe bedrock of the asset class\u201d and likely represent north of 70% of demand today.",
+      "Scott Baskind said strong businesses with good cash flow and operations have produced very good lender outcomes, while weaker business models can suffer poor recoveries regardless of where they sit in the capital structure."
+    ],
+    "investment_thesis": "Private credit remains attractive because Baskind expects today\u2019s illiquidity premium and SOFR-plus yields to stay compelling while disciplined underwriting and CLO demand support returns.",
+    "key_tickers": null
+  },
+  {
+    "id": 649,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #557 Michael Every: The Blue Tsunami Lands on Markets... and Geopolitics",
+    "episode_date": "2026-11-05",
+    "summary": "The episode argues that the U.S. midterm result, framed as a \u201cblue tsunami,\u201d materially changes the geopolitical operating environment by increasing Congress\u2019s role in constraining war funding and approval. Michael Every\u2019s core contention is that foreign policy is now more politically bounded, making it harder for the U.S. to sustain or escalate conflicts in the Middle East and potentially in Russia-Ukraine. He frames this as a structural shift, not a one-off election effect.\n\nEvery says the key question is whether the U.S. can still act as a global enforcer if domestic politics increasingly blocks intervention. He suggests that if the U.S. steps back, regional actors may fill the vacuum, with consequences for Israel, Iran, and broader instability. He also downplays near-term nuclear risk, saying it is not something to \u201close too much sleep over\u201d for the moment, while still acknowledging escalation pathways remain live.\n\nA major market implication is that energy and macro pricing may not yet reflect the full geopolitical shift. The guest and trading desk discuss oil, refining margins, gold, the dollar, and bonds as cross-asset signals, arguing that the bond market has not yet confirmed a durable regime change. They also discuss data center pauses in multiple states and possible tariff regime changes, with the view that tariffs may be reshaped rather than eliminated.\n\nPatrick Suresna adds a tactical trade idea in Marathon Petroleum (MPC), arguing the stock\u2019s sharp sell-off may have overshot the fundamental impact of lower crude because refining margins can stay supported if refining capacity remains constrained. He points to a recent oil correction, elevated spread dynamics, and proposes a December 18, 2026 390/450 bull call spread. He also treats gold\u2019s move above $4,000 as an oversold bounce rather than proof of a new bull market.",
+    "key_takeaways": [
+      "Michael Every said the election outcome could make the U.S. a \u201cgreatly constrained geopolitical actor\u201d because Congress may no longer tolerate normal foreign-policy adventures.",
+      "Every argued that Congress\u2019s \u201cpower of the purse\u201d can make U.S. wars harder to sustain, especially once the new Congress starts in January.",
+      "Every said Israel may face a changed strategic environment if the U.S. is less willing or able to back it in a regional conflict.",
+      "Every said nuclear use is unlikely \u201cfor the moment,\u201d even though rhetoric and escalation risk remain part of the backdrop.",
+      "Every said data centers are likely to be paused in \u201ca bunch of states,\u201d implying policy pressure is becoming a real operational constraint.",
+      "Patrick Suresna said MPC\u2019s decline looks like an overshoot and laid out a December 18, 2026 390/450 bull call spread to express a rebound view.",
+      "Suresna said the post-election move in oil was an $18 peak-to-trough correction, but the lack of matching moves in bonds and the dollar suggests the macro regime shift is not fully confirmed."
+    ],
+    "investment_thesis": "Congressional constraints on U.S. foreign policy could keep energy risk premia and refining margins elevated longer than markets expect, supporting a tactical rebound in MPC.",
+    "key_tickers": [
+      "MPC"
+    ]
+  },
+  {
+    "id": 648,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
+    "episode_date": "2026-11-05",
+    "summary": "Praveer Mulwani argues that AI is changing finance from a backward-looking \u201ctraffic cop\u201d into a forward-looking business enabler, with the biggest gains coming from removing repetitive reconciliation and collections work. He says the bottleneck is not model capability alone but data readiness: in his view, roughly 95% of the challenge is getting the data in the right place before AI can be useful.\n\nAt Figma, he describes automation already reaching credit and collections workflows, corporate finance reconciliation across multiple systems, and corporate development diligence where AI can prototype acquisition targets and simulate leadership-team reactions before presentations. He also says some of these tasks can move from days or weeks to minutes or even hours, which materially changes how finance teams operate.\n\nMulwani repeatedly stresses that AI should augment, not replace, human judgment. He argues people should not outsource their thinking, that outputs need review and simplification barriers, and that audit-ready trustworthiness is the standard for deeper automation. In his view, deterministic tasks should be automated first, while more ambiguous work still needs human accountability.\n\nLooking ahead 12\u201318 months, he expects more partial automation, faster workflows, and potentially less need for headcount growth if complexity does not increase. He also thinks Excel will remain central because it helps people organize their thoughts and build trust, even as AI tools increasingly handle the tedious parts of finance work.",
+    "key_takeaways": [
+      "Praveer Mulwani says AI is shifting finance from explaining the past to deciding what happens next.",
+      "Mulwani frames the organizational change as moving finance from a \u201ctraffic cop\u201d to a business enabler.",
+      "He estimates about 95% of the challenge in AI-driven reconciliation is simply getting data into the right place.",
+      "He says Figma has automated collections and can reconcile messy corporate finance data across systems in minutes.",
+      "Mulwani says corporate development can use AI to prototype acquisition targets and simulate investment discussions before presenting.",
+      "He argues finance teams should not outsource thinking and should keep humans accountable for review and verification.",
+      "He says Excel remains important because it helps organize thinking and build trust, and he does not expect it to disappear soon."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that finance automation will be constrained more by data readiness and auditability than by AI model power, making workflow and governance infrastructure the key winners.",
+    "key_tickers": null
+  },
+  {
+    "id": 647,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why This Short Seller Doesn\u2019t Want to Short the AI Bubble | Russell Clark",
+    "episode_date": "2026-11-05",
+    "summary": "Russell Clark argues that the post-midterm political and market setup should be read less as a temporary cyclical disinflation story and more as a structural regime of persistent fiscal support, higher wages, and stickier inflation. He says voters wanted \u201cmore money,\u201d and that policy choices around immigration, oil, and benefit cuts weakened Trump\u2019s coalition while reinforcing a shift toward more spending.\n\nOn inflation, Clark\u2019s central point is that wages\u2014not oil\u2014are the real long-duration driver now. He says inflation is \u201cnot cyclical anymore,\u201d because governments keep pushing wages higher and labor costs feed through to the economy. He also suggests that if the Fed or markets focus only on oil, they may misread the regime and get the long end of the bond market wrong.\n\nA major portion of the discussion is about AI and data-center capex. Clark is skeptical that a short thesis is compelling right now, saying there is no \u201csmoking gun\u201d that funding is drying up. He argues hyperscalers are still booked out, GPU/cloud/rental prices are not collapsing, and capital markets remain willing to fund buildout even when credit is expensive. He also says political efforts to block data-center construction may not work because the strategic competition with China, Europe, and Japan keeps the buildout going.\n\nClark also highlights crowding-out effects from AI-related issuance and a broader scarcity of capital. In his view, huge equity and debt raises by AI-linked firms can pressure other corporate borrowers and sectors, raising funding costs and potentially compressing margins. He points to homebuilders as one area where higher labor, energy, and financing costs could cut margins from about 15% toward 5%\u20137%, which could trigger a derating. By contrast, he likes select Japanese banks and sees Apple as an example of a big tech company that is comparatively insulated because it is returning capital via buybacks rather than joining the AI capex arms race.",
+    "key_takeaways": [
+      "Russell Clark says the post-midterm outcome reflects voters wanting \"more money,\" not a clean endorsement of any policy platform.",
+      "Clark argues inflation is now structurally wage-driven and \"not cyclical anymore,\" because governments keep pushing wages higher.",
+      "Clark says the AI/data-center short case lacks a \"smoking gun\" because demand remains strong and funding is still available.",
+      "Clark says hyperscalers are \"fully booked out\" and that attempts to stop data-center construction may fail because strategic competition keeps the buildout going.",
+      "Clark argues AI-related equity and debt issuance may be crowding out other corporate borrowers by draining liquidity from the broader market.",
+      "Clark says homebuilder margins could compress from roughly 15% to 5%\u20137% if rates, labor, and energy costs stay high.",
+      "Clark says Apple stands out among big tech because it has done relatively little capex and is instead returning about $25 billion to $28 billion to shareholders through buybacks."
+    ],
+    "investment_thesis": "The key claim is that AI capex is still being funded and should not yet be shorted because demand and capital-market support remain stronger than the bear case assumes.",
+    "key_tickers": [
+      "ORCL",
+      "AAPL"
+    ]
+  },
+  {
+    "id": 651,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
+    "episode_date": "2026-11-04",
+    "summary": "This episode centers on AIEi Shanghai, framed as the first AI Engineer conference in China, and uses it as a case study in how AI communities are crossing borders through local ownership, partnerships, and shared publishing. The guest says Shanghai brought the event to Shanghai, not the reverse, and emphasizes that the conference is scaling through a franchise-like model that preserves brand standards while letting local organizers run the event.\n\nA major theme is that the AI engineer discipline is relatively stable, but the hot topics inside it keep changing: from RAG to agents, harnesses, memory, and loop engineering. The guest argues that the most useful AI systems should be \"system one models\" and \"smarter software\"\u2014models embedded into code paths instead of isolated in a chat window. They also highlight underappreciated areas like interaction models, full-duplex interruptible systems, and continual learning.\n\nThe episode makes a strong economic claim: SaaS, especially SMB-focused SaaS, is increasingly vulnerable because coding agents can clone and customize workflows faster than vendors can ship support. The guest gives a concrete example of spending $40,000 on conference software, paying $10,000 to clone a slow vendor product, and ending up with 69 submissions in a competition, only about five of which were actually usable. Their broader point is that if a business owner can recreate the needed functionality quickly, the vendor's moat weakens sharply.\n\nThere is also a darker macro view. The guest warns that the biggest near-term risk is not just job displacement but safety, cybersecurity, and extreme misuse, including bio-weapon-like scenarios. They also say an AI winter could be the longest in human history and could bankrupt hype-dependent companies. Overall, the discussion is bullish on AI engineering as a field, but neutral-to-bearish on the durability of generic SaaS business models.",
+    "key_takeaways": [
+      "The guest says AIEi Shanghai is the first AI Engineer conference in China and that Shanghai organizers brought it locally, underscoring demand and cultural momentum.",
+      "The guest argues that in tech, learning in public increases value, unlike finance where knowledge can be zero-sum.",
+      "The guest says the AI engineer role is stable, but the trending subtopics move from RAG to agents, harnesses, memory, and loop engineering.",
+      "The guest warns that SMB-focused SaaS is exposed because coding agents can clone and customize products faster than vendors can respond.",
+      "The guest says the right architecture is \"system one models\" and smarter software that embeds models into code paths rather than using a separate chatbot window.",
+      "The guest highlights interaction models and continual learning as underappreciated areas with meaningful product implications.",
+      "The guest says AI safety and cybersecurity, including extreme misuse scenarios, are more urgent risks than simple job loss."
+    ],
+    "investment_thesis": "Coding agents may compress SaaS moats by enabling fast cloning and customization, making embedded AI tooling and defensible data/integration layers more valuable.",
+    "key_tickers": null
+  },
+  {
+    "id": 646,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Big Tech\u2019s $3T AI Bet, Claude Writes 90% of Anthropic\u2019s Code, AIs Editing AI Brains | EP #308",
+    "episode_date": "2026-11-04",
+    "summary": "The episode centers on the claim that AI capability is outpacing institutional readiness across politics, business, security, and space infrastructure. Peter Diamandis argues that by 2028 most voters will consult AI agents before making ballot decisions, saying AI influence is already embedded through human intermediaries rather than requiring \u201cAI personhood\u201d in the legal sense.\n\nA major theme is the scale of AI capex. Diamandis says five companies\u2014Alphabet, Meta, Microsoft, Amazon, and Oracle\u2014have disclosed more than $3 trillion in combined commitments for AI power and equipment, with Google alone over $1 trillion and Meta over $800 billion. He contrasts that with Apollo\u2019s roughly $280 billion inflation-adjusted cost and says chip demand may remain nearly unlimited for 3-5 years unless a radical computing shift arrives.\n\nThe episode also highlights accelerating model performance and recursive self-improvement. Diamandis cites Life Val and GDPX benchmarks to argue that AI is improving on everyday tasks and complex work, and he points to Anthropic\u2019s internal metrics\u2014cloud allegedly writing more than 90% of September code and internal usage growing more than 250x\u2014as evidence that software development is becoming increasingly machine-driven. He frames new work on directly editing neural network weights as a possible shortcut to interpretability and self-improvement.\n\nBeyond AI, the discussion touches on cybersecurity and industrial risk, including remote hacks of supermarket fridges and freezers that allegedly raised temperatures to 55\u00b0C, causing real losses. The episode closes with space-race milestones\u2014Artemis III in 2027 and Artemis IV in 2028\u2014and the idea that competition with China could prevent another decades-long pause in lunar exploration.",
+    "key_takeaways": [
+      "Peter Diamandis says by 2028 almost everybody will consult AI agents before making election decisions.",
+      "Peter Diamandis says Alphabet, Meta, Microsoft, Amazon, and Oracle have disclosed more than $3 trillion in combined AI infrastructure commitments.",
+      "Peter Diamandis says Google alone is committing over $1 trillion, which he describes as nearly eight times last year\u2019s figure.",
+      "Peter Diamandis says chip demand could stay near-infinite for 3-5 years unless a radical new computation paradigm arrives.",
+      "Peter Diamandis says Anthropic\u2019s internal cloud usage reportedly grew more than 250x from January to September and cloud now writes more than 90% of September code.",
+      "Peter Diamandis argues that editing just 0.016% of neural-network weights could materially improve a model without retraining, which he sees as a breakthrough for interpretability and recursive self-improvement.",
+      "Peter Diamandis says remote cyberattacks on supermarket fridges and freezers show that internet-connected industrial devices can cause direct physical and economic damage."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that AI capex, agentic workflows, and recursive self-improvement are accelerating fast enough to create massive infrastructure winners while raising systemic cyber and governance risks.",
+    "key_tickers": [
+      "GOOGL",
+      "META",
+      "AAPL"
+    ]
+  },
+  {
     "id": 645,
     "podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "episode_title": "Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
