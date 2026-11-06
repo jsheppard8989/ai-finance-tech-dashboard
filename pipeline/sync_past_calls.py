@@ -1,10 +1,10 @@
 """Sync past calls from G's record into the Trap Map, and report (never fix) row differences.
 
   python3 pipeline/sync_past_calls.py            # --preview (default): writes ONLY under /tmp/preview
-  python3 pipeline/sync_past_calls.py --apply    # writes site/data/trap_map.json, then rebuild with build_trap_map.py
+  python3 pipeline/sync_past_calls.py --apply    # archive-only: writes the internal archive, never site/
 
 Source: /workspace/cos/grading/past_calls.json (override with --source). Every entry must pass
-trap_map_check.check_past_calls (ticker, outcome_text, exit_reason, evidence_url). --apply publishes only
+trap_map_check.check_past_calls (ticker, outcome_text, exit_reason, evidence_url). --apply archives only
 entries that pass and lists the held-back ones; --preview renders every entry, marking missing evidence.
 The row reconcile compares the site's open rows with the local row-trades file and only prints differences.
 """

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Trap Map validator (separate from publish_guard.py). Fails the build on a bad site/data/trap_map.json.
+"""Trap Map validator (separate from publish_guard.py). Fails the historical build on invalid archived trap_map.json.
 
 Checks, per row:
   - a primary link (event.link; a relative link must exist under site/)
@@ -31,7 +31,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
-DATA = SITE / "data" / "trap_map.json"
+DATA = ROOT / "pipeline" / "private_archive" / "trap_map" / "trap_map.json"
 # Kept here, not in the public JSON (the list itself would trip the site style gate).
 ALWAYS_BANNED = ("bet", "bets", "betting", "thin", "ATM", "going-concern", "going concern", "RPO", "Scout", "IV",
                  "convert", "agent", "grade", "grades", "graded", "grading")

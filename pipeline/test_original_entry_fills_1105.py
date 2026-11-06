@@ -11,7 +11,7 @@ import pytest
 import build_trap_map
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "site/data/trap_map.json"
+DATA = ROOT / "pipeline/private_archive/trap_map/trap_map.json"
 # Opening snapshots documented by the Nov 5 entry-fill audit.
 ENTRIES = {
     "ASTS": ("3.30", "3.60", "1.03", "1.28", 7, 43, 37, 1670.67),

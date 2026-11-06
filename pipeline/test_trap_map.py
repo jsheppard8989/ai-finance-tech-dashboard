@@ -15,7 +15,7 @@ import build_trap_map  # noqa: E402
 import fetch_trap_map_prices as fp  # noqa: E402
 import trap_map_check as tc  # noqa: E402
 
-DATA = json.loads((PIPE.parent / "site" / "data" / "trap_map.json").read_text(encoding="utf-8"))
+DATA = json.loads((PIPE.parent / "pipeline" / "private_archive" / "trap_map" / "trap_map.json").read_text(encoding="utf-8"))
 TODAY = date(2026, 10, 30)
 
 
@@ -180,8 +180,8 @@ class TestBuild(unittest.TestCase):
         self.assertTrue(any("frmi-q3: change" in x for x in e), e)
         self.assertTrue(any("totals.value" in x for x in e), e)
 
-    def test_page(self):
-        page = (PIPE.parent / "site" / "trap-map.html").read_text(encoding="utf-8")
+    def test_archived_page_and_home_strip(self):
+        page = (PIPE.parent / "pipeline" / "private_archive" / "trap_map" / "trap-map.html").read_text(encoding="utf-8")
         text = re.sub(r"<[^>]+>", " ", page)
         self.assertNotRegex(text, r"(?i)\b(bet|thin)\b")
         self.assertNotRegex(text, r"(?i)grad(e|ed|es|ing)\b")
@@ -201,7 +201,7 @@ class TestBuild(unittest.TestCase):
         self.assertIn('href="mu-memory-cycle.html"', page)
         self.assertIn("healthcare.html", page)
         self.assertIn("Nov 13 expiry", page)
-        idx = (PIPE.parent / "site" / "index.html").read_text(encoding="utf-8")
+        idx = build_trap_map.INDEX.read_text(encoding="utf-8")
         self.assertIn('id="trap-map-strip"', idx)
         self.assertEqual(idx.count("TRAP_STRIP:START"), 1)
         strip = idx[idx.index("TRAP_STRIP:START"):idx.index("TRAP_STRIP:END")]
@@ -459,7 +459,7 @@ def test_lrcx_cash_secured_put_row():
     import json as _j
     from pathlib import Path as _P
     import trap_map_check as _c
-    d = _j.loads((_P(__file__).resolve().parent.parent / "site/data/trap_map.json").read_text())
+    d = _j.loads((_P(__file__).resolve().parent.parent / "pipeline/private_archive/trap_map/trap_map.json").read_text())
     r = next(x for x in d["rows"] if x["id"] == "lrcx-put")
     t = r["trade"]
     assert _c.is_short_put(r) and _c.expected_direction(r) == "Net long" and r["lean"] == "Positive"
@@ -481,7 +481,7 @@ def test_gev_power_call_spread_row():
     """GEV Jan 15 2027 860/900 call debit spread; links to power-bottleneck research."""
     import json
     from pathlib import Path
-    d = json.loads((Path(__file__).resolve().parent.parent / "site" / "data" / "trap_map.json").read_text())
+    d = json.loads((Path(__file__).resolve().parent.parent / "pipeline" / "private_archive" / "trap_map" / "trap_map.json").read_text())
     r = next(x for x in d["rows"] if x["id"] == "gev-power")
     assert r["ticker"] == "GEV" and r["direction"] == "Net long" and r["lean"] == "Positive"
     t = r["trade"]
@@ -494,6 +494,6 @@ def test_gev_power_call_spread_row():
     assert r["research"]["url"].endswith("power-bottleneck.html")
     assert "earns its $2,580 maximum profit" in r["what_proves_it"]
     assert "pays its $2,580 maximum" not in r["what_proves_it"]
-    page = (Path(__file__).resolve().parent.parent / "site" / "trap-map.html").read_text(encoding="utf-8")
+    page = (Path(__file__).resolve().parent.parent / "pipeline" / "private_archive" / "trap_map" / "trap-map.html").read_text(encoding="utf-8")
     assert 'id="gev-power"' in page and "power-bottleneck.html" in page
     assert "$860 / $900" in page and "$1,420" in page

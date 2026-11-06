@@ -1456,7 +1456,9 @@ def _main():
             )
 
         run_script("Fetch Prices", "fetch_prices.py", timeout=120)
-        run_script("Fetch Portfolio Prices", "fetch_portfolio_prices.py", timeout=120)
+        # Nov 5 retirement: portfolio.json is a frozen historical basket record.
+        # Do not reprice it or turn the public research essay into a live portfolio.
+        print("Portfolio basket record is frozen; skipping price refresh")
         # Market-data cards (Compute Forward, Curve, Treasury calendar) are
         # refreshed by the GitHub Actions workflow .github/workflows/market-data.yml
         # (public sources, no secrets). The Mac skips them by default so the two

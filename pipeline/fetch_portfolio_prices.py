@@ -44,7 +44,13 @@ EXIT_FIELDS = ("exit", "exit_date", "expiry")
 
 
 def update_portfolio():
-    """Update portfolio prices and compute current values."""
+    """Legacy internal updater; the retired public basket record is frozen."""
+    root = Path(__file__).resolve().parent.parent
+    public_record = root / "site" / "data" / "portfolio.json"
+    retirement = root / "pipeline" / "private_archive" / "trap_map" / "manifest.json"
+    if retirement.is_file() and PORTFOLIO_FILE.resolve() == public_record.resolve():
+        print("Historical portfolio.json is frozen; no quotes fetched and nothing written")
+        return True
     print("=" * 60)
     print("Fetching Portfolio Prices")
     print(f"Started: {datetime.now()}")
