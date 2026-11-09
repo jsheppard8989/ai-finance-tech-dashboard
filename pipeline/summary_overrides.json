@@ -2029,7 +2029,7 @@
     {
       "insight_id": 658,
       "podcast_episode_id": 646,
-      "_note": "Nov 5 2026 evening publish unblock: new Deep Dive 658 META risk reintroduced 'capex intensity' (publish_guard attributed it to summaries[618]/[647] pairs). Same plain-wording fix, scoped to this card. Nov 9 2026 G daily check (sweep_1109): Claude (not cloud); LifeVal named on episode. Nov 9 Tony afternoon sweep: GDPX is ASR for OpenAI's GDPval (openai.com/gdpval); also covers DD 658 catalysts/falsifiers via global_name_replacements.",
+      "_note": "Nov 5 2026 evening publish unblock: new Deep Dive 658 META risk reintroduced 'capex intensity' (publish_guard attributed it to summaries[618]/[647] pairs). Same plain-wording fix, scoped to this card. Nov 9 2026 G daily check (sweep_1109): Claude (not cloud); LifeVal named on episode. Nov 9 Tony afternoon sweep: GDPX is SemiAnalysis GDPx (gdpx.semianalysis.com), confirmed by G against EP #308 — distinct from OpenAI's similarly named GDP-val test; also covers DD 658 catalysts/falsifiers via global_name_replacements.",
       "replacements": [
         [
           "capex intensity",
@@ -2041,11 +2041,11 @@
         ],
         [
           "Life Val and GDPX benchmarks",
-          "LifeVal and GDPval benchmarks"
+          "LifeVal and GDPx benchmarks"
         ],
         [
           "LifeVal and GDPX benchmarks",
-          "LifeVal and GDPval benchmarks"
+          "LifeVal and GDPx benchmarks"
         ]
       ]
     },
@@ -3788,7 +3788,7 @@
     ],
     [
       "GDPX",
-      "GDPval"
+      "GDPx"
     ]
   ],
   "name_replacements": [
