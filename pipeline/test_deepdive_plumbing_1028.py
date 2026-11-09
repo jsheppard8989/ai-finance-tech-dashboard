@@ -85,12 +85,33 @@ def test_one_named_plus_generic_still_fails():
     ("Ant (Supabase): agents pick Postgres", True),
     ("Katelyn Lesse: we ship the platform", True),
     ("J Mintzmyer: the oil must flow", True),
+    ("David Vélez: Nubank has 120 million customers", True),  # accented Latin (Nov 9 2026)
+    ("Host: generic role label", True),  # matches RE; structural filter still rejects
+    ("Guest: generic role label", True),
     ("pam: lower-case is not a label", False),
     ("Pam:", False),  # label with no quote text
     ("The market (broadly): is not a speaker", False),  # lower-case second token
+    ("Dwarkesh Podcast host (Dwarkesh): bad role word", False),  # lowercase role mid-name
 ])
 def test_speaker_line_re(line, match):
     assert bool(SPEAKER_LINE_RE.match(line)) is match
+
+
+def test_accented_speaker_passes_structural():
+    """David Vélez must count as a named speaker; Host/Guest must not."""
+    velez = (
+        'David Vélez: "If you look at global consumer financial services, it is about a $10 trillion industry."\n'
+        'David Vélez: "In terms of scale, we now have in Brazil close to 120 million customers."'
+    )
+    ok, reason = deep_dive_structural_ok(_content(velez))
+    assert ok, reason
+    host_guest = (
+        'Host: "If you look at global consumer financial services, it is about a $10 trillion industry."\n'
+        'Guest: "In terms of scale, we now have in Brazil close to 120 million customers."'
+    )
+    ok, reason = deep_dive_structural_ok(_content(host_guest))
+    assert not ok
+    assert "name the speaker" in reason
 
 
 # ---- 628 "Pam:" -> "swyx:" ----------------------------------------------------------------

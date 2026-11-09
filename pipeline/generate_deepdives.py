@@ -566,10 +566,17 @@ def overview_vs_card_overlap(summary: str, key_takeaway: str, overview: str) -> 
 
 
 # Speaker label: one or more capitalized name tokens plus an optional "(...)" qualifier, e.g.
-# "Jack Farley:", "Pam:", "Dylan:", "Ant (Supabase):". Single names were rejected before 2026-10-28,
+# "Jack Farley:", "Pam:", "Dylan:", "Ant (Supabase):", "David Vélez:". Single names were rejected before 2026-10-28,
 # which blocked insights 616/625/628 (diarized transcripts that only carry first names).
-SPEAKER_NAME_PATTERN = r"[A-Z][A-Za-z.'-]*(?:\s+[A-Z][A-Za-z.'-]+)*(?:\s*\([^)\n]*\))?"
+# Accented Latin letters allowed Nov 9 2026 so names like Vélez pass; Host/Guest still filtered via _GENERIC_SPEAKER_LABELS.
+SPEAKER_NAME_PATTERN = (
+    "[À-ɏḀ-ỿA-Z]"
+    "[À-ɏḀ-ỿa-zA-Z.'-]*"
+    r"(?:\s+[À-ɏḀ-ỿA-Z][À-ɏḀ-ỿa-zA-Z.\'-]*)*"
+    r"(?:\s*\([^)\n]*\))?"
+)
 SPEAKER_LINE_RE = re.compile(r"^" + SPEAKER_NAME_PATTERN + r"\s*:\s*\S")
+
 _GENERIC_SPEAKER_LABELS = {"host", "guest", "author", "speaker"}
 
 
