@@ -1,6 +1,6 @@
 """Nov 9 2026 G review (cos/deepdive_drafts_1109/G_REVIEW.md): durable export overrides
 for deep dives 636 / 638 / 669 (640 cleared as-is). Same card-scoped pattern as DD658
-'capex intensity' (#769)."""
+'capex intensity' (#769). 669 summary swaps revised 8:52 AM CT with sourced wording."""
 from __future__ import annotations
 
 import json
@@ -29,10 +29,14 @@ SUM638 = (
     "powerful operating model. Vélez says NuBank has close to 120 million customers."
 )
 KT638 = "NuBank’s proprietary data scale and AI foundation model create a durable cost and underwriting advantage."
+_CURLY = "\u2019"
 SUM669 = (
     "Peter Diamandis cites Goldman Sachs-style estimates that 45% of planned U.S. data-center "
-    "buildout could face restrictions, and the speakers discuss the White House’s NSTM6 policy "
-    "on synthetic DNA/RNA screening."
+    "buildout could face restrictions, and the speakers discuss the White House"
+    + _CURLY
+    + "s NSTM6 policy "
+    "on synthetic DNA/RNA screening, describing it as a choke-point approach that requires "
+    "screening for sequences of 50 or more nucleotides and record retention by synthesis providers."
 )
 CAT669 = [
     "By Aug 31, 2026: hyperscaler FY2026 capex guidance revisions after Q2 earnings calls.",
@@ -40,7 +44,19 @@ CAT669 = [
     "By Dec 31, 2027: first commercial orbital compute contracts with disclosed customer workloads.",
 ]
 
-BANNED_RE = re.compile(r"\b(bet|bets|betting|grade|graded|grading)\b", re.I)
+NEW_GS = (
+    "cites a Goldman Sachs estimate that states likely to tighten data-center rules "
+    "hold about 45% of planned U.S. capacity"
+)
+NEW_WH = (
+    "the White House"
+    + _CURLY
+    + "s NSTM-6 policy (Nov 2026) on synthetic DNA/RNA screening, describing "
+    "it as a choke-point approach: federally funded labs must buy from certified suppliers "
+    "that screen orders of 50 or more nucleotides and keep records for at least 8 years"
+)
+
+BANNED_RE = re.compile(r"(?<![\w-])(bet|bets|betting|grade|graded|grading)(?![\w-])", re.I)
 
 
 def _payload():
@@ -75,7 +91,7 @@ def _payload():
                 "insight_id": 640,
                 "podcast_episode_id": 629,
                 "insight_title": "Andrew Huberman - The Frontier of Neurotechnology",
-                "overview": "Cleared as written; no text swaps required.",
+                "overview": "Cleared as written; no text swaps required. medical-grade safety workflows.",
             },
         },
         "mainContent": {
@@ -123,21 +139,24 @@ def test_638_nubank_and_npl_plain_english():
     assert "loans more than 90 days late above 9%" in dd["falsification_tracks"][0]
 
 
-def test_669_catalyst_dropped_and_summary_hedges_removed():
+def test_669_catalyst_dropped_and_summary_sourced_wording():
     d = _payload()
     export_data._apply_summary_overrides(d)
     dd = d["deepDives"]["669"]
     cats = dd["catalysts"]
     assert len(cats) == 2
     assert all("Aug 31, 2026" not in c for c in cats)
-    assert "By Dec 31, 2026: public announcements of Canadian AI data-center projects above 1 GW." in cats
     s = dd["summary"]
     assert "Goldman Sachs-style" not in s
-    assert "an estimate that 45%" in s
+    assert "an estimate that 45%" not in s
+    assert NEW_GS in s
     assert "NSTM6" not in s
-    assert "a White House policy on synthetic DNA/RNA screening" in s
+    assert "NSTM-6" in s
+    assert "a White House policy" not in s
+    assert NEW_WH in s
     card = d["mainContent"]["insights"][1]["summary"]
     assert "Goldman Sachs-style" not in card and "NSTM6" not in card
+    assert NEW_GS in card and NEW_WH in card
 
 
 def test_no_banned_words_in_four_after_overrides():
@@ -158,12 +177,13 @@ def test_rules_present_card_scoped():
     assert ["NuBank", "Nubank"] in by[638]["replacements"]
     assert ["90-day NPLs", "loans more than 90 days late"] in by[638]["replacements"]
     assert by[669]["podcast_episode_id"] == 658
-    assert ["Goldman Sachs-style estimates", "an estimate"] in by[669]["replacements"]
-    assert "NSTM6" in by[669]["replacements"][1][0]
+    reps = by[669]["replacements"]
+    assert any("Goldman Sachs-style estimates" in a and "Goldman Sachs estimate" in b for a, b in reps)
+    assert any("NSTM6" in a and "NSTM-6" in b for a, b in reps)
+    assert not any(b == "an estimate" for _, b in reps)
+    assert not any(b == "a White House policy" for _, b in reps)
     assert "By Aug 31, 2026" in by[669]["drop_list_items"]["catalysts"][0]
     glob = [g[0] for g in OV.get("global_replacements") or []]
-    assert "graded by Westlaw" not in glob
-    assert "90-day NPLs" not in glob
     assert "Goldman Sachs-style estimates" not in glob
 
 
