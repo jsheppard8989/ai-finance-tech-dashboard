@@ -1807,11 +1807,15 @@
     {
       "insight_id": 638,
       "podcast_episode_id": 627,
-      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #12: 'NuBank' -> 'Nubank' in summary and takeaway (no quote contains it).",
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #12: 'NuBank' -> 'Nubank' in summary and takeaway (no quote contains it). Nov 9 2026 G review (cos/deepdive_drafts_1109/G_REVIEW.md): confirm NuBank->Nubank still matches; falsifier '90-day NPLs' -> plain English.",
       "replacements": [
         [
           "NuBank",
           "Nubank"
+        ],
+        [
+          "90-day NPLs",
+          "loans more than 90 days late"
         ]
       ]
     },
@@ -1846,7 +1850,7 @@
     {
       "insight_id": 636,
       "podcast_episode_id": 624,
-      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #15: speaker label only (quote text unchanged).",
+      "_note": "Oct 30 2026 daily site check (cos/sweep_1030/fixes.md) #15: speaker label only (quote text unchanged). Nov 9 2026 G review (cos/deepdive_drafts_1109/G_REVIEW.md): DD falsifiers — ban grade language ('graded by'/'grading' -> 'checked against'/'showing'). Relabel needles now match nothing; harmless.",
       "relabel_quotes": [
         [
           "Moses added a single sentence",
@@ -1859,6 +1863,24 @@
         [
           "From the moment that those bonds were sold",
           "Dwarkesh Patel"
+        ]
+      ],
+      "replacements": [
+        [
+          "graded by the NYS Senate bill database",
+          "checked against the NYS Senate bill database"
+        ],
+        [
+          "grading whether the authority structure",
+          "showing whether the authority structure"
+        ],
+        [
+          "graded by Westlaw",
+          "checked against Westlaw"
+        ],
+        [
+          "graded by the MTA 2025–2029",
+          "checked against the MTA 2025–2029"
         ]
       ]
     },
@@ -2273,6 +2295,26 @@
           "the new agentic system"
         ]
       ]
+    },
+    {
+      "insight_id": 669,
+      "podcast_episode_id": 658,
+      "_note": "Nov 9 2026 G review (cos/deepdive_drafts_1109/G_REVIEW.md): drop past Aug 31 2026 catalyst; unsourced 'Goldman Sachs-style estimates' -> 'an estimate'; unverified 'NSTM6' policy name -> 'a White House policy'.",
+      "replacements": [
+        [
+          "Goldman Sachs-style estimates",
+          "an estimate"
+        ],
+        [
+          "the White House’s NSTM6 policy",
+          "a White House policy"
+        ]
+      ],
+      "drop_list_items": {
+        "catalysts": [
+          "By Aug 31, 2026: hyperscaler FY2026 capex guidance revisions after Q2 earnings calls."
+        ]
+      }
     }
   ],
   "terms": [
