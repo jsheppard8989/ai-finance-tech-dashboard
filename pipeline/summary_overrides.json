@@ -2299,15 +2299,15 @@
     {
       "insight_id": 669,
       "podcast_episode_id": 658,
-      "_note": "Nov 9 2026 G review (cos/deepdive_drafts_1109/G_REVIEW.md): drop past Aug 31 2026 catalyst; unsourced 'Goldman Sachs-style estimates' -> 'an estimate'; unverified 'NSTM6' policy name -> 'a White House policy'.",
+      "_note": "Nov 9 2026 G review (cos/deepdive_drafts_1109/G_REVIEW.md): drop past Aug 31 2026 catalyst. REVISED 8:52 AM CT sourced wording: Goldman Sachs estimate (Reuters factbox Nov 5 2026, https://www.streetinsider.com/Reuters/Factbox-Companies+most+exposed+to+potential+US+data-center+curbs+after+blue+sweep/27297295.html); NSTM-6 White House Nov 2026 nucleic acid screening memo (https://www.whitehouse.gov/wp-content/uploads/2026/11/NSTM-6-NASS-Policy.pdf). Replaces earlier vaguer 'an estimate' / 'a White House policy' swaps from #778.",
       "replacements": [
         [
-          "Goldman Sachs-style estimates",
-          "an estimate"
+          "cites Goldman Sachs-style estimates that 45% of planned U.S. data-center buildout could face restrictions",
+          "cites a Goldman Sachs estimate that states likely to tighten data-center rules hold about 45% of planned U.S. capacity"
         ],
         [
-          "the White House’s NSTM6 policy",
-          "a White House policy"
+          "the White House’s NSTM6 policy on synthetic DNA/RNA screening, describing it as a choke-point approach that requires screening for sequences of 50 or more nucleotides and record retention by synthesis providers",
+          "the White House’s NSTM-6 policy (Nov 2026) on synthetic DNA/RNA screening, describing it as a choke-point approach: federally funded labs must buy from certified suppliers that screen orders of 50 or more nucleotides and keep records for at least 8 years"
         ]
       ],
       "drop_list_items": {
