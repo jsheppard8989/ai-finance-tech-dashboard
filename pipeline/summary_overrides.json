@@ -2029,11 +2029,19 @@
     {
       "insight_id": 658,
       "podcast_episode_id": 646,
-      "_note": "Nov 5 2026 evening publish unblock: new Deep Dive 658 META risk reintroduced 'capex intensity' (publish_guard attributed it to summaries[618]/[647] pairs). Same plain-wording fix, scoped to this card.",
+      "_note": "Nov 5 2026 evening publish unblock: new Deep Dive 658 META risk reintroduced 'capex intensity' (publish_guard attributed it to summaries[618]/[647] pairs). Same plain-wording fix, scoped to this card. Nov 9 2026 G daily check (sweep_1109): Claude (not cloud); LifeVal/GDPX named on episode (not Life Val).",
       "replacements": [
         [
           "capex intensity",
           "heavy capital spending"
+        ],
+        [
+          "cloud allegedly writing more than 90%",
+          "Claude allegedly writing more than 90%"
+        ],
+        [
+          "Life Val and GDPX benchmarks",
+          "LifeVal and GDPX benchmarks"
         ]
       ]
     },
@@ -2315,6 +2323,126 @@
           "By Aug 31, 2026: hyperscaler FY2026 capex guidance revisions after Q2 earnings calls."
         ]
       }
+    },
+    {
+      "insight_id": 661,
+      "podcast_episode_id": 648,
+      "_note": "Nov 9 2026 (G daily check, sweep_1109; routine-fix rule): guest is Praveer Melwani (title/credits); COIN not discussed in summary.",
+      "replacements": [
+        [
+          "Praveer Mulwani",
+          "Praveer Melwani"
+        ],
+        [
+          "Mulwani",
+          "Melwani"
+        ]
+      ],
+      "drop_tickers": [
+        "COIN"
+      ]
+    },
+    {
+      "insight_id": 660,
+      "podcast_episode_id": 649,
+      "_note": "Nov 9 2026 (G daily check, sweep_1109; routine-fix rule): MacroVoices co-host is Patrick Ceresna (episode page); plain-English gloss for bull call spread.",
+      "replacements": [
+        [
+          "Patrick Suresna",
+          "Patrick Ceresna"
+        ],
+        [
+          "Suresna",
+          "Ceresna"
+        ],
+        [
+          "390/450 bull call spread. He",
+          "390/450 bull call spread (buying one call and selling a higher-strike call). He"
+        ]
+      ]
+    },
+    {
+      "insight_id": 662,
+      "podcast_episode_id": 651,
+      "_note": "Nov 9 2026 (G daily check, sweep_1109; routine-fix rule): cut garbled Shanghai sentence (no inventing); DOCU not discussed in summary.",
+      "replacements": [
+        [
+          "The guest says Shanghai brought the event to Shanghai, not the reverse, and emphasizes that the conference is scaling",
+          "The guest emphasizes that the conference is scaling"
+        ]
+      ],
+      "drop_tickers": [
+        "DOCU"
+      ]
+    },
+    {
+      "insight_id": 657,
+      "podcast_episode_id": 647,
+      "_note": "Nov 9 2026 (G daily check, sweep_1109; routine-fix rule): ORCL not discussed in summary (keep AAPL).",
+      "drop_tickers": [
+        "ORCL"
+      ]
+    },
+    {
+      "insight_id": 659,
+      "podcast_episode_id": 650,
+      "_note": "Nov 9 2026 (G daily check, sweep_1109; optional polish): plain-English glosses for SOFR, CLO, GFC, illiquidity premium.",
+      "replacements": [
+        [
+          "roughly SOFR plus",
+          "roughly SOFR (the benchmark short-term lending rate) plus"
+        ],
+        [
+          "could reach SOFR plus",
+          "could reach SOFR (the benchmark short-term lending rate) plus"
+        ],
+        [
+          "CLOs remain the bedrock",
+          "CLOs (collateralized loan obligations) remain the bedrock"
+        ],
+        [
+          "around 50% pre-GFC and",
+          "around 50% pre-GFC (the 2008 global financial crisis) and"
+        ],
+        [
+          "the illiquidity premium generally",
+          "the illiquidity premium (extra yield for hard-to-sell loans) generally"
+        ],
+        [
+          "today’s illiquidity premium and SOFR-plus yields",
+          "today’s illiquidity premium (extra yield for hard-to-sell loans) and SOFR-plus (benchmark short-term rate plus a spread) yields"
+        ]
+      ]
+    },
+    {
+      "insight_id": 663,
+      "podcast_episode_id": 652,
+      "_note": "Nov 9 2026 (G daily check, sweep_1109; optional polish): gloss '20s and 30s' as 20- and 30-year Treasuries.",
+      "replacements": [
+        [
+          "for 20s and 30s",
+          "for 20- and 30-year Treasuries"
+        ]
+      ]
+    },
+    {
+      "insight_id": 664,
+      "podcast_episode_id": 654,
+      "_note": "Nov 9 2026 (G daily check, sweep_1109; optional polish): gloss multi-tranche and neo labs.",
+      "replacements": [
+        [
+          "around multi-tranche financings,",
+          "around multi-tranche financings (capital raised in staged rounds),"
+        ],
+        [
+          "primary and secondary tranches rather",
+          "primary and secondary tranches (staged funding rounds) rather"
+        ],
+        [
+          "or \"neo labs.\"",
+          "or \"neo labs\" (new frontier AI model companies)."
+        ]
+      ]
     }
   ],
   "terms": [
@@ -3633,6 +3761,22 @@
     [
       "David Paulen",
       "David Pawlan"
+    ],
+    [
+      "Praveer Mulwani",
+      "Praveer Melwani"
+    ],
+    [
+      "Mulwani",
+      "Melwani"
+    ],
+    [
+      "Patrick Suresna",
+      "Patrick Ceresna"
+    ],
+    [
+      "Suresna",
+      "Ceresna"
     ]
   ],
   "name_replacements": [
