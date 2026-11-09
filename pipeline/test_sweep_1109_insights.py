@@ -202,7 +202,7 @@ def test_transforms_live_text():
 
     assert "Claude allegedly writing more than 90%" in by[658]["summary"]
     assert "cloud allegedly" not in by[658]["summary"]
-    assert "LifeVal and GDPX benchmarks" in by[658]["summary"]
+    assert "LifeVal and GDPx benchmarks" in by[658]["summary"]
     assert "Life Val" not in by[658]["summary"]
 
     assert "Shanghai brought the event to Shanghai" not in by[662]["summary"]
