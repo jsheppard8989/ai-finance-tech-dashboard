@@ -42,7 +42,8 @@ def test_healthcare_style_gate_clean():
 def test_healthcare_view_basket_and_names():
     t = " ".join(_text(_src()).split()).replace("&amp;", "&")
     assert "Our view (opinion)" in t and t.lower().count("opinion") == 1
-    assert "long stock basket" in t
+    assert "long paper basket" in t or "long stock basket" in t
+    assert "2.788 million" in t and "closed" in t.lower()
     for p in ("$28.09", "$3.33", "$77.97", "$183.10", "$102.20", "The historical rhyme", "Upside versus downside", "What would change our mind"):
         assert p in t, p
     for n in ("Hims & Hers", "GoodRx", "Tempus AI", "Guardant Health", "Abbott"):
