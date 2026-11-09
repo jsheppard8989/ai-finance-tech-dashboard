@@ -2029,7 +2029,7 @@
     {
       "insight_id": 658,
       "podcast_episode_id": 646,
-      "_note": "Nov 5 2026 evening publish unblock: new Deep Dive 658 META risk reintroduced 'capex intensity' (publish_guard attributed it to summaries[618]/[647] pairs). Same plain-wording fix, scoped to this card. Nov 9 2026 G daily check (sweep_1109): Claude (not cloud); LifeVal/GDPX named on episode (not Life Val).",
+      "_note": "Nov 5 2026 evening publish unblock: new Deep Dive 658 META risk reintroduced 'capex intensity' (publish_guard attributed it to summaries[618]/[647] pairs). Same plain-wording fix, scoped to this card. Nov 9 2026 G daily check (sweep_1109): Claude (not cloud); LifeVal named on episode. Nov 9 Tony afternoon sweep: GDPX is ASR for OpenAI's GDPval (openai.com/gdpval); also covers DD 658 catalysts/falsifiers via global_name_replacements.",
       "replacements": [
         [
           "capex intensity",
@@ -2041,7 +2041,11 @@
         ],
         [
           "Life Val and GDPX benchmarks",
-          "LifeVal and GDPX benchmarks"
+          "LifeVal and GDPval benchmarks"
+        ],
+        [
+          "LifeVal and GDPX benchmarks",
+          "LifeVal and GDPval benchmarks"
         ]
       ]
     },
@@ -3777,6 +3781,14 @@
     [
       "Suresna",
       "Ceresna"
+    ],
+    [
+      "Amthropic",
+      "Anthropic"
+    ],
+    [
+      "GDPX",
+      "GDPval"
     ]
   ],
   "name_replacements": [
@@ -4351,6 +4363,10 @@
     [
       "David Paulen",
       "David Pawlan"
+    ],
+    [
+      "Amthropic",
+      "Anthropic"
     ]
   ],
   "ticker_renames": [
@@ -8726,6 +8742,14 @@
       "set": {
         "name": "David Pawlan",
         "slug": "david-pawlan"
+      }
+    },
+    {
+      "id": 616,
+      "_note": "Nov 9 2026 Tony afternoon sweep: global_name fixes display name Mulwani->Melwani but skips slugs; set slug to match Figma CFO Praveer Melwani (linkedin.com/in/praveer-melwani).",
+      "set": {
+        "name": "Praveer Melwani",
+        "slug": "praveer-melwani"
       }
     }
   ],
