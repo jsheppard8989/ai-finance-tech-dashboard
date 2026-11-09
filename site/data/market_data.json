@@ -1,28 +1,20 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
-  "_updated": "2026-11-07",
+  "_updated": "2026-11-09",
   "_data_status": "live",
   "schema_version": 1,
   "treasury_calendar": {
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills and TIPS excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-11-07T04:40:00",
-    "as_of_date": "2026-11-07",
+    "last_updated": "2026-11-09T17:44:13",
+    "as_of_date": "2026-11-09",
     "next_refunding_announcement": {
       "date": "2027-02-03",
       "status": "estimated",
       "notes": "Estimated (first Wednesday of refunding month); confirm with Treasury"
     },
     "upcoming_auctions": [
-      {
-        "date": "2026-11-09",
-        "security": "3-Year Note",
-        "cusip": "91282CRW3",
-        "size_billions": 58.0,
-        "announcement_date": "2026-11-04",
-        "issue_date": "2026-11-16"
-      },
       {
         "date": "2026-11-10",
         "security": "10-Year Note",
@@ -49,6 +41,27 @@
       }
     ],
     "recent_auction_results": [
+      {
+        "date": "2026-11-09",
+        "security": "3-Year Note",
+        "cusip": "91282CRW3",
+        "size_billions": 58.0,
+        "issue_date": "2026-11-16",
+        "maturity_date": "2029-11-15",
+        "high_yield_pct": 4.627,
+        "high_discount_margin_pct": null,
+        "coupon_pct": 4.625,
+        "bid_to_cover": 2.53,
+        "allocation_at_high_pct": 73.41,
+        "total_tendered_billions": 158.381,
+        "total_accepted_billions": 69.765,
+        "primary_dealer_accepted_billions": 5.469,
+        "direct_accepted_billions": 20.213,
+        "indirect_accepted_billions": 32.01,
+        "results_pdf": "R_20261109_3.pdf",
+        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRW3",
+        "stranger_note": "bid-to-cover 2.53; foreign and other indirect buyers took 46%."
+      },
       {
         "date": "2026-10-29",
         "security": "7-Year Note",
@@ -216,48 +229,6 @@
         "results_pdf": "R_20261006_2.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRQ6",
         "stranger_note": "bid-to-cover 2.62; foreign and other indirect buyers took 55%."
-      },
-      {
-        "date": "2026-09-24",
-        "security": "7-Year Note",
-        "cusip": "91282CRM5",
-        "size_billions": 44.0,
-        "issue_date": "2026-09-30",
-        "maturity_date": "2033-09-30",
-        "high_yield_pct": 5.085,
-        "high_discount_margin_pct": null,
-        "coupon_pct": 5.0,
-        "bid_to_cover": 2.42,
-        "allocation_at_high_pct": 91.11,
-        "total_tendered_billions": 113.216,
-        "total_accepted_billions": 50.624,
-        "primary_dealer_accepted_billions": 5.448,
-        "direct_accepted_billions": 13.164,
-        "indirect_accepted_billions": 24.87,
-        "results_pdf": "R_20260924_3.pdf",
-        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRM5",
-        "stranger_note": "bid-to-cover 2.42; foreign and other indirect buyers took 49%."
-      },
-      {
-        "date": "2026-09-23",
-        "security": "5-Year Note",
-        "cusip": "91282CRN3",
-        "size_billions": 70.0,
-        "issue_date": "2026-09-30",
-        "maturity_date": "2031-09-30",
-        "high_yield_pct": 5.033,
-        "high_discount_margin_pct": null,
-        "coupon_pct": 5.0,
-        "bid_to_cover": 2.21,
-        "allocation_at_high_pct": 30.34,
-        "total_tendered_billions": 165.389,
-        "total_accepted_billions": 80.539,
-        "primary_dealer_accepted_billions": 10.99,
-        "direct_accepted_billions": 20.842,
-        "indirect_accepted_billions": 37.837,
-        "results_pdf": "R_20260923_3.pdf",
-        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRN3",
-        "stranger_note": "bid-to-cover 2.21; foreign and other indirect buyers took 47%."
       }
     ],
     "refunding_context": {
@@ -277,14 +248,14 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-11-07T04:39:58.459291",
+    "last_fetched": "2026-11-09T17:44:10.938051",
     "h100": {
-      "daily_date": "Nov 07, 2026",
-      "daily_date_iso": "2026-11-07",
+      "daily_date": "Nov 09, 2026",
+      "daily_date_iso": "2026-11-09",
       "composite_index": {
-        "display": "$3.35",
+        "display": "$3.36",
         "type": "single",
-        "value": 3.35
+        "value": 3.36
       },
       "contract_period": "Sep 2026",
       "1y_contract": {
@@ -309,23 +280,23 @@
         "Sep 2026"
       ],
       "daily_trend": {
-        "data_points": 1123,
-        "latest_value": 3.35,
-        "latest_date": "Nov 07, 2026",
+        "data_points": 1125,
+        "latest_value": 3.36,
+        "latest_date": "Nov 09, 2026",
         "short_term": {
-          "change_pct": -3.2,
-          "comparison_date": "Oct 31, 2026",
-          "comparison_value": 3.46,
+          "change_pct": -1.5,
+          "comparison_date": "Nov 02, 2026",
+          "comparison_value": 3.41,
           "days_back": 7
         },
         "long_term": {
           "change_pct": 1.5,
-          "anchor_date": "Oct 08, 2026",
-          "anchor_value": 3.3,
+          "anchor_date": "Oct 10, 2026",
+          "anchor_value": 3.31,
           "days_back": 30
         },
-        "change_pct": -3.2,
-        "comparison_date": "Oct 31, 2026"
+        "change_pct": -1.5,
+        "comparison_date": "Nov 02, 2026"
       },
       "contract_trend": {
         "data_points": 22,
@@ -376,24 +347,24 @@
       "period": "Sep 2026"
     },
     "b200": {
-      "daily_date": "Nov 07, 2026",
+      "daily_date": "Nov 09, 2026",
       "composite_index": {
-        "display": "$6.55",
+        "display": "$6.41",
         "type": "single",
-        "value": 6.55
+        "value": 6.41
       }
     },
     "a100": {
-      "daily_date": "Nov 07, 2026",
+      "daily_date": "Nov 09, 2026",
       "composite_index": {
-        "display": "$1.68",
+        "display": "$1.67",
         "type": "single",
-        "value": 1.68
+        "value": 1.67
       }
     },
     "spot_history": {
-      "start": "2026-05-09",
-      "end": "2026-11-07",
+      "start": "2026-05-11",
+      "end": "2026-11-09",
       "days": 183,
       "points": 183,
       "available_from": {
@@ -402,8 +373,6 @@
         "b200": "2025-06-08"
       },
       "dates": [
-        "2026-05-09",
-        "2026-05-10",
         "2026-05-11",
         "2026-05-12",
         "2026-05-13",
@@ -584,11 +553,11 @@
         "2026-11-04",
         "2026-11-05",
         "2026-11-06",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09"
       ],
       "a100": [
-        1.49,
-        1.5,
         1.5,
         1.51,
         1.51,
@@ -769,11 +738,11 @@
         1.71,
         1.7,
         1.68,
-        1.68
+        1.68,
+        1.67,
+        1.67
       ],
       "h100": [
-        2.84,
-        2.84,
         2.84,
         2.84,
         2.83,
@@ -954,11 +923,11 @@
         3.39,
         3.42,
         3.37,
-        3.35
+        3.35,
+        3.39,
+        3.36
       ],
       "b200": [
-        4.69,
-        4.69,
         4.71,
         4.68,
         4.61,
@@ -1139,14 +1108,16 @@
         6.57,
         6.63,
         6.58,
-        6.55
+        6.55,
+        6.5,
+        6.41
       ]
     },
     "history_summary": {
       "oldest_period": "1H 2023",
       "newest_period": "Sep 2026",
-      "newest_daily": "Nov 07, 2026",
-      "total_daily_points": 1244,
+      "newest_daily": "Nov 09, 2026",
+      "total_daily_points": 1246,
       "total_contract_periods": 23,
       "recent_5": [
         {
@@ -1183,23 +1154,23 @@
     "_api_url": "https://aicomputetracker.com/forward-curves.json",
     "_settles_on": "Ornn Compute Price Index (OCPI)",
     "_license": "AI Compute Tracker (aicomputetracker.com), CC BY 4.0; third-party terms apply to data from Kalshi (KalshiEX LLC)",
-    "as_of": "2026-11-07T00:37:59.279Z",
+    "as_of": "2026-11-09T18:37:53.799Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-11-07T04:39:58.877741",
+    "last_fetched": "2026-11-09T17:44:11.348847",
     "b200": {
       "points": [
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 9.47,
-          "quality": "quality-passed",
-          "identified": true
+          "price": 9.84,
+          "quality": "thin",
+          "identified": false
         },
         {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 9.44,
+          "price": 9.69,
           "quality": "quality-passed",
           "identified": true
         },
@@ -1224,9 +1195,9 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 9.47,
-          "quality": "quality-passed",
-          "identified": true
+          "price": 9.84,
+          "quality": "thin",
+          "identified": false
         },
         {
           "tenor_key": "2027-05",
@@ -1236,8 +1207,8 @@
           "identified": false
         }
       ],
-      "two_sided_markets": 78,
-      "liquidity_usd": 13221,
+      "two_sided_markets": 41,
+      "liquidity_usd": 14798,
       "kalshi_series": "KXB200MS",
       "last_trade_at": "2026-10-27T19:53:03.065Z"
     },
@@ -1246,20 +1217,26 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 6.53,
+          "price": 6.84,
           "quality": "quality-passed",
           "identified": true
         },
         {
+          "tenor_key": "2026-12",
+          "tenor": "Dec '26",
+          "price": 8.23,
+          "quality": "thin",
+          "identified": false
+        },
+        {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 7.49,
+          "price": 8.38,
           "quality": "thin",
           "identified": false
         }
       ],
       "placeholders_dropped": [
-        "2026-12",
         "2027-02",
         "2027-03",
         "2027-04",
@@ -1272,24 +1249,31 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 6.53,
+          "price": 6.84,
           "quality": "quality-passed",
           "identified": true
+        },
+        {
+          "tenor_key": "2027-01",
+          "tenor": "Jan '27",
+          "price": 8.38,
+          "quality": "thin",
+          "identified": false
         }
       ],
-      "two_sided_markets": 58,
-      "liquidity_usd": 5429,
+      "two_sided_markets": 54,
+      "liquidity_usd": 7316,
       "kalshi_series": "KXH200MS",
-      "last_trade_at": "2026-11-07T00:31:00.174Z"
+      "last_trade_at": "2026-11-08T06:20:00.162Z"
     },
     "h100": {
       "points": [
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 3.31,
-          "quality": "thin",
-          "identified": false
+          "price": 3.45,
+          "quality": "quality-passed",
+          "identified": true
         }
       ],
       "placeholders_dropped": [
@@ -1307,13 +1291,13 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 3.31,
-          "quality": "thin",
-          "identified": false
+          "price": 3.45,
+          "quality": "quality-passed",
+          "identified": true
         }
       ],
-      "two_sided_markets": 34,
-      "liquidity_usd": 4326,
+      "two_sided_markets": 27,
+      "liquidity_usd": 4397,
       "kalshi_series": "KXH100MS",
       "last_trade_at": "2026-10-27T19:53:03.066Z"
     },
@@ -1329,7 +1313,7 @@
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 1.07,
+          "price": 1.06,
           "quality": "thin",
           "identified": false
         },
@@ -1384,8 +1368,8 @@
           "identified": true
         }
       ],
-      "two_sided_markets": 16,
-      "liquidity_usd": 2262,
+      "two_sided_markets": 9,
+      "liquidity_usd": 2759,
       "kalshi_series": "KXA100MS",
       "last_trade_at": "2026-10-27T19:53:03.064Z"
     }
@@ -1395,32 +1379,32 @@
     "explanation": "demand strong for B200 and H100, supply catching up on older ones.",
     "chips": {
       "b200": {
-        "spot": 6.55,
-        "spot_30d_pct": 2.5,
-        "spot_90d_pct": 20.6,
-        "forward_vs_spot_pct": 11.7,
-        "score": 11.6,
+        "spot": 6.41,
+        "spot_30d_pct": -2.4,
+        "spot_90d_pct": 18.0,
+        "forward_vs_spot_pct": 16.1,
+        "score": 10.6,
         "trend": "rising"
       },
       "h100": {
-        "spot": 3.35,
+        "spot": 3.36,
         "spot_30d_pct": 1.5,
-        "spot_90d_pct": 5.0,
+        "spot_90d_pct": 5.7,
         "forward_vs_spot_pct": null,
-        "score": 3.2,
+        "score": 3.6,
         "trend": "rising"
       },
       "a100": {
-        "spot": 1.68,
-        "spot_30d_pct": -0.6,
-        "spot_90d_pct": -7.2,
-        "forward_vs_spot_pct": -29.8,
-        "score": -12.5,
+        "spot": 1.67,
+        "spot_30d_pct": -4.0,
+        "spot_90d_pct": -8.7,
+        "forward_vs_spot_pct": -29.5,
+        "score": -14.1,
         "trend": "dropping"
       }
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
-    "as_of": "2026-11-07",
-    "generated_at": "2026-11-07T04:39:58"
+    "as_of": "2026-11-09",
+    "generated_at": "2026-11-09T17:44:11"
   }
 }
