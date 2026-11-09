@@ -46,6 +46,7 @@ class TestValidator(unittest.TestCase):
         self.assertNotIn("spreads", hc["trade"])
         self.assertEqual([(l["ticker"], l["entry"]) for l in hc["trade"]["legs"]],
                          [("HIMS", 28.09), ("GDRX", 3.33), ("TEM", 77.97), ("GH", 183.1), ("ABT", 102.2)])
+        self.assertEqual(hc["status"], "closed")
 
     def test_missing_link(self):
         self.assertFails(lambda d, r: r["asts-q3"]["event"].update(link=""), "missing primary link")
@@ -128,7 +129,7 @@ class TestValidator(unittest.TestCase):
                           "mu-cycle": "Net short", "healthcare-five": "Long", "ceg-q3": "Net long",
                           "lrcx-put": "Net long", "gev-power": "Net long"})
         self.assertFails(lambda d, r: r["asts-q3"].update(direction="Net long"), "doesn't match the trade")
-        self.assertFails(lambda d, r: r["healthcare-five"].update(direction="Net long"), "doesn't match")
+        self.assertFails(lambda d, r: self._holding(d, r) or r["healthcare-five"].update(direction="Net long"), "doesn't match")
         self.assertFails(lambda d, r: r["mu-cycle"].update(direction="Sideways"), "not one of")
         self.assertFails(lambda d, r: r["frmi-q3"].pop("direction"), "not one of")
         self.assertFails(lambda d, r: r["tsat-notes"]["trade"].pop("expression"), "no expression")
@@ -149,7 +150,7 @@ class TestValidator(unittest.TestCase):
         self.assertEqual((sr["index_below"], sr["fixed"], sr["weights"]), (90, True, "equal"))
         self.assertEqual([(l["ticker"], l["base"]) for l in sr["index_legs"]], [("HIMS", 28.09), ("GDRX", 3.33), ("TEM", 77.97), ("GH", 183.1), ("ABT", 102.2)])
         self.assertEqual(t["cost"], 5000.0)
-        self.assertEqual(t["index_now"], 99.51)  # matches Scout's basket_vs_spx.csv, Oct 30
+        self.assertEqual(t["index_now"], 98.86)  # modeled Nov 9 exit index
         self.assertEqual(fp.equal_weight_index([(27.68, 27.68), (72.22, 72.22), (106.2, 106.2)]), 100.0)
         # equal weight: each name is one third of its own move
         self.assertEqual(fp.equal_weight_index([(27.68, 27.68 * 0.7), (72.22, 72.22), (106.2, 106.2)]), 90.0)
@@ -228,7 +229,7 @@ class TestPricePull(unittest.TestCase):
         self.assertEqual(lrcx["exit"]["result"], -1043.33)
         ceg = next(r for r in d["rows"] if r["id"] == "ceg-q3")
         self.assertEqual((ceg["status"], ceg["exit"]["result"], ceg["exit"]["modeled"]), ("closed", -715.01, True))
-        self.assertEqual(len(open_rows), 6)
+        self.assertEqual(len(open_rows), 5)
         self.assertEqual(d["totals"]["cost"], round(sum(r["trade"]["cost"] for r in open_rows), 2))
         self.assertEqual(d["totals"]["portfolio_value"], round(d["totals"]["value"] + d["totals"]["closed_cash"], 2))
         with mock.patch.object(fp, "_get", side_effect=OSError("down")), \
@@ -373,12 +374,18 @@ class TestMidpointLabel(unittest.TestCase):
             card = page.split('id="' + rid + '"')[1].split('</details>')[0]
             self.assertIn(build_trap_map._sg(trade["change"]), card)
         self.assertEqual(self.d["totals"]["value"], round(sum(r["trade"]["value"] for r in self.d["rows"] if r.get("status") != "closed" and (r.get("trade") or {}).get("cost") is not None), 2))
-        hc = [r for r in self.d["rows"] if r["id"] == "healthcare-five"][0]["trade"]
-        self.assertNotIn("entry_pending", hc)  # Healthcare is out of Monday's repricing (Jared, 7:01 PM CT)
+        hc_row = next(r for r in self.d["rows"] if r["id"] == "healthcare-five")
+        hc = hc_row["trade"]
+        self.assertEqual(hc_row["status"], "closed")
+        self.assertTrue(hc_row["exit"]["modeled"])
+        self.assertNotIn("entry_pending", hc)
         self.assertEqual(hc["cost"], 5000.0)
-        self.assertEqual(page.count("Priced at Oct 30 closes."), 2)
-        self.assertNotRegex(page.lower(), r"not final|valued at oct 30")
-        self.assertIn("worth " + build_trap_map.money(hc["value"]) + ", priced at Oct 30 closes", strip)
+        self.assertEqual((hc["value"], hc["change"]), (4942.87, -57.13))
+        self.assertIn("modeled session closing prices", hc["price_note"])
+        self.assertIn("not a fill", hc["price_note"])
+        self.assertGreaterEqual(page.count("modeled session closing prices, Nov 9, 2026; not a fill (report came after the close)."), 2)
+        self.assertNotRegex(page.lower(), r"priced at oct 30 closes|valued at oct 30")
+        self.assertIn("worth " + build_trap_map.money(hc["value"]) + ", modeled session closing prices", strip)
         self.assertNotRegex(strip.lower(), r"not final|indicative|midpoint")
         ceg_card = page[page.index('id="ceg-q3"'):][:6000].split('id="lrcx-put"')[0]  # stop at the next row
         self.assertEqual(ceg_card.count("Entry priced at 9:13 AM CT on Nov 2."), ceg_card.count("Entry priced at"))
