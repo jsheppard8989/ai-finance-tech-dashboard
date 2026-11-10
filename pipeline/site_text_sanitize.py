@@ -230,8 +230,20 @@ def clean_reader_advice(obj: Any) -> Any:
 # "bet". The gate only FLAGS wording (it never rewrites text): curated swaps live
 # in pipeline/summary_overrides.json (global_replacements / summaries rules) so
 # Mac exports keep them. Exempt: title fields (podcast episode titles), cites,
-# URLs/slugs, direct quotes (notable_quotes, episode_evidence, quoted text) and
-# Alphabet's "Other Bets". Mode is WARN: export prints leftovers and continues.
+# URLs/slugs and Alphabet's "Other Bets". Mode is WARN: export prints leftovers
+# and continues; publish_guard BLOCKS on any hit.
+#
+# Quote scope (decisions.md 2026-11-09 ~11:15 PM CT): the rule covers OUR voice
+# only (calls, views, leans, our copy). ATTRIBUTED guest quotes stay verbatim
+# and pass. A quote counts as attributed when:
+#   * structured: a quote field (quote/quotes/text) whose record names a
+#     speaker (speaker/guest/attribution/speaker_name/author);
+#   * a speaker line in a quote field (episode_evidence / notable_quotes /
+#     quote): "Andy Constan: my bet today ...";
+#   * inline, in any text: quote marks with a speaker cue right before
+#     ('Alex Zhang: "..."', 'The host says "..."', 'according to Name, "..."')
+#     or right after ('"..." -- Name', '"...," Name said').
+# Unattributed quotes, scare quotes and our own "we say" quotes stay strict.
 # ---------------------------------------------------------------------------
 
 BANNED_WORDS_RE = re.compile(r"\b(?:bets?|betting|bettors?|wager(?:s|ed|ing)?)\b", re.IGNORECASE)
@@ -239,36 +251,114 @@ STYLE_GATE_SKIP_KEYS = frozenset({
     "title", "episode_title", "insight_title", "last_episode_title", "last_mentioned_episode_title",
     "last_proof_cite",
     "net_worth_source", "url", "source_url", "link", "slug",
-    "episode_evidence", "notable_quotes", "quote", "quotes", "speaker",
+    "speaker",
 })
-_PROTECTED_RE = re.compile(
-    r"\"[^\"]*\"|\u201c[^\u201d]*\u201d|(?<![A-Za-z])'[^']*'(?![A-Za-z])|https?://\S+|\bOther Bets\b"
-)
+# Fields that hold guest quotes/evidence: speaker lines ("Name: words") pass there.
+QUOTE_FIELD_KEYS = frozenset({"episode_evidence", "notable_quotes", "quote", "quotes"})
+_QUOTE_TEXT_KEYS = ("quote", "quotes", "text")
+SPEAKER_KEYS = ("speaker", "speaker_name", "guest", "attribution", "author")
+
+_ALWAYS_PROTECTED_RE = re.compile(r"https?://\S+|\bOther Bets\b")
+_QUOTED_RE = re.compile(r"\"[^\"]*\"|\u201c[^\u201d]*\u201d|(?<![A-Za-z])'[^']*'(?![A-Za-z])")
+_CUE_VERBS = (r"says?|said|saying|mentions?|mentioned|notes?|noted|argues?|argued|explains?|explained|adds?|added|"
+              r"tells?|told|asks?|asked|puts? it|claims?|claimed|states?|stated|writes?|wrote|recalls?|recalled|"
+              r"warns?|warned|insists?|insisted|quips?|quipped|remarks?|remarked|observes?|observed|"
+              r"emphasi[sz]es|emphasi[sz]ed|stresses|stressed|believes?|believed|predicts?|predicted|"
+              r"describes?|described|calls? it|called it|framed it|summari[sz]ed|replies|replied|joked")
+_NAME = r"[A-Z][\w.'\u2019-]*(?:\s+(?:[A-Z][\w.'\u2019-]*|de|van|von|da|del|bin|al))*"
+_OWN_VOICE = r"(?:we|We|our|Our|us|Us|I|this site|the site|the dashboard)"
+# Speaker cue immediately before the opening quote mark.
+_CUE_BEFORE_RE = re.compile(
+    r"(?:\b(?:" + _CUE_VERBS + r")\b(?:\s+(?:that|how|it|this))?|\b(?i:according to)\s+" + _NAME + r"|"
+    r"\b(?:in\s+(?:his|her|their)\s+words)|(?:^|[\s(\[\u2014-])" + _NAME + r"(?:\s*\([^)]{0,60}\))?\s*)"
+    r"\s*[:,\u2014-]?\s*$")
+# Speaker cue immediately after the closing quote mark.
+_CUE_AFTER_RE = re.compile(
+    r"^\s*[,.;:!?]?\s*(?:(?:[\u2014\u2013]|--)\s*" + _NAME + r"|" + _NAME + r"\s+(?:" + _CUE_VERBS + r")\b|"
+    r"(?:" + _CUE_VERBS + r")\s+" + _NAME + r")")
+# Speaker line inside a quote field: "Andy Constan: ..." / "Jane Doe (CEO, X): ...".
+_SPEAKER_LINE_RE = re.compile(r"(?m)^[ \t]*(?:[-*\u2022][ \t]*)?(" + _NAME + r")(?:[ \t]*\([^)\n]{0,60}\))?[ \t]*:[ \t]*(.+)$")
+_NOT_SPEAKERS = frozenset({
+    "our view", "view", "lean", "our lean", "call", "our call", "takeaway", "bottom line", "note", "summary",
+    "why", "what", "thesis", "risk", "risks", "catalyst", "catalysts", "evidence", "context", "update", "watch",
+    "signal", "verdict", "position", "positioning", "tl;dr", "tldr", "key", "we", "our", "us", "i",
+})
 STYLE_GATE_MISSES: list = []
 
 
-def style_gate_hits(text: str) -> list:
-    """Return banned-word snippets in text outside quotes, URLs and 'Other Bets'."""
+def _own_voice_before(before: str) -> bool:
+    tail = before[-60:]
+    return bool(re.search(r"\b" + _OWN_VOICE + r"\s+(?:\w+\s+){0,2}(?:" + _CUE_VERBS + r")\b(?:\s+(?:that|how|it|this))?\s*[:,\u2014-]?\s*$", tail))
+
+
+def _is_speaker(name: str) -> bool:
+    n = name.strip().lower()
+    return bool(n) and n not in _NOT_SPEAKERS and not n.startswith(("our ", "we ", "my "))
+
+
+def _attributed_spans(text: str, quote_field: bool = False) -> list[tuple[int, int]]:
+    """Character spans of attributed guest quotes in text (exempt from the gate)."""
+    spans = []
+    for m in _QUOTED_RE.finditer(text):
+        before, after = text[max(0, m.start() - 120):m.start()], text[m.end():m.end() + 80]
+        cue = _CUE_BEFORE_RE.search(before)
+        if cue and not _own_voice_before(before):
+            # A bare name before the quote must be a real speaker, not "Our view".
+            word = re.search(r"(" + _NAME + r")(?:\s*\([^)]{0,60}\))?\s*[:\u2014]\s*$", before)
+            verb = re.search(r"\b(?:" + _CUE_VERBS + r"|(?i:according to)|in (?:his|her|their) words)\b", cue.group())
+            if verb or (word and _is_speaker(word.group(1))):
+                spans.append(m.span())
+                continue
+        if _CUE_AFTER_RE.search(after):
+            spans.append(m.span())
+    if quote_field:
+        for m in _SPEAKER_LINE_RE.finditer(text):
+            if _is_speaker(m.group(1)):
+                spans.append(m.span(2))
+    return spans
+
+
+def style_gate_hits(text: str, quote_field: bool = False) -> list:
+    """Return banned-word snippets in text outside attributed guest quotes, URLs and 'Other Bets'.
+
+    quote_field=True (episode_evidence / notable_quotes / quote) also lets
+    speaker lines ("Name: words") through. Unattributed quotes are checked.
+    """
     if not isinstance(text, str) or not BANNED_WORDS_RE.search(text):
         return []
-    stripped = _PROTECTED_RE.sub(" ", text)
+    chars = list(text)
+    for a, b in _attributed_spans(text, quote_field):
+        chars[a:b] = " " * (b - a)
+    stripped = _ALWAYS_PROTECTED_RE.sub(" ", "".join(chars))
     return [stripped[max(0, m.start() - 40): m.end() + 40].strip() for m in BANNED_WORDS_RE.finditer(stripped)]
 
 
-def find_style_gate_hits(obj: Any, _key: str = "", _path: str = "") -> list:
-    """Recursively collect (path, snippet) style-gate hits, skipping exempt fields."""
+def _has_speaker(rec: dict) -> bool:
+    return any(isinstance(rec.get(k), str) and _is_speaker(rec[k]) for k in SPEAKER_KEYS)
+
+
+def find_style_gate_hits(obj: Any, _key: str = "", _path: str = "", _quote_field: bool = False) -> list:
+    """Recursively collect (path, snippet) style-gate hits, skipping exempt fields.
+
+    A quote text field passes when its record names a speaker; quote fields
+    without one are checked like any other text (speaker lines still pass).
+    """
     out = []
     if isinstance(obj, str):
         if _key not in STYLE_GATE_SKIP_KEYS:
-            out.extend((_path, s) for s in style_gate_hits(obj))
+            out.extend((_path, s) for s in style_gate_hits(obj, quote_field=_quote_field))
     elif isinstance(obj, dict):
+        attributed = _has_speaker(obj)
         for k, v in obj.items():
             if k in STYLE_GATE_SKIP_KEYS:
                 continue
-            out.extend(find_style_gate_hits(v, k, f"{_path}.{k}"))
+            if attributed and k in _QUOTE_TEXT_KEYS:
+                continue  # attributed guest quote: verbatim, never flagged
+            qf = _quote_field or k in QUOTE_FIELD_KEYS
+            out.extend(find_style_gate_hits(v, k, f"{_path}.{k}", qf))
     elif isinstance(obj, (list, tuple)):
         for i, v in enumerate(obj):
-            out.extend(find_style_gate_hits(v, _key, f"{_path}[{i}]"))
+            out.extend(find_style_gate_hits(v, _key, f"{_path}[{i}]", _quote_field))
     return out
 
 
