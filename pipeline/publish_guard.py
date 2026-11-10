@@ -30,7 +30,11 @@ origin/main, i.e. what is live):
      global "Moonshots Live" guest fix, and no record tying Cathie Wood to a
      Moonshots Live episode other than EP #296.
   4. Style gate: zero 'bet' wording hits (site_text_sanitize rules) in
-     data.js, site/data/*.json and the Trap Map card text.
+     data.js, site/data/*.json and the Trap Map card text. Scope (Nov 9
+     2026, decisions.md ~11:15 PM CT): our own voice only. Attributed guest
+     quotes (speaker-named quote records, "Name: ..." speaker lines in quote
+     fields, inline quotes with a speaker cue) pass verbatim; unattributed
+     quotes and all other copy stay strict.
   5. data.js generatedAt present and non-empty.
   6. data.js priceSnapshot present and non-empty.
   7. Staleness (check_staleness, Oct 15 2026; warn-only, prints
