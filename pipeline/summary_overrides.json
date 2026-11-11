@@ -2421,12 +2421,19 @@
     {
       "insight_id": 663,
       "podcast_episode_id": 652,
-      "_note": "Nov 9 2026 (G daily check, sweep_1109; optional polish): gloss '20s and 30s' as 20- and 30-year Treasuries.",
+      "_note": "Nov 9 2026 (G daily check, sweep_1109; optional polish): gloss '20s and 30s' as 20- and 30-year Treasuries. Nov 10 2026 (G no-ask routine fix list, Tony): Constan ASR-garbled sentence ('...and and thropic in Q2 and Q3 showwed...') dropped whole from notable_quotes #3 and the deepDive 663 episode_evidence line, not reworded; the 'my bet today' guest quote stays verbatim.",
       "replacements": [
         [
           "for 20s and 30s",
           "for 20- and 30-year Treasuries"
+        ],
+        [
+          "Andy Constan: I will say that it was an open question to me about whether the business of serving token being a large language model was a profitable business and and thropic in Q2 and Q3 showwed that the answer to that question is yes.\n",
+          ""
         ]
+      ],
+      "drop_quotes": [
+        "I will say that it was an open question to me about whether the business of serving token"
       ]
     },
     {
@@ -2447,6 +2454,16 @@
           "or \"neo labs\" (new frontier AI model companies)."
         ]
       ]
+    },
+    {
+      "insight_id": 589,
+      "podcast_episode_id": 578,
+      "_note": "Nov 10 2026 (G no-ask routine fix list, Tony): deepDive 589 (Billy Evans, 2026-10-15) catalyst 'Any forthcoming materials Evans alludes to being released within two weeks of the interview...' cut; the two-week window has passed.",
+      "drop_list_items": {
+        "catalysts": [
+          "Any forthcoming materials Evans alludes to being released within two weeks of the interview"
+        ]
+      }
     }
   ],
   "terms": [
@@ -2680,6 +2697,14 @@
       "set": {
         "term": "Evals",
         "description": "A scoring system using AI judge models to score agent outputs and detect recurring failure modes, such as redundant tests. It is used to evaluate quality beyond raw throughput."
+      }
+    },
+    {
+      "id": 295,
+      "scope": "overton",
+      "_note": "Nov 10 2026 (G no-ask routine fix list, Tony): Overton 'Annualized Run Rate' description said Zitron argued AI companies use 'undefined' run-rate figures; transcript EWWMN7492626059 (ep 544) says these companies 'never define run rate' and 'none of these people ever define what run rate means', so the line now says that.",
+      "set": {
+        "description": "Annualized Run Rate is a revenue presentation that multiplies a short period of revenue by a full year. Zitron argued that AI companies never define what their run-rate figures mean, which can make revenue appear much larger than audited sales."
       }
     }
   ],
