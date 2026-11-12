@@ -102,6 +102,42 @@
       ]
     },
     {
+      "id": 684,
+      "title": "Can Jensen Huang remain CEO? Inside NVIDIA\u2019s next steps| MOONSHOTS #310",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-11-11",
+      "summary": "The episode is a wide-ranging discussion centered on frontier AI capability gains, AI governance, and the market and national-security implications of compute scale. A major thread is the alleged NVIDIA/CEO-related espionage and export-control leakage risk to China, with speakers arguing that once an investigation starts it will keep widening and could affect NVIDIA\u2019s board oversight, China exposure, and even chip allocation through TSMC.\n\nAnother major theme is Anthropic\u2019s rapid progress. Peter Diamandis says Anthropic launched its IPO road show at a $1.3 to $1.4 trillion valuation, down from earlier floated levels of $1.5 trillion and $2 trillion. The discussion also highlights Fable 5.2 and Mithos 5.2, which are described as 30% faster than prior versions and cheaper, with claims of major scientific feats including solving two open black-hole physics problems, designing three working devices, and modeling 28 of 34 gene-therapy capsids.\n\nThe conversation repeatedly returns to autonomy-time-horizon extrapolations. Peter cites an analyst claim that time horizons are doubling every two months, while the group extends that to predictions of a \u201cvertical asymptote\u201d around summer 2027 and a 2027 crossover where AI surpasses human output per kilowatt-hour. They also discuss a 2030 projection of AI being about 40% higher on that framed metric, and claim that one thousand Claude agents formalized a theorem in 30 hours versus 11 days previously.\n\nA third cluster of topics covers Elon Musk/SpaceX/Tesla-style scaling arguments, including claims that global AI chip production must grow roughly 30x versus next year\u2019s supply to satisfy demand, and that 20 to 30 million humanoid robots would be needed to match U.S. goods and services output. Tesla is framed as moving toward rentals and subscriptions, while SpaceX is discussed in the context of very large revenue run rates and infrastructure buildout. The episode also covers Delaware\u2019s proposed AI company framework, which would allow AI agents to manage firms, sign contracts, hold property, and file lawsuits, plus a broader debate about robotics business models, space commercialization, and a cross-country claim that more billionaires correlate with less poverty.",
+      "key_takeaway": "The episode\u2019s core claim is that AI capability and autonomy are advancing fast enough to reshape semis, robotics, and corporate structure by 2027.",
+      "tickers_mentioned": [
+        "NVDA",
+        "TSM",
+        "AMD",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 673,
+      "notable_quotes": [
+        {
+          "speaker": "Alex",
+          "quote": "But we know a huge number of chips have ended up training Chinese models, partially through illegal imports, partially by parking them in other countries and doing the training offshore but bringing the weights back."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "Anthropic launched their IPO road show today, pricing the IPO somewhere on 1.3 to 1.4 trillion down from 1.5 trillion and the previous two trillion valuation they had floated."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "An analyst at Nicola, at Nicola J. 2030, looked at meters and you report on anthropic and estimated that AI is, quote, time horizon, how long a model can reliably work on finishing a task, is doubling every two months."
+        }
+      ]
+    },
+    {
       "id": 677,
       "title": "HubSpot\u2019s Co-Founder on Finding Your Next Startup Idea",
       "source_type": "podcast",
@@ -309,7 +345,7 @@
       "key_takeaway": "TrueMead\u2019s core claim is that tax-advantaged HSA/FSA spending on doctor-accompanied prevention tools can unlock materially better health outcomes.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-08",
       "archived_date": null,
@@ -15690,6 +15726,24 @@
       "last_mentioned_speaker": "Mihail Eric"
     },
     {
+      "id": 338,
+      "term": "GDPx",
+      "description": "A benchmark that places an AI agent into a realistic work environment for up to eight hours across 206 tasks in 11 fields. It is designed to measure sustained job-like performance rather than isolated prompts.",
+      "first_detected_date": "2026-11-04",
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Better GDPx performance would suggest faster commercialization of AI agents in complex knowledge work.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 646,
+      "first_detected_speaker": "Peter Diamandis (host)",
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
+    },
+    {
       "id": 330,
       "term": "Software factory",
       "description": "A development model where agents execute much of the coding, review, and operational work, with humans increasingly overseeing the system rather than writing every line. Eric suggests this may become the default for many OSS repositories.",
@@ -15802,8 +15856,8 @@
       "term": "Open-weight models",
       "description": "Models whose weights can be accessed and modified by the enterprise, rather than kept fully closed by the provider. They are presented as preferable for auditability, customization, and regulatory validation.",
       "first_detected_date": "2026-10-23",
-      "last_mentioned_date": "2026-11-07",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Could increase demand for governance, monitoring, and security tooling around enterprise AI deployment.",
@@ -15812,8 +15866,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 607,
       "first_detected_speaker": "Nick Hess",
-      "last_mentioned_episode_id": 656,
-      "last_mentioned_speaker": "Deep Dive"
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 324,
@@ -15904,6 +15958,24 @@
       "first_detected_speaker": "Evan Conrad",
       "last_mentioned_episode_id": 601,
       "last_mentioned_speaker": "Erik Bernhardsson"
+    },
+    {
+      "id": 337,
+      "term": "Safety net",
+      "description": "Singhal\u2019s phrase for AI acting as a background assistant for both patients and clinicians by catching issues, supporting decisions, and augmenting care rather than replacing it.",
+      "first_detected_date": "2026-10-20",
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "If adopted broadly, this could expand AI\u2019s role from information retrieval into workflow-critical healthcare infrastructure.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 592,
+      "first_detected_speaker": "Karan Singhal",
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 316,
@@ -16108,8 +16180,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-11-09",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -16118,8 +16190,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 664,
-      "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 295,
@@ -16271,7 +16343,7 @@
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
       "last_mentioned_date": "2026-11-11",
-      "mention_count": 19,
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -16280,8 +16352,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 672,
-      "last_mentioned_speaker": "David Orr"
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 310,
@@ -16360,8 +16432,8 @@
       "term": "Mission Critical Software",
       "description": "Software indispensable for organizations' day-to-day operations, such as sources of truth, core processes, and security.",
       "first_detected_date": "2026-09-19",
-      "last_mentioned_date": "2026-09-19",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on the resilience and indispensability of these software products for long-term stability.",
@@ -16370,8 +16442,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 500,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 500,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 289,
@@ -16720,8 +16792,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-11-08",
-      "mention_count": 46,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 47,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -16730,8 +16802,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 662,
-      "last_mentioned_speaker": "Mihail Eric"
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 265,
@@ -16846,8 +16918,8 @@
       "term": "ASI",
       "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-11-07",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
@@ -16856,8 +16928,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 658,
-      "last_mentioned_speaker": "Isaacman"
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 135,
@@ -16954,8 +17026,8 @@
       "term": "Electrification",
       "description": "The process of converting systems or industries to use electricity as the primary power source.",
       "first_detected_date": "2026-06-18",
-      "last_mentioned_date": "2026-10-22",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
@@ -16964,8 +17036,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Semenuk",
-      "last_mentioned_episode_id": 602,
-      "last_mentioned_speaker": "Dr. Anas Alhajji, Louis-Vincent Gave"
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 258,
@@ -17098,8 +17170,8 @@
       "term": "AI Personhood",
       "description": "The debate over whether advanced AI systems deserve legal, moral, social, or economic rights. The panel focused on Anthropic's Claude Constitution and whether models should be trained to consider welfare, consent, and consciousness.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 26,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because model governance, hosting revenue, agent deployment, and legal liability could change if AI rights become socially or legally recognized.",
@@ -17108,7 +17180,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 646,
+      "last_mentioned_episode_id": 673,
       "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
@@ -17404,8 +17476,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-11-07",
-      "mention_count": 90,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 91,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -17414,8 +17486,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 658,
-      "last_mentioned_speaker": "Isaacman"
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 97,
@@ -18611,7 +18683,7 @@
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-11-11",
-      "mention_count": 150,
+      "mention_count": 151,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -18620,8 +18692,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 669,
-      "last_mentioned_speaker": "Zach Reitano"
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 38,
@@ -18664,8 +18736,8 @@
       "term": "AI CEO",
       "description": "An artificial intelligence entity that could potentially lead a company, making strategic decisions and overseeing operations.",
       "first_detected_date": "2026-02-19",
-      "last_mentioned_date": "2026-08-10",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies at the forefront of AI development that could leverage AI CEOs for competitive advantage.",
@@ -18674,8 +18746,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 79,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 394,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 673,
+      "last_mentioned_speaker": "Peter Diamandis (host)"
     },
     {
       "id": 47,

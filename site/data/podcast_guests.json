@@ -1,6 +1,6 @@
 [
   {
-    "id": 116475,
+    "id": 116682,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -12,7 +12,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116476,
+    "id": 116683,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -24,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116477,
+    "id": 116684,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -36,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116478,
+    "id": 116685,
     "name": "Freedom vs. Safety",
     "slug": "freedom-vs-safety",
     "bio": null,
@@ -48,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116479,
+    "id": 116686,
     "name": "What Frontier Labs Buy",
     "slug": "what-frontier-labs-buy",
     "bio": null,
@@ -60,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116480,
+    "id": 116687,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -72,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116481,
+    "id": 116688,
     "name": "Laks Ganapathi",
     "slug": "laks-ganapathi",
     "bio": null,
@@ -84,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116482,
+    "id": 116689,
     "name": "Deep Dive",
     "slug": "deep-dive",
     "bio": null,
@@ -96,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116483,
+    "id": 116690,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -108,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116484,
+    "id": 116691,
     "name": "Controlling Biology",
     "slug": "controlling-biology",
     "bio": null,
@@ -120,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116485,
+    "id": 116692,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -132,7 +132,7 @@
     "appearance_count": 2
   },
   {
-    "id": 116486,
+    "id": 116693,
     "name": "Figma CFO Praveer Melwani",
     "slug": "figma-cfo-praveer-melwani",
     "bio": null,
@@ -144,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116487,
+    "id": 116694,
     "name": "\u26a1 Behind Latent Space",
     "slug": "behind-latent-space",
     "bio": null,
@@ -156,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116488,
+    "id": 116695,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -168,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116489,
+    "id": 116696,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -180,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116490,
+    "id": 116697,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -192,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116491,
+    "id": 116698,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -204,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116492,
+    "id": 116699,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -216,7 +216,7 @@
     "appearance_count": 2
   },
   {
-    "id": 116493,
+    "id": 116700,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -228,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116494,
+    "id": 116701,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -240,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116495,
+    "id": 116702,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -252,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116496,
+    "id": 116703,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -264,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116497,
+    "id": 116704,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -276,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116498,
+    "id": 116705,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -288,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116499,
+    "id": 116706,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -300,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116500,
+    "id": 116707,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116501,
+    "id": 116708,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116502,
+    "id": 116709,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116503,
+    "id": 116710,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -348,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 116505,
+    "id": 116712,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
