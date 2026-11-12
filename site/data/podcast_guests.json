@@ -1,6 +1,54 @@
 [
   {
-    "id": 114230,
+    "id": 116475,
+    "name": "Zach Reitano",
+    "slug": "zach-reitano",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Reitano\u2019s core claim is that patient-driven, vertically integrated GLP-1 healthcare platforms can use AI and transparency to gain share while lowering friction and improving outcomes.",
+    "last_episode_title": "Zach Reitano - Building Ro and Why Healthcare Should Be 50% of GDP - [Invest Like the Best, EP.500]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-11-11",
+    "appearance_count": 1
+  },
+  {
+    "id": 116476,
+    "name": "Mike Volpi",
+    "slug": "mike-volpi",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI infrastructure scarcity and high utilization should keep compute assets valuable for years, even if the market corrects and ownership changes.",
+    "last_episode_title": "What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-11",
+    "appearance_count": 1
+  },
+  {
+    "id": 116477,
+    "name": "David Orr",
+    "slug": "david-orr",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI compute may oversupply in the near term, but hyperscalers remain the best relative AI trade because contract structure and locked capacity limit downside.",
+    "last_episode_title": "Too Much Compute: Why This Top Hedge Fund Manager Believes AI is Heading for a Massive Oversupply | David Orr",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-11-11",
+    "appearance_count": 1
+  },
+  {
+    "id": 116478,
+    "name": "Freedom vs. Safety",
+    "slug": "freedom-vs-safety",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Axon\u2019s scalable body-camera-and-cloud platform, plus drone/robotics expansion, could deepen its public-safety moat if guardrailed non-lethal technology keeps winning adoption.",
+    "last_episode_title": "Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-11-10",
+    "appearance_count": 1
+  },
+  {
+    "id": 116479,
     "name": "What Frontier Labs Buy",
     "slug": "what-frontier-labs-buy",
     "bio": null,
@@ -12,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114231,
+    "id": 116480,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -24,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114232,
+    "id": 116481,
     "name": "Laks Ganapathi",
     "slug": "laks-ganapathi",
     "bio": null,
@@ -36,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114233,
+    "id": 116482,
     "name": "Deep Dive",
     "slug": "deep-dive",
     "bio": null,
@@ -48,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114234,
+    "id": 116483,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -60,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114235,
+    "id": 116484,
     "name": "Controlling Biology",
     "slug": "controlling-biology",
     "bio": null,
@@ -72,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114236,
+    "id": 116485,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -84,7 +132,7 @@
     "appearance_count": 2
   },
   {
-    "id": 114237,
+    "id": 116486,
     "name": "Figma CFO Praveer Melwani",
     "slug": "figma-cfo-praveer-melwani",
     "bio": null,
@@ -96,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114238,
+    "id": 116487,
     "name": "\u26a1 Behind Latent Space",
     "slug": "behind-latent-space",
     "bio": null,
@@ -108,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114239,
+    "id": 116488,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -120,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114240,
+    "id": 116489,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -132,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114241,
+    "id": 116490,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -144,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114242,
+    "id": 116491,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -156,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114243,
+    "id": 116492,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -168,7 +216,7 @@
     "appearance_count": 2
   },
   {
-    "id": 114244,
+    "id": 116493,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -180,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114245,
+    "id": 116494,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -192,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114246,
+    "id": 116495,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -204,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114247,
+    "id": 116496,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -216,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114248,
+    "id": 116497,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -228,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114249,
+    "id": 116498,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -240,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114250,
+    "id": 116499,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -252,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114251,
+    "id": 116500,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -264,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114252,
+    "id": 116501,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -276,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114253,
+    "id": 116502,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -288,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114254,
+    "id": 116503,
     "name": "Grepr CEO Jad Naous",
     "slug": "grepr-ceo-jad-naous",
     "bio": null,
@@ -300,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 114256,
+    "id": 116505,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -310,53 +358,5 @@
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-10-15",
     "appearance_count": 2
-  },
-  {
-    "id": 114255,
-    "name": "Billy Evans",
-    "slug": "billy-evans",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
-    "last_episode_title": "Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 114257,
-    "name": "Alex Rampell & Terry Angelos",
-    "slug": "alex-rampell--terry-angelos",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Agentic commerce could create a large infrastructure winner in payment vaulting and token provisioning, and VGS claims to already sit at the center of that shift.",
-    "last_episode_title": "When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 114258,
-    "name": "Nathan Lambert",
-    "slug": "nathan-lambert",
-    "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
-    "known_for": "Open-model research and post-training; co-founder of Trillium Labs.",
-    "last_main_idea": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
-    "last_episode_title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-14",
-    "appearance_count": 1
-  },
-  {
-    "id": 114259,
-    "name": "Ben Inker",
-    "slug": "ben-inker",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
-    "last_episode_title": "The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-14",
-    "appearance_count": 1
   }
 ]
