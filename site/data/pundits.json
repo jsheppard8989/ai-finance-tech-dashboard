@@ -17,7 +17,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-11-05",
     "mention_score": 4,
-    "mention_score_decayed": 3.56,
+    "mention_score_decayed": 3.48,
     "last_main_idea": "Congressional constraints on U.S. foreign policy could keep energy risk premia and refining margins elevated longer than markets expect, supporting a tactical rebound in MPC.",
     "last_proof_cite": "Macro Voices \u2022 2026-11-05 \u2022 MacroVoices #557 Michael Every: The Blue Tsunami Lands on Markets... and Geopolitics",
     "last_proof_snippet": "Tariffs are, historically, as Nehama-Cantelist history shows, pretty much the only way that you're going to re-industrialise, and if U. S.",
@@ -382,7 +382,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
     "mention_score": 4,
-    "mention_score_decayed": 2.24,
+    "mention_score_decayed": 2.19,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "supporting_takeaway": "David Sacks argued CoreWeave\u2019s fixed-price contract structure means upside from higher spot pricing is limited because capacity has already been pre-sold.",
     "grokipedia_url": null,
@@ -1043,7 +1043,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Resend's edge is becoming infrastructure ownership and deliverability observability, which could turn developer preference into durable platform adoption.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-10 \u2022 Designing for Agents \u2014 Zeno Rocha, Resend",
     "last_proof_snippet": "It's like, oh my gosh, how are we ever gonna beat SendGrid? It's im- just impossible. And then earlier this year, we crossed a number of, uh, downloads from SendGrid, and I was like, \"That's insane,\" and now we're more than double.",
@@ -1097,7 +1097,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Structural index pinning from heavy December put positioning can coexist with a fat left tail, but the most actionable move is still selective convexity rather than outright long volatility.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-09 \u2022 Structural Flows Will Support Stocks Until the U.S. Treasury Crisis in 2027 | Cem Karsan & Noel Smith | Kai Asset Management",
     "last_proof_snippet": "I'll believe Hank Palson shows up, 45 minutes with Bloomberg to declare nonstop for 45 minutes. There's a coming treasury crisis and we need to prepare a facility to backstop it. That's weird.",
@@ -1205,7 +1205,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "AI-native software stacks will shift value toward context engineering, verification, and agentic workflow platforms while making code review and security the main adoption bottlenecks.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-08 \u2022 [One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering \u2014 Mihail Eric, Monaco",
     "last_proof_snippet": "Okay, this is a pretty special episode because we're celebrating one million subscribers on the AIU Code, uh, AI, AI Engineer YouTube channel.",
@@ -1232,7 +1232,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Private credit\u2019s retail liquidity mismatch and delayed loss recognition will expose hidden deterioration first in data-center and direct-lending exposures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-08 \u2022 Following the Private Credit Loan Books | Laks Ganapathi",
     "last_proof_snippet": "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, Lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to Tangibles. Learn more at Sarmayaetf.",
@@ -1497,87 +1497,6 @@
     "pundit_profile": null
   },
   {
-    "id": 621,
-    "name": "Latent Space",
-    "slug": "latent-space",
-    "bio": "AI engineer and community builder associated with the AI Engineer conference ecosystem. The guest discusses cross-cultural event building, AI product design, and the business implications of coding agents.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-06 04:19:56",
-    "last_episode_title": "\u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-11-04",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Coding agents may compress SaaS moats by enabling fast cloning and customization, making embedded AI tooling and defensible data/integration layers more valuable.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-04 \u2022 \u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
-    "last_proof_snippet": "The guest argues that in tech, learning in public increases value, unlike finance where knowledge can be zero-sum.",
-    "supporting_takeaway": "The guest argues that in tech, learning in public increases value, unlike finance where knowledge can be zero-sum.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 619,
-    "name": "Scott Baskind",
-    "slug": "scott-baskind",
-    "bio": "Head of global private credit at Invesco. He has a long career in credit markets and oversees strategies including syndicated loans, CLOs, direct lending, European lending, and opportunistic credit.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-06 04:19:12",
-    "last_episode_title": "Invesco\u2019s Private Credit CIO Eyes \u2018Equity-Like\u2019 Returns in Loans",
-    "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
-    "last_episode_date": "2026-11-05",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Private credit remains attractive because Baskind expects today\u2019s illiquidity premium and SOFR-plus yields to stay compelling while disciplined underwriting and CLO demand support returns.",
-    "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-11-05 \u2022 Invesco\u2019s Private Credit CIO Eyes \u2018Equity-Like\u2019 Returns in Loans",
-    "last_proof_snippet": "Speaker 1: My name is James Crombie. I'm your senior editor at Bloomberg. Speaker 2: And I'm Matt Goitner, a senior credit analyst at Bloomberg Intelligence.",
-    "supporting_takeaway": "Scott Baskind said the private credit market is currently around SOFR plus 475 to 575 basis points, which he views as the middle of the historical range.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 616,
-    "name": "Praveer Melwani",
-    "slug": "praveer-melwani",
-    "bio": "CFO at Figma who joined in 2017 and helped take the company public. He leads finance transformation efforts focused on AI, automation, data integrity, and operating efficiency.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-06 04:17:44",
-    "last_episode_title": "The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-05",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "The episode\u2019s core claim is that finance automation will be constrained more by data readiness and auditability than by AI model power, making workflow and governance infrastructure the key winners.",
-    "last_proof_cite": "The a16z Show \u2022 2026-11-05 \u2022 The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
-    "last_proof_snippet": "Melwani frames the organizational change as moving finance from a \u201ctraffic cop\u201d to a business enabler.",
-    "supporting_takeaway": "Melwani frames the organizational change as moving finance from a \u201ctraffic cop\u201d to a business enabler.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 267,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
@@ -1635,6 +1554,87 @@
       ]
     },
     "net_worth": "$600.0M"
+  },
+  {
+    "id": 621,
+    "name": "Latent Space",
+    "slug": "latent-space",
+    "bio": "AI engineer and community builder associated with the AI Engineer conference ecosystem. The guest discusses cross-cultural event building, AI product design, and the business implications of coding agents.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-06 04:19:56",
+    "last_episode_title": "\u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-11-04",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "Coding agents may compress SaaS moats by enabling fast cloning and customization, making embedded AI tooling and defensible data/integration layers more valuable.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-04 \u2022 \u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
+    "last_proof_snippet": "The guest argues that in tech, learning in public increases value, unlike finance where knowledge can be zero-sum.",
+    "supporting_takeaway": "The guest argues that in tech, learning in public increases value, unlike finance where knowledge can be zero-sum.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 619,
+    "name": "Scott Baskind",
+    "slug": "scott-baskind",
+    "bio": "Head of global private credit at Invesco. He has a long career in credit markets and oversees strategies including syndicated loans, CLOs, direct lending, European lending, and opportunistic credit.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-06 04:19:12",
+    "last_episode_title": "Invesco\u2019s Private Credit CIO Eyes \u2018Equity-Like\u2019 Returns in Loans",
+    "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
+    "last_episode_date": "2026-11-05",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "Private credit remains attractive because Baskind expects today\u2019s illiquidity premium and SOFR-plus yields to stay compelling while disciplined underwriting and CLO demand support returns.",
+    "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-11-05 \u2022 Invesco\u2019s Private Credit CIO Eyes \u2018Equity-Like\u2019 Returns in Loans",
+    "last_proof_snippet": "Speaker 1: My name is James Crombie. I'm your senior editor at Bloomberg. Speaker 2: And I'm Matt Goitner, a senior credit analyst at Bloomberg Intelligence.",
+    "supporting_takeaway": "Scott Baskind said the private credit market is currently around SOFR plus 475 to 575 basis points, which he views as the middle of the historical range.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 616,
+    "name": "Praveer Melwani",
+    "slug": "praveer-melwani",
+    "bio": "CFO at Figma who joined in 2017 and helped take the company public. He leads finance transformation efforts focused on AI, automation, data integrity, and operating efficiency.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-06 04:17:44",
+    "last_episode_title": "The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-05",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "The episode\u2019s core claim is that finance automation will be constrained more by data readiness and auditability than by AI model power, making workflow and governance infrastructure the key winners.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-05 \u2022 The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
+    "last_proof_snippet": "Melwani frames the organizational change as moving finance from a \u201ctraffic cop\u201d to a business enabler.",
+    "supporting_takeaway": "Melwani frames the organizational change as moving finance from a \u201ctraffic cop\u201d to a business enabler.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 614,
@@ -2093,33 +2093,6 @@
     "pundit_profile": null
   },
   {
-    "id": 600,
-    "name": "Will Ahmed",
-    "slug": "will-ahmed",
-    "bio": "CEO and founder of WHOOP, the wearable health and performance subscription company. He discusses the company\u2019s data scale, AI roadmap, regulatory issues, and product strategy.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 05:00:12",
-    "last_episode_title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.76,
-    "last_main_idea": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-29 \u2022 WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
-    "last_proof_snippet": "On average, a [WHOOP] member wears [WHOOP] 23.6 hours a day, we have just over 50 billion hours of continuous physiological data. So it's one of the largest health data sets in the world.",
-    "supporting_takeaway": "Ahmed says WHOOP reached 1 million members after about 12 years, then scaled to 2 million in roughly 18 months and to around 3 million in about six months.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 160,
     "name": "Ben Lamm",
     "slug": "ben-lamm",
@@ -2182,6 +2155,33 @@
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 600,
+    "name": "Will Ahmed",
+    "slug": "will-ahmed",
+    "bio": "CEO and founder of WHOOP, the wearable health and performance subscription company. He discusses the company\u2019s data scale, AI roadmap, regulatory issues, and product strategy.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 05:00:12",
+    "last_episode_title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.74,
+    "last_main_idea": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-29 \u2022 WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+    "last_proof_snippet": "On average, a [WHOOP] member wears [WHOOP] 23.6 hours a day, we have just over 50 billion hours of continuous physiological data. So it's one of the largest health data sets in the world.",
+    "supporting_takeaway": "Ahmed says WHOOP reached 1 million members after about 12 years, then scaled to 2 million in roughly 18 months and to around 3 million in about six months.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 599,
@@ -3313,7 +3313,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-15 \u2022 Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
     "last_proof_snippet": "",
@@ -3458,33 +3458,6 @@
     "pundit_profile": null
   },
   {
-    "id": 529,
-    "name": "Charles Lemonides",
-    "slug": "charles-le-manides",
-    "bio": "CIO and founder of ValueWorks LLC.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 04:43:17",
-    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.51,
-    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years.",
-    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 436,
     "name": "Justin Johnson",
     "slug": "justin-johnson",
@@ -3604,6 +3577,33 @@
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 529,
+    "name": "Charles Lemonides",
+    "slug": "charles-le-manides",
+    "bio": "CIO and founder of ValueWorks LLC.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 04:43:17",
+    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.5,
+    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years.",
+    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 528,
@@ -4175,7 +4175,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Richard Socher claims AI can deliver a century of scientific breakthroughs in the next decade by automating hypothesis, experiment, data, and theory across the full scientific stack.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-03 \u2022 Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
     "last_proof_snippet": "In various weak forms, we already have RSI. We're not quite there yet, but we're very close.",
@@ -4980,62 +4980,6 @@
     }
   },
   {
-    "id": 480,
-    "name": "Eric Nguyen",
-    "slug": "eric-gwyn",
-    "bio": "Eric Nguyen is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
-    "known_for": "Eric Nguyen is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and assertive",
-    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:17",
-    "last_seen": "2026-09-24 04:53:17",
-    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.33,
-    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging.",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Eric Nguyen",
-      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
-      "cliff_notes": "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
-      "derived": {
-        "current_role": "CEO and Co-founder of Article"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
-        "Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
-      ],
-      "sections": [
-        {
-          "heading": "Genomic Language Models",
-          "body": "Nguyen's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
-        },
-        {
-          "heading": "Biosecurity in Synthetic Biology",
-          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
-        },
-        {
-          "heading": "Dual Mandate Approach",
-          "body": "Nguyen promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
-        }
-      ]
-    }
-  },
-  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -5092,6 +5036,62 @@
       ]
     },
     "net_worth": "$3.70B"
+  },
+  {
+    "id": 480,
+    "name": "Eric Nguyen",
+    "slug": "eric-gwyn",
+    "bio": "Eric Nguyen is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
+    "known_for": "Eric Nguyen is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and assertive",
+    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:17",
+    "last_seen": "2026-09-24 04:53:17",
+    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.32,
+    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging.",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eric Nguyen",
+      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
+      "cliff_notes": "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
+      "derived": {
+        "current_role": "CEO and Co-founder of Article"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
+        "Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Language Models",
+          "body": "Nguyen's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
+        },
+        {
+          "heading": "Biosecurity in Synthetic Biology",
+          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
+        },
+        {
+          "heading": "Dual Mandate Approach",
+          "body": "Nguyen promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
+        }
+      ]
+    }
   },
   {
     "id": 478,
@@ -5226,7 +5226,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in AI tools and climate resilience technologies presents a significant opportunity for enhancing scientific research and addressing global challenges.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-22 \u2022 \ud83d\udd2c An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
     "last_proof_snippet": "",
@@ -5397,7 +5397,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "",
@@ -5619,7 +5619,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
     "last_proof_snippet": "Dario Amodei, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Monday, President Trump called it a hoax and China called it a cold war trick.",
@@ -5848,7 +5848,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The Fed is expected to implement two more rate hikes, indicating a continued hawkish monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-16 \u2022 Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
     "last_proof_snippet": "",
@@ -5885,65 +5885,6 @@
         }
       ]
     }
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
-    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
-    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
-    "voice_tone": "Candid and thoughtful.",
-    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
-    "voice_profile_updated_at": "2026-08-18 04:34:22",
-    "last_seen": "2026-08-18 04:34:22",
-    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-18",
-    "mention_score": 2,
-    "mention_score_decayed": 0.28,
-    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Garrett Langley",
-      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
-      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
-      "derived": {
-        "current_role": "CEO of Flock"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
-        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
-      ],
-      "sections": [
-        {
-          "heading": "Flock's Impact",
-          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
-        },
-        {
-          "heading": "Safety and Privacy",
-          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
-        },
-        {
-          "heading": "Community Adoption",
-          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 459,
@@ -6251,6 +6192,65 @@
         }
       ]
     }
+  },
+  {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
+    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
+    "voice_tone": "Candid and thoughtful.",
+    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
+    "voice_profile_updated_at": "2026-08-18 04:34:22",
+    "last_seen": "2026-08-18 04:34:22",
+    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 2,
+    "mention_score_decayed": 0.27,
+    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Garrett Langley",
+      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
+      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
+      "derived": {
+        "current_role": "CEO of Flock"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
+        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
+      ],
+      "sections": [
+        {
+          "heading": "Flock's Impact",
+          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
+        },
+        {
+          "heading": "Safety and Privacy",
+          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
+        },
+        {
+          "heading": "Community Adoption",
+          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
   },
   {
     "id": 452,
@@ -8433,7 +8433,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Rahm Emanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "last_proof_snippet": "",
@@ -9216,124 +9216,6 @@
     "net_worth": "$500.0M"
   },
   {
-    "id": 382,
-    "name": "Dino Ceranic",
-    "slug": "dino-ceranic",
-    "bio": "Dino Ceranic is the co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ships. His work has been instrumental in pioneering the use of autonomous technology in military operations, particularly in high-stakes environments such as the Strait of Hormuz.",
-    "known_for": "Pioneering the use of autonomous ships in military operations.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and passionate about the impact of autonomous technology on defense.",
-    "voice_style": "Direct and factual, with a focus on the practical implications of the technology.",
-    "voice_delivery_notes": "Speaks with a sense of urgency and pride in their work.",
-    "voice_profile_updated_at": "2026-08-06 04:38:17",
-    "last_seen": "2026-08-06 04:38:17",
-    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-05",
-    "mention_score": 1,
-    "mention_score_decayed": 0.11,
-    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-05T23:39:27.883151",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dino Ceranic",
-      "fetched_at": "2026-08-06T04:39:27.882793+00:00",
-      "cliff_notes": "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz. This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors.",
-      "derived": {
-        "current_role": "Co-founder of Ceranic"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz.",
-        "This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Ship Technology",
-          "body": "Dino Ceranic has been instrumental in the development of autonomous ship technology, which has significant implications for military operations and maritime security."
-        },
-        {
-          "heading": "Military Applications",
-          "body": "Ceranic's work has been highlighted by the successful deployment of autonomous ships in military operations, demonstrating the potential of this technology in high-stakes environments."
-        },
-        {
-          "heading": "Innovation in Defense",
-          "body": "As a leader in the defense industry, Ceranic has helped to pioneer new approaches to maritime defense, leveraging autonomous systems to enhance operational capabilities."
-        }
-      ]
-    }
-  },
-  {
-    "id": 383,
-    "name": "Vibhav Altekar",
-    "slug": "vib-altacar",
-    "bio": "Vibhav Altekar is a co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ship technology. His work has been instrumental in advancing maritime defense capabilities, with recent applications in strategic locations such as the Strait of Hormuz.",
-    "known_for": "Pioneering the deployment of autonomous ships in maritime defense applications.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Supportive and informative, providing insights into the industry.",
-    "voice_style": "Collaborative, emphasizing the team effort behind Ceranic's achievements.",
-    "voice_delivery_notes": "Speaks with a focus on the technical and strategic aspects of the technology.",
-    "voice_profile_updated_at": "2026-08-06 04:38:17",
-    "last_seen": "2026-08-06 04:38:17",
-    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-05",
-    "mention_score": 1,
-    "mention_score_decayed": 0.11,
-    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-05T23:39:36.761027",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Vibhav Altekar",
-      "fetched_at": "2026-08-06T04:39:36.760872+00:00",
-      "cliff_notes": "Vibhav Altekar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altekar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems. His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments.",
-      "derived": {
-        "current_role": "Co-founder of Ceranic"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Vibhav Altekar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altekar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems.",
-        "His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Ship Technology",
-          "body": "Vibhav Altekar has been a key figure in the advancement of autonomous ship technology, which has significant implications for modern defense strategies and maritime operations."
-        },
-        {
-          "heading": "Maritime Defense",
-          "body": "Altekar's work with Ceranic has led to the deployment of autonomous ships in strategic locations, enhancing maritime security and demonstrating the practical applications of this technology."
-        },
-        {
-          "heading": "Innovation in Defense",
-          "body": "Under Altekar's leadership, Ceranic has become a notable player in the defense industry, pushing the boundaries of what is possible with autonomous systems in naval defense."
-        }
-      ]
-    }
-  },
-  {
     "id": 259,
     "name": "Andrew Feldman",
     "slug": "andrew-feldman",
@@ -9396,6 +9278,124 @@
       ]
     },
     "net_worth": "$19.8M"
+  },
+  {
+    "id": 382,
+    "name": "Dino Ceranic",
+    "slug": "dino-ceranic",
+    "bio": "Dino Ceranic is the co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ships. His work has been instrumental in pioneering the use of autonomous technology in military operations, particularly in high-stakes environments such as the Strait of Hormuz.",
+    "known_for": "Pioneering the use of autonomous ships in military operations.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and passionate about the impact of autonomous technology on defense.",
+    "voice_style": "Direct and factual, with a focus on the practical implications of the technology.",
+    "voice_delivery_notes": "Speaks with a sense of urgency and pride in their work.",
+    "voice_profile_updated_at": "2026-08-06 04:38:17",
+    "last_seen": "2026-08-06 04:38:17",
+    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-05",
+    "mention_score": 1,
+    "mention_score_decayed": 0.1,
+    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-05T23:39:27.883151",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dino Ceranic",
+      "fetched_at": "2026-08-06T04:39:27.882793+00:00",
+      "cliff_notes": "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz. This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors.",
+      "derived": {
+        "current_role": "Co-founder of Ceranic"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz.",
+        "This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Ship Technology",
+          "body": "Dino Ceranic has been instrumental in the development of autonomous ship technology, which has significant implications for military operations and maritime security."
+        },
+        {
+          "heading": "Military Applications",
+          "body": "Ceranic's work has been highlighted by the successful deployment of autonomous ships in military operations, demonstrating the potential of this technology in high-stakes environments."
+        },
+        {
+          "heading": "Innovation in Defense",
+          "body": "As a leader in the defense industry, Ceranic has helped to pioneer new approaches to maritime defense, leveraging autonomous systems to enhance operational capabilities."
+        }
+      ]
+    }
+  },
+  {
+    "id": 383,
+    "name": "Vibhav Altekar",
+    "slug": "vib-altacar",
+    "bio": "Vibhav Altekar is a co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ship technology. His work has been instrumental in advancing maritime defense capabilities, with recent applications in strategic locations such as the Strait of Hormuz.",
+    "known_for": "Pioneering the deployment of autonomous ships in maritime defense applications.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Supportive and informative, providing insights into the industry.",
+    "voice_style": "Collaborative, emphasizing the team effort behind Ceranic's achievements.",
+    "voice_delivery_notes": "Speaks with a focus on the technical and strategic aspects of the technology.",
+    "voice_profile_updated_at": "2026-08-06 04:38:17",
+    "last_seen": "2026-08-06 04:38:17",
+    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-05",
+    "mention_score": 1,
+    "mention_score_decayed": 0.1,
+    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-05T23:39:36.761027",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Vibhav Altekar",
+      "fetched_at": "2026-08-06T04:39:36.760872+00:00",
+      "cliff_notes": "Vibhav Altekar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altekar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems. His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments.",
+      "derived": {
+        "current_role": "Co-founder of Ceranic"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Vibhav Altekar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altekar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems.",
+        "His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Ship Technology",
+          "body": "Vibhav Altekar has been a key figure in the advancement of autonomous ship technology, which has significant implications for modern defense strategies and maritime operations."
+        },
+        {
+          "heading": "Maritime Defense",
+          "body": "Altekar's work with Ceranic has led to the deployment of autonomous ships in strategic locations, enhancing maritime security and demonstrating the practical applications of this technology."
+        },
+        {
+          "heading": "Innovation in Defense",
+          "body": "Under Altekar's leadership, Ceranic has become a notable player in the defense industry, pushing the boundaries of what is possible with autonomous systems in naval defense."
+        }
+      ]
+    }
   },
   {
     "id": 378,
@@ -11909,7 +11909,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Assess leverage levels in capital-intensive sectors to gauge risk exposure.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "",

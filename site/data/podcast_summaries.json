@@ -1,5 +1,28 @@
 [
   {
+    "id": 673,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Can Jensen Huang remain CEO? Inside NVIDIA\u2019s next steps| MOONSHOTS #310",
+    "episode_date": "2026-11-11",
+    "summary": "The episode is a wide-ranging discussion centered on frontier AI capability gains, AI governance, and the market and national-security implications of compute scale. A major thread is the alleged NVIDIA/CEO-related espionage and export-control leakage risk to China, with speakers arguing that once an investigation starts it will keep widening and could affect NVIDIA\u2019s board oversight, China exposure, and even chip allocation through TSMC.\n\nAnother major theme is Anthropic\u2019s rapid progress. Peter Diamandis says Anthropic launched its IPO road show at a $1.3 to $1.4 trillion valuation, down from earlier floated levels of $1.5 trillion and $2 trillion. The discussion also highlights Fable 5.2 and Mithos 5.2, which are described as 30% faster than prior versions and cheaper, with claims of major scientific feats including solving two open black-hole physics problems, designing three working devices, and modeling 28 of 34 gene-therapy capsids.\n\nThe conversation repeatedly returns to autonomy-time-horizon extrapolations. Peter cites an analyst claim that time horizons are doubling every two months, while the group extends that to predictions of a \u201cvertical asymptote\u201d around summer 2027 and a 2027 crossover where AI surpasses human output per kilowatt-hour. They also discuss a 2030 projection of AI being about 40% higher on that framed metric, and claim that one thousand Claude agents formalized a theorem in 30 hours versus 11 days previously.\n\nA third cluster of topics covers Elon Musk/SpaceX/Tesla-style scaling arguments, including claims that global AI chip production must grow roughly 30x versus next year\u2019s supply to satisfy demand, and that 20 to 30 million humanoid robots would be needed to match U.S. goods and services output. Tesla is framed as moving toward rentals and subscriptions, while SpaceX is discussed in the context of very large revenue run rates and infrastructure buildout. The episode also covers Delaware\u2019s proposed AI company framework, which would allow AI agents to manage firms, sign contracts, hold property, and file lawsuits, plus a broader debate about robotics business models, space commercialization, and a cross-country claim that more billionaires correlate with less poverty.",
+    "key_takeaways": [
+      "Peter Diamandis said Anthropic\u2019s IPO road show was pricing the company at about $1.3 to $1.4 trillion, down from prior floated levels of $1.5 trillion and $2 trillion.",
+      "Peter Diamandis said Fable 5.2 and Mithos 5.2 were 30% faster than the 5.1 versions and cheaper, at $8 million per million input tokens and $40 per out.",
+      "Alex argued that a huge number of chips have ended up training Chinese models through illegal imports and offshore training structures, making the NVIDIA-related risk materially broader than one person.",
+      "Alex said NVIDIA does not make the chips itself and relies on TSMC, so any capacity allocation shift could move value across the semiconductor supply chain.",
+      "Peter Diamandis said an analyst estimated AI time horizons are doubling every two months, supporting the episode\u2019s 2027 autonomy acceleration thesis.",
+      "Alex said Tesla is pivoting from selling products to selling subscription services and rentals, especially around autonomy and future robotics.",
+      "Peter Diamandis said Delaware\u2019s draft AI company framework would let an AI agent manage the business, sign contracts, hold property, and file lawsuits in the company\u2019s name."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that AI capability and autonomy are advancing fast enough to reshape semis, robotics, and corporate structure by 2027.",
+    "key_tickers": [
+      "NVDA",
+      "TSM",
+      "AMD",
+      "TSLA"
+    ]
+  },
+  {
     "id": 672,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Too Much Compute: Why This Top Hedge Fund Manager Believes AI is Heading for a Massive Oversupply | David Orr",
