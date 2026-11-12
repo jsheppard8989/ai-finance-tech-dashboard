@@ -2464,6 +2464,62 @@
           "Any forthcoming materials Evans alludes to being released within two weeks of the interview"
         ]
       }
+    },
+    {
+      "insight_id": 676,
+      "podcast_episode_id": 665,
+      "_note": "Nov 11 2026 (G fix list sweep_1111 ai_blitz_fixes.md, Tony): our-voice 'bets' -> 'positions' (style gate); ASR 'Jim Carson' -> 'Cem Karsan' (confirmed against official listing). Guest quotes untouched.",
+      "replacements": [
+        [
+          "rather than outright directional bets",
+          "rather than outright directional positions"
+        ],
+        [
+          "Jim Carson",
+          "Cem Karsan"
+        ]
+      ]
+    },
+    {
+      "insight_id": 679,
+      "podcast_episode_id": 668,
+      "_note": "Nov 11 2026 (G fix list, Tony): our paraphrase only, 'bet' -> 'chose'. Smith's notable quote stays verbatim, including 'double bet'.",
+      "replacements": [
+        [
+          "Smith said the company bet on body cameras",
+          "Smith said the company chose body cameras"
+        ]
+      ]
+    },
+    {
+      "insight_id": 680,
+      "podcast_episode_id": 670,
+      "_note": "Nov 11 2026 (Tony, plumbing): card 680 Volpi quote has the same ASR 'open AI' as card 601 (G-approved Oct 20 fix). The Nov 11 6:56 AM guard 'override fix undone' was this new card, not 601 regressing: the 601 rule is scoped to episode 590 so it could not reach episode 670. Only the two words change.",
+      "replacements": [
+        [
+          "open AI",
+          "OpenAI"
+        ]
+      ]
+    },
+    {
+      "insight_id": 682,
+      "podcast_episode_id": 671,
+      "_note": "Nov 11 2026 (G clearance ai_blitz_g_clear.md, Tony): Credit Edge AI Blitz card. Quote 3 opening restored; takeaways 4 and 7 end at the sourced fact.",
+      "replacements": [
+        [
+          "Nevertheless, yields of 15.5%",
+          "But nevertheless, yields of 15.5%"
+        ],
+        [
+          ", making AI a much bigger credit theme than many investors appreciate",
+          ""
+        ],
+        [
+          ", implying meaningful financing stress in parts of the AI capital stack",
+          ""
+        ]
+      ]
     }
   ],
   "terms": [
@@ -3148,6 +3204,14 @@
     [
       "over pure model-layer bets",
       "over pure model-layer positions"
+    ],
+    [
+      "Smith said the company bet on body cameras and cloud infrastructure because police needed",
+      "Smith said the company chose body cameras and cloud infrastructure because police needed"
+    ],
+    [
+      "rather than outright directional bets.",
+      "rather than outright directional positions."
     ]
   ],
   "global_name_replacements": [
