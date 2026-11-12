@@ -892,6 +892,29 @@ def _abort_in_progress_ops() -> None:
         _git("cherry-pick", "--abort")
 
 
+def _restore_generated_paths(rels: list[str], attempts: int = 3) -> None:
+    """Restore generated files to HEAD. If a path is still dirty (e.g. a chart PNG left
+    behind or rewritten), delete the file and check it out again, then re-check."""
+    import time
+    for attempt in range(attempts):
+        _git("reset", "-q", "HEAD", "--", *rels)
+        for rel in rels:
+            in_head = _git("cat-file", "-e", f"HEAD:{rel}").returncode == 0
+            if in_head:
+                if _git("checkout", "HEAD", "--", rel).returncode != 0 or attempt:
+                    try:
+                        (WORKSPACE / rel).unlink()
+                    except FileNotFoundError:
+                        pass
+                    _git("checkout", "HEAD", "--", rel)
+            elif (WORKSPACE / rel).is_file():
+                (WORKSPACE / rel).unlink()  # untracked generated output (backed up above)
+        left = (_git("status", "--porcelain", "--untracked-files=all", "--", *rels).stdout or "").strip()
+        if not left:
+            return
+        time.sleep(1)
+
+
 def _backup_and_discard_generated() -> str | None:
     """Copy dirty/untracked/conflicted generated outputs to /tmp, then restore them to HEAD.
     Only GENERATED_PATHS are touched; anything else in the checkout is left alone."""
@@ -912,12 +935,7 @@ def _backup_and_discard_generated() -> str | None:
     (dest / "git-status.txt").write_text("\n".join(lines) + "\n")
     (dest / "diff.patch").write_text(_git("diff", "HEAD", "--", *GENERATED_PATHS).stdout or "")
     rels = [l[3:].split(" -> ")[-1].strip().strip('"') for l in lines]
-    _git("reset", "-q", "HEAD", "--", *rels)
-    for rel in rels:
-        if _git("cat-file", "-e", f"HEAD:{rel}").returncode == 0:
-            _git("checkout", "HEAD", "--", rel)
-        elif (WORKSPACE / rel).is_file():
-            (WORKSPACE / rel).unlink()  # untracked generated output (backed up above)
+    _restore_generated_paths(rels)
     left = (_git("status", "--porcelain", "--untracked-files=all", "--", *GENERATED_PATHS).stdout or "").strip()
     if left:
         raise RuntimeError(f"generated outputs still dirty after restore: {left[:300]}")
