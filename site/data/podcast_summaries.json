@@ -1,5 +1,141 @@
 [
   {
+    "id": 672,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Too Much Compute: Why This Top Hedge Fund Manager Believes AI is Heading for a Massive Oversupply | David Orr",
+    "episode_date": "2026-11-11",
+    "summary": "David Orr argues that AI\u2019s near-term setup is still dominated by capex and positioning rather than a durable fundamental shift. He says the sell-off in AI infrastructure is being driven by leverage and forced liquidation, not by a meaningful change in underlying demand, and that the market is misreading the speed at which compute can be absorbed.\n\nHis core bearish near-term point is that compute oversupply is likely because most buyers outside software/hyperscalers are not truly consuming the capacity being built. He says spare compute pricing fell sharply, citing a move from about $12 per compute hour in September to around $4 later, which he sees as evidence that resale will become necessary once software demand normalizes.\n\nAt the same time, Orr is not broadly bearish on AI winners. He says his favorite AI exposure is long the hyperscalers \u2014 Google, Amazon, and Microsoft \u2014 because their contract structure and economics reduce downside risk. He specifically cites roughly a 35% return on capital on projects and about half of capacity already locked in as reasons he thinks those companies can weather an oversupply regime better than smaller players.\n\nHe also pushes back on the idea that AI will quickly translate into physical-world throughput. In hard science and drug discovery, he thinks the bottleneck will be experimentation capacity, labs, and data generation, not just better models. Over the next five years, he expects many white-collar tasks to become nearly free, compressing margins in software and services, while value shifts toward large platforms and some tangible/energy/materials exposures.",
+    "key_takeaways": [
+      "David Orr says the AI infrastructure sell-off is mainly positioning and leverage-driven, not a sudden fundamental deterioration.",
+      "He argues compute is heading toward oversupply because, outside software companies, there are few real buyers absorbing the capacity being built.",
+      "Orr cites spare compute pricing falling from about $12 per compute hour to about $4 as evidence that resale pressure is building.",
+      "He says his preferred AI exposure is long hyperscalers \u2014 specifically Google, Amazon, and Microsoft \u2014 because their contracts and economics limit downside.",
+      "Orr claims hyperscalers have roughly a 35% return on capital on projects and have locked in about half of the capacity they are building.",
+      "He believes physical constraints, especially experimentation and lab capacity in hard science, will slow the translation of AI intelligence into real-world output.",
+      "He expects many white-collar and knowledge-work tasks to become nearly free within about five years, which would compress margins across service businesses."
+    ],
+    "investment_thesis": "AI compute may oversupply in the near term, but hyperscalers remain the best relative AI trade because contract structure and locked capacity limit downside.",
+    "key_tickers": [
+      "GOOGL",
+      "AMZN",
+      "MSFT",
+      "SMH"
+    ]
+  },
+  {
+    "id": 670,
+    "podcast_name": "The a16z Show",
+    "episode_title": "What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
+    "episode_date": "2026-11-11",
+    "summary": "Mike Volpi argues that the current AI infrastructure buildout rhymes with the late-1990s internet/fiber cycle: huge capex, eventual corrections, and ownership changes, but long-lived underlying assets. His central claim is that the AI buildout is more economically durable than the dot-com era because practical AI usage is already producing stronger revenue ramps, while compute scarcity and semiconductor constraints should keep assets valuable for years.\n\nHe repeatedly contrasts the late-1990s networking world, where traffic was bursty and stochastic, with today's AI datacenters, where GPUs are highly utilized and traffic is more predictable, especially in training. That shift, he says, could make current packet-switched/stat-mux networking architectures less optimal and open the door to more circuit-like or time-division-like approaches.\n\nVolpi also draws an analogy to Cisco's acquisition era. He says Cisco made roughly 70 acquisitions, that about 50% of revenue came from acquired sources around 2000, and that the process worked because the company was willing to fail often while keeping integration repeatable. He uses a specific example of a $500 million acquisition that became a $1 billion earnings business two years later to illustrate how rare big wins can dominate the portfolio.\n\nOn infrastructure economics, he argues GPUs may have a longer useful life than the original 5-year framing because better ROI and sustained demand keep earlier generations economically viable. He also says the industry is not facing a power constraint so much as a semiconductor supply constraint, which he expects to persist for the next 2-3 years and possibly as long as five years.",
+    "key_takeaways": [
+      "Mike Volpi says AI buildout assets will likely remain useful even after an economic correction and ownership shakeout.",
+      "Mike Volpi argues Anthropic and OpenAI are seeing revenue ramps far superior to late-1990s internet bandwidth companies, implying AI has higher practical applicability.",
+      "Mike Volpi says compute supply is the binding constraint, not power, and expects semiconductor scarcity to persist for years.",
+      "Mike Volpi says GPU useful life is likely longer than the original 5-year assumption because better ROI and continued scarcity keep older hardware economically relevant.",
+      "Mike Volpi argues datacenter traffic is now more predictable and always-on, which could make current Broadcom-style stat-mux packet switching less optimal.",
+      "Mike Volpi says Cisco's M&A success came from accepting frequent failures and using a repeatable integration process that generated a few outlier wins.",
+      "Mike Volpi says about 50% of Cisco's revenue came from acquisitions around 2000, showing how important M&A was to the business mix."
+    ],
+    "investment_thesis": "AI infrastructure scarcity and high utilization should keep compute assets valuable for years, even if the market corrects and ownership changes.",
+    "key_tickers": [
+      "GOOGL",
+      "AVGO"
+    ]
+  },
+  {
+    "id": 669,
+    "podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "episode_title": "Zach Reitano - Building Ro and Why Healthcare Should Be 50% of GDP - [Invest Like the Best, EP.500]",
+    "episode_date": "2026-11-11",
+    "summary": "The guest argues that U.S. healthcare is structurally misaligned because the patient is not treated as the customer, creating opaque pricing, heavy administration, and incentives that favor preserving the system over improving outcomes. He says the core issue is not simply that healthcare is expensive, but whether value per dollar is improving, and he frames the U.S. as a preview of what other countries will face as healthcare shares of GDP rise.\n\nA major part of the discussion centers on GLP-1 drugs and cash-pay healthcare models. He claims GLP-1 therapies are rewiring incentives by making buyers more directly responsive to price, transparency, and convenience, and he argues that broader adoption could push healthcare toward more consumer-driven competition. He predicts that over the next 10 to 15 years, at least 15% of people will be on some GLP-1-class therapy.\n\nHe also describes Rho as a vertically integrated healthcare platform built around GLP-1 access, with software, pharmacies, and provider infrastructure under one roof. He says the company routes patient messages through an LLM, turns side-effect mentions into structured provider tasks, and maintains a sub-30-minute response SLA with 24/7 coverage. He presents this as evidence that AI can improve operations without degrading care.\n\nThe episode also covers a 2022 refounding of the company, which he says restored growth and execution discipline after a prior period he characterized as a \u201czombie company.\u201d He links this turnaround to stronger culture, tighter focus, and a willingness to reset leadership and operating priorities. More broadly, he predicts a patient revolution driven by biology data, AI, and new treatments that dramatically improve outcomes.",
+    "key_takeaways": [
+      "Zach Reitano says the central flaw in U.S. healthcare is that \u201cthe patient is not the customer,\u201d which creates the incentive misalignment behind many system failures.",
+      "Reitano argues that about 50% of healthcare costs are spent on 5% of people, showing how concentrated and expensive high-need care is.",
+      "Reitano says Rho is the leading GLP-1 provider in the country and claims it is signing up two, three, four, or five times as many patients per day as competitors.",
+      "Reitano says Rho\u2019s patient messages are routed through an LLM that analyzes the issue and converts side-effect mentions into structured workflows for providers.",
+      "Reitano claims the company can respond to side-effect issues in under 30 minutes, 24/7, as part of its operational model.",
+      "Reitano predicts that at least 15% of people will be on some GLP-1-class therapy within 10 to 15 years.",
+      "Reitano says the company was effectively refounded in 2022 after a reset in late 2021, and that the turnaround restored growth and execution discipline."
+    ],
+    "investment_thesis": "Reitano\u2019s core claim is that patient-driven, vertically integrated GLP-1 healthcare platforms can use AI and transparency to gain share while lowering friction and improving outcomes.",
+    "key_tickers": null
+  },
+  {
+    "id": 668,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing",
+    "episode_date": "2026-11-10",
+    "summary": "Rick Smith frames Axon as a mission-driven public-safety platform that evolved from tasers into body cameras, cloud evidence workflows, and connected devices. He says the company\u2019s core purpose is to reduce violence and protect life, arguing that body cameras and cloud storage were necessary to help officers prove what happened and defend against false allegations.\n\nHe recounts the company\u2019s early history, saying he began building tasers in 1993, after tracing the technology back to a 1970s NASA scientist in Tucson. The business initially tried the consumer market for about seven years before pivoting to police in late 1999, during a period when he says the company was close to financial failure, owing about $2 million to Silicon Valley Bank and relying on roughly $500,000 of his own capital.\n\nSmith also describes the company\u2019s public-market volatility, saying Axon went public around 2001, later reached a roughly $2 billion market cap in late 2004, then fell sharply after an SEC investigation and short-seller pressure, with the stock dropping from about $33 to $7. He says that episode produced hundreds of lawsuits at one point, but claims current litigation is now essentially zero.\n\nA major theme of the episode is the tension between public-safety technology and privacy backlash. Smith argues that body cameras spread after major incidents such as Ferguson, that cloud infrastructure was necessary to scale the technology, and that concerns about a \u201csurveillance state\u201d can be addressed with guardrails and multi-party authorization. He extends that logic to drones and robotics, saying Axon is investing in drone partnerships and R&D for non-lethal remote intervention, while insisting that any use of force must remain under human decision-making.\n\nHe also makes a broader political claim that defunding police would be catastrophic, saying democracies eventually correct after harmful policy experiments. Looking forward, he predicts rapid commercialization of humanoid robots and expects drones to become a major part of public safety, with Axon aiming to be a key channel into those markets.",
+    "key_takeaways": [
+      "Rick Smith said Axon\u2019s mission is to protect life by reducing violence, with tasers, body cameras, and cloud evidence all serving that goal.",
+      "Smith said the company chose body cameras and cloud infrastructure because police needed a way to show what happened and scale video storage securely.",
+      "Smith said Axon started in 1993, pivoted from consumers to police after about seven years, and survived a period when he says the company owed about $2 million and he had about $500,000 at risk.",
+      "Smith said the stock rose to about a $2 billion market cap in late 2004, then dropped from roughly $33 to $7 after an SEC investigation and short-seller attack.",
+      "Smith said current litigation is now effectively zero, contrasting that with the hundreds of lawsuits the company faced during earlier controversies.",
+      "Smith argued that privacy and surveillance concerns are real, but said guardrails, governance, and multi-key authorization can make drones and cameras durable rather than abusive.",
+      "Smith predicted that drones will be widely deployed in public safety and said Axon bought almost half of Skydio because he expects millions of drones in the U.S. over the next few years."
+    ],
+    "investment_thesis": "Axon\u2019s scalable body-camera-and-cloud platform, plus drone/robotics expansion, could deepen its public-safety moat if guardrailed non-lethal technology keeps winning adoption.",
+    "key_tickers": null
+  },
+  {
+    "id": 667,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Designing for Agents \u2014 Zeno Rocha, Resend",
+    "episode_date": "2026-11-10",
+    "summary": "Zeno Rocha argues that Resend is no longer just a thin developer-facing email API; it is increasingly becoming an infrastructure platform that owns more of the deliverability stack. He says Resend is powering 4.3 million users and has crossed 120,000 paid customers, while also claiming the company is now more than double SendGrid on an adoption metric tied to NPM SDK downloads.\n\nA major theme is that email deliverability at scale is a systems problem, not just a sending API problem. Rocha describes the need for batching, throttling, queue ordering, provider-specific pacing, abuse detection, and monitoring bounce/complaint/provider feedback. He argues that the industry has shifted toward domain and subdomain reputation, making infrastructure and observability much more important than a simple low-cost send layer.\n\nHe also makes a strong case that AWS SES looks cheap only on the surface. In his view, once a company needs events, logs, queues, SNS, CloudWatch, and webhooks, the real footprint grows quickly. That is part of why he says Resend is moving closer to the metal by owning IP blocks, improving throughput controls, and rewriting performance-sensitive parts of the system in Go.\n\nDistribution is another big pillar of the episode. Rocha says Resend is optimizing for SEO and AEO with docs, FAQs, markdown versions, and llms.txt-style AI-readable content so that agents and model-based search systems can recommend the product more accurately. He also says MCP is \"back,\" with rapid growth in MCP tool calls and a future where official vendor-maintained integrations influence buyer decisions.\n\nThe episode ends with a forward-looking view of inbox software for agents. Rocha predicts more demand for inbound email APIs and inbox abstractions, where agents can receive, label, and manage many inboxes programmatically. He frames this as the next stage of email infrastructure, beyond sending and into agent-native workflow management.",
+    "key_takeaways": [
+      "Zeno Rocha said Resend is \"powering four point three million users as of this morning.\"",
+      "Zeno Rocha said Resend has \"crossed a hundred and twenty thousand paid customers.\"",
+      "Zeno Rocha said Resend is \"more than double\" SendGrid on a developer-adoption metric tied to NPM downloads.",
+      "Zeno Rocha argued that SES's low sticker price hides real infrastructure costs: \"you might be paying only 5K... but now you need SNS for the events\" and then CloudWatch, queues, and webhooks.",
+      "Zeno Rocha said email reputation has shifted toward domain and subdomain reputation, which makes deliverability controls and observability more important than a simple API wrapper.",
+      "Zeno Rocha said Resend is moving \"down to the metal\" by owning more infrastructure, including IP blocks and throughput controls, rather than relying only on abstracted providers.",
+      "Zeno Rocha said official MCP integrations now matter in buyer decisions, implying that vendor-maintained agent tooling can affect adoption and switching behavior."
+    ],
+    "investment_thesis": "Resend's edge is becoming infrastructure ownership and deliverability observability, which could turn developer preference into durable platform adoption.",
+    "key_tickers": null
+  },
+  {
+    "id": 666,
+    "podcast_name": "The a16z Show",
+    "episode_title": "HubSpot\u2019s Co-Founder on Finding Your Next Startup Idea",
+    "episode_date": "2026-11-10",
+    "summary": "Darmash Shah argues that AI has raised the abstraction level for software building and dramatically shortened the iteration loop, so startups can now test ideas faster and cheaper. But he says the fundamental challenge has not disappeared: distribution remains hard, and it is still nearly impossible to know in advance which idea will work.\n\nHe uses HubSpot\u2019s origin story to show how the company found a wedge by solving a fragmented SMB marketing problem end-to-end rather than narrowly targeting one category. Customer research later revealed that about 60% of HubSpot marketing customers were using no CRM at all, while 20% used Salesforce and 20% used another CRM, which helped justify expanding into an \u201ceasiest CRM\u201d and making it freemium to remove intimidation.\n\nShah\u2019s broader strategic claim is that frontier labs are likely to monetize their huge capex through inference and tokens, not by horizontally replacing SaaS categories like CRM. In his view, that leaves meaningful opportunity \u201coff the Yellow Brick Road\u201d for application builders, especially where the product is really about workflow and context rather than the chat interface itself.\n\nHe also lays out a roadmap for AI-native software architecture: keep a structured system of record, but add a system of context, possibly graph-based, to support agents and richer workflows. He points to HubSpot\u2019s ChatGPT and Anthropic connectors, its openness to developers, and HubSpot Next experiments like Uspot, a one-person CRM, as evidence that these ideas can already be monetized in narrow verticals.",
+    "key_takeaways": [
+      "Darmash Shah says AI makes software creation faster and cheaper, but distribution is still the main bottleneck for startups.",
+      "Darmash Shah says the best way to evaluate a startup idea is to test it in the market, because the original concept often changes before success.",
+      "Darmash Shah says HubSpot\u2019s CRM expansion was validated by customer research showing 60% of marketing users had no CRM, while 20% used Salesforce and 20% used another CRM.",
+      "Darmash Shah argues frontier labs are more likely to monetize through inference and tokens than to replace SaaS categories like CRM horizontally.",
+      "Darmash Shah says AI chat interfaces are becoming the \u201cnew OS/browser,\u201d but HubSpot\u2019s durable value comes from workflows, outcomes, and customer context, not the interface alone.",
+      "Darmash Shah says an AI-native product should preserve a system of record while adding a system of context, potentially through graph structures, to power agents and workflows.",
+      "Darmash Shah says Uspot, HubSpot Next\u2019s one-person CRM experiment, is already working and has shown willingness from customers to pay on a consumption basis."
+    ],
+    "investment_thesis": "AI will expand software opportunity by making startups faster and cheaper to build while leaving durable value in workflow-centric products like HubSpot rather than frontier-lab replacements.",
+    "key_tickers": null
+  },
+  {
+    "id": 665,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Structural Flows Will Support Stocks Until the U.S. Treasury Crisis in 2027 | Cem Karsan & Noel Smith | Kai Asset Management",
+    "episode_date": "2026-11-09",
+    "summary": "Guests from Kai Asset Management argue that market structure, not fundamentals alone, is dominating equity behavior: index-level compression is being supported by persistent structured-product flows, while dispersion underneath remains extremely high and the left tail is fat. They say this can keep the index \u201cpinned\u201d even as individual names move sharply, and they emphasize that the biggest open interest sits in December puts, which they view as an important anchor for the next several weeks.\n\nOn volatility, the guests are explicitly not bullish on buying vol after a spike. Noel Smith says he sold some VIX options from inventory and does not want to buy volatility at current levels, while Cem Karsan says they want to be long convexity but only through structures that add time and reduce directional risk. Their preferred expression is calendars, flies, and risk reversals, because the asymmetry is in timing and in which part of the distribution is overpriced.\n\nThey repeatedly return to a timing window: tail activation may require continuation within the next several days, while the more meaningful reactivation window may not arrive until late 2026 into early 2027. They say the current setup can dissipate if pressure does not continue soon, and they distinguish between index-level stability and sector-specific crashes, arguing those are not the same thing.\n\nSeparately, they lay out a macro regime view: inflation remains structurally sticky, rates should stay higher for longer, and a refinancing wave plus reduced foreign demand could create stress in Treasury markets. Noel Smith argues that the U.S. Treasury crisis around 2027 would ultimately require long-end QE or backstopping, and that this regime would disadvantage duration-heavy growth assets while favoring value over a multi-year horizon.",
+    "key_takeaways": [
+      "Noel Smith said the market is \"increasingly narrow\" and \"compressed at the index level,\" but with \"a very fat left tail,\" implying index stability can coexist with substantial downside risk.",
+      "Noel Smith said he sold VIX options from existing inventory and that current prices are \"definitely not a price that I want to be buying volatility,\" showing a clear bearish-to-neutral stance on buying vol at these levels.",
+      "Cem Karsan said they want to be \"long convexity\" but via option structures that add timing and limit exposure, rather than outright directional positions.",
+      "Noel Smith said the biggest open interest is in December puts and that this skew/vol dynamic becomes more important over the next seven weeks.",
+      "Noel Smith said any tail activation needs continuation \"in the next several days,\" or the pressure can dissipate instead of converting into a larger move.",
+      "Noel Smith argued that inflation has not been below 2% in 68 months, supporting the case for structurally higher interest rates.",
+      "Noel Smith said the relative trade is \"short queues long spy,\" reflecting his view that higher rates punish duration-sensitive growth more than the broader market."
+    ],
+    "investment_thesis": "Structural index pinning from heavy December put positioning can coexist with a fat left tail, but the most actionable move is still selective convexity rather than outright long volatility.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
     "id": 664,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI \u2014 Garrett Lord & Team",

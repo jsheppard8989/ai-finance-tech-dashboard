@@ -1,6 +1,206 @@
 {
   "insights": [
     {
+      "id": 680,
+      "title": "What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-11",
+      "summary": "Mike Volpi argues that the current AI infrastructure buildout rhymes with the late-1990s internet/fiber cycle: huge capex, eventual corrections, and ownership changes, but long-lived underlying assets. His central claim is that the AI buildout is more economically durable than the dot-com era because practical AI usage is already producing stronger revenue ramps, while compute scarcity and semiconductor constraints should keep assets valuable for years.\n\nHe repeatedly contrasts the late-1990s networking world, where traffic was bursty and stochastic, with today's AI datacenters, where GPUs are highly utilized and traffic is more predictable, especially in training. That shift, he says, could make current packet-switched/stat-mux networking architectures less optimal and open the door to more circuit-like or time-division-like approaches.\n\nVolpi also draws an analogy to Cisco's acquisition era. He says Cisco made roughly 70 acquisitions, that about 50% of revenue came from acquired sources around 2000, and that the process worked because the company was willing to fail often while keeping integration repeatable. He uses a specific example of a $500 million acquisition that became a $1 billion earnings business two years later to illustrate how rare big wins can dominate the portfolio.\n\nOn infrastructure economics, he argues GPUs may have a longer useful life than the original 5-year framing because better ROI and sustained demand keep earlier generations economically viable. He also says the industry is not facing a power constraint so much as a semiconductor supply constraint, which he expects to persist for the next 2-3 years and possibly as long as five years.",
+      "key_takeaway": "AI infrastructure scarcity and high utilization should keep compute assets valuable for years, even if the market corrects and ownership changes.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "AVGO"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 670,
+      "notable_quotes": [
+        {
+          "speaker": "Mike Volpi",
+          "quote": "If you look at the revenue ramp of anthropic, OpenAI are definitely experiencing growth rates that were far superior to what we saw at the time."
+        },
+        {
+          "speaker": "Mike Volpi",
+          "quote": "I\u2019ll predict that there will be an economic correction in the market, but the underlying assets will be quite useful for a long period of time."
+        },
+        {
+          "speaker": "Mike Volpi",
+          "quote": "The retro on the M&A process that I think worked well for Cisco was we were not afraid to fail and we did it with high enough frequency that we got a few outliers."
+        }
+      ]
+    },
+    {
+      "id": 681,
+      "title": "Zach Reitano - Building Ro and Why Healthcare Should Be 50% of GDP - [Invest Like the Best, EP.500]",
+      "source_type": "podcast",
+      "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "source_date": "2026-11-11",
+      "summary": "The guest argues that U.S. healthcare is structurally misaligned because the patient is not treated as the customer, creating opaque pricing, heavy administration, and incentives that favor preserving the system over improving outcomes. He says the core issue is not simply that healthcare is expensive, but whether value per dollar is improving, and he frames the U.S. as a preview of what other countries will face as healthcare shares of GDP rise.\n\nA major part of the discussion centers on GLP-1 drugs and cash-pay healthcare models. He claims GLP-1 therapies are rewiring incentives by making buyers more directly responsive to price, transparency, and convenience, and he argues that broader adoption could push healthcare toward more consumer-driven competition. He predicts that over the next 10 to 15 years, at least 15% of people will be on some GLP-1-class therapy.\n\nHe also describes Rho as a vertically integrated healthcare platform built around GLP-1 access, with software, pharmacies, and provider infrastructure under one roof. He says the company routes patient messages through an LLM, turns side-effect mentions into structured provider tasks, and maintains a sub-30-minute response SLA with 24/7 coverage. He presents this as evidence that AI can improve operations without degrading care.\n\nThe episode also covers a 2022 refounding of the company, which he says restored growth and execution discipline after a prior period he characterized as a \u201czombie company.\u201d He links this turnaround to stronger culture, tighter focus, and a willingness to reset leadership and operating priorities. More broadly, he predicts a patient revolution driven by biology data, AI, and new treatments that dramatically improve outcomes.",
+      "key_takeaway": "Reitano\u2019s core claim is that patient-driven, vertically integrated GLP-1 healthcare platforms can use AI and transparency to gain share while lowering friction and improving outcomes.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 669,
+      "notable_quotes": [
+        {
+          "speaker": "Zach Reitano",
+          "quote": "So Row is the leading provider of GOP ones in the country and we're probably signing up two, three, four, five times as many patients every single day as our competition."
+        },
+        {
+          "speaker": "Zach Reitano",
+          "quote": "We spend probably 50 percent of our health care costs on 5 percent of people."
+        },
+        {
+          "speaker": "Zach Reitano",
+          "quote": "Every single time you send a message to real, that's routed through an LLM, we've analyzed the topic, we've analyzed the issue."
+        }
+      ]
+    },
+    {
+      "id": 683,
+      "title": "Too Much Compute: Why This Top Hedge Fund Manager Believes AI is Heading for a Massive Oversupply | David Orr",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-11",
+      "summary": "David Orr argues that AI\u2019s near-term setup is still dominated by capex and positioning rather than a durable fundamental shift. He says the sell-off in AI infrastructure is being driven by leverage and forced liquidation, not by a meaningful change in underlying demand, and that the market is misreading the speed at which compute can be absorbed.\n\nHis core bearish near-term point is that compute oversupply is likely because most buyers outside software/hyperscalers are not truly consuming the capacity being built. He says spare compute pricing fell sharply, citing a move from about $12 per compute hour in September to around $4 later, which he sees as evidence that resale will become necessary once software demand normalizes.\n\nAt the same time, Orr is not broadly bearish on AI winners. He says his favorite AI exposure is long the hyperscalers \u2014 Google, Amazon, and Microsoft \u2014 because their contract structure and economics reduce downside risk. He specifically cites roughly a 35% return on capital on projects and about half of capacity already locked in as reasons he thinks those companies can weather an oversupply regime better than smaller players.\n\nHe also pushes back on the idea that AI will quickly translate into physical-world throughput. In hard science and drug discovery, he thinks the bottleneck will be experimentation capacity, labs, and data generation, not just better models. Over the next five years, he expects many white-collar tasks to become nearly free, compressing margins in software and services, while value shifts toward large platforms and some tangible/energy/materials exposures.",
+      "key_takeaway": "AI compute may oversupply in the near term, but hyperscalers remain the best relative AI trade because contract structure and locked capacity limit downside.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "AMZN",
+        "MSFT",
+        "SMH"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 672,
+      "notable_quotes": [
+        {
+          "speaker": "Much Compute",
+          "quote": "Basically, besides software companies, nobody is really buying this compute, and then so our software companies actually going to need even more than what we already have, it's just a matter of time before basically the software companies say, oh, we don't actually need this, and then you start reselling your capacity."
+        },
+        {
+          "speaker": "Much Compute",
+          "quote": "I saw a couple of headlines... in September, people were offering me $12 per compute hour. But now all this sudden, nobody's offering that kind of price anymore. Now it's more like $4 bucks an hour."
+        },
+        {
+          "speaker": "Much Compute",
+          "quote": "But the reason I like the hyperscalers is because the way they structure the contracts, basically they're like 35% return on capital projects, and they've locked in around half of the capacity they're building."
+        }
+      ]
+    },
+    {
+      "id": 677,
+      "title": "HubSpot\u2019s Co-Founder on Finding Your Next Startup Idea",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-10",
+      "summary": "Darmash Shah argues that AI has raised the abstraction level for software building and dramatically shortened the iteration loop, so startups can now test ideas faster and cheaper. But he says the fundamental challenge has not disappeared: distribution remains hard, and it is still nearly impossible to know in advance which idea will work.\n\nHe uses HubSpot\u2019s origin story to show how the company found a wedge by solving a fragmented SMB marketing problem end-to-end rather than narrowly targeting one category. Customer research later revealed that about 60% of HubSpot marketing customers were using no CRM at all, while 20% used Salesforce and 20% used another CRM, which helped justify expanding into an \u201ceasiest CRM\u201d and making it freemium to remove intimidation.\n\nShah\u2019s broader strategic claim is that frontier labs are likely to monetize their huge capex through inference and tokens, not by horizontally replacing SaaS categories like CRM. In his view, that leaves meaningful opportunity \u201coff the Yellow Brick Road\u201d for application builders, especially where the product is really about workflow and context rather than the chat interface itself.\n\nHe also lays out a roadmap for AI-native software architecture: keep a structured system of record, but add a system of context, possibly graph-based, to support agents and richer workflows. He points to HubSpot\u2019s ChatGPT and Anthropic connectors, its openness to developers, and HubSpot Next experiments like Uspot, a one-person CRM, as evidence that these ideas can already be monetized in narrow verticals.",
+      "key_takeaway": "AI will expand software opportunity by making startups faster and cheaper to build while leaving durable value in workflow-centric products like HubSpot rather than frontier-lab replacements.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 666,
+      "notable_quotes": [
+        {
+          "speaker": "Darmash Shah",
+          "quote": "And it\u2019s almost impossible to know a priori with the quality quote unquote of an idea as or it\u2019s kind of probability of success or what the outcomes going to look like. And the only real way to test an idea is to actually or know if an idea is good is to actually test it."
+        },
+        {
+          "speaker": "Darmash Shah",
+          "quote": "We had a bunch of customers this is, you know, maybe a couple of years before the IPO. So maybe five, six years in the company. And just to see which CRMs they were using, and we discovered that 20% were using Salesforce.com."
+        },
+        {
+          "speaker": "Darmash Shah",
+          "quote": "Frontier model companies have invested hundreds of billions of dollars kind of building, doing the pre-trading as yellow no. And so their whole business effectively now is taking the capex that they\u2019ve spent and the money they\u2019re continuing to spend and say, how do we sell inference?"
+        }
+      ]
+    },
+    {
+      "id": 678,
+      "title": "Designing for Agents \u2014 Zeno Rocha, Resend",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-11-10",
+      "summary": "Zeno Rocha argues that Resend is no longer just a thin developer-facing email API; it is increasingly becoming an infrastructure platform that owns more of the deliverability stack. He says Resend is powering 4.3 million users and has crossed 120,000 paid customers, while also claiming the company is now more than double SendGrid on an adoption metric tied to NPM SDK downloads.\n\nA major theme is that email deliverability at scale is a systems problem, not just a sending API problem. Rocha describes the need for batching, throttling, queue ordering, provider-specific pacing, abuse detection, and monitoring bounce/complaint/provider feedback. He argues that the industry has shifted toward domain and subdomain reputation, making infrastructure and observability much more important than a simple low-cost send layer.\n\nHe also makes a strong case that AWS SES looks cheap only on the surface. In his view, once a company needs events, logs, queues, SNS, CloudWatch, and webhooks, the real footprint grows quickly. That is part of why he says Resend is moving closer to the metal by owning IP blocks, improving throughput controls, and rewriting performance-sensitive parts of the system in Go.\n\nDistribution is another big pillar of the episode. Rocha says Resend is optimizing for SEO and AEO with docs, FAQs, markdown versions, and llms.txt-style AI-readable content so that agents and model-based search systems can recommend the product more accurately. He also says MCP is \"back,\" with rapid growth in MCP tool calls and a future where official vendor-maintained integrations influence buyer decisions.\n\nThe episode ends with a forward-looking view of inbox software for agents. Rocha predicts more demand for inbound email APIs and inbox abstractions, where agents can receive, label, and manage many inboxes programmatically. He frames this as the next stage of email infrastructure, beyond sending and into agent-native workflow management.",
+      "key_takeaway": "Resend's edge is becoming infrastructure ownership and deliverability observability, which could turn developer preference into durable platform adoption.",
+      "tickers_mentioned": [
+        "TWLO",
+        "NET"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 667,
+      "notable_quotes": [
+        {
+          "speaker": "Zeno Rocha",
+          "quote": "So Resend now is powering four point three million users as of this morning."
+        },
+        {
+          "speaker": "Zeno Rocha",
+          "quote": "Turns out there's just a lot of limitations when it comes to the way you structure domains, and they have this concept of configuration sets, and the hidden cost if you're going with SES is that, okay, you might be paying only 5K, for example, but now you need SNS for the events."
+        },
+        {
+          "speaker": "Zeno Rocha",
+          "quote": "For sure. Yeah. So I, I think sometimes, like, you know, for as a buyer of B2B software, if I go to the cloud connectors and I don't see the company listed there with an official MCP, like for-- We had this."
+        }
+      ]
+    },
+    {
+      "id": 679,
+      "title": "Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-11-10",
+      "summary": "Rick Smith frames Axon as a mission-driven public-safety platform that evolved from tasers into body cameras, cloud evidence workflows, and connected devices. He says the company\u2019s core purpose is to reduce violence and protect life, arguing that body cameras and cloud storage were necessary to help officers prove what happened and defend against false allegations.\n\nHe recounts the company\u2019s early history, saying he began building tasers in 1993, after tracing the technology back to a 1970s NASA scientist in Tucson. The business initially tried the consumer market for about seven years before pivoting to police in late 1999, during a period when he says the company was close to financial failure, owing about $2 million to Silicon Valley Bank and relying on roughly $500,000 of his own capital.\n\nSmith also describes the company\u2019s public-market volatility, saying Axon went public around 2001, later reached a roughly $2 billion market cap in late 2004, then fell sharply after an SEC investigation and short-seller pressure, with the stock dropping from about $33 to $7. He says that episode produced hundreds of lawsuits at one point, but claims current litigation is now essentially zero.\n\nA major theme of the episode is the tension between public-safety technology and privacy backlash. Smith argues that body cameras spread after major incidents such as Ferguson, that cloud infrastructure was necessary to scale the technology, and that concerns about a \u201csurveillance state\u201d can be addressed with guardrails and multi-party authorization. He extends that logic to drones and robotics, saying Axon is investing in drone partnerships and R&D for non-lethal remote intervention, while insisting that any use of force must remain under human decision-making.\n\nHe also makes a broader political claim that defunding police would be catastrophic, saying democracies eventually correct after harmful policy experiments. Looking forward, he predicts rapid commercialization of humanoid robots and expects drones to become a major part of public safety, with Axon aiming to be a key channel into those markets.",
+      "key_takeaway": "Axon\u2019s scalable body-camera-and-cloud platform, plus drone/robotics expansion, could deepen its public-safety moat if guardrailed non-lethal technology keeps winning adoption.",
+      "tickers_mentioned": [
+        "AXON",
+        "RNG"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 668,
+      "notable_quotes": [
+        {
+          "speaker": "Rick Smith",
+          "quote": "We just believed in our in our soul guys you need to be able to show people what you do you're being accused of all sorts of awful stuff and we made a double bet not only do we bet on body cameras but we bet on the cloud because we realized the only way this would ever scale is if we put these videos into cloud infrastructure."
+        },
+        {
+          "speaker": "Rick Smith",
+          "quote": "Any decisions about using force on another person will be made by humans and but that's a bright line for us so even with the taser drone unit talked about earlier part of what we learned from the concern was people are worried about misuse abuse."
+        },
+        {
+          "speaker": "Rick Smith",
+          "quote": "we bought almost half the company we we wanted to buy about as much as we could because we're big believers that there's going to be millions of drones in the next few years deployed in the US"
+        }
+      ]
+    },
+    {
       "id": 674,
       "title": "Scott Kupor on Building a16z and Rebuilding the Federal Workforce",
       "source_type": "podcast",
@@ -63,6 +263,39 @@
         {
           "speaker": "Steve Kelling",
           "quote": "But what we don't see and what parents were very vocal about is you don't give somebody who just asked you how to get a kid to carve cut signs into themselves, they should not be engaging with children at all."
+        }
+      ]
+    },
+    {
+      "id": 676,
+      "title": "Structural Flows Will Support Stocks Until the U.S. Treasury Crisis in 2027 | Cem Karsan & Noel Smith | Kai Asset Management",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-09",
+      "summary": "Guests from Kai Asset Management argue that market structure, not fundamentals alone, is dominating equity behavior: index-level compression is being supported by persistent structured-product flows, while dispersion underneath remains extremely high and the left tail is fat. They say this can keep the index \u201cpinned\u201d even as individual names move sharply, and they emphasize that the biggest open interest sits in December puts, which they view as an important anchor for the next several weeks.\n\nOn volatility, the guests are explicitly not bullish on buying vol after a spike. Noel Smith says he sold some VIX options from inventory and does not want to buy volatility at current levels, while Cem Karsan says they want to be long convexity but only through structures that add time and reduce directional risk. Their preferred expression is calendars, flies, and risk reversals, because the asymmetry is in timing and in which part of the distribution is overpriced.\n\nThey repeatedly return to a timing window: tail activation may require continuation within the next several days, while the more meaningful reactivation window may not arrive until late 2026 into early 2027. They say the current setup can dissipate if pressure does not continue soon, and they distinguish between index-level stability and sector-specific crashes, arguing those are not the same thing.\n\nSeparately, they lay out a macro regime view: inflation remains structurally sticky, rates should stay higher for longer, and a refinancing wave plus reduced foreign demand could create stress in Treasury markets. Noel Smith argues that the U.S. Treasury crisis around 2027 would ultimately require long-end QE or backstopping, and that this regime would disadvantage duration-heavy growth assets while favoring value over a multi-year horizon.",
+      "key_takeaway": "Structural index pinning from heavy December put positioning can coexist with a fat left tail, but the most actionable move is still selective convexity rather than outright long volatility.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 665,
+      "notable_quotes": [
+        {
+          "speaker": "Noel Smith",
+          "quote": "The way the market structure is at this point is it's becoming increasingly narrow. It's all compressed at the index level. Right. Right distributed, but with a very fat left tail."
+        },
+        {
+          "speaker": "Noel Smith",
+          "quote": "The biggest open interest by far in the market is December puts, right? The world is hedged long, December put short call in December, right? And that skew and ball dynamic is an incredibly important dynamic that will only become more important as we move forward here for the next seven weeks."
+        },
+        {
+          "speaker": "Noel Smith",
+          "quote": "We have not been below 2% inflation in 68 months. What is happening there? First off, I just talked about the structural inflation from fiscal spending, the increase in inflation from a global conflict and the spending that goes in a global conflict."
         }
       ]
     },
@@ -175,7 +408,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-07",
       "archived_date": null,
@@ -206,7 +439,7 @@
       "key_takeaway": "The episode\u2019s core claim is that AI-enabled biomarker testing and imaging will make preventive, personalized healthcare scalable and commercially meaningful.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-07",
       "archived_date": null,
@@ -239,7 +472,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-07",
       "archived_date": null,
@@ -272,7 +505,7 @@
         "AMD"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-07",
       "archived_date": null,
@@ -303,7 +536,7 @@
       "key_takeaway": "The key claim is that venture returns increasingly depend on staging capital and underwriting a few AI-era needle-movers, not on broad exposure to headline revenue growth.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-06",
       "archived_date": null,
@@ -336,7 +569,7 @@
         "CRM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-06",
       "archived_date": null,
@@ -367,7 +600,7 @@
       "key_takeaway": "Virtual-cell winners will be data-rich, action-conditioned platforms that can steer experiments in closed loop, not model-only tools competing on weak benchmarks.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-06",
       "archived_date": null,
@@ -685,10 +918,6 @@
         {
           "speaker": "Andy Constan",
           "quote": "as of August 18th when he increased the size of the long-term bond buyback program which already was buying roughly $64 billion worth of 20 is 20 and 30 year bonds per year that's the pace he increased that to $192 billion per year pace"
-        },
-        {
-          "speaker": "Andy Constan",
-          "quote": "I will say that it was an open question to me about whether the business of serving token being a large language model was a profitable business and and thropic in Q2 and Q3 showwed that the answer to that question is yes."
         }
       ]
     },
@@ -1272,6 +1501,44 @@
         {
           "speaker": "Will Ahmed",
           "quote": "They actually sent us a warning letter. There was a big disagreement that played out. That was quite public about it."
+        }
+      ]
+    },
+    {
+      "id": 682,
+      "title": "AI Blitz and US Borrowing Binge Are Disrupting Debt Benchmarks",
+      "source_type": "podcast",
+      "source_name": "The Credit Edge by Bloomberg Intelligence",
+      "source_date": "2026-10-29",
+      "summary": "Ross Pamphilon frames sustainability in credit as issuer-level risk management, not a branding exercise. His core question is whether an issuer\u2019s cash flows are durable enough to repay debt, and he says Impax rarely even uses the word ESG internally. He argues this lens helps avoid blowups from weak governance, fraud, or poor oversight, and can also surface selective opportunities.\n\nHe says today\u2019s credit market has been \u201crebased\u201d by inflation and large fiscal deficits, making the 2010\u20132020 era a poor reference point. One key implication is benchmark distortion: US Treasuries have grown from roughly 20\u201330% of the US aggregate benchmark 10\u201315 years ago to near 50% today, which he says increases the need for spread diversification.\n\nOn AI, he is constructive on select names and structures but underweight the broad complex. He cites about $700 billion of AI-related issuance across global credit markets, roughly $230 billion from hyperscalers, and says about 12% of the US investment-grade index is now AI-related, with around 4% just hyperscalers. He warns that the buildout brings concentration risk, weak-link risk, off-balance-sheet complexity, and potential saturation.\n\nPamphilon points to Oracle as a possible weak link, citing about $120 billion of IG-rated debt and saying a downgrade to junk would be meaningful for high yield because it could represent 6\u20138% of that market. He also says CoreWeave\u2019s 15.5% senior unsecured yield does not look sustainable, and discusses the possibility that financing stress arrives within 12\u201318 months as a financing-led cycle rather than an earnings recession.\n\nWhere he sees opportunity is in selective securitized credit and higher-quality pockets of the capital structure. He highlights non-QM and jumbo MBS, AAA MBS, and selected single-A data-center ABS, while noting that better-capitalized equity funding from names like Meta, Alphabet, and Intel could be healthier for creditors than aggressive debt-funded capex.",
+      "key_takeaway": "AI credit is selectively investable, but broad exposure is risky because the buildout is increasingly concentrated, expensive, and vulnerable to financing-cycle stress.",
+      "tickers_mentioned": [
+        "NVDA",
+        "MSFT",
+        "ORCL",
+        "GOOGL",
+        "META",
+        "INTC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-11-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 671,
+      "notable_quotes": [
+        {
+          "speaker": "Ross Pamphilon",
+          "quote": "And in fixed income, we actually use that as a lens to help us answer one question, are an issuer's cash flows durable enough to repay the debt?"
+        },
+        {
+          "speaker": "Ross Pamphilon",
+          "quote": "So we calculate around 12% of the US investment grade index is now AI and AI related. Around 4% of that is just the hyperscalers. And that's a big change."
+        },
+        {
+          "speaker": "Ross Pamphilon",
+          "quote": "But nevertheless, yields of 15.5% for senior unsecured do not feel sustainable. And then you've got the concern of being, I guess, crammed down by or delayed draw term loans as a senior unsecured creditor."
         }
       ]
     },
@@ -15297,6 +15564,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 336,
+      "term": "Dispersion",
+      "description": "The degree to which individual stocks move differently from one another; high dispersion means low correlation and more idiosyncratic behavior.",
+      "first_detected_date": "2026-11-09",
+      "last_mentioned_date": "2026-10-29",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "High dispersion changes the payoff profile for structured products and can make index-level hedging less effective.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 665,
+      "first_detected_speaker": "Cem Karsan, Noel Smith",
+      "last_mentioned_episode_id": 671,
+      "last_mentioned_speaker": "Ross Pamphilon"
+    },
+    {
       "id": 334,
       "term": "Gating",
       "description": "A deployment approach where human review or runtime checks intervene on high-risk model outputs before action is taken.",
@@ -15499,8 +15784,8 @@
       "term": "Neocloud",
       "description": "Casado uses this to describe infrastructure providers that act like data centers with GPUs, effectively serving as physical token factories for AI workloads.",
       "first_detected_date": "2026-10-23",
-      "last_mentioned_date": "2026-11-07",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If hardware and power are the bottlenecks, the winners may be the scaled infrastructure operators that can secure supply and power access.",
@@ -15509,8 +15794,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 608,
       "first_detected_speaker": "George Noble",
-      "last_mentioned_episode_id": 656,
-      "last_mentioned_speaker": "Deep Dive"
+      "last_mentioned_episode_id": 670,
+      "last_mentioned_speaker": "Mike Volpi"
     },
     {
       "id": 320,
@@ -15590,7 +15875,7 @@
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
       "last_mentioned_date": "2026-11-09",
-      "mention_count": 20,
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -15599,8 +15884,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 664,
-      "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+      "last_mentioned_episode_id": 665,
+      "last_mentioned_speaker": "Cem Karsan, Noel Smith"
     },
     {
       "id": 314,
@@ -15643,8 +15928,8 @@
       "term": "Context layer",
       "description": "The owned layer of user data, memories, and contacts that sits above raw model access and helps an agent stay useful over time. Town argues this should remain portable and customer-controlled.",
       "first_detected_date": "2026-10-19",
-      "last_mentioned_date": "2026-11-06",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Portability and ownership of context may determine switching costs, retention, and enterprise trust in agent software.",
@@ -15653,16 +15938,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 590,
       "first_detected_speaker": "Jean-Denis Greze",
-      "last_mentioned_episode_id": 654,
-      "last_mentioned_speaker": "Ramtin Naimi"
+      "last_mentioned_episode_id": 669,
+      "last_mentioned_speaker": "Zach Reitano"
     },
     {
       "id": 315,
       "term": "free money",
       "description": "rather than traditional productivity, and he adds that financially and bureaucratically burdensome consumer workflows could create large vertical opportunities even if the winning horizontal agent int",
       "first_detected_date": "2026-10-17",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -15671,8 +15956,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 585,
       "first_detected_speaker": "Ben Horowitz, David Sacks, David Friedberg",
-      "last_mentioned_episode_id": 651,
-      "last_mentioned_speaker": "Latent Space"
+      "last_mentioned_episode_id": 669,
+      "last_mentioned_speaker": "Zach Reitano"
     },
     {
       "id": 311,
@@ -15839,7 +16124,7 @@
     {
       "id": 295,
       "term": "Annualized Run Rate",
-      "description": "Annualized Run Rate is a revenue presentation that multiplies a short period of revenue by a full year. Zitron argued that AI companies use undefined run-rate figures in ways that can make revenue appear much larger than audited sales.",
+      "description": "Annualized Run Rate is a revenue presentation that multiplies a short period of revenue by a full year. Zitron argued that AI companies never define what their run-rate figures mean, which can make revenue appear much larger than audited sales.",
       "first_detected_date": "2026-10-01",
       "last_mentioned_date": "2026-10-22",
       "mention_count": 3,
@@ -15985,8 +16270,8 @@
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -15995,8 +16280,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 646,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 672,
+      "last_mentioned_speaker": "David Orr"
     },
     {
       "id": 310,
@@ -16165,8 +16450,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-11-09",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-11-10",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -16175,8 +16460,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 664,
-      "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+      "last_mentioned_episode_id": 666,
+      "last_mentioned_speaker": "Darmash Shah"
     },
     {
       "id": 284,
@@ -16219,8 +16504,8 @@
       "term": "Evals",
       "description": "A scoring system using AI judge models to score agent outputs and detect recurring failure modes, such as redundant tests. It is used to evaluate quality beyond raw throughput.",
       "first_detected_date": "2026-08-24",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-11-10",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Scoring and evaluation layers could become core products for measuring AI agent performance across engineering workflows.",
@@ -16229,8 +16514,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 421,
       "first_detected_speaker": "NG ZDN",
-      "last_mentioned_episode_id": 646,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 666,
+      "last_mentioned_speaker": "Darmash Shah"
     },
     {
       "id": 281,
@@ -16327,8 +16612,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-11-09",
-      "mention_count": 46,
+      "last_mentioned_date": "2026-11-10",
+      "mention_count": 47,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -16337,8 +16622,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 664,
-      "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+      "last_mentioned_episode_id": 667,
+      "last_mentioned_speaker": "Zeno Rocha"
     },
     {
       "id": 267,
@@ -16633,8 +16918,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-07",
-      "mention_count": 70,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 74,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -16643,8 +16928,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 659,
-      "last_mentioned_speaker": "David Friedberg, Mark (named as Gavin Baker in transcript), Luis"
+      "last_mentioned_episode_id": 672,
+      "last_mentioned_speaker": "David Orr"
     },
     {
       "id": 256,
@@ -16795,8 +17080,8 @@
       "term": "AI CapEx",
       "description": "Large-scale capital spending on AI infrastructure, including GPUs, custom accelerators, data centers, power projects, memory, chips, and construction capacity. In this episode, it centers on Amazon's expected $220 billion of 2026 capex and AWS's plan to buy 2 million Nvidia GPUs over the next couple of years.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 37,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It reframes cloud growth around physical supply chains, power availability, depreciation risk, and multi-year infrastructure planning.",
@@ -16805,8 +17090,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 652,
-      "last_mentioned_speaker": "Andy Constan"
+      "last_mentioned_episode_id": 672,
+      "last_mentioned_speaker": "David Orr"
     },
     {
       "id": 234,
@@ -16885,8 +17170,8 @@
       "term": "SaaS Apocalypse",
       "description": "A term describing the decline in the SaaS market, which Almeida predicts will reverse due to AI integration.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-11-01",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-11-10",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The resurgence of SaaS value through AI could create significant investment opportunities.",
@@ -16895,8 +17180,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 637,
-      "last_mentioned_speaker": "Luca Ferrari"
+      "last_mentioned_episode_id": 666,
+      "last_mentioned_speaker": "Darmash Shah"
     },
     {
       "id": 275,
@@ -17209,8 +17494,8 @@
       "term": "AI Adjacent",
       "description": "Healthcare applications where AI augments rather than replaces clinical decision-making, such as OpenAI integration with Epic EHRs for natural language patient record queries.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-05",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-10-29",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Enterprise AI adoption in regulated healthcare workflows may create more durable competitive moats than consumer-facing AI applications.",
@@ -17219,8 +17504,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 459,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 671,
+      "last_mentioned_speaker": "Ross Pamphilon"
     },
     {
       "id": 160,
@@ -17245,8 +17530,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-11-08",
-      "mention_count": 127,
+      "last_mentioned_date": "2026-11-10",
+      "mention_count": 128,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -17255,8 +17540,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 662,
-      "last_mentioned_speaker": "Mihail Eric"
+      "last_mentioned_episode_id": 667,
+      "last_mentioned_speaker": "Zeno Rocha"
     },
     {
       "id": 162,
@@ -18055,8 +18340,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-11-07",
-      "mention_count": 56,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 58,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -18065,8 +18350,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 658,
-      "last_mentioned_speaker": "Isaacman"
+      "last_mentioned_episode_id": 672,
+      "last_mentioned_speaker": "David Orr"
     },
     {
       "id": 26,
@@ -18253,8 +18538,8 @@
       "term": "AI Race",
       "description": "The idea that countries and companies are competing to reach and control leading AI capability first. The panel contrasted this race framing with arguments that the technology is open-ended and may run for decades.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-11-01",
-      "mention_count": 45,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 46,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because race dynamics can accelerate chip demand, government spending, and regulatory intervention.",
@@ -18263,8 +18548,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 638,
-      "last_mentioned_speaker": "Dan Krausz"
+      "last_mentioned_episode_id": 669,
+      "last_mentioned_speaker": "Zach Reitano"
     },
     {
       "id": 12,
@@ -18325,8 +18610,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-11-09",
-      "mention_count": 148,
+      "last_mentioned_date": "2026-11-11",
+      "mention_count": 150,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -18335,8 +18620,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 664,
-      "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+      "last_mentioned_episode_id": 669,
+      "last_mentioned_speaker": "Zach Reitano"
     },
     {
       "id": 38,
