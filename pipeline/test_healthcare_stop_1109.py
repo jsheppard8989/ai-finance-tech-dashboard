@@ -63,8 +63,8 @@ def test_refresh_preserves_healthcare_closed_row(monkeypatch):
 
 def test_locator_points_at_amended_private_archive():
     locator = json.loads((ROOT / "pipeline/trap_map_archive_locator.json").read_text())
-    assert locator["private_commit"] == "c7eff38e3dd022d066dba968cb9866d74022c9c9"
-    assert locator["manifest_sha256"] == "a357a38f8797e54a7ad20684f01cf66dc15bccfacb01e81606ccad16cf8b05c4"
+    assert locator["private_commit"] == "b790460e33f01d2449f47844a8c4347608a72809"
+    assert locator["manifest_sha256"] == "f0771f33529441fb77a3d3b386843fb2d1aa15ccb6fc17d59cc0782515ee3572"
     # Public portfolio JSON stays the Nov 5 frozen historical record.
     assert locator["public_historical_portfolio_sha256"] == "4ebf3187f46c4af2145c8db080be04ce4703463bcc90bdd6b4ab36559a9fa297"
     archive = private_archive()

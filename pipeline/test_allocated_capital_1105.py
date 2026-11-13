@@ -10,11 +10,13 @@ ROOT = Path(__file__).resolve().parent.parent
 def test_closed_allocation_is_zero_on_archived_desktop_phone_and_home():
     d = private_records()
     page = build.render_page(d)
-    assert len([r for r in d["rows"] if r["status"] != "closed"]) == 5
-    assert d["totals"]["cost"] == 13640.67
+    assert len([r for r in d["rows"] if r["status"] != "closed"]) == 3
+    assert d["totals"]["cost"] == 10470.0
     for rid, cash, loss in (("lrcx-put", "$19,956.67", "−$1,043.33"),
                             ("ceg-q3", "$461.66", "−$715.01"),
-                            ("healthcare-five", "$4,942.87", "−$57.13")):
+                            ("healthcare-five", "$4,942.87", "−$57.13"),
+                            ("asts-q3", "$4,200.00", "+$2,529.33"),
+                            ("frmi-q3", "$2,340.00", "+$840.00")):
         closed = page.split('id="row-' + rid + '"')[1].split('</tr>')[0]
         phone = page.split('id="' + rid + '"')[1].split('</details>')[0]
         chip = build.render_strip(d).split('href="trap-map.html#' + rid + '"')[1].split('</a>')[0]

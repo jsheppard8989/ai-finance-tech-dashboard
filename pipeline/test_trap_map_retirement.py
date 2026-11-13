@@ -21,10 +21,10 @@ def test_archive_is_complete_and_hashed():
         assert hashlib.sha256((ARCHIVE / name).read_bytes()).hexdigest() == digest
     d = json.loads((ARCHIVE / "trap_map.json").read_text())
     assert len(d["rows"]) == 8
-    assert len([r for r in d["rows"] if r["status"] != "closed"]) == 5
-    assert d["totals"]["realized_change"] == -1815.47
-    assert d["totals"]["portfolio_value"] == 44273.08
-    assert {r["id"]: r["exit"]["result"] for r in d["rows"] if r["status"] == "closed"} == {"lrcx-put": -1043.33, "ceg-q3": -715.01, "healthcare-five": -57.13}
+    assert len([r for r in d["rows"] if r["status"] != "closed"]) == 3
+    assert d["totals"]["realized_change"] == 1553.86
+    assert d["totals"]["portfolio_value"] == 44952.88
+    assert {r["id"]: r["exit"]["result"] for r in d["rows"] if r["status"] == "closed"} == {"lrcx-put": -1043.33, "ceg-q3": -715.01, "healthcare-five": -57.13, "asts-q3": 2529.33, "frmi-q3": 840.0}
     assert (ARCHIVE / "index.html").is_file()
     assert (ARCHIVE / "trap-map.html").is_file()
     assert len(list((ARCHIVE / "sources").glob("*.snapshot"))) >= 5

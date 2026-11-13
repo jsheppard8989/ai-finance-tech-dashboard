@@ -62,7 +62,7 @@ def test_original_date_benchmark_and_totals():
     assert lot["price"] == 769.36
     assert lot["dollars"] == 12220.67
     assert lot["shares"] == pytest.approx(12220.67 / 769.36, abs=0.000005)
-    # LRCX, CEG and Healthcare are closed: open allocation excludes them; portfolio_* retains original capital.
+    # LRCX, CEG, Healthcare, ASTS and FRMI are closed: open allocation excludes them; portfolio_* retains original capital.
     open_rows = [r for r in d["rows"] if r["status"] != "closed"]
     lrcx = next(r for r in d["rows"] if r["id"] == "lrcx-put")
     assert lrcx["status"] == "closed"
@@ -71,27 +71,31 @@ def test_original_date_benchmark_and_totals():
     assert ceg["status"] == "closed"
     assert ceg["exit"]["result"] == -715.01
     assert ceg["exit"]["modeled"] is True
-    assert len(open_rows) == 5
-    assert d["totals"]["cost"] == round(sum(r["trade"]["cost"] for r in open_rows), 2) == 13640.67
-    assert d["totals"]["realized_change"] == -1815.47
+    assert len(open_rows) == 3
+    assert d["totals"]["cost"] == round(sum(r["trade"]["cost"] for r in open_rows), 2) == 10470.0
+    assert d["totals"]["realized_change"] == 1553.86
     # Original funded capital is the return/benchmark basis, NOT current allocation.
     original_capital = sum(r["trade"]["cost"] for r in d["rows"])
     hc = next(r for r in d["rows"] if r["id"] == "healthcare-five")
-    released_capital = lrcx["trade"]["cost"] + ceg["trade"]["cost"] + hc["trade"]["cost"]
-    assert released_capital == 27176.67
+    asts = next(r for r in d["rows"] if r["id"] == "asts-q3")
+    frmi = next(r for r in d["rows"] if r["id"] == "frmi-q3")
+    released_capital = lrcx["trade"]["cost"] + ceg["trade"]["cost"] + hc["trade"]["cost"] + asts["trade"]["cost"] + frmi["trade"]["cost"]
+    assert round(released_capital, 2) == 30347.34
     assert d["totals"]["portfolio_cost"] == round(original_capital, 2) == 40817.34
     assert d["totals"]["cost"] == round(original_capital - released_capital, 2)
     assert d["totals"]["value"] == round(sum(r["trade"]["value"] for r in open_rows), 2)
     assert lrcx["exit"]["value"] == 19956.67
     assert ceg["exit"]["value"] == 461.66
-    assert d["totals"]["closed_cash"] == round(lrcx["exit"]["value"] + ceg["exit"]["value"] + hc["exit"]["value"], 2) == 25361.2
+    assert asts["exit"]["value"] == 4200.0 and asts["exit"]["result"] == 2529.33
+    assert frmi["exit"]["value"] == 2340.0 and frmi["exit"]["result"] == 840.0
+    assert d["totals"]["closed_cash"] == round(lrcx["exit"]["value"] + ceg["exit"]["value"] + hc["exit"]["value"] + asts["exit"]["value"] + frmi["exit"]["value"], 2) == 31901.2
     assert d["totals"]["portfolio_value"] == round(d["totals"]["value"] + d["totals"]["closed_cash"], 2)
     assert d["totals"]["portfolio_change"] == round(d["totals"]["change"] + d["totals"]["realized_change"], 2)
     assert d["totals"]["portfolio_change"] == round(d["totals"]["portfolio_value"] - original_capital, 2)
     assert d["totals"]["spy_change"] == round(d["totals"]["spy_value"] - original_capital, 2)
     assert any("lrcx-put" in lot.get("rows", []) for lot in d["benchmark"]["buys"])
     page = build_trap_map.render_page(d)
-    assert 'Allocated capital</div><div class="mid">$13,640.67</div>' in page
+    assert 'Allocated capital</div><div class="mid">$10,470.00</div>' in page
     assert 'Original allocation</div>' not in page
     assert build_trap_map.compute(copy.deepcopy(d)) == d
 
