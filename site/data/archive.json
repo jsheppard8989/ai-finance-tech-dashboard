@@ -1,6 +1,108 @@
 {
   "insights": [
     {
+      "id": 685,
+      "title": "The Next Era of Games: Mods, Agents, and Infinite Worlds",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-12",
+      "summary": "The episode argues that AI tool-use and agentic workflows are beginning to compress game development from long, expensive cycles into much shorter iteration loops. Anish Acharya describes a model that can directly operate Blender, Unreal, and Unity, turning a hobbyist prompt into a playable prototype by moving from concept generation to 3D modeling, animation, sound, and export. Jonathan Lai frames this as a major unlock because it reduces the need for specialized teams and makes game creation accessible to non-professionals.\n\nA central claim is that shorter cycles could materially change the economics of game publishing. The conversation repeatedly contrasts long development horizons of roughly 10-13 years with a potential 2-5 year cycle, arguing that faster prototyping lowers cancellation risk and lets studios take more creative risks. One example cited was a game in production since 2013/2014 that took about 12-13 years, versus the idea that AI could help teams ship meaningfully sooner.\n\nThe speakers also emphasize that AI will not replace human taste. Jonathan Lai says the \"last 20%\" of development is where fun, balance, judgment, and the \"magic\" emerge, and that this remains a human bottleneck. They see AI as strongest at filling skill gaps and accelerating the first 80%, while quality, consequence, and game feel still depend on people. This creates a more contrarian view: AI may increase the volume of games, but not automatically the number of great ones.\n\nA second theme is modding, remixing, and decompilation as a value-creation engine. The discussion uses Minecraft, League of Legends, Counter-Strike, Fortnite, PUBG, and Halo as examples of how community extensions and legacy-IP reuse can create huge ecosystems. Jonathan Lai highlights the tension that original IP owners often have not captured much of the upside from mod-driven success, and suggests that better extend-and-remix models may be more attractive than forking. The episode ends by pointing to AI-native, adaptive games and platforms like the Savi copilot concept, where an embodied agent can take bug reports, modify games live, and create multiplayer-by-default community loops.",
+      "key_takeaway": "AI tool-use that can operate game engines directly could compress development cycles from years into months, expanding game creation volume and shifting value toward tooling, workflow, and creator platforms.",
+      "tickers_mentioned": [
+        "MSFT",
+        "EPIC",
+        "RBLX"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 674,
+      "notable_quotes": [
+        {
+          "speaker": "Anish Acharya",
+          "quote": "...it could actually work directly within Unreal and Unity. And previous generations of models, they were just explained that a user, oh, you should go and do this in Blender, you should go and do this in Unreal, but Asha actually could like operate the software for you, and that was a huge unlock."
+        },
+        {
+          "speaker": "Jonathan Lai",
+          "quote": "...the last 20% of the game is 80% of the work. And that's where all the magic comes together that makes something fun. Because the first 80% you could say is just putting the getter again that works..."
+        },
+        {
+          "speaker": "Jonathan Lai",
+          "quote": "...historically the original owners of IP have not benefited that much, but the mods have been created on top of their IP, right? And so I think the original creators of data didn't really benefit that much from League of Legends when that was created."
+        }
+      ]
+    },
+    {
+      "id": 686,
+      "title": "MacroVoices #558 Mike Alkin: Uranium at a Crossroads",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-11-12",
+      "summary": "The episode centers on Mike Alkin\u2019s case that uranium fundamentals remain structurally tight regardless of the AI/data-center narrative. He argues there is not enough economically viable uranium for the existing reactor fleet plus the pipeline of new reactors, and says the thesis is unchanged even if market sentiment has become distorted by flow-based selling.\n\nA major thread is Alkin\u2019s claim that the industry\u2019s cost curve has reset sharply higher. He says Kazatomprom once forecast 2026 costs around $13\u2013$14/lb, but current costs are about $38.45/lb, and even higher on an FX-normalized basis. He also says the industry\u2019s weighted-average cost curve has climbed from $24/lb in 2019 to $38/lb in 2025, implying the market is still underpricing the difficulty of bringing supply online.\n\nAlkin further argues that contract pricing and reported spot/term prices can be misleading because reported contract benchmarks may reflect the lowest offer rather than the actual deal struck with utilities. He says utilities have been contracting at about half of replacement needs and drawing down inventories, which delays the market\u2019s response until a much more urgent replacement cycle forces prices higher. He also cites broad geopolitical concentration, with production in the east and consumption in the west, as a source of risk not reflected in \u201cfungible commodity\u201d thinking.\n\nThe episode also includes a speculative but important demand-side twist: Alkin discusses a possible \u201clight water leapfrog,\u201d where assembly-line reactor manufacturing could accelerate deployment earlier than consensus. Separately, the hosts discuss a trade idea in Sprott Physical Uranium Trust via Canadian-listed options, aiming to profit from discount-to-NAV narrowing rather than a direct move in uranium spot.",
+      "key_takeaway": "Uranium is structurally under-supplied, and the market is still mispricing that deficit because investors are focused on AI-driven sentiment rather than contracting reality.",
+      "tickers_mentioned": [
+        "SRUUF"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 675,
+      "notable_quotes": [
+        {
+          "speaker": "Mike Alkin",
+          "quote": "There is not enough economically viable Uranium to satisfy the world's existing reactor fleet of 440 operating reactors, up which a little over 420 are actually producing electricity and the pipeline of 80 new reactors coming online, and then the growth of those."
+        },
+        {
+          "speaker": "Mike Alkin",
+          "quote": "So where they were predicting in the $14 range, today they're cost is $38.45 per pound, not 14. And if you were to normalize the FX to the 340 10-gay versus the 450-75-500 10-gay that it had seen for a bulk of the time, you're looking at over $55 a pound."
+        },
+        {
+          "speaker": "Mike Alkin",
+          "quote": "We've got a sentiment signal from Wall Street, which is, okay, we're not going to think through this uranium thing. We basket it in with AI because to us, that's what it seems to make sense."
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "title": "Banks Are Trying to Offload a Large Pile of AI-Related Loans",
+      "source_type": "podcast",
+      "source_name": "The Credit Edge by Bloomberg Intelligence",
+      "source_date": "2026-11-12",
+      "summary": "Vinay Kumar of SilverRock Capital Partners argues that the current private credit opportunity set is being created by volatility, higher rates, and complexity. He says the firm mostly does primary lending, but also selectively buys bank-held funded assets, especially when banks want to de-risk ahead of balance-sheet dates like December 31.\n\nA major theme is AI infrastructure finance, which he says is still nascent. Kumar describes the market as still being built \u201cwhile it\u2019s flying,\u201d with lenders and borrowers still figuring out lease structures, covenants, and who bears risks tied to energy usage, permitting, and environmental issues. He says performing AI-related bank loans are typically sold at modest discounts, around 5 to 10 points, not the 30 to 50 point haircuts people might imagine.\n\nHe also argues that private credit is not one uniform asset class. In his view, large-cap capital solutions, middle-market direct lending, and stress/distressed situations are behaving very differently, and the middle market is more vulnerable because smaller businesses often have customer, revenue, and product concentration issues plus weaker covenant protection. He says SilverRock generally targets companies with average EBITDA around $150 million and usually does not go below $50 million EBITDA.\n\nKumar is cautious on sectors with high unpredictability. He says SilverRock avoids commodities exposure, frontier markets, and areas exposed to \u201cstroke of the pen\u201d political or legal risk. In software, he sees a more constructive path where AI and automation can expand margins and free cash flow, especially in business software with data and workflow moats. Overall, the episode\u2019s argument is that complexity-heavy, conservative private credit can still earn attractive risk-adjusted returns if underwritten carefully.",
+      "key_takeaway": "SilverRock\u2019s edge is complexity-driven private credit, especially primary financing and selective bank-asset purchases where modest discounts and careful structuring can produce attractive risk-adjusted returns.",
+      "tickers_mentioned": [
+        "META",
+        "ORCL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 676,
+      "notable_quotes": [
+        {
+          "speaker": "Vinay Kumar",
+          "quote": "Today, the vast majority is primary. Where there are very interesting opportunities to buy funded assets is from the banks. And that is something we can talk about as it relates to the AI community."
+        },
+        {
+          "speaker": "Vinay Kumar",
+          "quote": "We joke internally that the plane is getting built while it's flying to some degree. And so they're still figuring out exactly how these things are going to work."
+        },
+        {
+          "speaker": "Vinay Kumar",
+          "quote": "I think you're talking about more modest discounts that certainly well-capitalized banks and other alternative players can certainly absorb."
+        }
+      ]
+    },
+    {
       "id": 680,
       "title": "What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
       "source_type": "podcast",
@@ -88,15 +190,15 @@
       "podcast_episode_id": 672,
       "notable_quotes": [
         {
-          "speaker": "Much Compute",
+          "speaker": "David Orr",
           "quote": "Basically, besides software companies, nobody is really buying this compute, and then so our software companies actually going to need even more than what we already have, it's just a matter of time before basically the software companies say, oh, we don't actually need this, and then you start reselling your capacity."
         },
         {
-          "speaker": "Much Compute",
+          "speaker": "David Orr",
           "quote": "I saw a couple of headlines... in September, people were offering me $12 per compute hour. But now all this sudden, nobody's offering that kind of price anymore. Now it's more like $4 bucks an hour."
         },
         {
-          "speaker": "Much Compute",
+          "speaker": "David Orr",
           "quote": "But the reason I like the hyperscalers is because the way they structure the contracts, basically they're like 35% return on capital projects, and they've locked in around half of the capacity they're building."
         }
       ]
@@ -124,7 +226,7 @@
       "podcast_episode_id": 673,
       "notable_quotes": [
         {
-          "speaker": "Alex",
+          "speaker": "Dave Blundin",
           "quote": "But we know a huge number of chips have ended up training Chinese models, partially through illegal imports, partially by parking them in other countries and doing the training offshore but bringing the weights back."
         },
         {
@@ -248,7 +350,7 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-09",
       "archived_date": null,
@@ -376,7 +478,7 @@
       "key_takeaway": "AI-native software stacks will shift value toward context engineering, verification, and agentic workflow platforms while making code review and security the main adoption bottlenecks.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-08",
       "archived_date": null,
@@ -403,7 +505,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-11-08",
-      "summary": "Locks Ganapathi argues that private credit has moved from an institutional niche into retail channels, creating a structural liquidity mismatch because the underlying loans are illiquid while redemption features are not. He says that when retail investors are first in a run, gating becomes inevitable, and he cites BlackRock\u2019s HPS corporate lending fund as an example: on March 7 it allegedly gated for the first time in four years after investors submitted $1.2 billion of redemptions, with BlackRock expected to meet roughly $600 million.\n\nA major part of his case is that reported private credit risk is understated by how defaults are measured. He cites Fitch\u2019s private credit default rate at 6.3% trailing twelve months and says the metric likely misses economic distress because payment changes such as cash-to-PIK can be classified in a way that obscures true defaults. He also argues that private credit managers focus too much on fees and growth rather than underwriting, and that diligence is often inadequate.\n\nGanapathi extends the critique into insurance and reinsurance structures, describing them as opaque and potentially incestuous. He discusses receiverships, delayed policyholder payouts, and alleged collateral problems, including double-collateralization or double-pledging examples. He presents these as signs that losses may be propagated across interconnected structures rather than isolated at a single borrower.\n\nHe is especially bearish on data-center debt and says it may be the first major area to deteriorate, with broader stress later spreading into direct lending and consumer credit. He also argues that public BDC marks may lag underlying losses because mark-to-model behavior delays recognition of distress. He declines to name specific securities, but implies short opportunities exist in public BDCs and alternative asset managers exposed to these structures.",
+      "summary": "Laks Ganapathi argues that private credit has moved from an institutional niche into retail channels, creating a structural liquidity mismatch because the underlying loans are illiquid while redemption features are not. She says that when retail investors are first in a run, gating becomes inevitable, and she cites BlackRock\u2019s HPS corporate lending fund as an example: on March 7 it allegedly gated for the first time in four years after investors submitted $1.2 billion of redemptions, with BlackRock expected to meet roughly $600 million.\n\nA major part of her case is that reported private credit risk is understated by how defaults are measured. She cites Fitch\u2019s private credit default rate at 6.3% trailing twelve months and says the metric likely misses economic distress because payment changes such as cash-to-PIK can be classified in a way that obscures true defaults. She also argues that private credit managers focus too much on fees and growth rather than underwriting, and that diligence is often inadequate.\n\nGanapathi extends the critique into insurance and reinsurance structures, describing them as opaque and potentially incestuous. She discusses receiverships, delayed policyholder payouts, and alleged collateral problems, including double-collateralization or double-pledging examples. She presents these as signs that losses may be propagated across interconnected structures rather than isolated at a single borrower.\n\nShe is especially bearish on data-center debt and says it may be the first major area to deteriorate, with broader stress later spreading into direct lending and consumer credit. She also argues that public BDC marks may lag underlying losses because mark-to-model behavior delays recognition of distress. She declines to name specific securities, but implies short opportunities exist in public BDCs and alternative asset managers exposed to these structures.",
       "key_takeaway": "Private credit\u2019s retail liquidity mismatch and delayed loss recognition will expose hidden deterioration first in data-center and direct-lending exposures.",
       "tickers_mentioned": [
         "OVDC",
@@ -411,7 +513,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-08",
       "archived_date": null,
@@ -419,22 +521,22 @@
       "podcast_episode_id": 661,
       "notable_quotes": [
         {
-          "speaker": "Locks Ganapathi",
+          "speaker": "Laks Ganapathi",
           "quote": "So private credit as a class is going to survive. It's going to survive this mess. It's going to be a tremendous blood bath."
         },
         {
-          "speaker": "Locks Ganapathi",
+          "speaker": "Laks Ganapathi",
           "quote": "On March 7, they gated for the first time in their four-year history, investors submitted $1.2 billion in redemption request, BlackRock would turn roughly $600 million."
         },
         {
-          "speaker": "Locks Ganapathi",
+          "speaker": "Laks Ganapathi",
           "quote": "Fitch's private credit default rate reach a record high of 6.3% for trailing 12 months."
         }
       ]
     },
     {
       "id": 667,
-      "title": "Deep Dive: Anthropic S-1 Myths and Mythos \u2014 Jamin Ball, Altimeter",
+      "title": "Why Would Anthropic Go Public Now? \u2014 Jamin Ball, Altimeter",
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-11-07",
@@ -452,15 +554,15 @@
       "podcast_episode_id": 656,
       "notable_quotes": [
         {
-          "speaker": "Deep Dive",
+          "speaker": "Jamin Ball",
           "quote": "If you compare the dollar spend in compute, a year ago versus today, they're compute that went towards serving models, has gone up by 2.3x. Their revenue over the same period of time has gone up 14x."
         },
         {
-          "speaker": "Deep Dive",
+          "speaker": "Jamin Ball",
           "quote": "Here's a business that showed 85% gross margins, over 20% free cash flow margins, 8% gap operating margins. And maybe my favorite stat of the whole S1 was 141 billion dollars of capital raised to date."
         },
         {
-          "speaker": "Deep Dive",
+          "speaker": "Jamin Ball",
           "quote": "Of the $81 billion of loss in net income on the first six months of this year, $72 billion is from a series of converts for Anthropic for AWS and Google. And nine billion is for a separate set of safes and notes."
         }
       ]
@@ -15631,7 +15733,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 661,
-      "first_detected_speaker": "Locks Ganapathi",
+      "first_detected_speaker": "Laks Ganapathi",
       "last_mentioned_episode_id": 664,
       "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
     },
@@ -15676,8 +15778,8 @@
       "term": "Blue tsunami",
       "description": "The episode\u2019s framing for a strong Democratic election result that increases congressional leverage over foreign policy and war funding. It is used as a political regime-shift concept rather than just an election label.",
       "first_detected_date": "2026-11-05",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-12",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Could alter energy risk premia, defense policy, and geopolitical uncertainty pricing across oil, gold, and defense-related assets.",
@@ -15686,8 +15788,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 649,
       "first_detected_speaker": "Michael Every",
-      "last_mentioned_episode_id": 652,
-      "last_mentioned_speaker": "Andy Constan"
+      "last_mentioned_episode_id": 675,
+      "last_mentioned_speaker": "Mike Alkin"
     },
     {
       "id": 325,
@@ -16227,7 +16329,7 @@
       "first_detected_episode_id": 544,
       "first_detected_speaker": "Ed Zitron",
       "last_mentioned_episode_id": 661,
-      "last_mentioned_speaker": "Locks Ganapathi"
+      "last_mentioned_speaker": "Laks Ganapathi"
     },
     {
       "id": 306,
@@ -16252,8 +16354,8 @@
       "term": "AI Adoption",
       "description": "The integration of artificial intelligence technologies into business processes, which is currently at an early stage in enterprises.",
       "first_detected_date": "2026-09-30",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-11-12",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding AI adoption is crucial for identifying companies that will benefit from increased efficiency and productivity.",
@@ -16262,8 +16364,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 536,
       "first_detected_speaker": "David George (hosts)",
-      "last_mentioned_episode_id": 595,
-      "last_mentioned_speaker": "Alex Lieberman, CJ Hess"
+      "last_mentioned_episode_id": 674,
+      "last_mentioned_speaker": "Anish Acharya, Jonathan Lai"
     },
     {
       "id": 293,
@@ -16684,8 +16786,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-11-10",
-      "mention_count": 47,
+      "last_mentioned_date": "2026-11-12",
+      "mention_count": 48,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -16694,8 +16796,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 667,
-      "last_mentioned_speaker": "Zeno Rocha"
+      "last_mentioned_episode_id": 674,
+      "last_mentioned_speaker": "Anish Acharya, Jonathan Lai"
     },
     {
       "id": 267,
@@ -16990,8 +17092,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 74,
+      "last_mentioned_date": "2026-11-12",
+      "mention_count": 75,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -17000,8 +17102,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 672,
-      "last_mentioned_speaker": "David Orr"
+      "last_mentioned_episode_id": 676,
+      "last_mentioned_speaker": "Vinay Kumar"
     },
     {
       "id": 256,
@@ -17152,8 +17254,8 @@
       "term": "AI CapEx",
       "description": "Large-scale capital spending on AI infrastructure, including GPUs, custom accelerators, data centers, power projects, memory, chips, and construction capacity. In this episode, it centers on Amazon's expected $220 billion of 2026 capex and AWS's plan to buy 2 million Nvidia GPUs over the next couple of years.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 38,
+      "last_mentioned_date": "2026-11-12",
+      "mention_count": 39,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It reframes cloud growth around physical supply chains, power availability, depreciation risk, and multi-year infrastructure planning.",
@@ -17162,8 +17264,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 672,
-      "last_mentioned_speaker": "David Orr"
+      "last_mentioned_episode_id": 675,
+      "last_mentioned_speaker": "Mike Alkin"
     },
     {
       "id": 234,
@@ -18412,8 +18514,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 58,
+      "last_mentioned_date": "2026-11-12",
+      "mention_count": 59,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -18422,8 +18524,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 672,
-      "last_mentioned_speaker": "David Orr"
+      "last_mentioned_episode_id": 676,
+      "last_mentioned_speaker": "Vinay Kumar"
     },
     {
       "id": 26,
@@ -18610,8 +18712,8 @@
       "term": "AI Race",
       "description": "The idea that countries and companies are competing to reach and control leading AI capability first. The panel contrasted this race framing with arguments that the technology is open-ended and may run for decades.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 46,
+      "last_mentioned_date": "2026-11-12",
+      "mention_count": 47,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because race dynamics can accelerate chip demand, government spending, and regulatory intervention.",
@@ -18620,8 +18722,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 669,
-      "last_mentioned_speaker": "Zach Reitano"
+      "last_mentioned_episode_id": 676,
+      "last_mentioned_speaker": "Vinay Kumar"
     },
     {
       "id": 12,
