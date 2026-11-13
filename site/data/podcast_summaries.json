@@ -1,5 +1,23 @@
 [
   {
+    "id": 678,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "The avalanche that hit math is coming for AI development",
+    "episode_date": "2026-11-13",
+    "summary": "The episode argues that automated AI research is arriving much sooner than most people expect, with the host saying the median year for AI systems to match the best human AI researchers is 2028, with a plausible faster case as early as 2027 and a 25% chance it slips past 2032. The core thesis is that once models can do top-tier AI research, progress compounds rapidly because they can run many more experiments, work faster, and scale ideas across far more parallel agents.\n\nA major pillar of the argument is that AI progress is already becoming measurable on verifiable tasks. The host cites an independent evaluation organization, Meter, which spent three months embedded at Anthropic and concluded Anthropic\u2019s rate of progress on well-scoped tasks is 2x what it was a year earlier. He also says Anthropic reported Claude now does 26% of its AI R&D work, up from under 1% in February, and that OpenAI said its heaviest researchers were using about $1,000 a day of internal coding agents.\n\nThe episode leans heavily on the rapid improvement in mathematical capability as evidence that the path to automated research is real. The host says that in 2023 models could not reliably add four-digit numbers, in 2024 they could barely solve high-school competition problems, in 2025 they could win an IMO gold medal, and more recently they solved niche open problems and even a Millennium Prize problem in 88 hours. He uses these jumps to argue that well-scoped domains can progress much faster than skeptics assume.\n\nA second key pillar is that much of AI research is itself verifiable through proxies like pre-training loss, RL environment scores, sample efficiency, and inference efficiency. The host argues that if automated systems can optimize these proxies, they can effectively automate large parts of AI research even if they are not yet great at open-ended scientific discovery. He also discusses a \u201cSpark\u201d scenario, where AI compresses 3\u20136 years of progress into one year, versus a software-only singularity where rapid improvement happens even without much additional compute growth.\n\nThe main risks discussed are continual learning, difficulty finding the right verifiable proxies for new paradigms, and compute/experiment bottlenecks. Still, the host\u2019s overall view is that these are constraints rather than blockers, and that automated research could soon make AI progress far more self-accelerating than it is today.",
+    "key_takeaways": [
+      "Dwarkesh Patel says the median year for automated researchers to match the best human AI researchers is 2028, with a faster case possible in 2027 and a 25% chance of slipping past 2032.",
+      "Dwarkesh Patel says Meter spent three months embedded at Anthropic and concluded Anthropic\u2019s rate of AI progress on well-scoped tasks is 2x what it was a year ago.",
+      "Dwarkesh Patel says Anthropic reported Claude now leads 26% of Anthropic\u2019s AI R&D work, up from under 1% in February.",
+      "Dwarkesh Patel says OpenAI\u2019s heaviest AI researchers were using about $1,000 per day of internal coding agents, showing real internal dependence on AI tools.",
+      "Dwarkesh Patel says model capability in mathematics has moved from unreliable four-digit addition in 2023 to IMO gold-medal performance in 2025, plus open-problem and Millennium Prize-level results.",
+      "Dwarkesh Patel argues that AI research is increasingly automatable because major parts can be measured with verifiable proxies like loss, RL environment scores, and inference efficiency.",
+      "Dwarkesh Patel frames the future as either a \u201cSpark\u201d scenario or a software-only singularity, and says it is basically a 50/50 split."
+    ],
+    "investment_thesis": "If AI research becomes self-automating by 2028, research throughput could compound dramatically, favoring companies built around AI development infrastructure, evaluation, and automation.",
+    "key_tickers": null
+  },
+  {
     "id": 677,
     "podcast_name": "The a16z Show",
     "episode_title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
