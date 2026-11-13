@@ -1,5 +1,62 @@
 [
   {
+    "id": 676,
+    "podcast_name": "The Credit Edge by Bloomberg Intelligence",
+    "episode_title": "Banks Are Trying to Offload a Large Pile of AI-Related Loans",
+    "episode_date": "2026-11-12",
+    "summary": "Vinay Kumar of SilverRock Capital Partners argues that the current private credit opportunity set is being created by volatility, higher rates, and complexity. He says the firm mostly does primary lending, but also selectively buys bank-held funded assets, especially when banks want to de-risk ahead of balance-sheet dates like December 31.\n\nA major theme is AI infrastructure finance, which he says is still nascent. Kumar describes the market as still being built \u201cwhile it\u2019s flying,\u201d with lenders and borrowers still figuring out lease structures, covenants, and who bears risks tied to energy usage, permitting, and environmental issues. He says performing AI-related bank loans are typically sold at modest discounts, around 5 to 10 points, not the 30 to 50 point haircuts people might imagine.\n\nHe also argues that private credit is not one uniform asset class. In his view, large-cap capital solutions, middle-market direct lending, and stress/distressed situations are behaving very differently, and the middle market is more vulnerable because smaller businesses often have customer, revenue, and product concentration issues plus weaker covenant protection. He says SilverRock generally targets companies with average EBITDA around $150 million and usually does not go below $50 million EBITDA.\n\nKumar is cautious on sectors with high unpredictability. He says SilverRock avoids commodities exposure, frontier markets, and areas exposed to \u201cstroke of the pen\u201d political or legal risk. In software, he sees a more constructive path where AI and automation can expand margins and free cash flow, especially in business software with data and workflow moats. Overall, the episode\u2019s argument is that complexity-heavy, conservative private credit can still earn attractive risk-adjusted returns if underwritten carefully.",
+    "key_takeaways": [
+      "Vinay Kumar says the vast majority of SilverRock's current activity is primary lending, with selective opportunities to buy funded assets from banks.",
+      "Kumar says AI infrastructure finance is still nascent and requires deep diligence on leases, covenants, and operational risks like energy, permitting, and environmental issues.",
+      "Kumar says performing AI-related bank loans are generally trading at modest discounts of about 5 to 10 points, not extreme 30 to 50 point haircuts.",
+      "Kumar says private credit is bifurcating, with different outcomes for large-cap capital solutions, middle-market direct lending, and stress/distressed credit.",
+      "Kumar says middle-market direct lending is vulnerable because smaller businesses often have concentration risk and insufficient cash interest coverage under weaker covenant structures.",
+      "Kumar says SilverRock generally invests around companies with average EBITDA near $150 million and usually avoids deals below $50 million EBITDA.",
+      "Kumar says SilverRock avoids commodities and markets with high rule-of-law or political unpredictability because recovery outcomes are harder to control.",
+      "Kumar says software can still be attractive when AI improves margins and free cash flow, especially in business software with durable data and workflow moats."
+    ],
+    "investment_thesis": "SilverRock\u2019s edge is complexity-driven private credit, especially primary financing and selective bank-asset purchases where modest discounts and careful structuring can produce attractive risk-adjusted returns.",
+    "key_tickers": null
+  },
+  {
+    "id": 675,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #558 Mike Alkin: Uranium at a Crossroads",
+    "episode_date": "2026-11-12",
+    "summary": "The episode centers on Mike Alkin\u2019s case that uranium fundamentals remain structurally tight regardless of the AI/data-center narrative. He argues there is not enough economically viable uranium for the existing reactor fleet plus the pipeline of new reactors, and says the thesis is unchanged even if market sentiment has become distorted by flow-based selling.\n\nA major thread is Alkin\u2019s claim that the industry\u2019s cost curve has reset sharply higher. He says Kazatomprom once forecast 2026 costs around $13\u2013$14/lb, but current costs are about $38.45/lb, and even higher on an FX-normalized basis. He also says the industry\u2019s weighted-average cost curve has climbed from $24/lb in 2019 to $38/lb in 2025, implying the market is still underpricing the difficulty of bringing supply online.\n\nAlkin further argues that contract pricing and reported spot/term prices can be misleading because reported contract benchmarks may reflect the lowest offer rather than the actual deal struck with utilities. He says utilities have been contracting at about half of replacement needs and drawing down inventories, which delays the market\u2019s response until a much more urgent replacement cycle forces prices higher. He also cites broad geopolitical concentration, with production in the east and consumption in the west, as a source of risk not reflected in \u201cfungible commodity\u201d thinking.\n\nThe episode also includes a speculative but important demand-side twist: Alkin discusses a possible \u201clight water leapfrog,\u201d where assembly-line reactor manufacturing could accelerate deployment earlier than consensus. Separately, the hosts discuss a trade idea in Sprott Physical Uranium Trust via Canadian-listed options, aiming to profit from discount-to-NAV narrowing rather than a direct move in uranium spot.",
+    "key_takeaways": [
+      "Mike Alkin says there is not enough economically viable uranium for the existing global reactor fleet plus the pipeline of 80 new reactors.",
+      "Mike Alkin says the uranium bull thesis does not depend on AI or data-center demand; the AI link is mainly a sentiment and flow issue.",
+      "Mike Alkin says Kazatomprom\u2019s forecasted ~$14/lb 2026 cost has been overtaken by current costs of $38.45/lb, or over $55/lb on his FX-normalized view.",
+      "Mike Alkin says the uranium industry\u2019s weighted-average cost curve has risen from $24/lb in 2019 to $38/lb in 2025, showing a broken cost curve.",
+      "Mike Alkin says utilities are contracting at roughly half of replacement needs and drawing down inventories, delaying the eventual supply crunch.",
+      "Patrick Ceresna says Sprott Physical Uranium Trust trades at a discount to NAV, and a bull call spread can target discount narrowing toward 5%\u201310% by Jan. 15, 2027."
+    ],
+    "investment_thesis": "Uranium is structurally under-supplied, and the market is still mispricing that deficit because investors are focused on AI-driven sentiment rather than contracting reality.",
+    "key_tickers": [
+      "SRUUF"
+    ]
+  },
+  {
+    "id": 674,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Next Era of Games: Mods, Agents, and Infinite Worlds",
+    "episode_date": "2026-11-12",
+    "summary": "The episode argues that AI tool-use and agentic workflows are beginning to compress game development from long, expensive cycles into much shorter iteration loops. Anish Acharya describes a model that can directly operate Blender, Unreal, and Unity, turning a hobbyist prompt into a playable prototype by moving from concept generation to 3D modeling, animation, sound, and export. Jonathan Lai frames this as a major unlock because it reduces the need for specialized teams and makes game creation accessible to non-professionals.\n\nA central claim is that shorter cycles could materially change the economics of game publishing. The conversation repeatedly contrasts long development horizons of roughly 10-13 years with a potential 2-5 year cycle, arguing that faster prototyping lowers cancellation risk and lets studios take more creative risks. One example cited was a game in production since 2013/2014 that took about 12-13 years, versus the idea that AI could help teams ship meaningfully sooner.\n\nThe speakers also emphasize that AI will not replace human taste. Jonathan Lai says the \"last 20%\" of development is where fun, balance, judgment, and the \"magic\" emerge, and that this remains a human bottleneck. They see AI as strongest at filling skill gaps and accelerating the first 80%, while quality, consequence, and game feel still depend on people. This creates a more contrarian view: AI may increase the volume of games, but not automatically the number of great ones.\n\nA second theme is modding, remixing, and decompilation as a value-creation engine. The discussion uses Minecraft, League of Legends, Counter-Strike, Fortnite, PUBG, and Halo as examples of how community extensions and legacy-IP reuse can create huge ecosystems. Jonathan Lai highlights the tension that original IP owners often have not captured much of the upside from mod-driven success, and suggests that better extend-and-remix models may be more attractive than forking. The episode ends by pointing to AI-native, adaptive games and platforms like the Savi copilot concept, where an embodied agent can take bug reports, modify games live, and create multiplayer-by-default community loops.",
+    "key_takeaways": [
+      "Anish Acharya said AI can now directly operate Unreal and Unity, which is a \"huge unlock\" compared with earlier models that only gave instructions.",
+      "Anish Acharya said a hobbyist could use AI to move from a game design document to concept art, Blender assets, animation, music, and a playable export.",
+      "Jonathan Lai argued that game development could compress from roughly 10-13 years to about 2-5 years, reducing cancellation risk and enabling more experimentation.",
+      "Jonathan Lai said the \"last 20%\" of a game is \"80% of the work,\" and that fun, balance, and taste remain hard for AI to replace.",
+      "Jonathan Lai said Minecraft is the strongest example of an IP benefiting from a mod ecosystem rather than being hurt by it.",
+      "Jonathan Lai said mod-derived franchises like League of Legends and Counter-Strike raise a value-capture problem because original owners may not benefit much from the ecosystem they seeded.",
+      "Jonathan Lai described Savi as an embodied agent inside games that can take bug reports, modify the game while players are in it, and support a shared community across games.",
+      "Anish Acharya linked the Xbox labs announcement to community decompilation/recompilation activity, including projects that made Halo playable in the web."
+    ],
+    "investment_thesis": "AI tool-use that can operate game engines directly could compress development cycles from years into months, expanding game creation volume and shifting value toward tooling, workflow, and creator platforms.",
+    "key_tickers": null
+  },
+  {
     "id": 673,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Can Jensen Huang remain CEO? Inside NVIDIA\u2019s next steps| MOONSHOTS #310",
@@ -8,10 +65,10 @@
     "key_takeaways": [
       "Peter Diamandis said Anthropic\u2019s IPO road show was pricing the company at about $1.3 to $1.4 trillion, down from prior floated levels of $1.5 trillion and $2 trillion.",
       "Peter Diamandis said Fable 5.2 and Mithos 5.2 were 30% faster than the 5.1 versions and cheaper, at $8 million per million input tokens and $40 per out.",
-      "Alex argued that a huge number of chips have ended up training Chinese models through illegal imports and offshore training structures, making the NVIDIA-related risk materially broader than one person.",
-      "Alex said NVIDIA does not make the chips itself and relies on TSMC, so any capacity allocation shift could move value across the semiconductor supply chain.",
+      "Dave Blundin argued that a huge number of chips have ended up training Chinese models through illegal imports and offshore training structures, making the NVIDIA-related risk materially broader than one person.",
+      "Dave Blundin said NVIDIA does not make the chips itself and relies on TSMC, so any capacity allocation shift could move value across the semiconductor supply chain.",
       "Peter Diamandis said an analyst estimated AI time horizons are doubling every two months, supporting the episode\u2019s 2027 autonomy acceleration thesis.",
-      "Alex said Tesla is pivoting from selling products to selling subscription services and rentals, especially around autonomy and future robotics.",
+      "Alex Wissner-Gross said Tesla is pivoting from selling products to selling subscription services and rentals, especially around autonomy and future robotics.",
       "Peter Diamandis said Delaware\u2019s draft AI company framework would let an AI agent manage the business, sign contracts, hold property, and file lawsuits in the company\u2019s name."
     ],
     "investment_thesis": "The episode\u2019s core claim is that AI capability and autonomy are advancing fast enough to reshape semis, robotics, and corporate structure by 2027.",
@@ -220,15 +277,15 @@
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Following the Private Credit Loan Books | Laks Ganapathi",
     "episode_date": "2026-11-08",
-    "summary": "Locks Ganapathi argues that private credit has moved from an institutional niche into retail channels, creating a structural liquidity mismatch because the underlying loans are illiquid while redemption features are not. He says that when retail investors are first in a run, gating becomes inevitable, and he cites BlackRock\u2019s HPS corporate lending fund as an example: on March 7 it allegedly gated for the first time in four years after investors submitted $1.2 billion of redemptions, with BlackRock expected to meet roughly $600 million.\n\nA major part of his case is that reported private credit risk is understated by how defaults are measured. He cites Fitch\u2019s private credit default rate at 6.3% trailing twelve months and says the metric likely misses economic distress because payment changes such as cash-to-PIK can be classified in a way that obscures true defaults. He also argues that private credit managers focus too much on fees and growth rather than underwriting, and that diligence is often inadequate.\n\nGanapathi extends the critique into insurance and reinsurance structures, describing them as opaque and potentially incestuous. He discusses receiverships, delayed policyholder payouts, and alleged collateral problems, including double-collateralization or double-pledging examples. He presents these as signs that losses may be propagated across interconnected structures rather than isolated at a single borrower.\n\nHe is especially bearish on data-center debt and says it may be the first major area to deteriorate, with broader stress later spreading into direct lending and consumer credit. He also argues that public BDC marks may lag underlying losses because mark-to-model behavior delays recognition of distress. He declines to name specific securities, but implies short opportunities exist in public BDCs and alternative asset managers exposed to these structures.",
+    "summary": "Laks Ganapathi argues that private credit has moved from an institutional niche into retail channels, creating a structural liquidity mismatch because the underlying loans are illiquid while redemption features are not. She says that when retail investors are first in a run, gating becomes inevitable, and she cites BlackRock\u2019s HPS corporate lending fund as an example: on March 7 it allegedly gated for the first time in four years after investors submitted $1.2 billion of redemptions, with BlackRock expected to meet roughly $600 million.\n\nA major part of her case is that reported private credit risk is understated by how defaults are measured. She cites Fitch\u2019s private credit default rate at 6.3% trailing twelve months and says the metric likely misses economic distress because payment changes such as cash-to-PIK can be classified in a way that obscures true defaults. She also argues that private credit managers focus too much on fees and growth rather than underwriting, and that diligence is often inadequate.\n\nGanapathi extends the critique into insurance and reinsurance structures, describing them as opaque and potentially incestuous. She discusses receiverships, delayed policyholder payouts, and alleged collateral problems, including double-collateralization or double-pledging examples. She presents these as signs that losses may be propagated across interconnected structures rather than isolated at a single borrower.\n\nShe is especially bearish on data-center debt and says it may be the first major area to deteriorate, with broader stress later spreading into direct lending and consumer credit. She also argues that public BDC marks may lag underlying losses because mark-to-model behavior delays recognition of distress. She declines to name specific securities, but implies short opportunities exist in public BDCs and alternative asset managers exposed to these structures.",
     "key_takeaways": [
-      "Locks Ganapathi says private credit\u2019s risk has shifted into retail channels, creating a liquidity mismatch where retail investors are first out in a run.",
-      "Locks Ganapathi says BlackRock\u2019s HPS corporate lending fund gated on March 7 after $1.2 billion of redemption requests, with roughly $600 million to be paid.",
-      "Locks Ganapathi says Fitch\u2019s 6.3% trailing-12-month private credit default rate is likely understated because cash-to-PIK conversions can blur economic distress.",
-      "Locks Ganapathi argues that private credit managers emphasize fees and asset gathering more than proper credit underwriting and diligence.",
-      "Locks Ganapathi says insurance/reinsurance-linked structures tied to private credit can be opaque and may spread losses across multiple counterparties.",
-      "Locks Ganapathi says data-center debt is likely the first major private-credit area to deteriorate, ahead of broader direct lending or consumer credit stress.",
-      "Locks Ganapathi says public BDC/NAV marks may lag true credit deterioration, creating potential short opportunities even without naming specific securities."
+      "Laks Ganapathi says private credit\u2019s risk has shifted into retail channels, creating a liquidity mismatch where retail investors are first out in a run.",
+      "Laks Ganapathi says BlackRock\u2019s HPS corporate lending fund gated on March 7 after $1.2 billion of redemption requests, with roughly $600 million to be paid.",
+      "Laks Ganapathi says Fitch\u2019s 6.3% trailing-12-month private credit default rate is likely understated because cash-to-PIK conversions can blur economic distress.",
+      "Laks Ganapathi argues that private credit managers emphasize fees and asset gathering more than proper credit underwriting and diligence.",
+      "Laks Ganapathi says insurance/reinsurance-linked structures tied to private credit can be opaque and may spread losses across multiple counterparties.",
+      "Laks Ganapathi says data-center debt is likely the first major private-credit area to deteriorate, ahead of broader direct lending or consumer credit stress.",
+      "Laks Ganapathi says public BDC/NAV marks may lag true credit deterioration, creating potential short opportunities even without naming specific securities."
     ],
     "investment_thesis": "Private credit\u2019s retail liquidity mismatch and delayed loss recognition will expose hidden deterioration first in data-center and direct-lending exposures.",
     "key_tickers": [
@@ -312,17 +369,17 @@
   {
     "id": 656,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "Deep Dive: Anthropic S-1 Myths and Mythos \u2014 Jamin Ball, Altimeter",
+    "episode_title": "Why Would Anthropic Go Public Now? \u2014 Jamin Ball, Altimeter",
     "episode_date": "2026-11-07",
     "summary": "The episode is a deep dive into Anthropic\u2019s S-1 and what it says about frontier AI economics, arguing that the company may be much closer to sustainable profitability than headline losses suggest. The guest says compute spend devoted to serving models rose only 2.3x year over year while revenue rose 14x, implying about a 7x efficiency gain in inference serving and making the business \u201calmost accidentally profitable.\u201d\n\nA central theme is that Anthropic\u2019s reported profitability is unusually strong for a frontier lab: the guest cites 85% gross margins, over 20% free cash flow margins, and 8% GAAP operating margins. He emphasizes that the company had raised $141 billion of capital to date and held $134 billion in cash, which he frames as evidence of extraordinary balance-sheet strength rather than traditional startup burn dynamics.\n\nThe episode also spends significant time on accounting interpretation. The guest argues that the apparent $108 billion of convertible notes payable and a large share of the $81 billion reported net loss in the first six months of 2026 are mostly driven by valuation changes in convert/safe liabilities, not operating cash burn. He says $72 billion of that loss came from converts tied to AWS and Google, with another $9 billion from other safes and notes.\n\nStrategically, the guest argues frontier labs will keep capturing the highest-value dollars even if open-weight models capture more token volume. He also says the market is likely underestimating long-term compute demand because power, land, electricity, permitting, and debt-market constraints will limit overbuilding, while going public may help AI labs access credit markets and finance data-center expansion. The guest repeatedly returns to the idea that the real question is whether labs can stay at the frontier, build a durable business there, and generate enough money to fund the next wave of compute.\n\nMore broadly, the discussion argues that the frontier/open-weight gap is larger than many assume because labs have powerful internal models they have not released. The guest sees the near-term risk as reinvestment: if labs accelerate compute buildouts, today\u2019s strong margins could reverse even if the underlying economics remain attractive.",
     "key_takeaways": [
-      "Deep Dive said Anthropic\u2019s compute spend for serving models rose 2.3x while revenue rose 14x, implying roughly a 7x gain in inference-serving efficiency.",
-      "Deep Dive said Anthropic showed 85% gross margins, over 20% free cash flow margins, and 8% GAAP operating margins in the S-1.",
-      "Deep Dive said $141 billion of capital had been raised to date and $134 billion of cash and cash equivalents were on the balance sheet.",
-      "Deep Dive argued that the reported $108 billion of convertible notes payable is largely an accounting effect, not the same as newly raised debt capital.",
-      "Deep Dive said that of the $81 billion of net loss in the first six months of 2026, $72 billion came from convert remeasurement tied to AWS and Google and $9 billion from other safes and notes.",
-      "Deep Dive said that for the three months ending September, 80% of Anthropic\u2019s revenue was driven by models six months old or younger.",
-      "Deep Dive said going public can improve access to credit markets for data-center financing because rating agencies need disclosure to underwrite debt."
+      "Jamin Ball said Anthropic\u2019s compute spend for serving models rose 2.3x while revenue rose 14x, implying roughly a 7x gain in inference-serving efficiency.",
+      "Jamin Ball said Anthropic showed 85% gross margins, over 20% free cash flow margins, and 8% GAAP operating margins in the S-1.",
+      "Jamin Ball said $141 billion of capital had been raised to date and $134 billion of cash and cash equivalents were on the balance sheet.",
+      "Jamin Ball argued that the reported $108 billion of convertible notes payable is largely an accounting effect, not the same as newly raised debt capital.",
+      "Jamin Ball said that of the $81 billion of net loss in the first six months of 2026, $72 billion came from convert remeasurement tied to AWS and Google and $9 billion from other safes and notes.",
+      "Jamin Ball said that for the three months ending September, 80% of Anthropic\u2019s revenue was driven by models six months old or younger.",
+      "Jamin Ball said going public can improve access to credit markets for data-center financing because rating agencies need disclosure to underwrite debt."
     ],
     "investment_thesis": "Anthropic\u2019s S-1 suggests frontier AI can be unusually profitable, with a ~7x serving-efficiency gain and margins strong enough to support massive reinvestment.",
     "key_tickers": [
