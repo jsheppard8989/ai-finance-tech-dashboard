@@ -2524,6 +2524,102 @@
           "sustainable.\""
         ]
       ]
+    },
+    {
+      "insight_id": 683,
+      "podcast_episode_id": 672,
+      "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): speaker label only; quotes verbatim.",
+      "replacements": [
+        [
+          "Much Compute",
+          "David Orr"
+        ]
+      ]
+    },
+    {
+      "insight_id": 684,
+      "podcast_episode_id": 673,
+      "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): Moonshots #310 opening monologue is Dave Blundin, not Alex; Tesla takeaway stays Alex (full name). Quote speaker label fixed in DB (latest_insights 684 + podcast_episodes 673 notable_quotes).",
+      "replacements": [
+        [
+          "Alex argued that a huge number of chips",
+          "Dave Blundin argued that a huge number of chips"
+        ],
+        [
+          "Alex said NVIDIA does not make the chips itself",
+          "Dave Blundin said NVIDIA does not make the chips itself"
+        ],
+        [
+          "Alex said Tesla is pivoting",
+          "Alex Wissner-Gross said Tesla is pivoting"
+        ],
+        [
+          "Alex: But we know a huge number of chips",
+          "Dave Blundin: But we know a huge number of chips"
+        ]
+      ]
+    },
+    {
+      "insight_id": 673,
+      "podcast_episode_id": 661,
+      "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): Laks Ganapathi (she/her per official show notes). Speaker/name label and our-voice pronouns only; quotes verbatim; no pronouns added to the name.",
+      "replacements": [
+        [
+          "Locks Ganapathi",
+          "Laks Ganapathi"
+        ],
+        [
+          "He says that when retail investors are first in a run",
+          "She says that when retail investors are first in a run"
+        ],
+        [
+          "and he cites BlackRock’s HPS corporate lending fund",
+          "and she cites BlackRock’s HPS corporate lending fund"
+        ],
+        [
+          "A major part of his case",
+          "A major part of her case"
+        ],
+        [
+          "He cites Fitch’s private credit default rate",
+          "She cites Fitch’s private credit default rate"
+        ],
+        [
+          "He also argues that private credit managers",
+          "She also argues that private credit managers"
+        ],
+        [
+          "He discusses receiverships",
+          "She discusses receiverships"
+        ],
+        [
+          "He presents these as signs",
+          "She presents these as signs"
+        ],
+        [
+          "He is especially bearish",
+          "She is especially bearish"
+        ],
+        [
+          "He also argues that public BDC marks",
+          "She also argues that public BDC marks"
+        ],
+        [
+          "He declines to name",
+          "She declines to name"
+        ]
+      ]
+    },
+    {
+      "insight_id": 667,
+      "podcast_episode_id": 656,
+      "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): 'Deep Dive' was a fragment of the ingested title; speaker is Jamin Ball. Title fields are never touched by this rule (see title_overrides).",
+      "replacements": [
+        [
+          "Deep Dive",
+          "Jamin Ball"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -3216,6 +3312,14 @@
     [
       "rather than outright directional bets.",
       "rather than outright directional positions."
+    ],
+    [
+      "lets studios take more creative bets.",
+      "lets studios take more creative risks."
+    ],
+    [
+      "start approving smaller experimental bets,",
+      "start approving smaller experimental projects,"
     ]
   ],
   "global_name_replacements": [
@@ -4569,6 +4673,15 @@
       "old": "What Happens When Al Agents Can Spend Your Money?",
       "new": "Why a $1M Startup Wasn't Worth Building in the Age of AI",
       "_note": "Oct 20 2026 (G(ai)ndolf): ep 590 is the Town / Jean-Denis Greze interview (YouTube o_5f4N6Nq80). The old title belongs to card 591 (ep 581); scoped to ep 590 only."
+    },
+    {
+      "podcast_episode_id": 656,
+      "insight_id": 667,
+      "podcast_name": "Latent Space: The AI Engineer Podcast",
+      "episode_date": "2026-11-07",
+      "old": "Deep Dive: Anthropic S-1 Myths and Mythos — Jamin Ball, Altimeter",
+      "new": "Why Would Anthropic Go Public Now? — Jamin Ball, Altimeter",
+      "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): official YouTube/Latent Space title; ingested RSS item carries the stale title. Scoped to ep 656."
     }
   ],
   "pundit_excludes": [
@@ -8856,6 +8969,48 @@
         "name": "Praveer Melwani",
         "slug": "praveer-melwani"
       }
+    },
+    {
+      "id": 651,
+      "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): affiliation typo (ASR 'Malisha'); official notes say Militia Capital.",
+      "replacements": [
+        [
+          "Malisha Capital",
+          "Militia Capital"
+        ]
+      ]
+    },
+    {
+      "id": 632,
+      "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): Laks Ganapathi, she/her.",
+      "set": {
+        "name": "Laks Ganapathi",
+        "slug": "laks-ganapathi"
+      },
+      "replacements": [
+        [
+          "Locks Ganapathi",
+          "Laks Ganapathi"
+        ],
+        [
+          "He is a short-biased investor",
+          "She is a short-biased investor"
+        ]
+      ]
+    },
+    {
+      "id": 628,
+      "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): 'Deep Dive' -> Jamin Ball (Altimeter).",
+      "set": {
+        "name": "Jamin Ball",
+        "slug": "jamin-ball"
+      },
+      "replacements": [
+        [
+          "Deep Dive said Anthropic showed",
+          "Jamin Ball said Anthropic showed"
+        ]
+      ]
     }
   ],
   "pundit_merges": [

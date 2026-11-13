@@ -70,11 +70,14 @@ def test_guest_list_rename_live_and_scoped():
 
 
 def test_guest_list_rename_mechanism():
-    """guest_list_renames stays empty for this guest (person row already minted), is not in
-    'fixes' (site-wide name swaps), and the helper still only renames the guest-list name field.
+    """guest_list_renames is scoped to the guest-list name field only (not body text or
+    name_normalizer, unlike 'fixes'). Tutor Intelligence stays unrenamed (person row already
+    minted). Nov 12 2026: 'Deep Dive' -> Jamin Ball is the live rename for guest 116896.
     """
     gov = json.loads((ROOT / "pipeline" / "guest_overrides.json").read_text(encoding="utf-8"))
-    assert gov.get("guest_list_renames") == {}
+    renames = gov.get("guest_list_renames") or {}
+    assert "Tutor Intelligence" not in renames
+    assert renames.get("Deep Dive") == "Jamin Ball"
     assert "Tutor Intelligence" not in (gov.get("fixes") or {})
     # Mechanism still scoped: episode title / other fields untouched; only exact name match.
     guests = [{"name": "Tutor Intelligence", "last_episode_title": "x | Tutor Intelligence"}]
