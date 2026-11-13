@@ -74,7 +74,7 @@
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-11-04",
     "mention_score": 5,
-    "mention_score_decayed": 4.25,
+    "mention_score_decayed": 4.15,
     "last_main_idea": "Casado\u2019s core claim is that frontier AI model value depends on a 3-6 month release cycle, while the real infrastructure bottleneck is hardware and power rather than capital.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-11-04 \u2022 Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
     "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
@@ -257,7 +257,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-22",
     "mention_score": 4,
-    "mention_score_decayed": 2.46,
+    "mention_score_decayed": 2.41,
     "last_main_idea": "AI and crypto-era frontier investing are converging into a broader opportunity set where faster startup formation, open models, and new internet economics could reshape multiple industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-22 \u2022 The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
     "last_proof_snippet": "Expanding the scope of our crypto fund, to invest in a broader set of frontier technologies and markets that may take years to develop.",
@@ -318,7 +318,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-18",
     "mention_score": 4,
-    "mention_score_decayed": 2.24,
+    "mention_score_decayed": 2.19,
     "last_main_idea": "Bianco\u2019s core claim is that long-duration Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-18 \u2022 Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
     "last_proof_snippet": "Let's call that three-ish percent inflation, and I think inflation is going to stay sticky in the three percent range, and we could go through that if you want, and two-ish percent real growth. So, that will give you between five and six.",
@@ -604,7 +604,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-02",
     "mention_score": 2,
-    "mention_score_decayed": 1.59,
+    "mention_score_decayed": 1.55,
     "last_main_idea": "Late-2025 liquidity rollover should favor long-duration Treasuries over credit and leave Bitcoin and gold highly sensitive to 2027 policy and refinancing stress.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-02 \u2022 Preparing For 2027 Inflection in Global Liquidity | Michael Howell\u2019s Bull Case For Bonds and Tepid View of Liquidity-Sensitive Assets",
     "last_proof_snippet": "The AI build-out is draining liquidity and Michael Hallis says the global liquidity cycle has turned. He's calling for a sharp slowdown in 2027 for Bitcoin to retest 70,000 for bonds to beat stocks and a bottom in liquidity by late 2027.",
@@ -821,7 +821,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-26",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Leash Bio's key claim is that fully measured molecular environments can benchmark and improve AI agents' scientific decision-making at scale, not just their final optimization results.",
     "supporting_takeaway": "Ian Quigley said the flagship task is a structure-activity relationship problem aimed at improving binding, with an example budget of 100 molecules.",
     "grokipedia_url": null,
@@ -1891,33 +1891,6 @@
     "pundit_profile": null
   },
   {
-    "id": 610,
-    "name": "Josh Gruenstein",
-    "slug": "josh-gruenstein",
-    "bio": "Co-founder and CEO of Tutor Intelligence. He argues for a full-stack robotics strategy built around real deployments, continuous iteration, and human-in-the-loop training data.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-02 19:43:10",
-    "last_episode_title": "The Robots Already Working in American Factories | Tutor Intelligence",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.79,
-    "last_main_idea": "Tutor\u2019s edge is a full-stack robotics flywheel that turns real deployments into data, models, and faster customer adoption, while using greenfield demand to justify a cost-per-task ROI model.",
-    "last_proof_cite": "The a16z Show \u2022 2026-11-02 \u2022 The Robots Already Working in American Factories | Tutor Intelligence",
-    "last_proof_snippet": "No matter what anybody says, today in 2026 we have a highly interconnected, interdependent global supply chain, both U. S.",
-    "supporting_takeaway": "Gruenstein says Tutor has deployed robots across the U.S. and used those deployments to train frontier robot AI models.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 90,
     "name": "David George",
     "slug": "david-george",
@@ -1981,6 +1954,33 @@
     "net_worth": "$13.0M"
   },
   {
+    "id": 610,
+    "name": "Josh Gruenstein",
+    "slug": "josh-gruenstein",
+    "bio": "Co-founder and CEO of Tutor Intelligence. He argues for a full-stack robotics strategy built around real deployments, continuous iteration, and human-in-the-loop training data.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-02 19:43:10",
+    "last_episode_title": "The Robots Already Working in American Factories | Tutor Intelligence",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.78,
+    "last_main_idea": "Tutor\u2019s edge is a full-stack robotics flywheel that turns real deployments into data, models, and faster customer adoption, while using greenfield demand to justify a cost-per-task ROI model.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-02 \u2022 The Robots Already Working in American Factories | Tutor Intelligence",
+    "last_proof_snippet": "No matter what anybody says, today in 2026 we have a highly interconnected, interdependent global supply chain, both U. S.",
+    "supporting_takeaway": "Gruenstein says Tutor has deployed robots across the U.S. and used those deployments to train frontier robot AI models.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 609,
     "name": "Dan Krausz",
     "slug": "dan-krausz",
@@ -2003,33 +2003,6 @@
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-01 \u2022 The Fed Has AI\u2019s Back | Dan Krausz on \u201cLiquidity Trap Door\u201d In AI Infrastructure and Why Policymakers Are Inclined to Support Financial Conditions",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it. I'm here with Dan Krauss of Blutore Asset Management. Dan, great to see you again.",
     "supporting_takeaway": "Dan Krausz says demand for AI capacity is still strong; the problem is financing capacity, not utilization demand.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 607,
-    "name": "Aman Singh",
-    "slug": "aman-singh",
-    "bio": "Leads the AI platform team at Arca, where he builds agent-based systems for long-horizon financial workflows in wealth management.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-31 19:05:11",
-    "last_episode_title": "Using Agents for Long-Horizon Financial Work \u2014 Aman Singh, Arca",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-10-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.76,
-    "last_main_idea": "Arca's core edge is an AI-native wealth workflow that automates analysis while keeping execution human-controlled, using strict verification to deliver better client outcomes at scale.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-31 \u2022 Using Agents for Long-Horizon Financial Work \u2014 Aman Singh, Arca",
-    "last_proof_snippet": "We're actually not a SaaS company. We are, um, we are the firm ourselves. Agents prompt people more than people prompt agents- Mm... and it is a proactive kind of, um, service that is running for them twenty-four seven.",
-    "supporting_takeaway": "Aman Singh says clients do not interface with AI directly; they experience human empathy supported by automation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -2092,6 +2065,33 @@
         }
       ]
     }
+  },
+  {
+    "id": 607,
+    "name": "Aman Singh",
+    "slug": "aman-singh",
+    "bio": "Leads the AI platform team at Arca, where he builds agent-based systems for long-horizon financial workflows in wealth management.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-31 19:05:11",
+    "last_episode_title": "Using Agents for Long-Horizon Financial Work \u2014 Aman Singh, Arca",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-31",
+    "mention_score": 1,
+    "mention_score_decayed": 0.74,
+    "last_main_idea": "Arca's core edge is an AI-native wealth workflow that automates analysis while keeping execution human-controlled, using strict verification to deliver better client outcomes at scale.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-31 \u2022 Using Agents for Long-Horizon Financial Work \u2014 Aman Singh, Arca",
+    "last_proof_snippet": "We're actually not a SaaS company. We are, um, we are the firm ourselves. Agents prompt people more than people prompt agents- Mm... and it is a proactive kind of, um, service that is running for them twenty-four seven.",
+    "supporting_takeaway": "Aman Singh says clients do not interface with AI directly; they experience human empathy supported by automation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 605,
@@ -2239,70 +2239,6 @@
     "net_worth": "$200.0M"
   },
   {
-    "id": 160,
-    "name": "Ben Lamm",
-    "slug": "ben-lamm",
-    "bio": "Ben Lamm is a serial entrepreneur and co-founder of Colossal Biosciences, a synthetic biology company focused on de-extinction and conservation technologies. In the transcript, he described prior work across gaming, defense, AI, and mobile before entering biology.",
-    "known_for": "Known for Colossal Biosciences, de-extinction programs, multiplex gene editing, and synthetic biology spinouts.",
-    "net_worth_usd": 3900000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Ben_Lamm",
-    "net_worth_updated_at": "2026-04-08T05:05:01.706503",
-    "voice_tone": "Optimistic, candid, humorous, and provocative.",
-    "voice_style": "He uses concrete technical milestones, founder anecdotes, and ethical caveats to make large biological claims sound operational.",
-    "voice_delivery_notes": "Use brisk pacing, emphasize numerical milestones, and keep the tone energetic but grounded when discussing ethical risks.",
-    "voice_profile_updated_at": "2026-09-30 19:13:12",
-    "last_seen": "2026-09-30 19:13:12",
-    "last_episode_title": "Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-30",
-    "mention_score": 2,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-30 \u2022 Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
-    "last_proof_snippet": "I was a little terrified backstage when Palmer's like, there's something on the screen that says, I'm not supposed to say this. It's like, for the love of God, whatever it is. Please don't make it about colossal. Please don't say it.",
-    "supporting_takeaway": "Ben Lamm claimed AI in biology over the next 3 to 5 years will be most useful for simulation design, literature reconciliation, and experiment selection, while wet labs will still be needed to validate Anthropic-style biological outputs.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Lamm",
-      "fetched_at": "2026-04-08T10:05:00.239257+00:00",
-      "cliff_notes": "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries. One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability.",
-      "derived": {
-        "current_role": "CEO of Colossal"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries.",
-        "One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability."
-      ],
-      "sections": [
-        {
-          "heading": "De-extinction",
-          "body": "Ben Lamm is leading the charge in the revival of extinct species through the use of advanced genetic engineering techniques."
-        },
-        {
-          "heading": "Genetic Engineering",
-          "body": "Lamm's company, Colossal, is at the forefront of genetic engineering, aiming to bring back extinct species and create new biological solutions."
-        },
-        {
-          "heading": "AI Integration",
-          "body": "Colossal utilizes AI to design and build living products, setting a new standard for biotech companies in leveraging artificial intelligence."
-        },
-        {
-          "heading": "Environmental Impact",
-          "body": "Ben Lamm's work extends to addressing environmental challenges, such as developing microbes capable of breaking down plastic pollutants."
-        }
-      ]
-    },
-    "net_worth": "$3.90B"
-  },
-  {
     "id": 603,
     "name": "Robert Caro",
     "slug": "robert-caro",
@@ -2411,6 +2347,70 @@
     "pundit_profile": null
   },
   {
+    "id": 160,
+    "name": "Ben Lamm",
+    "slug": "ben-lamm",
+    "bio": "Ben Lamm is a serial entrepreneur and co-founder of Colossal Biosciences, a synthetic biology company focused on de-extinction and conservation technologies. In the transcript, he described prior work across gaming, defense, AI, and mobile before entering biology.",
+    "known_for": "Known for Colossal Biosciences, de-extinction programs, multiplex gene editing, and synthetic biology spinouts.",
+    "net_worth_usd": 3900000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Ben_Lamm",
+    "net_worth_updated_at": "2026-04-08T05:05:01.706503",
+    "voice_tone": "Optimistic, candid, humorous, and provocative.",
+    "voice_style": "He uses concrete technical milestones, founder anecdotes, and ethical caveats to make large biological claims sound operational.",
+    "voice_delivery_notes": "Use brisk pacing, emphasize numerical milestones, and keep the tone energetic but grounded when discussing ethical risks.",
+    "voice_profile_updated_at": "2026-09-30 19:13:12",
+    "last_seen": "2026-09-30 19:13:12",
+    "last_episode_title": "Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-30",
+    "mention_score": 2,
+    "mention_score_decayed": 0.72,
+    "last_main_idea": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-30 \u2022 Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
+    "last_proof_snippet": "I was a little terrified backstage when Palmer's like, there's something on the screen that says, I'm not supposed to say this. It's like, for the love of God, whatever it is. Please don't make it about colossal. Please don't say it.",
+    "supporting_takeaway": "Ben Lamm claimed AI in biology over the next 3 to 5 years will be most useful for simulation design, literature reconciliation, and experiment selection, while wet labs will still be needed to validate Anthropic-style biological outputs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Lamm",
+      "fetched_at": "2026-04-08T10:05:00.239257+00:00",
+      "cliff_notes": "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries. One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability.",
+      "derived": {
+        "current_role": "CEO of Colossal"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries.",
+        "One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability."
+      ],
+      "sections": [
+        {
+          "heading": "De-extinction",
+          "body": "Ben Lamm is leading the charge in the revival of extinct species through the use of advanced genetic engineering techniques."
+        },
+        {
+          "heading": "Genetic Engineering",
+          "body": "Lamm's company, Colossal, is at the forefront of genetic engineering, aiming to bring back extinct species and create new biological solutions."
+        },
+        {
+          "heading": "AI Integration",
+          "body": "Colossal utilizes AI to design and build living products, setting a new standard for biotech companies in leveraging artificial intelligence."
+        },
+        {
+          "heading": "Environmental Impact",
+          "body": "Ben Lamm's work extends to addressing environmental challenges, such as developing microbes capable of breaking down plastic pollutants."
+        }
+      ]
+    },
+    "net_worth": "$3.90B"
+  },
+  {
     "id": 596,
     "name": "Erin Price-Wright",
     "slug": "aaron-price",
@@ -2428,7 +2428,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Defense spending is making new U.S. factories less risky to build, creating durable dual-use manufacturing winners in components, tooling, and process software.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-29 \u2022 The Startups Rebuilding American Industry | The AD50",
     "last_proof_snippet": "You don't have a defense industrial base without an industrial base. It's been a real wake-up call that we need to get building again. AI will be a phenomenal tool that can be used in the physical world.",
@@ -2455,7 +2455,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Defense spending is making new U.S. factories less risky to build, creating durable dual-use manufacturing winners in components, tooling, and process software.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-29 \u2022 The Startups Rebuilding American Industry | The AD50",
     "last_proof_snippet": "You don't have a defense industrial base without an industrial base. It's been a real wake-up call that we need to get building again. AI will be a phenomenal tool that can be used in the physical world.",
@@ -2482,7 +2482,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "The episode\u2019s main claim is that public authorities can create quasi-permanent financial and political power when bond covenants and refinancing rights are drafted to outlast elected officials.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-29 \u2022 What I learned about power from LBJ and Robert Moses",
     "last_proof_snippet": "So, I recently interviewed Robert Carroll.",
@@ -2615,7 +2615,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Favor Treasuries over equities for the next 6 months because sticky inflation and fading fiscal support make the U.S. market vulnerable to a stagflationary bear phase.",
     "supporting_takeaway": "Deluard says consumer stocks are showing extreme stress, citing Nike, Harley-Davidson, Renault, and McDonald\u2019s as down 50-60%+.",
     "grokipedia_url": null,
@@ -2781,33 +2781,6 @@
     "net_worth": "$377.0M"
   },
   {
-    "id": 572,
-    "name": "Erik Bernhardsson",
-    "slug": "erik-bernhardsson",
-    "bio": "CEO and co-founder of Modal. He previously worked at Spotify and Better.com and now leads a serverless AI infrastructure platform.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 19:00:30",
-    "last_episode_title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-10-22",
-    "mention_score": 1,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Modal\u2019s core claim is that elastic, pooled compute provisioning beats fixed GPU capacity contracts for bursty AI workloads, and its sandbox business is already becoming a major revenue driver.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-22 \u2022 Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
-    "last_proof_snippet": "Warm welcome to Basil Chatha, our newest cohost from the Forward Deployed side of the AI Engineering world!",
-    "supporting_takeaway": "Bernhardsson describes Modal\u2019s thesis as \"duration transformation\": aggregate many customers\u2019 demand and elastically allocate capacity underneath.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 183,
     "name": "Aaron Levie",
     "slug": "aaron-levy",
@@ -2866,6 +2839,33 @@
       ]
     },
     "net_worth": "$107.9M"
+  },
+  {
+    "id": 572,
+    "name": "Erik Bernhardsson",
+    "slug": "erik-bernhardsson",
+    "bio": "CEO and co-founder of Modal. He previously worked at Spotify and Better.com and now leads a serverless AI infrastructure platform.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-22 19:00:30",
+    "last_episode_title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-22",
+    "mention_score": 1,
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Modal\u2019s core claim is that elastic, pooled compute provisioning beats fixed GPU capacity contracts for bursty AI workloads, and its sandbox business is already becoming a major revenue driver.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-22 \u2022 Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
+    "last_proof_snippet": "Warm welcome to Basil Chatha, our newest cohost from the Forward Deployed side of the AI Engineering world!",
+    "supporting_takeaway": "Bernhardsson describes Modal\u2019s thesis as \"duration transformation\": aggregate many customers\u2019 demand and elastically allocate capacity underneath.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 564,
@@ -3246,67 +3246,6 @@
     "pundit_profile": null
   },
   {
-    "id": 230,
-    "name": "Jared Isaacman",
-    "slug": "jared-isaacman",
-    "bio": "Jared Isaacman is an entrepreneur and pilot recognized for his significant contributions to commercial spaceflight and technology. He is the founder of Shift4 Payments and served as the commander of the Inspiration4 mission, which marked a milestone in private space travel. His work emphasizes the intersection of technology and human exploration.",
-    "known_for": "Jared Isaacman is a key figure in commercial spaceflight, leading initiatives that push the boundaries of human exploration beyond Earth.",
-    "net_worth_usd": 1400000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Jared_Isaacman",
-    "net_worth_updated_at": "2026-05-06T12:35:56.048552",
-    "voice_tone": "Confident and assertive",
-    "voice_style": "Direct and informative",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key technological advancements.",
-    "voice_profile_updated_at": "2026-09-18 18:33:59",
-    "last_seen": "2026-09-18 18:33:59",
-    "last_episode_title": "Jared Isaacman: A New Era for NASA and American Space Exploration",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-18",
-    "mention_score": 2,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-18 \u2022 Jared Isaacman: A New Era for NASA and American Space Exploration",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "The planned use of nuclear power for deep space missions could create new markets for nuclear technology firms.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-18T13:34:19.175670",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Jared Isaacman",
-      "fetched_at": "2026-09-18T18:34:19.175446+00:00",
-      "cliff_notes": "Jared Isaacman began his career as an entrepreneur at a young age, founding Shift4 Payments, a payment processing company that has grown significantly in the tech industry. His passion for aviation and space led him to become a pilot and ultimately to command the Inspiration4 mission, the first all-civilian spaceflight to orbit Earth. This mission not only showcased the potential of private space travel but also aimed to raise funds for St. Jude Children's Research Hospital. Isaacman's vision extends beyond commercial interests; he advocates for advancements in technology and space exploration that can benefit humanity as a whole. His leadership in these areas positions him as a pivotal figure in the future of both technology and space policy.",
-      "derived": {
-        "current_role": "Founder and CEO of Shift4 Payments"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "",
-        "Occupation": "Entrepreneur, Pilot"
-      },
-      "lead_paragraphs": [
-        "Jared Isaacman began his career as an entrepreneur at a young age, founding Shift4 Payments, a payment processing company that has grown significantly in the tech industry. His passion for aviation and space led him to become a pilot and ultimately to command the Inspiration4 mission, the first all-civilian spaceflight to orbit Earth.",
-        "This mission not only showcased the potential of private space travel but also aimed to raise funds for St. Jude Children's Research Hospital. Isaacman's vision extends beyond commercial interests; he advocates for advancements in technology and space exploration that can benefit humanity as a whole. His leadership in these areas positions him as a pivotal figure in the future of both technology and space policy."
-      ],
-      "sections": [
-        {
-          "heading": "Commercial Spaceflight",
-          "body": "Isaacman's role in the Inspiration4 mission exemplifies the potential of private citizens participating in space exploration. This mission marked a significant step in making space travel accessible to non-professionals."
-        },
-        {
-          "heading": "Technological Innovation",
-          "body": "As the founder of Shift4 Payments, Isaacman has been at the forefront of payment processing technology, driving innovations that enhance transaction efficiency and security."
-        },
-        {
-          "heading": "Philanthropy",
-          "body": "Through the Inspiration4 mission, Isaacman has raised substantial funds for St. Jude Children's Research Hospital, highlighting the intersection of space exploration and charitable efforts."
-        }
-      ]
-    },
-    "net_worth": "$1.40B"
-  },
-  {
     "id": 548,
     "name": "Mario Martone",
     "slug": "mario-martone",
@@ -3359,6 +3298,67 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 230,
+    "name": "Jared Isaacman",
+    "slug": "jared-isaacman",
+    "bio": "Jared Isaacman is an entrepreneur and pilot recognized for his significant contributions to commercial spaceflight and technology. He is the founder of Shift4 Payments and served as the commander of the Inspiration4 mission, which marked a milestone in private space travel. His work emphasizes the intersection of technology and human exploration.",
+    "known_for": "Jared Isaacman is a key figure in commercial spaceflight, leading initiatives that push the boundaries of human exploration beyond Earth.",
+    "net_worth_usd": 1400000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Jared_Isaacman",
+    "net_worth_updated_at": "2026-05-06T12:35:56.048552",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and informative",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key technological advancements.",
+    "voice_profile_updated_at": "2026-09-18 18:33:59",
+    "last_seen": "2026-09-18 18:33:59",
+    "last_episode_title": "Jared Isaacman: A New Era for NASA and American Space Exploration",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-18",
+    "mention_score": 2,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-18 \u2022 Jared Isaacman: A New Era for NASA and American Space Exploration",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "The planned use of nuclear power for deep space missions could create new markets for nuclear technology firms.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-18T13:34:19.175670",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Jared Isaacman",
+      "fetched_at": "2026-09-18T18:34:19.175446+00:00",
+      "cliff_notes": "Jared Isaacman began his career as an entrepreneur at a young age, founding Shift4 Payments, a payment processing company that has grown significantly in the tech industry. His passion for aviation and space led him to become a pilot and ultimately to command the Inspiration4 mission, the first all-civilian spaceflight to orbit Earth. This mission not only showcased the potential of private space travel but also aimed to raise funds for St. Jude Children's Research Hospital. Isaacman's vision extends beyond commercial interests; he advocates for advancements in technology and space exploration that can benefit humanity as a whole. His leadership in these areas positions him as a pivotal figure in the future of both technology and space policy.",
+      "derived": {
+        "current_role": "Founder and CEO of Shift4 Payments"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "",
+        "Occupation": "Entrepreneur, Pilot"
+      },
+      "lead_paragraphs": [
+        "Jared Isaacman began his career as an entrepreneur at a young age, founding Shift4 Payments, a payment processing company that has grown significantly in the tech industry. His passion for aviation and space led him to become a pilot and ultimately to command the Inspiration4 mission, the first all-civilian spaceflight to orbit Earth.",
+        "This mission not only showcased the potential of private space travel but also aimed to raise funds for St. Jude Children's Research Hospital. Isaacman's vision extends beyond commercial interests; he advocates for advancements in technology and space exploration that can benefit humanity as a whole. His leadership in these areas positions him as a pivotal figure in the future of both technology and space policy."
+      ],
+      "sections": [
+        {
+          "heading": "Commercial Spaceflight",
+          "body": "Isaacman's role in the Inspiration4 mission exemplifies the potential of private citizens participating in space exploration. This mission marked a significant step in making space travel accessible to non-professionals."
+        },
+        {
+          "heading": "Technological Innovation",
+          "body": "As the founder of Shift4 Payments, Isaacman has been at the forefront of payment processing technology, driving innovations that enhance transaction efficiency and security."
+        },
+        {
+          "heading": "Philanthropy",
+          "body": "Through the Inspiration4 mission, Isaacman has raised substantial funds for St. Jude Children's Research Hospital, highlighting the intersection of space exploration and charitable efforts."
+        }
+      ]
+    },
+    "net_worth": "$1.40B"
   },
   {
     "id": 544,
@@ -3432,7 +3432,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Aalo Atomics\u2019 investable claim is that factory-built nuclear reactors can reach coal/gas-competitive economics within a few production ramps while avoiding near-term HALEU dependence.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-15 \u2022 MacroVoices #554 Yasir Arafat: Mass Manufacturing Nuclear Power Plants",
     "last_proof_snippet": "There's not a matter of whether or not we want to transition to nuclear, it's a matter of when. Because if you compare those same numbers with oil and gas, oil and gas will only last us 50 more years worldwide to run civilization.",
@@ -3513,7 +3513,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-14 \u2022 The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO",
     "last_proof_snippet": "If we're all short of compute, then sure, I'm going to pay for a five-year-old GPU that is less energy efficient.",
@@ -3575,71 +3575,6 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
-    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "Confident and assertive",
-    "voice_style": "Direct and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on key points",
-    "voice_profile_updated_at": "2026-08-14 18:36:52",
-    "last_seen": "2026-08-14 18:36:52",
-    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-14",
-    "mention_score": 4,
-    "mention_score_decayed": 0.5,
-    "last_main_idea": "Industrial AI has the potential to revolutionize major industries, akin to the second industrial revolution.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
-    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber?",
-    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
-      "derived": {
-        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
-        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
-      },
-      "infobox": {
-        "Born": "1976",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
-        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Uber Co-Founder",
-          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
-        },
-        {
-          "heading": "CloudKitchens Founder",
-          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
-        },
-        {
-          "heading": "Controversies",
-          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
-        },
-        {
-          "heading": "Innovation and Disruption",
-          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
   },
   {
     "id": 530,
@@ -3723,33 +3658,6 @@
     "pundit_profile": null
   },
   {
-    "id": 528,
-    "name": "Martin Shkreli",
-    "slug": "martin-shkreli",
-    "bio": "Drug-industry entrepreneur and financier known for controversial pricing history. In this episode he argues against broad quantum-computing hype and for a future in photonic/analog optical computing.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-12 18:50:49",
-    "last_episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.49,
-    "last_main_idea": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-12 \u2022 Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "He claims modern quantum systems run at only hundreds or thousands of Hertz, far below classical chip clock rates, which limits general-purpose usefulness.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 436,
     "name": "Justin Johnson",
     "slug": "justin-johnson",
@@ -3804,6 +3712,98 @@
         }
       ]
     }
+  },
+  {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
+    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
+    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-08-14 18:36:52",
+    "last_seen": "2026-08-14 18:36:52",
+    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-14",
+    "mention_score": 4,
+    "mention_score_decayed": 0.49,
+    "last_main_idea": "Industrial AI has the potential to revolutionize major industries, akin to the second industrial revolution.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
+    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber?",
+    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kalanick",
+      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
+      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
+      "derived": {
+        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
+        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
+      },
+      "infobox": {
+        "Born": "1976",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
+        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Uber Co-Founder",
+          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
+        },
+        {
+          "heading": "CloudKitchens Founder",
+          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
+        },
+        {
+          "heading": "Controversies",
+          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
+        },
+        {
+          "heading": "Innovation and Disruption",
+          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
+  },
+  {
+    "id": 528,
+    "name": "Martin Shkreli",
+    "slug": "martin-shkreli",
+    "bio": "Drug-industry entrepreneur and financier known for controversial pricing history. In this episode he argues against broad quantum-computing hype and for a future in photonic/analog optical computing.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-12 18:50:49",
+    "last_episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.48,
+    "last_main_idea": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-12 \u2022 Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "He claims modern quantum systems run at only hundreds or thousands of Hertz, far below classical chip clock rates, which limits general-purpose usefulness.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 525,
@@ -4045,7 +4045,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The episode\u2019s core claim is that structural global dollar demand can keep the US dollar and US rates elevated even under stress, while policy tools and gold revaluation remain underappreciated.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-08 \u2022 MacroVoices #553 Brent Johnson: Disparate Housewives",
     "last_proof_snippet": "I've been doing this for 26 years now, and for 25 of the 26 years, I've been hearing that the Fed is out of bullets. And my point to people is that they have a lot more bullets than you can possibly imagine.",
@@ -4072,7 +4072,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-08 \u2022 Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
     "last_proof_snippet": "Right now, however, their order of visibility is very, very strong. And again, it seems to be strengthening regardless of who you're talking to in which part of the industry that they're in.",
@@ -4543,7 +4543,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Barrett Lyon argues DoxxNet differs from VPNs by owning hardware across 26 sites and enabling encrypted peer-to-peer communication without central servers, reducing leased-server and insider-threat exposure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-01 \u2022 Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
     "last_proof_snippet": "We're really at an inflection point because you have the birth of essentially coin-operated intelligence at scale. The internet is really kind of stagnated bit for the protocol design.",
@@ -4570,7 +4570,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "David Rosenberg argues November 3 midterm gridlock could slow growth, inflation, and bond yields because shifts from one-party control to divided government produced that outcome 80% of the time.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-01 \u2022 MacroVoices #552 David Rosenberg: Navigating The Noise",
     "last_proof_snippet": "",
@@ -4732,7 +4732,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-30 \u2022 Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
     "last_proof_snippet": "",
@@ -4994,7 +4994,7 @@
     "last_podcast_name": "Other People's Money with Max Wiethe",
     "last_episode_date": "2026-09-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "James Elbaor argues private credit growth is over and BDC/private credit consolidation should accelerate next fiscal year as redemptions exceed 5% gates and public vehicles trade at large NAV discounts.",
     "last_proof_cite": "Other People's Money with Max Wiethe \u2022 2026-09-27 \u2022 The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
     "last_proof_snippet": "Let's take a quick step back and say one thing that I think is abundantly clear. The private credit boom is over. We all saw in Forbes recently around the blue owl founders, other founders of private credit firms becoming billionaires.",
@@ -5680,7 +5680,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Rising Treasury yields compress equity risk premiums, necessitating a reassessment of equity valuations.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-19 \u2022 Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
     "last_proof_snippet": "",
@@ -6443,7 +6443,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "",
@@ -8239,7 +8239,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-18 \u2022 Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "last_proof_snippet": "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market.",
@@ -11254,76 +11254,6 @@
     }
   },
   {
-    "id": 328,
-    "name": "Adam Brown",
-    "slug": "adam-brown",
-    "bio": "Adam Brown is a physicist known for his work in various scientific fields, including cosmology, string theory, and general relativity. He has taught at Stanford University and is currently involved with Google DeepMind, focusing on cracking science and reasoning.",
-    "known_for": "His expertise in theoretical physics and his role in advancing scientific understanding at Google DeepMind.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Educative and enthusiastic",
-    "voice_style": "Explanatory, breaking down complex concepts into understandable ideas",
-    "voice_delivery_notes": "Paced with emphasis on key concepts and historical context",
-    "voice_profile_updated_at": "2026-07-10 18:35:37",
-    "last_seen": "2026-07-10 18:35:37",
-    "last_episode_title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-07-10",
-    "mention_score": 1,
-    "mention_score_decayed": 0.06,
-    "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Einstein's theory of general relativity was developed over a decade and describes the motion of celestial bodies and the universe's origin and fate.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-10T13:36:07.464062",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Adam Brown",
-      "fetched_at": "2026-07-10T18:36:07.463894+00:00",
-      "cliff_notes": "Adam Brown is a physicist with a distinguished career in academia and research. He has taught at Stanford University and conducted research in a variety of scientific fields, including cosmology, string theory, and general relativity. Brown's work has contributed to the understanding of complex scientific theories and their implications. Currently, he is associated with Google DeepMind, where he continues to push the boundaries of scientific reasoning and discovery. His expertise in theoretical physics and his contributions to advancing scientific knowledge make him a notable figure in the tech and scientific communities.",
-      "derived": {
-        "current_role": "Researcher at Google DeepMind",
-        "former_positions": "Physicist at Stanford University",
-        "education": "Physicist",
-        "teaching_summary": "Stanford University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Adam Brown is a physicist with a distinguished career in academia and research. He has taught at Stanford University and conducted research in a variety of scientific fields, including cosmology, string theory, and general relativity. Brown's work has contributed to the understanding of complex scientific theories and their implications.",
-        "Currently, he is associated with Google DeepMind, where he continues to push the boundaries of scientific reasoning and discovery. His expertise in theoretical physics and his contributions to advancing scientific knowledge make him a notable figure in the tech and scientific communities."
-      ],
-      "sections": [
-        {
-          "heading": "Cosmology",
-          "body": "Adam Brown has conducted extensive research in cosmology, contributing to our understanding of the universe's origins and structure."
-        },
-        {
-          "heading": "String Theory",
-          "body": "Brown's work in string theory has helped to explore the fundamental building blocks of the universe and their interactions."
-        },
-        {
-          "heading": "General Relativity",
-          "body": "His research in general relativity, Einstein's theory of gravity, has been influential in describing the motion of celestial bodies and understanding space-time."
-        },
-        {
-          "heading": "Education",
-          "body": "Brown has taught at Stanford University, sharing his knowledge and passion for physics with the next generation of scientists."
-        },
-        {
-          "heading": "Google DeepMind",
-          "body": "At Google DeepMind, Brown is involved in cracking science and reasoning, likely focusing on advanced data analysis and scientific computation."
-        }
-      ]
-    }
-  },
-  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -11382,6 +11312,76 @@
       ]
     },
     "net_worth": "$50.0M"
+  },
+  {
+    "id": 328,
+    "name": "Adam Brown",
+    "slug": "adam-brown",
+    "bio": "Adam Brown is a physicist known for his work in various scientific fields, including cosmology, string theory, and general relativity. He has taught at Stanford University and is currently involved with Google DeepMind, focusing on cracking science and reasoning.",
+    "known_for": "His expertise in theoretical physics and his role in advancing scientific understanding at Google DeepMind.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Educative and enthusiastic",
+    "voice_style": "Explanatory, breaking down complex concepts into understandable ideas",
+    "voice_delivery_notes": "Paced with emphasis on key concepts and historical context",
+    "voice_profile_updated_at": "2026-07-10 18:35:37",
+    "last_seen": "2026-07-10 18:35:37",
+    "last_episode_title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-07-10",
+    "mention_score": 1,
+    "mention_score_decayed": 0.05,
+    "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Einstein's theory of general relativity was developed over a decade and describes the motion of celestial bodies and the universe's origin and fate.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-10T13:36:07.464062",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Brown",
+      "fetched_at": "2026-07-10T18:36:07.463894+00:00",
+      "cliff_notes": "Adam Brown is a physicist with a distinguished career in academia and research. He has taught at Stanford University and conducted research in a variety of scientific fields, including cosmology, string theory, and general relativity. Brown's work has contributed to the understanding of complex scientific theories and their implications. Currently, he is associated with Google DeepMind, where he continues to push the boundaries of scientific reasoning and discovery. His expertise in theoretical physics and his contributions to advancing scientific knowledge make him a notable figure in the tech and scientific communities.",
+      "derived": {
+        "current_role": "Researcher at Google DeepMind",
+        "former_positions": "Physicist at Stanford University",
+        "education": "Physicist",
+        "teaching_summary": "Stanford University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Adam Brown is a physicist with a distinguished career in academia and research. He has taught at Stanford University and conducted research in a variety of scientific fields, including cosmology, string theory, and general relativity. Brown's work has contributed to the understanding of complex scientific theories and their implications.",
+        "Currently, he is associated with Google DeepMind, where he continues to push the boundaries of scientific reasoning and discovery. His expertise in theoretical physics and his contributions to advancing scientific knowledge make him a notable figure in the tech and scientific communities."
+      ],
+      "sections": [
+        {
+          "heading": "Cosmology",
+          "body": "Adam Brown has conducted extensive research in cosmology, contributing to our understanding of the universe's origins and structure."
+        },
+        {
+          "heading": "String Theory",
+          "body": "Brown's work in string theory has helped to explore the fundamental building blocks of the universe and their interactions."
+        },
+        {
+          "heading": "General Relativity",
+          "body": "His research in general relativity, Einstein's theory of gravity, has been influential in describing the motion of celestial bodies and understanding space-time."
+        },
+        {
+          "heading": "Education",
+          "body": "Brown has taught at Stanford University, sharing his knowledge and passion for physics with the next generation of scientists."
+        },
+        {
+          "heading": "Google DeepMind",
+          "body": "At Google DeepMind, Brown is involved in cracking science and reasoning, likely focusing on advanced data analysis and scientific computation."
+        }
+      ]
+    }
   },
   {
     "id": 326,
@@ -11836,7 +11836,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously.",
@@ -11895,7 +11895,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously.",
@@ -13789,66 +13789,6 @@
     "pundit_profile": null
   },
   {
-    "id": 276,
-    "name": "Will Bryk",
-    "slug": "will-brick",
-    "bio": "Will Bryk is the CEO of Exah, a company focused on revolutionizing search through AI agents. He is known for leading the development of a search engine designed for AI agents and businesses, aiming to provide comprehensive and accurate information.",
-    "known_for": "Developing a search engine tailored for AI agents and businesses, aiming to provide more comprehensive and accurate search results.",
-    "net_worth_usd": 600000000000.0,
-    "net_worth_source": "https://eu.36kr.com/en/p/3632035908748551",
-    "net_worth_updated_at": "2026-06-06T13:34:55.125676",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-06 18:33:29",
-    "last_episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Evaluate company culture and employee engagement as indicators of potential for innovation and growth.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
-    "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right?",
-    "supporting_takeaway": "Evaluate company culture and employee engagement as indicators of potential for innovation and growth.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-06T13:34:54.181615",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Will Bryk",
-      "fetched_at": "2026-06-06T18:34:54.181176+00:00",
-      "cliff_notes": "Will Bryk is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination. This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized.",
-      "derived": {
-        "current_role": "CEO of Exah"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Will Bryk is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination.",
-        "This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized."
-      ],
-      "sections": [
-        {
-          "heading": "AI-Centric Search",
-          "body": "Will Bryk is pioneering a new approach to search that is specifically designed for AI agents, aiming to provide a more comprehensive set of results compared to traditional search engines."
-        },
-        {
-          "heading": "Information Accuracy",
-          "body": "Brick's work emphasizes the importance of accurate information, suggesting that with accurate data, most people would be reasonable, highlighting the impact of misinformation in today's digital landscape."
-        },
-        {
-          "heading": "Exah's Vision",
-          "body": "Exah, under Brick's leadership, envisions a search engine that can deliver thousands or even tens of thousands of results, catering to the needs of AI agents that require exhaustive information for complex tasks."
-        }
-      ]
-    },
-    "net_worth": "$600.00B"
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -13974,6 +13914,66 @@
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 276,
+    "name": "Will Bryk",
+    "slug": "will-brick",
+    "bio": "Will Bryk is the CEO of Exah, a company focused on revolutionizing search through AI agents. He is known for leading the development of a search engine designed for AI agents and businesses, aiming to provide comprehensive and accurate information.",
+    "known_for": "Developing a search engine tailored for AI agents and businesses, aiming to provide more comprehensive and accurate search results.",
+    "net_worth_usd": 600000000000.0,
+    "net_worth_source": "https://eu.36kr.com/en/p/3632035908748551",
+    "net_worth_updated_at": "2026-06-06T13:34:55.125676",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-06 18:33:29",
+    "last_episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-06",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Evaluate company culture and employee engagement as indicators of potential for innovation and growth.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
+    "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right?",
+    "supporting_takeaway": "Evaluate company culture and employee engagement as indicators of potential for innovation and growth.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-06T13:34:54.181615",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Will Bryk",
+      "fetched_at": "2026-06-06T18:34:54.181176+00:00",
+      "cliff_notes": "Will Bryk is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination. This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized.",
+      "derived": {
+        "current_role": "CEO of Exah"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Will Bryk is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination.",
+        "This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized."
+      ],
+      "sections": [
+        {
+          "heading": "AI-Centric Search",
+          "body": "Will Bryk is pioneering a new approach to search that is specifically designed for AI agents, aiming to provide a more comprehensive set of results compared to traditional search engines."
+        },
+        {
+          "heading": "Information Accuracy",
+          "body": "Brick's work emphasizes the importance of accurate information, suggesting that with accurate data, most people would be reasonable, highlighting the impact of misinformation in today's digital landscape."
+        },
+        {
+          "heading": "Exah's Vision",
+          "body": "Exah, under Brick's leadership, envisions a search engine that can deliver thousands or even tens of thousands of results, catering to the needs of AI agents that require exhaustive information for complex tasks."
+        }
+      ]
+    },
+    "net_worth": "$600.00B"
   },
   {
     "id": 275,
@@ -14982,67 +14982,6 @@
     "net_worth": "$10.0M"
   },
   {
-    "id": 250,
-    "name": "Andrew Perry",
-    "slug": "andrew-perry",
-    "bio": "Andrew Perry is a seasoned market analyst with a specialization in liquidity and technical analysis. He is recognized for his five-pillar framework that guides market navigation under various conditions. Perry has an extensive background in macro investing, having worked with top hedge funds and major banks.",
-    "known_for": "His five-pillar framework for navigating market conditions.",
-    "net_worth_usd": 120000000.0,
-    "net_worth_source": "https://insidethemagic.net/2024/07/friends-fans-are-shocked-to-learn-how-little-actor-matthew-perry-had-when-he-died-bb1/",
-    "net_worth_updated_at": "2026-05-15T13:53:37.363665",
-    "voice_tone": "Confident and experienced.",
-    "voice_style": "Perry uses a structured approach, emphasizing data and technical indicators.",
-    "voice_delivery_notes": "Perry speaks with a steady pace, emphasizing key points with clarity.",
-    "voice_profile_updated_at": "2026-05-15 18:53:20",
-    "last_seen": "2026-05-15 18:53:20",
-    "last_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Establish long positions in US stocks while shorting Australian and European stocks based on economic indicators.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-15T13:53:36.292311",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew Perry",
-      "fetched_at": "2026-05-15T18:53:36.291867+00:00",
-      "cliff_notes": "Andrew Perry has carved a niche for himself as a veteran macro investor, with a career that spans across top macro hedge funds and major banks. His expertise lies in market analysis, particularly focusing on liquidity and technical analysis. Perry's five-pillar framework has become a cornerstone for investors looking to understand and navigate the complexities of market conditions. His insights are sought after for their ability to provide a comprehensive view of market dynamics, making him a respected figure in the financial industry.",
-      "derived": {
-        "current_role": "Veteran Macro Investor",
-        "former_positions": "Top macro hedge funds; major banks"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andrew Perry has carved a niche for himself as a veteran macro investor, with a career that spans across top macro hedge funds and major banks. His expertise lies in market analysis, particularly focusing on liquidity and technical analysis. Perry's five-pillar framework has become a cornerstone for investors looking to understand and navigate the complexities of market conditions.",
-        "His insights are sought after for their ability to provide a comprehensive view of market dynamics, making him a respected figure in the financial industry."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Andrew Perry is known for his deep understanding of market analysis, with a particular emphasis on liquidity and technical analysis."
-        },
-        {
-          "heading": "Five-Pillar Framework",
-          "body": "Perry's five-pillar framework is a comprehensive tool that helps investors navigate market conditions, focusing on the rate of change basis and other critical factors."
-        },
-        {
-          "heading": "Macro Investing",
-          "body": "Throughout his career, Perry has been involved in macro investing, working with top hedge funds and gaining a reputation for his insightful analysis."
-        }
-      ]
-    },
-    "net_worth": "$120.0M"
-  },
-  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -15108,6 +15047,67 @@
       ]
     },
     "net_worth": "$25.0M"
+  },
+  {
+    "id": 250,
+    "name": "Andrew Perry",
+    "slug": "andrew-perry",
+    "bio": "Andrew Perry is a seasoned market analyst with a specialization in liquidity and technical analysis. He is recognized for his five-pillar framework that guides market navigation under various conditions. Perry has an extensive background in macro investing, having worked with top hedge funds and major banks.",
+    "known_for": "His five-pillar framework for navigating market conditions.",
+    "net_worth_usd": 120000000.0,
+    "net_worth_source": "https://insidethemagic.net/2024/07/friends-fans-are-shocked-to-learn-how-little-actor-matthew-perry-had-when-he-died-bb1/",
+    "net_worth_updated_at": "2026-05-15T13:53:37.363665",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Perry uses a structured approach, emphasizing data and technical indicators.",
+    "voice_delivery_notes": "Perry speaks with a steady pace, emphasizing key points with clarity.",
+    "voice_profile_updated_at": "2026-05-15 18:53:20",
+    "last_seen": "2026-05-15 18:53:20",
+    "last_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Establish long positions in US stocks while shorting Australian and European stocks based on economic indicators.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-15T13:53:36.292311",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew Perry",
+      "fetched_at": "2026-05-15T18:53:36.291867+00:00",
+      "cliff_notes": "Andrew Perry has carved a niche for himself as a veteran macro investor, with a career that spans across top macro hedge funds and major banks. His expertise lies in market analysis, particularly focusing on liquidity and technical analysis. Perry's five-pillar framework has become a cornerstone for investors looking to understand and navigate the complexities of market conditions. His insights are sought after for their ability to provide a comprehensive view of market dynamics, making him a respected figure in the financial industry.",
+      "derived": {
+        "current_role": "Veteran Macro Investor",
+        "former_positions": "Top macro hedge funds; major banks"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andrew Perry has carved a niche for himself as a veteran macro investor, with a career that spans across top macro hedge funds and major banks. His expertise lies in market analysis, particularly focusing on liquidity and technical analysis. Perry's five-pillar framework has become a cornerstone for investors looking to understand and navigate the complexities of market conditions.",
+        "His insights are sought after for their ability to provide a comprehensive view of market dynamics, making him a respected figure in the financial industry."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Andrew Perry is known for his deep understanding of market analysis, with a particular emphasis on liquidity and technical analysis."
+        },
+        {
+          "heading": "Five-Pillar Framework",
+          "body": "Perry's five-pillar framework is a comprehensive tool that helps investors navigate market conditions, focusing on the rate of change basis and other critical factors."
+        },
+        {
+          "heading": "Macro Investing",
+          "body": "Throughout his career, Perry has been involved in macro investing, working with top hedge funds and gaining a reputation for his insightful analysis."
+        }
+      ]
+    },
+    "net_worth": "$120.0M"
   },
   {
     "id": 249,
@@ -15689,7 +15689,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-22",
     "mention_score": 2,
-    "mention_score_decayed": 1.24,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "France is a possible sovereign-style stress case: a ~44%-of-GDP tax burden, deficits near 5% of GDP and foreign-held debt could cascade into European banks and insurers.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
     "last_proof_snippet": "France total tax receipts account for roughly 44% of GDP.",
@@ -18453,7 +18453,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-10-22",
     "mention_score": 3,
-    "mention_score_decayed": 1.86,
+    "mention_score_decayed": 1.8,
     "last_main_idea": "The \u201cthree seas\u201d energy shock is mainly a refinery-products crisis: crude moves, but only 25% to 35% of pre-crisis product flows are moving, keeping crack spreads elevated.",
     "last_proof_cite": "Macro Voices \u2022 2026-10-22 \u2022 MacroVoices #554 Dr. Anas Alhajji + Louis-Vincent Gave: Developing Crises in Middle-East and France",
     "last_proof_snippet": "When we talk about the three seas crisis, we are talking about the Gulf War talk about the Red Sea and we are also talking about the Black Sea. This has changed energy markets forever.",
@@ -19040,7 +19040,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.01,
+    "mention_score_decayed": 0.0,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -19099,7 +19099,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.01,
+    "mention_score_decayed": 0.0,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",

@@ -37,6 +37,37 @@
       ]
     },
     {
+      "id": 689,
+      "title": "The avalanche that hit math is coming for AI development",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-11-13",
+      "summary": "The episode argues that automated AI research is arriving much sooner than most people expect, with the host saying the median year for AI systems to match the best human AI researchers is 2028, with a plausible faster case as early as 2027 and a 25% chance it slips past 2032. The core thesis is that once models can do top-tier AI research, progress compounds rapidly because they can run many more experiments, work faster, and scale ideas across far more parallel agents.\n\nA major pillar of the argument is that AI progress is already becoming measurable on verifiable tasks. The host cites an independent evaluation organization, Meter, which spent three months embedded at Anthropic and concluded Anthropic\u2019s rate of progress on well-scoped tasks is 2x what it was a year earlier. He also says Anthropic reported Claude now does 26% of its AI R&D work, up from under 1% in February, and that OpenAI said its heaviest researchers were using about $1,000 a day of internal coding agents.\n\nThe episode leans heavily on the rapid improvement in mathematical capability as evidence that the path to automated research is real. The host says that in 2023 models could not reliably add four-digit numbers, in 2024 they could barely solve high-school competition problems, in 2025 they could win an IMO gold medal, and more recently they solved niche open problems and even a Millennium Prize problem in 88 hours. He uses these jumps to argue that well-scoped domains can progress much faster than skeptics assume.\n\nA second key pillar is that much of AI research is itself verifiable through proxies like pre-training loss, RL environment scores, sample efficiency, and inference efficiency. The host argues that if automated systems can optimize these proxies, they can effectively automate large parts of AI research even if they are not yet great at open-ended scientific discovery. He also discusses a \u201cSpark\u201d scenario, where AI compresses 3\u20136 years of progress into one year, versus a software-only singularity where rapid improvement happens even without much additional compute growth.\n\nThe main risks discussed are continual learning, difficulty finding the right verifiable proxies for new paradigms, and compute/experiment bottlenecks. Still, the host\u2019s overall view is that these are constraints rather than blockers, and that automated research could soon make AI progress far more self-accelerating than it is today.",
+      "key_takeaway": "If AI research becomes self-automating by 2028, research throughput could compound dramatically, favoring companies built around AI development infrastructure, evaluation, and automation.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 678,
+      "notable_quotes": [
+        {
+          "speaker": "Dwarkesh Patel",
+          "quote": "And I've come to the view that we're only a couple years away, and possibly only a couple months away, from AIs that are as good as the best humans at AI research."
+        },
+        {
+          "speaker": "Dwarkesh Patel",
+          "quote": "For example, Meter, which is an independent evaluation organization, spent three months embedded of Anthropic, and afterwards concluded that Anthropic's rate of AI progress on well -scoped tasks is 2x what it was a year ago."
+        },
+        {
+          "speaker": "Dwarkesh Patel",
+          "quote": "If I had to pick my median year for when automated researchers will be as good as the very best human AI researchers at doing AI research, I'd guess 2028."
+        }
+      ]
+    },
+    {
       "id": 685,
       "title": "The Next Era of Games: Mods, Agents, and Infinite Worlds",
       "source_type": "podcast",
@@ -452,7 +483,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-09",
       "archived_date": null,
@@ -15918,6 +15949,24 @@
       "last_mentioned_speaker": "Mihail Eric"
     },
     {
+      "id": 339,
+      "term": "Compute multipliers",
+      "description": "Improvements from algorithmic, model, data, and architecture changes that reduce the cost of completing the same AI task over time.",
+      "first_detected_date": "2026-10-30",
+      "last_mentioned_date": "2026-11-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "They suggest margin expansion and faster adoption can coexist, supporting high-growth AI equities.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 632,
+      "first_detected_speaker": "David Friedberg, David Friedberg",
+      "last_mentioned_episode_id": 678,
+      "last_mentioned_speaker": "Ajay Khotra, Toby Ort, Sholto Douglas"
+    },
+    {
       "id": 317,
       "term": "Sub-agents",
       "description": "Specialized agent components that each own a particular part of code or workflow, rather than relying on one universal agent. Levie frames this as a practical answer to the context problem.",
@@ -16480,8 +16529,8 @@
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-11-13",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -16490,8 +16539,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 673,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 678,
+      "last_mentioned_speaker": "Ajay Khotra, Toby Ort, Sholto Douglas"
     },
     {
       "id": 310,
@@ -16822,8 +16871,8 @@
       "term": "Taste",
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-11-12",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-11-13",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -16832,8 +16881,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 674,
-      "last_mentioned_speaker": "Anish Acharya, Jonathan Lai"
+      "last_mentioned_episode_id": 678,
+      "last_mentioned_speaker": "Ajay Khotra, Toby Ort, Sholto Douglas"
     },
     {
       "id": 267,
@@ -17614,8 +17663,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 91,
+      "last_mentioned_date": "2026-11-13",
+      "mention_count": 92,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -17624,8 +17673,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 673,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 678,
+      "last_mentioned_speaker": "Ajay Khotra, Toby Ort, Sholto Douglas"
     },
     {
       "id": 97,
@@ -18422,20 +18471,20 @@
     {
       "id": 49,
       "term": "Recursive Self-Improvement (RSI)",
-      "description": "A feedback loop where AI systems improve AI systems, potentially reducing dependence on ever-larger external training runs and new data-center capacity.",
+      "description": "A feedback loop where AI systems improve the process of making AI systems, causing progress to accelerate on itself. In the episode, RSI is the central mechanism behind the expected jump in AI capability.",
       "first_detected_date": "2026-03-20",
-      "last_mentioned_date": "2026-11-07",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-11-13",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "If RSI is real and durable, AI progress could remain strong even when infrastructure expansion slows, changing where value accrues in the stack.",
+      "investment_implications": "If RSI emerges, AI infrastructure, agent tooling, and evaluation layers could see outsized demand as research throughput rises.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 658,
-      "last_mentioned_speaker": "Isaacman"
+      "last_mentioned_episode_id": 678,
+      "last_mentioned_speaker": "Ajay Khotra, Toby Ort, Sholto Douglas"
     },
     {
       "id": 51,
