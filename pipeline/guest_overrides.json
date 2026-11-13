@@ -150,5 +150,7 @@
   "insight_guest_org_by_id": {
     "604": "SF Compute"
   },
-  "guest_list_renames": {}
+  "guest_list_renames": {
+    "Deep Dive": "Jamin Ball"
+  }
 }
