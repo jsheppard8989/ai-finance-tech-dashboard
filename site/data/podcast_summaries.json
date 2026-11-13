@@ -1,5 +1,23 @@
 [
   {
+    "id": 677,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
+    "episode_date": "2026-11-13",
+    "summary": "Ami Luttwak argues that cybersecurity has entered a new phase he calls \u201cBlack October,\u201d where AI has compressed attacker timelines from weeks or months to roughly 20 minutes for some compromise paths. He says offensive models and even open-source models are rapidly improving, and that this is already translating into real-world exploitation at unprecedented speed.\n\nHis core point is that defenders are losing because patching and software distribution remain slow. Even when a vulnerability is fixed quickly, he says it can still take weeks or months for Linux distributions or other ecosystems to propagate the patch broadly, so exploit windows remain open long after detection. He repeatedly contrasts the speed of attacks with the much slower speed of remediation.\n\nLuttwak also argues that most security work is misallocated. He says scanning code is not the most efficient use of budget, and that the right response is continuous external exposure testing against unauthenticated attack surfaces, plus automated investigation and response pipelines using blue and red agents. He describes Wiz\u2019s internal \u201cAtlas\u201d harness as a way to continuously test vulnerability detection across multiple models.\n\nOn the operational side, he draws a sharp line between legacy enterprises and new startups. Legacy systems, in his view, are unlikely to achieve true automatic patching, while startups that are built from scratch with automated build, test, and deploy pipelines may be able to do so. His longer-term prediction is that only companies redesigned for internet-exposed resilience, isolation, and rapid response will survive the next few years.",
+    "key_takeaways": [
+      "Ami Luttwak says AI attackers now move from initial access to full compromise in about 20 minutes in some cases, compressing what used to take weeks or months.",
+      "Ami Luttwak says patching is still too slow, especially across Linux distributions, where fixes may take weeks or months to reach all distros.",
+      "Ami Luttwak argues that scanning code is not the most efficient security spend; he favors continuous external exposure scanning against unauthenticated attack surfaces.",
+      "Ami Luttwak says most security-team activity is not actually security work and that defenders should spend more time attacking their own environment with the latest models.",
+      "Ami Luttwak says automatic patching is not generally solvable for legacy systems, but newly built startups may design for it from the start.",
+      "Ami Luttwak says Wiz uses an internal \u201cAtlas\u201d harness plus blue-agent and red-agent pipelines to prioritize detection, investigation, and response.",
+      "Ami Luttwak predicts internet-facing cybersecurity could resemble the 1990s and 2000s again, with recurring zero-days and worm-like dynamics."
+    ],
+    "investment_thesis": "The episode\u2019s main claim is that AI has shortened exploit cycles so much that continuous external exposure testing and security-by-design tooling become more valuable than traditional code scanning.",
+    "key_tickers": null
+  },
+  {
     "id": 676,
     "podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "episode_title": "Banks Are Trying to Offload a Large Pile of AI-Related Loans",
