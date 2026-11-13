@@ -60,7 +60,7 @@ class TestValidator(unittest.TestCase):
         self.assertFails(lambda d, r: r["frmi-q3"].update(notes="Trading is thin."), "'thin'")
 
     def test_past_dated_live_row(self):
-        self.assertFails(lambda d, r: r["asts-q3"]["trade"].update(expiry="2026-10-29") or r["asts-q3"]["trade"]["exit"].update(date="2026-10-29"), "past-dated")
+        self.assertFails(lambda d, r: r["tsat-notes"]["trade"].update(expiry="2026-10-29") or r["tsat-notes"]["trade"]["exit"].update(date="2026-10-29"), "past-dated")
 
     def test_non_stock_ticker(self):
         self.assertFails(lambda d, r: r["asts-q3"].update(ticker="SPY"), "non-stock")
@@ -72,8 +72,8 @@ class TestValidator(unittest.TestCase):
 
     def test_exit_is_the_expiry(self):
         self.assertFails(lambda d, r: r["tsat-notes"]["trade"]["exit"].update(date="2026-12-08"), "exit must be the option expiry")
-        self.assertFails(lambda d, r: r["asts-q3"]["trade"].pop("exit"), "exit must be the option expiry")
-        self.assertFails(lambda d, r: r["frmi-q3"]["trade"].pop("expiry"), "without an expiry")
+        self.assertFails(lambda d, r: r["tsat-notes"]["trade"].pop("exit"), "exit must be the option expiry")
+        self.assertFails(lambda d, r: r["mu-cycle"]["trade"].pop("expiry"), "without an expiry")
         # a news date passing does not make a row stale; only the expiry does
         self.assertEqual(self.errs(lambda d, r: r["asts-q3"]["event"].update(date="2026-10-01")), [])
 
@@ -128,13 +128,13 @@ class TestValidator(unittest.TestCase):
                          {"asts-q3": "Net short", "frmi-q3": "Net short", "tsat-notes": "Net short",
                           "mu-cycle": "Net short", "healthcare-five": "Long", "ceg-q3": "Net long",
                           "lrcx-put": "Net long", "gev-power": "Net long"})
-        self.assertFails(lambda d, r: r["asts-q3"].update(direction="Net long"), "doesn't match the trade")
+        self.assertFails(lambda d, r: r["tsat-notes"].update(direction="Net long"), "doesn't match the trade")
         self.assertFails(lambda d, r: self._holding(d, r) or r["healthcare-five"].update(direction="Net long"), "doesn't match")
         self.assertFails(lambda d, r: r["mu-cycle"].update(direction="Sideways"), "not one of")
-        self.assertFails(lambda d, r: r["frmi-q3"].pop("direction"), "not one of")
+        self.assertFails(lambda d, r: r["mu-cycle"].pop("direction"), "not one of")
         self.assertFails(lambda d, r: r["tsat-notes"]["trade"].pop("expression"), "no expression")
-        self.assertFails(lambda d, r: r["asts-q3"]["trade"]["expression"].update(type="Call debit spread"), "expression")
-        self.assertFails(lambda d, r: r["asts-q3"].update(lean="Positive"), "lean")
+        self.assertFails(lambda d, r: r["tsat-notes"]["trade"]["expression"].update(type="Call debit spread"), "expression")
+        self.assertFails(lambda d, r: r["tsat-notes"].update(lean="Positive"), "lean")
         # a call debit spread reads Net long
         def call(d, r):
             t = r["asts-q3"]["trade"]
@@ -176,10 +176,10 @@ class TestBuild(unittest.TestCase):
 
     def test_computed_checks(self):
         d = copy.deepcopy(private_records())
-        rows(d)["frmi-q3"]["trade"]["change"] = 1.0
+        rows(d)["tsat-notes"]["trade"]["change"] = 1.0
         d["totals"]["value"] = 1.0
         e = tc.check_computed(d)
-        self.assertTrue(any("frmi-q3: change" in x for x in e), e)
+        self.assertTrue(any("tsat-notes: change" in x for x in e), e)
         self.assertTrue(any("totals.value" in x for x in e), e)
 
     def test_archived_page_and_home_strip(self):
@@ -202,7 +202,8 @@ class TestBuild(unittest.TestCase):
         self.assertIn('"hims-q3": "healthcare-five"', page)
         self.assertIn('href="mu-memory-cycle.html"', page)
         self.assertIn("healthcare.html", page)
-        self.assertIn("Nov 13 expiry", page)
+        self.assertIn("Closed at expiry", page)
+        self.assertIn("Nov 13", page)
         idx = build_trap_map.INDEX.read_text(encoding="utf-8")
         self.assertIn('id="trap-map-strip"', idx)
         self.assertEqual(idx.count("TRAP_STRIP:START"), 1)
@@ -213,7 +214,8 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(strip.count("Net short"), 4)
         T = private_records()["totals"]
         self.assertNotRegex(strip, r"(?i)grade")
-        self.assertIn("Held to Nov 13 expiry", strip)
+        self.assertIn("Closed at expiry", strip)
+        self.assertNotIn("Held to Nov 13 expiry", strip)
         for s in (build_trap_map.money(T["cost"]), build_trap_map.money(T["value"]), build_trap_map.money(T["spy_value"]),
                   f"Quotes as of {build_trap_map.fmt_time(private_records()['quotes_as_of'])}", ">Net long<"):
             self.assertIn(s, strip)
@@ -229,7 +231,7 @@ class TestPricePull(unittest.TestCase):
         self.assertEqual(lrcx["exit"]["result"], -1043.33)
         ceg = next(r for r in d["rows"] if r["id"] == "ceg-q3")
         self.assertEqual((ceg["status"], ceg["exit"]["result"], ceg["exit"]["modeled"]), ("closed", -715.01, True))
-        self.assertEqual(len(open_rows), 5)
+        self.assertEqual(len(open_rows), 3)
         self.assertEqual(d["totals"]["cost"], round(sum(r["trade"]["cost"] for r in open_rows), 2))
         self.assertEqual(d["totals"]["portfolio_value"], round(d["totals"]["value"] + d["totals"]["closed_cash"], 2))
         with mock.patch.object(fp, "_get", side_effect=OSError("down")), \
@@ -246,6 +248,10 @@ class TestPricePull(unittest.TestCase):
     def _pull(self, quotes, now, rid="asts-q3"):
         d = copy.deepcopy(private_records())
         r = rows(d)[rid]
+        # Fetcher unit tests need a live row. ASTS/FRMI are closed at the Nov 13 expiry.
+        r["status"] = "live"
+        r.pop("exit", None)
+        r["trade"].pop("price_note", None)
         with mock.patch.object(fp, "cboe_quotes", return_value=(quotes, now)), \
              mock.patch.object(fp, "yahoo_quotes", side_effect=OSError("x")), \
              mock.patch.object(fp, "yahoo_close", side_effect=OSError("x")):
@@ -350,7 +356,7 @@ class TestMidpointLabel(unittest.TestCase):
         self.assertNotRegex(page.lower(), r"midpoint|indicative|no trade")
         self.assertNotRegex(strip.lower(), r"midpoint|indicative")
         est = [r for r in self.d["rows"] if (r.get("trade") or {}).get("estimate_note")]
-        self.assertEqual(sorted(r["id"] for r in est), ["asts-q3", "frmi-q3", "mu-cycle", "tsat-notes"])
+        self.assertEqual(sorted(r["id"] for r in est), ["mu-cycle", "tsat-notes"])
         for r in est:
             self.assertEqual(r["trade"]["estimate_note"], EST)
         self.assertEqual(page.count(f'<div class="small mid-tag">{html.escape(EST)}</div>'), 2 * len(est))
@@ -366,13 +372,21 @@ class TestMidpointLabel(unittest.TestCase):
         self.assertEqual((ceg["value"], ceg["cost"], ceg["change"]), (461.66, 1176.67, -715.01))
         for surface in (page, strip):
             self.assertIn(html.escape(ceg["price_note"].rstrip(".")), surface)
-        # Live marks refresh; verify the contract math and rendered change instead of obsolete Nov 2 snapshots.
+        # Open marks and the two Nov 13 expiry settlements still match contract math.
         for rid in ("asts-q3", "frmi-q3", "tsat-notes", "mu-cycle"):
             row = next(r for r in self.d["rows"] if r["id"] == rid)
             trade = row["trade"]
             self.assertEqual(trade["value"], round(trade["mark"] * 100 * trade["contracts"], 2))
             card = page.split('id="' + rid + '"')[1].split('</details>')[0]
             self.assertIn(build_trap_map._sg(trade["change"]), card)
+        asts_row = next(r for r in self.d["rows"] if r["id"] == "asts-q3")
+        frmi_row = next(r for r in self.d["rows"] if r["id"] == "frmi-q3")
+        self.assertEqual(asts_row["status"], "closed")
+        self.assertEqual(frmi_row["status"], "closed")
+        self.assertEqual(asts_row["exit"]["reason"], "expiry")
+        self.assertEqual(frmi_row["exit"]["basis"], "stock-intrinsic")
+        self.assertIn("expiry, official close $32.60", asts_row["trade"]["price_note"])
+        self.assertIn("expiry, official close $2.61, stock-intrinsic", frmi_row["trade"]["price_note"])
         self.assertEqual(self.d["totals"]["value"], round(sum(r["trade"]["value"] for r in self.d["rows"] if r.get("status") != "closed" and (r.get("trade") or {}).get("cost") is not None), 2))
         hc_row = next(r for r in self.d["rows"] if r["id"] == "healthcare-five")
         hc = hc_row["trade"]

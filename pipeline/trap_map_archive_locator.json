@@ -3,8 +3,8 @@
   "retired_date_CT": "2026-11-05",
   "private_repository": "jsheppard8989/dragonfly-private",
   "private_archive_path": "trap_map_archive_2026-11-05",
-  "private_commit": "c7eff38e3dd022d066dba968cb9866d74022c9c9",
+  "private_commit": "b790460e33f01d2449f47844a8c4347608a72809",
   "ops_archive_path": "/workspace/cos/trap_map_archive_2026-11-05",
-  "manifest_sha256": "a357a38f8797e54a7ad20684f01cf66dc15bccfacb01e81606ccad16cf8b05c4",
+  "manifest_sha256": "f0771f33529441fb77a3d3b386843fb2d1aa15ccb6fc17d59cc0782515ee3572",
   "public_historical_portfolio_sha256": "4ebf3187f46c4af2145c8db080be04ce4703463bcc90bdd6b4ab36559a9fa297"
 }

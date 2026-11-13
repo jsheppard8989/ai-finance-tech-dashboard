@@ -12,7 +12,7 @@ class QuotesAsOf(unittest.TestCase):
     def _d(self):
         d = copy.deepcopy(private_records())
         d["quotes_as_of"] = "2026-10-30T11:16:00-05:00"
-        open_rows = [r for r in d["rows"] if r["status"] != "graded"]
+        open_rows = [r for r in d["rows"] if r["status"] not in ("graded", "closed")]
         for r in open_rows:
             r["trade"]["mid_time"] = "2026-10-30T15:00-05:00"
         open_rows[0]["trade"]["mid_time"] = "2026-10-31T09:56:00+00:00"  # 4:56 AM CT, written in UTC
@@ -29,7 +29,8 @@ class QuotesAsOf(unittest.TestCase):
     def test_spy_and_graded_rows(self):
         d = self._d()
         d["benchmark"]["spy_close_time"] = "2026-11-02T15:00-06:00"
-        d["rows"][0]["status"] = "graded"  # graded rows do not count
+        open_rows = [r for r in d["rows"] if r["status"] not in ("graded", "closed")]
+        open_rows[0]["status"] = "graded"  # graded rows do not count
         self.assertEqual(b.newest_quote_time(d), "2026-11-02T15:00:00-06:00")
 
     def test_values_untouched(self):

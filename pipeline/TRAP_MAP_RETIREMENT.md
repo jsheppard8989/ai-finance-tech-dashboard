@@ -4,7 +4,7 @@ The public Trap Map was retired on **2026-11-05**.
 
 Historical records are preserved in the genuinely **private** repository
 `jsheppard8989/dragonfly-private`, under `trap_map_archive_2026-11-05/`,
-at commit `c7eff38e3dd022d066dba968cb9866d74022c9c9` (Nov 9, 2026 amendment: Healthcare Abundance basket closed at the HIMS Q3 subscriber stop with modeled session closes).
+at commit `b790460e33f01d2449f47844a8c4347608a72809` (Nov 13, 2026 amendment: ASTS and FRMI Nov 13 put debit spreads closed at official regular-session closes; FRMI stock-intrinsic).
 The ops-box copy is `/workspace/cos/trap_map_archive_2026-11-05`.
 
 Nothing historical was deleted. The complete original archive, its rendered

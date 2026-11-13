@@ -20,7 +20,7 @@ def test_locator_points_to_confirmed_private_storage_without_record_payloads():
     data = json.loads(path.read_text())
     assert data["private_repository"] == "jsheppard8989/dragonfly-private"
     assert data["private_archive_path"] == "trap_map_archive_2026-11-05"
-    assert data["private_commit"] == "c7eff38e3dd022d066dba968cb9866d74022c9c9"
+    assert data["private_commit"] == "b790460e33f01d2449f47844a8c4347608a72809"
     assert data["ops_archive_path"] == "/workspace/cos/trap_map_archive_2026-11-05"
     assert not {"rows", "totals", "snapshot_totals", "record_ids", "benchmark"}.intersection(data)
     doc = ROOT / "pipeline/TRAP_MAP_RETIREMENT.md"
