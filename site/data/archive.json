@@ -1,6 +1,75 @@
 {
   "insights": [
     {
+      "id": 690,
+      "title": "Jensen Ousted as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-11-14",
+      "summary": "The episode opens on a dramatic governance and legal story around Nvidia, with the hosts discussing reporting that Jensen Huang was ousted amid allegations tied to a classified memo leak, Chinese espionage concerns, and possible personal misconduct. They emphasize that the leak of classified intelligence itself would be a crime, but also stress that the board appears to be acting on governance and code-of-conduct issues rather than any proven criminal finding. The discussion is framed as highly consequential because Nvidia\u2019s next earnings were said to be imminent and the stock had already fallen 15% in a week, wiping out hundreds of billions in market value.\n\nA major thread is whether removing Jensen would damage Nvidia\u2019s execution. David Sacks argues that Jensen is central to Nvidia\u2019s pace of annual chip innovation and that losing him could slow the company\u2019s velocity for 1-3 years. The hosts also debate whether China would actually benefit; Sacks pushes the contrarian view that China still remains multiple years behind because Nvidia\u2019s platform and engineering stack are bigger than any single executive. There is also broader geopolitical speculation about export controls, telemetry requirements, and whether future regulation could centralize AI infrastructure under state oversight.\n\nThe second half pivots to Anthropic\u2019s planned IPO and the company\u2019s rapid growth. The hosts cite a $70-$78 price range, a $1.4 trillion valuation discussion, 825 million shares, and a series of fundraising and revenue figures that suggest very strong momentum. Chamath frames Anthropic as an enterprise bundling winner that could become a \u201cMicrosoft killer,\u201d while the group compares its Q3 revenue and run-rate strength against OpenAI. The discussion also notes that further Nvidia-related volatility could affect AI sentiment and IPO pricing in the near term.\n\nOverall, the episode\u2019s central argument is that Nvidia\u2019s leadership shock could impair execution and reshape AI market structure, while Anthropic\u2019s momentum may make it one of the clearest beneficiaries if the AI capital cycle stays intact. The tone is mixed but leans cautious on near-term AI sentiment because of regulatory and governance uncertainty, even as the hosts remain constructive on Anthropic\u2019s growth story.",
+      "key_takeaway": "Nvidia leadership disruption could slow chip-iteration velocity, while Anthropic\u2019s enterprise momentum positions it as a potential AI platform winner.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 680,
+      "notable_quotes": [
+        {
+          "speaker": "Chamath Palihapitiya",
+          "quote": "Nvidia reports earnings next Tuesday, critical moment for the company, and the stock has been crushed down 15% in the last week, which is hundreds of billions of dollars."
+        },
+        {
+          "speaker": "David Sacks",
+          "quote": "Jensen is fundamental to that rapid progress the same way that Elon is fundamental to the rapid progress at SpaceX or Tesla and if you take him out of the picture there's just nobody comparable."
+        },
+        {
+          "speaker": "Chamath Palihapitiya",
+          "quote": "Anthropic is building the Microsoft killer and every SaaS company killer by bundling."
+        }
+      ]
+    },
+    {
+      "id": 691,
+      "title": "Jensen\u2019s Departure, NVIDIA\u2019s succession plan, AI doomer response, and Demis talks RSI | MOONSHOTS #311 (recorded live)",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-11-14",
+      "summary": "The episode centers on a live Moonshots discussion that opens with a major controversy around NVIDIA and Jensen Huang\u2019s reported resignation, which the speakers repeatedly tie to U.S.-China GPU export-control politics, alleged espionage links, and a possible policy push to close cloud-routing loopholes. They describe a proposed \u201cRemote Access Security Act\u201d that would restrict China\u2019s access to U.S. GPUs through cloud offerings and third countries, and they frame the timing as politically consequential, with midterm politics affecting the legislative path.\n\nA second major thread is AI risk. Peter Diamandis presents a high-concern view that AI takeover risk could be meaningful within three years, while Demis Hassabis\u2019s RSI framing distinguishes between open-loop productivity gains and more dangerous closed-loop self-improvement without human oversight. The conversation repeatedly contrasts existential-risk narratives with more immediate cyber and bio risks, with one speaker arguing that a cyber-scale outage taking down email could freeze global communications.\n\nThe episode also highlights Anthropic\u2019s push into an AI productivity stack: Claude Whiteboard, Claude Sheets, Claude Data, and Claude Meetings. The hosts argue this is a direct challenge to Microsoft 365 and Google Workspace-style layers because users may increasingly ask Claude to build workflows and documents rather than open conventional apps. The segment includes a claim that Anthropic reported $33 billion in revenue in the first nine months of the year, mostly from usage.\n\nBeyond office software, the discussion broadens into AI-enabled discovery: Planet AI\u2019s natural-language search across roughly 10 years of daily satellite imagery, archaeology workflows that reportedly used 48 agents to scan 1,200 square kilometers overnight, and astronomy work that surfaced an apparent dwarf planet. The episode closes with a wider frontier-lab thesis: that AI\u2019s strongest social license comes from healthcare and disease-solving, even as the speakers debate whether AI is more likely to create abundance or existential risk.",
+      "key_takeaway": "AI-native workflow layers, not legacy office apps, are the clearest near-term platform shift because Anthropic is pushing directly into productivity software with agentic tools.",
+      "tickers_mentioned": [
+        "NVDA",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 679,
+      "notable_quotes": [
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "If there's a cyber scale attack that takes down email, the world will freeze over."
+        },
+        {
+          "speaker": "Demis Hassabis",
+          "quote": "And the bigger risk there is closed loop where the intelligence starts to self-improve, maybe through its own experimentation, and is not at all understandable to humans because it's created something that's a little bit alien."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "November 10th, and Anthropic put Claude whiteboard and Claude Sheets into beta and made Claude data generally available."
+        }
+      ]
+    },
+    {
       "id": 688,
       "title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
       "source_type": "podcast",
@@ -316,7 +385,7 @@
       "key_takeaway": "AI will expand software opportunity by making startups faster and cheaper to build while leaving durable value in workflow-centric products like HubSpot rather than frontier-lab replacements.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-10",
       "archived_date": null,
@@ -350,7 +419,7 @@
         "NET"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-10",
       "archived_date": null,
@@ -16043,8 +16112,8 @@
       "term": "Open-weight models",
       "description": "Models whose weights can be accessed and modified by the enterprise, rather than kept fully closed by the provider. They are presented as preferable for auditability, customization, and regulatory validation.",
       "first_detected_date": "2026-10-23",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Could increase demand for governance, monitoring, and security tooling around enterprise AI deployment.",
@@ -16053,8 +16122,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 607,
       "first_detected_speaker": "Nick Hess",
-      "last_mentioned_episode_id": 673,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 324,
@@ -16349,8 +16418,8 @@
       "term": "HBM",
       "description": "High bandwidth memory, a stacked DRAM architecture used in AI systems. It is more complex to manufacture than standard DRAM and consumes far more wafer area per gigabyte.",
       "first_detected_date": "2026-10-08",
-      "last_mentioned_date": "2026-10-23",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "HBM constraints can keep memory tight and support pricing, margins, and capital equipment demand.",
@@ -16359,16 +16428,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 564,
       "first_detected_speaker": "Stacy Rasgon",
-      "last_mentioned_episode_id": 608,
-      "last_mentioned_speaker": "George Noble"
+      "last_mentioned_episode_id": 680,
+      "last_mentioned_speaker": "Chamath Palihapitiya, David Sacks (hosts)"
     },
     {
       "id": 296,
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -16377,8 +16446,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 673,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 295,
@@ -16529,8 +16598,8 @@
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-11-13",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -16539,16 +16608,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 678,
-      "last_mentioned_speaker": "Ajay Khotra, Toby Ort, Sholto Douglas"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 310,
       "term": "AI Arms Race",
       "description": "The view that AI capabilities in offense and defense will escalate in parallel and cannot realistically be halted. Arora treats this as inevitable rather than optional.",
       "first_detected_date": "2026-09-25",
-      "last_mentioned_date": "2026-10-21",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Favors cybersecurity automation, defensive coordination, and rapid patch distribution infrastructure.",
@@ -16557,8 +16626,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 528,
       "first_detected_speaker": "Erik Townsend (hosts)",
-      "last_mentioned_episode_id": 598,
-      "last_mentioned_speaker": "Nikesh Arora"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 286,
@@ -16745,8 +16814,8 @@
       "term": "AI takeover",
       "description": "A speculative scenario where AI systems gain control over human society, a concept invoked by experts to describe the severity and implications of the observed AI behaviors.",
       "first_detected_date": "2026-08-31",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Represents an extreme tail risk for society and markets, driving demand for AI safety research, regulatory controls, and potentially defensive investment strategies in sectors resilient to such systemic shifts.",
@@ -16755,8 +16824,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 448,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 541,
-      "last_mentioned_speaker": "Si Sheppard"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 282,
@@ -16781,8 +16850,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-11-09",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -16791,8 +16860,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 664,
-      "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 272,
@@ -17177,8 +17246,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-12",
-      "mention_count": 75,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 76,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -17187,8 +17256,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 676,
-      "last_mentioned_speaker": "Vinay Kumar"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 256,
@@ -17663,8 +17732,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-11-13",
-      "mention_count": 92,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 94,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -17673,16 +17742,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 678,
-      "last_mentioned_speaker": "Ajay Khotra, Toby Ort, Sholto Douglas"
+      "last_mentioned_episode_id": 680,
+      "last_mentioned_speaker": "Chamath Palihapitiya, David Sacks (hosts)"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "A training technique where a model learns from another model\u2019s outputs or reasoning traces. Lambert argues it is often oversimplified as the main way open models can catch frontier systems.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-11-09",
-      "mention_count": 69,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 70,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If distillation is less effective than assumed, open-model catch-up may take longer and favor integrated frontier labs over open ecosystems.",
@@ -17691,8 +17760,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 664,
-      "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 174,
@@ -17789,8 +17858,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-11-10",
-      "mention_count": 128,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 129,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -17799,8 +17868,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 667,
-      "last_mentioned_speaker": "Zeno Rocha"
+      "last_mentioned_episode_id": 680,
+      "last_mentioned_speaker": "Chamath Palihapitiya, David Sacks (hosts)"
     },
     {
       "id": 162,
@@ -18599,8 +18668,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-11-13",
-      "mention_count": 60,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 61,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -18609,8 +18678,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 677,
-      "last_mentioned_speaker": "Ami Luttwak"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 26,
@@ -18869,8 +18938,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 151,
+      "last_mentioned_date": "2026-11-14",
+      "mention_count": 152,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -18879,8 +18948,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 673,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 679,
+      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
     },
     {
       "id": 38,
