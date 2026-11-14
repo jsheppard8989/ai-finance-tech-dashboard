@@ -1,5 +1,23 @@
 [
   {
+    "id": 682,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The Case for Public Markets | Cromwell Coulson on Small-Cap Capital Formation, Disclosure, and SEC Offering Reform",
+    "episode_date": "2026-11-14",
+    "summary": "Cromwell Coulson argues that U.S. capital formation for smaller public companies is structurally broken, especially for OTC issuers that lack efficient access to ATMs and other public-market fundraising tools. He says the SEC\u2019s pending reforms could materially change that by modernizing registered offerings and preempting state blue-sky rules, while also expanding ATM access to exchange-listed issuers plus OTCQX and OTCQB companies.\n\nHe frames OTC Markets Group as a market operator rather than an exchange: it provides broker-dealer tools, market data licensing, and issuer disclosure distribution. Coulson says the firm\u2019s tiered structure is designed to match disclosure quality to market access, and its promotion-risk flags are meant to make imperfections visible so that price discovery can happen instead of simply halting trading.\n\nOn promotion risk, he says the flagging program initially covered only a small slice of symbols, \u201ccloser to 1%\u201d during the year, and that 98\u201399% of issuers did not have added burden from the system. He argues that the approach creates transparency and that most promotional activity has migrated toward exchanges rather than OTC.\n\nCoulson is also constructive on OTC Markets\u2019 data business, saying financial data demand is strong because data is increasingly \u201cfuel\u201d for AI and broader financial workflows. On tokenization, he is supportive but pragmatic: he sees real use cases such as fractional shares and collateral management, but stresses that adoption depends on regulatory readiness and market-rail infrastructure like DTC/NSCC, and that tokenization is not a universal solution.",
+    "key_takeaways": [
+      "Cromwell Coulson says smaller-company capital formation is \"broken\" and OTC issuers need better access to public fundraising tools.",
+      "Coulson says SEC modernization of registered offerings and preemption of state blue-sky rules could materially improve capital access for smaller issuers.",
+      "Coulson says ATMs should be expanded to exchange-listed issuers and to OTCQX and OTCQB issuers, which he believes will change the market.",
+      "Coulson says OTC Markets\u2019 philosophy is that \"every security should have a price,\" so the firm uses flags and tiering rather than blanket trading bans.",
+      "Coulson says the promotion-flag system covered only around 1% of symbols initially, and that 98\u201399% of issuers were not burdened by it.",
+      "Coulson says market data demand remains robust because data is increasingly valuable for AI and other financial uses.",
+      "Coulson says tokenization has real use cases, but it is not the answer to everything and depends on settlement and regulatory infrastructure."
+    ],
+    "investment_thesis": "The key claim is that SEC reforms expanding ATM and offering access for smaller issuers could materially improve OTC capital formation and trading demand.",
+    "key_tickers": null
+  },
+  {
     "id": 680,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Jensen Ousted as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",
