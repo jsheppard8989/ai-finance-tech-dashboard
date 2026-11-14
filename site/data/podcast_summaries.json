@@ -1,5 +1,43 @@
 [
   {
+    "id": 680,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Jensen Ousted as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",
+    "episode_date": "2026-11-14",
+    "summary": "The episode opens on a dramatic governance and legal story around Nvidia, with the hosts discussing reporting that Jensen Huang was ousted amid allegations tied to a classified memo leak, Chinese espionage concerns, and possible personal misconduct. They emphasize that the leak of classified intelligence itself would be a crime, but also stress that the board appears to be acting on governance and code-of-conduct issues rather than any proven criminal finding. The discussion is framed as highly consequential because Nvidia\u2019s next earnings were said to be imminent and the stock had already fallen 15% in a week, wiping out hundreds of billions in market value.\n\nA major thread is whether removing Jensen would damage Nvidia\u2019s execution. David Sacks argues that Jensen is central to Nvidia\u2019s pace of annual chip innovation and that losing him could slow the company\u2019s velocity for 1-3 years. The hosts also debate whether China would actually benefit; Sacks pushes the contrarian view that China still remains multiple years behind because Nvidia\u2019s platform and engineering stack are bigger than any single executive. There is also broader geopolitical speculation about export controls, telemetry requirements, and whether future regulation could centralize AI infrastructure under state oversight.\n\nThe second half pivots to Anthropic\u2019s planned IPO and the company\u2019s rapid growth. The hosts cite a $70-$78 price range, a $1.4 trillion valuation discussion, 825 million shares, and a series of fundraising and revenue figures that suggest very strong momentum. Chamath frames Anthropic as an enterprise bundling winner that could become a \u201cMicrosoft killer,\u201d while the group compares its Q3 revenue and run-rate strength against OpenAI. The discussion also notes that further Nvidia-related volatility could affect AI sentiment and IPO pricing in the near term.\n\nOverall, the episode\u2019s central argument is that Nvidia\u2019s leadership shock could impair execution and reshape AI market structure, while Anthropic\u2019s momentum may make it one of the clearest beneficiaries if the AI capital cycle stays intact. The tone is mixed but leans cautious on near-term AI sentiment because of regulatory and governance uncertainty, even as the hosts remain constructive on Anthropic\u2019s growth story.",
+    "key_takeaways": [
+      "Chamath Palihapitiya said Nvidia\u2019s stock had already been \u201ccrushed down 15% in the last week,\u201d which he framed as hundreds of billions of dollars of market value.",
+      "David Sacks said leaking classified intelligence is a crime and that the leak itself must be investigated.",
+      "David Sacks argued Jensen Huang is essential to Nvidia\u2019s rapid progress and that removing him could leave nobody comparable to sustain the company\u2019s pace.",
+      "David Friedberg said, \u201cThe bank of Nvidia ran through Jensen and it's not clear what happens now,\u201d underscoring leadership concentration risk.",
+      "Chamath Palihapitiya said Anthropic is \u201cbuilding the Microsoft killer and every SaaS company killer by bundling,\u201d framing it as a platform-scale winner.",
+      "Chamath Palihapitiya said Anthropic\u2019s Q3 revenue was $17 billion versus $10 billion for OpenAI, arguing Anthropic had already passed OpenAI on revenue by moving enterprise-first.",
+      "David Sacks warned that future legislation could force every AI chip, computer, and data center to have telemetry and a connection back to a central state system."
+    ],
+    "investment_thesis": "Nvidia leadership disruption could slow chip-iteration velocity, while Anthropic\u2019s enterprise momentum positions it as a potential AI platform winner.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 679,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Jensen\u2019s Departure, NVIDIA\u2019s succession plan, AI doomer response, and Demis talks RSI | MOONSHOTS #311 (recorded live)",
+    "episode_date": "2026-11-14",
+    "summary": "The episode centers on a live Moonshots discussion that opens with a major controversy around NVIDIA and Jensen Huang\u2019s reported resignation, which the speakers repeatedly tie to U.S.-China GPU export-control politics, alleged espionage links, and a possible policy push to close cloud-routing loopholes. They describe a proposed \u201cRemote Access Security Act\u201d that would restrict China\u2019s access to U.S. GPUs through cloud offerings and third countries, and they frame the timing as politically consequential, with midterm politics affecting the legislative path.\n\nA second major thread is AI risk. Peter Diamandis presents a high-concern view that AI takeover risk could be meaningful within three years, while Demis Hassabis\u2019s RSI framing distinguishes between open-loop productivity gains and more dangerous closed-loop self-improvement without human oversight. The conversation repeatedly contrasts existential-risk narratives with more immediate cyber and bio risks, with one speaker arguing that a cyber-scale outage taking down email could freeze global communications.\n\nThe episode also highlights Anthropic\u2019s push into an AI productivity stack: Claude Whiteboard, Claude Sheets, Claude Data, and Claude Meetings. The hosts argue this is a direct challenge to Microsoft 365 and Google Workspace-style layers because users may increasingly ask Claude to build workflows and documents rather than open conventional apps. The segment includes a claim that Anthropic reported $33 billion in revenue in the first nine months of the year, mostly from usage.\n\nBeyond office software, the discussion broadens into AI-enabled discovery: Planet AI\u2019s natural-language search across roughly 10 years of daily satellite imagery, archaeology workflows that reportedly used 48 agents to scan 1,200 square kilometers overnight, and astronomy work that surfaced an apparent dwarf planet. The episode closes with a wider frontier-lab thesis: that AI\u2019s strongest social license comes from healthcare and disease-solving, even as the speakers debate whether AI is more likely to create abundance or existential risk.",
+    "key_takeaways": [
+      "Peter Diamandis said Jensen Huang\u2019s reported resignation should be viewed through a geopolitical lens, not just a personal one, because it may connect to U.S.-China GPU policy.",
+      "Peter Diamandis argued that a cyber-scale attack on email could halt global communication, calling it a systemic vulnerability.",
+      "Demis Hassabis distinguished open-loop RSI from closed-loop RSI and suggested the latter is the real danger because systems could improve without human review.",
+      "Peter Diamandis said Anthropic\u2019s Nov. 10 rollout of Claude Whiteboard, Claude Sheets, and Claude Data is an attempt to build an AI-native office layer.",
+      "Peter Diamandis said Planet AI lets users \u201cask the Earth\u201d across 10 years of roughly 3,000+ layers of daily satellite imagery.",
+      "Peter Diamandis cited a claimed $33 billion in Anthropic revenue in the first nine months of the year, saying most of it came from usage.",
+      "Peter Diamandis repeated Paul Christiano\u2019s view that there is a high risk of AI takeover within three years, with meaningful risk even in the next 6 to 12 months."
+    ],
+    "investment_thesis": "AI-native workflow layers, not legacy office apps, are the clearest near-term platform shift because Anthropic is pushing directly into productivity software with agentic tools.",
+    "key_tickers": null
+  },
+  {
     "id": 678,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "The avalanche that hit math is coming for AI development",
