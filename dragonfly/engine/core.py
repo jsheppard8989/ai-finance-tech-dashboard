@@ -281,13 +281,18 @@ def resolve_roots(handoff: Optional[str] = None, inbox: Optional[str] = None, dr
 def load_regime(repo: Path, session_date: date, inbox_root: str = DEFAULT_INBOX_ROOT,
                 handoff_root: str = DEFAULT_HANDOFF_ROOT) -> Tuple[Optional[dict], Optional[str], List[str]]:
     """Regime snapshot for the day: inbox first (Market Read), then handoff.
+    Each root: regime_snapshot.json, else market_read.json's `regime` object.
 
     Returns (snapshot, relative_path, problems). The mode is recomputed with
     regime_to_mode(); the snapshot's derived_risk_mode is advisory only.
     """
     problems: List[str] = []
     ds = session_date.isoformat()
-    for rel in (f"{inbox_root}/{ds}/regime_snapshot.json", f"{handoff_root}/{ds}/regime_snapshot.json"):
+    candidates = [(f"{inbox_root}/{ds}/regime_snapshot.json", None),
+                  (f"{inbox_root}/{ds}/market_read.json", "regime"),
+                  (f"{handoff_root}/{ds}/regime_snapshot.json", None),
+                  (f"{handoff_root}/{ds}/market_read.json", "regime")]
+    for rel, key in candidates:
         path = repo / rel
         if not path.exists():
             continue
@@ -296,6 +301,13 @@ def load_regime(repo: Path, session_date: date, inbox_root: str = DEFAULT_INBOX_
         except (OSError, ValueError) as exc:
             problems.append(f"{rel}: unreadable ({exc})")
             continue
+        if key is not None:
+            # Market Read's own file: the regime snapshot is its `regime` object.
+            if not isinstance(snap, dict) or not isinstance(snap.get(key), dict):
+                problems.append(f"{rel}: no '{key}' object")
+                continue
+            snap = snap[key]
+            rel = f"{rel}#{key}"
         errs = schema_errors("regime_snapshot.schema.json", snap)
         if errs:
             problems.append(f"{rel}: schema {errs}")
@@ -429,10 +441,57 @@ def red_team_section(redteam: Optional[Mapping], hard_blocks: Sequence[str], not
 
 # ------------------------------------------------------------------ drafts
 
+# Inbox naming. Drafts: <trade_id>.draft.json (documented) or <trade_id>.json
+# (what the agents actually wrote in dry run 2), plus any *.draft.json (carded
+# as unidentified if it has no usable trade_id). Red team: *.redteam.json.
+# Known non-draft files are listed; anything else that looks like a draft is
+# skipped LOUDLY (WARNING + DONE skipped_files), never silently.
+BARE_DRAFT_RE = re.compile(r"^DF-[0-9]{4}-[0-9]{4}\.json$")
+KNOWN_INBOX_FILES = ("regime_snapshot.json", "market_read.json", "daily_brief.json", "brief.json")
+_DRAFTISH_RE = re.compile(r"(?i)(^df[-_ ]?\d|draft)")
+_DRAFT_KEYS = ("trade_id", "setup", "entry", "ticker")
+
+
+def classify_inbox_file(name: str, data: Optional[bytes] = None) -> Tuple[str, Optional[str]]:
+    """-> (kind, reason). kind: draft | redteam | known | skipped | ignored.
+
+    `skipped` = looks like a draft (name or content) but will not be carded;
+    the reason says why. `ignored` = clearly not a draft (e.g. a .gitkeep).
+    """
+    if name.startswith("."):
+        return "ignored", None
+    if name.endswith(REDTEAM_SUFFIX):
+        return "redteam", None
+    if name.endswith(DRAFT_SUFFIX) or BARE_DRAFT_RE.match(name):
+        return "draft", None
+    if name in KNOWN_INBOX_FILES or name.startswith("brief"):
+        return "known", None
+    looks = bool(_DRAFTISH_RE.search(name))
+    if not looks and data is not None and name.endswith(".json"):
+        try:
+            obj = json.loads(data.decode("utf-8"))
+            looks = isinstance(obj, dict) and sum(k in obj for k in _DRAFT_KEYS) >= 2
+        except (UnicodeDecodeError, ValueError):
+            looks = False
+    if not looks:
+        return "ignored", None
+    if not name.endswith(".json"):
+        return "skipped", "not_json_extension"
+    return "skipped", "unrecognized_draft_name (use <trade_id>.draft.json or <trade_id>.json, trade_id DF-YYYY-NNNN)"
+
+
+def draft_stem(filename: str) -> str:
+    if filename.endswith(DRAFT_SUFFIX):
+        return filename[: -len(DRAFT_SUFFIX)]
+    if filename.endswith(".json"):
+        return filename[: -len(".json")]
+    return filename
+
+
 def draft_identity(filename: str, draft: Any) -> Tuple[Optional[str], List[str]]:
-    """trade_id from the draft body, else from a <trade_id>.draft.json name."""
+    """trade_id from the draft body, else from a <trade_id>(.draft).json name."""
     reasons: List[str] = []
-    stem = filename[: -len(DRAFT_SUFFIX)] if filename.endswith(DRAFT_SUFFIX) else filename
+    stem = draft_stem(filename)
     stem_id = stem if TRADE_ID_RE.match(stem) else None
     body_id = None
     if isinstance(draft, dict) and isinstance(draft.get("trade_id"), str) and TRADE_ID_RE.match(draft["trade_id"]):
