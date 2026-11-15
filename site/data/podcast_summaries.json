@@ -18,6 +18,26 @@
     "key_tickers": null
   },
   {
+    "id": 681,
+    "podcast_name": "The a16z Show",
+    "episode_title": "From the Telephone to Modern Computing | James Gleick",
+    "episode_date": "2026-11-14",
+    "summary": "James Gleick argues that the telephone\u2019s real history is not a lone-genius invention story but a case of user-driven adoption, network effects, and unexpected use cases shaping the technology after the patent era. He says early observers, including Western Union, dismissed the telephone as a toy because they were thinking in telegraph terms, where specialized operators and codes dominated. By contrast, the telephone\u2019s value came from casual voice interaction and from its ability to become more useful as more people joined the network.\n\nA major theme is infrastructure and coordination. Gleick says the U.S. telephone system needed consolidation into a single national network, and he presents AT&T/Bell as both enabling that coordination and behaving like a classic monopolist when threatened by substitutes such as radio and microwave long-distance competition. He also describes rural Americans building local clusters with whatever wire was available, illustrating bottom-up diffusion before the system was standardized.\n\nThe discussion extends to regulation and computing. Gleick says the FCC\u2019s computer inquiry helped define a legal distinction between message transmission and data processing, which mattered for how telecom networks were treated under common-carrier rules. He uses this to connect the telephone era to later digital communications, emphasizing that regulatory classification can shape which business models become economically viable.\n\nA second big thread is research institutions. Gleick praises Bell Labs as a uniquely powerful corporate research lab, claiming its combination of funding, freedom, staffing, and mission produced foundational breakthroughs such as the transistor. He makes a similar point about Xerox PARC, arguing that highly mission-oriented labs can generate many widely used inventions. On AI, though, he rejects the idea of a discontinuous singularity or a new industrial revolution, calling it instead a continuation of the digital revolution with real but familiar risks like misuse and impersonation.",
+    "key_takeaways": [
+      "James Gleick says the telephone was \"defined by its users,\" meaning its commercial value emerged from adoption patterns rather than from the inventors' original expectations.",
+      "James Gleick argues that Western Union, thinking in telegraph terms, dismissed the first telephone patent as \"just a toy,\" missing the mass-market potential of voice communication.",
+      "James Gleick says a single national telephone system required \"coordination and consolidation,\" which he presents as the main economic reason monopoly structure emerged.",
+      "James Gleick says Bell and its system behaved like a \"classic monopolist\" when it tried to shut down microwave-based long-distance competition that later became MCI.",
+      "James Gleick describes Bell Labs as the largest, best-staffed corporate research lab in the world and credits its environment with enabling the transistor.",
+      "James Gleick says the FCC computer inquiry mattered because it separated message transmission from data processing, affecting common-carrier regulation.",
+      "James Gleick explicitly rejects singularity-style AI claims, saying AI is a \"natural continuation\" of the digital world rather than a discontinuous revolution."
+    ],
+    "investment_thesis": "Network effects, regulatory classification, and research-lab structure can create outsized winners in communications, but monopolies also attract disruption and regulatory pushback.",
+    "key_tickers": [
+      "T"
+    ]
+  },
+  {
     "id": 680,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Jensen Ousted as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",

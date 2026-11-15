@@ -1,18 +1,6 @@
 [
   {
-    "id": 120006,
-    "name": "James Gleick",
-    "slug": "james-gleick",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Network effects, regulatory classification, and research-lab structure can create outsized winners in communications, but monopolies also attract disruption and regulatory pushback.",
-    "last_episode_title": "From the Telephone to Modern Computing | James Gleick",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-14",
-    "appearance_count": 1
-  },
-  {
-    "id": 120007,
+    "id": 120216,
     "name": "Jensen Ousted as Nvidia CEO",
     "slug": "jensen-ousted-as-nvidia-ceo",
     "bio": null,
@@ -24,7 +12,19 @@
     "appearance_count": 1
   },
   {
-    "id": 120008,
+    "id": 120217,
+    "name": "James Gleick",
+    "slug": "james-gleick",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Network effects, regulatory classification, and research-lab structure can create outsized winners in communications, but monopolies also attract disruption and regulatory pushback.",
+    "last_episode_title": "From the Telephone to Modern Computing | James Gleick",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 120218,
     "name": "Wiz CTO Ami Luttwak",
     "slug": "wiz-cto-ami-luttwak",
     "bio": null,
@@ -36,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120009,
+    "id": 120219,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -48,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120010,
+    "id": 120220,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -60,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120011,
+    "id": 120221,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -72,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120012,
+    "id": 120222,
     "name": "Freedom vs. Safety",
     "slug": "freedom-vs-safety",
     "bio": null,
@@ -84,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120013,
+    "id": 120223,
     "name": "What Frontier Labs Buy",
     "slug": "what-frontier-labs-buy",
     "bio": null,
@@ -96,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120014,
+    "id": 120224,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -108,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120015,
+    "id": 120225,
     "name": "Laks Ganapathi",
     "slug": "laks-ganapathi",
     "bio": null,
@@ -120,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120016,
+    "id": 120226,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -132,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120017,
+    "id": 120227,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -144,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120018,
+    "id": 120228,
     "name": "Controlling Biology",
     "slug": "controlling-biology",
     "bio": null,
@@ -156,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120019,
+    "id": 120229,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -168,7 +168,7 @@
     "appearance_count": 2
   },
   {
-    "id": 120020,
+    "id": 120230,
     "name": "Figma CFO Praveer Melwani",
     "slug": "figma-cfo-praveer-melwani",
     "bio": null,
@@ -180,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120021,
+    "id": 120231,
     "name": "\u26a1 Behind Latent Space",
     "slug": "behind-latent-space",
     "bio": null,
@@ -192,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120022,
+    "id": 120232,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -204,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120023,
+    "id": 120233,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -216,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120024,
+    "id": 120234,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -228,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120025,
+    "id": 120235,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -240,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120026,
+    "id": 120236,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -252,7 +252,7 @@
     "appearance_count": 2
   },
   {
-    "id": 120027,
+    "id": 120237,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -264,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120028,
+    "id": 120238,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -276,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120029,
+    "id": 120239,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -288,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120030,
+    "id": 120240,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -300,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120031,
+    "id": 120241,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120032,
+    "id": 120242,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120033,
+    "id": 120243,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120034,
+    "id": 120244,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -348,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 120035,
+    "id": 120245,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
