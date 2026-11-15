@@ -35,7 +35,8 @@
     "Introducing Cosign",
     "Is The AI Trade Over?",
     "Kimi Catches Up",
-    "Can AI Fix Professional Networking?"
+    "Can AI Fix Professional Networking?",
+    "Jensen Ousted as Nvidia CEO"
   ],
   "fixes": {
     "Ray Dahlia": "Ray Dalio",
@@ -100,7 +101,8 @@
     "615": "Andy Jassy",
     "614": "Erik Bernhardsson",
     "650": "Josh Gruenstein",
-    "644": "David Booth & Dhruv Gupta"
+    "644": "David Booth & Dhruv Gupta",
+    "690": ""
   },
   "overrides": {
     "Graham Allison": {
