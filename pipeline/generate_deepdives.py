@@ -578,6 +578,7 @@ SPEAKER_NAME_PATTERN = (
 SPEAKER_LINE_RE = re.compile(r"^" + SPEAKER_NAME_PATTERN + r"\s*:\s*\S")
 
 _GENERIC_SPEAKER_LABELS = {"host", "guest", "author", "speaker"}
+ONE_HOST_LINE_RE = re.compile(r"(?im)^\s*[-•]?\s*(one (?:co-)?host)\s*:\s*\S")
 
 
 def _speaker_base_name(label: str) -> str:
@@ -599,6 +600,7 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
         # The extraction prompt asks for "Speaker Name: verbatim quote" lines (no bullet or quote marks);
         # those are quote-first too (ep 587 / insight 598 was blocked on this mismatch, 2026-10-18).
         or SPEAKER_LINE_RE.match(ln)
+        or ONE_HOST_LINE_RE.match(ln)
     )
     if quote_like < 2 and quote_first_lines < 2:
         return False, "source_quotes must be quote-first (bullets or quoted lines)"
@@ -608,6 +610,9 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
         ev,
     )
     named = [n for n in named if _speaker_base_name(n) not in _GENERIC_SPEAKER_LABELS]
+    # Change 1 (Jared, Nov 15): with no transcript cue the label is "one host"; that is an
+    # honest speaker label, not a missing one, so it counts toward the two attributed lines.
+    named += ONE_HOST_LINE_RE.findall(ev)
     if len(named) < 2:
         return False, "source_quotes need at least two lines that name the speaker (Full Name: \"quote\")"
     if lines and RECAP_OPENING_RE.match(lines[0]) and quote_like < 1:

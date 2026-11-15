@@ -433,3 +433,59 @@ def test_evidence_line_speaker_relabelled_when_uncued(tmp_path):
     assert drops == []
     assert kept[0].startswith("one host: I think Anthropic")
     assert kept[1].startswith("David Sacks:")
+
+
+# ---------------------------------------------------------------------------
+# Named prose needs a cued item; "one host" evidence lines pass the Deep Dive check
+# ---------------------------------------------------------------------------
+from speaker_attribution import enforce_named_prose  # noqa: E402
+
+
+def test_prose_name_kept_when_cued_item_supports_it(tmp_path):
+    analysis = {"summary": "David Sacks says leaking classified intelligence is a crime.",
+                "key_takeaways": ["Sacks says Jensen's removal is tragic for the United States."],
+                "notable_quotes": [{"speaker": "David Sacks",
+                                    "quote": "leaking classified intelligence is a crime, tragic for the United States"}]}
+    ch = enforce_named_prose(analysis, ALLIN, extraction={}, log_path=tmp_path / "l.jsonl")
+    assert ch == []
+    assert analysis["summary"].startswith("David Sacks says")
+
+
+def test_prose_name_replaced_when_no_cued_item(tmp_path):
+    # Re-run 2: Chamath's 50-150 bp line was put on Sacks although the extraction said "one host".
+    analysis = {"summary": "The hosts debate chips. David Sacks says growth could fall 50 to 150 basis points.",
+                "key_takeaways": ["David Sacks says the market could see a 50 to 150 basis point growth hit.",
+                                  "one host says rates matter."],
+                "investment_thesis": "Nvidia matters.",
+                "notable_quotes": []}
+    extraction = {"major_claims": [{"claim": "Growth could lose 50 to 150 basis points", "speaker": "one host"}],
+                  "high_value_quotes": [{"speaker": "David Sacks", "quote": "leaking classified intelligence is a crime"}]}
+    ch = enforce_named_prose(analysis, ALLIN, extraction=extraction, log_path=tmp_path / "l.jsonl")
+    assert analysis["summary"] == "The hosts debate chips. One host says growth could fall 50 to 150 basis points."
+    assert analysis["key_takeaways"][0].startswith("One host says the market")
+    assert analysis["key_takeaways"][1].startswith("One host says rates")
+    assert len(ch) == 2
+
+
+def test_prose_clip_sentence_left_to_clip_rule(tmp_path):
+    analysis = {"summary": "Dario Amodei (quoted by Jason Calacanis) said diseases could be relics in a decade.",
+                "key_takeaways": [], "notable_quotes": []}
+    enforce_named_prose(analysis, ALLIN, extraction={}, log_path=tmp_path / "l.jsonl")
+    assert "Jason Calacanis" in analysis["summary"]
+
+
+def test_prose_check_skips_non_panel_shows(tmp_path):
+    analysis = {"summary": "Jack Farley says rates matter.", "key_takeaways": [], "notable_quotes": []}
+    assert enforce_named_prose(analysis, "Monetary Matters with Jack Farley", extraction={},
+                               log_path=tmp_path / "l.jsonl") == []
+
+
+def test_deep_dive_structural_accepts_one_host_lines():
+    from generate_deepdives import deep_dive_structural_ok
+    content = {"episode_evidence": [
+        "one host: I think Anthropic is building the Microsoft killer by bundling everything they ship.",
+        "one host: When you export chips what they ask of the exporter is have telemetry, right?",
+        "David Sacks: Leaking classified intelligence is a crime."],
+        "overview": "x" * 200, "investment_thesis": "y" * 200}
+    ok, why = deep_dive_structural_ok(content)
+    assert "name the speaker" not in why

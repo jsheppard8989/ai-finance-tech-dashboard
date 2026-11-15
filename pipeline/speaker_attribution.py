@@ -58,9 +58,11 @@ _PANEL_SHOWS = {
 # Extra first-name / nickname cues used when narrowing a roster from show notes.
 _ROSTER_ALIASES = {
     "Jason Calacanis": ["calacanis", "jason", "jcal", "j cal", "j-cal"],
-    "Chamath Palihapitiya": ["chamath", "palihapitiya"],
+    "Chamath Palihapitiya": ["chamath", "palihapitiya", "shamath", "jamath", "chamat"],
     "David Sacks": ["sacks", "sachs", "david sachs", "davidsacks"],
-    "David Friedberg": ["friedberg", "freiburg", "freeberg", "david freiburg"],
+    # Whisper renders Friedberg many ways ("free burger", "free bird" in eps 680).
+    "David Friedberg": ["friedberg", "freiburg", "freeberg", "david freiburg", "freeburg", "freberg",
+                        "frieberg", "free burger", "free bird", "freebird"],
     "Peter Diamandis": ["diamandis", "peter"],
     "Alex Wissner-Gross": ["wissner-gross", "wissner gross", "alexander wissner", "alex"],
     "Salim Ismail": ["salim", "ismail"],
@@ -503,7 +505,12 @@ def apply_attribution_rules(
         analysis, transcript, podcast_name, show_notes=show_notes, episode_ref=episode_ref,
         log_path=(str(log_path).replace("quote_check_drops", "speaker_cue_relabels") if log_path else None),
     )
-    return {"dropped_guests": dropped_guests, "dropped_quotes": dropped_quotes, "speaker_relabels": relabels}
+    prose = enforce_named_prose(
+        analysis, podcast_name, show_notes=show_notes, episode_ref=episode_ref,
+        log_path=(str(log_path).replace("quote_check_drops", "speaker_cue_relabels") if log_path else None),
+    )
+    return {"dropped_guests": dropped_guests, "dropped_quotes": dropped_quotes,
+            "speaker_relabels": relabels, "prose_relabels": prose}
 
 
 # ---------------------------------------------------------------------------
@@ -516,7 +523,7 @@ def apply_attribution_rules(
 # name (or a known nickname / Whisper spelling) appears shortly before the words, i.e.
 # they were addressed or introduced. Otherwise the label becomes "one host".
 
-CUE_WINDOW_CHARS = 3000         # roster member: nearest roster name before the words, this close
+CUE_WINDOW_CHARS = 1200         # roster member: last roster name said before the words, this close
 CLIP_CUE_WINDOW_CHARS = 4000    # clip / quoted voice: their own name before playing/reading
 _CLAIM_LISTS = ("major_claims", "predictions", "investment_ideas", "contrarian_ideas", "risks")
 
@@ -680,6 +687,144 @@ def enforce_speaker_cues(
 
     for c in changes:
         print(f"    ↺ Speaker not cued in transcript, now 'one host': {c['field']}: {c['speaker']}", flush=True)
+    if changes:
+        try:
+            if log_path is None:
+                from workspace_paths import STATE_DIR
+                STATE_DIR.mkdir(parents=True, exist_ok=True)
+                log_path = STATE_DIR / "speaker_cue_relabels.jsonl"
+            with open(log_path, "a", encoding="utf-8") as f:
+                for c in changes:
+                    f.write(json.dumps({"ts": datetime.now().isoformat(timespec="seconds"), **c}) + "\n")
+        except Exception as exc:
+            print(f"    ⚠ Could not write speaker_cue_relabels log: {exc}", flush=True)
+    return changes
+
+
+# ---------------------------------------------------------------------------
+# Named prose (summary / takeaways / thesis) must rest on a cued item
+# ---------------------------------------------------------------------------
+# Pass 2 writes prose from the extraction but can still put a roster name on a point the
+# extraction left as "one host" (re-run: Chamath's 50-150 bp line went to Sacks). On panel
+# shows, a sentence that names a roster member keeps the name only if that person has a
+# cued quote/claim in the extraction (or a kept notable quote) sharing the point's words.
+
+_STOP = set("""about above after again against also among another because been before being below
+between both could does doing down during each even every from further have having here into
+itself just like more most much must only other over same says said should since some such than
+that their them then there these they this those through under until very were what when where
+which while will with would your argues argued frames framed warns warned thinks notes noted
+episode host hosts panel""".split())
+
+
+def _content_words(text: str) -> set:
+    return {w for w in re.findall(r"[a-z0-9]+", _norm(text)) if len(w) >= 4 and w not in _STOP}
+
+
+def _cued_texts_by_member(extraction: Dict[str, Any], analysis: Dict[str, Any], roster: List[str]) -> Dict[str, List[set]]:
+    out: Dict[str, List[set]] = {m: [] for m in roster}
+
+    def add(label: str, *texts: str):
+        if not label or is_generic_speaker(label) or is_clip_label(label) or is_hedged_label(label):
+            return
+        m = canonical_roster_name(label, roster)
+        if m:
+            out[m].append(_content_words(" ".join(t for t in texts if t)))
+
+    for src in (extraction or {}, analysis or {}):
+        for q in (src.get("high_value_quotes") or []) + (src.get("notable_quotes") or []):
+            if isinstance(q, dict):
+                add(q.get("speaker") or "", q.get("quote") or "", q.get("context") or "")
+        for ca in src.get("companies_and_assets") or []:
+            if isinstance(ca, dict):
+                for kq in ca.get("key_quotes") or []:
+                    if isinstance(kq, dict):
+                        add(kq.get("speaker") or "", kq.get("quote") or "", str(ca.get("name") or ""))
+        for key in _CLAIM_LISTS:
+            for c in src.get(key) or []:
+                if isinstance(c, dict):
+                    add(c.get("speaker") or "", *(str(c.get(f) or "") for f in
+                                                  ("claim", "prediction", "idea", "risk", "evidence")))
+        for et in src.get("emerging_terms") or []:
+            if isinstance(et, dict):
+                add(et.get("speaker") or "", et.get("term") or "", et.get("speaker_quote") or "")
+    return out
+
+
+def _member_name_regex(member: str) -> "re.Pattern":
+    names = {member, member.split()[-1]} | {a for a in _ROSTER_ALIASES.get(member, []) if len(a) >= 4}
+    if member == "David Sacks" or member == "David Friedberg":
+        names.discard("David")
+    alts = sorted((re.escape(n) for n in names), key=len, reverse=True)
+    return re.compile(r"(?<![A-Za-z])(?:" + "|".join(alts) + r")(?:['’]s)?(?![A-Za-z])", re.IGNORECASE)
+
+
+def enforce_named_prose(
+    analysis: Dict[str, Any],
+    podcast_name: str,
+    *,
+    extraction: Optional[Dict[str, Any]] = None,
+    show_notes: str = "",
+    min_overlap: int = 2,
+    episode_ref: str = "",
+    log_path=None,
+) -> List[Dict[str, Any]]:
+    """Replace a roster name in summary/key_takeaways/investment_thesis with 'one host' when no
+    cued extraction item from that person supports the sentence. Edits in place; returns changes."""
+    if not analysis or not is_host_panel_show(podcast_name):
+        return []
+    roster = episode_roster(podcast_name, show_notes)
+    if extraction is None:
+        try:
+            extraction = json.loads(analysis.get("_extraction_json") or "{}")
+        except Exception:
+            extraction = {}
+    cued = _cued_texts_by_member(extraction, analysis, roster)
+    patterns = {m: _member_name_regex(m) for m in roster}
+    changes: List[Dict[str, Any]] = []
+
+    def fix_sentence(sent: str, field: str) -> str:
+        words = _content_words(sent)
+        for m, pat in patterns.items():
+            if not pat.search(sent):
+                continue
+            # A clip / quoted-by label ("Dario Amodei (quoted by Jason Calacanis)") is the clip rule's job.
+            if re.search(r"quoted by|\(clip\)", sent, re.IGNORECASE):
+                continue
+            support = max((len(words & w) for w in cued.get(m, [])), default=0)
+            if support >= min_overlap:
+                continue
+            new = pat.sub("one host", sent)
+            new = re.sub(r"\bone host\b(\s+(?:and|,)\s+one host\b)+", "two hosts", new)
+            if new[:8] == "one host":
+                new = "One host" + new[8:]
+            changes.append({"episode": episode_ref, "field": field, "speaker": m, "before": sent[:300]})
+            sent = new
+        return sent
+
+    def fix_text(text: str, field: str) -> str:
+        if not text:
+            return text
+        parts = re.split(r"(?<=[.!?])(\s+)", text)
+        out = []
+        for p in parts:
+            if not p.isspace():
+                p = fix_sentence(p, field)
+                if p.startswith("one host"):
+                    p = "One host" + p[8:]
+            out.append(p)
+        return "".join(out)
+
+    if isinstance(analysis.get("summary"), str):
+        analysis["summary"] = fix_text(analysis["summary"], "summary")
+    if isinstance(analysis.get("investment_thesis"), str):
+        analysis["investment_thesis"] = fix_text(analysis["investment_thesis"], "investment_thesis")
+    kts = analysis.get("key_takeaways")
+    if isinstance(kts, list):
+        analysis["key_takeaways"] = [fix_text(k, f"key_takeaways[{i}]") if isinstance(k, str) else k
+                                     for i, k in enumerate(kts)]
+    for c in changes:
+        print(f"    ↺ Named sentence not backed by a cued quote, name → 'one host': {c['field']}: {c['speaker']}", flush=True)
     if changes:
         try:
             if log_path is None:
