@@ -795,7 +795,8 @@ def enforce_named_prose(
             if support >= min_overlap:
                 continue
             new = pat.sub("one host", sent)
-            new = re.sub(r"\bone host\b(\s+(?:and|,)\s+one host\b)+", "two hosts", new)
+            new = re.sub(r"\b([Oo])ne host\b(?:\s*(?:,|and)\s*one host\b)+",
+                         lambda mm: "Two hosts" if mm.group(1) == "O" else "two hosts", new)
             if new[:8] == "one host":
                 new = "One host" + new[8:]
             changes.append({"episode": episode_ref, "field": field, "speaker": m, "before": sent[:300]})

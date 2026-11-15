@@ -489,3 +489,11 @@ def test_deep_dive_structural_accepts_one_host_lines():
         "overview": "x" * 200, "investment_thesis": "y" * 200}
     ok, why = deep_dive_structural_ok(content)
     assert "name the speaker" not in why
+
+
+def test_prose_two_uncued_names_become_two_hosts(tmp_path):
+    analysis = {"summary": "Alex Wissner-Gross and Salim Ismail tie the moment to RASA.",
+                "key_takeaways": ["The panel, including Alex and Salim Ismail, discussed RASA."], "notable_quotes": []}
+    enforce_named_prose(analysis, MOON, extraction={}, log_path=tmp_path / "l.jsonl")
+    assert analysis["summary"] == "Two hosts tie the moment to RASA."
+    assert analysis["key_takeaways"][0] == "The panel, including two hosts, discussed RASA."
