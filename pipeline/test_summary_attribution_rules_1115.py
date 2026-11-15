@@ -333,3 +333,103 @@ class TestOvertonSpeaker:
         with db._get_connection() as conn:
             row = conn.execute("SELECT last_seen_speaker FROM suggested_terms").fetchone()
         assert row[0] == "A Person"
+
+
+# ---------------------------------------------------------------------------
+# Change 1 enforced in code: a named panel speaker needs a transcript cue
+# ---------------------------------------------------------------------------
+from speaker_attribution import enforce_speaker_cues, speaker_is_cued, verify_evidence_lines as _vel  # noqa: E402
+
+ALLIN = "All-In with Chamath, Jason, Sacks & Friedberg"
+MOON = "Moonshots with Peter Diamandis"
+FILLER = " and the market moved a lot this week on chips and models " * 3
+
+
+def _tx_allin():
+    return (
+        "Okay Sacks, what do you think about the board? I would say it's tragic for the United States "
+        "because Jensen is one of the key reasons Nvidia leads." + FILLER +
+        "Friedberg, your take? Huawei is far behind on yield." + FILLER +
+        "Okay I have two takes. I think Anthropic is building the Microsoft killer by bundling everything."
+    )
+
+
+def test_cue_keeps_addressed_cohost(tmp_path):
+    ex = {"high_value_quotes": [{"speaker": "Sacks", "quote": "I would say it's tragic for the United States"}]}
+    ch = enforce_speaker_cues(ex, _tx_allin(), ALLIN, log_path=tmp_path / "l.jsonl")
+    assert ch == []
+    assert ex["high_value_quotes"][0]["speaker"] == "David Sacks"
+
+
+def test_cue_relabels_when_last_named_cohost_is_someone_else(tmp_path):
+    # Last name said before the words is Friedberg's; the model guessed Sacks.
+    ex = {"companies_and_assets": [{"name": "Huawei", "key_quotes": [
+        {"speaker": "David Sacks", "quote": "Huawei is far behind on yield", "cue": "Huawei is far behind"}]}]}
+    ch = enforce_speaker_cues(ex, _tx_allin(), ALLIN, log_path=tmp_path / "l.jsonl")
+    assert ex["companies_and_assets"][0]["key_quotes"][0]["speaker"] == "one host"
+    assert ch and ch[0]["speaker"] == "David Sacks"
+    assert (tmp_path / "l.jsonl").read_text().count("David Sacks") == 1
+
+
+def test_cue_relabels_moderator_turn_credited_to_previous_speaker(tmp_path):
+    ex = {"high_value_quotes": [{"speaker": "David Friedberg",
+                                 "quote": "I think Anthropic is building the Microsoft killer"}]}
+    tx = _tx_allin().replace("Okay I have two takes.", FILLER * 20 + " Okay I have two takes.")
+    enforce_speaker_cues(ex, tx, ALLIN, log_path=tmp_path / "l.jsonl")
+    assert ex["high_value_quotes"][0]["speaker"] == "one host"
+
+
+def test_cue_ignores_third_person_mention():
+    tx = ("Emad, what's your timeline? Alex and I have spoken about two or three years. "
+          "Yeah I think two three years for knocking down the core mechanisms of disease.")
+    roster = ["Peter Diamandis", "Alex Wissner-Gross", "Salim Ismail", "Emad Mostaque"]
+    from speaker_attribution import _norm
+    assert not speaker_is_cued("Alex Wissner-Gross", "two three years for knocking down the core mechanisms",
+                               _norm(tx), roster)
+    assert speaker_is_cued("Emad Mostaque", "two three years for knocking down the core mechanisms",
+                           _norm(tx), roster)
+
+
+def test_cue_clip_voice_needs_own_name_whisper_spelling_ok(tmp_path):
+    tx = ("So Paul Cristiano opened the Hinton lectures with this statement quote "
+          "I think there is a high risk of an AI takeover within the next three years.")
+    ex = {"high_value_quotes": [
+        {"speaker": "Paul Christiano (clip)", "quote": "I think there is a high risk of an AI takeover"},
+        {"speaker": "Demis Hassabis (clip)", "quote": "within the next three years"}]}
+    enforce_speaker_cues(ex, tx, MOON, log_path=tmp_path / "l.jsonl")
+    assert ex["high_value_quotes"][0]["speaker"] == "Paul Christiano (clip)"
+    assert ex["high_value_quotes"][1]["speaker"] == "one host"
+
+
+def test_cue_hedged_or_unlocatable_labels_become_one_host(tmp_path):
+    ex = {"major_claims": [
+        {"claim": "x", "speaker": "one host / Alex Wissner-Gross", "evidence": ["AI is a universal translator"]},
+        {"claim": "y", "speaker": "Salim Ismail", "evidence": ["Repeated claims about disintermediation"]}]}
+    tx = "Alex, go. AI is a universal translator."
+    enforce_speaker_cues(ex, tx, MOON, log_path=tmp_path / "l.jsonl")
+    assert [c["speaker"] for c in ex["major_claims"]] == ["one host", "one host"]
+
+
+def test_cue_check_leaves_non_panel_shows_alone(tmp_path):
+    ex = {"high_value_quotes": [{"speaker": "Jack Farley", "quote": "rates matter"}]}
+    assert enforce_speaker_cues(ex, "rates matter", "Monetary Matters with Jack Farley",
+                                log_path=tmp_path / "l.jsonl") == []
+    assert ex["high_value_quotes"][0]["speaker"] == "Jack Farley"
+
+
+def test_cue_blanks_uncued_emerging_term_speaker(tmp_path):
+    ex = {"emerging_terms": [{"term": "RSI engine", "speaker": "David Sacks",
+                              "speaker_quote": "I think Anthropic is building the Microsoft killer"}]}
+    tx = _tx_allin().replace("Okay I have two takes.", FILLER * 20 + " Okay I have two takes.")
+    enforce_speaker_cues(ex, tx, ALLIN, log_path=tmp_path / "l.jsonl")
+    assert ex["emerging_terms"][0]["speaker"] == ""
+
+
+def test_evidence_line_speaker_relabelled_when_uncued(tmp_path):
+    tx = _tx_allin().replace("Okay I have two takes.", FILLER * 20 + " Okay I have two takes.")
+    lines = ["David Friedberg: I think Anthropic is building the Microsoft killer",
+             "David Sacks: I would say it's tragic for the United States"]
+    kept, drops = _vel(lines, tx, podcast_name=ALLIN, log_path=tmp_path / "l.jsonl")
+    assert drops == []
+    assert kept[0].startswith("one host: I think Anthropic")
+    assert kept[1].startswith("David Sacks:")

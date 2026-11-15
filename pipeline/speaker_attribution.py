@@ -442,6 +442,8 @@ def verify_evidence_lines(
     episode_ref: str = "",
     threshold: float = QUOTE_MATCH_THRESHOLD,
     log_path=None,
+    podcast_name: str = "",
+    show_notes: str = "",
 ) -> Tuple[Any, List[Dict[str, Any]]]:
     """Deep Dive episode_evidence: drop lines whose quote is not verbatim in the transcript.
 
@@ -462,6 +464,11 @@ def verify_evidence_lines(
             drops.append({"episode": episode_ref, "field": "deep_dive.episode_evidence",
                           "speaker": speaker, "quote": quote})
             continue
+        if podcast_name and speaker and quote and is_host_panel_show(podcast_name):
+            roster = episode_roster(podcast_name, show_notes)
+            if not speaker_is_cued(speaker, quote, _norm(transcript), roster):
+                print(f"    ↺ Evidence speaker not cued in transcript, now 'one host': {speaker}", flush=True)
+                line = f"one host: {quote}"
         kept.append(line)
     _log_drops(drops, log_path)
     return (kept if as_list else "\n".join(kept)), drops
@@ -492,4 +499,196 @@ def apply_attribution_rules(
     dropped_quotes = verify_analysis_quotes(
         analysis, transcript, episode_ref=episode_ref, log_path=log_path
     )
-    return {"dropped_guests": dropped_guests, "dropped_quotes": dropped_quotes}
+    relabels = enforce_speaker_cues(
+        analysis, transcript, podcast_name, show_notes=show_notes, episode_ref=episode_ref,
+        log_path=(str(log_path).replace("quote_check_drops", "speaker_cue_relabels") if log_path else None),
+    )
+    return {"dropped_guests": dropped_guests, "dropped_quotes": dropped_quotes, "speaker_relabels": relabels}
+
+
+# ---------------------------------------------------------------------------
+# Change 1, enforced in code: a named speaker needs a cue near the words
+# ---------------------------------------------------------------------------
+# The model is asked for a cue, but the Nov 15 re-run showed it fills "cue" with a
+# fragment of the quote itself and still guesses (Calacanis's "Microsoft killer" line
+# went to Friedberg; Friedberg's "management conversations" line went to Sacks). So on
+# panel shows a named label is kept only when the transcript backs it: the person's
+# name (or a known nickname / Whisper spelling) appears shortly before the words, i.e.
+# they were addressed or introduced. Otherwise the label becomes "one host".
+
+CUE_WINDOW_CHARS = 3000         # roster member: nearest roster name before the words, this close
+CLIP_CUE_WINDOW_CHARS = 4000    # clip / quoted voice: their own name before playing/reading
+_CLAIM_LISTS = ("major_claims", "predictions", "investment_ideas", "contrarian_ideas", "risks")
+
+
+def _norm(s: str) -> str:
+    from two_pass_analyzer import normalize_for_quote_match
+    return normalize_for_quote_match(s or "")
+
+
+def _locate(norm_quote: str, norm_tx: str) -> int:
+    """Char offset of the quote in the normalized transcript, or -1."""
+    if not norm_quote:
+        return -1
+    i = norm_tx.find(norm_quote[:80])
+    if i >= 0:
+        return i
+    words = norm_quote.split()
+    for start in range(0, max(1, len(words) - 5), 2):
+        probe = " ".join(words[start:start + 6])
+        if len(probe) < 15:
+            continue
+        i = norm_tx.find(probe)
+        if i >= 0:
+            return max(0, i - len(" ".join(words[:start])) - 1)
+    return -1
+
+
+def _roster_tokens(member: str) -> List[str]:
+    toks = set(_ROSTER_ALIASES.get(member, []))
+    toks.add(member.split()[-1])
+    toks.add(member.split()[0])
+    return [t for t in {_norm(t) for t in toks} if len(t) >= 3]
+
+
+# "Alex and I have spoken…", "Sacks said…": talking about someone, not handing them the floor.
+_THIRD_PERSON = r" (?:and|said|says|mentioned|told|was|is|has|had|thinks|thought|wrote|tweeted|posted)\b"
+
+
+def _last_roster_mention(text: str, roster: List[str]):
+    """(member, offset) of the last roster name in ``text``, or (None, -1)."""
+    best = (None, -1)
+    for m in roster:
+        for t in _roster_tokens(m):
+            for mm in re.finditer(r"(?<![a-z0-9])" + re.escape(t) + r"(?![a-z0-9])(?!" + _THIRD_PERSON + r")", text):
+                if mm.start() > best[1]:
+                    best = (m, mm.start())
+    return best
+
+
+def _names_outsider(window: str, label: str) -> bool:
+    """Clip / quoted voice named in the window (first name, or a Whisper-close surname)."""
+    from difflib import SequenceMatcher
+    parts = [_norm(p) for p in base_speaker_name(label).split() if p]
+    if not parts:
+        return False
+    words = set(window.split())
+    first, last = parts[0], parts[-1]
+    if len(first) >= 4 and first in words:
+        return True
+    if len(last) >= 4:
+        for w in words:
+            if w == last or (len(last) >= 5 and SequenceMatcher(None, w, last).ratio() >= 0.8):
+                return True
+    return False
+
+
+def is_hedged_label(label: str) -> bool:
+    """'one host / Alex', 'Salim (inferred)', 'Alex and one host': the model itself is unsure."""
+    if is_clip_label(label):
+        return False
+    return bool(re.search(r"/|\bone host\b|\bpanel|\binferred\b|\bunclear\b|\bprobably\b|\blikely\b|\band\b|\?",
+                          label, re.IGNORECASE))
+
+
+def speaker_is_cued(label: str, quote: str, transcript_norm: str, roster: List[str], cue: str = "") -> bool:
+    """True when the transcript itself points at ``label`` for these words.
+
+    Roster member: the last roster name said before the words is this person (they were just
+    addressed, or the moderator handed to them) and it is within CUE_WINDOW_CHARS.
+    Clip / quoted / outside voice: their own name is said within CLIP_CUE_WINDOW_CHARS before.
+    Without speaker labels this cannot see turn changes, so it errs toward "one host".
+    """
+    if is_generic_speaker(label):
+        return True
+    if is_hedged_label(label):
+        return False
+    pos = _locate(_norm(quote), transcript_norm)
+    if pos < 0:
+        return False
+    canon = None if is_clip_label(label) else canonical_roster_name(label, roster)
+    if canon:
+        lo = max(0, pos - CUE_WINDOW_CHARS)
+        member, off = _last_roster_mention(transcript_norm[lo:pos], roster)
+        return member == canon
+    return _names_outsider(transcript_norm[max(0, pos - CLIP_CUE_WINDOW_CHARS):pos], label)
+
+
+def enforce_speaker_cues(
+    extraction: Dict[str, Any],
+    transcript: str,
+    podcast_name: str,
+    *,
+    show_notes: str = "",
+    episode_ref: str = "",
+    log_path=None,
+) -> List[Dict[str, Any]]:
+    """Panel shows: relabel to 'one host' every quote / claim speaker the transcript does not cue.
+
+    Edits ``extraction`` (pass-1 output or a final analysis) in place; returns the relabels.
+    """
+    if not is_host_panel_show(podcast_name) or not transcript or not extraction:
+        return []
+    roster = episode_roster(podcast_name, show_notes)
+    tnorm = _norm(transcript)
+    changes: List[Dict[str, Any]] = []
+
+    def check(item: Dict[str, Any], field: str, evidence: List[str]):
+        label = (item.get("speaker") or "").strip()
+        if not label or is_generic_speaker(label):
+            return
+        cue = item.get("cue") or ""
+        ok = any(speaker_is_cued(label, ev, tnorm, roster, cue) for ev in evidence if ev)
+        if not ok:
+            changes.append({"episode": episode_ref, "field": field, "speaker": label,
+                            "quote": (evidence[0] if evidence else "")[:300]})
+            item["speaker"] = "one host"
+        else:
+            canon = canonical_roster_name(label, roster) if not is_clip_label(label) else None
+            if canon:
+                item["speaker"] = canon
+
+    for q in extraction.get("high_value_quotes") or []:
+        if isinstance(q, dict):
+            check(q, "high_value_quotes", [q.get("quote") or ""])
+    for q in extraction.get("notable_quotes") or []:
+        if isinstance(q, dict):
+            check(q, "notable_quotes", [q.get("quote") or ""])
+    for ca in extraction.get("companies_and_assets") or []:
+        if isinstance(ca, dict):
+            for kq in ca.get("key_quotes") or []:
+                if isinstance(kq, dict):
+                    check(kq, f"companies_and_assets[{ca.get('name', '')}].key_quotes", [kq.get("quote") or ""])
+    for key in _CLAIM_LISTS:
+        for c in extraction.get(key) or []:
+            if not isinstance(c, dict) or not c.get("speaker"):
+                continue
+            ev = []
+            for f in ("evidence", "support_from_transcript", "quote", "quotes"):
+                v = c.get(f)
+                if isinstance(v, str):
+                    ev.append(v)
+                elif isinstance(v, list):
+                    ev.extend(str(x.get("quote") if isinstance(x, dict) else x) for x in v)
+            # Claim text is a paraphrase; only verbatim evidence can be located.
+            check(c, key, ev)
+    for et in extraction.get("emerging_terms") or []:
+        if isinstance(et, dict) and et.get("speaker"):
+            check(et, f"emerging_terms[{et.get('term', '')}]", [et.get("speaker_quote") or ""])
+            if et.get("speaker") == "one host":
+                et["speaker"] = ""
+
+    for c in changes:
+        print(f"    ↺ Speaker not cued in transcript, now 'one host': {c['field']}: {c['speaker']}", flush=True)
+    if changes:
+        try:
+            if log_path is None:
+                from workspace_paths import STATE_DIR
+                STATE_DIR.mkdir(parents=True, exist_ok=True)
+                log_path = STATE_DIR / "speaker_cue_relabels.jsonl"
+            with open(log_path, "a", encoding="utf-8") as f:
+                for c in changes:
+                    f.write(json.dumps({"ts": datetime.now().isoformat(timespec="seconds"), **c}) + "\n")
+        except Exception as exc:
+            print(f"    ⚠ Could not write speaker_cue_relabels log: {exc}", flush=True)
+    return changes

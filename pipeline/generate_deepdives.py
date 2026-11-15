@@ -643,14 +643,16 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     return True, ""
 
 
-def apply_evidence_quote_check(content: Dict[str, Any], transcript: str, episode_ref: str = "") -> List[Dict[str, Any]]:
+def apply_evidence_quote_check(content: Dict[str, Any], transcript: str, episode_ref: str = "",
+                               podcast_name: str = "") -> List[Dict[str, Any]]:
     """Change 4 (Jared, Nov 15): drop Deep Dive episode_evidence lines whose quote is not
     verbatim in the transcript (fuzzy 0.85). Edits content in place; drops are logged to
     pipeline/state/quote_check_drops.jsonl. Never rewords a line."""
     if not content or not transcript:
         return []
     from speaker_attribution import verify_evidence_lines
-    kept, drops = verify_evidence_lines(content.get("episode_evidence"), transcript, episode_ref=episode_ref)
+    kept, drops = verify_evidence_lines(content.get("episode_evidence"), transcript, episode_ref=episode_ref,
+                                        podcast_name=podcast_name)
     content["episode_evidence"] = kept
     return drops
 
@@ -1274,6 +1276,7 @@ def run_extraction_deep_dive_attempts(
     guest_names: Optional[List[str]] = None,
     transcript: str = "",
     episode_ref: str = "",
+    podcast_name: str = "",
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
     """Generate deep dive from extraction with retries for structural checks.
     
@@ -1318,7 +1321,7 @@ def run_extraction_deep_dive_attempts(
             final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
             return None, err, final_usage
         
-        qc_drops = apply_evidence_quote_check(content, transcript, episode_ref)
+        qc_drops = apply_evidence_quote_check(content, transcript, episode_ref, podcast_name)
         evidence = _episode_evidence_text(content.get("episode_evidence"))
         whats_new = str(content.get("overview") or "")
         thesis = str(content.get("investment_thesis") or "")
@@ -1364,6 +1367,7 @@ def run_deep_dive_generation_attempts(
     host_name: Optional[str] = None,
     guest_names: Optional[List[str]] = None,
     max_attempts: int = MAX_GENERATION_ATTEMPTS,
+    podcast_name: str = "",
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
     """Generate with retries when overlap or structural checks fail (LEGACY mode).
     
@@ -1412,7 +1416,8 @@ def run_deep_dive_generation_attempts(
             continue
 
         qc_drops = apply_evidence_quote_check(
-            content, source_content if source_type == "podcast" else "", f"insight {insight_id}"
+            content, source_content if source_type == "podcast" else "", f"insight {insight_id}",
+            podcast_name if source_type == "podcast" else "",
         )
         evidence = _episode_evidence_text(content.get("episode_evidence"))
         whats_new = str(content.get("overview") or "")
@@ -1646,6 +1651,7 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                         guest_names=guest_names,
                         transcript=_safe_source_content(insight_id, source_type, episode_id),
                         episode_ref=f"insight {insight_id}",
+                        podcast_name=source_name or "",
                     )
                 else:
                     err_detail = "No OpenAI client available for extraction mode"
@@ -1668,6 +1674,7 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                 key_takeaway,
                 host_name=host_name,
                 guest_names=guest_names,
+                podcast_name=source_name or "",
             )
         elif content is None and err_detail and generation_mode == "extraction":
             # Cost fix 2026-10-16: no blind gpt-5.5 fallback. Billing/quota/auth/rate errors fail fast; a
@@ -1694,6 +1701,7 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                     host_name=host_name,
                     guest_names=guest_names,
                     max_attempts=1,
+                    podcast_name=source_name or "",
                 )
             else:
                 print(f"    ⏭ Extraction failed ({err_detail[:60]}); no gpt-5.5 fallback ({why}). "

@@ -1416,6 +1416,18 @@ def analyze_transcript_two_pass(
         except Exception:
             pass
     
+    # Change 1 in code: on panel shows a named speaker needs a transcript cue, else "one host".
+    try:
+        from speaker_attribution import enforce_speaker_cues
+        _relabels = enforce_speaker_cues(
+            extraction, transcript, podcast_name, show_notes=show_notes,
+            episode_ref=f"{podcast_name} | {episode_title}"[:200],
+        )
+        if _relabels:
+            print(f"    ↺ {len(_relabels)} extraction speaker label(s) had no transcript cue → 'one host'", flush=True)
+    except Exception as _exc:
+        print(f"    ⚠ Speaker cue check skipped: {_exc}", flush=True)
+    
     extraction_json = json.dumps(extraction, indent=2)
     
     print(f"    Pass 2: Synthesizing with {PASS2_MODEL}...", flush=True)
