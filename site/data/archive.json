@@ -114,7 +114,7 @@
         "T"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-11-14",
       "archived_date": null,
@@ -317,7 +317,7 @@
         "AVGO"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-11",
       "archived_date": null,
