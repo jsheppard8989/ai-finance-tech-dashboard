@@ -1752,8 +1752,13 @@ class DashboardDB:
         episode_id: Optional[int] = None,
         detected_by: Optional[str] = None,
         speaker_quote: Optional[str] = None,
+        clear_speaker_if_none: bool = False,
     ) -> bool:
-        """Insert or update suggested_terms from AI episode analysis. Returns True if new."""
+        """Insert or update suggested_terms from AI episode analysis. Returns True if new.
+
+        clear_speaker_if_none: when this is a new episode for the term and the speaker is
+        unknown, clear last_seen_speaker instead of keeping the previous episode's name.
+        """
         term_clean = self.resolve_term((term or "").strip())
         if not term_clean or len(term_clean) < 3:
             return False
@@ -1800,7 +1805,7 @@ class DashboardDB:
                             sets.append("source_diversity = source_diversity + 1")
                         sets.append("last_seen_episode_id = ?")
                         params.append(db_episode_id)
-                    if speaker:
+                    if speaker or clear_speaker_if_none:
                         sets.append("last_seen_speaker = ?")
                         params.append(speaker)
                 elif speaker:
@@ -1812,7 +1817,10 @@ class DashboardDB:
                     f"UPDATE suggested_terms SET {', '.join(sets)} WHERE id = ?",
                     tuple(params),
                 )
-                self.sync_overton_from_suggested(conn, term_clean)
+                self.sync_overton_from_suggested(
+                    conn, term_clean,
+                    exact_last_speaker=bool(clear_speaker_if_none and not same_episode),
+                )
                 return False
             conn.execute(
                 """
@@ -1844,9 +1852,11 @@ class DashboardDB:
         *,
         episode_id: int,
         detected_by: Optional[str] = None,
+        clear_speaker_if_none: bool = False,
     ) -> bool:
         """
         Increment mention counts when a known term appears in an episode transcript.
+        clear_speaker_if_none: an unknown speaker clears the previous episode's speaker.
         Skips if this episode was already recorded as last_seen for the term.
         """
         term_clean = self.resolve_term((term or "").strip())
@@ -1904,7 +1914,7 @@ class DashboardDB:
                 new_episode = True
             if new_episode:
                 sets.append("source_diversity = source_diversity + 1")
-            if speaker:
+            if speaker or clear_speaker_if_none:
                 sets.append("last_seen_speaker = ?")
                 params.append(speaker)
             params.append(row["id"])
@@ -1912,7 +1922,7 @@ class DashboardDB:
                 f"UPDATE suggested_terms SET {', '.join(sets)} WHERE id = ?",
                 tuple(params),
             )
-            self.sync_overton_from_suggested(conn, term_clean)
+            self.sync_overton_from_suggested(conn, term_clean, exact_last_speaker=clear_speaker_if_none)
             return True
 
         if ot_row:
@@ -1927,12 +1937,12 @@ class DashboardDB:
                 SET mention_count = mention_count + 1,
                     last_mentioned_date = COALESCE(?, date('now')),
                     last_mentioned_episode_id = ?,
-                    last_mentioned_speaker = COALESCE(?, last_mentioned_speaker),
+                    last_mentioned_speaker = CASE WHEN ? THEN ? ELSE COALESCE(?, last_mentioned_speaker) END,
                     first_detected_episode_id = COALESCE(first_detected_episode_id, ?),
                     first_detected_speaker = COALESCE(first_detected_speaker, ?)
                 WHERE id = ?
                 """,
-                (last_md, eid, speaker, eid, speaker, ot_row["id"]),
+                (last_md, eid, 1 if clear_speaker_if_none else 0, speaker, speaker, eid, speaker, ot_row["id"]),
             )
             return True
 
@@ -1953,8 +1963,13 @@ class DashboardDB:
                     n += 1
         return n
 
-    def sync_overton_from_suggested(self, conn, term_clean: str) -> bool:
-        """Keep overton_terms counts and first/last attribution in sync with suggested_terms."""
+    def sync_overton_from_suggested(self, conn, term_clean: str, exact_last_speaker: bool = False) -> bool:
+        """Keep overton_terms counts and first/last attribution in sync with suggested_terms.
+
+        exact_last_speaker: copy last_seen_speaker as-is (NULL clears it) instead of
+        falling back to the first speaker / the previous value. Used when a new episode
+        has just been recorded for the term.
+        """
         term_clean = (term_clean or "").strip()
         if not term_clean:
             return False
@@ -1991,7 +2006,10 @@ class DashboardDB:
         feid = suggested["first_seen_episode_id"]
         leid = suggested["last_seen_episode_id"] or feid
         fspeaker = (suggested["first_seen_speaker"] or "").strip() or None
-        lspeaker = (suggested["last_seen_speaker"] or fspeaker or "").strip() or None
+        if exact_last_speaker:
+            lspeaker = (suggested["last_seen_speaker"] or "").strip() or None
+        else:
+            lspeaker = (suggested["last_seen_speaker"] or fspeaker or "").strip() or None
         first_d = _episode_date(feid)
         if not first_d:
             sub = suggested["submitted_date"]
@@ -2015,7 +2033,7 @@ class DashboardDB:
                 first_detected_episode_id = COALESCE(first_detected_episode_id, ?),
                 first_detected_speaker = COALESCE(first_detected_speaker, ?),
                 last_mentioned_episode_id = ?,
-                last_mentioned_speaker = COALESCE(?, last_mentioned_speaker)
+                last_mentioned_speaker = CASE WHEN ? THEN ? ELSE COALESCE(?, last_mentioned_speaker) END
             WHERE LOWER(TRIM(term)) = LOWER(?)
             """,
             (
@@ -2027,6 +2045,8 @@ class DashboardDB:
                 feid,
                 fspeaker,
                 leid or feid,
+                1 if exact_last_speaker else 0,
+                lspeaker,
                 lspeaker,
                 term_clean,
             ),

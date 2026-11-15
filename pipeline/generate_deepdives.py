@@ -643,6 +643,37 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     return True, ""
 
 
+def apply_evidence_quote_check(content: Dict[str, Any], transcript: str, episode_ref: str = "") -> List[Dict[str, Any]]:
+    """Change 4 (Jared, Nov 15): drop Deep Dive episode_evidence lines whose quote is not
+    verbatim in the transcript (fuzzy 0.85). Edits content in place; drops are logged to
+    pipeline/state/quote_check_drops.jsonl. Never rewords a line."""
+    if not content or not transcript:
+        return []
+    from speaker_attribution import verify_evidence_lines
+    kept, drops = verify_evidence_lines(content.get("episode_evidence"), transcript, episode_ref=episode_ref)
+    content["episode_evidence"] = kept
+    return drops
+
+
+def _safe_source_content(insight_id: int, source_type: str, episode_id: Optional[int]) -> str:
+    """Transcript for the quote check; '' (check skipped) if it cannot be read."""
+    if source_type != "podcast" or not episode_id:
+        return ""
+    try:
+        return get_source_content(insight_id, source_type, episode_id) or ""
+    except Exception as exc:
+        print(f"    ⚠ Quote check skipped (no transcript): {exc}", flush=True)
+        return ""
+
+
+def _quote_check_hint(drops: List[Dict[str, Any]]) -> str:
+    if not drops:
+        return ""
+    sample = "; ".join(d["quote"][:70] for d in drops[:2])
+    return (f"QUOTE CHECK: {len(drops)} evidence line(s) were not found verbatim in the transcript and were "
+            f"removed ({sample}). Copy quotes exactly; keep clip voices as 'Name (clip)' or 'Name (quoted by Host)'.")
+
+
 def sanitize_ticker_analysis(ticker_analysis: dict) -> dict:
     """Remove placeholder keys (TICKER1, Ticker2, etc.) so only real symbols are stored."""
     if not ticker_analysis or not isinstance(ticker_analysis, dict):
@@ -875,7 +906,7 @@ Your job is to produce a rich Deep Dive with:
 
 CRITICAL RULES:
 1. Quotes in episode_evidence MUST be VERBATIM from the extraction's high_value_quotes or companies_and_assets[].key_quotes. Do NOT invent quotes.
-2. Each quote line MUST start with "Speaker Name: " using the speaker's full name.
+2. Each quote line MUST start with "Speaker Name: " using the speaker label EXACTLY as the extraction gives it for that quote (keep "(clip)" / "(quoted by ...)"). Never move a quote to a different speaker, and never credit a clip or read-aloud quote to the host who played or read it. Skip quotes whose extraction speaker is "one host" or blank.
 3. overview MUST NOT paraphrase the insight card summary - add new substance.
 4. Investment thesis MUST be actionable - what should investors watch or do?
 5. falsification_tracks MUST be testable - EVERY line needs (i) a date or "by <date>", (ii) a numeric threshold, and (iii) the named source that grades it (e.g. "10-Q", "8-K", "EIA", "FERC docket"). Example: "Revenue under $318M in the Q3 2026 10-Q, due by Nov 9, 2026."
@@ -1241,6 +1272,8 @@ def run_extraction_deep_dive_attempts(
     key_takeaway: str,
     host_name: Optional[str] = None,
     guest_names: Optional[List[str]] = None,
+    transcript: str = "",
+    episode_ref: str = "",
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
     """Generate deep dive from extraction with retries for structural checks.
     
@@ -1285,6 +1318,7 @@ def run_extraction_deep_dive_attempts(
             final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
             return None, err, final_usage
         
+        qc_drops = apply_evidence_quote_check(content, transcript, episode_ref)
         evidence = _episode_evidence_text(content.get("episode_evidence"))
         whats_new = str(content.get("overview") or "")
         thesis = str(content.get("investment_thesis") or "")
@@ -1294,6 +1328,8 @@ def run_extraction_deep_dive_attempts(
         validation_errors: List[str] = []
         if not ok_struct:
             validation_errors.append(f"Structural check failed: {struct_reason}.")
+            if qc_drops:
+                validation_errors.append(_quote_check_hint(qc_drops))
         
         overlap = insight_body_overlap_ratio(insight_summary, key_takeaway, content)
         if overlap > INSIGHT_OVERLAP_REJECT:
@@ -1375,6 +1411,9 @@ def run_deep_dive_generation_attempts(
                 return None, err, {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
             continue
 
+        qc_drops = apply_evidence_quote_check(
+            content, source_content if source_type == "podcast" else "", f"insight {insight_id}"
+        )
         evidence = _episode_evidence_text(content.get("episode_evidence"))
         whats_new = str(content.get("overview") or "")
         thesis = str(content.get("investment_thesis") or "")
@@ -1409,6 +1448,8 @@ def run_deep_dive_generation_attempts(
             )
         if not ok_struct:
             validation_errors.append(f"Structural check failed: {struct_reason}.")
+            if qc_drops:
+                validation_errors.append(_quote_check_hint(qc_drops))
 
         if validation_errors:
             retry_hint = " ".join(validation_errors) + (
@@ -1537,6 +1578,12 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
         # Extract speaker names for podcasts
         host_name = _extract_host_from_source_name(source_name) if source_type == "podcast" else None
         guest_names = _extract_speakers_from_notable_quotes(notable_quotes) if source_type == "podcast" else None
+        if source_type == "podcast":
+            from speaker_attribution import show_roster
+            _roster = show_roster(source_name)
+            if _roster:  # panel show: fixed host roster; quote speakers are not guests
+                host_name = ", ".join(_roster)
+                guest_names = None
 
         print(f"[{insight_id}] {title[:60]}", flush=True)
         if host_name or guest_names:
@@ -1597,6 +1644,8 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                         key_takeaway,
                         host_name=host_name,
                         guest_names=guest_names,
+                        transcript=_safe_source_content(insight_id, source_type, episode_id),
+                        episode_ref=f"insight {insight_id}",
                     )
                 else:
                     err_detail = "No OpenAI client available for extraction mode"
