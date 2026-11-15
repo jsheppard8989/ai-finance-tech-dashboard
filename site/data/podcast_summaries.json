@@ -1,5 +1,23 @@
 [
   {
+    "id": 683,
+    "podcast_name": "The a16z Show",
+    "episode_title": "What Breaks When You Scale 10x? | Zipline\u2019s Keller Cliffton",
+    "episode_date": "2026-11-15",
+    "summary": "Keller Cliffton\u2019s central argument is that Zipline\u2019s growth has required repeated operational reinvention: every time the company scaled by roughly 10x, earlier systems broke and had to be redesigned. He says that was especially true because autonomous flight was illegal in the U.S. when Zipline started, forcing the company to launch first in Rwanda in 2016 and build a regulatory and operational model outside the U.S.\n\nHe frames Zipline\u2019s early healthcare mission as proof that logistics access can change outcomes. Cliffton says the company launched blood delivery to 21 hospitals in Rwanda and that a University of Pennsylvania publication found a 51% reduction in maternal mortality from postpartum hemorrhage. He also claims Zipline accumulated 150 million commercial autonomous miles with zero safety incidents in front of the FAA, which helped unlock U.S. operations.\n\nThe episode then shifts to Zipline\u2019s next phase: moving from fixed-wing systems to a next-generation VTOL platform while building a marketplace and manufacturing footprint for broader U.S. deployment. Cliffton says the company expects to reach 1 million deliveries per day in the very near future and argues that U.S. demand for instant delivery is far larger than current usage.\n\nHis most ambitious claim is that there are already 5.5 billion instant deliveries happening in the U.S. and demand could be as high as 50 billion. The underlying thesis is that if delivery becomes fast, reliable, and safe enough, it won\u2019t just improve existing logistics\u2014it will create a much larger category of consumption.",
+    "key_takeaways": [
+      "Keller Cliffton said Zipline had to launch outside the U.S. because autonomous flight was illegal domestically when the company started.",
+      "Keller Cliffton said Zipline launched in Rwanda in 2016 and began by delivering blood transfusions to 21 hospitals.",
+      "Keller Cliffton said a University of Pennsylvania publication found Zipline reduced maternal mortality from postpartum hemorrhage by 51%.",
+      "Keller Cliffton said Zipline brought 150 million commercial autonomous miles with zero safety incidents to the FAA.",
+      "Keller Cliffton said Zipline expects to do 1 million deliveries a day in the very near future.",
+      "Keller Cliffton said U.S. instant deliveries are already at 5.5 billion and there is demand for 50 billion.",
+      "Keller Cliffton said every 10x scale-up forces the company to reinvent major parts of its operations."
+    ],
+    "investment_thesis": "Cliffton\u2019s core claim is that Zipline\u2019s infrastructure could scale to 1 million deliveries a day because its regulatory, safety, and operational model has already proven itself.",
+    "key_tickers": null
+  },
+  {
     "id": 682,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "The Case for Public Markets | Cromwell Coulson on Small-Cap Capital Formation, Disclosure, and SEC Offering Reform",
