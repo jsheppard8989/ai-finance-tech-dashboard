@@ -319,7 +319,7 @@
     "last_episode_date": "2026-10-18",
     "mention_score": 4,
     "mention_score_decayed": 2.09,
-    "last_main_idea": "Bianco\u2019s core claim is that long-term Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
+    "last_main_idea": "Bianco\u2019s core claim is that long-duration (prices move more when rates change) Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-18 \u2022 Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
     "last_proof_snippet": "Let's call that three-ish percent inflation, and I think inflation is going to stay sticky in the three percent range, and we could go through that if you want, and two-ish percent real growth. So, that will give you between five and six.",
     "supporting_takeaway": "Bianco said inflation is likely to stay \"sticky\" around 3% because tariffs, wars, deglobalization, and supply constraints have reduced the odds of returning to goods deflation.",
@@ -605,7 +605,7 @@
     "last_episode_date": "2026-11-02",
     "mention_score": 2,
     "mention_score_decayed": 1.48,
-    "last_main_idea": "Late-2025 liquidity rollover should favor long-term Treasuries over credit and leave Bitcoin and gold highly sensitive to 2027 policy and refinancing stress.",
+    "last_main_idea": "Late-2025 liquidity rollover should favor long-duration (prices move more when rates change) Treasuries over credit and leave Bitcoin and gold highly sensitive to 2027 policy and refinancing stress.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-02 \u2022 Preparing For 2027 Inflection in Global Liquidity | Michael Howell\u2019s Bull Case For Bonds and Tepid View of Liquidity-Sensitive Assets",
     "last_proof_snippet": "The AI build-out is draining liquidity and Michael Hallis says the global liquidity cycle has turned. He's calling for a sharp slowdown in 2027 for Bitcoin to retest 70,000 for bonds to beat stocks and a bottom in liquidity by late 2027.",
     "supporting_takeaway": "Michael Howell argues the real market problem is refinancing stress: debt must be rolled, and slowing liquidity creates pressure in collateral and repo markets.",
@@ -1081,7 +1081,7 @@
     "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "last_episode_date": "2026-11-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "SilverRock\u2019s edge is complexity-driven private credit, especially primary financing and selective bank-asset purchases where modest discounts and careful structuring can produce attractive risk-adjusted returns.",
     "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-11-12 \u2022 Banks Are Trying to Offload a Large Pile of AI-Related Loans",
     "last_proof_snippet": "Speaker 1: My name is James Crombie. I'm a senior editor at Bloomberg. Speaker 2: And I'm Nagisa Baluku, a senior analyst at Bloomberg Intelligence.",
@@ -1459,7 +1459,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "AI-native software stacks will shift value toward context engineering, verification, and agentic workflow platforms while making code review and security the main adoption bottlenecks.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-08 \u2022 [One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering \u2014 Mihail Eric, Monaco",
     "last_proof_snippet": "Okay, this is a pretty special episode because we're celebrating one million subscribers on the AIU Code, uh, AI, AI Engineer YouTube channel.",
@@ -1486,7 +1486,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Private credit\u2019s retail liquidity mismatch and delayed loss recognition will expose hidden deterioration first in data-center and direct-lending exposures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-08 \u2022 Following the Private Credit Loan Books | Laks Ganapathi",
     "last_proof_snippet": "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, Lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to Tangibles. Learn more at Sarmayaetf.",
@@ -3567,7 +3567,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-15 \u2022 Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
     "last_proof_snippet": "",
@@ -3712,33 +3712,6 @@
     "pundit_profile": null
   },
   {
-    "id": 529,
-    "name": "Charles Lemonides",
-    "slug": "charles-le-manides",
-    "bio": "CIO and founder of ValueWorks LLC.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 04:43:17",
-    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.47,
-    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
-    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years.",
-    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 436,
     "name": "Justin Johnson",
     "slug": "justin-johnson",
@@ -3858,6 +3831,33 @@
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 529,
+    "name": "Charles Lemonides",
+    "slug": "charles-le-manides",
+    "bio": "CIO and founder of ValueWorks LLC.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 04:43:17",
+    "last_episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.46,
+    "last_main_idea": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-12 \u2022 Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "last_proof_snippet": "This market has gone up into the right without a more than a 25% correction for 18 years.",
+    "supporting_takeaway": "Charles Lemonides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 528,
@@ -6102,7 +6102,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "The Fed is expected to implement two more rate hikes, indicating a continued hawkish monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-16 \u2022 Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
     "last_proof_snippet": "",
@@ -6139,65 +6139,6 @@
         }
       ]
     }
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
-    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
-    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
-    "voice_tone": "Candid and thoughtful.",
-    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
-    "voice_profile_updated_at": "2026-08-18 04:34:22",
-    "last_seen": "2026-08-18 04:34:22",
-    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-18",
-    "mention_score": 2,
-    "mention_score_decayed": 0.26,
-    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Garrett Langley",
-      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
-      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
-      "derived": {
-        "current_role": "CEO of Flock"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
-        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
-      ],
-      "sections": [
-        {
-          "heading": "Flock's Impact",
-          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
-        },
-        {
-          "heading": "Safety and Privacy",
-          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
-        },
-        {
-          "heading": "Community Adoption",
-          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 459,
@@ -6505,6 +6446,65 @@
         }
       ]
     }
+  },
+  {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
+    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
+    "voice_tone": "Candid and thoughtful.",
+    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
+    "voice_profile_updated_at": "2026-08-18 04:34:22",
+    "last_seen": "2026-08-18 04:34:22",
+    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 2,
+    "mention_score_decayed": 0.25,
+    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Garrett Langley",
+      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
+      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
+      "derived": {
+        "current_role": "CEO of Flock"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
+        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
+      ],
+      "sections": [
+        {
+          "heading": "Flock's Impact",
+          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
+        },
+        {
+          "heading": "Safety and Privacy",
+          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
+        },
+        {
+          "heading": "Community Adoption",
+          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
   },
   {
     "id": 452,
@@ -9470,124 +9470,6 @@
     "net_worth": "$500.0M"
   },
   {
-    "id": 382,
-    "name": "Dino Ceranic",
-    "slug": "dino-ceranic",
-    "bio": "Dino Ceranic is the co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ships. His work has been instrumental in pioneering the use of autonomous technology in military operations, particularly in high-stakes environments such as the Strait of Hormuz.",
-    "known_for": "Pioneering the use of autonomous ships in military operations.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and passionate about the impact of autonomous technology on defense.",
-    "voice_style": "Direct and factual, with a focus on the practical implications of the technology.",
-    "voice_delivery_notes": "Speaks with a sense of urgency and pride in their work.",
-    "voice_profile_updated_at": "2026-08-06 04:38:17",
-    "last_seen": "2026-08-06 04:38:17",
-    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-05",
-    "mention_score": 1,
-    "mention_score_decayed": 0.1,
-    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-05T23:39:27.883151",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dino Ceranic",
-      "fetched_at": "2026-08-06T04:39:27.882793+00:00",
-      "cliff_notes": "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz. This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors.",
-      "derived": {
-        "current_role": "Co-founder of Ceranic"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz.",
-        "This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Ship Technology",
-          "body": "Dino Ceranic has been instrumental in the development of autonomous ship technology, which has significant implications for military operations and maritime security."
-        },
-        {
-          "heading": "Military Applications",
-          "body": "Ceranic's work has been highlighted by the successful deployment of autonomous ships in military operations, demonstrating the potential of this technology in high-stakes environments."
-        },
-        {
-          "heading": "Innovation in Defense",
-          "body": "As a leader in the defense industry, Ceranic has helped to pioneer new approaches to maritime defense, leveraging autonomous systems to enhance operational capabilities."
-        }
-      ]
-    }
-  },
-  {
-    "id": 383,
-    "name": "Vibhav Altekar",
-    "slug": "vib-altacar",
-    "bio": "Vibhav Altekar is a co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ship technology. His work has been instrumental in advancing maritime defense capabilities, with recent applications in strategic locations such as the Strait of Hormuz.",
-    "known_for": "Pioneering the deployment of autonomous ships in maritime defense applications.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Supportive and informative, providing insights into the industry.",
-    "voice_style": "Collaborative, emphasizing the team effort behind Ceranic's achievements.",
-    "voice_delivery_notes": "Speaks with a focus on the technical and strategic aspects of the technology.",
-    "voice_profile_updated_at": "2026-08-06 04:38:17",
-    "last_seen": "2026-08-06 04:38:17",
-    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-05",
-    "mention_score": 1,
-    "mention_score_decayed": 0.1,
-    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-05T23:39:36.761027",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Vibhav Altekar",
-      "fetched_at": "2026-08-06T04:39:36.760872+00:00",
-      "cliff_notes": "Vibhav Altekar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altekar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems. His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments.",
-      "derived": {
-        "current_role": "Co-founder of Ceranic"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Vibhav Altekar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altekar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems.",
-        "His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Ship Technology",
-          "body": "Vibhav Altekar has been a key figure in the advancement of autonomous ship technology, which has significant implications for modern defense strategies and maritime operations."
-        },
-        {
-          "heading": "Maritime Defense",
-          "body": "Altekar's work with Ceranic has led to the deployment of autonomous ships in strategic locations, enhancing maritime security and demonstrating the practical applications of this technology."
-        },
-        {
-          "heading": "Innovation in Defense",
-          "body": "Under Altekar's leadership, Ceranic has become a notable player in the defense industry, pushing the boundaries of what is possible with autonomous systems in naval defense."
-        }
-      ]
-    }
-  },
-  {
     "id": 259,
     "name": "Andrew Feldman",
     "slug": "andrew-feldman",
@@ -9650,6 +9532,124 @@
       ]
     },
     "net_worth": "$19.8M"
+  },
+  {
+    "id": 382,
+    "name": "Dino Ceranic",
+    "slug": "dino-ceranic",
+    "bio": "Dino Ceranic is the co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ships. His work has been instrumental in pioneering the use of autonomous technology in military operations, particularly in high-stakes environments such as the Strait of Hormuz.",
+    "known_for": "Pioneering the use of autonomous ships in military operations.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and passionate about the impact of autonomous technology on defense.",
+    "voice_style": "Direct and factual, with a focus on the practical implications of the technology.",
+    "voice_delivery_notes": "Speaks with a sense of urgency and pride in their work.",
+    "voice_profile_updated_at": "2026-08-06 04:38:17",
+    "last_seen": "2026-08-06 04:38:17",
+    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-05",
+    "mention_score": 1,
+    "mention_score_decayed": 0.09,
+    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-05T23:39:27.883151",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dino Ceranic",
+      "fetched_at": "2026-08-06T04:39:27.882793+00:00",
+      "cliff_notes": "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz. This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors.",
+      "derived": {
+        "current_role": "Co-founder of Ceranic"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz.",
+        "This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Ship Technology",
+          "body": "Dino Ceranic has been instrumental in the development of autonomous ship technology, which has significant implications for military operations and maritime security."
+        },
+        {
+          "heading": "Military Applications",
+          "body": "Ceranic's work has been highlighted by the successful deployment of autonomous ships in military operations, demonstrating the potential of this technology in high-stakes environments."
+        },
+        {
+          "heading": "Innovation in Defense",
+          "body": "As a leader in the defense industry, Ceranic has helped to pioneer new approaches to maritime defense, leveraging autonomous systems to enhance operational capabilities."
+        }
+      ]
+    }
+  },
+  {
+    "id": 383,
+    "name": "Vibhav Altekar",
+    "slug": "vib-altacar",
+    "bio": "Vibhav Altekar is a co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ship technology. His work has been instrumental in advancing maritime defense capabilities, with recent applications in strategic locations such as the Strait of Hormuz.",
+    "known_for": "Pioneering the deployment of autonomous ships in maritime defense applications.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Supportive and informative, providing insights into the industry.",
+    "voice_style": "Collaborative, emphasizing the team effort behind Ceranic's achievements.",
+    "voice_delivery_notes": "Speaks with a focus on the technical and strategic aspects of the technology.",
+    "voice_profile_updated_at": "2026-08-06 04:38:17",
+    "last_seen": "2026-08-06 04:38:17",
+    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-05",
+    "mention_score": 1,
+    "mention_score_decayed": 0.09,
+    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-05T23:39:36.761027",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Vibhav Altekar",
+      "fetched_at": "2026-08-06T04:39:36.760872+00:00",
+      "cliff_notes": "Vibhav Altekar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altekar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems. His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments.",
+      "derived": {
+        "current_role": "Co-founder of Ceranic"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Vibhav Altekar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altekar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems.",
+        "His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Ship Technology",
+          "body": "Vibhav Altekar has been a key figure in the advancement of autonomous ship technology, which has significant implications for modern defense strategies and maritime operations."
+        },
+        {
+          "heading": "Maritime Defense",
+          "body": "Altekar's work with Ceranic has led to the deployment of autonomous ships in strategic locations, enhancing maritime security and demonstrating the practical applications of this technology."
+        },
+        {
+          "heading": "Innovation in Defense",
+          "body": "Under Altekar's leadership, Ceranic has become a notable player in the defense industry, pushing the boundaries of what is possible with autonomous systems in naval defense."
+        }
+      ]
+    }
   },
   {
     "id": 378,
@@ -12523,65 +12523,6 @@
     "net_worth": "$809.0M"
   },
   {
-    "id": 302,
-    "name": "Geoffrey Woo",
-    "slug": "jeff-wu",
-    "bio": "Co-founder of Anti Fund with Jake Paul; Silicon Valley venture investor.",
-    "known_for": "His focus on technology investments and his role in establishing Anti-Fund's $100 million growth fund.",
-    "net_worth_usd": 800000000.0,
-    "net_worth_source": "https://www.ainutoken.net/net-worth/jihan-wu/",
-    "net_worth_updated_at": "2026-06-23T05:01:36.022791",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Factual and informative.",
-    "voice_delivery_notes": "Speaks with a calm and composed tone, with clear enunciation.",
-    "voice_profile_updated_at": "2026-06-23 04:36:21",
-    "last_seen": "2026-06-23 04:36:21",
-    "last_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-22",
-    "mention_score": 1,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Resilience is key for entrepreneurs and investors to navigate failures and setbacks.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Founder taste and people reading skills are crucial for making successful investments.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-22T23:38:41.010858",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Geoffrey Woo",
-      "fetched_at": "2026-06-23T04:38:41.010711+00:00",
-      "cliff_notes": "Geoffrey Woo has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future. His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector.",
-      "derived": {
-        "current_role": "Venture Investor at Anti-Fund"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Geoffrey Woo has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future.",
-        "His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital",
-          "body": "Geoffrey Woo is recognized for his work in venture capital, particularly in the technology sector. His focus on backing innovative founders has helped shape the future of tech."
-        },
-        {
-          "heading": "Anti-Fund",
-          "body": "As a venture investor at Anti-Fund, Wu has been instrumental in the establishment and success of the firm's $100 million growth fund, which targets visionary founders in the tech industry."
-        },
-        {
-          "heading": "Technology Investments",
-          "body": "Wu's expertise in technology investments has allowed him to identify and support startups that are pushing the boundaries of innovation, contributing to the growth of the tech sector."
-        }
-      ]
-    },
-    "net_worth": "$800.0M"
-  },
-  {
     "id": 73,
     "name": "Sam Altman",
     "slug": "sam-altman",
@@ -12641,6 +12582,65 @@
       ]
     },
     "net_worth": "$2.10B"
+  },
+  {
+    "id": 302,
+    "name": "Geoffrey Woo",
+    "slug": "jeff-wu",
+    "bio": "Co-founder of Anti Fund with Jake Paul; Silicon Valley venture investor.",
+    "known_for": "His focus on technology investments and his role in establishing Anti-Fund's $100 million growth fund.",
+    "net_worth_usd": 800000000.0,
+    "net_worth_source": "https://www.ainutoken.net/net-worth/jihan-wu/",
+    "net_worth_updated_at": "2026-06-23T05:01:36.022791",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Factual and informative.",
+    "voice_delivery_notes": "Speaks with a calm and composed tone, with clear enunciation.",
+    "voice_profile_updated_at": "2026-06-23 04:36:21",
+    "last_seen": "2026-06-23 04:36:21",
+    "last_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-22",
+    "mention_score": 1,
+    "mention_score_decayed": 0.03,
+    "last_main_idea": "Resilience is key for entrepreneurs and investors to navigate failures and setbacks.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Founder taste and people reading skills are crucial for making successful investments.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-22T23:38:41.010858",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Geoffrey Woo",
+      "fetched_at": "2026-06-23T04:38:41.010711+00:00",
+      "cliff_notes": "Geoffrey Woo has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future. His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector.",
+      "derived": {
+        "current_role": "Venture Investor at Anti-Fund"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Geoffrey Woo has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future.",
+        "His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital",
+          "body": "Geoffrey Woo is recognized for his work in venture capital, particularly in the technology sector. His focus on backing innovative founders has helped shape the future of tech."
+        },
+        {
+          "heading": "Anti-Fund",
+          "body": "As a venture investor at Anti-Fund, Wu has been instrumental in the establishment and success of the firm's $100 million growth fund, which targets visionary founders in the tech industry."
+        },
+        {
+          "heading": "Technology Investments",
+          "body": "Wu's expertise in technology investments has allowed him to identify and support startups that are pushing the boundaries of innovation, contributing to the growth of the tech sector."
+        }
+      ]
+    },
+    "net_worth": "$800.0M"
   },
   {
     "id": 298,
