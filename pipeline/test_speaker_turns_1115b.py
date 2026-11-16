@@ -457,3 +457,11 @@ def test_a_clip_evidence_line_counts_as_an_honest_label():
     from generate_deepdives import ONE_HOST_LINE_RE
     ev = "a clip: I think there is a high risk of an AI takeover\none host: We don't have all the facts yet."
     assert ONE_HOST_LINE_RE.findall(ev) == ["a clip", "one host"]
+
+
+def test_two_names_at_sentence_start_become_capitalised_two_hosts():
+    # run on ep 680 (Nov 15): "David Sacks and Jason Calacanis focus ..." became "two hosts focus ...".
+    analysis = {"summary": "Intro. David Sacks and Jason Calacanis focus more on the downstream damage to data centers.",
+                "key_takeaways": [], "investment_thesis": ""}
+    sa.enforce_named_prose(analysis, ALLIN, extraction={})
+    assert "Two hosts focus more on the downstream damage" in analysis["summary"]

@@ -908,8 +908,8 @@ def enforce_named_prose(
             new = pat.sub("one host", sent)
             new = re.sub(r"\b([Oo])ne host\b(?:\s*(?:,|and)\s*one host\b)+",
                          lambda mm: "Two hosts" if mm.group(1) == "O" else "two hosts", new)
-            if new[:8] == "one host":
-                new = "One host" + new[8:]
+            if new[:8] == "one host" or new[:9] == "two hosts":
+                new = new[:1].upper() + new[1:]    # "David Sacks and Jason ..." -> "Two hosts ...", not "two hosts"
             changes.append({"episode": episode_ref, "field": field, "speaker": m, "before": sent[:300]})
             sent = new
         return sent
