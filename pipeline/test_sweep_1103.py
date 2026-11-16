@@ -17,9 +17,6 @@ OLD_GONE = [
     "estimates Tudor robots",
     "upfront capex",
     "industrial automation capex",
-    "Longer-duration government bonds",
-    "long-duration Treasuries",
-    "Long-duration Treasuries",
     "retest of 70,000",
     "excellent brometer of",
     "Oracle CDS widening",
@@ -38,9 +35,6 @@ NEW_PRESENT = [
     "estimates [Tutor] robots",
     "upfront hardware costs",
     "industrial automation spending",
-    "Longer-dated government bonds",
-    "long-term Treasuries",
-    "Long-term Treasuries",
     "term premium (the extra yield investors demand to hold long bonds)",
     "conventional QE (the Fed buying bonds)",
     "retest of $70,000",
@@ -119,3 +113,16 @@ def test_guest_overrides_card_650():
     assert gov["insight_guest_by_id"]["650"] == "Josh Gruenstein"
     # never a global name fix: 'Tutor Intelligence' is also the company name in summaries/bios
     assert "Tutor Intelligence" not in gov["fixes"]
+
+
+def test_duration_is_not_jargon_nov15():
+    """Nov 15 2026 (Jared, decisions.md 10:37 PM CT): keep 'long-duration Treasuries' with a gloss."""
+    pairs = [tuple(p) for p in RULES["global_replacements"]]
+    for r in RULES["summaries"]:
+        pairs += [tuple(p) for p in r.get("replacements", []) if len(p) == 2]
+    assert not any("duration" in o and "duration" not in n for o, n in pairs)
+    rec = {"id": 121298, "name": "Jim Bianco",
+           "last_main_idea": "Bianco’s core claim is that long-duration Treasuries are attractive again."}
+    export_data._apply_summary_overrides([rec])
+    assert rec["last_main_idea"] == ("Bianco’s core claim is that long-duration (prices move more when "
+                                     "rates change) Treasuries are attractive again.")

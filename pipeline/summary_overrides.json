@@ -2127,20 +2127,8 @@
     {
       "insight_id": 651,
       "podcast_episode_id": 639,
-      "_note": "Nov 3 2026 (G daily check, sweep_1103; routine-fix rule): plain words (long-dated/long-term, term premium and QE glosses, $70,000); 'brometer' is a transcript garble of 'barometer' (bracket only)",
+      "_note": "Nov 3 2026 (G daily check, sweep_1103; routine-fix rule): plain words (long-dated/long-term, term premium and QE glosses, $70,000); 'brometer' is a transcript garble of 'barometer' (bracket only); Nov 15 2026 (Jared, decisions.md 10:37 PM CT): 'duration' is not jargon, so the long-duration swaps are dropped and a global gloss is used instead",
       "replacements": [
-        [
-          "Longer-duration government bonds",
-          "Longer-dated government bonds"
-        ],
-        [
-          "long-duration Treasuries",
-          "long-term Treasuries"
-        ],
-        [
-          "Long-duration Treasuries",
-          "Long-term Treasuries"
-        ],
         [
           "arguing that term premium and rate expectations",
           "arguing that term premium (the extra yield investors demand to hold long bonds) and rate expectations"
@@ -3544,11 +3532,11 @@
     ],
     [
       "long-duration Treasuries",
-      "long-term Treasuries"
+      "long-duration (prices move more when rates change) Treasuries"
     ],
     [
       "Long-duration Treasuries",
-      "Long-term Treasuries"
+      "Long-duration (prices move more when rates change) Treasuries"
     ]
   ],
   "global_name_replacements": [
