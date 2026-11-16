@@ -649,7 +649,7 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
 
 
 def apply_evidence_quote_check(content: Dict[str, Any], transcript: str, episode_ref: str = "",
-                               podcast_name: str = "") -> List[Dict[str, Any]]:
+                               podcast_name: str = "", turns=None) -> List[Dict[str, Any]]:
     """Change 4 (Jared, Nov 15): drop Deep Dive episode_evidence lines whose quote is not
     verbatim in the transcript (fuzzy 0.85). Edits content in place; drops are logged to
     pipeline/state/quote_check_drops.jsonl. Never rewords a line."""
@@ -657,7 +657,7 @@ def apply_evidence_quote_check(content: Dict[str, Any], transcript: str, episode
         return []
     from speaker_attribution import verify_evidence_lines
     kept, drops = verify_evidence_lines(content.get("episode_evidence"), transcript, episode_ref=episode_ref,
-                                        podcast_name=podcast_name)
+                                        podcast_name=podcast_name, turns=turns)
     content["episode_evidence"] = kept
     return drops
 
@@ -671,6 +671,28 @@ def _safe_source_content(insight_id: int, source_type: str, episode_id: Optional
     except Exception as exc:
         print(f"    ⚠ Quote check skipped (no transcript): {exc}", flush=True)
         return ""
+
+
+def _caption_turns_for_episode(episode_id: Optional[int], transcript: str, podcast_name: str):
+    """Caption speaker turns (<stem>.yt.vtt next to the transcript) for a panel-show episode, else None."""
+    if not episode_id or not transcript or not podcast_name:
+        return None
+    try:
+        from speaker_attribution import is_host_panel_show
+        if not is_host_panel_show(podcast_name):
+            return None
+        conn = get_db_connection()
+        row = conn.execute("SELECT transcript_path FROM podcast_episodes WHERE id=?", (episode_id,)).fetchone()
+        if not row or not row["transcript_path"]:
+            return None
+        tp = Path(row["transcript_path"])
+        if not tp.is_absolute():
+            tp = Path(__file__).parent / tp
+        from caption_turns import load_turn_map_for_transcript
+        return load_turn_map_for_transcript(tp, transcript, podcast_name, fetch=False)
+    except Exception as exc:
+        print(f"    ⚠ Caption speaker turns skipped: {exc}", flush=True)
+        return None
 
 
 def _quote_check_hint(drops: List[Dict[str, Any]]) -> str:
@@ -1282,6 +1304,7 @@ def run_extraction_deep_dive_attempts(
     transcript: str = "",
     episode_ref: str = "",
     podcast_name: str = "",
+    turns=None,
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
     """Generate deep dive from extraction with retries for structural checks.
     
@@ -1326,7 +1349,7 @@ def run_extraction_deep_dive_attempts(
             final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
             return None, err, final_usage
         
-        qc_drops = apply_evidence_quote_check(content, transcript, episode_ref, podcast_name)
+        qc_drops = apply_evidence_quote_check(content, transcript, episode_ref, podcast_name, turns=turns)
         evidence = _episode_evidence_text(content.get("episode_evidence"))
         whats_new = str(content.get("overview") or "")
         thesis = str(content.get("investment_thesis") or "")
@@ -1647,6 +1670,7 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                         break
                 
                 if openai_client:
+                    _tx = _safe_source_content(insight_id, source_type, episode_id)
                     content, err_detail, usage_info = run_extraction_deep_dive_attempts(
                         openai_client,
                         extraction_json,
@@ -1654,9 +1678,10 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                         key_takeaway,
                         host_name=host_name,
                         guest_names=guest_names,
-                        transcript=_safe_source_content(insight_id, source_type, episode_id),
+                        transcript=_tx,
                         episode_ref=f"insight {insight_id}",
                         podcast_name=source_name or "",
+                        turns=_caption_turns_for_episode(episode_id, _tx, source_name or ""),
                     )
                 else:
                     err_detail = "No OpenAI client available for extraction mode"

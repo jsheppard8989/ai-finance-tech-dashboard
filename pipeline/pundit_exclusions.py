@@ -70,6 +70,13 @@ EXCLUDED_GUEST_APPEARANCES: FrozenSet[tuple] = frozenset(
         ("Don Musalam", "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303"),
         ("Dr. Dawn Mussallem", "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303"),
         ("Dawn Mussallem", "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303"),
+        # Moonshots #311 / ep 679 (Nov 14 2026): the DB guest list holds four clip / read-aloud voices.
+        # The live panel was Peter, Alex Wissner-Gross, Salim Ismail and Emad Mostaque (show notes, Exa
+        # diarization). G, Nov 15 2026 (g_verify_2026-11-15.md); the DB rows themselves are Tony's fix.
+        ("Demis Hassabis", "Jensen\u2019s Departure, NVIDIA\u2019s succession plan, AI doomer response, and Demis talks RSI | MOONSHOTS #311 (recorded live)"),
+        ("Paul Christiano", "Jensen\u2019s Departure, NVIDIA\u2019s succession plan, AI doomer response, and Demis talks RSI | MOONSHOTS #311 (recorded live)"),
+        ("Will Marshall", "Jensen\u2019s Departure, NVIDIA\u2019s succession plan, AI doomer response, and Demis talks RSI | MOONSHOTS #311 (recorded live)"),
+        ("Dario Amodei", "Jensen\u2019s Departure, NVIDIA\u2019s succession plan, AI doomer response, and Demis talks RSI | MOONSHOTS #311 (recorded live)"),
     }
 )
 _EXCLUDED_APPEARANCES_LOWER = frozenset((n.lower(), t.lower()) for n, t in EXCLUDED_GUEST_APPEARANCES)

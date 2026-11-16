@@ -999,6 +999,20 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     )
     sidecar_show_notes = (sidecar.get("show_notes") or sidecar.get("description") or "").strip()
 
+    # Panel shows: speaker turns from YouTube auto-captions ('>>' marks each change of speaker),
+    # saved next to the transcript as <stem>.yt.vtt. None when unavailable; then #826's cue check runs.
+    caption_turns = None
+    try:
+        from caption_turns import load_turn_map_for_transcript
+        caption_turns = load_turn_map_for_transcript(
+            transcript_path, analysis_source, podcast_name,
+            show_notes=sidecar_show_notes,
+            episode_title=(sidecar.get("episode_title") or "").strip(),
+            video_id=(sidecar.get("youtube_video_id") or "").strip(),
+        )
+    except Exception as _ce:
+        print(f"    ⚠ Caption speaker turns skipped: {_ce}")
+
     if is_two_pass_enabled():
         # Two-pass mode: use cost-efficient nano+mini pipeline
         print(f"    Using two-pass analyzer (nano+mini)...")
@@ -1029,6 +1043,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
                 guest_names=guest_names,
                 host_names=host_names,
                 show_notes=sidecar_show_notes,
+                turns=caption_turns,
             )
         except InsufficientQuotaError:
             raise  # Propagate to batch handler
@@ -1064,6 +1079,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             analysis, analysis_source, podcast_name,
             show_notes=sidecar_show_notes,
             episode_ref=f"{podcast_name} | {(sidecar.get('episode_title') or episode_slug)}"[:200],
+            turns=caption_turns,
         )
     except Exception as _ae:
         print(f"    ⚠ Attribution rules skipped: {_ae}")

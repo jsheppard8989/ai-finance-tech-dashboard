@@ -1347,8 +1347,12 @@ def analyze_transcript_two_pass(
     guest_names: List[str] = None,
     host_names: List[str] = None,
     show_notes: str = "",
+    turns=None,
 ) -> Optional[Dict]:
     """Full two-pass analysis. Returns dict compatible with existing analyzer output.
+
+    ``turns``: optional caption_turns.TurnMap (YouTube '>>' speaker turns) for panel shows; pass-1
+    speaker labels are set from it before pass 2 writes the prose.
     
     Args:
         client: OpenAI client
@@ -1422,6 +1426,7 @@ def analyze_transcript_two_pass(
         _relabels = enforce_speaker_cues(
             extraction, transcript, podcast_name, show_notes=show_notes,
             episode_ref=f"{podcast_name} | {episode_title}"[:200],
+            turns=turns,
         )
         if _relabels:
             print(f"    ↺ {len(_relabels)} extraction speaker label(s) had no transcript cue → 'one host'", flush=True)
