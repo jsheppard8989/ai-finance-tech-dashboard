@@ -34,12 +34,48 @@
       ]
     },
     {
+      "id": 695,
+      "title": "The Bond Squeeze | Jan van Eck on >5% Treasury Yields, Semis, Anthropic, and Gold",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-15",
+      "summary": "The episode argues that a static 60/40 portfolio framework is too simplistic because asset returns are being driven by a changing mix of fiscal spending, monetary regime shifts, regulation, and technology. Yon Venek says the recent rise in Treasury yields is a \u201cbond squeeze\u201d primarily caused by strong nominal GDP growth and credit demand, not just deficits or inflation.\n\nHe frames the macro backdrop as one where 10-year rates \u201cwant\u201d to move toward 5.25%, with Q3 nominal GDP growth running around 4% to 6%. In his view, higher yields mechanically pressure bonds and can also compress risk assets, even if AI-related businesses still have strong fundamental growth underneath.\n\nOn AI, he describes a rotation between \u201cAI 1.0\u201d winners like semiconductors and \u201cAI 2.0\u201d trades such as data centers, power, and nuclear. He says Nvidia has extraordinary earnings growth and moat characteristics, but also argues the growth dispersion will eventually normalize by 2027. He also makes a bullish case that token-serving economics are not broken, citing Anthropic\u2019s profitability and the idea that enterprise and consumer distribution advantages create durable \u201csurvivor\u201d businesses.\n\nHe is constructive on gold as a long-term hedge against US fiscal risk, arguing it is reverting toward a historical currency role, while acknowledging it can correct after a big move. He also highlights gold miners as healthier than in the prior cycle because they delevered after the 2011\u20132016 drawdown. Finally, he sees India as an undervalued growth market with improving profitability, a large consumer base, and possible tax-policy catalysts.",
+      "key_takeaway": "The episode\u2019s central claim is that macro regime change is pushing rates higher.",
+      "tickers_mentioned": [
+        "NVDA",
+        "ASML",
+        "INDIA",
+        "GOLD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 684,
+      "notable_quotes": [
+        {
+          "speaker": "Yon Venek",
+          "quote": "I think that tenure interest rates want to five and a quarter percent because of economic growth primarily, maybe a little bit because of inflation."
+        },
+        {
+          "speaker": "Yon Venek",
+          "quote": "I think what's happening in the economy today is we have high nominal GDP growth in third quarter, four, five, six percent."
+        },
+        {
+          "speaker": "Yon Venek",
+          "quote": "And anthropic, you know, a gap operating profit of just shy of $900 million in Q2. A operating profit if you exclude a donation charge in Q3 as well."
+        }
+      ]
+    },
+    {
       "id": 690,
       "title": "Jensen Ousted as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-11-14",
-      "summary": "The episode opens on a dramatic governance and legal story around Nvidia, with the hosts discussing reporting that Jensen Huang was ousted amid allegations tied to a classified memo leak, Chinese espionage concerns, and possible personal misconduct. They emphasize that the leak of classified intelligence itself would be a crime, but also stress that the board appears to be acting on governance and code-of-conduct issues rather than any proven criminal finding. The discussion is framed as highly consequential because Nvidia\u2019s next earnings were said to be imminent and the stock had already fallen 15% in a week, wiping out hundreds of billions in market value.\n\nA major thread is whether removing Jensen would damage Nvidia\u2019s execution. David Sacks argues that Jensen is central to Nvidia\u2019s pace of annual chip innovation and that losing him could slow the company\u2019s velocity for 1-3 years. The hosts also debate whether China would actually benefit; Sacks pushes the contrarian view that China still remains multiple years behind because Nvidia\u2019s platform and engineering stack are bigger than any single executive. There is also broader geopolitical speculation about export controls, telemetry requirements, and whether future regulation could centralize AI infrastructure under state oversight.\n\nThe second half pivots to Anthropic\u2019s planned IPO and the company\u2019s rapid growth. The hosts cite a $70-$78 price range, a $1.4 trillion valuation discussion, 825 million shares, and a series of fundraising and revenue figures that suggest very strong momentum. Chamath frames Anthropic as an enterprise bundling winner that could become a \u201cMicrosoft killer,\u201d while the group compares its Q3 revenue and run-rate strength against OpenAI. The discussion also notes that further Nvidia-related volatility could affect AI sentiment and IPO pricing in the near term.\n\nOverall, the episode\u2019s central argument is that Nvidia\u2019s leadership shock could impair execution and reshape AI market structure, while Anthropic\u2019s momentum may make it one of the clearest beneficiaries if the AI capital cycle stays intact. The tone is mixed but leans cautious on near-term AI sentiment because of regulatory and governance uncertainty, even as the hosts remain constructive on Anthropic\u2019s growth story.",
+      "summary": "The episode opens on a dramatic governance and legal story around Nvidia, with the hosts discussing reporting that Jensen Huang was ousted amid allegations tied to a classified memo leak, Chinese espionage concerns, and possible personal misconduct. They emphasize that the leak of classified intelligence itself would be a crime, but also stress that the board appears to be acting on governance and code-of-conduct issues rather than any proven criminal finding. The discussion is framed as highly consequential because Nvidia\u2019s next earnings were said to be imminent and the stock had already fallen 15% in a week, wiping out hundreds of billions in market value.\n\nA major thread is whether removing Jensen would damage Nvidia\u2019s execution. David Sacks argues that Jensen is central to Nvidia\u2019s pace of annual chip innovation and that losing him could slow the company\u2019s velocity. The hosts also debate whether China would actually benefit; Chamath Palihapitiya argues China does not benefit because catching up to Nvidia is still a multi-year, potentially multi-decade effort, while David Sacks argues China does benefit because a slowed Nvidia would mostly help Huawei catch up. There is also broader geopolitical speculation about export controls, telemetry requirements, and whether future regulation could centralize AI infrastructure under state oversight.\n\nThe second half pivots to Anthropic\u2019s planned IPO and the company\u2019s rapid growth. The hosts cite a $70-$78 price range, a $1.4 trillion valuation discussion, 825 million shares, and a series of fundraising and revenue figures that suggest very strong momentum. Jason Calacanis frames Anthropic as an enterprise bundling winner that could become a \u201cMicrosoft killer,\u201d while the group compares its Q3 revenue and run-rate strength against OpenAI. The discussion also notes that further Nvidia-related volatility could affect AI sentiment and IPO pricing in the near term.\n\nOverall, the episode\u2019s central argument is that Nvidia\u2019s leadership shock could impair execution and reshape AI market structure, while Anthropic\u2019s momentum may make it one of the clearest beneficiaries if the AI capital cycle stays intact. The tone is mixed but leans cautious on near-term AI sentiment because of regulatory and governance uncertainty, even as the hosts remain constructive on Anthropic\u2019s growth story.",
       "key_takeaway": "Nvidia leadership disruption could slow chip-iteration velocity, while Anthropic\u2019s enterprise momentum positions it as a potential AI platform winner.",
       "tickers_mentioned": [
         "NVDA"
@@ -53,7 +89,7 @@
       "podcast_episode_id": 680,
       "notable_quotes": [
         {
-          "speaker": "Chamath Palihapitiya",
+          "speaker": "Jason Calacanis",
           "quote": "Nvidia reports earnings next Tuesday, critical moment for the company, and the stock has been crushed down 15% in the last week, which is hundreds of billions of dollars."
         },
         {
@@ -61,7 +97,7 @@
           "quote": "Jensen is fundamental to that rapid progress the same way that Elon is fundamental to the rapid progress at SpaceX or Tesla and if you take him out of the picture there's just nobody comparable."
         },
         {
-          "speaker": "Chamath Palihapitiya",
+          "speaker": "Jason Calacanis",
           "quote": "Anthropic is building the Microsoft killer and every SaaS company killer by bundling."
         }
       ]
@@ -72,7 +108,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-11-14",
-      "summary": "The episode centers on a live Moonshots discussion that opens with a major controversy around NVIDIA and Jensen Huang\u2019s reported resignation, which the speakers repeatedly tie to U.S.-China GPU export-control politics, alleged espionage links, and a possible policy push to close cloud-routing loopholes. They describe a proposed \u201cRemote Access Security Act\u201d that would restrict China\u2019s access to U.S. GPUs through cloud offerings and third countries, and they frame the timing as politically consequential, with midterm politics affecting the legislative path.\n\nA second major thread is AI risk. Peter Diamandis presents a high-concern view that AI takeover risk could be meaningful within three years, while Demis Hassabis\u2019s RSI framing distinguishes between open-loop productivity gains and more dangerous closed-loop self-improvement without human oversight. The conversation repeatedly contrasts existential-risk narratives with more immediate cyber and bio risks, with one speaker arguing that a cyber-scale outage taking down email could freeze global communications.\n\nThe episode also highlights Anthropic\u2019s push into an AI productivity stack: Claude Whiteboard, Claude Sheets, Claude Data, and Claude Meetings. The hosts argue this is a direct challenge to Microsoft 365 and Google Workspace-style layers because users may increasingly ask Claude to build workflows and documents rather than open conventional apps. The segment includes a claim that Anthropic reported $33 billion in revenue in the first nine months of the year, mostly from usage.\n\nBeyond office software, the discussion broadens into AI-enabled discovery: Planet AI\u2019s natural-language search across roughly 10 years of daily satellite imagery, archaeology workflows that reportedly used 48 agents to scan 1,200 square kilometers overnight, and astronomy work that surfaced an apparent dwarf planet. The episode closes with a wider frontier-lab thesis: that AI\u2019s strongest social license comes from healthcare and disease-solving, even as the speakers debate whether AI is more likely to create abundance or existential risk.",
+      "summary": "The episode centers on a live Moonshots discussion that opens with a major controversy around NVIDIA and Jensen Huang\u2019s reported resignation, which the speakers repeatedly tie to U.S.-China GPU export-control politics, alleged espionage links, and a possible policy push to close cloud-routing loopholes. They describe a proposed \u201cRemote Access Security Act\u201d that would restrict China\u2019s access to U.S. GPUs through cloud offerings and third countries, and they frame the timing as politically consequential, with midterm politics affecting the legislative path.\n\nA second major thread is AI risk. Peter Diamandis raises Paul Christiano\u2019s warning of a high risk of AI takeover within three years, while Demis Hassabis\u2019s RSI framing distinguishes between open-loop productivity gains and more dangerous closed-loop self-improvement without human oversight. The conversation repeatedly contrasts existential-risk narratives with more immediate cyber and bio risks, with one speaker arguing that a cyber-scale outage taking down email could freeze global communications.\n\nThe episode also highlights Anthropic\u2019s push into an AI productivity stack: Claude Whiteboard, Claude Sheets, Claude Data, and Claude Meetings. The hosts argue this is a direct challenge to Microsoft 365 and Google Workspace-style layers because users may increasingly ask Claude to build workflows and documents rather than open conventional apps. The segment includes a claim that Anthropic reported $33 billion in revenue in the first nine months of the year, mostly from usage.\n\nBeyond office software, the discussion broadens into AI-enabled discovery: Planet AI\u2019s natural-language search across roughly 10 years of daily satellite imagery, archaeology workflows that reportedly used 48 agents to scan 1,200 square kilometers overnight, and astronomy work that surfaced an apparent dwarf planet. The episode closes with a wider frontier-lab thesis: that AI\u2019s strongest social license comes from healthcare and disease-solving, even as the speakers debate whether AI is more likely to create abundance or existential risk.",
       "key_takeaway": "AI-native workflow layers, not legacy office apps, are the clearest near-term platform shift because Anthropic is pushing directly into productivity software with agentic tools.",
       "tickers_mentioned": [
         "NVDA",
@@ -94,7 +130,7 @@
         },
         {
           "speaker": "Demis Hassabis",
-          "quote": "And the bigger risk there is closed loop where the intelligence starts to self-improve, maybe through its own experimentation, and is not at all understandable to humans because it's created something that's a little bit alien."
+          "quote": "The next phase, which I think carries the most risk, is closed RSI, closed loop, where you basically manage to somehow figure out how to do it without the human reviewer process in the whole procedure."
         },
         {
           "speaker": "Peter Diamandis",
@@ -417,7 +453,7 @@
         "SMH"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-11",
       "archived_date": null,
@@ -2976,7 +3012,7 @@
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-10-18",
       "summary": "Jim Bianco argues that U.S. bond yields have finally reached a level that is no longer expensive relative to expected nominal growth, which he frames as roughly 5% to 6% nominal growth made up of about 3% inflation and 2% real growth. That shift is why he has become constructive on longer-duration Treasuries after six years of being bearish.\n\nHis inflation view is that the U.S. is likely stuck around 3% rather than returning to the low-inflation regime of the 2010s. He attributes this to tariffs, deglobalization, wars, supply constraints, and higher logistics and refined-product costs, especially diesel, which he thinks keep goods deflation from coming back.\n\nOn credit, Bianco says the recent AI-linked selloff is mostly idiosyncratic and concentrated in the lowest-quality triple-C cohort, not evidence of a broad high-yield collapse. He points to widening high-yield spreads and stress names like CoreWeave, but says single-B and double-B credit have not materially deteriorated.\n\nHe is bullish on AI as a real productivity transformation, while also suggesting the market is not yet in classic bubble-peak conditions because skepticism remains high. On policy, he criticizes the idea that the bond market should do the Fed\u2019s work, arguing that without a more rational framework, yields could overshoot to confiscatory levels and create unnecessary stress.",
-      "key_takeaway": "Bianco\u2019s core claim is that long-duration Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
+      "key_takeaway": "Bianco\u2019s core claim is that long-term Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
       "tickers_mentioned": [
         "WTBN"
       ],
@@ -15941,8 +15977,8 @@
       "term": "Dispersion",
       "description": "The degree to which individual stocks move differently from one another; high dispersion means low correlation and more idiosyncratic behavior.",
       "first_detected_date": "2026-11-09",
-      "last_mentioned_date": "2026-10-29",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-15",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "High dispersion changes the payoff profile for structured products and can make index-level hedging less effective.",
@@ -15951,8 +15987,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 665,
       "first_detected_speaker": "Cem Karsan, Noel Smith",
-      "last_mentioned_episode_id": 671,
-      "last_mentioned_speaker": "Ross Pamphilon"
+      "last_mentioned_episode_id": 684,
+      "last_mentioned_speaker": "Yon Venek"
     },
     {
       "id": 334,
@@ -16222,7 +16258,7 @@
       "first_detected_episode_id": 607,
       "first_detected_speaker": "Nick Hess",
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross"
     },
     {
       "id": 324,
@@ -16546,7 +16582,7 @@
       "first_detected_episode_id": 564,
       "first_detected_speaker": "Stacy Rasgon",
       "last_mentioned_episode_id": 680,
-      "last_mentioned_speaker": "Chamath Palihapitiya, David Sacks (hosts)"
+      "last_mentioned_speaker": "Chamath Palihapitiya"
     },
     {
       "id": 296,
@@ -16564,7 +16600,7 @@
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Demis Hassabis (clip), Peter Diamandis, Emad Mostaque"
     },
     {
       "id": 295,
@@ -16726,7 +16762,7 @@
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Alex Wissner-Gross, Emad Mostaque, Peter Diamandis"
     },
     {
       "id": 310,
@@ -16744,7 +16780,7 @@
       "first_detected_episode_id": 528,
       "first_detected_speaker": "Erik Townsend (hosts)",
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Jesse Watters (Fox News clip)"
     },
     {
       "id": 286,
@@ -16942,7 +16978,7 @@
       "first_detected_episode_id": 448,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Paul Christiano (clip), Peter Diamandis, Alex Wissner-Gross"
     },
     {
       "id": 282,
@@ -16978,7 +17014,7 @@
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Alex Wissner-Gross"
     },
     {
       "id": 272,
@@ -17183,8 +17219,8 @@
       "term": "Dana",
       "description": "A platform developed by Applied Intuition for designing and developing autonomous systems, aiming to simplify the process and make it more accessible.",
       "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-15",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Platforms like Dana could lower the barrier to entry for developing autonomous systems, potentially sparking innovation and growth in the sector.",
@@ -17193,8 +17229,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 540,
-      "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall"
+      "last_mentioned_episode_id": 684,
+      "last_mentioned_speaker": "Yon Venek"
     },
     {
       "id": 262,
@@ -17374,7 +17410,7 @@
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross"
     },
     {
       "id": 256,
@@ -17878,7 +17914,7 @@
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Emad Mostaque, Peter Diamandis"
     },
     {
       "id": 174,
@@ -18796,7 +18832,7 @@
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Alex Wissner-Gross"
     },
     {
       "id": 26,
@@ -19066,7 +19102,7 @@
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 679,
-      "last_mentioned_speaker": "Demis Hassabis, Paul Christiano, Will Marshall"
+      "last_mentioned_speaker": "Emad Mostaque, Alex Wissner-Gross, Peter Diamandis"
     },
     {
       "id": 38,
