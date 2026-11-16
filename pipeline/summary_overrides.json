@@ -2620,6 +2620,106 @@
           "Jamin Ball"
         ]
       ]
+    },
+    {
+      "insight_id": 690,
+      "podcast_episode_id": 680,
+      "_note": "Nov 15 2026 (Wendy fix list cos/fixes/summary_attribution_fixes_2026-11-15.md; flagged by Ric, verified vs Exa/Particle speaker-labeled transcript 74pqqvnjr6z): All-In 'Jensen Ousted' speaker fixes. G re-verified every line vs the episode transcript on the pipeline Mac + RSS show notes (g_verify_2026-11-15.md); Jared approved (decisions.md Nov 15 4:32 PM CT). Quotes verbatim; names and our-voice text only.",
+      "replacements": [
+        [
+          "Sacks pushes the contrarian view that China still remains multiple years behind because Nvidia’s platform and engineering stack are bigger than any single executive.",
+          "Chamath Palihapitiya argues China does not benefit because catching up to Nvidia is still a multi-year, potentially multi-decade effort, while David Sacks argues China does benefit because a slowed Nvidia would mostly help Huawei catch up."
+        ],
+        [
+          "losing him could slow the company’s velocity for 1-3 years.",
+          "losing him could slow the company’s velocity."
+        ],
+        [
+          "Chamath frames Anthropic as an enterprise bundling winner",
+          "Jason Calacanis frames Anthropic as an enterprise bundling winner"
+        ],
+        [
+          "Chamath Palihapitiya said Nvidia’s stock had already been “crushed down 15% in the last week,”",
+          "Jason Calacanis said Nvidia’s stock had already been “crushed down 15% in the last week,”"
+        ],
+        [
+          "David Friedberg said, “The bank of Nvidia ran through Jensen",
+          "Chamath Palihapitiya said, “The bank of Nvidia ran through Jensen"
+        ],
+        [
+          "Chamath Palihapitiya said Anthropic is “building the Microsoft killer",
+          "Jason Calacanis said Anthropic is “building the Microsoft killer"
+        ],
+        [
+          "Chamath Palihapitiya said Anthropic’s Q3 revenue was $17 billion",
+          "Jason Calacanis said Anthropic’s Q3 revenue was $17 billion"
+        ],
+        [
+          "David Sacks warned that future legislation could force every AI chip, computer, and data center to have telemetry and a connection back to a central state system.",
+          "David Friedberg warned that future legislation could force every AI chip, computer, and data center to have a switch and a connection back to a central state system."
+        ],
+        [
+          "Chamath Palihapitiya: Nvidia reports earnings next Tuesday",
+          "Jason Calacanis: Nvidia reports earnings next Tuesday"
+        ],
+        [
+          "David Friedberg: The bank of Nvidia ran through Jensen",
+          "Chamath Palihapitiya: The bank of Nvidia ran through Jensen"
+        ],
+        [
+          "Chamath Palihapitiya: Anthropic is building the Microsoft killer",
+          "Jason Calacanis: Anthropic is building the Microsoft killer"
+        ]
+      ],
+      "relabel_quotes": [
+        [
+          "crushed down 15% in the last week",
+          "Jason Calacanis"
+        ],
+        [
+          "building the Microsoft killer",
+          "Jason Calacanis"
+        ]
+      ]
+    },
+    {
+      "insight_id": 691,
+      "podcast_episode_id": 679,
+      "_note": "Nov 15 2026 (Wendy fix list cos/fixes/summary_attribution_fixes_2026-11-15.md; geopolitical item flagged by Ric, rest found in sweep; verified vs Exa/Particle transcript cgk0s47h370 + YouTube GZrDapFXk0I captions): Moonshots #311 speaker fixes. G re-verified every line vs the episode transcript on the pipeline Mac + RSS show notes (g_verify_2026-11-15.md); Jared approved (decisions.md Nov 15 4:32 PM CT). Quotes verbatim.",
+      "replacements": [
+        [
+          "Peter Diamandis said Jensen Huang’s reported resignation should be viewed through a geopolitical lens, not just a personal one, because it may connect to U.S.-China GPU policy.",
+          "Alex Wissner-Gross offered a preliminary, speculative theory that Jensen Huang’s reported resignation may connect to U.S.-China GPU policy, including the Remote Access Security Act."
+        ],
+        [
+          "Peter Diamandis argued that a cyber-scale attack on email could halt global communication, calling it a systemic vulnerability.",
+          "Peter Diamandis argued that a cyber-scale attack on email could halt global communication."
+        ],
+        [
+          "Peter Diamandis said Planet AI lets users “ask the Earth”",
+          "Peter Diamandis, quoting Planet CEO Will Marshall, said Planet AI lets users “ask the Earth”"
+        ],
+        [
+          "Peter Diamandis presents a high-concern view that AI takeover risk could be meaningful within three years",
+          "Peter Diamandis raises Paul Christiano’s warning of a high risk of AI takeover within three years"
+        ],
+        [
+          "And the bigger risk there is closed loop where the intelligence starts to self-improve, maybe through its own experimentation, and is not at all understandable to humans because it's created something that's a little bit alien.",
+          "The next phase, which I think carries the most risk, is closed RSI, closed loop, where you basically manage to somehow figure out how to do it without the human reviewer process in the whole procedure."
+        ],
+        [
+          "Peter Diamandis: \"I think there is a high risk of an AI takeover",
+          "Paul Christiano (quoted by Peter Diamandis): \"I think there is a high risk of an AI takeover"
+        ],
+        [
+          "Peter Diamandis: \"ask the Earth",
+          "Will Marshall, Planet CEO (quoted by Peter Diamandis): \"ask the Earth"
+        ],
+        [
+          "Peter Diamandis: \"It's making a human engineer",
+          "Demis Hassabis: \"It's making a human engineer"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -2861,6 +2961,127 @@
       "_note": "Nov 10 2026 (G no-ask routine fix list, Tony): Overton 'Annualized Run Rate' description said Zitron argued AI companies use 'undefined' run-rate figures; transcript EWWMN7492626059 (ep 544) says these companies 'never define run rate' and 'none of these people ever define what run rate means', so the line now says that.",
       "set": {
         "description": "Annualized Run Rate is a revenue presentation that multiplies a short period of revenue by a full year. Zitron argued that AI companies never define what their run-rate figures mean, which can make revenue appear much larger than audited sales."
+      }
+    },
+    {
+      "id": 254,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list): Moonshots #311 speakers, not clip voices; G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross"
+      }
+    },
+    {
+      "id": 283,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list); G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Paul Christiano (clip), Peter Diamandis, Alex Wissner-Gross"
+      }
+    },
+    {
+      "id": 320,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list); G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross"
+      }
+    },
+    {
+      "id": 296,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list); G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Demis Hassabis (clip), Peter Diamandis, Emad Mostaque"
+      }
+    },
+    {
+      "id": 292,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list); G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Alex Wissner-Gross, Emad Mostaque, Peter Diamandis"
+      }
+    },
+    {
+      "id": 310,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list); G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Jesse Watters (Fox News clip)"
+      }
+    },
+    {
+      "id": 281,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list); G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Alex Wissner-Gross"
+      }
+    },
+    {
+      "id": 97,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list); G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Emad Mostaque, Peter Diamandis"
+      }
+    },
+    {
+      "id": 57,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list); G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Alex Wissner-Gross"
+      }
+    },
+    {
+      "id": 114,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 679
+      },
+      "_note": "Nov 15 2026 (Wendy fix list); G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Emad Mostaque, Alex Wissner-Gross, Peter Diamandis"
+      }
+    },
+    {
+      "id": 298,
+      "scope": "overton",
+      "when": {
+        "last_mentioned_episode_id": 680
+      },
+      "_note": "Nov 15 2026 (Wendy fix list): only Chamath says HBM in All-In ep 680; G re-verified vs transcript (g_verify_2026-11-15.md)",
+      "set": {
+        "last_mentioned_speaker": "Chamath Palihapitiya"
       }
     }
   ],
