@@ -119,6 +119,39 @@ class TestPublishGuard(unittest.TestCase):
         self.s.write(js=data_js(summary="Dahlia provides context."))
         self.assertBlocked("summaries[585]")
 
+    def _add_wording_rule(self):
+        ov = json.loads((self.s.pipe / "summary_overrides.json").read_text())
+        ov["summaries"].append({"insight_id": 651, "replacements": [["plain old jargon", "plain words"]]})
+        (self.s.pipe / "summary_overrides.json").write_text(json.dumps(ov))
+
+    def test_plain_wording_undone_warns_not_blocks_nov15(self):
+        import io, contextlib
+        self._add_wording_rule()
+        self.s.write(js=data_js(summary="He uses plain old jargon here."))
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            ok, reasons = self.s.run()
+        self.assertTrue(ok, reasons)
+        self.assertEqual(reasons, [])
+        self.assertIn("WARN publish guard wording", buf.getvalue())
+        self.assertIn("summaries[651] 'plain old jargon'", buf.getvalue())
+
+    def test_accuracy_still_blocks_alongside_wording_nov15(self):
+        self._add_wording_rule()
+        self.s.write(js=data_js(summary="plain old jargon; Dahlia provides context."))
+        ok, reasons = self.s.run()
+        self.assertFalse(ok)
+        self.assertTrue(any("summaries[585]" in r for r in reasons), reasons)
+        self.assertFalse(any("plain old jargon" in r for r in reasons), reasons)
+
+    def test_is_accuracy_pair_classes_nov15(self):
+        self.assertFalse(g.is_accuracy_pair("summaries[651]", "long-duration Treasuries", "long-term Treasuries"))
+        self.assertTrue(g.is_accuracy_pair("summaries[585]", "Dahlia provides", "Dalio provides"))
+        self.assertTrue(g.is_accuracy_pair("name_replacements", "jim weederhold", "jim wiederhold"))
+        self.assertTrue(g.is_accuracy_pair("global_replacements", "infrastructure bets.", "infrastructure choices."))
+        self.assertTrue(g.is_accuracy_pair("summaries[651]", "retest of 70,000", "retest of $70,000"))
+        self.assertTrue(g.is_accuracy_pair("summaries[1]", "same", "same"))
+
     def test_preexisting_old_text_in_baseline_is_not_a_regression(self):
         self.s.write(js=data_js(summary="Jim Weederhold said so."))
         self.s.baseline = {"HEAD": self.s.snapshot()}

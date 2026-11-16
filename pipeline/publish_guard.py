@@ -26,7 +26,12 @@ origin/main, i.e. what is live):
      summary_overrides.json name_replacements, global_replacements,
      global_name_replacements and
      summaries[].replacements, the count of `old` in public site files is not
-     higher than in the baseline. The Moonshots fix (#413) stays applied: no
+     higher than in the baseline. Nov 15 2026 (Jared, decisions.md 10:37 PM CT):
+     only ACCURACY fixes block (name lists, any pair whose changed words carry
+     a capital letter or a digit, i.e. names/figures/dates, and any pair whose
+     old text has 'bet' wording). A plain-wording fix that comes back (changed
+     words all lowercase) prints "WARN publish guard wording: ..." and never
+     stops an export or PR. When unsure, a pair counts as accuracy. The Moonshots fix (#413) stays applied: no
      global "Moonshots Live" guest fix, and no record tying Cathie Wood to a
      Moonshots Live episode other than EP #296.
   4. Style gate: zero 'bet' wording hits (site_text_sanitize rules) in
@@ -324,15 +329,46 @@ def check_trap_map(site: Path, pipeline: Path, baselines: dict[str, dict[str, st
     return reasons
 
 
+WARN_WORDING = "WARN publish guard wording"
+NAME_KEYS = ("name_replacements", "global_name_replacements")
+_TOKEN_RE = re.compile(r"[\w$%.,'’-]+")
+
+
+def is_accuracy_pair(key: str, old: str, new: str) -> bool:
+    """True if an undone [old, new] fix is an accuracy fix (blocks); False = plain wording (warns).
+
+    Accuracy: name lists; changed words with a capital letter or digit (names, tickers, figures,
+    dates); old text with 'bet' wording. Plain wording: every changed word is lowercase, e.g.
+    'long-duration Treasuries' -> 'long-term Treasuries' (only 'long-duration'/'long-term' differ).
+    """
+    if key in NAME_KEYS:
+        return True
+    try:
+        if style_gate_hits(old):
+            return True
+    except Exception:
+        return True
+    a, b = _TOKEN_RE.findall(old), _TOKEN_RE.findall(new)
+    changed = set(a) ^ set(b)
+    if not changed:
+        return True
+    return any(any(ch.isupper() or ch.isdigit() for ch in t) for t in changed)
+
+
+# Plain-wording regressions found by the last check_overrides call (warn-only).
+LAST_WORDING_WARNINGS: list[str] = []
+
+
 def check_overrides(site: Path, pipeline: Path, baselines: dict[str, dict[str, str]]) -> list[str]:
     reasons = []
+    LAST_WORDING_WARNINGS.clear()
     try:
         ov = json.loads((pipeline / "summary_overrides.json").read_text(encoding="utf-8"))
     except Exception as e:
         return [f"pipeline/summary_overrides.json unreadable: {e}"]
     pairs = _pairs(ov)
     if baselines:
-        undone = []
+        undone, wording = [], []
         for rel in _public_rel_files(site):
             try:
                 cand = (site / rel).read_text(encoding="utf-8", errors="replace")
@@ -344,9 +380,11 @@ def check_overrides(site: Path, pipeline: Path, baselines: dict[str, dict[str, s
             for key, old, _new in pairs:
                 c = cand.count(old)
                 if c and c > min(t.count(old) for t in base_texts):
-                    undone.append(f"{key} {old!r} back in site/{rel}")
+                    line = f"{key} {old!r} back in site/{rel}"
+                    (undone if is_accuracy_pair(key, old, _new) else wording).append(line)
         if undone:
             reasons.append(f"override fix undone ({len(undone)}): " + "; ".join(undone[:8]))
+        LAST_WORDING_WARNINGS.extend(wording)
 
     # Moonshots fix (#413): guest fix scoped to EP #296 only.
     try:
@@ -434,6 +472,8 @@ def run_publish_guard(site: Path, pipeline: Path | None = None, repo: Path | Non
             reasons += fn(site, pipeline, baselines)
         except Exception as e:
             reasons.append(f"{fn.__name__} crashed: {e}")
+    for w in LAST_WORDING_WARNINGS:
+        print(f"{WARN_WORDING}: plain-wording override undone (not blocking): {w}")
     try:
         reasons += check_data(site)
     except Exception as e:
