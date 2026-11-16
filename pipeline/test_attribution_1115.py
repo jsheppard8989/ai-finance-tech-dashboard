@@ -67,3 +67,20 @@ def test_no_bet_wording_and_unapproved_calls_not_applied():
         for _old, new in r["replacements"]:
             assert not re.search(r"\bbets?\b", new, re.I)
         assert "drop_list_items" not in r  # '1 billion unit' falsification track not approved
+
+
+def test_690_bank_of_nvidia_stored_form_is_chamath():
+    """Nov 15 2026 (G, PR #833): the stored Deep Dive evidence reads 'Jason Friedberg: The bank...'.
+    The later name fix turns that into David Friedberg, so the 690 rule has to match the stored form.
+    Source: All-In ep 680, Friedberg asks at 31:22 ('Chamath, you're pretty close to this'),
+    Chamath answers at 32:01 (Mac transcript ALLIN-E297_Ch.txt L430-435)."""
+    import export_data
+    for label in ("Jason Friedberg", "David Friedberg"):
+        rec = {"insight_id": 690, "podcast_episode_id": 680,
+               "episode_evidence": f"Jason Calacanis: Nvidia reports earnings next Tuesday.\n"
+                                   f"{label}: The bank of Nvidia ran through Jensen and it's not clear what happens now."}
+        export_data._apply_summary_overrides(rec)
+        export_data._apply_summary_overrides(rec)  # idempotent
+        assert ("Chamath Palihapitiya: The bank of Nvidia ran through Jensen and it's not clear what happens now."
+                in rec["episode_evidence"]), label
+        assert "Friedberg: The bank" not in rec["episode_evidence"]
