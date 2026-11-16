@@ -252,6 +252,26 @@ def test_host_label_on_clip_words_becomes_a_clip_and_clip_label_is_kept():
     assert q[2]["speaker"] == "Emad Mostaque"           # named by the directed question
 
 
+def test_quote_read_out_by_host_and_played_in_clip_is_placed_in_the_clip():
+    # ep 679: Peter reads Christiano's line at 39:08 ("with this statement, quote, I think there is a high
+    # risk ...") and the clip plays it at 40:20. The words are the clip's: never "one host" or Peter.
+    line = "I think there is a high risk of an AI takeover within the next three years"
+    tm = tmap(MOON_ROSTER,
+              (0, "Paul Christiano opened the Hinton lectures in Toronto with this statement, quote, " + line +
+               ". Christiano is the guy who ran the alignment team. " +
+               " ".join(f"Filler sentence number {n} about the lectures and the alignment debate." for n in range(12)) +
+               " Let's watch this video."),
+              (60, ">> I'm going to start with the most important sentence. Uh so " + line +
+               ". What I mean by an AI takeover is a situation where AIs call the shots."),
+              (80, ">> Wow. Just wow."))
+    d = tm.speaker_for(line)
+    assert d["status"] == "clip" and d["turn"].index == 1
+    tx = " ".join(t.text for t in tm.turns)
+    ext = {"high_value_quotes": [{"speaker": "one host", "quote": "So " + line}]}
+    sa.enforce_speaker_cues(ext, tx, MOON, show_notes=MOON_311_NOTES, turns=tm)
+    assert ext["high_value_quotes"][0]["speaker"] == "a clip"
+
+
 def test_moonshots_db_guest_list_is_not_used():
     # ep 679's DB guest list holds clip voices; turn names come from the roster only.
     assert set(MOON_ROSTER) == {"Peter Diamandis", "Alex Wissner-Gross", "Salim Ismail", "Emad Mostaque"}
@@ -431,3 +451,9 @@ def test_fetch_is_skipped_without_yt_dlp(tmp_path, monkeypatch):
     monkeypatch.setenv("YT_DLP_BIN", str(tmp_path / "missing-yt-dlp"))
     monkeypatch.setattr(ct.shutil, "which", lambda *_: None)
     assert ct.fetch_youtube_captions(tmp_path / "x.txt", ALLIN, "Some title") is None
+
+
+def test_a_clip_evidence_line_counts_as_an_honest_label():
+    from generate_deepdives import ONE_HOST_LINE_RE
+    ev = "a clip: I think there is a high risk of an AI takeover\none host: We don't have all the facts yet."
+    assert ONE_HOST_LINE_RE.findall(ev) == ["a clip", "one host"]

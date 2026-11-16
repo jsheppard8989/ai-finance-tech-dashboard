@@ -578,7 +578,8 @@ SPEAKER_NAME_PATTERN = (
 SPEAKER_LINE_RE = re.compile(r"^" + SPEAKER_NAME_PATTERN + r"\s*:\s*\S")
 
 _GENERIC_SPEAKER_LABELS = {"host", "guest", "author", "speaker"}
-ONE_HOST_LINE_RE = re.compile(r"(?im)^\s*[-•]?\s*(one (?:co-)?host)\s*:\s*\S")
+# "a clip" is the caption-turn label for clip words with no named clip voice (Nov 15 2026): honest, like "one host".
+ONE_HOST_LINE_RE = re.compile(r"(?im)^\s*[-•]?\s*(one (?:co-)?host|a clip)\s*:\s*\S")
 
 
 def _speaker_base_name(label: str) -> str:
@@ -610,8 +611,8 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
         ev,
     )
     named = [n for n in named if _speaker_base_name(n) not in _GENERIC_SPEAKER_LABELS]
-    # Change 1 (Jared, Nov 15): with no transcript cue the label is "one host"; that is an
-    # honest speaker label, not a missing one, so it counts toward the two attributed lines.
+    # Change 1 (Jared, Nov 15): with no transcript cue the label is "one host" (or "a clip" for clip
+    # words); that is an honest speaker label, not a missing one, so it counts toward the two attributed lines.
     named += ONE_HOST_LINE_RE.findall(ev)
     if len(named) < 2:
         return False, "source_quotes need at least two lines that name the speaker (Full Name: \"quote\")"

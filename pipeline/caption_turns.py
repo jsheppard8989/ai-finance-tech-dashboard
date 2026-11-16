@@ -507,14 +507,20 @@ class TurnMap:
         need = max(2, int(0.3 * (len(q) - 2)))
         if best_score < need:
             return {**out, "why": "weak_match"}
-        # A second, far-away placement nearly as good = repeated phrase; don't guess.
-        for sc, off in scored[1:]:
-            if abs(off - best_off) > 30 and sc >= 0.8 * best_score:
-                ta = self._span_turn(best_off, len(q))
-                tb = self._span_turn(off, len(q))
-                if ta is None or tb is None or ta[0] != tb[0]:
+        # A second, far-away placement nearly as good = repeated phrase; don't guess. One exception:
+        # the words occur in exactly one clip turn and elsewhere in host turns (a host reading the quote
+        # out before or after the clip plays, ep 679 39:08 / 40:20 Christiano). The words are the clip's,
+        # so place them there: the label can then only be the clip voice or "a clip", never a host.
+        rivals = [off for sc, off in scored[1:] if abs(off - best_off) > 30 and sc >= 0.8 * best_score]
+        if rivals:
+            placements = [best_off] + rivals
+            spans = [self._span_turn(o, len(q)) for o in placements]
+            if any(sp is None for sp in spans) or len({sp[0] for sp in spans}) > 1:
+                clip_offs = [o for o, sp in zip(placements, spans) if sp is not None and self.turns[sp[0]].clip]
+                if len(clip_offs) == 1 and all(sp is not None for sp in spans):
+                    best_off = clip_offs[0]
+                else:
                     return {**out, "why": "ambiguous_match"}
-                break
         hit = self._span_turn(best_off, len(q), min_share)
         if hit is None:
             return {**out, "why": "spans_turns"}
