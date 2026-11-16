@@ -84,3 +84,20 @@ def test_690_bank_of_nvidia_stored_form_is_chamath():
         assert ("Chamath Palihapitiya: The bank of Nvidia ran through Jensen and it's not clear what happens now."
                 in rec["episode_evidence"]), label
         assert "Friedberg: The bank" not in rec["episode_evidence"]
+
+
+def test_690_scout_fact_fixes_nov15():
+    """Scout source check (Nov 15): our-voice facts on card 690; the Calacanis '15%' quote stays verbatim."""
+    import export_data
+    s = ("with the hosts discussing reporting that Jensen Huang was ousted amid allegations. "
+         "because Nvidia’s next earnings were said to be imminent and the stock had already fallen 15% in a week, wiping out. "
+         "The hosts cite a $70-$78 price range, a $1.4 trillion valuation discussion, 825 million shares, and a series")
+    q = {"speaker": "Jason Calacanis", "quote": "the stock has been crushed down 15% in the last week"}
+    rec = {"insight_id": 690, "podcast_episode_id": 680, "summary": s, "notable_quotes": [q]}
+    export_data._apply_summary_overrides(rec)
+    export_data._apply_summary_overrides(rec)
+    out = rec["summary"]
+    assert "resigned under board pressure" in out and "was ousted" not in out
+    assert "fallen about 13% in a week (Jason Calacanis put it at 15%)," in out
+    assert "a valuation of up to about $1.4 trillion, an offering of 825 million shares," in out
+    assert rec["notable_quotes"][0]["quote"] == "the stock has been crushed down 15% in the last week"
