@@ -2612,7 +2612,7 @@
     {
       "insight_id": 690,
       "podcast_episode_id": 680,
-      "_note": "Nov 15 2026 (Wendy fix list cos/fixes/summary_attribution_fixes_2026-11-15.md; flagged by Ric, verified vs Exa/Particle speaker-labeled transcript 74pqqvnjr6z): All-In 'Jensen Ousted' speaker fixes. G re-verified every line vs the episode transcript on the pipeline Mac + RSS show notes (g_verify_2026-11-15.md); Jared approved (decisions.md Nov 15 4:32 PM CT). Quotes verbatim; names and our-voice text only.",
+      "_note": "Nov 15 2026 (Wendy fix list cos/fixes/summary_attribution_fixes_2026-11-15.md; flagged by Ric, verified vs Exa/Particle speaker-labeled transcript 74pqqvnjr6z): All-In 'Jensen Ousted' speaker fixes. G re-verified every line vs the episode transcript on the pipeline Mac + RSS show notes (g_verify_2026-11-15.md); Jared approved (decisions.md Nov 15 4:32 PM CT). Quotes verbatim; names and our-voice text only. Nov 15 2026 10:55 PM CT (G): stored Deep Dive evidence reads 'Jason Friedberg: The bank...' (a later name fix turns it into David Friedberg after this rule runs), so that raw form is matched too.",
       "replacements": [
         [
           "Sacks pushes the contrarian view that China still remains multiple years behind because Nvidia’s platform and engineering stack are bigger than any single executive.",
@@ -2649,6 +2649,10 @@
         [
           "Chamath Palihapitiya: Nvidia reports earnings next Tuesday",
           "Jason Calacanis: Nvidia reports earnings next Tuesday"
+        ],
+        [
+          "Jason Friedberg: The bank of Nvidia ran through Jensen",
+          "Chamath Palihapitiya: The bank of Nvidia ran through Jensen"
         ],
         [
           "David Friedberg: The bank of Nvidia ran through Jensen",
