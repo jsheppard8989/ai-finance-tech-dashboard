@@ -1,6 +1,6 @@
 [
   {
-    "id": 121058,
+    "id": 121269,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -12,19 +12,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121059,
-    "name": "Jensen Ousted as Nvidia CEO",
-    "slug": "jensen-ousted-as-nvidia-ceo",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Nvidia leadership disruption could slow chip-iteration velocity, while Anthropic\u2019s enterprise momentum positions it as a potential AI platform winner.",
-    "last_episode_title": "Jensen Ousted as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-11-14",
-    "appearance_count": 1
-  },
-  {
-    "id": 121060,
+    "id": 121270,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -36,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121061,
+    "id": 121271,
     "name": "Wiz CTO Ami Luttwak",
     "slug": "wiz-cto-ami-luttwak",
     "bio": null,
@@ -48,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121062,
+    "id": 121272,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -60,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121063,
+    "id": 121273,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -72,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121064,
+    "id": 121274,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -84,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121065,
+    "id": 121275,
     "name": "Freedom vs. Safety",
     "slug": "freedom-vs-safety",
     "bio": null,
@@ -96,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121066,
+    "id": 121276,
     "name": "What Frontier Labs Buy",
     "slug": "what-frontier-labs-buy",
     "bio": null,
@@ -108,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121067,
+    "id": 121277,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -120,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121068,
+    "id": 121278,
     "name": "Laks Ganapathi",
     "slug": "laks-ganapathi",
     "bio": null,
@@ -132,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121069,
+    "id": 121279,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -144,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121070,
+    "id": 121280,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -156,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121071,
+    "id": 121281,
     "name": "Controlling Biology",
     "slug": "controlling-biology",
     "bio": null,
@@ -168,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121072,
+    "id": 121282,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -180,7 +168,7 @@
     "appearance_count": 2
   },
   {
-    "id": 121073,
+    "id": 121283,
     "name": "Figma CFO Praveer Melwani",
     "slug": "figma-cfo-praveer-melwani",
     "bio": null,
@@ -192,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121074,
+    "id": 121284,
     "name": "\u26a1 Behind Latent Space",
     "slug": "behind-latent-space",
     "bio": null,
@@ -204,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121075,
+    "id": 121285,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -216,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121076,
+    "id": 121286,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -228,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121077,
+    "id": 121287,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -240,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121078,
+    "id": 121288,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -252,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121079,
+    "id": 121289,
     "name": "Aaron Levie",
     "slug": "aaron-levie",
     "bio": null,
@@ -264,7 +252,7 @@
     "appearance_count": 2
   },
   {
-    "id": 121080,
+    "id": 121290,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -276,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121081,
+    "id": 121291,
     "name": "Arvind Krishna & Nikesh Arora",
     "slug": "arvind-krishna--nikesh-arora",
     "bio": null,
@@ -288,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121082,
+    "id": 121292,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -300,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121083,
+    "id": 121293,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -312,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121084,
+    "id": 121294,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -324,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121085,
+    "id": 121295,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -336,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121086,
+    "id": 121296,
     "name": "Dylan Field",
     "slug": "dylan-field",
     "bio": null,
@@ -348,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121087,
+    "id": 121297,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -356,6 +344,18 @@
     "last_main_idea": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
     "last_episode_title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
     "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-18",
+    "appearance_count": 1
+  },
+  {
+    "id": 121298,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bianco\u2019s core claim is that long-term Treasuries are attractive again because yields are now near fair value for a 5% to 6% nominal-growth economy with sticky 3% inflation.",
+    "last_episode_title": "Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-18",
     "appearance_count": 1
   }
