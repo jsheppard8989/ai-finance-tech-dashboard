@@ -165,6 +165,10 @@ HYPOTHETICAL_RULES = """- Numbers, dates and time frames must be the ones the sp
   they said "a switch"). Describe what they said in their own terms.
 """
 
+OUR_VOICE_WORDING_RULES = """OUR VOICE WORDING (attributed guest quotes stay verbatim, word for word):
+- Never write "bet", "bets", or "betting" in our own voice. Use call, view, lean, position, or trade instead.
+"""
+
 EMERGING_TERM_SPEAKER_FIELD = (
     "Full name of the person who said speaker_quote (same cue rules; clip voices as 'Name (clip)'; "
     "'' if unsure)"
@@ -534,8 +538,17 @@ def apply_attribution_rules(
         analysis, podcast_name, show_notes=show_notes, episode_ref=episode_ref,
         log_path=(str(log_path).replace("quote_check_drops", "speaker_cue_relabels") if log_path else None),
     )
+    number_drops = []
+    try:
+        from summary_number_check import apply_number_check
+        num_log = (str(log_path).replace("quote_check_drops", "number_check_drops") if log_path else None)
+        number_drops = apply_number_check(
+            analysis, transcript, episode_ref=episode_ref, log_path=num_log, kind="analysis",
+        )
+    except Exception as exc:
+        print(f"    WARN number check skipped: {exc}", flush=True)
     return {"dropped_guests": dropped_guests, "dropped_quotes": dropped_quotes,
-            "speaker_relabels": relabels, "prose_relabels": prose}
+            "speaker_relabels": relabels, "prose_relabels": prose, "number_drops": number_drops}
 
 
 # ---------------------------------------------------------------------------

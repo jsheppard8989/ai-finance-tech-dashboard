@@ -28,6 +28,7 @@ from speaker_attribution import (
     CLIP_RULES,
     EMERGING_TERM_SPEAKER_FIELD,
     HYPOTHETICAL_RULES,
+    OUR_VOICE_WORDING_RULES,
     QUOTE_CHECK_RULES,
     SPEAKER_ATTRIBUTION_RULES,
     episode_roster,
@@ -181,6 +182,7 @@ If the speaker makes a weak argument, say so.
 
 If the podcast contains no meaningful investment insight, explicitly say that.
 
+__OUR_VOICE_WORDING_RULES__
 Produce ALL of the following sections (do not skip any):
 
 # REAL ALPHA — PODCAST INTELLIGENCE BRIEF
@@ -214,6 +216,7 @@ You MUST complete all sections above. Do not truncate or stop early.
 Here is the extracted intelligence:
 
 """
+SYNTHESIS_PROMPT = SYNTHESIS_PROMPT.replace("__OUR_VOICE_WORDING_RULES__", OUR_VOICE_WORDING_RULES)
 
 
 SITE_CONTRACT_PROMPT = """
@@ -223,7 +226,8 @@ RULES:
 - For notable_quotes: Select the 3 MOST INSIGHTFUL quotes from high_value_quotes — those with specific claims, numbers, or contrarian views. Do NOT just pick the first 3. Keep them verbatim with the speaker label EXACTLY as the extraction gives it (including "(clip)", "(quoted by ...)" or "one host"). NEVER attribute a host's words to the guest.
 - Use the extraction's guests and hosts fields for those fields. Never list clip voices, quoted people or people only mentioned as guests.
 - SPEAKERS IN SUMMARY AND key_takeaways: name a person only when the extraction attributes that claim or quote to them. Never move a claim from one person to another, never credit the person who asked the question, and keep each side of a disagreement with its own speaker. If the extraction says "one host" or gives no speaker, write "one host" / "the hosts". A host relaying someone else's words or view: write "X raises Y's warning" or "X, quoting Y, said", not "X argues".
-__HYPOTHETICAL_RULES__- For sentiment, default to "neutral". Use bullish/bearish ONLY when the speaker explicitly states a direction.
+__HYPOTHETICAL_RULES__
+__OUR_VOICE_WORDING_RULES__- For sentiment, default to "neutral". Use bullish/bearish ONLY when the speaker explicitly states a direction.
 - For key_tickers and ticker_mentions: ONLY include a ticker when the speaker ACTUALLY DISCUSSED that company with investment-relevant substance (claims, numbers, catalysts, risks) as shown in the extraction's companies_and_assets, major_claims, investment_ideas, or risks. Do NOT invent "comparison points" or add tickers the speaker never discussed. If unsure, omit.
 - For ticker_mentions: The context must describe what the SPEAKER said about that company, not what you infer. If there is no speaker quote or claim about that company in the extraction, do not include it.
 
@@ -246,6 +250,7 @@ Extraction data:
 SITE_CONTRACT_PROMPT = (
     SITE_CONTRACT_PROMPT
     .replace("__HYPOTHETICAL_RULES__", HYPOTHETICAL_RULES)
+    .replace("__OUR_VOICE_WORDING_RULES__", OUR_VOICE_WORDING_RULES)
     .replace("__TERM_SPEAKER__", EMERGING_TERM_SPEAKER_FIELD)
 )
 

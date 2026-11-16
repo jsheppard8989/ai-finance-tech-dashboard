@@ -920,6 +920,20 @@ def _extract_speakers_from_notable_quotes(notable_quotes_json: str) -> List[str]
     return []
 
 
+from speaker_attribution import OUR_VOICE_WORDING_RULES
+
+LEGACY_DEEPDIVE_HARD_RULES = (
+    "Hard rules:\n"
+    "- Do NOT use these phrases anywhere: unresolved tension, competitive dynamic, allocator-relevant, "
+    "core logic is that, vindicated, invalidated, investors should monitor, key differentiator, "
+    "observable development, policy tradeoff.\n"
+    "- source_quotes MUST cite the SOURCE MATERIAL; do not invent quotes.\n"
+    "- whats_new + investment_implication.prose must NOT read like a light edit of the Insight card.\n"
+    "- ticker keys: REAL symbols only (never TICKER1, placeholders).\n"
+    "- English only.\n"
+    f"{OUR_VOICE_WORDING_RULES}"
+)
+
 EXTRACTION_DEEPDIVE_PROMPT = """
 You are producing a Deep Dive analysis from structured extraction data.
 
@@ -941,6 +955,7 @@ CRITICAL RULES:
 4. Investment thesis MUST be actionable - what should investors watch or do?
 5. falsification_tracks MUST be testable - EVERY line needs (i) a date or "by <date>", (ii) a numeric threshold, and (iii) the named source that grades it (e.g. "10-Q", "8-K", "EIA", "FERC docket"). Example: "Revenue under $318M in the Q3 2026 10-Q, due by Nov 9, 2026."
 6. NEVER use the phrase "Investors should" anywhere in the output. Say what is worth watching, not what investors "should" do.
+7. __OUR_VOICE_WORDING_RULES__
 
 Return ONLY this JSON:
 {
@@ -959,6 +974,9 @@ Return ONLY this JSON:
   "catalysts": ["Catalyst 1 with timing", ...]
 }
 """
+
+
+EXTRACTION_DEEPDIVE_PROMPT = EXTRACTION_DEEPDIVE_PROMPT.replace("__OUR_VOICE_WORDING_RULES__", OUR_VOICE_WORDING_RULES)
 
 
 def _validate_quotes_from_extraction(episode_evidence: List[str], extraction: Dict) -> Tuple[bool, str]:
@@ -1150,12 +1168,7 @@ Return ONLY valid JSON with these keys:
   }}
 }}
 
-Hard rules:
-- Do NOT use these phrases anywhere: unresolved tension, competitive dynamic, allocator-relevant, core logic is that, vindicated, invalidated, investors should monitor, key differentiator, observable development, policy tradeoff.
-- source_quotes MUST cite the SOURCE MATERIAL; do not invent quotes.
-- whats_new + investment_implication.prose must NOT read like a light edit of the Insight card.
-- ticker keys: REAL symbols only (never TICKER1, placeholders).
-- English only.
+{LEGACY_DEEPDIVE_HARD_RULES}
 {retry_block}"""
 
     raw, err, usage_info = _call_json_model(clients, prompt)
@@ -1351,6 +1364,8 @@ def run_extraction_deep_dive_attempts(
             return None, err, final_usage
         
         qc_drops = apply_evidence_quote_check(content, transcript, episode_ref, podcast_name, turns=turns)
+        from summary_number_check import apply_number_check
+        apply_number_check(content, transcript, episode_ref=episode_ref, kind="deep_dive")
         evidence = _episode_evidence_text(content.get("episode_evidence"))
         whats_new = str(content.get("overview") or "")
         thesis = str(content.get("investment_thesis") or "")
@@ -1447,6 +1462,13 @@ def run_deep_dive_generation_attempts(
         qc_drops = apply_evidence_quote_check(
             content, source_content if source_type == "podcast" else "", f"insight {insight_id}",
             podcast_name if source_type == "podcast" else "",
+        )
+        from summary_number_check import apply_number_check
+        apply_number_check(
+            content,
+            source_content if source_type == "podcast" else "",
+            episode_ref=f"insight {insight_id}",
+            kind="deep_dive",
         )
         evidence = _episode_evidence_text(content.get("episode_evidence"))
         whats_new = str(content.get("overview") or "")
