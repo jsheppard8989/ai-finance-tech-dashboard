@@ -343,6 +343,7 @@ def _tail(text: str, n_words: int = 60) -> str:
     return " ".join(w[-n_words:])
 
 
+CLIP_HOST_TAIL_MIN_WORDS = 150   # a clip turn this long also holds the host talking after the clip
 MAX_NAMED_WORDS = 600   # never carry a name further than this into one caption turn
 
 
@@ -385,7 +386,11 @@ def assign_turn_names(turns: List[Turn], roster: Sequence[str]) -> List[Turn]:
         candidates: List[Tuple[str, str, str]] = []
         # 1. Directed question / hand-off at the end of the previous turn.
         split_sentence = bool(prev is not None and prev.text.rstrip()[-1:] not in ".?!" and t.text[:1].islower())
-        if prev is not None and not prev.clip and not split_sentence:
+        # A clip turn can only hand off when it is long enough to hold host talk after the clip
+        # (captions often miss the '>>' where the host comes back: ep 679 7:43 Fox clip -> "So, Alex,
+        # I'm going to you first ... What are your thoughts"; 58:07 Hassabis clip -> "Salim, your thoughts?").
+        prev_can_hand_off = prev is not None and (not prev.clip or len(prev.text.split()) >= CLIP_HOST_TAIL_MIN_WORDS)
+        if prev_can_hand_off and not split_sentence:
             tail = _strip_tags(_tail(prev.text, 100))
             addressed = _addressed_in(tail, toks)
             names = {m for m, _, _ in addressed}

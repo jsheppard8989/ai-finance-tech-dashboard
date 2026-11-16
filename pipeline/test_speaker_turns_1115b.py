@@ -200,6 +200,29 @@ def test_turn_after_a_clip_cue_is_a_clip_and_never_named():
     assert tm.turns[3].name == "Salim Ismail"
 
 
+def test_host_handoff_after_a_long_clip_with_a_missed_marker():
+    # ep 679 7:43: the Fox clip turn also holds Peter's comments (captions missed the '>>'), ending
+    # "So, Alex, I'm going to you first ... What are your thoughts" -> Alex answers at 11:41.
+    fox = " ".join(["Fox News Alert, chip king Jensen is gone and there is something suspicious here."] * 12)
+    tm = tmap(MOON_ROSTER,
+              (0, "It's an amazing overview of what is going on. Let's take a look."),
+              (10, ">> " + fox + " Well, the article doesn't say. A lot of layers here. So, Alex, I'm going to you "
+                   "first. Is this a national security failure? Is it a political hit job? Or is this just a CEO who "
+                   "made a lot of wrong decisions on his personal side? What are your thoughts"),
+              (200, ">> I'll say as a preliminary matter, we don't have all the facts yet."))
+    assert tm.turns[1].clip and tm.turns[1].name is None
+    assert (tm.turns[2].name, tm.turns[2].evidence) == ("Alex Wissner-Gross", "directed_question")
+
+
+def test_short_clip_ending_in_a_roster_name_does_not_hand_off():
+    # A short clip (an old interview) that ends "Jason, what do you think?" is still clip audio.
+    tm = tmap(ALLIN_ROSTER,
+              (0, "Play the clip, Nick."),
+              (5, ">> We will cure these diseases within a decade. Jason, what do you think?"),
+              (10, ">> I think it's possible, yes."))
+    assert tm.turns[1].clip and tm.turns[2].name is None
+
+
 def test_clip_addressing_a_non_roster_person_names_nobody():
     tm = tmap(MOON_ROSTER,
               (0, "Play the clip, Nick."),
