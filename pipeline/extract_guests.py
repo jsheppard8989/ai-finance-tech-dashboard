@@ -198,18 +198,42 @@ def is_plausible_person_name(name: str, podcast_name: str = "") -> bool:
     return False
 
 
-def extract_guest_name(episode_title: str, summary: str, podcast_name: str = "") -> Optional[str]:
+def extract_guest_name(
+    episode_title: str,
+    summary: str,
+    podcast_name: str = "",
+    key_takeaways: str = "",
+    analyzer_guests=None,
+) -> Optional[str]:
     """
     Heuristic extraction of guest/interviewee name from title and summary.
     Returns None if we can't identify a clear guest (e.g. host-only episode).
+
+    Change 5 (Jared, Nov 15 2026): a name is never taken from the title alone.
+    - Host-panel shows (All-In, Moonshots): title patterns are skipped entirely.
+    - Other shows: a title-derived name is used only when the episode's own summary,
+      key_takeaways, or the analyzer's guests also name that person.
+    Hand-set episode_title_guest overrides still win.
     """
+    from speaker_attribution import (
+        canonical_roster_name, is_host_panel_show, show_roster, title_guest_allowed,
+    )
+
     title = (episode_title or "").strip()
     summary = (summary or "").strip()
+    if isinstance(key_takeaways, (list, tuple)):
+        key_takeaways = " ".join(str(x) for x in key_takeaways)
+    evidence_text = f"{summary}\n{key_takeaways or ''}"
 
     ov = load_overrides()
     title_guest = (ov.get("episode_title_guest") or {}).get(title)
     if title_guest:
         return title_guest.strip()
+
+    panel_show = is_host_panel_show(podcast_name)
+
+    def title_ok(name):
+        return bool(name) and title_guest_allowed(name, podcast_name, evidence_text, analyzer_guests)
 
     def ok(name):
         cleaned = normalize_guest_name(name)
@@ -223,26 +247,27 @@ def extract_guest_name(episode_title: str, summary: str, podcast_name: str = "")
             return pm.group(1).strip()
         return cleaned if ok(name) else None
 
-    # "Topic with Guest Name" (prefer before naive "Title: fragment" capture)
-    m = re.search(r"\bwith\s+([A-Za-z][a-zA-Z\s\.\-']+?)(?:\s*[:\|,]|$|\.)", title)
-    if m:
-        name = pick(m.group(1).strip())
-        if name:
-            return name
+    if not panel_show:
+        # "Topic with Guest Name" (prefer before naive "Title: fragment" capture)
+        m = re.search(r"\bwith\s+([A-Za-z][a-zA-Z\s\.\-']+?)(?:\s*[:\|,]|$|\.)", title)
+        if m:
+            name = pick(m.group(1).strip())
+            if title_ok(name):
+                return name
 
-    # Pattern: "Topic | Guest Name" (a16z style; trailing segment is the guest)
-    if "|" in title:
-        tail = title.rsplit("|", 1)[1].strip()
-        name = pick(tail)
-        if name:
-            return name
+        # Pattern: "Topic | Guest Name" (a16z style; trailing segment is the guest)
+        if "|" in title:
+            tail = title.rsplit("|", 1)[1].strip()
+            name = pick(tail)
+            if title_ok(name):
+                return name
 
-    # Pattern: "Guest Name: Topic" or "Guest Name | Topic"
-    m = re.match(r"^([^:|]+?)\s*[:\|]\s*", title)
-    if m:
-        name = pick(m.group(1).strip())
-        if name and not name.startswith("The "):
-            return name
+        # Pattern: "Guest Name: Topic" or "Guest Name | Topic"
+        m = re.match(r"^([^:|]+?)\s*[:\|]\s*", title)
+        if m:
+            name = pick(m.group(1).strip())
+            if name and not name.startswith("The ") and title_ok(name):
+                return name
 
     # "Topic with Guest Name" in summary
     for pattern in [
@@ -254,14 +279,16 @@ def extract_guest_name(episode_title: str, summary: str, podcast_name: str = "")
         m = re.search(pattern, summary, re.I)
         if m:
             name = pick(m.group(1).strip())
+            if name and panel_show and canonical_roster_name(name, show_roster(podcast_name)):
+                continue  # a regular host is never the episode's guest
             if name:
                 return name
 
     # Title: "First Last" at start
     m = re.match(r"^([A-Z][a-z]+(?:\s+[A-Z][a-z]+)(?:\s+[A-Z][a-z]+)?)\s*[:\|\-]", title)
-    if m:
+    if m and not panel_show:
         name = pick(m.group(1).strip())
-        if name:
+        if title_ok(name):
             return name
 
     return None
@@ -288,7 +315,10 @@ def main():
 
     for row in rows:
         ep_id, podcast_name, episode_title, episode_date, summary, investment_thesis, key_takeaways = row
-        guest = extract_guest_name(episode_title or "", summary or "", podcast_name or "")
+        guest = extract_guest_name(
+            episode_title or "", summary or "", podcast_name or "",
+            key_takeaways=key_takeaways or "",
+        )
         if not guest:
             continue
         guest_clean = guest.strip()

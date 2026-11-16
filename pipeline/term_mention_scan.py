@@ -8,7 +8,7 @@ Resolves aliases to canonical terms. At most one mention increment per canonical
 from __future__ import annotations
 
 import re
-from typing import Iterable, List, Optional, Set, Tuple
+from typing import Dict, Iterable, List, Optional, Set, Tuple
 
 from term_alias_util import expand_terms_for_scan
 
@@ -52,9 +52,16 @@ def record_episode_mentions(
     transcript: str,
     episode_id: int,
     detected_by: Optional[str] = None,
+    speakers_by_term: Optional[Dict[str, Optional[str]]] = None,
+    clear_speaker_if_none: bool = False,
 ) -> Tuple[int, List[str]]:
     """
     For each tracked term found in transcript, bump counts if this episode is new for that term.
+
+    ``speakers_by_term`` (lower-cased term -> speaker) gives the person who actually said a
+    term when the analysis attributed it; other terms use ``detected_by``. With
+    ``clear_speaker_if_none`` an unknown speaker clears the previous episode's speaker
+    instead of leaving it attached to this episode.
     Returns (terms_updated_count, canonical_term_names).
     """
     if not episode_id or not transcript:
@@ -65,11 +72,16 @@ def record_episode_mentions(
         scan_pairs = expand_terms_for_scan(conn)
         hits = find_canonical_terms_in_text(transcript, scan_pairs)
         for term in hits:
+            speaker = detected_by
+            if speakers_by_term and term.lower() in speakers_by_term:
+                speaker = speakers_by_term[term.lower()]
+            kwargs = {"clear_speaker_if_none": True} if clear_speaker_if_none else {}
             if db.record_tracked_term_episode_mention(
                 conn,
                 term,
                 episode_id=episode_id,
-                detected_by=detected_by,
+                detected_by=speaker,
+                **kwargs,
             ):
                 updated.append(term)
     return len(updated), updated

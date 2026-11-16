@@ -24,6 +24,17 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from workspace_paths import DB_PATH
+from speaker_attribution import (
+    CLIP_RULES,
+    EMERGING_TERM_SPEAKER_FIELD,
+    HYPOTHETICAL_RULES,
+    QUOTE_CHECK_RULES,
+    SPEAKER_ATTRIBUTION_RULES,
+    episode_roster,
+    is_host_panel_show,
+    roster_block,
+    show_roster,
+)
 
 EXTRACTION_PROMPT_BASE = """
 You are a high-quality research analyst processing a long-form podcast transcript.
@@ -72,7 +83,7 @@ The JSON should contain:
       "ticker": "TICK",
       "claim": "What the speaker claims about this company",
       "evidence": "Supporting evidence from transcript",
-      "key_quotes": [{"speaker": "Full Name", "quote": "Verbatim quote about this company, full sentence"}],
+      "key_quotes": [{"speaker": "Full Name, 'X (quoted by Y)', 'X (clip)', or 'one host'", "quote": "Verbatim quote about this company, full sentence", "cue": "transcript words that identify the speaker"}],
       "falsification": "What would prove this claim wrong, with date/condition if stated"
     }
   ],
@@ -83,29 +94,30 @@ The JSON should contain:
   "contrarian_ideas": [],
   "unanswered_questions": [],
   "high_value_quotes": [],
-  "guests": [],
+  "guests": [{"name": "Full Name", "role": "guest", "bio": "...", "intro_cue": "transcript words that introduce them live"}],
   "hosts": [],
   "falsification_tracks": ["Track 1: What would prove the overall thesis wrong", "Track 2: ..."]
 }
 
 """
 
-EXTRACTION_PROMPT_SUFFIX = """
+_EXTRACTION_PROMPT_SUFFIX_TEMPLATE = """
 
 SPEAKER ATTRIBUTION RULES:
-- For high_value_quotes, you MUST attribute quotes to the specific named speaker when identifiable from context.
-- Use the KNOWN SPEAKERS list above when the speaker is identifiable (do NOT use generic labels like "Unidentified speaker" or "Guest" when you can identify who spoke).
-- For guests, include: {"name": "Full Name", "role": "guest", "bio": "Brief bio if mentioned"}
+- For high_value_quotes, attribute each quote to the named speaker ONLY when the transcript gives a cue (see below); otherwise use "one host" / "a panelist".
+- Use the KNOWN SPEAKERS / SHOW ROSTER spellings above when the speaker is identifiable.
+- For guests, include: {"name": "Full Name", "role": "guest", "bio": "Brief bio if mentioned", "intro_cue": "transcript words that introduce them live"}
 - For hosts, include: {"name": "Full Name", "role": "host"}
 
+{SPEAKER_ATTRIBUTION_RULES}\n{CLIP_RULES}\nCLAIM WORDING:\n{HYPOTHETICAL_RULES}
 HIGH_VALUE_QUOTES RULES:
 - Extract 5-8 high-value quotes from the transcript.
 - Each quote MUST be: verbatim from the transcript, a complete self-contained sentence or sentences (15-60 words), and carry a specific claim, number, prediction, or contrarian view.
 - Do NOT pick fragments, filler phrases, or generic statements that could apply to any podcast.
 - Prefer quotes with: specific numbers/percentages, named companies, concrete predictions, contrarian positions, or testable claims.
-- Format: {"speaker": "Full Name", "quote": "Exact verbatim quote 15-60 words"}
+- Format: {"speaker": "Full Name", "quote": "Exact verbatim quote 15-60 words", "cue": "transcript words that identify the speaker"}
 - NEVER attribute a host's words to the guest or vice versa.
-
+- {QUOTE_CHECK_RULES}
 NUMBERS FILTER:
 - For numbers[], include only investment-relevant statistics: revenue, market size, growth rates, valuations, dates/timelines, percentages.
 - EXCLUDE event logistics like broadcast times, masterclass schedules, Patreon amounts, episode numbers, or self-promotional timestamps.
@@ -123,6 +135,14 @@ FALSIFICATION_TRACKS:
 Transcript:
 
 """
+
+EXTRACTION_PROMPT_SUFFIX = (
+    _EXTRACTION_PROMPT_SUFFIX_TEMPLATE
+    .replace("{SPEAKER_ATTRIBUTION_RULES}", SPEAKER_ATTRIBUTION_RULES)
+    .replace("{CLIP_RULES}", CLIP_RULES)
+    .replace("{HYPOTHETICAL_RULES}", HYPOTHETICAL_RULES)
+    .replace("{QUOTE_CHECK_RULES}", QUOTE_CHECK_RULES)
+)
 
 
 SYNTHESIS_PROMPT = """
@@ -200,28 +220,34 @@ SITE_CONTRACT_PROMPT = """
 Based on the podcast extraction data below, produce a JSON object with these site-contract fields.
 
 RULES:
-- For notable_quotes: Select the 3 MOST INSIGHTFUL quotes from high_value_quotes — those with specific claims, numbers, or contrarian views. Do NOT just pick the first 3. Keep them verbatim with CORRECT speaker names. NEVER attribute a host's words to the guest.
-- Use the extraction's guests and hosts fields for those fields.
-- For sentiment, default to "neutral". Use bullish/bearish ONLY when the speaker explicitly states a direction.
+- For notable_quotes: Select the 3 MOST INSIGHTFUL quotes from high_value_quotes — those with specific claims, numbers, or contrarian views. Do NOT just pick the first 3. Keep them verbatim with the speaker label EXACTLY as the extraction gives it (including "(clip)", "(quoted by ...)" or "one host"). NEVER attribute a host's words to the guest.
+- Use the extraction's guests and hosts fields for those fields. Never list clip voices, quoted people or people only mentioned as guests.
+- SPEAKERS IN SUMMARY AND key_takeaways: name a person only when the extraction attributes that claim or quote to them. Never move a claim from one person to another, never credit the person who asked the question, and keep each side of a disagreement with its own speaker. If the extraction says "one host" or gives no speaker, write "one host" / "the hosts". A host relaying someone else's words or view: write "X raises Y's warning" or "X, quoting Y, said", not "X argues".
+__HYPOTHETICAL_RULES__- For sentiment, default to "neutral". Use bullish/bearish ONLY when the speaker explicitly states a direction.
 - For key_tickers and ticker_mentions: ONLY include a ticker when the speaker ACTUALLY DISCUSSED that company with investment-relevant substance (claims, numbers, catalysts, risks) as shown in the extraction's companies_and_assets, major_claims, investment_ideas, or risks. Do NOT invent "comparison points" or add tickers the speaker never discussed. If unsure, omit.
 - For ticker_mentions: The context must describe what the SPEAKER said about that company, not what you infer. If there is no speaker quote or claim about that company in the extraction, do not include it.
 
 Return ONLY this JSON object:
 {
   "summary": "3-5 paragraph recap of the actual argument, numbers, dates, disagreements, predictions",
-  "key_takeaways": ["5-7 bullets, each one specific claim with attribution to speaker"],
+  "key_takeaways": ["5-7 bullets, each one specific claim, credited to the speaker the extraction names for it (else 'one host')"],
   "investment_thesis": "ONE sentence under 40 words stating the episode's single most important specific claim",
   "sentiment": "neutral|bullish|bearish",
-  "notable_quotes": [{"speaker": "Full Name", "quote": "Verbatim 15-60 words, the 3 most insightful"}],
+  "notable_quotes": [{"speaker": "Speaker label exactly as in the extraction", "quote": "Verbatim 15-60 words, the 3 most insightful"}],
   "key_tickers": ["GOOGL"],
   "ticker_mentions": [{"ticker": "GOOGL", "context": "What the SPEAKER said about this company (from extraction)", "sentiment": "neutral", "conviction_score": 75, "timeframe": "medium_term", "is_contrarian": false, "is_disruption_focused": false}],
-  "emerging_terms": [{"term": "Term Name", "definition": "1-2 sentences", "investment_angle": "Why it matters", "speaker_quote": "Short verbatim line"}],
-  "guests": [{"name": "Full Name", "role": "guest", "bio": "1-2 sentences"}],
+  "emerging_terms": [{"term": "Term Name", "definition": "1-2 sentences", "investment_angle": "Why it matters", "speaker_quote": "Short verbatim line copied from a quote in the extraction", "speaker": "__TERM_SPEAKER__"}],
+  "guests": [{"name": "Full Name", "role": "guest", "bio": "1-2 sentences", "intro_cue": "copied from the extraction"}],
   "hosts": [{"name": "Full Name", "role": "host"}]
 }
 
 Extraction data:
 """
+SITE_CONTRACT_PROMPT = (
+    SITE_CONTRACT_PROMPT
+    .replace("__HYPOTHETICAL_RULES__", HYPOTHETICAL_RULES)
+    .replace("__TERM_SPEAKER__", EMERGING_TERM_SPEAKER_FIELD)
+)
 
 
 PASS1_MODEL = "gpt-5.4-nano"
@@ -290,12 +316,23 @@ ANALOGY_PHRASES = [
 ]
 
 KNOWN_HOSTS = {
-    "Moonshots with Peter Diamandis": ["Peter Diamandis"],
+    # Keyed by the real feed names (podcast_episodes.podcast_name). Panel-show rosters
+    # live in speaker_attribution.py; get_known_hosts() also matches name variants.
+    "Moonshots with Peter Diamandis": show_roster("Moonshots with Peter Diamandis"),
     "Monetary Matters with Jack Farley": ["Jack Farley"],
     "The a16z Show": [],
     "a16z Live": [],
-    "All-In Podcast": ["Chamath Palihapitiya", "Jason Calacanis", "David Sacks", "David Friedberg"],
+    "All-In with Chamath, Jason, Sacks & Friedberg": show_roster("All-In"),
+    "All-In Podcast": show_roster("All-In"),
 }
+
+
+def get_known_hosts(podcast_name: str, show_notes: str = "") -> List[str]:
+    """Host roster for a show: panel-show roster (narrowed by show notes) or KNOWN_HOSTS."""
+    roster = episode_roster(podcast_name or "", show_notes)
+    if roster:
+        return roster
+    return list(KNOWN_HOSTS.get(podcast_name or "", []))
 
 
 class InsufficientQuotaError(Exception):
@@ -447,6 +484,7 @@ def build_extraction_prompt(
     episode_date: str = "",
     guest_names: List[str] = None,
     host_names: List[str] = None,
+    show_notes: str = "",
 ) -> str:
     """Build the full extraction prompt with episode metadata for speaker attribution."""
     
@@ -462,18 +500,26 @@ def build_extraction_prompt(
             metadata_block += f"- Episode Date: {episode_date}\n"
         metadata_block += "\n"
     
-    all_guests = list(guest_names or [])
-    if not all_guests:
-        all_guests = extract_guest_names_from_title(episode_title or "")
+    panel_show = is_host_panel_show(podcast_name)
+    # Change 5: never take guests from the title on host-panel shows. Elsewhere a
+    # title name is only a spelling hint; the transcript must introduce the guest.
+    all_guests = [] if panel_show else list(guest_names or [])
+    title_hint = []
+    if not all_guests and not panel_show:
+        title_hint = extract_guest_names_from_title(episode_title or "")
     
     all_hosts = list(host_names or [])
     if not all_hosts and podcast_name:
-        all_hosts = KNOWN_HOSTS.get(podcast_name, [])
+        all_hosts = get_known_hosts(podcast_name, show_notes)
     
-    if all_guests or all_hosts:
-        metadata_block += "KNOWN SPEAKERS (use these names for attribution when identifiable):\n"
+    if panel_show:
+        metadata_block += roster_block(podcast_name, show_notes) + "\n"
+    elif all_guests or all_hosts or title_hint:
+        metadata_block += "KNOWN SPEAKERS (use these spellings for attribution when the transcript gives a cue):\n"
         for g in all_guests:
             metadata_block += f"- Guest: {g}\n"
+        for g in title_hint:
+            metadata_block += f"- Possibly a guest (named in the title; list as a guest ONLY if the transcript introduces them): {g}\n"
         for h in all_hosts:
             metadata_block += f"- Host: {h}\n"
         metadata_block += "\n"
@@ -1112,6 +1158,7 @@ def pass1_extract(
     episode_date: str = "",
     guest_names: List[str] = None,
     host_names: List[str] = None,
+    show_notes: str = "",
 ) -> Tuple[Dict, int, int]:
     """Pass 1: Extract structured intelligence from transcript using nano.
     
@@ -1134,6 +1181,7 @@ def pass1_extract(
             episode_date=episode_date,
             guest_names=guest_names,
             host_names=host_names,
+            show_notes=show_notes,
         )
         
         extraction, inp, out = call_openai_json(client, PASS1_MODEL, prompt)
@@ -1152,6 +1200,7 @@ def pass2_synthesize(
     extraction_json: str,
     podcast_name: str = "",
     extraction_dict: Dict = None,
+    show_notes: str = "",
 ) -> Tuple[str, Dict, int, int, bool]:
     """Pass 2: Synthesize REAL ALPHA brief + site contract from extraction JSON using mini.
     
@@ -1176,7 +1225,10 @@ def pass2_synthesize(
     
     print(f"    Pass 2a (brief) tokens: {inp1:,} in / {out1:,} out", flush=True)
     
-    prompt_contract = SITE_CONTRACT_PROMPT + extraction_json
+    roster_txt = roster_block(podcast_name, show_notes) if podcast_name else ""
+    prompt_contract = SITE_CONTRACT_PROMPT.replace(
+        "Extraction data:\n", (roster_txt + "\n" if roster_txt else "") + "Extraction data:\n", 1
+    ) + extraction_json
     site_contract, inp2, out2 = call_openai_json(client, PASS2_MODEL, prompt_contract)
     total_inp += inp2
     total_out += out2
@@ -1294,6 +1346,7 @@ def analyze_transcript_two_pass(
     episode_date: str = "",
     guest_names: List[str] = None,
     host_names: List[str] = None,
+    show_notes: str = "",
 ) -> Optional[Dict]:
     """Full two-pass analysis. Returns dict compatible with existing analyzer output.
     
@@ -1349,13 +1402,37 @@ def analyze_transcript_two_pass(
         episode_date=episode_date,
         guest_names=guest_names,
         host_names=host_names,
+        show_notes=show_notes,
     )
+    
+    # Change 4: extraction quotes (the Deep Dive evidence pool) must be verbatim.
+    extraction, _q_pass, _q_drop = validate_extraction_quotes_against_transcript(extraction, transcript)
+    if _q_drop:
+        print(f"    ✂ Dropped {_q_drop} extraction quote(s) not found verbatim in transcript", flush=True)
+        try:
+            from speaker_attribution import _log_drops
+            _log_drops([{"episode": f"{podcast_name} | {episode_title}"[:200], "field": "extraction_quotes",
+                         "speaker": "", "quote": f"{_q_drop} extraction quote(s) dropped"}])
+        except Exception:
+            pass
+    
+    # Change 1 in code: on panel shows a named speaker needs a transcript cue, else "one host".
+    try:
+        from speaker_attribution import enforce_speaker_cues
+        _relabels = enforce_speaker_cues(
+            extraction, transcript, podcast_name, show_notes=show_notes,
+            episode_ref=f"{podcast_name} | {episode_title}"[:200],
+        )
+        if _relabels:
+            print(f"    ↺ {len(_relabels)} extraction speaker label(s) had no transcript cue → 'one host'", flush=True)
+    except Exception as _exc:
+        print(f"    ⚠ Speaker cue check skipped: {_exc}", flush=True)
     
     extraction_json = json.dumps(extraction, indent=2)
     
     print(f"    Pass 2: Synthesizing with {PASS2_MODEL}...", flush=True)
     brief, site_contract, p2_in, p2_out, was_truncated = pass2_synthesize(
-        client, extraction_json, podcast_name, extraction_dict=extraction
+        client, extraction_json, podcast_name, extraction_dict=extraction, show_notes=show_notes
     )
     
     if was_truncated:

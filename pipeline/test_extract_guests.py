@@ -36,12 +36,15 @@ class TestGuestExtraction(unittest.TestCase):
         )
 
     def test_strips_role_prefix_fix(self):
+        # Nov 15 rule 5: a title name needs the episode summary/takeaways to back it.
         name = extract_guest_name(
             "Rates outlook with banking specialist Chris Wayland",
-            "",
+            "Jack Farley talks rates with Chris Wayland.",
             "Monetary Matters with Jack Farley",
         )
         self.assertEqual(name, "Chris Wayland")
+        self.assertIsNone(extract_guest_name(
+            "Rates outlook with banking specialist Chris Wayland", "", "Monetary Matters with Jack Farley"))
 
     def test_rejects_openclaw_product_name(self):
         self.assertIsNone(extract_guest_name("OpenClaw", "OpenClaw demo.", "Moonshots with Peter Diamandis"))
@@ -50,10 +53,16 @@ class TestOct2026GuestFixes(unittest.TestCase):
     """Cards 571/574/577: names must survive re-extraction and export."""
 
     def test_extractor_strips_org_possessive_before_colon(self):
-        self.assertEqual(extract_guest_name("Google X's Astro Teller: Big Ideas", "", "Moonshots"), "Astro Teller")
+        # Panel show: the title alone is never enough (rule 5); the episode must back it.
+        self.assertEqual(extract_guest_name("Google X's Astro Teller: Big Ideas",
+                                            "Astro Teller joins Peter to talk moonshots.", "Moonshots"), "Astro Teller")
+        self.assertIsNone(extract_guest_name("Google X's Astro Teller: Big Ideas", "", "Moonshots"))
 
     def test_extractor_reads_trailing_pipe_guest(self):
-        self.assertEqual(extract_guest_name("Chips and Power | Jane Doe", "", "The a16z Show"), "Jane Doe")
+        self.assertEqual(extract_guest_name("Chips and Power | Jane Doe", "Jane Doe on chips.", "The a16z Show"), "Jane Doe")
+        self.assertEqual(extract_guest_name("Chips and Power | Jane Doe", "", "The a16z Show",
+                                            analyzer_guests=[{"name": "Jane Doe"}]), "Jane Doe")
+        self.assertIsNone(extract_guest_name("Chips and Power | Jane Doe", "", "The a16z Show"))
 
     def test_override_titles(self):
         self.assertEqual(extract_guest_name(

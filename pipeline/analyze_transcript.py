@@ -436,6 +436,7 @@ def analyze_transcript_with_ai(
     content_from_digest: bool = False,
     tracked_terms_glossary: str = "",
     name_hint: str = "",
+    show_notes: str = "",
 ) -> Dict:
     """Use AI to extract structured data from transcript.
 
@@ -471,14 +472,23 @@ def analyze_transcript_with_ai(
     if not glossary:
         glossary = "- (none yet — use Title Case for new coined phrases)"
 
+    from speaker_attribution import (
+        CLIP_RULES, EMERGING_TERM_SPEAKER_FIELD, HYPOTHETICAL_RULES, QUOTE_CHECK_RULES,
+        SPEAKER_ATTRIBUTION_RULES, roster_block,
+    )
+
     name_block = ""
     if (name_hint or "").strip():
         name_block = (
             "KNOWN NAMES (spell these exactly when referring to these people or products; "
-            "do not substitute a mishearing):\n"
+            "do not substitute a mishearing). This is the episode title: a name in it is NOT "
+            "a guest unless the transcript introduces that person live:\n"
             + name_hint.strip()
             + "\n\n"
         )
+    _roster = roster_block(podcast_name, show_notes)
+    if _roster:
+        name_block += _roster + "\n"
 
     prompt = (
         "You are an expert financial analyst and podcast curator. "
@@ -495,7 +505,10 @@ def analyze_transcript_with_ai(
         "'Investors may want to', 'It is crucial for investors', 'Consider', 'Invest in', 'Focus on', 'Monitor', 'Keep an eye on', 'positioned to capitalize', 'navigate the evolving landscape'.\n"
         "- No generic advice (diversify, manage risk, stay cautious, look for strong fundamentals). If the episode has no specific claim, restate its most concrete factual point instead.\n"
         "- BAD: 'Investors should focus on companies leveraging AI to capitalize on efficiency gains.'\n"
-        "- GOOD shape (fill ONLY with facts from this transcript; never invent numbers): '[Speaker] argues [specific claim with a number, date, or named company], because [mechanism].'\n\n"
+        "- GOOD shape (fill ONLY with facts from this transcript; never invent numbers): '[Speaker] argues [specific claim with a number, date, or named company], because [mechanism].'\n"
+        f"{HYPOTHETICAL_RULES}\n"
+        f"{SPEAKER_ATTRIBUTION_RULES}\n"
+        f"{CLIP_RULES}\n"
         "SENTIMENT RULES (apply to ticker_mentions[].sentiment):\n"
         "- Default to neutral.\n"
         "- Use bullish or bearish ONLY when the speaker explicitly says a market, company, or asset should move in a specific direction "
@@ -515,12 +528,13 @@ def analyze_transcript_with_ai(
         "  \"key_tickers\": [\"LIST\", \"OF\", \"TICKERS\", \"MENTIONED\"],\n"
         "  \"investment_thesis\": \"ONE sentence, under 40 words, stating the episode's single most important specific claim (see CLAIM RULES). This is the headline only, not the recap.\",\n"
         "  \"notable_quotes\": [\n"
-        "    {\"speaker\": \"Full name of the person who said this (use KNOWN NAMES spellings; never Host or Guest when the name is known)\", \"quote\": \"Verbatim words from the transcript, under 240 characters\"}\n"
+        "    {\"speaker\": \"Full name of the person who said this when the transcript gives a cue (use KNOWN NAMES / SHOW ROSTER spellings; 'X (clip)' or 'X (quoted by Y)' for clips and read-aloud quotes; 'one host' when there is no cue)\", \"quote\": \"Verbatim words from the transcript, under 240 characters\", \"cue\": \"transcript words that identify the speaker\"}\n"
         "  ],\n"
         "  \"guests\": [\n"
         "    {\n"
         "      \"name\": \"Full name of a main guest/interviewee (must be confidently extractable from the intro; at least 2 tokens like First Last). If you are NOT confident, omit this guest entirely (do not use placeholders like 'Guest Expert' or single-token names).\",\n"
         "      \"role\": \"guest\",\n"
+        "      \"intro_cue\": \"Transcript words that introduce this guest live (required; no cue = not a guest)\",\n"
         "      \"bio\": \"1-2 sentence bio (optional, only for important guests)\",\n"
         "      \"known_for\": \"Short 'known for' line for investors (optional)\",\n"
         "      \"voice_tone\": \"Short phrase about speaking tone from this transcript only (optional)\",\n"
@@ -550,7 +564,8 @@ def analyze_transcript_with_ai(
         "      \"term\": \"Canonical phrase exactly as spoken or glossary spelling (see rules below)\",\n"
         "      \"definition\": \"1-2 sentence definition in plain English\",\n"
         "      \"investment_angle\": \"One line: why this matters for capital allocation, risk, or sector positioning\",\n"
-        "      \"speaker_quote\": \"Short verbatim line from the transcript (max 200 chars, ASCII only)\"\n"
+        "      \"speaker_quote\": \"Short verbatim line from the transcript (max 200 chars, ASCII only)\",\n"
+        f"      \"speaker\": \"{EMERGING_TERM_SPEAKER_FIELD}\"\n"
         "    }\n"
         "  ]\n"
         "}\n\n"
@@ -577,9 +592,11 @@ def analyze_transcript_with_ai(
         "Return at most 5 emerging_terms entries total (prefer 2-4 strong ones over a long list).\n\n"
         "NOTABLE QUOTES: Return exactly 2 or 3 notable_quotes. Each quote must be verbatim from the transcript, not a paraphrase. "
         "Name the speaker with their real full name. If KNOWN NAMES lists a spelling, use that spelling and do not invent a phonetic variant "
-        "(bad: Eddie Lazaran when the title says Eddy Lazzarin; bad: Cloud Code when the title says Claude Code).\n\n"
-        "speaker_quote: Required for each entry — the best single line that shows WHY this term matters in this episode "
-        "(paraphrase only if verbatim is unavailable; still ASCII).\n\n"
+        "(bad: Eddie Lazaran when the title says Eddy Lazzarin; bad: Cloud Code when the title says Claude Code).\n"
+        f"{QUOTE_CHECK_RULES}\n"
+        "speaker_quote: the best single VERBATIM line that shows WHY this term matters in this episode "
+        "(never a paraphrase; ASCII). It is machine-checked like notable quotes. "
+        "speaker: who said that line, by the same cue rules; '' if unsure.\n\n"
         "Scoring guidelines:\n"
         "- conviction_score: 0-100 per ticker based on strength of argument (90+ for \"deep dive/thesis\", 70-89 for strong preference, 50-69 for positive mention, <50 for tracking/watching)\n"
         "- sentiment: Default neutral. Use bullish/bearish ONLY for explicit directional statements (see SENTIMENT RULES above).\n"
@@ -978,8 +995,9 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     # Check for two-pass mode
     from two_pass_analyzer import (
         is_two_pass_enabled, analyze_transcript_two_pass, TwoPassAnalyzerCache,
-        InsufficientQuotaError, extract_guest_names_from_title, KNOWN_HOSTS
+        InsufficientQuotaError, get_known_hosts
     )
+    sidecar_show_notes = (sidecar.get("show_notes") or sidecar.get("description") or "").strip()
 
     if is_two_pass_enabled():
         # Two-pass mode: use cost-efficient nano+mini pipeline
@@ -995,8 +1013,10 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             
             sidecar_title = (sidecar.get("episode_title") or "").strip()
             sidecar_date = (sidecar.get("published_date") or "").strip()
-            guest_names = extract_guest_names_from_title(sidecar_title or episode_slug)
-            host_names = KNOWN_HOSTS.get(podcast_name, [])
+            # Change 5: no title-derived guests. build_extraction_prompt shows a title
+            # name only as an unconfirmed hint on non-panel shows.
+            guest_names = []
+            host_names = get_known_hosts(podcast_name, sidecar_show_notes)
             
             analysis = analyze_transcript_two_pass(
                 two_pass_client,
@@ -1008,6 +1028,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
                 episode_date=sidecar_date,
                 guest_names=guest_names,
                 host_names=host_names,
+                show_notes=sidecar_show_notes,
             )
         except InsufficientQuotaError:
             raise  # Propagate to batch handler
@@ -1028,11 +1049,24 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             content_from_digest=used_digest,
             tracked_terms_glossary=glossary,
             name_hint=(sidecar.get("episode_title") or "").strip(),
+            show_notes=sidecar_show_notes,
         )
     
     if not analysis:
         print(f"    ✗ AI analysis failed")
         return None
+
+    # Attribution rules (Jared, Nov 15): fixed roster on panel shows, no clip voices
+    # or title fragments as guests, and drop + log any quote not verbatim in the transcript.
+    try:
+        from speaker_attribution import apply_attribution_rules
+        apply_attribution_rules(
+            analysis, analysis_source, podcast_name,
+            show_notes=sidecar_show_notes,
+            episode_ref=f"{podcast_name} | {(sidecar.get('episode_title') or episode_slug)}"[:200],
+        )
+    except Exception as _ae:
+        print(f"    ⚠ Attribution rules skipped: {_ae}")
     
     # Parse date
     ep_date_str = analysis.get('episode_date', '')
@@ -1277,8 +1311,11 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     from term_alias_util import dedupe_emerging_terms
 
     source_context = f"{podcast_name} • {episode_title[:80]}"
-    detected_by = _emerging_term_attributed_speaker(analysis)
+    # Change 3: "last detected by" = the person who said the term (et["speaker"]),
+    # never the episode guest list. Unknown -> blank (and a stale earlier speaker is cleared).
+    from speaker_attribution import emerging_term_speaker, mention_scan_speakers
     for et in dedupe_emerging_terms(analysis.get("emerging_terms") or [], db):
+        detected_by = emerging_term_speaker(et, analysis, podcast_name)
         term = (et.get("term") or "").strip()
         if not term:
             continue
@@ -1293,6 +1330,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             episode_id=episode_id,
             detected_by=detected_by,
             speaker_quote=speaker_quote,
+            clear_speaker_if_none=True,
         ):
             print(f"    + Emerging term: {term[:50]}")
 
@@ -1305,7 +1343,9 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             db,
             transcript=transcript_text,
             episode_id=episode_id,
-            detected_by=detected_by,
+            detected_by=emerging_term_speaker({}, analysis, podcast_name),
+            speakers_by_term=mention_scan_speakers(analysis, podcast_name),
+            clear_speaker_if_none=True,
         )
         if n_scan:
             print(f"    + Tracked term mentions ({n_scan}): {', '.join(scanned[:5])}" +
