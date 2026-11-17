@@ -1,6 +1,6 @@
 [
   {
-    "id": 121269,
+    "id": 121815,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -12,7 +12,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121270,
+    "id": 121816,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -24,19 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121271,
-    "name": "Wiz CTO Ami Luttwak",
-    "slug": "wiz-cto-ami-luttwak",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The episode\u2019s main claim is that AI has shortened exploit cycles so much that continuous external exposure testing and security-by-design tooling become more valuable than traditional code scanning.",
-    "last_episode_title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-13",
-    "appearance_count": 1
-  },
-  {
-    "id": 121272,
+    "id": 121817,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -48,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121273,
+    "id": 121818,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -60,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121274,
+    "id": 121819,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -72,31 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121275,
-    "name": "Freedom vs. Safety",
-    "slug": "freedom-vs-safety",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Axon\u2019s scalable body-camera-and-cloud platform, plus drone/robotics expansion, could deepen its public-safety moat if guardrailed non-lethal technology keeps winning adoption.",
-    "last_episode_title": "Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-11-10",
-    "appearance_count": 1
-  },
-  {
-    "id": 121276,
-    "name": "What Frontier Labs Buy",
-    "slug": "what-frontier-labs-buy",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The episode\u2019s core claim is that reliable agentic AI will require a rapidly growing market for expert-built data, evaluators, and domain-specific environments, not just better base models.",
-    "last_episode_title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI \u2014 Garrett Lord & Team",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-11-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 121277,
+    "id": 121820,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -108,19 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121278,
-    "name": "Laks Ganapathi",
-    "slug": "laks-ganapathi",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Private credit\u2019s retail liquidity mismatch and delayed loss recognition will expose hidden deterioration first in data-center and direct-lending exposures.",
-    "last_episode_title": "Following the Private Credit Loan Books | Laks Ganapathi",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-11-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 121279,
+    "id": 121821,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -132,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121280,
+    "id": 121822,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -144,19 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121281,
-    "name": "Controlling Biology",
-    "slug": "controlling-biology",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Virtual-cell winners will be data-rich, action-conditioned platforms that can steer experiments in closed loop, not model-only tools competing on weak benchmarks.",
-    "last_episode_title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-11-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 121282,
+    "id": 121823,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -168,31 +108,7 @@
     "appearance_count": 2
   },
   {
-    "id": 121283,
-    "name": "Figma CFO Praveer Melwani",
-    "slug": "figma-cfo-praveer-melwani",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The episode\u2019s core claim is that finance automation will be constrained more by data readiness and auditability than by AI model power, making workflow and governance infrastructure the key winners.",
-    "last_episode_title": "The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-05",
-    "appearance_count": 1
-  },
-  {
-    "id": 121284,
-    "name": "\u26a1 Behind Latent Space",
-    "slug": "behind-latent-space",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Coding agents may compress SaaS moats by enabling fast cloning and customization, making embedded AI tooling and defensible data/integration layers more valuable.",
-    "last_episode_title": "\u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-11-04",
-    "appearance_count": 1
-  },
-  {
-    "id": 121285,
+    "id": 121824,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -204,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121286,
+    "id": 121825,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -216,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121287,
+    "id": 121826,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -228,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121288,
+    "id": 121827,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -240,19 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121289,
-    "name": "Aaron Levie",
-    "slug": "aaron-levie",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "AI agents could let 3\u201310 person startups compete with 50\u2013200 person incumbents, but only if they solve orchestration and distribution better than everyone else.",
-    "last_episode_title": "The New Startup Playbook | Box CEO Aaron Levie",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-25",
-    "appearance_count": 2
-  },
-  {
-    "id": 121290,
+    "id": 121828,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -264,19 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121291,
-    "name": "Arvind Krishna & Nikesh Arora",
-    "slug": "arvind-krishna--nikesh-arora",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
-    "last_episode_title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 121292,
+    "id": 121829,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -288,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121293,
+    "id": 121830,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -300,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121294,
+    "id": 121831,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -312,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121295,
+    "id": 121832,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -324,19 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121296,
-    "name": "Dylan Field",
-    "slug": "dylan-field",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
-    "last_episode_title": "Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-19",
-    "appearance_count": 1
-  },
-  {
-    "id": 121297,
+    "id": 121833,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -348,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 121298,
+    "id": 121834,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -357,6 +237,126 @@
     "last_episode_title": "Jim Bianco: Why I\u2019m Finally Buying Bonds After Six Years",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-18",
+    "appearance_count": 1
+  },
+  {
+    "id": 121835,
+    "name": "Zocdoc CEO Oliver Kharraz",
+    "slug": "zocdoc-ceo-oliver-kharraz",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
+    "last_episode_title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-17",
+    "appearance_count": 1
+  },
+  {
+    "id": 121836,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
+    "last_episode_title": "Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
+    "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+    "last_episode_date": "2026-10-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 121837,
+    "name": "Nathan Lambert",
+    "slug": "nathan-lambert",
+    "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
+    "known_for": "Open-model research and post-training; co-founder of Trillium Labs.",
+    "last_main_idea": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
+    "last_episode_title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 121838,
+    "name": "Ben Inker",
+    "slug": "ben-inker",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
+    "last_episode_title": "The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 121839,
+    "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
+    "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
+    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-13",
+    "appearance_count": 1
+  },
+  {
+    "id": 121840,
+    "name": "Jason Ma",
+    "slug": "jason-ma",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
+    "last_episode_title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-13",
+    "appearance_count": 1
+  },
+  {
+    "id": 121841,
+    "name": "Nick Bostrom",
+    "slug": "nick-bostrom",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
+    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-11",
+    "appearance_count": 1
+  },
+  {
+    "id": 121842,
+    "name": "Pat Gelsinger",
+    "slug": "pat-gelsinger",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI infrastructure bottlenecks are shifting from chip design to memory, packaging, power, and optics, creating new investment opportunities in those layers.",
+    "last_episode_title": "Chips, Memory, and Power | Pat Gelsinger",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-09",
+    "appearance_count": 1
+  },
+  {
+    "id": 121843,
+    "name": "Matt Garman",
+    "slug": "matt-garman",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Matt Garman argues AWS's AI infrastructure buildout remains demand-driven because Amazon expects $220 billion of 2026 capex, 2 million Nvidia GPUs over coming years, and production workloads across Bedrock, inference, and cloud migration.",
+    "last_episode_title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-08",
+    "appearance_count": 1
+  },
+  {
+    "id": 121844,
+    "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
+    "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by reinforcement learning built on real lab experiments and instrument data, and by experimental data that records how every result was produced\u2014not by simulations or model scale alone.",
+    "last_episode_title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-08",
     "appearance_count": 1
   }
 ]
