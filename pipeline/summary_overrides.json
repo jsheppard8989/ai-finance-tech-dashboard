@@ -246,9 +246,10 @@
         ],
         [
           "accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data",
-          "accelerated most by AI trained through reinforcement learning on real lab experiments, smarter lab instruments, and experimental data that records how every result was produced"
+          "accelerated most by reinforcement learning built on real lab experiments and instrument data, and by experimental data that records how every result was produced"
         ]
-      ]
+      ],
+      "_note": "Nov 16 2026 (G): wording re-checked vs transcript 4317811e52984f32f5f67455cb91c1e9 (ep 563): 'instrument intelligence' is not said; guests describe RL environments built on data from their lab instruments and tracking 'the full lineage' of each experiment. Same pair also in global_replacements because the guest card (podcast_guests.json, last_episode_title carries the ' — Periodic Labs…' suffix) is outside this card's scope."
     },
     {
       "insight_id": 575,
@@ -2724,6 +2725,21 @@
           "Demis Hassabis: \"It's making a human engineer"
         ]
       ]
+    },
+    {
+      "insight_id": 696,
+      "podcast_episode_id": 685,
+      "_note": "Nov 16 2026 (G, export unblock): a16z 'Alex Imas & Tyler Cowen' card. (1) Cowen quote ASR names: transcript the_a16z_show_20261116_94e8e25d... reads 'You're giving me for anthropic an open AI?'; only the two company names and the dropped 'and' change (bracketed), same treatment as cards 601/640/680. (2) 'RAMP dataset' is the company Ramp: transcript says 'ramp has a really nice data set to track these things' (token prices vs revenue); RAMP is LiveRamp's ticker. Both matched against stored DB text (per-card rules run before name fixes).",
+      "replacements": [
+        [
+          "for anthropic an open AI?",
+          "for Anthropic [and] OpenAI?"
+        ],
+        [
+          "RAMP dataset",
+          "Ramp dataset"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -3565,6 +3581,10 @@
     [
       "Figure's bet is that scalable home robotics",
       "Figure's view is that scalable home robotics"
+    ],
+    [
+      "accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data",
+      "accelerated most by reinforcement learning built on real lab experiments and instrument data, and by experimental data that records how every result was produced"
     ]
   ],
   "global_name_replacements": [
@@ -4239,6 +4259,10 @@
     [
       "GDPX",
       "GDPx"
+    ],
+    [
+      "Yon Venek",
+      "Jan van Eck"
     ]
   ],
   "name_replacements": [

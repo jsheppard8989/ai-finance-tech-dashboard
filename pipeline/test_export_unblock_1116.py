@@ -33,3 +33,38 @@ def test_698_straight_apostrophe_variant():
     rec = [{"investment_thesis": KT.replace("\u2019", "'")}]
     export_data._apply_summary_overrides(rec)
     assert rec[0]["investment_thesis"].startswith("Figure's view is that")
+
+
+COWEN = ("You're giving me for anthropic an open AI? And no one had an answer for that question.")
+
+
+def test_696_cowen_quote_and_ramp_card_scoped():
+    card = {"id": 696, "podcast_episode_id": 685,
+            "notable_quotes": [{"speaker": "Tyler Cowen", "quote": COWEN}],
+            "falsification_tracks": ["By Q1 2027, the RAMP dataset shows token prices falling. Source: RAMP dataset."]}
+    export_data._apply_summary_overrides([card])
+    assert card["notable_quotes"][0]["quote"] == "You're giving me for Anthropic [and] OpenAI? And no one had an answer for that question."
+    assert card["falsification_tracks"][0] == "By Q1 2027, the Ramp dataset shows token prices falling. Source: Ramp dataset."
+
+
+def test_574_guest_card_outside_card_scope_is_fixed():
+    old = ("Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, "
+           "instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.")
+    guests = [{"name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk", "last_main_idea": old,
+               "last_episode_title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk"}]
+    export_data._apply_summary_overrides(guests)
+    s = guests[0]["last_main_idea"]
+    assert "instrument intelligence" not in s
+    assert "reinforcement learning built on real lab experiments and instrument data" in s
+
+
+def test_684_jan_van_eck_name():
+    recs = [{"podcast_episode_id": 684, "summary": "Yon Venek says the recent rise in Treasury yields is a bond squeeze.",
+             "notable_quotes": [{"speaker": "Yon Venek", "quote": "x"}],
+             "episode_evidence": "Yon Venek: I think that tenure interest rates want to",
+             "episode_title": "The Bond Squeeze | Jan van Eck on >5% Treasury Yields, Semis, Anthropic, and Gold"}]
+    export_data._apply_summary_overrides(recs)
+    r = recs[0]
+    assert r["summary"].startswith("Jan van Eck says")
+    assert r["notable_quotes"][0]["speaker"] == "Jan van Eck"
+    assert r["episode_evidence"].startswith("Jan van Eck: ")
