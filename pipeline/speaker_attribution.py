@@ -194,7 +194,7 @@ def roster_block(podcast_name: str, show_notes: str = "") -> str:
 _CLIP_MARK = re.compile(r"\((?:clip|quoted by [^)]*|[^)]*clip[^)]*)\)", re.I)
 _GENERIC_SPEAKERS = {
     "", "host", "hosts", "the hosts", "one host", "a host", "guest", "speaker",
-    "a panelist", "panelist", "unidentified", "unknown", "co-host", "cohost",
+    "a panelist", "panelist", "unidentified", "unknown", "co-host", "cohost", "a clip",
 }
 
 
@@ -446,10 +446,14 @@ def verify_evidence_lines(
     log_path=None,
     podcast_name: str = "",
     show_notes: str = "",
+    turns=None,
+    turn_log_path=None,
 ) -> Tuple[Any, List[Dict[str, Any]]]:
     """Deep Dive episode_evidence: drop lines whose quote is not verbatim in the transcript.
 
-    Accepts a list of lines or a newline-joined string; returns the same shape.
+    Accepts a list of lines or a newline-joined string; returns the same shape. On panel shows the
+    speaker label must be backed by the transcript; with caption ``turns`` the caption turn decides
+    (see turn_label), otherwise the #826 cue check.
     """
     from two_pass_analyzer import quote_in_transcript
 
@@ -458,6 +462,7 @@ def verify_evidence_lines(
     as_list = isinstance(evidence, list)
     lines = [str(x) for x in evidence] if as_list else str(evidence).split("\n")
     kept, drops = [], []
+    turn_names: List[Dict[str, Any]] = []
     for line in lines:
         if not line.strip():
             continue
@@ -468,10 +473,25 @@ def verify_evidence_lines(
             continue
         if podcast_name and speaker and quote and is_host_panel_show(podcast_name):
             roster = episode_roster(podcast_name, show_notes)
-            if not speaker_is_cued(speaker, quote, _norm(transcript), roster):
+            info = {"status": "not_located"}
+            if turns is not None:
+                new, info = turn_label(speaker, [quote], turns, roster, _norm(transcript))
+                if info["status"] != "not_located" and new != speaker:
+                    t = info.get("turn")
+                    print(f"    ↺ Evidence speaker from caption turn ({info['status']}): {speaker} → {new}", flush=True)
+                    if info["status"] == "named":
+                        turn_names.append({"episode": episode_ref, "field": "deep_dive.episode_evidence",
+                                           "speaker": speaker, "new_speaker": new, "reason": "caption_turn_named",
+                                           "turn_start": t.stamp, "evidence": t.evidence, "cue": t.cue[-200:],
+                                           "quote": quote[:300]})
+                    line = f"{new or 'one host'}: {quote}"
+            if info["status"] == "not_located" and not speaker_is_cued(speaker, quote, _norm(transcript), roster):
                 print(f"    ↺ Evidence speaker not cued in transcript, now 'one host': {speaker}", flush=True)
                 line = f"one host: {quote}"
         kept.append(line)
+    if turn_names:
+        from caption_turns import log_turn_names
+        log_turn_names(turn_names, turn_log_path)
     _log_drops(drops, log_path)
     return (kept if as_list else "\n".join(kept)), drops
 
@@ -488,8 +508,11 @@ def apply_attribution_rules(
     show_notes: str = "",
     episode_ref: str = "",
     log_path=None,
+    turns=None,
 ) -> Dict[str, Any]:
     """Roster + guest cleanup and verbatim quote check on a finished analysis (in place).
+
+    ``turns``: optional caption_turns.TurnMap (YouTube '>>' speaker turns) for panel shows.
 
     Returns a small report: {"dropped_guests": [...], "dropped_quotes": [...]}.
     """
@@ -504,6 +527,8 @@ def apply_attribution_rules(
     relabels = enforce_speaker_cues(
         analysis, transcript, podcast_name, show_notes=show_notes, episode_ref=episode_ref,
         log_path=(str(log_path).replace("quote_check_drops", "speaker_cue_relabels") if log_path else None),
+        turns=turns,
+        turn_log_path=(str(log_path).replace("quote_check_drops", "speaker_turn_names") if log_path else None),
     )
     prose = enforce_named_prose(
         analysis, podcast_name, show_notes=show_notes, episode_ref=episode_ref,
@@ -621,6 +646,52 @@ def speaker_is_cued(label: str, quote: str, transcript_norm: str, roster: List[s
     return _names_outsider(transcript_norm[max(0, pos - CLIP_CUE_WINDOW_CHARS):pos], label)
 
 
+def _quoted_by_fix(label: str, name: str) -> str:
+    """'Paul Christiano (quoted by Alex Wissner-Gross)' read in Peter's turn -> '(quoted by Peter Diamandis)'."""
+    return re.sub(r"\(quoted by [^)]*\)", f"(quoted by {name})", label, flags=re.I)
+
+
+def turn_label(label: str, evidence: List[str], turns, roster: List[str], transcript_norm: str = ""):
+    """Speaker label from caption turns (follow-up to #826, Nov 15 2026).
+
+    Returns (new_label, info) where info["status"] is:
+      "named"   - the words sit in a turn named by a directed question / self-ID / continuation
+      "clip"    - the words sit in a clip; a host label becomes "a clip"
+      "unnamed" - the words sit in a turn with no solid evidence; a roster label becomes "one host"
+      "not_located" - no evidence quote could be placed in one caption turn (caller falls back to
+                      the #826 cue check)
+    Clip / quoted-by labels are kept when the #826 clip check finds the person named before the words.
+    """
+    info = {"status": "not_located", "why": "no_evidence"}
+    for ev in evidence:
+        if not ev:
+            continue
+        info = turns.speaker_for(ev)
+        if info["status"] != "not_located":
+            info["quote"] = ev
+            break
+    st = info["status"]
+    if st == "not_located":
+        return label, info
+    clip_ok = bool(label) and is_clip_label(label) and (
+        not transcript_norm or speaker_is_cued(label, info["quote"], transcript_norm, roster))
+    if st == "named":
+        name = info["name"]
+        if clip_ok:
+            return (_quoted_by_fix(label, name) if re.search(r"quoted by", label, re.I) else label), info
+        return name, info
+    if st == "clip":
+        if clip_ok:
+            return label, info
+        return ("a clip" if label else ""), info
+    # unnamed turn
+    if clip_ok:
+        return label, info
+    if label and not is_generic_speaker(label):
+        return "one host", info
+    return label, info
+
+
 def enforce_speaker_cues(
     extraction: Dict[str, Any],
     transcript: str,
@@ -629,8 +700,16 @@ def enforce_speaker_cues(
     show_notes: str = "",
     episode_ref: str = "",
     log_path=None,
+    turns=None,
+    turn_log_path=None,
 ) -> List[Dict[str, Any]]:
     """Panel shows: relabel to 'one host' every quote / claim speaker the transcript does not cue.
+
+    With ``turns`` (a caption_turns.TurnMap from YouTube '>>' markers) the speaker comes from the
+    caption turn the words sit in: a named turn gives its name (also to items the model left as
+    'one host'), an unnamed turn gives 'one host', a clip turn never gives a host. Items that can't
+    be placed in one caption turn fall back to the #826 cue check. Every name assigned this way is
+    logged with its evidence to state/speaker_turn_names.jsonl.
 
     Edits ``extraction`` (pass-1 output or a final analysis) in place; returns the relabels.
     """
@@ -639,9 +718,30 @@ def enforce_speaker_cues(
     roster = episode_roster(podcast_name, show_notes)
     tnorm = _norm(transcript)
     changes: List[Dict[str, Any]] = []
+    named: List[Dict[str, Any]] = []
 
     def check(item: Dict[str, Any], field: str, evidence: List[str]):
         label = (item.get("speaker") or "").strip()
+        if turns is not None:
+            new, info = turn_label(label, evidence, turns, roster, tnorm)
+            if info["status"] != "not_located":
+                t = info.get("turn")
+                if new != label:
+                    rec = {"episode": episode_ref, "field": field, "speaker": label, "new_speaker": new,
+                           "reason": f"caption_turn_{info['status']}",
+                           "turn_start": t.stamp if t else "", "quote": (info.get("quote") or "")[:300]}
+                    if info["status"] == "named":
+                        rec.update({"evidence": t.evidence, "cue": t.cue[-200:]})
+                        named.append(rec)
+                    else:
+                        changes.append(rec)
+                    item["speaker"] = new
+                elif info["status"] == "named" and label:
+                    named.append({"episode": episode_ref, "field": field, "speaker": label, "new_speaker": new,
+                                  "reason": "caption_turn_named_confirms", "turn_start": t.stamp,
+                                  "evidence": t.evidence, "cue": t.cue[-200:],
+                                  "quote": (info.get("quote") or "")[:300]})
+                return
         if not label or is_generic_speaker(label):
             return
         cue = item.get("cue") or ""
@@ -668,7 +768,9 @@ def enforce_speaker_cues(
                     check(kq, f"companies_and_assets[{ca.get('name', '')}].key_quotes", [kq.get("quote") or ""])
     for key in _CLAIM_LISTS:
         for c in extraction.get(key) or []:
-            if not isinstance(c, dict) or not c.get("speaker"):
+            if not isinstance(c, dict):
+                continue
+            if not c.get("speaker") and turns is None:
                 continue
             ev = []
             for f in ("evidence", "support_from_transcript", "quote", "quotes"):
@@ -678,15 +780,21 @@ def enforce_speaker_cues(
                 elif isinstance(v, list):
                     ev.extend(str(x.get("quote") if isinstance(x, dict) else x) for x in v)
             # Claim text is a paraphrase; only verbatim evidence can be located.
+            if not c.get("speaker") and not ev:
+                continue
             check(c, key, ev)
     for et in extraction.get("emerging_terms") or []:
-        if isinstance(et, dict) and et.get("speaker"):
+        if isinstance(et, dict) and (et.get("speaker") or (turns is not None and et.get("speaker_quote"))):
             check(et, f"emerging_terms[{et.get('term', '')}]", [et.get("speaker_quote") or ""])
-            if et.get("speaker") == "one host":
+            if et.get("speaker") in ("one host", "a clip"):
                 et["speaker"] = ""
 
     for c in changes:
-        print(f"    ↺ Speaker not cued in transcript, now 'one host': {c['field']}: {c['speaker']}", flush=True)
+        print(f"    ↺ Speaker not cued in transcript, now '{c.get('new_speaker', 'one host')}': {c['field']}: {c['speaker']}", flush=True)
+    for c in named:
+        if c["reason"] != "caption_turn_named_confirms":
+            print(f"    ✓ Caption turn names speaker: {c['field']}: {c['speaker'] or '(none)'} → {c['new_speaker']} "
+                  f"({c['evidence']} at {c['turn_start']})", flush=True)
     if changes:
         try:
             if log_path is None:
@@ -698,6 +806,9 @@ def enforce_speaker_cues(
                     f.write(json.dumps({"ts": datetime.now().isoformat(timespec="seconds"), **c}) + "\n")
         except Exception as exc:
             print(f"    ⚠ Could not write speaker_cue_relabels log: {exc}", flush=True)
+    if named:
+        from caption_turns import log_turn_names
+        log_turn_names(named, turn_log_path)
     return changes
 
 
@@ -797,8 +908,8 @@ def enforce_named_prose(
             new = pat.sub("one host", sent)
             new = re.sub(r"\b([Oo])ne host\b(?:\s*(?:,|and)\s*one host\b)+",
                          lambda mm: "Two hosts" if mm.group(1) == "O" else "two hosts", new)
-            if new[:8] == "one host":
-                new = "One host" + new[8:]
+            if new[:8] == "one host" or new[:9] == "two hosts":
+                new = new[:1].upper() + new[1:]    # "David Sacks and Jason ..." -> "Two hosts ...", not "two hosts"
             changes.append({"episode": episode_ref, "field": field, "speaker": m, "before": sent[:300]})
             sent = new
         return sent
