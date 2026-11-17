@@ -2612,7 +2612,7 @@
     {
       "insight_id": 690,
       "podcast_episode_id": 680,
-      "_note": "Nov 15 2026 (Wendy fix list cos/fixes/summary_attribution_fixes_2026-11-15.md; flagged by Ric, verified vs Exa/Particle speaker-labeled transcript 74pqqvnjr6z): All-In 'Jensen Ousted' speaker fixes. G re-verified every line vs the episode transcript on the pipeline Mac + RSS show notes (g_verify_2026-11-15.md); Jared approved (decisions.md Nov 15 4:32 PM CT). Quotes verbatim; names and our-voice text only.",
+      "_note": "Nov 15 2026 (Wendy fix list cos/fixes/summary_attribution_fixes_2026-11-15.md; flagged by Ric, verified vs Exa/Particle speaker-labeled transcript 74pqqvnjr6z): All-In 'Jensen Ousted' speaker fixes. G re-verified every line vs the episode transcript on the pipeline Mac + RSS show notes (g_verify_2026-11-15.md); Jared approved (decisions.md Nov 15 4:32 PM CT). Quotes verbatim; names and our-voice text only. Nov 15 2026 10:55 PM CT (G): stored Deep Dive evidence reads 'Jason Friedberg: The bank...' (a later name fix turns it into David Friedberg after this rule runs), so that raw form is matched too. Nov 15 2026 11:45 PM CT (G, Scout source check cos/showrunner/scout_sourcecheck_2026-11-15.md): our-voice facts only, quotes untouched. Huang resigned under board pressure (8-K Nov 12); NVDA -12.7% in the five sessions to Nov 13 (Nasdaq closes); 825M is the IPO offering size (S-1/A No. 2); $1.4T is the top of the $70-78 range.",
       "replacements": [
         [
           "Sacks pushes the contrarian view that China still remains multiple years behind because Nvidia’s platform and engineering stack are bigger than any single executive.",
@@ -2651,12 +2651,28 @@
           "Jason Calacanis: Nvidia reports earnings next Tuesday"
         ],
         [
+          "Jason Friedberg: The bank of Nvidia ran through Jensen",
+          "Chamath Palihapitiya: The bank of Nvidia ran through Jensen"
+        ],
+        [
           "David Friedberg: The bank of Nvidia ran through Jensen",
           "Chamath Palihapitiya: The bank of Nvidia ran through Jensen"
         ],
         [
           "Chamath Palihapitiya: Anthropic is building the Microsoft killer",
           "Jason Calacanis: Anthropic is building the Microsoft killer"
+        ],
+        [
+          "the hosts discussing reporting that Jensen Huang was ousted amid",
+          "the hosts discussing reporting that Jensen Huang resigned under board pressure amid"
+        ],
+        [
+          "the stock had already fallen 15% in a week,",
+          "the stock had already fallen about 13% in a week (Jason Calacanis put it at 15%),"
+        ],
+        [
+          "a $1.4 trillion valuation discussion, 825 million shares,",
+          "a valuation of up to about $1.4 trillion, an offering of 825 million shares,"
         ]
       ],
       "relabel_quotes": [

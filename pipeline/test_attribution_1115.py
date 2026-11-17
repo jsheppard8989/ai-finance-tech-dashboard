@@ -67,3 +67,37 @@ def test_no_bet_wording_and_unapproved_calls_not_applied():
         for _old, new in r["replacements"]:
             assert not re.search(r"\bbets?\b", new, re.I)
         assert "drop_list_items" not in r  # '1 billion unit' falsification track not approved
+
+
+def test_690_bank_of_nvidia_stored_form_is_chamath():
+    """Nov 15 2026 (G, PR #833): the stored Deep Dive evidence reads 'Jason Friedberg: The bank...'.
+    The later name fix turns that into David Friedberg, so the 690 rule has to match the stored form.
+    Source: All-In ep 680, Friedberg asks at 31:22 ('Chamath, you're pretty close to this'),
+    Chamath answers at 32:01 (Mac transcript ALLIN-E297_Ch.txt L430-435)."""
+    import export_data
+    for label in ("Jason Friedberg", "David Friedberg"):
+        rec = {"insight_id": 690, "podcast_episode_id": 680,
+               "episode_evidence": f"Jason Calacanis: Nvidia reports earnings next Tuesday.\n"
+                                   f"{label}: The bank of Nvidia ran through Jensen and it's not clear what happens now."}
+        export_data._apply_summary_overrides(rec)
+        export_data._apply_summary_overrides(rec)  # idempotent
+        assert ("Chamath Palihapitiya: The bank of Nvidia ran through Jensen and it's not clear what happens now."
+                in rec["episode_evidence"]), label
+        assert "Friedberg: The bank" not in rec["episode_evidence"]
+
+
+def test_690_scout_fact_fixes_nov15():
+    """Scout source check (Nov 15): our-voice facts on card 690; the Calacanis '15%' quote stays verbatim."""
+    import export_data
+    s = ("with the hosts discussing reporting that Jensen Huang was ousted amid allegations. "
+         "because Nvidia’s next earnings were said to be imminent and the stock had already fallen 15% in a week, wiping out. "
+         "The hosts cite a $70-$78 price range, a $1.4 trillion valuation discussion, 825 million shares, and a series")
+    q = {"speaker": "Jason Calacanis", "quote": "the stock has been crushed down 15% in the last week"}
+    rec = {"insight_id": 690, "podcast_episode_id": 680, "summary": s, "notable_quotes": [q]}
+    export_data._apply_summary_overrides(rec)
+    export_data._apply_summary_overrides(rec)
+    out = rec["summary"]
+    assert "resigned under board pressure" in out and "was ousted" not in out
+    assert "fallen about 13% in a week (Jason Calacanis put it at 15%)," in out
+    assert "a valuation of up to about $1.4 trillion, an offering of 825 million shares," in out
+    assert rec["notable_quotes"][0]["quote"] == "the stock has been crushed down 15% in the last week"
