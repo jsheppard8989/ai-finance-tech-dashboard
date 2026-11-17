@@ -583,6 +583,11 @@ def _yt_dlp() -> Optional[str]:
     return exe if exe and Path(exe).exists() else None
 
 
+def _warn_caption_turns(reason: str) -> None:
+    """One greppable line when caption speaker turns can't be used (Nov 16 2026, Tony: #834 follow-up)."""
+    print(f"    WARN caption turns: {reason}", flush=True)
+
+
 def fetch_youtube_captions(transcript_path: Path, podcast_name: str, episode_title: str,
                            video_id: str = "", timeout: int = 90) -> Optional[Path]:
     """Download English auto-captions next to the transcript (<stem>.yt.vtt). Returns the path or None.
@@ -594,8 +599,12 @@ def fetch_youtube_captions(transcript_path: Path, podcast_name: str, episode_tit
     dest = caption_path_for(transcript_path)
     if dest.exists():
         return dest
+    if os.environ.get("YT_CAPTIONS", "1") == "0":
+        _warn_caption_turns("captions disabled (YT_CAPTIONS=0)")
+        return None
     exe = _yt_dlp()
-    if not exe or os.environ.get("YT_CAPTIONS", "1") == "0":
+    if not exe:
+        _warn_caption_turns("yt-dlp missing (set YT_DLP_BIN or install yt-dlp)")
         return None
     try:
         vid = (video_id or "").strip()
@@ -612,10 +621,12 @@ def fetch_youtube_captions(transcript_path: Path, podcast_name: str, episode_tit
                 if ratio > best[0]:
                     best = (ratio, i)
             if best[0] < 0.6:
+                _warn_caption_turns(f"no captions: no YouTube video matches the episode title "
+                                    f"(best title match {best[0]:.0%}) for {episode_title[:80]!r}")
                 return None
             vid = best[1]
         tmp = dest.with_name(dest.stem + ".tmp")
-        subprocess.run([exe, "--skip-download", "--write-auto-subs", "--sub-langs", "en-orig,en",
+        r = subprocess.run([exe, "--skip-download", "--write-auto-subs", "--sub-langs", "en-orig,en",
                         "--sub-format", "vtt", "-o", str(tmp) + ".%(ext)s",
                         f"https://www.youtube.com/watch?v={vid}"],
                        capture_output=True, text=True, timeout=timeout)
@@ -625,9 +636,17 @@ def fetch_youtube_captions(transcript_path: Path, podcast_name: str, episode_tit
                 break
         for leftover in dest.parent.glob(tmp.name + ".*"):
             leftover.unlink(missing_ok=True)
-        return dest if dest.exists() else None
+        if dest.exists():
+            return dest
+        if r.returncode != 0:
+            err = (r.stderr or "").strip().splitlines()
+            _warn_caption_turns(f"fetch failed: yt-dlp exit {r.returncode} for video {vid}"
+                                + (f": {err[-1][:160]}" if err else ""))
+        else:
+            _warn_caption_turns(f"no captions: no English captions for video {vid}")
+        return None
     except Exception as exc:  # captions are optional
-        print(f"    ⚠ YouTube captions not fetched: {exc}", flush=True)
+        _warn_caption_turns(f"fetch failed: {exc}")
         return None
 
 
@@ -648,13 +667,16 @@ def load_turn_map_for_transcript(
     path = caption_path_for(transcript_path)
     if not path.exists() and fetch:
         path = fetch_youtube_captions(transcript_path, podcast_name, episode_title, video_id) or path
+        if not path.exists():
+            return None  # fetch_youtube_captions already printed the WARN line
     if not path.exists():
+        _warn_caption_turns(f"no captions: {path.name} not found (fetch off)")
         return None
     try:
         tm = build_turn_map(path.read_text(encoding="utf-8", errors="ignore"),
                             episode_roster(podcast_name, show_notes), source=str(path))
     except Exception as exc:
-        print(f"    ⚠ Caption turns skipped: {exc}", flush=True)
+        _warn_caption_turns(f"caption file unreadable: {exc}")
         return None
     if tm is None:
         print("    ⚠ Captions have no '>>' speaker markers; speaker turns not used", flush=True)
