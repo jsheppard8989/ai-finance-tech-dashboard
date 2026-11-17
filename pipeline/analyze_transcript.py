@@ -473,8 +473,8 @@ def analyze_transcript_with_ai(
         glossary = "- (none yet — use Title Case for new coined phrases)"
 
     from speaker_attribution import (
-        CLIP_RULES, EMERGING_TERM_SPEAKER_FIELD, HYPOTHETICAL_RULES, QUOTE_CHECK_RULES,
-        SPEAKER_ATTRIBUTION_RULES, roster_block,
+        CLIP_RULES, EMERGING_TERM_SPEAKER_FIELD, HYPOTHETICAL_RULES, OUR_VOICE_WORDING_RULES,
+        QUOTE_CHECK_RULES, SPEAKER_ATTRIBUTION_RULES, roster_block,
     )
 
     name_block = ""
@@ -507,6 +507,7 @@ def analyze_transcript_with_ai(
         "- BAD: 'Investors should focus on companies leveraging AI to capitalize on efficiency gains.'\n"
         "- GOOD shape (fill ONLY with facts from this transcript; never invent numbers): '[Speaker] argues [specific claim with a number, date, or named company], because [mechanism].'\n"
         f"{HYPOTHETICAL_RULES}\n"
+        f"{OUR_VOICE_WORDING_RULES}\n"
         f"{SPEAKER_ATTRIBUTION_RULES}\n"
         f"{CLIP_RULES}\n"
         "SENTIMENT RULES (apply to ticker_mentions[].sentiment):\n"
