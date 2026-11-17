@@ -2733,7 +2733,7 @@
     {
       "insight_id": 696,
       "podcast_episode_id": 685,
-      "_note": "Nov 16 2026 (G, export unblock): a16z 'Alex Imas & Tyler Cowen' card. (1) Cowen quote ASR names: transcript the_a16z_show_20261116_94e8e25d... reads 'You're giving me for anthropic an open AI?'; only the two company names and the dropped 'and' change (bracketed), same treatment as cards 601/640/680. (2) 'RAMP dataset' is the company Ramp: transcript says 'ramp has a really nice data set to track these things' (token prices vs revenue); RAMP is LiveRamp's ticker. Both matched against stored DB text (per-card rules run before name fixes).",
+      "_note": "Nov 16 2026 (G, export unblock): a16z 'Alex Imas & Tyler Cowen' card. (1) Cowen quote ASR names: transcript the_a16z_show_20261116_94e8e25d... reads 'You're giving me for anthropic an open AI?'; only the two company names and the dropped 'and' change (bracketed), same treatment as cards 601/640/680. (2) 'RAMP dataset' is the company Ramp: transcript says 'ramp has a really nice data set to track these things' (token prices vs revenue); RAMP is LiveRamp's ticker. Both matched against stored DB text (per-card rules run before name fixes). Nov 17 2026 (G daily site check): guest is Alex Imas (episode title and card 275), not 'Alex E. Moss'. Stored DB text and the live export currently use the same string; this card-scoped swap plus a global_replacements pair follow the #833/#841 stored-vs-live lesson. Cowen quote 'the anthropic IPL will go for' is an ASR garble of IPO: the cold-open of transcript the_a16z_show_20261116_94e8e25d... has 'IPL', but the in-episode line ('If you look at prediction markets for what the anthropic IPO will go for, they bounce up and down, but it's not flying above two trillion.') and the follow-up 'And that's for their IPO' say IPO.",
       "replacements": [
         [
           "for anthropic an open AI?",
@@ -2742,6 +2742,14 @@
         [
           "RAMP dataset",
           "Ramp dataset"
+        ],
+        [
+          "Alex E. Moss",
+          "Alex Imas"
+        ],
+        [
+          "the anthropic IPL will go for",
+          "the anthropic IPO will go for"
         ]
       ]
     }
@@ -3593,6 +3601,14 @@
     [
       "David Friedberg said, “The bank of Nvidia ran through Jensen",
       "Chamath Palihapitiya said, “The bank of Nvidia ran through Jensen"
+    ],
+    [
+      "Alex E. Moss",
+      "Alex Imas"
+    ],
+    [
+      "the anthropic IPL will go for",
+      "the anthropic IPO will go for"
     ]
   ],
   "global_name_replacements": [
@@ -9286,6 +9302,164 @@
         [
           "Deep Dive said Anthropic showed",
           "Jamin Ball said Anthropic showed"
+        ]
+      ]
+    },
+    {
+      "id": 437,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source is a 410 mabumbe page about Jace Hall, not Ben Mildenhall. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 364,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source is a 410 oreateai page about 'JT', not Justin Jo. Name left unchanged; G will send a correction separately. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 347,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source https://eboona.com/ai-startup-founder/clement-delangue/ is 404. Separate row from 260. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 308,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source is a 410 mabumbe page about Juan Matas, not John Mata. Name left unchanged; G will send a correction separately. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 307,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source is a 404 flashpress page about Paul Boukadakis, not Paul Beckas. Name left unchanged; G will send a correction separately. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 123,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source is a 404 Wikipedia URL for Christopher Chandler (wrong person; URL also missing its closing parenthesis). Name left unchanged; G will send a correction separately. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 260,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source cites Scott DeLong on celebritynetworth (wrong person; link itself is 200). Separate row from 347. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 163,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source nationaltoday Josh Shapiro page is 404. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 158,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source urbansweekly.com/shyam-sankar/ is 404. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 281,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source zenithmaps Bill Maris page is 404. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 282,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source celebsagewiki.com/sachin-h-jain is 404. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 157,
+      "_note": "Nov 17 2026 (G daily site check): drop net worth until a real source exists. Source oreateai palantir-founders-net-worth page is 410. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 671,
+      "_note": "Nov 17 2026 (G daily site check): DB entity 671 is 'Alex E. Moss'; the a16z ep 685 guest (and card 275) is Alex Imas, a Google DeepMind economist. Id-keyed name/slug fix plus a whole-word swap on the row. Live pundit list had no Moss row as of the Nov 16 10:07 PM CT export, but this holds if one is exported. DB not edited; reviewed SQL is in pipeline/fixes/g_alex_imas_entity_671_2026-11-17.sql and must not be run on the live DB without Jared's yes and a backup.",
+      "set": {
+        "name": "Alex Imas",
+        "slug": "alex-imas"
+      },
+      "replacements": [
+        [
+          "Alex E. Moss",
+          "Alex Imas"
         ]
       ]
     }
