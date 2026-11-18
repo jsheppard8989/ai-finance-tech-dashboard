@@ -12,7 +12,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-11-17",
       "archived_date": null,
@@ -481,7 +481,7 @@
       "key_takeaway": "If AI research becomes self-automating by 2028, research throughput could compound dramatically, favoring companies built around AI development infrastructure, evaluation, and automation.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-13",
       "archived_date": null,
