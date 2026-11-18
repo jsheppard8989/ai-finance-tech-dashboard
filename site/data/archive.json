@@ -1,6 +1,37 @@
 {
   "insights": [
     {
+      "id": 704,
+      "title": "The Missing Layer for Personal AI | First Person Labs\u2019 Ken Liu",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-18",
+      "summary": "The episode centers on First Person Labs co-founder Kim Liu\u2019s view that \u201cSecond\u201d is a personal AI layer built to model a person\u2019s preferences, priorities, relationships, and digital activity, then let other agents use that portable context. He describes it as a context store rather than an agent itself, with the aim of making a user\u2019s intent travel across tools like coding assistants without repeated re-explanation.\n\nA major thread is security and privacy. Kim Liu says the system has to process an \u201cinfinite stream of events\u201d from the OS and app activity while remaining secure and private, and he contrasts policy-based \u201czero data retention\u201d with stronger technical approaches such as confidential inference. He argues the core AI problem is the combination of data and inference controls, including local-first handling and cloud options that encrypt data before inference.\n\nThe discussion also focuses on how personal AI should evolve from reactive alerts to reflective, long-horizon assistance. Kim Liu says reactive productivity is straightforward, but reflective systems must connect many events over long time horizons, such as remembering that months ago a user said something that now matters to a current goal or priority. He frames this as an ambient, intervention-oriented future where the assistant helps without requiring explicit instructions.\n\nHe argues the practical path is a mixture-of-models approach, where expensive models handle high-value or infrequent reasoning and cheaper models cover frequent tasks, with cached insights and test-time reasoning balanced to manage cost.",
+      "key_takeaway": "The episode\u2019s core thesis is that secure, portable personal context infrastructure could become the missing layer that makes agent-to-agent switching and ambient productivity practical.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 693,
+      "notable_quotes": [
+        {
+          "speaker": "Kim Liu",
+          "quote": "So we focus on essentially creating a model of a person and then put that person in control."
+        },
+        {
+          "speaker": "Kim Liu",
+          "quote": "It is a very hard problem, especially to get its secure private."
+        },
+        {
+          "speaker": "Kim Liu",
+          "quote": "And at Opus 55 is pricing, that leads to a thousand dollars per day."
+        }
+      ]
+    },
+    {
       "id": 700,
       "title": "Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
       "source_type": "podcast",
@@ -382,7 +413,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-13",
       "archived_date": null,
@@ -16274,6 +16305,24 @@
       "last_mentioned_speaker": null
     },
     {
+      "id": 344,
+      "term": "MCP",
+      "description": "Model Context Protocol, which Rocha describes as an increasingly important integration surface for AI agents and B2B software workflows. He says official vendor-maintained MCP integrations can influence buyer decisions.",
+      "first_detected_date": "2026-11-10",
+      "last_mentioned_date": "2026-11-18",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "MCP support may become a procurement and distribution lever for AI-native products.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 667,
+      "first_detected_speaker": "Zeno Rocha",
+      "last_mentioned_episode_id": 693,
+      "last_mentioned_speaker": "Kim Liu"
+    },
+    {
       "id": 336,
       "term": "Dispersion",
       "description": "The degree to which individual stocks move differently from one another; high dispersion means low correlation and more idiosyncratic behavior.",
@@ -16512,8 +16561,8 @@
       "term": "Background agents",
       "description": "AI agents that run behind the scenes to execute tasks without constant manual prompting. Levie says current organizations are not yet structured to kick off many of them at scale.",
       "first_detected_date": "2026-10-25",
-      "last_mentioned_date": "2026-11-08",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-18",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies building reliable background-agent orchestration may own a major infrastructure layer for enterprise automation.",
@@ -16522,8 +16571,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 610,
       "first_detected_speaker": "Aaron Levie",
-      "last_mentioned_episode_id": 662,
-      "last_mentioned_speaker": "Mihail Eric"
+      "last_mentioned_episode_id": 693,
+      "last_mentioned_speaker": "Kim Liu"
     },
     {
       "id": 322,
@@ -17016,8 +17065,8 @@
       "term": "Artifacts",
       "description": "Persistent data storage features in Claude Code that enhance collaboration among multiple agents.",
       "first_detected_date": "2026-09-29",
-      "last_mentioned_date": "2026-11-09",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-11-18",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Utilizing artifacts can streamline project workflows and improve team collaboration.",
@@ -17026,8 +17075,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 531,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 664,
-      "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+      "last_mentioned_episode_id": 693,
+      "last_mentioned_speaker": "Kim Liu"
     },
     {
       "id": 299,
