@@ -98,6 +98,40 @@
       ]
     },
     {
+      "id": 703,
+      "title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-11-17",
+      "summary": "The episode centers on the claim that AI is already powerful enough to transform work, but enterprise adoption is slowed by a context gap, security/governance constraints, token economics, and data sovereignty concerns. The discussion repeatedly returns to the idea that most companies are still using AI in shallow ways, while the real unlock is feeding organizational context like meetings, emails, Slack, docs, and org charts into systems that can act across workflows.\n\nThe hosts frame Databricks as building that layer through Genie, which creates an ontology graph of the company and uses it to surface decisions, blockers, and management insights. The conversation includes examples from internal HR surveys, production code metrics, and decision tracing, with the claim that these tools make management more transparent and faster. The episode also argues that enterprise rollout will be gradual, with one host saying AI adoption will take 10-15 years and GDP effects will take decades.\n\nA major contrarian thread is the skepticism around superintelligence alarmism. One host argues that recursive self-improvement requires four demanding conditions that are not clearly met and that the more immediate safety risk is cyber, not runaway AGI. The episode says cyber threats are real but manageable with better code, monitoring, and products like LakeWatch.\n\nThe episode also touches on Databricks strategy and competition, including open source, cloud, and GPU-driven scaling, plus the tension between staying private and eventually going public. It cites competition from multiple vendors, including Anthropic, Microsoft, Snowflake, and adjacent feature launches, but the core investment idea is that the enterprise bottleneck is governance plus context, not raw model intelligence.",
+      "key_takeaway": "Enterprise AI value will accrue to platforms that solve context, governance, and cost, not just to model providers.",
+      "tickers_mentioned": [
+        "SNOW",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 692,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "I think the biggest challenge that's facing us is how do we actually just make this AI applicable inside organizations?"
+        },
+        {
+          "speaker": "one host",
+          "quote": "They're just using it as a glorified Google search."
+        },
+        {
+          "speaker": "one host",
+          "quote": "Then you still have another problem, which is okay. Now the token cost is going up exponentially."
+        }
+      ]
+    },
+    {
       "id": 696,
       "title": "Alex Imas & Tyler Cowen | AI Is Moving Fast. Why Isn\u2019t the Economy?",
       "source_type": "podcast",
@@ -312,7 +346,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-13",
       "archived_date": null,
@@ -16222,6 +16256,24 @@
       "last_mentioned_speaker": null
     },
     {
+      "id": 343,
+      "term": "RSI",
+      "description": "Recursive self-improvement, meaning AI helping accelerate the AI research process. In the episode it is treated as a spectrum from AI-assisted research interns to more autonomous systems.",
+      "first_detected_date": "2026-11-17",
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "If RSI accelerates, it could shorten model-development cycles and raise the value of tooling, evaluation, and compute infrastructure.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 689,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 692,
+      "last_mentioned_speaker": null
+    },
+    {
       "id": 336,
       "term": "Dispersion",
       "description": "The degree to which individual stocks move differently from one another; high dispersion means low correlation and more idiosyncratic behavior.",
@@ -16298,8 +16350,8 @@
       "term": "World model",
       "description": "A forward model of cell dynamics conditioned on actions or perturbations, represented as F(X, A) -> X'. Theis treats this as the correct abstraction for perturbation prediction.",
       "first_detected_date": "2026-11-06",
-      "last_mentioned_date": "2026-11-16",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "World-model capability may be a necessary moat for platforms seeking to combine prediction, design, and laboratory execution.",
@@ -16308,8 +16360,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 655,
       "first_detected_speaker": "Fabian Theis",
-      "last_mentioned_episode_id": 688,
-      "last_mentioned_speaker": "Fabian Theis"
+      "last_mentioned_episode_id": 692,
+      "last_mentioned_speaker": null
     },
     {
       "id": 326,
@@ -17018,8 +17070,8 @@
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-11-16",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -17028,8 +17080,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 686,
-      "last_mentioned_speaker": "Paul Christiano"
+      "last_mentioned_episode_id": 692,
+      "last_mentioned_speaker": null
     },
     {
       "id": 310,
@@ -17468,8 +17520,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-11-16",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -17478,7 +17530,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 687,
+      "last_mentioned_episode_id": 692,
       "last_mentioned_speaker": null
     },
     {
@@ -18152,8 +18204,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-11-16",
-      "mention_count": 96,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 97,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -18162,7 +18214,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 685,
+      "last_mentioned_episode_id": 692,
       "last_mentioned_speaker": null
     },
     {
@@ -18279,7 +18331,7 @@
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-11-17",
-      "mention_count": 134,
+      "mention_count": 135,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -18288,7 +18340,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 689,
+      "last_mentioned_episode_id": 692,
       "last_mentioned_speaker": null
     },
     {
