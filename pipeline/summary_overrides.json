@@ -2752,6 +2752,25 @@
           "the anthropic IPO will go for"
         ]
       ]
+    },
+    {
+      "insight_id": 702,
+      "podcast_episode_id": 689,
+      "_note": "Nov 17 2026 (G, export unblock): a16z 'Can AI Learn to Improve Itself? | Recursive Self-Improvement' (Working Theory ep 1). (1) Quote ASR 'Andthropic' -> 'Anthropic' (stored latest_insights 702 notable_quotes[2] and deep_dive_content 700 episode_evidence read 'Andthropic published research in August'; transcript the_a16z_show_20261117_7ffcabac... has the same ASR). Only the name changes, same as cards 579/420. (2) Intro line 'Open AI's Mark Chen and thinking machine's John Schulman': show notes say 'Mark Chen, Chief Research Officer at OpenAI, and John Schulman, co-founder and Chief Scientist of Thinking Machines Lab'; surname Schulman is right. Same pairs in global_replacements because the line reaches the site through pundit last_proof_snippet (Mark Chen 677, John Schulman 676), which the quote-safe 'Open AI' name_replacements rule skips by design.",
+      "replacements": [
+        [
+          "Andthropic published research in August",
+          "Anthropic published research in August"
+        ],
+        [
+          "Open AI's Mark Chen and thinking machine's John Schulman",
+          "OpenAI's Mark Chen and Thinking Machines' John Schulman"
+        ],
+        [
+          "Open AI's Mark Chen\nand thinking machine's John Schulman",
+          "OpenAI's Mark Chen\nand Thinking Machines' John Schulman"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -3613,6 +3632,18 @@
     [
       "Black Forest Labs is betting that one multimodal model can extend",
       "Black Forest Labs believes one multimodal model can extend"
+    ],
+    [
+      "Andthropic published research in August",
+      "Anthropic published research in August"
+    ],
+    [
+      "Open AI's Mark Chen and thinking machine's John Schulman",
+      "OpenAI's Mark Chen and Thinking Machines' John Schulman"
+    ],
+    [
+      "Open AI's Mark Chen\nand thinking machine's John Schulman",
+      "OpenAI's Mark Chen\nand Thinking Machines' John Schulman"
     ]
   ],
   "global_name_replacements": [
