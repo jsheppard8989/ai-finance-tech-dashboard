@@ -1,5 +1,23 @@
 [
   {
+    "id": 692,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
+    "episode_date": "2026-11-17",
+    "summary": "The episode centers on the claim that AI is already powerful enough to transform work, but enterprise adoption is slowed by a context gap, security/governance constraints, token economics, and data sovereignty concerns. The discussion repeatedly returns to the idea that most companies are still using AI in shallow ways, while the real unlock is feeding organizational context like meetings, emails, Slack, docs, and org charts into systems that can act across workflows.\n\nThe hosts frame Databricks as building that layer through Genie, which creates an ontology graph of the company and uses it to surface decisions, blockers, and management insights. The conversation includes examples from internal HR surveys, production code metrics, and decision tracing, with the claim that these tools make management more transparent and faster. The episode also argues that enterprise rollout will be gradual, with one host saying AI adoption will take 10-15 years and GDP effects will take decades.\n\nA major contrarian thread is the skepticism around superintelligence alarmism. One host argues that recursive self-improvement requires four demanding conditions that are not clearly met and that the more immediate safety risk is cyber, not runaway AGI. The episode says cyber threats are real but manageable with better code, monitoring, and products like LakeWatch.\n\nThe episode also touches on Databricks strategy and competition, including open source, cloud, and GPU-driven scaling, plus the tension between staying private and eventually going public. It cites competition from multiple vendors, including Anthropic, Microsoft, Snowflake, and adjacent feature launches, but the core investment idea is that the enterprise bottleneck is governance plus context, not raw model intelligence.",
+    "key_takeaways": [
+      "One host said enterprises are behind on AI mainly because AI lacks internal organizational context and because security/governance blocks access to the data it needs.",
+      "One host said most companies are still using AI as a \"glorified Google search,\" with only modest productivity gains rather than full workflow transformation.",
+      "One host said Databricks' Genie works because it builds \"an ontology\" of the company from calendars, meetings, transcripts, email, Slack, docs, and spreadsheets.",
+      "One host said the real enterprise challenge is not only intelligence, but the rising token cost when agents start using lots of context and actions.",
+      "One host said the adoption curve will be slow: \"this is something that's going to take 10, 15 years,\" with GDP effects unfolding over decades.",
+      "One host said cyber is the main near-term AI safety risk, and Databricks has a product called LakeWatch to detect intrusions and monitor agents.",
+      "One host said the scary superintelligence narrative is overstated because the conditions for recursive self-improvement are not clearly in place."
+    ],
+    "investment_thesis": "Enterprise AI value will accrue to platforms that solve context, governance, and cost, not just to model providers.",
+    "key_tickers": null
+  },
+  {
     "id": 691,
     "podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "episode_title": "Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
