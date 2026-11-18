@@ -1,5 +1,41 @@
 [
   {
+    "id": 689,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Can AI Learn to Improve Itself? | Recursive Self-Improvement",
+    "episode_date": "2026-11-17",
+    "summary": "The episode frames recursive self-improvement, or RSI, as AI helping accelerate the AI research process rather than fully autonomous model generation today. The speakers distinguish between a practical near-term regime of AI-assisted research and a more ambitious \u201cfull RSI\u201d in which models can reliably generate, test, and improve ideas with minimal human intervention.\n\nA major theme is measurement. The conversation argues that pre-training has clearer metrics, but open-ended research is harder to verify because success is less obviously defined. The hosts discuss downstream markers, benchmark shelf life, and perplexity as one way to evaluate whether a model is getting better at prediction.\n\nThe episode also highlights the biggest bottlenecks to fuller automation: taste, verification, and compute. One host says models are still not very good at taste, and another point is that automated AI researchers need reliable ways to know their work is actually producing better models. There is also a recurring view that capabilities can keep rising, but progress may eventually be bounded by compute.\n\nAlignment is treated as both a use case and a risk. The hosts cite Anthropic research from August claiming automated AI researchers found fixes for 10 alignment failures, including some that transferred to models nearly five times larger. They also discuss OpenAI's \u201cConfessions\u201d research and a governance view that alignment should be a more public, decentralized science rather than something overfit to a few labs.",
+    "key_takeaways": [
+      "one host said RSI is best understood as an accelerator for AI research, not yet full autonomous model generation.",
+      "one host said they have built AI research interns today that can run scoped experiments and automate parts of the research pipeline.",
+      "one host said measuring RSI requires downstream yardsticks, but open-ended work is hard to verify because success is not always obvious.",
+      "one host said models are still not phenomenally good at taste, which limits their ability to choose ideas that matter long term.",
+      "one host said creating automated AI researchers requires reliable ways to know whether their work is producing better models.",
+      "one host said Anthropic published research in August showing automated AI researchers could discover fixes for 10 different alignment failures.",
+      "one host said human judgment will still matter a lot for the foreseeable future, even as RSI progresses.",
+      "one host said alignment should be treated like a public science that many people understand, with a more decentralized approach."
+    ],
+    "investment_thesis": "The core claim is that AI research automation is already real at the scoped-task level and could materially accelerate both capabilities and alignment work before full RSI arrives.",
+    "key_tickers": null
+  },
+  {
+    "id": 688,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Black Forest Labs",
+    "episode_date": "2026-11-16",
+    "summary": "Andreas Blattmann and Dustin Podell frame Black Forest Labs as much more than an image model shop: they say the company\u2019s work has moved from latent diffusion and image generation toward \u201cvisual intelligence,\u201d where video, audio, and action data help models learn how the world works. Blattmann says BFL was \u201cnot founded to be an image generation lab,\u201d and Podell describes Flux 3 as a single multimodal model trained on images, videos, audio, and actions that powers multiple products.\n\nA major technical thread is architecture. Blattmann argues flow matching, or rectified flow, is a simpler, more scalable formulation than classic diffusion and calls it a \u201cstrict improvement\u201d with no loss versus full diffusion. Podell and Blattmann also contrast single-model systems with multi-stage pipelines, arguing BFL wants one generalized model from which different applications can be derived.\n\nThey spend a lot of time on controllability and editing. Podell says Flux Context emerged from a very short training run and then turned into a broader data project focused on character consistency, iterative editing, and context prompting rather than recreating images every time. The speakers repeatedly stress that evaluation, context handling, and identity preservation are harder than raw realism.\n\nOn video and world modeling, Podell says pretraining on plain 2D videos can lead to very fast fine-tuning of an explicit 3D model, including \u201c1K fine-tuning steps\u201d on 3D data. He says this supports an implicit understanding of 3D from 2D motion. The episode also highlights data quality, filtering, and the quantity-versus-quality trade-off as underappreciated levers.\n\nFor robotics, the speakers are explicitly optimistic. Andreas Blattmann says 2027 will be the year they crack single-shot learning, and both guests point to commercialization in manufacturing in 2027, with niche consumer/home robotics potentially later that year. The episode also cites Black Forest Labs\u2019 scale, with the hosts mentioning roughly $450 million raised and $100 million in revenue published in December.",
+    "key_takeaways": [
+      "Andreas Blattmann says BFL was \"not founded to be an image generation lab\" and that video modeling is central to understanding how the world works.",
+      "Andreas Blattmann says rectified flow is a \"strict improvement\" over full diffusion and argues flow matching is mathematically simpler and more scalable.",
+      "Dustin Podell says Flux Context came from a very short training run and then became a larger data-driven project focused on iterative editing and character consistency.",
+      "Dustin Podell says pretraining on plain 2D videos allows very fast fine-tuning of an explicit 3D model, including \"1K fine-tuning steps\" on 3D data.",
+      "Andreas Blattmann says 2027 will be the year they crack single-shot learning for robotics.",
+      "The hosts cite Black Forest Labs having raised about $450 million and crossing $100 million in revenue, underscoring that the company already has meaningful commercial scale."
+    ],
+    "investment_thesis": "Black Forest Labs believes one multimodal model can extend from images to video, action, and robotics, with controllability and data quality as the key bottlenecks.",
+    "key_tickers": null
+  },
+  {
     "id": 687,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
@@ -40,17 +76,17 @@
     "podcast_name": "The a16z Show",
     "episode_title": "Alex Imas & Tyler Cowen | AI Is Moving Fast. Why Isn\u2019t the Economy?",
     "episode_date": "2026-11-16",
-    "summary": "The episode centers on whether rapid AI capability gains will translate into visible macroeconomic acceleration, especially sustained double-digit GDP growth. Alex E. Moss argues the progress is real and accelerating, but the economic \u201ctakeoff\u201d case depends on agents learning to coordinate well enough to outperform human organizations; current systems are still mostly stronger at individual tasks than at coordination.\n\nTyler Cowen is more skeptical of extreme near-term claims. He argues market evidence looks \u201cnormal,\u201d not consistent with the biggest revenue and valuation narratives, and says he could not get a satisfactory answer for why other sectors would grow fast enough to justify extreme projected revenue numbers for Anthropic and OpenAI. He also points to the difficulty of broad adoption, institutional inertia, and regulation.\n\nBoth speakers treat coordination and mechanism design as the central alignment frame: not perfect model alignment, but systems of checks and balances that constrain misuse and incentives. Alex argues that many observed failures are better described as human error layered on human error, while Tyler emphasizes that political and institutional constraints will slow diffusion rather than stop it.\n\nThey also discuss measurement problems. If AI makes products cheaper or free, GDP may understate welfare gains, so they suggest alternative welfare measures and structural/digital-twin modeling. Tyler remains skeptical that these changes produce near-term macro explosions, while Alex thinks a faster progress pace can still run into the next bottleneck sooner rather than produce smooth takeoff.",
+    "summary": "The episode centers on whether rapid AI capability gains will translate into visible macroeconomic acceleration, especially sustained double-digit GDP growth. Alex Imas argues the progress is real and accelerating, but the economic \u201ctakeoff\u201d case depends on agents learning to coordinate well enough to outperform human organizations; current systems are still mostly stronger at individual tasks than at coordination.\n\nTyler Cowen is more skeptical of extreme near-term claims. He argues market evidence looks \u201cnormal,\u201d not consistent with the biggest revenue and valuation narratives, and says he could not get a satisfactory answer for why other sectors would grow fast enough to justify extreme projected revenue numbers for Anthropic and OpenAI. He also points to the difficulty of broad adoption, institutional inertia, and regulation.\n\nBoth speakers treat coordination and mechanism design as the central alignment frame: not perfect model alignment, but systems of checks and balances that constrain misuse and incentives. Alex argues that many observed failures are better described as human error layered on human error, while Tyler emphasizes that political and institutional constraints will slow diffusion rather than stop it.\n\nThey also discuss measurement problems. If AI makes products cheaper or free, GDP may understate welfare gains, so they suggest alternative welfare measures and structural/digital-twin modeling. Tyler remains skeptical that these changes produce near-term macro explosions, while Alex thinks a faster progress pace can still run into the next bottleneck sooner rather than produce smooth takeoff.",
     "key_takeaways": [
       "Tyler Cowen says prediction markets for Anthropic do not support an extreme valuation story, noting it is \u201cnot flying above 2 trillion.\u201d",
       "Tyler Cowen says he asked why other sectors would grow fast enough to justify extreme revenue numbers for Anthropic and OpenAI, and \u201cno one had an answer.\u201d",
-      "Alex E. Moss says real economic transformation requires agents to coordinate with one another, not just improve on isolated tasks.",
-      "Alex E. Moss says coordination benchmarks could show whether one agent outperforms two agents splitting work, even when they can communicate.",
+      "Alex Imas says real economic transformation requires agents to coordinate with one another, not just improve on isolated tasks.",
+      "Alex Imas says coordination benchmarks could show whether one agent outperforms two agents splitting work, even when they can communicate.",
       "Tyler Cowen says Waymo\u2019s slow rollout in Washington, D.C. shows robotics diffusion is still not broad enough to imply near-term macro takeoff.",
-      "Alex E. Moss says if AI agents rose from basically zero to six percent of GDP, \u201cyou could call that an explosion,\u201d but even that does not seem soon.",
-      "Alex E. Moss and Tyler Cowen frame alignment more as mechanism design and checks-and-balances than perfect model alignment, with Alex arguing many incidents are human-error driven."
+      "Alex Imas says if AI agents rose from basically zero to six percent of GDP, \u201cyou could call that an explosion,\u201d but even that does not seem soon.",
+      "Alex Imas and Tyler Cowen frame alignment more as mechanism design and checks-and-balances than perfect model alignment, with Alex arguing many incidents are human-error driven."
     ],
-    "investment_thesis": "AI progress is real, but Tyler Cowen and Alex E. Moss both imply that without coordination and broad demand-side adoption, it is unlikely to produce near-term double-digit GDP growth.",
+    "investment_thesis": "AI progress is real, but Tyler Cowen and Alex Imas both imply that without coordination and broad demand-side adoption, it is unlikely to produce near-term double-digit GDP growth.",
     "key_tickers": [
       "NVDA",
       "TSLA"

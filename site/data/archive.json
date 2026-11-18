@@ -1,13 +1,110 @@
 {
   "insights": [
     {
+      "id": 700,
+      "title": "Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
+      "source_type": "podcast",
+      "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "source_date": "2026-11-17",
+      "summary": "The episode centers on the Invest America / universal capital accounts idea: every child would get an account at birth, automatically funded and automatically invested, with later \u201cplussing up\u201d from philanthropy or families. Brad Gerstner says the Invest America Act was signed into law on July 4th, 2025, and describes the accounts as being created when a child gets a Social Security number, with $1,000 automatically put into the S&P 500.\n\nGeoffrey Canada argues the policy is necessary because education alone cannot solve poverty if families are \u201cliterally one emergency away from bankruptcy.\u201d He says people without savings are structurally blocked because \u201cPoor people don\u2019t have accounts to save in,\u201d and he frames universal capital as a way to restore trust in capitalism and reduce desperation.\n\nA major practical issue is implementation and claiming. Brad Gerstner says there are 70 million accounts open for children under 18 and warns that if parents do not claim accounts, a child could miss the first 10 years of compounding. Geoffrey Canada calls this the \u201ccold start problem\u201d and says the system must make custodial accounts easy enough for ordinary families to use.\n\nThey also discuss the broader political and social thesis. Geoffrey Canada links the idea to fears about technological unemployment and says society needs a bridge similar to Social Security in 1935, while Brad Gerstner argues this is a defense of capitalism because the accounts are private and owned by individuals.",
+      "key_takeaway": "The episode argues that automatically seeded, equity-invested child accounts could scale into a multi-trillion-dollar system that compounds wealth and changes long-term social outcomes.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-11-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 691,
+      "notable_quotes": [
+        {
+          "speaker": "Geoffrey Canada",
+          "quote": "You can have a great education. You have no money."
+        },
+        {
+          "speaker": "Brad Gerstner",
+          "quote": "If you're born in America, you're going to start with capital, a universal capital account for all 3.7 million of kids when you get your social security number and account is automatically set up with a thousand dollars in the S&P 500."
+        },
+        {
+          "speaker": "Brad Gerstner",
+          "quote": "The cold start problem is is very difficult, almost impossible, for even a sophisticated person to set up a custodial account in the stock market for their children."
+        }
+      ]
+    },
+    {
+      "id": 701,
+      "title": "The Anthropic IPO\u2019s Massive Impact: Forced Passive Buying and a Liquidity Wave for Venture Capital | David Shapiro",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-17",
+      "summary": "The episode centers on the idea that Anthropic\u2019s IPO could become a major liquidity event for venture holders and a catalyst for price discovery in private AI names. David Shapiro argues that lock-up mechanics matter, and that most venture investors should expect a 180-day window before selling pressure and volatility increase.\n\nA second major thread is index inclusion. Shapiro says Anthropic should qualify for NASDAQ 100 inclusion on scale, which would make funds like QQQ forced buyers. He contrasts that with S&P 500 precedent, citing SpaceX as an example where NASDAQ inclusion happened but S&P exclusion remained possible.\n\nThe conversation then broadens to OpenVC\u2019s private-market indexing model. Shapiro says OpenVC tracks 1300 unicorns daily, uses secondary-market data when liquidity is sufficient, and can mark down names rather than leave them at stale last-round prices. He argues that private-market concentration is extreme, saying that without caps AI would be 65 to 70% of the index.\n\nFinally, the episode moves into the broader AI thesis and its risks. Shapiro presents a very large upside case if leading LLM providers can raise worker productivity by 25%, but also warns that falling token costs, open-source competition, China competition, and regulation could compress margins and commoditize the category. He also says the private-markets world is moving toward passive, index-like structures, similar to the public markets shift that had passed 50% passive penetration by 2004.",
+      "key_takeaway": "Anthropic\u2019s IPO could trigger forced NASDAQ 100 buying and unlock a larger private-market repricing cycle around AI liquidity and index inclusion.",
+      "tickers_mentioned": [
+        "QQQ"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-11-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 690,
+      "notable_quotes": [
+        {
+          "speaker": "David Shapiro",
+          "quote": "That will mean that in pretty short order, anybody who holds a fund, which tracks the NASDAQ 100, whether that be QQQ or another in the retirement portfolio and interpersonal brokerage account, will become a forced buyer of the name."
+        },
+        {
+          "speaker": "David Shapiro",
+          "quote": "If we didn't have those, you know, kind of caps in place on the index, I would say that AI would be over 65 to 70% of the index at this point."
+        },
+        {
+          "speaker": "David Shapiro",
+          "quote": "The optimistic case really requires one to step way, way back and think about this from almost a GDP perspective. If you believe that the average, you know, leading LLM provider can make the American worker call it 25% more productive, and... we're talking... five to ten trillion dollars."
+        }
+      ]
+    },
+    {
+      "id": 702,
+      "title": "Can AI Learn to Improve Itself? | Recursive Self-Improvement",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-17",
+      "summary": "The episode frames recursive self-improvement, or RSI, as AI helping accelerate the AI research process rather than fully autonomous model generation today. The speakers distinguish between a practical near-term regime of AI-assisted research and a more ambitious \u201cfull RSI\u201d in which models can reliably generate, test, and improve ideas with minimal human intervention.\n\nA major theme is measurement. The conversation argues that pre-training has clearer metrics, but open-ended research is harder to verify because success is less obviously defined. The hosts discuss downstream markers, benchmark shelf life, and perplexity as one way to evaluate whether a model is getting better at prediction.\n\nThe episode also highlights the biggest bottlenecks to fuller automation: taste, verification, and compute. One host says models are still not very good at taste, and another point is that automated AI researchers need reliable ways to know their work is actually producing better models. There is also a recurring view that capabilities can keep rising, but progress may eventually be bounded by compute.\n\nAlignment is treated as both a use case and a risk. The hosts cite Anthropic research from August claiming automated AI researchers found fixes for 10 alignment failures, including some that transferred to models nearly five times larger. They also discuss OpenAI's \u201cConfessions\u201d research and a governance view that alignment should be a more public, decentralized science rather than something overfit to a few labs.",
+      "key_takeaway": "The core claim is that AI research automation is already real at the scoped-task level and could materially accelerate both capabilities and alignment work before full RSI arrives.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 689,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "I do think of RSI, I'm merely as an accelerator."
+        },
+        {
+          "speaker": "one host",
+          "quote": "Creating automated AI researchers also requires us to have reliable ways to know that their work is producing better models."
+        },
+        {
+          "speaker": "one host",
+          "quote": "Anthropic published research in August, showing that automated AI researchers could already discover fixes for 10 different alignment failures."
+        }
+      ]
+    },
+    {
       "id": 696,
       "title": "Alex Imas & Tyler Cowen | AI Is Moving Fast. Why Isn\u2019t the Economy?",
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-16",
-      "summary": "The episode centers on whether rapid AI capability gains will translate into visible macroeconomic acceleration, especially sustained double-digit GDP growth. Alex E. Moss argues the progress is real and accelerating, but the economic \u201ctakeoff\u201d case depends on agents learning to coordinate well enough to outperform human organizations; current systems are still mostly stronger at individual tasks than at coordination.\n\nTyler Cowen is more skeptical of extreme near-term claims. He argues market evidence looks \u201cnormal,\u201d not consistent with the biggest revenue and valuation narratives, and says he could not get a satisfactory answer for why other sectors would grow fast enough to justify extreme projected revenue numbers for Anthropic and OpenAI. He also points to the difficulty of broad adoption, institutional inertia, and regulation.\n\nBoth speakers treat coordination and mechanism design as the central alignment frame: not perfect model alignment, but systems of checks and balances that constrain misuse and incentives. Alex argues that many observed failures are better described as human error layered on human error, while Tyler emphasizes that political and institutional constraints will slow diffusion rather than stop it.\n\nThey also discuss measurement problems. If AI makes products cheaper or free, GDP may understate welfare gains, so they suggest alternative welfare measures and structural/digital-twin modeling. Tyler remains skeptical that these changes produce near-term macro explosions, while Alex thinks a faster progress pace can still run into the next bottleneck sooner rather than produce smooth takeoff.",
-      "key_takeaway": "AI progress is real, but Tyler Cowen and Alex E. Moss both imply that without coordination and broad demand-side adoption, it is unlikely to produce near-term double-digit GDP growth.",
+      "summary": "The episode centers on whether rapid AI capability gains will translate into visible macroeconomic acceleration, especially sustained double-digit GDP growth. Alex Imas argues the progress is real and accelerating, but the economic \u201ctakeoff\u201d case depends on agents learning to coordinate well enough to outperform human organizations; current systems are still mostly stronger at individual tasks than at coordination.\n\nTyler Cowen is more skeptical of extreme near-term claims. He argues market evidence looks \u201cnormal,\u201d not consistent with the biggest revenue and valuation narratives, and says he could not get a satisfactory answer for why other sectors would grow fast enough to justify extreme projected revenue numbers for Anthropic and OpenAI. He also points to the difficulty of broad adoption, institutional inertia, and regulation.\n\nBoth speakers treat coordination and mechanism design as the central alignment frame: not perfect model alignment, but systems of checks and balances that constrain misuse and incentives. Alex argues that many observed failures are better described as human error layered on human error, while Tyler emphasizes that political and institutional constraints will slow diffusion rather than stop it.\n\nThey also discuss measurement problems. If AI makes products cheaper or free, GDP may understate welfare gains, so they suggest alternative welfare measures and structural/digital-twin modeling. Tyler remains skeptical that these changes produce near-term macro explosions, while Alex thinks a faster progress pace can still run into the next bottleneck sooner rather than produce smooth takeoff.",
+      "key_takeaway": "AI progress is real, but Tyler Cowen and Alex Imas both imply that without coordination and broad demand-side adoption, it is unlikely to produce near-term double-digit GDP growth.",
       "tickers_mentioned": [
         "NVDA",
         "TSLA"
@@ -22,14 +119,14 @@
       "notable_quotes": [
         {
           "speaker": "Tyler Cowen",
-          "quote": "If you look at prediction markets for what the anthropic IPL will go for, it's not flying above 2 trillion."
+          "quote": "If you look at prediction markets for what the anthropic IPO will go for, it's not flying above 2 trillion."
         },
         {
           "speaker": "Tyler Cowen",
           "quote": "I asked them all the following question. I said, why do the other sectors that are going to grow sufficiently rapidly to justify the extreme revenue numbers? You're giving me for Anthropic [and] OpenAI? And no one had an answer for that question."
         },
         {
-          "speaker": "Alex E. Moss",
+          "speaker": "Alex Imas",
           "quote": "What you actually need for really economic transformation is not just competence, like ability on particular tasks to change. It's the ability of these agents to coordinate with one another."
         }
       ]
@@ -100,6 +197,37 @@
         {
           "speaker": "one host",
           "quote": "We did a big deal with N-scale for 2027 that deal 100,000 GPUs three plus billion dollars"
+        }
+      ]
+    },
+    {
+      "id": 699,
+      "title": "Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-11-16",
+      "summary": "Andreas Blattmann and Dustin Podell frame Black Forest Labs as much more than an image model shop: they say the company\u2019s work has moved from latent diffusion and image generation toward \u201cvisual intelligence,\u201d where video, audio, and action data help models learn how the world works. Blattmann says BFL was \u201cnot founded to be an image generation lab,\u201d and Podell describes Flux 3 as a single multimodal model trained on images, videos, audio, and actions that powers multiple products.\n\nA major technical thread is architecture. Blattmann argues flow matching, or rectified flow, is a simpler, more scalable formulation than classic diffusion and calls it a \u201cstrict improvement\u201d with no loss versus full diffusion. Podell and Blattmann also contrast single-model systems with multi-stage pipelines, arguing BFL wants one generalized model from which different applications can be derived.\n\nThey spend a lot of time on controllability and editing. Podell says Flux Context emerged from a very short training run and then turned into a broader data project focused on character consistency, iterative editing, and context prompting rather than recreating images every time. The speakers repeatedly stress that evaluation, context handling, and identity preservation are harder than raw realism.\n\nOn video and world modeling, Podell says pretraining on plain 2D videos can lead to very fast fine-tuning of an explicit 3D model, including \u201c1K fine-tuning steps\u201d on 3D data. He says this supports an implicit understanding of 3D from 2D motion. The episode also highlights data quality, filtering, and the quantity-versus-quality trade-off as underappreciated levers.\n\nFor robotics, the speakers are explicitly optimistic. Andreas Blattmann says 2027 will be the year they crack single-shot learning, and both guests point to commercialization in manufacturing in 2027, with niche consumer/home robotics potentially later that year. The episode also cites Black Forest Labs\u2019 scale, with the hosts mentioning roughly $450 million raised and $100 million in revenue published in December.",
+      "key_takeaway": "Black Forest Labs believes one multimodal model can extend from images to video, action, and robotics, with controllability and data quality as the key bottlenecks.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 688,
+      "notable_quotes": [
+        {
+          "speaker": "Andreas Blattmann",
+          "quote": "BFL was not founded to be an image generation lab. Video modeling is actually the central means to understanding how our world basically works."
+        },
+        {
+          "speaker": "Andreas Blattmann",
+          "quote": "Lossy, you mean like do you, do you mean- No, loss, lossy compared to a full diffusion. No. All right. Yeah, yeah, yeah. It's a strict improvement. Exactly. It's, it's- It's great... it, it is an improvement definitely."
+        },
+        {
+          "speaker": "Dustin Podell",
+          "quote": "we took this video model that we trained, and then we had, I think, 1K fine-tuning steps on 3D data, and we got a 3D model out of it."
         }
       ]
     },
@@ -322,7 +450,7 @@
         "LINUX"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-13",
       "archived_date": null,
@@ -455,7 +583,7 @@
         "ORCL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-12",
       "archived_date": null,
@@ -16076,6 +16204,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 342,
+      "term": "perplexity",
+      "description": "A metric for how surprised a language model is, on average, by the correct next words in pre-training. It is presented as a relatively clean metric for pre-training progress.",
+      "first_detected_date": "2026-11-17",
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Perplexity matters because it is one of the clearer signals for whether pre-training is improving, even if it is less helpful for open-ended research tasks.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 689,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 691,
+      "last_mentioned_speaker": null
+    },
+    {
       "id": 336,
       "term": "Dispersion",
       "description": "The degree to which individual stocks move differently from one another; high dispersion means low correlation and more idiosyncratic behavior.",
@@ -16146,6 +16292,24 @@
       "first_detected_speaker": "Fabian Theis",
       "last_mentioned_episode_id": 664,
       "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+    },
+    {
+      "id": 341,
+      "term": "World model",
+      "description": "A forward model of cell dynamics conditioned on actions or perturbations, represented as F(X, A) -> X'. Theis treats this as the correct abstraction for perturbation prediction.",
+      "first_detected_date": "2026-11-06",
+      "last_mentioned_date": "2026-11-16",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "World-model capability may be a necessary moat for platforms seeking to combine prediction, design, and laboratory execution.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 655,
+      "first_detected_speaker": "Fabian Theis",
+      "last_mentioned_episode_id": 688,
+      "last_mentioned_speaker": "Fabian Theis"
     },
     {
       "id": 326,
@@ -16440,8 +16604,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-11-16",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -16450,8 +16614,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 686,
-      "last_mentioned_speaker": "Paul Christiano"
+      "last_mentioned_episode_id": 691,
+      "last_mentioned_speaker": null
     },
     {
       "id": 314,
@@ -16512,8 +16676,8 @@
       "term": "Context layer",
       "description": "The owned layer of user data, memories, and contacts that sits above raw model access and helps an agent stay useful over time. Town argues this should remain portable and customer-controlled.",
       "first_detected_date": "2026-10-19",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Portability and ownership of context may determine switching costs, retention, and enterprise trust in agent software.",
@@ -16522,16 +16686,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 590,
       "first_detected_speaker": "Jean-Denis Greze",
-      "last_mentioned_episode_id": 669,
-      "last_mentioned_speaker": "Zach Reitano"
+      "last_mentioned_episode_id": 691,
+      "last_mentioned_speaker": null
     },
     {
       "id": 315,
       "term": "free money",
       "description": "rather than traditional productivity, and he adds that financially and bureaucratically burdensome consumer workflows could create large vertical opportunities even if the winning horizontal agent int",
       "first_detected_date": "2026-10-17",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -16540,8 +16704,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 585,
       "first_detected_speaker": "Ben Horowitz, David Sacks, David Friedberg",
-      "last_mentioned_episode_id": 669,
-      "last_mentioned_speaker": "Zach Reitano"
+      "last_mentioned_episode_id": 691,
+      "last_mentioned_speaker": null
     },
     {
       "id": 311,
@@ -16746,8 +16910,8 @@
       "term": "DPI",
       "description": "Distributions to paid-in capital, a realized-return metric for venture funds. Jake Paul and Chamath Palihapitiya both treated DPI as the number that can override skepticism about unconventional fund managers.",
       "first_detected_date": "2026-09-30",
-      "last_mentioned_date": "2026-10-17",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It distinguishes paper markups from cash returned to LPs and becomes especially important when private markets are crowded with high valuations.",
@@ -16756,8 +16920,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 540,
       "first_detected_speaker": "Jake Paul, Drew Taggart, Alex Pall",
-      "last_mentioned_episode_id": 585,
-      "last_mentioned_speaker": "Ben Horowitz, David Sacks, David Friedberg"
+      "last_mentioned_episode_id": 690,
+      "last_mentioned_speaker": "David Shapiro"
     },
     {
       "id": 309,
@@ -16926,8 +17090,8 @@
       "term": "System One Models",
       "description": "An approach where models are embedded directly into software decision paths, making the application itself smarter rather than placing intelligence in a separate interface. The idea emphasizes reliability and context-aware behavior.",
       "first_detected_date": "2026-09-21",
-      "last_mentioned_date": "2026-11-08",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-16",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Supports investing in infrastructure that integrates AI into core product logic, not just chat wrappers.",
@@ -16936,8 +17100,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 505,
       "first_detected_speaker": "Diogo",
-      "last_mentioned_episode_id": 662,
-      "last_mentioned_speaker": "Mihail Eric"
+      "last_mentioned_episode_id": 688,
+      "last_mentioned_speaker": null
     },
     {
       "id": 106,
@@ -17088,8 +17252,8 @@
       "term": "Evals",
       "description": "A scoring system using AI judge models to score agent outputs and detect recurring failure modes, such as redundant tests. It is used to evaluate quality beyond raw throughput.",
       "first_detected_date": "2026-08-24",
-      "last_mentioned_date": "2026-11-10",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Scoring and evaluation layers could become core products for measuring AI agent performance across engineering workflows.",
@@ -17098,8 +17262,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 421,
       "first_detected_speaker": "NG ZDN",
-      "last_mentioned_episode_id": 666,
-      "last_mentioned_speaker": "Darmash Shah"
+      "last_mentioned_episode_id": 689,
+      "last_mentioned_speaker": null
     },
     {
       "id": 281,
@@ -17107,7 +17271,7 @@
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
       "last_mentioned_date": "2026-11-16",
-      "mention_count": 46,
+      "mention_count": 47,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -17116,7 +17280,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 685,
+      "last_mentioned_episode_id": 688,
       "last_mentioned_speaker": null
     },
     {
@@ -17194,19 +17358,19 @@
     {
       "id": 270,
       "term": "Taste",
-      "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
+      "description": "The ability to choose which ideas are likely to matter long term, persist beyond an initial paper, and compose well with other ideas. The speakers describe it as a major current weakness in models.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-11-16",
-      "mention_count": 51,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 52,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
+      "investment_implications": "Systems that improve research taste could become key enablers of automated discovery and research productivity.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 685,
+      "last_mentioned_episode_id": 689,
       "last_mentioned_speaker": null
     },
     {
@@ -17466,8 +17630,8 @@
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-11-05",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -17476,8 +17640,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Liaquat Ahamed",
-      "last_mentioned_episode_id": 647,
-      "last_mentioned_speaker": "Russell Clark"
+      "last_mentioned_episode_id": 690,
+      "last_mentioned_speaker": "David Shapiro"
     },
     {
       "id": 279,
@@ -18007,7 +18171,7 @@
       "description": "A training technique where a model learns from another model\u2019s outputs or reasoning traces. Lambert argues it is often oversimplified as the main way open models can catch frontier systems.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-11-16",
-      "mention_count": 71,
+      "mention_count": 72,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If distillation is less effective than assumed, open-model catch-up may take longer and favor integrated frontier labs over open ecosystems.",
@@ -18016,8 +18180,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 686,
-      "last_mentioned_speaker": "Paul Christiano"
+      "last_mentioned_episode_id": 688,
+      "last_mentioned_speaker": null
     },
     {
       "id": 174,
@@ -18114,8 +18278,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-11-16",
-      "mention_count": 132,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 134,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -18124,7 +18288,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 687,
+      "last_mentioned_episode_id": 689,
       "last_mentioned_speaker": null
     },
     {
@@ -19194,8 +19358,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-11-16",
-      "mention_count": 155,
+      "last_mentioned_date": "2026-11-17",
+      "mention_count": 156,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -19204,7 +19368,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 687,
+      "last_mentioned_episode_id": 691,
       "last_mentioned_speaker": null
     },
     {
