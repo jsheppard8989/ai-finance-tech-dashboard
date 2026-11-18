@@ -2771,6 +2771,39 @@
           "OpenAI's Mark Chen\nand Thinking Machines' John Schulman"
         ]
       ]
+    },
+    {
+      "insight_id": 704,
+      "podcast_episode_id": 693,
+      "_note": "Nov 18 2026 (G weekday site check): a16z 'The Missing Layer for Personal AI | First Person Labs' Ken Liu'. ASR name error 'Kim Liu' -> 'Ken Liu' in the summary and notable_quotes speaker (~14 hits in data.js including the archive copy; also episode_evidence labels and last_mentioned_speaker). Verified against a16z's 'Investing in First Person Labs' post and Ken Liu's launch post (CEO, co-founder); the episode title already says Ken. Stored DB text and the live export both use 'Kim Liu' / 'Kim Liu’s' (unicode apostrophe). Same pair in global_replacements so terms last_mentioned_speaker and evidence labels are covered. Garbled notable_quote 3 ('And at Opus 55 is pricing, that leads to a thousand dollars per day.') is dropped.",
+      "replacements": [
+        [
+          "Kim Liu",
+          "Ken Liu"
+        ]
+      ],
+      "drop_quotes": [
+        "And at Opus 55 is pricing, that leads to a thousand dollars per day."
+      ]
+    },
+    {
+      "insight_id": 700,
+      "podcast_episode_id": 691,
+      "_note": "Nov 18 2026 (G weekday site check): Invest Like the Best, Gerstner & Canada (ep 501). tickers_mentioned/key_tickers are ['AAPL'] but nothing in the card mentions Apple; drop the ticker (wrong ticker).",
+      "drop_tickers": [
+        "AAPL"
+      ]
+    },
+    {
+      "insight_id": 677,
+      "podcast_episode_id": 666,
+      "_note": "Nov 18 2026 (G weekday site check): deep dive 677 falsification_tracks[1] grading wording. 'the 10-K as the named source grading the result' -> 'the 10-K as the named source for the result'. (672 'course internal grading rubric' is a literal course rubric and is left unchanged.)",
+      "replacements": [
+        [
+          "the named source grading the result",
+          "the named source for the result"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -3644,6 +3677,10 @@
     [
       "Open AI's Mark Chen\nand thinking machine's John Schulman",
       "OpenAI's Mark Chen\nand Thinking Machines' John Schulman"
+    ],
+    [
+      "Kim Liu",
+      "Ken Liu"
     ]
   ],
   "global_name_replacements": [
@@ -9496,6 +9533,138 @@
           "Alex E. Moss",
           "Alex Imas"
         ]
+      ]
+    },
+    {
+      "id": 392,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Pablo Escobar page, not Emilio Escobar. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 388,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Bob Dylan page, not Dylan Ayrey. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 254,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Andy Williams (crooner) page, not Andy Constan. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 432,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Aaron Kaufman page, not Aaron Zulman. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 168,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Adam22 page, not Adam Rozencwajg. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 110,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Adam22 page, not Adam Warmouth. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 302,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Jihan Wu page, not Geoffrey Woo. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 397,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Kush Patel page, not Kush Bavaria. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 384,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Simon Ma page, not Simon Mow. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 422,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a James Wedmore page, not Jim Wiederhold. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
+      ]
+    },
+    {
+      "id": 284,
+      "_note": "Nov 18 2026 (G weekday site check): drop net worth until a source about the right person exists. Live/DB figure cites a Alex Bodi page, not Alex Boden. Export-only; DB not edited.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null
+      },
+      "unset": [
+        "net_worth"
       ]
     }
   ],

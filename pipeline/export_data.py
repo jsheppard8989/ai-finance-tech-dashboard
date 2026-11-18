@@ -2002,6 +2002,10 @@ def generate_website_js():
     _apply_summary_overrides(podcast_guests)
     _apply_term_overrides(suggested_terms, [r for r in _load_override_rules().get("terms", [])
                                             if r.get("scope", "suggested") == "suggested"])
+    # Nov 18 2026: suggested_terms were skipped by the global_replacements pass, so a
+    # name swap like 'Kim Liu' -> 'Ken Liu' fixed the card but left the auto-extracted
+    # term definitions. Apply the same override pass used for archive/main/deep dives.
+    _apply_summary_overrides(suggested_terms)
     _apply_overton_term_overrides(main_content)
     _apply_overton_term_overrides(archive)
     # Oct 27 2026: mainContent insights carried tickers_mentioned as a JSON string; export lists.
