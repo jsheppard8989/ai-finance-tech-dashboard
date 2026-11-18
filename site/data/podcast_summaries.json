@@ -1,5 +1,24 @@
 [
   {
+    "id": 691,
+    "podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "episode_title": "Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
+    "episode_date": "2026-11-17",
+    "summary": "The episode centers on the Invest America / universal capital accounts idea: every child would get an account at birth, automatically funded and automatically invested, with later \u201cplussing up\u201d from philanthropy or families. Brad Gerstner says the Invest America Act was signed into law on July 4th, 2025, and describes the accounts as being created when a child gets a Social Security number, with $1,000 automatically put into the S&P 500.\n\nGeoffrey Canada argues the policy is necessary because education alone cannot solve poverty if families are \u201cliterally one emergency away from bankruptcy.\u201d He says people without savings are structurally blocked because \u201cPoor people don\u2019t have accounts to save in,\u201d and he frames universal capital as a way to restore trust in capitalism and reduce desperation.\n\nA major practical issue is implementation and claiming. Brad Gerstner says there are 70 million accounts open for children under 18 and warns that if parents do not claim accounts, a child could miss the first 10 years of compounding. Geoffrey Canada calls this the \u201ccold start problem\u201d and says the system must make custodial accounts easy enough for ordinary families to use.\n\nThey also discuss the broader political and social thesis. Geoffrey Canada links the idea to fears about technological unemployment and says society needs a bridge similar to Social Security in 1935, while Brad Gerstner argues this is a defense of capitalism because the accounts are private and owned by individuals.",
+    "key_takeaways": [
+      "Geoffrey Canada says education alone is not enough because families can still be \u201cliterally one emergency away from bankruptcy.\u201d",
+      "Brad Gerstner says the Invest America Act was signed into law on July 4th, 2025, and the accounts are created automatically when a child gets a Social Security number.",
+      "Brad Gerstner says each account is automatically set up with $1,000 in the S&P 500, with no investment decision for parents.",
+      "Geoffrey Canada says the policy addresses the \u201ccold start problem\u201d because even sophisticated parents struggle to set up custodial accounts.",
+      "Brad Gerstner says if parents do not claim accounts, a child may miss the first 10 years of compounding, which is why the program is built to auto-create and auto-fund.",
+      "Geoffrey Canada says universal capital accounts, combined with education, are meant to improve graduation, home buying, entrepreneurship, taxpayer participation, and reduce incarceration over time."
+    ],
+    "investment_thesis": "The episode argues that automatically seeded, equity-invested child accounts could scale into a multi-trillion-dollar system that compounds wealth and changes long-term social outcomes.",
+    "key_tickers": [
+      "AAPL"
+    ]
+  },
+  {
     "id": 689,
     "podcast_name": "The a16z Show",
     "episode_title": "Can AI Learn to Improve Itself? | Recursive Self-Improvement",
