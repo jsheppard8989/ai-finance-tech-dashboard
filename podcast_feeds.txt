@@ -11,3 +11,7 @@ https://feed.podbean.com/macrovoices/feed.xml
 https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/e74a35e9-c028-4e5f-a3f7-afb10164a717/8792a2e9-d66c-4038-a1fe-afb101654894/podcast.rss
 # Invest Like the Best (Patrick O'Shaughnessy, Colossus) - investing/business; regular feed as of 2026-11-19 (moved from trial; Jared, decisions.md)
 https://feeds.megaphone.fm/CLS2859450455
+# TRIAL (approved by Jared 2026-11-19 10:58 AM CT, decisions.md): ChinaTalk (Jordan Schneider) - China/tech policy; 4-week trial, review ~2026-12-17
+https://feeds.megaphone.fm/CHTAL4990341033
+# TRIAL (approved by Jared 2026-11-19 10:58 AM CT, decisions.md): The Circuit (Ben Bajarin and Jay Goldberg) - semiconductors/tech supply chain; 4-week trial, review ~2026-12-17
+https://feeds.transistor.fm/the-circuit
