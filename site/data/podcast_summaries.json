@@ -1,5 +1,44 @@
 [
   {
+    "id": 696,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Anthropic\u2019s $1.4T IPO: The Biggest Wealth Event in Human History?",
+    "episode_date": "2026-11-19",
+    "summary": "The hosts spend much of the episode on Anthropic\u2019s rumored IPO and the scale of wealth creation it could trigger. They cite a deal for 825 million shares marketed at $70 to $78, about 5x demand, roughly $64 billion raised, and a $1.4 trillion valuation. They also cite Anthropic\u2019s third-quarter revenues at $17 billion, an annualized run rate of about $81 billion as of October 31st, and fourth-quarter guidance at $130 billion, framing the deal as a major liquidity and concentration event, especially for San Francisco.\n\nThey then pivot to cyber and infrastructure fragility, arguing the recent outages were more consistent with legacy systems, patching side effects, and specific exploit paths than with a coordinated mega-hack. One host describes Microsoft Outlook and Exchange going down with nearly 130,000 Outlook reports across 74 countries. Another says attackers used a flaw in an Optimized lease experimentation sign-up flow and injected hostile JavaScript into 178 organizations, including CNN, Zoom, HSBC, Equifax, Salesforce, and IKEA.\n\nA major thread is SpaceX Starship and the implied economics of reusable launch. The discussion cites a recent mission that deployed 26 Starling V3 satellites, then moves to Elon\u2019s proposed Starship V4 changes: 70 meters long, 40% longer, 60% more propellant, and 9 engines. The hosts argue that when Starship reaches high volume and full reusability, launch economics could fall to $27 to $53 per kilogram, later tightening to propellant cost per flight of $500,000 and payload of 200 tons, implying below $1,000 per person to orbit.\n\nThe episode also covers AI and industrial policy. The hosts debate chip export controls and labeling of Chinese AI usage, with one side arguing that software restrictions are less effective than hardware-level control of chips and data centers. They connect this to broader themes: AI agents shifting operations from task supervision to outcome supervision, Google potentially making a move in the next 90 to 120 days that shakes frontier-lab infrastructure, and the idea that software is not really containerable in the age of AI, while hardware and data centers are.",
+    "key_takeaways": [
+      "One host says Anthropic\u2019s IPO is for 825 million shares at $70 to $78, with 5x demand and about $64 billion raised at a $1.4 trillion valuation.",
+      "One host cites Anthropic\u2019s third-quarter revenues at $17 billion, an annualized run rate of about $81 billion as of October 31st, and fourth-quarter guidance at $130 billion.",
+      "One host says attackers used a flaw in an Optimized lease experimentation sign-up flow and injected hostile JavaScript into 178 organizations, including CNN, Zoom, HSBC, Equifax, Salesforce, and IKEA.",
+      "One host says Microsoft Outlook and Exchange went down with nearly 130,000 Outlook reports across 74 countries.",
+      "One host says Starship V4 is going to be 70 meters long, with a 40% increase in length, a 60% increase in propellant, and 9 engines.",
+      "One host says Starship propellant cost per flight will drop to $500,000 and payload will increase to 200 tons, which would put a per-person ticket below $1,000 to orbit.",
+      "Alex Wissner-Gross says Google could come out with a plan in the next 90 to 120 days that shakes the frontier lab infrastructure."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that Anthropic\u2019s IPO and Starship-style execution could each create extreme scale effects, while hardware-level AI control matters more than software bans.",
+    "key_tickers": [
+      "ANT"
+    ]
+  },
+  {
+    "id": 694,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "How Deficits Will Drive the Next Wave of the Commodity Supercycle | Rick Rule",
+    "episode_date": "2026-11-19",
+    "summary": "Rick Rule frames precious metals as three different buckets: gold as savings/insurance, high-quality mining stocks as an investment, and juniors as speculation. On silver, he says his physical silver no longer belonged in the speculative bucket after the parabolic move, and that silver stocks still offer better value, downside shelter, and upside leverage than physical silver because they discount silver cash flows more attractively.\n\nHe is skeptical of the smaller end of the royalty/streaming space, saying it is getting overbid and that many exploration-stage royalties will never pay. By contrast, he sees a strong structural case for large streaming deals tied to copper projects, especially gold and silver byproduct streams, because precious-metal cash flows command much higher multiples than copper cash flows. He says this could force even major streamers like Wheaton and Franco-Nevada to syndicate deals.\n\nRule is highly constructive on copper over a multi-year horizon, arguing that chronic underinvestment means supply will not catch demand over the next five years unless demand falls. He cites an October 2025 paper suggesting the top ten publicly quoted copper companies need $250 billion to maintain production, then says rising input costs at 8% to 10% compounded make the burden far larger. He also highlights permitting, sociology, remoteness, and infrastructure as decisive risks for mega-projects.\n\nOn uranium, Rule argues the spot market is too illiquid to matter much and that long-term contracting is the real driver because lenders want supply locked for 10 to 30 years. He says Japan is the lowest-hanging-fruit demand surprise over the next two years, pointing to improving public polls and a current operating fleet of 17 plants out of 42. More broadly, he expects high prices to eventually drive substitution and efficiency, but not in the near term.",
+    "key_takeaways": [
+      "Rick Rule says his physical silver stopped belonging in the speculative bucket after the parabolic move, and he sold part of it in January.",
+      "Rick Rule says silver stocks still discount silver more favorably than physical silver, with implied values around $35 to $40 per ounce versus the higher January level he cited.",
+      "Rick Rule says the small end of the royalty space is getting overbid and that many exploration-stage royalties will never generate payments.",
+      "Rick Rule says copper-driven stream volume should be large enough that even Wheaton and Franco-Nevada may need to syndicate deals.",
+      "Rick Rule says gold and silver stream cash flows trade at 15 to 16 times EBIT, while copper revenue cash flows trade at 5 to 7 times EBIT.",
+      "Rick Rule says copper supply will not catch demand over the next five years unless demand falls, because underinvestment will show up in deficits.",
+      "Rick Rule says Japan is the surprise uranium demand story within the next two years, supported by improving polls and restart potential.",
+      "Rick Rule says long-term uranium contracting matters more than spot because lenders require supply lock-ins lasting 10 to 30 years."
+    ],
+    "investment_thesis": "Copper underinvestment and precious-metal byproduct streaming should create sustained opportunity, especially where precious-metal cash flows are valued far above copper cash flows.",
+    "key_tickers": null
+  },
+  {
     "id": 693,
     "podcast_name": "The a16z Show",
     "episode_title": "The Missing Layer for Personal AI | First Person Labs\u2019 Ken Liu",
@@ -70,6 +109,27 @@
     ],
     "investment_thesis": "The core claim is that AI research automation is already real at the scoped-task level and could materially accelerate both capabilities and alignment work before full RSI arrives.",
     "key_tickers": null
+  },
+  {
+    "id": 695,
+    "podcast_name": "ChinaTalk",
+    "episode_title": "Emergency Pod: BIS Finally Closes Loopholes!? What Will Xi Do Next?",
+    "episode_date": "2026-11-16",
+    "summary": "The episode centers on a newly issued BIS export-control rule that Chris McGuire describes as a major step forward because it closes multiple pathways China has used to access advanced AI compute. He says the rule is 132 pages long, affects \u201chundreds of billions of dollars of capital flows,\u201d and targets smuggling hubs, rented or remote access to chips, and fabrication at advanced fabs such as TSMC and Samsung.\n\nChris McGuire says the rule addresses three main channels: smuggling through third countries, renting or remote use of AI chips by Chinese companies without a Commerce license, and Chinese chip production at TSMC or Samsung without licensing. He gives rough equivalences for the rental restriction \u2014 about 200 of the most advanced Blackwell chips or about 800 H100 chips \u2014 and says the rule also reaches any Chinese company making a 14 nanometer or more advanced chip.\n\nA major theme is enforcement. one host argues that Commerce has to actually implement and enforce the controls, or the rule will not matter in practice. Chris McGuire agrees that enforcement is the key issue, and says one huge loophole is that the rule does not apply inside the United States, creating a diversion risk if Chinese buyers route compute to places like Northern Virginia.\n\nThe discussion also turns to scale and precedent. Chris McGuire cites Huawei as an example, saying Huawei was able to make 3 million AI chips at TSMC and, if those chips sold for $15,000 each, that would be $50 billion of product. He says the consequence so far has been \u201cnothing,\u201d and uses Applied Materials\u2019 $500 million fine as another example of enforcement that still feels too small relative to the alleged harm.\n\nThe episode closes on geopolitics and uncertainty around Beijing\u2019s response. one host says a key unanswered question is whether Xi Jinping knows the numbers, and the panel suggests Beijing may first try to negotiate exemptions rather than immediately escalate. Overall, the episode treats the rule as meaningful but warns that loopholes, verification problems, and weak Commerce enforcement could blunt its effect.",
+    "key_takeaways": [
+      "Chris McGuire says the BIS rule is a \u201chuge rule\u201d that impacts \u201chundreds of billions of dollars of capital flows\u201d and could change how the AI industry functions.",
+      "Chris McGuire says the rule closes multiple real loopholes by targeting smuggling through third countries, rented or remote access to chips, and chip fabrication at advanced fabs.",
+      "Chris McGuire says the rental restriction is roughly equivalent to about 200 of the most advanced Blackwell chips or about 800 H100 chips.",
+      "one host says the rule will not matter if Commerce is not bought in and enforcement continues the way it has to date.",
+      "Chris McGuire says the biggest loophole is that the rule does not apply inside the United States, which could let Chinese buyers shift compute to U.S. locations.",
+      "Chris McGuire says Huawei was able to make 3 million AI chips at TSMC and that, at $15,000 each, that would be $50 billion of product with \u201cnothing so far\u201d as a consequence.",
+      "one host says a central unanswered question is whether Xi Jinping knows the numbers, which could shape Beijing\u2019s response to the rule."
+    ],
+    "investment_thesis": "The rule could materially reduce China\u2019s access to advanced AI compute, but only if Commerce enforces it and closes the U.S.-side loophole.",
+    "key_tickers": [
+      "TSM",
+      "AMD"
+    ]
   },
   {
     "id": 688,
