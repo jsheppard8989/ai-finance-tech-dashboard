@@ -510,7 +510,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
     "mention_score": 4,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "supporting_takeaway": "David Sacks argued CoreWeave\u2019s fixed-price contract structure means upside from higher spot pricing is limited because capacity has already been pre-sold.",
     "grokipedia_url": null,
@@ -1614,7 +1614,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Axon\u2019s scalable body-camera-and-cloud platform, plus drone/robotics expansion, could deepen its public-safety moat if guardrailed non-lethal technology keeps winning adoption.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-11-10 \u2022 Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing",
     "last_proof_snippet": "Smith said the company chose body cameras and cloud infrastructure because police needed a way to show what happened and scale video storage securely.",
@@ -1641,7 +1641,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Resend's edge is becoming infrastructure ownership and deliverability observability, which could turn developer preference into durable platform adoption.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-10 \u2022 Designing for Agents \u2014 Zeno Rocha, Resend",
     "last_proof_snippet": "It's like, oh my gosh, how are we ever gonna beat SendGrid? It's im- just impossible. And then earlier this year, we crossed a number of, uh, downloads from SendGrid, and I was like, \"That's insane,\" and now we're more than double.",
@@ -1695,7 +1695,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Structural index pinning from heavy December put positioning can coexist with a fat left tail, but the most actionable move is still selective convexity rather than outright long volatility.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-09 \u2022 Structural Flows Will Support Stocks Until the U.S. Treasury Crisis in 2027 | Cem Karsan & Noel Smith | Kai Asset Management",
     "last_proof_snippet": "I'll believe Hank Palson shows up, 45 minutes with Bloomberg to declare nonstop for 45 minutes. There's a coming treasury crisis and we need to prepare a facility to backstop it. That's weird.",
@@ -2085,7 +2085,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Growth expectations are too high for the next 3\u20136 months, while Treasury buybacks and net equity supply shifts are becoming more important to cross-asset pricing.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-04 \u2022 Growth Expectations Are Probably Too High | Andy Constan on Post-Midterms Macro View, Bond Supply Issue, and QRA (Quarterly Refunding Announcement)",
     "last_proof_snippet": "There's Sarmaya Thematic ETF built for a return to Tangibles. Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it.",
@@ -2093,65 +2093,6 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 267,
-    "name": "Bill Gurley",
-    "slug": "bill-gurley",
-    "bio": "Bill Gurley is a prominent venture capitalist and expert in market analysis, known for his insights on market dynamics and economic trends. With over 25 years of experience, he has backed significant companies like Uber and Zillow, making him a respected figure in the investment community. Gurley combines his operational experience with analytical expertise to provide valuable perspectives on the evolving landscape of technology and finance.",
-    "known_for": "Bill Gurley is recognized for his deep understanding of market dynamics and his role as an early investor in transformative tech companies.",
-    "net_worth_usd": 600000000.0,
-    "net_worth_source": "https://www.peopleandmedia.com/bill-gurley-net-worth/",
-    "net_worth_updated_at": "2026-05-29T23:34:48.080484",
-    "voice_tone": "Assertive and analytical.",
-    "voice_style": "Direct and critical, emphasizing the need for accountability.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-19 10:24:33",
-    "last_seen": "2026-09-19 10:24:33",
-    "last_episode_title": "Bill Gurley: Searching for Feynman",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-19",
-    "mention_score": 3,
-    "mention_score_decayed": 0.75,
-    "last_main_idea": "Gurley argues catastrophic failures such as the COVID-19 response need independent investigations and a structured review framework (CAPA) so accountability improves.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Push for independent investigations in public health crises to ensure transparency.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-19T05:24:40.074414",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Bill Gurley",
-      "fetched_at": "2026-09-19T10:24:40.073896+00:00",
-      "cliff_notes": "Bill Gurley has established himself as a leading voice in venture capital and market analysis. His career spans over two decades, during which he has navigated various economic cycles and contributed to the success of numerous startups. Gurley's investment philosophy emphasizes the importance of understanding market dynamics and the potential for innovation to drive economic growth. His insights have been influential in shaping discussions around regulatory issues and the future of technology. As an operator and investor, he brings a unique perspective that combines practical experience with theoretical knowledge, making him a sought-after commentator in the tech and finance sectors.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Bill Gurley has established himself as a leading voice in venture capital and market analysis. His career spans over two decades, during which he has navigated various economic cycles and contributed to the success of numerous startups. Gurley's investment philosophy emphasizes the importance of understanding market dynamics and the potential for innovation to drive economic growth.",
-        "His insights have been influential in shaping discussions around regulatory issues and the future of technology. As an operator and investor, he brings a unique perspective that combines practical experience with theoretical knowledge, making him a sought-after commentator in the tech and finance sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Market Dynamics",
-          "body": "Gurley discusses the intricacies of market behavior, emphasizing the importance of understanding economic trends for successful investment strategies."
-        },
-        {
-          "heading": "Regulatory Capture",
-          "body": "He has spoken extensively on the topic of regulatory capture, highlighting its implications for innovation and market competition."
-        },
-        {
-          "heading": "Investment Philosophy",
-          "body": "Gurley's investment approach focuses on identifying transformative technologies and understanding their potential impact on industries."
-        },
-        {
-          "heading": "Tech and Finance Intersection",
-          "body": "He explores the convergence of technology and finance, analyzing how advancements in tech are reshaping traditional financial models."
-        }
-      ]
-    },
-    "net_worth": "$600.0M"
   },
   {
     "id": 621,
@@ -2262,6 +2203,65 @@
     "pundit_profile": null
   },
   {
+    "id": 267,
+    "name": "Bill Gurley",
+    "slug": "bill-gurley",
+    "bio": "Bill Gurley is a prominent venture capitalist and expert in market analysis, known for his insights on market dynamics and economic trends. With over 25 years of experience, he has backed significant companies like Uber and Zillow, making him a respected figure in the investment community. Gurley combines his operational experience with analytical expertise to provide valuable perspectives on the evolving landscape of technology and finance.",
+    "known_for": "Bill Gurley is recognized for his deep understanding of market dynamics and his role as an early investor in transformative tech companies.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://www.peopleandmedia.com/bill-gurley-net-worth/",
+    "net_worth_updated_at": "2026-05-29T23:34:48.080484",
+    "voice_tone": "Assertive and analytical.",
+    "voice_style": "Direct and critical, emphasizing the need for accountability.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-19 10:24:33",
+    "last_seen": "2026-09-19 10:24:33",
+    "last_episode_title": "Bill Gurley: Searching for Feynman",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-19",
+    "mention_score": 3,
+    "mention_score_decayed": 0.73,
+    "last_main_idea": "Gurley argues catastrophic failures such as the COVID-19 response need independent investigations and a structured review framework (CAPA) so accountability improves.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Push for independent investigations in public health crises to ensure transparency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-19T05:24:40.074414",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Bill Gurley",
+      "fetched_at": "2026-09-19T10:24:40.073896+00:00",
+      "cliff_notes": "Bill Gurley has established himself as a leading voice in venture capital and market analysis. His career spans over two decades, during which he has navigated various economic cycles and contributed to the success of numerous startups. Gurley's investment philosophy emphasizes the importance of understanding market dynamics and the potential for innovation to drive economic growth. His insights have been influential in shaping discussions around regulatory issues and the future of technology. As an operator and investor, he brings a unique perspective that combines practical experience with theoretical knowledge, making him a sought-after commentator in the tech and finance sectors.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Bill Gurley has established himself as a leading voice in venture capital and market analysis. His career spans over two decades, during which he has navigated various economic cycles and contributed to the success of numerous startups. Gurley's investment philosophy emphasizes the importance of understanding market dynamics and the potential for innovation to drive economic growth.",
+        "His insights have been influential in shaping discussions around regulatory issues and the future of technology. As an operator and investor, he brings a unique perspective that combines practical experience with theoretical knowledge, making him a sought-after commentator in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Market Dynamics",
+          "body": "Gurley discusses the intricacies of market behavior, emphasizing the importance of understanding economic trends for successful investment strategies."
+        },
+        {
+          "heading": "Regulatory Capture",
+          "body": "He has spoken extensively on the topic of regulatory capture, highlighting its implications for innovation and market competition."
+        },
+        {
+          "heading": "Investment Philosophy",
+          "body": "Gurley's investment approach focuses on identifying transformative technologies and understanding their potential impact on industries."
+        },
+        {
+          "heading": "Tech and Finance Intersection",
+          "body": "He explores the convergence of technology and finance, analyzing how advancements in tech are reshaping traditional financial models."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
+  },
+  {
     "id": 613,
     "name": "Zach Lloyd",
     "slug": "zach-lloyd",
@@ -2279,7 +2279,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "The episode's core claim is that observable, benchmarked \"software factory\" infrastructure can materially cut coding-agent cost per PR while preserving quality, especially for teams large enough to justify the orchestration layer.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-03 \u2022 \u26a1\ufe0f The 2026 Software Factory Standard \u2014 Zach Lloyd, Warp.dev",
     "last_proof_snippet": "Hey, it's me again. I have heard a lot of positive feedback about our episode intro. So I'm going to keep trying to do them as far as time allows. Today we're going to dive into warp with Zach Lloyd.",
@@ -2600,6 +2600,33 @@
     }
   },
   {
+    "id": 603,
+    "name": "Robert Caro",
+    "slug": "robert-caro",
+    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 17:14:06",
+    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-10-30",
+    "mention_score": 1,
+    "mention_score_decayed": 0.64,
+    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
+    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
+    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 301,
     "name": "Jake Paul",
     "slug": "jake-paul",
@@ -2617,7 +2644,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "",
@@ -2662,60 +2689,6 @@
       ]
     },
     "net_worth": "$200.0M"
-  },
-  {
-    "id": 603,
-    "name": "Robert Caro",
-    "slug": "robert-caro",
-    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 17:14:06",
-    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-10-30",
-    "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
-    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
-    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 600,
-    "name": "Will Ahmed",
-    "slug": "will-ahmed",
-    "bio": "CEO and founder of WHOOP, the wearable health and performance subscription company. He discusses the company\u2019s data scale, AI roadmap, regulatory issues, and product strategy.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 05:00:12",
-    "last_episode_title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-29 \u2022 WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
-    "last_proof_snippet": "On average, a [WHOOP] member wears [WHOOP] 23.6 hours a day, we have just over 50 billion hours of continuous physiological data. So it's one of the largest health data sets in the world.",
-    "supporting_takeaway": "Ahmed says WHOOP reached 1 million members after about 12 years, then scaled to 2 million in roughly 18 months and to around 3 million in about six months.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 160,
@@ -2780,6 +2753,33 @@
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 600,
+    "name": "Will Ahmed",
+    "slug": "will-ahmed",
+    "bio": "CEO and founder of WHOOP, the wearable health and performance subscription company. He discusses the company\u2019s data scale, AI roadmap, regulatory issues, and product strategy.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 05:00:12",
+    "last_episode_title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.63,
+    "last_main_idea": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-29 \u2022 WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+    "last_proof_snippet": "On average, a [WHOOP] member wears [WHOOP] 23.6 hours a day, we have just over 50 billion hours of continuous physiological data. So it's one of the largest health data sets in the world.",
+    "supporting_takeaway": "Ahmed says WHOOP reached 1 million members after about 12 years, then scaled to 2 million in roughly 18 months and to around 3 million in about six months.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 599,
@@ -2961,7 +2961,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Rising GPU rental rates and strong Anthropic margins suggest AI compute economics remain profitable enough to keep the data center building going despite falling token prices.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-28 \u2022 Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
     "last_proof_snippet": "There's Sarmaya thematic ETF, built for a return to Tangible's learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it, Max. All right, thanks for kicking it off, Jack.",
@@ -2988,7 +2988,7 @@
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-10-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Cheap, ubiquitous intelligence will commoditize many model-layer tasks, so durable returns should accrue to businesses with strong data, attention, scale, or other complements to intelligence.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-27 \u2022 Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
     "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
@@ -3168,7 +3168,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "AI infrastructure valuations are unsustainable because depreciation and financing costs will overwhelm profits, with CoreWeave as the clearest near-term credit stress case.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-23 \u2022 \"Coreweave's a Zero\" | George Noble on Why He's Short Neoclouds, Why AI is a Shale 2.0 Bubble Headed for Debt/Depreciation Brick Wall, and Why He's \"Coming For The Momentum Bros\"",
     "last_proof_snippet": "",
@@ -3395,33 +3395,6 @@
     "pundit_profile": null
   },
   {
-    "id": 562,
-    "name": "Nikesh Arora",
-    "slug": "nikesh-arora",
-    "bio": "Chief executive and technology executive who discusses quantum computing timelines, AI model economics, cybersecurity, and SaaS consolidation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 10:32:33",
-    "last_episode_title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.54,
-    "last_main_idea": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-21 \u2022 Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Arora frames 2030 as a practical midpoint for when today\u2019s cryptography becomes breakable by sufficiently capable quantum computers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 183,
     "name": "Aaron Levie",
     "slug": "aaron-levy",
@@ -3482,6 +3455,33 @@
     "net_worth": "$107.9M"
   },
   {
+    "id": 562,
+    "name": "Nikesh Arora",
+    "slug": "nikesh-arora",
+    "bio": "Chief executive and technology executive who discusses quantum computing timelines, AI model economics, cybersecurity, and SaaS consolidation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-22 10:32:33",
+    "last_episode_title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-21 \u2022 Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Arora frames 2030 as a practical midpoint for when today\u2019s cryptography becomes breakable by sufficiently capable quantum computers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 556,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
@@ -3526,7 +3526,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-21 \u2022 AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
     "last_proof_snippet": "",
@@ -3553,7 +3553,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-21 \u2022 AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
     "last_proof_snippet": "",
@@ -3698,33 +3698,6 @@
     "pundit_profile": null
   },
   {
-    "id": 546,
-    "name": "Nusha Ansari",
-    "slug": "nusha-ansari",
-    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.49,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for that?",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 230,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
@@ -3784,6 +3757,33 @@
       ]
     },
     "net_worth": "$1.40B"
+  },
+  {
+    "id": 546,
+    "name": "Nusha Ansari",
+    "slug": "nusha-ansari",
+    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 10:18:14",
+    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.48,
+    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_proof_snippet": "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for that?",
+    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 544,
@@ -4389,7 +4389,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-10 \u2022 Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
     "last_proof_snippet": "",
@@ -5049,7 +5049,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "",
@@ -5076,7 +5076,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "",
@@ -5578,62 +5578,6 @@
     }
   },
   {
-    "id": 480,
-    "name": "Eric Nguyen",
-    "slug": "eric-gwyn",
-    "bio": "Eric Nguyen is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
-    "known_for": "Eric Nguyen is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and assertive",
-    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:17",
-    "last_seen": "2026-09-24 04:53:17",
-    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.28,
-    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging.",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Eric Nguyen",
-      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
-      "cliff_notes": "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
-      "derived": {
-        "current_role": "CEO and Co-founder of Article"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
-        "Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
-      ],
-      "sections": [
-        {
-          "heading": "Genomic Language Models",
-          "body": "Nguyen's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
-        },
-        {
-          "heading": "Biosecurity in Synthetic Biology",
-          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
-        },
-        {
-          "heading": "Dual Mandate Approach",
-          "body": "Nguyen promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
-        }
-      ]
-    }
-  },
-  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -5690,6 +5634,62 @@
       ]
     },
     "net_worth": "$3.70B"
+  },
+  {
+    "id": 480,
+    "name": "Eric Nguyen",
+    "slug": "eric-gwyn",
+    "bio": "Eric Nguyen is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
+    "known_for": "Eric Nguyen is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and assertive",
+    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:17",
+    "last_seen": "2026-09-24 04:53:17",
+    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.27,
+    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging.",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eric Nguyen",
+      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
+      "cliff_notes": "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
+      "derived": {
+        "current_role": "CEO and Co-founder of Article"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eric Nguyen has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
+        "Nguyen's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Language Models",
+          "body": "Nguyen's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
+        },
+        {
+          "heading": "Biosecurity in Synthetic Biology",
+          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
+        },
+        {
+          "heading": "Dual Mandate Approach",
+          "body": "Nguyen promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
+        }
+      ]
+    }
   },
   {
     "id": 478,
@@ -5939,7 +5939,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "",
@@ -6161,7 +6161,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps.",
@@ -8034,7 +8034,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act.",
@@ -18652,130 +18652,6 @@
     }
   },
   {
-    "id": 150,
-    "name": "Alex Blania",
-    "slug": "alex-bonia",
-    "bio": "Alex Blania is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
-    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
-    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Explains complex concepts with clarity",
-    "voice_delivery_notes": "Paces well, with emphasis on key points",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.01,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Blania",
-      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
-      "cliff_notes": "Alex Blania is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Blania's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
-      "derived": {
-        "current_role": "Co-founder and CEO at World"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Blania is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
-        "Blania's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
-      ],
-      "sections": [
-        {
-          "heading": "Human Authentication",
-          "body": "Alex Blania is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
-        },
-        {
-          "heading": "AI and Social Media",
-          "body": "Blania's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
-        },
-        {
-          "heading": "Digital Integrity",
-          "body": "In an era where AI can generate convincing videos and posts, Alex Blania's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
-  },
-  {
-    "id": 151,
-    "name": "Alex Rampell",
-    "slug": "alex-rampell",
-    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups, particularly in the fields of fintech, bioinformatics, and AI. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), where he focuses on shaping the future of technology through venture capital investments.",
-    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in fintech, bioinformatics, and AI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and engaging",
-    "voice_style": "Asks probing questions to delve deeper into topics",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.01,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-30T12:08:48.218314",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Rampell",
-      "fetched_at": "2026-07-30T17:08:48.218241+00:00",
-      "cliff_notes": "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology. His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at Andreessen Horowitz (A16Z)",
-        "education": "Stanford University; Harvard University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology.",
-        "His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital Investments",
-          "body": "Alex Rampell is known for his strategic venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His focus on these sectors has helped shape the future of technology and drive innovation."
-        },
-        {
-          "heading": "Fintech",
-          "body": "Rampell has been instrumental in investing in and supporting fintech startups, contributing to the growth and development of the financial technology sector."
-        },
-        {
-          "heading": "Bioinformatics",
-          "body": "In the field of bioinformatics, Rampell's investments have helped advance scientific research and technological breakthroughs, impacting healthcare and medicine."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "As a venture capitalist, Rampell has played a significant role in funding AI startups, driving advancements in artificial intelligence and its applications across various industries."
-        }
-      ]
-    }
-  },
-  {
     "id": 55,
     "name": "Dr. Anas Alhajji",
     "slug": "dr-onus-alhajji",
@@ -18990,6 +18866,130 @@
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 150,
+    "name": "Alex Blania",
+    "slug": "alex-bonia",
+    "bio": "Alex Blania is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
+    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
+    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
+    "voice_tone": "Inquisitive and informative",
+    "voice_style": "Explains complex concepts with clarity",
+    "voice_delivery_notes": "Paces well, with emphasis on key points",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.0,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Blania",
+      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
+      "cliff_notes": "Alex Blania is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Blania's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
+      "derived": {
+        "current_role": "Co-founder and CEO at World"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Blania is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
+        "Blania's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
+      ],
+      "sections": [
+        {
+          "heading": "Human Authentication",
+          "body": "Alex Blania is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
+        },
+        {
+          "heading": "AI and Social Media",
+          "body": "Blania's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
+        },
+        {
+          "heading": "Digital Integrity",
+          "body": "In an era where AI can generate convincing videos and posts, Alex Blania's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
+  },
+  {
+    "id": 151,
+    "name": "Alex Rampell",
+    "slug": "alex-rampell",
+    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups, particularly in the fields of fintech, bioinformatics, and AI. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), where he focuses on shaping the future of technology through venture capital investments.",
+    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in fintech, bioinformatics, and AI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and engaging",
+    "voice_style": "Asks probing questions to delve deeper into topics",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.0,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T12:08:48.218314",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Rampell",
+      "fetched_at": "2026-07-30T17:08:48.218241+00:00",
+      "cliff_notes": "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology. His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape.",
+      "derived": {
+        "current_role": "Co-founder and General Partner at Andreessen Horowitz (A16Z)",
+        "education": "Stanford University; Harvard University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology.",
+        "His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital Investments",
+          "body": "Alex Rampell is known for his strategic venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His focus on these sectors has helped shape the future of technology and drive innovation."
+        },
+        {
+          "heading": "Fintech",
+          "body": "Rampell has been instrumental in investing in and supporting fintech startups, contributing to the growth and development of the financial technology sector."
+        },
+        {
+          "heading": "Bioinformatics",
+          "body": "In the field of bioinformatics, Rampell's investments have helped advance scientific research and technological breakthroughs, impacting healthcare and medicine."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "As a venture capitalist, Rampell has played a significant role in funding AI startups, driving advancements in artificial intelligence and its applications across various industries."
+        }
+      ]
+    }
   },
   {
     "id": 147,
