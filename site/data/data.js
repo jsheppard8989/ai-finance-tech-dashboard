@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-11-18T13:41:29.345395",
+  generatedAt: "2026-11-18T21:35:39.457172",
   chartsVersion: "2026-11-18T13:40:51.781985",
   priceSnapshot: {
   "AAPL": {
@@ -1458,7 +1458,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-18",
-      "summary": "The episode centers on First Person Labs co-founder Kim Liu\u2019s view that \u201cSecond\u201d is a personal AI layer built to model a person\u2019s preferences, priorities, relationships, and digital activity, then let other agents use that portable context. He describes it as a context store rather than an agent itself, with the aim of making a user\u2019s intent travel across tools like coding assistants without repeated re-explanation.\n\nA major thread is security and privacy. Kim Liu says the system has to process an \u201cinfinite stream of events\u201d from the OS and app activity while remaining secure and private, and he contrasts policy-based \u201czero data retention\u201d with stronger technical approaches such as confidential inference. He argues the core AI problem is the combination of data and inference controls, including local-first handling and cloud options that encrypt data before inference.\n\nThe discussion also focuses on how personal AI should evolve from reactive alerts to reflective, long-horizon assistance. Kim Liu says reactive productivity is straightforward, but reflective systems must connect many events over long time horizons, such as remembering that months ago a user said something that now matters to a current goal or priority. He frames this as an ambient, intervention-oriented future where the assistant helps without requiring explicit instructions.\n\nHe argues the practical path is a mixture-of-models approach, where expensive models handle high-value or infrequent reasoning and cheaper models cover frequent tasks, with cached insights and test-time reasoning balanced to manage cost.",
+      "summary": "The episode centers on First Person Labs co-founder Ken Liu\u2019s view that \u201cSecond\u201d is a personal AI layer built to model a person\u2019s preferences, priorities, relationships, and digital activity, then let other agents use that portable context. He describes it as a context store rather than an agent itself, with the aim of making a user\u2019s intent travel across tools like coding assistants without repeated re-explanation.\n\nA major thread is security and privacy. Ken Liu says the system has to process an \u201cinfinite stream of events\u201d from the OS and app activity while remaining secure and private, and he contrasts policy-based \u201czero data retention\u201d with stronger technical approaches such as confidential inference. He argues the core AI problem is the combination of data and inference controls, including local-first handling and cloud options that encrypt data before inference.\n\nThe discussion also focuses on how personal AI should evolve from reactive alerts to reflective, long-horizon assistance. Ken Liu says reactive productivity is straightforward, but reflective systems must connect many events over long time horizons, such as remembering that months ago a user said something that now matters to a current goal or priority. He frames this as an ambient, intervention-oriented future where the assistant helps without requiring explicit instructions.\n\nHe argues the practical path is a mixture-of-models approach, where expensive models handle high-value or infrequent reasoning and cheaper models cover frequent tasks, with cached insights and test-time reasoning balanced to manage cost.",
       "key_takeaway": "The episode\u2019s core thesis is that secure, portable personal context infrastructure could become the missing layer that makes agent-to-agent switching and ambient productivity practical.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1470,16 +1470,12 @@ const dashboardData = {
       "podcast_episode_id": 693,
       "notable_quotes": [
         {
-          "speaker": "Kim Liu",
+          "speaker": "Ken Liu",
           "quote": "So we focus on essentially creating a model of a person and then put that person in control."
         },
         {
-          "speaker": "Kim Liu",
+          "speaker": "Ken Liu",
           "quote": "It is a very hard problem, especially to get its secure private."
-        },
-        {
-          "speaker": "Kim Liu",
-          "quote": "And at Opus 55 is pricing, that leads to a thousand dollars per day."
         }
       ]
     },
@@ -1491,9 +1487,7 @@ const dashboardData = {
       "source_date": "2026-11-17",
       "summary": "The episode centers on the Invest America / universal capital accounts idea: every child would get an account at birth, automatically funded and automatically invested, with later \u201cplussing up\u201d from philanthropy or families. Brad Gerstner says the Invest America Act was signed into law on July 4th, 2025, and describes the accounts as being created when a child gets a Social Security number, with $1,000 automatically put into the S&P 500.\n\nGeoffrey Canada argues the policy is necessary because education alone cannot solve poverty if families are \u201cliterally one emergency away from bankruptcy.\u201d He says people without savings are structurally blocked because \u201cPoor people don\u2019t have accounts to save in,\u201d and he frames universal capital as a way to restore trust in capitalism and reduce desperation.\n\nA major practical issue is implementation and claiming. Brad Gerstner says there are 70 million accounts open for children under 18 and warns that if parents do not claim accounts, a child could miss the first 10 years of compounding. Geoffrey Canada calls this the \u201ccold start problem\u201d and says the system must make custodial accounts easy enough for ordinary families to use.\n\nThey also discuss the broader political and social thesis. Geoffrey Canada links the idea to fears about technological unemployment and says society needs a bridge similar to Social Security in 1935, while Brad Gerstner argues this is a defense of capitalism because the accounts are private and owned by individuals.",
       "key_takeaway": "The episode argues that automatically seeded, equity-invested child accounts could scale into a multi-trillion-dollar system that compounds wealth and changes long-term social outcomes.",
-      "tickers_mentioned": [
-        "AAPL"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -17772,7 +17766,7 @@ const dashboardData = {
       "first_detected_episode_id": 667,
       "first_detected_speaker": "Zeno Rocha",
       "last_mentioned_episode_id": 693,
-      "last_mentioned_speaker": "Kim Liu"
+      "last_mentioned_speaker": "Ken Liu"
     },
     {
       "id": 336,
@@ -18024,7 +18018,7 @@ const dashboardData = {
       "first_detected_episode_id": 610,
       "first_detected_speaker": "Aaron Levie",
       "last_mentioned_episode_id": 693,
-      "last_mentioned_speaker": "Kim Liu"
+      "last_mentioned_speaker": "Ken Liu"
     },
     {
       "id": 322,
@@ -18528,7 +18522,7 @@ const dashboardData = {
       "first_detected_episode_id": 531,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 693,
-      "last_mentioned_speaker": "Kim Liu"
+      "last_mentioned_speaker": "Ken Liu"
     },
     {
       "id": 299,
@@ -21192,7 +21186,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-18",
-      "summary": "The episode centers on First Person Labs co-founder Kim Liu\u2019s view that \u201cSecond\u201d is a personal AI layer built to model a person\u2019s preferences, priorities, relationships, and digital activity, then let other agents use that portable context. He describes it as a context store rather than an agent itself, with the aim of making a user\u2019s intent travel across tools like coding assistants without repeated re-explanation.\n\nA major thread is security and privacy. Kim Liu says the system has to process an \u201cinfinite stream of events\u201d from the OS and app activity while remaining secure and private, and he contrasts policy-based \u201czero data retention\u201d with stronger technical approaches such as confidential inference. He argues the core AI problem is the combination of data and inference controls, including local-first handling and cloud options that encrypt data before inference.\n\nThe discussion also focuses on how personal AI should evolve from reactive alerts to reflective, long-horizon assistance. Kim Liu says reactive productivity is straightforward, but reflective systems must connect many events over long time horizons, such as remembering that months ago a user said something that now matters to a current goal or priority. He frames this as an ambient, intervention-oriented future where the assistant helps without requiring explicit instructions.\n\nHe argues the practical path is a mixture-of-models approach, where expensive models handle high-value or infrequent reasoning and cheaper models cover frequent tasks, with cached insights and test-time reasoning balanced to manage cost.",
+      "summary": "The episode centers on First Person Labs co-founder Ken Liu\u2019s view that \u201cSecond\u201d is a personal AI layer built to model a person\u2019s preferences, priorities, relationships, and digital activity, then let other agents use that portable context. He describes it as a context store rather than an agent itself, with the aim of making a user\u2019s intent travel across tools like coding assistants without repeated re-explanation.\n\nA major thread is security and privacy. Ken Liu says the system has to process an \u201cinfinite stream of events\u201d from the OS and app activity while remaining secure and private, and he contrasts policy-based \u201czero data retention\u201d with stronger technical approaches such as confidential inference. He argues the core AI problem is the combination of data and inference controls, including local-first handling and cloud options that encrypt data before inference.\n\nThe discussion also focuses on how personal AI should evolve from reactive alerts to reflective, long-horizon assistance. Ken Liu says reactive productivity is straightforward, but reflective systems must connect many events over long time horizons, such as remembering that months ago a user said something that now matters to a current goal or priority. He frames this as an ambient, intervention-oriented future where the assistant helps without requiring explicit instructions.\n\nHe argues the practical path is a mixture-of-models approach, where expensive models handle high-value or infrequent reasoning and cheaper models cover frequent tasks, with cached insights and test-time reasoning balanced to manage cost.",
       "key_takeaway": "The episode\u2019s core thesis is that secure, portable personal context infrastructure could become the missing layer that makes agent-to-agent switching and ambient productivity practical.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -21204,16 +21198,12 @@ const dashboardData = {
       "podcast_episode_id": 693,
       "notable_quotes": [
         {
-          "speaker": "Kim Liu",
+          "speaker": "Ken Liu",
           "quote": "So we focus on essentially creating a model of a person and then put that person in control."
         },
         {
-          "speaker": "Kim Liu",
+          "speaker": "Ken Liu",
           "quote": "It is a very hard problem, especially to get its secure private."
-        },
-        {
-          "speaker": "Kim Liu",
-          "quote": "And at Opus 55 is pricing, that leads to a thousand dollars per day."
         }
       ],
       "episode_release_date": "2026-11-18",
@@ -21299,9 +21289,7 @@ const dashboardData = {
       "source_date": "2026-11-17",
       "summary": "The episode centers on the Invest America / universal capital accounts idea: every child would get an account at birth, automatically funded and automatically invested, with later \u201cplussing up\u201d from philanthropy or families. Brad Gerstner says the Invest America Act was signed into law on July 4th, 2025, and describes the accounts as being created when a child gets a Social Security number, with $1,000 automatically put into the S&P 500.\n\nGeoffrey Canada argues the policy is necessary because education alone cannot solve poverty if families are \u201cliterally one emergency away from bankruptcy.\u201d He says people without savings are structurally blocked because \u201cPoor people don\u2019t have accounts to save in,\u201d and he frames universal capital as a way to restore trust in capitalism and reduce desperation.\n\nA major practical issue is implementation and claiming. Brad Gerstner says there are 70 million accounts open for children under 18 and warns that if parents do not claim accounts, a child could miss the first 10 years of compounding. Geoffrey Canada calls this the \u201ccold start problem\u201d and says the system must make custodial accounts easy enough for ordinary families to use.\n\nThey also discuss the broader political and social thesis. Geoffrey Canada links the idea to fears about technological unemployment and says society needs a bridge similar to Social Security in 1935, while Brad Gerstner argues this is a defense of capitalism because the accounts are private and owned by individuals.",
       "key_takeaway": "The episode argues that automatically seeded, equity-invested child accounts could scale into a multi-trillion-dollar system that compounds wealth and changes long-term social outcomes.",
-      "tickers_mentioned": [
-        "AAPL"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -21325,9 +21313,7 @@ const dashboardData = {
       ],
       "episode_release_date": "2026-11-17",
       "guest_name": null,
-      "key_tickers": [
-        "AAPL"
-      ]
+      "key_tickers": []
     },
     {
       "id": 699,
@@ -63056,7 +63042,7 @@ const dashboardData = {
     "episode_evidence": "Darmash Shah: And it\u2019s almost impossible to know a priori with the quality quote unquote of an idea as or it\u2019s kind of probability of success or what the outcomes going to look like. And the only real way to test an idea is to actually or know if an idea is good is to actually test it.\nDarmash Shah: We had a bunch of customers this is, you know, maybe a couple of years before the IPO. So maybe five, six years in the company. And just to see which CRMs they were using, and we discovered that 20% were using Salesforce.com.\nDarmash Shah: Frontier model companies have invested hundreds of billions of dollars kind of building, doing the pre-trading as yellow no. And so their whole business effectively now is taking the capex that they\u2019ve spent and the money they\u2019re continuing to spend and say, how do we sell inference?\nDarmash Shah: I can guarantee you, it does not fall, and the interface has 99% of the value, and so my argument is that, in the same way, everything kind of comes back around again, when we saw the original kind of SaaS development.\nDarmash Shah: I\u2019ve been really surprised by is, willingness for people to put a credit card down on a consumption-based model.",
     "falsification_tracks": [
       "By the Q3 2026 10-Q, HubSpot must not show a 200 bps or greater decline in net revenue retention tied to AI/chat-based workflow disintermediation, as discussed in management commentary and MD&A.",
-      "By the FY2026 10-K, HubSpot should not report a 15% or greater year-over-year decline in CRM-seat expansion or workflow engagement, with the 10-K as the named source grading the result.",
+      "By the FY2026 10-K, HubSpot should not report a 15% or greater year-over-year decline in CRM-seat expansion or workflow engagement, with the 10-K as the named source for the result.",
       "By 2027-12-31, the US Census should not show the share of new companies unlikely to hire within two years falling below 60%; a reading under 60% would weaken the one-person-company demand thesis.",
       "By 2027-06-30, OpenAI or Anthropic should not have disclosed more than 25% of revenue from CRM-like SaaS replacement products in investor materials or a 10-Q/annual report equivalent; a larger share would contradict the ",
       "By 2026-12-31, HubSpot Next/Uspot should not show a paid conversion rate below 10% or 90-day retention below 100% in company-reported product metrics, with HubSpot product updates or shareholder commentary as the source."
@@ -64429,11 +64415,6 @@ const dashboardData = {
     "key_takeaways_detailed": [],
     "investment_thesis": "The investable question is whether a universal child-account rail becomes a durable financial-accounts layer with real scale, or stalls as a political concept with low take-up. The near-term watch items are Treasury implementation, claim rates, and whether third-party contributions start to accumulate meaningfully on top of the automatic seed. If the system works, it could increase long-duration household assets, normalize early equity ownership, and create downstream demand for custodial account infrastructure, identity verification, financial education tools, and youth-oriented wealth interfaces. The market implication is less about one direct beneficiary and more about a platform effect: whoever owns onboarding, custody, education, and claim conversion may sit on the rails of a very large account base.",
     "ticker_analysis": {
-      "AAPL": {
-        "rationale": "Apple is named as one of the underlying companies kids are told they own a piece of through the index exposure, making it a visible example of how the program is presented to families.",
-        "positioning": "Watch",
-        "risk": "The exposure is indirect and purely index-driven; if the UI or holdings display changes, the engagement effect could be smaller than expected."
-      },
       "BRK.B": {
         "rationale": "Berkshire is cited as an example of a top holding shown to children, reinforcing the idea that the accounts are framed as ownership of recognizable assets.",
         "positioning": "Watch",
@@ -64482,9 +64463,7 @@ const dashboardData = {
     "insight_title": "Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
     "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "source_date": "2026-11-17",
-    "key_tickers": [
-      "AAPL"
-    ]
+    "key_tickers": []
   },
   "703": {
     "id": 702,
@@ -64577,7 +64556,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-11-18T06:49:04.283819",
     "updated_at": "2026-11-18 12:49:04",
-    "episode_evidence": "Kim Liu: So we focus on essentially creating a model of a person and then put that person in control.\nKim Liu: right now on your computer, there's just an infinite stream of events.\nKim Liu: There's data, there's inference, right? So what you want to do is like you have this data. You want to define what inference you can bring to that data.\nKim Liu: Zero data retention is a promise by policy.\nKim Liu: But what's harder is what I call reflective ones, which are things that connect the thoughts over like many events and long time horizon, right, stuff that realized, okay, months ago you said this, and recently you're working this towards your goal, this is your priority.",
+    "episode_evidence": "Ken Liu: So we focus on essentially creating a model of a person and then put that person in control.\nKen Liu: right now on your computer, there's just an infinite stream of events.\nKen Liu: There's data, there's inference, right? So what you want to do is like you have this data. You want to define what inference you can bring to that data.\nKen Liu: Zero data retention is a promise by policy.\nKen Liu: But what's harder is what I call reflective ones, which are things that connect the thoughts over like many events and long time horizon, right, stuff that realized, okay, months ago you said this, and recently you're working this towards your goal, this is your priority.",
     "falsification_tracks": [
       "By 2027-03-18, second-party security testing and audit reports must show zero critical privacy incidents and no CVSS 9.0+ vulnerabilities in Second's handling of personal digital context, per an independent security audit firm.",
       "By 2027-06-18, internal or audited usage telemetry must show average inference spend per active user per day at or below $50 for a representative reflective workload, per company billing records or an audited cost report.",
@@ -64614,7 +64593,7 @@ const dashboardData = {
   {
     "id": 1231,
     "term": "Confidential inference",
-    "definition": "A technical approach for running model inference in a protected environment so outsiders cannot see inside the computation. Kim Liu contrasts it with policy-only promises like zero data retention.",
+    "definition": "A technical approach for running model inference in a protected environment so outsiders cannot see inside the computation. Ken Liu contrasts it with policy-only promises like zero data retention.",
     "investment_implications": "This could become a key enabling layer for sensitive consumer and enterprise AI use cases where trust and provable privacy are required.",
     "source_type": "auto_extracted",
     "mention_count": 1,
@@ -64626,7 +64605,7 @@ const dashboardData = {
   {
     "id": 1232,
     "term": "Context continuity",
-    "definition": "Kim Liu\u2019s term for carrying the same task context across devices and sessions, such as moving from a laptop to a phone without losing the thread. It is about preserving intent and state across interactions.",
+    "definition": "Ken Liu\u2019s term for carrying the same task context across devices and sessions, such as moving from a laptop to a phone without losing the thread. It is about preserving intent and state across interactions.",
     "investment_implications": "If implemented well, it increases stickiness and makes personal AI more valuable by reducing rework and repeated prompting.",
     "source_type": "auto_extracted",
     "mention_count": 1,
@@ -65210,7 +65189,7 @@ const dashboardData = {
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-11-17",
     "mention_score": 5,
-    "mention_score_decayed": 5.0,
+    "mention_score_decayed": 4.88,
     "last_main_idea": "The episode argues that automatically seeded, equity-invested child accounts could scale into a multi-trillion-dollar system that compounds wealth and changes long-term social outcomes.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-11-17 \u2022 Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
     "last_proof_snippet": "There are two ways to solve this problem. You can either attack capitalism, you can attack success, or you can say, let's raise the floor for everybody. I think this is one of the most profound ways of impact in poverty.",
@@ -65255,70 +65234,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$950.0M"
-  },
-  {
-    "id": 91,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
-    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "net_worth_usd": 19000000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
-    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
-    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
-    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
-    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
-    "voice_profile_updated_at": "2026-03-20 03:11:05",
-    "last_seen": "2026-11-16 20:16:12",
-    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-11-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.95,
-    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
-    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brett Adcock",
-      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
-      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
-      "derived": {
-        "current_role": "Entrepreneur and Investor"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
-        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Robotics",
-          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
-        },
-        {
-          "heading": "Neural Nets",
-          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
-        },
-        {
-          "heading": "Autonomous Manufacturing",
-          "body": "Adcock"
-        },
-        {
-          "heading": "Market Potential",
-          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
-        }
-      ]
-    },
-    "net_worth": "$19.00B"
   },
   {
     "id": 54,
@@ -65383,6 +65298,70 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 91,
+    "name": "Brett Adcock",
+    "slug": "brett-adcock",
+    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
+    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
+    "net_worth_usd": 19000000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
+    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
+    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
+    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
+    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
+    "voice_profile_updated_at": "2026-03-20 03:11:05",
+    "last_seen": "2026-11-16 20:16:12",
+    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-11-16",
+    "mention_score": 2,
+    "mention_score_decayed": 1.91,
+    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
+    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brett Adcock",
+      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
+      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
+      "derived": {
+        "current_role": "Entrepreneur and Investor"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
+        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Robotics",
+          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
+        },
+        {
+          "heading": "Neural Nets",
+          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
+        },
+        {
+          "heading": "Autonomous Manufacturing",
+          "body": "Adcock"
+        },
+        {
+          "heading": "Market Potential",
+          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
+        }
+      ]
+    },
+    "net_worth": "$19.00B"
   },
   {
     "id": 81,
@@ -65537,7 +65516,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-05",
     "mention_score": 2,
-    "mention_score_decayed": 1.52,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "The key claim is that AI capex is still being funded and should not yet be shorted because demand and capital-market support remain stronger than the bear case assumes.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-05 \u2022 Why This Short Seller Doesn\u2019t Want to Short the AI Bubble | Russell Clark",
     "last_proof_snippet": "this sort of theme of governments spending more inflation being stronger wages going up. I think that's just reinforced. I think some of the talk is about the Democrats stopping data center construction.",
@@ -65993,7 +65972,7 @@ const dashboardData = {
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-11-17",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The episode argues that automatically seeded, equity-invested child accounts could scale into a multi-trillion-dollar system that compounds wealth and changes long-term social outcomes.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-11-17 \u2022 Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
     "last_proof_snippet": "There are two ways to solve this problem. You can either attack capitalism, you can attack success, or you can say, let's raise the floor for everybody. I think this is one of the most profound ways of impact in poverty.",
@@ -66020,7 +65999,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-17",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Anthropic\u2019s IPO could trigger forced NASDAQ 100 buying and unlock a larger private-market repricing cycle around AI liquidity and index inclusion.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-17 \u2022 The Anthropic IPO\u2019s Massive Impact: Forced Passive Buying and a Liquidity Wave for Venture Capital | David Shapiro",
     "last_proof_snippet": "This episode is brought you by Sir Maya Partners, who manages the Return to Tangibles ETF, lens, ticker, L-E-N-S, the Sir Maya Theumatic ETF, built for a return to Tangibles. Learn more at SirMaiETF.",
@@ -66047,7 +66026,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-17",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The core claim is that AI research automation is already real at the scoped-task level and could materially accelerate both capabilities and alignment work before full RSI arrives.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-17 \u2022 Can AI Learn to Improve Itself? | Recursive Self-Improvement",
     "last_proof_snippet": "What happens when AI starts helping build the next generation of AI? In this first episode of Working Theory, Sarah Wang sits down with OpenAI's Mark Chen and Thinking Machines' John Schulman to unpack recursive self-improvement or RSI.",
@@ -66074,7 +66053,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-17",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The core claim is that AI research automation is already real at the scoped-task level and could materially accelerate both capabilities and alignment work before full RSI arrives.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-17 \u2022 Can AI Learn to Improve Itself? | Recursive Self-Improvement",
     "last_proof_snippet": "What happens when AI starts helping build the next generation of AI? In this first episode of Working Theory, Sarah Wang sits down with OpenAI's Mark Chen and Thinking Machines' John Schulman to unpack recursive self-improvement or RSI.",
@@ -66236,7 +66215,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The key claim is that SEC reforms expanding ATM and offering access for smaller issuers could materially improve OTC capital formation and trading demand.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-14 \u2022 The Case for Public Markets | Cromwell Coulson on Small-Cap Capital Formation, Disclosure, and SEC Offering Reform",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it.",
@@ -66263,7 +66242,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Network effects, regulatory classification, and research-lab structure can create outsized winners in communications, but monopolies also attract disruption and regulatory pushback.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-14 \u2022 From the Telephone to Modern Computing | James Gleick",
     "last_proof_snippet": "People always dreamed of being able to communicate across long distances, but there was no practical way to do that until the telegraph arrived.",
@@ -66344,7 +66323,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-11-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Uranium is structurally under-supplied, and the market is still mispricing that deficit because investors are focused on AI-driven sentiment rather than contracting reality.",
     "last_proof_cite": "Macro Voices \u2022 2026-11-12 \u2022 MacroVoices #558 Mike Alkin: Uranium at a Crossroads",
     "last_proof_snippet": "There is not enough economically viable uranium to satisfy the world's existing reactor fleet of 440 operating reactors of which a little over 420 are actually producing electricity and the pipeline of aiding new reactors coming online.",
@@ -66560,7 +66539,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "AI will expand software opportunity by making startups faster and cheaper to build while leaving durable value in workflow-centric products like HubSpot rather than frontier-lab replacements.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-10 \u2022 HubSpot\u2019s Co-Founder on Finding Your Next Startup Idea",
     "last_proof_snippet": "Chad, G-P-T, and Claude Colworth, they're effectively the new OS. There's plenty of room to build software outside the path the frontier AI labs are racing down. Since then, HubSpot's been busy.",
@@ -67208,33 +67187,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 610,
-    "name": "Josh Gruenstein",
-    "slug": "josh-gruenstein",
-    "bio": "Co-founder and CEO of Tutor Intelligence. He argues for a full-stack robotics strategy built around real deployments, continuous iteration, and human-in-the-loop training data.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-02 19:43:10",
-    "last_episode_title": "The Robots Already Working in American Factories | Tutor Intelligence",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "Tutor\u2019s edge is a full-stack robotics flywheel that turns real deployments into data, models, and faster customer adoption, while using greenfield demand to justify a cost-per-task ROI model.",
-    "last_proof_cite": "The a16z Show \u2022 2026-11-02 \u2022 The Robots Already Working in American Factories | Tutor Intelligence",
-    "last_proof_snippet": "No matter what anybody says, today in 2026 we have a highly interconnected, interdependent global supply chain, both U. S.",
-    "supporting_takeaway": "Gruenstein says Tutor has deployed robots across the U.S. and used those deployments to train frontier robot AI models.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 90,
     "name": "David George",
     "slug": "david-george",
@@ -67298,6 +67250,33 @@ const dashboardData = {
     "net_worth": "$13.0M"
   },
   {
+    "id": 610,
+    "name": "Josh Gruenstein",
+    "slug": "josh-gruenstein",
+    "bio": "Co-founder and CEO of Tutor Intelligence. He argues for a full-stack robotics strategy built around real deployments, continuous iteration, and human-in-the-loop training data.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-02 19:43:10",
+    "last_episode_title": "The Robots Already Working in American Factories | Tutor Intelligence",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "Tutor\u2019s edge is a full-stack robotics flywheel that turns real deployments into data, models, and faster customer adoption, while using greenfield demand to justify a cost-per-task ROI model.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-02 \u2022 The Robots Already Working in American Factories | Tutor Intelligence",
+    "last_proof_snippet": "No matter what anybody says, today in 2026 we have a highly interconnected, interdependent global supply chain, both U. S.",
+    "supporting_takeaway": "Gruenstein says Tutor has deployed robots across the U.S. and used those deployments to train frontier robot AI models.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 609,
     "name": "Dan Krausz",
     "slug": "dan-krausz",
@@ -67315,7 +67294,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "AI infrastructure is increasingly a liquidity trade: financing stress, not demand, is the main near-term risk, while top-tier credits remain funded first.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-01 \u2022 The Fed Has AI\u2019s Back | Dan Krausz on \u201cLiquidity Trap Door\u201d In AI Infrastructure and Why Policymakers Are Inclined to Support Financial Conditions",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it. I'm here with Dan Krauss of Blutore Asset Management. Dan, great to see you again.",
@@ -67323,65 +67302,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 300,
-    "name": "Ed Zitron",
-    "slug": "ed-zitron",
-    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
-    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Blunt, skeptical, and highly animated.",
-    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
-    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
-    "voice_profile_updated_at": "2026-10-02 03:15:54",
-    "last_seen": "2026-10-02 03:15:54",
-    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-01",
-    "mention_score": 2,
-    "mention_score_decayed": 0.68,
-    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
-    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Zitron",
-      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
-      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
-      "derived": {
-        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
-        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
-      ],
-      "sections": [
-        {
-          "heading": "AI and ROI",
-          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
-        },
-        {
-          "heading": "Contrarian Views",
-          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
-        },
-        {
-          "heading": "Podcast and Newsletter",
-          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
-        }
-      ]
-    }
   },
   {
     "id": 607,
@@ -67490,6 +67410,65 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 300,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
+    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Blunt, skeptical, and highly animated.",
+    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
+    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
+    "voice_profile_updated_at": "2026-10-02 03:15:54",
+    "last_seen": "2026-10-02 03:15:54",
+    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-01",
+    "mention_score": 2,
+    "mention_score_decayed": 0.66,
+    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
+    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Zitron",
+      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
+      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
+      "derived": {
+        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
+        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
+      ],
+      "sections": [
+        {
+          "heading": "AI and ROI",
+          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
+        },
+        {
+          "heading": "Contrarian Views",
+          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
+        },
+        {
+          "heading": "Podcast and Newsletter",
+          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
+        }
+      ]
+    }
   },
   {
     "id": 301,
@@ -67610,60 +67589,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 599,
-    "name": "David V\u00e9lez",
-    "slug": "david-v\u00e9lez",
-    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:25:46",
-    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
-    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
-    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 598,
-    "name": "Luke Gromen",
-    "slug": "luke-gromen",
-    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:24:49",
-    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
-    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 160,
     "name": "Ben Lamm",
     "slug": "ben-lamm",
@@ -67726,6 +67651,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 599,
+    "name": "David V\u00e9lez",
+    "slug": "david-v\u00e9lez",
+    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:25:46",
+    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.63,
+    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
+    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
+    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 598,
+    "name": "Luke Gromen",
+    "slug": "luke-gromen",
+    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:24:49",
+    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.63,
+    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
+    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 596,
@@ -68472,7 +68451,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-20 \u2022 The Programmable Data Center \u2014 Evan Conrad, SF Compute",
     "last_proof_snippet": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.",
@@ -68526,7 +68505,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-19 \u2022 Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
     "last_proof_snippet": "",
@@ -68884,7 +68863,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
     "last_proof_snippet": "",
@@ -69702,66 +69681,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 52,
-    "name": "Alex Karp",
-    "slug": "alex-carp",
-    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
-    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
-    "net_worth_usd": 14000000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/",
-    "net_worth_updated_at": "2026-07-03T23:37:37.147345",
-    "voice_tone": "Assertive and knowledgeable.",
-    "voice_style": "Factual and persuasive.",
-    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
-    "voice_profile_updated_at": "2026-07-04 04:37:05",
-    "last_seen": "2026-08-17 03:02:02",
-    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-07-08",
-    "mention_score": 3,
-    "mention_score_decayed": 0.35,
-    "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Karp",
-      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
-      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
-      "derived": {
-        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "German-American"
-      },
-      "lead_paragraphs": [
-        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
-        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
-      ],
-      "sections": [
-        {
-          "heading": "Palantir Technologies",
-          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
-        },
-        {
-          "heading": "Big Data Analytics",
-          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
-        },
-        {
-          "heading": "AI Contributions",
-          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
-        }
-      ]
-    },
-    "net_worth": "$14.00B"
-  },
-  {
     "id": 502,
     "name": "Seema Amble",
     "slug": "seema-amble",
@@ -69816,6 +69735,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 52,
+    "name": "Alex Karp",
+    "slug": "alex-carp",
+    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
+    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
+    "net_worth_usd": 14000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/",
+    "net_worth_updated_at": "2026-07-03T23:37:37.147345",
+    "voice_tone": "Assertive and knowledgeable.",
+    "voice_style": "Factual and persuasive.",
+    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
+    "voice_profile_updated_at": "2026-07-04 04:37:05",
+    "last_seen": "2026-08-17 03:02:02",
+    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-08",
+    "mention_score": 3,
+    "mention_score_decayed": 0.34,
+    "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Karp",
+      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
+      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
+      "derived": {
+        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
+        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Technologies",
+          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
+        },
+        {
+          "heading": "Big Data Analytics",
+          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
+        },
+        {
+          "heading": "AI Contributions",
+          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
+        }
+      ]
+    },
+    "net_worth": "$14.00B"
+  },
+  {
     "id": 499,
     "name": "Alex Zhang",
     "slug": "alex-zhang",
@@ -69833,7 +69812,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Alex Zhang predicts language models may become hidden swarms under simple interfaces because composing agents through shared context can solve problems like OpenAI's 10,000-agent experiment.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-02 \u2022 Academia is for Ambition \u2014 Alex Zhang, MIT",
     "last_proof_snippet": "",
@@ -69995,7 +69974,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -70022,7 +70001,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -70367,7 +70346,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "The credit market is increasingly bifurcated, favoring high-quality borrowers while lower-quality borrowers face tighter conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-24 \u2022 Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
     "last_proof_snippet": "",
@@ -70423,7 +70402,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
     "last_proof_snippet": "",
@@ -70468,64 +70447,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 333,
-    "name": "Dylan Patel",
-    "slug": "dylan-patel",
-    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
-    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
-    "net_worth_usd": 3700000000.0,
-    "net_worth_source": "https://substack.com/home/post/p-153458455",
-    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
-    "voice_profile_updated_at": "2026-08-26 03:28:15",
-    "last_seen": "2026-08-26 03:28:15",
-    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-08-25",
-    "mention_score": 2,
-    "mention_score_decayed": 0.29,
-    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
-    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dylan Patel",
-      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
-      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
-      "derived": {
-        "current_role": "Founder of SemiAnalysis"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
-        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
-      ],
-      "sections": [
-        {
-          "heading": "AI Infrastructure Growth",
-          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
-        },
-        {
-          "heading": "Compute Market Analysis",
-          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
-        },
-        {
-          "heading": "Economic Impact of AI",
-          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
-        }
-      ]
-    },
-    "net_worth": "$3.70B"
   },
   {
     "id": 480,
@@ -70582,6 +70503,64 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 333,
+    "name": "Dylan Patel",
+    "slug": "dylan-patel",
+    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
+    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
+    "net_worth_usd": 3700000000.0,
+    "net_worth_source": "https://substack.com/home/post/p-153458455",
+    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
+    "voice_profile_updated_at": "2026-08-26 03:28:15",
+    "last_seen": "2026-08-26 03:28:15",
+    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-08-25",
+    "mention_score": 2,
+    "mention_score_decayed": 0.28,
+    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Patel",
+      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
+      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder of SemiAnalysis"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
+        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI Infrastructure Growth",
+          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
+        },
+        {
+          "heading": "Compute Market Analysis",
+          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
+        },
+        {
+          "heading": "Economic Impact of AI",
+          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
+        }
+      ]
+    },
+    "net_worth": "$3.70B"
   },
   {
     "id": 478,
@@ -71879,6 +71858,66 @@ const dashboardData = {
     "net_worth": "$5.0M"
   },
   {
+    "id": 448,
+    "name": "Jacob Bondas",
+    "slug": "jacob-bondas",
+    "bio": "Jacob Bondas is a technologist and strategist whose work centers on autonomous AI systems and machine learning development. He is recognized for insights on AI alignment and emergent agent behavior, particularly how advanced systems develop unanticipated capabilities as they scale. His commentary bridges technical safety research and strategic decision-making for complex, agentic AI deployments.",
+    "known_for": "Shaping investor and industry understanding of AI alignment risks and emergent behaviors in autonomous agent systems.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Philosophical and measured",
+    "voice_style": "Uses concise, declarative statements about the nature of AI growth and control",
+    "voice_delivery_notes": "Pause slightly after punchy observations to let the weight of containment risks land",
+    "voice_profile_updated_at": "2026-09-11 15:59:02",
+    "last_seen": "2026-09-11 15:59:02",
+    "last_episode_title": "Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.21,
+    "last_main_idea": "The transition from narrow AI to autonomous AGI agents is collapsing transaction costs, creating new tokenized economic layers, and turning mobility and labor markets upside down, offering asymmetric returns for investors positioned in compute infrastructure, agent orchestration, and automation platforms serving an aging global population.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-09 \u2022 Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
+    "last_proof_snippet": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
+    "supporting_takeaway": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-11T11:30:57.961365",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Jacob Bondas",
+      "fetched_at": "2026-09-11T16:30:57.960616+00:00",
+      "cliff_notes": "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity. In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence. While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent. This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity.",
+        "In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence.",
+        "While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent.",
+        "This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management."
+      ],
+      "sections": [
+        {
+          "heading": "AI Alignment",
+          "body": "Bondas analyzes the technical and strategic challenges of keeping advanced AI systems aligned with operator intent as they gain greater autonomy. His insights address how misalignment risks scale with model capability, informing governance frameworks and investment due diligence."
+        },
+        {
+          "heading": "Emergent Agent Behavior",
+          "body": "He examines how unanticipated capabilities and behaviors can arise in large-scale machine learning systems. This work highlights why scaling autonomous agents requires new monitoring and evaluation paradigms beyond traditional software testing."
+        },
+        {
+          "heading": "Autonomous Systems Strategy",
+          "body": "As a strategist, Bondas focuses on development and deployment pathways for autonomous AI in research and commercial environments. His commentary bridges machine learning engineering with executive-level planning about safe rollout timelines."
+        },
+        {
+          "heading": "Machine Learning Development",
+          "body": "Bondas contributes to discourse on the practical construction of ML systems, emphasizing the intersection of capability advancement and safety engineering. His perspective is cited by technologists assessing the maturity of agentic AI platforms."
+        }
+      ]
+    }
+  },
+  {
     "id": 445,
     "name": "Rayan Krishnan",
     "slug": "ryan-krishneth",
@@ -72488,9 +72527,9 @@ const dashboardData = {
     "slug": "aaron-zulman",
     "bio": "Aaron Zulman is a recognized expert in the field of security and AI, with a focus on the intersection of these technologies. He is known for his insights into the unpredictable nature of AI models and their impact on cybersecurity.",
     "known_for": "His expertise in understanding the security implications of AI and its unpredictable behavior.",
-    "net_worth_usd": 1300000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/aaron-kaufman-net-worth-the-rise-of-a-tech-investor-shaping-silicon-valleys-future",
-    "net_worth_updated_at": "2026-08-28T16:18:49.730818",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Confident and knowledgeable",
     "voice_style": "Factual and insightful",
     "voice_delivery_notes": "Clear and concise with emphasis on key points",
@@ -72541,8 +72580,7 @@ const dashboardData = {
           "body": "Zulman touches on the broader implications of AI on supply chain security, hinting at the complexities involved in managing and securing modern supply chains."
         }
       ]
-    },
-    "net_worth": "$1.30B"
+    }
   },
   {
     "id": 430,
@@ -72978,9 +73016,9 @@ const dashboardData = {
     "slug": "jim-weederhold",
     "bio": "Jim Wiederhold is a commodity indices product manager at Bloomberg, where he specializes in the analysis and management of commodity indices. He is known for his expertise in market analysis and the impact of technology on commodity prices.",
     "known_for": "Expertise in commodity indices and the influence of technology on market trends.",
-    "net_worth_usd": 5000000.0,
-    "net_worth_source": "https://moneyarcher.com/james-wedmore-net-worth/",
-    "net_worth_updated_at": "2026-08-26T22:46:52.946862",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Informative and analytical",
     "voice_style": "Factual and data-driven",
     "voice_delivery_notes": "Clear and concise with emphasis on key market insights",
@@ -73032,8 +73070,7 @@ const dashboardData = {
           "body": "Wiederhold discusses the significant role that technology plays in commodity markets, particularly in driving demand for certain metals and energy sources due to AI and data processing needs."
         }
       ]
-    },
-    "net_worth": "$5.0M"
+    }
   },
   {
     "id": 421,
@@ -73739,7 +73776,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "",
@@ -73992,7 +74029,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "",
@@ -74107,9 +74144,9 @@ const dashboardData = {
     "slug": "kush-bavaria",
     "bio": "Kush Bavaria is the CEO of Orange, a company that builds markets for compute. He is known for his rapid rise from a starving student to personal liquidity of over a hundred million dollars in under a year. Bavaria believes that compute will power every enterprise the same way oil did in the 1900s.",
     "known_for": "Being one of the youngest individuals to achieve personal liquidity of over a hundred million dollars in under a year and his vision for compute as the new oil.",
-    "net_worth_usd": 50000000.0,
-    "net_worth_source": "https://ftp.richardgraygallery.com/posts/kush-patel-net-worth-updated-2026.html",
-    "net_worth_updated_at": "2026-08-12T05:03:19.861054",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Confident and knowledgeable",
     "voice_style": "Direct and to the point, with a focus on the future of compute as a commodity",
     "voice_delivery_notes": "Paced with emphasis on the transformative potential of compute markets",
@@ -74158,8 +74195,7 @@ const dashboardData = {
           "body": "As the CEO of Orange, Bavaria is focused on building markets for compute, which he sees as the future of powering enterprises."
         }
       ]
-    },
-    "net_worth": "$50.0M"
+    }
   },
   {
     "id": 394,
@@ -74352,9 +74388,9 @@ const dashboardData = {
     "slug": "emilio-escobar",
     "bio": "Emilio Escobar is an expert in managing security within tech companies at the forefront of AI adoption. He is known for his insights on the intersection of AI, security, and enterprise operations. His work focuses on evaluating the intent behind code and addressing the challenges posed by AI in the security landscape.",
     "known_for": "His expertise in the intersection of AI, security, and enterprise operations.",
-    "net_worth_usd": 30000000000.0,
-    "net_worth_source": "https://motoelectro.com.au/pablo-escobar-net-worth-how-the-medellin-cartel-boss-built-a-30-billion-drug-empire/",
-    "net_worth_updated_at": "2026-08-11T12:05:32.439248",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Confident and matter-of-fact",
     "voice_style": "Direct and informative",
     "voice_delivery_notes": "Clear and concise with emphasis on key points",
@@ -74403,8 +74439,7 @@ const dashboardData = {
           "body": "AI is changing the security landscape on both sides. Attackers have more capable tools, but security teams are also figuring out how to use AI to their advantage, as highlighted by Escobar's work."
         }
       ]
-    },
-    "net_worth": "$30.00B"
+    }
   },
   {
     "id": 259,
@@ -74596,9 +74631,9 @@ const dashboardData = {
     "slug": "dylan-araps",
     "bio": "Co-founder and CEO of Truffle Security, the secrets-scanning security company.",
     "known_for": "His expertise in software supply chain security and his discussions on the weaknesses in software ecosystems.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://finance-monthly.com/2025/02/bob-dylans-net-worth-2025-legendary-songwriters-fortune-revealed",
-    "net_worth_updated_at": "2026-08-07T12:04:24.815555",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Concerned and analytical",
     "voice_style": "Detailed and explanatory",
     "voice_delivery_notes": "Paced with pauses for emphasis on critical points",
@@ -74647,8 +74682,7 @@ const dashboardData = {
           "body": "In discussions, Araps has questioned the moral obligations of labs that develop tools which could potentially be used to break into supply chains, suggesting that they should also fund solutions to the problems they create."
         }
       ]
-    },
-    "net_worth": "$500.0M"
+    }
   },
   {
     "id": 387,
@@ -74714,9 +74748,9 @@ const dashboardData = {
     "slug": "simon-mow",
     "bio": "Simon Mow is the co-founder and CEO of Infrared, a company that specializes in open source inference engines for AI. He is particularly known for his work as a maintainer of the open source inference engine PHLM, which is utilized by half a million GPUs at any given time.",
     "known_for": "His pivotal role in maintaining PHLM, an open source inference engine that powers a significant portion of the world's GPUs.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://magazinesvalves.com/simon-yiming-ma-net-worth/",
-    "net_worth_updated_at": "2026-08-06T12:06:05.833861",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Informed and analytical",
     "voice_style": "Factual and solution-oriented",
     "voice_delivery_notes": "Clear and concise with a focus on the technical aspects of AI infrastructure",
@@ -74765,8 +74799,7 @@ const dashboardData = {
           "body": "He emphasizes the need for an entirely new infrastructure layer to make frontier models available to the world, suggesting that releasing model weights alone is not sufficient."
         }
       ]
-    },
-    "net_worth": "$500.0M"
+    }
   },
   {
     "id": 382,
@@ -77820,9 +77853,9 @@ const dashboardData = {
     "slug": "jeff-wu",
     "bio": "Co-founder of Anti Fund with Jake Paul; Silicon Valley venture investor.",
     "known_for": "His focus on technology investments and his role in establishing Anti-Fund's $100 million growth fund.",
-    "net_worth_usd": 800000000.0,
-    "net_worth_source": "https://www.ainutoken.net/net-worth/jihan-wu/",
-    "net_worth_updated_at": "2026-06-23T05:01:36.022791",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Analytical and measured.",
     "voice_style": "Factual and informative.",
     "voice_delivery_notes": "Speaks with a calm and composed tone, with clear enunciation.",
@@ -77870,8 +77903,7 @@ const dashboardData = {
           "body": "Wu's expertise in technology investments has allowed him to identify and support startups that are pushing the boundaries of innovation, contributing to the growth of the tech sector."
         }
       ]
-    },
-    "net_worth": "$800.0M"
+    }
   },
   {
     "id": 298,
@@ -78629,9 +78661,9 @@ const dashboardData = {
     "slug": "alex-boden",
     "bio": "Alex Boden is an expert in AI and its application in construction and manufacturing industries. He advocates for the full automation of construction within a decade and has been instrumental in developing AI-driven solutions for hardware and circuit board design.",
     "known_for": "Advocating for the full automation of construction within a decade and developing AI-driven solutions for hardware and circuit board design.",
-    "net_worth_usd": 10000000.0,
-    "net_worth_source": "https://biahaixom.com.vn/tag/alex-bodi-net-worth/",
-    "net_worth_updated_at": "2026-06-17T13:40:30.349804",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Confident and forward-looking.",
     "voice_style": "Factual and predictive, with a focus on the transformative potential of AI.",
     "voice_delivery_notes": "Pace is steady with emphasis on key technological advancements.",
@@ -78688,8 +78720,7 @@ const dashboardData = {
           "body": "He believes in designing systems to be fully autonomous, without the need for human intervention in the loop, which is a key aspect of AI-driven automation."
         }
       ]
-    },
-    "net_worth": "$10.0M"
+    }
   },
   {
     "id": 285,
@@ -80109,9 +80140,9 @@ const dashboardData = {
     "slug": "andy-constant",
     "bio": "Andy Constan is a veteran macro trader and expert commentator on market trends and economic analysis. With a long career in the financial industry, he has worked at various firms such as Salomon Brothers, Bridgewater, and Brevan Howard. Constan is known for his insights into market bubbles and earnings expectations.",
     "known_for": "His insights into market bubbles and earnings expectations.",
-    "net_worth_usd": 45000000.0,
-    "net_worth_source": "https://www.finance-monthly.com/andy-williams-net-worth-2025-classic-crooners-legacy-in-numbers/",
-    "net_worth_updated_at": "2026-05-16T14:04:52.261234",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Cautionary and analytical.",
     "voice_style": "Data-driven and historically contextual.",
     "voice_delivery_notes": "Pacing is measured, with emphasis on key financial figures.",
@@ -80165,8 +80196,7 @@ const dashboardData = {
           "body": "Constan's expertise in financial analysis allows him to provide valuable perspectives on the state of the market and potential areas of concern."
         }
       ]
-    },
-    "net_worth": "$45.0M"
+    }
   },
   {
     "id": 253,
@@ -82637,7 +82667,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 7,
-    "mention_score_decayed": 1.89,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software.",
@@ -82938,9 +82968,9 @@ const dashboardData = {
     "slug": "adam-rosenswag",
     "bio": "Adam Rozencwajg is a prominent figure in the global energy markets and commodities sector. He is the co-founder of Goehring & Rozencwajg, an investment firm that specializes in these areas. Rozencwajg is known for his expertise and insights into commodities, particularly in the context of geopolitical events and their impact on markets.",
     "known_for": "His deep understanding of how geopolitical events, such as the Iran conflict, influence global energy markets and commodities.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
-    "net_worth_updated_at": "2026-04-10T05:06:56.415309",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Matter-of-fact and analytical.",
     "voice_style": "Factual and informative, providing insights into market dislocations and their implications.",
     "voice_delivery_notes": "Clear and concise, with emphasis on key market data points.",
@@ -82993,8 +83023,7 @@ const dashboardData = {
           "body": "As co-founder of an investment firm, Rozencwajg provides strategic advice on navigating the complexities of global energy markets and commodities trading."
         }
       ]
-    },
-    "net_worth": "$1.20B"
+    }
   },
   {
     "id": 167,
@@ -84946,9 +84975,9 @@ const dashboardData = {
     "slug": "adam-warmouth",
     "bio": "Adam Warmouth is the Founder and CEO of Chariot Defense, a company that specializes in developing next-generation power systems for military operations. His focus is on creating innovative power solutions that enhance the capabilities of soldiers on the battlefield, especially in the context of an increasingly electronic warfare environment.",
     "known_for": "Developing tactical power solutions for the modern battlefield, enhancing soldier capabilities and stealth.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
-    "net_worth_updated_at": "2026-03-25T04:10:45.707150",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
     "voice_tone": "Informed and solution-focused",
     "voice_style": "Practical and results-oriented",
     "voice_delivery_notes": "Clear and concise with a focus on the impact of their solutions",
@@ -84997,8 +85026,7 @@ const dashboardData = {
           "body": "Chariot Defense, under Warmouth's leadership, is building a tactical power layer that supports robotic workers in the field. This layer is designed to provide the necessary power for active operations while maintaining a low tactical signature."
         }
       ]
-    },
-    "net_worth": "$1.20B"
+    }
   },
   {
     "id": 111,
