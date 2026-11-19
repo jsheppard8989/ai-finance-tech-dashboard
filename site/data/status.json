@@ -1,14 +1,14 @@
 {
-  "last_pipeline_run": "2026-11-18T21:35:32.368049",
+  "last_pipeline_run": "2026-11-18T22:43:51.632965",
   "last_steps": {
     "podcasts_analyzed": 1,
     "overton_terms": 194,
-    "pundits": 455
+    "pundits": 454
   },
   "main_page": {
     "overton": 13,
     "insights": 12,
-    "pundits": 455
+    "pundits": 454
   },
   "counts": {
     "ticker_mentions": 301,
