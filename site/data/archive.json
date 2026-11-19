@@ -6,7 +6,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-18",
-      "summary": "The episode centers on First Person Labs co-founder Kim Liu\u2019s view that \u201cSecond\u201d is a personal AI layer built to model a person\u2019s preferences, priorities, relationships, and digital activity, then let other agents use that portable context. He describes it as a context store rather than an agent itself, with the aim of making a user\u2019s intent travel across tools like coding assistants without repeated re-explanation.\n\nA major thread is security and privacy. Kim Liu says the system has to process an \u201cinfinite stream of events\u201d from the OS and app activity while remaining secure and private, and he contrasts policy-based \u201czero data retention\u201d with stronger technical approaches such as confidential inference. He argues the core AI problem is the combination of data and inference controls, including local-first handling and cloud options that encrypt data before inference.\n\nThe discussion also focuses on how personal AI should evolve from reactive alerts to reflective, long-horizon assistance. Kim Liu says reactive productivity is straightforward, but reflective systems must connect many events over long time horizons, such as remembering that months ago a user said something that now matters to a current goal or priority. He frames this as an ambient, intervention-oriented future where the assistant helps without requiring explicit instructions.\n\nHe argues the practical path is a mixture-of-models approach, where expensive models handle high-value or infrequent reasoning and cheaper models cover frequent tasks, with cached insights and test-time reasoning balanced to manage cost.",
+      "summary": "The episode centers on First Person Labs co-founder Ken Liu\u2019s view that \u201cSecond\u201d is a personal AI layer built to model a person\u2019s preferences, priorities, relationships, and digital activity, then let other agents use that portable context. He describes it as a context store rather than an agent itself, with the aim of making a user\u2019s intent travel across tools like coding assistants without repeated re-explanation.\n\nA major thread is security and privacy. Ken Liu says the system has to process an \u201cinfinite stream of events\u201d from the OS and app activity while remaining secure and private, and he contrasts policy-based \u201czero data retention\u201d with stronger technical approaches such as confidential inference. He argues the core AI problem is the combination of data and inference controls, including local-first handling and cloud options that encrypt data before inference.\n\nThe discussion also focuses on how personal AI should evolve from reactive alerts to reflective, long-horizon assistance. Ken Liu says reactive productivity is straightforward, but reflective systems must connect many events over long time horizons, such as remembering that months ago a user said something that now matters to a current goal or priority. He frames this as an ambient, intervention-oriented future where the assistant helps without requiring explicit instructions.\n\nHe argues the practical path is a mixture-of-models approach, where expensive models handle high-value or infrequent reasoning and cheaper models cover frequent tasks, with cached insights and test-time reasoning balanced to manage cost.",
       "key_takeaway": "The episode\u2019s core thesis is that secure, portable personal context infrastructure could become the missing layer that makes agent-to-agent switching and ambient productivity practical.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -18,16 +18,12 @@
       "podcast_episode_id": 693,
       "notable_quotes": [
         {
-          "speaker": "Kim Liu",
+          "speaker": "Ken Liu",
           "quote": "So we focus on essentially creating a model of a person and then put that person in control."
         },
         {
-          "speaker": "Kim Liu",
+          "speaker": "Ken Liu",
           "quote": "It is a very hard problem, especially to get its secure private."
-        },
-        {
-          "speaker": "Kim Liu",
-          "quote": "And at Opus 55 is pricing, that leads to a thousand dollars per day."
         }
       ]
     },
@@ -39,9 +35,7 @@
       "source_date": "2026-11-17",
       "summary": "The episode centers on the Invest America / universal capital accounts idea: every child would get an account at birth, automatically funded and automatically invested, with later \u201cplussing up\u201d from philanthropy or families. Brad Gerstner says the Invest America Act was signed into law on July 4th, 2025, and describes the accounts as being created when a child gets a Social Security number, with $1,000 automatically put into the S&P 500.\n\nGeoffrey Canada argues the policy is necessary because education alone cannot solve poverty if families are \u201cliterally one emergency away from bankruptcy.\u201d He says people without savings are structurally blocked because \u201cPoor people don\u2019t have accounts to save in,\u201d and he frames universal capital as a way to restore trust in capitalism and reduce desperation.\n\nA major practical issue is implementation and claiming. Brad Gerstner says there are 70 million accounts open for children under 18 and warns that if parents do not claim accounts, a child could miss the first 10 years of compounding. Geoffrey Canada calls this the \u201ccold start problem\u201d and says the system must make custodial accounts easy enough for ordinary families to use.\n\nThey also discuss the broader political and social thesis. Geoffrey Canada links the idea to fears about technological unemployment and says society needs a bridge similar to Social Security in 1935, while Brad Gerstner argues this is a defense of capitalism because the accounts are private and owned by individuals.",
       "key_takeaway": "The episode argues that automatically seeded, equity-invested child accounts could scale into a multi-trillion-dollar system that compounds wealth and changes long-term social outcomes.",
-      "tickers_mentioned": [
-        "AAPL"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -16320,7 +16314,7 @@
       "first_detected_episode_id": 667,
       "first_detected_speaker": "Zeno Rocha",
       "last_mentioned_episode_id": 693,
-      "last_mentioned_speaker": "Kim Liu"
+      "last_mentioned_speaker": "Ken Liu"
     },
     {
       "id": 336,
@@ -16572,7 +16566,7 @@
       "first_detected_episode_id": 610,
       "first_detected_speaker": "Aaron Levie",
       "last_mentioned_episode_id": 693,
-      "last_mentioned_speaker": "Kim Liu"
+      "last_mentioned_speaker": "Ken Liu"
     },
     {
       "id": 322,
@@ -17076,7 +17070,7 @@
       "first_detected_episode_id": 531,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 693,
-      "last_mentioned_speaker": "Kim Liu"
+      "last_mentioned_speaker": "Ken Liu"
     },
     {
       "id": 299,
