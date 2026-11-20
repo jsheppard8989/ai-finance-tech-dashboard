@@ -51,7 +51,8 @@ class RedTeam1016Tests(unittest.TestCase):
         self.assertNotIn("publish_block_reasons", out)
         self.assertTrue(c["publishable"])
         html = (SITE / "debait.html").read_text(encoding="utf-8")
-        self.assertIn("No new contract this week. The last contract", html)
+        # Nov 19 2026 (Jared): the resolved-contract banner is removed entirely.
+        self.assertNotIn("No new contract this week", html)
         src = (PIPE / "export_data.py").read_text(encoding="utf-8")
         self.assertIn('str(w.get("friday_iso") or "").strip() == own', src)
 

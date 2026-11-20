@@ -752,12 +752,11 @@
           return mons[parseInt(m[2], 10) - 1] + ' ' + parseInt(m[3], 10);
         }
         if (holdEl) {
+          // Nov 19 2026 (Jared, decisions.md 10:14 AM CT): weeks with no debate are left out
+          // entirely, so a resolved prior contract shows no banner (no placeholder text).
           if (curResolved) {
-            var wk = shortDate(contract.friday_iso);
-            var rd = shortDate(contract.resolved_at);
-            holdEl.style.display = 'block';
-            holdEl.textContent = 'No new contract this week. The last contract' + (wk ? ' (' + wk + ')' : '') +
-              ' resolved ' + curSt.toUpperCase() + (rd ? ' on ' + rd : '') + '.';
+            holdEl.style.display = 'none';
+            holdEl.textContent = '';
           } else if (!publishable) {
             holdEl.style.display = 'block';
             holdEl.textContent = contract && contract.publish_block_reason

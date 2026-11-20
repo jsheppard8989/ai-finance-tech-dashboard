@@ -75,9 +75,9 @@ def _assert_704_fixed(r, expected_apos):
     assert "Ken Liu says reactive" in r["summary"]
     assert all(q["speaker"] == "Ken Liu" for q in r["notable_quotes"])
     assert OPUS_QUOTE not in blob
-    assert len(r["notable_quotes"]) == 2
+    # Nov 19 2026 (G item 10): quote 2 ('especially to get its secure private') is dropped too.
+    assert len(r["notable_quotes"]) == 1
     assert r["notable_quotes"][0]["quote"].startswith("So we focus")
-    assert r["notable_quotes"][1]["quote"].startswith("It is a very hard problem")
     assert r["episode_evidence"].startswith("Ken Liu:")
     assert "Kim Liu:" not in r["episode_evidence"]
     # Title already names Ken and must stay a title (no swap needed).

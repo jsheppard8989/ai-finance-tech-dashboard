@@ -2775,7 +2775,7 @@
     {
       "insight_id": 704,
       "podcast_episode_id": 693,
-      "_note": "Nov 18 2026 (G weekday site check): a16z 'The Missing Layer for Personal AI | First Person Labs' Ken Liu'. ASR name error 'Kim Liu' -> 'Ken Liu' in the summary and notable_quotes speaker (~14 hits in data.js including the archive copy; also episode_evidence labels and last_mentioned_speaker). Verified against a16z's 'Investing in First Person Labs' post and Ken Liu's launch post (CEO, co-founder); the episode title already says Ken. Stored DB text and the live export both use 'Kim Liu' / 'Kim Liu’s' (unicode apostrophe). Same pair in global_replacements so terms last_mentioned_speaker and evidence labels are covered. Garbled notable_quote 3 ('And at Opus 55 is pricing, that leads to a thousand dollars per day.') is dropped.",
+      "_note": "Nov 18 2026 (G weekday site check): a16z 'The Missing Layer for Personal AI | First Person Labs' Ken Liu'. ASR name error 'Kim Liu' -> 'Ken Liu' in the summary and notable_quotes speaker (~14 hits in data.js including the archive copy; also episode_evidence labels and last_mentioned_speaker). Verified against a16z's 'Investing in First Person Labs' post and Ken Liu's launch post (CEO, co-founder); the episode title already says Ken. Stored DB text and the live export both use 'Kim Liu' / 'Kim Liu’s' (unicode apostrophe). Same pair in global_replacements so terms last_mentioned_speaker and evidence labels are covered. Garbled notable_quote 3 ('And at Opus 55 is pricing, that leads to a thousand dollars per day.') is dropped. Nov 19 2026 (G weekday site check item 10): clunky ASR notable_quote 2 ('It is a very hard problem, especially to get its secure private.') is dropped too.",
       "replacements": [
         [
           "Kim Liu",
@@ -2783,7 +2783,8 @@
         ]
       ],
       "drop_quotes": [
-        "And at Opus 55 is pricing, that leads to a thousand dollars per day."
+        "And at Opus 55 is pricing, that leads to a thousand dollars per day.",
+        "It is a very hard problem, especially to get its secure private."
       ]
     },
     {
@@ -2803,6 +2804,30 @@
           "the named source grading the result",
           "the named source for the result"
         ]
+      ]
+    },
+    {
+      "insight_id": 695,
+      "podcast_episode_id": 684,
+      "_note": "Nov 19 2026 (G weekday site check items 2-3): Monetary Matters, Jan van Eck 'The Bond Squeeze'. Notable quote 3 / transcript snippet: ASR 'a gap operating profit' -> 'a GAAP operating profit' and capitalise Anthropic. Checked against the stored transcript (EWWMN6618780928.txt): van Eck is discussing Anthropic's S-1 quarterly results ('a gap operating profit of just shy of $900 million in Q2. A operating profit if you exclude a donation charge in Q3'), i.e. GAAP vs ex-charge. Stored DB text and live data.js both read 'And anthropic, you know, a gap operating profit'. tickers_mentioned ['NVDA','ASML','INDIA','GOLD']: INDIA and GOLD are not tickers here (GOLD is Barrick); dropped.",
+      "replacements": [
+        [
+          "And anthropic, you know, a gap operating profit",
+          "And Anthropic, you know, a GAAP operating profit"
+        ]
+      ],
+      "drop_tickers": [
+        "INDIA",
+        "GOLD"
+      ]
+    },
+    {
+      "insight_id": 697,
+      "podcast_episode_id": 686,
+      "_note": "Nov 19 2026 (G weekday site check item 4): Dwarkesh, Paul Christiano. tickers_mentioned ['METER','ARC']: METER (METR) is a nonprofit evaluator and ARC is not a listed ticker here; dropped.",
+      "drop_tickers": [
+        "METER",
+        "ARC"
       ]
     }
   ],
@@ -9666,6 +9691,17 @@
       "unset": [
         "net_worth"
       ]
+    },
+    {
+      "id": 403,
+      "_note": "Nov 19 2026 (G weekday site check item 1): Evan Baker (ASR of Gavin Baker) on All-In 'Anthropic's $2T IPO...' (Aug 14). last_main_idea 'Anduril's upcoming IPO...' and supporting_takeaway 'expected to go public in October with an annualized run rate between $100 and $120 billion' removed. The stored transcript (ALLIN-E285_Ch.txt) has 0 'Anduril' hits; the company is Anthropic ('and profit targeting a two trillion dollar IPO, according to the financial times ... FT reported Wednesday night that investors expect the company to go public in October ... annualized run rate ... will end the year between 100 and 120 billion dollars'). Those lines are the host reading the FT report at the top of the docket, not Baker's own view, so a past-tense rewrite credited to him is not supported; both fields unset. Gated to this episode so a newer episode's text is left alone.",
+      "when": {
+        "last_episode_title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback"
+      },
+      "unset": [
+        "last_main_idea",
+        "supporting_takeaway"
+      ]
     }
   ],
   "pundit_merges": [
@@ -9756,5 +9792,13 @@
     "MBS",
     "RMBS",
     "CLO"
+  ],
+  "portfolio_exit_overrides": [
+    {
+      "basket_id": "healthcare-abundance-five",
+      "_note": "Nov 19 2026 (G weekday site check item 5): data.js copy of portfolio basket 0 (Healthcare Abundance) names[0..4].exit still said '(Hims & Hers Q3 report, expected Nov 9)'. site/data/portfolio.json is the frozen historical record (sha256-pinned by trap_map_archive.py), so it is NOT edited; export_data.py applies this to the data.js copy only, and only when the exit text still equals 'old'. G's wording.",
+      "old": "Exit the basket if HIMS Q3 subscribers come in below Q2's 2.891 million (Hims & Hers Q3 report, expected Nov 9) or the basket index closes below 90.",
+      "new": "Hims & Hers Q3 report, Nov 9: 2.788M subscribers, below 2.891M; basket closed"
+    }
   ]
 }
