@@ -298,6 +298,28 @@ def _apply_ticker_fixes_to_record(o, drop=None, renames=None):
             o["ticker_analysis"] = _drop_ticker_analysis(o["ticker_analysis"], drop)
 
 
+def _apply_portfolio_exit_overrides(portfolio_data):
+    """Nov 19 2026 (G site check item 5): 'portfolio_exit_overrides' in summary_overrides.json.
+
+    site/data/portfolio.json is the frozen historical basket record (sha256-pinned by
+    trap_map_archive.py), so it is never edited. This rewrites the data.js copy only:
+    [{"basket_id": id, "old": exact exit text, "new": text}] sets a name's 'exit' to 'new'
+    when it still equals 'old'. Idempotent; a changed source text is left alone."""
+    rules = _load_override_rules().get("portfolio_exit_overrides") or []
+    if not rules or not isinstance(portfolio_data, dict):
+        return portfolio_data
+    for b in portfolio_data.get("baskets") or []:
+        if not isinstance(b, dict):
+            continue
+        for r in rules:
+            if r.get("basket_id") and r["basket_id"] != b.get("id"):
+                continue
+            for n in b.get("names") or []:
+                if isinstance(n, dict) and n.get("exit") == r.get("old"):
+                    n["exit"] = r.get("new")
+    return portfolio_data
+
+
 def _apply_summary_overrides(obj):
     """Apply pipeline/summary_overrides.json text fixes (in place).
 
@@ -2114,6 +2136,7 @@ def generate_website_js():
             portfolio_data.pop("_metadata", None)
         except Exception:
             portfolio_data = {}
+    _apply_portfolio_exit_overrides(portfolio_data)
     portfolio_json = json.dumps(portfolio_data, indent=2)
     
     # Generate data.js that the HTML can load
