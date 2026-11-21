@@ -1,5 +1,23 @@
 [
   {
+    "id": 713,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+    "episode_date": "2026-11-21",
+    "summary": "The episode opens with Steve Jurvetson recounting the SpaceX investment decision process, including how DFJ\u2019s partnership initially rejected the deal and how structure changed the vote. The conversation emphasizes just how binary the early risk was and how much of the outcome hinged on terms, not just conviction.\n\nA major thread is frontier AI compute and infrastructure. The hosts discuss claims that SpaceX is adding roughly 500 megawatts of AI compute each month, has around 220,000 GP300 chips, and could exceed one gigawatt a month by the end of 2027 while building at about 60% of industry cost. They also discuss Anthropic as a likely customer for additional capacity, with one host relaying that Anthropic\u2019s highest-probability outcome is an incremental 10 gigawatts of compute from SpaceX.\n\nAnother key section covers Google\u2019s Gemini for Neon and whether Google is closing the gap with OpenAI and Anthropic. The tone is competitive but not a clear consensus that Google has already overtaken the leaders.\n\nThe episode also moves into cyber risk and system fragility. Jurvetson says we may be at \u201cpeak fear\u201d but are \u201cnowhere near peak disruption,\u201d suggesting more infrastructure outages are coming before defenses catch up. The conversation frames AI as accelerating both offense and defense, with institutions still too human-dependent in their response cycles.\n\nFinally, the episode broadens into space, robotics, and longer-term industrial transformation. Topics include Starlink direct-to-cell scaling toward agentic traffic, future chip-fab disruption through Terrafab, and the possibility that inference-time training and other AI paradigm shifts could shorten the useful life of current training-optimized compute investments.",
+    "key_takeaways": [
+      "Steve Jervitson said DFJ\u2019s partnership rejected the SpaceX investment, making it the only time he remembered his partnership turning him down for a deal.",
+      "One host said SpaceX is adding roughly 500 megawatts of AI compute each month, using about 220,000 GP300 chips, and expects to pass one gigawatt a month by the end of 2027.",
+      "One host said Elon claimed SpaceX is building its compute at roughly 60% of the industry cost.",
+      "One host said Anthropic told him it is extremely likely they will keep renting compute from SpaceX and would like significantly more, with an incremental 10 gigawatts cited as the highest-probability outcome.",
+      "Steve Jervitson said we may be at peak fear in cyber risk, but are nowhere near peak disruption, implying more outages before defenses catch up.",
+      "Steve Jervitson said Google belongs in the top three of frontier AI because of the slope of progress and the unusually fast model-release cadence.",
+      "Steve Jervitson said he does not think humans will go to other star systems, but expects Moon and Mars colonization and robot/data-package exploration instead."
+    ],
+    "investment_thesis": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
+    "key_tickers": null
+  },
+  {
     "id": 711,
     "podcast_name": "The a16z Show",
     "episode_title": "The Professional Network Built for You and Your AI Agent",

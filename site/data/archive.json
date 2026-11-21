@@ -32,6 +32,41 @@
       ]
     },
     {
+      "id": 724,
+      "title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-11-21",
+      "summary": "The episode opens with Steve Jurvetson recounting the SpaceX investment decision process, including how DFJ\u2019s partnership initially rejected the deal and how structure changed the vote. The conversation emphasizes just how binary the early risk was and how much of the outcome hinged on terms, not just conviction.\n\nA major thread is frontier AI compute and infrastructure. The hosts discuss claims that SpaceX is adding roughly 500 megawatts of AI compute each month, has around 220,000 GP300 chips, and could exceed one gigawatt a month by the end of 2027 while building at about 60% of industry cost. They also discuss Anthropic as a likely customer for additional capacity, with one host relaying that Anthropic\u2019s highest-probability outcome is an incremental 10 gigawatts of compute from SpaceX.\n\nAnother key section covers Google\u2019s Gemini for Neon and whether Google is closing the gap with OpenAI and Anthropic. The tone is competitive but not a clear consensus that Google has already overtaken the leaders.\n\nThe episode also moves into cyber risk and system fragility. Jurvetson says we may be at \u201cpeak fear\u201d but are \u201cnowhere near peak disruption,\u201d suggesting more infrastructure outages are coming before defenses catch up. The conversation frames AI as accelerating both offense and defense, with institutions still too human-dependent in their response cycles.\n\nFinally, the episode broadens into space, robotics, and longer-term industrial transformation. Topics include Starlink direct-to-cell scaling toward agentic traffic, future chip-fab disruption through Terrafab, and the possibility that inference-time training and other AI paradigm shifts could shorten the useful life of current training-optimized compute investments.",
+      "key_takeaway": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
+      "tickers_mentioned": [
+        "TSLA",
+        "GOOGL",
+        "ANTR"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 713,
+      "notable_quotes": [
+        {
+          "speaker": "Steve Jervitson",
+          "quote": "it's the only time in my recollection that my partnership turned me down for an investment."
+        },
+        {
+          "speaker": "one host",
+          "quote": "SpaceX is adding roughly 500 megawatts of AI compute each month, about 220,000 GP 300 chips, and expects to pass one gigawatt a month by the end of 2027, which is insane, right?"
+        },
+        {
+          "speaker": "Steve Jervitson",
+          "quote": "I think we may be a peak fear, but we're nowhere near peak disruption."
+        }
+      ]
+    },
+    {
       "id": 717,
       "title": "The Agentic State",
       "source_type": "podcast",
@@ -351,7 +386,7 @@
       "key_takeaway": "The episode\u2019s core thesis is that secure, portable personal context infrastructure could become the missing layer that makes agent-to-agent switching and ambient productivity practical.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-18",
       "archived_date": null,
@@ -16922,8 +16957,8 @@
       "term": "Second",
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
-      "last_mentioned_date": "2026-11-06",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -16932,8 +16967,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 712,
-      "last_mentioned_speaker": "Brian Clark"
+      "last_mentioned_episode_id": 713,
+      "last_mentioned_speaker": null
     },
     {
       "id": 342,
@@ -16958,8 +16993,8 @@
       "term": "RSI",
       "description": "Recursive self-improvement, meaning AI helping accelerate the AI research process. In the episode it is treated as a spectrum from AI-assisted research interns to more autonomous systems.",
       "first_detected_date": "2026-11-17",
-      "last_mentioned_date": "2026-11-20",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If RSI accelerates, it could shorten model-development cycles and raise the value of tooling, evaluation, and compute infrastructure.",
@@ -16968,7 +17003,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 689,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 709,
+      "last_mentioned_episode_id": 713,
       "last_mentioned_speaker": null
     },
     {
@@ -17372,8 +17407,8 @@
       "term": "Neocloud",
       "description": "Casado uses this to describe infrastructure providers that act like data centers with GPUs, effectively serving as physical token factories for AI workloads.",
       "first_detected_date": "2026-10-23",
-      "last_mentioned_date": "2026-11-20",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If hardware and power are the bottlenecks, the winners may be the scaled infrastructure operators that can secure supply and power access.",
@@ -17382,7 +17417,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 608,
       "first_detected_speaker": "George Noble",
-      "last_mentioned_episode_id": 709,
+      "last_mentioned_episode_id": 713,
       "last_mentioned_speaker": null
     },
     {
@@ -17408,8 +17443,8 @@
       "term": "Defensive co-scaling",
       "description": "A governance approach where AI systems are used to monitor and police other AI systems as autonomy increases. It is presented as a practical answer to rising agent risk.",
       "first_detected_date": "2026-10-23",
-      "last_mentioned_date": "2026-11-04",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If adopted widely, it could create demand for AI safety tooling, monitoring infrastructure, and compliance layers.",
@@ -17418,8 +17453,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 606,
       "first_detected_speaker": "Dave Blundin, Alex, Salim",
-      "last_mentioned_episode_id": 646,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 713,
+      "last_mentioned_speaker": null
     },
     {
       "id": 340,
@@ -17480,8 +17515,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-11-09",
-      "mention_count": 27,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 28,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -17490,7 +17525,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 710,
+      "last_mentioned_episode_id": 713,
       "last_mentioned_speaker": null
     },
     {
@@ -17750,8 +17785,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-11-19",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -17760,7 +17795,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 696,
+      "last_mentioned_episode_id": 713,
       "last_mentioned_speaker": null
     },
     {
@@ -17858,8 +17893,8 @@
       "term": "Artifacts",
       "description": "Persistent data storage features in Claude Code that enhance collaboration among multiple agents.",
       "first_detected_date": "2026-09-29",
-      "last_mentioned_date": "2026-11-18",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Utilizing artifacts can streamline project workflows and improve team collaboration.",
@@ -17868,8 +17903,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 531,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 693,
-      "last_mentioned_speaker": "Ken Liu"
+      "last_mentioned_episode_id": 713,
+      "last_mentioned_speaker": null
     },
     {
       "id": 299,
@@ -18956,8 +18991,8 @@
       "term": "Dyson Swarm",
       "description": "A hypothetical megastructure of numerous small satellites surrounding a star to capture its energy output, discussed here as a future AI-enabled energy breakthrough.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-11-19",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Long-term exposure to space tech, advanced energy infrastructure, and AI-driven applied physics could position investors ahead of secular shifts in global energy production.",
@@ -18966,7 +19001,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 696,
+      "last_mentioned_episode_id": 713,
       "last_mentioned_speaker": null
     },
     {
@@ -19046,8 +19081,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-11-19",
-      "mention_count": 98,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 99,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -19056,7 +19091,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 696,
+      "last_mentioned_episode_id": 713,
       "last_mentioned_speaker": null
     },
     {
@@ -19064,8 +19099,8 @@
       "term": "Distillation",
       "description": "A training technique where a model learns from another model\u2019s outputs or reasoning traces. Lambert argues it is often oversimplified as the main way open models can catch frontier systems.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-11-16",
-      "mention_count": 72,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 73,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If distillation is less effective than assumed, open-model catch-up may take longer and favor integrated frontier labs over open ecosystems.",
@@ -19074,7 +19109,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 688,
+      "last_mentioned_episode_id": 713,
       "last_mentioned_speaker": null
     },
     {
@@ -20253,7 +20288,7 @@
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-11-21",
-      "mention_count": 158,
+      "mention_count": 159,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -20262,7 +20297,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 711,
+      "last_mentioned_episode_id": 713,
       "last_mentioned_speaker": null
     },
     {
