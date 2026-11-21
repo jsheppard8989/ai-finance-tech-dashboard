@@ -1,6 +1,18 @@
 [
   {
-    "id": 123181,
+    "id": 123617,
+    "name": "Nick Bostrom",
+    "slug": "nick-bostrom",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bostrom\u2019s core claim is that AI development should be slowed only briefly when safety lags, because the right balance may be months or a few years, not an open-ended pause.",
+    "last_episode_title": "How Fast Should We Build Superintelligence? | Nick Bostrom",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-19",
+    "appearance_count": 2
+  },
+  {
+    "id": 123616,
     "name": "Rick Rule",
     "slug": "rick-rule",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123182,
+    "id": 123618,
     "name": "David Shapiro",
     "slug": "david-shapiro",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123183,
+    "id": 123619,
     "name": "Recursive Self-Improvement",
     "slug": "recursive-self-improvement",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123184,
+    "id": 123620,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123185,
+    "id": 123621,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123186,
+    "id": 123622,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123187,
+    "id": 123623,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123188,
+    "id": 123624,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123189,
+    "id": 123625,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123190,
+    "id": 123626,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123191,
+    "id": 123627,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123192,
+    "id": 123628,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 2
   },
   {
-    "id": 123193,
+    "id": 123629,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123194,
+    "id": 123630,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123195,
+    "id": 123631,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123196,
+    "id": 123632,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123197,
+    "id": 123633,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123198,
+    "id": 123634,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123199,
+    "id": 123635,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123200,
+    "id": 123636,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123201,
+    "id": 123637,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123202,
+    "id": 123638,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123203,
+    "id": 123639,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123204,
+    "id": 123640,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123205,
+    "id": 123641,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123206,
+    "id": 123642,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123207,
+    "id": 123643,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123208,
+    "id": 123644,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 123209,
+    "id": 123645,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-13",
-    "appearance_count": 1
-  },
-  {
-    "id": 123210,
-    "name": "Nick Bostrom",
-    "slug": "nick-bostrom",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
-    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-11",
     "appearance_count": 1
   }
 ]
