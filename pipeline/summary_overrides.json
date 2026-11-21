@@ -2809,11 +2809,19 @@
     {
       "insight_id": 695,
       "podcast_episode_id": 684,
-      "_note": "Nov 19 2026 (G weekday site check items 2-3): Monetary Matters, Jan van Eck 'The Bond Squeeze'. Notable quote 3 / transcript snippet: ASR 'a gap operating profit' -> 'a GAAP operating profit' and capitalise Anthropic. Checked against the stored transcript (EWWMN6618780928.txt): van Eck is discussing Anthropic's S-1 quarterly results ('a gap operating profit of just shy of $900 million in Q2. A operating profit if you exclude a donation charge in Q3'), i.e. GAAP vs ex-charge. Stored DB text and live data.js both read 'And anthropic, you know, a gap operating profit'. tickers_mentioned ['NVDA','ASML','INDIA','GOLD']: INDIA and GOLD are not tickers here (GOLD is Barrick); dropped.",
+      "_note": "Nov 19 2026 (G weekday site check items 2-3): Monetary Matters, Jan van Eck 'The Bond Squeeze'. Notable quote 3 / transcript snippet: ASR 'a gap operating profit' -> 'a GAAP operating profit' and capitalise Anthropic. Checked against the stored transcript (EWWMN6618780928.txt): van Eck is discussing Anthropic's S-1 quarterly results ('a gap operating profit of just shy of $900 million in Q2. A operating profit if you exclude a donation charge in Q3'), i.e. GAAP vs ex-charge. Stored DB text and live data.js both read 'And anthropic, you know, a gap operating profit'. tickers_mentioned ['NVDA','ASML','INDIA','GOLD']: INDIA and GOLD are not tickers here (GOLD is Barrick); dropped. Nov 20 2026 (G g_fixes (c)): second sentence repaired per G's transcript-faithful reconstruction ('An' for 'A', plus the verbatim third sentence 'So Q3 wasn't quite as good, but still profitable.' from EWWMN6618780928.txt). Both the stored and the live first-sentence form are matched.",
       "replacements": [
+        [
+          "And anthropic, you know, a gap operating profit of just shy of $900 million in Q2. A operating profit if you exclude a donation charge in Q3 as well.",
+          "And Anthropic, you know, a GAAP operating profit of just shy of $900 million in Q2. An operating profit if you exclude a donation charge in Q3 as well. So Q3 wasn't quite as good, but still profitable."
+        ],
         [
           "And anthropic, you know, a gap operating profit",
           "And Anthropic, you know, a GAAP operating profit"
+        ],
+        [
+          "And Anthropic, you know, a GAAP operating profit of just shy of $900 million in Q2. A operating profit if you exclude a donation charge in Q3 as well.",
+          "And Anthropic, you know, a GAAP operating profit of just shy of $900 million in Q2. An operating profit if you exclude a donation charge in Q3 as well. So Q3 wasn't quite as good, but still profitable."
         ]
       ],
       "drop_tickers": [
@@ -2828,6 +2836,213 @@
       "drop_tickers": [
         "METER",
         "ARC"
+      ]
+    },
+    {
+      "insight_id": 420,
+      "podcast_episode_id": 405,
+      "_note": "Nov 20 2026 (G g_fixes (a), nightly batch): All-In ep 405 'Anthropic's $2T IPO...' (Aug 14) card 420 and deep dive 410 say Anduril; the transcript (ALLIN-E285_Ch.txt) has 0 'Anduril' hits. G's exact strings for summary, key_takeaway, overview, key_takeaways_detailed, investment_thesis, contrarian_signals, catalysts, episode_evidence, falsification_tracks (live = stored). IPO timing is past tense. ANDR/SPCE dropped from tickers_mentioned and key_tickers; AAPL block dropped from ticker_analysis. Contrarian item 3 and falsification item 2 dropped. Scoped to this episode/insight only: no global Anduril rule (card 544 really is Anduril).",
+      "replacements": [
+        [
+          "In this episode, the hosts discuss the potential IPO of Anduril, the company's valuation, and its revenue growth. They also touch upon the political landscape with insights on the Democratic party's internal conflicts and the role of moderate candidates. Additionally, the conversation covers the significance of CEOs having their own voice on X and the impact of open-source AI on the software industry. The podcast also speculates on the potential acquisition of Workday by Silver Lake and its implications for the stock market.",
+          "In this episode, the hosts discuss a potential Anthropic IPO, the company's valuation, and its revenue growth. A host read a Financial Times report from the Wednesday night before the Aug 14, 2026 recording (Aug 12), saying Anthropic was targeting a $2 trillion IPO and that investors then expected the company to go public in October. They also touch upon the political landscape with insights on the Democratic party's internal conflicts and the role of moderate candidates. Additionally, the conversation covers the significance of CEOs having their own voice on X and the impact of open-source AI on the software industry. The podcast also speculates on the potential acquisition of Workday by Silver Lake and its implications for the stock market."
+        ],
+        [
+          "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
+          "On the Aug 14, 2026 episode, a host read a Financial Times report that Anthropic was targeting a $2 trillion IPO, that investors then expected the company to go public in October, and that its annualized run rate would end the year between $100 and $120 billion. The host said that valuation was 16 to 20 times sales, a fraction of where SpaceX and Palantir went public, and that revenue had grown 10 times over the last year."
+        ],
+        [
+          "The competitive dynamic in the AI industry is contested by the rapid growth and potential IPO of Anduril, which is outpacing traditional valuations and challenging the market share of established players. The unresolved tension lies in whether Anduril can sustain its exponential growth and maintain its valuation amidst rising competition from open-source AI and other platforms. The market's reaction to Anduril's IPO and its post-IPO performance will arbitrate the uncertainty, with a focus on revenue growth, market share, and technological advancements.",
+          "The discussion is framed around Anthropic's revenue growth and a potential IPO. On the Aug 14, 2026 episode, a host read a Financial Times report from Aug 12 that Anthropic was targeting a $2 trillion IPO, that investors then expected the company to go public in October, and that its annualized run rate would end the year between $100 and $120 billion, at 16 to 20 times sales. The unresolved tension, as the hosts discussed it, is whether that growth and valuation can hold as other models, including open-source systems and Grok, catch up. Whether Anthropic later lists, and whether the run-rate figures the hosts cited are borne out, will test that discussion."
+        ],
+        [
+          "Anduril's imminent IPO presents an opportunity to invest in a company that is disrupting the AI industry with significant revenue growth and a lower valuation compared to peers. The investment thesis is vindicated if Anduril's post-IPO performance demonstrates sustained growth, maintains or increases its market share, and continues to innovate in the AI space. Conversely, the thesis is invalidated if Anduril fails to meet growth expectations, loses market share to competitors, or if the overall demand for AI solutions plateaus.",
+          "The episode's claim, read from the Financial Times on Aug 14, 2026, was that Anthropic was targeting a $2 trillion IPO, that investors then expected a public offering in October, and that the annualized run rate would end the year between $100 and $120 billion, or 16 to 20 times sales. That claim is supported if later, dated filings or earnings show a run rate in that range. It is weakened if later, dated disclosures show a much lower run rate, or if the $2 trillion target the host cited from the FT is not the figure the company seeks or receives."
+        ],
+        [
+          "The podcast episode delves into the specifics of Anduril's potential IPO, with a focus on its valuation and revenue growth. The hosts discuss the company's expected valuation of two trillion dollars, which would be a record-breaking IPO, surpassing SpaceX's valuation of 1.75 trillion dollars. 'This would obviously break the record setting 1.75 trillion dollar IPO by SpaceX,' they mention. The revenue growth is equally impressive, with Anduril's annualized run rate expected to end the year between 100 and 120 billion dollars, marking an extraordinary ramp up of revenue that the hosts claim has never been seen in Silicon Valley. 'We've really never seen anything like this,' says one of the hosts. Furthermore, the conversation highlights the competition in the AI space, with Anduril's top model facing competition from open-source AI and Grok, which is catching up quickly. 'Anthropic still has AI's top model, but Grok, and we're going to get into it today, is catching up quickly and opening AI not too shabby as well,' notes the host. These details provide a deeper understanding of the competitive landscape and the financial performance that underpins the investment thesis.",
+          "At the top of the docket on the Aug 14, 2026 All-In episode, a host read a Financial Times report from the Wednesday night before. The host said Anthropic was \"targeting a two trillion dollar IPO, according to the financial times,\" that \"this would obviously break the record setting 1.75 trillion dollar IPO by SpaceX,\" and that \"FT reported Wednesday night that investors expect the company to go public in October, which is like six to eight weeks away.\" The host also said the \"annualized run rate … will end the year between 100 and 120 billion dollars\" at \"a two trillion dollar valuation,\" or \"16 to 20 times sales, which is a fraction of what SpaceX and Palantir and some of these highly valued stocks went out at,\" with \"revenue growth over the last year, 10x.\" On models, the host said: \"Anthropic still has AI's top model, but grock, and we're going to get into it today, is catching up quickly and opening AI not too shabby as well.\""
+        ],
+        [
+          "Investors should monitor Anduril's revenue growth closely as a key indicator of its ability to justify its high valuation and compete in the AI space.",
+          "A host, reading the Financial Times, said Anthropic's annualized run rate would end 2026 between $100 and $120 billion, after 10-times revenue growth over the prior year."
+        ],
+        [
+          "The success of Anduril's IPO could set a new benchmark for AI company valuations, potentially impacting future investment in the sector.",
+          "The same host said a $2 trillion Anthropic IPO would be a record, above the $1.75 trillion SpaceX IPO cited from the FT, and that 16 to 20 times sales was a fraction of where SpaceX and Palantir went public."
+        ],
+        [
+          "The competitive landscape in AI is fluid, with the rise of open-source platforms posing a threat to proprietary models; investors should track shifts in market share.",
+          "The host said Anthropic still had AI's top model, but that Grok was catching up quickly and OpenAI was \"not too shabby as well.\""
+        ],
+        [
+          "Anduril's ability to capitalize on the growing demand for AI solutions will be a critical factor in determining its long-term value.",
+          "The October 2026 timing the hosts read from the FT has passed. This card does not treat a listing as having happened or as still upcoming."
+        ],
+        [
+          "The high valuation of Anduril might be seen as overoptimistic by some, considering the volatility of the tech market and the potential for AI valuations to correct.",
+          "A host on the same episode said he was \"a little skeptical\" of the $2 trillion figure."
+        ],
+        [
+          "There is a risk that the growth of open-source AI could outpace Anduril, making its proprietary technology less valuable.",
+          "The host also said Grok was catching up quickly and that OpenAI was competitive, so Anthropic's lead in the top model was not assumed to be permanent."
+        ],
+        [
+          "The actual valuation at Anduril's IPO and the market's reaction to it will be a significant milestone.",
+          "A dated Anthropic filing or pricing announcement that states the offer size and valuation, compared with the $2 trillion target the hosts read from the FT."
+        ],
+        [
+          "Quarterly financial reports post-IPO that indicate sustained growth or a slowdown will influence investor sentiment.",
+          "A dated disclosure of Anthropic's annualized run rate, compared with the $100 to $120 billion year-end figure the hosts cited."
+        ],
+        [
+          "Any major technological breakthroughs or partnerships announced by Anduril could serve as a positive catalyst.",
+          "A dated benchmark or product release showing whether Anthropic still has the top model, the comparison the host made with Grok and OpenAI."
+        ],
+        [
+          "Competitive moves from open-source AI platforms or other AI companies will be closely watched as potential catalysts that could shift the competitive landscape.",
+          "A dated open-source or rival-model release that the company or a primary source says has taken share from Anthropic."
+        ],
+        [
+          "Should Anduril's revenue growth fail to meet the expected annualized run rate of 100-120 billion dollars by year-end, the bullish thesis on its valuation would be significantly weakened.",
+          "If a dated Anthropic disclosure for year-end 2026 shows an annualized run rate well below the $100 to $120 billion figure the hosts cited from the discussion around the FT report, that part of the episode's claim does not hold."
+        ],
+        [
+          "Any public disclosure of Anduril's financials that show slowing growth or lower-than-expected revenues would challenge the current investment narrative.",
+          "If a dated Anthropic disclosure shows revenue growth far below the 10-times-over-the-last-year figure the host cited, that part of the episode's claim does not hold."
+        ],
+        [
+          "If open-source AI or Grok overtakes Anduril in terms of technological advancement or market share, it could diminish Anduril's competitive advantage and affect its valuation.",
+          "If a dated benchmark or the company itself says another model has overtaken Anthropic as the top model, the host's \"still has AI's top model\" line no longer holds."
+        ]
+      ],
+      "drop_tickers": [
+        "ANDR",
+        "SPCE",
+        "AAPL"
+      ],
+      "drop_list_items": {
+        "contrarian_signals": [
+          "Regulatory changes or increased scrutiny on data privacy could hinder Anduril's growth and impact its valuation."
+        ],
+        "falsification_tracks": [
+          "A failure to go public by October, as speculated, could indicate internal or market-related issues that might affect the company's valuation."
+        ]
+      }
+    },
+    {
+      "insight_id": 703,
+      "podcast_episode_id": 692,
+      "_note": "Nov 20 2026 (G g_fixes (d)): All-In Databricks CEO episode. Speaker of the 'one host' lines is Ali Ghodsi (G checked the stored transcript, YouTube captions). Summary sentences 1-2 credit Ali Ghodsi (G's exact strings), notable_quotes speakers and deep dive episode_evidence labels: G's five exact 'one host: ...' lines -> 'Ali Ghodsi: ...' (not a bare 'one host:' swap; other cards use that label for other people), and quote 1 'I think' -> 'I argue' (transcript wording). Scoped to ep 692/insight 703; no global 'one host' rule. D4 (overview 'The hosts argue' -> 'Ghodsi argues') was optional and not applied.",
+      "replacements": [
+        [
+          "The episode also argues that enterprise rollout will be gradual, with one host saying AI adoption will take 10-15 years and GDP effects will take decades.",
+          "The episode also argues that enterprise rollout will be gradual, with Ali Ghodsi saying that closing the context gap at companies will take 10 to 15 years and that GDP effects will take decades."
+        ],
+        [
+          "One host argues that recursive self-improvement requires four demanding conditions that are not clearly met and that the more immediate safety risk is cyber, not runaway AGI.",
+          "Ali Ghodsi argues that recursive self-improvement requires four demanding conditions that are not clearly met and that the more immediate safety risk is cyber, not runaway AGI."
+        ],
+        [
+          "one host: Now, I think we have all the intelligence we need to completely transform the planet.",
+          "Ali Ghodsi: Now, I think we have all the intelligence we need to completely transform the planet."
+        ],
+        [
+          "one host: I think the biggest challenge that's facing us is how do we actually just make this AI applicable inside organizations?",
+          "Ali Ghodsi: I argue that the biggest challenge that's facing us is how do we actually just make this AI applicable inside organizations?"
+        ],
+        [
+          "one host: If you capture all that context and you could feed it to the AI, they would nail the problems.",
+          "Ali Ghodsi: If you capture all that context and you could feed it to the AI, they would nail the problems."
+        ],
+        [
+          "one host: Then you still have another problem, which is okay. Now the token cost is going up exponentially.",
+          "Ali Ghodsi: Then you still have another problem, which is okay. Now the token cost is going up exponentially."
+        ],
+        [
+          "one host: We actually have a whole product in the Cybre space called LakeWatch built on all this data that has automated agents that actually detect these kind of intrusions that happening in a monitor your agents that you have.",
+          "Ali Ghodsi: We actually have a whole product in the Cybre space called LakeWatch built on all this data that has automated agents that actually detect these kind of intrusions that happening in a monitor your agents that you have."
+        ],
+        [
+          "I think the biggest challenge that's facing us is how do we actually just make this AI applicable inside organizations?",
+          "I argue that the biggest challenge that's facing us is how do we actually just make this AI applicable inside organizations?"
+        ]
+      ],
+      "relabel_quotes": [
+        [
+          "I argue that the biggest challenge",
+          "Ali Ghodsi"
+        ],
+        [
+          "glorified Google search",
+          "Ali Ghodsi"
+        ],
+        [
+          "token cost is going up exponentially",
+          "Ali Ghodsi"
+        ]
+      ]
+    },
+    {
+      "insight_id": 705,
+      "podcast_episode_id": 696,
+      "_note": "Nov 20 2026 (G site check items 1-2): Moonshots 'Anthropic's $1.4T IPO' (ep 696, transcript DVVTS7543111415.txt). ANT is not a real ticker: dropped (list left empty). Quote 1 'value in thropic' -> 'value in Anthropic' (ASR typo; card and deep dive evidence). 'Starling V3 satellites' -> 'Starlink V3' (transcript line: 'deployed 26 Starling V3 satellites', the network is Starlink elsewhere in the same transcript). The 'optimized lease experimentation sign-up flow' sentence is dropped (summary) and its deep dive evidence line dropped: the transcript says only 'optimized lease', so 'Optimizely' is not supported. 'fourth-quarter guidance at $130 billion' clause dropped: in the transcript that line is the NVIDIA earnings segment (interim CEO guided Q4), not Anthropic; Anthropic Q3 $17B and ~$81B run rate stay (transcript has both).",
+      "replacements": [
+        [
+          "value in thropic at 1.4 trillion",
+          "value in Anthropic at 1.4 trillion"
+        ],
+        [
+          "26 Starling V3 satellites",
+          "26 Starlink V3 satellites"
+        ],
+        [
+          " Another says attackers used a flaw in an Optimized lease experimentation sign-up flow and injected hostile JavaScript into 178 organizations, including CNN, Zoom, HSBC, Equifax, Salesforce, and IKEA.",
+          ""
+        ],
+        [
+          "\none host: attackers used a flaw in optimized lease experimentation sign-up flow and injected hostile JavaScript into 178 organizations companies like CNN zoom HSBC Equifax Salesforce and IKEA",
+          ""
+        ],
+        [
+          "third-quarter revenues at $17 billion, an annualized run rate of about $81 billion as of October 31st, and fourth-quarter guidance at $130 billion, framing",
+          "third-quarter revenues at $17 billion and an annualized run rate of about $81 billion as of October 31st, framing"
+        ]
+      ],
+      "drop_tickers": [
+        "ANT"
+      ]
+    },
+    {
+      "insight_id": 706,
+      "podcast_episode_id": 694,
+      "_note": "Nov 20 2026 (G site check item 3): Monetary Matters, Rick Rule (ep 694, EWWMN2105310273.txt). Sentiment neutral -> bullish (G: takeaway/summary explicitly constructive on copper and silver stocks). Ticker SILV dropped: Rule never names SILV in the transcript (the only ticker read is the sponsor's LENS).",
+      "set_sentiment": "bullish",
+      "drop_tickers": [
+        "SILV"
+      ]
+    },
+    {
+      "insight_id": 707,
+      "podcast_episode_id": 695,
+      "_note": "Nov 20 2026 (G site check item 4): ChinaTalk BIS rule (ep 695, CHTAL1015687357.txt). Notable quote 2 ASR: 'black well' -> 'Blackwell', 'H 100' -> 'H100'. Summary: lowercase 'one host' at sentence starts -> 'One host' (x2). AMD kept: the episode names AMD (transcript line 537, 'AMD or I'm going to make the chips myself'). AMAT not added.",
+      "replacements": [
+        [
+          "black well chips",
+          "Blackwell chips"
+        ],
+        [
+          "800 H 100 chips",
+          "800 H100 chips"
+        ],
+        [
+          "enforcement. one host argues",
+          "enforcement. One host argues"
+        ],
+        [
+          "response. one host says",
+          "response. One host says"
+        ]
       ]
     }
   ],
@@ -9702,6 +9917,1206 @@
         "last_main_idea",
         "supporting_takeaway"
       ]
+    },
+    {
+      "id": 40,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Garrett Langley. Live/DB figure $500,000,000 rested on https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 94,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Carson Block. Live/DB figure $200,000,000 rested on https://www.publicfigurenetworth.com/carson-block-net-worth/, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 117,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Liz Ann Saunders. Live/DB figure $5,000,000 rested on https://noteablebio.com/the-remarkable-journey-of-liz-ann-sonders-and-her-net-worth/, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 121,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Lynn Alden. Live/DB figure $4,600,000 rested on https://moolahtimes.com/lyn-alden/, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 180,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Amjad Masad. Live/DB figure $400,000,000 rested on https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 187,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Luke Groman. Live/DB figure $10,000,000 rested on https://tycoonsnetworth.com/celebrity/entrepreneur/luke-gromen-net-worth/, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 203,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Martin Schrelli. Live/DB figure $10,000,000 rested on https://thesuperions.com/martin-shkrelis-net-worth/, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 242,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Spencer Pratt. Live/DB figure $6,000,000 rested on https://leads.rosseducation.edu/the-rise-of-a-reality-star-uncovering-spencer-pratts-net-worth/, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 335,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Pat Gelsinger. Live/DB figure $120,000,000 rested on https://thedacian.com/pat-gelsinger-net-worth/, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 403,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Evan Baker. Live/DB figure $11,000,000 rested on https://www.gurufocus.com/insider/32706/evan-bakst, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 444,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal): blank value and source for Andrew Chen. Live/DB figure $30,000,000 rested on https://explore.st-aug.edu/exp/andrew-chen-a16z-books-brianne-kimmel-blog-uber-age-and-net-worth, a low-quality, lead-gen or wrong-person page. DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 42,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 42 (Jack Mallers); $50,000,000 rested on https://www.datawallet.com/crypto/jack-mallers-net-worth (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 52,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 52 (Alex Carp); $14,000,000,000 rested on https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 53,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 53 (a16z Host); $288,000,000 rested on https://en.wikipedia.org/wiki/Andreessen_Horowitz (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 57,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 57 (Patrick Suresne); $20,500,000 rested on https://www.celebritynetworth123.com/richest-athletes/patrick-surtain-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 58,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 58 (Dwarkesh Patel); $1,200,000,000 rested on https://www.cinenetworth.com/dwarkesh-patel-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 84,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 84 (John Fetterman); $95,000,000,000 rested on https://www.wsws.org/en/articles/2025/03/27/yykn-m27.html (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 86,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 86 (Paul Krugman); $15,000,000 rested on https://thenewstalkers.com/community/discussion/66430/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 108,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 108 (Bridget Memplar); $50,000,000 rested on https://www.celebritynetworth.com/richest-celebrities/actors/bridgit-mendler-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 111,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 111 (Alex Miller); $12,000,000 rested on https://www.urbansplatter.com/2025/04/alex-miller-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 113,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 113 (Brian Johnson); $300,000,000 rested on https://joinhampton.com/blog/the-300-million-exit-thats-funding-humanitys-future-with-bryan-johnson (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 114,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 114 (Chris Power); $220,000,000 rested on https://www.businessoffamily.net/chris-powers (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 120,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 120 (David Yulovich); $200,000,000 rested on https://impactwealth.org/david-sacks-net-worth-and-biography-2025-the-journey-of-a-tech-visionary/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 122,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 122 (Michael Every); $70,000,000,000 rested on https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 124,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 124 (Turner Caldwell); $10,000,000,000 rested on https://americanbatterytechnology.com/how-a-network-of-ex-tesla-employees-created-10-billion-worth-of-u-s-clean-energy-investments/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 127,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 127 (Rupert Mitchell); $19,500,000,000 rested on https://artistnetworth.org/richest-businessman/ceo/rupert-murdoch-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 135,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 135 (Host Name); $250,000,000 rested on https://digitalstrategy-ai.com/2025/01/06/tech-leaders-net-worth-in-2024/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 141,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 141 (Doug Burnower); $243,000,000,000 rested on https://www.zippia.com/space-exploration-technologies-careers-39035/executives/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 143,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 143 (Erin Price Wright); $7,000,000 rested on https://biowikis.com/erin-bria-wright/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 146,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 146 (David Haper); $5,000,000 rested on https://networthgenius.com/net-worth/david-harper-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 148,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 148 (Matt Barry); $185,000,000 rested on https://www.therichest.com/celebnetworth/celebrity-business/men/matt-barrie-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 150,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 150 (Alex Bonia); $3,600,000,000 rested on https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 152,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 152 (N/A); $1,100,000,000,000 rested on https://en.wikipedia.org/wiki/High-net-worth_individual (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 159,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 159 (Dr. Frenner); $8,000,000 rested on https://wealthrector.com/lex-fridman-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 161,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 161 (Robert Conexberger); $80,000,000 rested on https://thecollegeinvestor.com/972/the-top-10-investors-of-all-time/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 169,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 169 (Ben Topore); $10,000,000 rested on https://networth20.com/ben-domenech-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 170,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 170 (Max Weathie); $90,000,000,000 rested on https://www.brandvm.com/post/richest-ceos-world (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 175,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 175 (Jessie Janae); $26,274,848 rested on https://hafi.pro/income/jessiej (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 181,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 181 (Jack Neal); $5,000,000 rested on https://celebrity-birthdays.com/people/jack-neel (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 190,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 190 (Kevin Rose); $100,000,000 rested on https://www.celebritynetworth.com/richest-businessmen/ceos/kevin-rose-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 195,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 195 (Matt Borenstein); $42,000,000 rested on https://explorecelebz.com/vegas-matt-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 197,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 197 (Theo Jaffee); $4,750,000 rested on https://www.therichest.com/celebnetworth/celebrity-business/tech-millionaire/david-jaffe-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 200,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 200 (Chris Wayland); $50,000,000 rested on https://www.celebritynetworth.com/richest-celebrities/actors/christopher-walken-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 209,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 209 (David Sinclair); $25,000,000 rested on https://www.eyemindspirit.com/blogs/pop-culture/david-sinclairs-net-worth (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 211,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 211 (John Cougan); $50,000,000 rested on https://demo.theurbanist.org/john-koudounis-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 219,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 219 (Elena Berger); $2,000,000,000 rested on https://explore.st-aug.edu/exp/an-insight-into-her-net-worth-behind-the-headlines-and-billions (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 220,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 220 (Moes Cassam); $7,000,000 rested on https://moneypromax.com/stock-moe-net-worth-age-wife/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 221,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 221 (Max Weathy); $4,500,000,000 rested on https://digitalstrategy-ai.com/2025/01/06/tech-leaders-net-worth-in-2024/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 226,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 226 (Warren Pious); $12,000,000 rested on https://www.cinenetworth.com/elizabeth-warren-salary-and-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 227,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 227 (Max Weethy); $3,000,000,000 rested on https://www.growth-hackers.net/what-is-max-levchin-net-worth-entrepreneur-how-make-money-paypal-wealth-rich-investor-success-business/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 235,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 235 (Eddie Lazzer); $500,000,000 rested on https://sociallifemagazine.com/technology/chris-dixon-net-worth-2025/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 240,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 240 (David Reich); $5,000,000 rested on https://celebrity-birthdays.com/people/david-reich-geneticist (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 243,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 243 (Thomas Lloyd Jones); $15,000,000 rested on https://canvomagazine.com/lloyd-jones-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 250,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 250 (Andrew Perry); $120,000,000 rested on https://insidethemagic.net/2024/07/friends-fans-are-shocked-to-learn-how-little-actor-matthew-perry-had-when-he-died-bb1/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 251,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 251 (Eric Jeng); $10,000,000 rested on https://www.shortbox.co.uk/from-whales-to-vr-how-eric-cheng-built-his-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 261,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 261 (John Doe); $7,500,000,000 rested on https://john-doe-net-worth.pages.dev/posts/john-doe-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 263,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 263 (Andreas Stino-Larson); $5,000,000 rested on https://bigmagazines.com/andrew-santino-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 268,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 268 (Sarah Fryer); $265,000,000 rested on https://bionewsly.com/sarah-friar/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 273,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 273 (George Prager); $4,900,000 rested on https://www.networthspot.com/prageru/net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 274,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 274 (a16z Team); $2,000,000,000 rested on https://sociallifemagazine.com/celebrities/marc-andreessen-ai-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 278,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 278 (Matt Smith); $10,000,000 rested on https://famouspeopletoday.com/matt-smith-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 289,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 289 (Brad Gerstner); $950,000,000 rested on https://www.growth-hackers.net/what-is-brad-gerstner-net-worth-entrepreneur-how-make-money-wealth-rich-investor-success-business/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 293,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 293 (Sartina Della); $1,300,000,000 rested on https://www.mirrorreview.com/satya-nadella-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 294,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 294 (Host of Latent Space); $2,500,000,000 rested on https://wealthyspeak.com/richest-motivational-speakers/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 297,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 297 (Eden Ha); $10,000,000 rested on https://networthflo.com/barbara-eden-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 298,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 298 (Jim Chanos); $200,000,000 rested on https://www.celebritynetworth.com/richest-businessmen/wall-street/jim-chanos-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 301,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 301 (Jake Paul); $200,000,000 rested on https://www.celebritynetworth.com/richest-celebrities/richest-comedians/jake-paul-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 304,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 304 (Latent Space Host); $180,000,000 rested on https://fineducke.com/articles/richest-late-night-host (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 314,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 314 (Matt Tenzig); $40,000,000 rested on https://somuchpoker.com/news/vegas-matt-net-worth-and-life (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 320,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 320 (Josh Pristow); $12,000,000 rested on https://www.urbansplatter.com/2024/11/jason-priestley-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 321,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 321 (Daryl Duffy); $4,000,000 rested on https://www.celebritynetworth.com/richest-celebrities/singers/duffy-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 325,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 325 (The a16z Show); $500,000,000 rested on https://blockchainreporter.net/net-worth/chris-dixon/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 327,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 327 (Priscilla Chan); $50,000,000,000 rested on https://www.celebritynetworth.com/richest-businessmen/business-executives/priscilla-chan-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 330,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 330 (Tim Ruffgarten); $74,600,000 rested on https://www.celebritynetworth.com/richest-businessmen/ceos/tim-cook-net-wrth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 331,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 331 (Thai Abraham); $85,000,000 rested on https://percentagecalculatorshub.com/blog/sam-ibrahim-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 334,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 334 (Guido Epenseller); $10,000,000 rested on https://www.thecityceleb.com/biography/personality/guido-van-rossum-biography-age-awards-wiki-career-net-worth-wife-children-parents-siblings/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 337,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 337 (Moritz Hyden); $106,000,000,000 rested on https://moneyinc.com/20-richest-hedge-fund-managers-world/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 338,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 338 (Moritz Sebert); $7,000,000,000 rested on https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/michael-moritz-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 340,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 340 (Ratha Gomez Bumbarelli); $1,300,000,000 rested on https://guidenetworth.com/selena-gomez-net-worth-2025-2025/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 341,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 341 (Sonalg Kolhe); $9,000,000 rested on https://www.cheatsheet.com/news/solanges-net-worth.html/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 343,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 343 (Alex Wees); $50,000,000 rested on https://www.cinenetworth.com/wes-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 344,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 344 (Sly Miss Mail); $50,000,000 rested on https://www.celebritynetworth.com/richest-celebrities/singers/missy-elliott-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 348,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 348 (Peter Ludwig); $14,000,000 rested on https://www.citimuzik.com/2024/01/ludwig-net-worth.html (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 350,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 350 (RJ Hanikki); $20,000,000 rested on https://mukeshsolanky.medium.com/indian-origin-tech-ceos-f7dae89e50b3 (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 352,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 352 (Underrate Cupathy); $5,000,000 rested on https://networthpublic.com/andrej-karpathy-net-worth-biography-career/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 355,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 355 (Sri Ram Krishna); $12,000,000 rested on https://ibusiness.news/news/2026-01-07/exploring-sriram-krishnans-net-worth-and-connections-to-trump-and-elon-musk/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 358,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 358 (Nick Brooks); $41,000,000 rested on https://www.urbansplatter.com/2025/05/david-brooks-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 359,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 359 (Max Weethe); $7,600,000 rested on https://www.networthspot.com/mister-max/net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 363,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 363 (Chastikohos Vibu); $30,000,000,000 rested on https://news24online.com/photos/business/rs-122000-crore-net-worth-massive-startups-and-ai-investments-richest-iit-graduates-in-the-world-889010 (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 367,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 367 (Jesse Zang); $1,500,000,000 rested on https://founderspedia.com/jesse-zhang/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 370,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 370 (Mark Andrewson); $1,900,000,000 rested on https://bitcoinersanonymous.com/project/marc-andreessen/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 373,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 373 (Sophia Dhu); $10,000,000 rested on https://www.celebritynetworth.com/richest-celebrities/models/sophie-mudd-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 374,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 374 (Sophia Puccini); $8,000,000 rested on https://onlinenamez.com/sofia-richie-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 378,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 378 (Michael Kratsios); $5,000,000 rested on https://ifann.net/wiki/michael-kratsios (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 386,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 386 (Matt Fornstein); $45,000,000 rested on https://wisetoast.com/vegas-matt-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 390,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 390 (Daya Pernos); $4,000,000 rested on https://gorillaoverview.com/daya-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 391,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 391 (Dean Pernos); $450,000,000 rested on https://moneyinc.com/dan-pena-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 398,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 398 (Gary Tan); $50,000,000 rested on https://unnetworth.com/garry-tan-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 401,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 401 (Ron Emmanuel); $14,000,000 rested on https://www.celebritynetworth.com/richest-politicians/democrats/rahm-emanuel-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 414,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 414 (NG ZDN); $230,000,000 rested on https://leads.rosseducation.edu/the-rise-of-andrew-ng-uncovering-his-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 415,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 415 (Daisy Wolfe); $6,000,000 rested on https://www.celebritynetworth.com/richest-celebrities/models/daisy-lowe-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 416,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 416 (Eva Steinman); $2,000,000,000 rested on https://explore.st-aug.edu/exp/an-insight-into-her-net-worth-behind-the-headlines-and-billions (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 417,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 417 (Michael Crathfields); $5,000,000 rested on https://ifann.net/wiki/michael-kratsios (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 419,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 419 (Jen Cos); $15,000,000 rested on https://learnmore.charlestonsouthern.edu/professional-transformation/jenny-coco-net-worth-unveiling-the-success-story-of-a-rising-star.html (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 423,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 423 (Eric Weinstein); $10,000,000 rested on https://infooceleb.com/eric-weinstein-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 425,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 425 (Sam Alman); $1,000,000,000 rested on https://unnetworth.com/sam-altman-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 426,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 426 (Ruggle Rugglerum); $15,000,000 rested on https://scotlandb2b.co.uk/faze-rug-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 430,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 430 (Dario Amodei); $7,000,000,000 rested on https://billionairenetworth.com/billionaires/dario-amodei (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 439,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 439 (Stefan Bunzel); $6,000,000,000 rested on https://www.celebritynetworth.com/richest-businessmen/ceos/stephane-bancel-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 445,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 445 (Ryan Krishneth); $12,000,000 rested on https://ibusiness.news/news/2026-01-07/exploring-sriram-krishnans-net-worth-and-connections-to-trump-and-elon-musk/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 449,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 449 (John Ferris); $5,000,000 rested on https://www.celebritynetworth.com/richest-businessmen/wall-street/jonas-max-ferris-net-worth/ (lead-gen / bio-mill / networth-aggregator or wrong-subject page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 290,
+      "_note": "Nov 20 2026 (G g_fixes (b)): entity 403 'Evan Baker' merged into 290 'Gavin Baker' in the DB (appearance of ep 405 repointed). As on pundit 403, the host-reading-the-FT 'last_main_idea' / 'supporting_takeaway' for the Aug 14 episode stay unset (a DB-derived 'Anduril' idea would otherwise come back). Gated to this episode. The raw intro snippet ('...David Sacks and Evan Baker are with us this week...') carries the ASR name and quote-safe name swaps skip snippets, so last_proof_snippet is blanked (same as 403 last night).",
+      "when": {
+        "last_episode_title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback"
+      },
+      "unset": [
+        "last_main_idea",
+        "supporting_takeaway"
+      ],
+      "set": {
+        "last_proof_snippet": ""
+      }
+    },
+    {
+      "id": 681,
+      "_note": "Nov 20 2026 (G site check item 3): Rick Rule. supporting_takeaway 'versus the higher January level he cited': transcript (EWWMN2105310273.txt) has 'In January, I anticipated that the silver stocks were discounting about $42 an ounce', so the figure is inserted. last_proof_snippet was sponsor-read ASR; replaced by a verbatim Rule line from the transcript ('I think that the silver stocks now are discounting somewhere between $35 and $40 an ounce.'). Gated to this episode.",
+      "when": {
+        "last_episode_title": "How Deficits Will Drive the Next Wave of the Commodity Supercycle | Rick Rule"
+      },
+      "set": {
+        "last_proof_snippet": "I think that the silver stocks now are discounting somewhere between $35 and $40 an ounce."
+      },
+      "replacements": [
+        [
+          "versus the higher January level he cited",
+          "versus the higher January level of about $42 per ounce he cited"
+        ]
+      ]
+    },
+    {
+      "id": 495,
+      "_note": "Nov 20 2026 (G site check item 5): Rosenberg last_main_idea ('November 3 midterm gridlock could slow growth...') is stale (Nov 3 has passed) and G gave no exact past-tense wording, so the field is removed. Gated to the Oct 1 episode.",
+      "when": {
+        "last_episode_title": "MacroVoices #552 David Rosenberg: Navigating The Noise"
+      },
+      "unset": [
+        "last_main_idea"
+      ]
+    },
+    {
+      "id": 460,
+      "_note": "Nov 20 2026 (G site check item 5): Joseph Wang last_main_idea 'The Fed is expected to implement two more rate hikes' (Sep 16). Transcript (EWWMN8760779261.txt): Wang says 'I think two more hikes after today'; it is his own read, not what 'the Fed is expected' to do, so 'as of Sep 16' alone would not be faithful. Field removed. Gated to this episode.",
+      "when": {
+        "last_episode_title": "Hawks Take Flight | Joseph Wang on Fed’s Hawkish Hike and Warsh’s Gameplan"
+      },
+      "unset": [
+        "last_main_idea"
+      ]
+    },
+    {
+      "id": 285,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 285 (David A. Asnagi); $100,000,000 rested on https://www.thestreet.com/crypto/newsroom/davido-networth-a-mix-of-career-success-and-smart-business-moves (networth-aggregator / bio-mill / collection page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 133,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 133 (Chris Dixon); $500,000,000 rested on https://blockchainreporter.net/net-worth/chris-dixon/ (networth-aggregator / bio-mill / collection page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 267,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 267 (Bill Gurley); $600,000,000 rested on https://www.peopleandmedia.com/bill-gurley-net-worth/ (networth-aggregator / bio-mill / collection page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 266,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 266 (Delip Tasman); $1,500,000,000 rested on https://coinpaper.com/collections/crypto-people-net-worth (networth-aggregator / bio-mill / collection page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
     }
   ],
   "pundit_merges": [
