@@ -3044,6 +3044,21 @@
           "response. One host says"
         ]
       ]
+    },
+    {
+      "insight_id": 709,
+      "podcast_episode_id": 700,
+      "_note": "Nov 20 2026 (G, exact wording after publish_guard hard block on 'bet' in our voice): card 709 key_takeaway / ep 700 investment_thesis, swap only 'key bet' -> 'core idea'. Matches stored DB text (curly apostrophe) and the straight-apostrophe form.",
+      "replacements": [
+        [
+          "Linear’s key bet is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push.",
+          "Linear’s core idea is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push."
+        ],
+        [
+          "Linear's key bet is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push.",
+          "Linear's core idea is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push."
+        ]
+      ]
     }
   ],
   "terms": [
@@ -11111,6 +11126,150 @@
     {
       "id": 266,
       "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, extras): blank net worth for entity 266 (Delip Tasman); $1,500,000,000 rested on https://coinpaper.com/collections/crypto-people-net-worth (networth-aggregator / bio-mill / collection page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 689,
+      "_note": "Nov 20 2026 (G, exact wording): Cristina Cordova last_main_idea, swap only 'key bet' -> 'core idea' (card 709 sentence). Exact-text match only.",
+      "replacements": [
+        [
+          "Linear’s key bet is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push.",
+          "Linear’s core idea is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push."
+        ],
+        [
+          "Linear's key bet is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push.",
+          "Linear's core idea is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push."
+        ]
+      ]
+    },
+    {
+      "id": 198,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 198 (Balaji Srinivasan); $9,000,000,000 rested on https://www.bbntimes.com/society/vincent-bollore-a-deep-dive-into-the-net-worth-business-ventures-political-power-and-ethnicity-of-the-french-tycoon (wrong-person page (Vincent Bolloré)). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 418,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 418 (Anish Acharya); $13,800,000,000 rested on https://www.africanbusinessreview.co.za/ilya-sutskever-net-worth/ (wrong-person page (Ilya Sutskever)). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 342,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 342 (Ramin Hasani); $523,000,000 rested on https://www.analyticsinsight.net/biography/demis-hassabis (wrong-person page (Demis Hassabis)). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 215,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 215 (Kieran Cavanna); $28,000,000,000 rested on https://www.indmoney.com/us-stocks/george-soros (wrong-person page (George Soros)). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 276,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 276 (Will Bryk); $600,000,000,000 rested on https://eu.36kr.com/en/p/3632035908748551 (implausible $600B figure). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 233,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 233 (Roderick van Zuylen); $400,000,000 rested on https://www.reddit.com/r/sharktank/comments/j3ma1i/kevins_net_worth_of_400m_seems_fairly_low/ (reddit thread). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 105,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 105 (Josh Linville); $15,000,000,000 rested on https://www.linkedin.com/in/joshua-linville-9555a711/ (linkedin profile). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 106,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 106 (Nadia Martin Wiggen); $750,000,000 rested on https://hedgenordic.com/2023/06/svelland-capital-hires-pareto-analyst/ (hedgenordic hire article). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 140,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 140 (Gio Valiante); $15,200,000,000 rested on https://www.theladders.com/career-advice/these-are-the-25-highest-paid-hedge-fund-managers (theladders list). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 183,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 183 (Aaron Levie); $107,852,195 rested on https://strike.market/key-executives/0001606525 (strike.market page). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 333,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 333 (Dylan Patel); $3,700,000,000 rested on https://substack.com/home/post/p-153458455 (substack post). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 137,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 137 (Leyla Kunimoto); $2,000,000,000 rested on https://substack.com/profile/30791185-leyla-kunimoto/note/c-158466514 (substack note). DB net_worth fields nulled too.",
+      "set": {
+        "net_worth_usd": null,
+        "net_worth_source": "",
+        "net_worth_updated_at": null,
+        "net_worth": null
+      }
+    },
+    {
+      "id": 104,
+      "_note": "Nov 20 2026 (Jared decisions.md 2026-11-20 8:51 AM CT, junk net-worth removal, G-flagged extras): blank net worth for entity 104 (Matt Mahan); $1,000,000,000 rested on https://spearswms.com/wealth/matt-mahan/ (spearswms page). DB net_worth fields nulled too.",
       "set": {
         "net_worth_usd": null,
         "net_worth_source": "",
