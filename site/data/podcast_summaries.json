@@ -1,10 +1,119 @@
 [
   {
+    "id": 708,
+    "podcast_name": "ChinaTalk",
+    "episode_title": "The Agentic State",
+    "episode_date": "2026-11-20",
+    "summary": "The episode argues that governments are entering an \u201cagentic flooding\u201d era, where citizens and agents will submit far more FOIA requests, grants, permits, and similar demands, forcing public services to be redesigned end-to-end. Lucas says the real bottleneck is less about raw technology and more about process re-engineering, security, governance, and the shrinking pool of civil servants as retirement waves hit rich countries and the OECD.\n\nLucas\u2019s core thesis is that if governments are built for agentic workflows, many services could become nearly instantaneous, with simple and complex workflows alike potentially finished in about a minute by 2031. He says the hard part is not the interface but the operational redesign: canonical studies suggest two thirds to three quarters of the work is process and organizational change, not the software itself.\n\nThe conversation uses several public-sector examples to ground the argument. The hosts cite New York\u2019s 18-month outdoor dining backlog and discuss how a sidewalk cafe or licensing process could be broken into deterministic checks, probabilistic judgment, and human review for edge cases, with a goal of 90% to 95% of compliant cases moving quickly. Lucas also points to Ukraine, where a citizen app launched in 2019 reached about half of adults by the 2022 invasion and later added chatbot-style transactional services.\n\nThe episode also highlights Estonia and Singapore as examples of faster government software and procurement. Lucas describes Estonia using a small internal tool to automate procurement requirements in a week and later reducing AI-training procurement to 24 hours end to end, while Singapore\u2019s platform lets civil servants \u201cvibe code\u201d with built-in standards, APIs, identity, and reviews. The broader ambition is a \u201chuggingface-like\u201d learning infrastructure for government processes, so successful playbooks and metadata can spread across jurisdictions instead of taking years to diffuse.",
+    "key_takeaways": [
+      "Lucas says governments that adapt to agentic workflows could make many public services basically instantaneous, including services that are now complex and discretionary.",
+      "one host says governments should expect \u201cagentic flooding,\u201d meaning more FOIA, grant, and permit requests arriving through AI-assisted or agent-native channels.",
+      "Lucas says the hardest part is process re-engineering and organizational change, which canonical studies put at two thirds to three quarters of the work.",
+      "one host says good internal government systems should aim to process 90% to 95% of compliant applications quickly, while routing edge cases to humans within a day or two.",
+      "Lucas says Ukraine launched a strong citizen app in 2019 and reached about half the adult population by the 2022 invasion, then expanded into chatbot and transactional services.",
+      "Lucas says Estonia\u2019s procurement automation example shows how a small tool can cut AI-training procurement to 24 hours end to end after previously being inefficient.",
+      "Lucas argues for a \u201chuggingface-like\u201d global learning infrastructure for government so process models, governance metadata, and playbooks can be shared faster across jurisdictions."
+    ],
+    "investment_thesis": "The biggest opportunity is software and governance infrastructure that lets governments securely route, review, and automate agent-driven public services at scale.",
+    "key_tickers": null
+  },
+  {
+    "id": 707,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Why the Agent Era Needs a New Operating System | DHH",
+    "episode_date": "2026-11-20",
+    "summary": "David Heinemira Hansen argues that an \"agent era\" will change computing so users can modify operating systems by prompting an agent, and he says Linux is especially well suited because agents prefer command lines, predictable config files, and informative error messages. He contrasts that with macOS and Windows, which he says are becoming hostile to agent workflows because they are built around mouse-driven settings and guarded permissions.\n\nHeinemira Hansen says he is building Omachi, a Linux distribution for the age of agents, and claims the entire OS has been developed by agents for the past five or six months. He says he has not written code by hand for the project in that period, and he cites adoption and output claims including hundreds of thousands of people switching from Windows and Mac, as well as hundreds of thousands of lines of agent-written code.\n\nA major part of his case is that software moats will weaken as AI makes code easier to regenerate and adapt. He points to a community member who, over two weeks, replicated Adobe Lightroom and says agents could erase whole classes of apps that were once also professions, not just software products. He also argues that application availability and speed of replication will matter more than historical platform lock-in.\n\nHeinemira Hansen is strongly pro open weights and open source, warning that a closed-model duopoly could capture the value chain the way social media captured ad economics. He gives speculative timelines for future capability and throughput, saying it is entirely possible that true super intelligence arrives by next year and that models could reach 100,000 to 1,000,000 tokens a second in two years. He also says Linux could potentially unseat macOS within about 12 months, though he frames that as highly ambitious and conditional.",
+    "key_takeaways": [
+      "David Heinemira Hansen says users will eventually be able to tell an agent to modify the operating system directly, replacing traditional settings workflows.",
+      "David Heinemira Hansen says Linux fits the agent era better than macOS or Windows because agents want a command line, predictable config files, and detailed error messages.",
+      "David Heinemira Hansen says he is building Omachi as a Linux distribution for the age of agents and that agents have written the OS for the past five or six months.",
+      "David Heinemira Hansen says macOS is becoming harder to use with agents because of Apple\u2019s permission prompts and manual configuration friction.",
+      "David Heinemira Hansen says source-code moats will weaken because agents can recreate software faster, making app availability and replication speed more important.",
+      "David Heinemira Hansen says a community member replicated Adobe Lightroom in two weeks and made it better, which he uses as evidence that whole app categories can be recreated quickly.",
+      "David Heinemira Hansen says open weights and open source are necessary to prevent a closed-model duopoly from capturing the AI value chain.",
+      "David Heinemira Hansen says true super intelligence by next year is possible, and that model throughput could reach 100,000 to 1,000,000 tokens a second within two years."
+    ],
+    "investment_thesis": "The key claim is that agent-first software will favor Linux and open models over traditional desktop platforms and closed AI stacks.",
+    "key_tickers": null
+  },
+  {
+    "id": 701,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #559 Ole Hansen: What\u2019s Next After The spec Washout in Commodities",
+    "episode_date": "2026-11-19",
+    "summary": "Ole Hansen argues the recent weakness across commodities is primarily a positioning washout, not proof that the broader bull market is over. He says combined net positioning has \u201calmost collapsed,\u201d which can set up the next move higher because hedge funds tend to buy strength and sell weakness. He also stresses that the market has already seen a large prior run, so the current pullback can create a contrarian rebound opportunity rather than a trend reversal.\n\nOn the macro side, Hansen says the AI capex boom is unlikely to die overnight, and that the near-term impact on commodities is more psychological than fundamental, especially for electrification and power demand. He says copper\u2019s setback reflects that power-demand narrative more than a collapse in electrification, while refined products and fuel costs remain the bigger inflation issue. His key point is that diesel and refined product tightness matter more than crude spot for pass-through to consumers.\n\nHansen also says crude and refined-product markets remain tight because refinery capacity has not fully recovered, with missing capacity in Russia and parts of the Middle East. He warns against assuming crack spreads will collapse just because crude falls, since refining constraints and backwardation can keep the energy complex supported. In precious metals, he characterizes gold, silver, and platinum as being in correction regimes after large gains, with investor appetite still challenged by prior mark-to-market pain.\n\nThe overall message is that commodities may be setting up for another leg higher, but the timing depends on positioning, inflation, rates, the dollar, and whether supply constraints in energy and refined products persist. Agriculture is a similar setup: weather and geopolitical risks pushed positioning extremely short before that unwound, leaving the market vulnerable to re-pricing if conditions worsen.",
+    "key_takeaways": [
+      "Ole Hansen says commodities may be setting up for the next move higher because positioning has \u201calmost collapsed\u201d after a major speculative washout.",
+      "Ole Hansen says hedge funds tend to buy interest trends and sell weakness, so recent selling can itself be a contrarian rebound signal.",
+      "Ole Hansen says the AI capex boom is unlikely to \u201cdie overnight,\u201d and that near-term pressure on commodities is more psychological than fundamental.",
+      "Ole Hansen says copper\u2019s pullback is tied to the power-demand narrative, while electrification itself is still ongoing.",
+      "Ole Hansen says diesel above 160 bucks matters more for inflation pass-through than whether crude is trading 110 or 90.",
+      "Ole Hansen says refined products remain the key tightness in energy because supply has not returned to pre-war levels.",
+      "Ole Hansen says gold\u2019s weakness is a correction after a big run, and the metals may need investors to \u201cfall out of love\u201d before a bottom forms."
+    ],
+    "investment_thesis": "Commodity prices may be setting up for another rally because positioning has washed out, while refined-product tightness and ongoing electrification still support the longer-term bull case.",
+    "key_tickers": null
+  },
+  {
+    "id": 700,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+    "episode_date": "2026-11-19",
+    "summary": "Cristina Cordova says Linear\u2019s original product-led growth motion worked well for self-serve users, but selling into larger companies required more trust, human-led pilots, and eventually a formal enterprise motion in 2025. She contrasts early customers who could sign up and scale without talking to anyone with bigger buyers who would not \u201cput a lick of data\u201d into a tool without confidence in the product and team.\n\nA central theme is that manual issue tracking is becoming obsolete as agentic workflows take over. Cordova says Linear launched its MCP server in 2025 and claims it was basically first in its space; within about a year and a half, over 50% of issues created on Linear are created by agents. She argues the underlying \u201cissue\u201d remains the unit of work, but humans should spend less time manually moving work around and more time building products.\n\nShe also describes Linear\u2019s product direction: Loops can automatically assign an agent to an issue and start coding, and Triage Intelligence can automatically label, assign, and route bug reports or feature requests without human setup. She sees AI budget and broader engineering appetite for experimentation as helping deals move faster, while saying agentic workflows should live inside the product experience rather than as a database-plus-MCP layer alone.\n\nOn operations, she emphasizes Linear\u2019s refusal to outsource support and says she has never had an escalation in three and a half years due to poor support. Her view is that support quality, human oversight, and high-UX product design are part of the company\u2019s advantage, even as AI increasingly automates work. The conversation ends up framing Linear as an AI-native workflow tool whose growth, pricing, and product strategy are all being reshaped by agents.",
+    "key_takeaways": [
+      "Cristina Cordova says Linear\u2019s original product-led motion worked for self-serve customers, but larger companies needed more trust, human-led pilots, and a dedicated enterprise push in 2025.",
+      "Cristina Cordova says Linear launched its MCP server in 2025 and that over 50% of issues created on Linear are now created by agents, within about a year and a half.",
+      "Cristina Cordova argues that manual issue tracking is effectively obsolete, while the issue itself remains the core unit of work in an agent-orchestrated development system.",
+      "Cristina Cordova says Linear\u2019s Loops feature can automatically assign an agent to an issue and start coding against it.",
+      "Cristina Cordova says Triage Intelligence can automatically label, assign, and queue bugs or feature requests so humans do not have to do anything for that routing to happen.",
+      "Cristina Cordova says Linear avoided outsourcing support, and she has never had an escalation in three and a half years because of poor support.",
+      "Cristina Cordova says AI budget and stronger engineering willingness to experiment are helping companies adopt AI tools faster, which is accelerating pilots and deals."
+    ],
+    "investment_thesis": "Linear\u2019s core idea is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push.",
+    "key_tickers": null
+  },
+  {
+    "id": 698,
+    "podcast_name": "The a16z Show",
+    "episode_title": "How Fast Should We Build Superintelligence? | Nick Bostrom",
+    "episode_date": "2026-11-19",
+    "summary": "Nick Bostrom argues society should not choose between reckless acceleration and an indefinite AI pause. Instead, he favors \u201cpacing the frontier\u201d so capability progress can slow briefly when safety lags, while warning that a broad or permanent halt could entrench regulation and prevent superintelligence altogether.\n\nHe says the delay question is a trade-off: waiting can reduce existential risk, but waiting also means many people die in the meantime. He cites a model-based view that the optimal delay may be relatively short, \u201cmonths or a few years\u201d rather than decades, and he frames that against his broader claim that 95% of everyone who ever lived is already dead and the rest are on track to follow within a few short decades absent successful superintelligence.\n\nBostrom also argues alignment may become harder as systems get more capable. He points to strategic behavior under monitoring, the ability to distinguish test from deployment, and the possibility that more advanced systems could influence their own training or motivation. At the same time, he says current techniques are not precise enough to engineer arbitrary utility functions at the level implied by a \u201cutility monster.\u201d\n\nOn the upside, he believes safe superintelligence could unlock enormous biomedical and anti-aging breakthroughs, possibly extending lifespan dramatically. He also expects AI to surpass humans in philosophy, making some forms of deliberation less necessary, while saying the \u201cgolden age for purpose and positive impact\u201d is happening now.",
+    "key_takeaways": [
+      "Nick Bostrom says he has not been a huge enthusiast of stopping AI or pausing AI, but he does support a \u201cpacing the frontier\u201d framework.",
+      "Nick Bostrom says a very limited pause could be useful in the not-distant future to allow extra safety work before \u201cthe knobs are all turned up to 11.\u201d",
+      "Nick Bostrom says the alignment problem may get harder because a more capable system can behave differently under monitoring and can subtly influence its own training process.",
+      "Nick Bostrom says optimal delay is likely \u201cmonths or a few years\u201d rather than decades for many parameter assumptions.",
+      "Nick Bostrom says postponing superintelligence is not automatically safer because delay carries real mortality costs, including \u201clike 100\u201d people dying every day in his illustration.",
+      "Nick Bostrom says safe superintelligence could produce enormous breakthroughs in biomedicine and anti-aging, potentially leading to very long lifespans.",
+      "Nick Bostrom says AI will surpass humans in philosophy, though he thinks there is still something for people to contribute right now."
+    ],
+    "investment_thesis": "Bostrom\u2019s core claim is that AI development should be slowed only briefly when safety lags, because the right balance may be months or a few years, not an open-ended pause.",
+    "key_tickers": null
+  },
+  {
+    "id": 697,
+    "podcast_name": "The Credit Edge by Bloomberg Intelligence",
+    "episode_title": "\u2018Fear Is Making a Comeback,\u2019 Says Audax Private Debt\u2019s CEO",
+    "episode_date": "2026-11-19",
+    "summary": "Kevin Magid argues that private credit is not as bad as headlines suggest, but results depend on underwriting quality and the segment being financed. He says Audax focuses on core middle-market cash-flow lending, avoids ARR and forward-revenue software loans entirely, and underwrites against latest-12-month EBITDA rather than projected growth. He frames that approach as protection against the kind of \u201cSaaSpocalypse\u201d risk that can wipe out lenders who finance future revenue.\n\nA major theme is rate sensitivity and credit discipline. Magid says the biggest driver of the debt market is interest rates, that fixed charge coverage matters more than interest coverage, and that rising rates from below 1% to 5% compress coverage and can push defaults higher. He also says recession is a real risk, but near-term market fear is increasingly tied to AI, especially as equity volatility spills into credit sentiment.\n\nOn AI infrastructure, Magid is cautious: he does not think there are enough dollars to finance the entire AI boom, and he expects some data centers to be halted for political reasons or left half-finished without financing. He says Audax uses TOLT IQ to score AI substitution risk across its portfolio, and the initial bands suggest only a small slice is heavily exposed: 4% to 6% heavily impacted, another 20% somewhat impacted, and 70% to 75% not much impacted.\n\nHe also presents Audax\u2019s historical credit performance as strong. He cites annual loss rates of six basis points on senior secured loans and 17 basis points on junior debt, and says mezzanine fund losses aggregate to about 4%. On market conditions, he says direct lending activity is down under 10% in 2025 and down 16% year-to-date, but Audax\u2019s own deal flow is up 20% in 2026 because it can provide junior and first-lien capital in the core middle market. He adds that redemption stress in non-public BDCs created fear, though Audax\u2019s evergreen fund saw only 1.5% average redemptions in the last three quarters versus 9% to 19% averages among the largest five BDCs.",
+    "key_takeaways": [
+      "Kevin Magid says private credit outcomes depend on underwriting quality and segment mix, not just headlines.",
+      "Kevin Magid says Audax has made zero ARR loans and underwrites software loans backward from latest-12-month EBITDA.",
+      "Kevin Magid says interest rates are the biggest driver of the debt market, while rising rates from below 1% to 5% compress fixed charge coverage.",
+      "Kevin Magid says the real macro risk is recession, but near-term sentiment is being driven more by AI fear.",
+      "Kevin Magid says TOLT IQ scoring suggests only 4% to 6% of the portfolio is heavily AI-exposed, while 70% to 75% is not much impacted.",
+      "Kevin Magid says senior secured annual loss rates are six basis points, junior debt loss rates are 17 basis points, and mezzanine fund losses are about 4% in aggregate.",
+      "Kevin Magid says Audax deal flow is up 20% in 2026 even though direct lending market activity is down 16% year-to-date."
+    ],
+    "investment_thesis": "Audax\u2019s edge is disciplined middle-market cash-flow underwriting that avoids ARR/forward-revenue exposure and may limit losses even as AI and rate fears shake credit sentiment.",
+    "key_tickers": null
+  },
+  {
     "id": 696,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Anthropic\u2019s $1.4T IPO: The Biggest Wealth Event in Human History?",
     "episode_date": "2026-11-19",
-    "summary": "The hosts spend much of the episode on Anthropic\u2019s rumored IPO and the scale of wealth creation it could trigger. They cite a deal for 825 million shares marketed at $70 to $78, about 5x demand, roughly $64 billion raised, and a $1.4 trillion valuation. They also cite Anthropic\u2019s third-quarter revenues at $17 billion, an annualized run rate of about $81 billion as of October 31st, and fourth-quarter guidance at $130 billion, framing the deal as a major liquidity and concentration event, especially for San Francisco.\n\nThey then pivot to cyber and infrastructure fragility, arguing the recent outages were more consistent with legacy systems, patching side effects, and specific exploit paths than with a coordinated mega-hack. One host describes Microsoft Outlook and Exchange going down with nearly 130,000 Outlook reports across 74 countries. Another says attackers used a flaw in an Optimized lease experimentation sign-up flow and injected hostile JavaScript into 178 organizations, including CNN, Zoom, HSBC, Equifax, Salesforce, and IKEA.\n\nA major thread is SpaceX Starship and the implied economics of reusable launch. The discussion cites a recent mission that deployed 26 Starling V3 satellites, then moves to Elon\u2019s proposed Starship V4 changes: 70 meters long, 40% longer, 60% more propellant, and 9 engines. The hosts argue that when Starship reaches high volume and full reusability, launch economics could fall to $27 to $53 per kilogram, later tightening to propellant cost per flight of $500,000 and payload of 200 tons, implying below $1,000 per person to orbit.\n\nThe episode also covers AI and industrial policy. The hosts debate chip export controls and labeling of Chinese AI usage, with one side arguing that software restrictions are less effective than hardware-level control of chips and data centers. They connect this to broader themes: AI agents shifting operations from task supervision to outcome supervision, Google potentially making a move in the next 90 to 120 days that shakes frontier-lab infrastructure, and the idea that software is not really containerable in the age of AI, while hardware and data centers are.",
+    "summary": "The hosts spend much of the episode on Anthropic\u2019s rumored IPO and the scale of wealth creation it could trigger. They cite a deal for 825 million shares marketed at $70 to $78, about 5x demand, roughly $64 billion raised, and a $1.4 trillion valuation. They also cite Anthropic\u2019s third-quarter revenues at $17 billion and an annualized run rate of about $81 billion as of October 31st, framing the deal as a major liquidity and concentration event, especially for San Francisco.\n\nThey then pivot to cyber and infrastructure fragility, arguing the recent outages were more consistent with legacy systems, patching side effects, and specific exploit paths than with a coordinated mega-hack. One host describes Microsoft Outlook and Exchange going down with nearly 130,000 Outlook reports across 74 countries.\n\nA major thread is SpaceX Starship and the implied economics of reusable launch. The discussion cites a recent mission that deployed 26 Starlink V3 satellites, then moves to Elon\u2019s proposed Starship V4 changes: 70 meters long, 40% longer, 60% more propellant, and 9 engines. The hosts argue that when Starship reaches high volume and full reusability, launch economics could fall to $27 to $53 per kilogram, later tightening to propellant cost per flight of $500,000 and payload of 200 tons, implying below $1,000 per person to orbit.\n\nThe episode also covers AI and industrial policy. The hosts debate chip export controls and labeling of Chinese AI usage, with one side arguing that software restrictions are less effective than hardware-level control of chips and data centers. They connect this to broader themes: AI agents shifting operations from task supervision to outcome supervision, Google potentially making a move in the next 90 to 120 days that shakes frontier-lab infrastructure, and the idea that software is not really containerable in the age of AI, while hardware and data centers are.",
     "key_takeaways": [
       "One host says Anthropic\u2019s IPO is for 825 million shares at $70 to $78, with 5x demand and about $64 billion raised at a $1.4 trillion valuation.",
       "One host cites Anthropic\u2019s third-quarter revenues at $17 billion, an annualized run rate of about $81 billion as of October 31st, and fourth-quarter guidance at $130 billion.",
@@ -15,9 +124,7 @@
       "Alex Wissner-Gross says Google could come out with a plan in the next 90 to 120 days that shakes the frontier lab infrastructure."
     ],
     "investment_thesis": "The episode\u2019s core claim is that Anthropic\u2019s IPO and Starship-style execution could each create extreme scale effects, while hardware-level AI control matters more than software bans.",
-    "key_tickers": [
-      "ANT"
-    ]
+    "key_tickers": []
   },
   {
     "id": 694,
@@ -36,6 +143,24 @@
       "Rick Rule says long-term uranium contracting matters more than spot because lenders require supply lock-ins lasting 10 to 30 years."
     ],
     "investment_thesis": "Copper underinvestment and precious-metal byproduct streaming should create sustained opportunity, especially where precious-metal cash flows are valued far above copper cash flows.",
+    "key_tickers": null
+  },
+  {
+    "id": 704,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\u26a1\ufe0fAnthropic: Know Before You IPO \u2014 Tanay Jaipuria, Wing VC",
+    "episode_date": "2026-11-18",
+    "summary": "The episode centers on Anthropic\u2019s S-1, IPO pricing, and whether the market is underestimating its growth and economics. One host frames the deal as roughly 7x oversubscribed, likely pricing around $80 a share, with a possible first-day pop of about 19% to 20% and an implied valuation in the $1.4 trillion to $1.6 trillion range. The discussion repeatedly treats that range as a near-term market question rather than a settled forecast.\n\nOn operating performance, one host says Anthropic disclosed an October run rate of 81 billion and that speakers still projected ending the year at 100 billion. Taneja Peria says the company raised about 140 billion dollars of cash and still has roughly 132 billion on the balance sheet, which helps frame the IPO as unusually well-capitalized. The same section emphasizes reported gross margins around 85%, a revenue mix of 80% consumption and 20% subscriptions, and customer count rising to 12k, with net dollar retention described as 900%.\n\nThe guest\u2019s core analytical point is that Anthropic\u2019s unit economics and compute mix look unusually efficient for a company with this scale. He says about 70% of compute goes to training and research and only about 30% to inference, while inference efficiency has improved materially versus the start of last year. The conversation also flags channel partners, app-layer integrations, and free-tier usage as important to how sticky demand really is, especially if API switching becomes easier as models commoditize.\n\nThe longer-term debate is whether \u201cagents\u201d or \u201cvirtual collaborators\u201d become the next growth leg and whether wet-lab, science, robotics, and other controlled-use domains can absorb the company\u2019s future compute commitments. One host argues model launches matter enormously because frontier models have a shelf life of roughly six months. The same host also raises risk around open-source inference margins, suggesting long-run profitability could stay well below frontier-lab economics even if the market gets more competitive.",
+    "key_takeaways": [
+      "one host says Anthropic is likely to price around $80 a share, with a first-day pop of about 19% to 20% if the IPO behaves like the SpaceX analogy.",
+      "one host says Anthropic disclosed an October run rate of 81 billion and that speakers projected a 100 billion year-end run rate.",
+      "Tanay Jaipuria says Anthropic raised about 140 billion dollars of cash and still has roughly 132 billion on the balance sheet.",
+      "Tanay Jaipuria says Anthropic uses about 70% of compute for training and research and only about 30% for inference, which he sees as unusually efficient.",
+      "Tanay Jaipuria says Anthropic\u2019s economics are helped by reported gross margins around 85% and a revenue mix that is about 80% consumption and 20% subscriptions.",
+      "one host says frontier-model launches are critical because the shelf life of a frontier model is roughly six months.",
+      "one host says long-run open-source inference margins may not reach frontier-lab levels, which keeps the debate focused on differentiated stacks and application-layer lock-in."
+    ],
+    "investment_thesis": "",
     "key_tickers": null
   },
   {
@@ -61,7 +186,7 @@
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
     "episode_date": "2026-11-17",
-    "summary": "The episode centers on the claim that AI is already powerful enough to transform work, but enterprise adoption is slowed by a context gap, security/governance constraints, token economics, and data sovereignty concerns. The discussion repeatedly returns to the idea that most companies are still using AI in shallow ways, while the real unlock is feeding organizational context like meetings, emails, Slack, docs, and org charts into systems that can act across workflows.\n\nThe hosts frame Databricks as building that layer through Genie, which creates an ontology graph of the company and uses it to surface decisions, blockers, and management insights. The conversation includes examples from internal HR surveys, production code metrics, and decision tracing, with the claim that these tools make management more transparent and faster. The episode also argues that enterprise rollout will be gradual, with one host saying AI adoption will take 10-15 years and GDP effects will take decades.\n\nA major contrarian thread is the skepticism around superintelligence alarmism. One host argues that recursive self-improvement requires four demanding conditions that are not clearly met and that the more immediate safety risk is cyber, not runaway AGI. The episode says cyber threats are real but manageable with better code, monitoring, and products like LakeWatch.\n\nThe episode also touches on Databricks strategy and competition, including open source, cloud, and GPU-driven scaling, plus the tension between staying private and eventually going public. It cites competition from multiple vendors, including Anthropic, Microsoft, Snowflake, and adjacent feature launches, but the core investment idea is that the enterprise bottleneck is governance plus context, not raw model intelligence.",
+    "summary": "The episode centers on the claim that AI is already powerful enough to transform work, but enterprise adoption is slowed by a context gap, security/governance constraints, token economics, and data sovereignty concerns. The discussion repeatedly returns to the idea that most companies are still using AI in shallow ways, while the real unlock is feeding organizational context like meetings, emails, Slack, docs, and org charts into systems that can act across workflows.\n\nThe hosts frame Databricks as building that layer through Genie, which creates an ontology graph of the company and uses it to surface decisions, blockers, and management insights. The conversation includes examples from internal HR surveys, production code metrics, and decision tracing, with the claim that these tools make management more transparent and faster. The episode also argues that enterprise rollout will be gradual, with Ali Ghodsi saying that closing the context gap at companies will take 10 to 15 years and that GDP effects will take decades.\n\nA major contrarian thread is the skepticism around superintelligence alarmism. Ali Ghodsi argues that recursive self-improvement requires four demanding conditions that are not clearly met and that the more immediate safety risk is cyber, not runaway AGI. The episode says cyber threats are real but manageable with better code, monitoring, and products like LakeWatch.\n\nThe episode also touches on Databricks strategy and competition, including open source, cloud, and GPU-driven scaling, plus the tension between staying private and eventually going public. It cites competition from multiple vendors, including Anthropic, Microsoft, Snowflake, and adjacent feature launches, but the core investment idea is that the enterprise bottleneck is governance plus context, not raw model intelligence.",
     "key_takeaways": [
       "One host said enterprises are behind on AI mainly because AI lacks internal organizational context and because security/governance blocks access to the data it needs.",
       "One host said most companies are still using AI as a \"glorified Google search,\" with only modest productivity gains rather than full workflow transformation.",
@@ -115,7 +240,7 @@
     "podcast_name": "ChinaTalk",
     "episode_title": "Emergency Pod: BIS Finally Closes Loopholes!? What Will Xi Do Next?",
     "episode_date": "2026-11-16",
-    "summary": "The episode centers on a newly issued BIS export-control rule that Chris McGuire describes as a major step forward because it closes multiple pathways China has used to access advanced AI compute. He says the rule is 132 pages long, affects \u201chundreds of billions of dollars of capital flows,\u201d and targets smuggling hubs, rented or remote access to chips, and fabrication at advanced fabs such as TSMC and Samsung.\n\nChris McGuire says the rule addresses three main channels: smuggling through third countries, renting or remote use of AI chips by Chinese companies without a Commerce license, and Chinese chip production at TSMC or Samsung without licensing. He gives rough equivalences for the rental restriction \u2014 about 200 of the most advanced Blackwell chips or about 800 H100 chips \u2014 and says the rule also reaches any Chinese company making a 14 nanometer or more advanced chip.\n\nA major theme is enforcement. one host argues that Commerce has to actually implement and enforce the controls, or the rule will not matter in practice. Chris McGuire agrees that enforcement is the key issue, and says one huge loophole is that the rule does not apply inside the United States, creating a diversion risk if Chinese buyers route compute to places like Northern Virginia.\n\nThe discussion also turns to scale and precedent. Chris McGuire cites Huawei as an example, saying Huawei was able to make 3 million AI chips at TSMC and, if those chips sold for $15,000 each, that would be $50 billion of product. He says the consequence so far has been \u201cnothing,\u201d and uses Applied Materials\u2019 $500 million fine as another example of enforcement that still feels too small relative to the alleged harm.\n\nThe episode closes on geopolitics and uncertainty around Beijing\u2019s response. one host says a key unanswered question is whether Xi Jinping knows the numbers, and the panel suggests Beijing may first try to negotiate exemptions rather than immediately escalate. Overall, the episode treats the rule as meaningful but warns that loopholes, verification problems, and weak Commerce enforcement could blunt its effect.",
+    "summary": "The episode centers on a newly issued BIS export-control rule that Chris McGuire describes as a major step forward because it closes multiple pathways China has used to access advanced AI compute. He says the rule is 132 pages long, affects \u201chundreds of billions of dollars of capital flows,\u201d and targets smuggling hubs, rented or remote access to chips, and fabrication at advanced fabs such as TSMC and Samsung.\n\nChris McGuire says the rule addresses three main channels: smuggling through third countries, renting or remote use of AI chips by Chinese companies without a Commerce license, and Chinese chip production at TSMC or Samsung without licensing. He gives rough equivalences for the rental restriction \u2014 about 200 of the most advanced Blackwell chips or about 800 H100 chips \u2014 and says the rule also reaches any Chinese company making a 14 nanometer or more advanced chip.\n\nA major theme is enforcement. One host argues that Commerce has to actually implement and enforce the controls, or the rule will not matter in practice. Chris McGuire agrees that enforcement is the key issue, and says one huge loophole is that the rule does not apply inside the United States, creating a diversion risk if Chinese buyers route compute to places like Northern Virginia.\n\nThe discussion also turns to scale and precedent. Chris McGuire cites Huawei as an example, saying Huawei was able to make 3 million AI chips at TSMC and, if those chips sold for $15,000 each, that would be $50 billion of product. He says the consequence so far has been \u201cnothing,\u201d and uses Applied Materials\u2019 $500 million fine as another example of enforcement that still feels too small relative to the alleged harm.\n\nThe episode closes on geopolitics and uncertainty around Beijing\u2019s response. One host says a key unanswered question is whether Xi Jinping knows the numbers, and the panel suggests Beijing may first try to negotiate exemptions rather than immediately escalate. Overall, the episode treats the rule as meaningful but warns that loopholes, verification problems, and weak Commerce enforcement could blunt its effect.",
     "key_takeaways": [
       "Chris McGuire says the BIS rule is a \u201chuge rule\u201d that impacts \u201chundreds of billions of dollars of capital flows\u201d and could change how the AI industry functions.",
       "Chris McGuire says the rule closes multiple real loopholes by targeting smuggling through third countries, rented or remote access to chips, and chip fabrication at advanced fabs.",
@@ -320,6 +445,26 @@
     "key_tickers": null
   },
   {
+    "id": 702,
+    "podcast_name": "ChinaTalk",
+    "episode_title": "EMERGENCY POD: Jensen Out, MATCH Act In? With Dylan Patel",
+    "episode_date": "2026-11-13",
+    "summary": "The episode centers on reports that Nvidia CEO Jensen Huang resigned amid serious misconduct allegations, and the hosts frame that as geopolitically important because Nvidia has been a key defender against advanced chip shipments to China. They argue the leadership change raises execution risk for Nvidia, even if the company could remain dominant if its supply-chain and technical leadership stay intact.\n\nA major part of the discussion is U.S.-China compute policy. Jordan and the hosts contrast outright bans with rules that would treat remote access to U.S.-controlled GPUs as an export. They say this approach could preserve U.S. oversight, reduce smuggling incentives, and let American clouds keep earning margins from compute outside China.\n\nThey focus on the REMOTE ACCESS SECURITY ACT, or RASA, which they say would close the cloud-rental loophole by making remote access an export. One host says RASA passed the House 269 votes to 22 in January, but the Senate has not scheduled a vote and no RASA language is in the current NDAA. The episode also says the MATCH Act is viewed as more important for U.S. national interest, especially if it reaches further down the supply chain.\n\nThe debate extends to China\u2019s response options. The speakers say China will keep building domestic accelerators and alternative training paths, and that broad bans could backfire by encouraging escalation or retaliation. Jordan argues the more effective lever is restricting higher-value equipment like ASML tools and forcing China to build more of the stack domestically. On Nvidia, the hosts say the big question is whether the company can maintain execution and talent retention without Jensen.",
+    "key_takeaways": [
+      "one host says RASA would amend export controls so remote access to U.S.-controlled chips counts as an export.",
+      "one host says RASA passed the House 269 votes to 22 in January, but no Senate vote has been held or scheduled.",
+      "Jordan says allowing remote access of GPUs is better than a total ban because China would otherwise have little reason not to escalate.",
+      "Jordan says the best way to slow China is to block ASML equipment and make China build chips and models without those tools.",
+      "one host says Nvidia remains structurally strong in the supply chain, but hardware and progress could be slower without Jensen.",
+      "Dylan Patel says Nvidia without Jensen is a much weaker company.",
+      "one host says the episode\u2019s preferred policy is minimum compute with maximum oversight, not ban everything."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that U.S. policy should allow controlled remote access to GPUs rather than a full chip ban, because oversight preserves leverage, revenue, and supply-chain control.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
     "id": 678,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "The avalanche that hit math is coming for AI development",
@@ -354,6 +499,29 @@
     ],
     "investment_thesis": "The episode\u2019s main claim is that AI has shortened exploit cycles so much that continuous external exposure testing and security-by-design tooling become more valuable than traditional code scanning.",
     "key_tickers": null
+  },
+  {
+    "id": 699,
+    "podcast_name": "The Circuit",
+    "episode_title": "Jensen Huang Resigns: NVIDIA's Succession Crisis and the Fate of the AI Supply Chain",
+    "episode_date": "2026-11-12",
+    "summary": "The episode centers on the reported resignation of NVIDIA CEO Jensen Huang and the hosts' view that the board's succession planning failure could have second-order effects across the AI supply chain. They argue NVIDIA's role as a kind of central enabler for AI infrastructure is tied closely to Huang personally, so his departure could weaken the company's ability to allocate GPUs, negotiate with TSMC, and provide the financing/backstopping that has helped make neocloud projects viable.\n\nThe hosts also discuss a contrarian theory that Huang's removal may have been accelerated by political leakage and Washington rivalries, not just personal misconduct. At the same time, they say the near-term AI demand picture remains strong: frontier labs and hyperscalers still need GPUs, NVIDIA is effectively sold out for the foreseeable future, and buyers like Amazon, Google, and Microsoft may gain leverage as they seek additional sources of supply.\n\nA separate part of the discussion focuses on export controls and supply-chain enforcement. One host argues that more restrictions on chip sales to China are likely, but also doubts they will work well because enforcement is limited and supply chains can route chips in practice. The hosts also suggest any shift in NVIDIA's market position could benefit alternative ecosystems such as Google TPUs and AMD.\n\nThe episode then pivots to public AI infrastructure names, especially CoreWeave and Nebius. The hosts say Nebius fell because a data-center completion and power-on date slipped into next year, while CoreWeave rallied because its numbers were better than feared and customer concentration improved. They frame execution on construction schedules, power-on timing, and contract structure as the key driver of valuation for these names.",
+    "key_takeaways": [
+      "one host says NVIDIA's board-level succession failure matters because the company has lost the leader who gave it unusual influence over AI relationships, allocation, and financing.",
+      "one host argues that without Jensen Huang, a major NVIDIA-led platform deal may not proceed because there is internal resistance and the deal was only a press release, not a finalized term sheet.",
+      "one host says NVIDIA's role as a \"central bank to AI\" could disappear if Huang is replaced, which would matter for neocloud financing and buildout speed.",
+      "one host says hyperscalers will have more bargaining power after the turmoil and may push harder the next time they order NVIDIA GPUs.",
+      "one host says more restrictions on chip sales are likely, but also that enforcement may remain ineffective because the supply chain is too hard to police.",
+      "one host says Nebius sold off because its data-center completion and power-on dates were pushed into next year, leading to lower guidance.",
+      "one host says CoreWeave improved because its top two customers fell to 60% of revenue from 70% last year and 75% at the IPO.",
+      "one host says TSMC is in the \"kingmaker position\" for extra allocation decisions over the next year or two, and Jensen's relationship previously helped NVIDIA get a better deal."
+    ],
+    "investment_thesis": "Jensen Huang's exit could weaken NVIDIA's financing and allocation power, shifting leverage toward hyperscalers and alternatives while testing the economics of neocloud AI infrastructure.",
+    "key_tickers": [
+      "NVDA",
+      "TSM",
+      "AMD"
+    ]
   },
   {
     "id": 676,
@@ -550,6 +718,26 @@
     ],
     "investment_thesis": "AI will expand software opportunity by making startups faster and cheaper to build while leaving durable value in workflow-centric products like HubSpot rather than frontier-lab replacements.",
     "key_tickers": null
+  },
+  {
+    "id": 705,
+    "podcast_name": "ChinaTalk",
+    "episode_title": "EMERGENCY POD: Jensen and His Spy",
+    "episode_date": "2026-11-09",
+    "summary": "The episode centers on Chris McGuire\u2019s claim that Nvidia CEO Jensen Huang repeatedly lobbied the US government to loosen AI export controls, but that the more consequential problem was weak enforcement against third-country circumvention. He says a May 2025 decision by the Trump administration not to enforce Biden-era license requirements for large AI-chip orders to non-trusted companies in most countries created a loophole that China-linked actors could exploit through Southeast Asia.\n\nMcGuire argues the enforcement regime became a \u201chodgepodge,\u201d with gaps that allegedly let chips flow through countries such as Singapore, Malaysia, and Thailand, and he ties that to the \u201cMegaspede\u201d pathway. He says the core issue is not only policy design but failure to stop entities the panel describes as being run by Chinese spies, despite what he says was information inside Commerce and other agencies.\n\nHe also frames Nvidia as strategically important because of its role in allocating scarce compute. In his view, access to Jensen Huang could matter because Nvidia knows more about global chip allocations than the US government does, and because the company effectively decides who gets scarce supply. That strategic position, he argues, makes lobbying, partner relationships, and cloud listings national-security relevant.\n\nOn the policy front, McGuire says Congress is likely to intensify scrutiny and that bipartisan bills could move in the lame-duck session, possibly attached to the NDA. He argues existing bills do not fully solve remote-access and counter-smuggling loopholes, and says Commerce still needs to impose broader license requirements, cover Southeast Asia, restrict remote access, and prevent Chinese companies from buying chips in the US.",
+    "key_takeaways": [
+      "Chris McGuire says Jensen Huang repeatedly lobbied the US government to loosen export controls, but the bigger failure was non-enforcement against third-country circumvention.",
+      "Chris McGuire says the Trump administration in May 2025 chose not to enforce Biden-era export-license rules for large AI-chip orders to non-trusted companies in most countries.",
+      "Chris McGuire says the enforcement regime became a \u201chodgepodge,\u201d allowing China-linked chip access through Southeast Asia, including the alleged Megaspede pathway.",
+      "Chris McGuire says Nvidia is strategically important because it helps arbitrate scarce compute and knows more about who has AI chips than the US government does.",
+      "Chris McGuire says Congress is likely to intensify scrutiny, with bipartisan bills potentially moving in the lame-duck session and possibly attaching to the NDA.",
+      "Chris McGuire says existing bills such as Overwatch and Match do not fully address remote-access and counter-smuggling loopholes, so Commerce still needs broader rules.",
+      "one host says the investigations are likely to keep escalating because it is easier to investigate people who still hold office."
+    ],
+    "investment_thesis": "The episode argues that weak AI-chip export enforcement, not just formal policy, is the key risk because it may expose Nvidia and the broader semiconductor supply chain to tighter regulation and scrutiny.",
+    "key_tickers": [
+      "NVDA"
+    ]
   },
   {
     "id": 665,
@@ -1012,6 +1200,27 @@
     ],
     "investment_thesis": "Huberman\u2019s most important claim is that personalized sleep, attention, and neurotechnology tools can materially improve cognition and performance, with sleep/wake manipulation likely the first commercial breakthrough.",
     "key_tickers": null
+  },
+  {
+    "id": 706,
+    "podcast_name": "The Circuit",
+    "episode_title": "What a Week! Anthropic Opens the Books, Intel Raises More Questions, Marvell and Lumentum??",
+    "episode_date": "2026-11-02",
+    "summary": "The panel spent much of the episode on Anthropic\u2019s S-1, reading it as strong evidence that the company believes scaling laws and ever-bigger LLMs are the core engine of AI progress. They also argued that Anthropic is still early in enterprise adoption, so the real growth opportunity is budget migration from pilots to production use cases, not just model quality.\n\nA major thread was enterprise ROI in AI. Jay Goldberg said the latest round of his CIO/CTO survey, the EA index, showed only 6% of CIOs over 200 are seeing ROI at the top level, while 33% are tracking outcomes; among those tracking, 67% reported distinct ROI and a path to more budget. The panel\u2019s interpretation was that measurement and workflow integration are the bottlenecks, not a lack of underlying usefulness.\n\nThe hosts also discussed Anthropic\u2019s compute strategy and governance. They described Anthropic as moving toward more direct control of data centers through long-term leases, which implies higher capital intensity. They also flagged governance risk, saying the multi-founder voting structure could create future drama.\n\nIntel was framed as a recurring execution and capacity-allocation problem: a strong quarter followed by weak Q4 guidance reinforced skepticism about management credibility. On hyperscalers, the panel said investors want proof that AI is translating into broader business ROI, not just cloud spend growth. They also discussed Marvell\u2019s reported advance talks to acquire Lumentum, with debate over vertical integration, all-stock structure, and possible DOJ scrutiny in optical networking.",
+    "key_takeaways": [
+      "Jay Goldberg said Anthropic\u2019s S-1 shows the company believes scaling laws and bigger LLMs are the primary engine of AI progress.",
+      "Jay Goldberg said the EA index survey found only 6% of CIOs over 200 are seeing ROI, while 33% are tracking AI outcomes.",
+      "Jay Goldberg said that among CIOs tracking AI, 67% saw distinct ROI and a line of sight to more budget.",
+      "The hosts said Anthropic is moving toward more direct control of data centers through long-term lease agreements, increasing capital intensity.",
+      "The hosts said Anthropic\u2019s governance structure could create long-run internal drama because founder control is concentrated in a block vote.",
+      "one host said Intel had a very strong Q3 and then very weak Q4 guidance, reinforcing concerns about execution and capacity allocation.",
+      "The hosts said Marvell is in advance talks to acquire Lumentum, with the structure potentially all-stock and subject to antitrust risk."
+    ],
+    "investment_thesis": "Anthropic\u2019s S-1 and the survey data suggest enterprise AI spending is still early, but measurable ROI and large compute commitments could drive a major budget shift.",
+    "key_tickers": [
+      "INTC",
+      "AVGO"
+    ]
   },
   {
     "id": 641,
@@ -5103,7 +5312,7 @@
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
     "episode_date": "2026-08-14",
-    "summary": "In this episode, the hosts discuss the potential IPO of Anduril, the company's valuation, and its revenue growth. They also touch upon the political landscape with insights on the Democratic party's internal conflicts and the role of moderate candidates. Additionally, the conversation covers the significance of CEOs having their own voice on X and the impact of open-source AI on the software industry. The podcast also speculates on the potential acquisition of Workday by Silver Lake and its implications for the stock market.",
+    "summary": "In this episode, the hosts discuss a potential Anthropic IPO, the company's valuation, and its revenue growth. A host read a Financial Times report from the Wednesday night before the Aug 14, 2026 recording (Aug 12), saying Anthropic was targeting a $2 trillion IPO and that investors then expected the company to go public in October. They also touch upon the political landscape with insights on the Democratic party's internal conflicts and the role of moderate candidates. Additionally, the conversation covers the significance of CEOs having their own voice on X and the impact of open-source AI on the software industry. The podcast also speculates on the potential acquisition of Workday by Silver Lake and its implications for the stock market.",
     "key_takeaways": [
       "Anduril is targeting a $2 trillion IPO, which would break SpaceX's record.",
       "The company is expected to go public in October with an annualized run rate between $100 and $120 billion.",
@@ -5111,11 +5320,8 @@
       "The rise of open-source AI is seen as a positive development for the American software industry, potentially leading to a resurgence of private equity interest in software companies.",
       "The hosts discuss the importance of CEOs establishing their own voice and brand on X to mitigate risks and enhance their power."
     ],
-    "investment_thesis": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
-    "key_tickers": [
-      "ANDR",
-      "SPCE"
-    ]
+    "investment_thesis": "On the Aug 14, 2026 episode, a host read a Financial Times report that Anthropic was targeting a $2 trillion IPO, that investors then expected the company to go public in October, and that its annualized run rate would end the year between $100 and $120 billion. The host said that valuation was 16 to 20 times sales, a fraction of where SpaceX and Palantir went public, and that revenue had grown 10 times over the last year.",
+    "key_tickers": []
   },
   {
     "id": 404,
