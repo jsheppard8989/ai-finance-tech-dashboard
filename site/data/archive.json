@@ -1,6 +1,37 @@
 {
   "insights": [
     {
+      "id": 722,
+      "title": "The Professional Network Built for You and Your AI Agent",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-21",
+      "summary": "The episode centers on Cosine\u2019s attempt to rebuild professional networking around reputation, verified recommendations, and co-signing rather than static resumes. Bella Nazari says the point is to focus on the actual work someone has done and who can vouch for it, while one host describes Cosine as a profile layer for people building impactful frontier technology companies.\n\nThe conversation also walks through the Cosine Awards. One host says there have been thousands of nominations across the last few weeks and that today is the last day. A guest emphasizes that the awards are not a leaderboard and that there will not be a gold medal for the most votes; instead, after the awards close, the team will review results without judges and pick five to ten people across each category to invite to a party.\n\nA major theme is that the most important people inside organizations are often not the most visible ones. A guest says the people who have the most impact are not necessarily sitting on top of the chat or talk channels, which is why trusted vouching matters. The episode frames community and serendipity as hard to measure in the short run but potentially very meaningful over years.\n\nThe other major thread is AI-agent integration. One host says Cosine is connecting agents through NTS/MCP and using GoSand.co/agents so a bot can find people you should know and check the feed daily for opportunities or relevant people. The implication is that networking can become continuous and proactive rather than manual and reactive.",
+      "key_takeaway": "Cosine is trying to turn reputation, co-signing, and AI-agent discovery into a continuously updated professional network that surfaces hidden high-impact talent.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 711,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "GoSand.co forward slash agents and you can give it to a grot bot, you can tell it to go out there and find people that you should know"
+        },
+        {
+          "speaker": "Bella Nazari",
+          "quote": "What's the work that they've done and who can vouch for that work and that's the the route of co-sign for us was and in the route of co-sign awards"
+        },
+        {
+          "speaker": "one of the guests",
+          "quote": "What I think is important is that um like this isn't this isn't a leaderboard There's not going to be a gold medal handed out to the person with most votes. It's not actually about votes"
+        }
+      ]
+    },
+    {
       "id": 717,
       "title": "The Agentic State",
       "source_type": "podcast",
@@ -477,7 +508,7 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-17",
       "archived_date": null,
@@ -16968,8 +16999,8 @@
       "term": "MCP",
       "description": "Model Context Protocol, which Rocha describes as an increasingly important integration surface for AI agents and B2B software workflows. He says official vendor-maintained MCP integrations can influence buyer decisions.",
       "first_detected_date": "2026-11-10",
-      "last_mentioned_date": "2026-11-20",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "MCP support may become a procurement and distribution lever for AI-native products.",
@@ -16978,8 +17009,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 667,
       "first_detected_speaker": "Zeno Rocha",
-      "last_mentioned_episode_id": 708,
-      "last_mentioned_speaker": "Lucas (last name not provided)"
+      "last_mentioned_episode_id": 711,
+      "last_mentioned_speaker": null
     },
     {
       "id": 336,
@@ -17196,6 +17227,24 @@
       "first_detected_speaker": "Josh Gruenstein",
       "last_mentioned_episode_id": 662,
       "last_mentioned_speaker": "Mihail Eric"
+    },
+    {
+      "id": 353,
+      "term": "Agent-native networking",
+      "description": "Using AI agents connected through NTS/MCP to continuously search for people, opportunities, and updates on behalf of a user. The network becomes proactive instead of requiring manual browsing.",
+      "first_detected_date": "2026-10-31",
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "If reliable, this could increase engagement and make professional networks more useful as discovery engines.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 634,
+      "first_detected_speaker": "David Booth, Dhruv Gupta",
+      "last_mentioned_episode_id": 711,
+      "last_mentioned_speaker": "David Booth, Dhruv Gupta"
     },
     {
       "id": 339,
@@ -20172,8 +20221,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-11-19",
-      "mention_count": 157,
+      "last_mentioned_date": "2026-11-21",
+      "mention_count": 158,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -20182,7 +20231,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 696,
+      "last_mentioned_episode_id": 711,
       "last_mentioned_speaker": null
     },
     {

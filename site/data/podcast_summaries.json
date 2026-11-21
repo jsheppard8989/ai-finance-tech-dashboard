@@ -1,5 +1,23 @@
 [
   {
+    "id": 711,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Professional Network Built for You and Your AI Agent",
+    "episode_date": "2026-11-21",
+    "summary": "The episode centers on Cosine\u2019s attempt to rebuild professional networking around reputation, verified recommendations, and co-signing rather than static resumes. Bella Nazari says the point is to focus on the actual work someone has done and who can vouch for it, while one host describes Cosine as a profile layer for people building impactful frontier technology companies.\n\nThe conversation also walks through the Cosine Awards. One host says there have been thousands of nominations across the last few weeks and that today is the last day. A guest emphasizes that the awards are not a leaderboard and that there will not be a gold medal for the most votes; instead, after the awards close, the team will review results without judges and pick five to ten people across each category to invite to a party.\n\nA major theme is that the most important people inside organizations are often not the most visible ones. A guest says the people who have the most impact are not necessarily sitting on top of the chat or talk channels, which is why trusted vouching matters. The episode frames community and serendipity as hard to measure in the short run but potentially very meaningful over years.\n\nThe other major thread is AI-agent integration. One host says Cosine is connecting agents through NTS/MCP and using GoSand.co/agents so a bot can find people you should know and check the feed daily for opportunities or relevant people. The implication is that networking can become continuous and proactive rather than manual and reactive.",
+    "key_takeaways": [
+      "Bella Nazari says Cosine\u2019s co-sign model starts with the actual work someone has done and who can vouch for that work.",
+      "one host says Cosine\u2019s profile layer is aimed at people building the most impactful frontier technology companies.",
+      "one host says there have been thousands of nominations across the last few weeks and that today is the last day.",
+      "one of the guests says the awards are not a leaderboard and there will not be a gold medal for the most votes.",
+      "one of the guests says that after the awards close, Cosine will find five to ten people across each category and invite them to the party.",
+      "one of the guests says the most impactful people in organizations are often not the ones sitting on top of the talk/chat channels.",
+      "one host says GoSand.co/agents can be used to give a bot tasks like finding people you should know and checking the feed every day."
+    ],
+    "investment_thesis": "Cosine is trying to turn reputation, co-signing, and AI-agent discovery into a continuously updated professional network that surfaces hidden high-impact talent.",
+    "key_tickers": null
+  },
+  {
     "id": 709,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Anthropic Goes Public, Nvidia in Crisis, Markets Tank, Open Source Crackdown?",
