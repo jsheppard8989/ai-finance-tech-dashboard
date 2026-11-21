@@ -974,6 +974,25 @@
     ]
   },
   {
+    "id": 712,
+    "podcast_name": "ChinaTalk",
+    "episode_title": "WarTalk: Lame Duck War, No Pete November, Bay of Tofu + Team Yankee",
+    "episode_date": "2026-11-06",
+    "summary": "The episode centers on the political and budgetary constraints around the Iran conflict after the midterms. Brian Clark argues the administration\u2019s earlier escalation threat is likely off the table and that officials will soon be looking for a deal Iran can accept that the White House can still spin as victory. He also says the blockade pressure campaign is not bringing Iran to its knees fast enough, which makes a fig leaf or off-ramp increasingly necessary.\n\nA major thread is congressional leverage. One host argues there was never a coherent theory of victory or a clear strategic national interest, and that Congress is unlikely to fund a war without one. The panel discusses continuing resolutions, the next year\u2019s appropriations and NDAA process, and the possibility that budget politics and war-vote backlash will constrain continued SENTCOM operations.\n\nThe discussion then shifts to defense procurement and governance. One host says procurement decisions will face more scrutiny and that people making legally risky decisions will have to watch their backs and make smarter choices. The panel also raises concern that SpaceX\u2019s Starshield could face pressure to be spun off or structurally separated if it is going to serve as a backbone for military communications and command-and-control, especially given governance and security-clearance concerns.\n\nLater, the episode turns to defense tech consolidation. One host points to Shield AI\u2019s acquisitions as evidence that mature defense-tech players may increasingly buy earlier-stage companies, potentially as a path toward more consolidated \"neoprime\" structures. The episode closes with a Team Yankee book-club segment, framing the book as a short, tactical case study for military learning rather than a deep realism exercise.",
+    "key_takeaways": [
+      "Brian Clark says the administration\u2019s earlier escalation threat toward Iran is probably off the table and officials will seek something the White House can spin as victory.",
+      "Brian Clark says the blockade pressure campaign is not bringing Iran to its knees, creating pressure for a fig leaf or off-ramp.",
+      "One host says there was never a theory of victory or clear strategic national interest behind the effort.",
+      "One host says Congress is likely to constrain continued funding for the war through the continuing resolution, NDAA, and appropriations process.",
+      "One host says procurement officials will face more legal and political scrutiny, so they will have to watch their backs and make smarter choices.",
+      "One host says Starshield may have to be spun off into a subsidiary that Elon cannot touch if it is used as a backbone for military communications and C2.",
+      "One host says Shield AI\u2019s acquisitions suggest a broader shift toward larger defense-tech buyers acquiring earlier companies.",
+      "The Team Yankee discussion treats the book as a 200-page, 13-day tactical case study useful for learning about command friction and combat decision-making."
+    ],
+    "investment_thesis": "Political and governance constraints may force Iran policy, defense procurement, and Starshield oversight toward narrower, more scrutinized structures rather than open-ended escalation.",
+    "key_tickers": null
+  },
+  {
     "id": 655,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Controlling Biology - Fabian Theis, Helmholtz Munich",

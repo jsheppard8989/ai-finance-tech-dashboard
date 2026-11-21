@@ -132,7 +132,7 @@
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-11-04",
     "mention_score": 5,
-    "mention_score_decayed": 3.54,
+    "mention_score_decayed": 3.45,
     "last_main_idea": "Casado\u2019s core claim is that frontier AI model value depends on a 3-6 month release cycle, while the real infrastructure bottleneck is hardware and power rather than capital.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-11-04 \u2022 Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
     "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
@@ -193,7 +193,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-04",
     "mention_score": 4,
-    "mention_score_decayed": 2.83,
+    "mention_score_decayed": 2.76,
     "last_main_idea": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-04 \u2022 The New AI Agents That Shop, Plan, and Gossip",
     "last_proof_snippet": "We have so many different facets of our life, whether it's how we're managing our finances or planning trips. Agents are going to be able to feel different facets of these.",
@@ -906,7 +906,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Huberman\u2019s most important claim is that personalized sleep, attention, and neurotechnology tools can materially improve cognition and performance, with sleep/wake manipulation likely the first commercial breakthrough.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-03 \u2022 Andrew Huberman\u2019s Three Rules for Better Health and Focus",
     "last_proof_snippet": "If you take yourself and your work really seriously, you need to organize your day that way. If you would recommend three things to people to live a healthier life, what would those be? Morning bright light ideally from sunlight.",
@@ -960,7 +960,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-01",
     "mention_score": 2,
-    "mention_score_decayed": 1.29,
+    "mention_score_decayed": 1.26,
     "last_main_idea": "Ferrari\u2019s core claim is that Bending Spoons can compound value by acquiring software businesses, integrating them tightly, and improving cash generation while keeping leverage conservative.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-01 \u2022 How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
     "last_proof_snippet": "Vending Spoons has built a very different kind of technology company. By great products, improve them, generate more cash, and use that cash to do it again at a larger scale.",
@@ -1019,7 +1019,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-13",
     "mention_score": 3,
-    "mention_score_decayed": 1.25,
+    "mention_score_decayed": 1.22,
     "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
     "last_proof_snippet": "You can literally look at many internet connections today they are actually using agile cryptography they're encrypted using elliptic curves and lattices at the same time.",
@@ -1225,6 +1225,33 @@
     }
   },
   {
+    "id": 700,
+    "name": "Brian Clark",
+    "slug": "brian-clark",
+    "bio": "Hudson Institute analyst discussing Iran policy, blockade pressure, and political constraints on escalation and diplomacy.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-21 18:26:05",
+    "last_episode_title": "WarTalk: Lame Duck War, No Pete November, Bay of Tofu + Team Yankee",
+    "last_podcast_name": "ChinaTalk",
+    "last_episode_date": "2026-11-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Political and governance constraints may force Iran policy, defense procurement, and Starshield oversight toward narrower, more scrutinized structures rather than open-ended escalation.",
+    "last_proof_cite": "ChinaTalk \u2022 2026-11-06 \u2022 WarTalk: Lame Duck War, No Pete November, Bay of Tofu + Team Yankee",
+    "last_proof_snippet": "war talk post midterms edition. I mean, there's so much fallout for everything that we cover. We're going to talk a ran war future of the Pentagon, Congress and Defense, the future of the Secretary of War and deputy secretary of war.",
+    "supporting_takeaway": "Brian Clark says the blockade pressure campaign is not bringing Iran to its knees, creating pressure for a fig leaf or off-ramp.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 699,
     "name": "Bella Nazari",
     "slug": "bella-nazari",
@@ -1296,7 +1323,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-18",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "one host says Anthropic is likely to price around $80 a share, with a first-day pop of about 19% to 20% if the IPO behaves like the SpaceX analogy.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-18 \u2022 \u26a1\ufe0fAnthropic: Know Before You IPO \u2014 Tanay Jaipuria, Wing VC",
     "last_proof_snippet": "one host says Anthropic disclosed an October run rate of 81 billion and that speakers projected a 100 billion year-end run rate.",
@@ -1680,7 +1707,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "AI progress is real, but Tyler Cowen and Alex Imas both imply that without coordination and broad demand-side adoption, it is unlikely to produce near-term double-digit GDP growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-16 \u2022 Alex Imas & Tyler Cowen | AI Is Moving Fast. Why Isn\u2019t the Economy?",
     "last_proof_snippet": "Institutions are not quite running as smoothly as either we might like or we might fear. We have these weird things happening within video.",
@@ -1896,7 +1923,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "AI compute may oversupply in the near term, but hyperscalers remain the best relative AI trade because contract structure and locked capacity limit downside.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-11 \u2022 Too Much Compute: Why This Top Hedge Fund Manager Believes AI is Heading for a Massive Oversupply | David Orr",
     "last_proof_snippet": "He argues compute is heading toward oversupply because, outside software companies, there are few real buyers absorbing the capacity being built.",
@@ -1923,7 +1950,7 @@
     "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "last_episode_date": "2026-10-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "AI credit is selectively investable, but broad exposure is risky because the buildout is increasingly concentrated, expensive, and vulnerable to financing-cycle stress.",
     "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-10-29 \u2022 AI Blitz and US Borrowing Binge Are Disrupting Debt Benchmarks",
     "last_proof_snippet": "Speaker 1: My name is James Crombie. I'm a senior editor at Bloomberg. Speaker 2: And I'm Tolu Alamutu, senior analyst at Bloomberg Intelligence.",
@@ -2112,7 +2139,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The episode\u2019s core claim is that reliable agentic AI will require a rapidly growing market for expert-built data, evaluators, and domain-specific environments, not just better base models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-09 \u2022 What Frontier Labs Buy: A Data Deep Dive with Handshake AI \u2014 Garrett Lord & Team",
     "last_proof_snippet": "And so three years ago, this was a billion-dollar market. It's now a $10 billion market. Three years from now, I don't see how it's not a hundred billion dollar market.",
@@ -2139,7 +2166,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The episode\u2019s core claim is that reliable agentic AI will require a rapidly growing market for expert-built data, evaluators, and domain-specific environments, not just better base models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-09 \u2022 What Frontier Labs Buy: A Data Deep Dive with Handshake AI \u2014 Garrett Lord & Team",
     "last_proof_snippet": "And so three years ago, this was a billion-dollar market. It's now a $10 billion market. Three years from now, I don't see how it's not a hundred billion dollar market.",
@@ -2394,7 +2421,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Virtual-cell winners will be data-rich, action-conditioned platforms that can steer experiments in closed loop, not model-only tools competing on weak benchmarks.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-06 \u2022 Controlling Biology - Fabian Theis, Helmholtz Munich",
     "last_proof_snippet": "We can really now start guiding the experimentation. So where before you, we built these human cell atlases, we had sort of this mapping aspect. Then we talked about the world models prediction problem. From mapping, we went to prediction.",
@@ -2566,33 +2593,6 @@
     "pundit_profile": null
   },
   {
-    "id": 614,
-    "name": "David Pawlan",
-    "slug": "david-pawlan",
-    "bio": "Creator of Assistant Benchmark and a prolific evaluator of AI assistants, with experience testing more than 140 systems.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-05 18:15:36",
-    "last_episode_title": "The New AI Agents That Shop, Plan, and Gossip",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-04",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
-    "last_proof_cite": "The a16z Show \u2022 2026-11-04 \u2022 The New AI Agents That Shop, Plan, and Gossip",
-    "last_proof_snippet": "We have so many different facets of our life, whether it's how we're managing our finances or planning trips. Agents are going to be able to feel different facets of these.",
-    "supporting_takeaway": "Josh Elman argued that the key design principle is permission scoping: a personal agent should have access to personal channels, but not work systems.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 267,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
@@ -2650,6 +2650,33 @@
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 614,
+    "name": "David Pawlan",
+    "slug": "david-pawlan",
+    "bio": "Creator of Assistant Benchmark and a prolific evaluator of AI assistants, with experience testing more than 140 systems.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-05 18:15:36",
+    "last_episode_title": "The New AI Agents That Shop, Plan, and Gossip",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-04",
+    "mention_score": 1,
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-04 \u2022 The New AI Agents That Shop, Plan, and Gossip",
+    "last_proof_snippet": "We have so many different facets of our life, whether it's how we're managing our finances or planning trips. Agents are going to be able to feel different facets of these.",
+    "supporting_takeaway": "Josh Elman argued that the key design principle is permission scoping: a personal agent should have access to personal channels, but not work systems.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 613,
@@ -2963,33 +2990,6 @@
     "pundit_profile": null
   },
   {
-    "id": 603,
-    "name": "Robert Caro",
-    "slug": "robert-caro",
-    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 17:14:06",
-    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-10-30",
-    "mention_score": 1,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
-    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
-    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 301,
     "name": "Jake Paul",
     "slug": "jake-paul",
@@ -3116,6 +3116,33 @@
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 603,
+    "name": "Robert Caro",
+    "slug": "robert-caro",
+    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 17:14:06",
+    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-10-30",
+    "mention_score": 1,
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
+    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
+    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 600,
@@ -3297,7 +3324,7 @@
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Vanta believes deep integrations plus agentic workflows will create a superior trust-security platform that can grow without relying on token markups.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-20 \u2022 Christina Cacioppo - Building an Enduring Software Company in the Age of AI - [Invest Like the Best, EP.496]",
     "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
@@ -3541,66 +3568,6 @@
     "pundit_profile": null
   },
   {
-    "id": 183,
-    "name": "Aaron Levie",
-    "slug": "aaron-levy",
-    "bio": "Co-founder and CEO of Box, the cloud content management company.",
-    "known_for": "Co-founding and leading Box as CEO; commentary on enterprise software and AI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Measured and analytical with policy-aware framing",
-    "voice_style": "Builds arguments through logical contrasts and economic analogies rather than hype",
-    "voice_delivery_notes": "Speaks in complete paragraphs with deliberate pacing; emphasize the 'not either/or but both/and' structure of his open vs closed model argument",
-    "voice_profile_updated_at": "2026-09-05 17:12:26",
-    "last_seen": "2026-09-05 17:12:26",
-    "last_episode_title": "Aaron Levie on Why Open AI Wins",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-05",
-    "mention_score": 3,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "U.S. policy and investment in open weights models is critical to avoid technological dependence on China, which currently leads in this domain",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Aaron Levie",
-      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
-      "cliff_notes": "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
-      "derived": {
-        "current_role": "CEO at Box"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
-        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Content Management",
-          "body": "Aaron Levie has been at the forefront of cloud content management, leading Box to become a major player in the industry."
-        },
-        {
-          "heading": "AI and Technology Integration",
-          "body": "Levie has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
-        },
-        {
-          "heading": "Economic Implications of Technology",
-          "body": "Levie has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
-        }
-      ]
-    },
-    "net_worth": null
-  },
-  {
     "id": 543,
     "name": "Andy Jassy",
     "slug": "andy-jassy",
@@ -3656,6 +3623,66 @@
     "pundit_profile": null
   },
   {
+    "id": 183,
+    "name": "Aaron Levie",
+    "slug": "aaron-levy",
+    "bio": "Co-founder and CEO of Box, the cloud content management company.",
+    "known_for": "Co-founding and leading Box as CEO; commentary on enterprise software and AI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Measured and analytical with policy-aware framing",
+    "voice_style": "Builds arguments through logical contrasts and economic analogies rather than hype",
+    "voice_delivery_notes": "Speaks in complete paragraphs with deliberate pacing; emphasize the 'not either/or but both/and' structure of his open vs closed model argument",
+    "voice_profile_updated_at": "2026-09-05 17:12:26",
+    "last_seen": "2026-09-05 17:12:26",
+    "last_episode_title": "Aaron Levie on Why Open AI Wins",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-05",
+    "mention_score": 3,
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "U.S. policy and investment in open weights models is critical to avoid technological dependence on China, which currently leads in this domain",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levie",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levie is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levie's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levie has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levie has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levie has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": null
+  },
+  {
     "id": 564,
     "name": "Chris Auth",
     "slug": "chris-auth",
@@ -3673,7 +3700,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -3700,7 +3727,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -3727,7 +3754,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -3754,7 +3781,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -3781,7 +3808,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -3808,7 +3835,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Moshi\u2019s key claim is that trader AI wins by combining recommendation systems with workflow-native UI, not by building a generic Bloomberg-like interface.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-22 \u2022 You are the Team  \u2014 Anekha Sokhal, Moshi",
     "last_proof_snippet": "",
@@ -3970,7 +3997,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "OpenAI\u2019s health-AI edge is its cheaper, frontier-level model plus specialized medical training, which it says can outperform prior models while scaling across workflows like Epic.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-20 \u2022 What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
     "last_proof_snippet": "5.3 plus trillian we spend on health care for its own country, be the third largest GDP, and yet we have a ton of scarcity.",
@@ -4365,60 +4392,6 @@
     "pundit_profile": null
   },
   {
-    "id": 530,
-    "name": "Dan Boneh",
-    "slug": "dan-bonay",
-    "bio": "Stanford professor introduced in the episode. He focuses on why current AI progress does not yet equal a demonstrated break of deployed cryptography.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 17:37:30",
-    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.42,
-    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them. The labs say that they fail to break them. That will give you tremendous confidence that our assumptions are valid.",
-    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 531,
-    "name": "Justin Thaler",
-    "slug": "justin-daler",
-    "bio": "Research Partner at a16z. He emphasizes operational defenses, crypto agility, and startup opportunities in AI-driven security tooling.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 17:37:30",
-    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.42,
-    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 74,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
@@ -4482,6 +4455,60 @@
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 530,
+    "name": "Dan Boneh",
+    "slug": "dan-bonay",
+    "bio": "Stanford professor introduced in the episode. He focuses on why current AI progress does not yet equal a demonstrated break of deployed cryptography.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 17:37:30",
+    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.41,
+    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
+    "last_proof_snippet": "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them. The labs say that they fail to break them. That will give you tremendous confidence that our assumptions are valid.",
+    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 531,
+    "name": "Justin Thaler",
+    "slug": "justin-daler",
+    "bio": "Research Partner at a16z. He emphasizes operational defenses, crypto agility, and startup opportunities in AI-driven security tooling.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 17:37:30",
+    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.41,
+    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 529,
@@ -4665,7 +4692,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The core opportunity lies in AI infrastructure and hardware providers benefiting from enterprise insourcing, while model-facing incumbents face margin compression from zero switching costs and open competition.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-10 \u2022 MacroVoices #549 Matt Barrie: AI-gent Provocateur",
     "last_proof_snippet": "Token costs can escalate rapidly to unsustainable levels, but enterprises can slash expenses by arbitraging across models, including cheaper Chinese alternatives.",
@@ -4860,7 +4887,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by reinforcement learning built on real lab experiments and instrument data, and by experimental data that records how every result was produced\u2014not by simulations or model scale alone.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
     "last_proof_snippet": "",
@@ -4887,7 +4914,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by reinforcement learning built on real lab experiments and instrument data, and by experimental data that records how every result was produced\u2014not by simulations or model scale alone.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
     "last_proof_snippet": "",
@@ -7263,132 +7290,6 @@
     "net_worth": null
   },
   {
-    "id": 445,
-    "name": "Rayan Krishnan",
-    "slug": "ryan-krishneth",
-    "bio": "Rayan Krishnan is a leader at Val, the company behind Valsmith, with expertise in enterprise AI benchmarking and independent model evaluation. He advocates for independent AI testing and private benchmarking to help organizations validate the return on investment of their AI systems. His work focuses on providing enterprises with rigorous, vendor-neutral assessment frameworks for deployed AI models.",
-    "known_for": "Advocating for independent AI testing and private benchmarking to validate enterprise AI ROI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Data-driven and pragmatic, focusing on empirical evidence and cost metrics.",
-    "voice_style": "Employs specific financial anecdotes and benchmark comparisons to illustrate gaps between public marketing and private model performance.",
-    "voice_delivery_notes": "Deliver at a measured pace with slight emphasis on dollar figures and comparative ratios to underscore enterprise urgency.",
-    "voice_profile_updated_at": "2026-09-11 15:49:53",
-    "last_seen": "2026-09-11 15:49:53",
-    "last_episode_title": "Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.2,
-    "last_main_idea": "Independent benchmarking and third-party model evaluation are becoming critical infrastructure as enterprise AI token spend rapidly outpaces traditional labor costs, creating opportunities in validation services and internal ROI optimization platforms while mitigating risks from benchmark gaming.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-09 \u2022 Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan",
-    "last_proof_snippet": "Public benchmarks frequently misrepresent true model capabilities; investors and enterprises must rely on private held-out evaluations to avoid misallocation of capital.",
-    "supporting_takeaway": "Public benchmarks frequently misrepresent true model capabilities; investors and enterprises must rely on private held-out evaluations to avoid misallocation of capital.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-11T14:00:35.767772",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:kimi-k2.6",
-      "source_url": "",
-      "page_title": "Rayan Krishnan",
-      "fetched_at": "2026-09-11T19:00:35.767223+00:00",
-      "cliff_notes": "Rayan Krishnan is recognized for his work in enterprise AI evaluation, holding a leadership position at Val, the company that developed the Valsmith platform. In this capacity, he focuses on independent model evaluation and enterprise AI benchmarking, promoting methodologies that allow organizations to verify AI performance and return on investment through third-party, private testing rather than vendor-reported metrics. His public profile centers on the need for transparency and rigor in AI procurement and deployment, positioning independent validation as a safeguard for enterprise buyers in a crowded and rapidly evolving market. While specific details about his earlier career trajectory, educational background, and prior professional roles are not widely documented in public sources, his current advocacy underscores a focus on practical, risk-reduction strategies for corporate AI adoption.",
-      "derived": {
-        "current_role": "Leader at Val"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Rayan Krishnan is recognized for his work in enterprise AI evaluation, holding a leadership position at Val, the company that developed the Valsmith platform. In this capacity, he focuses on independent model evaluation and enterprise AI benchmarking, promoting methodologies that allow organizations to verify AI performance and return on investment through third-party, private testing rather than vendor-reported metrics.",
-        "His public profile centers on the need for transparency and rigor in AI procurement and deployment, positioning independent validation as a safeguard for enterprise buyers in a crowded and rapidly evolving market. While specific details about his earlier career trajectory, educational background, and prior professional roles are not widely documented in public sources, his current advocacy underscores a focus on practical, risk-reduction strategies for corporate AI adoption."
-      ],
-      "sections": [
-        {
-          "heading": "Enterprise AI Benchmarking",
-          "body": "Krishnan leads efforts to develop benchmarking frameworks that assess AI model performance in enterprise environments. His work aims to replace vendor-supplied metrics with independent evaluations that reflect real-world business requirements and operational constraints."
-        },
-        {
-          "heading": "Independent AI Testing Advocacy",
-          "body": "He is a vocal advocate for private, third-party AI testing, arguing that independent validation is essential for organizations to accurately measure AI ROI. This approach is intended to reduce reliance on marketing claims and improve procurement rigor."
-        },
-        {
-          "heading": "Val and Valsmith",
-          "body": "As a leader at Val, the company behind the Valsmith platform, Krishnan contributes to tools and methodologies designed for independent model evaluation. The company focuses on providing enterprises with transparent, standardized assessment capabilities for their AI investments."
-        }
-      ]
-    },
-    "net_worth": null
-  },
-  {
-    "id": 444,
-    "name": "Andrew Chen",
-    "slug": "andrew-chen",
-    "bio": "Andrew Chen is a general partner at Andreessen Horowitz (a16z), where he leads the Speedrun program and focuses on earliest-stage investing in consumer technology, marketplaces, and gaming. Before joining the firm, he led rider growth at Uber and spent years as an operator and angel investor in Silicon Valley. He is the author of \"The Cold Start Problem,\" a book on building and scaling network effects. His work bridges operational growth tactics with venture-backed company formation.",
-    "known_for": "Expertise in early-stage marketplaces, network effects, and consumer growth; leads a16z\u2019s Speedrun program and authored \"The Cold Start Problem.\"",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Pragmatic and founder-empathetic",
-    "voice_style": "Uses direct anecdotes and policy observations to argue for structural startup support and long-term founder relationships",
-    "voice_delivery_notes": "Measured pace with emphasis on founder time constraints, regulatory helplessness, and the logic of lifelong partnership",
-    "voice_profile_updated_at": "2026-09-11 15:47:08",
-    "last_seen": "2026-09-11 15:47:08",
-    "last_episode_title": "What It Takes to Build a Startup | Andrew Chen & Matt Perault",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.2,
-    "last_main_idea": "A16Z's Speedrun program targets high-conviction, pre-seed investments in small, bootstrapped teams with unique founder experiences, while the firm leverages long-term founder relationships and policy advocacy to mitigate geographic and regulatory risks.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-11 \u2022 What It Takes to Build a Startup | Andrew Chen & Matt Perault",
-    "last_proof_snippet": "Early-stage founders face severe regulatory burdens but lack representation or time to engage in policy, creating a structural disadvantage that threatens startup viability.",
-    "supporting_takeaway": "Early-stage founders face severe regulatory burdens but lack representation or time to engage in policy, creating a structural disadvantage that threatens startup viability.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-12T12:47:16.196141",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:kimi-k2.6",
-      "source_url": "",
-      "page_title": "Andrew Chen",
-      "fetched_at": "2026-09-12T17:47:16.195736+00:00",
-      "cliff_notes": "Andrew Chen built his career at the intersection of consumer product growth, marketplace dynamics, and early-stage investing. He first gained prominence writing widely read essays on network effects, viral growth, and the metrics that define successful consumer startups, establishing himself as a key thinker in Silicon Valley operator circles. His writing and advisory work led to operating roles at high-growth startups, most notably as Head of Rider Growth at Uber, where he led product and growth initiatives during a period of massive global expansion. In 2018, he joined Andreessen Horowitz as a general partner, bringing deep operational expertise to the firm\u2019s consumer and games investing practice. At a16z, Chen focuses on the earliest stages of company formation, backing founders building network-effect businesses, consumer platforms, and gaming ecosystems. He leads Speedrun, the firm\u2019s program for earliest-stage founders, which emphasizes founder development and ecosystem building. In 2021, he published \"The Cold Start Problem,\" which codifies his framework for overcoming the chicken-and-egg challenges inherent in marketplace and platform businesses. His career reflects a shift from hands-on growth operations to institutional venture capital, with a consistent focus on how startups attract initial users and scale defensible networks.",
-      "derived": {
-        "current_role": "General Partner, Andreessen Horowitz (a16z)",
-        "former_positions": "Head of Rider Growth, Uber",
-        "books_or_works": "The Cold Start Problem: How to Start and Scale Network Effects (2021)"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Andrew Chen built his career at the intersection of consumer product growth, marketplace dynamics, and early-stage investing. He first gained prominence writing widely read essays on network effects, viral growth, and the metrics that define successful consumer startups, establishing himself as a key thinker in Silicon Valley operator circles.",
-        "His writing and advisory work led to operating roles at high-growth startups, most notably as Head of Rider Growth at Uber, where he led product and growth initiatives during a period of massive global expansion. In 2018, he joined Andreessen Horowitz as a general partner, bringing deep operational expertise to the firm\u2019s consumer and games investing practice.",
-        "At a16z, Chen focuses on the earliest stages of company formation, backing founders building network-effect businesses, consumer platforms, and gaming ecosystems. He leads Speedrun, the firm\u2019s program for earliest-stage founders, which emphasizes founder development and ecosystem building. In 2021, he published \"The Cold Start Problem,\" which codifies his framework for overcoming the chicken-and-egg challenges inherent in marketplace and platform businesses.",
-        "His career reflects a shift from hands-on growth operations to institutional venture capital, with a consistent focus on how startups attract initial users and scale defensible networks."
-      ],
-      "sections": [
-        {
-          "heading": "Network Effects and Marketplaces",
-          "body": "Chen is recognized for his deep expertise in network effects and marketplace dynamics. He has written extensively on how platforms solve chicken-and-egg problems and scale defensively, frameworks he later formalized in his book \"The Cold Start Problem.\" Investors and founders frequently cite his models for understanding viral growth and platform monetization."
-        },
-        {
-          "heading": "Consumer Growth and Product Strategy",
-          "body": "Before venture capital, Chen led rider growth at Uber and held product roles at consumer startups. His operator background informs his investment thesis, emphasizing metrics-driven growth, user acquisition loops, and product-market fit in consumer technology. He bridges tactical growth execution with long-term platform strategy."
-        },
-        {
-          "heading": "Early-Stage Investing at a16z",
-          "body": "As a general partner at Andreessen Horowitz, Chen concentrates on the earliest stages of company formation. He backs founders in consumer tech, gaming, and marketplace sectors, applying both capital and operational playbooks to help startups navigate the transition from zero to one."
-        },
-        {
-          "heading": "Speedrun and Founder Development",
-          "body": "Chen leads a16z\u2019s Speedrun program, an initiative focused on earliest-stage company formation and ecosystem building. The program is designed to support pre-seed and seed-stage founders through intensive development, community, and resources, reflecting his belief that founder support at inception shapes long-term outcomes."
-        },
-        {
-          "heading": "The Cold Start Problem",
-          "body": "Published in 2021, Chen\u2019s book \"The Cold Start Problem\" provides a systematic approach to launching and scaling network-effect businesses. Drawing on case studies from companies like Uber, Airbnb, and Twitch, it outlines strategies for attracting initial users and crossing critical liquidity thresholds."
-        }
-      ]
-    },
-    "net_worth": null
-  },
-  {
     "id": 218,
     "name": "Joe Schmidt",
     "slug": "joe-schmidt",
@@ -7447,6 +7348,132 @@
       ]
     },
     "net_worth": "$21.0M"
+  },
+  {
+    "id": 445,
+    "name": "Rayan Krishnan",
+    "slug": "ryan-krishneth",
+    "bio": "Rayan Krishnan is a leader at Val, the company behind Valsmith, with expertise in enterprise AI benchmarking and independent model evaluation. He advocates for independent AI testing and private benchmarking to help organizations validate the return on investment of their AI systems. His work focuses on providing enterprises with rigorous, vendor-neutral assessment frameworks for deployed AI models.",
+    "known_for": "Advocating for independent AI testing and private benchmarking to validate enterprise AI ROI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Data-driven and pragmatic, focusing on empirical evidence and cost metrics.",
+    "voice_style": "Employs specific financial anecdotes and benchmark comparisons to illustrate gaps between public marketing and private model performance.",
+    "voice_delivery_notes": "Deliver at a measured pace with slight emphasis on dollar figures and comparative ratios to underscore enterprise urgency.",
+    "voice_profile_updated_at": "2026-09-11 15:49:53",
+    "last_seen": "2026-09-11 15:49:53",
+    "last_episode_title": "Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.19,
+    "last_main_idea": "Independent benchmarking and third-party model evaluation are becoming critical infrastructure as enterprise AI token spend rapidly outpaces traditional labor costs, creating opportunities in validation services and internal ROI optimization platforms while mitigating risks from benchmark gaming.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-09 \u2022 Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan",
+    "last_proof_snippet": "Public benchmarks frequently misrepresent true model capabilities; investors and enterprises must rely on private held-out evaluations to avoid misallocation of capital.",
+    "supporting_takeaway": "Public benchmarks frequently misrepresent true model capabilities; investors and enterprises must rely on private held-out evaluations to avoid misallocation of capital.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-11T14:00:35.767772",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Rayan Krishnan",
+      "fetched_at": "2026-09-11T19:00:35.767223+00:00",
+      "cliff_notes": "Rayan Krishnan is recognized for his work in enterprise AI evaluation, holding a leadership position at Val, the company that developed the Valsmith platform. In this capacity, he focuses on independent model evaluation and enterprise AI benchmarking, promoting methodologies that allow organizations to verify AI performance and return on investment through third-party, private testing rather than vendor-reported metrics. His public profile centers on the need for transparency and rigor in AI procurement and deployment, positioning independent validation as a safeguard for enterprise buyers in a crowded and rapidly evolving market. While specific details about his earlier career trajectory, educational background, and prior professional roles are not widely documented in public sources, his current advocacy underscores a focus on practical, risk-reduction strategies for corporate AI adoption.",
+      "derived": {
+        "current_role": "Leader at Val"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Rayan Krishnan is recognized for his work in enterprise AI evaluation, holding a leadership position at Val, the company that developed the Valsmith platform. In this capacity, he focuses on independent model evaluation and enterprise AI benchmarking, promoting methodologies that allow organizations to verify AI performance and return on investment through third-party, private testing rather than vendor-reported metrics.",
+        "His public profile centers on the need for transparency and rigor in AI procurement and deployment, positioning independent validation as a safeguard for enterprise buyers in a crowded and rapidly evolving market. While specific details about his earlier career trajectory, educational background, and prior professional roles are not widely documented in public sources, his current advocacy underscores a focus on practical, risk-reduction strategies for corporate AI adoption."
+      ],
+      "sections": [
+        {
+          "heading": "Enterprise AI Benchmarking",
+          "body": "Krishnan leads efforts to develop benchmarking frameworks that assess AI model performance in enterprise environments. His work aims to replace vendor-supplied metrics with independent evaluations that reflect real-world business requirements and operational constraints."
+        },
+        {
+          "heading": "Independent AI Testing Advocacy",
+          "body": "He is a vocal advocate for private, third-party AI testing, arguing that independent validation is essential for organizations to accurately measure AI ROI. This approach is intended to reduce reliance on marketing claims and improve procurement rigor."
+        },
+        {
+          "heading": "Val and Valsmith",
+          "body": "As a leader at Val, the company behind the Valsmith platform, Krishnan contributes to tools and methodologies designed for independent model evaluation. The company focuses on providing enterprises with transparent, standardized assessment capabilities for their AI investments."
+        }
+      ]
+    },
+    "net_worth": null
+  },
+  {
+    "id": 444,
+    "name": "Andrew Chen",
+    "slug": "andrew-chen",
+    "bio": "Andrew Chen is a general partner at Andreessen Horowitz (a16z), where he leads the Speedrun program and focuses on earliest-stage investing in consumer technology, marketplaces, and gaming. Before joining the firm, he led rider growth at Uber and spent years as an operator and angel investor in Silicon Valley. He is the author of \"The Cold Start Problem,\" a book on building and scaling network effects. His work bridges operational growth tactics with venture-backed company formation.",
+    "known_for": "Expertise in early-stage marketplaces, network effects, and consumer growth; leads a16z\u2019s Speedrun program and authored \"The Cold Start Problem.\"",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Pragmatic and founder-empathetic",
+    "voice_style": "Uses direct anecdotes and policy observations to argue for structural startup support and long-term founder relationships",
+    "voice_delivery_notes": "Measured pace with emphasis on founder time constraints, regulatory helplessness, and the logic of lifelong partnership",
+    "voice_profile_updated_at": "2026-09-11 15:47:08",
+    "last_seen": "2026-09-11 15:47:08",
+    "last_episode_title": "What It Takes to Build a Startup | Andrew Chen & Matt Perault",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.19,
+    "last_main_idea": "A16Z's Speedrun program targets high-conviction, pre-seed investments in small, bootstrapped teams with unique founder experiences, while the firm leverages long-term founder relationships and policy advocacy to mitigate geographic and regulatory risks.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-11 \u2022 What It Takes to Build a Startup | Andrew Chen & Matt Perault",
+    "last_proof_snippet": "Early-stage founders face severe regulatory burdens but lack representation or time to engage in policy, creating a structural disadvantage that threatens startup viability.",
+    "supporting_takeaway": "Early-stage founders face severe regulatory burdens but lack representation or time to engage in policy, creating a structural disadvantage that threatens startup viability.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-12T12:47:16.196141",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Andrew Chen",
+      "fetched_at": "2026-09-12T17:47:16.195736+00:00",
+      "cliff_notes": "Andrew Chen built his career at the intersection of consumer product growth, marketplace dynamics, and early-stage investing. He first gained prominence writing widely read essays on network effects, viral growth, and the metrics that define successful consumer startups, establishing himself as a key thinker in Silicon Valley operator circles. His writing and advisory work led to operating roles at high-growth startups, most notably as Head of Rider Growth at Uber, where he led product and growth initiatives during a period of massive global expansion. In 2018, he joined Andreessen Horowitz as a general partner, bringing deep operational expertise to the firm\u2019s consumer and games investing practice. At a16z, Chen focuses on the earliest stages of company formation, backing founders building network-effect businesses, consumer platforms, and gaming ecosystems. He leads Speedrun, the firm\u2019s program for earliest-stage founders, which emphasizes founder development and ecosystem building. In 2021, he published \"The Cold Start Problem,\" which codifies his framework for overcoming the chicken-and-egg challenges inherent in marketplace and platform businesses. His career reflects a shift from hands-on growth operations to institutional venture capital, with a consistent focus on how startups attract initial users and scale defensible networks.",
+      "derived": {
+        "current_role": "General Partner, Andreessen Horowitz (a16z)",
+        "former_positions": "Head of Rider Growth, Uber",
+        "books_or_works": "The Cold Start Problem: How to Start and Scale Network Effects (2021)"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Andrew Chen built his career at the intersection of consumer product growth, marketplace dynamics, and early-stage investing. He first gained prominence writing widely read essays on network effects, viral growth, and the metrics that define successful consumer startups, establishing himself as a key thinker in Silicon Valley operator circles.",
+        "His writing and advisory work led to operating roles at high-growth startups, most notably as Head of Rider Growth at Uber, where he led product and growth initiatives during a period of massive global expansion. In 2018, he joined Andreessen Horowitz as a general partner, bringing deep operational expertise to the firm\u2019s consumer and games investing practice.",
+        "At a16z, Chen focuses on the earliest stages of company formation, backing founders building network-effect businesses, consumer platforms, and gaming ecosystems. He leads Speedrun, the firm\u2019s program for earliest-stage founders, which emphasizes founder development and ecosystem building. In 2021, he published \"The Cold Start Problem,\" which codifies his framework for overcoming the chicken-and-egg challenges inherent in marketplace and platform businesses.",
+        "His career reflects a shift from hands-on growth operations to institutional venture capital, with a consistent focus on how startups attract initial users and scale defensible networks."
+      ],
+      "sections": [
+        {
+          "heading": "Network Effects and Marketplaces",
+          "body": "Chen is recognized for his deep expertise in network effects and marketplace dynamics. He has written extensively on how platforms solve chicken-and-egg problems and scale defensively, frameworks he later formalized in his book \"The Cold Start Problem.\" Investors and founders frequently cite his models for understanding viral growth and platform monetization."
+        },
+        {
+          "heading": "Consumer Growth and Product Strategy",
+          "body": "Before venture capital, Chen led rider growth at Uber and held product roles at consumer startups. His operator background informs his investment thesis, emphasizing metrics-driven growth, user acquisition loops, and product-market fit in consumer technology. He bridges tactical growth execution with long-term platform strategy."
+        },
+        {
+          "heading": "Early-Stage Investing at a16z",
+          "body": "As a general partner at Andreessen Horowitz, Chen concentrates on the earliest stages of company formation. He backs founders in consumer tech, gaming, and marketplace sectors, applying both capital and operational playbooks to help startups navigate the transition from zero to one."
+        },
+        {
+          "heading": "Speedrun and Founder Development",
+          "body": "Chen leads a16z\u2019s Speedrun program, an initiative focused on earliest-stage company formation and ecosystem building. The program is designed to support pre-seed and seed-stage founders through intensive development, community, and resources, reflecting his belief that founder support at inception shapes long-term outcomes."
+        },
+        {
+          "heading": "The Cold Start Problem",
+          "body": "Published in 2021, Chen\u2019s book \"The Cold Start Problem\" provides a systematic approach to launching and scaling network-effect businesses. Drawing on case studies from companies like Uber, Airbnb, and Twitch, it outlines strategies for attracting initial users and crossing critical liquidity thresholds."
+        }
+      ]
+    },
+    "net_worth": null
   },
   {
     "id": 440,
@@ -7533,7 +7560,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-02 \u2022 Inside Moderna\u2019s Personalized Cancer Vaccine",
     "last_proof_snippet": "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed.",
@@ -7593,7 +7620,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Position nuclear as AI infrastructure: prefer names tied to firm hyperscaler offtake, enrichment/fuel, and factory-built SMR supply chains over pure fusion lottery tickets. Watch PPA announcements, NRC Part 57 and similar licensing milestones, and enrichment capacity expansions as catalysts; falsifiers are hyperscaler PPA pullbacks, permitting stalls, or a step-change cheaper firm clean power that undercuts $100/MWh nuclear bids.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-03 \u2022 MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
     "last_proof_snippet": "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance.",
@@ -7663,7 +7690,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-04 \u2022 Fei Fei Li: The Race to Build World Models For AI",
     "last_proof_snippet": "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction.",
@@ -7723,7 +7750,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Bond yields are at multi-decade highs and investor sentiment is excessively bearish, creating a contrarian buying opportunity in long-term government bonds.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-03 \u2022 \u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
     "last_proof_snippet": "",
@@ -8810,7 +8837,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Live commerce has the potential to disrupt traditional e-commerce by combining shopping with entertainment and community, creating a more engaging and enjoyable experience for users and opening up new opportunities for small businesses.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-19 \u2022 How Whatnot Built a Global Marketplace",
     "last_proof_snippet": "If you look at e-commerce today, you have to know exactly what you're looking for. Live commerce is over a third of all commerce in Asia. Send right? 30 to 40 percent of all commerce is live commerce in China. What is it in the U.S today?",
@@ -9746,7 +9773,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Enterprises are increasingly adopting AI, impacting how businesses operate and develop software.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-11 \u2022 The CISO Playbook for AI Agents | Datadog",
     "last_proof_snippet": "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it.",
@@ -10025,65 +10052,6 @@
     }
   },
   {
-    "id": 384,
-    "name": "Simon Mow",
-    "slug": "simon-mow",
-    "bio": "Simon Mow is the co-founder and CEO of Infrared, a company that specializes in open source inference engines for AI. He is particularly known for his work as a maintainer of the open source inference engine PHLM, which is utilized by half a million GPUs at any given time.",
-    "known_for": "His pivotal role in maintaining PHLM, an open source inference engine that powers a significant portion of the world's GPUs.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Factual and solution-oriented",
-    "voice_delivery_notes": "Clear and concise with a focus on the technical aspects of AI infrastructure",
-    "voice_profile_updated_at": "2026-08-06 17:05:52",
-    "last_seen": "2026-08-06 17:05:52",
-    "last_episode_title": "How Open-Source AI Became Critical Infrastructure",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Serving large language models (LLMs) is fundamentally different from traditional ML workloads, requiring specialized infrastructure and engineering.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-06T12:06:04.740781",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Simon Mow",
-      "fetched_at": "2026-08-06T17:06:04.740442+00:00",
-      "cliff_notes": "Simon Mow is recognized for his contributions to the field of AI, particularly through his work with the open source inference engine PHLM. As the co-founder and CEO of Infrared, he has been instrumental in developing and maintaining this technology, which is widely used across a vast number of GPUs. His insights into the future of AI and the potential for open source models to close the gap with proprietary models have made him a thought leader in the industry. Mow's vision for an open source world where users can control their own guardrails for trusted use cases is shaping the discourse around AI's future.",
-      "derived": {
-        "current_role": "Co-founder and CEO of Infrared"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Simon Mow is recognized for his contributions to the field of AI, particularly through his work with the open source inference engine PHLM. As the co-founder and CEO of Infrared, he has been instrumental in developing and maintaining this technology, which is widely used across a vast number of GPUs. His insights into the future of AI and the potential for open source models to close the gap with proprietary models have made him a thought leader in the industry.",
-        "Mow's vision for an open source world where users can control their own guardrails for trusted use cases is shaping the discourse around AI's future."
-      ],
-      "sections": [
-        {
-          "heading": "Open Source AI",
-          "body": "Simon Mow is a proponent of open source AI models, believing they have become a significant force in the industry and are closing the gap with proprietary models in terms of capabilities."
-        },
-        {
-          "heading": "Future of GPUs",
-          "body": "Mow has engaged in thought experiments about the future of GPUs, suggesting that if their prices were to drop significantly, open source could become the default choice for many, due to the control it offers over trusted use cases."
-        },
-        {
-          "heading": "Infrastructure for AI",
-          "body": "He emphasizes the need for an entirely new infrastructure layer to make frontier models available to the world, suggesting that releasing model weights alone is not sufficient."
-        }
-      ]
-    }
-  },
-  {
     "id": 259,
     "name": "Andrew Feldman",
     "slug": "andrew-feldman",
@@ -10146,6 +10114,65 @@
       ]
     },
     "net_worth": "$19.8M"
+  },
+  {
+    "id": 384,
+    "name": "Simon Mow",
+    "slug": "simon-mow",
+    "bio": "Simon Mow is the co-founder and CEO of Infrared, a company that specializes in open source inference engines for AI. He is particularly known for his work as a maintainer of the open source inference engine PHLM, which is utilized by half a million GPUs at any given time.",
+    "known_for": "His pivotal role in maintaining PHLM, an open source inference engine that powers a significant portion of the world's GPUs.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Factual and solution-oriented",
+    "voice_delivery_notes": "Clear and concise with a focus on the technical aspects of AI infrastructure",
+    "voice_profile_updated_at": "2026-08-06 17:05:52",
+    "last_seen": "2026-08-06 17:05:52",
+    "last_episode_title": "How Open-Source AI Became Critical Infrastructure",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-06",
+    "mention_score": 1,
+    "mention_score_decayed": 0.08,
+    "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Serving large language models (LLMs) is fundamentally different from traditional ML workloads, requiring specialized infrastructure and engineering.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-06T12:06:04.740781",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Simon Mow",
+      "fetched_at": "2026-08-06T17:06:04.740442+00:00",
+      "cliff_notes": "Simon Mow is recognized for his contributions to the field of AI, particularly through his work with the open source inference engine PHLM. As the co-founder and CEO of Infrared, he has been instrumental in developing and maintaining this technology, which is widely used across a vast number of GPUs. His insights into the future of AI and the potential for open source models to close the gap with proprietary models have made him a thought leader in the industry. Mow's vision for an open source world where users can control their own guardrails for trusted use cases is shaping the discourse around AI's future.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Infrared"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Simon Mow is recognized for his contributions to the field of AI, particularly through his work with the open source inference engine PHLM. As the co-founder and CEO of Infrared, he has been instrumental in developing and maintaining this technology, which is widely used across a vast number of GPUs. His insights into the future of AI and the potential for open source models to close the gap with proprietary models have made him a thought leader in the industry.",
+        "Mow's vision for an open source world where users can control their own guardrails for trusted use cases is shaping the discourse around AI's future."
+      ],
+      "sections": [
+        {
+          "heading": "Open Source AI",
+          "body": "Simon Mow is a proponent of open source AI models, believing they have become a significant force in the industry and are closing the gap with proprietary models in terms of capabilities."
+        },
+        {
+          "heading": "Future of GPUs",
+          "body": "Mow has engaged in thought experiments about the future of GPUs, suggesting that if their prices were to drop significantly, open source could become the default choice for many, due to the control it offers over trusted use cases."
+        },
+        {
+          "heading": "Infrastructure for AI",
+          "body": "He emphasizes the need for an entirely new infrastructure layer to make frontier models available to the world, suggesting that releasing model weights alone is not sufficient."
+        }
+      ]
+    }
   },
   {
     "id": 382,
@@ -12017,6 +12044,66 @@
     }
   },
   {
+    "id": 42,
+    "name": "Jack Mallers",
+    "slug": "jack-mallers",
+    "bio": "Jack Mallers is the CEO of Strike, a Bitcoin financial platform that advocates for Bitcoin adoption and financial innovation. He is known for his work in the cryptocurrency space and his efforts to integrate Bitcoin into everyday financial transactions.",
+    "known_for": "Advocating for Bitcoin adoption and financial innovation.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Assertive and insightful.",
+    "voice_style": "Direct and focused on the importance of authenticity in Bitcoin discussions.",
+    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points.",
+    "voice_profile_updated_at": "2026-06-16 11:37:25",
+    "last_seen": "2026-06-16 11:37:25",
+    "last_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-06-16",
+    "mention_score": 2,
+    "mention_score_decayed": 0.05,
+    "last_main_idea": "Bitcoin's price movements reflect real market sentiment and can act as a leading indicator for global market conditions.",
+    "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Bitcoin treasury companies face challenges in managing their capital structures to satisfy common equity, preferred equity, and debt holders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T05:01:29.272192",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jack Mallers",
+      "fetched_at": "2026-06-21T10:01:29.271870+00:00",
+      "cliff_notes": "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money. His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies.",
+      "derived": {
+        "current_role": "CEO of Strike"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money.",
+        "His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies."
+      ],
+      "sections": [
+        {
+          "heading": "Bitcoin Advocacy",
+          "body": "Jack Mallers is a vocal advocate for the adoption of Bitcoin, promoting its use in everyday transactions and financial services."
+        },
+        {
+          "heading": "Financial Innovation",
+          "body": "Mallers is known for his efforts in financial innovation, particularly in how Bitcoin can be integrated into existing financial systems to enhance accessibility and efficiency."
+        },
+        {
+          "heading": "Strike Platform",
+          "body": "As the CEO of Strike, Mallers leads a platform that simplifies Bitcoin transactions, aiming to make them as ubiquitous as sending an email."
+        }
+      ]
+    },
+    "net_worth": null
+  },
+  {
     "id": 326,
     "name": "Mark Zuckerberg",
     "slug": "mark-zuckerberg",
@@ -12034,7 +12121,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools.",
@@ -12100,7 +12187,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools.",
@@ -12138,66 +12225,6 @@
         {
           "heading": "AI and Technology",
           "body": "The Chan Zuckerberg Initiative is investing in AI to accelerate scientific research, with Chan noting the potential for AI to play a significant role in the future of biology and disease prevention."
-        }
-      ]
-    },
-    "net_worth": null
-  },
-  {
-    "id": 42,
-    "name": "Jack Mallers",
-    "slug": "jack-mallers",
-    "bio": "Jack Mallers is the CEO of Strike, a Bitcoin financial platform that advocates for Bitcoin adoption and financial innovation. He is known for his work in the cryptocurrency space and his efforts to integrate Bitcoin into everyday financial transactions.",
-    "known_for": "Advocating for Bitcoin adoption and financial innovation.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Assertive and insightful.",
-    "voice_style": "Direct and focused on the importance of authenticity in Bitcoin discussions.",
-    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points.",
-    "voice_profile_updated_at": "2026-06-16 11:37:25",
-    "last_seen": "2026-06-16 11:37:25",
-    "last_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
-    "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2026-06-16",
-    "mention_score": 2,
-    "mention_score_decayed": 0.05,
-    "last_main_idea": "Bitcoin's price movements reflect real market sentiment and can act as a leading indicator for global market conditions.",
-    "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Bitcoin treasury companies face challenges in managing their capital structures to satisfy common equity, preferred equity, and debt holders.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-21T05:01:29.272192",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jack Mallers",
-      "fetched_at": "2026-06-21T10:01:29.271870+00:00",
-      "cliff_notes": "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money. His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies.",
-      "derived": {
-        "current_role": "CEO of Strike"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money.",
-        "His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies."
-      ],
-      "sections": [
-        {
-          "heading": "Bitcoin Advocacy",
-          "body": "Jack Mallers is a vocal advocate for the adoption of Bitcoin, promoting its use in everyday transactions and financial services."
-        },
-        {
-          "heading": "Financial Innovation",
-          "body": "Mallers is known for his efforts in financial innovation, particularly in how Bitcoin can be integrated into existing financial systems to enhance accessibility and efficiency."
-        },
-        {
-          "heading": "Strike Platform",
-          "body": "As the CEO of Strike, Mallers leads a platform that simplifies Bitcoin transactions, aiming to make them as ubiquitous as sending an email."
         }
       ]
     },
