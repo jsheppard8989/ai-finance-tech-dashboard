@@ -1,5 +1,30 @@
 [
   {
+    "id": 709,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Anthropic Goes Public, Nvidia in Crisis, Markets Tank, Open Source Crackdown?",
+    "episode_date": "2026-11-20",
+    "summary": "The episode centers on a broad thesis that AI is reshaping markets around a small number of vertically integrated \u201cmega corps\u201d that can own everything from the model layer down to physical infrastructure. One host argues there will be roughly 9\u201310 such companies over the next decade, and uses Meta, Amazon, Alphabet, SpaceX, and Palo Alto Networks as examples of firms moving up and down the stack.\n\nA major segment focuses on Anthropic\u2019s IPO and valuation. The same host says Anthropic has the best enterprise product, ahead of Google and OpenAI, while also noting open-source models are its biggest risk.\n\nAnother major thread is Nvidia, where one host argues the stock is falling because the market is realizing the \u201cover earning era\u201d may be over. The discussion ties Nvidia\u2019s decline to governance issues, China-related export restrictions, reported buyback authorizations, and a stated view that compute will be served by many formats and distributed silicon rather than Nvidia capturing the economics forever. The host also cites large reported quarterly revenue and profit figures, but frames them as part of a broader transition rather than a clean bull case.\n\nThe conversation also turns to a political and regulatory backlash around open-source AI. One host says the \u201cbiggest risk is open source,\u201d criticizes disclosure-style rules as ineffective, and argues that requiring companies to label or disclose open-source model use would not materially change behavior. The hosts extend this into a broader debate about capital allocation, saying buybacks can be a bad signal during disruptive periods, while acquisitions can be rewarded if they help companies adapt.",
+    "key_takeaways": [
+      "One host argued that AI will create about 9\u201310 vertically integrated mega corps over the next decade, each spanning from applications down to data centers and land.",
+      "One host said Anthropic hit a $2 trillion valuation, raised over $107 billion, and still has large runway because it is less than 1% penetrated among high-spending addressable users.",
+      "One host said Anthropic has the best enterprise product out there, better than Google and OpenAI, but that open source is its biggest risk.",
+      "One host said Nvidia is trading down because the market is realizing the over-earning era may be over.",
+      "One host relayed that Nvidia authorized $150 billion in additional buybacks in September and that total buybacks were cited at $235 billion.",
+      "One host said the biggest risk is open source, and argued that putting a disclaimer on a website about using an open-source model would do nothing.",
+      "One host argued that in a disruptive period, buybacks can signal management lacks better build-or-acquire options, while acquisitions are rewarded as a defense and offense move."
+    ],
+    "investment_thesis": "AI is concentrating value into a few vertically integrated platform companies, while open source and regulation are reshaping which stacks can capture durable economics.",
+    "key_tickers": [
+      "PANW",
+      "NVDA",
+      "GOOGL",
+      "META",
+      "AMZN",
+      "MSFT"
+    ]
+  },
+  {
     "id": 708,
     "podcast_name": "ChinaTalk",
     "episode_title": "The Agentic State",

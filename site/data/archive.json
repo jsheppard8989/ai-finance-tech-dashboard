@@ -70,6 +70,44 @@
       ]
     },
     {
+      "id": 720,
+      "title": "Anthropic Goes Public, Nvidia in Crisis, Markets Tank, Open Source Crackdown?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-11-20",
+      "summary": "The episode centers on a broad thesis that AI is reshaping markets around a small number of vertically integrated \u201cmega corps\u201d that can own everything from the model layer down to physical infrastructure. One host argues there will be roughly 9\u201310 such companies over the next decade, and uses Meta, Amazon, Alphabet, SpaceX, and Palo Alto Networks as examples of firms moving up and down the stack.\n\nA major segment focuses on Anthropic\u2019s IPO and valuation. The same host says Anthropic has the best enterprise product, ahead of Google and OpenAI, while also noting open-source models are its biggest risk.\n\nAnother major thread is Nvidia, where one host argues the stock is falling because the market is realizing the \u201cover earning era\u201d may be over. The discussion ties Nvidia\u2019s decline to governance issues, China-related export restrictions, reported buyback authorizations, and a stated view that compute will be served by many formats and distributed silicon rather than Nvidia capturing the economics forever. The host also cites large reported quarterly revenue and profit figures, but frames them as part of a broader transition rather than a clean bull case.\n\nThe conversation also turns to a political and regulatory backlash around open-source AI. One host says the \u201cbiggest risk is open source,\u201d criticizes disclosure-style rules as ineffective, and argues that requiring companies to label or disclose open-source model use would not materially change behavior. The hosts extend this into a broader debate about capital allocation, saying buybacks can be a bad signal during disruptive periods, while acquisitions can be rewarded if they help companies adapt.",
+      "key_takeaway": "AI is concentrating value into a few vertically integrated platform companies, while open source and regulation are reshaping which stacks can capture durable economics.",
+      "tickers_mentioned": [
+        "PANW",
+        "NVDA",
+        "GOOGL",
+        "META",
+        "AMZN",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 709,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "I think that there are going to be nine to 10 mega corpse that get built over the next decade because of AI."
+        },
+        {
+          "speaker": "one host",
+          "quote": "This I think is why Nvidia is trading down is this realization that the over earning era of Nvidia may be over."
+        },
+        {
+          "speaker": "one host",
+          "quote": "What will it do if you put a disclaimer on your website that you use an open source model? Nothing."
+        }
+      ]
+    },
+    {
       "id": 705,
       "title": "Anthropic\u2019s $1.4T IPO: The Biggest Wealth Event in Human History?",
       "source_type": "podcast",
@@ -405,7 +443,7 @@
       "key_takeaway": "The core claim is that AI research automation is already real at the scoped-task level and could materially accelerate both capabilities and alignment work before full RSI arrives.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-17",
       "archived_date": null,
@@ -1467,6 +1505,40 @@
         {
           "speaker": "Chris McGuire",
           "quote": "The $4.8 billion worth of chips and they have a sitting on information that said they're being run by Chinese spies and those spies are actively trying to penetrate and video at the highest levels."
+        }
+      ]
+    },
+    {
+      "id": 721,
+      "title": "Are We Cooking!? What Should Dems Do Next + Jensen's Affair",
+      "source_type": "podcast",
+      "source_name": "ChinaTalk",
+      "source_date": "2026-11-09",
+      "summary": "The panel argues the post-midterm political environment creates openings around tariffs, China export controls, and data-center policy. They say Democrats can use the new Congress to push votes on tariff authority and to codify tougher China rules next year, including closing a \u201cremote access loophole\u201d and potentially advancing something like a MATCH Act.\n\nA major segment centers on data centers and AI politics. Kevin says local backlash to data-center pauses can be reframed into a pro-growth, pro-labor agenda if Democrats require transparency and push tech companies to pay for grid upgrades.\n\nThe panel also discusses a New York Times-reported espionage allegation involving Jensen Huang and says the Trump administration apparently did not issue a routine FBI defensive warning. Peter Harrell says that is unusual, since the FBI would ordinarily alert a target about possible state-sponsored espionage. The conversation suggests the leak may have come from frustration inside the administration, and that the motivations could be broader than simply trying to gain access to chips.\n\nMore broadly, the speakers frame export controls and industrial policy as politically and economically significant because constrained critical goods can affect consumer prices and national security. They discuss rare earths, grid investment, and the idea that tougher export controls could become more codified under a future Democratic Congress, while also warning that the policy fight could be distorted by headline-grabbing corruption concerns.",
+      "key_takeaway": "The episode\u2019s core claim is that tougher China export controls and pro-build data-center policy could become a politically durable industrial-policy agenda next year.",
+      "tickers_mentioned": [
+        "NVDA",
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-11-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 710,
+      "notable_quotes": [
+        {
+          "speaker": "Peter Harrell",
+          "quote": "And so, you know, the first thing that would ordinarily happen here in which the reporting, the public reporting in here times reporting just, you know, the Trump administration decided not to do is the FBI would reach out in a general level and say, we have reason to believe this person who is approaching you, uh, maybe, um, you know, involved in an espia, a state-sponsored espionage campaign."
+        },
+        {
+          "speaker": "Kevin",
+          "quote": "If you do the division, that is $60 a person in these counties."
+        },
+        {
+          "speaker": "a panelist",
+          "quote": "And while I'm not going to so far, to say that, you know, Apple price is 20% or the reason that people got upset about the economy compared to what's happened with diesel or food or whatever, it's nevertheless a tangible thing and to the extent that those price increases are directly attributable to the fact that there is a finite supply of a critical good"
         }
       ]
     },
@@ -16788,8 +16860,8 @@
       "term": "Second",
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
-      "last_mentioned_date": "2026-11-20",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-11-09",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -16798,8 +16870,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 708,
-      "last_mentioned_speaker": "Lucas (last name not provided)"
+      "last_mentioned_episode_id": 710,
+      "last_mentioned_speaker": null
     },
     {
       "id": 342,
@@ -16824,8 +16896,8 @@
       "term": "RSI",
       "description": "Recursive self-improvement, meaning AI helping accelerate the AI research process. In the episode it is treated as a spectrum from AI-assisted research interns to more autonomous systems.",
       "first_detected_date": "2026-11-17",
-      "last_mentioned_date": "2026-11-18",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-11-20",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If RSI accelerates, it could shorten model-development cycles and raise the value of tooling, evaluation, and compute infrastructure.",
@@ -16834,8 +16906,26 @@
       "archived_reason": null,
       "first_detected_episode_id": 689,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 704,
-      "last_mentioned_speaker": "Tanay Jaipuria"
+      "last_mentioned_episode_id": 709,
+      "last_mentioned_speaker": null
+    },
+    {
+      "id": 352,
+      "term": "Checks and balances",
+      "description": "The speakers use this in a mechanism-design sense: systems that constrain harmful behavior through incentives, oversight, and institutional structure rather than relying only on perfect model alignment.",
+      "first_detected_date": "2026-11-16",
+      "last_mentioned_date": "2026-11-09",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "This frames alignment as an adoption and governance problem, which could favor tools and platforms that embed oversight and control mechanisms.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 685,
+      "first_detected_speaker": "Alex Imas",
+      "last_mentioned_episode_id": 710,
+      "last_mentioned_speaker": "Alex Imas"
     },
     {
       "id": 346,
@@ -17202,8 +17292,8 @@
       "term": "Neocloud",
       "description": "Casado uses this to describe infrastructure providers that act like data centers with GPUs, effectively serving as physical token factories for AI workloads.",
       "first_detected_date": "2026-10-23",
-      "last_mentioned_date": "2026-11-18",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-11-20",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If hardware and power are the bottlenecks, the winners may be the scaled infrastructure operators that can secure supply and power access.",
@@ -17212,8 +17302,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 608,
       "first_detected_speaker": "George Noble",
-      "last_mentioned_episode_id": 704,
-      "last_mentioned_speaker": "Tanay Jaipuria"
+      "last_mentioned_episode_id": 709,
+      "last_mentioned_speaker": null
     },
     {
       "id": 320,
@@ -17310,8 +17400,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-11-02",
-      "mention_count": 25,
+      "last_mentioned_date": "2026-11-09",
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -17320,7 +17410,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 706,
+      "last_mentioned_episode_id": 710,
       "last_mentioned_speaker": null
     },
     {
@@ -17922,8 +18012,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-11-19",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-11-20",
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -17932,8 +18022,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 700,
-      "last_mentioned_speaker": "Cristina Cordova"
+      "last_mentioned_episode_id": 709,
+      "last_mentioned_speaker": null
     },
     {
       "id": 284,
