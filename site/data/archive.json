@@ -1,6 +1,44 @@
 {
   "insights": [
     {
+      "id": 726,
+      "title": "Replay: How the Internet Happened | Chris Dixon & Brian McCullough (2018)",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-22",
+      "summary": "Brian McCullough argues the dot-com era was misunderstood: many ideas were not bad, just too early, and the real lesson was timing and technology readiness. He contrasts the web\u2019s bottom-up, decentralized architecture with the top-down \u201cinformation superhighway\u201d vision pushed by incumbents like Microsoft, Comcast, and Disney, saying the web won because \u201cgood enough technology is good enough.\u201d\n\nHe uses eBay to show how early internet businesses changed user behavior: eBay taught ordinary people to trust faceless strangers online, normalized reputation systems, and proved a platform could create value without owning the goods being traded. He also says Napster\u2019s real breakthrough was convenience and instant gratification, not just piracy, and argues that if the industry had cooperated, a Spotify-like product could have existed in 1999 or 2000.\n\nThe discussion then turns to Google, which he describes as winning search first and then building the greatest advertising machine ever devised, with experimentation making ads more relevant and valuable. He contrasts that with portal-era banner models and says Google\u2019s initial discipline around search quality mattered. The episode also frames the internet as entering a \u201cmature\u201d phase in which incumbents can quickly copy features, limiting independent startups like Snapchat, and uses that to argue the next wave may require new infrastructure or a major cultural shift.\n\nHis broader investment view is that the next breakthroughs are more likely to come from hobbyists and developers working with long horizons, and from products that offer qualitatively better experiences rather than just scale. He repeatedly returns to the idea that the internet\u2019s biggest shifts came when infrastructure, user behavior, and business models finally lined up.",
+      "key_takeaway": "The biggest internet winners emerged when good-enough technology, trust mechanisms, and monetization finally aligned, and future winners will likely need qualitatively better experiences rather than just scale.",
+      "tickers_mentioned": [
+        "MSFT",
+        "DIS",
+        "EBAY",
+        "SPOT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 715,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "The story at Napster is, today we live in a world for media of unlimited selection and instant gratification."
+        },
+        {
+          "speaker": "one host",
+          "quote": "You could've had a Spotify in 1999 or 2000 at the very least."
+        },
+        {
+          "speaker": "one host",
+          "quote": "Google had already proven adwords and was making, you know, billions of dollars a year at these little contextual ads."
+        }
+      ]
+    },
+    {
       "id": 722,
       "title": "The Professional Network Built for You and Your AI Agent",
       "source_type": "podcast",
@@ -414,7 +452,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-20",
       "archived_date": null,
@@ -16984,8 +17022,8 @@
       "term": "Second",
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
-      "last_mentioned_date": "2026-11-03",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-11-22",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -16994,8 +17032,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 714,
-      "last_mentioned_speaker": "Shinura (Shinura AI / Sun AI)"
+      "last_mentioned_episode_id": 715,
+      "last_mentioned_speaker": "Brian McCullough"
     },
     {
       "id": 342,

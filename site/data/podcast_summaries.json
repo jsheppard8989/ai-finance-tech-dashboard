@@ -1,5 +1,30 @@
 [
   {
+    "id": 715,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Replay: How the Internet Happened | Chris Dixon & Brian McCullough (2018)",
+    "episode_date": "2026-11-22",
+    "summary": "Brian McCullough argues the dot-com era was misunderstood: many ideas were not bad, just too early, and the real lesson was timing and technology readiness. He contrasts the web\u2019s bottom-up, decentralized architecture with the top-down \u201cinformation superhighway\u201d vision pushed by incumbents like Microsoft, Comcast, and Disney, saying the web won because \u201cgood enough technology is good enough.\u201d\n\nHe uses eBay to show how early internet businesses changed user behavior: eBay taught ordinary people to trust faceless strangers online, normalized reputation systems, and proved a platform could create value without owning the goods being traded. He also says Napster\u2019s real breakthrough was convenience and instant gratification, not just piracy, and argues that if the industry had cooperated, a Spotify-like product could have existed in 1999 or 2000.\n\nThe discussion then turns to Google, which he describes as winning search first and then building the greatest advertising machine ever devised, with experimentation making ads more relevant and valuable. He contrasts that with portal-era banner models and says Google\u2019s initial discipline around search quality mattered. The episode also frames the internet as entering a \u201cmature\u201d phase in which incumbents can quickly copy features, limiting independent startups like Snapchat, and uses that to argue the next wave may require new infrastructure or a major cultural shift.\n\nHis broader investment view is that the next breakthroughs are more likely to come from hobbyists and developers working with long horizons, and from products that offer qualitatively better experiences rather than just scale. He repeatedly returns to the idea that the internet\u2019s biggest shifts came when infrastructure, user behavior, and business models finally lined up.",
+    "key_takeaways": [
+      "Brian McCullough says many dot-com-era ideas were \"too early,\" not fundamentally bad, and the key lesson is timing rather than idea quality.",
+      "one host says the web won because of its \"bottom-up decentralized architecture,\" not the centralized \"information superhighway\" plans of incumbents.",
+      "Chris Dixon says eBay taught \"normal people to trust faceless strangers\" online, helping mainstream reputation systems and trust in e-commerce.",
+      "one host says Napster\u2019s core story was \"unlimited selection and instant gratification,\" and that a Spotify-like service could have existed in 1999 or 2000.",
+      "one host says Google had already proven AdWords and was making \"billions of dollars a year\" from contextual ads, which helped it outcompete portal-style models.",
+      "one host says startup growth can be \"severely limited\" when incumbents propagate ideas quickly, using Snapchat and Instagram Stories as the example.",
+      "Brian McCullough argues the next wave of innovation may require new infrastructure or a cultural shift away from the old \"scale to a billion users\" playbook."
+    ],
+    "investment_thesis": "The biggest internet winners emerged when good-enough technology, trust mechanisms, and monetization finally aligned, and future winners will likely need qualitatively better experiences rather than just scale.",
+    "key_tickers": [
+      "MSFT",
+      "DIS",
+      "EBAY",
+      "SPOT",
+      "GOOGL",
+      "AMZN"
+    ]
+  },
+  {
     "id": 713,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
