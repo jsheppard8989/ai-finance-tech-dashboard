@@ -3059,7 +3059,87 @@
           "Linear's core idea is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push."
         ]
       ]
-    }
+    },
+  {
+    "insight_id": 718,
+    "podcast_episode_id": 707,
+    "_note": "Nov 22 2026 (G exact wording in g_fixes_2026-11-22_718_717.md): guest is David Heinemeier Hansson (not Heinemira Hansen); Omachi and Omajya are Omarchy. The modify-the-OS quote is from a host (transcripts disagree Acharya vs Torenberg; do not name a host). Takeaway 1 uses G's wording (dropped 'eventually'). Scoped to ep 707 / insight 718; no global Hansen or Hansson rule. Also Omajya/Omachi leftovers and the armassages typo on deep dive 716 (G sections 4–5); card 673 override left as is.",
+    "relabel_quotes": [
+      [
+        "You just tell your agent, modify the OS on which I'm operating right now",
+        "a host"
+      ]
+    ],
+    "replacements": [
+      [
+        "David Heinemira Hansen says users will eventually be able to tell an agent to modify the operating system directly, replacing traditional settings workflows.",
+        "A host says you can tell an agent to modify the operating system directly, and it does it and it works."
+      ],
+      [
+        "a host says users will eventually be able to tell an agent to modify the operating system directly, replacing traditional settings workflows.",
+        "A host says you can tell an agent to modify the operating system directly, and it does it and it works."
+      ],
+      [
+        "David Heinemira Hansen: You just tell your agent, modify the OS on which I'm operating right now and it does it and it works.",
+        "A host: You just tell your agent, modify the OS on which I'm operating right now and it does it and it works."
+      ],
+      [
+        "a host: You just tell your agent, modify the OS on which I'm operating right now and it does it and it works.",
+        "A host: You just tell your agent, modify the OS on which I'm operating right now and it does it and it works."
+      ],
+      [
+        "David Heinemira Hansen",
+        "David Heinemeier Hansson"
+      ],
+      [
+        "Heinemira Hansen",
+        "Heinemeier Hansson"
+      ],
+      [
+        "Omachi",
+        "Omarchy"
+      ],
+      [
+        "Omajya",
+        "Omarchy"
+      ],
+      [
+        "Mac OS and Windows are just unfit for the H of H it's every single thing that made leagues hard to use in the past. Oh, it's very terminal heavy.",
+        "Mac OS and Windows are just unfit for the age of agents."
+      ],
+      [
+        "They want predictable config files that they can just edit an update. They want all the details in the armassages.",
+        "They want predictable config files that they can just edit and update. They want all the details in the error messages."
+      ]
+    ]
+  },
+  {
+    "insight_id": 717,
+    "podcast_episode_id": 708,
+    "_note": "Nov 22 2026 (G exact wording in g_fixes_2026-11-22_718_717.md): ChinaTalk guest is Luukas Ilves. Possessives become Ilves's first, then remaining Lucas becomes Luukas Ilves. Scoped to ep 708 / insight 717; no global Lucas rule.",
+    "replacements": [
+      [
+        "Lucas’s",
+        "Ilves's"
+      ],
+      [
+        "Lucas's",
+        "Ilves's"
+      ],
+      [
+        "Luukas Ilves’s",
+        "Ilves's"
+      ],
+      [
+        "Luukas Ilves's",
+        "Ilves's"
+      ],
+      [
+        "Lucas",
+        "Luukas Ilves"
+      ]
+    ]
+  }
   ],
   "terms": [
     {
@@ -11276,7 +11356,17 @@
         "net_worth_updated_at": null,
         "net_worth": null
       }
+    },
+  {
+    "id": 693,
+    "_note": "Nov 22 2026 (G exact wording in g_fixes_2026-11-22_718_717.md): David Heinemeier Hansson; Omarchy. last_proof_snippet is G's clean line from the episode open (broken ASR). Scoped to pundit 693; no global Hansen rule (Ole Hansen, Robin Hansen stay).",
+    "set": {
+      "name": "David Heinemeier Hansson",
+      "slug": "david-heinemeier-hansson",
+      "bio": "Software builder and technologist with long experience spanning Basecamp, Ruby on Rails, and related projects. He is developing Omarchy, a Linux distribution he describes as built for the age of agents.",
+      "last_proof_snippet": "Mac OS and Windows are just unfit for the age of agents."
     }
+  }
   ],
   "pundit_merges": [
     {
