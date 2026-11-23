@@ -39,6 +39,40 @@
       ]
     },
     {
+      "id": 727,
+      "title": "Why Nvidia\u2019s China Problems May Go Beyond Jensen Huang | Carson Block",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-22",
+      "summary": "The episode centers on Carson Block\u2019s short thesis around Super Micro and Nvidia, with the discussion framed as a national-security and governance issue rather than a mere personal scandal. Carson Block says an amended shareholder derivative complaint was filed against Super Micro in October, and he points to US and Taiwan indictments involving alleged chip smuggling of Nvidia GPUs into China, including two Super Micro employees in Taiwan. He repeatedly emphasizes that these are allegations, but argues the pattern is serious enough to merit deeper scrutiny.\n\nCarson Block also argues the episode is about more than one company. He says he noticed a spun-out cloud business called ChronoScale and claims its CEO is SenNley Chen, whom he identifies as connected to Nvidia through AJ Prairie, raising questions about relationships, influence, and board-level disclosure. He frames the issue as national security, saying the real problem is not consensual relationships but whether executives lied to the board or concealed export-control relevant conduct.\n\nA major part of the discussion is political timing. Carson Block says Democrats gaining control of Congress would likely bring hearings and subpoena power that increase exposure around Jensen Huang and Nvidia. He suggests the timing of public scrutiny matters because a future Congress could force a public record on what happened, making it harder to treat this as a one-off event.\n\nHe also broadens the argument to export controls and the AI trade more generally. Carson Block says China hawks and export-control skeptics inside the administration have different incentives, and he argues controls make it harder for China to obtain critical chips. At the same time, he warns that shorting AI-related names remains difficult because momentum, froth, and volatility can overwhelm fundamentals; he cites his own experience shorting NMC Health in 2019 as a reminder that fraud magnitude is hard to estimate from public data alone.",
+      "key_takeaway": "Carson Block\u2019s core claim is that alleged China-linked chip smuggling and possible board-level concealment create a national-security governance risk around Nvidia and Super Micro.",
+      "tickers_mentioned": [
+        "SMCI",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-11-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 716,
+      "notable_quotes": [
+        {
+          "speaker": "Carson Block",
+          "quote": "In October, there was an amended shareholder derivative lawsuit complaint filed against Super Micro."
+        },
+        {
+          "speaker": "Carson Block",
+          "quote": "Also Taiwan indicted, I think 10 people this year, including two Super Micro employees who are based in Taiwan. And for the same thing, the chip smuggling the Nvidia chips in GPUs into China."
+        },
+        {
+          "speaker": "Carson Block",
+          "quote": "But, this, you know, let\u2019s not, to loot ourselves here, this is about national security. This isn't about the, you know, consensual affairs or, you know, the moral failings of, you know, of the chief executive. I mean, this is about national security."
+        }
+      ]
+    },
+    {
       "id": 722,
       "title": "The Professional Network Built for You and Your AI Agent",
       "source_type": "podcast",
@@ -17023,7 +17057,7 @@
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
       "last_mentioned_date": "2026-11-22",
-      "mention_count": 20,
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17032,8 +17066,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 715,
-      "last_mentioned_speaker": "Brian McCullough"
+      "last_mentioned_episode_id": 716,
+      "last_mentioned_speaker": "Carson Block"
     },
     {
       "id": 342,
