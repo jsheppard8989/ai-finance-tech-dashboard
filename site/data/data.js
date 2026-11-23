@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-11-22T13:46:09.987330",
+  generatedAt: "2026-11-22T21:47:07.616777",
   chartsVersion: "2026-11-22T13:45:20.949737",
   priceSnapshot: {
   "AAPL": {
@@ -1646,7 +1646,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "ChinaTalk",
       "source_date": "2026-11-20",
-      "summary": "The episode argues that governments are entering an \u201cagentic flooding\u201d era, where citizens and agents will submit far more FOIA requests, grants, permits, and similar demands, forcing public services to be redesigned end-to-end. Lucas says the real bottleneck is less about raw technology and more about process re-engineering, security, governance, and the shrinking pool of civil servants as retirement waves hit rich countries and the OECD.\n\nLucas\u2019s core thesis is that if governments are built for agentic workflows, many services could become nearly instantaneous, with simple and complex workflows alike potentially finished in about a minute by 2031. He says the hard part is not the interface but the operational redesign: canonical studies suggest two thirds to three quarters of the work is process and organizational change, not the software itself.\n\nThe conversation uses several public-sector examples to ground the argument. The hosts cite New York\u2019s 18-month outdoor dining backlog and discuss how a sidewalk cafe or licensing process could be broken into deterministic checks, probabilistic judgment, and human review for edge cases, with a goal of 90% to 95% of compliant cases moving quickly. Lucas also points to Ukraine, where a citizen app launched in 2019 reached about half of adults by the 2022 invasion and later added chatbot-style transactional services.\n\nThe episode also highlights Estonia and Singapore as examples of faster government software and procurement. Lucas describes Estonia using a small internal tool to automate procurement requirements in a week and later reducing AI-training procurement to 24 hours end to end, while Singapore\u2019s platform lets civil servants \u201cvibe code\u201d with built-in standards, APIs, identity, and reviews. The broader ambition is a \u201chuggingface-like\u201d learning infrastructure for government processes, so successful playbooks and metadata can spread across jurisdictions instead of taking years to diffuse.",
+      "summary": "The episode argues that governments are entering an \u201cagentic flooding\u201d era, where citizens and agents will submit far more FOIA requests, grants, permits, and similar demands, forcing public services to be redesigned end-to-end. Luukas Ilves says the real bottleneck is less about raw technology and more about process re-engineering, security, governance, and the shrinking pool of civil servants as retirement waves hit rich countries and the OECD.\n\nIlves's core thesis is that if governments are built for agentic workflows, many services could become nearly instantaneous, with simple and complex workflows alike potentially finished in about a minute by 2031. He says the hard part is not the interface but the operational redesign: canonical studies suggest two thirds to three quarters of the work is process and organizational change, not the software itself.\n\nThe conversation uses several public-sector examples to ground the argument. The hosts cite New York\u2019s 18-month outdoor dining backlog and discuss how a sidewalk cafe or licensing process could be broken into deterministic checks, probabilistic judgment, and human review for edge cases, with a goal of 90% to 95% of compliant cases moving quickly. Luukas Ilves also points to Ukraine, where a citizen app launched in 2019 reached about half of adults by the 2022 invasion and later added chatbot-style transactional services.\n\nThe episode also highlights Estonia and Singapore as examples of faster government software and procurement. Luukas Ilves describes Estonia using a small internal tool to automate procurement requirements in a week and later reducing AI-training procurement to 24 hours end to end, while Singapore\u2019s platform lets civil servants \u201cvibe code\u201d with built-in standards, APIs, identity, and reviews. The broader ambition is a \u201chuggingface-like\u201d learning infrastructure for government processes, so successful playbooks and metadata can spread across jurisdictions instead of taking years to diffuse.",
       "key_takeaway": "The biggest opportunity is software and governance infrastructure that lets governments securely route, review, and automate agent-driven public services at scale.",
       "tickers_mentioned": [
         "AGIO"
@@ -1660,15 +1660,15 @@ const dashboardData = {
       "podcast_episode_id": 708,
       "notable_quotes": [
         {
-          "speaker": "Lucas",
+          "speaker": "Luukas Ilves",
           "quote": "I think in the sort of, in the governments that figure this out, there's a couple things. I mean I think at the level of the individual user, and this is it what we decompose in our vision people, the level of the individual user, there's just the services that you want to use being basically instantaneous."
         },
         {
-          "speaker": "Lucas",
+          "speaker": "Luukas Ilves",
           "quote": "canonical thing that all the studies say is like two thirds to three quarters of the work is process re-engineering organizational shifts. That is hard for government."
         },
         {
-          "speaker": "Lucas",
+          "speaker": "Luukas Ilves",
           "quote": "Back in 2019, they launched a really great citizen app for a lot of public services and by the outbreaks of the full scale invasion 2022 and half the adult population using it."
         }
       ]
@@ -1679,7 +1679,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-20",
-      "summary": "David Heinemira Hansen argues that an \"agent era\" will change computing so users can modify operating systems by prompting an agent, and he says Linux is especially well suited because agents prefer command lines, predictable config files, and informative error messages. He contrasts that with macOS and Windows, which he says are becoming hostile to agent workflows because they are built around mouse-driven settings and guarded permissions.\n\nHeinemira Hansen says he is building Omachi, a Linux distribution for the age of agents, and claims the entire OS has been developed by agents for the past five or six months. He says he has not written code by hand for the project in that period, and he cites adoption and output claims including hundreds of thousands of people switching from Windows and Mac, as well as hundreds of thousands of lines of agent-written code.\n\nA major part of his case is that software moats will weaken as AI makes code easier to regenerate and adapt. He points to a community member who, over two weeks, replicated Adobe Lightroom and says agents could erase whole classes of apps that were once also professions, not just software products. He also argues that application availability and speed of replication will matter more than historical platform lock-in.\n\nHeinemira Hansen is strongly pro open weights and open source, warning that a closed-model duopoly could capture the value chain the way social media captured ad economics. He gives speculative timelines for future capability and throughput, saying it is entirely possible that true super intelligence arrives by next year and that models could reach 100,000 to 1,000,000 tokens a second in two years. He also says Linux could potentially unseat macOS within about 12 months, though he frames that as highly ambitious and conditional.",
+      "summary": "David Heinemeier Hansson argues that an \"agent era\" will change computing so users can modify operating systems by prompting an agent, and he says Linux is especially well suited because agents prefer command lines, predictable config files, and informative error messages. He contrasts that with macOS and Windows, which he says are becoming hostile to agent workflows because they are built around mouse-driven settings and guarded permissions.\n\nHeinemeier Hansson says he is building Omarchy, a Linux distribution for the age of agents, and claims the entire OS has been developed by agents for the past five or six months. He says he has not written code by hand for the project in that period, and he cites adoption and output claims including hundreds of thousands of people switching from Windows and Mac, as well as hundreds of thousands of lines of agent-written code.\n\nA major part of his case is that software moats will weaken as AI makes code easier to regenerate and adapt. He points to a community member who, over two weeks, replicated Adobe Lightroom and says agents could erase whole classes of apps that were once also professions, not just software products. He also argues that application availability and speed of replication will matter more than historical platform lock-in.\n\nHeinemeier Hansson is strongly pro open weights and open source, warning that a closed-model duopoly could capture the value chain the way social media captured ad economics. He gives speculative timelines for future capability and throughput, saying it is entirely possible that true super intelligence arrives by next year and that models could reach 100,000 to 1,000,000 tokens a second in two years. He also says Linux could potentially unseat macOS within about 12 months, though he frames that as highly ambitious and conditional.",
       "key_takeaway": "The key claim is that agent-first software will favor Linux and open models over traditional desktop platforms and closed AI stacks.",
       "tickers_mentioned": [
         "AAPL",
@@ -1696,15 +1696,15 @@ const dashboardData = {
       "podcast_episode_id": 707,
       "notable_quotes": [
         {
-          "speaker": "David Heinemira Hansen",
+          "speaker": "a host",
           "quote": "You just tell your agent, modify the OS on which I'm operating right now and it does it and it works."
         },
         {
-          "speaker": "David Heinemira Hansen",
+          "speaker": "David Heinemeier Hansson",
           "quote": "We\u2019re leaning all in the entire operating system is being developed by agents for the past five months or so. Now, maybe even six months."
         },
         {
-          "speaker": "David Heinemira Hansen",
+          "speaker": "David Heinemeier Hansson",
           "quote": "I think it\u2019s entirely possible that by next year we will have true super intelligence. Everything is just going to mutate live."
         }
       ]
@@ -18551,7 +18551,7 @@ const dashboardData = {
       "first_detected_episode_id": 700,
       "first_detected_speaker": "Cristina Cordova",
       "last_mentioned_episode_id": 708,
-      "last_mentioned_speaker": "Lucas"
+      "last_mentioned_speaker": "Luukas Ilves"
     },
     {
       "id": 345,
@@ -18713,7 +18713,7 @@ const dashboardData = {
       "first_detected_episode_id": 703,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 708,
-      "last_mentioned_speaker": "Lucas (last name not provided)"
+      "last_mentioned_speaker": "Luukas Ilves"
     },
     {
       "id": 334,
@@ -19037,7 +19037,7 @@ const dashboardData = {
       "first_detected_episode_id": 607,
       "first_detected_speaker": "Nick Hess",
       "last_mentioned_episode_id": 707,
-      "last_mentioned_speaker": "David Heinemira Hansen"
+      "last_mentioned_speaker": "David Heinemeier Hansson"
     },
     {
       "id": 324,
@@ -19181,7 +19181,7 @@ const dashboardData = {
       "first_detected_episode_id": 623,
       "first_detected_speaker": "Christina Cacioppo",
       "last_mentioned_episode_id": 708,
-      "last_mentioned_speaker": "Lucas (last name not provided)"
+      "last_mentioned_speaker": "Luukas Ilves"
     },
     {
       "id": 316,
@@ -19901,7 +19901,7 @@ const dashboardData = {
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
       "last_mentioned_episode_id": 707,
-      "last_mentioned_speaker": "David Heinemira Hansen"
+      "last_mentioned_speaker": "David Heinemeier Hansson"
     },
     {
       "id": 267,
@@ -20135,7 +20135,7 @@ const dashboardData = {
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
       "last_mentioned_episode_id": 707,
-      "last_mentioned_speaker": "David Heinemira Hansen"
+      "last_mentioned_speaker": "David Heinemeier Hansson"
     },
     {
       "id": 135,
@@ -20819,7 +20819,7 @@ const dashboardData = {
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 708,
-      "last_mentioned_speaker": "Lucas (last name not provided)"
+      "last_mentioned_speaker": "Luukas Ilves"
     },
     {
       "id": 162,
@@ -22337,7 +22337,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-20",
-      "summary": "David Heinemira Hansen argues that an \"agent era\" will change computing so users can modify operating systems by prompting an agent, and he says Linux is especially well suited because agents prefer command lines, predictable config files, and informative error messages. He contrasts that with macOS and Windows, which he says are becoming hostile to agent workflows because they are built around mouse-driven settings and guarded permissions.\n\nHeinemira Hansen says he is building Omachi, a Linux distribution for the age of agents, and claims the entire OS has been developed by agents for the past five or six months. He says he has not written code by hand for the project in that period, and he cites adoption and output claims including hundreds of thousands of people switching from Windows and Mac, as well as hundreds of thousands of lines of agent-written code.\n\nA major part of his case is that software moats will weaken as AI makes code easier to regenerate and adapt. He points to a community member who, over two weeks, replicated Adobe Lightroom and says agents could erase whole classes of apps that were once also professions, not just software products. He also argues that application availability and speed of replication will matter more than historical platform lock-in.\n\nHeinemira Hansen is strongly pro open weights and open source, warning that a closed-model duopoly could capture the value chain the way social media captured ad economics. He gives speculative timelines for future capability and throughput, saying it is entirely possible that true super intelligence arrives by next year and that models could reach 100,000 to 1,000,000 tokens a second in two years. He also says Linux could potentially unseat macOS within about 12 months, though he frames that as highly ambitious and conditional.",
+      "summary": "David Heinemeier Hansson argues that an \"agent era\" will change computing so users can modify operating systems by prompting an agent, and he says Linux is especially well suited because agents prefer command lines, predictable config files, and informative error messages. He contrasts that with macOS and Windows, which he says are becoming hostile to agent workflows because they are built around mouse-driven settings and guarded permissions.\n\nHeinemeier Hansson says he is building Omarchy, a Linux distribution for the age of agents, and claims the entire OS has been developed by agents for the past five or six months. He says he has not written code by hand for the project in that period, and he cites adoption and output claims including hundreds of thousands of people switching from Windows and Mac, as well as hundreds of thousands of lines of agent-written code.\n\nA major part of his case is that software moats will weaken as AI makes code easier to regenerate and adapt. He points to a community member who, over two weeks, replicated Adobe Lightroom and says agents could erase whole classes of apps that were once also professions, not just software products. He also argues that application availability and speed of replication will matter more than historical platform lock-in.\n\nHeinemeier Hansson is strongly pro open weights and open source, warning that a closed-model duopoly could capture the value chain the way social media captured ad economics. He gives speculative timelines for future capability and throughput, saying it is entirely possible that true super intelligence arrives by next year and that models could reach 100,000 to 1,000,000 tokens a second in two years. He also says Linux could potentially unseat macOS within about 12 months, though he frames that as highly ambitious and conditional.",
       "key_takeaway": "The key claim is that agent-first software will favor Linux and open models over traditional desktop platforms and closed AI stacks.",
       "tickers_mentioned": [
         "AAPL",
@@ -22354,15 +22354,15 @@ const dashboardData = {
       "podcast_episode_id": 707,
       "notable_quotes": [
         {
-          "speaker": "David Heinemira Hansen",
+          "speaker": "a host",
           "quote": "You just tell your agent, modify the OS on which I'm operating right now and it does it and it works."
         },
         {
-          "speaker": "David Heinemira Hansen",
+          "speaker": "David Heinemeier Hansson",
           "quote": "We\u2019re leaning all in the entire operating system is being developed by agents for the past five months or so. Now, maybe even six months."
         },
         {
-          "speaker": "David Heinemira Hansen",
+          "speaker": "David Heinemeier Hansson",
           "quote": "I think it\u2019s entirely possible that by next year we will have true super intelligence. Everything is just going to mutate live."
         }
       ],
@@ -22376,7 +22376,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "ChinaTalk",
       "source_date": "2026-11-20",
-      "summary": "The episode argues that governments are entering an \u201cagentic flooding\u201d era, where citizens and agents will submit far more FOIA requests, grants, permits, and similar demands, forcing public services to be redesigned end-to-end. Lucas says the real bottleneck is less about raw technology and more about process re-engineering, security, governance, and the shrinking pool of civil servants as retirement waves hit rich countries and the OECD.\n\nLucas\u2019s core thesis is that if governments are built for agentic workflows, many services could become nearly instantaneous, with simple and complex workflows alike potentially finished in about a minute by 2031. He says the hard part is not the interface but the operational redesign: canonical studies suggest two thirds to three quarters of the work is process and organizational change, not the software itself.\n\nThe conversation uses several public-sector examples to ground the argument. The hosts cite New York\u2019s 18-month outdoor dining backlog and discuss how a sidewalk cafe or licensing process could be broken into deterministic checks, probabilistic judgment, and human review for edge cases, with a goal of 90% to 95% of compliant cases moving quickly. Lucas also points to Ukraine, where a citizen app launched in 2019 reached about half of adults by the 2022 invasion and later added chatbot-style transactional services.\n\nThe episode also highlights Estonia and Singapore as examples of faster government software and procurement. Lucas describes Estonia using a small internal tool to automate procurement requirements in a week and later reducing AI-training procurement to 24 hours end to end, while Singapore\u2019s platform lets civil servants \u201cvibe code\u201d with built-in standards, APIs, identity, and reviews. The broader ambition is a \u201chuggingface-like\u201d learning infrastructure for government processes, so successful playbooks and metadata can spread across jurisdictions instead of taking years to diffuse.",
+      "summary": "The episode argues that governments are entering an \u201cagentic flooding\u201d era, where citizens and agents will submit far more FOIA requests, grants, permits, and similar demands, forcing public services to be redesigned end-to-end. Luukas Ilves says the real bottleneck is less about raw technology and more about process re-engineering, security, governance, and the shrinking pool of civil servants as retirement waves hit rich countries and the OECD.\n\nIlves's core thesis is that if governments are built for agentic workflows, many services could become nearly instantaneous, with simple and complex workflows alike potentially finished in about a minute by 2031. He says the hard part is not the interface but the operational redesign: canonical studies suggest two thirds to three quarters of the work is process and organizational change, not the software itself.\n\nThe conversation uses several public-sector examples to ground the argument. The hosts cite New York\u2019s 18-month outdoor dining backlog and discuss how a sidewalk cafe or licensing process could be broken into deterministic checks, probabilistic judgment, and human review for edge cases, with a goal of 90% to 95% of compliant cases moving quickly. Luukas Ilves also points to Ukraine, where a citizen app launched in 2019 reached about half of adults by the 2022 invasion and later added chatbot-style transactional services.\n\nThe episode also highlights Estonia and Singapore as examples of faster government software and procurement. Luukas Ilves describes Estonia using a small internal tool to automate procurement requirements in a week and later reducing AI-training procurement to 24 hours end to end, while Singapore\u2019s platform lets civil servants \u201cvibe code\u201d with built-in standards, APIs, identity, and reviews. The broader ambition is a \u201chuggingface-like\u201d learning infrastructure for government processes, so successful playbooks and metadata can spread across jurisdictions instead of taking years to diffuse.",
       "key_takeaway": "The biggest opportunity is software and governance infrastructure that lets governments securely route, review, and automate agent-driven public services at scale.",
       "tickers_mentioned": [
         "AGIO"
@@ -22390,15 +22390,15 @@ const dashboardData = {
       "podcast_episode_id": 708,
       "notable_quotes": [
         {
-          "speaker": "Lucas",
+          "speaker": "Luukas Ilves",
           "quote": "I think in the sort of, in the governments that figure this out, there's a couple things. I mean I think at the level of the individual user, and this is it what we decompose in our vision people, the level of the individual user, there's just the services that you want to use being basically instantaneous."
         },
         {
-          "speaker": "Lucas",
+          "speaker": "Luukas Ilves",
           "quote": "canonical thing that all the studies say is like two thirds to three quarters of the work is process re-engineering organizational shifts. That is hard for government."
         },
         {
-          "speaker": "Lucas",
+          "speaker": "Luukas Ilves",
           "quote": "Back in 2019, they launched a really great citizen app for a lot of public services and by the outbreaks of the full scale invasion 2022 and half the adult population using it."
         }
       ],
@@ -22767,7 +22767,7 @@ const dashboardData = {
       "first_detected_episode_id": 380,
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 707,
-      "last_mentioned_speaker": "David Heinemira Hansen",
+      "last_mentioned_speaker": "David Heinemeier Hansson",
       "novelty_score": 2.1776,
       "overton_score": 2.1776,
       "resonance_pct": 78,
@@ -23133,7 +23133,7 @@ const dashboardData = {
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 708,
-      "last_mentioned_speaker": "",
+      "last_mentioned_speaker": "Luukas Ilves",
       "novelty_score": 0.4579,
       "overton_score": 0.4579,
       "resonance_pct": 43,
@@ -23363,7 +23363,7 @@ const dashboardData = {
       "first_detected_episode_id": 607,
       "first_detected_speaker": "Nick Hess",
       "last_mentioned_episode_id": 707,
-      "last_mentioned_speaker": "David Heinemira Hansen",
+      "last_mentioned_speaker": "David Heinemeier Hansson",
       "novelty_score": 2.5137,
       "overton_score": 2.5137,
       "resonance_pct": 82,
@@ -66282,7 +66282,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-11-20T14:16:21.672851",
     "updated_at": "2026-11-20 20:16:21",
-    "episode_evidence": "Lucas: \"I think in the sort of, in the governments that figure this out, there's a couple things. I mean I think at the level of the individual user, and this is it what we decompose in our vision people, the level of the individual user, there's just the services that you want to use being basically instantaneous.\"\none host: \"Today, that's still mostly humans in the loop, you know, using LLMs to prepare stuff and upload it and submit it, but increasing that just agents interacting natively with the government services.\"\nLucas: \"Back in 2019, they launched a really great citizen app for a lot of public services and by the outbreaks of the full scale invasion 2022 and half the adult population using it.\"\none host: \"The New York control just came out with a report earlier this week about the 18-month backlog it takes as a restaurant owner, to open outdoor dining.\"\nLucas: \"It was like, wait a minute, this is like we can just vibe code a kind of a little online tool for this. Did that be through in the procurement requirements, did that in a week, and everyone's super happy.\"\nLucas: \"And like now every time we need to, you know, procure a bunch of AI trainings, it takes 24 hours end to end, and the bureaucracy takes care of itself.\"\nLucas: \"canonical thing that all the studies say is like two thirds to three quarters of the work is process re-engineering organizational shifts. That is hard for government.\"",
+    "episode_evidence": "Luukas Ilves: \"I think in the sort of, in the governments that figure this out, there's a couple things. I mean I think at the level of the individual user, and this is it what we decompose in our vision people, the level of the individual user, there's just the services that you want to use being basically instantaneous.\"\none host: \"Today, that's still mostly humans in the loop, you know, using LLMs to prepare stuff and upload it and submit it, but increasing that just agents interacting natively with the government services.\"\nLuukas Ilves: \"Back in 2019, they launched a really great citizen app for a lot of public services and by the outbreaks of the full scale invasion 2022 and half the adult population using it.\"\none host: \"The New York control just came out with a report earlier this week about the 18-month backlog it takes as a restaurant owner, to open outdoor dining.\"\nLuukas Ilves: \"It was like, wait a minute, this is like we can just vibe code a kind of a little online tool for this. Did that be through in the procurement requirements, did that in a week, and everyone's super happy.\"\nLuukas Ilves: \"And like now every time we need to, you know, procure a bunch of AI trainings, it takes 24 hours end to end, and the bureaucracy takes care of itself.\"\nLuukas Ilves: \"canonical thing that all the studies say is like two thirds to three quarters of the work is process re-engineering organizational shifts. That is hard for government.\"",
     "falsification_tracks": [
       "By Dec. 31, 2027, the median cycle time for a representative agent-redesigned service in a named government pilot is still above 7 days, per the agency\u2019s published KPI dashboard.",
       "By Jun. 30, 2027, a public-sector procurement pilot that was supposed to compress a standard workflow still exceeds 24 hours end-to-end in the agency\u2019s 10-Q equivalent budget/performance report or published procurement log, according to the city or national procurement office.",
@@ -66343,7 +66343,7 @@ const dashboardData = {
     "catalysts": [
       "Apple platform updates that either tighten or relax automation permissions, likely visible in the next macOS release cycle.",
       "Microsoft desktop AI/agent feature releases in the next 6-12 months that show whether Windows can become agent-native.",
-      "Omachi public demos showing full OS changes by prompt, which would validate the agent-first desktop thesis on a near-term basis.",
+      "Omarchy public demos showing full OS changes by prompt, which would validate the agent-first desktop thesis on a near-term basis.",
       "Independent Lightroom/Photoshop-style app replication demos over the next 6-12 months, indicating how fast high-value workflows can be cloned.",
       "Advances in local inference speed and cost over the next 12-24 months, especially if latency drops enough to make desktop agents feel interactive."
     ],
@@ -66353,9 +66353,9 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-11-20T14:16:37.655887",
     "updated_at": "2026-11-20 20:16:37",
-    "episode_evidence": "David Heinemira Hansen: You just tell your agent, modify the OS on which I'm operating right now and it does it and it works.\nDavid Heinemira Hansen: We\u2019re leaning all in the entire operating system is being developed by agents for the past five months or so. Now, maybe even six months.\nDavid Heinemira Hansen: These are the three things agents love. They want a command line interface for everything. They want predictable config files that they can just edit an update. They want all the details in the armassages.\nDavid Heinemira Hansen: Someone in the Omajya community rewrote the only application I still kept a Mac around to run Adobe Lightroom because it had all my plugins and my presets for my cameras.\nDavid Heinemira Hansen: They\u2019re going to just eradicate entire classes of applications. Because these applications historic, especially something like Photoshop was not just an application. It was a profession.",
+    "episode_evidence": "A host: You just tell your agent, modify the OS on which I'm operating right now and it does it and it works.\nDavid Heinemeier Hansson: We\u2019re leaning all in the entire operating system is being developed by agents for the past five months or so. Now, maybe even six months.\nDavid Heinemeier Hansson: These are the three things agents love. They want a command line interface for everything. They want predictable config files that they can just edit and update. They want all the details in the error messages.\nDavid Heinemeier Hansson: Someone in the Omarchy community rewrote the only application I still kept a Mac around to run Adobe Lightroom because it had all my plugins and my presets for my cameras.\nDavid Heinemeier Hansson: They\u2019re going to just eradicate entire classes of applications. Because these applications historic, especially something like Photoshop was not just an application. It was a profession.",
     "falsification_tracks": [
-      "By 2027-03-20, if Omachi/Foundation published user metrics fail to show at least 100,000 active installations after the claimed large-scale migration, the adoption narrative weakens; source: Omachi Foundation public metrics or audited download/active-user reports.",
+      "By 2027-03-20, if Omarchy/Foundation published user metrics fail to show at least 100,000 active installations after the claimed large-scale migration, the adoption narrative weakens; source: Omarchy Foundation public metrics or audited download/active-user reports.",
       "By 2027-11-20, if independent benchmarks do not show model throughput reaching at least 100,000 tokens per second on commercially available hardware or cloud stacks, the latency/throughput premise for live agentic OS mutation weakens; source: vendor benchmark reports or third-party benchmark suite.",
       "By 2027-11-20, if Linux desktop market share does not rise by at least 2 percentage points from current levels in a major tracking service, the claim that agent workflows will materially accelerate Linux desktop adoption weakens; source: StatCounter desktop OS data."
     ],
@@ -67627,7 +67627,7 @@ const dashboardData = {
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-11-17",
     "mention_score": 5,
-    "mention_score_decayed": 4.55,
+    "mention_score_decayed": 4.45,
     "last_main_idea": "The episode argues that automatically seeded, equity-invested child accounts could scale into a multi-trillion-dollar system that compounds wealth and changes long-term social outcomes.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-11-17 \u2022 Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
     "last_proof_snippet": "There are two ways to solve this problem. You can either attack capitalism, you can attack success, or you can say, let's raise the floor for everybody. I think this is one of the most profound ways of impact in poverty.",
@@ -67672,70 +67672,6 @@ const dashboardData = {
       ]
     },
     "net_worth": null
-  },
-  {
-    "id": 91,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
-    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "net_worth_usd": 19000000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
-    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
-    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
-    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
-    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
-    "voice_profile_updated_at": "2026-03-20 03:11:05",
-    "last_seen": "2026-11-16 20:16:12",
-    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-11-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.78,
-    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
-    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brett Adcock",
-      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
-      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
-      "derived": {
-        "current_role": "Entrepreneur and Investor"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
-        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Robotics",
-          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
-        },
-        {
-          "heading": "Neural Nets",
-          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
-        },
-        {
-          "heading": "Autonomous Manufacturing",
-          "body": "Adcock"
-        },
-        {
-          "heading": "Market Potential",
-          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
-        }
-      ]
-    },
-    "net_worth": "$19.00B"
   },
   {
     "id": 54,
@@ -67800,6 +67736,70 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 91,
+    "name": "Brett Adcock",
+    "slug": "brett-adcock",
+    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
+    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
+    "net_worth_usd": 19000000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
+    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
+    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
+    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
+    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
+    "voice_profile_updated_at": "2026-03-20 03:11:05",
+    "last_seen": "2026-11-16 20:16:12",
+    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-11-16",
+    "mention_score": 2,
+    "mention_score_decayed": 1.74,
+    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
+    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brett Adcock",
+      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
+      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
+      "derived": {
+        "current_role": "Entrepreneur and Investor"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
+        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Robotics",
+          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
+        },
+        {
+          "heading": "Neural Nets",
+          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
+        },
+        {
+          "heading": "Autonomous Manufacturing",
+          "body": "Adcock"
+        },
+        {
+          "heading": "Market Potential",
+          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
+        }
+      ]
+    },
+    "net_worth": "$19.00B"
   },
   {
     "id": 81,
@@ -67954,7 +67954,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-05",
     "mention_score": 2,
-    "mention_score_decayed": 1.38,
+    "mention_score_decayed": 1.35,
     "last_main_idea": "The key claim is that AI capex is still being funded and should not yet be shorted because demand and capital-market support remain stronger than the bear case assumes.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-05 \u2022 Why This Short Seller Doesn\u2019t Want to Short the AI Bubble | Russell Clark",
     "last_proof_snippet": "this sort of theme of governments spending more inflation being stronger wages going up. I think that's just reinforced. I think some of the talk is about the Democrats stopping data center construction.",
@@ -68335,33 +68335,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 701,
-    "name": "Steve Jervitson",
-    "slug": "steve-jervitson",
-    "bio": "Venture capitalist and long-time investor associated with SpaceX, Tesla, and early internet companies. He discusses hard-tech investing, frontier AI, and long-term space and industrial themes.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-21 20:04:14",
-    "last_episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-11-21",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-21 \u2022 Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
-    "last_proof_snippet": "And we have a full house today. Listen, guys, I am so excited to have Steve with Jervitson on the pod today.",
-    "supporting_takeaway": "One host said SpaceX is adding roughly 500 megawatts of AI compute each month, using about 220,000 GP300 chips, and expects to pass one gigawatt a month by the end of 2027.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -68429,6 +68402,33 @@ const dashboardData = {
     }
   },
   {
+    "id": 701,
+    "name": "Steve Jervitson",
+    "slug": "steve-jervitson",
+    "bio": "Venture capitalist and long-time investor associated with SpaceX, Tesla, and early internet companies. He discusses hard-tech investing, frontier AI, and long-term space and industrial themes.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-21 20:04:14",
+    "last_episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-11-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.98,
+    "last_main_idea": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-21 \u2022 Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+    "last_proof_snippet": "And we have a full house today. Listen, guys, I am so excited to have Steve with Jervitson on the pod today.",
+    "supporting_takeaway": "One host said SpaceX is adding roughly 500 megawatts of AI compute each month, using about 220,000 GP300 chips, and expects to pass one gigawatt a month by the end of 2027.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 700,
     "name": "Brian Clark",
     "slug": "brian-clark",
@@ -68484,9 +68484,9 @@ const dashboardData = {
   },
   {
     "id": 693,
-    "name": "David Heinemira Hansen",
-    "slug": "david-heinemira-hansen",
-    "bio": "Software builder and technologist with long experience spanning Basecamp, Ruby on Rails, and related projects. He is developing Omachi, a Linux distribution he describes as built for the age of agents.",
+    "name": "David Heinemeier Hansson",
+    "slug": "david-heinemeier-hansson",
+    "bio": "Software builder and technologist with long experience spanning Basecamp, Ruby on Rails, and related projects. He is developing Omarchy, a Linux distribution he describes as built for the age of agents.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -68500,11 +68500,11 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The key claim is that agent-first software will favor Linux and open models over traditional desktop platforms and closed AI stacks.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-20 \u2022 Why the Agent Era Needs a New Operating System | DHH",
-    "last_proof_snippet": "Mac OS and Windows are just unfit for the H of H it's every single thing that made leagues hard to use in the past. Oh, it's very terminal heavy.",
-    "supporting_takeaway": "David Heinemira Hansen says Linux fits the agent era better than macOS or Windows because agents want a command line, predictable config files, and detailed error messages.",
+    "last_proof_snippet": "Mac OS and Windows are just unfit for the age of agents.",
+    "supporting_takeaway": "David Heinemeier Hansson says Linux fits the agent era better than macOS or Windows because agents want a command line, predictable config files, and detailed error messages.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -68618,33 +68618,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 681,
-    "name": "Rick Rule",
-    "slug": "rick-rule",
-    "bio": "Resource and mining investor who focuses on precious metals, royalties, streams, and long-cycle commodity supply/demand. He discusses relative value, project financing, and jurisdictional risk from a capital allocator's perspective.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-19 19:55:59",
-    "last_episode_title": "How Deficits Will Drive the Next Wave of the Commodity Supercycle | Rick Rule",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-11-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Copper underinvestment and precious-metal byproduct streaming should create sustained opportunity, especially where precious-metal cash flows are valued far above copper cash flows.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-19 \u2022 How Deficits Will Drive the Next Wave of the Commodity Supercycle | Rick Rule",
-    "last_proof_snippet": "I think that the silver stocks now are discounting somewhere between $35 and $40 an ounce.",
-    "supporting_takeaway": "Rick Rule says silver stocks still discount silver more favorably than physical silver, with implied values around $35 to $40 per ounce versus the higher January level of about $42 per ounce he cited.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 180,
     "name": "Amjad Masad",
     "slug": "amjad-masad",
@@ -68705,6 +68678,33 @@ const dashboardData = {
     "net_worth": null
   },
   {
+    "id": 681,
+    "name": "Rick Rule",
+    "slug": "rick-rule",
+    "bio": "Resource and mining investor who focuses on precious metals, royalties, streams, and long-cycle commodity supply/demand. He discusses relative value, project financing, and jurisdictional risk from a capital allocator's perspective.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-19 19:55:59",
+    "last_episode_title": "How Deficits Will Drive the Next Wave of the Commodity Supercycle | Rick Rule",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-11-19",
+    "mention_score": 1,
+    "mention_score_decayed": 0.93,
+    "last_main_idea": "Copper underinvestment and precious-metal byproduct streaming should create sustained opportunity, especially where precious-metal cash flows are valued far above copper cash flows.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-19 \u2022 How Deficits Will Drive the Next Wave of the Commodity Supercycle | Rick Rule",
+    "last_proof_snippet": "I think that the silver stocks now are discounting somewhere between $35 and $40 an ounce.",
+    "supporting_takeaway": "Rick Rule says silver stocks still discount silver more favorably than physical silver, with implied values around $35 to $40 per ounce versus the higher January level of about $42 per ounce he cited.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 679,
     "name": "Geoffrey Canada",
     "slug": "geoffrey-canada",
@@ -68722,7 +68722,7 @@ const dashboardData = {
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-11-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The episode argues that automatically seeded, equity-invested child accounts could scale into a multi-trillion-dollar system that compounds wealth and changes long-term social outcomes.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-11-17 \u2022 Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
     "last_proof_snippet": "There are two ways to solve this problem. You can either attack capitalism, you can attack success, or you can say, let's raise the floor for everybody. I think this is one of the most profound ways of impact in poverty.",
@@ -68749,7 +68749,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Anthropic\u2019s IPO could trigger forced NASDAQ 100 buying and unlock a larger private-market repricing cycle around AI liquidity and index inclusion.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-17 \u2022 The Anthropic IPO\u2019s Massive Impact: Forced Passive Buying and a Liquidity Wave for Venture Capital | David Shapiro",
     "last_proof_snippet": "This episode is brought you by Sir Maya Partners, who manages the Return to Tangibles ETF, lens, ticker, L-E-N-S, the Sir Maya Theumatic ETF, built for a return to Tangibles. Learn more at SirMaiETF.",
@@ -68776,7 +68776,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The core claim is that AI research automation is already real at the scoped-task level and could materially accelerate both capabilities and alignment work before full RSI arrives.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-17 \u2022 Can AI Learn to Improve Itself? | Recursive Self-Improvement",
     "last_proof_snippet": "What happens when AI starts helping build the next generation of AI? In this first episode of Working Theory, Sarah Wang sits down with OpenAI's Mark Chen and Thinking Machines' John Schulman to unpack recursive self-improvement or RSI.",
@@ -68803,7 +68803,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The core claim is that AI research automation is already real at the scoped-task level and could materially accelerate both capabilities and alignment work before full RSI arrives.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-17 \u2022 Can AI Learn to Improve Itself? | Recursive Self-Improvement",
     "last_proof_snippet": "What happens when AI starts helping build the next generation of AI? In this first episode of Working Theory, Sarah Wang sits down with OpenAI's Mark Chen and Thinking Machines' John Schulman to unpack recursive self-improvement or RSI.",
@@ -68965,7 +68965,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The key claim is that SEC reforms expanding ATM and offering access for smaller issuers could materially improve OTC capital formation and trading demand.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-14 \u2022 The Case for Public Markets | Cromwell Coulson on Small-Cap Capital Formation, Disclosure, and SEC Offering Reform",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it.",
@@ -68992,7 +68992,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Network effects, regulatory classification, and research-lab structure can create outsized winners in communications, but monopolies also attract disruption and regulatory pushback.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-14 \u2022 From the Telephone to Modern Computing | James Gleick",
     "last_proof_snippet": "People always dreamed of being able to communicate across long distances, but there was no practical way to do that until the telegraph arrived.",
@@ -69073,7 +69073,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-11-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Uranium is structurally under-supplied, and the market is still mispricing that deficit because investors are focused on AI-driven sentiment rather than contracting reality.",
     "last_proof_cite": "Macro Voices \u2022 2026-11-12 \u2022 MacroVoices #558 Mike Alkin: Uranium at a Crossroads",
     "last_proof_snippet": "There is not enough economically viable uranium to satisfy the world's existing reactor fleet of 440 operating reactors of which a little over 420 are actually producing electricity and the pipeline of aiding new reactors coming online.",
@@ -69289,7 +69289,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "AI will expand software opportunity by making startups faster and cheaper to build while leaving durable value in workflow-centric products like HubSpot rather than frontier-lab replacements.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-10 \u2022 HubSpot\u2019s Co-Founder on Finding Your Next Startup Idea",
     "last_proof_snippet": "Chad, G-P-T, and Claude Colworth, they're effectively the new OS. There's plenty of room to build software outside the path the frontier AI labs are racing down. Since then, HubSpot's been busy.",
@@ -70044,7 +70044,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "AI infrastructure is increasingly a liquidity trade: financing stress, not demand, is the main near-term risk, while top-tier credits remain funded first.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-01 \u2022 The Fed Has AI\u2019s Back | Dan Krausz on \u201cLiquidity Trap Door\u201d In AI Infrastructure and Why Policymakers Are Inclined to Support Financial Conditions",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it. I'm here with Dan Krauss of Blutore Asset Management. Dan, great to see you again.",
@@ -70052,65 +70052,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 300,
-    "name": "Ed Zitron",
-    "slug": "ed-zitron",
-    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
-    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Blunt, skeptical, and highly animated.",
-    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
-    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
-    "voice_profile_updated_at": "2026-10-02 03:15:54",
-    "last_seen": "2026-10-02 03:15:54",
-    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-01",
-    "mention_score": 2,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
-    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Zitron",
-      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
-      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
-      "derived": {
-        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
-        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
-      ],
-      "sections": [
-        {
-          "heading": "AI and ROI",
-          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
-        },
-        {
-          "heading": "Contrarian Views",
-          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
-        },
-        {
-          "heading": "Podcast and Newsletter",
-          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
-        }
-      ]
-    }
   },
   {
     "id": 607,
@@ -70192,6 +70133,65 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 300,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
+    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Blunt, skeptical, and highly animated.",
+    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
+    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
+    "voice_profile_updated_at": "2026-10-02 03:15:54",
+    "last_seen": "2026-10-02 03:15:54",
+    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-01",
+    "mention_score": 2,
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
+    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Zitron",
+      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
+      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
+      "derived": {
+        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
+        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
+      ],
+      "sections": [
+        {
+          "heading": "AI and ROI",
+          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
+        },
+        {
+          "heading": "Contrarian Views",
+          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
+        },
+        {
+          "heading": "Podcast and Newsletter",
+          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
+        }
+      ]
+    }
   },
   {
     "id": 301,
@@ -70312,60 +70312,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 599,
-    "name": "David V\u00e9lez",
-    "slug": "david-v\u00e9lez",
-    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:25:46",
-    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.59,
-    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
-    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
-    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 598,
-    "name": "Luke Gromen",
-    "slug": "luke-gromen",
-    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:24:49",
-    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.59,
-    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
-    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 160,
     "name": "Ben Lamm",
     "slug": "ben-lamm",
@@ -70428,6 +70374,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 599,
+    "name": "David V\u00e9lez",
+    "slug": "david-v\u00e9lez",
+    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:25:46",
+    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.57,
+    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
+    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
+    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 598,
+    "name": "Luke Gromen",
+    "slug": "luke-gromen",
+    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:24:49",
+    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.57,
+    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
+    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 596,
@@ -70609,7 +70609,7 @@ const dashboardData = {
     "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market.",
     "supporting_takeaway": "Seelaus says rate moves hit with a lag, meaning the real damage shows up later when the tide goes out and the weakest borrowers are revealed.",
     "grokipedia_url": null,
@@ -71174,7 +71174,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-20 \u2022 The Programmable Data Center \u2014 Evan Conrad, SF Compute",
     "last_proof_snippet": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.",
@@ -71228,7 +71228,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-19 \u2022 Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
     "last_proof_snippet": "",
@@ -71586,7 +71586,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
     "last_proof_snippet": "",
@@ -72280,7 +72280,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "",
@@ -72348,66 +72348,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 52,
-    "name": "Alex Karp",
-    "slug": "alex-carp",
-    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
-    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Assertive and knowledgeable.",
-    "voice_style": "Factual and persuasive.",
-    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
-    "voice_profile_updated_at": "2026-07-04 04:37:05",
-    "last_seen": "2026-08-17 03:02:02",
-    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-07-08",
-    "mention_score": 3,
-    "mention_score_decayed": 0.32,
-    "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Karp",
-      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
-      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
-      "derived": {
-        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "German-American"
-      },
-      "lead_paragraphs": [
-        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
-        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
-      ],
-      "sections": [
-        {
-          "heading": "Palantir Technologies",
-          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
-        },
-        {
-          "heading": "Big Data Analytics",
-          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
-        },
-        {
-          "heading": "AI Contributions",
-          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
-        }
-      ]
-    },
-    "net_worth": null
   },
   {
     "id": 505,
@@ -72491,6 +72431,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 52,
+    "name": "Alex Karp",
+    "slug": "alex-carp",
+    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
+    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Assertive and knowledgeable.",
+    "voice_style": "Factual and persuasive.",
+    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
+    "voice_profile_updated_at": "2026-07-04 04:37:05",
+    "last_seen": "2026-08-17 03:02:02",
+    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-08",
+    "mention_score": 3,
+    "mention_score_decayed": 0.31,
+    "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Karp",
+      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
+      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
+      "derived": {
+        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
+        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Technologies",
+          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
+        },
+        {
+          "heading": "Big Data Analytics",
+          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
+        },
+        {
+          "heading": "AI Contributions",
+          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
+        }
+      ]
+    },
+    "net_worth": null
+  },
+  {
     "id": 499,
     "name": "Alex Zhang",
     "slug": "alex-zhang",
@@ -72508,7 +72508,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Alex Zhang predicts language models may become hidden swarms under simple interfaces because composing agents through shared context can solve problems like OpenAI's 10,000-agent experiment.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-02 \u2022 Academia is for Ambition \u2014 Alex Zhang, MIT",
     "last_proof_snippet": "",
@@ -72669,7 +72669,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -72696,7 +72696,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -74492,6 +74492,66 @@ const dashboardData = {
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 448,
+    "name": "Jacob Bondas",
+    "slug": "jacob-bondas",
+    "bio": "Jacob Bondas is a technologist and strategist whose work centers on autonomous AI systems and machine learning development. He is recognized for insights on AI alignment and emergent agent behavior, particularly how advanced systems develop unanticipated capabilities as they scale. His commentary bridges technical safety research and strategic decision-making for complex, agentic AI deployments.",
+    "known_for": "Shaping investor and industry understanding of AI alignment risks and emergent behaviors in autonomous agent systems.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Philosophical and measured",
+    "voice_style": "Uses concise, declarative statements about the nature of AI growth and control",
+    "voice_delivery_notes": "Pause slightly after punchy observations to let the weight of containment risks land",
+    "voice_profile_updated_at": "2026-09-11 15:59:02",
+    "last_seen": "2026-09-11 15:59:02",
+    "last_episode_title": "Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.19,
+    "last_main_idea": "The transition from narrow AI to autonomous AGI agents is collapsing transaction costs, creating new tokenized economic layers, and turning mobility and labor markets upside down, offering asymmetric returns for investors positioned in compute infrastructure, agent orchestration, and automation platforms serving an aging global population.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-09 \u2022 Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
+    "last_proof_snippet": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
+    "supporting_takeaway": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-11T11:30:57.961365",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Jacob Bondas",
+      "fetched_at": "2026-09-11T16:30:57.960616+00:00",
+      "cliff_notes": "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity. In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence. While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent. This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity.",
+        "In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence.",
+        "While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent.",
+        "This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management."
+      ],
+      "sections": [
+        {
+          "heading": "AI Alignment",
+          "body": "Bondas analyzes the technical and strategic challenges of keeping advanced AI systems aligned with operator intent as they gain greater autonomy. His insights address how misalignment risks scale with model capability, informing governance frameworks and investment due diligence."
+        },
+        {
+          "heading": "Emergent Agent Behavior",
+          "body": "He examines how unanticipated capabilities and behaviors can arise in large-scale machine learning systems. This work highlights why scaling autonomous agents requires new monitoring and evaluation paradigms beyond traditional software testing."
+        },
+        {
+          "heading": "Autonomous Systems Strategy",
+          "body": "As a strategist, Bondas focuses on development and deployment pathways for autonomous AI in research and commercial environments. His commentary bridges machine learning engineering with executive-level planning about safe rollout timelines."
+        },
+        {
+          "heading": "Machine Learning Development",
+          "body": "Bondas contributes to discourse on the practical construction of ML systems, emphasizing the intersection of capability advancement and safety engineering. His perspective is cited by technologists assessing the maturity of agentic AI platforms."
+        }
+      ]
+    }
   },
   {
     "id": 445,
@@ -76352,7 +76412,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "",
@@ -76606,7 +76666,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "",
@@ -85182,7 +85242,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 7,
-    "mention_score_decayed": 1.71,
+    "mention_score_decayed": 1.68,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software.",
