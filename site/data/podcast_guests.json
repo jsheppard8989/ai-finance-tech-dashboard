@@ -1,6 +1,6 @@
 [
   {
-    "id": 124574,
+    "id": 124661,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -12,7 +12,7 @@
     "appearance_count": 2
   },
   {
-    "id": 124573,
+    "id": 124660,
     "name": "Rick Rule",
     "slug": "rick-rule",
     "bio": null,
@@ -24,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124575,
+    "id": 124662,
     "name": "David Shapiro",
     "slug": "david-shapiro",
     "bio": null,
@@ -36,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124576,
+    "id": 124663,
     "name": "Recursive Self-Improvement",
     "slug": "recursive-self-improvement",
     "bio": null,
@@ -48,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124577,
+    "id": 124664,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -60,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124578,
+    "id": 124665,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -72,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124579,
+    "id": 124666,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -84,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124580,
+    "id": 124667,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -96,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124581,
+    "id": 124668,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -108,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124582,
+    "id": 124669,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -120,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124583,
+    "id": 124670,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -132,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124584,
+    "id": 124671,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -144,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124585,
+    "id": 124672,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -156,7 +156,7 @@
     "appearance_count": 2
   },
   {
-    "id": 124586,
+    "id": 124673,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -168,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124587,
+    "id": 124674,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -180,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124588,
+    "id": 124675,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -192,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124589,
+    "id": 124676,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -204,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124590,
+    "id": 124677,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -216,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124591,
+    "id": 124678,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -228,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124592,
+    "id": 124679,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -240,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124593,
+    "id": 124680,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -252,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124594,
+    "id": 124681,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -264,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124595,
+    "id": 124682,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -276,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124596,
+    "id": 124683,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -288,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124597,
+    "id": 124684,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -300,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124598,
+    "id": 124685,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124599,
+    "id": 124686,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124600,
+    "id": 124687,
     "name": "Ben Inker",
     "slug": "ben-inker",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124601,
+    "id": 124688,
     "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
     "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
     "bio": null,
@@ -348,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124602,
+    "id": 124689,
     "name": "Jason Ma",
     "slug": "jason-ma",
     "bio": null,
