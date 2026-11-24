@@ -58,19 +58,6 @@ def test_curve_keeps_chips_and_last_trade():
     assert out["b200"]["last_trade_at"] == "2026-09-09T17:33:08Z"
 
 
-def test_home_chart_wiring():
-    html = (Path(__file__).resolve().parents[1] / "site" / "index.html").read_text()
-    for needle in ('id="compute-forward-chart"', "renderComputeChart", "Dashed = forward prices (few trades so far, indicative).", "Sources: SemiAnalysis, AI Compute Tracker.", "compute-thesis", 'id="compute-thesis-slot"'):
-        assert needle in html
-    assert 'href="./compute-thesis.html"' not in html  # button only injected once the page exists
-
-
-def test_chart_expand_overlay():
-    html = (Path(__file__).resolve().parents[1] / "site" / "index.html").read_text()
-    for needle in ("openComputeChart(svg)", "closeComputeChart", "'Escape'", "e.target === ov", 'id="compute-chart-close"'):
-        assert needle in html
-
-
 def test_compute_thesis_page():
     import re
     from pathlib import Path
@@ -106,4 +93,3 @@ def test_compute_thesis_link_matches_title():
     assert "label: '%s', href: 'compute-thesis.html'" % title in (site / "js" / "research-nav.js").read_text(encoding="utf-8")
     for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html"):
         assert '<a href="compute-thesis.html">%s</a>' % title in (site / page).read_text(encoding="utf-8"), page
-    assert "class=\"chart-btn\" style=\"display:inline-block;text-decoration:none;\">%s</a>" % title in (site / "index.html").read_text(encoding="utf-8")

@@ -1,5 +1,5 @@
 """Oct 25 2026 sweep round 2 (cos/sweep_1025/fixes_round2.md): names, dc-buildout cleanup,
-and forward-curve placeholders kept off the Compute Forward chart."""
+and forward-curve placeholders kept out of published data."""
 import json, re, subprocess
 from pathlib import Path
 import pytest
@@ -111,7 +111,7 @@ def test_exporter_drops_open_bracket_placeholders():
     assert out["points"][1]["identified"] is True
 
 
-def test_published_curve_and_chart_js_have_no_placeholders():
+def test_published_curve_data_has_no_placeholders():
     md = json.loads((SITE / "data" / "market_data.json").read_text(encoding="utf-8"))
     fc = md["compute_forward_curve"]
     h100 = {p["tenor_key"]: p["price"] for p in fc["h100"]["points"]}
@@ -119,5 +119,3 @@ def test_published_curve_and_chart_js_have_no_placeholders():
     for chip in ("a100", "h100", "b200", "h200"):
         if chip in fc:
             assert not set(fc[chip].get("placeholders_dropped") or []) & {p["tenor_key"] for p in fc[chip]["points"]}
-    html = (SITE / "index.html").read_text(encoding="utf-8")
-    assert "placeholders_dropped" in html and "p.placeholder === true" in html and "ev.hiOpen === true" in html
