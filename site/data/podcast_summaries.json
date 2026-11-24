@@ -1,5 +1,23 @@
 [
   {
+    "id": 722,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Crowdstrike CEO: AI Cyberattack Wave, Hyperspeed Hacks, & The Patching Problem",
+    "episode_date": "2026-11-24",
+    "summary": "George Kurtz argues that AI has materially changed cyber risk by collapsing the gap between elite attackers and ordinary operators. He says frontier and open-weight models, plus harness engineering, can give both defenders and attackers capabilities that approach nation-state levels, but defenders are still behind because access to frontier models has been constrained while open and \"obliterated\" models are widely usable.\n\nHis core point is that AI does not just find bugs faster; it also helps chain low- and medium-risk flaws into remote code execution and full remote control.\n\nKurtz also emphasizes that many headline incidents are not straightforward hacks. He describes a \"break or breach\" world where patching itself can cause outages, and says some incidents attributed to attackers are really infrastructure or rollout failures. He uses Microsoft-style outage examples to show that AI can be involved indirectly because teams are rushing to fix issues that AI surfaced, even when the final failure is operational rather than malicious.\n\nOn offense, he describes autonomous attack frameworks that can fully compromise a company in less than three hours, and says one such framework was forked more than 12,000 times after being taken down. He also stresses identity abuse: session-token theft, phishing, and \"log in\" attacks remain dangerous even when MFA exists, because a stolen session can stay trusted for 30 days.\n\nHis longer-term view is that cyber is moving toward an \"agent state\" where destructive capability is democratized down the attacker stack, while defenders need the same kind of frontier-model access, plus stronger identity/session protections and better harness engineering, to keep pace.",
+    "key_takeaways": [
+      "One host says frontier models plus harness engineering can give defenders and attackers capabilities approaching nation-state levels, but defenders still lack parity.",
+      "One host says this year CrowdStrike has found 25% of all CVEs ever found, and he points to a 17,000-count and a 300% October-to-October increase.",
+      "One host says AI makes vulnerability chaining practical: multiple low-risk issues can be combined into remote code execution and full remote control.",
+      "One host says some recent headline incidents are patching or infrastructure failures rather than direct hacking, creating a \"break or breach\" dilemma for enterprises.",
+      "One host says an autonomous attack framework achieved complete compromise in less than three hours and was forked more than 12,000 times.",
+      "George Kurtz says even if there were zero vulnerabilities and perfect code everywhere, breaches would still happen because identity and authentication remain attack surfaces.",
+      "George Kurtz says attackers can steal session tokens so a compromised account stays authenticated for the next 30 days, bypassing simple MFA assumptions."
+    ],
+    "investment_thesis": "AI is accelerating both exploit discovery and autonomous attack chaining faster than enterprise patching and identity defenses can adapt.",
+    "key_tickers": null
+  },
+  {
     "id": 721,
     "podcast_name": "The a16z Show",
     "episode_title": "REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)",
