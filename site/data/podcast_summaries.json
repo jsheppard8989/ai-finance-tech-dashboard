@@ -1,5 +1,24 @@
 [
   {
+    "id": 723,
+    "podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "episode_title": "Scott Wu on Cybersecurity, Compute, and the Future of Engineering - [Invest Like the Best, EP.502]",
+    "episode_date": "2026-11-24",
+    "summary": "Scott Wu argues that AI agents are already good enough to materially change both software engineering and cybersecurity, and that the near-term consequence is a wave of major breaches. He says the next 6 to 12 months will likely include many major incidents, including at Fortune 50/100 companies or government institutions, because models can now find and chain vulnerabilities, including sandbox escapes.\n\nHe is more optimistic over the longer run: he says secure code and cryptographic privacy are solvable, and that the real issue is the current offense/defense mismatch. His view is that organizations will need continuous AI-driven defense, including swarms of agents for monitoring, scanning, logging, and updating legacy code, because human teams cannot test every path across large attack surfaces.\n\nWu also gives company metrics for Cognition and Devon. He says Cognition is seeing 8 to 15x ROI per dollar, that Devon can translate roughly one engineer hour into about 8 hours of equivalent productivity, and that the company crossed a $1B revenue run-rate last month after first dollar revenue on September 20th, 2024 and $1B on September 16th, 2026. He says a major bank customer, Citibank, is rolling Devon out to about 14,000 engineers out of 80,000 technical staff.\n\nOn compute, Wu says supply is constrained and demand is likely to keep rising, so pricing will have to clear the market through higher effective prices and broader use of smaller models. He adds that frontier and open-source models are typically about 3 to 6 months apart, and that Cognition mixes and matches providers based on customer constraints. He also flags safety risks from swarms and post-training/tuning, and says the main operational danger for AI companies is overcommitting on compute before revenue catches up.",
+    "key_takeaways": [
+      "Scott Wu says the next 6 to 12 months will likely bring many major breaches, including at Fortune 50/100 companies or government institutions.",
+      "Scott Wu says models are now more than good enough to find vulnerabilities and even escape sandboxes, citing the Hugging Face security incident as an example.",
+      "Scott Wu says long-term security should improve because secure code and cryptographic privacy are solvable problems, even if the near-term defense gap is severe.",
+      "Scott Wu says Cognition sees about 8 to 15x ROI per dollar from Devon, and that one engineer hour can translate into about 8 hours of equivalent productivity.",
+      "Scott Wu says Cognition crossed a $1B revenue run-rate last month, after first dollar revenue on September 20th, 2024 and $1B on September 16th, 2026.",
+      "Scott Wu says Citibank is rolling Devon out to about 14,000 engineers, and that the firm has 80,000 technical staff building and maintaining software.",
+      "Scott Wu says compute is very much supply constrained, so rising demand should force market clearing through higher prices and greater use of smaller models.",
+      "Scott Wu says open-source models generally lag the frontier by about 3 to 6 months, but many agent tasks still work within that gap."
+    ],
+    "investment_thesis": "Wu\u2019s core claim is that AI agents are already powerful enough to drive a near-term breach wave while simultaneously creating major productivity gains in enterprise software engineering.",
+    "key_tickers": null
+  },
+  {
     "id": 722,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Crowdstrike CEO: AI Cyberattack Wave, Hyperspeed Hacks, & The Patching Problem",
