@@ -616,47 +616,75 @@ def normalize_for_quote_match(text: str) -> str:
     return text.strip()
 
 
+def quote_match_score(quote: str, transcript: str) -> float:
+    """Return the best normalized sliding-window similarity for ``quote``."""
+    from difflib import SequenceMatcher
+
+    norm_quote = normalize_for_quote_match(quote)
+    norm_transcript = normalize_for_quote_match(transcript)
+    if not norm_quote or not norm_transcript:
+        return 0.0
+    if norm_quote in norm_transcript:
+        return 1.0
+
+    quote_words = norm_quote.split()
+    transcript_words = norm_transcript.split()
+    if not quote_words or not transcript_words:
+        return 0.0
+
+    best_ratio = 0.0
+    base = len(quote_words)
+    sizes = {max(1, int(base * 0.8)), base, max(1, int(base * 1.3))}
+
+    # Comparing every character window in a long transcript is prohibitively
+    # slow at publish time. Anchor candidate windows on the longest quote words;
+    # near-verbatim ASR variants still share several such words.
+    positions: dict[str, list[int]] = {}
+    for index, word in enumerate(transcript_words):
+        positions.setdefault(word, []).append(index)
+    anchors = sorted(
+        ((len(word), q_index, word) for q_index, word in enumerate(quote_words) if len(word) >= 3),
+        reverse=True,
+    )[:5]
+    starts: set[int] = set()
+    for _length, q_index, word in anchors:
+        for t_index in positions.get(word, []):
+            estimated = t_index - q_index
+            starts.update(range(max(0, estimated - 2), estimated + 3))
+    if not starts:
+        # All useful anchor words may carry an ASR typo. Find close token
+        # anchors only in this fallback path, then score their local windows.
+        for q_index, q_word in enumerate(quote_words):
+            if len(q_word) < 3:
+                continue
+            for t_index, t_word in enumerate(transcript_words):
+                if abs(len(q_word) - len(t_word)) > 2:
+                    continue
+                if SequenceMatcher(None, q_word, t_word).ratio() >= 0.7:
+                    estimated = t_index - q_index
+                    starts.update(range(max(0, estimated - 2), estimated + 3))
+        if not starts:
+            return 0.0
+
+    for window_size in sorted(s for s in sizes if s <= len(transcript_words)):
+        for i in starts:
+            if i < 0 or i + window_size > len(transcript_words):
+                continue
+            window = " ".join(transcript_words[i:i + window_size])
+            best_ratio = max(best_ratio, SequenceMatcher(None, norm_quote, window).ratio())
+    return best_ratio
+
+
 def quote_in_transcript(quote: str, transcript: str, threshold: float = 0.85) -> bool:
     """Check if a quote appears in the transcript with fuzzy matching.
     
     Uses normalized text and sliding window matching.
     Returns True if quote matches any window with similarity >= threshold.
     """
-    from difflib import SequenceMatcher
-    
     norm_quote = normalize_for_quote_match(quote)
-    norm_transcript = normalize_for_quote_match(transcript)
-    
     if not norm_quote or len(norm_quote) < 20:
         return True
-    
-    if norm_quote in norm_transcript:
-        return True
-    
-    quote_words = norm_quote.split()
-    transcript_words = norm_transcript.split()
-    window_size = len(quote_words)
-    
-    if window_size > len(transcript_words):
-        return False
-    
-    best_ratio = 0.0
-    for i in range(len(transcript_words) - window_size + 1):
-        window = " ".join(transcript_words[i:i + window_size])
-        ratio = SequenceMatcher(None, norm_quote, window).ratio()
-        if ratio >= threshold:
-            return True
-        best_ratio = max(best_ratio, ratio)
-    
-    window_size_expanded = int(window_size * 1.3)
-    for i in range(len(transcript_words) - window_size_expanded + 1):
-        window = " ".join(transcript_words[i:i + window_size_expanded])
-        ratio = SequenceMatcher(None, norm_quote, window).ratio()
-        if ratio >= threshold:
-            return True
-        best_ratio = max(best_ratio, ratio)
-    
-    return False
+    return quote_match_score(quote, transcript) >= threshold
 
 
 def validate_extraction_quotes_against_transcript(
