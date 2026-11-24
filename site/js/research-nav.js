@@ -24,7 +24,8 @@
     '.nav-research-menu{position:absolute;top:100%;left:50%;transform:translateX(-50%);z-index:1000;min-width:12rem;max-width:calc(100vw - 2rem);margin:0.25rem 0 0;padding:0.35rem;list-style:none;background:#14182b;border:1px solid rgba(255,255,255,0.15);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.45);text-align:left}' +
     '.nav-research-menu[hidden]{display:none}' +
     '.nav-research-menu a{display:block;padding:0.6rem 0.75rem;border-radius:6px;color:#00d4ff;text-decoration:none;white-space:nowrap}' +
-    '.nav-research-menu a:hover,.nav-research-menu a:focus{background:rgba(0,212,255,0.12)}';
+    '.nav-research-menu a:hover,.nav-research-menu a:focus{background:rgba(0,212,255,0.12)}' +
+    '@media(max-width:640px){.site-nav{position:relative}.nav-research{position:static}.nav-research-menu{left:8px;right:8px;width:auto;min-width:0;max-width:calc(100vw - 16px);transform:none;box-sizing:border-box}.nav-research-menu a{white-space:normal;overflow-wrap:anywhere}}';
 
   function build(root, idx) {
     var menuId = 'nav-research-menu-' + idx;
