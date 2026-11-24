@@ -36,6 +36,42 @@
       ]
     },
     {
+      "id": 733,
+      "title": "Crowdstrike CEO: AI Cyberattack Wave, Hyperspeed Hacks, & The Patching Problem",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-11-24",
+      "summary": "George Kurtz argues that AI has materially changed cyber risk by collapsing the gap between elite attackers and ordinary operators. He says frontier and open-weight models, plus harness engineering, can give both defenders and attackers capabilities that approach nation-state levels, but defenders are still behind because access to frontier models has been constrained while open and \"obliterated\" models are widely usable.\n\nHis core point is that AI does not just find bugs faster; it also helps chain low- and medium-risk flaws into remote code execution and full remote control.\n\nKurtz also emphasizes that many headline incidents are not straightforward hacks. He describes a \"break or breach\" world where patching itself can cause outages, and says some incidents attributed to attackers are really infrastructure or rollout failures. He uses Microsoft-style outage examples to show that AI can be involved indirectly because teams are rushing to fix issues that AI surfaced, even when the final failure is operational rather than malicious.\n\nOn offense, he describes autonomous attack frameworks that can fully compromise a company in less than three hours, and says one such framework was forked more than 12,000 times after being taken down. He also stresses identity abuse: session-token theft, phishing, and \"log in\" attacks remain dangerous even when MFA exists, because a stolen session can stay trusted for 30 days.\n\nHis longer-term view is that cyber is moving toward an \"agent state\" where destructive capability is democratized down the attacker stack, while defenders need the same kind of frontier-model access, plus stronger identity/session protections and better harness engineering, to keep pace.",
+      "key_takeaway": "AI is accelerating both exploit discovery and autonomous attack chaining faster than enterprise patching and identity defenses can adapt.",
+      "tickers_mentioned": [
+        "CRWD",
+        "MSFT",
+        "ANET",
+        "OKTA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 722,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "Now, you would say, okay, the aha moment was it's end end autonomous attack. I don't think that's the aha moment. I think the aha moment is really the fact that the defenders didn't have frontier level capabilities in their own models to be able to understand what was happening."
+        },
+        {
+          "speaker": "one host",
+          "quote": "just this year, we've found 25% of all the CV ease for the entire entirety of finding CV ease, right? Think about that."
+        },
+        {
+          "speaker": "one host",
+          "quote": "even if there were zero vulnerabilities we had perfect code everywhere the entire world had perfect code you'd still have breaches and I think a lot of people look at it okay we're just gonna rush to patch everything and we're gonna be good that's not the case."
+        }
+      ]
+    },
+    {
       "id": 728,
       "title": "The One-Person Biotech | OpenAI Life Sciences",
       "source_type": "podcast",
@@ -599,7 +635,7 @@
       "key_takeaway": "Audax\u2019s edge is disciplined middle-market cash-flow underwriting that avoids ARR/forward-revenue exposure and may limit losses even as AI and rate fears shake credit sentiment.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-19",
       "archived_date": null,
@@ -17206,6 +17242,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 357,
+      "term": "Trusted access",
+      "description": "A safety model that gives full capabilities to verified legitimate institutions rather than trying to infer intent from prompts alone.",
+      "first_detected_date": "2026-11-23",
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Could shape enterprise and regulated-sector adoption by making access broader for qualified labs while preserving controls.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 717,
+      "first_detected_speaker": "Joy-Jow (one guest: Joy-Jow)",
+      "last_mentioned_episode_id": 722,
+      "last_mentioned_speaker": "Joy-Jow (one guest: Joy-Jow)"
+    },
+    {
       "id": 356,
       "term": "export controls",
       "description": "Government restrictions on the transfer of advanced technology, especially chips and related hardware, to China. Carson Block argues they are strategically important and should be enforced more aggressively.",
@@ -17247,7 +17301,7 @@
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
       "last_mentioned_date": "2026-11-24",
-      "mention_count": 26,
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17256,8 +17310,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 721,
-      "last_mentioned_speaker": "Jennifer Bailey"
+      "last_mentioned_episode_id": 722,
+      "last_mentioned_speaker": null
     },
     {
       "id": 342,
@@ -17750,8 +17804,8 @@
       "term": "Open-weight models",
       "description": "Models whose weights can be accessed and modified by the enterprise, rather than kept fully closed by the provider. They are presented as preferable for auditability, customization, and regulatory validation.",
       "first_detected_date": "2026-10-23",
-      "last_mentioned_date": "2026-11-20",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Could increase demand for governance, monitoring, and security tooling around enterprise AI deployment.",
@@ -17760,8 +17814,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 607,
       "first_detected_speaker": "Nick Hess",
-      "last_mentioned_episode_id": 707,
-      "last_mentioned_speaker": "David Heinemeier Hansson"
+      "last_mentioned_episode_id": 722,
+      "last_mentioned_speaker": null
     },
     {
       "id": 324,
@@ -17840,8 +17894,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-11-23",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -17850,7 +17904,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 718,
+      "last_mentioned_episode_id": 722,
       "last_mentioned_speaker": null
     },
     {
