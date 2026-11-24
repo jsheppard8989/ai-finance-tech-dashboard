@@ -1048,6 +1048,18 @@ def export_website_data():
     return stats
 
 
+def run_publish_quote_check_fail_open(main_content, db):
+    """Flag transcript mismatches without changing or delaying exported content."""
+    try:
+        from publish_quote_check import check_main_page_summaries
+        misses = check_main_page_summaries(main_content, db)
+        if misses:
+            print(f"  ⚠ Publish quote check flagged {len(misses)} miss(es); publishing unchanged")
+    except Exception as exc:
+        print(f"  ⚠ Publish quote check failed open: {type(exc).__name__}: {exc}")
+    return main_content
+
+
 def _stamp_debate_contract_publishable() -> None:
     """Refresh publishable flag on debate_contract.json so the site can gate the listen page."""
     contract_path = SITE_DIR / "audio" / "debate_contract.json"
@@ -2181,6 +2193,9 @@ if (typeof module !== 'undefined' && module.exports) {{
     with open(site_dir / 'data.js', 'w') as f:
         f.write(js_content)
 
+    # Jared 2026-11-24: FLAG ONLY, after the publish artifact is written. The
+    # checker sees final overridden cards but cannot gate or alter data.js.
+    run_publish_quote_check_fail_open(main_content, db)
     bump_data_js_cache_in_site_html()
     
     total_archive = sum(len(v) for v in archive.values() if isinstance(v, list))
