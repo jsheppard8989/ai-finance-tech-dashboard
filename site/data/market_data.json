@@ -7,7 +7,7 @@
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills and TIPS excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-11-24T08:14:34",
+    "last_updated": "2026-11-24T17:49:23",
     "as_of_date": "2026-11-24",
     "next_refunding_announcement": {
       "date": "2027-02-03",
@@ -15,22 +15,6 @@
       "notes": "Estimated (first Wednesday of refunding month); confirm with Treasury"
     },
     "upcoming_auctions": [
-      {
-        "date": "2026-11-24",
-        "security": "2-Year Floating-Rate Note (reopening of a 2-year floating-rate note, 1 year 11 months left)",
-        "cusip": "91282CRS2",
-        "size_billions": 28.0,
-        "announcement_date": "2026-11-19",
-        "issue_date": "2026-11-27"
-      },
-      {
-        "date": "2026-11-24",
-        "security": "5-Year Note",
-        "cusip": "91282CRZ6",
-        "size_billions": 70.0,
-        "announcement_date": "2026-11-19",
-        "issue_date": "2026-11-30"
-      },
       {
         "date": "2026-11-25",
         "security": "7-Year Note",
@@ -41,6 +25,48 @@
       }
     ],
     "recent_auction_results": [
+      {
+        "date": "2026-11-24",
+        "security": "5-Year Note",
+        "cusip": "91282CRZ6",
+        "size_billions": 70.0,
+        "issue_date": "2026-11-30",
+        "maturity_date": "2031-11-30",
+        "high_yield_pct": 4.719,
+        "high_discount_margin_pct": null,
+        "coupon_pct": 4.625,
+        "bid_to_cover": 2.37,
+        "allocation_at_high_pct": 63.47,
+        "total_tendered_billions": 172.81,
+        "total_accepted_billions": 77.216,
+        "primary_dealer_accepted_billions": 6.258,
+        "direct_accepted_billions": 25.487,
+        "indirect_accepted_billions": 37.688,
+        "results_pdf": "R_20261124_3.pdf",
+        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRZ6",
+        "stranger_note": "bid-to-cover 2.37; foreign and other indirect buyers took 49%."
+      },
+      {
+        "date": "2026-11-24",
+        "security": "2-Year Floating-Rate Note (reopening of a 2-year floating-rate note, 1 year 11 months left)",
+        "cusip": "91282CRS2",
+        "size_billions": 28.0,
+        "issue_date": "2026-11-27",
+        "maturity_date": "2028-10-31",
+        "high_yield_pct": null,
+        "high_discount_margin_pct": 0.05,
+        "coupon_pct": null,
+        "bid_to_cover": 2.87,
+        "allocation_at_high_pct": 57.1,
+        "total_tendered_billions": 80.383,
+        "total_accepted_billions": 28.0,
+        "primary_dealer_accepted_billions": 10.804,
+        "direct_accepted_billions": 0.2,
+        "indirect_accepted_billions": 16.982,
+        "results_pdf": "R_20261124_4.pdf",
+        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRS2",
+        "stranger_note": "bid-to-cover 2.87; foreign and other indirect buyers took 61%."
+      },
       {
         "date": "2026-11-23",
         "security": "2-Year Note",
@@ -208,48 +234,6 @@
         "results_pdf": "R_20261027_3.pdf",
         "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRT0",
         "stranger_note": "bid-to-cover 2.33; foreign and other indirect buyers took 53%."
-      },
-      {
-        "date": "2026-10-26",
-        "security": "2-Year Note",
-        "cusip": "91282CRU7",
-        "size_billions": 69.0,
-        "issue_date": "2026-11-02",
-        "maturity_date": "2028-10-31",
-        "high_yield_pct": 4.708,
-        "high_discount_margin_pct": null,
-        "coupon_pct": 4.625,
-        "bid_to_cover": 2.59,
-        "allocation_at_high_pct": 80.83,
-        "total_tendered_billions": 186.289,
-        "total_accepted_billions": 76.667,
-        "primary_dealer_accepted_billions": 8.818,
-        "direct_accepted_billions": 28.027,
-        "indirect_accepted_billions": 30.981,
-        "results_pdf": "R_20261026_3.pdf",
-        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=91282CRU7",
-        "stranger_note": "bid-to-cover 2.59; foreign and other indirect buyers took 40%."
-      },
-      {
-        "date": "2026-10-21",
-        "security": "20-Year Bond (reopening of a 20-year bond, 19 years 10 months left)",
-        "cusip": "912810UX4",
-        "size_billions": 13.0,
-        "issue_date": "2026-10-23",
-        "maturity_date": "2046-08-15",
-        "high_yield_pct": 5.469,
-        "high_discount_margin_pct": null,
-        "coupon_pct": 5.125,
-        "bid_to_cover": 2.73,
-        "allocation_at_high_pct": 60.05,
-        "total_tendered_billions": 35.48,
-        "total_accepted_billions": 13.0,
-        "primary_dealer_accepted_billions": 1.323,
-        "direct_accepted_billions": 4.075,
-        "indirect_accepted_billions": 7.503,
-        "results_pdf": "R_20261021_2.pdf",
-        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&cusip=912810UX4",
-        "stranger_note": "bid-to-cover 2.73; foreign and other indirect buyers took 58%."
       }
     ],
     "refunding_context": {
@@ -269,7 +253,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-11-24T08:14:34.335532",
+    "last_fetched": "2026-11-24T17:49:20.981127",
     "h100": {
       "daily_date": "Nov 24, 2026",
       "daily_date_iso": "2026-11-24",
@@ -381,9 +365,9 @@
     "a100": {
       "daily_date": "Nov 24, 2026",
       "composite_index": {
-        "display": "$1.64",
+        "display": "$1.65",
         "type": "single",
-        "value": 1.64
+        "value": 1.65
       }
     },
     "spot_history": {
@@ -764,7 +748,7 @@
         1.64,
         1.64,
         1.64,
-        1.64
+        1.65
       ],
       "h100": [
         2.88,
@@ -1178,10 +1162,10 @@
     "_api_url": "https://aicomputetracker.com/forward-curves.json",
     "_settles_on": "Ornn Compute Price Index (OCPI)",
     "_license": "AI Compute Tracker (aicomputetracker.com), CC BY 4.0; third-party terms apply to data from Kalshi (KalshiEX LLC)",
-    "as_of": "2026-11-24T12:37:54.471Z",
+    "as_of": "2026-11-24T18:37:44.940Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-11-24T08:14:34.514256",
+    "last_fetched": "2026-11-24T17:49:21.199023",
     "b200": {
       "points": [
         {
@@ -1194,7 +1178,7 @@
         {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 8.93,
+          "price": 8.96,
           "quality": "quality-passed",
           "identified": true
         },
@@ -1231,8 +1215,8 @@
           "identified": false
         }
       ],
-      "two_sided_markets": 41,
-      "liquidity_usd": 19393,
+      "two_sided_markets": 36,
+      "liquidity_usd": 13415,
       "kalshi_series": "KXB200MS",
       "last_trade_at": "2026-11-13T01:27:26.868Z"
     },
@@ -1241,21 +1225,21 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 6.63,
+          "price": 6.65,
           "quality": "thin",
           "identified": false
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 7.38,
+          "price": 7.52,
           "quality": "thin",
           "identified": false
         },
         {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 7.31,
+          "price": 7.41,
           "quality": "thin",
           "identified": false
         }
@@ -1273,20 +1257,20 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 6.63,
+          "price": 6.65,
           "quality": "thin",
           "identified": false
         },
         {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 7.31,
+          "price": 7.41,
           "quality": "thin",
           "identified": false
         }
       ],
-      "two_sided_markets": 56,
-      "liquidity_usd": 20613,
+      "two_sided_markets": 53,
+      "liquidity_usd": 7714,
       "kalshi_series": "KXH200MS",
       "last_trade_at": "2026-11-13T01:26:12.192Z"
     },
@@ -1320,8 +1304,8 @@
           "identified": false
         }
       ],
-      "two_sided_markets": 28,
-      "liquidity_usd": 14899,
+      "two_sided_markets": 24,
+      "liquidity_usd": 4541,
       "kalshi_series": "KXH100MS",
       "last_trade_at": "2026-11-13T01:17:27.841Z"
     },
@@ -1337,14 +1321,14 @@
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 0.96,
+          "price": 0.98,
           "quality": "thin",
           "identified": false
         },
         {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 0.99,
+          "price": 1.0,
           "quality": "thin",
           "identified": false
         },
@@ -1381,13 +1365,13 @@
         {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 0.99,
+          "price": 1.0,
           "quality": "thin",
           "identified": false
         }
       ],
-      "two_sided_markets": 9,
-      "liquidity_usd": 8939,
+      "two_sided_markets": 7,
+      "liquidity_usd": 3410,
       "kalshi_series": "KXA100MS",
       "last_trade_at": "2026-11-13T00:53:09.876Z"
     }
@@ -1400,8 +1384,8 @@
         "spot": 6.25,
         "spot_30d_pct": -9.9,
         "spot_90d_pct": 13.4,
-        "forward_vs_spot_pct": 13.0,
-        "score": 5.5,
+        "forward_vs_spot_pct": 13.2,
+        "score": 5.6,
         "trend": "rising"
       },
       "h100": {
@@ -1413,16 +1397,16 @@
         "trend": "rising"
       },
       "a100": {
-        "spot": 1.64,
-        "spot_30d_pct": -4.7,
-        "spot_90d_pct": -8.4,
+        "spot": 1.65,
+        "spot_30d_pct": -4.1,
+        "spot_90d_pct": -7.8,
         "forward_vs_spot_pct": -32.3,
-        "score": -15.1,
+        "score": -14.7,
         "trend": "dropping"
       }
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
     "as_of": "2026-11-24",
-    "generated_at": "2026-11-24T08:14:34"
+    "generated_at": "2026-11-24T17:49:21"
   }
 }
