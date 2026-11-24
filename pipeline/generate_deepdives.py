@@ -236,8 +236,6 @@ def legacy_fallback_decision(
     err: Optional[str],
     high_profile_reason: Optional[str],
     today: Optional[str] = None,
-    *,
-    create_table: bool = True,
 ) -> Tuple[bool, str]:
     """After extraction-mode (gpt-5.4-mini) fails, may we try gpt-5.5? Returns (allowed, why).
     - credit/quota/auth/rate error: never (fail fast).
@@ -250,12 +248,7 @@ def legacy_fallback_decision(
     if not episode_id:
         return False, "no_episode_id"
     today = today or datetime.now().date().isoformat()
-    if create_table:
-        _ensure_legacy_fallback_table(conn)
-    elif not conn.execute(
-        "SELECT 1 FROM sqlite_master WHERE type='table' AND name='deep_dive_legacy_fallbacks'"
-    ).fetchone():
-        return True, f"high_profile:{high_profile_reason}"
+    _ensure_legacy_fallback_table(conn)
     if conn.execute("SELECT 1 FROM deep_dive_legacy_fallbacks WHERE episode_id = ? AND day = ?",
                     (episode_id, today)).fetchone():
         return False, "already_used_today"
@@ -2018,35 +2011,31 @@ def generate_missing_deepdives(
                     hp = check_high_profile_match(episode_id, insight_id, source_name, title, load_high_profile_config())
                 except Exception:
                     hp = None
-            allowed, why = legacy_fallback_decision(
-                conn,
-                episode_id,
-                err_detail,
-                hp,
-                create_table=not bool(draft_out),
-            )
-            if allowed:
-                generation_mode = extraction_failed_generation_mode(err_detail)
-                print(f"    ⚠ Extraction failed ({err_detail[:60]}); one gpt-5.5 attempt ({why})", flush=True)
-                if not draft_out:
-                    record_legacy_fallback(conn, episode_id, insight_id, why)
-                content, err_detail, usage_info = run_deep_dive_generation_attempts(
-                    clients,
-                    insight_id,
-                    title,
-                    source_type,
-                    episode_id,
-                    insight_summary,
-                    key_takeaway,
-                    host_name=host_name,
-                    guest_names=guest_names,
-                    max_attempts=1,
-                    podcast_name=source_name or "",
-                    check_log_path=check_log_path,
-                )
+            if draft_out:
+                print("    ⏭ no gpt-5.5 fallback (draft mode)", flush=True)
             else:
-                print(f"    ⏭ Extraction failed ({err_detail[:60]}); no gpt-5.5 fallback ({why}). "
-                      f"Next run retries on mini.", flush=True)
+                allowed, why = legacy_fallback_decision(conn, episode_id, err_detail, hp)
+                if allowed:
+                    generation_mode = extraction_failed_generation_mode(err_detail)
+                    print(f"    ⚠ Extraction failed ({err_detail[:60]}); one gpt-5.5 attempt ({why})", flush=True)
+                    record_legacy_fallback(conn, episode_id, insight_id, why)
+                    content, err_detail, usage_info = run_deep_dive_generation_attempts(
+                        clients,
+                        insight_id,
+                        title,
+                        source_type,
+                        episode_id,
+                        insight_summary,
+                        key_takeaway,
+                        host_name=host_name,
+                        guest_names=guest_names,
+                        max_attempts=1,
+                        podcast_name=source_name or "",
+                        check_log_path=check_log_path,
+                    )
+                else:
+                    print(f"    ⏭ Extraction failed ({err_detail[:60]}); no gpt-5.5 fallback ({why}). "
+                          f"Next run retries on mini.", flush=True)
 
         if not content:
             reason = "content_filter" if err_detail and _is_content_filter_error(Exception(err_detail)) else "generation_failed"

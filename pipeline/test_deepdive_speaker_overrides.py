@@ -272,30 +272,45 @@ def test_committed_731_override_uses_official_sources_only():
     ]
 
 
-def test_read_only_fallback_decision_honors_existing_daily_use(tmp_path):
-    db = tmp_path / "fallback.db"
-    conn = sqlite3.connect(db)
-    conn.execute(
-        """CREATE TABLE deep_dive_legacy_fallbacks (
-            episode_id INTEGER, day TEXT, insight_id INTEGER, reason TEXT
-        )"""
-    )
-    conn.execute(
-        "INSERT INTO deep_dive_legacy_fallbacks VALUES (720, '2026-11-24', 731, 'high_profile')"
-    )
-    conn.commit()
-    before = hashlib.sha256(db.read_bytes()).hexdigest()
+def test_draft_high_profile_extraction_failure_never_calls_gpt55(tmp_path, capsys):
+    db = tmp_path / "dashboard.db"
+    _make_draft_db(db)
 
-    assert gd.legacy_fallback_decision(
-        conn,
-        720,
-        "structural failure",
-        "insight_id=731",
-        today="2026-11-24",
-        create_table=False,
-    ) == (False, "already_used_today")
-    conn.close()
-    assert hashlib.sha256(db.read_bytes()).hexdigest() == before
+    with (
+        patch.dict("os.environ", {"DEEPDIVE_MODE": "extraction"}),
+        patch.object(gd, "DB_PATH", db),
+        patch.object(gd, "get_ai_clients", return_value=[("openai", MagicMock())]),
+        patch.object(
+            gd,
+            "load_high_profile_config",
+            return_value={"episode_ids": [], "insight_ids": [], "shows": [], "title_keywords": []},
+        ),
+        patch.object(
+            gd,
+            "check_high_profile_match",
+            side_effect=[None, "insight_id=731"],
+        ),
+        patch.object(
+            gd,
+            "run_extraction_deep_dive_attempts",
+            return_value=(None, "structural failure", {"model": "gpt-5.4-mini"}),
+        ),
+        patch.object(
+            gd,
+            "legacy_fallback_decision",
+            return_value=(True, "high_profile:insight_id=731"),
+        ) as fallback_decision,
+        patch.object(
+            gd,
+            "run_deep_dive_generation_attempts",
+            return_value=(_valid_content(), None, {"model": "gpt-5.5"}),
+        ) as gpt55,
+    ):
+        gd.generate_missing_deepdives([731], draft_out=tmp_path / "drafts")
+
+    fallback_decision.assert_not_called()
+    gpt55.assert_not_called()
+    assert "⏭ no gpt-5.5 fallback (draft mode)" in capsys.readouterr().out
 
 
 def test_official_transcript_matcher_suggests_only_fuzzy_verified_quotes():
