@@ -973,7 +973,26 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         mark_transcript_processed(transcript_path, -1, duplicate_of=prior_id)
         record_transcript_hash(content, prior_id, transcript_path)
         return None
-    
+
+    # Pre-analysis Show Runner gate (Jared, 2026-11-23 5:50 PM CT, narrow skip).
+    # Score < 30: do not analyze or publish. Moonshots is never skipped.
+    # Fail open if the scores snapshot/ledger is missing or the episode has no score yet.
+    try:
+        from showrunner_skip_gate import should_skip_and_log
+        if should_skip_and_log({
+            "rss_guid": rss_guid,
+            "guid": rss_guid,
+            "audio_url": sidecar.get("audio_url") or sidecar.get("url") or "",
+            "url": sidecar.get("audio_url") or sidecar.get("url") or sidecar.get("link") or "",
+            "podcast_name": podcast_name,
+            "feed_name": sidecar.get("feed_name") or podcast_name,
+            "title": (sidecar.get("episode_title") or lookup_title_for_dedupe or episode_slug),
+            "episode_title": sidecar.get("episode_title") or "",
+        }):
+            return None
+    except Exception as _skip_err:
+        print(f"    ⚠ Show Runner skip gate failed open: {_skip_err}")
+
     # Do not swap in the Stage A mini digest. Those files are a few thousand
     # characters and are why recaps came out thin. The windowed raw transcript
     # is the analysis source (see TRANSCRIPT_WINDOW_CHARS).
