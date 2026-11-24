@@ -72,6 +72,37 @@
       ]
     },
     {
+      "id": 734,
+      "title": "Scott Wu on Cybersecurity, Compute, and the Future of Engineering - [Invest Like the Best, EP.502]",
+      "source_type": "podcast",
+      "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "source_date": "2026-11-24",
+      "summary": "Scott Wu argues that AI agents are already good enough to materially change both software engineering and cybersecurity, and that the near-term consequence is a wave of major breaches. He says the next 6 to 12 months will likely include many major incidents, including at Fortune 50/100 companies or government institutions, because models can now find and chain vulnerabilities, including sandbox escapes.\n\nHe is more optimistic over the longer run: he says secure code and cryptographic privacy are solvable, and that the real issue is the current offense/defense mismatch. His view is that organizations will need continuous AI-driven defense, including swarms of agents for monitoring, scanning, logging, and updating legacy code, because human teams cannot test every path across large attack surfaces.\n\nWu also gives company metrics for Cognition and Devon. He says Cognition is seeing 8 to 15x ROI per dollar, that Devon can translate roughly one engineer hour into about 8 hours of equivalent productivity, and that the company crossed a $1B revenue run-rate last month after first dollar revenue on September 20th, 2024 and $1B on September 16th, 2026. He says a major bank customer, Citibank, is rolling Devon out to about 14,000 engineers out of 80,000 technical staff.\n\nOn compute, Wu says supply is constrained and demand is likely to keep rising, so pricing will have to clear the market through higher effective prices and broader use of smaller models. He adds that frontier and open-source models are typically about 3 to 6 months apart, and that Cognition mixes and matches providers based on customer constraints. He also flags safety risks from swarms and post-training/tuning, and says the main operational danger for AI companies is overcommitting on compute before revenue catches up.",
+      "key_takeaway": "Wu\u2019s core claim is that AI agents are already powerful enough to drive a near-term breach wave while simultaneously creating major productivity gains in enterprise software engineering.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 723,
+      "notable_quotes": [
+        {
+          "speaker": "Scott Wu",
+          "quote": "On the current course that we are on, over the next six to 12 months, there will be a lot of major breaches."
+        },
+        {
+          "speaker": "Scott Wu",
+          "quote": "In general, what we see is that on a per dollar basis, they're getting something in the range of 8 to 15x ROI."
+        },
+        {
+          "speaker": "Scott Wu",
+          "quote": "First of all, just obviously the case that compute is very much supply constraint right now."
+        }
+      ]
+    },
+    {
       "id": 728,
       "title": "The One-Person Biotech | OpenAI Life Sciences",
       "source_type": "podcast",
@@ -358,7 +389,7 @@
         "AGIO"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-20",
       "archived_date": null,
@@ -17301,7 +17332,7 @@
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
       "last_mentioned_date": "2026-11-24",
-      "mention_count": 27,
+      "mention_count": 28,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17310,8 +17341,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 722,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 723,
+      "last_mentioned_speaker": "Scott Wu"
     },
     {
       "id": 342,
@@ -17750,8 +17781,8 @@
       "term": "Background agents",
       "description": "AI agents that run behind the scenes to execute tasks without constant manual prompting. Levie says current organizations are not yet structured to kick off many of them at scale.",
       "first_detected_date": "2026-10-25",
-      "last_mentioned_date": "2026-11-18",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies building reliable background-agent orchestration may own a major infrastructure layer for enterprise automation.",
@@ -17760,8 +17791,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 610,
       "first_detected_speaker": "Aaron Levie",
-      "last_mentioned_episode_id": 693,
-      "last_mentioned_speaker": "Ken Liu"
+      "last_mentioned_episode_id": 723,
+      "last_mentioned_speaker": "Scott Wu"
     },
     {
       "id": 322,
@@ -18164,8 +18195,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-11-21",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -18174,8 +18205,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 713,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 723,
+      "last_mentioned_speaker": "Scott Wu"
     },
     {
       "id": 295,
@@ -18236,8 +18267,8 @@
       "term": "AI Adoption",
       "description": "The integration of artificial intelligence technologies into business processes, which is currently at an early stage in enterprises.",
       "first_detected_date": "2026-09-30",
-      "last_mentioned_date": "2026-11-12",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding AI adoption is crucial for identifying companies that will benefit from increased efficiency and productivity.",
@@ -18246,8 +18277,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 536,
       "first_detected_speaker": "David George (hosts)",
-      "last_mentioned_episode_id": 674,
-      "last_mentioned_speaker": "Anish Acharya, Jonathan Lai"
+      "last_mentioned_episode_id": 723,
+      "last_mentioned_speaker": "Scott Wu"
     },
     {
       "id": 293,
