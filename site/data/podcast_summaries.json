@@ -1,5 +1,28 @@
 [
   {
+    "id": 721,
+    "podcast_name": "The a16z Show",
+    "episode_title": "REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)",
+    "episode_date": "2026-11-24",
+    "summary": "Jennifer Bailey frames Apple Pay as a product that was built first around security, tokenization, and privacy, with the goal that Apple would not see individual in-store transactions. She says the U.S. launch happened when contactless acceptance was only about 3% of merchants, which made adoption difficult at first.\n\nShe argues that Apple Pay\u2019s real scaling inflection came internationally, where regulators and markets such as the UK and Australia moved earlier on contactless adoption. Bailey says the company could see stronger uptake in those markets and felt Apple Pay was going to scale about three or four years into the product\u2019s life.\n\nBailey also describes Apple Wallet as a long-term effort to replace the physical wallet with digital versions of transit passes, tickets, loyalty, student IDs, car keys, hotel keys, and IDs. She cites concrete progress like tap-to-ride in over 250 cities globally and state driver\u2019s license provisioning with TSA acceptance in some U.S. states.\n\nOn Apple Card and Apple Savings, she says Apple Card was designed to help people be more financially healthy through transparency, an interest wheel, no late fees, no foreign exchange fees, and daily cash rewards. For Savings, she says launch timing was favorable because interest rates were rising and Goldman could offer a high savings rate that brought in daily cash and other deposits.",
+    "key_takeaways": [
+      "Jennifer Bailey says Apple Pay was designed from the start around security and privacy, including a structure where Apple does not see in-store transaction data.",
+      "Jennifer Bailey says Apple Pay launched in the U.S. when contactless acceptance was only about 3% of merchants, making the initial adoption environment weak.",
+      "Jennifer Bailey says Apple Pay scaled more quickly outside the U.S. because countries such as the UK and Australia had earlier regulator-led contactless adoption.",
+      "Jennifer Bailey says Apple Pay reached a meaningful scaling inflection about three or four years after launch as international markets improved acceptance.",
+      "Jennifer Bailey says Apple Wallet\u2019s long-term goal is to replace the physical wallet with transit, tickets, IDs, keys, and other everyday items.",
+      "Jennifer Bailey says Apple Wallet now supports tap-to-ride in over 250 cities globally and is expanding state ID provisioning with TSA acceptance.",
+      "Jennifer Bailey says Apple Card was built to be financially healthy, with no late fees or foreign exchange fees, an interest wheel, and daily cash rewards.",
+      "Jennifer Bailey says Apple Savings launched at a strong time because rates were rising, allowing Goldman to offer a high savings rate that attracted deposits."
+    ],
+    "investment_thesis": "Apple\u2019s payments and wallet stack scales by combining privacy-first architecture with expanding acceptance, turning the iPhone into a broader everyday payment and identity platform.",
+    "key_tickers": [
+      "AAPL",
+      "MA",
+      "GS"
+    ]
+  },
+  {
     "id": 719,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Gavin Baker: The AI Capex Cycle Will Be Longer Than the Market Thinks | Jensen, Nvidia, and Gavin's Best AI Bear Case",

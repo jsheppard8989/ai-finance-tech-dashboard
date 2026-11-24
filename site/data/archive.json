@@ -1,6 +1,41 @@
 {
   "insights": [
     {
+      "id": 732,
+      "title": "REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-24",
+      "summary": "Jennifer Bailey frames Apple Pay as a product that was built first around security, tokenization, and privacy, with the goal that Apple would not see individual in-store transactions. She says the U.S. launch happened when contactless acceptance was only about 3% of merchants, which made adoption difficult at first.\n\nShe argues that Apple Pay\u2019s real scaling inflection came internationally, where regulators and markets such as the UK and Australia moved earlier on contactless adoption. Bailey says the company could see stronger uptake in those markets and felt Apple Pay was going to scale about three or four years into the product\u2019s life.\n\nBailey also describes Apple Wallet as a long-term effort to replace the physical wallet with digital versions of transit passes, tickets, loyalty, student IDs, car keys, hotel keys, and IDs. She cites concrete progress like tap-to-ride in over 250 cities globally and state driver\u2019s license provisioning with TSA acceptance in some U.S. states.\n\nOn Apple Card and Apple Savings, she says Apple Card was designed to help people be more financially healthy through transparency, an interest wheel, no late fees, no foreign exchange fees, and daily cash rewards. For Savings, she says launch timing was favorable because interest rates were rising and Goldman could offer a high savings rate that brought in daily cash and other deposits.",
+      "key_takeaway": "Apple\u2019s payments and wallet stack scales by combining privacy-first architecture with expanding acceptance, turning the iPhone into a broader everyday payment and identity platform.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MA",
+        "GS"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 721,
+      "notable_quotes": [
+        {
+          "speaker": "Jennifer Bailey",
+          "quote": "when you pay in store today using Apple Pay, we don't see that transaction. It goes up the traditional payment, infrastructure into the network and into the issuers, through the acquires, et cetera."
+        },
+        {
+          "speaker": "Jennifer Bailey",
+          "quote": "When we launched Apple pay, I believe contactless acceptance was at 3%."
+        },
+        {
+          "speaker": "Jennifer Bailey",
+          "quote": "And I would say maybe three, four years into Apple Pay, we felt like, okay, this is really going to scale."
+        }
+      ]
+    },
+    {
       "id": 728,
       "title": "The One-Person Biotech | OpenAI Life Sciences",
       "source_type": "podcast",
@@ -533,7 +568,7 @@
       "key_takeaway": "Bostrom\u2019s core claim is that AI development should be slowed only briefly when safety lags, because the right balance may be months or a few years, not an open-ended pause.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-19",
       "archived_date": null,
@@ -17211,8 +17246,8 @@
       "term": "Second",
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
-      "last_mentioned_date": "2026-11-23",
-      "mention_count": 25,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 26,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17221,8 +17256,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 720,
-      "last_mentioned_speaker": "Emergency Pod"
+      "last_mentioned_episode_id": 721,
+      "last_mentioned_speaker": "Jennifer Bailey"
     },
     {
       "id": 342,
@@ -18217,20 +18252,20 @@
     {
       "id": 303,
       "term": "Tokenization",
-      "description": "Tokenization is the process of converting physical or digital assets into digital tokens that can be traded on blockchain platforms.",
+      "description": "A payments security method that replaces sensitive card details with a token that can be validated and translated through the network and bank ecosystem. Bailey presents it as central to Apple Pay\u2019s architecture.",
       "first_detected_date": "2026-09-29",
-      "last_mentioned_date": "2026-11-14",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Tokenization can democratize access to investments and improve liquidity in financial markets.",
+      "investment_implications": "It matters because secure token-based payments can expand mobile-wallet adoption while reducing fraud and improving privacy.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 535,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 682,
-      "last_mentioned_speaker": "Cromwell Coulson"
+      "last_mentioned_episode_id": 721,
+      "last_mentioned_speaker": "Jennifer Bailey"
     },
     {
       "id": 292,

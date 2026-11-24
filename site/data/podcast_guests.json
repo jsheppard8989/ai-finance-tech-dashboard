@@ -1,6 +1,18 @@
 [
   {
-    "id": 125281,
+    "id": 125371,
+    "name": "Jennifer Bailey (2024)",
+    "slug": "jennifer-bailey-2024",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Apple\u2019s payments and wallet stack scales by combining privacy-first architecture with expanding acceptance, turning the iPhone into a broader everyday payment and identity platform.",
+    "last_episode_title": "REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 125372,
     "name": "OpenAI Life Sciences",
     "slug": "openai-life-sciences",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125282,
+    "id": 125373,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125283,
+    "id": 125374,
     "name": "Carson Block",
     "slug": "carson-block",
     "bio": "Carson Block is the founder of Muddy Waters Research, a short seller known for exposing accounting frauds in global equities.",
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125285,
+    "id": 125376,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 2
   },
   {
-    "id": 125284,
+    "id": 125375,
     "name": "Rick Rule",
     "slug": "rick-rule",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125286,
+    "id": 125377,
     "name": "David Shapiro",
     "slug": "david-shapiro",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125287,
+    "id": 125378,
     "name": "Recursive Self-Improvement",
     "slug": "recursive-self-improvement",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125288,
+    "id": 125379,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125289,
+    "id": 125380,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125290,
+    "id": 125381,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125291,
+    "id": 125382,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125292,
+    "id": 125383,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125293,
+    "id": 125384,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125294,
+    "id": 125385,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125295,
+    "id": 125386,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125296,
+    "id": 125387,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 2
   },
   {
-    "id": 125297,
+    "id": 125388,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125298,
+    "id": 125389,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125299,
+    "id": 125390,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125300,
+    "id": 125391,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125301,
+    "id": 125392,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125302,
+    "id": 125393,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125303,
+    "id": 125394,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125304,
+    "id": 125395,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125305,
+    "id": 125396,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125306,
+    "id": 125397,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125307,
+    "id": 125398,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125308,
+    "id": 125399,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125309,
+    "id": 125400,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-10-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 125310,
-    "name": "Nathan Lambert",
-    "slug": "nathan-lambert",
-    "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
-    "known_for": "Open-model research and post-training; co-founder of Trillium Labs.",
-    "last_main_idea": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
-    "last_episode_title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-14",
     "appearance_count": 1
   }
 ]
