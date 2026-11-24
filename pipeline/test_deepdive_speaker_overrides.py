@@ -211,7 +211,11 @@ def test_draft_out_writes_artifacts_without_any_persistence(tmp_path):
         patch.object(gd, "DB_PATH", db),
         patch.object(gd, "get_ai_clients", return_value=[("openai", MagicMock())]),
         patch.object(gd, "load_high_profile_config", return_value={"episode_ids": [], "insight_ids": [], "shows": [], "title_keywords": []}),
-        patch.object(gd, "run_extraction_deep_dive_attempts", return_value=(_valid_content(), None, {"model": "fake"})),
+        patch.object(
+            gd,
+            "run_extraction_deep_dive_attempts",
+            return_value=(_valid_content(), None, {"model": "fake"}),
+        ) as run_attempts,
         patch.object(gd, "store_deep_dive") as store,
         patch.object(gd, "record_deep_dive_failure") as record_failure,
         patch.object(gd, "mark_deep_dive_failure_resolved") as resolve_failure,
@@ -221,10 +225,41 @@ def test_draft_out_writes_artifacts_without_any_persistence(tmp_path):
     store.assert_not_called()
     record_failure.assert_not_called()
     resolve_failure.assert_not_called()
+    assert run_attempts.call_args.kwargs["preserve_generic_labels"] is True
     assert hashlib.sha256(db.read_bytes()).hexdigest() == before
     assert json.loads((out / "731.json").read_text())["content"]["episode_evidence"]
     assert json.loads((out / "731.checks.json").read_text())["structural"]["ok"] is True
     assert "# Emergency Pod: Jensen Back" in (out / "731.md").read_text()
+
+
+def test_non_overridden_insight_keeps_generic_relabeling_default(tmp_path):
+    db = tmp_path / "dashboard.db"
+    out = tmp_path / "drafts"
+    _make_draft_db(db)
+    conn = sqlite3.connect(db)
+    conn.execute("UPDATE latest_insights SET id = 730 WHERE id = 731")
+    conn.execute("UPDATE deep_dive_generation_failures SET insight_id = 730 WHERE insight_id = 731")
+    conn.commit()
+    conn.close()
+
+    with (
+        patch.dict("os.environ", {"DEEPDIVE_MODE": "extraction"}),
+        patch.object(gd, "DB_PATH", db),
+        patch.object(gd, "get_ai_clients", return_value=[("openai", MagicMock())]),
+        patch.object(
+            gd,
+            "load_high_profile_config",
+            return_value={"episode_ids": [], "insight_ids": [], "shows": [], "title_keywords": []},
+        ),
+        patch.object(
+            gd,
+            "run_extraction_deep_dive_attempts",
+            return_value=(_valid_content(), None, {"model": "fake"}),
+        ) as run_attempts,
+    ):
+        assert gd.generate_missing_deepdives([730], draft_out=out) == (1, 1, 0)
+
+    assert run_attempts.call_args.kwargs["preserve_generic_labels"] is False
 
 
 def test_committed_731_override_uses_official_sources_only():

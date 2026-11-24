@@ -1486,6 +1486,7 @@ def run_extraction_deep_dive_attempts(
     podcast_name: str = "",
     turns=None,
     check_log_path=None,
+    preserve_generic_labels: bool = False,
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
     """Generate deep dive from extraction with retries for structural checks.
     
@@ -1537,7 +1538,7 @@ def run_extraction_deep_dive_attempts(
             podcast_name,
             turns=turns,
             log_path=check_log_path,
-            preserve_generic_labels=True,
+            preserve_generic_labels=preserve_generic_labels,
         )
         from summary_number_check import apply_number_check
         apply_number_check(
@@ -1897,6 +1898,7 @@ def generate_missing_deepdives(
         # Extract speaker names for podcasts
         host_name = _extract_host_from_source_name(source_name) if source_type == "podcast" else None
         guest_names = _extract_speakers_from_notable_quotes(notable_quotes) if source_type == "podcast" else None
+        has_speaker_override = False
         if source_type == "podcast":
             from speaker_attribution import show_roster
             _roster = show_roster(source_name)
@@ -1905,6 +1907,7 @@ def generate_missing_deepdives(
                 guest_names = None
             override = speaker_overrides.get(str(insight_id))
             if override:
+                has_speaker_override = True
                 host_name = override["host"]
                 guest_names = list(override["guests"])
 
@@ -1980,6 +1983,7 @@ def generate_missing_deepdives(
                         podcast_name=source_name or "",
                         turns=_caption_turns_for_episode(episode_id, _tx, source_name or ""),
                         check_log_path=check_log_path,
+                        preserve_generic_labels=has_speaker_override,
                     )
                 else:
                     err_detail = "No OpenAI client available for extraction mode"
