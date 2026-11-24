@@ -1,6 +1,30 @@
 [
   {
-    "id": 124747,
+    "id": 125101,
+    "name": "OpenAI Life Sciences",
+    "slug": "openai-life-sciences",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The episode argues that life-sciences value will accrue first to model harnesses and agentic workflow tools that compress discovery, trial, manufacturing, and regulatory work rather than to raw model capability alone.",
+    "last_episode_title": "The One-Person Biotech | OpenAI Life Sciences",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-23",
+    "appearance_count": 1
+  },
+  {
+    "id": 125102,
+    "name": "Gavin Baker",
+    "slug": "gavin-baker",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The market is mispricing AI semicapex because it is missing open-source and on-prem economics that could keep returns and demand rising longer than expected.",
+    "last_episode_title": "Gavin Baker: The AI Capex Cycle Will Be Longer Than the Market Thinks | Jensen, Nvidia, and Gavin's Best AI Bear Case",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-11-23",
+    "appearance_count": 1
+  },
+  {
+    "id": 125103,
     "name": "Carson Block",
     "slug": "carson-block",
     "bio": "Carson Block is the founder of Muddy Waters Research, a short seller known for exposing accounting frauds in global equities.",
@@ -12,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124749,
+    "id": 125105,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -24,7 +48,7 @@
     "appearance_count": 2
   },
   {
-    "id": 124748,
+    "id": 125104,
     "name": "Rick Rule",
     "slug": "rick-rule",
     "bio": null,
@@ -36,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124750,
+    "id": 125106,
     "name": "David Shapiro",
     "slug": "david-shapiro",
     "bio": null,
@@ -48,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124751,
+    "id": 125107,
     "name": "Recursive Self-Improvement",
     "slug": "recursive-self-improvement",
     "bio": null,
@@ -60,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124752,
+    "id": 125108,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -72,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124753,
+    "id": 125109,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -84,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124754,
+    "id": 125110,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -96,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124755,
+    "id": 125111,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -108,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124756,
+    "id": 125112,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -120,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124757,
+    "id": 125113,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -132,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124758,
+    "id": 125114,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -144,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124759,
+    "id": 125115,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -156,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124760,
+    "id": 125116,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -168,7 +192,7 @@
     "appearance_count": 2
   },
   {
-    "id": 124761,
+    "id": 125117,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -180,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124762,
+    "id": 125118,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -192,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124763,
+    "id": 125119,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -204,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124764,
+    "id": 125120,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -216,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124765,
+    "id": 125121,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -228,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124766,
+    "id": 125122,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -240,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124767,
+    "id": 125123,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -252,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124768,
+    "id": 125124,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -264,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124769,
+    "id": 125125,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -276,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124770,
+    "id": 125126,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -288,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124771,
+    "id": 125127,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -300,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124772,
+    "id": 125128,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -312,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124773,
+    "id": 125129,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -324,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 124774,
+    "id": 125130,
     "name": "Nathan Lambert",
     "slug": "nathan-lambert",
     "bio": "AI researcher and co-founder of the nonprofit research lab Trillium Labs. He focuses on open-model progress, post-training, and AI safety-relevant infrastructure.",
@@ -333,30 +357,6 @@
     "last_episode_title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-14",
-    "appearance_count": 1
-  },
-  {
-    "id": 124775,
-    "name": "Ben Inker",
-    "slug": "ben-inker",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Large AI-related IPOs and unlocks will create supply pressure that could pop the AI bubble within 12 to 18 months.",
-    "last_episode_title": "The AI Bubble Will Pop from Equity Supply Says This $80 Billion Asset Manager | Ben Inker | GMO",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-14",
-    "appearance_count": 1
-  },
-  {
-    "id": 124776,
-    "name": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
-    "slug": "dan-boneh-eddy-lazzarin--justin-thaler",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-13",
     "appearance_count": 1
   }
 ]

@@ -1,6 +1,108 @@
 {
   "insights": [
     {
+      "id": 728,
+      "title": "The One-Person Biotech | OpenAI Life Sciences",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-23",
+      "summary": "OpenAI Life Sciences is framed around three pillars: train the best model, build the best product and harness for scientists and drug makers, and prove the capabilities through collaborations with academia, biotech, and pharma. The guests say the bottleneck is often not raw model ability but a \u201ccapability overhang,\u201d where users do not know what the model can do or how to use it, so product design matters as much as model quality.\n\nA major thread is agentic scaling. He gives Perturb AI as an example, saying 2,000 perturbations across 8 million cells yielded insights that human review had missed after many months of work.\n\nThe episode spends significant time on where these tools could compress life-sciences workflows. The guests say AI can help with discovery, development, manufacturing, and distribution: screening patients for trials, reconciling EDC/CTMS/EHR/TMF data, reading batch records, analyzing deviations, and helping clinicians and consumers navigate care and insurance. But they also say there are limits to biology, so the promise is workflow compression and better decision-making, not changing biology\u2019s rate constants.\n\nTwo concrete examples anchor the argument. At Boston Children\u2019s Hospital, Joy says OpenAI\u2019s O3 was deployed to a pediatric case that had waited 20 years for diagnosis and then went back to raw sequencing data to identify the underlying cause. On safety, Joy says OpenAI favors \u201ctrusted access\u201d for legitimate institutions because intent is hard to infer from prompts, and legitimate labs already have monitoring and controls.",
+      "key_takeaway": "The episode argues that life-sciences value will accrue first to model harnesses and agentic workflow tools that compress discovery, trial, manufacturing, and regulatory work rather than to raw model capability alone.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 717,
+      "notable_quotes": [
+        {
+          "speaker": "Joy-Jow (one guest: Joy-Jow)",
+          "quote": "I would say just release three pillars. The first is to train the best model."
+        },
+        {
+          "speaker": "Oshulgower (one guest: Oshulgower)",
+          "quote": "And when we threw 2,000 agents at this problem, some of the insights that if found were not found before when humans had a manual pass, and this is like many, many months of human work."
+        },
+        {
+          "speaker": "Joy-Jow (one guest: Joy-Jow)",
+          "quote": "She came sick when she was nine, and she waited 20 years for a diagnosis and it wasn't until we deployed O3 to her file that we figured out what the underlying cause of the disease was."
+        }
+      ]
+    },
+    {
+      "id": 729,
+      "title": "Gavin Baker: The AI Capex Cycle Will Be Longer Than the Market Thinks | Jensen, Nvidia, and Gavin's Best AI Bear Case",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-23",
+      "summary": "Gavin Baker argues that the market is underestimating the economic return from AI capex because standard ROI math focuses on incremental advertising or subscription revenue and misses two major sources of value: fast-growing private companies built on open source, and on-prem GPU deployments for open-weight models. He says that makes the current semiconductor/AI pullback look less like a simple capex air pocket and more like a second-derivative setup the market is misreading.\n\nHe also says the AI infrastructure buildout may last much longer than most semiconductor cycles, comparing it to railroads and suggesting this could be a multi-decade buildout rather than a short boom-bust. On the monitoring side, he says the most important fundamental tells are whether AI keeps becoming more economically useful and whether token demand elasticity stays positive; in his view, rising GPU rental prices are one of the clearest market signals of that improvement.\n\nA separate thread is Nvidia governance. Baker says Jensen Huang\u2019s decades of supplier relationships are a unique advantage, and that Jensen leaving \u2014 or the board refusing to reinstate him \u2014 would be a major positive for competitors and negative for Nvidia shareholders. The episode was recorded on Nov.\n\nHe also flags valuation dislocations across parts of the semiconductor and AI ecosystem, saying some non-memory companies with intellectual property and share gains are still at low multiples. The main bear case, in his telling, is not valuation alone but whether the returns to intelligence eventually stop compounding economically, especially if models become small enough that they stop producing rising utility.",
+      "key_takeaway": "The market is mispricing AI semicapex because it is missing open-source and on-prem economics that could keep returns and demand rising longer than expected.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 719,
+      "notable_quotes": [
+        {
+          "speaker": "Gavin Baker",
+          "quote": "I think that this calculation is missing something very important. One, it is all of the extremely high growth private companies. There are a lot of companies that are tracking to anthropics growth rate while burning less cash that are fueled by open source"
+        },
+        {
+          "speaker": "Gavin Baker",
+          "quote": "But listen, I think as long as this intelligence is getting more economically useful and token elasticity, demand elasticity for tokens is positive, I think those are the two most important things to watch for AI fundamentals."
+        },
+        {
+          "speaker": "Gavin Baker",
+          "quote": "The biggest bear case is the ultimate unknowable bear cases. We do not know what the returns to super intelligence are. If we get to a place where you know, a model today that, you know, is it the frontier?"
+        }
+      ]
+    },
+    {
+      "id": 730,
+      "title": "NVDA Earnings, Ecosystem Analysis, Anthropic IPO",
+      "source_type": "podcast",
+      "source_name": "The Circuit",
+      "source_date": "2026-11-23",
+      "summary": "The episode centers on Nvidia\u2019s earnings reaction and the idea that the stock\u2019s near-term behavior is being driven less by the numbers than by uncertainty around CEO succession. The hosts say Nvidia reported \u201cincredible numbers,\u201d still guided revenue growth to 75% next year, and raised guidance by about $5 billion, yet the stock fell the next day because the market is waiting for clarity on who replaces Jensen Huang.\n\nA second major thread is the AI compute supply chain and the fate of GPU-as-a-service / Neocloud providers. The hosts argue tighter credit conditions make it harder for these firms to pre-fund inventory, that more than 200 such clouds exist, and that a large consolidation wave is likely. In their view, hyperscalers would benefit most from that consolidation because they already have the best capex economics and the strongest leverage over GPU allocation.\n\nThey also debate what the underlying demand mix really looks like. One host says most of the demand may be proxy demand from hyperscalers, with training still the dominant use case, but that inference-heavy demand would shift economics toward the hyperscalers. They further raise the possibility that a meaningful share of current demand is coming from Anthropic, which could be building its own data centers and distorting what the market is seeing in GPU demand.\n\nAnthropic\u2019s IPO is used as a real-time signal of investor skepticism. The hosts cite an $83 IPO price, a first-day high near $104, and a close at $93, then note the stock was around $84.27 during the recording. They say the market was spooked by sequential growth deceleration, with one host emphasizing that investors now have \u201czero conviction\u201d and want proof that the growth is durable.\n\nAcross the rest of the discussion, the hosts expect catalysts to cluster around Nvidia\u2019s CEO timing, AWS re:Invent, Google Next, and Anthropic\u2019s first earnings call. They repeatedly argue that enterprise AI adoption is slower than investors assume, comparing it to earlier technology adoption cycles and suggesting the market is likely pricing in a faster diffusion curve than the evidence supports.",
+      "key_takeaway": "Nvidia\u2019s CEO uncertainty is delaying market conviction, while AI compute demand may still be strong but is likely to concentrate more at hyperscalers than Neoclouds.",
+      "tickers_mentioned": [
+        "NVDA",
+        "AMZN",
+        "GOOGL",
+        "DELL",
+        "AVGO",
+        "AMD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 718,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "Nvidia had reported incredible numbers and no one cared. That's the headline. And the stock was down the next day."
+        },
+        {
+          "speaker": "one host",
+          "quote": "They're going to live in, I still think a good six months or more of uncertainty, and not uncertainty is going to not be any kind of catalyst, which is why I think most people are saying, look, the conviction we once had is just not there."
+        },
+        {
+          "speaker": "one host",
+          "quote": "It traded up to as high as 104 and then it closed the day at 93, which for something that had been reportedly seven times over subscriber, whatever, is not great."
+        }
+      ]
+    },
+    {
       "id": 726,
       "title": "Replay: How the Internet Happened | Chris Dixon & Brian McCullough (2018)",
       "source_type": "podcast",
@@ -51,7 +153,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-11-22",
       "archived_date": null,
@@ -255,7 +357,7 @@
       "key_takeaway": "The episode\u2019s core claim is that Anthropic\u2019s IPO and Starship-style execution could each create extreme scale effects, while hardware-level AI control matters more than software bans.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-19",
       "archived_date": null,
@@ -293,7 +395,7 @@
         "BHP"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-19",
       "archived_date": null,
@@ -331,7 +433,7 @@
         "CL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-19",
       "archived_date": null,
@@ -365,7 +467,7 @@
         "RAMP"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-19",
       "archived_date": null,
@@ -17056,8 +17158,8 @@
       "term": "Second",
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
-      "last_mentioned_date": "2026-11-22",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17066,8 +17168,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 716,
-      "last_mentioned_speaker": "Carson Block"
+      "last_mentioned_episode_id": 719,
+      "last_mentioned_speaker": "Gavin Baker"
     },
     {
       "id": 342,
@@ -17146,8 +17248,8 @@
       "term": "neoclouds",
       "description": "A shorthand used for AI infrastructure/cloud providers that depend on NVIDIA GPUs, financing support, or partnership structures to build data-center capacity.",
       "first_detected_date": "2026-11-12",
-      "last_mentioned_date": "2026-11-18",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If NVIDIA reduces support, these businesses could face higher capital costs and slower buildouts.",
@@ -17156,16 +17258,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 699,
       "first_detected_speaker": "Huang Resigns",
-      "last_mentioned_episode_id": 704,
-      "last_mentioned_speaker": "Tanay Jaipuria"
+      "last_mentioned_episode_id": 718,
+      "last_mentioned_speaker": null
     },
     {
       "id": 344,
       "term": "MCP",
       "description": "Model Context Protocol, which Rocha describes as an increasingly important integration surface for AI agents and B2B software workflows. He says official vendor-maintained MCP integrations can influence buyer decisions.",
       "first_detected_date": "2026-11-10",
-      "last_mentioned_date": "2026-11-21",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "MCP support may become a procurement and distribution lever for AI-native products.",
@@ -17174,7 +17276,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 667,
       "first_detected_speaker": "Zeno Rocha",
-      "last_mentioned_episode_id": 711,
+      "last_mentioned_episode_id": 717,
       "last_mentioned_speaker": null
     },
     {
@@ -17230,6 +17332,24 @@
       "first_detected_speaker": "Laks Ganapathi",
       "last_mentioned_episode_id": 664,
       "last_mentioned_speaker": "Labs Buy, Garrett Lord, Nishant"
+    },
+    {
+      "id": 355,
+      "term": "Systems biology",
+      "description": "A framework that looks at the body as interconnected systems rather than isolated organs or single diseases. It combines labs, imaging, genomics, and lifestyle data to understand health more holistically.",
+      "first_detected_date": "2026-11-07",
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Supports platforms that unify multi-modal health data and decision support for preventive care.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 657,
+      "first_detected_speaker": "Mark Hyman",
+      "last_mentioned_episode_id": 717,
+      "last_mentioned_speaker": "Mark Hyman"
     },
     {
       "id": 329,
@@ -17394,6 +17514,24 @@
       "last_mentioned_speaker": "Mihail Eric"
     },
     {
+      "id": 354,
+      "term": "Data factory",
+      "description": "A real-world robot fleet used not just for customer work but to generate training data and reinforcement learning traces. Tutor describes a 100-robot fleet in Boston as part of this strategy.",
+      "first_detected_date": "2026-11-02",
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "If successful, this can create a proprietary data flywheel that improves models faster than competitors.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 640,
+      "first_detected_speaker": "Josh Gruenstein",
+      "last_mentioned_episode_id": 717,
+      "last_mentioned_speaker": "Josh Gruenstein"
+    },
+    {
       "id": 353,
       "term": "Agent-native networking",
       "description": "Using AI agents connected through NTS/MCP to continuously search for people, opportunities, and updates on behalf of a user. The network becomes proactive instead of requiring manual browsing.",
@@ -17504,19 +17642,19 @@
     {
       "id": 318,
       "term": "Neocloud",
-      "description": "Casado uses this to describe infrastructure providers that act like data centers with GPUs, effectively serving as physical token factories for AI workloads.",
+      "description": "A GPU-as-a-service provider that rents AI compute rather than operating as a traditional hyperscaler. In the episode, these firms are discussed as a fragile part of the AI supply chain because they face financing pressure and may struggle to pre-fund inventory.",
       "first_detected_date": "2026-10-23",
-      "last_mentioned_date": "2026-11-21",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "If hardware and power are the bottlenecks, the winners may be the scaled infrastructure operators that can secure supply and power access.",
+      "investment_implications": "If Neoclouds consolidate or fail, GPU demand and bargaining power may shift toward hyperscalers and away from smaller rental providers.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 608,
       "first_detected_speaker": "George Noble",
-      "last_mentioned_episode_id": 713,
+      "last_mentioned_episode_id": 718,
       "last_mentioned_speaker": null
     },
     {
@@ -17614,8 +17752,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-11-03",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -17624,8 +17762,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 714,
-      "last_mentioned_speaker": "Shinura (Shinura AI / Sun AI)"
+      "last_mentioned_episode_id": 718,
+      "last_mentioned_speaker": null
     },
     {
       "id": 314,
@@ -18388,8 +18526,8 @@
       "term": "Taste",
       "description": "The ability to choose which ideas are likely to matter long term, persist beyond an initial paper, and compose well with other ideas. The speakers describe it as a major current weakness in models.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-11-20",
-      "mention_count": 54,
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 56,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Systems that improve research taste could become key enablers of automated discovery and research productivity.",
@@ -18398,8 +18536,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 707,
-      "last_mentioned_speaker": "David Heinemeier Hansson"
+      "last_mentioned_episode_id": 718,
+      "last_mentioned_speaker": null
     },
     {
       "id": 267,
@@ -18694,8 +18832,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-02",
-      "mention_count": 81,
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 82,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -18704,7 +18842,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 706,
+      "last_mentioned_episode_id": 718,
       "last_mentioned_speaker": null
     },
     {
@@ -19306,8 +19444,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-11-20",
-      "mention_count": 139,
+      "last_mentioned_date": "2026-11-23",
+      "mention_count": 140,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -19316,8 +19454,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 708,
-      "last_mentioned_speaker": "Luukas Ilves"
+      "last_mentioned_episode_id": 717,
+      "last_mentioned_speaker": null
     },
     {
       "id": 162,
