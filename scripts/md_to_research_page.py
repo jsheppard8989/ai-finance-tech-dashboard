@@ -186,6 +186,18 @@ def text_of(h: str) -> str:
     return html.unescape(re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>", " ", h, flags=re.S))
 
 
+def fill_meta(page: str, attribute: str, key: str, value: str) -> str:
+    """Replace one static meta value so generated pages never retain shell copy."""
+    rx = re.compile(
+        r'(<meta\s+%s="%s"\s+content=")[^"]*(">)'
+        % (re.escape(attribute), re.escape(key))
+    )
+    if not rx.search(page):
+        raise SystemExit(f'meta tag {attribute}="{key}" not found in page shell')
+    escaped = html.escape(value, quote=True)
+    return rx.sub(lambda m: m.group(1) + escaped + m.group(2), page, count=1)
+
+
 def indent(h: str, n: int = 8) -> str:
     pad = " " * n
     return "\n".join(pad + ln if ln.strip() else ln for ln in h.splitlines())
@@ -241,10 +253,19 @@ def main(argv=None) -> int:
 
     t = html.escape(a.title, quote=False)
     page = re.sub(r"<title>.*?</title>", f"<title>{t}</title>", page, count=1, flags=re.S)
+    page = fill_meta(page, "property", "og:title", a.title)
+    page = fill_meta(page, "name", "twitter:title", a.title)
+    page = fill_meta(page, "name", "description", a.title)
+    page = fill_meta(page, "property", "og:description", a.title)
+    page = fill_meta(page, "name", "twitter:description", a.title)
     page = fill_slot(page, "title", f"    <h1>{t}</h1>")
     page = fill_slot(page, "asof", f'    <p class="asof" data-slot="asof">As of {html.escape(a.asof, quote=False)}</p>')
     if summary_md is not None:
         sh = render(normalize(summary_md, a.keep_relative_links, notes))
+        summary_description = re.sub(r"\s+", " ", text_of(sh)).strip()
+        page = fill_meta(page, "name", "description", summary_description)
+        page = fill_meta(page, "property", "og:description", summary_description)
+        page = fill_meta(page, "name", "twitter:description", summary_description)
         page = fill_slot(page, "summary",
                          '      <section class="summary-box" aria-labelledby="summary-h">\n'
                          f'        <h2 id="summary-h">{html.escape(a.summary_title)}</h2>\n{indent(sh)}\n      </section>')
