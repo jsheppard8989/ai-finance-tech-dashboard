@@ -1,5 +1,89 @@
 [
   {
+    "id": 719,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Gavin Baker: The AI Capex Cycle Will Be Longer Than the Market Thinks | Jensen, Nvidia, and Gavin's Best AI Bear Case",
+    "episode_date": "2026-11-23",
+    "summary": "Gavin Baker argues that the market is underestimating the economic return from AI capex because standard ROI math focuses on incremental advertising or subscription revenue and misses two major sources of value: fast-growing private companies built on open source, and on-prem GPU deployments for open-weight models. He says that makes the current semiconductor/AI pullback look less like a simple capex air pocket and more like a second-derivative setup the market is misreading.\n\nHe also says the AI infrastructure buildout may last much longer than most semiconductor cycles, comparing it to railroads and suggesting this could be a multi-decade buildout rather than a short boom-bust. On the monitoring side, he says the most important fundamental tells are whether AI keeps becoming more economically useful and whether token demand elasticity stays positive; in his view, rising GPU rental prices are one of the clearest market signals of that improvement.\n\nA separate thread is Nvidia governance. Baker says Jensen Huang\u2019s decades of supplier relationships are a unique advantage, and that Jensen leaving \u2014 or the board refusing to reinstate him \u2014 would be a major positive for competitors and negative for Nvidia shareholders. The episode was recorded on Nov.\n\nHe also flags valuation dislocations across parts of the semiconductor and AI ecosystem, saying some non-memory companies with intellectual property and share gains are still at low multiples. The main bear case, in his telling, is not valuation alone but whether the returns to intelligence eventually stop compounding economically, especially if models become small enough that they stop producing rising utility.",
+    "key_takeaways": [
+      "Gavin Baker says market ROI math on AI capex is incomplete because it ignores open-source-driven private company growth and on-prem GPU deployments for open-weight models.",
+      "Gavin Baker says the current AI capex cycle may be much longer than usual semiconductor cycles, more like a railroads-style buildout than a short boom and bust.",
+      "Gavin Baker says the most important AI fundamentals to watch are whether intelligence keeps becoming more economically useful and whether token demand elasticity remains positive.",
+      "Gavin Baker says GPU rental prices are a key transmission mechanism from AI usefulness into market fundamentals, and they have been rising over the last month, three months, and year.",
+      "Gavin Baker says Jensen Huang\u2019s 30 years of supplier relationships are a unique Nvidia advantage, and his departure would help competitors and hurt Nvidia shareholders.",
+      "Gavin Baker says the biggest bear case is unknowable: whether returns to super intelligence eventually stop increasing as models get smaller or less economically valuable.",
+      "Gavin Baker says some non-memory semiconductor and AI companies with IP and share gains are still trading at low multiples, creating valuation dislocations."
+    ],
+    "investment_thesis": "The market is mispricing AI semicapex because it is missing open-source and on-prem economics that could keep returns and demand rising longer than expected.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 718,
+    "podcast_name": "The Circuit",
+    "episode_title": "NVDA Earnings, Ecosystem Analysis, Anthropic IPO",
+    "episode_date": "2026-11-23",
+    "summary": "The episode centers on Nvidia\u2019s earnings reaction and the idea that the stock\u2019s near-term behavior is being driven less by the numbers than by uncertainty around CEO succession. The hosts say Nvidia reported \u201cincredible numbers,\u201d still guided revenue growth to 75% next year, and raised guidance by about $5 billion, yet the stock fell the next day because the market is waiting for clarity on who replaces Jensen Huang.\n\nA second major thread is the AI compute supply chain and the fate of GPU-as-a-service / Neocloud providers. The hosts argue tighter credit conditions make it harder for these firms to pre-fund inventory, that more than 200 such clouds exist, and that a large consolidation wave is likely. In their view, hyperscalers would benefit most from that consolidation because they already have the best capex economics and the strongest leverage over GPU allocation.\n\nThey also debate what the underlying demand mix really looks like. One host says most of the demand may be proxy demand from hyperscalers, with training still the dominant use case, but that inference-heavy demand would shift economics toward the hyperscalers. They further raise the possibility that a meaningful share of current demand is coming from Anthropic, which could be building its own data centers and distorting what the market is seeing in GPU demand.\n\nAnthropic\u2019s IPO is used as a real-time signal of investor skepticism. The hosts cite an $83 IPO price, a first-day high near $104, and a close at $93, then note the stock was around $84.27 during the recording. They say the market was spooked by sequential growth deceleration, with one host emphasizing that investors now have \u201czero conviction\u201d and want proof that the growth is durable.\n\nAcross the rest of the discussion, the hosts expect catalysts to cluster around Nvidia\u2019s CEO timing, AWS re:Invent, Google Next, and Anthropic\u2019s first earnings call. They repeatedly argue that enterprise AI adoption is slower than investors assume, comparing it to earlier technology adoption cycles and suggesting the market is likely pricing in a faster diffusion curve than the evidence supports.",
+    "key_takeaways": [
+      "one host said Nvidia\u2019s strong results did not matter to the market because the stock fell the next day despite \u201cincredible numbers,\u201d showing CEO uncertainty is overriding fundamentals.",
+      "one host said Nvidia raised its revenue guidance for next year to 75% and increased guidance by about $5 billion, which suggests very strong demand even with the stock reaction.",
+      "one host said Nvidia may live with \u201ca good six months or more\u201d of uncertainty around the CEO transition, implying the market may stay in wait-and-see mode for a long time.",
+      "one host argued the real beneficiary of Jensen Huang\u2019s departure is the hyperscalers, because they have better capex economics and more control over GPU allocation if Neoclouds consolidate.",
+      "one host said there are really only inference clouds out there at the hyperscaler level, and that a shift toward inference would change the bargaining power in AI compute.",
+      "one host said Anthropic\u2019s IPO looked weak relative to demand hype because it traded to about $104, closed at $93, and investors were spooked by sequential growth deceleration.",
+      "one host said enterprise AI adoption likely takes longer than people expect, comparing it to slow diffusion cycles in earlier platforms and implying the market may be too optimistic on timing."
+    ],
+    "investment_thesis": "Nvidia\u2019s CEO uncertainty is delaying market conviction, while AI compute demand may still be strong but is likely to concentrate more at hyperscalers than Neoclouds.",
+    "key_tickers": [
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "DELL",
+      "AVGO",
+      "AMD"
+    ]
+  },
+  {
+    "id": 717,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The One-Person Biotech | OpenAI Life Sciences",
+    "episode_date": "2026-11-23",
+    "summary": "OpenAI Life Sciences is framed around three pillars: train the best model, build the best product and harness for scientists and drug makers, and prove the capabilities through collaborations with academia, biotech, and pharma. The guests say the bottleneck is often not raw model ability but a \u201ccapability overhang,\u201d where users do not know what the model can do or how to use it, so product design matters as much as model quality.\n\nA major thread is agentic scaling. He gives Perturb AI as an example, saying 2,000 perturbations across 8 million cells yielded insights that human review had missed after many months of work.\n\nThe episode spends significant time on where these tools could compress life-sciences workflows. The guests say AI can help with discovery, development, manufacturing, and distribution: screening patients for trials, reconciling EDC/CTMS/EHR/TMF data, reading batch records, analyzing deviations, and helping clinicians and consumers navigate care and insurance. But they also say there are limits to biology, so the promise is workflow compression and better decision-making, not changing biology\u2019s rate constants.\n\nTwo concrete examples anchor the argument. At Boston Children\u2019s Hospital, Joy says OpenAI\u2019s O3 was deployed to a pediatric case that had waited 20 years for diagnosis and then went back to raw sequencing data to identify the underlying cause. On safety, Joy says OpenAI favors \u201ctrusted access\u201d for legitimate institutions because intent is hard to infer from prompts, and legitimate labs already have monitoring and controls.",
+    "key_takeaways": [
+      "Joy says OpenAI\u2019s life-sciences strategy has three pillars: train the best model, build the best product/harness, and demonstrate capabilities through collaboration.",
+      "Joy says the main product challenge is a \u201ccapability overhang\u201d: models can do more than users realize, so scientists need better harnesses to use them effectively.",
+      "Oshulgower says agentic scaling with thousands of agents can surface biological insights that humans miss because manual review is attention-limited.",
+      "Oshulgower says Perturb AI work involved 2,000 perturbations and 8 million cells, and 2,000 agents found insights not found in many months of human manual work.",
+      "Joy says the Boston Children\u2019s case involved a patient who became sick at age nine and waited 20 years for a diagnosis before O3 helped identify the cause.",
+      "Oshulgower says there are limits to biology, so AI cannot fundamentally change biology\u2019s rate constants, but it can prevent trials from veering off track and scale operational expertise.",
+      "Joy says trusted access should be based on working at a legitimate institution, because it is almost impossible to infer intent from prompts alone."
+    ],
+    "investment_thesis": "The episode argues that life-sciences value will accrue first to model harnesses and agentic workflow tools that compress discovery, trial, manufacturing, and regulatory work rather than to raw model capability alone.",
+    "key_tickers": null
+  },
+  {
+    "id": 716,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why Nvidia\u2019s China Problems May Go Beyond Jensen Huang | Carson Block",
+    "episode_date": "2026-11-22",
+    "summary": "The episode centers on Carson Block\u2019s short thesis around Super Micro and Nvidia, with the discussion framed as a national-security and governance issue rather than a mere personal scandal. Carson Block says an amended shareholder derivative complaint was filed against Super Micro in October, and he points to US and Taiwan indictments involving alleged chip smuggling of Nvidia GPUs into China, including two Super Micro employees in Taiwan. He repeatedly emphasizes that these are allegations, but argues the pattern is serious enough to merit deeper scrutiny.\n\nCarson Block also argues the episode is about more than one company. He says he noticed a spun-out cloud business called ChronoScale and claims its CEO is SenNley Chen, whom he identifies as connected to Nvidia through AJ Prairie, raising questions about relationships, influence, and board-level disclosure. He frames the issue as national security, saying the real problem is not consensual relationships but whether executives lied to the board or concealed export-control relevant conduct.\n\nA major part of the discussion is political timing. Carson Block says Democrats gaining control of Congress would likely bring hearings and subpoena power that increase exposure around Jensen Huang and Nvidia. He suggests the timing of public scrutiny matters because a future Congress could force a public record on what happened, making it harder to treat this as a one-off event.\n\nHe also broadens the argument to export controls and the AI trade more generally. Carson Block says China hawks and export-control skeptics inside the administration have different incentives, and he argues controls make it harder for China to obtain critical chips. At the same time, he warns that shorting AI-related names remains difficult because momentum, froth, and volatility can overwhelm fundamentals; he cites his own experience shorting NMC Health in 2019 as a reminder that fraud magnitude is hard to estimate from public data alone.",
+    "key_takeaways": [
+      "Carson Block says an amended shareholder derivative lawsuit complaint was filed against Super Micro in October.",
+      "Carson Block says Taiwan indicted 10 people this year, including two Super Micro employees, in the alleged Nvidia GPU smuggling matter.",
+      "Carson Block argues the central issue is national security and board-level honesty, not the existence of a private relationship.",
+      "Carson Block says the timing of future congressional control could trigger hearings and public exposure around Nvidia and Jensen Huang.",
+      "Carson Block says short sellers can often see accounting manipulation, but not the full degree of fraud, citing NMC Health in 2019.",
+      "Carson Block says export controls make it harder for China to obtain advanced chips and force more costly domestic effort.",
+      "Carson Block warns that AI-related short positions are difficult because momentum and volatility can keep running even when valuations or financing look frothy."
+    ],
+    "investment_thesis": "Carson Block\u2019s core claim is that alleged China-linked chip smuggling and possible board-level concealment create a national-security governance risk around Nvidia and Super Micro.",
+    "key_tickers": [
+      "SMCI",
+      "NVDA"
+    ]
+  },
+  {
     "id": 715,
     "podcast_name": "The a16z Show",
     "episode_title": "Replay: How the Internet Happened | Chris Dixon & Brian McCullough (2018)",
@@ -1003,13 +1087,13 @@
     "episode_date": "2026-11-07",
     "summary": "The episode is a deep dive into Anthropic\u2019s S-1 and what it says about frontier AI economics, arguing that the company may be much closer to sustainable profitability than headline losses suggest. The guest says compute spend devoted to serving models rose only 2.3x year over year while revenue rose 14x, implying about a 7x efficiency gain in inference serving and making the business \u201calmost accidentally profitable.\u201d\n\nA central theme is that Anthropic\u2019s reported profitability is unusually strong for a frontier lab: the guest cites 85% gross margins, over 20% free cash flow margins, and 8% GAAP operating margins. He emphasizes that the company had raised $141 billion of capital to date and held $134 billion in cash, which he frames as evidence of extraordinary balance-sheet strength rather than traditional startup burn dynamics.\n\nThe episode also spends significant time on accounting interpretation. The guest argues that the apparent $108 billion of convertible notes payable and a large share of the $81 billion reported net loss in the first six months of 2026 are mostly driven by valuation changes in convert/safe liabilities, not operating cash burn. He says $72 billion of that loss came from converts tied to AWS and Google, with another $9 billion from other safes and notes.\n\nStrategically, the guest argues frontier labs will keep capturing the highest-value dollars even if open-weight models capture more token volume. He also says the market is likely underestimating long-term compute demand because power, land, electricity, permitting, and debt-market constraints will limit overbuilding, while going public may help AI labs access credit markets and finance data-center expansion. The guest repeatedly returns to the idea that the real question is whether labs can stay at the frontier, build a durable business there, and generate enough money to fund the next wave of compute.\n\nMore broadly, the discussion argues that the frontier/open-weight gap is larger than many assume because labs have powerful internal models they have not released. The guest sees the near-term risk as reinvestment: if labs accelerate compute buildouts, today\u2019s strong margins could reverse even if the underlying economics remain attractive.",
     "key_takeaways": [
-      "Jamin Ball said Anthropic\u2019s compute spend for serving models rose 2.3x while revenue rose 14x, implying roughly a 7x gain in inference-serving efficiency.",
-      "Jamin Ball said Anthropic showed 85% gross margins, over 20% free cash flow margins, and 8% GAAP operating margins in the S-1.",
-      "Jamin Ball said $141 billion of capital had been raised to date and $134 billion of cash and cash equivalents were on the balance sheet.",
-      "Jamin Ball argued that the reported $108 billion of convertible notes payable is largely an accounting effect, not the same as newly raised debt capital.",
-      "Jamin Ball said that of the $81 billion of net loss in the first six months of 2026, $72 billion came from convert remeasurement tied to AWS and Google and $9 billion from other safes and notes.",
-      "Jamin Ball said that for the three months ending September, 80% of Anthropic\u2019s revenue was driven by models six months old or younger.",
-      "Jamin Ball said going public can improve access to credit markets for data-center financing because rating agencies need disclosure to underwrite debt."
+      "Deep Dive said Anthropic\u2019s compute spend for serving models rose 2.3x while revenue rose 14x, implying roughly a 7x gain in inference-serving efficiency.",
+      "Deep Dive said Anthropic showed 85% gross margins, over 20% free cash flow margins, and 8% GAAP operating margins in the S-1.",
+      "Deep Dive said $141 billion of capital had been raised to date and $134 billion of cash and cash equivalents were on the balance sheet.",
+      "Deep Dive argued that the reported $108 billion of convertible notes payable is largely an accounting effect, not the same as newly raised debt capital.",
+      "Deep Dive said that of the $81 billion of net loss in the first six months of 2026, $72 billion came from convert remeasurement tied to AWS and Google and $9 billion from other safes and notes.",
+      "Deep Dive said that for the three months ending September, 80% of Anthropic\u2019s revenue was driven by models six months old or younger.",
+      "Deep Dive said going public can improve access to credit markets for data-center financing because rating agencies need disclosure to underwrite debt."
     ],
     "investment_thesis": "Anthropic\u2019s S-1 suggests frontier AI can be unusually profitable, with a ~7x serving-efficiency gain and margins strong enough to support massive reinvestment.",
     "key_tickers": [
