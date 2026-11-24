@@ -230,8 +230,13 @@ def _ensure_legacy_fallback_table(conn: sqlite3.Connection) -> None:
     )
 
 
-def legacy_fallback_decision(conn: sqlite3.Connection, episode_id: Optional[int], err: Optional[str],
-                             high_profile_reason: Optional[str], today: Optional[str] = None) -> Tuple[bool, str]:
+def legacy_fallback_decision(
+    conn: sqlite3.Connection,
+    episode_id: Optional[int],
+    err: Optional[str],
+    high_profile_reason: Optional[str],
+    today: Optional[str] = None,
+) -> Tuple[bool, str]:
     """After extraction-mode (gpt-5.4-mini) fails, may we try gpt-5.5? Returns (allowed, why).
     - credit/quota/auth/rate error: never (fail fast).
     - validation failure: only for a high-profile episode, at most once per episode per day.
@@ -301,6 +306,98 @@ def ensure_deep_dive_schema(conn: sqlite3.Connection) -> None:
 
 
 HIGH_PROFILE_CONFIG_PATH = Path(__file__).parent.parent / "config" / "deepdive_high_profile.json"
+DEEPDIVE_SPEAKER_OVERRIDES_PATH = (
+    Path(__file__).parent / "config" / "deepdive_speaker_overrides.json"
+)
+
+
+def load_deepdive_speaker_overrides(
+    path: Path = DEEPDIVE_SPEAKER_OVERRIDES_PATH,
+) -> Dict[str, Dict[str, Any]]:
+    """Load curated speaker identities backed by official episode sources."""
+    if not path.exists():
+        return {}
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(raw, dict):
+            raise ValueError("top level must be an object")
+        for insight_id, entry in raw.items():
+            if not isinstance(entry, dict):
+                raise ValueError(f"{insight_id}: entry must be an object")
+            if not isinstance(entry.get("host"), str) or not entry["host"].strip():
+                raise ValueError(f"{insight_id}: host must be a non-empty string")
+            if not isinstance(entry.get("guests"), list) or not all(
+                isinstance(name, str) and name.strip() for name in entry["guests"]
+            ):
+                raise ValueError(f"{insight_id}: guests must be a list of names")
+            if not isinstance(entry.get("source_urls"), list) or not entry["source_urls"]:
+                raise ValueError(f"{insight_id}: source_urls is required")
+            for mapping in entry.get("quote_speakers", []):
+                if not isinstance(mapping, dict) or not str(mapping.get("speaker") or "").strip():
+                    raise ValueError(f"{insight_id}: quote_speakers items need speaker")
+                selectors = [key for key in ("quote", "quote_prefix") if mapping.get(key)]
+                if len(selectors) != 1:
+                    raise ValueError(
+                        f"{insight_id}: quote_speakers items need exactly one of quote or quote_prefix"
+                    )
+        return raw
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        print(f"  ⚠ Deep Dive speaker overrides malformed ({exc}); ignoring file", flush=True)
+        return {}
+
+
+def _quote_speaker_override(quote: str, mappings: List[Dict[str, str]]) -> Optional[str]:
+    for mapping in mappings:
+        if mapping.get("quote") == quote:
+            return str(mapping["speaker"]).strip()
+        prefix = mapping.get("quote_prefix")
+        if prefix and quote.startswith(str(prefix)):
+            return str(mapping["speaker"]).strip()
+    return None
+
+
+def apply_deepdive_speaker_override(
+    insight_id: int,
+    extraction_json: str,
+    host_name: Optional[str],
+    guest_names: Optional[List[str]],
+    *,
+    overrides: Optional[Dict[str, Dict[str, Any]]] = None,
+) -> Tuple[str, Optional[str], Optional[List[str]]]:
+    """Apply only explicitly sourced quote mappings; never infer a generic speaker."""
+    overrides = overrides if overrides is not None else load_deepdive_speaker_overrides()
+    entry = overrides.get(str(insight_id))
+    if not entry:
+        return extraction_json, host_name, guest_names
+
+    host_name = str(entry["host"]).strip()
+    guest_names = [str(name).strip() for name in entry["guests"]]
+    mappings = entry.get("quote_speakers") or []
+    if not mappings:
+        return extraction_json, host_name, guest_names
+
+    try:
+        extraction = json.loads(extraction_json)
+    except (TypeError, json.JSONDecodeError):
+        return extraction_json, host_name, guest_names
+    if not isinstance(extraction, dict):
+        return extraction_json, host_name, guest_names
+
+    quote_groups = [extraction.get("high_value_quotes") or []]
+    quote_groups.extend(
+        asset.get("key_quotes") or []
+        for asset in (extraction.get("companies_and_assets") or [])
+        if isinstance(asset, dict)
+    )
+    for quotes in quote_groups:
+        for quote_obj in quotes:
+            if not isinstance(quote_obj, dict):
+                continue
+            quote = str(quote_obj.get("quote") or "")
+            speaker = _quote_speaker_override(quote, mappings)
+            if speaker:
+                quote_obj["speaker"] = speaker
+    return json.dumps(extraction, ensure_ascii=False), host_name, guest_names
 
 
 def load_high_profile_config() -> Dict[str, Any]:
@@ -649,16 +746,50 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     return True, ""
 
 
-def apply_evidence_quote_check(content: Dict[str, Any], transcript: str, episode_ref: str = "",
-                               podcast_name: str = "", turns=None) -> List[Dict[str, Any]]:
+GENERIC_EXTRACTION_SPEAKERS = {"one host", "a panelist", "guest", "host"}
+
+
+def apply_evidence_quote_check(
+    content: Dict[str, Any],
+    transcript: str,
+    episode_ref: str = "",
+    podcast_name: str = "",
+    turns=None,
+    log_path=None,
+    preserve_generic_labels: bool = False,
+) -> List[Dict[str, Any]]:
     """Change 4 (Jared, Nov 15): drop Deep Dive episode_evidence lines whose quote is not
     verbatim in the transcript (fuzzy 0.85). Edits content in place; drops are logged to
     pipeline/state/quote_check_drops.jsonl. Never rewords a line."""
     if not content or not transcript:
         return []
-    from speaker_attribution import verify_evidence_lines
-    kept, drops = verify_evidence_lines(content.get("episode_evidence"), transcript, episode_ref=episode_ref,
-                                        podcast_name=podcast_name, turns=turns)
+    from speaker_attribution import split_evidence_line, verify_evidence_lines
+    evidence = content.get("episode_evidence")
+    generic_by_quote: Dict[str, str] = {}
+    if preserve_generic_labels:
+        lines = evidence if isinstance(evidence, list) else str(evidence or "").splitlines()
+        for line in lines:
+            speaker, quote = split_evidence_line(str(line))
+            if speaker.lower() in GENERIC_EXTRACTION_SPEAKERS and quote:
+                generic_by_quote[_norm_text(quote)] = speaker
+    kept, drops = verify_evidence_lines(
+        evidence,
+        transcript,
+        episode_ref=episode_ref,
+        podcast_name=podcast_name,
+        turns=turns,
+        log_path=log_path,
+        turn_log_path=log_path,
+    )
+    if generic_by_quote:
+        as_list = isinstance(kept, list)
+        kept_lines = kept if as_list else str(kept or "").splitlines()
+        restored = []
+        for line in kept_lines:
+            _, quote = split_evidence_line(str(line))
+            generic = generic_by_quote.get(_norm_text(quote))
+            restored.append(f"{generic}: {quote}" if generic else line)
+        kept = restored if as_list else "\n".join(restored)
     content["episode_evidence"] = kept
     return drops
 
@@ -950,7 +1081,7 @@ Your job is to produce a rich Deep Dive with:
 
 CRITICAL RULES:
 1. Quotes in episode_evidence MUST be VERBATIM from the extraction's high_value_quotes or companies_and_assets[].key_quotes. Do NOT invent quotes.
-2. Each quote line MUST start with "Speaker Name: " using the speaker label EXACTLY as the extraction gives it for that quote (keep "(clip)" / "(quoted by ...)"). Never move a quote to a different speaker, and never credit a clip or read-aloud quote to the host who played or read it. Skip quotes whose extraction speaker is "one host" or blank.
+2. Each quote line MUST start with "Speaker Name: " and use the speaker label EXACTLY as it appears on that quote in the extraction (keep "(clip)" / "(quoted by ...)"). KNOWN SPEAKERS is identity context only: it does not authorize you to replace a generic extraction label with a person's name. Labels such as "one host", "a panelist", "guest", and "host" must remain generic unless the extraction quote itself has already been relabeled. Never move a quote to a different speaker, and never credit a clip or read-aloud quote to the host who played or read it. Skip blank speaker labels.
 3. overview MUST NOT paraphrase the insight card summary - add new substance.
 4. Investment thesis MUST be actionable - what should investors watch or do?
 5. falsification_tracks MUST be testable - EVERY line needs (i) a date or "by <date>", (ii) a numeric threshold, and (iii) the named source that grades it (e.g. "10-Q", "8-K", "EIA", "FERC docket"). Example: "Revenue under $318M in the Q3 2026 10-Q, due by Nov 9, 2026."
@@ -979,35 +1110,79 @@ Return ONLY this JSON:
 EXTRACTION_DEEPDIVE_PROMPT = EXTRACTION_DEEPDIVE_PROMPT.replace("__OUR_VOICE_WORDING_RULES__", OUR_VOICE_WORDING_RULES)
 
 
+def _build_extraction_deepdive_prompt(
+    extraction_json: str,
+    insight_summary: str,
+    key_takeaway: str,
+    *,
+    host_name: Optional[str] = None,
+    guest_names: Optional[List[str]] = None,
+    retry_hint: str = "",
+) -> str:
+    speaker_block = ""
+    if host_name or guest_names:
+        speakers = []
+        if host_name:
+            speakers.append(f"Host: {host_name}")
+        if guest_names:
+            speakers.append(f"Guests: {', '.join(guest_names)}")
+        speaker_block = f"\n\nKNOWN SPEAKERS:\n{chr(10).join(speakers)}\n"
+
+    retry_block = ""
+    if retry_hint.strip():
+        retry_block = f"\n\nVALIDATION RETRY — fix the following:\n{retry_hint}\n"
+
+    return f"""{EXTRACTION_DEEPDIVE_PROMPT}
+{speaker_block}
+Insight Summary (do NOT just paraphrase this):
+{insight_summary}
+
+Key Takeaway:
+{key_takeaway}
+
+Extraction JSON:
+{extraction_json}
+{retry_block}"""
+
+
 def _validate_quotes_from_extraction(episode_evidence: List[str], extraction: Dict) -> Tuple[bool, str]:
-    """Validate that all quotes in episode_evidence appear verbatim in the extraction."""
-    all_quotes = set()
+    """Validate quote text and its exact extraction speaker label."""
+    quote_speakers: List[Tuple[str, str]] = []
     
     for q in extraction.get("high_value_quotes", []):
         if isinstance(q, dict) and q.get("quote"):
-            all_quotes.add(q["quote"].strip().lower())
+            quote_speakers.append(
+                (q["quote"].strip().lower(), str(q.get("speaker") or "").strip())
+            )
     
     for ca in extraction.get("companies_and_assets", []):
         if isinstance(ca, dict):
             for kq in ca.get("key_quotes", []):
                 if isinstance(kq, dict) and kq.get("quote"):
-                    all_quotes.add(kq["quote"].strip().lower())
+                    quote_speakers.append(
+                        (kq["quote"].strip().lower(), str(kq.get("speaker") or "").strip())
+                    )
     
     for ev in episode_evidence:
-        quote_part = ev.split(":", 1)[-1].strip() if ":" in ev else ev.strip()
+        speaker_part, quote_part = ev.split(":", 1) if ":" in ev else ("", ev)
+        speaker_part = speaker_part.strip()
+        quote_part = quote_part.strip().strip('"“”')
         quote_lower = quote_part.lower()
         
-        found = False
-        for stored_quote in all_quotes:
+        matched_speakers = []
+        for stored_quote, stored_speaker in quote_speakers:
             if quote_lower in stored_quote or stored_quote in quote_lower:
-                found = True
-                break
-            if SequenceMatcher(None, quote_lower, stored_quote).ratio() > 0.85:
-                found = True
-                break
+                matched_speakers.append(stored_speaker)
+            elif SequenceMatcher(None, quote_lower, stored_quote).ratio() > 0.85:
+                matched_speakers.append(stored_speaker)
         
-        if not found:
+        if not matched_speakers:
             return False, f"Quote not found in extraction: {quote_part[:60]}..."
+        if speaker_part not in matched_speakers:
+            return False, (
+                "Quote speaker label must match extraction exactly: "
+                f"{speaker_part or '(blank)'} != {matched_speakers[0] or '(blank)'}"
+            )
     
     return True, ""
 
@@ -1034,30 +1209,14 @@ def generate_deep_dive_from_extraction(
     except (json.JSONDecodeError, TypeError) as e:
         return None, f"Invalid extraction JSON: {e}", None
     
-    speaker_block = ""
-    if host_name or guest_names:
-        speakers = []
-        if host_name:
-            speakers.append(f"Host: {host_name}")
-        if guest_names:
-            speakers.append(f"Guests: {', '.join(guest_names)}")
-        speaker_block = f"\n\nKNOWN SPEAKERS:\n{chr(10).join(speakers)}\n"
-    
-    retry_block = ""
-    if retry_hint.strip():
-        retry_block = f"\n\nVALIDATION RETRY — fix the following:\n{retry_hint}\n"
-    
-    prompt = f"""{EXTRACTION_DEEPDIVE_PROMPT}
-{speaker_block}
-Insight Summary (do NOT just paraphrase this):
-{insight_summary}
-
-Key Takeaway:
-{key_takeaway}
-
-Extraction JSON:
-{extraction_json}
-{retry_block}"""
+    prompt = _build_extraction_deepdive_prompt(
+        extraction_json,
+        insight_summary,
+        key_takeaway,
+        host_name=host_name,
+        guest_names=guest_names,
+        retry_hint=retry_hint,
+    )
 
     model = "gpt-5.4-mini"
     try:
@@ -1319,6 +1478,8 @@ def run_extraction_deep_dive_attempts(
     episode_ref: str = "",
     podcast_name: str = "",
     turns=None,
+    check_log_path=None,
+    preserve_generic_labels: bool = False,
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
     """Generate deep dive from extraction with retries for structural checks.
     
@@ -1363,9 +1524,23 @@ def run_extraction_deep_dive_attempts(
             final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
             return None, err, final_usage
         
-        qc_drops = apply_evidence_quote_check(content, transcript, episode_ref, podcast_name, turns=turns)
+        qc_drops = apply_evidence_quote_check(
+            content,
+            transcript,
+            episode_ref,
+            podcast_name,
+            turns=turns,
+            log_path=check_log_path,
+            preserve_generic_labels=preserve_generic_labels,
+        )
         from summary_number_check import apply_number_check
-        apply_number_check(content, transcript, episode_ref=episode_ref, kind="deep_dive")
+        apply_number_check(
+            content,
+            transcript,
+            episode_ref=episode_ref,
+            kind="deep_dive",
+            log_path=check_log_path,
+        )
         evidence = _episode_evidence_text(content.get("episode_evidence"))
         whats_new = str(content.get("overview") or "")
         thesis = str(content.get("investment_thesis") or "")
@@ -1412,6 +1587,7 @@ def run_deep_dive_generation_attempts(
     guest_names: Optional[List[str]] = None,
     max_attempts: int = MAX_GENERATION_ATTEMPTS,
     podcast_name: str = "",
+    check_log_path=None,
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
     """Generate with retries when overlap or structural checks fail (LEGACY mode).
     
@@ -1462,6 +1638,7 @@ def run_deep_dive_generation_attempts(
         qc_drops = apply_evidence_quote_check(
             content, source_content if source_type == "podcast" else "", f"insight {insight_id}",
             podcast_name if source_type == "podcast" else "",
+            log_path=check_log_path,
         )
         from summary_number_check import apply_number_check
         apply_number_check(
@@ -1469,6 +1646,7 @@ def run_deep_dive_generation_attempts(
             source_content if source_type == "podcast" else "",
             episode_ref=f"insight {insight_id}",
             kind="deep_dive",
+            log_path=check_log_path,
         )
         evidence = _episode_evidence_text(content.get("episode_evidence"))
         whats_new = str(content.get("overview") or "")
@@ -1540,7 +1718,81 @@ def run_deep_dive_generation_attempts(
     return None, last_error or "generation failed after retries", final_usage
 
 
-def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = False) -> Tuple[int, int, int]:
+def _deep_dive_check_results(
+    content: Dict[str, Any], insight_summary: str, key_takeaway: str
+) -> Dict[str, Any]:
+    structural_ok, structural_reason = deep_dive_structural_ok(content)
+    evidence = _episode_evidence_text(content.get("episode_evidence"))
+    overview = str(content.get("overview") or "")
+    thesis = str(content.get("investment_thesis") or "")
+    return {
+        "structural": {"ok": structural_ok, "reason": structural_reason},
+        "overlap": {
+            "aggregate_vs_card": insight_body_overlap_ratio(insight_summary, key_takeaway, content),
+            "overview_vs_card": overview_vs_card_overlap(insight_summary, key_takeaway, overview),
+            "evidence_vs_card": evidence_vs_card_overlap(insight_summary, key_takeaway, evidence),
+            "implication_vs_overview": section_overlap(overview, thesis),
+        },
+        "canned_phrase_count": count_canned_phrases("\n".join([evidence, overview, thesis])),
+    }
+
+
+def _render_deep_dive_markdown(title: str, content: Dict[str, Any]) -> str:
+    tickers = content.get("ticker_analysis") or {}
+    ticker_lines = "\n".join(
+        f"- `{symbol}`: {details if isinstance(details, str) else details.get('rationale', '')}"
+        for symbol, details in tickers.items()
+    ) or "- None"
+    falsifiers = "\n".join(
+        f"- {item}" for item in (content.get("falsification_tracks") or [])
+    ) or "- None"
+    return (
+        f"# {title}\n\n"
+        f"## Source quotes\n\n{_episode_evidence_text(content.get('episode_evidence'))}\n\n"
+        f"## What's new\n\n{content.get('overview', '')}\n\n"
+        f"## Investment implication\n\n{content.get('investment_thesis', '')}\n\n"
+        f"## Tickers\n\n{ticker_lines}\n\n"
+        f"## Falsification tracks\n\n{falsifiers}\n"
+    )
+
+
+def write_deep_dive_draft(
+    draft_out: Path,
+    *,
+    insight_id: int,
+    episode_id: Optional[int],
+    title: str,
+    content: Dict[str, Any],
+    usage_info: Optional[Dict[str, Any]],
+    insight_summary: str,
+    key_takeaway: str,
+) -> None:
+    draft_out.mkdir(parents=True, exist_ok=True)
+    checks = _deep_dive_check_results(content, insight_summary, key_takeaway)
+    payload = {
+        "insight_id": insight_id,
+        "podcast_episode_id": episode_id,
+        "title": title,
+        "content": content,
+        "usage": usage_info or {},
+        "checks": checks,
+    }
+    (draft_out / f"{insight_id}.json").write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    (draft_out / f"{insight_id}.checks.json").write_text(
+        json.dumps(checks, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    (draft_out / f"{insight_id}.md").write_text(
+        _render_deep_dive_markdown(title, content), encoding="utf-8"
+    )
+
+
+def generate_missing_deepdives(
+    insight_ids: list = None,
+    force_skipped: bool = False,
+    draft_out: Optional[Path] = None,
+) -> Tuple[int, int, int]:
     """Generate deep dives for insights that don't have them.
 
     Returns (generated_count, attempted_count, quarantined_count).
@@ -1555,9 +1807,11 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
         pass
 
     conn = get_db_connection()
-    ensure_deep_dive_failures_table(conn)
+    draft_out = Path(draft_out) if draft_out else None
+    if draft_out is None:
+        ensure_deep_dive_failures_table(conn)
 
-    blocked_clause = """
+    blocked_clause = "" if draft_out else """
         AND NOT EXISTS (
             SELECT 1 FROM deep_dive_generation_failures dgf
             WHERE dgf.insight_id = li.id AND dgf.status = 'blocked'
@@ -1567,6 +1821,7 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
     if insight_ids:
         # Specific insights requested (manual retry — include blocked)
         placeholders = ",".join("?" * len(insight_ids))
+        missing_clause = "" if draft_out else "AND ddc.id IS NULL"
         cursor = conn.execute(
             f"""
             SELECT li.id, li.title, li.source_type, li.podcast_episode_id,
@@ -1574,7 +1829,7 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                    li.notable_quotes, li.source_name
             FROM latest_insights li
             LEFT JOIN deep_dive_content ddc ON li.id = ddc.insight_id
-            WHERE li.id IN ({placeholders}) AND ddc.id IS NULL
+            WHERE li.id IN ({placeholders}) {missing_clause}
         """,
             insight_ids,
         )
@@ -1619,6 +1874,8 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
 
     generated = 0
     quarantined = 0
+    speaker_overrides = load_deepdive_speaker_overrides()
+    check_log_path = os.devnull if draft_out else None
 
     for row in insights:
         insight_id = row['id']
@@ -1634,12 +1891,18 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
         # Extract speaker names for podcasts
         host_name = _extract_host_from_source_name(source_name) if source_type == "podcast" else None
         guest_names = _extract_speakers_from_notable_quotes(notable_quotes) if source_type == "podcast" else None
+        has_speaker_override = False
         if source_type == "podcast":
             from speaker_attribution import show_roster
             _roster = show_roster(source_name)
             if _roster:  # panel show: fixed host roster; quote speakers are not guests
                 host_name = ", ".join(_roster)
                 guest_names = None
+            override = speaker_overrides.get(str(insight_id))
+            if override:
+                has_speaker_override = True
+                host_name = override["host"]
+                guest_names = list(override["guests"])
 
         print(f"[{insight_id}] {title[:60]}", flush=True)
         if host_name or guest_names:
@@ -1684,6 +1947,13 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                 print(f"    ⚠ Could not load extraction_json: {e}", flush=True)
             
             if extraction_json:
+                extraction_json, host_name, guest_names = apply_deepdive_speaker_override(
+                    insight_id,
+                    extraction_json,
+                    host_name,
+                    guest_names,
+                    overrides=speaker_overrides,
+                )
                 print(f"    Mode: extraction (gpt-5.4-mini)", flush=True)
                 generation_mode = "extraction"
                 openai_client = None
@@ -1705,6 +1975,8 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                         episode_ref=f"insight {insight_id}",
                         podcast_name=source_name or "",
                         turns=_caption_turns_for_episode(episode_id, _tx, source_name or ""),
+                        check_log_path=check_log_path,
+                        preserve_generic_labels=has_speaker_override,
                     )
                 else:
                     err_detail = "No OpenAI client available for extraction mode"
@@ -1728,6 +2000,7 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                 host_name=host_name,
                 guest_names=guest_names,
                 podcast_name=source_name or "",
+                check_log_path=check_log_path,
             )
         elif content is None and err_detail and generation_mode == "extraction":
             # Cost fix 2026-10-16: no blind gpt-5.5 fallback. Billing/quota/auth/rate errors fail fast; a
@@ -1738,44 +2011,50 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
                     hp = check_high_profile_match(episode_id, insight_id, source_name, title, load_high_profile_config())
                 except Exception:
                     hp = None
-            allowed, why = legacy_fallback_decision(conn, episode_id, err_detail, hp)
-            if allowed:
-                generation_mode = extraction_failed_generation_mode(err_detail)
-                print(f"    ⚠ Extraction failed ({err_detail[:60]}); one gpt-5.5 attempt ({why})", flush=True)
-                record_legacy_fallback(conn, episode_id, insight_id, why)
-                content, err_detail, usage_info = run_deep_dive_generation_attempts(
-                    clients,
-                    insight_id,
-                    title,
-                    source_type,
-                    episode_id,
-                    insight_summary,
-                    key_takeaway,
-                    host_name=host_name,
-                    guest_names=guest_names,
-                    max_attempts=1,
-                    podcast_name=source_name or "",
-                )
+            if draft_out:
+                print("    ⏭ no gpt-5.5 fallback (draft mode)", flush=True)
             else:
-                print(f"    ⏭ Extraction failed ({err_detail[:60]}); no gpt-5.5 fallback ({why}). "
-                      f"Next run retries on mini.", flush=True)
+                allowed, why = legacy_fallback_decision(conn, episode_id, err_detail, hp)
+                if allowed:
+                    generation_mode = extraction_failed_generation_mode(err_detail)
+                    print(f"    ⚠ Extraction failed ({err_detail[:60]}); one gpt-5.5 attempt ({why})", flush=True)
+                    record_legacy_fallback(conn, episode_id, insight_id, why)
+                    content, err_detail, usage_info = run_deep_dive_generation_attempts(
+                        clients,
+                        insight_id,
+                        title,
+                        source_type,
+                        episode_id,
+                        insight_summary,
+                        key_takeaway,
+                        host_name=host_name,
+                        guest_names=guest_names,
+                        max_attempts=1,
+                        podcast_name=source_name or "",
+                        check_log_path=check_log_path,
+                    )
+                else:
+                    print(f"    ⏭ Extraction failed ({err_detail[:60]}); no gpt-5.5 fallback ({why}). "
+                          f"Next run retries on mini.", flush=True)
 
         if not content:
             reason = "content_filter" if err_detail and _is_content_filter_error(Exception(err_detail)) else "generation_failed"
             billing = is_billing_or_rate_error(err_detail)
             if billing:
                 reason = "billing_or_rate_error"
-            status = record_deep_dive_failure(
-                conn,
-                insight_id,
-                title,
-                source_type,
-                episode_id,
-                reason,
-                err_detail or "unknown error",
-                block_now=(reason == "content_filter"),
-                count_retry=not billing,
-            )
+            status = "draft_failed"
+            if not draft_out:
+                status = record_deep_dive_failure(
+                    conn,
+                    insight_id,
+                    title,
+                    source_type,
+                    episode_id,
+                    reason,
+                    err_detail or "unknown error",
+                    block_now=(reason == "content_filter"),
+                    count_retry=not billing,
+                )
             print(f"  ✗ Generation failed or rejected ({status})", flush=True)
             if status == "blocked":
                 quarantined += 1
@@ -1788,7 +2067,20 @@ def generate_missing_deepdives(insight_ids: list = None, force_skipped: bool = F
             usage_info = {}
         usage_info["generation_mode"] = generation_mode
 
-        if store_deep_dive(insight_id, episode_id, content, usage_info=usage_info):
+        if draft_out:
+            write_deep_dive_draft(
+                draft_out,
+                insight_id=insight_id,
+                episode_id=episode_id,
+                title=title,
+                content=content,
+                usage_info=usage_info,
+                insight_summary=insight_summary,
+                key_takeaway=key_takeaway,
+            )
+            print(f"  ✓ Deep Dive draft written to {draft_out}", flush=True)
+            generated += 1
+        elif store_deep_dive(insight_id, episode_id, content, usage_info=usage_info):
             mark_deep_dive_failure_resolved(conn, insight_id)
             print(f"  ✓ Deep Dive stored", flush=True)
             generated += 1
@@ -1823,6 +2115,11 @@ if __name__ == "__main__":
     parser.add_argument('--force-legacy', action='store_true', help='Force legacy gpt-5.5 mode for this run (ignores DEEPDIVE_MODE)')
     parser.add_argument('--force', action='store_true',
                         help='Also run insights listed in deepdive_permanent_skips.json (skipped by default)')
+    parser.add_argument(
+        '--draft-out',
+        type=Path,
+        help='Write validated JSON, Markdown, and check results here without changing pipeline state',
+    )
     parser.add_argument('--fix-placeholder-tickers', action='store_true', help='One-time: remove TICKER1/Ticker2 etc. from existing DB rows')
     args = parser.parse_args()
     
@@ -1860,37 +2157,47 @@ if __name__ == "__main__":
         insight_ids = [row["id"]]
         print(f"Episode {args.episode_id} → insight {insight_ids[0]}", flush=True)
         insight_ids = _drop_permanent_skips(insight_ids)
-        conn = get_db_connection()
-        conn.execute("DELETE FROM deep_dive_content WHERE insight_id = ?", (insight_ids[0],))
-        conn.commit()
-        conn.close()
-        print(f"Removed existing Deep Dive for insight {insight_ids[0]}", flush=True)
+        if not args.draft_out:
+            conn = get_db_connection()
+            conn.execute("DELETE FROM deep_dive_content WHERE insight_id = ?", (insight_ids[0],))
+            conn.commit()
+            conn.close()
+            print(f"Removed existing Deep Dive for insight {insight_ids[0]}", flush=True)
     elif args.force_ids:
         raw = [int(x.strip()) for x in args.force_ids.split(',') if x.strip()]
         if not raw:
             print('No IDs in --force-ids', flush=True)
             sys.exit(1)
         raw = _drop_permanent_skips(raw)
-        conn = get_db_connection()
-        ensure_deep_dive_schema(conn)
-        ph = ','.join('?' * len(raw))
-        conn.execute(f'DELETE FROM deep_dive_content WHERE insight_id IN ({ph})', raw)
-        conn.commit()
-        conn.close()
-        print(f'Removed Deep Dive row(s) for insight_id(s): {raw}', flush=True)
+        if not args.draft_out:
+            conn = get_db_connection()
+            ensure_deep_dive_schema(conn)
+            ph = ','.join('?' * len(raw))
+            conn.execute(f'DELETE FROM deep_dive_content WHERE insight_id IN ({ph})', raw)
+            conn.commit()
+            conn.close()
+            print(f'Removed Deep Dive row(s) for insight_id(s): {raw}', flush=True)
         insight_ids = raw
     elif args.insight_ids:
         insight_ids = _drop_permanent_skips([int(x.strip()) for x in args.insight_ids.split(',')])
 
-    gen, need, quarantined = generate_missing_deepdives(insight_ids, force_skipped=args.force)
+    gen, need, quarantined = generate_missing_deepdives(
+        insight_ids,
+        force_skipped=args.force,
+        draft_out=args.draft_out,
+    )
     if need > 0 and gen == 0 and quarantined == 0:
         clients = get_ai_clients()
         if not clients:
             print("✗ Deep Dive step failed: no AI client configured.", flush=True)
             sys.exit(1)
         print(
-            "⚠ Deep Dive step: no new dives generated; failures recorded for retry. "
-            "Site export may continue.",
+            (
+                "⚠ Deep Dive draft: no files generated; no pipeline state was changed."
+                if args.draft_out
+                else "⚠ Deep Dive step: no new dives generated; failures recorded for retry. "
+                "Site export may continue."
+            ),
             flush=True,
         )
     sys.exit(0)
