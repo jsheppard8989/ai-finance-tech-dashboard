@@ -2605,8 +2605,44 @@
       "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): 'Deep Dive' was a fragment of the ingested title; speaker is Jamin Ball. Title fields are never touched by this rule (see title_overrides).",
       "replacements": [
         [
-          "Deep Dive",
+          "Deep Dive: ",
+          "Jamin Ball: "
+        ]
+      ],
+      "relabel_quotes": [
+        [
+          "If you compare the dollar spend in compute",
           "Jamin Ball"
+        ],
+        [
+          "85% gross margins, over 20% free cash flow margins",
+          "Jamin Ball"
+        ],
+        [
+          "$81 billion of loss in net income",
+          "Jamin Ball"
+        ]
+      ]
+    },
+    {
+      "insight_id": 432,
+      "podcast_episode_id": 417,
+      "_note": "Nov 23 2026 (G exact wording, g_fixes_2026-11-23_typos.md item 1): Deep dive 432 episode_evidence 'Kevin Worsh' -> 'Kevin Warsh' (Luke Gromen / Monetary Matters 2026-08-20; transcript says Warsh throughout). Scoped to ep 417 / insight 432; no global Worsh rule; pundit 151 untouched.",
+      "replacements": [
+        [
+          "Kevin Worsh",
+          "Kevin Warsh"
+        ]
+      ]
+    },
+    {
+      "insight_id": 475,
+      "podcast_episode_id": 460,
+      "_note": "Nov 23 2026 (G exact wording, g_fixes_2026-11-23_typos.md item 2): deep dive 475 overview traditonal -> traditional (our voice). Scoped to ep 460 / insight 475.",
+      "replacements": [
+        [
+          "traditonal",
+          "traditional"
         ]
       ]
     },
@@ -3501,6 +3537,26 @@
       "_note": "Nov 15 2026 (Wendy fix list): only Chamath says HBM in All-In ep 680; G re-verified vs transcript (g_verify_2026-11-15.md)",
       "set": {
         "last_mentioned_speaker": "Chamath Palihapitiya"
+      }
+    },
+    {
+      "id": 1268,
+      "scope": "suggested",
+      "_note": "Nov 23 2026 (G approved Nov 22, g_fixes_2026-11-23_typos.md): David Heinemeier Hansson, not Heinemira Hansen. Rows 1268/1269 only; no global Hansen rule. DB rows fixed too.",
+      "set": {
+        "definition": "The period Heinemeier Hansson describes in which software agents can directly modify operating systems and applications through natural-language prompts. In his view, this changes what makes platforms valuable and shifts power toward systems that are easy for agents to manipulate.",
+        "first_seen_speaker": "David Heinemeier Hansson",
+        "last_seen_speaker": "David Heinemeier Hansson"
+      }
+    },
+    {
+      "id": 1269,
+      "scope": "suggested",
+      "_note": "Nov 23 2026 (G approved Nov 22, g_fixes_2026-11-23_typos.md): David Heinemeier Hansson, not Heinemira Hansen. Rows 1268/1269 only; no global Hansen rule. DB rows fixed too.",
+      "set": {
+        "definition": "Heinemeier Hansson’s idea that local, self-hosted models running on desktop hardware will become practically useful and widely demanded. It implies more value for local inference stacks and hardware-friendly software.",
+        "first_seen_speaker": "David Heinemeier Hansson",
+        "last_seen_speaker": "David Heinemeier Hansson"
       }
     }
   ],
@@ -7102,6 +7158,10 @@
         [
           "Morgage is top three in terms of undistrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us. The way that we are going about it as an",
           "Morgage is top three in terms of undistrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us."
+        ],
+        [
+          "Morgage is top three in terms of undistrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us.",
+          "Mortgage is top three in terms of undisrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us."
         ]
       ]
     },
@@ -8952,6 +9012,10 @@
         [
           "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
           ""
+        ],
+        [
+          "role for Worsh",
+          "role for Warsh"
         ]
       ]
     },
