@@ -3176,9 +3176,11 @@
       ]
     ]
   },
-    {"insight_id": 729, "podcast_episode_id": 719, "_note": "Nov 24 2026 (G site check, updated 3:45 PM CT): card 729 Gavin Baker recording-date sentence completed.", "replacements": [["The episode was recorded on Nov.", "The episode was recorded on Nov. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time."]]},
+    {"insight_id": 729, "podcast_episode_id": 719, "_note": "Nov 24 2026 (G site check, updated 3:45 PM CT): card 729 Gavin Baker recording-date sentence completed. Nov 24 2026 follow-up (Tony, mechanical): the short prefix needle re-fires on the already-fixed DB text and leaves a duplicate tail; the second pair collapses it back to G's single sentence. No wording change.", "replacements": [["The episode was recorded on Nov.", "The episode was recorded on Nov. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time."], ["The episode was recorded on Nov. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time.", "The episode was recorded on Nov. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time."]]},
     {"insight_id": 724, "podcast_episode_id": 713, "_note": "Nov 24 2026 (G site check item 3): ANTR is not a real ticker for this mention.", "replacements": [], "drop_tickers": ["ANTR"]},
-    {"insight_id": 718, "podcast_episode_id": 707, "_note": "Nov 24 2026 (G site check item 3): LINUX is not a ticker.", "replacements": [], "drop_tickers": ["LINUX"]}
+    {"insight_id": 718, "podcast_episode_id": 707, "_note": "Nov 24 2026 (G site check item 3): LINUX is not a ticker.", "replacements": [], "drop_tickers": ["LINUX"]},
+    {"insight_id": 734, "podcast_episode_id": 723, "_note": "Nov 24 2026 (G, g_fixes_2026-11-24_733_734.md item 1): Scott Wu / Cognition. ASR 'Devon' -> 'Devin' (Cognition's agent), G's four exact phrases. Also applied in the DB.", "replacements": [["Cognition and Devon", "Cognition and Devin"], ["that Devon can", "that Devin can"], ["rolling Devon out", "rolling Devin out"], ["Cognition/Devon", "Cognition/Devin"]]},
+    {"insight_id": 733, "podcast_episode_id": 722, "_note": "Nov 24 2026 (G, g_fixes_2026-11-24_733_734.md item 3): George Kurtz / CrowdStrike. Garbled ASR quote ('25% of all the CV ease ...') dropped from notable_quotes, not rewritten. Item 4 ('one host' speaker labels) held pending G.", "replacements": [], "drop_quotes": ["25% of all the CV ease"]}
   ],
   "terms": [
     {
@@ -5441,6 +5443,15 @@
       "old": "Deep Dive: Anthropic S-1 Myths and Mythos — Jamin Ball, Altimeter",
       "new": "Why Would Anthropic Go Public Now? — Jamin Ball, Altimeter",
       "_note": "Nov 12 2026 (G fix list sweep_1112/attribution_fixes.md, Tony): official YouTube/Latent Space title; ingested RSS item carries the stale title. Scoped to ep 656."
+    },
+    {
+      "podcast_episode_id": 722,
+      "insight_id": 733,
+      "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "episode_date": "2026-11-24",
+      "old": "Crowdstrike CEO: AI Cyberattack Wave, Hyperspeed Hacks, & The Patching Problem",
+      "new": "CrowdStrike CEO: AI Cyberattack Wave, Hyperspeed Hacks, & The Patching Problem",
+      "_note": "Nov 24 2026 (G, g_fixes_2026-11-24_733_734.md item 2): 'Crowdstrike CEO:' -> 'CrowdStrike CEO:'. Scoped to ep 722."
     }
   ],
   "pundit_excludes": [
