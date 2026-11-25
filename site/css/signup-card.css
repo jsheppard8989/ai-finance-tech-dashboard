@@ -1,0 +1,136 @@
+/* Shared Kit signup card. Used on home and research (and later trades) pages.
+   Colors fall back to the home-page palette; research pages override via :root tokens. */
+#signup.signup-card {
+  box-sizing: border-box;
+  margin: 1rem 0 1.25rem;
+  padding: 1rem 1.15rem;
+  background: var(--panel, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.1));
+  border-radius: 12px;
+  color: var(--ink, #e8e8e8);
+  font-family: inherit;
+}
+
+/* Research notes: align with .wrap / footer (max 760px, 20px side inset). */
+main ~ #signup.signup-card {
+  max-width: 760px;
+  width: calc(100% - 40px);
+  margin: 1.25rem auto 0;
+}
+
+#signup.signup-card h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.35rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--acc, #00d4ff);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+#signup.signup-card h2::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 24px;
+  background: linear-gradient(180deg, #00d4ff, #7b2cbf);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+#signup .signup-dek {
+  color: var(--mut, #a8b2d1);
+  font-size: 0.88rem;
+  line-height: 1.45;
+  margin: 0 0 0.75rem;
+}
+
+#signup .signup-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  margin: 0 0 0.55rem;
+  max-width: 36rem;
+}
+
+#signup .signup-label {
+  flex: 1 0 100%;
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--mut, #9ca3af);
+}
+
+#signup .signup-form input[type="email"] {
+  flex: 1 1 auto;
+  min-width: 12rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.15));
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--ink, #e8e8e8);
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+#signup .signup-form input[type="email"]::placeholder {
+  color: var(--mut, #8892b0);
+}
+
+#signup .signup-form input[type="email"]:focus {
+  outline: none;
+  border-color: rgba(0, 212, 255, 0.5);
+  box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.15);
+}
+
+#signup .signup-submit {
+  flex: 0 0 auto;
+  padding: 0.6rem 1.15rem;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#signup .signup-submit:hover {
+  opacity: 0.9;
+}
+
+#signup .signup-submit:active {
+  transform: scale(0.98);
+}
+
+#signup .signup-note {
+  color: var(--mut, #8892b0);
+  font-size: 0.72rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #signup .signup-form {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: none;
+  }
+  #signup .signup-form input[type="email"] {
+    min-width: 0;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  #signup .signup-submit {
+    width: 100%;
+  }
+}
