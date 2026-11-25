@@ -2007,28 +2007,31 @@
     .rv { opacity: 0; transform: translateY(16px); transition: opacity .7s var(--ease-out), transform .7s var(--ease-out); }
     .rv.rv-in { opacity: 1; transform: none; }
 
-    /* Liquidity Pulse strip directly under hero banner (full-viewport width).
-       Composite stays pinned in .lt-rail; the track holds ONE copy of the 6 inputs.
-       JS pads the set to at least the scroll-viewport width and sets --lt-from/--lt-to
-       plus a duration from distance / 60px-per-sec, so an item fully leaves the left
-       edge before it re-enters on the right. */
+    /* Liquidity Pulse strip directly under the hero banner.
+       Desktop: the whole strip (rail + tape) stays inside .container, sharing
+       the banner/card max-width and left/right edges, with the same 12px
+       card radius. It does not run edge-to-edge.
+       The tape uses a seamless loop of one 6-input set plus a gap of about
+       tape-width/6, spaced so the same input is never on screen twice and
+       the tape is never empty, at a constant 60 px/sec.
+       Mobile (<=768px): unchanged full-bleed 2-row strip. */
     .liquidity-ticker {
       position: relative;
       z-index: 1;
-      width: 100vw;
-      max-width: 100vw;
-      margin-left: calc(50% - 50vw);
+      width: 100%;
+      max-width: 100%;
       margin-top: -0.25rem;
       margin-bottom: 0.85rem;
       display: flex;
       align-items: stretch;
       height: 36px;
       background: rgba(10, 14, 28, 0.92);
-      border-top: 1px solid rgba(0, 212, 255, 0.25);
-      border-bottom: 1px solid rgba(0, 212, 255, 0.25);
+      border: 1px solid rgba(0, 212, 255, 0.25);
+      border-radius: 12px;
       font-size: 0.75rem;
       color: #e8e8e8;
       overflow: hidden;
+      box-sizing: border-box;
     }
     .lt-rail {
       flex: 0 0 auto;
@@ -2097,8 +2100,8 @@
       animation-play-state: paused;
     }
     @keyframes lt-marquee {
-      from { transform: translateX(var(--lt-from, 100%)); }
-      to   { transform: translateX(var(--lt-to, -100%)); }
+      from { transform: translateX(var(--lt-from, 0px)); }
+      to   { transform: translateX(var(--lt-to, -50%)); }
     }
     .lt-group {
       display: flex;
@@ -2133,7 +2136,18 @@
     .lt-stale-date { color: #8892b0; font-size: 0.62rem; margin-left: 0.1rem; }
 
     @media (max-width: 768px) {
-      .liquidity-ticker { flex-direction: column; height: auto; margin-top: 0; }
+      /* Mobile: keep the existing full-bleed 2-row strip (unchanged). */
+      .liquidity-ticker {
+        flex-direction: column;
+        height: auto;
+        margin-top: 0;
+        width: 100vw;
+        max-width: 100vw;
+        margin-left: calc(50% - 50vw);
+        border-radius: 0;
+        border-left: 0;
+        border-right: 0;
+      }
       .lt-rail {
         width: 100%;
         border-right: 0;
@@ -2146,6 +2160,7 @@
         gap: 0.2rem 0.6rem;
       }
       .lt-viewport { height: 32px; }
+      #lt-group-dup, #lt-pad-dup { display: none; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -2156,7 +2171,7 @@
       .lt-viewport { height: auto; overflow-x: auto; padding: 4px 8px; }
       .lt-track, .lt-track.lt-ready { width: auto; flex-wrap: wrap; transform: none !important; animation: none !important; }
       .lt-group { flex-wrap: wrap; gap: 0.2rem 0; }
-      .lt-pad { display: none; }
+      .lt-pad, #lt-group-dup { display: none; }
     }
 </style>
   <link rel="stylesheet" href="./css/signup-card.css">
@@ -2195,6 +2210,8 @@
         <div class="lt-track" id="lt-track">
           <div class="lt-group" id="lt-group-primary"></div>
           <div class="lt-pad" id="lt-pad" aria-hidden="true"></div>
+          <div class="lt-group" id="lt-group-dup" aria-hidden="true"></div>
+          <div class="lt-pad" id="lt-pad-dup" aria-hidden="true"></div>
         </div>
       </div>
     </aside>
@@ -2928,13 +2945,16 @@
       const noteEl = document.getElementById('lt-note');
       const primaryEl = document.getElementById('lt-group-primary');
       const padEl = document.getElementById('lt-pad');
+      const dupEl = document.getElementById('lt-group-dup');
+      const padDupEl = document.getElementById('lt-pad-dup');
       const viewportEl = document.getElementById('lt-viewport');
       const trackEl = document.getElementById('lt-track');
       if (!scoreEl || !primaryEl || !viewportEl || !trackEl) return;
 
-      // Constant tape speed: duration = (viewport + padded track) / px-per-sec.
+      // Constant tape speed: duration = distance / px-per-sec.
       const LT_PX_PER_SEC = 60;
       const reduceMq = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const mobileMq = window.matchMedia('(max-width: 768px)');
 
       function esc(s) {
         return s == null ? '' : String(s)
@@ -2997,10 +3017,11 @@
         return parts.join(' | ');
       }
 
-      function renderItems(inputs) {
+      function renderItems(inputs, focusable) {
         return (inputs || []).map(function(item) {
           const tip = esc(buildTooltip(item));
-          return '<span class="lt-item" data-lt-id="' + esc(item.id) + '" title="' + tip + '" tabindex="0">' +
+          const tab = focusable ? ' tabindex="0"' : '';
+          return '<span class="lt-item" data-lt-id="' + esc(item.id) + '" title="' + tip + '"' + tab + '>' +
             '<span class="lt-lbl">' + esc(item.label) + '</span>' +
             '<span class="lt-val">' + esc(item.display || '—') + '</span>' +
             formatDelta(item) +
@@ -3008,27 +3029,82 @@
         }).join('');
       }
 
+      function resetItemSpacing() {
+        primaryEl.querySelectorAll('.lt-item').forEach(function(el) {
+          el.style.marginRight = '';
+        });
+      }
+
+      function clearDup() {
+        if (dupEl) { dupEl.innerHTML = ''; }
+        if (padDupEl) padDupEl.style.width = '0px';
+      }
+
       function layoutTicker() {
         trackEl.classList.remove('lt-ready');
+        resetItemSpacing();
         if (padEl) padEl.style.width = '0px';
         if (reduceMq.matches) {
+          clearDup();
           trackEl.style.removeProperty('--lt-from');
           trackEl.style.removeProperty('--lt-to');
           trackEl.style.removeProperty('--lt-duration');
           trackEl.style.removeProperty('--lt-pad');
           return;
         }
-        const contentW = primaryEl.getBoundingClientRect().width;
         const viewW = viewportEl.getBoundingClientRect().width;
-        if (!(viewW > 0) || !(contentW > 0)) return;
-        const padW = Math.max(0, viewW - contentW);
+        if (!(viewW > 0)) return;
+
+        // Mobile keeps the one-copy, fully-exit-then-reenter tape.
+        if (mobileMq.matches) {
+          clearDup();
+          const contentW = primaryEl.getBoundingClientRect().width;
+          if (!(contentW > 0)) return;
+          const padW = Math.max(0, viewW - contentW);
+          if (padEl) padEl.style.width = padW + 'px';
+          trackEl.style.setProperty('--lt-pad', padW + 'px');
+          const trackW = contentW + padW;
+          const duration = (viewW + trackW) / LT_PX_PER_SEC;
+          trackEl.style.setProperty('--lt-from', viewW + 'px');
+          trackEl.style.setProperty('--lt-to', (-trackW) + 'px');
+          trackEl.style.setProperty('--lt-duration', duration + 's');
+          void trackEl.offsetWidth;
+          trackEl.classList.add('lt-ready');
+          return;
+        }
+
+        // Desktop: seamless loop, gap ~ tape/6, never empty, never a repeat.
+        const items = Array.from(primaryEl.querySelectorAll('.lt-item'));
+        if (!items.length) return;
+        const naturalW = primaryEl.getBoundingClientRect().width;
+        let maxItem = 0;
+        items.forEach(function(el) {
+          const w = el.getBoundingClientRect().width;
+          if (w > maxItem) maxItem = w;
+        });
+        const gap = viewW / 6;
+        // content + gap must be at least viewW + widest item, so an item has
+        // fully left the left edge before the same input re-enters on the right.
+        const minContent = viewW - gap + maxItem + 1;
+        if (naturalW < minContent && items.length > 1) {
+          const each = (minContent - naturalW) / (items.length - 1);
+          for (let i = 0; i < items.length - 1; i++) {
+            items[i].style.marginRight = each + 'px';
+          }
+        }
+        const contentW = primaryEl.getBoundingClientRect().width;
+        const padW = Math.max(gap, viewW - contentW + maxItem + 1);
         if (padEl) padEl.style.width = padW + 'px';
+        if (padDupEl) padDupEl.style.width = padW + 'px';
         trackEl.style.setProperty('--lt-pad', padW + 'px');
-        const trackW = contentW + padW;
-        const distance = viewW + trackW;
-        const duration = distance / LT_PX_PER_SEC;
-        trackEl.style.setProperty('--lt-from', viewW + 'px');
-        trackEl.style.setProperty('--lt-to', (-trackW) + 'px');
+        if (dupEl) {
+          dupEl.innerHTML = primaryEl.innerHTML;
+          dupEl.querySelectorAll('.lt-item').forEach(function(el) { el.removeAttribute('tabindex'); });
+        }
+        const cycleW = contentW + padW;
+        const duration = cycleW / LT_PX_PER_SEC;
+        trackEl.style.setProperty('--lt-from', '0px');
+        trackEl.style.setProperty('--lt-to', (-cycleW) + 'px');
         trackEl.style.setProperty('--lt-duration', duration + 's');
         void trackEl.offsetWidth;
         trackEl.classList.add('lt-ready');
@@ -3064,16 +3140,16 @@
         }
 
         const inputs = Array.isArray(data.inputs) ? data.inputs : [];
-        primaryEl.innerHTML = renderItems(inputs);
+        primaryEl.innerHTML = renderItems(inputs, true);
         layoutTicker();
         if (window.ResizeObserver) {
           const ro = new ResizeObserver(function() { layoutTicker(); });
           ro.observe(viewportEl);
-          ro.observe(primaryEl);
         } else {
           window.addEventListener('resize', layoutTicker);
         }
         if (reduceMq.addEventListener) reduceMq.addEventListener('change', layoutTicker);
+        if (mobileMq.addEventListener) mobileMq.addEventListener('change', layoutTicker);
       } catch (e) {
         console.warn('Could not load liquidity_ticker.json:', e);
         scoreEl.className = 'lt-score lt-neutral';
