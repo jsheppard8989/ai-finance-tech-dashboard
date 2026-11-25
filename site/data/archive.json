@@ -32,6 +32,42 @@
       ]
     },
     {
+      "id": 738,
+      "title": "DoubleLine Turns AI Debt Bull From Bear After Selloff Made it Cheaper",
+      "source_type": "podcast",
+      "source_name": "The Credit Edge by Bloomberg Intelligence",
+      "source_date": "2026-11-25",
+      "summary": "Robert Cohen argues that the AI-credit funding frenzy has repriced dramatically, and that a number of names once viewed as \u201cbubble\u201d valuations now trade at spreads that better reflect risk. He distinguishes between underlying business deterioration and the market\u2019s uncertainty about future capital-market access, issuance supply, and how much more funding hyperscalers and AI buildouts will require. In his view, that uncertainty is a major reason spreads remain wide.\n\nHe is constructive on selected credits, especially hyperscalers like Amazon and Alphabet, which he says deserve AA ratings and whose cloud profitability can be monitored quarterly. He also says SpaceX has moved from too-tight pricing to a high-yield-type spread and yield, and that it could trade more like a real BBB if it keeps delivering. Oracle, after widening materially, is now a name he likes more because its spreads have moved into the single-B range and the pricing now compensates for leverage and execution risk.\n\nAt the same time, he draws a hard line on CoreWeave unsecured debt, calling it \u201ca bridge too far\u201d because of GPU refresh risk and uncertainty around whether the capital structure can sustain itself. He frames the broader opportunity set as a haves-versus-have-nots market, where security selection, short duration, and avoiding weak-tenant or major-construction-risk names matter more than buying the whole theme.\n\nCohen also warns that private credit and lower-rated public credit may still see defaults rise as the cycle matures, but he does not think that automatically means broad macro contagion. He says the key is to keep exposure capped, manage AI blast-radius risk, and recognize that yield alone is not total return once the default cycle starts to bite.",
+      "key_takeaway": "Selected AI-adjacent credits now look fairly priced or cheap, but the best risk-adjusted trade is hyperscaler AA credit and disciplined name-by-name selection, not broad exposure to the theme.",
+      "tickers_mentioned": [
+        "AMZN",
+        "GOOGL",
+        "MSFT",
+        "META"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 727,
+      "notable_quotes": [
+        {
+          "speaker": "Robert Cohen (DoubleLine)",
+          "quote": "CoreWeave unsecures are kind of a bridge too far for me because I, rightly or wrongly, I sort of equate this to the EMP sector back in when we were doing, you know, the shale build out in, I don't know, was that 2013 to 2015 and that CoreWeave needs to build capacity with state-of-the-art GPUs and lease them up."
+        },
+        {
+          "speaker": "Robert Cohen (DoubleLine)",
+          "quote": "it's levered four and a half times. it's free cashflow negative. It has a lot of execution risk, but they said that they're finished with their capital raise and they have a guidance to turning free cash flow positive in 2028."
+        },
+        {
+          "speaker": "Robert Cohen (DoubleLine)",
+          "quote": "If SpaceX delivers on its guidance and it performs, I think it will eventually start to have credit metrics that look like a real BBB, in which cases it spreads eventually should start to trade like a real BBB."
+        }
+      ]
+    },
+    {
       "id": 732,
       "title": "REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)",
       "source_type": "podcast",
@@ -450,7 +486,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-21",
       "archived_date": null,
@@ -17514,8 +17550,8 @@
       "term": "neoclouds",
       "description": "A shorthand used for AI infrastructure/cloud providers that depend on NVIDIA GPUs, financing support, or partnership structures to build data-center capacity.",
       "first_detected_date": "2026-11-12",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If NVIDIA reduces support, these businesses could face higher capital costs and slower buildouts.",
@@ -17524,8 +17560,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 699,
       "first_detected_speaker": "Huang Resigns",
-      "last_mentioned_episode_id": 725,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 727,
+      "last_mentioned_speaker": "Robert Cohen"
     },
     {
       "id": 344,
@@ -17580,6 +17616,24 @@
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 708,
       "last_mentioned_speaker": "Luukas Ilves"
+    },
+    {
+      "id": 358,
+      "term": "Skew",
+      "description": "The pricing imbalance between downside puts and upside calls in options markets.",
+      "first_detected_date": "2026-11-09",
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "High skew can make downside protection expensive and shape which option structures are attractive.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 665,
+      "first_detected_speaker": "Cem Karsan, Noel Smith",
+      "last_mentioned_episode_id": 727,
+      "last_mentioned_speaker": "Robert Cohen"
     },
     {
       "id": 334,
@@ -18324,8 +18378,8 @@
       "term": "AI Debt",
       "description": "AI Debt refers to the bond, leveraged loan, private credit, and project finance raised to fund AI labs, GPU purchases, and data center construction. In this episode, Zitron framed it as the main transmission channel from AI hype to credit-market stress.",
       "first_detected_date": "2026-10-01",
-      "last_mentioned_date": "2026-11-08",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because refinancing costs, spreads, and failed debt sales can determine whether AI infrastructure projects remain viable.",
@@ -18334,8 +18388,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 544,
       "first_detected_speaker": "Ed Zitron",
-      "last_mentioned_episode_id": 661,
-      "last_mentioned_speaker": "Laks Ganapathi"
+      "last_mentioned_episode_id": 727,
+      "last_mentioned_speaker": "Robert Cohen"
     },
     {
       "id": 306,
@@ -19098,8 +19152,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 83,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 84,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -19108,8 +19162,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 725,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 727,
+      "last_mentioned_speaker": "Robert Cohen"
     },
     {
       "id": 256,
@@ -19674,8 +19728,8 @@
       "term": "AI Adjacent",
       "description": "Healthcare applications where AI augments rather than replaces clinical decision-making, such as OpenAI integration with Epic EHRs for natural language patient record queries.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-29",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Enterprise AI adoption in regulated healthcare workflows may create more durable competitive moats than consumer-facing AI applications.",
@@ -19684,8 +19738,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 671,
-      "last_mentioned_speaker": "Ross Pamphilon"
+      "last_mentioned_episode_id": 727,
+      "last_mentioned_speaker": "Robert Cohen"
     },
     {
       "id": 160,

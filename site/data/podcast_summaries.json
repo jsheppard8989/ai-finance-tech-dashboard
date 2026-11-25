@@ -1,5 +1,28 @@
 [
   {
+    "id": 727,
+    "podcast_name": "The Credit Edge by Bloomberg Intelligence",
+    "episode_title": "DoubleLine Turns AI Debt Bull From Bear After Selloff Made it Cheaper",
+    "episode_date": "2026-11-25",
+    "summary": "Robert Cohen argues that the AI-credit funding frenzy has repriced dramatically, and that a number of names once viewed as \u201cbubble\u201d valuations now trade at spreads that better reflect risk. He distinguishes between underlying business deterioration and the market\u2019s uncertainty about future capital-market access, issuance supply, and how much more funding hyperscalers and AI buildouts will require. In his view, that uncertainty is a major reason spreads remain wide.\n\nHe is constructive on selected credits, especially hyperscalers like Amazon and Alphabet, which he says deserve AA ratings and whose cloud profitability can be monitored quarterly. He also says SpaceX has moved from too-tight pricing to a high-yield-type spread and yield, and that it could trade more like a real BBB if it keeps delivering. Oracle, after widening materially, is now a name he likes more because its spreads have moved into the single-B range and the pricing now compensates for leverage and execution risk.\n\nAt the same time, he draws a hard line on CoreWeave unsecured debt, calling it \u201ca bridge too far\u201d because of GPU refresh risk and uncertainty around whether the capital structure can sustain itself. He frames the broader opportunity set as a haves-versus-have-nots market, where security selection, short duration, and avoiding weak-tenant or major-construction-risk names matter more than buying the whole theme.\n\nCohen also warns that private credit and lower-rated public credit may still see defaults rise as the cycle matures, but he does not think that automatically means broad macro contagion. He says the key is to keep exposure capped, manage AI blast-radius risk, and recognize that yield alone is not total return once the default cycle starts to bite.",
+    "key_takeaways": [
+      "Robert Cohen says AI-linked corporate credit has repriced from bubble-like pricing to spreads that now reflect underlying risk for many names.",
+      "Robert Cohen says Oracle moved from not making sense to being fair value/high-yield appropriate after widening into the single-B range.",
+      "Robert Cohen says SpaceX should be treated as a high-yield name now, with an 8% yield and trading in the low 80s, and that spreads could tighten if it performs and approaches real BBB credit metrics.",
+      "Robert Cohen says Amazon, Alphabet, and Microsoft deserve AA ratings, and that the main compensation is for supply/issuance uncertainty rather than imminent downgrade risk.",
+      "Robert Cohen says Alphabet\u2019s cloud computing margin went up last quarter, which supports his view that the hyperscaler credit thesis remains intact.",
+      "Robert Cohen says CoreWeave unsecured debt is beyond his risk line because GPU refresh risk and capital-structure durability make the story too speculative.",
+      "Robert Cohen says DoubleLine caps AI exposure in portfolios because a big sector can create a blast radius into other sectors if the trade breaks down."
+    ],
+    "investment_thesis": "Selected AI-adjacent credits now look fairly priced or cheap, but the best risk-adjusted trade is hyperscaler AA credit and disciplined name-by-name selection, not broad exposure to the theme.",
+    "key_tickers": [
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "META"
+    ]
+  },
+  {
     "id": 726,
     "podcast_name": "The a16z Show",
     "episode_title": "Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)",

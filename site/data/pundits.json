@@ -258,7 +258,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-04",
     "mention_score": 4,
-    "mention_score_decayed": 2.58,
+    "mention_score_decayed": 2.52,
     "last_main_idea": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-04 \u2022 The New AI Agents That Shop, Plan, and Gossip",
     "last_proof_snippet": "We have so many different facets of our life, whether it's how we're managing our finances or planning trips. Agents are going to be able to feel different facets of these.",
@@ -429,33 +429,6 @@
     }
   },
   {
-    "id": 605,
-    "name": "David Booth",
-    "slug": "david-booth",
-    "bio": "A guest on the episode joining the Cosine discussion and awards update.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-21 13:05:10",
-    "last_episode_title": "The Professional Network Built for You and Your AI Agent",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-21",
-    "mention_score": 2,
-    "mention_score_decayed": 1.87,
-    "last_main_idea": "Cosine is trying to turn reputation, co-signing, and AI-agent discovery into a continuously updated professional network that surfaces hidden high-impact talent.",
-    "last_proof_cite": "The a16z Show \u2022 2026-11-21 \u2022 The Professional Network Built for You and Your AI Agent",
-    "last_proof_snippet": "It's some of the most interesting emergent behavior on cosine we've seen a day as people have connected their agents to it through the NTS GoSand.",
-    "supporting_takeaway": "one host says Cosine\u2019s profile layer is aimed at people building the most impactful frontier technology companies.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -515,6 +488,33 @@
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 605,
+    "name": "David Booth",
+    "slug": "david-booth",
+    "bio": "A guest on the episode joining the Cosine discussion and awards update.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-21 13:05:10",
+    "last_episode_title": "The Professional Network Built for You and Your AI Agent",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-21",
+    "mention_score": 2,
+    "mention_score_decayed": 1.82,
+    "last_main_idea": "Cosine is trying to turn reputation, co-signing, and AI-agent discovery into a continuously updated professional network that surfaces hidden high-impact talent.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-21 \u2022 The Professional Network Built for You and Your AI Agent",
+    "last_proof_snippet": "It's some of the most interesting emergent behavior on cosine we've seen a day as people have connected their agents to it through the NTS GoSand.",
+    "supporting_takeaway": "one host says Cosine\u2019s profile layer is aimed at people building the most impactful frontier technology companies.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 682,
@@ -1037,7 +1037,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "Huberman\u2019s most important claim is that personalized sleep, attention, and neurotechnology tools can materially improve cognition and performance, with sleep/wake manipulation likely the first commercial breakthrough.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-03 \u2022 Andrew Huberman\u2019s Three Rules for Better Health and Focus",
     "last_proof_snippet": "If you take yourself and your work really seriously, you need to organize your day that way. If you would recommend three things to people to live a healthier life, what would those be? Morning bright light ideally from sunlight.",
@@ -1091,7 +1091,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-01",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Ferrari\u2019s core claim is that Bending Spoons can compound value by acquiring software businesses, integrating them tightly, and improving cash generation while keeping leverage conservative.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-01 \u2022 How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
     "last_proof_snippet": "Vending Spoons has built a very different kind of technology company. By great products, improve them, generate more cash, and use that cash to do it again at a larger scale.",
@@ -1150,7 +1150,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-13",
     "mention_score": 3,
-    "mention_score_decayed": 1.14,
+    "mention_score_decayed": 1.11,
     "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
     "last_proof_snippet": "You can literally look at many internet connections today they are actually using agile cryptography they're encrypted using elliptic curves and lattices at the same time.",
@@ -1289,6 +1289,33 @@
     "pundit_profile": null
   },
   {
+    "id": 711,
+    "name": "Robert Cohen",
+    "slug": "robert-cohen",
+    "bio": "Director of corporate credit at DoubleLine with more than 30 years of experience across corporate credit markets. He oversees investment grade, high yield, and leverage loan strategies.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-25 18:13:10",
+    "last_episode_title": "DoubleLine Turns AI Debt Bull From Bear After Selloff Made it Cheaper",
+    "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
+    "last_episode_date": "2026-11-25",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Selected AI-adjacent credits now look fairly priced or cheap, but the best risk-adjusted trade is hyperscaler AA credit and disciplined name-by-name selection, not broad exposure to the theme.",
+    "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-11-25 \u2022 DoubleLine Turns AI Debt Bull From Bear After Selloff Made it Cheaper",
+    "last_proof_snippet": "Speaker 1: My name is James Grumby. I'm a senior editor at Bloomberg. Speaker 2: And I'm Rob Schiffman, senior analyst covering tech at Bloomberg Speaker 2: Intelligence and co-head of our U. S. credit research business.",
+    "supporting_takeaway": "Robert Cohen says Oracle moved from not making sense to being fair value/high-yield appropriate after widening into the single-B range.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 709,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
@@ -1361,7 +1388,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-24",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Apple\u2019s payments and wallet stack scales by combining privacy-first architecture with expanding acceptance, turning the iPhone into a broader everyday payment and identity platform.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-24 \u2022 REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)",
     "last_proof_snippet": "When Apple Pay launched in the US, only about 3% of merchants accepted contactless payments. So how did tapping your phone or watch become almost second nature?",
@@ -1415,7 +1442,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The episode argues that life-sciences value will accrue first to model harnesses and agentic workflow tools that compress discovery, trial, manufacturing, and regulatory work rather than to raw model capability alone.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-23 \u2022 The One-Person Biotech | OpenAI Life Sciences",
     "last_proof_snippet": "Even the best doctors in the world, sometimes have to tell their patients that no treatment exists for the condition that they have.",
@@ -1442,7 +1469,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The biggest internet winners emerged when good-enough technology, trust mechanisms, and monetization finally aligned, and future winners will likely need qualitatively better experiences rather than just scale.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-22 \u2022 Replay: How the Internet Happened | Chris Dixon & Brian McCullough (2018)",
     "last_proof_snippet": "This episode is a replay from 2018, looking back at how the modern internet actually got built. Chris Dixon sits down with Brian McCullough, author of How The Internet Happened, to trace the period from Netscape to the iPhone.",
@@ -1548,33 +1575,6 @@
     "pundit_profile": null
   },
   {
-    "id": 699,
-    "name": "Bella Nazari",
-    "slug": "bella-nazari",
-    "bio": "Leading growth for Cosine; previously at a16z for about a year working on Speedrun and related talent-network ideas.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-21 13:05:11",
-    "last_episode_title": "The Professional Network Built for You and Your AI Agent",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Cosine is trying to turn reputation, co-signing, and AI-agent discovery into a continuously updated professional network that surfaces hidden high-impact talent.",
-    "last_proof_cite": "The a16z Show \u2022 2026-11-21 \u2022 The Professional Network Built for You and Your AI Agent",
-    "last_proof_snippet": "It's some of the most interesting emergent behavior on cosine we've seen a day as people have connected their agents to it through the NTS GoSand.",
-    "supporting_takeaway": "one host says Cosine\u2019s profile layer is aimed at people building the most impactful frontier technology companies.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -1642,6 +1642,33 @@
     }
   },
   {
+    "id": 699,
+    "name": "Bella Nazari",
+    "slug": "bella-nazari",
+    "bio": "Leading growth for Cosine; previously at a16z for about a year working on Speedrun and related talent-network ideas.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-21 13:05:11",
+    "last_episode_title": "The Professional Network Built for You and Your AI Agent",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.91,
+    "last_main_idea": "Cosine is trying to turn reputation, co-signing, and AI-agent discovery into a continuously updated professional network that surfaces hidden high-impact talent.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-21 \u2022 The Professional Network Built for You and Your AI Agent",
+    "last_proof_snippet": "It's some of the most interesting emergent behavior on cosine we've seen a day as people have connected their agents to it through the NTS GoSand.",
+    "supporting_takeaway": "one host says Cosine\u2019s profile layer is aimed at people building the most impactful frontier technology companies.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 693,
     "name": "David Heinemeier Hansson",
     "slug": "david-heinemeier-hansson",
@@ -1686,7 +1713,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "one host says Anthropic is likely to price around $80 a share, with a first-day pop of about 19% to 20% if the IPO behaves like the SpaceX analogy.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-18 \u2022 \u26a1\ufe0fAnthropic: Know Before You IPO \u2014 Tanay Jaipuria, Wing VC",
     "last_proof_snippet": "one host says Anthropic disclosed an October run rate of 81 billion and that speakers projected a 100 billion year-end run rate.",
@@ -2070,7 +2097,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "AI progress is real, but Tyler Cowen and Alex Imas both imply that without coordination and broad demand-side adoption, it is unlikely to produce near-term double-digit GDP growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-16 \u2022 Alex Imas & Tyler Cowen | AI Is Moving Fast. Why Isn\u2019t the Economy?",
     "last_proof_snippet": "Institutions are not quite running as smoothly as either we might like or we might fear. We have these weird things happening within video.",
@@ -2097,7 +2124,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Cliffton\u2019s core claim is that Zipline\u2019s infrastructure could scale to 1 million deliveries a day because its regulatory, safety, and operational model has already proven itself.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-15 \u2022 What Breaks When You Scale 10x? | Zipline\u2019s Keller Cliffton",
     "last_proof_snippet": "Today's episode comes from our recommended listening series, where we feature stand-out conversations from people across our broader network.",
@@ -2178,7 +2205,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The episode\u2019s main claim is that AI has shortened exploit cycles so much that continuous external exposure testing and security-by-design tooling become more valuable than traditional code scanning.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-13 \u2022 Every Day Is Zero Day | Wiz CTO Ami Luttwak",
     "last_proof_snippet": "We're going back to the 90s and 2000s again. We're going to see breaches popping out all the time again now. It's going to look very different than the last 15 years of security.",
@@ -2286,7 +2313,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "AI compute may oversupply in the near term, but hyperscalers remain the best relative AI trade because contract structure and locked capacity limit downside.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-11 \u2022 Too Much Compute: Why This Top Hedge Fund Manager Believes AI is Heading for a Massive Oversupply | David Orr",
     "last_proof_snippet": "He argues compute is heading toward oversupply because, outside software companies, there are few real buyers absorbing the capacity being built.",
@@ -2313,7 +2340,7 @@
     "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "last_episode_date": "2026-10-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "AI credit is selectively investable, but broad exposure is risky because the buildout is increasingly concentrated, expensive, and vulnerable to financing-cycle stress.",
     "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-10-29 \u2022 AI Blitz and US Borrowing Binge Are Disrupting Debt Benchmarks",
     "last_proof_snippet": "Speaker 1: My name is James Crombie. I'm a senior editor at Bloomberg. Speaker 2: And I'm Tolu Alamutu, senior analyst at Bloomberg Intelligence.",
@@ -2340,7 +2367,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "AI infrastructure scarcity and high utilization should keep compute assets valuable for years, even if the market corrects and ownership changes.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-11 \u2022 What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
     "last_proof_snippet": "We live in a world where demand for AI capacity tokens is near infinite and supply is incredibly constrained. So another way to put it is we all just live in Jensen's world.",
@@ -2556,7 +2583,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Kupor\u2019s central claim is that OPM modernization could unlock a massive, multi-year GovTech spending cycle by consolidating fragmented HR systems and automating retirement processing.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-09 \u2022 Scott Kupor on Building a16z and Rebuilding the Federal Workforce",
     "last_proof_snippet": "Scott Cooper was a 16-Z's first employee. 16 years later, he left venture capital to help rethink how the federal government hires, rewards, and retain talent.",
@@ -2647,33 +2674,6 @@
     "pundit_profile": null
   },
   {
-    "id": 629,
-    "name": "Mark Hyman",
-    "slug": "mark-hyman",
-    "bio": "Co-founder of Function Health and a longevity-focused physician who discusses prevention, biomarker testing, nutrition, supplements, and systems biology.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-07 13:06:24",
-    "last_episode_title": "Mark Hyman\u2019s Guide to Living Longer and Staying Strong",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.68,
-    "last_main_idea": "The episode\u2019s core claim is that AI-enabled biomarker testing and imaging will make preventive, personalized healthcare scalable and commercially meaningful.",
-    "last_proof_cite": "The a16z Show \u2022 2026-11-07 \u2022 Mark Hyman\u2019s Guide to Living Longer and Staying Strong",
-    "last_proof_snippet": "When it comes to longevity, Mark Hammond says it's not the heroic interventions that matter most. It's the small things you do every day.",
-    "supporting_takeaway": "Mark Hyman says muscle is the \u201ccurrency of longevity\u201d and that losing muscle leads to frailty and dysfunction.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 335,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
@@ -2740,6 +2740,33 @@
     "net_worth": null
   },
   {
+    "id": 629,
+    "name": "Mark Hyman",
+    "slug": "mark-hyman",
+    "bio": "Co-founder of Function Health and a longevity-focused physician who discusses prevention, biomarker testing, nutrition, supplements, and systems biology.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-07 13:06:24",
+    "last_episode_title": "Mark Hyman\u2019s Guide to Living Longer and Staying Strong",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.66,
+    "last_main_idea": "The episode\u2019s core claim is that AI-enabled biomarker testing and imaging will make preventive, personalized healthcare scalable and commercially meaningful.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-07 \u2022 Mark Hyman\u2019s Guide to Living Longer and Staying Strong",
+    "last_proof_snippet": "When it comes to longevity, Mark Hammond says it's not the heroic interventions that matter most. It's the small things you do every day.",
+    "supporting_takeaway": "Mark Hyman says muscle is the \u201ccurrency of longevity\u201d and that losing muscle leads to frailty and dysfunction.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 628,
     "name": "Jamin Ball",
     "slug": "jamin-ball",
@@ -2784,7 +2811,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Virtual-cell winners will be data-rich, action-conditioned platforms that can steer experiments in closed loop, not model-only tools competing on weak benchmarks.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-06 \u2022 Controlling Biology - Fabian Theis, Helmholtz Munich",
     "last_proof_snippet": "We can really now start guiding the experimentation. So where before you, we built these human cell atlases, we had sort of this mapping aspect. Then we talked about the world models prediction problem. From mapping, we went to prediction.",
@@ -2956,33 +2983,6 @@
     "pundit_profile": null
   },
   {
-    "id": 614,
-    "name": "David Pawlan",
-    "slug": "david-pawlan",
-    "bio": "Creator of Assistant Benchmark and a prolific evaluator of AI assistants, with experience testing more than 140 systems.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-05 18:15:36",
-    "last_episode_title": "The New AI Agents That Shop, Plan, and Gossip",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-04",
-    "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
-    "last_proof_cite": "The a16z Show \u2022 2026-11-04 \u2022 The New AI Agents That Shop, Plan, and Gossip",
-    "last_proof_snippet": "We have so many different facets of our life, whether it's how we're managing our finances or planning trips. Agents are going to be able to feel different facets of these.",
-    "supporting_takeaway": "Josh Elman argued that the key design principle is permission scoping: a personal agent should have access to personal channels, but not work systems.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 267,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
@@ -3040,6 +3040,33 @@
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 614,
+    "name": "David Pawlan",
+    "slug": "david-pawlan",
+    "bio": "Creator of Assistant Benchmark and a prolific evaluator of AI assistants, with experience testing more than 140 systems.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-05 18:15:36",
+    "last_episode_title": "The New AI Agents That Shop, Plan, and Gossip",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-04",
+    "mention_score": 1,
+    "mention_score_decayed": 0.63,
+    "last_main_idea": "The episode\u2019s core claim is that agent winners will be the products that solve trust and permissioning well enough to enable reliable, context-rich, and socially aware automation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-04 \u2022 The New AI Agents That Shop, Plan, and Gossip",
+    "last_proof_snippet": "We have so many different facets of our life, whether it's how we're managing our finances or planning trips. Agents are going to be able to feel different facets of these.",
+    "supporting_takeaway": "Josh Elman argued that the key design principle is permission scoping: a personal agent should have access to personal channels, but not work systems.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 613,
@@ -3353,33 +3380,6 @@
     "pundit_profile": null
   },
   {
-    "id": 603,
-    "name": "Robert Caro",
-    "slug": "robert-caro",
-    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 17:14:06",
-    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-10-30",
-    "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
-    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
-    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 301,
     "name": "Jake Paul",
     "slug": "jake-paul",
@@ -3506,6 +3506,33 @@
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 603,
+    "name": "Robert Caro",
+    "slug": "robert-caro",
+    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 17:14:06",
+    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-10-30",
+    "mention_score": 1,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
+    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
+    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 600,
@@ -3687,7 +3714,7 @@
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Vanta believes deep integrations plus agentic workflows will create a superior trust-security platform that can grow without relying on token markups.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-20 \u2022 Christina Cacioppo - Building an Enduring Software Company in the Age of AI - [Invest Like the Best, EP.496]",
     "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
@@ -4003,7 +4030,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -4030,7 +4057,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -4057,7 +4084,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -4084,7 +4111,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -4111,7 +4138,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "AI demand is not the main constraint; semiconductor tool scarcity and packaging limits will cap leading-edge output growth far below market demand.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-22 \u2022 What will computer chips look like in 2045?",
     "last_proof_snippet": "",
@@ -4138,11 +4165,38 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Moshi\u2019s key claim is that trader AI wins by combining recommendation systems with workflow-native UI, not by building a generic Bloomberg-like interface.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-22 \u2022 You are the Team  \u2014 Anekha Sokhal, Moshi",
     "last_proof_snippet": "",
     "supporting_takeaway": "Sokhal argues Moshi is not a \u201cnew Bloomberg,\u201d but different software built around recommendations and connected insights, not just a feed or dashboard.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 562,
+    "name": "Nikesh Arora",
+    "slug": "nikesh-arora",
+    "bio": "Chief executive and technology executive who discusses quantum computing timelines, AI model economics, cybersecurity, and SaaS consolidation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-22 10:32:33",
+    "last_episode_title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.46,
+    "last_main_idea": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-21 \u2022 Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Arora frames 2030 as a practical midpoint for when today\u2019s cryptography becomes breakable by sufficiently capable quantum computers.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -4165,7 +4219,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-05",
     "mention_score": 3,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
     "last_proof_snippet": "",
@@ -4206,33 +4260,6 @@
       ]
     },
     "net_worth": null
-  },
-  {
-    "id": 562,
-    "name": "Nikesh Arora",
-    "slug": "nikesh-arora",
-    "bio": "Chief executive and technology executive who discusses quantum computing timelines, AI model economics, cybersecurity, and SaaS consolidation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 10:32:33",
-    "last_episode_title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.46,
-    "last_main_idea": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-21 \u2022 Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Arora frames 2030 as a practical midpoint for when today\u2019s cryptography becomes breakable by sufficiently capable quantum computers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 556,
@@ -4360,7 +4387,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "OpenAI\u2019s health-AI edge is its cheaper, frontier-level model plus specialized medical training, which it says can outperform prior models while scaling across workflows like Epic.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-20 \u2022 What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI\u2019s Karan Singhal",
     "last_proof_snippet": "5.3 plus trillian we spend on health care for its own country, be the third largest GDP, and yet we have a ton of scarcity.",
@@ -4755,60 +4782,6 @@
     "pundit_profile": null
   },
   {
-    "id": 530,
-    "name": "Dan Boneh",
-    "slug": "dan-bonay",
-    "bio": "Stanford professor introduced in the episode. He focuses on why current AI progress does not yet equal a demonstrated break of deployed cryptography.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 17:37:30",
-    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.38,
-    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them. The labs say that they fail to break them. That will give you tremendous confidence that our assumptions are valid.",
-    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 531,
-    "name": "Justin Thaler",
-    "slug": "justin-daler",
-    "bio": "Research Partner at a16z. He emphasizes operational defenses, crypto agility, and startup opportunities in AI-driven security tooling.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-13 17:37:30",
-    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.38,
-    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 74,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
@@ -4872,6 +4845,60 @@
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 530,
+    "name": "Dan Boneh",
+    "slug": "dan-bonay",
+    "bio": "Stanford professor introduced in the episode. He focuses on why current AI progress does not yet equal a demonstrated break of deployed cryptography.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 17:37:30",
+    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.37,
+    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
+    "last_proof_snippet": "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them. The labs say that they fail to break them. That will give you tremendous confidence that our assumptions are valid.",
+    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 531,
+    "name": "Justin Thaler",
+    "slug": "justin-daler",
+    "bio": "Research Partner at a16z. He emphasizes operational defenses, crypto agility, and startup opportunities in AI-driven security tooling.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-13 17:37:30",
+    "last_episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.37,
+    "last_main_idea": "AI is more likely to become a defensive cryptography-testing tool than an immediate breaker of deployed standards, creating demand for crypto-agility and security-scanning infrastructure.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-13 \u2022 Can AI Break Cryptography? What the Experts Actually Think",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Dan Boneh argued that if labs try to break core cryptographic assumptions and fail, that failure provides stronger confidence in deployed security than speculation does.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 529,
@@ -5038,66 +5065,6 @@
     "pundit_profile": null
   },
   {
-    "id": 148,
-    "name": "Matt Barrie",
-    "slug": "matt-barry",
-    "bio": "Matt Barrie is the CEO of Freelancer.com, a global freelancing and crowdsourcing marketplace. He is recognized for his expertise in the latest developments on artificial intelligence and its impact on the global workforce.",
-    "known_for": "His insights on the intersection of artificial intelligence and the future of work.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-09-11 15:55:43",
-    "last_episode_title": "MacroVoices #549 Matt Barrie: AI-gent Provocateur",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-09-10",
-    "mention_score": 2,
-    "mention_score_decayed": 0.36,
-    "last_main_idea": "The core opportunity lies in AI infrastructure and hardware providers benefiting from enterprise insourcing, while model-facing incumbents face margin compression from zero switching costs and open competition.",
-    "last_proof_cite": "Macro Voices \u2022 2026-09-10 \u2022 MacroVoices #549 Matt Barrie: AI-gent Provocateur",
-    "last_proof_snippet": "Token costs can escalate rapidly to unsustainable levels, but enterprises can slash expenses by arbitraging across models, including cheaper Chinese alternatives.",
-    "supporting_takeaway": "Token costs can escalate rapidly to unsustainable levels, but enterprises can slash expenses by arbitraging across models, including cheaper Chinese alternatives.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Matt Barrie",
-      "fetched_at": "2026-04-03T10:05:31.083389+00:00",
-      "cliff_notes": "Matt Barrie is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barrie's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements. His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles.",
-      "derived": {
-        "current_role": "CEO of Freelancer.com"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Matt Barrie is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barrie's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements.",
-        "His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles."
-      ],
-      "sections": [
-        {
-          "heading": "Freelancer.com",
-          "body": "Matt Barrie leads Freelancer.com, a platform that has revolutionized the way work is done by connecting employers with freelancers globally."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Barrie is known for his thought leadership on the implications of AI on the future of work, often discussing how it will reshape the global workforce."
-        },
-        {
-          "heading": "Global Workforce",
-          "body": "His insights into the changing dynamics of the global workforce, especially in the context of technology and AI, are highly valued by investors and tech enthusiasts."
-        }
-      ]
-    },
-    "net_worth": null
-  },
-  {
     "id": 522,
     "name": "Jason Calacanis",
     "slug": "jason-kaltenson",
@@ -5179,6 +5146,66 @@
     "pundit_profile": null
   },
   {
+    "id": 148,
+    "name": "Matt Barrie",
+    "slug": "matt-barry",
+    "bio": "Matt Barrie is the CEO of Freelancer.com, a global freelancing and crowdsourcing marketplace. He is recognized for his expertise in the latest developments on artificial intelligence and its impact on the global workforce.",
+    "known_for": "His insights on the intersection of artificial intelligence and the future of work.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-09-11 15:55:43",
+    "last_episode_title": "MacroVoices #549 Matt Barrie: AI-gent Provocateur",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-10",
+    "mention_score": 2,
+    "mention_score_decayed": 0.35,
+    "last_main_idea": "The core opportunity lies in AI infrastructure and hardware providers benefiting from enterprise insourcing, while model-facing incumbents face margin compression from zero switching costs and open competition.",
+    "last_proof_cite": "Macro Voices \u2022 2026-09-10 \u2022 MacroVoices #549 Matt Barrie: AI-gent Provocateur",
+    "last_proof_snippet": "Token costs can escalate rapidly to unsustainable levels, but enterprises can slash expenses by arbitraging across models, including cheaper Chinese alternatives.",
+    "supporting_takeaway": "Token costs can escalate rapidly to unsustainable levels, but enterprises can slash expenses by arbitraging across models, including cheaper Chinese alternatives.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Matt Barrie",
+      "fetched_at": "2026-04-03T10:05:31.083389+00:00",
+      "cliff_notes": "Matt Barrie is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barrie's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements. His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles.",
+      "derived": {
+        "current_role": "CEO of Freelancer.com"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Matt Barrie is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barrie's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements.",
+        "His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles."
+      ],
+      "sections": [
+        {
+          "heading": "Freelancer.com",
+          "body": "Matt Barrie leads Freelancer.com, a platform that has revolutionized the way work is done by connecting employers with freelancers globally."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "Barrie is known for his thought leadership on the implications of AI on the future of work, often discussing how it will reshape the global workforce."
+        },
+        {
+          "heading": "Global Workforce",
+          "body": "His insights into the changing dynamics of the global workforce, especially in the context of technology and AI, are highly valued by investors and tech enthusiasts."
+        }
+      ]
+    },
+    "net_worth": null
+  },
+  {
     "id": 516,
     "name": "Brent Johnson",
     "slug": "brent-johnson",
@@ -5250,7 +5277,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by reinforcement learning built on real lab experiments and instrument data, and by experimental data that records how every result was produced\u2014not by simulations or model scale alone.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
     "last_proof_snippet": "",
@@ -5277,7 +5304,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by reinforcement learning built on real lab experiments and instrument data, and by experimental data that records how every result was produced\u2014not by simulations or model scale alone.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
     "last_proof_snippet": "",
@@ -5747,7 +5774,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Si Sheppard argues Spain's 16th-century silver windfall imported inflation and delayed capital-market development, while England and the Netherlands advanced through banking, trade, and industrial investment.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-01 \u2022 Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",
     "last_proof_snippet": "",
@@ -7584,66 +7611,6 @@
     }
   },
   {
-    "id": 218,
-    "name": "Joe Schmidt",
-    "slug": "joe-schmidt",
-    "bio": "Joe Schmidt is an investor at a16z with a focus on enterprise software and AI startups. He is known for his expertise in go-to-market strategies for AI companies and lessons from building sales organizations.",
-    "known_for": "His insights on sales strategies and the framework for evaluating which playbook AI companies should follow.",
-    "net_worth_usd": 21000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
-    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
-    "voice_tone": "Analytical and insightful",
-    "voice_style": "Factual and informative",
-    "voice_delivery_notes": "Clear and concise with a focus on actionable insights",
-    "voice_profile_updated_at": "2026-08-13 17:06:10",
-    "last_seen": "2026-08-13 17:06:10",
-    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.19,
-    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
-    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook?",
-    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-13T12:06:19.499034",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Joe Schmidt",
-      "fetched_at": "2026-08-13T17:06:19.498693+00:00",
-      "cliff_notes": "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations. His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies.",
-      "derived": {
-        "current_role": "Investor at a16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations.",
-        "His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies."
-      ],
-      "sections": [
-        {
-          "heading": "Go-to-Market Strategies",
-          "body": "Joe Schmidt is known for his expertise in go-to-market strategies for AI companies. He has developed frameworks for evaluating which sales playbook to follow, such as the lighthouse and land grab strategies."
-        },
-        {
-          "heading": "AI Startups",
-          "body": "As an investor at a16z, Joe Schmidt focuses on enterprise software and AI startups. He helps these companies scale their operations and provides insights on sales strategies and building sales organizations."
-        },
-        {
-          "heading": "Sales Playbooks",
-          "body": "Schmidt has developed a framework for evaluating which sales playbook AI companies should follow, such as targeting obvious companies with social value or finding customers who need their solution."
-        }
-      ]
-    },
-    "net_worth": "$21.0M"
-  },
-  {
     "id": 449,
     "name": "John Farris",
     "slug": "john-ferris",
@@ -7837,6 +7804,66 @@
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 218,
+    "name": "Joe Schmidt",
+    "slug": "joe-schmidt",
+    "bio": "Joe Schmidt is an investor at a16z with a focus on enterprise software and AI startups. He is known for his expertise in go-to-market strategies for AI companies and lessons from building sales organizations.",
+    "known_for": "His insights on sales strategies and the framework for evaluating which playbook AI companies should follow.",
+    "net_worth_usd": 21000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
+    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
+    "voice_tone": "Analytical and insightful",
+    "voice_style": "Factual and informative",
+    "voice_delivery_notes": "Clear and concise with a focus on actionable insights",
+    "voice_profile_updated_at": "2026-08-13 17:06:10",
+    "last_seen": "2026-08-13 17:06:10",
+    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.18,
+    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook?",
+    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-13T12:06:19.499034",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joe Schmidt",
+      "fetched_at": "2026-08-13T17:06:19.498693+00:00",
+      "cliff_notes": "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations. His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies.",
+      "derived": {
+        "current_role": "Investor at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations.",
+        "His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies."
+      ],
+      "sections": [
+        {
+          "heading": "Go-to-Market Strategies",
+          "body": "Joe Schmidt is known for his expertise in go-to-market strategies for AI companies. He has developed frameworks for evaluating which sales playbook to follow, such as the lighthouse and land grab strategies."
+        },
+        {
+          "heading": "AI Startups",
+          "body": "As an investor at a16z, Joe Schmidt focuses on enterprise software and AI startups. He helps these companies scale their operations and provides insights on sales strategies and building sales organizations."
+        },
+        {
+          "heading": "Sales Playbooks",
+          "body": "Schmidt has developed a framework for evaluating which sales playbook AI companies should follow, such as targeting obvious companies with social value or finding customers who need their solution."
+        }
+      ]
+    },
+    "net_worth": "$21.0M"
   },
   {
     "id": 440,
@@ -9200,7 +9227,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Live commerce has the potential to disrupt traditional e-commerce by combining shopping with entertainment and community, creating a more engaging and enjoyable experience for users and opening up new opportunities for small businesses.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-19 \u2022 How Whatnot Built a Global Marketplace",
     "last_proof_snippet": "If you look at e-commerce today, you have to know exactly what you're looking for. Live commerce is over a third of all commerce in Asia. Send right? 30 to 40 percent of all commerce is live commerce in China. What is it in the U.S today?",
@@ -12203,76 +12230,6 @@
     "net_worth": "$1.90B"
   },
   {
-    "id": 329,
-    "name": "Barbara Liskov",
-    "slug": "barbara-liskov",
-    "bio": "Barbara Liskov is a Turing Award-winning computer scientist renowned for her pioneering work in distributed systems, particularly in the areas of state machine replication and practical Byzantine fault tolerance. Her research has significantly impacted the development of secure and reliable systems, including the advent of blockchain technology.",
-    "known_for": "Her groundbreaking work in distributed systems, especially state machine replication and Byzantine fault tolerance, which has shaped the security and reliability of modern computing systems.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Reflective and authoritative.",
-    "voice_style": "Liskov speaks with a focus on the importance of understanding theoretical foundations and their practical applications.",
-    "voice_delivery_notes": "Liskov's delivery is measured and thoughtful, emphasizing key points with clarity.",
-    "voice_profile_updated_at": "2026-07-13 17:03:39",
-    "last_seen": "2026-07-13 17:03:39",
-    "last_episode_title": "Before Blockchains, There Was State Machine Replication",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.05,
-    "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
-    "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro.",
-    "supporting_takeaway": "Understanding theoretical computer science is crucial for practical applications, as it forms the backbone of the field.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-13T12:04:24.666964",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Barbara Liskov",
-      "fetched_at": "2026-07-13T17:04:24.666605+00:00",
-      "cliff_notes": "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks. Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research.",
-      "derived": {
-        "former_positions": "Institute Professor Emerita, Massachusetts Institute of Technology;",
-        "education": "Ph.D. in Computer Science, Stanford University; M.S. in Mathematics, University of California, Berkeley; B.S. in Mathematics, University of California, Berkeley;",
-        "books_or_works": "Principles of Distributed Systems; A History of Programming Languages;",
-        "teaching_summary": "Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology;"
-      },
-      "infobox": {
-        "Born": "1939",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks.",
-        "Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research."
-      ],
-      "sections": [
-        {
-          "heading": "Distributed Systems",
-          "body": "Barbara Liskov's work in distributed systems has been foundational, particularly her contributions to state machine replication and Byzantine fault tolerance."
-        },
-        {
-          "heading": "State Machine Replication",
-          "body": "Liskov's research on state machine replication has provided a robust framework for maintaining consistency across distributed systems, even in the presence of faults."
-        },
-        {
-          "heading": "Byzantine Fault Tolerance",
-          "body": "Her work on Byzantine fault tolerance has been crucial for developing systems that can tolerate malicious attacks while ensuring reliability."
-        },
-        {
-          "heading": "Blockchain Technology",
-          "body": "Liskov's replication techniques have been fundamental in the development of blockchain technology, which relies on secure and reliable distributed ledgers."
-        },
-        {
-          "heading": "Research Impact",
-          "body": "Her research has had a profound impact on the field of computer science, influencing the design and implementation of secure and reliable systems."
-        }
-      ]
-    }
-  },
-  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -12331,6 +12288,76 @@
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 329,
+    "name": "Barbara Liskov",
+    "slug": "barbara-liskov",
+    "bio": "Barbara Liskov is a Turing Award-winning computer scientist renowned for her pioneering work in distributed systems, particularly in the areas of state machine replication and practical Byzantine fault tolerance. Her research has significantly impacted the development of secure and reliable systems, including the advent of blockchain technology.",
+    "known_for": "Her groundbreaking work in distributed systems, especially state machine replication and Byzantine fault tolerance, which has shaped the security and reliability of modern computing systems.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Reflective and authoritative.",
+    "voice_style": "Liskov speaks with a focus on the importance of understanding theoretical foundations and their practical applications.",
+    "voice_delivery_notes": "Liskov's delivery is measured and thoughtful, emphasizing key points with clarity.",
+    "voice_profile_updated_at": "2026-07-13 17:03:39",
+    "last_seen": "2026-07-13 17:03:39",
+    "last_episode_title": "Before Blockchains, There Was State Machine Replication",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
+    "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro.",
+    "supporting_takeaway": "Understanding theoretical computer science is crucial for practical applications, as it forms the backbone of the field.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-13T12:04:24.666964",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Barbara Liskov",
+      "fetched_at": "2026-07-13T17:04:24.666605+00:00",
+      "cliff_notes": "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks. Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research.",
+      "derived": {
+        "former_positions": "Institute Professor Emerita, Massachusetts Institute of Technology;",
+        "education": "Ph.D. in Computer Science, Stanford University; M.S. in Mathematics, University of California, Berkeley; B.S. in Mathematics, University of California, Berkeley;",
+        "books_or_works": "Principles of Distributed Systems; A History of Programming Languages;",
+        "teaching_summary": "Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology;"
+      },
+      "infobox": {
+        "Born": "1939",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks.",
+        "Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research."
+      ],
+      "sections": [
+        {
+          "heading": "Distributed Systems",
+          "body": "Barbara Liskov's work in distributed systems has been foundational, particularly her contributions to state machine replication and Byzantine fault tolerance."
+        },
+        {
+          "heading": "State Machine Replication",
+          "body": "Liskov's research on state machine replication has provided a robust framework for maintaining consistency across distributed systems, even in the presence of faults."
+        },
+        {
+          "heading": "Byzantine Fault Tolerance",
+          "body": "Her work on Byzantine fault tolerance has been crucial for developing systems that can tolerate malicious attacks while ensuring reliability."
+        },
+        {
+          "heading": "Blockchain Technology",
+          "body": "Liskov's replication techniques have been fundamental in the development of blockchain technology, which relies on secure and reliable distributed ledgers."
+        },
+        {
+          "heading": "Research Impact",
+          "body": "Her research has had a profound impact on the field of computer science, influencing the design and implementation of secure and reliable systems."
+        }
+      ]
+    }
   },
   {
     "id": 328,
@@ -12792,7 +12819,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Bolt's capital efficiency is a competitive advantage, allowing it to innovate and adapt quickly.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars.",
@@ -15246,67 +15273,6 @@
     "net_worth": null
   },
   {
-    "id": 265,
-    "name": "Marc Rowan",
-    "slug": "mark-rowan",
-    "bio": "Marc Rowan is the CEO of Apollo Global Management, a leading firm in the transition into retirement services and alternative asset management. He has been instrumental in the firm's growth and diversification, emphasizing clean sheet thinking and adaptability in a rapidly changing market.",
-    "known_for": "His leadership in transforming Apollo Global Management into one of the world's largest alternative asset managers and his insights on the importance of private markets for diversification.",
-    "net_worth_usd": 577000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/4157/marc-j-rowan",
-    "net_worth_updated_at": "2026-05-27T12:04:09.655698",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-05-27 17:03:40",
-    "last_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "High-growth private companies like Anthropic, OpenAI, and SpaceX offer significant investment opportunities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-    "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market.",
-    "supporting_takeaway": "High-growth private companies like Anthropic, OpenAI, and SpaceX offer significant investment opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-27T12:04:08.533279",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Marc Rowan",
-      "fetched_at": "2026-05-27T17:04:08.532910+00:00",
-      "cliff_notes": "Marc Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate. Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community.",
-      "derived": {
-        "current_role": "CEO of Apollo Global Management",
-        "former_positions": "Distressed investing at Drexel; Founder of Apollo Global Management"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Marc Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate.",
-        "Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community."
-      ],
-      "sections": [
-        {
-          "heading": "Apollo Global Management",
-          "body": "Marc Rowan has led Apollo Global Management's transition into retirement services and alternative asset management, making it one of the world's largest alternative asset managers."
-        },
-        {
-          "heading": "Private Markets",
-          "body": "Rowan has emphasized the importance of private markets for diversification, arguing that most investors have zero exposure to high-growth private companies like Anthropic, OpenAI and SpaceX."
-        },
-        {
-          "heading": "Technology and the Economy",
-          "body": "Rowan has spoken about the proliferation of AI across the economy and the assumption that every job will be replaced or enhanced by software, highlighting the need for investors to adapt to these changes."
-        }
-      ]
-    },
-    "net_worth": "$577.0M"
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -15499,6 +15465,67 @@
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 265,
+    "name": "Marc Rowan",
+    "slug": "mark-rowan",
+    "bio": "Marc Rowan is the CEO of Apollo Global Management, a leading firm in the transition into retirement services and alternative asset management. He has been instrumental in the firm's growth and diversification, emphasizing clean sheet thinking and adaptability in a rapidly changing market.",
+    "known_for": "His leadership in transforming Apollo Global Management into one of the world's largest alternative asset managers and his insights on the importance of private markets for diversification.",
+    "net_worth_usd": 577000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/4157/marc-j-rowan",
+    "net_worth_updated_at": "2026-05-27T12:04:09.655698",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-27 17:03:40",
+    "last_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-27",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "High-growth private companies like Anthropic, OpenAI, and SpaceX offer significant investment opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market.",
+    "supporting_takeaway": "High-growth private companies like Anthropic, OpenAI, and SpaceX offer significant investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-27T12:04:08.533279",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Marc Rowan",
+      "fetched_at": "2026-05-27T17:04:08.532910+00:00",
+      "cliff_notes": "Marc Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate. Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community.",
+      "derived": {
+        "current_role": "CEO of Apollo Global Management",
+        "former_positions": "Distressed investing at Drexel; Founder of Apollo Global Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Marc Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate.",
+        "Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community."
+      ],
+      "sections": [
+        {
+          "heading": "Apollo Global Management",
+          "body": "Marc Rowan has led Apollo Global Management's transition into retirement services and alternative asset management, making it one of the world's largest alternative asset managers."
+        },
+        {
+          "heading": "Private Markets",
+          "body": "Rowan has emphasized the importance of private markets for diversification, arguing that most investors have zero exposure to high-growth private companies like Anthropic, OpenAI and SpaceX."
+        },
+        {
+          "heading": "Technology and the Economy",
+          "body": "Rowan has spoken about the proliferation of AI across the economy and the assumption that every job will be replaced or enhanced by software, highlighting the need for investors to adapt to these changes."
+        }
+      ]
+    },
+    "net_worth": "$577.0M"
   },
   {
     "id": 264,
