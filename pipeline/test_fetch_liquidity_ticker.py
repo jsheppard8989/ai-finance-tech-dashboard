@@ -335,6 +335,13 @@ def test_no_bet_or_grading_copy_in_ticker_script_or_ui():
     assert hdr_end < aside_pos < spill_pos < plumb_pos
     assert "prefers-reduced-motion: reduce" in html_text
     assert "animation-play-state: paused" in html_text
+    # One copy of the 6 inputs; composite stays pinned in the left rail, not the track.
+    assert 'id="lt-group-dup"' not in html_text
+    assert aside_html.count('id="lt-group-primary"') == 1
+    assert 'id="lt-pad"' in aside_html
+    assert "LT_PX_PER_SEC" in js_m.group(0)
+    assert "layoutTicker" in js_m.group(0)
+    assert "--lt-from" in html_text and "--lt-to" in html_text
 
 
 def test_tests_never_touch_real_site_data():
