@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-11-24T14:02:18.789422",
+  generatedAt: "2026-11-24T21:47:28.432194",
   chartsVersion: "2026-11-24T14:01:39.811683",
   priceSnapshot: {
   "AAPL": {
@@ -1703,7 +1703,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-11-23",
-      "summary": "Gavin Baker argues that the market is underestimating the economic return from AI capex because standard ROI math focuses on incremental advertising or subscription revenue and misses two major sources of value: fast-growing private companies built on open source, and on-prem GPU deployments for open-weight models. He says that makes the current semiconductor/AI pullback look less like a simple capex air pocket and more like a second-derivative setup the market is misreading.\n\nHe also says the AI infrastructure buildout may last much longer than most semiconductor cycles, comparing it to railroads and suggesting this could be a multi-decade buildout rather than a short boom-bust. On the monitoring side, he says the most important fundamental tells are whether AI keeps becoming more economically useful and whether token demand elasticity stays positive; in his view, rising GPU rental prices are one of the clearest market signals of that improvement.\n\nA separate thread is Nvidia governance. Baker says Jensen Huang\u2019s decades of supplier relationships are a unique advantage, and that Jensen leaving \u2014 or the board refusing to reinstate him \u2014 would be a major positive for competitors and negative for Nvidia shareholders. The episode was recorded on Nov.\n\nHe also flags valuation dislocations across parts of the semiconductor and AI ecosystem, saying some non-memory companies with intellectual property and share gains are still at low multiples. The main bear case, in his telling, is not valuation alone but whether the returns to intelligence eventually stop compounding economically, especially if models become small enough that they stop producing rising utility.",
+      "summary": "Gavin Baker argues that the market is underestimating the economic return from AI capex because standard ROI math focuses on incremental advertising or subscription revenue and misses two major sources of value: fast-growing private companies built on open source, and on-prem GPU deployments for open-weight models. He says that makes the current semiconductor/AI pullback look less like a simple capex air pocket and more like a second-derivative setup the market is misreading.\n\nHe also says the AI infrastructure buildout may last much longer than most semiconductor cycles, comparing it to railroads and suggesting this could be a multi-decade buildout rather than a short boom-bust. On the monitoring side, he says the most important fundamental tells are whether AI keeps becoming more economically useful and whether token demand elasticity stays positive; in his view, rising GPU rental prices are one of the clearest market signals of that improvement.\n\nA separate thread is Nvidia governance. Baker says Jensen Huang\u2019s decades of supplier relationships are a unique advantage, and that Jensen leaving \u2014 or the board refusing to reinstate him \u2014 would be a major positive for competitors and negative for Nvidia shareholders. The episode was recorded on Nov. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time.\n\nHe also flags valuation dislocations across parts of the semiconductor and AI ecosystem, saying some non-memory companies with intellectual property and share gains are still at low multiples. The main bear case, in his telling, is not valuation alone but whether the returns to intelligence eventually stop compounding economically, especially if models become small enough that they stop producing rising utility.",
       "key_takeaway": "The market is mispricing AI semicapex because it is missing open-source and on-prem economics that could keep returns and demand rising longer than expected.",
       "tickers_mentioned": [
         "NVDA"
@@ -1916,8 +1916,7 @@ const dashboardData = {
       "key_takeaway": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
       "tickers_mentioned": [
         "TSLA",
-        "GOOGL",
-        "ANTR"
+        "GOOGL"
       ],
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -1985,7 +1984,6 @@ const dashboardData = {
       "tickers_mentioned": [
         "AAPL",
         "MSFT",
-        "LINUX",
         "GOOGL"
       ],
       "sentiment": "neutral",
@@ -22705,7 +22703,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-11-23",
-      "summary": "Gavin Baker argues that the market is underestimating the economic return from AI capex because standard ROI math focuses on incremental advertising or subscription revenue and misses two major sources of value: fast-growing private companies built on open source, and on-prem GPU deployments for open-weight models. He says that makes the current semiconductor/AI pullback look less like a simple capex air pocket and more like a second-derivative setup the market is misreading.\n\nHe also says the AI infrastructure buildout may last much longer than most semiconductor cycles, comparing it to railroads and suggesting this could be a multi-decade buildout rather than a short boom-bust. On the monitoring side, he says the most important fundamental tells are whether AI keeps becoming more economically useful and whether token demand elasticity stays positive; in his view, rising GPU rental prices are one of the clearest market signals of that improvement.\n\nA separate thread is Nvidia governance. Baker says Jensen Huang\u2019s decades of supplier relationships are a unique advantage, and that Jensen leaving \u2014 or the board refusing to reinstate him \u2014 would be a major positive for competitors and negative for Nvidia shareholders. The episode was recorded on Nov.\n\nHe also flags valuation dislocations across parts of the semiconductor and AI ecosystem, saying some non-memory companies with intellectual property and share gains are still at low multiples. The main bear case, in his telling, is not valuation alone but whether the returns to intelligence eventually stop compounding economically, especially if models become small enough that they stop producing rising utility.",
+      "summary": "Gavin Baker argues that the market is underestimating the economic return from AI capex because standard ROI math focuses on incremental advertising or subscription revenue and misses two major sources of value: fast-growing private companies built on open source, and on-prem GPU deployments for open-weight models. He says that makes the current semiconductor/AI pullback look less like a simple capex air pocket and more like a second-derivative setup the market is misreading.\n\nHe also says the AI infrastructure buildout may last much longer than most semiconductor cycles, comparing it to railroads and suggesting this could be a multi-decade buildout rather than a short boom-bust. On the monitoring side, he says the most important fundamental tells are whether AI keeps becoming more economically useful and whether token demand elasticity stays positive; in his view, rising GPU rental prices are one of the clearest market signals of that improvement.\n\nA separate thread is Nvidia governance. Baker says Jensen Huang\u2019s decades of supplier relationships are a unique advantage, and that Jensen leaving \u2014 or the board refusing to reinstate him \u2014 would be a major positive for competitors and negative for Nvidia shareholders. The episode was recorded on Nov. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time.\n\nHe also flags valuation dislocations across parts of the semiconductor and AI ecosystem, saying some non-memory companies with intellectual property and share gains are still at low multiples. The main bear case, in his telling, is not valuation alone but whether the returns to intelligence eventually stop compounding economically, especially if models become small enough that they stop producing rising utility.",
       "key_takeaway": "The market is mispricing AI semicapex because it is missing open-source and on-prem economics that could keep returns and demand rising longer than expected.",
       "tickers_mentioned": [
         "NVDA"
@@ -22869,8 +22867,7 @@ const dashboardData = {
       "key_takeaway": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
       "tickers_mentioned": [
         "TSLA",
-        "GOOGL",
-        "ANTR"
+        "GOOGL"
       ],
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -22990,7 +22987,6 @@ const dashboardData = {
       "tickers_mentioned": [
         "AAPL",
         "MSFT",
-        "LINUX",
         "GOOGL"
       ],
       "sentiment": "neutral",
@@ -66711,11 +66707,6 @@ const dashboardData = {
         "positioning": "Watch",
         "risk": "Windows could neutralize the claim quickly if it becomes the best-supported enterprise surface for agents through Copilot-style system integration, admin controls, and broad distribution."
       },
-      "LINUX": {
-        "rationale": "Linux is the core beneficiary in the episode. The case is that command lines, predictable config files, and informative errors are exactly what agents can exploit, making Linux the most natural base layer for an agent-first desktop.",
-        "positioning": "Watch",
-        "risk": "Linux\u2019s opportunity depends on usability and packaging catching up. If the ecosystem remains fragmented or too hobbyist for mainstream migration, the agent-native advantage may stay niche."
-      },
       "GOOGL": {
         "rationale": "Google is not a central subject, but it matters as a large model and distribution player in any open-vs-closed AI stack debate. The speaker\u2019s warning about concentration implies that large closed-model ecosystems could capture the economics if open alternatives do not stay competitive.",
         "positioning": "Watch",
@@ -67055,11 +67046,6 @@ const dashboardData = {
         "rationale": "Google is discussed as a serious frontier AI contender via Gemini for Neon, with a price/performance pitch and a rapid model release cadence. The episode suggests Google may be closing the gap through speed, distribution, and attractive pricing rather than pure benchmark dominance.",
         "positioning": "Watch",
         "risk": "The risk is that Gemini remains good but not clearly best, leaving Google with strong distribution but weaker pricing power and uncertain share gains versus OpenAI and Anthropic."
-      },
-      "ANTR": {
-        "rationale": "Anthropic is treated as a major demand-side customer for scarce compute, with discussion of continued renting from SpaceX and potential need for much more capacity. The episode frames Anthropic as a signal for where frontier demand is headed.",
-        "positioning": "Watch",
-        "risk": "The risk is that the company cannot secure enough economical compute, or that safety/regulatory constraints limit its ability to exploit additional capacity, weakening the scale thesis."
       }
     },
     "positioning_guidance": "",
@@ -68324,7 +68310,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-23",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "The market is mispricing AI semicapex because it is missing open-source and on-prem economics that could keep returns and demand rising longer than expected.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-23 \u2022 Gavin Baker: The AI Capex Cycle Will Be Longer Than the Market Thinks | Jensen, Nvidia, and Gavin's Best AI Bear Case",
     "last_proof_snippet": "This very important conversation with leading tech and semiconductor investor Gavin Baker of a Trades was recorded on November 18th at the tomorrow ex summit after Nvidia's earnings, but before Nvidia's board reinstated Jensen Huang as CEO.",
@@ -68641,70 +68627,6 @@ const dashboardData = {
     "net_worth": null
   },
   {
-    "id": 91,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
-    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "net_worth_usd": 19000000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
-    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
-    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
-    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
-    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
-    "voice_profile_updated_at": "2026-03-20 03:11:05",
-    "last_seen": "2026-11-16 20:16:12",
-    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-11-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.7,
-    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
-    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brett Adcock",
-      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
-      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
-      "derived": {
-        "current_role": "Entrepreneur and Investor"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
-        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Robotics",
-          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
-        },
-        {
-          "heading": "Neural Nets",
-          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
-        },
-        {
-          "heading": "Autonomous Manufacturing",
-          "body": "Adcock"
-        },
-        {
-          "heading": "Market Potential",
-          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
-        }
-      ]
-    },
-    "net_worth": "$19.00B"
-  },
-  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -68767,6 +68689,70 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 91,
+    "name": "Brett Adcock",
+    "slug": "brett-adcock",
+    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
+    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
+    "net_worth_usd": 19000000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
+    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
+    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
+    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
+    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
+    "voice_profile_updated_at": "2026-03-20 03:11:05",
+    "last_seen": "2026-11-16 20:16:12",
+    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-11-16",
+    "mention_score": 2,
+    "mention_score_decayed": 1.66,
+    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
+    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brett Adcock",
+      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
+      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
+      "derived": {
+        "current_role": "Entrepreneur and Investor"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
+        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Robotics",
+          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
+        },
+        {
+          "heading": "Neural Nets",
+          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
+        },
+        {
+          "heading": "Autonomous Manufacturing",
+          "body": "Adcock"
+        },
+        {
+          "heading": "Market Potential",
+          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
+        }
+      ]
+    },
+    "net_worth": "$19.00B"
   },
   {
     "id": 81,
@@ -69410,33 +69396,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 701,
-    "name": "Steve Jervitson",
-    "slug": "steve-jervitson",
-    "bio": "Venture capitalist and long-time investor associated with SpaceX, Tesla, and early internet companies. He discusses hard-tech investing, frontier AI, and long-term space and industrial themes.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-21 20:04:14",
-    "last_episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-11-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-21 \u2022 Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
-    "last_proof_snippet": "And we have a full house today. Listen, guys, I am so excited to have Steve with Jervitson on the pod today.",
-    "supporting_takeaway": "One host said SpaceX is adding roughly 500 megawatts of AI compute each month, using about 220,000 GP300 chips, and expects to pass one gigawatt a month by the end of 2027.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -69502,6 +69461,33 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 701,
+    "name": "Steve Jervitson",
+    "slug": "steve-jervitson",
+    "bio": "Venture capitalist and long-time investor associated with SpaceX, Tesla, and early internet companies. He discusses hard-tech investing, frontier AI, and long-term space and industrial themes.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-21 20:04:14",
+    "last_episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-11-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.93,
+    "last_main_idea": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-21 \u2022 Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+    "last_proof_snippet": "And we have a full house today. Listen, guys, I am so excited to have Steve with Jervitson on the pod today.",
+    "supporting_takeaway": "One host said SpaceX is adding roughly 500 megawatts of AI compute each month, using about 220,000 GP300 chips, and expects to pass one gigawatt a month by the end of 2027.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 700,
@@ -69575,7 +69561,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The key claim is that agent-first software will favor Linux and open models over traditional desktop platforms and closed AI stacks.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-20 \u2022 Why the Agent Era Needs a New Operating System | DHH",
     "last_proof_snippet": "Mac OS and Windows are just unfit for the age of agents.",
@@ -70040,7 +70026,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The key claim is that SEC reforms expanding ATM and offering access for smaller issuers could materially improve OTC capital formation and trading demand.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-14 \u2022 The Case for Public Markets | Cromwell Coulson on Small-Cap Capital Formation, Disclosure, and SEC Offering Reform",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it.",
@@ -70067,7 +70053,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Network effects, regulatory classification, and research-lab structure can create outsized winners in communications, but monopolies also attract disruption and regulatory pushback.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-14 \u2022 From the Telephone to Modern Computing | James Gleick",
     "last_proof_snippet": "People always dreamed of being able to communicate across long distances, but there was no practical way to do that until the telegraph arrived.",
@@ -70148,7 +70134,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-11-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Uranium is structurally under-supplied, and the market is still mispricing that deficit because investors are focused on AI-driven sentiment rather than contracting reality.",
     "last_proof_cite": "Macro Voices \u2022 2026-11-12 \u2022 MacroVoices #558 Mike Alkin: Uranium at a Crossroads",
     "last_proof_snippet": "There is not enough economically viable uranium to satisfy the world's existing reactor fleet of 440 operating reactors of which a little over 420 are actually producing electricity and the pipeline of aiding new reactors coming online.",
@@ -70364,7 +70350,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "AI will expand software opportunity by making startups faster and cheaper to build while leaving durable value in workflow-centric products like HubSpot rather than frontier-lab replacements.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-10 \u2022 HubSpot\u2019s Co-Founder on Finding Your Next Startup Idea",
     "last_proof_snippet": "Chad, G-P-T, and Claude Colworth, they're effectively the new OS. There's plenty of room to build software outside the path the frontier AI labs are racing down. Since then, HubSpot's been busy.",
@@ -71119,7 +71105,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "AI infrastructure is increasingly a liquidity trade: financing stress, not demand, is the main near-term risk, while top-tier credits remain funded first.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-01 \u2022 The Fed Has AI\u2019s Back | Dan Krausz on \u201cLiquidity Trap Door\u201d In AI Infrastructure and Why Policymakers Are Inclined to Support Financial Conditions",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it. I'm here with Dan Krauss of Blutore Asset Management. Dan, great to see you again.",
@@ -71127,65 +71113,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 300,
-    "name": "Ed Zitron",
-    "slug": "ed-zitron",
-    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
-    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Blunt, skeptical, and highly animated.",
-    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
-    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
-    "voice_profile_updated_at": "2026-10-02 03:15:54",
-    "last_seen": "2026-10-02 03:15:54",
-    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-01",
-    "mention_score": 2,
-    "mention_score_decayed": 0.59,
-    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
-    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Zitron",
-      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
-      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
-      "derived": {
-        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
-        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
-      ],
-      "sections": [
-        {
-          "heading": "AI and ROI",
-          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
-        },
-        {
-          "heading": "Contrarian Views",
-          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
-        },
-        {
-          "heading": "Podcast and Newsletter",
-          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
-        }
-      ]
-    }
   },
   {
     "id": 607,
@@ -71267,6 +71194,65 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 300,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
+    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Blunt, skeptical, and highly animated.",
+    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
+    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
+    "voice_profile_updated_at": "2026-10-02 03:15:54",
+    "last_seen": "2026-10-02 03:15:54",
+    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-01",
+    "mention_score": 2,
+    "mention_score_decayed": 0.57,
+    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
+    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Zitron",
+      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
+      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
+      "derived": {
+        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
+        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
+      ],
+      "sections": [
+        {
+          "heading": "AI and ROI",
+          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
+        },
+        {
+          "heading": "Contrarian Views",
+          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
+        },
+        {
+          "heading": "Podcast and Newsletter",
+          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
+        }
+      ]
+    }
   },
   {
     "id": 301,
@@ -71387,60 +71373,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 599,
-    "name": "David V\u00e9lez",
-    "slug": "david-v\u00e9lez",
-    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:25:46",
-    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
-    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
-    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 598,
-    "name": "Luke Gromen",
-    "slug": "luke-gromen",
-    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:24:49",
-    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
-    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 160,
     "name": "Ben Lamm",
     "slug": "ben-lamm",
@@ -71503,6 +71435,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 599,
+    "name": "David V\u00e9lez",
+    "slug": "david-v\u00e9lez",
+    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:25:46",
+    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
+    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
+    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 598,
+    "name": "Luke Gromen",
+    "slug": "luke-gromen",
+    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:24:49",
+    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
+    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 596,
@@ -71684,7 +71670,7 @@ const dashboardData = {
     "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market.",
     "supporting_takeaway": "Seelaus says rate moves hit with a lag, meaning the real damage shows up later when the tide goes out and the weakest borrowers are revealed.",
     "grokipedia_url": null,
@@ -72249,7 +72235,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-20 \u2022 The Programmable Data Center \u2014 Evan Conrad, SF Compute",
     "last_proof_snippet": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.",
@@ -72303,7 +72289,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-19 \u2022 Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
     "last_proof_snippet": "",
@@ -72661,7 +72647,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
     "last_proof_snippet": "",
@@ -73247,7 +73233,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-05 \u2022 Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
     "last_proof_snippet": "",
@@ -73274,7 +73260,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "J Mintzmyer argues dry bulk, not tankers, has the stronger setup because Capesize rates near $40,000 to $50,000 per day meet restrained supply and longer Guinea-to-China ton miles.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-06 \u2022 The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
     "last_proof_snippet": "Words like crisis or historic, really do not even begin to capture what is going on with tankers and the straight of hormones.",
@@ -73301,7 +73287,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Angela Strange said Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market, after Valon rebuilt mortgage servicing around a modern system of record.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-07 \u2022 How Valon Rebuilt a $13 Trillion Industry From Scratch",
     "last_proof_snippet": "Mortgage is top three in terms of undisrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us.",
@@ -73328,7 +73314,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armadin has already found over 90 production zero days since January 2026.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-06 \u2022 Building Defense for the Agentic Era: Kevin Mandia",
     "last_proof_snippet": "If you don't have a defense on this, you have a great offense to go up against. You want to be the Baltimore Ravens defense at 2000, you kind of want to have your practice offense really push you. That's what Armenians are going to do.",
@@ -73744,7 +73730,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -73771,7 +73757,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -74116,7 +74102,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The credit market is increasingly bifurcated, favoring high-quality borrowers while lower-quality borrowers face tighter conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-24 \u2022 Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
     "last_proof_snippet": "",
@@ -74172,7 +74158,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
     "last_proof_snippet": "",
@@ -75500,75 +75486,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 449,
-    "name": "John Farris",
-    "slug": "john-ferris",
-    "bio": "John Farris is a principal at Land Fund Partners, where he leads the acquisition and improvement of farmland in the Mid-South using sustainable irrigation and regenerative agriculture. He began his career in the 1990s as an agricultural economist at the World Bank, studying global food supply trends. He now focuses on water-rich agricultural land as a real asset investment, targeting the structural tension between shrinking arable land and rising global food demand. He recently discussed these themes on the Monetary Matters podcast, highlighting near-term risks to global grain reserves.",
-    "known_for": "Bridging agricultural economics and farmland investment to capitalize on structural global food-supply constraints and water-rich real assets.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Data-driven and regionally specific, citing acreage counts and aquifer timelines with confidence.",
-    "voice_style": "Builds investment cases through scarcity framing, comparing water reserves and land prices across regions to highlight relative value.",
-    "voice_delivery_notes": "Maintain a measured, conversational pace with slight emphasis on numerical comparisons like '300 years' and '140% higher'.",
-    "voice_profile_updated_at": "2026-09-12 03:39:42",
-    "last_seen": "2026-09-12 03:39:42",
-    "last_episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-09-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.19,
-    "last_main_idea": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-11 \u2022 Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-12T05:22:35.829155",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:kimi-k2.6",
-      "source_url": "",
-      "page_title": "John Farris",
-      "fetched_at": "2026-09-12T10:22:35.828786+00:00",
-      "cliff_notes": "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis. In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.\n\nFarris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance. He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets. By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing.",
-      "derived": {
-        "current_role": "Principal at Land Fund Partners",
-        "former_positions": "Agricultural economist at the World Bank"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis.",
-        "In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.",
-        "Farris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance.",
-        "He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets.",
-        "By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing."
-      ],
-      "sections": [
-        {
-          "heading": "Farmland Real Assets",
-          "body": "Farris treats productive farmland as an underappreciated real asset and inflation hedge. He argues that it sits outside traditional equity and bond markets while offering exposure to secular trends in global food demand."
-        },
-        {
-          "heading": "World Bank Agricultural Economics",
-          "body": "Straight out of graduate school in the 1990s, Farris worked at the World Bank as an agricultural economist studying global food supply trends. That research period shaped the macro thesis he later deployed with private investment capital."
-        },
-        {
-          "heading": "Sustainable Land Improvement",
-          "body": "At Land Fund Partners, Farris focuses on acquiring farmland in the Mid-South and upgrading it through sustainable irrigation and regenerative agriculture. The goal is to improve long-term soil health and operational yields."
-        },
-        {
-          "heading": "Global Food Security & Macro Trends",
-          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and low global grain reserves could amplify these pressures."
-        },
-        {
-          "heading": "Water-Rich Land Strategy",
-          "body": "A core element of his approach is targeting water-rich agricultural land. Access to reliable water is treated as a critical scarce resource that underpins the long-term productivity and defensive value of the portfolio."
-        }
-      ]
-    },
-    "net_worth": null
-  },
-  {
     "id": 218,
     "name": "Joe Schmidt",
     "slug": "joe-schmidt",
@@ -75627,6 +75544,135 @@ const dashboardData = {
       ]
     },
     "net_worth": "$21.0M"
+  },
+  {
+    "id": 449,
+    "name": "John Farris",
+    "slug": "john-ferris",
+    "bio": "John Farris is a principal at Land Fund Partners, where he leads the acquisition and improvement of farmland in the Mid-South using sustainable irrigation and regenerative agriculture. He began his career in the 1990s as an agricultural economist at the World Bank, studying global food supply trends. He now focuses on water-rich agricultural land as a real asset investment, targeting the structural tension between shrinking arable land and rising global food demand. He recently discussed these themes on the Monetary Matters podcast, highlighting near-term risks to global grain reserves.",
+    "known_for": "Bridging agricultural economics and farmland investment to capitalize on structural global food-supply constraints and water-rich real assets.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Data-driven and regionally specific, citing acreage counts and aquifer timelines with confidence.",
+    "voice_style": "Builds investment cases through scarcity framing, comparing water reserves and land prices across regions to highlight relative value.",
+    "voice_delivery_notes": "Maintain a measured, conversational pace with slight emphasis on numerical comparisons like '300 years' and '140% higher'.",
+    "voice_profile_updated_at": "2026-09-12 03:39:42",
+    "last_seen": "2026-09-12 03:39:42",
+    "last_episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.18,
+    "last_main_idea": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-11 \u2022 Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-12T05:22:35.829155",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "John Farris",
+      "fetched_at": "2026-09-12T10:22:35.828786+00:00",
+      "cliff_notes": "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis. In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.\n\nFarris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance. He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets. By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing.",
+      "derived": {
+        "current_role": "Principal at Land Fund Partners",
+        "former_positions": "Agricultural economist at the World Bank"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis.",
+        "In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.",
+        "Farris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance.",
+        "He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets.",
+        "By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing."
+      ],
+      "sections": [
+        {
+          "heading": "Farmland Real Assets",
+          "body": "Farris treats productive farmland as an underappreciated real asset and inflation hedge. He argues that it sits outside traditional equity and bond markets while offering exposure to secular trends in global food demand."
+        },
+        {
+          "heading": "World Bank Agricultural Economics",
+          "body": "Straight out of graduate school in the 1990s, Farris worked at the World Bank as an agricultural economist studying global food supply trends. That research period shaped the macro thesis he later deployed with private investment capital."
+        },
+        {
+          "heading": "Sustainable Land Improvement",
+          "body": "At Land Fund Partners, Farris focuses on acquiring farmland in the Mid-South and upgrading it through sustainable irrigation and regenerative agriculture. The goal is to improve long-term soil health and operational yields."
+        },
+        {
+          "heading": "Global Food Security & Macro Trends",
+          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and low global grain reserves could amplify these pressures."
+        },
+        {
+          "heading": "Water-Rich Land Strategy",
+          "body": "A core element of his approach is targeting water-rich agricultural land. Access to reliable water is treated as a critical scarce resource that underpins the long-term productivity and defensive value of the portfolio."
+        }
+      ]
+    },
+    "net_worth": null
+  },
+  {
+    "id": 448,
+    "name": "Jacob Bondas",
+    "slug": "jacob-bondas",
+    "bio": "Jacob Bondas is a technologist and strategist whose work centers on autonomous AI systems and machine learning development. He is recognized for insights on AI alignment and emergent agent behavior, particularly how advanced systems develop unanticipated capabilities as they scale. His commentary bridges technical safety research and strategic decision-making for complex, agentic AI deployments.",
+    "known_for": "Shaping investor and industry understanding of AI alignment risks and emergent behaviors in autonomous agent systems.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Philosophical and measured",
+    "voice_style": "Uses concise, declarative statements about the nature of AI growth and control",
+    "voice_delivery_notes": "Pause slightly after punchy observations to let the weight of containment risks land",
+    "voice_profile_updated_at": "2026-09-11 15:59:02",
+    "last_seen": "2026-09-11 15:59:02",
+    "last_episode_title": "Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.18,
+    "last_main_idea": "The transition from narrow AI to autonomous AGI agents is collapsing transaction costs, creating new tokenized economic layers, and turning mobility and labor markets upside down, offering asymmetric returns for investors positioned in compute infrastructure, agent orchestration, and automation platforms serving an aging global population.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-09 \u2022 Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
+    "last_proof_snippet": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
+    "supporting_takeaway": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-11T11:30:57.961365",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Jacob Bondas",
+      "fetched_at": "2026-09-11T16:30:57.960616+00:00",
+      "cliff_notes": "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity. In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence. While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent. This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Jacob Bondas is a technologist and strategist whose public profile is anchored in the artificial intelligence safety and alignment space. He has concentrated his efforts on autonomous AI systems and machine learning development, with particular attention to emergent agent behavior\u2014the phenomenon by which capabilities arise unpredictably as models scale in size and complexity.",
+        "In investor and policy circles, Bondas is known for articulating the strategic implications of these emergent properties, emphasizing how advanced AI agents may develop goals or reasoning patterns not explicitly programmed by their creators. His work sits at the confluence of technical machine learning research and high-level technology strategy, making it relevant to venture capitalists, corporate leaders, and governance bodies trying to anticipate the trajectory of artificial general intelligence.",
+        "While detailed public records of his prior roles and institutional affiliations are limited, his intellectual contributions have positioned him as a voice on the risks and opportunities associated with deploying increasingly autonomous systems in commercial and research environments. Bondas\u2019s focus on alignment reflects a broader industry concern: ensuring that as AI systems gain more agency, they remain steerable and aligned with human intent.",
+        "This perspective is especially pertinent as capital flows into foundation-model companies and agentic AI startups, where understanding emergent behavior is critical to due diligence and long-term risk management."
+      ],
+      "sections": [
+        {
+          "heading": "AI Alignment",
+          "body": "Bondas analyzes the technical and strategic challenges of keeping advanced AI systems aligned with operator intent as they gain greater autonomy. His insights address how misalignment risks scale with model capability, informing governance frameworks and investment due diligence."
+        },
+        {
+          "heading": "Emergent Agent Behavior",
+          "body": "He examines how unanticipated capabilities and behaviors can arise in large-scale machine learning systems. This work highlights why scaling autonomous agents requires new monitoring and evaluation paradigms beyond traditional software testing."
+        },
+        {
+          "heading": "Autonomous Systems Strategy",
+          "body": "As a strategist, Bondas focuses on development and deployment pathways for autonomous AI in research and commercial environments. His commentary bridges machine learning engineering with executive-level planning about safe rollout timelines."
+        },
+        {
+          "heading": "Machine Learning Development",
+          "body": "Bondas contributes to discourse on the practical construction of ML systems, emphasizing the intersection of capability advancement and safety engineering. His perspective is cited by technologists assessing the maturity of agentic AI platforms."
+        }
+      ]
+    }
   },
   {
     "id": 445,
@@ -81682,65 +81728,6 @@ const dashboardData = {
     "net_worth": "$350.00B"
   },
   {
-    "id": 295,
-    "name": "Joseph Krause",
-    "slug": "joseph-krauss",
-    "bio": "Joseph Krause is an expert in material science and AI-driven material discovery. He is known for pioneering the self-driving lab concept at Radical AI, a company that focuses on leveraging AI to revolutionize material science and discovery.",
-    "known_for": "Pioneering the self-driving lab concept at Radical AI, focusing on AI-driven material discovery.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-18 03:02:26",
-    "last_episode_title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-06-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Assess the competitive advantage of AI in material discovery.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
-    "last_proof_snippet": "This is the difference between AI for bio and AI for materials.",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-17T23:38:46.769683",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Joseph Krause",
-      "fetched_at": "2026-06-18T04:38:46.769185+00:00",
-      "cliff_notes": "Joseph Krause is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products. Krause's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science.",
-      "derived": {
-        "current_role": "CEO of Radical AI"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Joseph Krause is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products.",
-        "Krause's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Material Science",
-          "body": "Joseph Krause is recognized for his work in applying AI to material science, particularly in the development of new materials for various industries."
-        },
-        {
-          "heading": "Self-Driving Labs",
-          "body": "Krause pioneered the concept of self-driving labs at Radical AI, which utilize AI to automate and accelerate the process of material discovery."
-        },
-        {
-          "heading": "Material Discovery Challenges",
-          "body": "He has highlighted the challenges in capturing complex material data and using AI to improve material discovery processes beyond just identifying new materials."
-        }
-      ]
-    }
-  },
-  {
     "id": 73,
     "name": "Sam Altman",
     "slug": "sam-altman",
@@ -81800,6 +81787,65 @@ const dashboardData = {
       ]
     },
     "net_worth": "$2.10B"
+  },
+  {
+    "id": 295,
+    "name": "Joseph Krause",
+    "slug": "joseph-krauss",
+    "bio": "Joseph Krause is an expert in material science and AI-driven material discovery. He is known for pioneering the self-driving lab concept at Radical AI, a company that focuses on leveraging AI to revolutionize material science and discovery.",
+    "known_for": "Pioneering the self-driving lab concept at Radical AI, focusing on AI-driven material discovery.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-18 03:02:26",
+    "last_episode_title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Assess the competitive advantage of AI in material discovery.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
+    "last_proof_snippet": "This is the difference between AI for bio and AI for materials.",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-17T23:38:46.769683",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joseph Krause",
+      "fetched_at": "2026-06-18T04:38:46.769185+00:00",
+      "cliff_notes": "Joseph Krause is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products. Krause's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science.",
+      "derived": {
+        "current_role": "CEO of Radical AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Joseph Krause is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products.",
+        "Krause's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Material Science",
+          "body": "Joseph Krause is recognized for his work in applying AI to material science, particularly in the development of new materials for various industries."
+        },
+        {
+          "heading": "Self-Driving Labs",
+          "body": "Krause pioneered the concept of self-driving labs at Radical AI, which utilize AI to automate and accelerate the process of material discovery."
+        },
+        {
+          "heading": "Material Discovery Challenges",
+          "body": "He has highlighted the challenges in capturing complex material data and using AI to improve material discovery processes beyond just identifying new materials."
+        }
+      ]
+    }
   },
   {
     "id": 293,
@@ -83223,63 +83269,6 @@ const dashboardData = {
     "net_worth": "$577.0M"
   },
   {
-    "id": 264,
-    "name": "Robin Hanson",
-    "slug": "robin-hansen",
-    "bio": "Robin Hanson is an economist and advocate for prediction markets, recognized for his research on information aggregation. He has argued that speculative markets are unmatched mechanisms for aggregating information and advising decisions for individuals and organizations.",
-    "known_for": "His advocacy for prediction markets as effective tools for information aggregation and decision-making.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and persuasive",
-    "voice_style": "Factual and analytical, with a focus on the potential benefits and challenges of prediction markets.",
-    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points regarding the value and risks of prediction markets.",
-    "voice_profile_updated_at": "2026-05-27 03:01:30",
-    "last_seen": "2026-05-27 03:01:30",
-    "last_episode_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Prediction markets aggregate information to forecast outcomes, enhancing decision-making for businesses and individuals.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
-    "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff.",
-    "supporting_takeaway": "Regulatory risks, such as Minnesota's ban on prediction markets, pose significant challenges to their growth and acceptance.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-26T22:01:39.945377",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robin Hanson",
-      "fetched_at": "2026-05-27T03:01:39.945043+00:00",
-      "cliff_notes": "Robin Hanson is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hanson's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value. His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Robin Hanson is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hanson's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value.",
-        "His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making."
-      ],
-      "sections": [
-        {
-          "heading": "Prediction Markets",
-          "body": "Robin Hanson is known for his research and advocacy on the effectiveness of prediction markets in aggregating information. He believes these markets provide unmatched insights into various topics, from public policy to business strategy."
-        },
-        {
-          "heading": "Information Aggregation",
-          "body": "Hanson's work emphasizes the importance of information aggregation in decision-making processes. He argues that prediction markets are a powerful tool for individuals and organizations to make informed decisions based on aggregated speculative information."
-        },
-        {
-          "heading": "Business Strategy",
-          "body": "Hanson suggests that prediction markets can advise on significant business decisions, such as the impact of a CEO's tenure on a company's value, by providing conditional stock market scenarios that reflect different outcomes."
-        }
-      ]
-    }
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -83472,6 +83461,63 @@ const dashboardData = {
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 264,
+    "name": "Robin Hanson",
+    "slug": "robin-hansen",
+    "bio": "Robin Hanson is an economist and advocate for prediction markets, recognized for his research on information aggregation. He has argued that speculative markets are unmatched mechanisms for aggregating information and advising decisions for individuals and organizations.",
+    "known_for": "His advocacy for prediction markets as effective tools for information aggregation and decision-making.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and persuasive",
+    "voice_style": "Factual and analytical, with a focus on the potential benefits and challenges of prediction markets.",
+    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points regarding the value and risks of prediction markets.",
+    "voice_profile_updated_at": "2026-05-27 03:01:30",
+    "last_seen": "2026-05-27 03:01:30",
+    "last_episode_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Prediction markets aggregate information to forecast outcomes, enhancing decision-making for businesses and individuals.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
+    "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff.",
+    "supporting_takeaway": "Regulatory risks, such as Minnesota's ban on prediction markets, pose significant challenges to their growth and acceptance.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-26T22:01:39.945377",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robin Hanson",
+      "fetched_at": "2026-05-27T03:01:39.945043+00:00",
+      "cliff_notes": "Robin Hanson is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hanson's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value. His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Robin Hanson is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hanson's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value.",
+        "His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making."
+      ],
+      "sections": [
+        {
+          "heading": "Prediction Markets",
+          "body": "Robin Hanson is known for his research and advocacy on the effectiveness of prediction markets in aggregating information. He believes these markets provide unmatched insights into various topics, from public policy to business strategy."
+        },
+        {
+          "heading": "Information Aggregation",
+          "body": "Hanson's work emphasizes the importance of information aggregation in decision-making processes. He argues that prediction markets are a powerful tool for individuals and organizations to make informed decisions based on aggregated speculative information."
+        },
+        {
+          "heading": "Business Strategy",
+          "body": "Hanson suggests that prediction markets can advise on significant business decisions, such as the impact of a CEO's tenure on a company's value, by providing conditional stock market scenarios that reflect different outcomes."
+        }
+      ]
+    }
   },
   {
     "id": 263,
@@ -86193,7 +86239,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 7,
-    "mention_score_decayed": 1.65,
+    "mention_score_decayed": 1.61,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software.",
