@@ -2075,6 +2075,203 @@
     </div>
 
 
+    <!-- Live Paper-Trade Scoreboard (site/data/scoreboard.json) -->
+    <style>
+      #scoreboard {
+        margin: 1rem 0 1.25rem;
+        padding: 1rem 1.15rem;
+      }
+      .sb-header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem 1rem;
+        margin-bottom: 0.75rem;
+      }
+      .sb-title-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.55rem;
+      }
+      .sb-title-row h2 {
+        margin: 0;
+        font-size: 1.15rem;
+        color: #00d4ff;
+      }
+      .sb-pill {
+        display: inline-block;
+        padding: 0.18rem 0.55rem;
+        border-radius: 999px;
+        font-size: 0.68rem;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        background: rgba(0, 212, 255, 0.12);
+        color: #7dd3fc;
+        border: 1px solid rgba(0, 212, 255, 0.28);
+      }
+      .sb-pill-fallback {
+        background: rgba(251, 191, 36, 0.13);
+        color: #fcd34d;
+        border-color: rgba(251, 191, 36, 0.32);
+      }
+      .sb-pill-live {
+        background: rgba(52, 211, 153, 0.13);
+        color: #6ee7b7;
+        border-color: rgba(52, 211, 153, 0.32);
+      }
+      .sb-pill-stop {
+        background: rgba(248, 113, 113, 0.14);
+        color: #fca5a5;
+        border-color: rgba(248, 113, 113, 0.32);
+      }
+      .sb-pill-park {
+        background: rgba(148, 163, 184, 0.15);
+        color: #cbd5e1;
+        border-color: rgba(148, 163, 184, 0.3);
+      }
+      .sb-totals {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+        gap: 0.6rem;
+        margin-bottom: 0.9rem;
+      }
+      .sb-stat {
+        padding: 0.55rem 0.7rem;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .sb-stat-label {
+        font-size: 0.68rem;
+        color: #9ca3af;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin-bottom: 0.2rem;
+      }
+      .sb-stat-val {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #e6f1ff;
+      }
+      .sb-stat-sub {
+        font-size: 0.68rem;
+        color: #8892b0;
+        margin-top: 0.1rem;
+      }
+      .sb-pos { color: #34d399; }
+      .sb-neg { color: #f87171; }
+      .sb-muted { color: #9ca3af; }
+      .sb-subhead {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #cbd5e1;
+        margin: 0.9rem 0 0.45rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .sb-table-wrap {
+        width: 100%;
+        overflow-x: auto;
+      }
+      .sb-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.8rem;
+      }
+      .sb-table th {
+        text-align: left;
+        font-size: 0.68rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: #9ca3af;
+        padding: 0.45rem 0.55rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        white-space: nowrap;
+      }
+      .sb-table td {
+        padding: 0.55rem 0.55rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        vertical-align: top;
+        color: #dbe4f3;
+      }
+      .sb-table tr:last-child td { border-bottom: none; }
+      .sb-ticker {
+        font-weight: 700;
+        font-size: 0.88rem;
+        color: #00d4ff;
+        text-decoration: none;
+      }
+      a.sb-ticker:hover { text-decoration: underline; }
+      .sb-cell-sub {
+        display: block;
+        font-size: 0.7rem;
+        color: #8892b0;
+        margin-top: 0.15rem;
+        line-height: 1.35;
+      }
+      .sb-cards { display: none; }
+      .sb-card {
+        padding: 0.7rem 0.75rem;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        margin-bottom: 0.55rem;
+      }
+      .sb-card-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-bottom: 0.45rem;
+      }
+      .sb-card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.4rem 0.75rem;
+        font-size: 0.76rem;
+      }
+      .sb-card-kv span {
+        display: block;
+        font-size: 0.64rem;
+        color: #9ca3af;
+        text-transform: uppercase;
+      }
+      .sb-card-wrong {
+        margin-top: 0.45rem;
+        padding-top: 0.4rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+        font-size: 0.72rem;
+        color: #a8b2d1;
+      }
+      .sb-footnote {
+        margin-top: 0.75rem;
+        font-size: 0.7rem;
+        color: #8892b0;
+        line-height: 1.45;
+      }
+      @media (max-width: 780px) {
+        .sb-table-wrap { display: none; }
+        .sb-cards { display: block; }
+      }
+    </style>
+    <section id="scoreboard" class="card" aria-labelledby="scoreboard-heading">
+      <div class="sb-header">
+        <div class="sb-title-row">
+          <h2 id="scoreboard-heading">Live Paper-Trade Scoreboard</h2>
+          <span class="sb-pill">PAPER ONLY · $100K RESET (NOV 15)</span>
+        </div>
+        <div id="scoreboard-quote-meta" class="sb-pill sb-pill-fallback">Loading quotes…</div>
+      </div>
+      <div id="scoreboard-totals" class="sb-totals"></div>
+      <div id="scoreboard-open-wrap"></div>
+      <div id="scoreboard-closed-wrap"></div>
+      <div id="scoreboard-footnote" class="sb-footnote">
+        <noscript>Enable JavaScript to view live paper-trade marks from <code>site/data/scoreboard.json</code>.</noscript>
+      </div>
+    </section>
     <section id="signup" class="card signup-card" aria-labelledby="signup-heading">
       <h2 id="signup-heading">Get new research by email</h2>
       <p class="signup-dek">New pieces and trade updates. Email only, unsubscribe anytime.</p>
@@ -2085,6 +2282,7 @@
       </form>
       <p class="signup-note">We won't send you spam. Unsubscribe at any time.</p>
     </section>
+
 
     <div class="grid">
       <!-- Left Column - Portfolio + Overton Window -->
@@ -3889,6 +4087,206 @@
       });
     }
     if (document.readyState === 'complete') arm(); else addEventListener('load', arm);
+  })();
+  </script>
+  <script>
+  (function () {
+    var root = document.getElementById('scoreboard');
+    if (!root) return;
+    var quoteMetaEl = document.getElementById('scoreboard-quote-meta');
+    var totalsEl = document.getElementById('scoreboard-totals');
+    var openWrapEl = document.getElementById('scoreboard-open-wrap');
+    var closedWrapEl = document.getElementById('scoreboard-closed-wrap');
+    var footEl = document.getElementById('scoreboard-footnote');
+
+    function esc(v) {
+      return String(v == null ? '' : v)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function fmtMoney(n, signed) {
+      var num = Number(n);
+      if (!isFinite(num)) return '—';
+      var abs = Math.abs(num).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      if (num < 0) return '-$' + abs;
+      if (signed && num > 0) return '+$' + abs;
+      return '$' + abs;
+    }
+
+    function fmtPct(n) {
+      var num = Number(n);
+      if (!isFinite(num)) return '';
+      return (num > 0 ? '+' : '') + num.toFixed(2) + '%';
+    }
+
+    function fmtDate(iso) {
+      if (!iso) return '—';
+      var parts = String(iso).slice(0, 10).split('-');
+      if (parts.length !== 3) return esc(iso);
+      var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      var y = parts[0], m = months[parseInt(parts[1], 10) - 1] || parts[1], d = parseInt(parts[2], 10);
+      return y === '2026' ? (m + ' ' + d) : (m + ' ' + d + ', ' + y);
+    }
+
+    function pnlClass(n) {
+      var num = Number(n);
+      if (!isFinite(num) || num === 0) return 'sb-muted';
+      return num > 0 ? 'sb-pos' : 'sb-neg';
+    }
+
+    function statusBadge(r) {
+      var cls = 'sb-pill';
+      if (r.is_cash_park) cls += ' sb-pill-park';
+      else if (r.status === 'closed_stop') cls += ' sb-pill-stop';
+      else if (r.status === 'open') cls += ' sb-pill-live';
+      return '<span class="' + cls + '">' + esc(r.status_label || r.status || 'Open') + '</span>';
+    }
+
+    function tickerHtml(r) {
+      var label = esc(r.ticker || '—');
+      if (r.research_url) {
+        return '<a class="sb-ticker" href="' + esc(r.research_url) + '">' + label + '</a>';
+      }
+      return '<span class="sb-ticker">' + label + '</span>';
+    }
+
+    function quoteBadgeHtml(r) {
+      if (!r.quote_time_label && !r.quote_source) return '';
+      var lbl = r.is_fallback_quote
+        ? ('Saved quote · ' + (r.quote_time_label || r.quote_source))
+        : (r.quote_time_label || r.quote_source);
+      return '<span class="sb-cell-sub">' + esc(lbl) + '</span>';
+    }
+
+    function renderTotals(data) {
+      var t = data.totals || {};
+      var uCls = pnlClass(t.unrealized_pnl);
+      var rCls = pnlClass(t.realized_pnl_since_reset);
+      var totCls = pnlClass(t.total_pnl_since_reset);
+      var openSummary = (t.open_official_count || 0) + ' open'
+        + (t.cash_park_count ? (' + ' + t.cash_park_count + ' cash park') : '');
+      var closedSummary = (t.closed_since_reset_count || 0) + ' closed since Nov 15'
+        + (t.historical_shown_count ? (' (+' + t.historical_shown_count + ' LRCX)') : '');
+      totalsEl.innerHTML = [
+        '<div class="sb-stat"><div class="sb-stat-label">Book Value</div><div class="sb-stat-val">' + fmtMoney(t.book_value) + '</div><div class="sb-stat-sub">Start: ' + fmtMoney(t.starting_cash) + '</div></div>',
+        '<div class="sb-stat"><div class="sb-stat-label">Unrealized P&amp;L</div><div class="sb-stat-val ' + uCls + '">' + fmtMoney(t.unrealized_pnl, true) + '</div><div class="sb-stat-sub">Open value: ' + fmtMoney(t.open_value) + '</div></div>',
+        '<div class="sb-stat"><div class="sb-stat-label">Total Since Nov 15</div><div class="sb-stat-val ' + totCls + '">' + fmtMoney(t.total_pnl_since_reset, true) + ' (' + fmtPct(t.total_return_pct) + ')</div><div class="sb-stat-sub ' + rCls + '">Realized: ' + fmtMoney(t.realized_pnl_since_reset, true) + '</div></div>',
+        '<div class="sb-stat"><div class="sb-stat-label">Cash &amp; Trades</div><div class="sb-stat-val">' + fmtMoney(t.cash) + '</div><div class="sb-stat-sub">' + esc(openSummary + ' · ' + closedSummary) + '</div></div>'
+      ].join('');
+    }
+
+    function renderOpen(rows) {
+      if (!rows || !rows.length) {
+        openWrapEl.innerHTML = '<div class="sb-subhead">Open Positions</div><p class="sb-muted" style="font-size:0.8rem;">No open paper positions.</p>';
+        return;
+      }
+      var thead = '<thead><tr><th>Trade</th><th>Entry</th><th>Strike &amp; Expiry</th><th>Max Loss</th><th>Today&#39;s Mark</th><th>Unrealized P&amp;L</th><th>Wrong If</th></tr></thead>';
+      var trs = rows.map(function (r) {
+        var markTxt = r.current_mark != null ? ('$' + Number(r.current_mark).toFixed(2)) : '—';
+        var expTxt = r.expiry ? fmtDate(r.expiry) : 'Cash park';
+        var maxSub = r.breakeven != null ? ('BE $' + Number(r.breakeven).toFixed(2)) : '';
+        return '<tr>'
+          + '<td>' + tickerHtml(r) + ' ' + statusBadge(r) + '<span class="sb-cell-sub">' + esc(r.structure) + (r.owner && !r.is_cash_park ? ' · ' + esc(r.owner) : '') + '</span></td>'
+          + '<td>' + esc(fmtDate(r.opened)) + '<span class="sb-cell-sub">' + esc(r.entry_detail || fmtMoney(r.cost)) + '</span></td>'
+          + '<td>' + esc(r.strike || '—') + '<span class="sb-cell-sub">Exp: ' + esc(expTxt) + '</span></td>'
+          + '<td>' + fmtMoney(r.max_loss) + (maxSub ? '<span class="sb-cell-sub">' + esc(maxSub) + '</span>' : '') + '</td>'
+          + '<td>' + esc(markTxt) + '<span class="sb-cell-sub">Val ' + fmtMoney(r.current_value) + '</span>' + quoteBadgeHtml(r) + '</td>'
+          + '<td class="' + pnlClass(r.unrealized_pnl) + '" style="font-weight:600;">' + fmtMoney(r.unrealized_pnl, true) + '<span class="sb-cell-sub">' + esc(fmtPct(r.return_pct)) + '</span></td>'
+          + '<td style="max-width:240px;">' + esc(r.wrong_if || '—') + '</td>'
+          + '</tr>';
+      }).join('');
+
+      var cards = rows.map(function (r) {
+        var markTxt = r.current_mark != null ? ('$' + Number(r.current_mark).toFixed(2)) : '—';
+        var expTxt = r.expiry ? fmtDate(r.expiry) : 'Cash park';
+        return '<div class="sb-card">'
+          + '<div class="sb-card-top"><div>' + tickerHtml(r) + ' ' + statusBadge(r) + '<span class="sb-cell-sub">' + esc(r.structure) + '</span></div>'
+          + '<div class="' + pnlClass(r.unrealized_pnl) + '" style="text-align:right;font-weight:700;">' + fmtMoney(r.unrealized_pnl, true) + '<span class="sb-cell-sub">' + esc(fmtPct(r.return_pct)) + '</span></div></div>'
+          + '<div class="sb-card-grid">'
+          + '<div class="sb-card-kv"><span>Entry</span>' + esc(r.entry_detail || fmtMoney(r.cost)) + '</div>'
+          + '<div class="sb-card-kv"><span>Strike &amp; Expiry</span>' + esc(r.strike || '—') + ' · ' + esc(expTxt) + '</div>'
+          + '<div class="sb-card-kv"><span>Today&#39;s Mark</span>' + esc(markTxt) + ' (Val ' + fmtMoney(r.current_value) + ')' + quoteBadgeHtml(r) + '</div>'
+          + '<div class="sb-card-kv"><span>Max Loss</span>' + fmtMoney(r.max_loss) + '</div>'
+          + '</div>'
+          + '<div class="sb-card-wrong"><strong>Wrong if:</strong> ' + esc(r.wrong_if || '—') + '</div>'
+          + '</div>';
+      }).join('');
+
+      openWrapEl.innerHTML = '<div class="sb-subhead">Open Positions (' + rows.length + ')</div>'
+        + '<div class="sb-table-wrap"><table class="sb-table">' + thead + '<tbody>' + trs + '</tbody></table></div>'
+        + '<div class="sb-cards">' + cards + '</div>';
+    }
+
+    function renderClosed(rows) {
+      if (!rows || !rows.length) {
+        closedWrapEl.innerHTML = '<div class="sb-subhead">Closed Trades</div><p class="sb-muted" style="font-size:0.8rem;">No closed trades yet since the Nov 15 reset.</p>';
+        return;
+      }
+      var thead = '<thead><tr><th>Trade</th><th>Entry</th><th>Strike &amp; Expiry</th><th>Max Loss</th><th>Exit</th><th>Realized P&amp;L</th><th>Wrong If</th></tr></thead>';
+      var trs = rows.map(function (r) {
+        var preTag = r.pre_reset ? ' <span class="sb-pill sb-pill-park">Pre-reset</span>' : '';
+        var expTxt = r.expiry ? fmtDate(r.expiry) : '—';
+        if (r.expiry_note) expTxt += ' (' + r.expiry_note + ')';
+        return '<tr>'
+          + '<td>' + tickerHtml(r) + ' ' + statusBadge(r) + preTag + '<span class="sb-cell-sub">' + esc(r.structure) + '</span></td>'
+          + '<td>' + esc(fmtDate(r.opened)) + '<span class="sb-cell-sub">' + esc(r.entry_detail || fmtMoney(r.cost)) + '</span></td>'
+          + '<td>' + esc(r.strike || '—') + '<span class="sb-cell-sub">Exp: ' + esc(expTxt) + '</span></td>'
+          + '<td>' + fmtMoney(r.max_loss) + '</td>'
+          + '<td>' + esc(fmtDate(r.closed)) + '<span class="sb-cell-sub">' + esc(r.exit_detail || fmtMoney(r.exit_value)) + '</span></td>'
+          + '<td class="' + pnlClass(r.realized_pnl) + '" style="font-weight:600;">' + fmtMoney(r.realized_pnl, true) + '<span class="sb-cell-sub">' + esc(fmtPct(r.return_pct)) + '</span></td>'
+          + '<td style="max-width:240px;">' + esc(r.wrong_if || '—') + '</td>'
+          + '</tr>';
+      }).join('');
+
+      var cards = rows.map(function (r) {
+        var preTag = r.pre_reset ? ' <span class="sb-pill sb-pill-park">Pre-reset</span>' : '';
+        var expTxt = r.expiry ? fmtDate(r.expiry) : '—';
+        return '<div class="sb-card">'
+          + '<div class="sb-card-top"><div>' + tickerHtml(r) + ' ' + statusBadge(r) + preTag + '<span class="sb-cell-sub">' + esc(r.structure) + '</span></div>'
+          + '<div class="' + pnlClass(r.realized_pnl) + '" style="text-align:right;font-weight:700;">' + fmtMoney(r.realized_pnl, true) + '<span class="sb-cell-sub">' + esc(fmtPct(r.return_pct)) + '</span></div></div>'
+          + '<div class="sb-card-grid">'
+          + '<div class="sb-card-kv"><span>Entry</span>' + esc(r.entry_detail || fmtMoney(r.cost)) + '</div>'
+          + '<div class="sb-card-kv"><span>Strike &amp; Expiry</span>' + esc(r.strike || '—') + ' · ' + esc(expTxt) + '</div>'
+          + '<div class="sb-card-kv"><span>Exit</span>' + esc(r.exit_detail || fmtMoney(r.exit_value)) + '</div>'
+          + '<div class="sb-card-kv"><span>Max Loss</span>' + fmtMoney(r.max_loss) + '</div>'
+          + '</div>'
+          + '<div class="sb-card-wrong"><strong>Wrong if:</strong> ' + esc(r.wrong_if || '—') + '</div>'
+          + '</div>';
+      }).join('');
+
+      closedWrapEl.innerHTML = '<div class="sb-subhead">Closed Trades (since Nov 15 reset + LRCX)</div>'
+        + '<div class="sb-table-wrap"><table class="sb-table">' + thead + '<tbody>' + trs + '</tbody></table></div>'
+        + '<div class="sb-cards">' + cards + '</div>';
+    }
+
+    fetch('./data/scoreboard.json?v=' + Date.now(), { cache: 'no-store' })
+      .then(function (resp) {
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        return resp.json();
+      })
+      .then(function (data) {
+        quoteMetaEl.className = 'sb-pill ' + (data.is_fallback_quote ? 'sb-pill-fallback' : 'sb-pill-live');
+        quoteMetaEl.textContent = data.is_fallback_quote
+          ? ('Saved quote fallback · ' + (data.quote_time_label || data.quote_source || ''))
+          : (data.quote_source || ('Robinhood quotes · ' + (data.quote_time_label || '')));
+
+        renderTotals(data);
+        renderOpen(data.open || []);
+        renderClosed(data.closed || []);
+
+        var t = data.totals || {};
+        var priorTxt = t.prior_book_realized_pnl != null
+          ? (' Prior pre-Nov 15 book: ' + fmtMoney(t.prior_book_realized_pnl, true) + ' realized (' + (t.prior_book_closed_wins || 0) + 'W/' + (t.prior_book_closed_losses || 0) + 'L on ' + fmtMoney(t.prior_book_starting_capital) + ').')
+          : '';
+        footEl.textContent = (data.fill_rule || '') + ' Updated ' + (data.generated_at_label || '') + '.' + priorTxt;
+      })
+      .catch(function () {
+        quoteMetaEl.textContent = 'Scoreboard unavailable';
+        totalsEl.innerHTML = '<div class="sb-muted" style="font-size:0.8rem;">Could not load live scoreboard data.</div>';
+      });
   })();
   </script>
 </body>
