@@ -2172,9 +2172,6 @@
       </p>
       <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:ORBCOMM-2_First-Stage_Landing_%2823271687254%29.jpg" target="_blank" rel="noopener">Photo: SpaceX (CC0), via Wikimedia Commons</a>
     </header>
-    <section id="signup" class="card" style="box-sizing: border-box; display: flex; justify-content: center; margin: 1rem auto; max-width: 700px; padding: 0.75rem;">
-      <script async data-uid="7ac38e24ff" src="https://scarcity-abundance.kit.com/7ac38e24ff/index.js"></script>
-    </section>
     <div class="landing-spill" aria-hidden="true"></div>
 
     <!-- Market Plumbing Widgets (compact band between header and grid) -->
@@ -2224,7 +2221,68 @@
 
     <!-- Latest research piece + scoreboard summary (full table lives on trades.html) -->
     <style>
-      #latest-piece, #scoreboard-summary { margin: 1rem 0 1.25rem; padding: 1rem 1.15rem; }
+      #latest-piece, #scoreboard-summary, #signup { margin: 1rem 0 1.25rem; padding: 1rem 1.15rem; }
+      #signup h2 { margin: 0 0 0.35rem; font-size: 1.15rem; }
+      #signup .signup-dek {
+        color: #a8b2d1;
+        font-size: 0.88rem;
+        line-height: 1.45;
+        margin: 0 0 0.75rem;
+      }
+      #signup .signup-form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        align-items: center;
+        margin: 0 0 0.55rem;
+        max-width: 36rem;
+      }
+      #signup .signup-form label.sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      #signup .signup-form input[type="email"] {
+        flex: 1 1 auto;
+        min-width: 12rem;
+        padding: 0.6rem 0.75rem;
+        border-radius: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background: rgba(255, 255, 255, 0.05);
+        color: #e8e8e8;
+        font-size: 0.9rem;
+        font-family: inherit;
+      }
+      #signup .signup-form input[type="email"]::placeholder {
+        color: #8892b0;
+      }
+      #signup .signup-form input[type="email"]:focus {
+        outline: none;
+        border-color: rgba(0, 212, 255, 0.5);
+        box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.15);
+      }
+      #signup .signup-form .submit-btn {
+        flex: 0 0 auto;
+        padding: 0.6rem 1.15rem;
+        font-family: inherit;
+      }
+      #signup .signup-note {
+        color: #8892b0;
+        font-size: 0.72rem;
+        line-height: 1.45;
+        margin: 0;
+      }
+      @media (max-width: 768px) {
+        #signup .signup-form { flex-direction: column; align-items: stretch; max-width: none; }
+        #signup .signup-form input[type="email"] { min-width: 0; width: 100%; flex: 0 0 auto; }
+        #signup .signup-form .submit-btn { width: 100%; }
+      }
       #latest-piece .lp-kicker {
         text-transform: uppercase;
         letter-spacing: 0.08em;
@@ -2258,6 +2316,16 @@
       <div id="scoreboard-footnote" class="sb-footnote">
         <noscript>Enable JavaScript to view the scoreboard summary, or open <a href="trades.html">the full scoreboard</a>.</noscript>
       </div>
+    </section>
+    <section id="signup" class="card" aria-labelledby="signup-heading">
+      <h2 id="signup-heading">Get new research by email</h2>
+      <p class="signup-dek">New pieces and trade updates. Email only, unsubscribe anytime.</p>
+      <form class="signup-form" action="https://app.kit.com/forms/10236979/subscriptions" method="post" accept-charset="utf-8" data-sv-form="10236979" data-uid="7ac38e24ff">
+        <label class="sr-only" for="signup-email">Email Address</label>
+        <input id="signup-email" type="email" name="email_address" autocomplete="email" aria-label="Email Address" placeholder="Email Address" required>
+        <button type="submit" class="submit-btn">Subscribe</button>
+      </form>
+      <p class="signup-note">We won't send you spam. Unsubscribe at any time.</p>
     </section>
 
     <div class="grid">
