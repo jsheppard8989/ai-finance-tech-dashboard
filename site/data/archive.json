@@ -68,6 +68,39 @@
       ]
     },
     {
+      "id": 739,
+      "title": "MacroVoices #560 Daniel Lacalle: \u201cThe European ER AH Situation\u2026\u201d",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-11-25",
+      "summary": "Daniel Lacalle argues markets are likely to stay choppy until there is clarity on what the Fed and other central banks will do, and he says a December rate increase would add more volatility. He also pushes back on the idea that AI capex is a classic bubble, saying the market is really sorting winners from losers as earnings and returns on capital become clearer over the next couple of months.\n\nOn energy, Lacalle expects oil to settle around $68-$70 WTI rather than revisit extremes, and he says the geopolitical risk premium has eroded but not disappeared. He is skeptical that US natural gas prices will rise much from higher Europe-linked exports because domestic producers will prioritize domestic consumption, and he argues US LNG exports were built for supply security rather than a lasting US-Europe arbitrage.\n\nHe is bullish on gold over the long run because of central bank buying and constrained supply, but says near-term corrections can persist when the dollar strengthens. The dollar, in his view, is supported as the \u201cleast bad\u201d reserve alternative versus the euro, yuan, and other currencies, and he thinks central banks will resist an overly aggressive dollar move because of systemic stress.\n\nLacalle also says Europe is still stagnating despite stimulus and ECB action, and he sees euro weakness and currency depreciation as more plausible than a euro breakup. The market-desk segment reinforces the cautious tone: it notes a sharp but fragile rebound in semis, elevated VIX conditions, a gold volatility jump, and a Treasury rally that may be signaling tightening financial conditions ahead of the December Fed meeting.",
+      "key_takeaway": "The episode\u2019s central call is that volatility stays elevated until Fed clarity emerges, while AI capex, oil, gold, and the euro each face distinct, non-bubble-specific macro constraints.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 728,
+      "notable_quotes": [
+        {
+          "speaker": "Daniel Lacalle",
+          "quote": "I think that we are likely to see these choppy markets for a while until a market participants are more sure about what the Federal Reserve and Central banks are going to do."
+        },
+        {
+          "speaker": "Daniel Lacalle",
+          "quote": "I think that it's not a bubble, but there is obviously what we have seen always in technology, which is that some companies are going to succeed incredibly and have very, very strong return on capital employed, coming from those investments and others will have either losses or very weak returns."
+        },
+        {
+          "speaker": "Daniel Lacalle",
+          "quote": "The euro is the only world reserve currency with redenomination risk but I think that the architecture of the euro is built in a way that makes it very unlikely."
+        }
+      ]
+    },
+    {
       "id": 732,
       "title": "REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)",
       "source_type": "podcast",
@@ -387,7 +420,7 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-22",
       "archived_date": null,
@@ -17456,12 +17489,30 @@
       "last_mentioned_speaker": "Luukas Ilves"
     },
     {
+      "id": 359,
+      "term": "refined products",
+      "description": "Fuel outputs such as diesel and gasoline, which can stay tight even if crude oil itself weakens. Hansen treats this as the more important part of the energy inflation chain.",
+      "first_detected_date": "2026-11-19",
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Refined-product tightness can keep energy prices and inflation elevated even when crude corrects.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 701,
+      "first_detected_speaker": "Ole Hansen",
+      "last_mentioned_episode_id": 728,
+      "last_mentioned_speaker": "Daniel Lacalle"
+    },
+    {
       "id": 345,
       "term": "Second",
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
       "last_mentioned_date": "2026-11-25",
-      "mention_count": 31,
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17470,8 +17521,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 726,
-      "last_mentioned_speaker": "Ray Dalio"
+      "last_mentioned_episode_id": 728,
+      "last_mentioned_speaker": "Daniel Lacalle"
     },
     {
       "id": 342,
@@ -18072,8 +18123,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -18082,8 +18133,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 725,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 728,
+      "last_mentioned_speaker": "Daniel Lacalle"
     },
     {
       "id": 314,
@@ -19153,7 +19204,7 @@
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
       "last_mentioned_date": "2026-11-25",
-      "mention_count": 84,
+      "mention_count": 85,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -19162,8 +19213,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 727,
-      "last_mentioned_speaker": "Robert Cohen"
+      "last_mentioned_episode_id": 728,
+      "last_mentioned_speaker": "Daniel Lacalle"
     },
     {
       "id": 256,
@@ -19312,20 +19363,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Large-scale capital spending on AI infrastructure, including GPUs, custom accelerators, data centers, power projects, memory, chips, and construction capacity. In this episode, it centers on Amazon's expected $220 billion of 2026 capex and AWS's plan to buy 2 million Nvidia GPUs over the next couple of years.",
+      "description": "Capital spending on AI infrastructure such as chips, servers, and data centers. In the episode, it is treated as a powerful investment cycle rather than an automatic bubble.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-11-19",
-      "mention_count": 40,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It reframes cloud growth around physical supply chains, power availability, depreciation risk, and multi-year infrastructure planning.",
+      "investment_implications": "The key question is which companies convert spending into strong returns on capital versus weak or negative returns.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 701,
-      "last_mentioned_speaker": "Ole Hansen"
+      "last_mentioned_episode_id": 728,
+      "last_mentioned_speaker": "Daniel Lacalle"
     },
     {
       "id": 234,
