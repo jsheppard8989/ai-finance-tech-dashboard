@@ -15,7 +15,7 @@ In plain terms, the site:
 3. **Tracks the Overton Window** — terms and concepts that are emerging or contested in investing and tech discourse, including auto-curated **Emerging Terms** that can graduate into definitions.
 4. **Profiles podcast pundits** — guests with structured bios, “latest thesis” from the most recent analyzed episode, and transcript-grounded **proof lines** (citation + excerpt) when available.
 5. **Shows charts and archive views** — price visuals and searchable historical content that ages and archives according to pipeline rules.
-6. **Hosts supporting pages** — for example pipeline health, weekly debate audio, and contact flows where those are wired up.
+6. **Hosts supporting pages** — for example pipeline health and weekly debate audio.
 
 Everything the main page shows is **derived from one SQLite database** (`pipeline/dashboard.db`) and exported into JSON/JS under `site/data/`.
 

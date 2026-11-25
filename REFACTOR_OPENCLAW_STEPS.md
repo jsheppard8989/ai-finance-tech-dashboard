@@ -21,7 +21,6 @@ HEARTBEAT.md
 TOOLS.md
 memory/
 bip39.txt
-pending_contacts.json
 
 # Pipeline state & inbox (optional: uncomment to stop committing these too)
 # pipeline/state/
@@ -37,7 +36,7 @@ To also stop committing pipeline state and inbox, uncomment the last two lines i
 **Required — Openclaw and clearly sensitive:**
 
 ```bash
-git rm --cached AGENTS.md SOUL.md USER.md IDENTITY.md MEMORY.md HEARTBEAT.md TOOLS.md bip39.txt pending_contacts.json 2>/dev/null || true
+git rm --cached AGENTS.md SOUL.md USER.md IDENTITY.md MEMORY.md HEARTBEAT.md TOOLS.md bip39.txt 2>/dev/null || true
 git rm -r --cached memory/ 2>/dev/null || true
 ```
 

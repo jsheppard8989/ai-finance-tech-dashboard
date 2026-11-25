@@ -69,7 +69,6 @@ HEARTBEAT.md
 TOOLS.md
 memory/
 bip39.txt
-pending_contacts.json
 
 # Pipeline state & inbox (hide from explorer; keep in local git if needed)
 pipeline/state/

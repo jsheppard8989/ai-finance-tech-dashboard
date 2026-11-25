@@ -7,7 +7,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 echo "Untracking Openclaw and sensitive files (required)..."
-git rm --cached AGENTS.md SOUL.md USER.md IDENTITY.md MEMORY.md HEARTBEAT.md TOOLS.md bip39.txt pending_contacts.json 2>/dev/null || true
+git rm --cached AGENTS.md SOUL.md USER.md IDENTITY.md MEMORY.md HEARTBEAT.md TOOLS.md bip39.txt 2>/dev/null || true
 git rm -r --cached memory/ 2>/dev/null || true
 
 # Optional: uncomment to also stop tracking pipeline state and inbox
