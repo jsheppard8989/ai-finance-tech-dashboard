@@ -24,6 +24,10 @@
       box-sizing: border-box;
     }
 
+    html, body {
+      overflow-x: clip;
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
       background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
@@ -2003,10 +2007,143 @@
     .rv { opacity: 0; transform: translateY(16px); transition: opacity .7s var(--ease-out), transform .7s var(--ease-out); }
     .rv.rv-in { opacity: 1; transform: none; }
 
+    /* Liquidity Pulse strip directly under hero banner (full-viewport width) */
+    .liquidity-ticker {
+      position: relative;
+      z-index: 1;
+      width: 100vw;
+      max-width: 100vw;
+      margin-left: calc(50% - 50vw);
+      margin-top: -0.25rem;
+      margin-bottom: 0.85rem;
+      display: flex;
+      align-items: stretch;
+      height: 36px;
+      background: rgba(10, 14, 28, 0.92);
+      border-top: 1px solid rgba(0, 212, 255, 0.25);
+      border-bottom: 1px solid rgba(0, 212, 255, 0.25);
+      font-size: 0.75rem;
+      color: #e8e8e8;
+      overflow: hidden;
+    }
+    .lt-rail {
+      flex: 0 0 auto;
+      min-width: 215px;
+      padding: 3px 12px 3px 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-right: 1px solid rgba(0, 212, 255, 0.2);
+      background: rgba(10, 14, 28, 0.98);
+      white-space: nowrap;
+    }
+    .lt-rail-top {
+      display: flex;
+      align-items: baseline;
+      gap: 0.45rem;
+      line-height: 1.15;
+    }
+    .lt-title {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #e6f1ff;
+      letter-spacing: 0.01em;
+    }
+    .lt-score {
+      font-size: 0.78rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+    .lt-band {
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+    .lt-rail-sub {
+      display: flex;
+      align-items: center;
+      gap: 0.32rem;
+      font-size: 0.62rem;
+      line-height: 1.15;
+      color: #8892b0;
+    }
+    .lt-lean { color: #cbd5e1; font-weight: 500; }
+    .lt-note { color: #8892b0; }
+    .lt-risk-on { color: #34d399; }
+    .lt-neutral { color: #8892b0; }
+    .lt-risk-off { color: #f87171; }
+    .lt-viewport {
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+    .lt-track {
+      display: flex;
+      width: max-content;
+      align-items: center;
+      animation: lt-marquee 45s linear infinite;
+      will-change: transform;
+    }
+    .liquidity-ticker:hover .lt-track,
+    .liquidity-ticker:focus-within .lt-track {
+      animation-play-state: paused;
+    }
+    @keyframes lt-marquee {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+    .lt-group {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .lt-item {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.32rem;
+      padding: 0 1.05rem;
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+      border-right: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .lt-item:focus {
+      outline: 1px solid rgba(0, 212, 255, 0.55);
+      outline-offset: -2px;
+    }
+    .lt-lbl { color: #9ca3af; font-weight: 600; font-size: 0.68rem; letter-spacing: 0.03em; }
+    .lt-val { color: #e6f1ff; font-weight: 600; font-size: 0.74rem; }
+    .lt-chg { font-size: 0.68rem; font-weight: 600; }
+    .lt-up { color: #34d399; }
+    .lt-down { color: #f87171; }
+    .lt-flat { color: #8892b0; }
+    .lt-stale-date { color: #8892b0; font-size: 0.62rem; margin-left: 0.1rem; }
+
+    @media (max-width: 768px) {
+      .liquidity-ticker { flex-direction: column; height: auto; margin-top: 0; }
+      .lt-rail {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid rgba(0, 212, 255, 0.16);
+        padding: 4px 12px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.2rem 0.6rem;
+      }
+      .lt-viewport { height: 32px; }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
       .card::after { opacity: calc(var(--spill, 0) * 0.8); }
       .rv { opacity: 1; transform: none; }
+      .liquidity-ticker { height: auto; }
+      .lt-viewport { height: auto; overflow-x: auto; padding: 4px 8px; }
+      .lt-track { width: auto; flex-wrap: wrap; transform: none !important; }
+      .lt-group { flex-wrap: wrap; gap: 0.2rem 0; }
+      #lt-group-dup { display: none; }
     }
 </style>
   <link rel="stylesheet" href="./css/signup-card.css">
@@ -2028,6 +2165,26 @@
       </p>
       <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:ORBCOMM-2_First-Stage_Landing_%2823271687254%29.jpg" target="_blank" rel="noopener">Photo: SpaceX (CC0), via Wikimedia Commons</a>
     </header>
+    <aside id="liquidity-ticker" class="liquidity-ticker" aria-label="Liquidity Pulse, in-house model, not advice">
+      <div class="lt-rail" id="lt-rail">
+        <div class="lt-rail-top">
+          <span class="lt-title">Liquidity Pulse</span>
+          <span class="lt-score lt-neutral" id="lt-score">—</span>
+          <span class="lt-band lt-neutral" id="lt-band">Loading</span>
+        </div>
+        <div class="lt-rail-sub">
+          <span class="lt-lean" id="lt-lean"></span>
+          <span class="lt-sep" aria-hidden="true">·</span>
+          <span class="lt-note" id="lt-note">model, not advice</span>
+        </div>
+      </div>
+      <div class="lt-viewport" id="lt-viewport">
+        <div class="lt-track" id="lt-track">
+          <div class="lt-group" id="lt-group-primary"></div>
+          <div class="lt-group" id="lt-group-dup" aria-hidden="true"></div>
+        </div>
+      </div>
+    </aside>
     <div class="landing-spill" aria-hidden="true"></div>
 
     <!-- Market Plumbing Widgets (compact band between header and grid) -->
@@ -2045,23 +2202,6 @@
       #commentary-body.fit-box { flex: 1 1 0; min-height: 0; overflow: hidden; }
     </style>
     <div class="plumbing-widgets" style="margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem;">
-      <!-- Treasury Calendar -->
-      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
-        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📊 Treasury Calendar</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Upcoming coupon auctions and the next Quarterly Refunding date — when Treasury sets how much paper the market must absorb.</p>
-        <div id="treasury-widget" style="font-size: 0.8rem; color: #a8b2d1;">
-          <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
-        </div>
-        <details class="plumbing-expand" id="treasury-expand">
-          <summary>What this means</summary>
-          <div class="expand-content">
-            <strong>Quarterly refunding announcement</strong>: four times a year, the Treasury says how much longer-term debt it plans to sell over the next three months. Markets watch for surprises in the mix of short-term bills and longer notes and bonds.<br><br>
-            <strong>Auction results</strong>: <em>Bid-to-cover</em> is the dollars bid for every dollar sold. Higher means stronger demand. <em>Top accepted yield</em> is the highest rate Treasury accepted. <em>Allotment at top yield</em> is the share of bids at that rate that were filled. A <em>floating-rate note</em> pays interest that resets with the 13-week bill rate. A <em>reopening</em> is extra sales of a bond already on the market, so less time is left on it. Weak demand at auctions can push yields higher.
-          </div>
-        </details>
-        <div style="margin-top: 0.3rem;"><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding" target="_blank" rel="noopener" style="color: #9ca3af; font-size: 0.65rem;">Source: U.S. Treasury, Quarterly Refunding</a></div>
-      </div>
-
       <!-- Market Commentary (Ric's latest post; site/data/commentary/latest.json) -->
       <div class="card" id="market-commentary" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📝 Market Commentary</h3>
@@ -2712,7 +2852,7 @@
       loadPodcastGuests();
       loadOvertonWindow();
       loadNicheSources();
-      loadMarketWidgets();
+      loadLiquidityTicker();
     });
 
     // Load curated X/niche sources (Fed plumbing, macro, biotech)
@@ -2768,114 +2908,130 @@
     }
 
     // Staleness helpers for market plumbing cards (dates are YYYY-MM-DD, CT).
-    function _mdTodayISO() {
-      const p = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
-      const g = function(t) { return p.find(function(x) { return x.type === t; }).value; };
-      return g('year') + '-' + g('month') + '-' + g('day');
-    }
-    function _mdDaysBetween(a, b) {
-      return Math.round((new Date(b + 'T12:00:00Z') - new Date(a + 'T12:00:00Z')) / 86400000);
-    }
-    function _mdBusinessDaysBetween(a, b) {
-      let n = 0;
-      const d = new Date(a + 'T12:00:00Z');
-      const end = new Date(b + 'T12:00:00Z');
-      while (d < end) {
-        d.setUTCDate(d.getUTCDate() + 1);
-        const wd = d.getUTCDay();
-        if (wd !== 0 && wd !== 6) n++;
-      }
-      return n;
-    }
-    function _mdStaleBadge(reason) {
-      return '<span class="md-stale-badge" style="color: #f59e0b; margin-left: 0.5rem; font-size: 0.62rem;" title="' + reason + '">⚠ stale</span>';
-    }
+    async function loadLiquidityTicker() {
+      const scoreEl = document.getElementById('lt-score');
+      const bandEl = document.getElementById('lt-band');
+      const leanEl = document.getElementById('lt-lean');
+      const noteEl = document.getElementById('lt-note');
+      const primaryEl = document.getElementById('lt-group-primary');
+      const dupEl = document.getElementById('lt-group-dup');
+      if (!scoreEl || !primaryEl) return;
 
-    // Load the Treasury market plumbing widget.
-    async function loadMarketWidgets() {
+      function esc(s) {
+        return s == null ? '' : String(s)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      }
+
+      function bandClass(band) {
+        if (band === 'Risk-On') return 'lt-risk-on';
+        if (band === 'Risk-Off') return 'lt-risk-off';
+        return 'lt-neutral';
+      }
+
+      function formatDelta(item) {
+        if (item.status === 'stale') {
+          return '<span class="lt-stale-date">as of ' + esc(item.as_of || 'unknown') + '</span>';
+        }
+        const chg = item.change;
+        if (chg == null || Number.isNaN(Number(chg))) return '';
+        const n = Number(chg);
+        if (item.id === 'net_liq') {
+          if (Math.abs(n) < 1000) {
+            return '<span class="lt-chg lt-flat">▬ 0.00</span>';
+          }
+          const b = Math.abs(n) / 1000.0;
+          const dir = n > 0 ? '▲' : '▼';
+          const cls = n > 0 ? 'lt-up' : 'lt-down';
+          return '<span class="lt-chg ' + cls + '">' + dir + ' $' + b.toFixed(1) + 'B</span>';
+        }
+        const decimals = (item.id === 'move' || item.id === 'vix') ? 1 : 2;
+        if (n > 0) {
+          return '<span class="lt-chg lt-up">▲ ' + Math.abs(n).toFixed(decimals) + '</span>';
+        }
+        if (n < 0) {
+          return '<span class="lt-chg lt-down">▼ ' + Math.abs(n).toFixed(decimals) + '</span>';
+        }
+        return '<span class="lt-chg lt-flat">▬ ' + (0).toFixed(decimals) + '</span>';
+      }
+
+      function buildTooltip(item) {
+        const parts = [item.name || item.label || item.id];
+        if (item.as_of) {
+          parts.push('as of ' + item.as_of + (item.as_of_time_ct ? ' ' + item.as_of_time_ct + ' CT' : ''));
+        }
+        if (item.id === 'net_liq') {
+          const legs = [];
+          if (item.walcl_as_of) legs.push('WALCL ' + item.walcl_as_of);
+          if (item.wtregen_as_of) legs.push('TGA ' + item.wtregen_as_of);
+          if (item.rrp_as_of) legs.push('RRP ' + item.rrp_as_of);
+          if (legs.length) parts.push('(' + legs.join(', ') + ')');
+        }
+        if (item.source) parts.push('src: ' + item.source);
+        if (item.signed_z_winsorized != null) {
+          const sz = Number(item.signed_z_winsorized);
+          parts.push('signed z: ' + (sz >= 0 ? '+' : '') + sz.toFixed(2));
+        }
+        if (item.status === 'stale') parts.push('STALE');
+        return parts.join(' | ');
+      }
+
+      function renderItems(inputs, focusable) {
+        return (inputs || []).map(function(item) {
+          const tip = esc(buildTooltip(item));
+          const tab = focusable ? ' tabindex="0"' : '';
+          return '<span class="lt-item" title="' + tip + '"' + tab + '>' +
+            '<span class="lt-lbl">' + esc(item.label) + '</span>' +
+            '<span class="lt-val">' + esc(item.display || '—') + '</span>' +
+            formatDelta(item) +
+          '</span>';
+        }).join('');
+      }
+
       try {
-        const resp = await fetch('./data/market_data.json', { cache: 'no-cache' });
+        const resp = await fetch('./data/liquidity_ticker.json', { cache: 'no-cache' });
         if (!resp.ok) throw new Error('HTTP ' + resp.status);
         const data = await resp.json();
 
-        // Update Treasury widget
-        const treasuryEl = document.getElementById('treasury-widget');
-        if (treasuryEl && data.treasury_calendar) {
-          const tc = data.treasury_calendar;
-          const qra = tc.next_refunding_announcement;
-          const auctions = tc.upcoming_auctions || [];
-          const results = tc.recent_auction_results || [];
-          
-          let html = '';
-          
-          // Recent auction results (completed auctions with key metrics)
-          if (results.length > 0) {
-            html += '<div style="margin-bottom: 0.5rem;">';
-            results.slice(0, 2).forEach(function(r) {
-              const shortSec = r.security;
-              html += '<div style="font-size: 0.72rem; margin-bottom: 0.25rem; padding: 0.25rem 0; border-bottom: 1px solid rgba(0,212,255,0.15);">';
-              html += '<div style="color: #10b981; font-weight: 500;">' + r.date + ': ' + shortSec + ' <span style="color: #6b7280; font-weight: 400;">RESULTS</span></div>';
-              html += '<div style="color: #a8b2d1; font-size: 0.68rem; margin-top: 0.1rem;">';
-              if (r.high_yield_pct != null) {
-                html += '<span class="plumbing-num">' + Number(r.high_yield_pct).toFixed(3) + '%</span> <span title="The highest yield Treasury accepted. Every winning bidder gets this rate.">top accepted yield</span> · ';
-              } else if (r.high_discount_margin_pct != null) {
-                html += '<span title="For a floating-rate note: the extra interest paid above the 13-week bill rate">Spread over bill rate</span> <span class="plumbing-num">' + Number(r.high_discount_margin_pct).toFixed(3) + '%</span> · ';
-              }
-              const btcTxt = (r.bid_to_cover != null) ? Number(r.bid_to_cover).toFixed(2) : 'n/a';
-              const allocTxt = (r.allocation_at_high_pct != null) ? Number(r.allocation_at_high_pct).toFixed(2) + '%' : 'n/a';
-              html += '<span title="Dollars bid for every dollar sold. Higher means stronger demand.">Bid-to-cover</span> <span class="plumbing-num">' + btcTxt + '</span> · ';
-              html += '<span title="Share of bids at the top accepted yield that were filled">Allotment at top yield</span> <span class="plumbing-num">' + allocTxt + '</span>';
-              html += '</div>';
-              if (r.stranger_note) {
-                html += '<div style="color: #6b7280; font-size: 0.62rem; margin-top: 0.1rem; font-style: italic;">' + r.stranger_note + '</div>';
-              }
-              html += '</div>';
-            });
-            html += '</div>';
-          }
-          
-          if (qra && qra.date) {
-            html += '<div style="margin-bottom: 0.4rem;"><span style="color: #a8b2d1;">Next quarterly refunding announcement:</span> <span class="plumbing-num">' + qra.date + '</span> <span style="color: #6b7280; font-size: 0.65rem;">(' + (qra.status || 'est.') + ')</span></div>';
-          }
-          
-          if (auctions.length > 0) {
-            const nextThree = auctions.slice(0, 3);
-            const auctionLines = nextThree.map(function(a) {
-              const size = a.size_billions ? '<span class="plumbing-num-sm">$' + a.size_billions + 'B</span>' : '';
-              return '<div style="font-size: 0.72rem; color: #a8b2d1; margin-bottom: 0.15rem;">' + a.date + ': ' + a.security + ' ' + size + '</div>';
-            }).join('');
-            html += auctionLines;
-          }
-          
-          // Stale if any shown upcoming auction / QRA date has already passed,
-          // or the calendar hasn't been refreshed in 7+ days.
-          const todayIso = _mdTodayISO();
-          const pastUpcoming = auctions.slice(0, 3).some(function(a) { return a.date && a.date < todayIso; });
-          const pastQra = qra && qra.date && qra.date < todayIso;
-          const tcUpdated = (tc.last_updated || '').slice(0, 10);
-          const tcOld = tcUpdated && _mdDaysBetween(tcUpdated, todayIso) > 7;
-          if (tc._stale || pastUpcoming || pastQra || tcOld) {
-            const staleSince = (tc.last_updated || tc._stale_since || '').slice(0, 10);
-            const why = tc._stale ? ('Stale since ' + (staleSince || 'unknown') + ' (' + (tc._stale_reason || 'fetch failed') + ')') :
-              (pastUpcoming || pastQra) ? 'Shows an auction or refunding date that has already passed' :
-              'Calendar last updated ' + tcUpdated;
-            html += '<div style="font-size: 0.62rem;">' + _mdStaleBadge(why).replace('margin-left: 0.5rem; ', '') + '</div>';
-          }
+        const score = data.score;
+        const band = data.band || 'Unavailable';
+        const lean = data.lean || '';
+        const cls = bandClass(band);
 
-          if (html) {
-            treasuryEl.innerHTML = html;
-          }
+        scoreEl.className = 'lt-score ' + cls;
+        bandEl.className = 'lt-band ' + cls;
+
+        if (score != null && !Number.isNaN(Number(score))) {
+          const s = Number(score);
+          scoreEl.textContent = (s > 0 ? '+' : '') + String(s);
+        } else {
+          scoreEl.textContent = '—';
+        }
+        bandEl.textContent = band;
+        leanEl.textContent = lean;
+
+        if (data.stale) {
+          const asOfDate = (data.as_of_ct || '').slice(0, 10);
+          noteEl.textContent = (asOfDate ? 'as of ' + asOfDate + ' · ' : '') + 'model, not advice';
+        } else {
+          noteEl.textContent = 'model, not advice';
         }
 
+        const inputs = Array.isArray(data.inputs) ? data.inputs : [];
+        primaryEl.innerHTML = renderItems(inputs, true);
+        if (dupEl) {
+          dupEl.innerHTML = renderItems(inputs, false);
+        }
       } catch (e) {
-        console.warn('Could not load market_data.json:', e);
-        // Honest unavailable state — never leave silent "Coming soon" after parse/network failure
-        const unavailable =
-          '<span style="color: #f59e0b;">Unavailable</span>';
-        const hint =
-          '<div style="color: #6b7280; font-size: 0.65rem; margin-top: 0.2rem;">market_data.json stale/unavailable</div>';
-        const el = document.getElementById('treasury-widget');
-        if (el) el.innerHTML = unavailable + hint;
+        console.warn('Could not load liquidity_ticker.json:', e);
+        scoreEl.className = 'lt-score lt-neutral';
+        bandEl.className = 'lt-band lt-neutral';
+        scoreEl.textContent = '—';
+        bandEl.textContent = 'Unavailable';
+        leanEl.textContent = '';
+        noteEl.textContent = 'model, not advice';
       }
     }
 
