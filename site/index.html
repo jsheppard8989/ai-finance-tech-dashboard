@@ -1819,149 +1819,6 @@
       border-top-color: rgba(255, 255, 255, 0.1);
     }
 
-    /* Contact Form */
-    .contact-card {
-      max-width: 600px;
-      margin: 1rem auto;
-    }
-
-    .contact-form {
-      display: flex;
-      flex-direction: column;
-      gap: 0.6rem;
-    }
-
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      gap: 0.25rem;
-    }
-
-    .form-group label {
-      color: #00d4ff;
-      font-size: 0.9rem;
-      font-weight: 500;
-    }
-
-    .form-group input,
-    .form-group textarea {
-      background: rgba(0, 0, 0, 0.3);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      border-radius: 6px;
-      padding: 0.4rem 0.6rem;
-      color: #e8e8e8;
-      font-size: 0.9rem;
-      transition: border-color 0.2s;
-    }
-
-    .form-group input:focus,
-    .form-group textarea:focus {
-      outline: none;
-      border-color: #00d4ff;
-    }
-
-    .form-group input::placeholder,
-    .form-group textarea::placeholder {
-      color: #8892b0;
-    }
-
-    .form-hint {
-      color: #8892b0;
-      font-size: 0.8rem;
-    }
-
-    .checkbox-group {
-      margin-top: 0.5rem;
-    }
-
-    .checkbox-label {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.75rem;
-      cursor: pointer;
-      color: #e8e8e8;
-      font-size: 0.95rem;
-      line-height: 1.4;
-    }
-
-    .checkbox-label input[type="checkbox"] {
-      display: none;
-    }
-
-    .checkmark {
-      width: 20px;
-      height: 20px;
-      min-width: 20px;
-      background: rgba(0, 0, 0, 0.3);
-      border: 2px solid rgba(0, 212, 255, 0.4);
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.2s;
-      margin-top: 1px;
-    }
-
-    .checkbox-label input[type="checkbox"]:checked + .checkmark {
-      background: #00d4ff;
-      border-color: #00d4ff;
-    }
-
-    .checkbox-label input[type="checkbox"]:checked + .checkmark::after {
-      content: '✓';
-      color: #1a1a2e;
-      font-size: 14px;
-      font-weight: bold;
-    }
-
-    .checkbox-text {
-      color: #a8b2d1;
-    }
-
-    .submit-btn {
-      background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
-      border: none;
-      color: #fff;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      font-size: 0.9rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: opacity 0.2s, transform 0.1s;
-    }
-
-    .submit-btn:hover {
-      opacity: 0.9;
-    }
-
-    .submit-btn:active {
-      transform: scale(0.98);
-    }
-
-    .submit-btn:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-
-    .form-status {
-      margin-top: 1rem;
-      padding: 1rem;
-      border-radius: 8px;
-      font-size: 0.95rem;
-    }
-
-    .form-status.success {
-      background: rgba(76, 175, 80, 0.1);
-      border: 1px solid rgba(76, 175, 80, 0.3);
-      color: #4caf50;
-    }
-
-    .form-status.error {
-      background: rgba(244, 67, 54, 0.1);
-      border: 1px solid rgba(244, 67, 54, 0.3);
-      color: #f44336;
-    }
-
     /* Footer */
     footer {
       text-align: center;
@@ -2114,7 +1971,6 @@
       transition: transform .2s var(--ease-out), background-color .2s var(--ease-out), border-color .2s var(--ease-out), color .2s var(--ease-out), box-shadow .2s var(--ease-out);
     }
     .action-btn:hover, .chart-btn:hover, .title-ticker:hover, .play-tag:hover { transform: translateY(-1px); }
-    .submit-btn { transition: opacity .2s var(--ease-out), transform .12s var(--ease-out); }
 
     /* Landing-light spill: the booster's flame in the banner lights the cards below it.
        1) .landing-spill: one big warm radial gradient behind the cards, anchored under the booster (78% desktop, 50% phone).
@@ -2249,27 +2105,8 @@
 
       </div>
 
-      <!-- Right Column - Contact + Podcast Pundits + Niche Sources -->
+      <!-- Right Column - Podcast Pundits + Niche Sources -->
       <div class="right-col">
-        <!-- Simplified Contact Card -->
-        <div class="card contact-card" style="margin-bottom: 1rem; padding: 0.75rem;" data-fallback-email="">
-          <h2 style="font-size: 1rem; margin-bottom: 0.5rem;">📬 Get in touch</h2>
-          <form id="contactForm" class="contact-form" style="display: flex; flex-direction: column; gap: 0.5rem;">
-            <input type="text" id="contactInfo" name="contact" placeholder="Email or phone" required style="padding: 0.5rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.05); color: #e8e8e8; font-size: 0.85rem;">
-            <input type="text" id="contactName" name="name" placeholder="Name (optional)" style="padding: 0.5rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.05); color: #e8e8e8; font-size: 0.85rem;">
-            <textarea id="contactMessage" name="message" rows="2" placeholder="Message (optional)" style="padding: 0.5rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.05); color: #e8e8e8; font-size: 0.85rem; resize: vertical;"></textarea>
-            <div style="display: flex; align-items: center; gap: 0.5rem;">
-              <input type="checkbox" id="weeklyUpdates" name="weeklyUpdates" style="width: 14px; height: 14px;">
-              <label for="weeklyUpdates" style="font-size: 0.75rem; color: #8892b0;">Weekly updates</label>
-            </div>
-            <button type="submit" class="submit-btn" style="padding: 0.5rem; font-size: 0.8rem; background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%); border: none; border-radius: 6px; color: white; cursor: pointer;">
-              <span class="btn-text">Send</span>
-              <span class="btn-loading" style="display: none;">...</span>
-            </button>
-          </form>
-          <div id="formStatus" class="form-status" style="display: none; margin-top: 0.5rem; font-size: 0.8rem;"></div>
-        </div>
-
         <div class="card" id="guests-card">
           <h2>Pundits & Sources</h2>
           <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Podcast guests + curated X/niche voices — tap for profile and latest angle.</p>
@@ -4010,100 +3847,6 @@
       modal.classList.add('active');
     }
 
-    // Contact Form Handler
-    document.getElementById('contactForm').addEventListener('submit', async function(e) {
-      e.preventDefault();
-
-      const submitBtn = this.querySelector('.submit-btn');
-      const btnText = submitBtn.querySelector('.btn-text');
-      const btnLoading = submitBtn.querySelector('.btn-loading');
-      const statusDiv = document.getElementById('formStatus');
-
-      // Get form data
-      const name = document.getElementById('contactName').value.trim();
-      const contact = document.getElementById('contactInfo').value.trim();
-      const message = document.getElementById('contactMessage').value.trim();
-      const wantsWeekly = document.getElementById('weeklyUpdates').checked;
-
-      // Validate contact info
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
-
-      const isEmail = emailRegex.test(contact);
-      const isPhone = phoneRegex.test(contact.replace(/\s/g, ''));
-
-      if (!isEmail && !isPhone) {
-        showStatus('Please enter a valid email address or phone number (e.g., you@email.com or +1-555-123-4567)', 'error');
-        return;
-      }
-
-      // Show loading state
-      submitBtn.disabled = true;
-      btnText.style.display = 'none';
-      btnLoading.style.display = 'inline';
-
-      try {
-        // Send to Formspree backend (or override via CONTACT_API_URL if set)
-        const defaultUrl = 'https://formspree.io/f/mqeyzgre';
-        const apiUrl = (typeof window.CONTACT_API_URL === 'string' && window.CONTACT_API_URL)
-          ? window.CONTACT_API_URL
-          : defaultUrl;
-
-        const response = await fetch(apiUrl, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-          },
-          body: JSON.stringify({
-            name: name || 'Anonymous',
-            contact: contact,
-            message: message || '',
-            wantsWeekly: wantsWeekly
-          })
-        });
-
-        if (!response.ok) {
-          throw new Error('Server error: ' + response.status);
-        }
-
-        // Show success message
-        const weeklyText = wantsWeekly ? ' You\'ve opted in for weekly updates.' : '';
-        showStatus(
-          `✓ Thanks${name ? ', ' + name : ''}! We've received your ${isEmail ? 'email' : 'phone number'}.${weeklyText} ` +
-          `Reply STOP anytime to unsubscribe.`,
-          'success'
-        );
-
-        // Reset form
-        this.reset();
-
-      } catch (error) {
-        if (DEBUG_SITE) console.error('Form submission error:', error);
-        let msg = 'Something went wrong sending your message. Please try again later.';
-        const statusDiv = document.getElementById('formStatus');
-        statusDiv.innerHTML = msg;
-        statusDiv.className = 'form-status error';
-        statusDiv.style.display = 'block';
-        setTimeout(() => { statusDiv.style.display = 'none'; }, 15000);
-      } finally {
-        submitBtn.disabled = false;
-        btnText.style.display = 'inline';
-        btnLoading.style.display = 'none';
-      }
-    });
-
-    function showStatus(message, type) {
-      const statusDiv = document.getElementById('formStatus');
-      statusDiv.textContent = message;
-      statusDiv.className = 'form-status ' + type;
-      statusDiv.style.display = 'block';
-
-      // Auto-hide after 10 seconds
-      setTimeout(() => {
-        statusDiv.style.display = 'none';
-      }, 10000);
-    }
   </script>
   <script src="./js/research-nav.js"></script>
   <script>
