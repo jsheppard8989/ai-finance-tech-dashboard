@@ -1477,21 +1477,31 @@ def _main():
         # Nov 5 retirement: portfolio.json is a frozen historical basket record.
         # Do not reprice it or turn the public research essay into a live portfolio.
         print("Portfolio basket record is frozen; skipping price refresh")
-        # Market-data cards (Compute Forward, Curve, Treasury calendar) are
+        # Market-data cards (Compute Forward, Liquidity Ticker) are
         # refreshed by the GitHub Actions workflow .github/workflows/market-data.yml
         # (public sources, no secrets). The Mac skips them by default so the two
-        # writers never fight over site/data/market_data.json. Set
-        # MARKET_DATA_FETCH_LOCAL=1 to run them locally (e.g. Actions outage).
+        # writers never fight over site/data/market_data.json or liquidity_ticker.json.
+        # Set MARKET_DATA_FETCH_LOCAL=1 to run them locally (e.g. Actions outage).
         if os.environ.get("MARKET_DATA_FETCH_LOCAL", "").strip().lower() in ("1", "true", "yes"):
             run_script("Fetch GPU Index", "fetch_gpu_index.py", timeout=60)
             run_script("Fetch Compute Forward Curve", "fetch_compute_curve.py", timeout=60)
-            run_script("Fetch Treasury Calendar", "fetch_treasury_calendar.py", timeout=90)
+            run_script("Fetch Liquidity Ticker", "fetch_liquidity_ticker.py", timeout=90)
         else:
-            print("\n⏭ Skipping GPU/Treasury fetch (owned by GitHub Actions market-data.yml; "
+            print("\n⏭ Skipping GPU/Liquidity Ticker fetch (owned by GitHub Actions market-data.yml; "
                   "set MARKET_DATA_FETCH_LOCAL=1 to run locally).")
             # Never publish a stale local copy over the Action's data.
-            subprocess.run(["git", "checkout", "--", "site/data/market_data.json"],
-                           cwd=PIPELINE_DIR.parent, capture_output=True)
+            subprocess.run(
+                [
+                    "git",
+                    "checkout",
+                    "--",
+                    "site/data/market_data.json",
+                    "site/data/liquidity_ticker.json",
+                    "site/data/_raw/liquidity_ticker_history.csv",
+                ],
+                cwd=PIPELINE_DIR.parent,
+                capture_output=True,
+            )
         # Generate 2-week charts and price data for the website
         if not run_script("Generate Charts", "generate_charts.py", timeout=600):
             errors.append("charts")
