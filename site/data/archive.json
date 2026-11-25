@@ -1,6 +1,37 @@
 {
   "insights": [
     {
+      "id": 737,
+      "title": "Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-25",
+      "summary": "Ray Dalio\u2019s core argument is that better decisions come from turning experience into principles, then into algorithms, and then learning from mistakes through feedback systems like error logs. He says the point is not to impose one universal framework, but to let each person develop principles from experience and stress-test them against reality.\n\nHe emphasizes that history rhymes often enough to be useful: plotting archetypes and analogies helps identify recurring situations, but only when the future is not materially different from the past and the decision-maker understands the causal structure. He warns that black-box methods can fail badly when there is no causal understanding, especially if the future breaks from historical patterns.\n\nDalio also argues that timing matters as much as correctness, especially in venture capital and other long-latency domains. He says frameworks should include explicit timing indicators, backtesting, and iteration, because even good ideas can fail if they are late or early.\n\nOn organizational design, he favors believability-weighted, meritocratic decision-making over equal-vote democracy for high-stakes choices. He also argues that people should be judged on their \u201cswing\u201d rather than only the final \u201cshot,\u201d because difficult tasks should be evaluated by process and not just by outcome. His diversification point is similarly pragmatic: with uncertainty, a portfolio of roughly 15 uncorrelated good return streams can matter more than chasing a single best idea.",
+      "key_takeaway": "Dalio\u2019s main claim is that robust investing and decision-making require written principles, causal understanding, timing backtests, and diversification across roughly 15 uncorrelated return streams.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 726,
+      "notable_quotes": [
+        {
+          "speaker": "Ray Dalio",
+          "quote": "there is no cause and effect analysis the computer just does what it does it's the ultimate black box of black boxes and so you don't know the y behind what it's doing"
+        },
+        {
+          "speaker": "Ray Dalio",
+          "quote": "So the issue really is when you have a situation where the future will be different from the past and you have no understanding that's where you're going to have problems."
+        },
+        {
+          "speaker": "Ray Dalio",
+          "quote": "I define believable people as those who have repeatedly and successfully accomplished the thing in question who have a track record with at least three successes and have great explanations of their approach when probed"
+        }
+      ]
+    },
+    {
       "id": 732,
       "title": "REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)",
       "source_type": "podcast",
@@ -385,7 +416,7 @@
       "key_takeaway": "Cosine is trying to turn reputation, co-signing, and AI-agent discovery into a continuously updated professional network that surfaces hidden high-impact talent.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-21",
       "archived_date": null,
@@ -17393,8 +17424,8 @@
       "term": "Second",
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17403,8 +17434,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 725,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 726,
+      "last_mentioned_speaker": "Ray Dalio"
     },
     {
       "id": 342,

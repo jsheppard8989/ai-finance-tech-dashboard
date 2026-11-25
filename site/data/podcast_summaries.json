@@ -1,5 +1,23 @@
 [
   {
+    "id": 726,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)",
+    "episode_date": "2026-11-25",
+    "summary": "Ray Dalio\u2019s core argument is that better decisions come from turning experience into principles, then into algorithms, and then learning from mistakes through feedback systems like error logs. He says the point is not to impose one universal framework, but to let each person develop principles from experience and stress-test them against reality.\n\nHe emphasizes that history rhymes often enough to be useful: plotting archetypes and analogies helps identify recurring situations, but only when the future is not materially different from the past and the decision-maker understands the causal structure. He warns that black-box methods can fail badly when there is no causal understanding, especially if the future breaks from historical patterns.\n\nDalio also argues that timing matters as much as correctness, especially in venture capital and other long-latency domains. He says frameworks should include explicit timing indicators, backtesting, and iteration, because even good ideas can fail if they are late or early.\n\nOn organizational design, he favors believability-weighted, meritocratic decision-making over equal-vote democracy for high-stakes choices. He also argues that people should be judged on their \u201cswing\u201d rather than only the final \u201cshot,\u201d because difficult tasks should be evaluated by process and not just by outcome. His diversification point is similarly pragmatic: with uncertainty, a portfolio of roughly 15 uncorrelated good return streams can matter more than chasing a single best idea.",
+    "key_takeaways": [
+      "Ray Dalio says people should create their own principles from experience rather than have someone else impose them.",
+      "Ray Dalio says writing criteria down turns principles into algorithms and makes decisions easier to communicate and test.",
+      "Ray Dalio says history and archetypes are useful because many dynamics repeat, but he warns the future can differ materially from the past.",
+      "Ray Dalio says black-box systems are dangerous when there is no cause-and-effect understanding, because you do not know the 'y' behind the output.",
+      "Ray Dalio says timing must be evaluated separately from correctness, with explicit indicators and backtesting.",
+      "Ray Dalio says believable people are those with at least three successes in the relevant thing and strong explanations when probed.",
+      "Ray Dalio says diversification can matter more than picking the single best opportunity when returns are uncorrelated and uncertainty is high."
+    ],
+    "investment_thesis": "Dalio\u2019s main claim is that robust investing and decision-making require written principles, causal understanding, timing backtests, and diversification across roughly 15 uncorrelated return streams.",
+    "key_tickers": null
+  },
+  {
     "id": 725,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Jensen Huang Is Back: Inside NVIDIA\u2019s $1 Trillion Comeback After 11 Days Out | EP #315",
