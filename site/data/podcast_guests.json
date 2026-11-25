@@ -1,6 +1,18 @@
 [
   {
-    "id": 125826,
+    "id": 125917,
+    "name": "Ray Dalio (2019)",
+    "slug": "ray-dalio-2019",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Dalio\u2019s main claim is that robust investing and decision-making require written principles, causal understanding, timing backtests, and diversification across roughly 15 uncorrelated return streams.",
+    "last_episode_title": "Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-25",
+    "appearance_count": 1
+  },
+  {
+    "id": 125918,
     "name": "Jennifer Bailey (2024)",
     "slug": "jennifer-bailey-2024",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125827,
+    "id": 125919,
     "name": "OpenAI Life Sciences",
     "slug": "openai-life-sciences",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125828,
+    "id": 125920,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125829,
+    "id": 125921,
     "name": "Carson Block",
     "slug": "carson-block",
     "bio": "Carson Block is the founder of Muddy Waters Research, a short seller known for exposing accounting frauds in global equities.",
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125831,
+    "id": 125923,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 2
   },
   {
-    "id": 125830,
+    "id": 125922,
     "name": "Rick Rule",
     "slug": "rick-rule",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125832,
+    "id": 125924,
     "name": "David Shapiro",
     "slug": "david-shapiro",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125833,
+    "id": 125925,
     "name": "Recursive Self-Improvement",
     "slug": "recursive-self-improvement",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125834,
+    "id": 125926,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125835,
+    "id": 125927,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125836,
+    "id": 125928,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125837,
+    "id": 125929,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125838,
+    "id": 125930,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125839,
+    "id": 125931,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125840,
+    "id": 125932,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125841,
+    "id": 125933,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125842,
+    "id": 125934,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 2
   },
   {
-    "id": 125843,
+    "id": 125935,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125844,
+    "id": 125936,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125845,
+    "id": 125937,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125846,
+    "id": 125938,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125847,
+    "id": 125939,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125848,
+    "id": 125940,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125849,
+    "id": 125941,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125850,
+    "id": 125942,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125851,
+    "id": 125943,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125852,
+    "id": 125944,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125853,
+    "id": 125945,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 125854,
+    "id": 125946,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-17",
-    "appearance_count": 1
-  },
-  {
-    "id": 125855,
-    "name": "Jensen Huang",
-    "slug": "jensen-huang",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
-    "last_episode_title": "Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
-    "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
-    "last_episode_date": "2026-10-15",
     "appearance_count": 1
   }
 ]
