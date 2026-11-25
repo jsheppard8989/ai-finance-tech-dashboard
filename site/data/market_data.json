@@ -12,7 +12,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-11-25T07:28:43.484532",
+    "last_fetched": "2026-11-25T17:31:58.556250",
     "h100": {
       "daily_date": "Nov 25, 2026",
       "daily_date_iso": "2026-11-25",
@@ -116,9 +116,9 @@
     "b200": {
       "daily_date": "Nov 25, 2026",
       "composite_index": {
-        "display": "$6.26",
+        "display": "$6.27",
         "type": "single",
-        "value": 6.26
+        "value": 6.27
       }
     },
     "a100": {
@@ -877,7 +877,7 @@
         6.21,
         6.24,
         6.25,
-        6.26
+        6.27
       ]
     },
     "history_summary": {
@@ -924,7 +924,7 @@
     "as_of": "2026-11-25T12:38:04.198Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-11-25T07:28:43.780414",
+    "last_fetched": "2026-11-25T17:31:58.738866",
     "b200": {
       "points": [
         {
@@ -1140,10 +1140,10 @@
     "explanation": "demand strong for B200 and H100, supply catching up on older ones.",
     "chips": {
       "b200": {
-        "spot": 6.26,
-        "spot_30d_pct": -8.7,
-        "spot_90d_pct": 13.6,
-        "forward_vs_spot_pct": 16.7,
+        "spot": 6.27,
+        "spot_30d_pct": -8.6,
+        "spot_90d_pct": 13.8,
+        "forward_vs_spot_pct": 16.5,
         "score": 7.2,
         "trend": "rising"
       },
@@ -1166,6 +1166,6 @@
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
     "as_of": "2026-11-25",
-    "generated_at": "2026-11-25T07:28:43"
+    "generated_at": "2026-11-25T17:31:58"
   }
 }
