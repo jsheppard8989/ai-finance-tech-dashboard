@@ -63,6 +63,6 @@ def test_lrcx_chart_nav_and_links():
     assert "<title>%s</title>" % TITLE in s and "<h1>%s</h1>" % TITLE in s
     assert re.search(r'<a class="chart-full" href="charts/lrcx/01\.png" data-lightbox[^>]*>\s*<img src="charts/lrcx/01\.png"', s)
     assert (SITE / "charts" / "lrcx" / "01.png").is_file()
-    assert "label: '%s', href: 'lrcx-paid-to-wait.html'" % TITLE in (SITE / "js" / "research-nav.js").read_text(encoding="utf-8")
+    assert "label: 'Lam Research: Paid to Wait (closed Nov 5)', href: 'lrcx-paid-to-wait.html'" in (SITE / "js" / "research-nav.js").read_text(encoding="utf-8")
     for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html", "mu-memory-cycle.html", "qqq-filter.html", "lrcx-paid-to-wait.html", "power-bottleneck.html"):
         assert '<a href="lrcx-paid-to-wait.html">%s</a>' % TITLE in (SITE / page).read_text(encoding="utf-8"), page

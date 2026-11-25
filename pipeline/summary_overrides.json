@@ -3175,7 +3175,10 @@
         "Luukas Ilves"
       ]
     ]
-  }
+  },
+    {"insight_id": 729, "podcast_episode_id": 719, "_note": "Nov 24 2026 (G site check, updated 3:45 PM CT): card 729 Gavin Baker recording-date sentence completed.", "replacements": [["The episode was recorded on Nov.", "The episode was recorded on Nov. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time."]]},
+    {"insight_id": 724, "podcast_episode_id": 713, "_note": "Nov 24 2026 (G site check item 3): ANTR is not a real ticker for this mention.", "replacements": [], "drop_tickers": ["ANTR"]},
+    {"insight_id": 718, "podcast_episode_id": 707, "_note": "Nov 24 2026 (G site check item 3): LINUX is not a ticker.", "replacements": [], "drop_tickers": ["LINUX"]}
   ],
   "terms": [
     {
