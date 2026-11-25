@@ -1,5 +1,24 @@
 [
   {
+    "id": 728,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #560 Daniel Lacalle: \u201cThe European ER AH Situation\u2026\u201d",
+    "episode_date": "2026-11-25",
+    "summary": "Daniel Lacalle argues markets are likely to stay choppy until there is clarity on what the Fed and other central banks will do, and he says a December rate increase would add more volatility. He also pushes back on the idea that AI capex is a classic bubble, saying the market is really sorting winners from losers as earnings and returns on capital become clearer over the next couple of months.\n\nOn energy, Lacalle expects oil to settle around $68-$70 WTI rather than revisit extremes, and he says the geopolitical risk premium has eroded but not disappeared. He is skeptical that US natural gas prices will rise much from higher Europe-linked exports because domestic producers will prioritize domestic consumption, and he argues US LNG exports were built for supply security rather than a lasting US-Europe arbitrage.\n\nHe is bullish on gold over the long run because of central bank buying and constrained supply, but says near-term corrections can persist when the dollar strengthens. The dollar, in his view, is supported as the \u201cleast bad\u201d reserve alternative versus the euro, yuan, and other currencies, and he thinks central banks will resist an overly aggressive dollar move because of systemic stress.\n\nLacalle also says Europe is still stagnating despite stimulus and ECB action, and he sees euro weakness and currency depreciation as more plausible than a euro breakup. The market-desk segment reinforces the cautious tone: it notes a sharp but fragile rebound in semis, elevated VIX conditions, a gold volatility jump, and a Treasury rally that may be signaling tightening financial conditions ahead of the December Fed meeting.",
+    "key_takeaways": [
+      "Daniel Lacalle says markets are likely to remain choppy until investors are more certain about what the Federal Reserve and other central banks will do.",
+      "Daniel Lacalle says AI capex is not a bubble in the conventional sense; the real issue is separating companies with strong returns on capital from those with losses or weak returns.",
+      "Daniel Lacalle says hyperscalers are likely generating net cash in 2027 and can repay debt without much challenge, but not all AI players will look the same.",
+      "Daniel Lacalle says oil is more likely to settle around $68-$70 WTI than return to very low levels or spike to extremes.",
+      "Daniel Lacalle says it is very difficult to see US natural gas prices rising much from Europe-linked exports because domestic producers prioritize domestic consumption.",
+      "Daniel Lacalle says the euro is exposed to redenomination risk but that the euro architecture makes a full exit very unlikely, so depreciation is the more plausible adjustment."
+    ],
+    "investment_thesis": "The episode\u2019s central call is that volatility stays elevated until Fed clarity emerges, while AI capex, oil, gold, and the euro each face distinct, non-bubble-specific macro constraints.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
     "id": 727,
     "podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "episode_title": "DoubleLine Turns AI Debt Bull From Bear After Selloff Made it Cheaper",
