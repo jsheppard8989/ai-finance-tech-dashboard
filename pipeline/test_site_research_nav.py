@@ -27,7 +27,7 @@ def test_research_and_trades_menus_are_split():
     assert "href: 'compute-thesis.html'" in source
     assert "href: 'healthcare.html'" in source
     assert "href: 'qqq-filter.html'" in source
-    assert "href: 'dc-buildout.html'" in source
+    assert "href: 'dc-buildout.html'" not in source
     assert "href: 'https://jsheppard8989.github.io/spacex-path/'" in source
     # Trade write-ups and the scoreboard live under Trades, not Research.
     assert "var TRADES_PAGES = [" in source
@@ -57,7 +57,14 @@ def test_every_page_has_both_menu_hooks_and_noscript_fallbacks():
         assert 'href="trades.html">Live Paper-Trade Scoreboard</a>' in html, page.name
         assert 'href="lrcx-paid-to-wait.html">Lam Research: Paid to Wait (closed Nov 5)</a>' in html, page.name
         assert 'href="mu-memory-cycle.html">Micron and the Memory Cycle</a>' in html, page.name
-        assert 'href="dc-buildout.html">The AI Data Center Buildout After the October Selloff</a>' in html, page.name
+        # DC Buildout stays live but out of the nav (Oct 23 / Nov 23 pull).
+        if page.name != "dc-buildout.html":
+            assert "dc-buildout.html" not in html, page.name
+        research_ns = html.split("data-research-menu", 1)[1].split("</noscript>", 1)[0]
+        trades_ns = html.split("data-trades-menu", 1)[1].split("</noscript>", 1)[0] if "data-trades-menu" in html else ""
+        if page.name != "dc-buildout.html":
+            assert "dc-buildout.html" not in research_ns, page.name
+        assert "dc-buildout.html" not in trades_ns, page.name
         # Debates stays out of the first menu slot.
         nav = html.split('<nav class="site-nav"', 1)[1].split("</nav>", 1)[0]
         assert nav.index("data-research-menu") < nav.index('href="debait.html"'), page.name

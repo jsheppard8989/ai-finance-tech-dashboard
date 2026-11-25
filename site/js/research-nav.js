@@ -11,7 +11,6 @@
     { label: 'Who Keeps the Profit from the AI Compute Shortage', href: 'compute-thesis.html' },
     { label: 'Healthcare Abundance', href: 'healthcare.html' },
     { label: 'The Nasdaq-100 Is a Filter, Not a Stock Picker', href: 'qqq-filter.html' },
-    { label: 'The AI Data Center Buildout After the October Selloff', href: 'dc-buildout.html' },
     { label: 'SpaceX Model', href: 'https://jsheppard8989.github.io/spacex-path/' }
   ];
 
