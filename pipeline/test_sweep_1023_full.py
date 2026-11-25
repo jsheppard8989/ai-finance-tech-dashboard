@@ -90,7 +90,7 @@ def test_debait_and_dc_buildout_wording():
     for page in SITE.glob("*.html"):
         assert "why-gpu-prices-matter" not in page.read_text()
     idx = (SITE / "index.html").read_text()
-    assert "dc-buildout" not in idx  # G: not in nav
+    assert 'href="dc-buildout.html">The AI Data Center Buildout After the October Selloff</a>' in idx
 
 
 def test_compute_card_source_line_unchanged():

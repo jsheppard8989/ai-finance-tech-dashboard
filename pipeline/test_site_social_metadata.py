@@ -53,6 +53,10 @@ PAGES = {
         "Why owning the sieve beats guessing the gold nugget",
         "article",
     ),
+    "trades.html": (
+        "Every open and closed paper trade since the Nov 15, 2026 reset, with today's mark, running totals, and automatic close at stops or expiry.",
+        "website",
+    ),
 }
 
 
@@ -95,7 +99,9 @@ def test_every_site_page_has_static_social_metadata_and_ordered_nav():
             ("https://x.com/MrsDogood1722", "Follow @MrsDogood1722"),
         ]
         assert top_level == expected
-        assert nav.index("data-research-menu") < nav.index('href="archive.html"')
+        assert nav.index("data-research-menu") < nav.index("data-trades-menu")
+        assert nav.index("data-trades-menu") < nav.index('href="archive.html"')
+        assert nav.index("data-research-menu") < nav.index('href="debait.html"')
         if filename == "index.html":
             assert 'href="debait.html" id="home-debate-listen"' in nav
 

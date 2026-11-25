@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paper-Trade Scoreboard</title>
+  <meta name="description" content="Every open and closed paper trade since the Nov 15, 2026 reset, with today's mark, running totals, and automatic close at stops or expiry.">
+  <meta property="og:title" content="Paper-Trade Scoreboard">
+  <meta property="og:description" content="Every open and closed paper trade since the Nov 15, 2026 reset, with today's mark, running totals, and automatic close at stops or expiry.">
+  <meta property="og:url" content="https://jsheppard8989.github.io/ai-finance-tech-dashboard/trades.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://jsheppard8989.github.io/ai-finance-tech-dashboard/img/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@MrsDogood1722">
+  <meta name="twitter:title" content="Paper-Trade Scoreboard">
+  <meta name="twitter:description" content="Every open and closed paper trade since the Nov 15, 2026 reset, with today's mark, running totals, and automatic close at stops or expiry.">
+  <meta name="twitter:image" content="https://jsheppard8989.github.io/ai-finance-tech-dashboard/img/og-default.jpg">
+  <link rel="icon" href="data:,">
+  <style>
+    :root{--bg:#05070d;--panel:#0c111b;--ink:#e8edf3;--mut:#9aa7b6;--line:#1d2635;--acc:#5cc8ff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    a{color:var(--acc);overflow-wrap:anywhere}
+    .site-nav{display:flex;flex-wrap:wrap;gap:1rem 1.25rem;justify-content:center;align-items:center;padding:0.65rem 1rem;background:rgba(0,0,0,0.28);border-bottom:1px solid var(--line)}
+    .site-nav a{color:#00d4ff;text-decoration:none;font-size:0.95rem;font-weight:500}
+    .site-nav a:hover{text-decoration:underline}
+    .hero{padding:56px 5vw 28px;border-bottom:1px solid var(--line);background:radial-gradient(1200px 400px at 20% 0%,#0f2238 0%,var(--bg) 70%)}
+    .kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--acc);margin:0 0 8px}
+    h1{font-size:clamp(28px,4.4vw,48px);line-height:1.15;margin:0 0 12px;max-width:900px}
+    .sub{color:var(--mut);margin:0;max-width:760px}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 20px 24px}
+    footer{max-width:1100px;margin:0 auto;padding:20px 20px 48px;border-top:1px solid var(--line);color:var(--mut);font-size:13px}
+    .asof{color:var(--mut);font-size:13px;margin:10px 0 0}
+  </style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Site sections">
+    <a href="index.html">Home</a>
+    <div class="nav-research" data-research-menu><noscript><a href="power-bottleneck.html">Who Owns the Energized Megawatt?</a> · <a href="compute-thesis.html">Who Keeps the Profit from the AI Compute Shortage</a> · <a href="healthcare.html">Healthcare Abundance</a> · <a href="qqq-filter.html">The Nasdaq-100 Is a Filter, Not a Stock Picker</a> · <a href="dc-buildout.html">The AI Data Center Buildout After the October Selloff</a> · <a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a></noscript></div>
+    <div class="nav-trades" data-trades-menu><noscript><a href="trades.html">Live Paper-Trade Scoreboard</a> · <a href="lrcx-paid-to-wait.html">Lam Research: Paid to Wait (closed Nov 5)</a> · <a href="mu-memory-cycle.html">Micron and the Memory Cycle</a></noscript></div>
+    <a href="archive.html">Archive</a>
+    <a href="debait.html">Long &amp; Short</a>
+    <a href="https://x.com/MrsDogood1722">Follow @MrsDogood1722</a>
+  </nav>
+  <header class="hero">
+    <p class="kicker">Paper trades</p>
+    <h1>Paper-Trade Scoreboard</h1>
+    <p class="sub">Every open and closed paper trade since the Nov 15, 2026 $100,000 reset, with today's mark, running totals, and automatic close at stops or expiry. Tickers link to a thesis page when one exists.</p>
+    <p class="asof">Paper only. Not investment advice.</p>
+  </header>
+  <main class="wrap">
+    <section id="scoreboard" class="card" data-scoreboard="full" aria-labelledby="scoreboard-heading">
+      <div class="sb-header">
+        <div class="sb-title-row">
+          <h2 id="scoreboard-heading">Live marks</h2>
+          <span class="sb-pill">PAPER ONLY · $100K RESET (NOV 15)</span>
+        </div>
+        <div id="scoreboard-quote-meta" class="sb-pill sb-pill-fallback">Loading quotes…</div>
+      </div>
+      <div id="scoreboard-totals" class="sb-totals"></div>
+      <div id="scoreboard-open-wrap"></div>
+      <div id="scoreboard-closed-wrap"></div>
+      <div id="scoreboard-footnote" class="sb-footnote">
+        <noscript>Enable JavaScript to view live paper-trade marks from site/data/scoreboard.json.</noscript>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Paper only. Marks use the closing-side fill rule (buys at ask minus one-third of the spread; sells at bid plus one-third of the spread). This page is not investment advice.
+  </footer>
+  <script src="./js/scoreboard.js"></script>
+  <script src="./js/research-nav.js"></script>
+</body>
+</html>

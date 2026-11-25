@@ -225,10 +225,21 @@ def test_site_scoreboard_files_and_wording_clean():
     assert errs == []
 
     html = SITE_INDEX.read_text(encoding="utf-8")
-    assert 'id="scoreboard"' in html
-    assert "./data/scoreboard.json" in html
-    assert "dc-buildout" not in html
+    assert 'id="scoreboard-summary"' in html
+    assert 'data-scoreboard="summary"' in html
+    assert "./js/scoreboard.js" in html
+    assert 'id="latest-piece"' in html
+    trades = (ROOT / "site" / "trades.html").read_text(encoding="utf-8")
+    assert 'id="scoreboard"' in trades
+    assert 'data-scoreboard="full"' in trades
+    assert "./js/scoreboard.js" in trades
+    js = (ROOT / "site" / "js" / "scoreboard.js").read_text(encoding="utf-8")
+    assert "./data/scoreboard.json" in js
     # No grading words or Trap Map naming in the scoreboard markup/script
-    sb_block = html.split('id="scoreboard"', 1)[1].split('<div class="grid">', 1)[0]
-    assert not bs.GRADING_RE.search(sb_block)
-    assert not bs.RETIRED_NAME_RE.search(sb_block)
+    for label, block in (
+        ("home-summary", html.split('id="scoreboard-summary"', 1)[1].split('<div class="grid">', 1)[0]),
+        ("trades", trades),
+        ("scoreboard-js", js),
+    ):
+        assert not bs.GRADING_RE.search(block), label
+        assert not bs.RETIRED_NAME_RE.search(block), label
