@@ -335,13 +335,25 @@ def test_no_bet_or_grading_copy_in_ticker_script_or_ui():
     assert hdr_end < aside_pos < spill_pos < plumb_pos
     assert "prefers-reduced-motion: reduce" in html_text
     assert "animation-play-state: paused" in html_text
-    # One copy of the 6 inputs; composite stays pinned in the left rail, not the track.
-    assert 'id="lt-group-dup"' not in html_text
+    # Composite stays pinned in the left rail. Desktop loops one 6-input set
+    # plus a tape-width/6 gap; the dup copy is aria-hidden and for animation only.
     assert aside_html.count('id="lt-group-primary"') == 1
     assert 'id="lt-pad"' in aside_html
+    assert 'id="lt-group-dup"' in aside_html
+    assert 'aria-hidden="true"' in aside_html
     assert "LT_PX_PER_SEC" in js_m.group(0)
     assert "layoutTicker" in js_m.group(0)
+    assert "viewW / 6" in js_m.group(0)
     assert "--lt-from" in html_text and "--lt-to" in html_text
+    assert "border-radius: 12px" in html_text
+    # Full-bleed 100vw is mobile-only; the default desktop rule is width: 100%.
+    ticker_css = html_text.split("/* Liquidity Pulse strip")[1].split("</style>")[0]
+    desktop_css, mobile_and_rest = ticker_css.split("@media (max-width: 768px)", 1)
+    mobile_css = mobile_and_rest.split("@media (prefers-reduced-motion")[0]
+    assert "width: 100vw" not in desktop_css
+    assert "border-radius: 12px" in desktop_css
+    assert "width: 100vw" in mobile_css
+    assert "border-radius: 0" in mobile_css
 
 
 def test_tests_never_touch_real_site_data():
