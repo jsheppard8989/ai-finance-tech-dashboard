@@ -132,6 +132,41 @@
       ]
     },
     {
+      "id": 736,
+      "title": "Jensen Huang Is Back: Inside NVIDIA\u2019s $1 Trillion Comeback After 11 Days Out | EP #315",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-11-24",
+      "summary": "The episode opens on NVIDIA and Jensen Huang, with the hosts treating his unanimous reinstatement after 11 days out as a major governance and market event. They note the company evaluation jumped $1.09 trillion, the stock was up 36% back to about a $4 trillion valuation, and the board said it had input from senior levels of the US government and saw no security threat.\n\nFrom there the discussion turns to OpenAI\u2019s published perplexity/intelligence chart. The hosts split between a coordination/safety interpretation and a more skeptical reading that the chart is really competitive signaling. The skeptical view is that it functions as a bragging chart and could even help create a safety cartel that paces competitors.\n\nA second major thread is AI infrastructure and US policy. The episode describes efforts to keep data centers in the United States through taxes and faster siting/energy approvals, while warning that a 20 megawatt threshold could create incentives to build just under the limit. They also discuss huge buildouts in India and elsewhere, plus the broader race to secure power and compute capacity.\n\nThe back half moves to AI-assisted math, gaming, and avatars. The hosts describe an AI-assisted proof of the Riemann hypothesis as a historic milestone and speculate that other hard problems could fall quickly. They also frame gaming as a massive and growing category, cite GTA 6\u2019s huge sales, and argue that real-time AI avatars may soon pass mirror-test-style demonstrations without that implying consciousness.",
+      "key_takeaway": "The episode\u2019s core claim is that AI compute, policy, and verification infrastructure are being reshaped quickly enough to reprice NVIDIA, data centers, and AI tooling around a much faster capability curve.",
+      "tickers_mentioned": [
+        "NVDA",
+        "GOOGL",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 725,
+      "notable_quotes": [
+        {
+          "speaker": "Alex Wissner-Gross",
+          "quote": "I think we just witnessed the quasi-nationalization of Nvidia."
+        },
+        {
+          "speaker": "one host",
+          "quote": "This is the bragging bragging chart."
+        },
+        {
+          "speaker": "Dave Blundin",
+          "quote": "We're going from about 100 tokens per second to a million tokens per second."
+        }
+      ]
+    },
+    {
       "id": 728,
       "title": "The One-Person Biotech | OpenAI Life Sciences",
       "source_type": "podcast",
@@ -490,7 +525,7 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-21",
       "archived_date": null,
@@ -17359,7 +17394,7 @@
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
       "last_mentioned_date": "2026-11-24",
-      "mention_count": 29,
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17368,8 +17403,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 724,
-      "last_mentioned_speaker": "Max Ferens"
+      "last_mentioned_episode_id": 725,
+      "last_mentioned_speaker": null
     },
     {
       "id": 342,
@@ -17377,7 +17412,7 @@
       "description": "A metric for how surprised a language model is, on average, by the correct next words in pre-training. It is presented as a relatively clean metric for pre-training progress.",
       "first_detected_date": "2026-11-17",
       "last_mentioned_date": "2026-11-24",
-      "mention_count": 3,
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Perplexity matters because it is one of the clearer signals for whether pre-training is improving, even if it is less helpful for open-ended research tasks.",
@@ -17386,8 +17421,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 689,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 724,
-      "last_mentioned_speaker": "Max Ferens"
+      "last_mentioned_episode_id": 725,
+      "last_mentioned_speaker": null
     },
     {
       "id": 343,
@@ -17448,8 +17483,8 @@
       "term": "neoclouds",
       "description": "A shorthand used for AI infrastructure/cloud providers that depend on NVIDIA GPUs, financing support, or partnership structures to build data-center capacity.",
       "first_detected_date": "2026-11-12",
-      "last_mentioned_date": "2026-11-23",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If NVIDIA reduces support, these businesses could face higher capital costs and slower buildouts.",
@@ -17458,7 +17493,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 699,
       "first_detected_speaker": "Huang Resigns",
-      "last_mentioned_episode_id": 718,
+      "last_mentioned_episode_id": 725,
       "last_mentioned_speaker": null
     },
     {
@@ -17953,7 +17988,7 @@
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
       "last_mentioned_date": "2026-11-24",
-      "mention_count": 31,
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -17962,7 +17997,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 722,
+      "last_mentioned_episode_id": 725,
       "last_mentioned_speaker": null
     },
     {
@@ -18636,8 +18671,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-11-19",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -18646,8 +18681,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 698,
-      "last_mentioned_speaker": "Nick Bostrom"
+      "last_mentioned_episode_id": 725,
+      "last_mentioned_speaker": null
     },
     {
       "id": 272,
@@ -19032,8 +19067,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-23",
-      "mention_count": 82,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 83,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -19042,7 +19077,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 718,
+      "last_mentioned_episode_id": 725,
       "last_mentioned_speaker": null
     },
     {
@@ -19212,8 +19247,8 @@
       "term": "AI Personhood",
       "description": "The debate over whether advanced AI systems deserve legal, moral, social, or economic rights. The panel focused on Anthropic's Claude Constitution and whether models should be trained to consider welfare, consent, and consciousness.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-11-11",
-      "mention_count": 27,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 28,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because model governance, hosting revenue, agent deployment, and legal liability could change if AI rights become socially or legally recognized.",
@@ -19222,8 +19257,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 673,
-      "last_mentioned_speaker": "Peter Diamandis (host)"
+      "last_mentioned_episode_id": 725,
+      "last_mentioned_speaker": null
     },
     {
       "id": 59,
@@ -19519,7 +19554,7 @@
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-11-24",
-      "mention_count": 100,
+      "mention_count": 101,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -19528,8 +19563,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 724,
-      "last_mentioned_speaker": "Max Ferens"
+      "last_mentioned_episode_id": 725,
+      "last_mentioned_speaker": null
     },
     {
       "id": 97,
@@ -19645,7 +19680,7 @@
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-11-24",
-      "mention_count": 141,
+      "mention_count": 142,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -19654,8 +19689,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 724,
-      "last_mentioned_speaker": "Max Ferens"
+      "last_mentioned_episode_id": 725,
+      "last_mentioned_speaker": null
     },
     {
       "id": 162,
@@ -20724,8 +20759,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-11-21",
-      "mention_count": 159,
+      "last_mentioned_date": "2026-11-24",
+      "mention_count": 160,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -20734,7 +20769,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 713,
+      "last_mentioned_episode_id": 725,
       "last_mentioned_speaker": null
     },
     {

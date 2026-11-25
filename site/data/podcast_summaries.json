@@ -1,5 +1,27 @@
 [
   {
+    "id": 725,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Jensen Huang Is Back: Inside NVIDIA\u2019s $1 Trillion Comeback After 11 Days Out | EP #315",
+    "episode_date": "2026-11-24",
+    "summary": "The episode opens on NVIDIA and Jensen Huang, with the hosts treating his unanimous reinstatement after 11 days out as a major governance and market event. They note the company evaluation jumped $1.09 trillion, the stock was up 36% back to about a $4 trillion valuation, and the board said it had input from senior levels of the US government and saw no security threat.\n\nFrom there the discussion turns to OpenAI\u2019s published perplexity/intelligence chart. The hosts split between a coordination/safety interpretation and a more skeptical reading that the chart is really competitive signaling. The skeptical view is that it functions as a bragging chart and could even help create a safety cartel that paces competitors.\n\nA second major thread is AI infrastructure and US policy. The episode describes efforts to keep data centers in the United States through taxes and faster siting/energy approvals, while warning that a 20 megawatt threshold could create incentives to build just under the limit. They also discuss huge buildouts in India and elsewhere, plus the broader race to secure power and compute capacity.\n\nThe back half moves to AI-assisted math, gaming, and avatars. The hosts describe an AI-assisted proof of the Riemann hypothesis as a historic milestone and speculate that other hard problems could fall quickly. They also frame gaming as a massive and growing category, cite GTA 6\u2019s huge sales, and argue that real-time AI avatars may soon pass mirror-test-style demonstrations without that implying consciousness.",
+    "key_takeaways": [
+      "One host said NVIDIA\u2019s valuation jumped $1.09 trillion after Jensen Huang\u2019s reinstatement, with the stock up 36% to about a $4 trillion valuation.",
+      "Alex Wissner-Gross said the NVIDIA episode looked like \u201cthe quasi-nationalization of Nvidia,\u201d framing it as a political and governance event, not just a market move.",
+      "One host said OpenAI\u2019s published metric chart could be coordination for safety, while the skeptical reading was that it is a \u201cbragging chart\u201d and possibly a way to pace competitors.",
+      "One host said US policy would \u201cfight very hard for the data centers to stay in the United States,\u201d but warned that any facility over 20 megawatts may face a full added cost structure.",
+      "One host said the AI-assisted Riemann-hypothesis result means \u201cmath is cooked,\u201d and suggested P vs NP could follow within months or even days, though that was framed as speculation.",
+      "Dave Blundin said token generation could rise from about 100 tokens per second to a million tokens per second, potentially within 18 months.",
+      "One host said AI avatars passing the mirror test may indicate a psychological threshold, not a consciousness threshold."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that AI compute, policy, and verification infrastructure are being reshaped quickly enough to reprice NVIDIA, data centers, and AI tooling around a much faster capability curve.",
+    "key_tickers": [
+      "NVDA",
+      "GOOGL",
+      "MSFT"
+    ]
+  },
+  {
     "id": 724,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Responding to objections to recursive self-improvement",
