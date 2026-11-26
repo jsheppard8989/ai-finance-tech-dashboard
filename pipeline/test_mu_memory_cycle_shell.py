@@ -54,7 +54,7 @@ def test_mu_page_link_matches_title():
     title = re.search(r"<title>(.*?)</title>", s).group(1)
     assert re.search(r"<h1>(.*?)</h1>", s).group(1) == title
     assert "label: '%s', href: 'mu-memory-cycle.html'" % title in (SITE / "js" / "research-nav.js").read_text(encoding="utf-8")
-    for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html", "mu-memory-cycle.html"):
+    for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html", "mu-memory-cycle.html", "tlt-call-spread.html", "googl-call-spread.html"):
         assert '<a href="mu-memory-cycle.html">%s</a>' % title in (SITE / page).read_text(encoding="utf-8"), page
 
 

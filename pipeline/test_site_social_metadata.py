@@ -53,6 +53,18 @@ PAGES = {
         "Why owning the sieve beats guessing the gold nugget",
         "article",
     ),
+    "trades.html": (
+        "Every paper trade we have closed and every one still open, with timed marks, P&L as a percent of max loss, and the fill math behind each number.",
+        "website",
+    ),
+    "tlt-call-spread.html": (
+        "TLT Jan 15, 2027 81/88 call spread ×90, opened Mon Nov 23, 2026",
+        "article",
+    ),
+    "googl-call-spread.html": (
+        "GOOGL Mar 19, 2027 300/340 call spread ×6, opened Fri Nov 20, 2026",
+        "article",
+    ),
 }
 
 

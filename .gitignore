@@ -86,6 +86,7 @@ site/data/
 !site/data/liquidity_ticker.json
 !site/data/_raw/
 !site/data/_raw/liquidity_ticker_history.csv
+!site/data/scoreboard.json
 
 # AI Bench Press generated audio/cache
 ai-bench-press/audio/seg_*.mp3

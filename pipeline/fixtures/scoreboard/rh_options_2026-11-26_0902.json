@@ -1,0 +1,155 @@
+{
+ "data": {
+  "results": [
+   {
+    "quote": {
+     "instrument_id": "33e32d67-6dcf-4fab-8889-19b5373ea4eb",
+     "ask_price": "14.750000",
+     "ask_size": 28,
+     "bid_price": "14.050000",
+     "bid_size": 41,
+     "break_even_price": "314.400000",
+     "adjusted_mark_price": "14.400000",
+     "mark_price": "14.400000",
+     "high_fill_rate_buy_price": "14.628000",
+     "low_fill_rate_buy_price": "14.305000",
+     "high_fill_rate_sell_price": "14.171000",
+     "low_fill_rate_sell_price": "14.494000",
+     "previous_close_price": "16.400000",
+     "previous_close_date": "2026-11-24",
+     "implied_volatility": "0.382587",
+     "delta": "0.393230",
+     "gamma": "0.006603",
+     "rho": "0.288425",
+     "theta": "-0.109944",
+     "vega": "0.584903",
+     "open_interest": 7517,
+     "volume": 749,
+     "chance_of_profit_long": "0.240710",
+     "chance_of_profit_short": "0.759290",
+     "updated_at": "2026-11-25T20:59:59.945996812Z"
+    },
+    "close": {
+     "instrument_id": "33e32d67-6dcf-4fab-8889-19b5373ea4eb",
+     "symbol": "GOOGL",
+     "date": "2026-11-24",
+     "price": "16.4",
+     "interpolated": false,
+     "source": "ddb-market-snapshot"
+    }
+   },
+   {
+    "quote": {
+     "instrument_id": "e7c7b26b-7251-42f3-812a-a0ad72f61e82",
+     "ask_price": "5.000000",
+     "ask_size": 5,
+     "bid_price": "4.600000",
+     "bid_size": 122,
+     "break_even_price": "344.800000",
+     "adjusted_mark_price": "4.800000",
+     "mark_price": "4.800000",
+     "high_fill_rate_buy_price": "4.915000",
+     "low_fill_rate_buy_price": "4.721000",
+     "high_fill_rate_sell_price": "4.684000",
+     "low_fill_rate_sell_price": "4.878000",
+     "previous_close_price": "5.950000",
+     "previous_close_date": "2026-11-24",
+     "implied_volatility": "0.359938",
+     "delta": "0.177388",
+     "gamma": "0.004758",
+     "rho": "0.135373",
+     "theta": "-0.068078",
+     "vega": "0.395437",
+     "open_interest": 6975,
+     "volume": 198,
+     "chance_of_profit_long": "0.115896",
+     "chance_of_profit_short": "0.884104",
+     "updated_at": "2026-11-25T20:59:59.965972023Z"
+    },
+    "close": {
+     "instrument_id": "e7c7b26b-7251-42f3-812a-a0ad72f61e82",
+     "symbol": "GOOGL",
+     "date": "2026-11-24",
+     "price": "5.95",
+     "interpolated": false,
+     "source": "ddb-market-snapshot"
+    }
+   },
+   {
+    "quote": {
+     "instrument_id": "b5a974df-705b-4254-a22b-a26e248e8123",
+     "ask_price": "1.980000",
+     "ask_size": 22,
+     "bid_price": "1.930000",
+     "bid_size": 65,
+     "break_even_price": "82.960000",
+     "adjusted_mark_price": "1.960000",
+     "mark_price": "1.955000",
+     "high_fill_rate_buy_price": "1.969000",
+     "low_fill_rate_buy_price": "1.945000",
+     "high_fill_rate_sell_price": "1.940000",
+     "low_fill_rate_sell_price": "1.964000",
+     "previous_close_price": "1.520000",
+     "previous_close_date": "2026-11-24",
+     "implied_volatility": "0.073686",
+     "delta": "0.777449",
+     "gamma": "0.132624",
+     "rho": "0.085286",
+     "theta": "-0.013961",
+     "vega": "0.090901",
+     "open_interest": 22435,
+     "volume": 2046,
+     "chance_of_profit_long": "0.445054",
+     "chance_of_profit_short": "0.554946",
+     "updated_at": "2026-11-25T21:14:59.939224434Z"
+    },
+    "close": {
+     "instrument_id": "b5a974df-705b-4254-a22b-a26e248e8123",
+     "symbol": "TLT",
+     "date": "2026-11-24",
+     "price": "1.52",
+     "interpolated": false,
+     "source": "ddb-market-snapshot"
+    }
+   },
+   {
+    "quote": {
+     "instrument_id": "9e61ff0f-7500-4877-ad3e-c2f7662ea878",
+     "ask_price": "0.210000",
+     "ask_size": 143,
+     "bid_price": "0.200000",
+     "bid_size": 143,
+     "break_even_price": "88.210000",
+     "adjusted_mark_price": "0.210000",
+     "mark_price": "0.205000",
+     "high_fill_rate_buy_price": "0.208000",
+     "low_fill_rate_buy_price": "0.204000",
+     "high_fill_rate_sell_price": "0.201000",
+     "low_fill_rate_sell_price": "0.205000",
+     "previous_close_price": "0.160000",
+     "previous_close_date": "2026-11-24",
+     "implied_volatility": "0.133738",
+     "delta": "0.108932",
+     "gamma": "0.045779",
+     "rho": "0.012039",
+     "theta": "-0.008607",
+     "vega": "0.056947",
+     "open_interest": 278722,
+     "volume": 15077,
+     "chance_of_profit_long": "0.091779",
+     "chance_of_profit_short": "0.908221",
+     "updated_at": "2026-11-25T21:14:59.938823071Z"
+    },
+    "close": {
+     "instrument_id": "9e61ff0f-7500-4877-ad3e-c2f7662ea878",
+     "symbol": "TLT",
+     "date": "2026-11-24",
+     "price": "0.16",
+     "interpolated": false,
+     "source": "ddb-market-snapshot"
+    }
+   }
+  ]
+ },
+ "guide": "Each entry in results pairs the live quote with the official prior-session close for the same option contract. Current price: use quote.mark_price (adjusted_mark_price when comparing against historical cost basis); verify quote.updated_at is recent before calling it 'current' \u2014 otherwise phrase as 'as of <updated_at>'. 1D P&L per contract: (quote.mark_price - close.price) \u00d7 multiplier \u00d7 position_quantity (multiplier is typically 100; use trade_value_multiplier from get_option_positions for adjusted contracts). Prefer results[].close.price (official settled close) over quote.previous_close_price; when a result is missing close \u2014 either closes_error is set tool-wide, or this contract had no close in an otherwise-successful batch \u2014 fall back to quote.previous_close_price and tell the user the official close lookup is unavailable. When close.interpolated is true, surface close.date \u2014 the price is not from the requested day. Drop bid/ask when zero."
+}

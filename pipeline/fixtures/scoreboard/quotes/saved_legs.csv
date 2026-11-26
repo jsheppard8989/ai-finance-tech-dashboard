@@ -1,0 +1,6 @@
+position_id,underlying,leg_description,instrument_id,side,qty_per_spread,contracts,stop_or_exit_rule
+strc-park,STRC,"STRC long shares (cash park, 805 shares)",,buy,805,1,"No live stock stop. Cash park comes off when the next official trade needs the money (sell only if the cash sleeve is not enough, and only in the 9:00-11:00 AM CT window), or when Jared says to flatten it."
+scout-1117-googl,GOOGL,GOOGL Mar 19 2027 $300 call,33e32d67-6dcf-4fab-8889-19b5373ea4eb,buy,1,6,Held to expiry 2027-03-19; no live stock stop or target
+scout-1117-googl,GOOGL,GOOGL Mar 19 2027 $340 call,e7c7b26b-7251-42f3-812a-a0ad72f61e82,sell,-1,6,Held to expiry 2027-03-19; no live stock stop or target
+ric-1123-tlt,TLT,TLT Jan 15 2027 $81 call,b5a974df-705b-4254-a22b-a26e248e8123,buy,1,90,Held to expiry 2027-01-15; no live stock stop or target
+ric-1123-tlt,TLT,TLT Jan 15 2027 $88 call,9e61ff0f-7500-4877-ad3e-c2f7662ea878,sell,-1,90,Held to expiry 2027-01-15; no live stock stop or target

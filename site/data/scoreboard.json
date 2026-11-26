@@ -1,0 +1,746 @@
+{
+  "schema_version": 2,
+  "paper_only": true,
+  "generated_at_ct": "2026-11-26T16:04:00-06:00",
+  "generated_at_label": "Thu Nov 26, 4:04 PM CT",
+  "book_as_of_ct": "2026-11-23T09:17:00-06:00",
+  "reset_date": "2026-11-15",
+  "fill_rule": "Buys fill at ask - (ask - bid)/3 and sells at bid + (ask - bid)/3. Open trades are marked on the closing side of the same rule.",
+  "stale_rule": "A mark turns red once a regular session newer than the mark's has closed with no newer quote: NYSE trading days only (weekends and full holidays skipped), closes at 3:15 PM CT for options and 3:00 PM CT for shares, 12:15 / 12:00 PM CT on half days.",
+  "record": {
+    "closed_count": 8,
+    "wins": 3,
+    "losses": 5,
+    "win_rate_pct": 37.5,
+    "realized_pnl": 2167.2,
+    "avg_pnl_pct_max_loss": 11.79,
+    "first_opened": "2026-09-18",
+    "closed_since_reset_count": 0,
+    "open_count": 2,
+    "open_pnl": 1630.0,
+    "open_max_loss": 19680.0,
+    "open_pnl_pct_max_loss": 8.28,
+    "open_mark_time_ct": "2026-11-25T14:59:59-06:00",
+    "open_mark_label": "Wed Nov 25, 2:59 PM CT",
+    "open_stale_after_ct": "2026-11-27T12:15:00-06:00",
+    "open_stale_after_label": "Fri Nov 27, 12:15 PM CT",
+    "open_is_stale": false,
+    "open_mark_kind": "option"
+  },
+  "book": {
+    "starting_cash": 100000.0,
+    "cash": 353.98,
+    "open_value": 99982.65,
+    "book_value": 100336.63,
+    "total_pnl": 336.63,
+    "total_return_pct": 0.34,
+    "trades_pnl": 1630.0,
+    "park_pnl": -1293.37
+  },
+  "cash_park": {
+    "id": "strc-park",
+    "ticker": "STRC",
+    "owner": null,
+    "structure": "Strategy Variable Rate Series A Perpetual Stretch Preferred",
+    "is_cash_park": true,
+    "opened": "2026-11-16",
+    "opened_label": "Nov 16",
+    "expiry": null,
+    "expiry_label": "",
+    "entry_text": "805 sh at $99.3367 (rounded)",
+    "cost": 79966.02,
+    "max_loss": 79966.02,
+    "max_gain": null,
+    "breakeven": null,
+    "wrong_if": null,
+    "mark_text": "$97.73",
+    "mark_per_unit": 97.73,
+    "value": 78672.65,
+    "pnl": -1293.37,
+    "pnl_pct_max_loss": -1.62,
+    "mark_time_ct": "2026-11-24T14:59:57-06:00",
+    "mark_label": "Tue Nov 24, 2:59 PM CT",
+    "stale_after_ct": "2026-11-25T15:00:00-06:00",
+    "stale_after_label": "Wed Nov 25, 3:00 PM CT",
+    "is_stale": true,
+    "mark_kind": "share",
+    "writeup_url": null,
+    "audit": {
+      "entry": {
+        "at_label": "Mon Nov 16, 9:32 AM CT",
+        "legs": [
+          {
+            "leg": "STRC shares",
+            "side": "buy",
+            "bid": 99.31,
+            "ask": 99.35,
+            "fill": 99.336667,
+            "math": "99.35 - (99.35 - 99.31)/3 = 99.3367"
+          }
+        ],
+        "math": "805 sh × 99.3367 = $79,966.02 (rounded)",
+        "source": "Robinhood read-only quote"
+      },
+      "mark": {
+        "legs": [
+          {
+            "leg": "STRC shares",
+            "side": "sell to close",
+            "bid": 97.68,
+            "ask": 97.83,
+            "quote_time_ct": "2026-11-24T14:59:57-06:00",
+            "quote_label": "Tue Nov 24, 2:59 PM CT",
+            "fill": 97.73,
+            "source": "three-a-day read, 2026-11-24.csv",
+            "math": "97.68 + (97.83 - 97.68)/3 = 97.73"
+          }
+        ],
+        "math": "805 sh × 97.73 = $78,672.65",
+        "pnl_math": "$78,672.65 - $79,966.02 = -$1,293.37; -1.62% of $79,966.02 max loss"
+      }
+    },
+    "park_rule": "Cash parked in STRC between official trades. It is sold only when a new approved trade needs more than the cash on hand, in the 9:00 to 11:00 AM CT window, or when we decide to flatten it."
+  },
+  "open": [
+    {
+      "id": "ric-1123-tlt",
+      "ticker": "TLT",
+      "owner": "Ric",
+      "structure": "TLT Jan 15, 2027 81/88 call debit spread ×90",
+      "is_cash_park": false,
+      "opened": "2026-11-23",
+      "opened_label": "Nov 23",
+      "expiry": "2027-01-15",
+      "expiry_label": "Jan 15, 2027",
+      "entry_text": "$1.4667 debit (rounded)",
+      "cost": 13200.0,
+      "max_loss": 13200.0,
+      "max_gain": 49800.0,
+      "breakeven": 82.47,
+      "wrong_if": "TLT closes at or below $82.47 on Jan 15, 2027",
+      "mark_text": "$1.74",
+      "mark_per_unit": 1.74,
+      "value": 15660.0,
+      "pnl": 2460.0,
+      "pnl_pct_max_loss": 18.64,
+      "mark_time_ct": "2026-11-25T15:14:59-06:00",
+      "mark_label": "Wed Nov 25, 3:14 PM CT",
+      "stale_after_ct": "2026-11-27T12:15:00-06:00",
+      "stale_after_label": "Fri Nov 27, 12:15 PM CT",
+      "is_stale": false,
+      "mark_kind": "option",
+      "writeup_url": "tlt-call-spread.html",
+      "audit": {
+        "entry": {
+          "at_label": "Mon Nov 23, 9:16 AM CT",
+          "legs": [
+            {
+              "leg": "81C",
+              "side": "buy",
+              "bid": 1.61,
+              "ask": 1.64,
+              "fill": 1.63,
+              "math": "1.64 - (1.64 - 1.61)/3 = 1.63"
+            },
+            {
+              "leg": "88C",
+              "side": "sell",
+              "bid": 0.16,
+              "ask": 0.17,
+              "fill": 0.163333,
+              "math": "0.16 + (0.17 - 0.16)/3 = 0.1633"
+            }
+          ],
+          "math": "(1.63 - 0.1633) × 90 × 100 = $13,200.00 (rounded)",
+          "source": "Robinhood read-only quote"
+        },
+        "mark": {
+          "legs": [
+            {
+              "leg": "81C",
+              "side": "sell to close",
+              "bid": 1.93,
+              "ask": 1.98,
+              "quote_time_ct": "2026-11-25T15:14:59-06:00",
+              "quote_label": "Wed Nov 25, 3:14 PM CT",
+              "fill": 1.946667,
+              "math": "1.93 + (1.98 - 1.93)/3 = 1.9467",
+              "source": "Robinhood get_option_quotes (read-only)"
+            },
+            {
+              "leg": "88C",
+              "side": "buy to close",
+              "bid": 0.2,
+              "ask": 0.21,
+              "quote_time_ct": "2026-11-25T15:14:59-06:00",
+              "quote_label": "Wed Nov 25, 3:14 PM CT",
+              "fill": 0.206667,
+              "math": "0.21 - (0.21 - 0.20)/3 = 0.2067",
+              "source": "Robinhood get_option_quotes (read-only)"
+            }
+          ],
+          "math": "(1.9467 - 0.2067) × 90 × 100 = $15,660.00",
+          "pnl_math": "$15,660.00 - $13,200.00 = $2,460.00; +18.64% of $13,200.00 max loss"
+        }
+      }
+    },
+    {
+      "id": "scout-1117-googl",
+      "ticker": "GOOGL",
+      "owner": "Scout",
+      "structure": "GOOGL Mar 19, 2027 300/340 call debit spread ×6",
+      "is_cash_park": false,
+      "opened": "2026-11-20",
+      "opened_label": "Nov 20",
+      "expiry": "2027-03-19",
+      "expiry_label": "Mar 19, 2027",
+      "entry_text": "$10.80 debit",
+      "cost": 6480.0,
+      "max_loss": 6480.0,
+      "max_gain": 17520.0,
+      "breakeven": 310.8,
+      "wrong_if": "GOOGL closes at or below $310.80 on Mar 19, 2027 (held to expiry)",
+      "mark_text": "$9.4167 (rounded)",
+      "mark_per_unit": 9.416667,
+      "value": 5650.0,
+      "pnl": -830.0,
+      "pnl_pct_max_loss": -12.81,
+      "mark_time_ct": "2026-11-25T14:59:59-06:00",
+      "mark_label": "Wed Nov 25, 2:59 PM CT",
+      "stale_after_ct": "2026-11-27T12:15:00-06:00",
+      "stale_after_label": "Fri Nov 27, 12:15 PM CT",
+      "is_stale": false,
+      "mark_kind": "option",
+      "writeup_url": "googl-call-spread.html",
+      "audit": {
+        "entry": {
+          "at_label": "Fri Nov 20, 9:15 AM CT",
+          "legs": [
+            {
+              "leg": "300C",
+              "side": "buy",
+              "bid": 16.2,
+              "ask": 16.7,
+              "fill": 16.533333,
+              "math": "16.70 - (16.70 - 16.20)/3 = 16.5333"
+            },
+            {
+              "leg": "340C",
+              "side": "sell",
+              "bid": 5.6,
+              "ask": 6.0,
+              "fill": 5.733333,
+              "math": "5.60 + (6.00 - 5.60)/3 = 5.7333"
+            }
+          ],
+          "math": "(16.5333 - 5.7333) × 6 × 100 = $6,480.00",
+          "source": "Robinhood read-only quote"
+        },
+        "mark": {
+          "legs": [
+            {
+              "leg": "300C",
+              "side": "sell to close",
+              "bid": 14.05,
+              "ask": 14.75,
+              "quote_time_ct": "2026-11-25T14:59:59-06:00",
+              "quote_label": "Wed Nov 25, 2:59 PM CT",
+              "fill": 14.283333,
+              "math": "14.05 + (14.75 - 14.05)/3 = 14.2833",
+              "source": "Robinhood get_option_quotes (read-only)"
+            },
+            {
+              "leg": "340C",
+              "side": "buy to close",
+              "bid": 4.6,
+              "ask": 5.0,
+              "quote_time_ct": "2026-11-25T14:59:59-06:00",
+              "quote_label": "Wed Nov 25, 2:59 PM CT",
+              "fill": 4.866667,
+              "math": "5.00 - (5.00 - 4.60)/3 = 4.8667",
+              "source": "Robinhood get_option_quotes (read-only)"
+            }
+          ],
+          "math": "(14.2833 - 4.8667) × 6 × 100 = $5,650.00 (rounded)",
+          "pnl_math": "$5,650.00 - $6,480.00 = -$830.00; -12.81% of $6,480.00 max loss"
+        }
+      }
+    }
+  ],
+  "closed": [
+    {
+      "id": "gev-power",
+      "ticker": "GEV",
+      "owner": null,
+      "structure": "Call debit spread 860/900 ×1",
+      "pre_reset": true,
+      "opened": "2026-11-05",
+      "opened_label": "Nov 5",
+      "closed": "2026-11-13",
+      "closed_label": "Nov 13",
+      "status_label": "Closed at reset",
+      "how_closed": "Fair close at Fri Nov 13 2:59:59 PM CT last bid/ask, closing fill rule",
+      "exit_basis": "last regular-session bid/ask, not OCC settlement",
+      "owner_stated": false,
+      "cost": 1420.0,
+      "max_loss": 1420.0,
+      "max_loss_basis": "debit paid (cost)",
+      "exit_value": 1006.67,
+      "pnl": -413.33,
+      "pnl_pct_max_loss": -29.11,
+      "writeup_url": "power-bottleneck.html",
+      "audit": {
+        "entry": {
+          "at_label": "Nov 5, 2026, about 2:35 PM CT",
+          "source": "Yahoo bid/ask (modeled fill)",
+          "legs": [
+            {
+              "leg": "860C",
+              "side": "buy",
+              "bid": 42.0,
+              "ask": 48.0,
+              "fill": 46.0,
+              "math": "48.00 - (48.00 - 42.00)/3 = 46.00"
+            },
+            {
+              "leg": "900C",
+              "side": "sell",
+              "bid": 30.3,
+              "ask": 34.8,
+              "fill": 31.8,
+              "math": "30.30 + (34.80 - 30.30)/3 = 31.80"
+            }
+          ],
+          "math": "(46.00 - 31.80) × 1 × 100 = $1,420.00"
+        },
+        "exit": {
+          "at_label": "Fri Nov 13, 2026, 2:59:59 PM CT (last regular-session bid/ask)",
+          "source": "Robinhood read-only quote",
+          "legs": [
+            {
+              "leg": "860C",
+              "side": "sell to close",
+              "bid": 42.5,
+              "ask": 48.8,
+              "fill": 44.6,
+              "math": "42.50 + (48.80 - 42.50)/3 = 44.60"
+            },
+            {
+              "leg": "900C",
+              "side": "buy to close",
+              "bid": 32.0,
+              "ask": 35.8,
+              "fill": 34.533333,
+              "math": "35.80 - (35.80 - 32.00)/3 = 34.5333"
+            }
+          ],
+          "math": "(44.60 - 34.5333) × 1 × 100 = $1,006.67"
+        }
+      }
+    },
+    {
+      "id": "asts-q3",
+      "ticker": "ASTS",
+      "owner": null,
+      "structure": "Put debit spread 43/37 ×7",
+      "pre_reset": true,
+      "opened": "2026-10-29",
+      "opened_label": "Oct 29",
+      "closed": "2026-11-13",
+      "closed_label": "Nov 13",
+      "status_label": "Closed at expiry",
+      "how_closed": "Expiry, official close $32.60, full $6 width",
+      "exit_basis": "official",
+      "owner_stated": false,
+      "cost": 1670.67,
+      "max_loss": 1670.67,
+      "max_loss_basis": "debit paid (cost)",
+      "exit_value": 4200.0,
+      "pnl": 2529.33,
+      "pnl_pct_max_loss": 151.4,
+      "writeup_url": null,
+      "audit": {
+        "entry": {
+          "at_label": "Oct 29, 2026",
+          "source": "modeled fill",
+          "legs": [],
+          "math": "Cost $1,670.67. The book records this entry as a modeled fill without leg bid/ask."
+        },
+        "exit": {
+          "at_label": "Nov 13, 2026 expiry",
+          "source": "official close",
+          "legs": [],
+          "math": "Close $32.60: 43/37 put spread worth $6.00 × 7 × 100 = $4,200.00"
+        }
+      }
+    },
+    {
+      "id": "frmi-q3",
+      "ticker": "FRMI",
+      "owner": null,
+      "structure": "Put debit spread 3.00/2.50 ×60",
+      "pre_reset": true,
+      "opened": "2026-10-29",
+      "opened_label": "Oct 29",
+      "closed": "2026-11-13",
+      "closed_label": "Nov 13",
+      "status_label": "Closed at expiry",
+      "how_closed": "Expiry, official close $2.61, stock-intrinsic $0.39",
+      "exit_basis": "official close, stock-intrinsic",
+      "owner_stated": false,
+      "cost": 1500.0,
+      "max_loss": 1500.0,
+      "max_loss_basis": "debit paid (cost)",
+      "exit_value": 2340.0,
+      "pnl": 840.0,
+      "pnl_pct_max_loss": 56.0,
+      "writeup_url": null,
+      "audit": {
+        "entry": {
+          "at_label": "Oct 29, 2026",
+          "source": "modeled fill",
+          "legs": [],
+          "math": "Cost $1,500.00. The book records this entry as a modeled fill without leg bid/ask."
+        },
+        "exit": {
+          "at_label": "Nov 13, 2026 expiry",
+          "source": "official close",
+          "legs": [],
+          "math": "Close $2.61: 3.00/2.50 put spread worth $0.39 × 60 × 100 = $2,340.00"
+        }
+      }
+    },
+    {
+      "id": "tsat-notes",
+      "ticker": "TSAT",
+      "owner": null,
+      "structure": "Put debit spread 40/30 ×5",
+      "pre_reset": true,
+      "opened": "2026-10-29",
+      "opened_label": "Oct 29",
+      "closed": "2026-11-13",
+      "closed_label": "Nov 13",
+      "status_label": "Closed at reset",
+      "how_closed": "Fair close at Fri Nov 13 2:59:59 PM CT last bid/ask, closing fill rule",
+      "exit_basis": "last regular-session bid/ask, not OCC settlement",
+      "owner_stated": false,
+      "cost": 1583.33,
+      "max_loss": 1583.33,
+      "max_loss_basis": "debit paid (cost)",
+      "exit_value": 966.67,
+      "pnl": -616.66,
+      "pnl_pct_max_loss": -38.95,
+      "writeup_url": null,
+      "audit": {
+        "entry": {
+          "at_label": "Oct 29, 2026, about 1:57 PM CT",
+          "source": "saved Yahoo bid/ask (modeled fill)",
+          "legs": [
+            {
+              "leg": "40P",
+              "side": "buy",
+              "bid": 5.8,
+              "ask": 6.6,
+              "fill": 6.333333,
+              "math": "6.60 - (6.60 - 5.80)/3 = 6.3333"
+            },
+            {
+              "leg": "30P",
+              "side": "sell",
+              "bid": 3.0,
+              "ask": 3.5,
+              "fill": 3.166667,
+              "math": "3.00 + (3.50 - 3.00)/3 = 3.1667"
+            }
+          ],
+          "math": "(6.3333 - 3.1667) × 5 × 100 = $1,583.33 (rounded)"
+        },
+        "exit": {
+          "at_label": "Fri Nov 13, 2026, 2:59:59 PM CT (last regular-session bid/ask)",
+          "source": "Robinhood read-only quote",
+          "legs": [
+            {
+              "leg": "40P",
+              "side": "sell to close",
+              "bid": 4.6,
+              "ask": 5.3,
+              "fill": 4.833333,
+              "math": "4.60 + (5.30 - 4.60)/3 = 4.8333"
+            },
+            {
+              "leg": "30P",
+              "side": "buy to close",
+              "bid": 2.5,
+              "ask": 3.1,
+              "fill": 2.9,
+              "math": "3.10 - (3.10 - 2.50)/3 = 2.90"
+            }
+          ],
+          "math": "(4.8333 - 2.90) × 5 × 100 = $966.67 (rounded)"
+        }
+      }
+    },
+    {
+      "id": "mu-cycle",
+      "ticker": "MU",
+      "owner": null,
+      "structure": "Put debit spread 700/500 ×1",
+      "pre_reset": true,
+      "opened": "2026-10-29",
+      "opened_label": "Oct 29",
+      "closed": "2026-11-13",
+      "closed_label": "Nov 13",
+      "status_label": "Closed at reset",
+      "how_closed": "Fair close at Fri Nov 13 2:59:59 PM CT last bid/ask, closing fill rule",
+      "exit_basis": "last regular-session bid/ask, not OCC settlement",
+      "owner_stated": false,
+      "cost": 7466.67,
+      "max_loss": 7466.67,
+      "max_loss_basis": "debit paid (cost)",
+      "exit_value": 9110.0,
+      "pnl": 1643.33,
+      "pnl_pct_max_loss": 22.01,
+      "writeup_url": "mu-memory-cycle.html",
+      "audit": {
+        "entry": {
+          "at_label": "Oct 29, 2026, 8:32 AM CT",
+          "source": "saved Yahoo bid/ask (modeled fill)",
+          "legs": [
+            {
+              "leg": "700P",
+              "side": "buy",
+              "bid": 108.0,
+              "ask": 128.0,
+              "fill": 121.333333,
+              "math": "128.00 - (128.00 - 108.00)/3 = 121.3333"
+            },
+            {
+              "leg": "500P",
+              "side": "sell",
+              "bid": 40.0,
+              "ask": 60.0,
+              "fill": 46.666667,
+              "math": "40.00 + (60.00 - 40.00)/3 = 46.6667"
+            }
+          ],
+          "math": "(121.3333 - 46.6667) × 1 × 100 = $7,466.67 (rounded)"
+        },
+        "exit": {
+          "at_label": "Fri Nov 13, 2026, 2:59:59 PM CT (last regular-session bid/ask)",
+          "source": "Robinhood read-only quote",
+          "legs": [
+            {
+              "leg": "700P",
+              "side": "sell to close",
+              "bid": 167.85,
+              "ask": 178.7,
+              "fill": 171.466667,
+              "math": "167.85 + (178.70 - 167.85)/3 = 171.4667"
+            },
+            {
+              "leg": "500P",
+              "side": "buy to close",
+              "bid": 72.0,
+              "ask": 84.55,
+              "fill": 80.366667,
+              "math": "84.55 - (84.55 - 72.00)/3 = 80.3667"
+            }
+          ],
+          "math": "(171.4667 - 80.3667) × 1 × 100 = $9,110.00"
+        }
+      }
+    },
+    {
+      "id": "healthcare-five",
+      "ticker": "BASKET",
+      "owner": null,
+      "structure": "5-stock long basket, $1,000 each",
+      "pre_reset": true,
+      "opened": "2026-09-18",
+      "opened_label": "Sep 18",
+      "closed": "2026-11-09",
+      "closed_label": "Nov 9",
+      "status_label": "Closed at stop",
+      "how_closed": "Stop: HIMS Q3 subscribers 2.788M < 2.891M",
+      "exit_basis": "modeled session closes",
+      "owner_stated": false,
+      "cost": 5000.0,
+      "max_loss": 5000.0,
+      "max_loss_basis": "debit paid (cost)",
+      "exit_value": 4942.87,
+      "pnl": -57.13,
+      "pnl_pct_max_loss": -1.14,
+      "writeup_url": "healthcare.html",
+      "audit": {
+        "entry": {
+          "at_label": "Sep 18, 2026",
+          "source": "modeled fill",
+          "legs": [],
+          "math": "Cost $5,000.00. The book records this entry as a modeled fill without leg bid/ask."
+        },
+        "exit": {
+          "at_label": "Nov 9, 2026",
+          "source": "modeled session closes",
+          "legs": [],
+          "math": "Exit value $4,942.87 (modeled session closes)."
+        }
+      }
+    },
+    {
+      "id": "ceg-q3",
+      "ticker": "CEG",
+      "owner": null,
+      "structure": "Call debit spread 260/290 ×1",
+      "pre_reset": true,
+      "opened": "2026-11-02",
+      "opened_label": "Nov 2",
+      "closed": "2026-11-05",
+      "closed_label": "Nov 5",
+      "status_label": "Closed at stop",
+      "how_closed": "Stop: CEG closed $239.65 < $242.64",
+      "exit_basis": "modeled late-day quotes",
+      "owner_stated": false,
+      "cost": 1176.67,
+      "max_loss": 1176.67,
+      "max_loss_basis": "debit paid (cost)",
+      "exit_value": 461.66,
+      "pnl": -715.01,
+      "pnl_pct_max_loss": -60.77,
+      "writeup_url": null,
+      "audit": {
+        "entry": {
+          "at_label": "Nov 2, 2026",
+          "source": "modeled fill",
+          "legs": [],
+          "math": "Cost $1,176.67. The book records this entry as a modeled fill without leg bid/ask."
+        },
+        "exit": {
+          "at_label": "Nov 5, 2026",
+          "source": "modeled late-day quotes",
+          "legs": [],
+          "math": "Exit value $461.66 (modeled late-day quotes)."
+        }
+      }
+    },
+    {
+      "id": "lrcx-put",
+      "ticker": "LRCX",
+      "owner": null,
+      "structure": "Short put 210 ×1 (cash-secured $21,000)",
+      "pre_reset": true,
+      "opened": "2026-11-02",
+      "opened_label": "Nov 2",
+      "closed": "2026-11-05",
+      "closed_label": "Nov 5",
+      "status_label": "Closed at stop",
+      "how_closed": "Stop: traded through $200 at open; bought back at $16.00",
+      "exit_basis": "owner-stated paper fill",
+      "owner_stated": true,
+      "cost": 21000.0,
+      "max_loss": 20443.33,
+      "max_loss_basis": "$21,000.00 collateral - $556.67 credit",
+      "exit_value": 19956.67,
+      "pnl": -1043.33,
+      "pnl_pct_max_loss": -5.1,
+      "writeup_url": "lrcx-paid-to-wait.html",
+      "audit": {
+        "entry": {
+          "at_label": "Nov 2, 2026, 11:11 AM CT",
+          "source": "Yahoo option chain",
+          "legs": [
+            {
+              "leg": "210P",
+              "side": "sell",
+              "bid": 5.0,
+              "ask": 6.7,
+              "fill": 5.566667,
+              "math": "5.00 + (6.70 - 5.00)/3 = 5.5667"
+            }
+          ],
+          "math": "5.5667 × 100 = $556.67 credit on $21,000.00 cash collateral"
+        },
+        "exit": {
+          "at_label": "Nov 5, 2026 (stop)",
+          "source": "owner-stated paper fill",
+          "legs": [],
+          "math": "Bought back at $16.00 × 100 = $1,600.00; $556.67 credit - $1,600.00 = -$1,043.33"
+        }
+      }
+    }
+  ],
+  "equity_curve": {
+    "base_date": "2026-11-13",
+    "base_spy_close": 754.37,
+    "note": "Book: $100,000 paper book since the Nov 15 reset, including the STRC cash park, valued at each session's last complete quote read with the closing-side fill rule. SPY: $100,000 at the Nov 13 official close, valued at each official daily close.",
+    "points": [
+      {
+        "date": "2026-11-15",
+        "label": "Nov 15 reset",
+        "book_value": 100000.0,
+        "spy_value": 100000.0,
+        "spy_close": 754.37,
+        "read_label": "SPY close Fri Nov 13 (754.37)"
+      },
+      {
+        "date": "2026-11-16",
+        "label": "Nov 16",
+        "read_label": "Mon Nov 16, 11:30 AM CT",
+        "book_value": 100021.46,
+        "spy_close": 739.95,
+        "spy_value": 98088.47
+      },
+      {
+        "date": "2026-11-17",
+        "label": "Nov 17",
+        "read_label": "Tue Nov 17, 2:58 PM CT",
+        "book_value": 99495.53,
+        "spy_close": 732.44,
+        "spy_value": 97092.94
+      },
+      {
+        "date": "2026-11-18",
+        "label": "Nov 18",
+        "read_label": "Wed Nov 18, 2:56 PM CT",
+        "book_value": 97212.01,
+        "spy_close": 730.2,
+        "spy_value": 96796.0
+      },
+      {
+        "date": "2026-11-19",
+        "label": "Nov 19",
+        "read_label": "Thu Nov 19, 3:00 PM CT",
+        "book_value": 96044.76,
+        "spy_close": 715.87,
+        "spy_value": 94896.4
+      },
+      {
+        "date": "2026-11-20",
+        "label": "Nov 20",
+        "read_label": "Fri Nov 20, 3:01 PM CT",
+        "book_value": 93684.65,
+        "spy_close": 689.81,
+        "spy_value": 91441.87
+      },
+      {
+        "date": "2026-11-23",
+        "label": "Nov 23",
+        "read_label": "Mon Nov 23, 2:59 PM CT",
+        "book_value": 100181.81,
+        "spy_close": 722.29,
+        "spy_value": 95747.44
+      },
+      {
+        "date": "2026-11-24",
+        "label": "Nov 24",
+        "read_label": "Tue Nov 24, 2:59 PM CT",
+        "book_value": 97786.63,
+        "spy_close": 718.78,
+        "spy_value": 95282.16
+      }
+    ],
+    "gaps": [
+      "Nov 25: no complete regular-session read"
+    ]
+  },
+  "held_count": 0
+}

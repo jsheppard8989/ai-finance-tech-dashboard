@@ -1,0 +1,107 @@
+{
+ "data": {
+  "results": [
+   {
+    "quote": {
+     "symbol": "STRC",
+     "last_trade_price": "98.040000",
+     "venue_last_trade_time": "2026-11-25T20:59:59.889633094Z",
+     "last_non_reg_trade_price": "98.100000",
+     "venue_last_non_reg_trade_time": "2026-11-26T00:48:02.795179237Z",
+     "adjusted_previous_close": "97.710000",
+     "previous_close": "97.770000",
+     "previous_close_date": "2026-11-24",
+     "bid_price": "97.520000",
+     "venue_bid_time": "2026-11-26T01:00:00.139031898Z",
+     "ask_price": "98.450000",
+     "venue_ask_time": "2026-11-26T01:00:00.139031898Z",
+     "has_traded": true,
+     "state": "active"
+    },
+    "close": {
+     "symbol": "STRC",
+     "date": "2026-11-24",
+     "price": "97.77",
+     "interpolated": false,
+     "source": "sip-list-exchange-close"
+    }
+   },
+   {
+    "quote": {
+     "symbol": "GOOGL",
+     "last_trade_price": "273.030000",
+     "venue_last_trade_time": "2026-11-25T20:59:59.974836609Z",
+     "last_non_reg_trade_price": "274.890000",
+     "venue_last_non_reg_trade_time": "2026-11-26T00:59:35.231974573Z",
+     "adjusted_previous_close": "279.050000",
+     "previous_close": "279.050000",
+     "previous_close_date": "2026-11-24",
+     "bid_price": "274.700000",
+     "venue_bid_time": "2026-11-26T01:00:00.176716836Z",
+     "ask_price": "280.000000",
+     "venue_ask_time": "2026-11-26T01:00:00.176716836Z",
+     "has_traded": true,
+     "state": "active"
+    },
+    "close": {
+     "symbol": "GOOGL",
+     "date": "2026-11-24",
+     "price": "279.05",
+     "interpolated": false,
+     "source": "sip-list-exchange-close"
+    }
+   },
+   {
+    "quote": {
+     "symbol": "TLT",
+     "last_trade_price": "82.235000",
+     "venue_last_trade_time": "2026-11-25T20:59:59.990499346Z",
+     "last_non_reg_trade_price": "82.030000",
+     "venue_last_non_reg_trade_time": "2026-11-26T00:59:46.978805037Z",
+     "adjusted_previous_close": "81.490000",
+     "previous_close": "81.490000",
+     "previous_close_date": "2026-11-24",
+     "bid_price": "81.880000",
+     "venue_bid_time": "2026-11-26T01:00:00.176375153Z",
+     "ask_price": "82.180000",
+     "venue_ask_time": "2026-11-26T01:00:00.176375153Z",
+     "has_traded": true,
+     "state": "active"
+    },
+    "close": {
+     "symbol": "TLT",
+     "date": "2026-11-24",
+     "price": "81.49",
+     "interpolated": false,
+     "source": "sip-list-exchange-close"
+    }
+   },
+   {
+    "quote": {
+     "symbol": "SPY",
+     "last_trade_price": "716.750000",
+     "venue_last_trade_time": "2026-11-25T20:59:59.99943194Z",
+     "last_non_reg_trade_price": "720.430000",
+     "venue_last_non_reg_trade_time": "2026-11-26T00:59:51.118865773Z",
+     "adjusted_previous_close": "718.780000",
+     "previous_close": "718.780000",
+     "previous_close_date": "2026-11-24",
+     "bid_price": "720.360000",
+     "venue_bid_time": "2026-11-26T01:00:00.176066395Z",
+     "ask_price": "720.460000",
+     "venue_ask_time": "2026-11-26T01:00:00.176066395Z",
+     "has_traded": true,
+     "state": "active"
+    },
+    "close": {
+     "symbol": "SPY",
+     "date": "2026-11-24",
+     "price": "718.78",
+     "interpolated": false,
+     "source": "sip-list-exchange-close"
+    }
+   }
+  ]
+ },
+ "guide": "Each entry in results pairs the live quote with the official prior-session close for the same symbol. Current price: pick whichever of quote.last_trade_price / quote.last_non_reg_trade_price has the more recent timestamp, then verify that timestamp is recent before calling it \"current\" \u2014 otherwise phrase as \"as of <time>\". Daily change uses quote.adjusted_previous_close. \"Yesterday's close\" uses results[].close.price (official settled close); when a result is missing close \u2014 either closes_error is set tool-wide, or this symbol had no close in an otherwise-successful batch \u2014 fall back to quote.previous_close and tell the user the official close lookup is unavailable. Drop bid/ask when zero. Surface has_traded=false or any non-'active' state before quoting a price."
+}

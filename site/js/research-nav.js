@@ -11,6 +11,8 @@
     { label: 'Micron and the Memory Cycle', href: 'mu-memory-cycle.html' },
     { label: 'The Nasdaq-100 Is a Filter, Not a Stock Picker', href: 'qqq-filter.html' },
     { label: 'Lam Research: Paid to Wait (closed Nov 5)', href: 'lrcx-paid-to-wait.html' },
+    { label: 'TLT Jan 15, 2027 81/88 call spread ×90', href: 'tlt-call-spread.html' },
+    { label: 'GOOGL Mar 19, 2027 300/340 call spread ×6', href: 'googl-call-spread.html' },
     { label: 'Who Owns the Energized Megawatt?', href: 'power-bottleneck.html' }
   ];
 

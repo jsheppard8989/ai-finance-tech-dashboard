@@ -48,8 +48,9 @@ def test_healthcare_view_basket_and_names():
         assert p in t, p
     for n in ("Hims & Hers", "GoodRx", "Tempus AI", "Guardant Health", "Abbott"):
         assert n in t, n
-    # research piece, not a trade write-up
-    assert not re.search(r"call spread|\bstrikes?\b|expiry|\bdebits?\b|max loss|\bstop\b|\btargets?\b|below 90|\bgrades?\b|right if|wrong if|hit rate", t, re.I)
+    # research piece, not a trade write-up (the shared site nav links trade write-ups; check the piece itself)
+    body = " ".join(_text(re.sub(r"<nav\b.*?</nav>", " ", _src(), flags=re.S)).split())
+    assert not re.search(r"call spread|\bstrikes?\b|expiry|\bdebits?\b|max loss|\bstop\b|\btargets?\b|below 90|\bgrades?\b|right if|wrong if|hit rate", body, re.I)
 
 
 def test_healthcare_charts_and_nav():
