@@ -15,8 +15,9 @@ Formula:
   - Signed z (+z for risk-off inputs, -z for Net Liq)
   - Winsorize signed z to [-3, +3]
   - Require >= 4 of 6 active inputs (if 3+ stale/missing, fail closed on composite)
-  - Score = round(clip(50 * mean(signed_z_winsorized), -100, +100))
-  - Bands: <= -25 Risk-On (favor longs), -24..+24 Neutral (balanced), >= +25 Risk-Off (favor shorts)
+  - Score = round(clip(-(100/3) * mean(signed_z_winsorized), -100, +100))
+    (negative = risk-off, positive = risk-on; +-100 approx avg input at +-3 stdev)
+  - Bands: <= -15 Risk-Off (favor shorts), -14..+14 Neutral (balanced), >= +15 Risk-On (favor longs)
 
 Fail-closed: never invent values. On source failure, reuse prior value + as_of
 date with status="stale". On composite failure (< 4 ok inputs), keep prior
@@ -66,6 +67,8 @@ TRUFLATION_HISTORY_URL = "https://truflation.com/api/index-badge-data/us-inflati
 MIN_HISTORY_OBS = 20
 MIN_COMPOSITE_INPUTS = 4
 WINSOR_LIMIT = 3.0
+SCORE_SCALE = -100.0 / 3.0
+BAND_THRESHOLD = 15
 HISTORY_CALENDAR_DAYS = 365
 TOTAL_INPUTS = 6
 
@@ -285,9 +288,9 @@ def winsorize_z(z: float, limit: float = WINSOR_LIMIT) -> float:
 
 
 def classify_score(score: int) -> tuple[str, str]:
-    if score <= -25:
+    if score >= BAND_THRESHOLD:
         return "Risk-On", "favor longs"
-    if score >= 25:
+    if score <= -BAND_THRESHOLD:
         return "Risk-Off", "favor shorts"
     return "Neutral", "balanced"
 
@@ -380,7 +383,7 @@ def compute_composite(
     if len(active) < min_inputs:
         return None
     mean_sz = sum(float(inp["signed_z_winsorized"]) for inp in active) / len(active)
-    raw_score = 50.0 * mean_sz
+    raw_score = SCORE_SCALE * mean_sz
     clamped = max(-100.0, min(100.0, raw_score))
     score = int(round(clamped))
     band, lean = classify_score(score)
