@@ -16,6 +16,8 @@ def _src():
 
 
 def _text(s):
+    # Inline source links (<a href=...>) are part of the sentence: drop those tags without adding spaces.
+    s = re.sub(r"</?a\b[^>]*>", "", s)
     return re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>", " ", s, flags=re.S)
 
 

@@ -110,8 +110,10 @@ def test_freshness_red_after_one_trading_day(book, saved):
     sb, _ = _build(book, saved)
     assert sb["cash_park"]["is_stale"] is True  # Tue mark, Wed session closed
     assert sb["record"]["open_is_stale"] is False  # Wed marks, Fri session not closed yet
-    assert sb["record"]["open_stale_after_ct"] == "2026-11-27T12:00:00-06:00"  # Fri half day
-    sb2, _ = _build(book, saved, datetime(2026, 11, 27, 12, 1, tzinfo=CT))
+    assert sb["record"]["open_stale_after_ct"] == "2026-11-27T12:15:00-06:00"  # Fri half day, option close
+    sb_mid, _ = _build(book, saved, _ct(2026, 11, 27, 12, 1))
+    assert sb_mid["record"]["open_is_stale"] is False  # option session still open
+    sb2, _ = _build(book, saved, _ct(2026, 11, 27, 12, 15, 1))
     assert sb2["record"]["open_is_stale"] is True
     assert "Today's" not in json.dumps(sb)
     assert pq.STALE_TRADING_DAYS == 1
@@ -587,3 +589,90 @@ def test_displayed_prices_tie_out_on_committed_scoreboard():
         opt, sh = _qty_of(row)
         _check_row_displays(row, options_qty=opt, shares=sh)
 
+
+
+# --------------------------------------------------------------------------- session-based staleness
+def _check(mark, kind, now, expect):
+    """is_stale and the published stale_after (what the page compares to) must agree."""
+    assert mc.is_stale(mark, now, kind) is expect, (mark, kind, now)
+    assert (now > mc.stale_after(mark, kind)) is expect, (mark, kind, now)
+
+
+def test_stale_thanksgiving_wed_option_mark():
+    mark = _ct(2026, 11, 25, 15, 14, 59)  # TLT leg stamp, Wed before Thanksgiving
+    assert mc.stale_after(mark, "option") == _ct(2026, 11, 27, 12, 15)
+    for now in (_ct(2026, 11, 25, 16, 0), _ct(2026, 11, 26, 0, 1), _ct(2026, 11, 26, 16, 4),
+                _ct(2026, 11, 26, 23, 59), _ct(2026, 11, 27, 8, 30), _ct(2026, 11, 27, 12, 14, 59),
+                _ct(2026, 11, 27, 12, 15, 0)):
+        _check(mark, "option", now, False)
+    for now in (_ct(2026, 11, 27, 12, 15, 1), _ct(2026, 11, 27, 15, 15, 1), _ct(2026, 11, 28, 10, 0)):
+        _check(mark, "option", now, True)
+
+
+def test_stale_weekend_friday_close_mark():
+    opt = _ct(2026, 11, 20, 15, 10)  # Fri option mark
+    shr = _ct(2026, 11, 20, 14, 55)  # Fri share mark
+    for now in (_ct(2026, 11, 21, 12, 0), _ct(2026, 11, 22, 20, 0), _ct(2026, 11, 23, 9, 0),
+                _ct(2026, 11, 23, 14, 59, 59)):
+        _check(opt, "option", now, False)
+        _check(shr, "share", now, False)
+    _check(shr, "share", _ct(2026, 11, 23, 15, 0, 1), True)
+    _check(opt, "option", _ct(2026, 11, 23, 15, 0, 1), False)
+    _check(opt, "option", _ct(2026, 11, 23, 15, 15, 1), True)
+
+
+def test_stale_half_day_black_friday():
+    mark = _ct(2026, 11, 25, 14, 59)  # Wed marks, Thu holiday, Fri half day
+    assert mc.stale_after(mark, "share") == _ct(2026, 11, 27, 12, 0)
+    assert mc.stale_after(mark, "option") == _ct(2026, 11, 27, 12, 15)
+    _check(mark, "share", _ct(2026, 11, 27, 11, 59), False)
+    _check(mark, "share", _ct(2026, 11, 27, 12, 0, 1), True)
+    _check(mark, "option", _ct(2026, 11, 27, 12, 0, 1), False)
+    _check(mark, "option", _ct(2026, 11, 27, 12, 15, 1), True)
+    # The full-day closes (3:00 / 3:15) are not used on a half day.
+    assert mc.stale_after(mark, "share") != _ct(2026, 11, 27, 15, 0)
+    assert mc.stale_after(mark, "option") != _ct(2026, 11, 27, 15, 15)
+    _check(mark, "share", _ct(2026, 11, 27, 14, 0), True)
+    _check(mark, "option", _ct(2026, 11, 27, 14, 0), True)
+
+
+def test_stale_monday_holiday():
+    mark = _ct(2026, 2, 13, 14, 50)  # Fri before Presidents Day (Mon Feb 16, 2026)
+    assert mc.stale_after(mark, "share") == _ct(2026, 2, 17, 15, 0)
+    assert mc.stale_after(mark, "option") == _ct(2026, 2, 17, 15, 15)
+    for now in (_ct(2026, 2, 16, 15, 30), _ct(2026, 2, 17, 14, 59)):
+        _check(mark, "share", now, False)
+        _check(mark, "option", now, False)
+    _check(mark, "share", _ct(2026, 2, 17, 15, 0, 1), True)
+    _check(mark, "option", _ct(2026, 2, 17, 15, 15, 1), True)
+    m27 = _ct(2027, 1, 15, 15, 0)  # MLK Day 2027 is Mon Jan 18
+    assert mc.stale_after(m27, "option") == _ct(2027, 1, 19, 15, 15)
+
+
+def test_mark_session_attribution():
+    assert mc.mark_session(_ct(2026, 11, 25, 19, 0)) == _ct(2026, 11, 25, 0, 0).date()  # after close: same day
+    assert mc.mark_session(_ct(2026, 11, 26, 9, 2)) == _ct(2026, 11, 25, 0, 0).date()   # holiday: prior session
+    assert mc.mark_session(_ct(2026, 11, 23, 7, 0)) == _ct(2026, 11, 20, 0, 0).date()   # pre-open Mon: Fri
+    assert mc.last_completed_session(_ct(2026, 11, 26, 16, 4), "option") == _ct(2026, 11, 25, 0, 0).date()
+
+
+def test_calendar_table_2026_2027():
+    hol = sorted(d.isoformat() for d in mc.NYSE_HOLIDAYS)
+    assert len(hol) == 20 and hol[0] == "2026-01-01" and hol[-1] == "2027-12-24"
+    assert all(mc.is_trading_day(d) for d in mc.NYSE_EARLY_CLOSES)
+    assert not mc.NYSE_HOLIDAYS & mc.NYSE_EARLY_CLOSES
+    assert all(d.weekday() < 5 for d in mc.NYSE_HOLIDAYS)
+
+
+def test_scoreboard_rows_thanksgiving_afternoon(book, saved):
+    now = _ct(2026, 11, 26, 16, 4)
+    sb, held = _build(book, saved, now)
+    assert not held
+    by = {r["ticker"]: r for r in sb["open"]}
+    assert by["TLT"]["mark_time_ct"] == "2026-11-25T15:14:59-06:00"
+    assert by["TLT"]["is_stale"] is False and by["TLT"]["stale_after_ct"] == "2026-11-27T12:15:00-06:00"
+    assert by["GOOGL"]["is_stale"] is False and by["GOOGL"]["stale_after_ct"] == "2026-11-27T12:15:00-06:00"
+    assert sb["cash_park"]["is_stale"] is True  # Tue Nov 24 share mark; Wed's session closed
+    assert sb["cash_park"]["stale_after_ct"] == "2026-11-25T15:00:00-06:00"
+    later, _ = _build(book, saved, _ct(2026, 11, 27, 12, 15, 1))
+    assert all(r["is_stale"] for r in later["open"]) and later["record"]["open_is_stale"]

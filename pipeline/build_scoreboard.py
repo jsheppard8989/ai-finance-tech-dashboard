@@ -13,7 +13,7 @@ What it publishes:
     open trade, with wins/losses, win rate, realized P&L, average P&L as % of max loss
   * the STRC cash park on its own line, outside the trade record
   * one % basis on every row: P&L as % of max loss
-  * per-row "mark as of" time and a stale flag (older than 1 trading day)
+  * per-row "mark as of" time and a stale flag (a newer NYSE session has closed with no newer quote)
   * per-row audit: leg bid/ask, quote times and the fill arithmetic
   * the $100,000 book since the Nov 15 reset vs SPY over the same dates
 
@@ -281,15 +281,21 @@ def _scan_wording(obj: Any, path: str) -> list[str]:
     return out
 
 
-def _freshness(ts: datetime | None, now: datetime) -> dict[str, Any]:
+def _freshness(ts: datetime | None, now: datetime, kind: str = "share") -> dict[str, Any]:
+    """Session-based freshness: stale once a regular session newer than the mark's has closed."""
     if ts is None:
-        return {"mark_time_ct": None, "mark_label": "no quote", "stale_after_ct": None, "is_stale": True}
-    sa = mc.stale_after(ts)
+        return {"mark_time_ct": None, "mark_label": "no quote", "stale_after_ct": None,
+                "is_stale": True, "mark_kind": kind}
+    sa = mc.stale_after(ts, kind)
+    stale = mc.is_stale(ts, now, kind)
+    assert stale == (now > sa), "calendar stale rule and stale_after disagree"
     return {
         "mark_time_ct": ts.isoformat(timespec="seconds"),
         "mark_label": pq.format_ct_label(ts),
         "stale_after_ct": sa.isoformat(timespec="seconds"),
-        "is_stale": now > sa,
+        "stale_after_label": pq.format_ct_label(sa),
+        "is_stale": stale,
+        "mark_kind": kind,
     }
 
 
@@ -437,7 +443,7 @@ def _open_row(pos: dict[str, Any], quotes: dict[str, Any], saved_legs: list[dict
     if mark is None:
         return None, merrs
     pnl = r2(mark["value"] - cost)
-    fresh = _freshness(mark["time"], now)
+    fresh = _freshness(mark["time"], now, "share" if pos.get("shares") else "option")
     if pos.get("shares"):
         shares = float(pos["shares"])
         entry_p, entry_r = format_unit_price(float(pos["fill"]), cost, shares)
@@ -763,8 +769,11 @@ def build_scoreboard(
     avg_pct = round(sum(r["pnl_pct_max_loss"] for r in closed_rows) / len(closed_rows), 2) if closed_rows else None
     open_pnl = r2(sum(r["pnl"] for r in open_rows))
     open_ml = r2(sum(r["max_loss"] for r in open_rows))
-    official_times = [pq.parse_ct_timestamp(r["mark_time_ct"]) for r in open_rows if r.get("mark_time_ct")]
-    record_fresh = _freshness(min(official_times) if official_times else None, now)
+    # Headline freshness follows the open row that goes stale first.
+    dated = [r for r in open_rows if r.get("mark_time_ct")]
+    first = min(dated, key=lambda r: (pq.parse_ct_timestamp(r["stale_after_ct"]), pq.parse_ct_timestamp(r["mark_time_ct"]))) if dated else None
+    record_fresh = _freshness(pq.parse_ct_timestamp(first["mark_time_ct"]) if first else None, now,
+                              first.get("mark_kind", "option") if first else "option")
 
     # ---- book (since reset)
     meta = book.get("book") or {}
@@ -804,7 +813,7 @@ def build_scoreboard(
         "book_as_of_ct": book.get("as_of_ct"),
         "reset_date": RESET_DATE,
         "fill_rule": FILL_RULE,
-        "stale_rule": "A mark turns red once it is older than 1 trading day: the next full session after it has closed.",
+        "stale_rule": "A mark turns red once a regular session newer than the mark's has closed with no newer quote: NYSE trading days only (weekends and full holidays skipped), closes at 3:15 PM CT for options and 3:00 PM CT for shares, 12:15 / 12:00 PM CT on half days.",
         "record": {
             "closed_count": len(closed_rows),
             "wins": len(wins),

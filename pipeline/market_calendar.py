@@ -90,17 +90,39 @@ def in_regular_session(ts: datetime, kind: str = "share") -> bool:
     return session_open(d) <= local <= quote_cutoff(d, kind)
 
 
-def stale_after(mark_ts: datetime) -> datetime:
-    """A mark is older than 1 trading day once the next full session after it has closed."""
+def mark_session(mark_ts: datetime) -> date:
+    """The regular session a mark describes.
+
+    A mark taken on a trading day at or after the open belongs to that day's session.
+    A pre-open mark, or one taken on a weekend or NYSE holiday, still describes the
+    previous trading day's session.
+    """
     local = mark_ts.astimezone(CT)
     d = local.date()
-    if is_trading_day(d) and local < session_open(d):
-        # A pre-open read still describes the prior session.
-        d = previous_trading_day(d)
-    elif not is_trading_day(d):
-        d = previous_trading_day(d)
-    return session_close(next_trading_day(d))
+    if is_trading_day(d) and local >= session_open(d):
+        return d
+    return previous_trading_day(d)
 
 
-def is_stale(mark_ts: datetime, now: datetime) -> bool:
-    return now.astimezone(CT) > stale_after(mark_ts)
+def last_completed_session(now: datetime, kind: str = "share") -> date:
+    """Most recent trading day whose regular session (for this instrument type) has closed by `now`."""
+    local = now.astimezone(CT)
+    d = local.date()
+    if is_trading_day(d) and local > quote_cutoff(d, kind):
+        return d
+    return previous_trading_day(d)
+
+
+def stale_after(mark_ts: datetime, kind: str = "share") -> datetime:
+    """When a mark goes stale: the close of the first regular session after the mark's session.
+
+    Session-based, not calendar time: weekends and NYSE full holidays are skipped, and
+    half days close early (shares 12:00 PM CT, options 12:15 PM CT). Until that close
+    passes, no completed session is newer than the mark, so the mark is current.
+    """
+    return quote_cutoff(next_trading_day(mark_session(mark_ts)), kind)
+
+
+def is_stale(mark_ts: datetime, now: datetime, kind: str = "share") -> bool:
+    """True once a regular session newer than the mark's session has completed."""
+    return last_completed_session(now, kind) > mark_session(mark_ts)

@@ -3,7 +3,10 @@
  *   Full page (trades.html): <section id="scoreboard" data-scoreboard="full">
  *   Home summary (index.html): <section id="scoreboard-summary" data-scoreboard="summary">
  * Every number comes from the JSON, which the box build ties to the paper book.
- * Marks turn red once they are older than 1 trading day (stale_after_ct).
+ * Marks turn red once a regular NYSE session newer than the mark's has closed
+ * with no newer quote. stale_after_ct is that close, computed by
+ * pipeline/market_calendar.py (weekends, full holidays and half days included),
+ * so the page and the build agree.
  */
 (function () {
   // Kit tag ids by name. Set trades to the numeric id of the Kit "trades" tag once it exists
@@ -119,10 +122,13 @@
     var t = Date.parse(staleAfter);
     return isNaN(t) ? !!fallback : Date.now() > t;
   }
-  function asOf(label, staleAfter, fallback) {
+  function asOf(label, staleAfter, fallback, staleAfterLabel) {
     var stale = isStale(staleAfter, fallback);
-    return '<span class="' + (stale ? 'sb-stale' : '') + '">Mark as of <b>' + esc(label) + '</b>' +
-      (stale ? ' <span class="sb-stale-note">\u00b7 older than 1 trading day</span>' : '') + '</span>';
+    var tip = stale ? 'A newer regular session has closed with no newer quote'
+      : (staleAfterLabel ? 'Current until the ' + staleAfterLabel + ' close' : '');
+    return '<span class="' + (stale ? 'sb-stale' : '') + '"' + (tip ? ' title="' + esc(tip) + '"' : '') +
+      '>Mark as of <b>' + esc(label) + '</b>' +
+      (stale ? ' <span class="sb-stale-note">\u00b7 a newer session has closed</span>' : '') + '</span>';
   }
   function writeup(r) {
     return r.writeup_url
@@ -179,7 +185,7 @@
       '<div class="sb-stat"><div class="sb-stat-l">Open trades</div><div class="sb-stat-v">' + r.open_count + ' \u00b7 <span class="' + cls(r.open_pnl) + '">' + smoney(r.open_pnl) + '</span></div>' +
         '<div class="sb-stat-s">' + spct(r.open_pnl_pct_max_loss) + ' of ' + money(r.open_max_loss) + ' max loss</div></div>' +
       '</div>' +
-      '<p class="sb-asof">Open trades: ' + asOf(r.open_mark_label, r.open_stale_after_ct, r.open_is_stale) + '</p>';
+      '<p class="sb-asof">Open trades: ' + asOf(r.open_mark_label, r.open_stale_after_ct, r.open_is_stale, r.open_stale_after_label) + '</p>';
   }
 
   function parkHtml(d) {
@@ -188,7 +194,7 @@
     return '<div class="sb-park"><div><span class="sb-park-t">Cash park, not a trade: ' + esc(p.ticker) + '</span> \u00b7 ' +
       unitPrice(p.entry_text) + ' (' + money(p.cost) + ') \u00b7 mark ' + unitPrice(p.mark_text) + ' = ' + money(p.value) + ' \u00b7 <span class="' + cls(p.pnl) + '">' +
       smoney(p.pnl) + ' (' + spct(p.pnl_pct_max_loss, 2) + ' of cost)</span></div>' +
-      '<div class="sb-asof">' + asOf(p.mark_label, p.stale_after_ct, p.is_stale) + '</div>' +
+      '<div class="sb-asof">' + asOf(p.mark_label, p.stale_after_ct, p.is_stale, p.stale_after_label) + '</div>' +
       '<div class="sb-park-r">' + esc(p.park_rule || '') + ' It is left out of the trade record above.</div></div>' +
       '<p class="sb-bookline">$100,000 paper book since the Nov 15 reset: <b>' + money(b.book_value) + '</b> (' +
       '<span class="' + cls(b.total_pnl) + '">' + smoney(b.total_pnl) + ', ' + spct(b.total_return_pct, 2) + '</span>) = ' +
@@ -207,7 +213,7 @@
           '<td class="n" data-l="Entry"><span class="sb-v">' + unitPrice(r.entry_text) + '</span></td>' +
           '<td class="n" data-l="Max loss"><span class="sb-v">' + money(r.max_loss) + '</span></td>' +
           '<td class="n" data-l="Mark"><span class="sb-v">' + unitPrice(r.mark_text) + ' = ' + money(r.value) +
-            '<div class="sb-sm">' + asOf(r.mark_label, r.stale_after_ct, r.is_stale) + '</div></span></td>' +
+            '<div class="sb-sm">' + asOf(r.mark_label, r.stale_after_ct, r.is_stale, r.stale_after_label) + '</div></span></td>' +
           '<td class="n ' + cls(r.pnl) + '" data-l="P&amp;L"><span class="sb-v">' + smoney(r.pnl) + '</span></td>' +
           '<td class="n ' + cls(r.pnl) + '" data-l="% of max loss"><span class="sb-v">' + spct(r.pnl_pct_max_loss, 2) + '</span></td>' +
           '<td class="sb-wide" data-l="Wrong if">' + esc(r.wrong_if || '\u2014') + '</td>' +

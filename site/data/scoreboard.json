@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "paper_only": true,
-  "generated_at_ct": "2026-11-26T09:30:00-06:00",
-  "generated_at_label": "Thu Nov 26, 9:30 AM CT",
+  "generated_at_ct": "2026-11-26T16:04:00-06:00",
+  "generated_at_label": "Thu Nov 26, 4:04 PM CT",
   "book_as_of_ct": "2026-11-23T09:17:00-06:00",
   "reset_date": "2026-11-15",
   "fill_rule": "Buys fill at ask - (ask - bid)/3 and sells at bid + (ask - bid)/3. Open trades are marked on the closing side of the same rule.",
-  "stale_rule": "A mark turns red once it is older than 1 trading day: the next full session after it has closed.",
+  "stale_rule": "A mark turns red once a regular session newer than the mark's has closed with no newer quote: NYSE trading days only (weekends and full holidays skipped), closes at 3:15 PM CT for options and 3:00 PM CT for shares, 12:15 / 12:00 PM CT on half days.",
   "record": {
     "closed_count": 8,
     "wins": 3,
@@ -22,8 +22,10 @@
     "open_pnl_pct_max_loss": 8.28,
     "open_mark_time_ct": "2026-11-25T14:59:59-06:00",
     "open_mark_label": "Wed Nov 25, 2:59 PM CT",
-    "open_stale_after_ct": "2026-11-27T12:00:00-06:00",
-    "open_is_stale": false
+    "open_stale_after_ct": "2026-11-27T12:15:00-06:00",
+    "open_stale_after_label": "Fri Nov 27, 12:15 PM CT",
+    "open_is_stale": false,
+    "open_mark_kind": "option"
   },
   "book": {
     "starting_cash": 100000.0,
@@ -59,7 +61,9 @@
     "mark_time_ct": "2026-11-24T14:59:57-06:00",
     "mark_label": "Tue Nov 24, 2:59 PM CT",
     "stale_after_ct": "2026-11-25T15:00:00-06:00",
+    "stale_after_label": "Wed Nov 25, 3:00 PM CT",
     "is_stale": true,
+    "mark_kind": "share",
     "writeup_url": null,
     "audit": {
       "entry": {
@@ -121,8 +125,10 @@
       "pnl_pct_max_loss": 18.64,
       "mark_time_ct": "2026-11-25T15:14:59-06:00",
       "mark_label": "Wed Nov 25, 3:14 PM CT",
-      "stale_after_ct": "2026-11-27T12:00:00-06:00",
+      "stale_after_ct": "2026-11-27T12:15:00-06:00",
+      "stale_after_label": "Fri Nov 27, 12:15 PM CT",
       "is_stale": false,
+      "mark_kind": "option",
       "writeup_url": "tlt-call-spread.html",
       "audit": {
         "entry": {
@@ -201,8 +207,10 @@
       "pnl_pct_max_loss": -12.81,
       "mark_time_ct": "2026-11-25T14:59:59-06:00",
       "mark_label": "Wed Nov 25, 2:59 PM CT",
-      "stale_after_ct": "2026-11-27T12:00:00-06:00",
+      "stale_after_ct": "2026-11-27T12:15:00-06:00",
+      "stale_after_label": "Fri Nov 27, 12:15 PM CT",
       "is_stale": false,
+      "mark_kind": "option",
       "writeup_url": "googl-call-spread.html",
       "audit": {
         "entry": {
@@ -676,8 +684,8 @@
       {
         "date": "2026-11-16",
         "label": "Nov 16",
-        "read_label": "Mon Nov 16, 3:06 PM CT",
-        "book_value": 99847.05,
+        "read_label": "Mon Nov 16, 11:30 AM CT",
+        "book_value": 100021.46,
         "spy_close": 739.95,
         "spy_value": 98088.47
       },
