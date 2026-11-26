@@ -1,6 +1,6 @@
 [
   {
-    "id": 126285,
+    "id": 126377,
     "name": "Ray Dalio (2019)",
     "slug": "ray-dalio-2019",
     "bio": null,
@@ -12,7 +12,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126286,
+    "id": 126378,
     "name": "Jennifer Bailey (2024)",
     "slug": "jennifer-bailey-2024",
     "bio": null,
@@ -24,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126287,
+    "id": 126379,
     "name": "OpenAI Life Sciences",
     "slug": "openai-life-sciences",
     "bio": null,
@@ -36,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126288,
+    "id": 126380,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -48,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126289,
+    "id": 126381,
     "name": "Carson Block",
     "slug": "carson-block",
     "bio": "Carson Block is the founder of Muddy Waters Research, a short seller known for exposing accounting frauds in global equities.",
@@ -60,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126291,
+    "id": 126383,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -72,7 +72,7 @@
     "appearance_count": 2
   },
   {
-    "id": 126290,
+    "id": 126382,
     "name": "Rick Rule",
     "slug": "rick-rule",
     "bio": null,
@@ -84,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126292,
+    "id": 126384,
     "name": "David Shapiro",
     "slug": "david-shapiro",
     "bio": null,
@@ -96,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126293,
+    "id": 126385,
     "name": "Recursive Self-Improvement",
     "slug": "recursive-self-improvement",
     "bio": null,
@@ -108,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126294,
+    "id": 126386,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -120,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126295,
+    "id": 126387,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -132,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126296,
+    "id": 126388,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -144,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126297,
+    "id": 126389,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -156,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126298,
+    "id": 126390,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -168,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126299,
+    "id": 126391,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -180,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126300,
+    "id": 126392,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -192,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126301,
+    "id": 126393,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -204,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126302,
+    "id": 126394,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -216,7 +216,7 @@
     "appearance_count": 2
   },
   {
-    "id": 126303,
+    "id": 126395,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -228,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126304,
+    "id": 126396,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -240,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126305,
+    "id": 126397,
     "name": "David Booth & Dhruv Gupta",
     "slug": "david-booth--dhruv-gupta",
     "bio": null,
@@ -252,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126306,
+    "id": 126398,
     "name": "Cliff Sosin",
     "slug": "cliff-sosin",
     "bio": null,
@@ -264,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126307,
+    "id": 126399,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
     "bio": null,
@@ -276,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126308,
+    "id": 126400,
     "name": "Karan Singhal",
     "slug": "karan-singhal",
     "bio": null,
@@ -288,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126309,
+    "id": 126401,
     "name": "Evan Conrad",
     "slug": "evan-conrad",
     "bio": null,
@@ -300,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126310,
+    "id": 126402,
     "name": "Christina Cacioppo",
     "slug": "christina-cacioppo",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126311,
+    "id": 126403,
     "name": "Jean-Denis Greze",
     "slug": "jean-denigrez",
     "bio": null,
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126312,
+    "id": 126404,
     "name": "Mario Martone",
     "slug": "mario-martone",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126313,
+    "id": 126405,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
     "bio": null,
@@ -348,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 126314,
+    "id": 126406,
     "name": "Zocdoc CEO Oliver Kharraz",
     "slug": "zocdoc-ceo-oliver-kharraz",
     "bio": null,

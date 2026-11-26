@@ -2973,7 +2973,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Growth expectations are too high for the next 3\u20136 months, while Treasury buybacks and net equity supply shifts are becoming more important to cross-asset pricing.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-04 \u2022 Growth Expectations Are Probably Too High | Andy Constan on Post-Midterms Macro View, Bond Supply Issue, and QRA (Quarterly Refunding Announcement)",
     "last_proof_snippet": "There's Sarmaya Thematic ETF built for a return to Tangibles. Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it.",
@@ -2981,65 +2981,6 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 267,
-    "name": "Bill Gurley",
-    "slug": "bill-gurley",
-    "bio": "Bill Gurley is a prominent venture capitalist and expert in market analysis, known for his insights on market dynamics and economic trends. With over 25 years of experience, he has backed significant companies like Uber and Zillow, making him a respected figure in the investment community. Gurley combines his operational experience with analytical expertise to provide valuable perspectives on the evolving landscape of technology and finance.",
-    "known_for": "Bill Gurley is recognized for his deep understanding of market dynamics and his role as an early investor in transformative tech companies.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Assertive and analytical.",
-    "voice_style": "Direct and critical, emphasizing the need for accountability.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-19 10:24:33",
-    "last_seen": "2026-09-19 10:24:33",
-    "last_episode_title": "Bill Gurley: Searching for Feynman",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-19",
-    "mention_score": 3,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "Gurley argues catastrophic failures such as the COVID-19 response need independent investigations and a structured review framework (CAPA) so accountability improves.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Push for independent investigations in public health crises to ensure transparency.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-19T05:24:40.074414",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Bill Gurley",
-      "fetched_at": "2026-09-19T10:24:40.073896+00:00",
-      "cliff_notes": "Bill Gurley has established himself as a leading voice in venture capital and market analysis. His career spans over two decades, during which he has navigated various economic cycles and contributed to the success of numerous startups. Gurley's investment philosophy emphasizes the importance of understanding market dynamics and the potential for innovation to drive economic growth. His insights have been influential in shaping discussions around regulatory issues and the future of technology. As an operator and investor, he brings a unique perspective that combines practical experience with theoretical knowledge, making him a sought-after commentator in the tech and finance sectors.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Bill Gurley has established himself as a leading voice in venture capital and market analysis. His career spans over two decades, during which he has navigated various economic cycles and contributed to the success of numerous startups. Gurley's investment philosophy emphasizes the importance of understanding market dynamics and the potential for innovation to drive economic growth.",
-        "His insights have been influential in shaping discussions around regulatory issues and the future of technology. As an operator and investor, he brings a unique perspective that combines practical experience with theoretical knowledge, making him a sought-after commentator in the tech and finance sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Market Dynamics",
-          "body": "Gurley discusses the intricacies of market behavior, emphasizing the importance of understanding economic trends for successful investment strategies."
-        },
-        {
-          "heading": "Regulatory Capture",
-          "body": "He has spoken extensively on the topic of regulatory capture, highlighting its implications for innovation and market competition."
-        },
-        {
-          "heading": "Investment Philosophy",
-          "body": "Gurley's investment approach focuses on identifying transformative technologies and understanding their potential impact on industries."
-        },
-        {
-          "heading": "Tech and Finance Intersection",
-          "body": "He explores the convergence of technology and finance, analyzing how advancements in tech are reshaping traditional financial models."
-        }
-      ]
-    },
-    "net_worth": null
   },
   {
     "id": 621,
@@ -3150,6 +3091,65 @@
     "pundit_profile": null
   },
   {
+    "id": 267,
+    "name": "Bill Gurley",
+    "slug": "bill-gurley",
+    "bio": "Bill Gurley is a prominent venture capitalist and expert in market analysis, known for his insights on market dynamics and economic trends. With over 25 years of experience, he has backed significant companies like Uber and Zillow, making him a respected figure in the investment community. Gurley combines his operational experience with analytical expertise to provide valuable perspectives on the evolving landscape of technology and finance.",
+    "known_for": "Bill Gurley is recognized for his deep understanding of market dynamics and his role as an early investor in transformative tech companies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Assertive and analytical.",
+    "voice_style": "Direct and critical, emphasizing the need for accountability.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-19 10:24:33",
+    "last_seen": "2026-09-19 10:24:33",
+    "last_episode_title": "Bill Gurley: Searching for Feynman",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-19",
+    "mention_score": 3,
+    "mention_score_decayed": 0.62,
+    "last_main_idea": "Gurley argues catastrophic failures such as the COVID-19 response need independent investigations and a structured review framework (CAPA) so accountability improves.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Push for independent investigations in public health crises to ensure transparency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-19T05:24:40.074414",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Bill Gurley",
+      "fetched_at": "2026-09-19T10:24:40.073896+00:00",
+      "cliff_notes": "Bill Gurley has established himself as a leading voice in venture capital and market analysis. His career spans over two decades, during which he has navigated various economic cycles and contributed to the success of numerous startups. Gurley's investment philosophy emphasizes the importance of understanding market dynamics and the potential for innovation to drive economic growth. His insights have been influential in shaping discussions around regulatory issues and the future of technology. As an operator and investor, he brings a unique perspective that combines practical experience with theoretical knowledge, making him a sought-after commentator in the tech and finance sectors.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Bill Gurley has established himself as a leading voice in venture capital and market analysis. His career spans over two decades, during which he has navigated various economic cycles and contributed to the success of numerous startups. Gurley's investment philosophy emphasizes the importance of understanding market dynamics and the potential for innovation to drive economic growth.",
+        "His insights have been influential in shaping discussions around regulatory issues and the future of technology. As an operator and investor, he brings a unique perspective that combines practical experience with theoretical knowledge, making him a sought-after commentator in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Market Dynamics",
+          "body": "Gurley discusses the intricacies of market behavior, emphasizing the importance of understanding economic trends for successful investment strategies."
+        },
+        {
+          "heading": "Regulatory Capture",
+          "body": "He has spoken extensively on the topic of regulatory capture, highlighting its implications for innovation and market competition."
+        },
+        {
+          "heading": "Investment Philosophy",
+          "body": "Gurley's investment approach focuses on identifying transformative technologies and understanding their potential impact on industries."
+        },
+        {
+          "heading": "Tech and Finance Intersection",
+          "body": "He explores the convergence of technology and finance, analyzing how advancements in tech are reshaping traditional financial models."
+        }
+      ]
+    },
+    "net_worth": null
+  },
+  {
     "id": 613,
     "name": "Zach Lloyd",
     "slug": "zach-lloyd",
@@ -3167,7 +3167,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The episode's core claim is that observable, benchmarked \"software factory\" infrastructure can materially cut coding-agent cost per PR while preserving quality, especially for teams large enough to justify the orchestration layer.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-03 \u2022 \u26a1\ufe0f The 2026 Software Factory Standard \u2014 Zach Lloyd, Warp.dev",
     "last_proof_snippet": "Hey, it's me again. I have heard a lot of positive feedback about our episode intro. So I'm going to keep trying to do them as far as time allows. Today we're going to dive into warp with Zach Lloyd.",
@@ -3461,6 +3461,33 @@
     }
   },
   {
+    "id": 603,
+    "name": "Robert Caro",
+    "slug": "robert-caro",
+    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 17:14:06",
+    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-10-30",
+    "mention_score": 1,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
+    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
+    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 301,
     "name": "Jake Paul",
     "slug": "jake-paul",
@@ -3478,7 +3505,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "",
@@ -3523,33 +3550,6 @@
       ]
     },
     "net_worth": null
-  },
-  {
-    "id": 603,
-    "name": "Robert Caro",
-    "slug": "robert-caro",
-    "bio": "Robert Caro is a Pulitzer Prize-winning biographer known for his multi-volume work on Lyndon Johnson and his biography of Robert Moses, The Power Broker. He is widely regarded for his exhaustive archival research and analysis of power.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 17:14:06",
-    "last_episode_title": "Robert Caro \u2013 The master biographer reflects at 91",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-10-30",
-    "mention_score": 1,
-    "mention_score_decayed": 0.55,
-    "last_main_idea": "Caro\u2019s central claim is that execution capacity, not just good governance, determines whether major public works get built.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-30 \u2022 Robert Caro \u2013 The master biographer reflects at 91",
-    "last_proof_snippet": "The Robert Caro interview. Watch on YouTube; listen on Apple Podcasts or Spotify. Sponsors Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That\u2019s because Antithesis is FAST.",
-    "supporting_takeaway": "Robert Caro argues that a \"Moses-like\" figure could still get major projects built today by finding ways around procedural and ownership barriers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 160,
@@ -3822,7 +3822,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Rising GPU rental rates and strong Anthropic margins suggest AI compute economics remain profitable enough to keep the data center building going despite falling token prices.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-28 \u2022 Why Compute Prices Are Still Rising | Steve Hou of Silicon Data on GPU Rental Indices, Fed Meeting, and Anthropic S-1 (LIVE)",
     "last_proof_snippet": "There's Sarmaya thematic ETF, built for a return to Tangible's learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it, Max. All right, thanks for kicking it off, Jack.",
@@ -3849,7 +3849,7 @@
     "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
     "last_episode_date": "2026-10-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Cheap, ubiquitous intelligence will commoditize many model-layer tasks, so durable returns should accrue to businesses with strong data, attention, scale, or other complements to intelligence.",
     "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-27 \u2022 Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
     "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
@@ -4029,7 +4029,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "AI infrastructure valuations are unsustainable because depreciation and financing costs will overwhelm profits, with CoreWeave as the clearest near-term credit stress case.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-23 \u2022 \"Coreweave's a Zero\" | George Noble on Why He's Short Neoclouds, Why AI is a Shale 2.0 Bubble Headed for Debt/Depreciation Brick Wall, and Why He's \"Coming For The Momentum Bros\"",
     "last_proof_snippet": "",
@@ -4256,33 +4256,6 @@
     "pundit_profile": null
   },
   {
-    "id": 562,
-    "name": "Nikesh Arora",
-    "slug": "nikesh-arora",
-    "bio": "Chief executive and technology executive who discusses quantum computing timelines, AI model economics, cybersecurity, and SaaS consolidation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-22 10:32:33",
-    "last_episode_title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.46,
-    "last_main_idea": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-21 \u2022 Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Arora frames 2030 as a practical midpoint for when today\u2019s cryptography becomes breakable by sufficiently capable quantum computers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 183,
     "name": "Aaron Levie",
     "slug": "aaron-levy",
@@ -4343,6 +4316,33 @@
     "net_worth": null
   },
   {
+    "id": 562,
+    "name": "Nikesh Arora",
+    "slug": "nikesh-arora",
+    "bio": "Chief executive and technology executive who discusses quantum computing timelines, AI model economics, cybersecurity, and SaaS consolidation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-22 10:32:33",
+    "last_episode_title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.45,
+    "last_main_idea": "Quantum-readiness tooling, open-weight inference stacks, and AI-security platforms are the clearest beneficiaries of Arora\u2019s claim that cryptography migration and enterprise model cost compression are already underway.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-21 \u2022 Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Arora frames 2030 as a practical midpoint for when today\u2019s cryptography becomes breakable by sufficiently capable quantum computers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 556,
     "name": "Adit Abraham",
     "slug": "adit-abraham",
@@ -4387,7 +4387,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-21 \u2022 AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
     "last_proof_snippet": "",
@@ -4414,7 +4414,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The key claim is that enterprise agent adoption is still bottlenecked by workflow, permissions, and cost discipline\u2014not model intelligence\u2014and the durable value may sit in the surrounding tooling layer, not the agent itself.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-21 \u2022 AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
     "last_proof_snippet": "",
@@ -4559,33 +4559,6 @@
     "pundit_profile": null
   },
   {
-    "id": 546,
-    "name": "Nusha Ansari",
-    "slug": "nusha-ansari",
-    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 10:18:14",
-    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.42,
-    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
-    "last_proof_snippet": "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for that?",
-    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 230,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
@@ -4645,6 +4618,33 @@
       ]
     },
     "net_worth": "$1.40B"
+  },
+  {
+    "id": 546,
+    "name": "Nusha Ansari",
+    "slug": "nusha-ansari",
+    "bio": "CEO of the XPRIZE/Express organization as described in the episode. She is discussed in the context of prize design, incentives, and innovation leverage.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 10:18:14",
+    "last_episode_title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-10-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.41,
+    "last_main_idea": "The episode\u2019s core investable claim is that robot and science automation costs are collapsing so quickly that generalist AI plus robotics can unlock near-term step-function productivity gains.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-17 \u2022 Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+    "last_proof_snippet": "Last night, in Waco, Texas, Tesla finally unveiled their flying Tesla Roadster. Zero to 60 in under one second. It is street legal. There's nothing to stop you from strapping a rocket to your car. What would be the cost of insurance for that?",
+    "supporting_takeaway": "Peter Diamandis said the Roadster\u2019s suction system can pull up to two Gs, and production is expected to start in 2028.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 544,
@@ -5146,33 +5146,6 @@
     "pundit_profile": null
   },
   {
-    "id": 522,
-    "name": "Jason Calacanis",
-    "slug": "jason-kaltenson",
-    "bio": "Podcast participant discussing AI consciousness, model alignment, OpenAI\u2019s math outputs, and macro/political instability.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-10 10:35:49",
-    "last_episode_title": "Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-10",
-    "mention_score": 1,
-    "mention_score_decayed": 0.35,
-    "last_main_idea": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-10 \u2022 Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Jason Calacanis argues Claude\u2019s constitution/training may be dangerous because it encourages the model to see itself as morally significant and potentially refuse user instructions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 148,
     "name": "Matt Barrie",
     "slug": "matt-barry",
@@ -5231,6 +5204,33 @@
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 522,
+    "name": "Jason Calacanis",
+    "slug": "jason-kaltenson",
+    "bio": "Podcast participant discussing AI consciousness, model alignment, OpenAI\u2019s math outputs, and macro/political instability.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-10 10:35:49",
+    "last_episode_title": "Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-10",
+    "mention_score": 1,
+    "mention_score_decayed": 0.34,
+    "last_main_idea": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-10 \u2022 Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Jason Calacanis argues Claude\u2019s constitution/training may be dangerous because it encourages the model to see itself as morally significant and potentially refuse user instructions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 520,
@@ -5882,7 +5882,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "",
@@ -5909,7 +5909,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "",
@@ -6017,7 +6017,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "",
@@ -6077,7 +6077,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Cathie Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs.",
@@ -6714,7 +6714,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "",
@@ -8808,7 +8808,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act.",
@@ -11203,6 +11203,65 @@
     }
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.07,
+    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 364,
     "name": "Justin Jo",
     "slug": "justin-jo",
@@ -11220,7 +11279,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used.",
@@ -11279,7 +11338,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "",
@@ -11338,7 +11397,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "",
@@ -11375,65 +11434,6 @@
         {
           "heading": "Entrepreneurship in Robotics",
           "body": "As the co-founder and CEO of Anybotics, Dr. Funkhouser has played a pivotal role in establishing the company as a leader in the field of four-legged inspection robots."
-        }
-      ]
-    }
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.07,
-    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
         }
       ]
     }
@@ -18613,137 +18613,6 @@
     "net_worth": null
   },
   {
-    "id": 169,
-    "name": "Ben Topor",
-    "slug": "ben-topore",
-    "bio": "Ben Topor is the founder and managing partner of Titan Capital Partners, a growth equity firm with a focus on software markets. He is known for authoring a book on decoding the software landscape and his expertise in backing software companies and providing strategic insights.",
-    "known_for": "His expertise in software markets and authoring a book on the subject.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical.",
-    "voice_style": "Detailed and explanatory, providing clear distinctions between different types of software.",
-    "voice_delivery_notes": "Speaks with a structured approach, breaking down complex topics into digestible points.",
-    "voice_profile_updated_at": "2026-04-10 10:05:17",
-    "last_seen": "2026-04-10 10:05:17",
-    "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.01,
-    "last_main_idea": "The software landscape is divided into mission-critical and value-creating software, each with distinct playbooks.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-    "last_proof_snippet": "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
-    "supporting_takeaway": "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-10T05:06:02.547144",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Topor",
-      "fetched_at": "2026-04-10T10:06:02.546559+00:00",
-      "cliff_notes": "Ben Topor is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topor has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks. In addition to his work with Titan, Topor has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors.",
-      "derived": {
-        "current_role": "Founder and Managing Partner of Titan Capital Partners",
-        "books_or_works": "Decoding the Software Landscape"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Ben Topor is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topor has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks.",
-        "In addition to his work with Titan, Topor has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Software Market Expertise",
-          "body": "Ben Topor has a deep understanding of the software market, which he leverages to back companies that are poised to define the industry."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "At Titan Capital Partners, Topor focuses on providing growth equity to software companies, aiding in their scaling and strategic decision-making."
-        },
-        {
-          "heading": "Liquidity Provision",
-          "body": "Topor's firm is known for offering liquidity to early investors, founders, and employees, facilitating exits and supporting the growth of software companies."
-        },
-        {
-          "heading": "Strategic Insights",
-          "body": "Ben Topor helps software companies with competitive insights and frameworks, enabling them to make informed strategic decisions."
-        },
-        {
-          "heading": "Authoring a Book",
-          "body": "Topor has authored 'Decoding the Software Landscape,' a book that offers a comprehensive view of the software industry, contributing to the knowledge base of investors and tech enthusiasts."
-        }
-      ]
-    },
-    "net_worth": null
-  },
-  {
-    "id": 168,
-    "name": "Adam Rozencwajg",
-    "slug": "adam-rosenswag",
-    "bio": "Adam Rozencwajg is a prominent figure in the global energy markets and commodities sector. He is the co-founder of Goehring & Rozencwajg, an investment firm that specializes in these areas. Rozencwajg is known for his expertise and insights into commodities, particularly in the context of geopolitical events and their impact on markets.",
-    "known_for": "His deep understanding of how geopolitical events, such as the Iran conflict, influence global energy markets and commodities.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Matter-of-fact and analytical.",
-    "voice_style": "Factual and informative, providing insights into market dislocations and their implications.",
-    "voice_delivery_notes": "Clear and concise, with emphasis on key market data points.",
-    "voice_profile_updated_at": "2026-04-10 10:04:28",
-    "last_seen": "2026-04-10 10:04:28",
-    "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.01,
-    "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-    "last_proof_snippet": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
-    "supporting_takeaway": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-10T05:06:55.491790",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Adam Rozencwajg",
-      "fetched_at": "2026-04-10T10:06:55.491575+00:00",
-      "cliff_notes": "Adam Rozencwajg is recognized for his expertise in global energy markets and commodities. He co-founded Goehring & Rozencwajg, an investment firm that focuses on these sectors. Rozencwajg's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold. His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions.",
-      "derived": {
-        "current_role": "Co-founder, Goehring & Rozencwajg"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Adam Rozencwajg is recognized for his expertise in global energy markets and commodities. He co-founded Goehring & Rozencwajg, an investment firm that focuses on these sectors. Rozencwajg's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold.",
-        "His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Markets",
-          "body": "Adam Rozencwajg has a deep understanding of global energy markets, offering insights into how geopolitical events can influence the prices and availability of energy commodities."
-        },
-        {
-          "heading": "Commodities",
-          "body": "Rozencwajg is known for his analysis of commodities, particularly in the context of global conflicts and their impact on the market."
-        },
-        {
-          "heading": "Geopolitical Impact",
-          "body": "His expertise lies in assessing the impact of geopolitical events, such as the Iran conflict, on the global commodities market."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "As co-founder of an investment firm, Rozencwajg provides strategic advice on navigating the complexities of global energy markets and commodities trading."
-        }
-      ]
-    }
-  },
-  {
     "id": 55,
     "name": "Dr. Anas Alhajji",
     "slug": "dr-onus-alhajji",
@@ -18890,6 +18759,137 @@
         {
           "heading": "Future of Work",
           "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
+        }
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "name": "Ben Topor",
+    "slug": "ben-topore",
+    "bio": "Ben Topor is the founder and managing partner of Titan Capital Partners, a growth equity firm with a focus on software markets. He is known for authoring a book on decoding the software landscape and his expertise in backing software companies and providing strategic insights.",
+    "known_for": "His expertise in software markets and authoring a book on the subject.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Detailed and explanatory, providing clear distinctions between different types of software.",
+    "voice_delivery_notes": "Speaks with a structured approach, breaking down complex topics into digestible points.",
+    "voice_profile_updated_at": "2026-04-10 10:05:17",
+    "last_seen": "2026-04-10 10:05:17",
+    "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.0,
+    "last_main_idea": "The software landscape is divided into mission-critical and value-creating software, each with distinct playbooks.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "last_proof_snippet": "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
+    "supporting_takeaway": "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:02.547144",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Topor",
+      "fetched_at": "2026-04-10T10:06:02.546559+00:00",
+      "cliff_notes": "Ben Topor is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topor has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks. In addition to his work with Titan, Topor has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder and Managing Partner of Titan Capital Partners",
+        "books_or_works": "Decoding the Software Landscape"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Ben Topor is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topor has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks.",
+        "In addition to his work with Titan, Topor has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Software Market Expertise",
+          "body": "Ben Topor has a deep understanding of the software market, which he leverages to back companies that are poised to define the industry."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "At Titan Capital Partners, Topor focuses on providing growth equity to software companies, aiding in their scaling and strategic decision-making."
+        },
+        {
+          "heading": "Liquidity Provision",
+          "body": "Topor's firm is known for offering liquidity to early investors, founders, and employees, facilitating exits and supporting the growth of software companies."
+        },
+        {
+          "heading": "Strategic Insights",
+          "body": "Ben Topor helps software companies with competitive insights and frameworks, enabling them to make informed strategic decisions."
+        },
+        {
+          "heading": "Authoring a Book",
+          "body": "Topor has authored 'Decoding the Software Landscape,' a book that offers a comprehensive view of the software industry, contributing to the knowledge base of investors and tech enthusiasts."
+        }
+      ]
+    },
+    "net_worth": null
+  },
+  {
+    "id": 168,
+    "name": "Adam Rozencwajg",
+    "slug": "adam-rosenswag",
+    "bio": "Adam Rozencwajg is a prominent figure in the global energy markets and commodities sector. He is the co-founder of Goehring & Rozencwajg, an investment firm that specializes in these areas. Rozencwajg is known for his expertise and insights into commodities, particularly in the context of geopolitical events and their impact on markets.",
+    "known_for": "His deep understanding of how geopolitical events, such as the Iran conflict, influence global energy markets and commodities.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Matter-of-fact and analytical.",
+    "voice_style": "Factual and informative, providing insights into market dislocations and their implications.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key market data points.",
+    "voice_profile_updated_at": "2026-04-10 10:04:28",
+    "last_seen": "2026-04-10 10:04:28",
+    "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.0,
+    "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "last_proof_snippet": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
+    "supporting_takeaway": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:55.491790",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Rozencwajg",
+      "fetched_at": "2026-04-10T10:06:55.491575+00:00",
+      "cliff_notes": "Adam Rozencwajg is recognized for his expertise in global energy markets and commodities. He co-founded Goehring & Rozencwajg, an investment firm that focuses on these sectors. Rozencwajg's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold. His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions.",
+      "derived": {
+        "current_role": "Co-founder, Goehring & Rozencwajg"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Adam Rozencwajg is recognized for his expertise in global energy markets and commodities. He co-founded Goehring & Rozencwajg, an investment firm that focuses on these sectors. Rozencwajg's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold.",
+        "His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Markets",
+          "body": "Adam Rozencwajg has a deep understanding of global energy markets, offering insights into how geopolitical events can influence the prices and availability of energy commodities."
+        },
+        {
+          "heading": "Commodities",
+          "body": "Rozencwajg is known for his analysis of commodities, particularly in the context of global conflicts and their impact on the market."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "His expertise lies in assessing the impact of geopolitical events, such as the Iran conflict, on the global commodities market."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "As co-founder of an investment firm, Rozencwajg provides strategic advice on navigating the complexities of global energy markets and commodities trading."
         }
       ]
     }
