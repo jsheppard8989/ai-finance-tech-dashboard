@@ -3,1567 +3,1598 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-11-26T05:06:56.976638",
-  chartsVersion: "2026-11-26T05:05:27.516694",
+  generatedAt: "2026-11-26T06:42:24.616446",
+  chartsVersion: "2026-11-26T06:41:29.269862",
   priceSnapshot: {
   "AAPL": {
     "price": 355.58,
     "change_pct": 3.86,
     "name": "Apple Inc.",
-    "updated_at": "2026-11-26T05:04:10.868742",
+    "updated_at": "2026-11-26T06:40:19.695230",
     "price_14d_ago": 342.37
   },
   "AEP": {
     "price": 127.59,
     "change_pct": 0.84,
     "name": "American Electric Power Company",
-    "updated_at": "2026-11-26T05:04:11.284986",
+    "updated_at": "2026-11-26T06:40:20.106016",
     "price_14d_ago": 126.53
   },
   "AMD": {
     "price": 406.03,
     "change_pct": -9.58,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-11-26T05:04:11.871960",
+    "updated_at": "2026-11-26T06:40:20.670090",
     "price_14d_ago": 449.04
   },
   "AMGN": {
     "price": 469.24,
     "change_pct": 1.92,
     "name": "Amgen Inc.",
-    "updated_at": "2026-11-26T05:04:12.073318",
+    "updated_at": "2026-11-26T06:40:20.862199",
     "price_14d_ago": 460.42
   },
   "AMZN": {
     "price": 244.43,
     "change_pct": -5.73,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-11-26T05:04:12.472576",
+    "updated_at": "2026-11-26T06:40:21.245991",
     "price_14d_ago": 259.3
   },
   "APO": {
     "price": 120.48,
     "change_pct": 3.19,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-11-26T05:04:13.267242",
+    "updated_at": "2026-11-26T06:40:21.996225",
     "price_14d_ago": 116.75
   },
   "APTV": {
     "price": 37.55,
     "change_pct": -4.79,
     "name": "Aptiv PLC",
-    "updated_at": "2026-11-26T05:04:13.462671",
+    "updated_at": "2026-11-26T06:40:22.182221",
     "price_14d_ago": 39.44
   },
   "AVGO": {
     "price": 300.86,
     "change_pct": 2.44,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-11-26T05:04:14.441484",
+    "updated_at": "2026-11-26T06:40:23.137682",
     "price_14d_ago": 293.69
   },
   "BA": {
     "price": 164.53,
     "change_pct": -5.12,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-11-26T05:04:15.045883",
+    "updated_at": "2026-11-26T06:40:23.793205",
     "price_14d_ago": 173.4
   },
   "BABA": {
     "price": 86.26,
     "change_pct": -21.19,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-11-26T05:04:15.245564",
+    "updated_at": "2026-11-26T06:40:23.981000",
     "price_14d_ago": 109.45
   },
   "BAC": {
     "price": 48.54,
     "change_pct": -1.78,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-11-26T05:04:15.460266",
+    "updated_at": "2026-11-26T06:40:24.189553",
     "price_14d_ago": 49.42
   },
   "BAM": {
     "price": 52.12,
     "change_pct": -1.57,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-11-26T05:04:15.655495",
+    "updated_at": "2026-11-26T06:40:24.373513",
     "price_14d_ago": 52.95
   },
   "BIDU": {
     "price": 63.49,
     "change_pct": -22.45,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-11-26T05:04:16.448985",
+    "updated_at": "2026-11-26T06:40:25.139267",
     "price_14d_ago": 81.87
   },
   "BP": {
     "price": 43.0,
     "change_pct": -3.44,
     "name": "BP p.l.c.",
-    "updated_at": "2026-11-26T05:04:17.070666",
+    "updated_at": "2026-11-26T06:40:25.725415",
     "price_14d_ago": 44.53
   },
   "BTC": {
-    "price": 60436.07,
-    "change_pct": -11.45,
+    "price": 60775.93,
+    "change_pct": -10.95,
     "name": "Bitcoin USD",
-    "updated_at": "2026-11-26T05:04:17.334867",
+    "updated_at": "2026-11-26T06:40:25.908674",
     "price_14d_ago": 68249.27
   },
   "BTC-USD": {
-    "price": 60436.07,
-    "change_pct": -11.45,
+    "price": 60775.93,
+    "change_pct": -10.95,
     "name": "Bitcoin USD",
-    "updated_at": "2026-11-26T05:04:17.526970",
+    "updated_at": "2026-11-26T06:40:26.095081",
     "price_14d_ago": 68249.27
   },
   "BX": {
     "price": 118.95,
     "change_pct": -0.46,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-11-26T05:04:17.920319",
+    "updated_at": "2026-11-26T06:40:26.473770",
     "price_14d_ago": 119.5
   },
   "BYD": {
     "price": 77.91,
     "change_pct": 1.75,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-11-26T05:04:18.136252",
+    "updated_at": "2026-11-26T06:40:26.677300",
     "price_14d_ago": 76.57
   },
   "CAT": {
     "price": 543.69,
     "change_pct": -2.67,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-11-26T05:04:18.755487",
+    "updated_at": "2026-11-26T06:40:27.276017",
     "price_14d_ago": 558.63
   },
   "CCJ": {
     "price": 61.55,
     "change_pct": -13.67,
     "name": "Cameco Corporation",
-    "updated_at": "2026-11-26T05:04:18.970724",
+    "updated_at": "2026-11-26T06:40:27.481058",
     "price_14d_ago": 71.3
   },
   "CEG": {
     "price": 235.28,
     "change_pct": -5.87,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-11-26T05:04:19.168387",
+    "updated_at": "2026-11-26T06:40:27.665217",
     "price_14d_ago": 249.95
   },
   "COIN": {
     "price": 103.72,
     "change_pct": -23.03,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-11-26T05:04:20.376570",
+    "updated_at": "2026-11-26T06:40:28.844876",
     "price_14d_ago": 134.76
   },
   "COPPER": {
-    "price": 5.45,
-    "change_pct": -13.88,
+    "price": 5.46,
+    "change_pct": -13.8,
     "name": "Copper",
-    "updated_at": "2026-11-26T05:04:20.566088",
+    "updated_at": "2026-11-26T06:40:29.025843",
     "price_14d_ago": 6.33
   },
   "CORN": {
     "price": 17.22,
     "change_pct": 0.17,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-11-26T05:04:20.756096",
+    "updated_at": "2026-11-26T06:40:29.208564",
     "price_14d_ago": 17.19
   },
   "CRM": {
     "price": 197.21,
     "change_pct": -7.69,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-11-26T05:04:21.159573",
+    "updated_at": "2026-11-26T06:40:29.586053",
     "price_14d_ago": 213.65
   },
   "CROWD": {
     "price": 209.3,
     "change_pct": -3.5,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-11-26T05:04:21.349303",
+    "updated_at": "2026-11-26T06:40:29.766571",
     "price_14d_ago": 216.9
   },
   "DBC": {
     "price": 29.27,
     "change_pct": -7.2,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-11-26T05:04:22.546215",
+    "updated_at": "2026-11-26T06:40:30.898253",
     "price_14d_ago": 31.54
   },
   "DELL": {
     "price": 297.06,
     "change_pct": -9.58,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-11-26T05:04:22.936504",
+    "updated_at": "2026-11-26T06:40:31.277219",
     "price_14d_ago": 328.53
   },
   "DIS": {
     "price": 125.6,
     "change_pct": 7.58,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-11-26T05:04:23.371910",
+    "updated_at": "2026-11-26T06:40:31.694794",
     "price_14d_ago": 116.75
   },
   "DOCS": {
     "price": 29.6,
     "change_pct": -8.95,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-11-26T05:04:23.759404",
+    "updated_at": "2026-11-26T06:40:32.067713",
     "price_14d_ago": 32.51
   },
   "DVN": {
     "price": 42.45,
     "change_pct": 0.57,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-11-26T05:04:24.174051",
+    "updated_at": "2026-11-26T06:40:32.451165",
     "price_14d_ago": 42.21
   },
   "EBAY": {
     "price": 115.54,
     "change_pct": -5.26,
     "name": "eBay Inc.",
-    "updated_at": "2026-11-26T05:04:24.369367",
+    "updated_at": "2026-11-26T06:40:32.647952",
     "price_14d_ago": 121.96
   },
   "ETH-USD": {
-    "price": 1692.12,
-    "change_pct": -12.22,
+    "price": 1703.36,
+    "change_pct": -11.63,
     "name": "Ethereum USD",
-    "updated_at": "2026-11-26T05:04:24.950810",
+    "updated_at": "2026-11-26T06:40:33.208460",
     "price_14d_ago": 1927.59
   },
   "F": {
     "price": 12.17,
     "change_pct": -2.17,
     "name": "Ford Motor Company",
-    "updated_at": "2026-11-26T05:04:25.192712",
+    "updated_at": "2026-11-26T06:40:33.418559",
     "price_14d_ago": 12.44
   },
   "FB": {
     "price": 43.55,
     "change_pct": -1.24,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-11-26T05:04:25.390476",
+    "updated_at": "2026-11-26T06:40:33.606095",
     "price_14d_ago": 44.1
   },
   "FCX": {
     "price": 48.55,
     "change_pct": -18.29,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-11-26T05:04:25.604906",
+    "updated_at": "2026-11-26T06:40:33.824911",
     "price_14d_ago": 59.42
   },
   "FSK": {
     "price": 11.37,
     "change_pct": -2.82,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-11-26T05:04:27.197885",
+    "updated_at": "2026-11-26T06:40:35.391666",
     "price_14d_ago": 11.7
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-11-26T05:04:27.777234",
+    "updated_at": "2026-11-26T06:40:36.015614",
     "price_14d_ago": null
   },
   "GD": {
     "price": 360.27,
     "change_pct": 1.75,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-11-26T05:04:28.027071",
+    "updated_at": "2026-11-26T06:40:36.240514",
     "price_14d_ago": 354.06
   },
   "GE": {
     "price": 316.98,
     "change_pct": -1.94,
     "name": "GE Aerospace",
-    "updated_at": "2026-11-26T05:04:28.259609",
+    "updated_at": "2026-11-26T06:40:36.467302",
     "price_14d_ago": 323.24
   },
   "GLD": {
     "price": 327.45,
     "change_pct": -12.1,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-11-26T05:04:28.451390",
+    "updated_at": "2026-11-26T06:40:36.649294",
     "price_14d_ago": 372.52
   },
   "GME": {
     "price": 26.97,
     "change_pct": 7.36,
     "name": "GameStop Corporation",
-    "updated_at": "2026-11-26T05:04:28.652190",
+    "updated_at": "2026-11-26T06:40:36.842643",
     "price_14d_ago": 25.12
   },
   "GOLD": {
-    "price": 3585.6,
-    "change_pct": -12.85,
+    "price": 3595.0,
+    "change_pct": -12.63,
     "name": "Gold",
-    "updated_at": "2026-11-26T05:04:28.843910",
+    "updated_at": "2026-11-26T06:40:37.024506",
     "price_14d_ago": 4114.5
   },
   "GOOG": {
     "price": 270.98,
     "change_pct": -4.56,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-11-26T05:04:29.057136",
+    "updated_at": "2026-11-26T06:40:37.208354",
     "price_14d_ago": 283.93
   },
   "GOOGL": {
     "price": 273.1,
     "change_pct": -4.1,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-11-26T05:04:29.259149",
+    "updated_at": "2026-11-26T06:40:37.392275",
     "price_14d_ago": 284.78
   },
   "GS": {
     "price": 801.03,
     "change_pct": -7.48,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-11-26T05:04:29.469402",
+    "updated_at": "2026-11-26T06:40:37.594718",
     "price_14d_ago": 865.82
   },
   "Gold": {
     "price": 38.85,
     "change_pct": 3.24,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-11-26T05:04:29.671224",
+    "updated_at": "2026-11-26T06:40:37.786289",
     "price_14d_ago": 37.63
   },
   "HFGM": {
     "price": 26.07,
     "change_pct": -6.84,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-11-26T05:04:29.862825",
+    "updated_at": "2026-11-26T06:40:37.972609",
     "price_14d_ago": 27.98
   },
   "HG": {
     "price": 38.71,
     "change_pct": 4.79,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-11-26T05:04:30.059638",
+    "updated_at": "2026-11-26T06:40:38.158075",
     "price_14d_ago": 36.94
   },
   "IBM": {
     "price": 243.47,
     "change_pct": -0.62,
     "name": "International Business Machines",
-    "updated_at": "2026-11-26T05:04:31.503861",
+    "updated_at": "2026-11-26T06:40:39.561097",
     "price_14d_ago": 245.0
   },
   "IEF": {
     "price": 92.06,
     "change_pct": 0.22,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-11-26T05:04:31.705642",
+    "updated_at": "2026-11-26T06:40:39.761128",
     "price_14d_ago": 91.86
   },
   "INDA": {
     "price": 53.2,
     "change_pct": 4.54,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-11-26T05:04:32.112731",
+    "updated_at": "2026-11-26T06:40:40.157505",
     "price_14d_ago": 50.89
   },
   "INFY": {
     "price": 13.02,
     "change_pct": 4.16,
     "name": "Infosys Limited",
-    "updated_at": "2026-11-26T05:04:32.509492",
+    "updated_at": "2026-11-26T06:40:40.532552",
     "price_14d_ago": 12.5
   },
   "INTC": {
     "price": 54.47,
     "change_pct": -3.22,
     "name": "Intel Corporation",
-    "updated_at": "2026-11-26T05:04:32.719434",
+    "updated_at": "2026-11-26T06:40:40.797138",
     "price_14d_ago": 56.28
   },
   "IWD": {
     "price": 254.78,
     "change_pct": -1.04,
     "name": "iShares Russell 1000 Value Inde",
-    "updated_at": "2026-11-26T05:04:32.929268",
+    "updated_at": "2026-11-26T06:40:40.996645",
     "price_14d_ago": 257.45
   },
   "IWF": {
     "price": 107.01,
     "change_pct": -4.24,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-11-26T05:04:33.132691",
+    "updated_at": "2026-11-26T06:40:41.197614",
     "price_14d_ago": 111.75
   },
   "IWM": {
     "price": 268.87,
     "change_pct": -1.75,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-11-26T05:04:33.342595",
+    "updated_at": "2026-11-26T06:40:41.410439",
     "price_14d_ago": 273.67
   },
   "JNJ": {
     "price": 273.94,
     "change_pct": -0.83,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-11-26T05:04:33.767926",
+    "updated_at": "2026-11-26T06:40:41.825715",
     "price_14d_ago": 276.22
   },
   "JPM": {
     "price": 316.74,
     "change_pct": -5.31,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-11-26T05:04:33.987321",
+    "updated_at": "2026-11-26T06:40:42.031445",
     "price_14d_ago": 334.49
   },
   "KKR": {
     "price": 94.1,
     "change_pct": -2.47,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-11-26T05:04:34.191834",
+    "updated_at": "2026-11-26T06:40:42.229790",
     "price_14d_ago": 96.48
   },
   "LLY": {
     "price": 1392.22,
     "change_pct": 2.82,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-11-26T05:04:35.017428",
+    "updated_at": "2026-11-26T06:40:43.019631",
     "price_14d_ago": 1354.0
   },
   "LMT": {
     "price": 599.24,
     "change_pct": 5.67,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-11-26T05:04:35.254416",
+    "updated_at": "2026-11-26T06:40:43.237977",
     "price_14d_ago": 567.08
   },
   "LYFT": {
     "price": 16.97,
     "change_pct": -0.7,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-11-26T05:04:36.218223",
+    "updated_at": "2026-11-26T06:40:44.154381",
     "price_14d_ago": 17.09
   },
   "META": {
     "price": 609.89,
     "change_pct": -0.04,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-11-26T05:04:37.259325",
+    "updated_at": "2026-11-26T06:40:45.376224",
     "price_14d_ago": 610.15
   },
   "MGM": {
     "price": 34.65,
     "change_pct": 7.14,
     "name": "MGM Resorts International",
-    "updated_at": "2026-11-26T05:04:37.662514",
+    "updated_at": "2026-11-26T06:40:45.758859",
     "price_14d_ago": 32.34
   },
   "MINE": {
     "price": 1.78,
     "change_pct": -25.52,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-11-26T05:04:37.851718",
+    "updated_at": "2026-11-26T06:40:45.939213",
     "price_14d_ago": 2.39
   },
   "MRK": {
     "price": 140.29,
     "change_pct": -4.39,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-11-26T05:04:38.481645",
+    "updated_at": "2026-11-26T06:40:46.548847",
     "price_14d_ago": 146.73
   },
   "MRNA": {
     "price": 220.84,
     "change_pct": -13.12,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-11-26T05:04:38.674407",
+    "updated_at": "2026-11-26T06:40:46.731116",
     "price_14d_ago": 254.19
   },
   "MS": {
     "price": 167.55,
     "change_pct": -7.66,
     "name": "Morgan Stanley",
-    "updated_at": "2026-11-26T05:04:38.882687",
+    "updated_at": "2026-11-26T06:40:46.959108",
     "price_14d_ago": 181.44
   },
   "MSFT": {
     "price": 489.93,
     "change_pct": -7.67,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-11-26T05:04:39.093737",
+    "updated_at": "2026-11-26T06:40:47.164267",
     "price_14d_ago": 530.61
   },
   "MSTR": {
     "price": 79.96,
     "change_pct": -37.98,
     "name": "Strategy Inc",
-    "updated_at": "2026-11-26T05:04:39.288653",
+    "updated_at": "2026-11-26T06:40:47.353150",
     "price_14d_ago": 128.93
   },
   "MU": {
     "price": 601.25,
     "change_pct": -12.86,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-11-26T05:04:39.503699",
+    "updated_at": "2026-11-26T06:40:47.557092",
     "price_14d_ago": 690.0
   },
   "NEE": {
     "price": 85.41,
     "change_pct": -1.77,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-11-26T05:04:40.290164",
+    "updated_at": "2026-11-26T06:40:48.321864",
     "price_14d_ago": 86.95
   },
   "NFLX": {
     "price": 59.41,
     "change_pct": -6.31,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-11-26T05:04:40.674017",
+    "updated_at": "2026-11-26T06:40:48.698909",
     "price_14d_ago": 63.41
   },
   "NKE": {
     "price": 36.66,
     "change_pct": -5.0,
     "name": "Nike, Inc.",
-    "updated_at": "2026-11-26T05:04:41.296932",
+    "updated_at": "2026-11-26T06:40:49.347432",
     "price_14d_ago": 38.59
   },
   "NOC": {
     "price": 555.79,
     "change_pct": 5.86,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-11-26T05:04:41.522363",
+    "updated_at": "2026-11-26T06:40:49.562001",
     "price_14d_ago": 525.01
   },
   "NVDA": {
     "price": 149.3,
     "change_pct": -20.01,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-11-26T05:04:41.938353",
+    "updated_at": "2026-11-26T06:40:50.024782",
     "price_14d_ago": 186.64
   },
   "NVS": {
     "price": 155.29,
     "change_pct": -4.47,
     "name": "Novartis AG",
-    "updated_at": "2026-11-26T05:04:42.341886",
+    "updated_at": "2026-11-26T06:40:50.406803",
     "price_14d_ago": 162.55
   },
   "Nasdaq": {
     "price": 633.93,
     "change_pct": -3.38,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-11-26T05:04:42.545361",
+    "updated_at": "2026-11-26T06:40:50.600628",
     "price_14d_ago": 656.1
   },
   "OKLO": {
     "price": 19.47,
     "change_pct": -17.32,
     "name": "Oklo Inc.",
-    "updated_at": "2026-11-26T05:04:42.920186",
+    "updated_at": "2026-11-26T06:40:51.034155",
     "price_14d_ago": 23.55
   },
   "ORCL": {
     "price": 103.88,
     "change_pct": -10.53,
     "name": "Oracle Corporation",
-    "updated_at": "2026-11-26T05:04:43.510640",
+    "updated_at": "2026-11-26T06:40:51.591704",
     "price_14d_ago": 116.1
   },
   "PALL": {
     "price": 15.7,
     "change_pct": -15.41,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-11-26T05:04:44.091495",
+    "updated_at": "2026-11-26T06:40:52.160245",
     "price_14d_ago": 18.56
   },
   "PANW": {
     "price": 356.14,
     "change_pct": 13.48,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-11-26T05:04:44.281722",
+    "updated_at": "2026-11-26T06:40:52.342295",
     "price_14d_ago": 313.84
   },
   "PBR": {
     "price": 16.05,
     "change_pct": -13.38,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-11-26T05:04:44.499629",
+    "updated_at": "2026-11-26T06:40:52.545603",
     "price_14d_ago": 18.53
   },
   "PFE": {
     "price": 28.46,
     "change_pct": -3.16,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-11-26T05:04:44.912519",
+    "updated_at": "2026-11-26T06:40:52.938463",
     "price_14d_ago": 29.39
   },
   "PLTM": {
     "price": 12.28,
     "change_pct": -16.23,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-11-26T05:04:45.294089",
+    "updated_at": "2026-11-26T06:40:53.306278",
     "price_14d_ago": 14.66
   },
   "PLTR": {
     "price": 163.59,
     "change_pct": 2.0,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-11-26T05:04:45.489438",
+    "updated_at": "2026-11-26T06:40:53.488487",
     "price_14d_ago": 160.38
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-11-26T05:04:45.865777",
+    "updated_at": "2026-11-26T06:40:53.868751",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 26.77,
     "change_pct": -2.44,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-11-26T05:04:46.058869",
+    "updated_at": "2026-11-26T06:40:54.054784",
     "price_14d_ago": 27.44
   },
   "PSBD": {
     "price": 9.45,
     "change_pct": -4.35,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-11-26T05:04:46.248395",
+    "updated_at": "2026-11-26T06:40:54.236502",
     "price_14d_ago": 9.88
   },
   "PYPL": {
     "price": 57.81,
     "change_pct": -2.41,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-11-26T05:04:46.435895",
+    "updated_at": "2026-11-26T06:40:54.427051",
     "price_14d_ago": 59.24
   },
   "QQQ": {
     "price": 633.93,
     "change_pct": -3.38,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-11-26T05:04:47.039504",
+    "updated_at": "2026-11-26T06:40:55.087146",
     "price_14d_ago": 656.1
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-11-26T05:04:47.238230",
+    "updated_at": "2026-11-26T06:40:55.271807",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 55.63,
     "change_pct": 12.84,
     "name": "Roblox Corporation",
-    "updated_at": "2026-11-26T05:04:47.639554",
+    "updated_at": "2026-11-26T06:40:55.649368",
     "price_14d_ago": 49.3
   },
   "RKLB": {
     "price": 47.02,
     "change_pct": -11.4,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-11-26T05:04:48.635937",
+    "updated_at": "2026-11-26T06:40:56.711659",
     "price_14d_ago": 53.07
   },
   "Russell": {
     "price": 268.87,
     "change_pct": -1.75,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-11-26T05:04:49.799830",
+    "updated_at": "2026-11-26T06:40:57.832077",
     "price_14d_ago": 273.67
   },
   "S&P": {
     "price": 7182.78,
     "change_pct": -2.63,
     "name": "S&P 500",
-    "updated_at": "2026-11-26T05:04:49.991795",
+    "updated_at": "2026-11-26T06:40:58.019799",
     "price_14d_ago": 7376.86
   },
   "S&P 500": {
     "price": 7182.78,
     "change_pct": -2.63,
     "name": "S&P 500",
-    "updated_at": "2026-11-26T05:04:50.187099",
+    "updated_at": "2026-11-26T06:40:58.201891",
     "price_14d_ago": 7376.86
   },
   "SAMSUNG ELECTRONICS": {
     "price": 171300.0,
     "change_pct": -9.79,
     "name": "SamsungElec",
-    "updated_at": "2026-11-26T05:04:50.388375",
+    "updated_at": "2026-11-26T06:40:58.408021",
     "price_14d_ago": 189900.0
   },
   "SAP": {
     "price": 209.37,
     "change_pct": -10.31,
     "name": "SAP  SE",
-    "updated_at": "2026-11-26T05:04:50.599481",
+    "updated_at": "2026-11-26T06:40:58.611688",
     "price_14d_ago": 233.45
   },
   "SF": {
     "price": 68.68,
     "change_pct": -3.74,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-11-26T05:04:50.806521",
+    "updated_at": "2026-11-26T06:40:58.815932",
     "price_14d_ago": 71.35
   },
   "SK HYNIX": {
     "price": 1053000.0,
     "change_pct": -7.31,
     "name": "SK hynix",
-    "updated_at": "2026-11-26T05:04:51.784702",
+    "updated_at": "2026-11-26T06:40:59.738224",
     "price_14d_ago": 1136000.0
   },
   "SLB": {
     "price": 48.52,
     "change_pct": -2.8,
     "name": "SLB Limited",
-    "updated_at": "2026-11-26T05:04:51.999026",
+    "updated_at": "2026-11-26T06:40:59.948011",
     "price_14d_ago": 49.92
   },
   "SMH": {
     "price": 422.46,
     "change_pct": -8.94,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-11-26T05:04:52.385968",
+    "updated_at": "2026-11-26T06:41:00.322835",
     "price_14d_ago": 463.96
   },
   "SMR": {
     "price": 3.25,
     "change_pct": -36.02,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-11-26T05:04:52.577390",
+    "updated_at": "2026-11-26T06:41:00.518627",
     "price_14d_ago": 5.08
   },
   "SNAP": {
     "price": 5.04,
     "change_pct": 1.61,
     "name": "Snap Inc.",
-    "updated_at": "2026-11-26T05:04:52.773709",
+    "updated_at": "2026-11-26T06:41:00.699693",
     "price_14d_ago": 4.96
   },
   "SNWGF": {
     "price": 8.1,
     "change_pct": -20.34,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-11-26T05:04:53.176787",
+    "updated_at": "2026-11-26T06:41:01.087950",
     "price_14d_ago": 10.17
   },
   "SOYB": {
     "price": 25.98,
     "change_pct": 2.61,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-11-26T05:04:53.369663",
+    "updated_at": "2026-11-26T06:41:01.273302",
     "price_14d_ago": 25.32
   },
   "SPCE": {
     "price": 1.09,
     "change_pct": -60.65,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-11-26T05:04:53.555509",
+    "updated_at": "2026-11-26T06:41:01.470422",
     "price_14d_ago": 2.77
   },
   "SPX": {
     "price": 7182.78,
     "change_pct": -2.63,
     "name": "S&P 500",
-    "updated_at": "2026-11-26T05:04:54.196847",
+    "updated_at": "2026-11-26T06:41:02.049917",
     "price_14d_ago": 7376.86
   },
   "SPY": {
     "price": 716.7,
     "change_pct": -2.53,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-11-26T05:04:54.408922",
+    "updated_at": "2026-11-26T06:41:02.253949",
     "price_14d_ago": 735.29
   },
   "SQQQ": {
     "price": 49.6,
     "change_pct": 3.98,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-11-26T05:04:54.600839",
+    "updated_at": "2026-11-26T06:41:02.441249",
     "price_14d_ago": 47.7
   },
   "SQUARE": {
     "price": 76.1,
     "change_pct": -10.97,
     "name": "Block, Inc.",
-    "updated_at": "2026-11-26T05:04:54.785129",
+    "updated_at": "2026-11-26T06:41:02.626595",
     "price_14d_ago": 85.48
   },
   "Semiconductors": {
     "price": 422.46,
     "change_pct": -8.94,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-11-26T05:04:55.107013",
+    "updated_at": "2026-11-26T06:41:03.013410",
     "price_14d_ago": 463.96
   },
   "T": {
     "price": 22.97,
     "change_pct": 6.2,
     "name": "AT&T Inc.",
-    "updated_at": "2026-11-26T05:04:55.321296",
+    "updated_at": "2026-11-26T06:41:03.227148",
     "price_14d_ago": 21.63
   },
   "TDOC": {
     "price": 7.62,
     "change_pct": -13.11,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-11-26T05:04:55.733222",
+    "updated_at": "2026-11-26T06:41:03.613339",
     "price_14d_ago": 8.77
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": -41.67,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-11-26T05:04:56.297548",
+    "updated_at": "2026-11-26T06:41:04.166097",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 82.24,
     "change_pct": 0.39,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-11-26T05:04:56.504094",
+    "updated_at": "2026-11-26T06:41:04.363885",
     "price_14d_ago": 81.92
   },
   "TSLA": {
     "price": 380.14,
     "change_pct": 6.12,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-11-26T05:04:56.693087",
+    "updated_at": "2026-11-26T06:41:04.543227",
     "price_14d_ago": 358.22
   },
   "TSM": {
     "price": 342.34,
     "change_pct": -8.82,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-11-26T05:04:56.908239",
+    "updated_at": "2026-11-26T06:41:04.733287",
     "price_14d_ago": 375.44
   },
   "UBER": {
     "price": 66.35,
     "change_pct": -3.27,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-11-26T05:04:57.527682",
+    "updated_at": "2026-11-26T06:41:05.274346",
     "price_14d_ago": 68.59
   },
   "UNG": {
     "price": 10.3,
     "change_pct": 10.16,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-11-26T05:04:57.716817",
+    "updated_at": "2026-11-26T06:41:05.463586",
     "price_14d_ago": 9.35
   },
   "URANIUM": {
     "price": 27.71,
     "change_pct": -14.32,
     "name": "Uranium ETF",
-    "updated_at": "2026-11-26T05:04:58.102143",
+    "updated_at": "2026-11-26T06:41:05.839760",
     "price_14d_ago": 32.34
   },
   "USD": {
     "price": 39.37,
     "change_pct": -26.86,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-11-26T05:04:58.346417",
+    "updated_at": "2026-11-26T06:41:06.071492",
     "price_14d_ago": 53.83
   },
   "USDX": {
     "price": 25.7,
     "change_pct": 0.21,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-11-26T05:04:58.541001",
+    "updated_at": "2026-11-26T06:41:06.252697",
     "price_14d_ago": 25.64
   },
   "USO": {
     "price": 139.89,
     "change_pct": -5.74,
     "name": "United States Oil Fund",
-    "updated_at": "2026-11-26T05:04:58.737283",
+    "updated_at": "2026-11-26T06:41:06.432224",
     "price_14d_ago": 148.41
   },
   "UTHR": {
     "price": 590.67,
     "change_pct": 5.1,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-11-26T05:04:58.932259",
+    "updated_at": "2026-11-26T06:41:06.615568",
     "price_14d_ago": 562.02
   },
   "UUU": {
     "price": 5.29,
     "change_pct": 0.0,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-11-26T05:04:59.123543",
+    "updated_at": "2026-11-26T06:41:06.806684",
     "price_14d_ago": null
   },
   "V": {
     "price": 424.39,
     "change_pct": 0.41,
     "name": "Visa Inc.",
-    "updated_at": "2026-11-26T05:04:59.516104",
+    "updated_at": "2026-11-26T06:41:07.178904",
     "price_14d_ago": 422.65
   },
   "VEEV": {
     "price": 271.9,
     "change_pct": -10.48,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-11-26T05:05:00.082223",
+    "updated_at": "2026-11-26T06:41:07.733626",
     "price_14d_ago": 303.73
   },
   "VIX": {
-    "price": 27.47,
-    "change_pct": 37.9,
+    "price": 26.95,
+    "change_pct": 35.29,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-11-26T05:05:00.850066",
+    "updated_at": "2026-11-26T06:41:08.458651",
     "price_14d_ago": 19.92
   },
   "VLO": {
     "price": 323.0,
     "change_pct": -6.77,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-11-26T05:05:01.072516",
+    "updated_at": "2026-11-26T06:41:08.676917",
     "price_14d_ago": 346.45
   },
   "VRTX": {
     "price": 564.12,
     "change_pct": 3.11,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-11-26T05:05:01.264872",
+    "updated_at": "2026-11-26T06:41:08.856782",
     "price_14d_ago": 547.09
   },
   "WFC": {
     "price": 80.94,
     "change_pct": -3.57,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-11-26T05:05:01.500488",
+    "updated_at": "2026-11-26T06:41:09.076703",
     "price_14d_ago": 83.94
   },
   "WIT": {
     "price": 2.17,
     "change_pct": 0.46,
     "name": "Wipro Limited",
-    "updated_at": "2026-11-26T05:05:01.891880",
+    "updated_at": "2026-11-26T06:41:09.461966",
     "price_14d_ago": 2.16
   },
   "WMT": {
     "price": 131.94,
     "change_pct": 5.11,
     "name": "Walmart Inc.",
-    "updated_at": "2026-11-26T05:05:02.373540",
+    "updated_at": "2026-11-26T06:41:09.853148",
     "price_14d_ago": 125.52
   },
   "WTBN": {
     "price": 24.32,
     "change_pct": -0.38,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-11-26T05:05:02.777937",
+    "updated_at": "2026-11-26T06:41:10.255035",
     "price_14d_ago": 24.41
   },
   "WTI": {
-    "price": 84.49,
-    "change_pct": -2.72,
+    "price": 84.54,
+    "change_pct": -2.66,
     "name": "WTI Crude",
-    "updated_at": "2026-11-26T05:05:02.969841",
+    "updated_at": "2026-11-26T06:41:10.439160",
     "price_14d_ago": 86.85
   },
   "WTI CRUDE OIL": {
-    "price": 84.49,
-    "change_pct": -2.72,
+    "price": 84.54,
+    "change_pct": -2.66,
     "name": "WTI Crude",
-    "updated_at": "2026-11-26T05:05:03.163621",
+    "updated_at": "2026-11-26T06:41:10.620958",
     "price_14d_ago": 86.85
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-11-26T05:05:03.720946",
+    "updated_at": "2026-11-26T06:41:11.165179",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 158.08,
     "change_pct": -4.7,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-11-26T05:05:04.401366",
+    "updated_at": "2026-11-26T06:41:11.795180",
     "price_14d_ago": 165.87
   },
   "ZIM": {
     "price": 30.88,
     "change_pct": 10.48,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-11-26T05:05:04.783318",
+    "updated_at": "2026-11-26T06:41:12.165031",
     "price_14d_ago": 27.95
   },
   "HIMS": {
     "price": 14.65,
     "change_pct": -43.65,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-11-26T05:05:05.357542",
+    "updated_at": "2026-11-26T06:41:12.722644",
     "price_14d_ago": 26.0
   },
   "GDRX": {
     "price": 2.38,
     "change_pct": -32.19,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-11-26T05:05:05.551184",
+    "updated_at": "2026-11-26T06:41:12.904701",
     "price_14d_ago": 3.51
   },
   "TEM": {
     "price": 54.74,
     "change_pct": -28.02,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-11-26T05:05:05.742313",
+    "updated_at": "2026-11-26T06:41:13.101871",
     "price_14d_ago": 76.05
   },
   "GH": {
     "price": 153.36,
     "change_pct": 1.65,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-11-26T05:05:05.929448",
+    "updated_at": "2026-11-26T06:41:13.291104",
     "price_14d_ago": 150.87
   },
   "ABT": {
     "price": 108.0,
     "change_pct": -1.76,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-11-26T05:05:06.215642",
+    "updated_at": "2026-11-26T06:41:13.504112",
     "price_14d_ago": 109.93
   },
   "ARM": {
     "price": 161.51,
     "change_pct": -7.51,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-11-26T05:04:14.046857",
+    "updated_at": "2026-11-26T06:40:22.743929",
     "price_14d_ago": 174.62
   },
   "HOOD": {
     "price": 65.78,
     "change_pct": -18.7,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-11-26T05:04:30.479502",
+    "updated_at": "2026-11-26T06:40:38.576761",
     "price_14d_ago": 80.91
   },
   "SPOT": {
     "price": 616.46,
     "change_pct": 2.23,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-11-26T05:04:53.747663",
+    "updated_at": "2026-11-26T06:41:01.653181",
     "price_14d_ago": 603.01
   },
   "CRWV": {
     "price": 42.57,
     "change_pct": -8.25,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-11-26T05:04:21.931608",
+    "updated_at": "2026-11-26T06:40:30.322423",
     "price_14d_ago": 46.4
   },
   "LENS": {
     "price": 37.96,
     "change_pct": -8.3,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-11-26T05:04:34.392735",
+    "updated_at": "2026-11-26T06:40:42.415098",
     "price_14d_ago": 41.4
   },
   "TCEHY": {
     "price": 43.61,
     "change_pct": -18.73,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-11-26T05:04:55.540195",
+    "updated_at": "2026-11-26T06:41:03.427903",
     "price_14d_ago": 53.66
   },
   "SHOP": {
     "price": 133.4,
     "change_pct": -10.42,
     "name": "Shopify Inc.",
-    "updated_at": "2026-11-26T05:04:50.997109",
+    "updated_at": "2026-11-26T06:40:58.996116",
     "price_14d_ago": 148.91
   },
   "BWET": {
     "price": 827.15,
     "change_pct": 22.27,
     "name": "Breakwave Tanker Shipping ETF",
-    "updated_at": "2026-11-26T05:04:17.717687",
+    "updated_at": "2026-11-26T06:40:26.279825",
     "price_14d_ago": 676.5
   },
   "CRWD": {
     "price": 209.3,
     "change_pct": -3.5,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-11-26T05:04:21.734484",
+    "updated_at": "2026-11-26T06:40:30.136541",
     "price_14d_ago": 216.9
   },
   "DHT": {
     "price": 21.7,
     "change_pct": 4.93,
     "name": "DHT Holdings, Inc.",
-    "updated_at": "2026-11-26T05:04:23.142568",
+    "updated_at": "2026-11-26T06:40:31.474966",
     "price_14d_ago": 20.68
   },
   "ECO": {
     "price": 81.59,
     "change_pct": -2.01,
     "name": "Okeanis Eco Tankers Corp.",
-    "updated_at": "2026-11-26T05:04:24.567902",
+    "updated_at": "2026-11-26T06:40:32.844467",
     "price_14d_ago": 83.26
   },
   "FMCC": {
     "price": 3.77,
     "change_pct": -5.04,
     "name": "Freddie Mac",
-    "updated_at": "2026-11-26T05:04:26.385155",
+    "updated_at": "2026-11-26T06:40:34.584871",
     "price_14d_ago": 3.97
   },
   "FNMA": {
     "price": 4.11,
     "change_pct": -7.22,
     "name": "Fannie Mae",
-    "updated_at": "2026-11-26T05:04:26.594736",
+    "updated_at": "2026-11-26T06:40:34.789913",
     "price_14d_ago": 4.43
   },
   "FRO": {
     "price": 47.65,
     "change_pct": 4.91,
     "name": "Frontline Plc",
-    "updated_at": "2026-11-26T05:04:27.001683",
+    "updated_at": "2026-11-26T06:40:35.196488",
     "price_14d_ago": 45.42
   },
   "FTNT": {
     "price": 134.96,
     "change_pct": 13.56,
     "name": "Fortinet, Inc.",
-    "updated_at": "2026-11-26T05:04:27.580864",
+    "updated_at": "2026-11-26T06:40:35.765604",
     "price_14d_ago": 118.84
   },
   "QLYS": {
     "price": 196.38,
     "change_pct": 3.14,
     "name": "Qualys, Inc.",
-    "updated_at": "2026-11-26T05:04:46.826112",
+    "updated_at": "2026-11-26T06:40:54.889411",
     "price_14d_ago": 190.41
   },
   "RITM": {
     "price": 8.92,
     "change_pct": -3.36,
     "name": "Rithm Capital Corp.",
-    "updated_at": "2026-11-26T05:04:48.446888",
+    "updated_at": "2026-11-26T06:40:56.528168",
     "price_14d_ago": 9.23
   },
   "RPD": {
     "price": 15.93,
     "change_pct": 8.51,
     "name": "Rapid7, Inc.",
-    "updated_at": "2026-11-26T05:04:49.214981",
+    "updated_at": "2026-11-26T06:40:57.260912",
     "price_14d_ago": 14.68
   },
   "AMAT": {
     "price": 311.18,
     "change_pct": -6.47,
     "name": "Applied Materials, Inc.",
-    "updated_at": "2026-11-26T05:04:11.680452",
+    "updated_at": "2026-11-26T06:40:20.485460",
     "price_14d_ago": 332.72
   },
   "LRCX": {
     "price": 185.01,
     "change_pct": -7.7,
     "name": "Lam Research Corporation",
-    "updated_at": "2026-11-26T05:04:35.652387",
+    "updated_at": "2026-11-26T06:40:43.611880",
     "price_14d_ago": 200.44
   },
   "HUBS": {
     "price": 210.21,
     "change_pct": 4.79,
     "name": "HubSpot, Inc.",
-    "updated_at": "2026-11-26T05:04:30.673873",
+    "updated_at": "2026-11-26T06:40:38.761977",
     "price_14d_ago": 200.61
   },
   "MCD": {
     "price": 283.5,
     "change_pct": 2.52,
     "name": "McDonald's Corporation",
-    "updated_at": "2026-11-26T05:04:36.868494",
+    "updated_at": "2026-11-26T06:40:44.995390",
     "price_14d_ago": 276.52
   },
   "CART": {
     "price": 57.68,
     "change_pct": -0.76,
     "name": "Maplebear Inc.",
-    "updated_at": "2026-11-26T05:04:18.527039",
+    "updated_at": "2026-11-26T06:40:27.046278",
     "price_14d_ago": 58.12
   },
   "VGS": {
     "price": 0,
     "change_pct": 0,
     "name": "VGS",
-    "updated_at": "2026-11-26T05:05:00.462338",
+    "updated_at": "2026-11-26T06:41:08.098851",
     "price_14d_ago": null
   },
   "LEU": {
     "price": 83.19,
     "change_pct": -20.47,
     "name": "Centrus Energy Corp.",
-    "updated_at": "2026-11-26T05:04:34.594238",
+    "updated_at": "2026-11-26T06:40:42.610247",
     "price_14d_ago": 104.6
   },
   "AMP": {
     "price": 504.98,
     "change_pct": 0.7,
     "name": "Ameriprise Financial, Inc.",
-    "updated_at": "2026-11-26T05:04:12.275610",
+    "updated_at": "2026-11-26T06:40:21.060709",
     "price_14d_ago": 501.49
   },
   "ANTH": {
     "price": 0.0,
     "change_pct": 0.0,
     "name": "ANTHERA PHARMACEUTICALS INC",
-    "updated_at": "2026-11-26T05:04:13.062433",
+    "updated_at": "2026-11-26T06:40:21.800061",
     "price_14d_ago": 0.0
   },
   "DB": {
     "price": 32.82,
     "change_pct": -5.8,
     "name": "Deutsche Bank AG",
-    "updated_at": "2026-11-26T05:04:22.332333",
+    "updated_at": "2026-11-26T06:40:30.707032",
     "price_14d_ago": 34.84
   },
   "FSLR": {
     "price": 147.88,
     "change_pct": -26.48,
     "name": "First Solar, Inc.",
-    "updated_at": "2026-11-26T05:04:27.385578",
+    "updated_at": "2026-11-26T06:40:35.583440",
     "price_14d_ago": 201.14
   },
   "NASA": {
     "price": 17.59,
     "change_pct": -8.81,
     "name": "Tema Space Innovators ETF",
-    "updated_at": "2026-11-26T05:04:39.879820",
+    "updated_at": "2026-11-26T06:40:47.923846",
     "price_14d_ago": 19.29
   },
   "ASML": {
     "price": 1303.08,
     "change_pct": -8.54,
     "name": "ASML Holding N.V. - New York Re",
-    "updated_at": "2026-11-26T05:04:14.245827",
+    "updated_at": "2026-11-26T06:40:22.939962",
     "price_14d_ago": 1424.75
   },
   "NET": {
     "price": 283.3,
     "change_pct": 5.41,
     "name": "Cloudflare, Inc.",
-    "updated_at": "2026-11-26T05:04:40.483871",
+    "updated_at": "2026-11-26T06:40:48.518110",
     "price_14d_ago": 268.75
   },
   "BOX": {
     "price": 46.37,
     "change_pct": 10.54,
     "name": "Box, Inc.",
-    "updated_at": "2026-11-26T05:04:16.829088",
+    "updated_at": "2026-11-26T06:40:25.501864",
     "price_14d_ago": 41.95
   },
   "CRSR": {
     "price": 11.81,
     "change_pct": -0.25,
     "name": "Corsair Gaming, Inc.",
-    "updated_at": "2026-11-26T05:04:21.540741",
+    "updated_at": "2026-11-26T06:40:29.953474",
     "price_14d_ago": 11.84
   },
   "CRL": {
     "price": 332.08,
     "change_pct": -1.61,
     "name": "Charles River Laboratories Inte",
-    "updated_at": "2026-11-26T05:04:20.949195",
+    "updated_at": "2026-11-26T06:40:29.398267",
     "price_14d_ago": 337.52
   },
   "BDC": {
     "price": 99.21,
     "change_pct": 1.41,
     "name": "Belden Inc",
-    "updated_at": "2026-11-26T05:04:16.042395",
+    "updated_at": "2026-11-26T06:40:24.752484",
     "price_14d_ago": 97.83
   },
   "CMBS": {
     "price": 47.89,
     "change_pct": 0.43,
     "name": "iShares CMBS Bond ETF",
-    "updated_at": "2026-11-26T05:04:19.787545",
+    "updated_at": "2026-11-26T06:40:28.259519",
     "price_14d_ago": 47.69
   },
   "DBX": {
     "price": 37.41,
     "change_pct": 7.93,
     "name": "Dropbox, Inc.",
-    "updated_at": "2026-11-26T05:04:22.737223",
+    "updated_at": "2026-11-26T06:40:31.083410",
     "price_14d_ago": 34.66
   },
   "HY": {
     "price": 17.28,
     "change_pct": -39.18,
     "name": "Hyster-Yale, Inc.",
-    "updated_at": "2026-11-26T05:04:31.067218",
+    "updated_at": "2026-11-26T06:40:39.140862",
     "price_14d_ago": 28.41
   },
   "IG": {
     "price": 19.82,
     "change_pct": -0.45,
     "name": "Principal Investment Grade Corp",
-    "updated_at": "2026-11-26T05:04:31.909537",
+    "updated_at": "2026-11-26T06:40:39.951681",
     "price_14d_ago": 19.91
   },
   "REIT": {
     "price": 29.82,
     "change_pct": 0.39,
     "name": "ALPS Active REIT ETF",
-    "updated_at": "2026-11-26T05:04:47.829782",
+    "updated_at": "2026-11-26T06:40:55.847123",
     "price_14d_ago": 29.71
   },
   "RAMP": {
     "price": 38.5,
     "change_pct": 0.0,
     "name": "LiveRamp Holdings, Inc.",
-    "updated_at": "2026-11-26T05:04:47.442908",
+    "updated_at": "2026-11-26T06:40:55.464058",
     "price_14d_ago": null
   },
   "DJI": {
     "price": 0,
     "change_pct": 0,
     "name": "DJI",
-    "updated_at": "2026-11-26T05:04:23.569376",
+    "updated_at": "2026-11-26T06:40:31.885845",
     "price_14d_ago": null
   },
   "HON": {
     "price": 225.1,
     "change_pct": 2.29,
     "name": "Honeywell International Inc.",
-    "updated_at": "2026-11-26T05:04:30.283563",
+    "updated_at": "2026-11-26T06:40:38.391808",
     "price_14d_ago": 220.05
   },
   "MAR": {
     "price": 415.77,
     "change_pct": -0.17,
     "name": "Marriott International",
-    "updated_at": "2026-11-26T05:04:36.628070",
+    "updated_at": "2026-11-26T06:40:44.558247",
     "price_14d_ago": 416.47
   },
   "COF": {
     "price": 182.52,
     "change_pct": -9.59,
     "name": "Capital One Financial Corporati",
-    "updated_at": "2026-11-26T05:04:20.182303",
+    "updated_at": "2026-11-26T06:40:28.663821",
     "price_14d_ago": 201.87
   },
   "HYG": {
     "price": 76.52,
     "change_pct": -0.92,
     "name": "iShares iBoxx $ High Yield Corp",
-    "updated_at": "2026-11-26T05:04:31.275930",
+    "updated_at": "2026-11-26T06:40:39.343070",
     "price_14d_ago": 77.23
   },
   "SNOW": {
     "price": 267.72,
     "change_pct": -2.96,
     "name": "Snowflake Inc.",
-    "updated_at": "2026-11-26T05:04:52.964695",
+    "updated_at": "2026-11-26T06:41:00.883614",
     "price_14d_ago": 275.88
   },
   "DOCU": {
     "price": 80.75,
     "change_pct": 4.05,
     "name": "DocuSign, Inc.",
-    "updated_at": "2026-11-26T05:04:23.951936",
+    "updated_at": "2026-11-26T06:40:32.250689",
     "price_14d_ago": 77.61
   },
   "FIG": {
     "price": 17.11,
     "change_pct": -9.04,
     "name": "Figma, Inc.",
-    "updated_at": "2026-11-26T05:04:25.986710",
+    "updated_at": "2026-11-26T06:40:34.200602",
     "price_14d_ago": 18.81
   },
   "MPC": {
     "price": 346.27,
     "change_pct": -7.1,
     "name": "Marathon Petroleum Corporation",
-    "updated_at": "2026-11-26T05:04:38.244457",
+    "updated_at": "2026-11-26T06:40:46.327798",
     "price_14d_ago": 372.74
   },
   "NU": {
     "price": 12.36,
     "change_pct": 2.74,
     "name": "Nu Holdings Ltd.",
-    "updated_at": "2026-11-26T05:04:41.721874",
+    "updated_at": "2026-11-26T06:40:49.828310",
     "price_14d_ago": 12.03
   },
   "AXON": {
     "price": 343.05,
     "change_pct": 9.6,
     "name": "Axon Enterprise, Inc.",
-    "updated_at": "2026-11-26T05:04:14.626417",
+    "updated_at": "2026-11-26T06:40:23.333833",
     "price_14d_ago": 313.0
   },
   "RNG": {
     "price": 71.13,
     "change_pct": -1.3,
     "name": "Ringcentral, Inc.",
-    "updated_at": "2026-11-26T05:04:48.827576",
+    "updated_at": "2026-11-26T06:40:56.899516",
     "price_14d_ago": 72.07
   },
   "TWLO": {
     "price": 180.79,
     "change_pct": -10.51,
     "name": "Twilio Inc.",
-    "updated_at": "2026-11-26T05:04:57.094412",
+    "updated_at": "2026-11-26T06:41:04.913291",
     "price_14d_ago": 202.02
   },
   "ANT": {
     "price": 82.79,
     "change_pct": -14.8,
     "name": "Anthropic, PBC",
-    "updated_at": "2026-11-26T05:04:12.861123",
+    "updated_at": "2026-11-26T06:40:21.610167",
     "price_14d_ago": null
   },
   "SRUUF": {
     "price": 17.71,
     "change_pct": -4.37,
     "name": "Sprott Physical Uranium Trust",
-    "updated_at": "2026-11-26T05:04:54.975888",
+    "updated_at": "2026-11-26T06:41:02.818327",
     "price_14d_ago": 18.52
   },
   "OTCM": {
     "price": 51.0,
     "change_pct": -2.62,
     "name": "OTC Markets Group Inc.",
-    "updated_at": "2026-11-26T05:04:43.710406",
+    "updated_at": "2026-11-26T06:40:51.782858",
     "price_14d_ago": 52.37
   },
   "ZIP": {
     "price": 6.1,
     "change_pct": 62.23,
     "name": "ZipRecruiter, Inc.",
-    "updated_at": "2026-11-26T05:05:04.973799",
+    "updated_at": "2026-11-26T06:41:12.351751",
     "price_14d_ago": 3.76
   },
   "BHP": {
     "price": 70.77,
     "change_pct": -11.42,
     "name": "BHP Group Limited",
-    "updated_at": "2026-11-26T05:04:16.257852",
+    "updated_at": "2026-11-26T06:40:24.955676",
     "price_14d_ago": 79.89
   },
   "FNV": {
     "price": 244.76,
     "change_pct": -4.0,
     "name": "Franco-Nevada Corporation",
-    "updated_at": "2026-11-26T05:04:26.797568",
+    "updated_at": "2026-11-26T06:40:35.000138",
     "price_14d_ago": 254.95
   },
   "RGLD": {
     "price": 241.28,
     "change_pct": -9.23,
     "name": "Royal Gold, Inc.",
-    "updated_at": "2026-11-26T05:04:48.035324",
+    "updated_at": "2026-11-26T06:40:56.053457",
     "price_14d_ago": 265.81
   },
   "RIO": {
     "price": 74.58,
     "change_pct": -10.93,
     "name": "Rio Tinto Plc",
-    "updated_at": "2026-11-26T05:04:48.253020",
+    "updated_at": "2026-11-26T06:40:56.262075",
     "price_14d_ago": 83.73
   },
   "WPM": {
     "price": 122.6,
     "change_pct": -10.06,
     "name": "Wheaton Precious Metals Corp",
-    "updated_at": "2026-11-26T05:05:02.584209",
+    "updated_at": "2026-11-26T06:41:10.057478",
     "price_14d_ago": 136.31
   },
   "AGIO": {
     "price": 31.5,
     "change_pct": 7.11,
     "name": "Agios Pharmaceuticals, Inc.",
-    "updated_at": "2026-11-26T05:04:11.476948",
+    "updated_at": "2026-11-26T06:40:20.287939",
     "price_14d_ago": 29.41
   },
   "CL": {
     "price": 99.66,
     "change_pct": 3.21,
     "name": "Colgate-Palmolive Company",
-    "updated_at": "2026-11-26T05:04:19.588984",
+    "updated_at": "2026-11-26T06:40:28.066933",
     "price_14d_ago": 96.56
   },
   "QCOM": {
     "price": 168.66,
     "change_pct": 1.96,
     "name": "QUALCOMM Incorporated",
-    "updated_at": "2026-11-26T05:04:46.640516",
+    "updated_at": "2026-11-26T06:40:54.701102",
     "price_14d_ago": 165.41
   },
   "SI": {
     "price": 21.42,
     "change_pct": 4.28,
     "name": "Shoulder Innovations, Inc.",
-    "updated_at": "2026-11-26T05:04:51.189139",
+    "updated_at": "2026-11-26T06:40:59.178668",
     "price_14d_ago": 20.54
   },
   "SITM": {
     "price": 386.13,
     "change_pct": -7.38,
     "name": "SiTime Corporation",
-    "updated_at": "2026-11-26T05:04:51.575242",
+    "updated_at": "2026-11-26T06:40:59.538459",
     "price_14d_ago": 416.92
   },
   "XLB": {
     "price": 51.21,
     "change_pct": -1.42,
     "name": "State Street Materials Select S",
-    "updated_at": "2026-11-26T05:05:03.956723",
+    "updated_at": "2026-11-26T06:41:11.368255",
     "price_14d_ago": 51.95
   },
   "XLE": {
     "price": 60.9,
     "change_pct": -1.17,
     "name": "State Street Energy Select Sect",
-    "updated_at": "2026-11-26T05:05:04.175531",
+    "updated_at": "2026-11-26T06:41:11.570277",
     "price_14d_ago": 61.62
   },
   "SMCI": {
     "price": 23.31,
     "change_pct": -18.95,
     "name": "Super Micro Computer, Inc.",
-    "updated_at": "2026-11-26T05:04:52.189032",
+    "updated_at": "2026-11-26T06:41:00.129011",
     "price_14d_ago": 28.76
   },
   "MA": {
     "price": 659.97,
     "change_pct": 1.11,
     "name": "Mastercard Incorporated",
-    "updated_at": "2026-11-26T05:04:36.420076",
+    "updated_at": "2026-11-26T06:40:44.351059",
     "price_14d_ago": 652.7
   },
   "ANET": {
     "price": 163.99,
     "change_pct": -3.99,
     "name": "Arista Networks, Inc.",
-    "updated_at": "2026-11-26T05:04:12.662010",
+    "updated_at": "2026-11-26T06:40:21.430534",
     "price_14d_ago": 170.8
   },
   "OKTA": {
     "price": 201.77,
     "change_pct": 19.61,
     "name": "Okta, Inc.",
-    "updated_at": "2026-11-26T05:04:43.118278",
+    "updated_at": "2026-11-26T06:40:51.216935",
     "price_14d_ago": 168.69
   }
 },
   tickerScores: [],
   archive: {
   "insights": [
+    {
+      "id": 742,
+      "title": "Replay: On Food as Medicine (2020)",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-26",
+      "summary": "The episode argues that \u201cfood as medicine\u201d is compelling because food shares several properties people want from medicines: it can be safer, more effective in some settings, more affordable, and easier to sustain because people eat multiple times per day. The discussion centers on medically tailored meals, voucher programs, and healthier food benefits as tools for chronic disease and food-insecure populations.\n\nA major theme is scaling: speakers say the main bottlenecks are delivery, access, and payment/reimbursement. They describe the need to connect food benefits to insurer payment systems and to existing benefit programs like SNAP and WIC, while also using technology and digital ordering to make healthier choices easier in the checkout flow. The episode also frames the consumer \u201cfood environment\u201d as a lever for changing purchases without relying only on willpower.\n\nAndrea Feinberg points to real-world experience at Geisinger, where patients with diabetes received healthy food, education, and social support. She says they saw dramatic HbA1c improvements and about 60-plus percent lower healthcare costs, with very sick patients cutting costs by two-thirds. The episode also says food insecurity raises annual household healthcare costs by about 15% for mild insecurity, 30% for moderate insecurity, and upwards of 70% for severe insecurity.\n\nThe conversation closes with a systems-level argument: clinicians get very little nutrition training, so adoption will require curriculum changes, and a public-health-style infrastructure may eventually embed nutrition interventions into utilities in the same way fluoride is embedded in water. The episode\u2019s tone is optimistic but still acknowledges evidence-quality and reimbursement hurdles.",
+      "key_takeaway": "Food-as-medicine could cut chronic-disease costs and improve outcomes, but only if delivery, reimbursement, and benefit systems are integrated at scale.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 731,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "food actually has a lot of the properties that one would wish of medicines, right? So whether it's safety, whether it's efficacy, whether it's accessing affordability, and I think most importantly, this notion of compliance, right?"
+        },
+        {
+          "speaker": "one host",
+          "quote": "If you have mild food insecurity, household healthcare annual costs rise by about 15%. If you have moderate food insecurity, healthcare costs will increase by 30%. And if you have severe food insecurity, a healthcare cost for the household can rise upwards of 70%."
+        },
+        {
+          "speaker": "Andrea Feinberg",
+          "quote": "we saw about 60-plus percent decrease in healthcare costs."
+        }
+      ]
+    },
     {
       "id": 737,
       "title": "Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)",
@@ -1938,7 +1969,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-23",
       "archived_date": null,
@@ -22818,6 +22849,40 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 742,
+      "title": "Replay: On Food as Medicine (2020)",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-26",
+      "summary": "The episode argues that \u201cfood as medicine\u201d is compelling because food shares several properties people want from medicines: it can be safer, more effective in some settings, more affordable, and easier to sustain because people eat multiple times per day. The discussion centers on medically tailored meals, voucher programs, and healthier food benefits as tools for chronic disease and food-insecure populations.\n\nA major theme is scaling: speakers say the main bottlenecks are delivery, access, and payment/reimbursement. They describe the need to connect food benefits to insurer payment systems and to existing benefit programs like SNAP and WIC, while also using technology and digital ordering to make healthier choices easier in the checkout flow. The episode also frames the consumer \u201cfood environment\u201d as a lever for changing purchases without relying only on willpower.\n\nAndrea Feinberg points to real-world experience at Geisinger, where patients with diabetes received healthy food, education, and social support. She says they saw dramatic HbA1c improvements and about 60-plus percent lower healthcare costs, with very sick patients cutting costs by two-thirds. The episode also says food insecurity raises annual household healthcare costs by about 15% for mild insecurity, 30% for moderate insecurity, and upwards of 70% for severe insecurity.\n\nThe conversation closes with a systems-level argument: clinicians get very little nutrition training, so adoption will require curriculum changes, and a public-health-style infrastructure may eventually embed nutrition interventions into utilities in the same way fluoride is embedded in water. The episode\u2019s tone is optimistic but still acknowledges evidence-quality and reimbursement hurdles.",
+      "key_takeaway": "Food-as-medicine could cut chronic-disease costs and improve outcomes, but only if delivery, reimbursement, and benefit systems are integrated at scale.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 731,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "food actually has a lot of the properties that one would wish of medicines, right? So whether it's safety, whether it's efficacy, whether it's accessing affordability, and I think most importantly, this notion of compliance, right?"
+        },
+        {
+          "speaker": "one host",
+          "quote": "If you have mild food insecurity, household healthcare annual costs rise by about 15%. If you have moderate food insecurity, healthcare costs will increase by 30%. And if you have severe food insecurity, a healthcare cost for the household can rise upwards of 70%."
+        },
+        {
+          "speaker": "Andrea Feinberg",
+          "quote": "we saw about 60-plus percent decrease in healthcare costs."
+        }
+      ],
+      "episode_release_date": "2026-11-26",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 741,
       "title": "\u201cAir Pocket for AI Demand in 2027\u201d | Funda.AI\u2019s Kenneth Tay on Near-Term Headwinds for Enterprise AI Demand (Recorded at TomorrowX Summit)",
       "source_type": "podcast",
@@ -23239,44 +23304,6 @@ const dashboardData = {
         "DELL",
         "AVGO",
         "AMD"
-      ]
-    },
-    {
-      "id": 729,
-      "title": "Gavin Baker: The AI Capex Cycle Will Be Longer Than the Market Thinks | Jensen, Nvidia, and Gavin's Best AI Bear Case",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-11-23",
-      "summary": "Gavin Baker argues that the market is underestimating the economic return from AI capex because standard ROI math focuses on incremental advertising or subscription revenue and misses two major sources of value: fast-growing private companies built on open source, and on-prem GPU deployments for open-weight models. He says that makes the current semiconductor/AI pullback look less like a simple capex air pocket and more like a second-derivative setup the market is misreading.\n\nHe also says the AI infrastructure buildout may last much longer than most semiconductor cycles, comparing it to railroads and suggesting this could be a multi-decade buildout rather than a short boom-bust. On the monitoring side, he says the most important fundamental tells are whether AI keeps becoming more economically useful and whether token demand elasticity stays positive; in his view, rising GPU rental prices are one of the clearest market signals of that improvement.\n\nA separate thread is Nvidia governance. Baker says Jensen Huang\u2019s decades of supplier relationships are a unique advantage, and that Jensen leaving \u2014 or the board refusing to reinstate him \u2014 would be a major positive for competitors and negative for Nvidia shareholders. The episode was recorded on Nov. 18, 2026, after Nvidia's earnings and before Nvidia's board reinstated Jensen Huang as CEO, so his comments describe Jensen being out at the time.\n\nHe also flags valuation dislocations across parts of the semiconductor and AI ecosystem, saying some non-memory companies with intellectual property and share gains are still at low multiples. The main bear case, in his telling, is not valuation alone but whether the returns to intelligence eventually stop compounding economically, especially if models become small enough that they stop producing rising utility.",
-      "key_takeaway": "The market is mispricing AI semicapex because it is missing open-source and on-prem economics that could keep returns and demand rising longer than expected.",
-      "tickers_mentioned": [
-        "NVDA"
-      ],
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-11-23",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 719,
-      "notable_quotes": [
-        {
-          "speaker": "Gavin Baker",
-          "quote": "I think that this calculation is missing something very important. One, it is all of the extremely high growth private companies. There are a lot of companies that are tracking to anthropics growth rate while burning less cash that are fueled by open source"
-        },
-        {
-          "speaker": "Gavin Baker",
-          "quote": "But listen, I think as long as this intelligence is getting more economically useful and token elasticity, demand elasticity for tokens is positive, I think those are the two most important things to watch for AI fundamentals."
-        },
-        {
-          "speaker": "Gavin Baker",
-          "quote": "The biggest bear case is the ultimate unknowable bear cases. We do not know what the returns to super intelligence are. If we get to a place where you know, a model today that, you know, is it the frontier?"
-        }
-      ],
-      "episode_release_date": "2026-11-23",
-      "guest_name": "Gavin Baker",
-      "key_tickers": [
-        "NVDA"
       ]
     }
   ],
@@ -68323,9 +68350,79 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-11-25",
     "key_tickers": []
+  },
+  "742": {
+    "id": 737,
+    "insight_id": 742,
+    "podcast_episode_id": 731,
+    "overview": "The non-obvious signal in this episode is not simply that nutrition can improve health, but that the commercial bottleneck is much closer to claims processing and benefit design than to consumer demand. The conversation repeatedly points to a world where food interventions become administrable only when they can be routed through insurer payment rails, benefit eligibility systems, and digital ordering flows that reduce friction at the point of choice. That makes the opportunity look less like a standalone meal business and more like an infrastructure layer spanning payer adjudication, ordering software, benefits administration, and delivery logistics.\n\nAnother underappreciated angle is the mismatch between the size of the economic prize and the evidence standard currently available. The episode treats chronic-disease cost reduction as a payer problem, but the argument depends on translating observational or quasi-real-world results into something that can survive reimbursement scrutiny. That creates a wedge for platforms that can generate auditable utilization and outcome data, not just meals. The discussion also suggests that the strongest early adoption may come from high-cost, diet-responsive cohorts where ROI is easiest to prove, rather than broad consumer wellness markets.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "The practical watchpoint is whether food-as-medicine programs can become reimbursable benefit products rather than grant-funded pilots. The most investable path appears to be companies that can prove three things at once: lower total cost of care in narrowly defined cohorts, operationally reliable delivery, and integration with insurer, Medicaid, Medicare Advantage, SNAP, or WIC workflows. That points toward a two-layer stack: distribution companies that can fulfill tailored nutrition at low variable cost, and software or services companies that make eligibility, ordering, and claims processing tractable. What matters next is not broad category enthusiasm but evidence of repeatable unit economics and payer adoption. The highest-conviction setup would be a program that shows measurable clinical improvement in one condition, a clean claims-based savings story, and a reimbursement pathway that survives beyond a single pilot. If those elements do not converge, the category stays in the realm of good outcomes with poor scalability. The more actionable market lens is to watch which incumbents in managed care, digital health, grocery, and benefits administration become distribution partners for these programs, because they may capture value even if standalone food-as-medicine brands struggle.",
+    "ticker_analysis": {},
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Claims-based savings remain concentrated in a small subset of very high-risk patients rather than broad enrolled populations.",
+      "Delivery costs stay high even as ordering shifts digital, implying the last mile\u2014not consumer selection\u2014is the dominant constraint.",
+      "Payer documentation continues to require drug-like evidence standards without creating a distinct reimbursement lane for food.",
+      "Clinician adoption remains low because nutrition training in medical education does not materially improve.",
+      "Consumers respond to healthier checkout nudges, but repeat purchase and adherence fade after the first few cycles."
+    ],
+    "catalysts": [
+      "A payer or Medicare Advantage plan disclosure that expands food-as-medicine benefits to a larger member base, timing: upcoming annual benefit filings."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-11-26T06:40:18.861807",
+    "updated_at": "2026-11-26 12:40:18",
+    "episode_evidence": "one host: food actually has a lot of the properties that one would wish of medicines, right? So whether it's safety, whether it's efficacy, whether it's accessing affordability, and I think most importantly, this notion of compliance, right?\none host: If you have mild food insecurity, household healthcare annual costs rise by about 15%. If you have moderate food insecurity, healthcare costs will increase by 30%. And if you have severe food insecurity, a healthcare cost for the household can rise upwards of 70%.\nAndrea Feinberg: So, while I was at Geising on our patients who had diabetes at a control, so a very diet responsive condition, we provided them with healthy food, education, and social support.\nAndrea Feinberg: And what we saw was dramatic improvements clinically with hemoglobin A1Cs, which is a market of diabetes control.\nAndrea Feinberg: we saw about 60-plus percent decrease in healthcare costs.",
+    "falsification_tracks": [
+      "By Dec. 31, 2027, fewer than 3 national or regional payers adopting reimbursable medically tailored meal or food-benefit programs in filed medical policy documents would weaken the reimbursement thesis; source: CMS coverage policy updates and insurer medical policy filings.",
+      "By the Q4 2027 reporting cycle, if a representative food-as-medicine operator cannot show at least 20% gross margin improvement or a sub-$10 per delivered meal logistics cost, the scaling thesis fails; source: company earnings release or audited financial statements.",
+      "By 2027, if a controlled or quasi-experimental study in a payer population does not show at least a 0.5 point HbA1c improvement for the targeted diabetes cohort, the clinical value proposition is unproven; source: peer-reviewed journal publication or claims-linked outcomes report.",
+      "By the next Medicaid waiver renewal cycle after 2026, if fewer than 2 states expand food-benefit coverage through Section 1115 or similar mechanisms, the policy adoption thesis is too slow; source: CMS waiver approvals and state Medicaid agency filings.",
+      "By Dec. 31, 2026, if a national benefits platform or insurer cannot document at least $1,000 in annual per-member medical cost reduction from nutrition intervention in its own claims data, the ROI case is materially weaker; source: insurer quality report or employer benefits report."
+    ],
+    "schema_version": 1,
+    "model_used": "gpt-5.4-mini",
+    "input_tokens": 16253,
+    "output_tokens": 3296,
+    "cost_usd": 0.013510874999999999,
+    "attempt_count": 3,
+    "generation_mode": "extraction",
+    "insight_title": "Replay: On Food as Medicine (2020)",
+    "source_name": "The a16z Show",
+    "source_date": "2026-11-26",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 1329,
+    "term": "food as medicine",
+    "definition": "A framework for using food and nutrition interventions to prevent or treat disease, especially chronic conditions. In the episode, it includes medically tailored meals, food benefits, and nutrition support tied to health outcomes.",
+    "investment_implications": "Could create a reimbursement-backed market for nutrition delivery, benefits administration, and health-system partnerships.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-11-26 12:39:47",
+    "priority_score": 80
+  },
+  {
+    "id": 1330,
+    "term": "digital checkout aisle",
+    "definition": "The online ordering and purchasing environment where food metadata and product placement can influence consumer choice. The idea is that changing the ordering interface can shift purchasing toward healthier options.",
+    "investment_implications": "Points to software, e-commerce, and benefits-transaction platforms as enablers of healthier consumer behavior.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-11-26 12:39:47",
+    "priority_score": 80
+  },
   {
     "id": 1326,
     "term": "FDEs",
@@ -68349,35 +68446,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-11-26 05:45:38",
     "priority_score": 80
-  },
-  {
-    "id": 1328,
-    "term": "air pocket",
-    "definition": "A period of weaker-than-expected demand growth. Tay uses it for the possibility that enterprise AI spend growth may fall short around 2027.",
-    "investment_implications": "A 2027 air pocket would mean current market expectations could still be too high, creating valuation risk for AI beneficiaries.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-11-26 05:45:38",
-    "priority_score": 80
-  },
-  {
-    "id": 1325,
-    "term": "ways of working with the model",
-    "definition": "tooling, guardrails, scripting, and being able to understand what the system is doing",
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-11-26 04:12:06",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 126377,
+    "id": 126469,
     "name": "Ray Dalio (2019)",
     "slug": "ray-dalio-2019",
     "bio": null,
@@ -68389,7 +68462,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126378,
+    "id": 126470,
     "name": "Jennifer Bailey (2024)",
     "slug": "jennifer-bailey-2024",
     "bio": null,
@@ -68401,7 +68474,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126379,
+    "id": 126471,
     "name": "OpenAI Life Sciences",
     "slug": "openai-life-sciences",
     "bio": null,
@@ -68413,7 +68486,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126380,
+    "id": 126472,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -68425,7 +68498,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126381,
+    "id": 126473,
     "name": "Carson Block",
     "slug": "carson-block",
     "bio": "Carson Block is the founder of Muddy Waters Research, a short seller known for exposing accounting frauds in global equities.",
@@ -68437,7 +68510,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126383,
+    "id": 126475,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -68449,7 +68522,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 126382,
+    "id": 126474,
     "name": "Rick Rule",
     "slug": "rick-rule",
     "bio": null,
@@ -68461,7 +68534,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126384,
+    "id": 126476,
     "name": "David Shapiro",
     "slug": "david-shapiro",
     "bio": null,
@@ -68473,7 +68546,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126385,
+    "id": 126477,
     "name": "Recursive Self-Improvement",
     "slug": "recursive-self-improvement",
     "bio": null,
@@ -68485,7 +68558,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126386,
+    "id": 126478,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -68497,7 +68570,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126387,
+    "id": 126479,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -68509,7 +68582,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126388,
+    "id": 126480,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -68521,7 +68594,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126389,
+    "id": 126481,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -68533,7 +68606,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126390,
+    "id": 126482,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -68545,7 +68618,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126391,
+    "id": 126483,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -68557,7 +68630,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126392,
+    "id": 126484,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -68569,7 +68642,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126393,
+    "id": 126485,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -68581,7 +68654,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126394,
+    "id": 126486,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -68593,7 +68666,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 126395,
+    "id": 126487,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -68605,7 +68678,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 126396,
+    "id": 126488,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -68701,7 +68774,7 @@ const dashboardData = {
     "last_podcast_name": "ChinaTalk",
     "last_episode_date": "2026-11-13",
     "mention_score": 3,
-    "mention_score_decayed": 2.67,
+    "mention_score_decayed": 2.61,
     "last_main_idea": "The episode\u2019s core claim is that U.S. policy should allow controlled remote access to GPUs rather than a full chip ban, because oversight preserves leverage, revenue, and supply-chain control.",
     "supporting_takeaway": "one host says RASA passed the House 269 votes to 22 in January, but no Senate vote has been held or scheduled.",
     "grokipedia_url": null,
@@ -68938,7 +69011,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-10-15",
     "mention_score": 6,
-    "mention_score_decayed": 2.33,
+    "mention_score_decayed": 2.27,
     "last_main_idea": "The episode\u2019s core claim is that Nvidia will remain the dominant AI infrastructure beneficiary because compute demand is accelerating faster than supply constraints can suppress it.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-10-15 \u2022 Jensen Huang | Does AI Revenue Justify Capex, '27 AI Bottlenecks, Singularity, Open vs Closed & more",
     "last_proof_snippet": "You can't separate capability, functionality from safety and security.",
@@ -69531,7 +69604,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-12",
     "mention_score": 2,
-    "mention_score_decayed": 1.48,
+    "mention_score_decayed": 1.45,
     "last_main_idea": "AI tool-use that can operate game engines directly could compress development cycles from years into months, expanding game creation volume and shifting value toward tooling, workflow, and creator platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-12 \u2022 The Next Era of Games: Mods, Agents, and Infinite Worlds",
     "last_proof_snippet": "Grant that out of six is finally coming out next month. That game has been in production since like 2013, 2014, it's like a 12, 13 new developments that go crazy.",
@@ -69829,7 +69902,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.05,
+    "mention_score_decayed": 1.02,
     "last_main_idea": "Cuban\u2019s central claim is that pre-contract AI review, not AI alone, could materially reduce healthcare costs by exposing hidden terms in employer and provider contracts.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-28 \u2022 Mark Cuban\u2019s Plan to Make Healthcare Affordable",
     "last_proof_snippet": "We are not in an efficient health care market. The economics are broken.",
@@ -69881,6 +69954,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.00B"
+  },
+  {
+    "id": 717,
+    "name": "Dr. Andrea Feinberg",
+    "slug": "dr-andrea-feinberg",
+    "bio": "A guest who discusses real-world food-as-medicine programs and evidence from Geisinger, including diabetes outcomes and healthcare cost reductions.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-26 12:39:47",
+    "last_episode_title": "Replay: On Food as Medicine (2020)",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Food-as-medicine could cut chronic-disease costs and improve outcomes, but only if delivery, reimbursement, and benefit systems are integrated at scale.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-26 \u2022 Replay: On Food as Medicine (2020)",
+    "last_proof_snippet": "This Thanksgiving, we're revisiting a 2020 conversation about something at the center of the holiday. Food and the role it can play in our health. Julie Hughes speaks with Dr.",
+    "supporting_takeaway": "one host says household healthcare costs rise by about 15% with mild food insecurity, 30% with moderate food insecurity, and upwards of 70% with severe food insecurity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 718,
+    "name": "Josh Hicks",
+    "slug": "josh-hicks",
+    "bio": "A guest and Plated co-founder who discusses meal delivery, food access, and how delivery businesses can reveal food-as-medicine dynamics.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-26 12:39:47",
+    "last_episode_title": "Replay: On Food as Medicine (2020)",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Food-as-medicine could cut chronic-disease costs and improve outcomes, but only if delivery, reimbursement, and benefit systems are integrated at scale.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-26 \u2022 Replay: On Food as Medicine (2020)",
+    "last_proof_snippet": "This Thanksgiving, we're revisiting a 2020 conversation about something at the center of the holiday. Food and the role it can play in our health. Julie Hughes speaks with Dr.",
+    "supporting_takeaway": "one host says household healthcare costs rise by about 15% with mild food insecurity, 30% with moderate food insecurity, and upwards of 70% with severe food insecurity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 716,
@@ -70115,7 +70242,7 @@ const dashboardData = {
     "last_podcast_name": "ChinaTalk",
     "last_episode_date": "2026-11-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The key market risk is that export-control enforcement remains discretionary and incomplete, allowing Nvidia-related legal and policy uncertainty to persist rather than resolve.",
     "last_proof_cite": "ChinaTalk \u2022 2026-11-23 \u2022 Emergency Pod: Jensen Back",
     "last_proof_snippet": "I'm Chris. Hey, there you go. I'm not as good as the Nvidia board, which we're just talking a numbers. The board putting aside Jensen Huang is up 2. 4 billion today. Maybe so.",
@@ -70221,73 +70348,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 43,
-    "name": "Olivia Moore",
-    "slug": "olivia-moore",
-    "bio": "Olivia Moore is an a16z partner and the author of the ongoing Top 100 Consumer AI Apps report.",
-    "known_for": "Consumer AI market mapping, app ranking, and spend analysis.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and data-driven.",
-    "voice_style": "She grounds claims in report methodology, spend distributions, traffic rankings, and category-level comparisons.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on numeric contrasts such as 4.5%, $903, and 29 of 50.",
-    "voice_profile_updated_at": "2026-10-05 11:54:28",
-    "last_seen": "2026-10-05 11:54:28",
-    "last_episode_title": "The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-05",
-    "mention_score": 3,
-    "mention_score_decayed": 0.92,
-    "last_main_idea": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
-    "last_proof_snippet": "The top 1% user is spending $903 per month personally on their personal credit cards on AI.",
-    "supporting_takeaway": "Olivia Moore claimed consumer AI remains a power-user market because about 4.5% of U.S. consumers pay for an AI subscription, while the top 1% of payers spend $903 per month and the median payer spends $25.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-30T12:08:38.280949",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Olivia Moore",
-      "fetched_at": "2026-07-30T17:08:38.280775+00:00",
-      "cliff_notes": "Olivia Moore is a partner at A16Z, where she specializes in artificial intelligence and its applications across various sectors. She has a deep understanding of how AI is transforming the technology landscape, and she sees AI as not just a market but as the reinvention of the entire technology industry. Moore believes that AI will impact every tech company, and those who can adapt and leverage AI to their advantage will be the most successful. She also acknowledges the challenges and complexities of AI, particularly in the social domain, and the potential risks and benefits that come with its rapid advancement. Moore's insights into the future of AI and its implications for businesses and society make her a key figure in the tech industry.",
-      "derived": {
-        "current_role": "Partner at A16Z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Olivia Moore is a partner at A16Z, where she specializes in artificial intelligence and its applications across various sectors. She has a deep understanding of how AI is transforming the technology landscape, and she sees AI as not just a market but as the reinvention of the entire technology industry. Moore believes that AI will impact every tech company, and those who can adapt and leverage AI to their advantage will be the most successful.",
-        "She also acknowledges the challenges and complexities of AI, particularly in the social domain, and the potential risks and benefits that come with its rapid advancement. Moore's insights into the future of AI and its implications for businesses and society make her a key figure in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Tech",
-          "body": "Olivia Moore believes that every tech company will eventually become an AI company, and AI will redefine the entire technology industry."
-        },
-        {
-          "heading": "AI Social",
-          "body": "Moore acknowledges the challenges and complexities of AI in the social domain, stating that no one has yet cracked AI social and that it will be a tricky area to navigate."
-        },
-        {
-          "heading": "AI Market",
-          "body": "She views AI as not just a market but as the reinvention of the entire technology industry, with the potential to create companies worth hundreds of billions or trillions of dollars."
-        },
-        {
-          "heading": "AI Competition",
-          "body": "Moore discusses the competitive landscape of AI, noting that while big players like ChatGPT have a significant user base, there is still room for competition and innovation in the space."
-        },
-        {
-          "heading": "AI Risks and Benefits",
-          "body": "She highlights the concerns around AI, with 57% of American voters saying the risks of AI outweigh the benefits, indicating a need for careful consideration and management of AI's impact on society."
-        }
-      ]
-    }
-  },
-  {
     "id": 701,
     "name": "Steve Jervitson",
     "slug": "steve-jervitson",
@@ -70369,6 +70429,73 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 43,
+    "name": "Olivia Moore",
+    "slug": "olivia-moore",
+    "bio": "Olivia Moore is an a16z partner and the author of the ongoing Top 100 Consumer AI Apps report.",
+    "known_for": "Consumer AI market mapping, app ranking, and spend analysis.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and data-driven.",
+    "voice_style": "She grounds claims in report methodology, spend distributions, traffic rankings, and category-level comparisons.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on numeric contrasts such as 4.5%, $903, and 29 of 50.",
+    "voice_profile_updated_at": "2026-10-05 11:54:28",
+    "last_seen": "2026-10-05 11:54:28",
+    "last_episode_title": "The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-05",
+    "mention_score": 3,
+    "mention_score_decayed": 0.9,
+    "last_main_idea": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-05 \u2022 The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
+    "last_proof_snippet": "The top 1% user is spending $903 per month personally on their personal credit cards on AI.",
+    "supporting_takeaway": "Olivia Moore claimed consumer AI remains a power-user market because about 4.5% of U.S. consumers pay for an AI subscription, while the top 1% of payers spend $903 per month and the median payer spends $25.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T12:08:38.280949",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Olivia Moore",
+      "fetched_at": "2026-07-30T17:08:38.280775+00:00",
+      "cliff_notes": "Olivia Moore is a partner at A16Z, where she specializes in artificial intelligence and its applications across various sectors. She has a deep understanding of how AI is transforming the technology landscape, and she sees AI as not just a market but as the reinvention of the entire technology industry. Moore believes that AI will impact every tech company, and those who can adapt and leverage AI to their advantage will be the most successful. She also acknowledges the challenges and complexities of AI, particularly in the social domain, and the potential risks and benefits that come with its rapid advancement. Moore's insights into the future of AI and its implications for businesses and society make her a key figure in the tech industry.",
+      "derived": {
+        "current_role": "Partner at A16Z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Olivia Moore is a partner at A16Z, where she specializes in artificial intelligence and its applications across various sectors. She has a deep understanding of how AI is transforming the technology landscape, and she sees AI as not just a market but as the reinvention of the entire technology industry. Moore believes that AI will impact every tech company, and those who can adapt and leverage AI to their advantage will be the most successful.",
+        "She also acknowledges the challenges and complexities of AI, particularly in the social domain, and the potential risks and benefits that come with its rapid advancement. Moore's insights into the future of AI and its implications for businesses and society make her a key figure in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Tech",
+          "body": "Olivia Moore believes that every tech company will eventually become an AI company, and AI will redefine the entire technology industry."
+        },
+        {
+          "heading": "AI Social",
+          "body": "Moore acknowledges the challenges and complexities of AI in the social domain, stating that no one has yet cracked AI social and that it will be a tricky area to navigate."
+        },
+        {
+          "heading": "AI Market",
+          "body": "She views AI as not just a market but as the reinvention of the entire technology industry, with the potential to create companies worth hundreds of billions or trillions of dollars."
+        },
+        {
+          "heading": "AI Competition",
+          "body": "Moore discusses the competitive landscape of AI, noting that while big players like ChatGPT have a significant user base, there is still room for competition and innovation in the space."
+        },
+        {
+          "heading": "AI Risks and Benefits",
+          "body": "She highlights the concerns around AI, with 57% of American voters saying the risks of AI outweigh the benefits, indicating a need for careful consideration and management of AI's impact on society."
+        }
+      ]
+    }
+  },
+  {
     "id": 693,
     "name": "David Heinemeier Hansson",
     "slug": "david-heinemeier-hansson",
@@ -70421,66 +70548,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 180,
-    "name": "Amjad Masad",
-    "slug": "amjad-masad",
-    "bio": "Amjad Masad is associated with Replit, which is discussed as an enterprise independence layer for AI and cloud deployment. In the episode, he connects AI agents, data sovereignty, specialized models, and enterprise software strategy.",
-    "known_for": "Replit and AI-native software development tooling.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Speculative, technical, and thesis-driven.",
-    "voice_style": "He uses analogies from programming languages, just-in-time compilers, and economic specialization to explain shifts in AI systems.",
-    "voice_delivery_notes": "Use an energetic but precise cadence, with extra emphasis on analogies and predictions.",
-    "voice_profile_updated_at": "2026-10-03 12:02:34",
-    "last_seen": "2026-10-03 12:02:34",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
-    "mention_score": 3,
-    "mention_score_decayed": 0.88,
-    "last_main_idea": "Amjad Masad joined OpenRouter's Alex Atallah to discuss Stripe's acquisition of OpenRouter and why AI may run on many models from many companies rather than one giant platform.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "Remember the days when computers did exactly what we told them to do.",
-    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-17T12:02:19.435586",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Amjad Masad",
-      "fetched_at": "2026-07-17T17:02:19.435257+00:00",
-      "cliff_notes": "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business. Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels.",
-      "derived": {
-        "current_role": "CEO of Replit"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business.",
-        "Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels."
-      ],
-      "sections": [
-        {
-          "heading": "Replit's Growth",
-          "body": "Amjad Masad has been instrumental in the growth of Replit, transforming it from a startup into a widely recognized platform for code editing and development."
-        },
-        {
-          "heading": "Public Company Building",
-          "body": "Masad is known for his approach to building Replit in public, which includes open communication and engaging with the community, a strategy that has contributed to the company's reputation and user base."
-        },
-        {
-          "heading": "CEO as Influencer",
-          "body": "Amjad Masad believes that while not every CEO needs to become an influencer, there are multiple paths to success, and storytelling can be a powerful tool for companies, especially in product-centric spaces."
-        }
-      ]
-    },
-    "net_worth": null
   },
   {
     "id": 689,
@@ -70589,6 +70656,66 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 180,
+    "name": "Amjad Masad",
+    "slug": "amjad-masad",
+    "bio": "Amjad Masad is associated with Replit, which is discussed as an enterprise independence layer for AI and cloud deployment. In the episode, he connects AI agents, data sovereignty, specialized models, and enterprise software strategy.",
+    "known_for": "Replit and AI-native software development tooling.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Speculative, technical, and thesis-driven.",
+    "voice_style": "He uses analogies from programming languages, just-in-time compilers, and economic specialization to explain shifts in AI systems.",
+    "voice_delivery_notes": "Use an energetic but precise cadence, with extra emphasis on analogies and predictions.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 3,
+    "mention_score_decayed": 0.86,
+    "last_main_idea": "Amjad Masad joined OpenRouter's Alex Atallah to discuss Stripe's acquisition of OpenRouter and why AI may run on many models from many companies rather than one giant platform.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "Remember the days when computers did exactly what we told them to do.",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-17T12:02:19.435586",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Amjad Masad",
+      "fetched_at": "2026-07-17T17:02:19.435257+00:00",
+      "cliff_notes": "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business. Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels.",
+      "derived": {
+        "current_role": "CEO of Replit"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business.",
+        "Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels."
+      ],
+      "sections": [
+        {
+          "heading": "Replit's Growth",
+          "body": "Amjad Masad has been instrumental in the growth of Replit, transforming it from a startup into a widely recognized platform for code editing and development."
+        },
+        {
+          "heading": "Public Company Building",
+          "body": "Masad is known for his approach to building Replit in public, which includes open communication and engaging with the community, a strategy that has contributed to the company's reputation and user base."
+        },
+        {
+          "heading": "CEO as Influencer",
+          "body": "Amjad Masad believes that while not every CEO needs to become an influencer, there are multiple paths to success, and storytelling can be a powerful tool for companies, especially in product-centric spaces."
+        }
+      ]
+    },
+    "net_worth": null
   },
   {
     "id": 679,
@@ -70986,7 +71113,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "AI tool-use that can operate game engines directly could compress development cycles from years into months, expanding game creation volume and shifting value toward tooling, workflow, and creator platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-12 \u2022 The Next Era of Games: Mods, Agents, and Infinite Worlds",
     "last_proof_snippet": "Grant that out of six is finally coming out next month. That game has been in production since like 2013, 2014, it's like a 12, 13 new developments that go crazy.",
@@ -71121,7 +71248,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Axon\u2019s scalable body-camera-and-cloud platform, plus drone/robotics expansion, could deepen its public-safety moat if guardrailed non-lethal technology keeps winning adoption.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-11-10 \u2022 Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing",
     "last_proof_snippet": "Smith said the company chose body cameras and cloud infrastructure because police needed a way to show what happened and scale video storage securely.",
@@ -71364,11 +71491,38 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "TrueMead\u2019s core claim is that tax-advantaged HSA/FSA spending on doctor-accompanied prevention tools can unlock materially better health outcomes.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-08 \u2022 The Health Interventions Actually Worth Your Time | Justin Mares",
     "last_proof_snippet": "There's no shortage of advice about how to optimize your health. Justin Mayers thinks most people would be better off focusing on a much shorter list.",
     "supporting_takeaway": "Justin Mares says a treadmill desk is an easy, low-friction method to add about 5,000 steps per day.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 629,
+    "name": "Mark Hyman",
+    "slug": "mark-hyman",
+    "bio": "Co-founder of Function Health and a longevity-focused physician who discusses prevention, biomarker testing, nutrition, supplements, and systems biology.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-07 13:06:24",
+    "last_episode_title": "Mark Hyman\u2019s Guide to Living Longer and Staying Strong",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-11-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.66,
+    "last_main_idea": "The episode\u2019s core claim is that AI-enabled biomarker testing and imaging will make preventive, personalized healthcare scalable and commercially meaningful.",
+    "last_proof_cite": "The a16z Show \u2022 2026-11-07 \u2022 Mark Hyman\u2019s Guide to Living Longer and Staying Strong",
+    "last_proof_snippet": "When it comes to longevity, Mark Hammond says it's not the heroic interventions that matter most. It's the small things you do every day.",
+    "supporting_takeaway": "Mark Hyman says muscle is the \u201ccurrency of longevity\u201d and that losing muscle leads to frailty and dysfunction.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -71391,7 +71545,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-09",
     "mention_score": 2,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "AI infrastructure bottlenecks are shifting from chip design to memory, packaging, power, and optics, creating new investment opportunities in those layers.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-09 \u2022 Chips, Memory, and Power | Pat Gelsinger",
     "last_proof_snippet": "You can design the thing in three months, but I can actually get it into real silicon at scale for nine months.",
@@ -71440,33 +71594,6 @@ const dashboardData = {
     "net_worth": null
   },
   {
-    "id": 629,
-    "name": "Mark Hyman",
-    "slug": "mark-hyman",
-    "bio": "Co-founder of Function Health and a longevity-focused physician who discusses prevention, biomarker testing, nutrition, supplements, and systems biology.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-07 13:06:24",
-    "last_episode_title": "Mark Hyman\u2019s Guide to Living Longer and Staying Strong",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-11-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.66,
-    "last_main_idea": "The episode\u2019s core claim is that AI-enabled biomarker testing and imaging will make preventive, personalized healthcare scalable and commercially meaningful.",
-    "last_proof_cite": "The a16z Show \u2022 2026-11-07 \u2022 Mark Hyman\u2019s Guide to Living Longer and Staying Strong",
-    "last_proof_snippet": "When it comes to longevity, Mark Hammond says it's not the heroic interventions that matter most. It's the small things you do every day.",
-    "supporting_takeaway": "Mark Hyman says muscle is the \u201ccurrency of longevity\u201d and that losing muscle leads to frailty and dysfunction.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 628,
     "name": "Jamin Ball",
     "slug": "jamin-ball",
@@ -71484,7 +71611,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Anthropic\u2019s S-1 suggests frontier AI can be unusually profitable, with a ~7x serving-efficiency gain and margins strong enough to support massive reinvestment.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-07 \u2022 Why Would Anthropic Go Public Now? \u2014 Jamin Ball, Altimeter",
     "last_proof_snippet": "Jamin Ball said Anthropic showed 85% gross margins, over 20% free cash flow margins, and 8% GAAP operating margins in the S-1.",
@@ -71796,69 +71923,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 90,
-    "name": "David George",
-    "slug": "david-george",
-    "bio": "David George is a General Partner at a16z. In this conversation, he discusses AI infrastructure, model-layer economics, application investing, autonomy, robotics, and growth-stage venture capital.",
-    "known_for": "Growth investing in technology companies and a16z market-cycle analysis.",
-    "net_worth_usd": 13000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/11369/david-c-george",
-    "net_worth_updated_at": "2026-03-19T22:17:36.511607",
-    "voice_tone": "Optimistic, emphatic, and thesis-driven.",
-    "voice_style": "He frames markets through scale, diffusion, capital cycles, and product-cycle comparisons, frequently anchoring claims with numbers.",
-    "voice_delivery_notes": "Use energetic pacing with extra emphasis on market-size numbers, bottlenecks, and the repeated \"and\" framing.",
-    "voice_profile_updated_at": "2026-10-04 11:37:11",
-    "last_seen": "2026-10-04 11:37:11",
-    "last_episode_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-04",
-    "mention_score": 2,
-    "mention_score_decayed": 0.6,
-    "last_main_idea": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-04 \u2022 David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
-    "last_proof_snippet": "If the premise of your question is, is this going to be successful or that it's going to be successful?",
-    "supporting_takeaway": "David George claims current enterprise AI revenue is concentrated among roughly 30 million coders while the broader market includes 1.5 billion knowledge workers, leaving B2B AI less than 5% diffused into the economy.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-30T06:37:38.335266",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "David George",
-      "fetched_at": "2026-09-30T11:37:38.334921+00:00",
-      "cliff_notes": "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes. By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes.",
-        "By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Fund Performance Metrics",
-          "body": "David George examines the metrics that define venture fund success, focusing on how these metrics can inform investment decisions and strategies."
-        },
-        {
-          "heading": "Power-Law Returns",
-          "body": "He specializes in understanding power-law returns, which are crucial for investors aiming to identify high-potential opportunities in the venture capital space."
-        },
-        {
-          "heading": "Capital Efficiency in AI",
-          "body": "George analyzes capital efficiency within the AI sector, providing insights into how investments can be optimized for better returns."
-        },
-        {
-          "heading": "Early-Stage Access",
-          "body": "His focus on early-stage access allows him to identify and invest in promising startups before they gain widespread attention."
-        },
-        {
-          "heading": "Consistent 3x Returns",
-          "body": "George's research highlights the rarity of achieving consistent 3x returns, offering a realistic perspective for investors."
-        }
-      ]
-    },
-    "net_worth": "$13.0M"
-  },
-  {
     "id": 612,
     "name": "Jacob Lauritzen",
     "slug": "jacob-lauritzen",
@@ -71913,6 +71977,69 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 90,
+    "name": "David George",
+    "slug": "david-george",
+    "bio": "David George is a General Partner at a16z. In this conversation, he discusses AI infrastructure, model-layer economics, application investing, autonomy, robotics, and growth-stage venture capital.",
+    "known_for": "Growth investing in technology companies and a16z market-cycle analysis.",
+    "net_worth_usd": 13000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/11369/david-c-george",
+    "net_worth_updated_at": "2026-03-19T22:17:36.511607",
+    "voice_tone": "Optimistic, emphatic, and thesis-driven.",
+    "voice_style": "He frames markets through scale, diffusion, capital cycles, and product-cycle comparisons, frequently anchoring claims with numbers.",
+    "voice_delivery_notes": "Use energetic pacing with extra emphasis on market-size numbers, bottlenecks, and the repeated \"and\" framing.",
+    "voice_profile_updated_at": "2026-10-04 11:37:11",
+    "last_seen": "2026-10-04 11:37:11",
+    "last_episode_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-04",
+    "mention_score": 2,
+    "mention_score_decayed": 0.59,
+    "last_main_idea": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-04 \u2022 David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+    "last_proof_snippet": "If the premise of your question is, is this going to be successful or that it's going to be successful?",
+    "supporting_takeaway": "David George claims current enterprise AI revenue is concentrated among roughly 30 million coders while the broader market includes 1.5 billion knowledge workers, leaving B2B AI less than 5% diffused into the economy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-30T06:37:38.335266",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "David George",
+      "fetched_at": "2026-09-30T11:37:38.334921+00:00",
+      "cliff_notes": "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes. By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes.",
+        "By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Fund Performance Metrics",
+          "body": "David George examines the metrics that define venture fund success, focusing on how these metrics can inform investment decisions and strategies."
+        },
+        {
+          "heading": "Power-Law Returns",
+          "body": "He specializes in understanding power-law returns, which are crucial for investors aiming to identify high-potential opportunities in the venture capital space."
+        },
+        {
+          "heading": "Capital Efficiency in AI",
+          "body": "George analyzes capital efficiency within the AI sector, providing insights into how investments can be optimized for better returns."
+        },
+        {
+          "heading": "Early-Stage Access",
+          "body": "His focus on early-stage access allows him to identify and invest in promising startups before they gain widespread attention."
+        },
+        {
+          "heading": "Consistent 3x Returns",
+          "body": "George's research highlights the rarity of achieving consistent 3x returns, offering a realistic perspective for investors."
+        }
+      ]
+    },
+    "net_worth": "$13.0M"
+  },
+  {
     "id": 609,
     "name": "Dan Krausz",
     "slug": "dan-krausz",
@@ -71962,60 +72089,6 @@ const dashboardData = {
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-31 \u2022 Using Agents for Long-Horizon Financial Work \u2014 Aman Singh, Arca",
     "last_proof_snippet": "We're actually not a SaaS company. We are, um, we are the firm ourselves. Agents prompt people more than people prompt agents- Mm... and it is a proactive kind of, um, service that is running for them twenty-four seven.",
     "supporting_takeaway": "Aman Singh says clients do not interface with AI directly; they experience human empathy supported by automation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 606,
-    "name": "Dhruv Gupta",
-    "slug": "drew-gupta",
-    "bio": "From a16z New Media; discussed Cosign\u2019s graph, curated lists, awards, and the product roadmap for agent integrations.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-31 12:15:20",
-    "last_episode_title": "Can AI Fix Professional Networking? | Inside Cosign",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "Cosign\u2019s core claim is that trusted reputation graphs plus agent-native search and introductions can outperform job boards and cold outreach in career discovery.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-31 \u2022 Can AI Fix Professional Networking? | Inside Cosign",
-    "last_proof_snippet": "Dhruv Gupta says Cosign has about 40,000\u201350,000 people on the site and roughly 400 people making company lists, showing the graph and curation layer are already scaling.",
-    "supporting_takeaway": "Dhruv Gupta says Cosign has about 40,000\u201350,000 people on the site and roughly 400 people making company lists, showing the graph and curation layer are already scaling.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 604,
-    "name": "Joseph Kim",
-    "slug": "joseph-kim",
-    "bio": "Head of ChatGPT for Financial Services at OpenAI, focused on enterprise finance products and evaluation systems.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-31 12:14:44",
-    "last_episode_title": "\u26a1 Building ChatGPT for Finance \u2014 Joseph Kim, OpenAI's Head of Financial Services",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-10-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "Joseph Kim said OpenAI has \"just released\" ChatGPT for Financial Services, an enterprise-focused product with firm-specific templates and finance data sources.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-31 \u2022 \u26a1 Building ChatGPT for Finance \u2014 Joseph Kim, OpenAI's Head of Financial Services",
-    "last_proof_snippet": "I really do think that there's going to be a billion dollar business built on top of a chatty beauty plug-in, but 95% of what we built was something that absolutely a startup could do another company could do.",
-    "supporting_takeaway": "Joseph Kim said design partners Morgan Stanley and Evercore gave the new product \"incredible\" reception.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -72078,6 +72151,60 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 606,
+    "name": "Dhruv Gupta",
+    "slug": "drew-gupta",
+    "bio": "From a16z New Media; discussed Cosign\u2019s graph, curated lists, awards, and the product roadmap for agent integrations.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-31 12:15:20",
+    "last_episode_title": "Can AI Fix Professional Networking? | Inside Cosign",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-31",
+    "mention_score": 1,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Cosign\u2019s core claim is that trusted reputation graphs plus agent-native search and introductions can outperform job boards and cold outreach in career discovery.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-31 \u2022 Can AI Fix Professional Networking? | Inside Cosign",
+    "last_proof_snippet": "Dhruv Gupta says Cosign has about 40,000\u201350,000 people on the site and roughly 400 people making company lists, showing the graph and curation layer are already scaling.",
+    "supporting_takeaway": "Dhruv Gupta says Cosign has about 40,000\u201350,000 people on the site and roughly 400 people making company lists, showing the graph and curation layer are already scaling.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 604,
+    "name": "Joseph Kim",
+    "slug": "joseph-kim",
+    "bio": "Head of ChatGPT for Financial Services at OpenAI, focused on enterprise finance products and evaluation systems.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-31 12:14:44",
+    "last_episode_title": "\u26a1 Building ChatGPT for Finance \u2014 Joseph Kim, OpenAI's Head of Financial Services",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-31",
+    "mention_score": 1,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Joseph Kim said OpenAI has \"just released\" ChatGPT for Financial Services, an enterprise-focused product with firm-specific templates and finance data sources.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-31 \u2022 \u26a1 Building ChatGPT for Finance \u2014 Joseph Kim, OpenAI's Head of Financial Services",
+    "last_proof_snippet": "I really do think that there's going to be a billion dollar business built on top of a chatty beauty plug-in, but 95% of what we built was something that absolutely a startup could do another company could do.",
+    "supporting_takeaway": "Joseph Kim said design partners Morgan Stanley and Evercore gave the new product \"incredible\" reception.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 603,
@@ -72545,7 +72672,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
     "supporting_takeaway": "Joe Liemandt reported that 90% of Alpha students say, \"I love school,\" and 50% would rather go to school than go on vacation.",
     "grokipedia_url": null,
@@ -72570,7 +72697,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Alpha School is trying to prove that AI-enabled, motivation-first schooling can produce much faster academic learning and stronger student engagement than traditional classrooms.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-27 \u2022 Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
     "last_proof_snippet": "Are you willing to redesign your school day so kids love it more than vacation? With cognitive science and learning science plus the advent of LLMs, you can build a learning engine that teaches kids 10 times faster.",
@@ -72597,7 +72724,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Computer-use agents are approaching superhuman speed and safety, creating a large enterprise automation opportunity if auditability and approval controls can manage risk.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -72621,7 +72748,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "AI agents could let 3\u201310 person startups compete with 50\u2013200 person incumbents, but only if they solve orchestration and distribution better than everyone else.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-25 \u2022 The New Startup Playbook | Box CEO Aaron Levie",
     "last_proof_snippet": "Start-ups can actually outrun these big companies in a way that was just never economically feasible before. You could actually go and compete in almost any category on the dimension of people are missing this whole thing.",
@@ -72675,7 +72802,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Amazon is using massive 2026 capex to capture AI demand, but supply constraints still leave meaningful revenue on the table and support long-run AWS growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-23 \u2022 Amazon CEO Andy Jassy on Why Amazon Is Investing $220 Billion in AI",
     "last_proof_snippet": "Even, spending $220 billion this year, we're leaving meaningful amount of demand on the table. We always leave a certain amount for on demand, but 26, obviously, it's about 27 is largely sold out. A good chunk of 28 is sold out.",
@@ -72979,7 +73106,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Document-processing infrastructure, not generic AI reasoning, is becoming the bottleneck for high-stakes agent workflows, and Reducto claims to solve it at high accuracy and penny-per-page economics.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-21 \u2022 The Missing Infrastructure for AI Agents: Documents | Reducto\u2019s Adit Abraham",
     "last_proof_snippet": "The day we got into YC, we told that we were going to get a bit. Nobody thinks about complexity when they upload a document to chat to you. You just expect it to work.",
@@ -73141,38 +73268,11 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Town\u2019s core thesis is that model-neutral, enterprise-ready AI workflow software for email and calendar will win as agent costs fall and supplier leadership keeps changing.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-19 \u2022 Why a $1M Startup Wasn't Worth Building in the Age of AI",
     "last_proof_snippet": "Impact in the world is really, really important, really wanted to build something that mattered and helped people. I get pinged by Ben Horowitz. I found this amazing tool, it's called Town, it changed my life, it's so great.",
     "supporting_takeaway": "Jean-Denis Greze said Town is model-neutral and will use \"whatever supplier\" is best in the moment, because being tied to one provider is risky.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 548,
-    "name": "Mario Martone",
-    "slug": "mario-martone",
-    "bio": "Head of applied research at EliseAI; previously worked in theoretical physics on topics like black holes and string theory (per transcript).",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-18 11:51:47",
-    "last_episode_title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.42,
-    "last_main_idea": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-18 \u2022 Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
-    "last_proof_snippet": "An AI system that works 90% of the time might look impressive in a research paper, but when you're handling millions of conversations about people's housing and health care, that remaining 10% becomes an enormous problem.",
-    "supporting_takeaway": "Martone says EliseAI uses a mix of LLMs and traditional machine learning because LLMs alone are not the right tool for many high-impact decisions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -73239,6 +73339,33 @@ const dashboardData = {
     "net_worth": "$1.40B"
   },
   {
+    "id": 548,
+    "name": "Mario Martone",
+    "slug": "mario-martone",
+    "bio": "Head of applied research at EliseAI; previously worked in theoretical physics on topics like black holes and string theory (per transcript).",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-18 11:51:47",
+    "last_episode_title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.41,
+    "last_main_idea": "Mario Martone says 90% accuracy is not acceptable in housing and healthcare because at millions of conversations the failure count becomes too large.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-18 \u2022 Why Real-World AI Is Harder Than the Benchmark | EliseAI\u2019s Mario Martone",
+    "last_proof_snippet": "An AI system that works 90% of the time might look impressive in a research paper, but when you're handling millions of conversations about people's housing and health care, that remaining 10% becomes an enormous problem.",
+    "supporting_takeaway": "Martone says EliseAI uses a mix of LLMs and traditional machine learning because LLMs alone are not the right tool for many high-impact decisions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 546,
     "name": "Nusha Ansari",
     "slug": "nusha-ansari",
@@ -73283,7 +73410,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Zocdoc\u2019s core claim is that transactional scheduling infrastructure, not static directories, will become the durable healthcare access layer across many consumer and AI front doors.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-17 \u2022 Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
     "last_proof_snippet": "",
@@ -73310,7 +73437,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Grepr\u2019s core thesis is that AI value in infrastructure starts with 90% telemetry-cost reduction and expands into change-detection-driven troubleshooting, not fully autonomous ops.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-16 \u2022 AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
     "last_proof_snippet": "The world that the AI lives in is all digital, and this is the actual world, and my most things are not necessarily the same. When we started doing AI for coding, it was autocomplete.",
@@ -73364,7 +73491,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Agentic commerce could create a large infrastructure winner in payment vaulting and token provisioning, and VGS claims to already sit at the center of that shift.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-15 \u2022 When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
     "last_proof_snippet": "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs which are payment credentials.",
@@ -73445,7 +73572,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Open-model catch-up is constrained more by compute, fragmented feedback loops, and weak distillation leverage than by raw model quality gaps.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-14 \u2022 Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
     "last_proof_snippet": "",
@@ -73534,62 +73661,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 436,
-    "name": "Justin Johnson",
-    "slug": "justin-johnson",
-    "bio": "Justin Johnson is a researcher and expert in computer vision and generative models, known for his pioneering work in neural radiance fields and 3D generative AI. He is involved in the development of Atlas, a project that explores the potential of world models for simulating and reconstructing environments. His insights bridge the gap between AI and physical understanding, with applications across various industries.",
-    "known_for": "Justin Johnson is at the forefront of developing world models that enhance AI's ability to understand and simulate the physical world, impacting sectors from entertainment to robotics.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Technical but accessible, emphasizing architectural elegance",
-    "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
-    "voice_delivery_notes": "Emphasize 'new view prediction' as a deliberate, foundational phrase; pause after 'Atlas is really' for definitional clarity",
-    "voice_profile_updated_at": "2026-09-04 13:44:50",
-    "last_seen": "2026-09-13 12:19:42",
-    "last_episode_title": "World Models, Robotics, and the Future of 3D AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.37,
-    "last_main_idea": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-13 \u2022 World Models, Robotics, and the Future of 3D AI",
-    "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today.",
-    "supporting_takeaway": "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-16T12:12:46.568076",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Justin Johnson",
-      "fetched_at": "2026-09-16T17:12:46.567930+00:00",
-      "cliff_notes": "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics. By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies.",
-      "derived": {
-        "current_role": "Co-founder at World Labs"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics.",
-        "By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies."
-      ],
-      "sections": [
-        {
-          "heading": "Neural Radiance Fields",
-          "body": "Johnson's work in neural radiance fields represents a breakthrough in how AI can generate and understand 3D environments, allowing for more realistic simulations."
-        },
-        {
-          "heading": "World Models",
-          "body": "He advocates for the development of world models that integrate visual and physical understanding, which could transform industries reliant on spatial awareness."
-        },
-        {
-          "heading": "Applications Across Industries",
-          "body": "His research has implications for a wide range of applications, from gaming and visual effects to robotics and construction, highlighting the versatility of AI in real-world scenarios."
-        }
-      ]
-    }
   },
   {
     "id": 74,
@@ -73711,6 +73782,62 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 436,
+    "name": "Justin Johnson",
+    "slug": "justin-johnson",
+    "bio": "Justin Johnson is a researcher and expert in computer vision and generative models, known for his pioneering work in neural radiance fields and 3D generative AI. He is involved in the development of Atlas, a project that explores the potential of world models for simulating and reconstructing environments. His insights bridge the gap between AI and physical understanding, with applications across various industries.",
+    "known_for": "Justin Johnson is at the forefront of developing world models that enhance AI's ability to understand and simulate the physical world, impacting sectors from entertainment to robotics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Technical but accessible, emphasizing architectural elegance",
+    "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
+    "voice_delivery_notes": "Emphasize 'new view prediction' as a deliberate, foundational phrase; pause after 'Atlas is really' for definitional clarity",
+    "voice_profile_updated_at": "2026-09-04 13:44:50",
+    "last_seen": "2026-09-13 12:19:42",
+    "last_episode_title": "World Models, Robotics, and the Future of 3D AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.36,
+    "last_main_idea": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-13 \u2022 World Models, Robotics, and the Future of 3D AI",
+    "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today.",
+    "supporting_takeaway": "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-16T12:12:46.568076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Justin Johnson",
+      "fetched_at": "2026-09-16T17:12:46.567930+00:00",
+      "cliff_notes": "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics. By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies.",
+      "derived": {
+        "current_role": "Co-founder at World Labs"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics.",
+        "By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Neural Radiance Fields",
+          "body": "Johnson's work in neural radiance fields represents a breakthrough in how AI can generate and understand 3D environments, allowing for more realistic simulations."
+        },
+        {
+          "heading": "World Models",
+          "body": "He advocates for the development of world models that integrate visual and physical understanding, which could transform industries reliant on spatial awareness."
+        },
+        {
+          "heading": "Applications Across Industries",
+          "body": "His research has implications for a wide range of applications, from gaming and visual effects to robotics and construction, highlighting the versatility of AI in real-world scenarios."
+        }
+      ]
+    }
+  },
+  {
     "id": 525,
     "name": "Dhaval Adjodah",
     "slug": "davile-agida",
@@ -73728,7 +73855,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-12 \u2022 The Race to Recursive Self-Improving AI",
     "last_proof_snippet": "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself.",
@@ -73755,7 +73882,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-12 \u2022 The Race to Recursive Self-Improving AI",
     "last_proof_snippet": "The fundamental idea here is to build AI that improves itself and think we're getting there. For the first time, we could swap the optimizer as the optimizer and this leads to a reinvestment of a cognitive improvement into itself.",
@@ -74031,7 +74158,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Matt Garman argues AWS's AI infrastructure buildout remains demand-driven because Amazon expects $220 billion of 2026 capex, 2 million Nvidia GPUs over coming years, and production workloads across Bedrock, inference, and cloud migration.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-08 \u2022 Building the Cloud for an Agentic World | AWS CEO Matt Garman",
     "last_proof_snippet": "Agented workflows tended to perform better on AWS than anywhere else. Compute sandboxes, gateways, agent permissions versus people. A lot of those are things that we have built and are building and thinking actively about.",
@@ -74263,60 +74390,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 502,
-    "name": "Seema Amble",
-    "slug": "seema-amble",
-    "bio": "Seema Amble is a partner at a16z who discusses AI application companies, incumbent software vendors, and vertical AI defensibility.",
-    "known_for": "Analysis of AI-native application startups versus incumbent software platforms.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and framework-driven",
-    "voice_style": "She builds structured taxonomies, then maps them to concrete enterprise software examples.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on contrasts between systems of record, workflows, and end-to-end work.",
-    "voice_profile_updated_at": "2026-10-02 11:42:17",
-    "last_seen": "2026-10-02 11:42:17",
-    "last_episode_title": "Why AI Agents Can Beat the Incumbents",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.29,
-    "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
-    "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them.",
-    "supporting_takeaway": "Vladimir Keil claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 503,
-    "name": "Vladimir Keil",
-    "slug": "vladimir-keil",
-    "bio": "Vladimir Keil is co-founder and CEO of Lio, which builds AI agents for enterprise procurement.",
-    "known_for": "AI agents for procurement, negotiation, supplier coordination, and enterprise purchasing workflows.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Practical and operational",
-    "voice_style": "He explains abstract AI concepts through procurement examples involving suppliers, invoices, ERP systems, and negotiations.",
-    "voice_delivery_notes": "Use energetic pacing when listing operational details, then slow down for numerical claims and enterprise examples.",
-    "voice_profile_updated_at": "2026-10-02 11:42:17",
-    "last_seen": "2026-10-02 11:42:17",
-    "last_episode_title": "Why AI Agents Can Beat the Incumbents",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.29,
-    "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
-    "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them.",
-    "supporting_takeaway": "Vladimir Keil claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 52,
     "name": "Alex Karp",
     "slug": "alex-carp",
@@ -74375,6 +74448,60 @@ const dashboardData = {
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 502,
+    "name": "Seema Amble",
+    "slug": "seema-amble",
+    "bio": "Seema Amble is a partner at a16z who discusses AI application companies, incumbent software vendors, and vertical AI defensibility.",
+    "known_for": "Analysis of AI-native application startups versus incumbent software platforms.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and framework-driven",
+    "voice_style": "She builds structured taxonomies, then maps them to concrete enterprise software examples.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on contrasts between systems of record, workflows, and end-to-end work.",
+    "voice_profile_updated_at": "2026-10-02 11:42:17",
+    "last_seen": "2026-10-02 11:42:17",
+    "last_episode_title": "Why AI Agents Can Beat the Incumbents",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.28,
+    "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
+    "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them.",
+    "supporting_takeaway": "Vladimir Keil claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 503,
+    "name": "Vladimir Keil",
+    "slug": "vladimir-keil",
+    "bio": "Vladimir Keil is co-founder and CEO of Lio, which builds AI agents for enterprise procurement.",
+    "known_for": "AI agents for procurement, negotiation, supplier coordination, and enterprise purchasing workflows.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Practical and operational",
+    "voice_style": "He explains abstract AI concepts through procurement examples involving suppliers, invoices, ERP systems, and negotiations.",
+    "voice_delivery_notes": "Use energetic pacing when listing operational details, then slow down for numerical claims and enterprise examples.",
+    "voice_profile_updated_at": "2026-10-02 11:42:17",
+    "last_seen": "2026-10-02 11:42:17",
+    "last_episode_title": "Why AI Agents Can Beat the Incumbents",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.28,
+    "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
+    "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them.",
+    "supporting_takeaway": "Vladimir Keil claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 499,
@@ -75274,7 +75401,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Boom Supersonic presents a compelling investment opportunity through its innovative technologies and strong legislative support, positioning itself for significant growth in both aerospace and energy sectors.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-22 \u2022 Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
     "last_proof_snippet": "",
@@ -77300,7 +77427,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with [Anthropic] and [OpenAI] on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
@@ -77363,7 +77490,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with [Anthropic] and [OpenAI] on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly.",
@@ -80324,7 +80451,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "",
