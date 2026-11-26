@@ -92,8 +92,8 @@ def load_market_data(
 
 # Internal to-do / follow-up notes never ship in the public market_data.json.
 INTERNAL_STATUS_KEYS = ("follow_up_for_tony",)
-# Sections no longer published (Curve Snapshot retired Oct 22 2026 for Market Commentary).
-RETIRED_SECTIONS = ("curve_data",)
+# Sections no longer published (Curve Snapshot retired Oct 22; Treasury Calendar retired Nov 25 2026).
+RETIRED_SECTIONS = ("curve_data", "treasury_calendar")
 
 
 def strip_internal_notes(market_data: dict) -> dict:

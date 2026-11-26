@@ -241,17 +241,21 @@ The pipeline still runs **on this Mac**. If the Mac is off or never wakes, nothi
 
 ## Market data cards (GitHub Actions, since 2026-10-09)
 
-Compute Forward, Curve Snapshot and the Treasury calendar are refreshed by (COT removed 2026-10-22)
-`.github/workflows/market-data.yml` ("Market Data Refresh"), not the Mac:
-`fetch_gpu_index.py`, `fetch_curve.py`, `fetch_treasury_calendar.py`
-(all public sources, no secrets). Schedule (CT): weekdays ~07:15, ~12:30,
-~22:45, plus Friday ~14:45 for the CFTC COT release (14:30 CT). Each run commits
-`site/data/market_data.json` through a `data/market-data-*` PR, merges it, and
-dispatches `deploy.yml`.
+Compute Forward (`site/data/market_data.json`) and the Liquidity Pulse ticker
+(`site/data/liquidity_ticker.json`, replacing the retired Treasury Calendar on
+2026-11-25) are refreshed by `.github/workflows/market-data.yml` ("Market Data
+Refresh"), not the Mac: `fetch_gpu_index.py`, `fetch_compute_curve.py`, and
+`fetch_liquidity_ticker.py` (all public sources, no secrets). Schedule (CST):
+weekdays 09:00 and 15:15 for Compute Forward, plus ~21:45 nightly (Tue–Sat UTC
+`45 3 * * 2-6`) for `fetch_liquidity_ticker.py`. Each run commits changed files
+under `site/data/` through a `data/market-data-*` PR, merges it, and dispatches
+`deploy.yml`.
 
-The Mac's `auto_pipeline.py` skips these four fetchers and restores
-`site/data/market_data.json` to HEAD before publishing, so the two writers never
-fight. To run them locally (e.g. Actions outage) set `MARKET_DATA_FETCH_LOCAL=1`.
+The Mac's `auto_pipeline.py` skips these fetchers and restores
+`site/data/market_data.json`, `site/data/liquidity_ticker.json`, and
+`site/data/_raw/liquidity_ticker_history.csv` to HEAD before publishing, so the
+two writers never fight. To run them locally (e.g. Actions outage) set
+`MARKET_DATA_FETCH_LOCAL=1`.
 
 Requires repo setting: Actions → General → "Allow GitHub Actions to create and
 approve pull requests" (main's ruleset requires a PR, 0 approvals).

@@ -58,7 +58,7 @@ def test_private_build_outputs_are_reproducible():
 
 def test_market_workflow_keeps_other_refreshes_without_retired_pull():
     workflow = (ROOT / ".github/workflows/market-data.yml").read_text()
-    for script in ("fetch_gpu_index.py", "fetch_compute_curve.py", "fetch_treasury_calendar.py"):
+    for script in ("fetch_gpu_index.py", "fetch_compute_curve.py", "fetch_liquidity_ticker.py"):
         assert script in workflow
     assert "fetch_trap_map_prices.py" not in workflow
     assert "steps.trap_map.outcome" not in workflow

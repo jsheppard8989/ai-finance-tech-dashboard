@@ -52,10 +52,18 @@ def test_check_mode(tmp_path):
     assert ec.main(["--check", str(g)]) == 1  # date mismatch
 
 
-def test_curve_data_retired():
-    md = {"curve_data": {"x": 1}, "treasury_calendar": {}, "data_fetch_status": {"curve_data": "live", "treasury_calendar": "live"}}
+def test_retired_market_sections_stripped():
+    md = {
+        "curve_data": {"x": 1},
+        "treasury_calendar": {"y": 2},
+        "compute_forward": {"z": 3},
+        "data_fetch_status": {"curve_data": "live", "treasury_calendar": "live", "compute_forward": "live"},
+    }
     strip_internal_notes(md)
-    assert "curve_data" not in md and md["data_fetch_status"] == {"treasury_calendar": "live"}
+    assert "curve_data" not in md
+    assert "treasury_calendar" not in md
+    assert md["compute_forward"] == {"z": 3}
+    assert md["data_fetch_status"] == {"compute_forward": "live"}
 
 
 def test_home_has_commentary_not_curve():

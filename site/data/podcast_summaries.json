@@ -1,5 +1,101 @@
 [
   {
+    "id": 731,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Replay: On Food as Medicine (2020)",
+    "episode_date": "2026-11-26",
+    "summary": "The episode argues that \u201cfood as medicine\u201d is compelling because food shares several properties people want from medicines: it can be safer, more effective in some settings, more affordable, and easier to sustain because people eat multiple times per day. The discussion centers on medically tailored meals, voucher programs, and healthier food benefits as tools for chronic disease and food-insecure populations.\n\nA major theme is scaling: speakers say the main bottlenecks are delivery, access, and payment/reimbursement. They describe the need to connect food benefits to insurer payment systems and to existing benefit programs like SNAP and WIC, while also using technology and digital ordering to make healthier choices easier in the checkout flow. The episode also frames the consumer \u201cfood environment\u201d as a lever for changing purchases without relying only on willpower.\n\nAndrea Feinberg points to real-world experience at Geisinger, where patients with diabetes received healthy food, education, and social support. She says they saw dramatic HbA1c improvements and about 60-plus percent lower healthcare costs, with very sick patients cutting costs by two-thirds. The episode also says food insecurity raises annual household healthcare costs by about 15% for mild insecurity, 30% for moderate insecurity, and upwards of 70% for severe insecurity.\n\nThe conversation closes with a systems-level argument: clinicians get very little nutrition training, so adoption will require curriculum changes, and a public-health-style infrastructure may eventually embed nutrition interventions into utilities in the same way fluoride is embedded in water. The episode\u2019s tone is optimistic but still acknowledges evidence-quality and reimbursement hurdles.",
+    "key_takeaways": [
+      "one host says food has many medicine-like properties, especially safety, efficacy, affordability, and compliance because people eat multiple times per day.",
+      "one host says household healthcare costs rise by about 15% with mild food insecurity, 30% with moderate food insecurity, and upwards of 70% with severe food insecurity.",
+      "Andrea Feinberg says that at Geisinger, patients with diabetes received healthy food, education, and social support, and the program produced dramatic HbA1c improvements.",
+      "Andrea Feinberg says the Geisinger program saw about 60-plus percent decrease in healthcare costs, and very sick patients cut costs by two-thirds.",
+      "one host says the average medical degree includes only one hour of nutritional education, which is why food-as-medicine needs to be built into curricula.",
+      "one host says scaling food-as-medicine depends on making delivery, payment processing, and benefit eligibility work together through insurers and programs like SNAP and WIC.",
+      "one host says the bigger lever may be lowering friction, access barriers, and cost rather than trying to change behavior directly."
+    ],
+    "investment_thesis": "Food-as-medicine could cut chronic-disease costs and improve outcomes, but only if delivery, reimbursement, and benefit systems are integrated at scale.",
+    "key_tickers": null
+  },
+  {
+    "id": 730,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "\u201cAir Pocket for AI Demand in 2027\u201d | Funda.AI\u2019s Kenneth Tay on Near-Term Headwinds for Enterprise AI Demand (Recorded at TomorrowX Summit)",
+    "episode_date": "2026-11-25",
+    "summary": "Kenneth Tay of Funda argues that AI demand could hit an enterprise \"air pocket\" around 2027 because the wave of coding-led usage in 2026 may not translate fast enough into broader enterprise deployment. He says Funda\u2019s surveys and channel checks found 2027 spend expectations were \"not high enough,\" and that the build-out would need much more growth to justify ongoing investment.\n\nHe ties that caution to deployment friction inside enterprises. Tay points to rising demand for deploy engineers and says it is a sign AI is harder to operationalize than expected because of compliance, reliability, and enterprise process constraints. He also cites public information on Anthropic, saying its quarter-over-quarter growth slowed to about 40% from Q3 to Q2, as evidence that coding alone may not be enough to sustain the needed growth rate.\n\nOn supply, Tay says token prices should keep falling because semiconductor and compute advances are forcing costs down, while volumes rise. But he also says the near-term AI supply chain remains tight, with memory and substrates the main bottlenecks. He references DRAM/NAND tightness, earlier shortages and price increases, and even laser shortages, as examples of the broader constraint set.\n\nTay also raises regulatory risk around remote access and licensing. He says changes could redirect GPU and data-center demand toward non-China Southeast Asia, but could also create a \"hiccup phase\" for data-center demand there and complicate financing and approvals. Despite the caution, he says long-term AI remains bullish, and that positioning may already be washed out enough that 2027 expectations could reset lower with some upside surprise potential.",
+    "key_takeaways": [
+      "Kenneth Tay says Funda\u2019s survey work found 2027 AI spend expectations were \"not high enough\" to support the level of investment implied by the market.",
+      "Kenneth Tay argues rising demand for deploy engineers shows enterprise AI deployment is more difficult than many expect because of compliance, reliability, and internal process issues.",
+      "Kenneth Tay says coding-led AI growth in 2026 may not be enough to carry 2027 revenue growth unless AI expands much more aggressively into knowledge work and other enterprise uses.",
+      "Kenneth Tay cites Anthropic\u2019s slowdown to about 40% quarter-over-quarter growth from Q3 to Q2 as public evidence that growth is decelerating from extremely high levels.",
+      "Kenneth Tay says token prices will continue to fall because advances in semiconductors and compute make lower prices unavoidable, even as volumes rise.",
+      "Kenneth Tay says memory and substrates are the tightest supply-chain bottlenecks, with DRAM/NAND tightness and prior shortages still relevant to the AI build-out.",
+      "Kenneth Tay says remote-access licensing changes could create a \"hiccup phase\" for data-center demand in non-China Southeast Asia and add financing and approval complexity."
+    ],
+    "investment_thesis": "Kenneth Tay\u2019s core claim is that enterprise AI demand may not scale fast enough by 2027 to justify today\u2019s investment expectations, despite long-term AI strength.",
+    "key_tickers": null
+  },
+  {
+    "id": 729,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "The Revolution vs The Renaissance \u2014 Thariq Shihipar, OpenAI",
+    "episode_date": "2026-11-25",
+    "summary": "Tariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
+    "key_takeaways": [
+      "Tariq Shihipar says the bottleneck is \u201cways of working with the model,\u201d not intelligence or tokens.",
+      "Tariq Shihipar says the experience of building his game is disorienting because he \u201cjust have[s] no idea what\u2019s happening.\u201d",
+      "Tariq Shihipar says Claude simulations showed that in his game setup \u201cyou always want just economic victory.\u201d",
+      "Tariq Shihipar says decision models sit between hard-coded behavior and full inference loops and can make AI actions more predictable.",
+      "Tariq Shihipar says \u201c2026\u201d is the year of software factories, but the next phase is a \u201crenaissance of software\u201d focused on iterative quality.",
+      "Tariq Shihipar says RSI will shift technical research work toward automation, while humans still allocate compute and decide objectives.",
+      "Tariq Shihipar says adoption will look gradual rather than like an abrupt takeoff, and maybe in five years households will have robots doing chores."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that the most valuable AI tooling will improve developer workflow, interpretability, and decision routing rather than simply adding more model intelligence.",
+    "key_tickers": null
+  },
+  {
+    "id": 728,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #560 Daniel Lacalle: \u201cThe European ER AH Situation\u2026\u201d",
+    "episode_date": "2026-11-25",
+    "summary": "Daniel Lacalle argues markets are likely to stay choppy until there is clarity on what the Fed and other central banks will do, and he says a December rate increase would add more volatility. He also pushes back on the idea that AI capex is a classic bubble, saying the market is really sorting winners from losers as earnings and returns on capital become clearer over the next couple of months.\n\nOn energy, Lacalle expects oil to settle around $68-$70 WTI rather than revisit extremes, and he says the geopolitical risk premium has eroded but not disappeared. He is skeptical that US natural gas prices will rise much from higher Europe-linked exports because domestic producers will prioritize domestic consumption, and he argues US LNG exports were built for supply security rather than a lasting US-Europe arbitrage.\n\nHe is bullish on gold over the long run because of central bank buying and constrained supply, but says near-term corrections can persist when the dollar strengthens. The dollar, in his view, is supported as the \u201cleast bad\u201d reserve alternative versus the euro, yuan, and other currencies, and he thinks central banks will resist an overly aggressive dollar move because of systemic stress.\n\nLacalle also says Europe is still stagnating despite stimulus and ECB action, and he sees euro weakness and currency depreciation as more plausible than a euro breakup. The market-desk segment reinforces the cautious tone: it notes a sharp but fragile rebound in semis, elevated VIX conditions, a gold volatility jump, and a Treasury rally that may be signaling tightening financial conditions ahead of the December Fed meeting.",
+    "key_takeaways": [
+      "Daniel Lacalle says markets are likely to remain choppy until investors are more certain about what the Federal Reserve and other central banks will do.",
+      "Daniel Lacalle says AI capex is not a bubble in the conventional sense; the real issue is separating companies with strong returns on capital from those with losses or weak returns.",
+      "Daniel Lacalle says hyperscalers are likely generating net cash in 2027 and can repay debt without much challenge, but not all AI players will look the same.",
+      "Daniel Lacalle says oil is more likely to settle around $68-$70 WTI than return to very low levels or spike to extremes.",
+      "Daniel Lacalle says it is very difficult to see US natural gas prices rising much from Europe-linked exports because domestic producers prioritize domestic consumption.",
+      "Daniel Lacalle says the euro is exposed to redenomination risk but that the euro architecture makes a full exit very unlikely, so depreciation is the more plausible adjustment."
+    ],
+    "investment_thesis": "The episode\u2019s central call is that volatility stays elevated until Fed clarity emerges, while AI capex, oil, gold, and the euro each face distinct, non-bubble-specific macro constraints.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 727,
+    "podcast_name": "The Credit Edge by Bloomberg Intelligence",
+    "episode_title": "DoubleLine Turns AI Debt Bull From Bear After Selloff Made it Cheaper",
+    "episode_date": "2026-11-25",
+    "summary": "Robert Cohen argues that the AI-credit funding frenzy has repriced dramatically, and that a number of names once viewed as \u201cbubble\u201d valuations now trade at spreads that better reflect risk. He distinguishes between underlying business deterioration and the market\u2019s uncertainty about future capital-market access, issuance supply, and how much more funding hyperscalers and AI buildouts will require. In his view, that uncertainty is a major reason spreads remain wide.\n\nHe is constructive on selected credits, especially hyperscalers like Amazon and Alphabet, which he says deserve AA ratings and whose cloud profitability can be monitored quarterly. He also says SpaceX has moved from too-tight pricing to a high-yield-type spread and yield, and that it could trade more like a real BBB if it keeps delivering. Oracle, after widening materially, is now a name he likes more because its spreads have moved into the single-B range and the pricing now compensates for leverage and execution risk.\n\nAt the same time, he draws a hard line on CoreWeave unsecured debt, calling it \u201ca bridge too far\u201d because of GPU refresh risk and uncertainty around whether the capital structure can sustain itself. He frames the broader opportunity set as a haves-versus-have-nots market, where security selection, short duration, and avoiding weak-tenant or major-construction-risk names matter more than buying the whole theme.\n\nCohen also warns that private credit and lower-rated public credit may still see defaults rise as the cycle matures, but he does not think that automatically means broad macro contagion. He says the key is to keep exposure capped, manage AI blast-radius risk, and recognize that yield alone is not total return once the default cycle starts to bite.",
+    "key_takeaways": [
+      "Robert Cohen says AI-linked corporate credit has repriced from bubble-like pricing to spreads that now reflect underlying risk for many names.",
+      "Robert Cohen says Oracle moved from not making sense to being fair value/high-yield appropriate after widening into the single-B range.",
+      "Robert Cohen says SpaceX should be treated as a high-yield name now, with an 8% yield and trading in the low 80s, and that spreads could tighten if it performs and approaches real BBB credit metrics.",
+      "Robert Cohen says Amazon, Alphabet, and Microsoft deserve AA ratings, and that the main compensation is for supply/issuance uncertainty rather than imminent downgrade risk.",
+      "Robert Cohen says Alphabet\u2019s cloud computing margin went up last quarter, which supports his view that the hyperscaler credit thesis remains intact.",
+      "Robert Cohen says CoreWeave unsecured debt is beyond his risk line because GPU refresh risk and capital-structure durability make the story too speculative.",
+      "Robert Cohen says DoubleLine caps AI exposure in portfolios because a big sector can create a blast radius into other sectors if the trade breaks down."
+    ],
+    "investment_thesis": "Selected AI-adjacent credits now look fairly priced or cheap, but the best risk-adjusted trade is hyperscaler AA credit and disciplined name-by-name selection, not broad exposure to the theme.",
+    "key_tickers": [
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "META"
+    ]
+  },
+  {
     "id": 726,
     "podcast_name": "The a16z Show",
     "episode_title": "Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)",

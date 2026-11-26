@@ -1,6 +1,37 @@
 {
   "insights": [
     {
+      "id": 742,
+      "title": "Replay: On Food as Medicine (2020)",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-26",
+      "summary": "The episode argues that \u201cfood as medicine\u201d is compelling because food shares several properties people want from medicines: it can be safer, more effective in some settings, more affordable, and easier to sustain because people eat multiple times per day. The discussion centers on medically tailored meals, voucher programs, and healthier food benefits as tools for chronic disease and food-insecure populations.\n\nA major theme is scaling: speakers say the main bottlenecks are delivery, access, and payment/reimbursement. They describe the need to connect food benefits to insurer payment systems and to existing benefit programs like SNAP and WIC, while also using technology and digital ordering to make healthier choices easier in the checkout flow. The episode also frames the consumer \u201cfood environment\u201d as a lever for changing purchases without relying only on willpower.\n\nAndrea Feinberg points to real-world experience at Geisinger, where patients with diabetes received healthy food, education, and social support. She says they saw dramatic HbA1c improvements and about 60-plus percent lower healthcare costs, with very sick patients cutting costs by two-thirds. The episode also says food insecurity raises annual household healthcare costs by about 15% for mild insecurity, 30% for moderate insecurity, and upwards of 70% for severe insecurity.\n\nThe conversation closes with a systems-level argument: clinicians get very little nutrition training, so adoption will require curriculum changes, and a public-health-style infrastructure may eventually embed nutrition interventions into utilities in the same way fluoride is embedded in water. The episode\u2019s tone is optimistic but still acknowledges evidence-quality and reimbursement hurdles.",
+      "key_takeaway": "Food-as-medicine could cut chronic-disease costs and improve outcomes, but only if delivery, reimbursement, and benefit systems are integrated at scale.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 731,
+      "notable_quotes": [
+        {
+          "speaker": "one host",
+          "quote": "food actually has a lot of the properties that one would wish of medicines, right? So whether it's safety, whether it's efficacy, whether it's accessing affordability, and I think most importantly, this notion of compliance, right?"
+        },
+        {
+          "speaker": "one host",
+          "quote": "If you have mild food insecurity, household healthcare annual costs rise by about 15%. If you have moderate food insecurity, healthcare costs will increase by 30%. And if you have severe food insecurity, a healthcare cost for the household can rise upwards of 70%."
+        },
+        {
+          "speaker": "Andrea Feinberg",
+          "quote": "we saw about 60-plus percent decrease in healthcare costs."
+        }
+      ]
+    },
+    {
       "id": 737,
       "title": "Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)",
       "source_type": "podcast",
@@ -28,6 +59,140 @@
         {
           "speaker": "Ray Dalio",
           "quote": "I define believable people as those who have repeatedly and successfully accomplished the thing in question who have a track record with at least three successes and have great explanations of their approach when probed"
+        }
+      ]
+    },
+    {
+      "id": 738,
+      "title": "DoubleLine Turns AI Debt Bull From Bear After Selloff Made it Cheaper",
+      "source_type": "podcast",
+      "source_name": "The Credit Edge by Bloomberg Intelligence",
+      "source_date": "2026-11-25",
+      "summary": "Robert Cohen argues that the AI-credit funding frenzy has repriced dramatically, and that a number of names once viewed as \u201cbubble\u201d valuations now trade at spreads that better reflect risk. He distinguishes between underlying business deterioration and the market\u2019s uncertainty about future capital-market access, issuance supply, and how much more funding hyperscalers and AI buildouts will require. In his view, that uncertainty is a major reason spreads remain wide.\n\nHe is constructive on selected credits, especially hyperscalers like Amazon and Alphabet, which he says deserve AA ratings and whose cloud profitability can be monitored quarterly. He also says SpaceX has moved from too-tight pricing to a high-yield-type spread and yield, and that it could trade more like a real BBB if it keeps delivering. Oracle, after widening materially, is now a name he likes more because its spreads have moved into the single-B range and the pricing now compensates for leverage and execution risk.\n\nAt the same time, he draws a hard line on CoreWeave unsecured debt, calling it \u201ca bridge too far\u201d because of GPU refresh risk and uncertainty around whether the capital structure can sustain itself. He frames the broader opportunity set as a haves-versus-have-nots market, where security selection, short duration, and avoiding weak-tenant or major-construction-risk names matter more than buying the whole theme.\n\nCohen also warns that private credit and lower-rated public credit may still see defaults rise as the cycle matures, but he does not think that automatically means broad macro contagion. He says the key is to keep exposure capped, manage AI blast-radius risk, and recognize that yield alone is not total return once the default cycle starts to bite.",
+      "key_takeaway": "Selected AI-adjacent credits now look fairly priced or cheap, but the best risk-adjusted trade is hyperscaler AA credit and disciplined name-by-name selection, not broad exposure to the theme.",
+      "tickers_mentioned": [
+        "AMZN",
+        "GOOGL",
+        "MSFT",
+        "META"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 727,
+      "notable_quotes": [
+        {
+          "speaker": "Robert Cohen (DoubleLine)",
+          "quote": "CoreWeave unsecures are kind of a bridge too far for me because I, rightly or wrongly, I sort of equate this to the EMP sector back in when we were doing, you know, the shale build out in, I don't know, was that 2013 to 2015 and that CoreWeave needs to build capacity with state-of-the-art GPUs and lease them up."
+        },
+        {
+          "speaker": "Robert Cohen (DoubleLine)",
+          "quote": "it's levered four and a half times. it's free cashflow negative. It has a lot of execution risk, but they said that they're finished with their capital raise and they have a guidance to turning free cash flow positive in 2028."
+        },
+        {
+          "speaker": "Robert Cohen (DoubleLine)",
+          "quote": "If SpaceX delivers on its guidance and it performs, I think it will eventually start to have credit metrics that look like a real BBB, in which cases it spreads eventually should start to trade like a real BBB."
+        }
+      ]
+    },
+    {
+      "id": 739,
+      "title": "MacroVoices #560 Daniel Lacalle: \u201cThe European ER AH Situation\u2026\u201d",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-11-25",
+      "summary": "Daniel Lacalle argues markets are likely to stay choppy until there is clarity on what the Fed and other central banks will do, and he says a December rate increase would add more volatility. He also pushes back on the idea that AI capex is a classic bubble, saying the market is really sorting winners from losers as earnings and returns on capital become clearer over the next couple of months.\n\nOn energy, Lacalle expects oil to settle around $68-$70 WTI rather than revisit extremes, and he says the geopolitical risk premium has eroded but not disappeared. He is skeptical that US natural gas prices will rise much from higher Europe-linked exports because domestic producers will prioritize domestic consumption, and he argues US LNG exports were built for supply security rather than a lasting US-Europe arbitrage.\n\nHe is bullish on gold over the long run because of central bank buying and constrained supply, but says near-term corrections can persist when the dollar strengthens. The dollar, in his view, is supported as the \u201cleast bad\u201d reserve alternative versus the euro, yuan, and other currencies, and he thinks central banks will resist an overly aggressive dollar move because of systemic stress.\n\nLacalle also says Europe is still stagnating despite stimulus and ECB action, and he sees euro weakness and currency depreciation as more plausible than a euro breakup. The market-desk segment reinforces the cautious tone: it notes a sharp but fragile rebound in semis, elevated VIX conditions, a gold volatility jump, and a Treasury rally that may be signaling tightening financial conditions ahead of the December Fed meeting.",
+      "key_takeaway": "The episode\u2019s central call is that volatility stays elevated until Fed clarity emerges, while AI capex, oil, gold, and the euro each face distinct, non-bubble-specific macro constraints.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 728,
+      "notable_quotes": [
+        {
+          "speaker": "Daniel Lacalle",
+          "quote": "I think that we are likely to see these choppy markets for a while until a market participants are more sure about what the Federal Reserve and Central banks are going to do."
+        },
+        {
+          "speaker": "Daniel Lacalle",
+          "quote": "I think that it's not a bubble, but there is obviously what we have seen always in technology, which is that some companies are going to succeed incredibly and have very, very strong return on capital employed, coming from those investments and others will have either losses or very weak returns."
+        },
+        {
+          "speaker": "Daniel Lacalle",
+          "quote": "The euro is the only world reserve currency with redenomination risk but I think that the architecture of the euro is built in a way that makes it very unlikely."
+        }
+      ]
+    },
+    {
+      "id": 740,
+      "title": "The Revolution vs The Renaissance \u2014 Thariq Shihipar, OpenAI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-11-25",
+      "summary": "Tariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
+      "key_takeaway": "The episode\u2019s core claim is that the most valuable AI tooling will improve developer workflow, interpretability, and decision routing rather than simply adding more model intelligence.",
+      "tickers_mentioned": [
+        "JIRA",
+        "FIG"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 729,
+      "notable_quotes": [
+        {
+          "speaker": "Tariq Shihipar",
+          "quote": "I don't even really feel like I'm bottlenecked by intelligence maybe. Like, maybe I'm bottlenecked by ambition."
+        },
+        {
+          "speaker": "Tariq Shihipar",
+          "quote": "I hate the experience of building this game right now. As much as like it's cool, I just have no idea what's happening."
+        },
+        {
+          "speaker": "Tariq Shihipar",
+          "quote": "Decision models are like, somewhere in between there, right? So you can sort of pre, like, write out, you know, the behavior of the AI, but then you can also evaluate the game state at any one point and be like, 'Oh, based on this game state, uh, you know, like, what, what do you want to do?'"
+        }
+      ]
+    },
+    {
+      "id": 741,
+      "title": "\u201cAir Pocket for AI Demand in 2027\u201d | Funda.AI\u2019s Kenneth Tay on Near-Term Headwinds for Enterprise AI Demand (Recorded at TomorrowX Summit)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-11-25",
+      "summary": "Kenneth Tay of Funda argues that AI demand could hit an enterprise \"air pocket\" around 2027 because the wave of coding-led usage in 2026 may not translate fast enough into broader enterprise deployment. He says Funda\u2019s surveys and channel checks found 2027 spend expectations were \"not high enough,\" and that the build-out would need much more growth to justify ongoing investment.\n\nHe ties that caution to deployment friction inside enterprises. Tay points to rising demand for deploy engineers and says it is a sign AI is harder to operationalize than expected because of compliance, reliability, and enterprise process constraints. He also cites public information on Anthropic, saying its quarter-over-quarter growth slowed to about 40% from Q3 to Q2, as evidence that coding alone may not be enough to sustain the needed growth rate.\n\nOn supply, Tay says token prices should keep falling because semiconductor and compute advances are forcing costs down, while volumes rise. But he also says the near-term AI supply chain remains tight, with memory and substrates the main bottlenecks. He references DRAM/NAND tightness, earlier shortages and price increases, and even laser shortages, as examples of the broader constraint set.\n\nTay also raises regulatory risk around remote access and licensing. He says changes could redirect GPU and data-center demand toward non-China Southeast Asia, but could also create a \"hiccup phase\" for data-center demand there and complicate financing and approvals. Despite the caution, he says long-term AI remains bullish, and that positioning may already be washed out enough that 2027 expectations could reset lower with some upside surprise potential.",
+      "key_takeaway": "Kenneth Tay\u2019s core claim is that enterprise AI demand may not scale fast enough by 2027 to justify today\u2019s investment expectations, despite long-term AI strength.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 730,
+      "notable_quotes": [
+        {
+          "speaker": "Kenneth Tay",
+          "quote": "And what we found was that, you know, it wasn't high enough, it wasn't going to be good enough."
+        },
+        {
+          "speaker": "Kenneth Tay",
+          "quote": "And I think that sort of flag to us that it can be quite challenging to deploy in enterprise."
+        },
+        {
+          "speaker": "Kenneth Tay",
+          "quote": "I think personally, my view is that prices will continue to drop, right? because I think the advances that we're making in semiconductors and compute, it's pretty much, it's pretty much going to happen and it has to happen."
         }
       ]
     },
@@ -207,7 +372,7 @@
       "key_takeaway": "The episode argues that life-sciences value will accrue first to model harnesses and agentic workflow tools that compress discovery, trial, manufacturing, and regulatory work rather than to raw model capability alone.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-23",
       "archived_date": null,
@@ -240,7 +405,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-23",
       "archived_date": null,
@@ -351,7 +516,7 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-22",
       "archived_date": null,
@@ -385,7 +550,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-22",
       "archived_date": null,
@@ -450,7 +615,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-21",
       "archived_date": null,
@@ -17366,6 +17531,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 360,
+      "term": "Agent swarms",
+      "description": "Multiple AI agents working together rather than as a single assistant. Wu treats this as a step-change because coordination raises both capability and safety risk.",
+      "first_detected_date": "2026-11-24",
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "This matters because he thinks swarms are what make both defense automation and large-scale misuse more consequential.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 723,
+      "first_detected_speaker": "Scott Wu",
+      "last_mentioned_episode_id": 729,
+      "last_mentioned_speaker": "Tariq Shihipar"
+    },
+    {
       "id": 357,
       "term": "Trusted access",
       "description": "A safety model that gives full capabilities to verified legitimate institutions rather than trying to infer intent from prompts alone.",
@@ -17420,12 +17603,30 @@
       "last_mentioned_speaker": "Luukas Ilves"
     },
     {
+      "id": 359,
+      "term": "refined products",
+      "description": "Fuel outputs such as diesel and gasoline, which can stay tight even if crude oil itself weakens. Hansen treats this as the more important part of the energy inflation chain.",
+      "first_detected_date": "2026-11-19",
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Refined-product tightness can keep energy prices and inflation elevated even when crude corrects.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 701,
+      "first_detected_speaker": "Ole Hansen",
+      "last_mentioned_episode_id": 728,
+      "last_mentioned_speaker": "Daniel Lacalle"
+    },
+    {
       "id": 345,
       "term": "Second",
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
       "last_mentioned_date": "2026-11-25",
-      "mention_count": 31,
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17434,8 +17635,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 726,
-      "last_mentioned_speaker": "Ray Dalio"
+      "last_mentioned_episode_id": 729,
+      "last_mentioned_speaker": "Tariq Shihipar"
     },
     {
       "id": 342,
@@ -17460,8 +17661,8 @@
       "term": "RSI",
       "description": "Recursive self-improvement, meaning AI helping accelerate the AI research process. In the episode it is treated as a spectrum from AI-assisted research interns to more autonomous systems.",
       "first_detected_date": "2026-11-17",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If RSI accelerates, it could shorten model-development cycles and raise the value of tooling, evaluation, and compute infrastructure.",
@@ -17470,8 +17671,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 689,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 724,
-      "last_mentioned_speaker": "Max Ferens"
+      "last_mentioned_episode_id": 729,
+      "last_mentioned_speaker": "Tariq Shihipar"
     },
     {
       "id": 352,
@@ -17514,8 +17715,8 @@
       "term": "neoclouds",
       "description": "A shorthand used for AI infrastructure/cloud providers that depend on NVIDIA GPUs, financing support, or partnership structures to build data-center capacity.",
       "first_detected_date": "2026-11-12",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If NVIDIA reduces support, these businesses could face higher capital costs and slower buildouts.",
@@ -17524,8 +17725,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 699,
       "first_detected_speaker": "Huang Resigns",
-      "last_mentioned_episode_id": 725,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 727,
+      "last_mentioned_speaker": "Robert Cohen"
     },
     {
       "id": 344,
@@ -17580,6 +17781,24 @@
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 708,
       "last_mentioned_speaker": "Luukas Ilves"
+    },
+    {
+      "id": 358,
+      "term": "Skew",
+      "description": "The pricing imbalance between downside puts and upside calls in options markets.",
+      "first_detected_date": "2026-11-09",
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "High skew can make downside protection expensive and shape which option structures are attractive.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 665,
+      "first_detected_speaker": "Cem Karsan, Noel Smith",
+      "last_mentioned_episode_id": 727,
+      "last_mentioned_speaker": "Robert Cohen"
     },
     {
       "id": 334,
@@ -17746,20 +17965,20 @@
     {
       "id": 330,
       "term": "Software factory",
-      "description": "A development model where agents execute much of the coding, review, and operational work, with humans increasingly overseeing the system rather than writing every line. Eric suggests this may become the default for many OSS repositories.",
+      "description": "A phase of software development where building is industrialized, standardized, and optimized for throughput. In the episode, it refers to the current push toward more automated, production-like software creation.",
       "first_detected_date": "2026-11-03",
-      "last_mentioned_date": "2026-11-08",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "If this trend holds, demand rises for governance, review automation, and platform tools that manage large-scale autonomous software production.",
+      "investment_implications": "Signals demand for tooling that increases throughput, standardization, and agent-managed production workflows.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 643,
       "first_detected_speaker": "Zach Lloyd",
-      "last_mentioned_episode_id": 662,
-      "last_mentioned_speaker": "Mihail Eric"
+      "last_mentioned_episode_id": 729,
+      "last_mentioned_speaker": "Tariq Shihipar"
     },
     {
       "id": 332,
@@ -18018,8 +18237,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -18028,8 +18247,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 725,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 728,
+      "last_mentioned_speaker": "Daniel Lacalle"
     },
     {
       "id": 314,
@@ -18288,8 +18507,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -18298,8 +18517,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 723,
-      "last_mentioned_speaker": "Scott Wu"
+      "last_mentioned_episode_id": 729,
+      "last_mentioned_speaker": "Tariq Shihipar"
     },
     {
       "id": 295,
@@ -18324,8 +18543,8 @@
       "term": "AI Debt",
       "description": "AI Debt refers to the bond, leveraged loan, private credit, and project finance raised to fund AI labs, GPU purchases, and data center construction. In this episode, Zitron framed it as the main transmission channel from AI hype to credit-market stress.",
       "first_detected_date": "2026-10-01",
-      "last_mentioned_date": "2026-11-08",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because refinancing costs, spreads, and failed debt sales can determine whether AI infrastructure projects remain viable.",
@@ -18334,8 +18553,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 544,
       "first_detected_speaker": "Ed Zitron",
-      "last_mentioned_episode_id": 661,
-      "last_mentioned_speaker": "Laks Ganapathi"
+      "last_mentioned_episode_id": 727,
+      "last_mentioned_speaker": "Robert Cohen"
     },
     {
       "id": 306,
@@ -18360,8 +18579,8 @@
       "term": "AI Adoption",
       "description": "The integration of artificial intelligence technologies into business processes, which is currently at an early stage in enterprises.",
       "first_detected_date": "2026-09-30",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding AI adoption is crucial for identifying companies that will benefit from increased efficiency and productivity.",
@@ -18370,8 +18589,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 536,
       "first_detected_speaker": "David George (hosts)",
-      "last_mentioned_episode_id": 723,
-      "last_mentioned_speaker": "Scott Wu"
+      "last_mentioned_episode_id": 730,
+      "last_mentioned_speaker": "Kenneth Tay"
     },
     {
       "id": 293,
@@ -18792,8 +19011,8 @@
       "term": "Taste",
       "description": "The ability to choose which ideas are likely to matter long term, persist beyond an initial paper, and compose well with other ideas. The speakers describe it as a major current weakness in models.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-11-23",
-      "mention_count": 56,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 57,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Systems that improve research taste could become key enablers of automated discovery and research productivity.",
@@ -18802,8 +19021,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby Thelot",
-      "last_mentioned_episode_id": 718,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 729,
+      "last_mentioned_speaker": "Tariq Shihipar"
     },
     {
       "id": 267,
@@ -19098,8 +19317,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 83,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 85,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -19108,8 +19327,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 725,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 728,
+      "last_mentioned_speaker": "Daniel Lacalle"
     },
     {
       "id": 256,
@@ -19258,20 +19477,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Large-scale capital spending on AI infrastructure, including GPUs, custom accelerators, data centers, power projects, memory, chips, and construction capacity. In this episode, it centers on Amazon's expected $220 billion of 2026 capex and AWS's plan to buy 2 million Nvidia GPUs over the next couple of years.",
+      "description": "Capital spending on AI infrastructure such as chips, servers, and data centers. In the episode, it is treated as a powerful investment cycle rather than an automatic bubble.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-11-19",
-      "mention_count": 40,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It reframes cloud growth around physical supply chains, power availability, depreciation risk, and multi-year infrastructure planning.",
+      "investment_implications": "The key question is which companies convert spending into strong returns on capital versus weak or negative returns.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 701,
-      "last_mentioned_speaker": "Ole Hansen"
+      "last_mentioned_episode_id": 728,
+      "last_mentioned_speaker": "Daniel Lacalle"
     },
     {
       "id": 234,
@@ -19674,8 +19893,8 @@
       "term": "AI Adjacent",
       "description": "Healthcare applications where AI augments rather than replaces clinical decision-making, such as OpenAI integration with Epic EHRs for natural language patient record queries.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-29",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Enterprise AI adoption in regulated healthcare workflows may create more durable competitive moats than consumer-facing AI applications.",
@@ -19684,8 +19903,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 671,
-      "last_mentioned_speaker": "Ross Pamphilon"
+      "last_mentioned_episode_id": 727,
+      "last_mentioned_speaker": "Robert Cohen"
     },
     {
       "id": 160,
@@ -19710,8 +19929,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-11-24",
-      "mention_count": 142,
+      "last_mentioned_date": "2026-11-25",
+      "mention_count": 143,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -19720,8 +19939,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 725,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 729,
+      "last_mentioned_speaker": "Tariq Shihipar"
     },
     {
       "id": 162,

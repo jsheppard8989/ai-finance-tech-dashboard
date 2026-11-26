@@ -83,6 +83,9 @@ site/data/
 !site/data/portfolio.json
 !site/data/curated_sources.json
 !site/data/trap_map_home.json
+!site/data/liquidity_ticker.json
+!site/data/_raw/
+!site/data/_raw/liquidity_ticker_history.csv
 !site/data/scoreboard.json
 
 # AI Bench Press generated audio/cache
