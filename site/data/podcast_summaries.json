@@ -1,5 +1,23 @@
 [
   {
+    "id": 730,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "\u201cAir Pocket for AI Demand in 2027\u201d | Funda.AI\u2019s Kenneth Tay on Near-Term Headwinds for Enterprise AI Demand (Recorded at TomorrowX Summit)",
+    "episode_date": "2026-11-25",
+    "summary": "Kenneth Tay of Funda argues that AI demand could hit an enterprise \"air pocket\" around 2027 because the wave of coding-led usage in 2026 may not translate fast enough into broader enterprise deployment. He says Funda\u2019s surveys and channel checks found 2027 spend expectations were \"not high enough,\" and that the build-out would need much more growth to justify ongoing investment.\n\nHe ties that caution to deployment friction inside enterprises. Tay points to rising demand for deploy engineers and says it is a sign AI is harder to operationalize than expected because of compliance, reliability, and enterprise process constraints. He also cites public information on Anthropic, saying its quarter-over-quarter growth slowed to about 40% from Q3 to Q2, as evidence that coding alone may not be enough to sustain the needed growth rate.\n\nOn supply, Tay says token prices should keep falling because semiconductor and compute advances are forcing costs down, while volumes rise. But he also says the near-term AI supply chain remains tight, with memory and substrates the main bottlenecks. He references DRAM/NAND tightness, earlier shortages and price increases, and even laser shortages, as examples of the broader constraint set.\n\nTay also raises regulatory risk around remote access and licensing. He says changes could redirect GPU and data-center demand toward non-China Southeast Asia, but could also create a \"hiccup phase\" for data-center demand there and complicate financing and approvals. Despite the caution, he says long-term AI remains bullish, and that positioning may already be washed out enough that 2027 expectations could reset lower with some upside surprise potential.",
+    "key_takeaways": [
+      "Kenneth Tay says Funda\u2019s survey work found 2027 AI spend expectations were \"not high enough\" to support the level of investment implied by the market.",
+      "Kenneth Tay argues rising demand for deploy engineers shows enterprise AI deployment is more difficult than many expect because of compliance, reliability, and internal process issues.",
+      "Kenneth Tay says coding-led AI growth in 2026 may not be enough to carry 2027 revenue growth unless AI expands much more aggressively into knowledge work and other enterprise uses.",
+      "Kenneth Tay cites Anthropic\u2019s slowdown to about 40% quarter-over-quarter growth from Q3 to Q2 as public evidence that growth is decelerating from extremely high levels.",
+      "Kenneth Tay says token prices will continue to fall because advances in semiconductors and compute make lower prices unavoidable, even as volumes rise.",
+      "Kenneth Tay says memory and substrates are the tightest supply-chain bottlenecks, with DRAM/NAND tightness and prior shortages still relevant to the AI build-out.",
+      "Kenneth Tay says remote-access licensing changes could create a \"hiccup phase\" for data-center demand in non-China Southeast Asia and add financing and approval complexity."
+    ],
+    "investment_thesis": "Kenneth Tay\u2019s core claim is that enterprise AI demand may not scale fast enough by 2027 to justify today\u2019s investment expectations, despite long-term AI strength.",
+    "key_tickers": null
+  },
+  {
     "id": 729,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "The Revolution vs The Renaissance \u2014 Thariq Shihipar, OpenAI",
