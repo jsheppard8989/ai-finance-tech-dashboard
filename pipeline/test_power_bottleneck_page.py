@@ -63,5 +63,5 @@ def test_power_charts_nav_and_links():
         assert 'href="charts/power/%s"' % name in s
         assert (SITE / "charts" / "power" / name).is_file(), name
     assert "label: '%s', href: 'power-bottleneck.html'" % TITLE in (SITE / "js" / "research-nav.js").read_text(encoding="utf-8")
-    for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html", "mu-memory-cycle.html", "qqq-filter.html", "lrcx-paid-to-wait.html", "power-bottleneck.html"):
+    for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html", "mu-memory-cycle.html", "qqq-filter.html", "lrcx-paid-to-wait.html", "power-bottleneck.html", "tlt-call-spread.html"):
         assert '<a href="power-bottleneck.html">%s</a>' % TITLE in (SITE / page).read_text(encoding="utf-8"), page

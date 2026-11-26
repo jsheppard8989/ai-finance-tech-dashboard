@@ -57,6 +57,10 @@ PAGES = {
         "Every paper trade we have closed and every one still open, with timed marks, P&L as a percent of max loss, and the fill math behind each number.",
         "website",
     ),
+    "tlt-call-spread.html": (
+        "TLT Jan 15, 2027 81/88 call spread ×90, opened Mon Nov 23, 2026",
+        "article",
+    ),
 }
 
 

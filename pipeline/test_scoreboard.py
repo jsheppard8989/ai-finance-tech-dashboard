@@ -165,8 +165,30 @@ def test_writeups(book, saved):
     urls = {r["id"]: r["writeup_url"] for r in sb["closed"] + sb["open"]}
     assert urls["mu-cycle"] == "mu-memory-cycle.html"
     assert urls["lrcx-put"] == "lrcx-paid-to-wait.html"
+    assert urls["ric-1123-tlt"] == "tlt-call-spread.html"
+    assert urls["scout-1117-googl"] is None
     for u in filter(None, urls.values()):
         assert (SITE / u).is_file(), u
+
+
+MONTH_YEAR_EXPIRY_RE = re.compile(r"\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-\d{2}\b")
+
+
+def test_tlt_expiry_is_full_date_not_month_year(book, saved):
+    """Expiry is the calendar day, not a month-year shorthand like Jan-27."""
+    assert bs.fmt_date("2027-01-15", year_always=True) == "Jan 15, 2027"
+    sb, _ = _build(book, saved)
+    tlt = next(r for r in sb["open"] if r["id"] == "ric-1123-tlt")
+    assert tlt["expiry"] == "2027-01-15"
+    assert tlt["expiry_label"] == "Jan 15, 2027"
+    assert "Jan 15, 2027" in tlt["structure"]
+    assert "Jan-27" not in json.dumps(tlt)
+    committed = json.loads((SITE / "data" / "scoreboard.json").read_text())
+    committed_tlt = next(r for r in committed["open"] if r["id"] == "ric-1123-tlt")
+    assert committed_tlt["expiry_label"] == "Jan 15, 2027"
+    for row in list(sb["open"]) + list(sb["closed"]) + ([sb["cash_park"]] if sb.get("cash_park") else []):
+        blob = json.dumps(row)
+        assert not MONTH_YEAR_EXPIRY_RE.search(blob), (row.get("id"), blob)
 
 
 def test_equity_curve_vs_spy(book, saved):

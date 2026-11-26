@@ -66,6 +66,7 @@ WRITEUPS: dict[str, str | None] = {
     "mu-cycle": "mu-memory-cycle.html",
     "gev-power": "power-bottleneck.html",
     "healthcare-five": "healthcare.html",
+    "ric-1123-tlt": "tlt-call-spread.html",
 }
 
 # Entry quotes for pre-reset trades whose entry legs are not inside the book JSON.

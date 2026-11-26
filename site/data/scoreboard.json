@@ -123,7 +123,7 @@
       "mark_label": "Wed Nov 25, 3:14 PM CT",
       "stale_after_ct": "2026-11-27T12:00:00-06:00",
       "is_stale": false,
-      "writeup_url": null,
+      "writeup_url": "tlt-call-spread.html",
       "audit": {
         "entry": {
           "at_label": "Mon Nov 23, 9:16 AM CT",
