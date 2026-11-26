@@ -91,5 +91,5 @@ def test_compute_thesis_link_matches_title():
     assert title == "Who Keeps the Profit from the AI Compute Shortage"
     assert re.search(r"<h1>(.*?)</h1>", s).group(1) == title
     assert "label: '%s', href: 'compute-thesis.html'" % title in (site / "js" / "research-nav.js").read_text(encoding="utf-8")
-    for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html"):
+    for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html", "archive.html", "debait.html"):
         assert '<a href="compute-thesis.html">%s</a>' % title in (site / page).read_text(encoding="utf-8"), page

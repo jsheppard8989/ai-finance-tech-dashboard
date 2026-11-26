@@ -57,6 +57,8 @@ def test_googl_page_nav_and_writeup_link():
         "qqq-filter.html",
         "lrcx-paid-to-wait.html",
         "power-bottleneck.html",
+        "archive.html",
+        "debait.html",
         "trades.html",
         "tlt-call-spread.html",
         "googl-call-spread.html",
