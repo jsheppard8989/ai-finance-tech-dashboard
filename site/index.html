@@ -2194,7 +2194,7 @@
       <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:ORBCOMM-2_First-Stage_Landing_%2823271687254%29.jpg" target="_blank" rel="noopener">Photo: SpaceX (CC0), via Wikimedia Commons</a>
     </header>
     <aside id="liquidity-ticker" class="liquidity-ticker" aria-label="Liquidity Pulse, in-house model, not advice">
-      <div class="lt-rail" id="lt-rail">
+      <div class="lt-rail" id="lt-rail" title="Liquidity Pulse (-100 risk-off to +100 risk-on; in-house model, not advice)">
         <div class="lt-rail-top">
           <span class="lt-title">Liquidity Pulse</span>
           <span class="lt-score lt-neutral" id="lt-score">—</span>
@@ -2964,9 +2964,15 @@
           .replace(/"/g, '&quot;');
       }
 
-      function bandClass(band) {
+      function bandClass(band, score) {
         if (band === 'Risk-On') return 'lt-risk-on';
         if (band === 'Risk-Off') return 'lt-risk-off';
+        if (band === 'Neutral') return 'lt-neutral';
+        if (score != null && !Number.isNaN(Number(score))) {
+          const s = Number(score);
+          if (s >= 15) return 'lt-risk-on';
+          if (s <= -15) return 'lt-risk-off';
+        }
         return 'lt-neutral';
       }
 
@@ -3011,7 +3017,7 @@
         if (item.source) parts.push('src: ' + item.source);
         if (item.signed_z_winsorized != null) {
           const sz = Number(item.signed_z_winsorized);
-          parts.push('signed z: ' + (sz >= 0 ? '+' : '') + sz.toFixed(2));
+          parts.push('stress z: ' + (sz >= 0 ? '+' : '') + sz.toFixed(2));
         }
         if (item.status === 'stale') parts.push('STALE');
         return parts.join(' | ');
@@ -3118,7 +3124,7 @@
         const score = data.score;
         const band = data.band || 'Unavailable';
         const lean = data.lean || '';
-        const cls = bandClass(band);
+        const cls = bandClass(band, score);
 
         scoreEl.className = 'lt-score ' + cls;
         bandEl.className = 'lt-band ' + cls;

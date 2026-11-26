@@ -115,7 +115,7 @@ def test_six_input_fixture_matches_updated_spec():
       5. Net Liq:    latest=5824539, mu=5801000, sigma=85000,  n=250 -> z=+0.28, signed=-0.28, wins=-0.28 (inverted)
       6. DXY:        latest=103.67,  mu=99.74,   sigma=1.63,   n=252 -> z=+2.41, signed=+2.41, wins=+2.41
     Mean signed z (winsorized) = (1.44 + 2.84 + 1.47 + 3.00 - 0.28 + 2.41) / 6 = 1.8133
-    Score = round(clip(50 * 1.8133, -100, 100)) = 91 -> Risk-Off / favor shorts.
+    Score = round(clip(-(100/3) * 1.8133, -100, 100)) = -60 -> Risk-Off / favor shorts.
     """
     end = date(2026, 11, 25)
     specs = [
@@ -148,20 +148,29 @@ def test_six_input_fixture_matches_updated_spec():
 
     comp = flt.compute_composite(entries)
     assert comp is not None
-    assert comp["score"] == 91
+    assert comp["score"] == -60
     assert comp["band"] == "Risk-Off"
     assert comp["lean"] == "favor shorts"
     assert comp["inputs_used"] == 6
 
 
 def test_band_classification_thresholds():
-    assert flt.classify_score(-25) == ("Risk-On", "favor longs")
-    assert flt.classify_score(-100) == ("Risk-On", "favor longs")
-    assert flt.classify_score(-24) == ("Neutral", "balanced")
+    assert flt.classify_score(-100) == ("Risk-Off", "favor shorts")
+    assert flt.classify_score(-15) == ("Risk-Off", "favor shorts")
+    assert flt.classify_score(-14) == ("Neutral", "balanced")
     assert flt.classify_score(0) == ("Neutral", "balanced")
-    assert flt.classify_score(24) == ("Neutral", "balanced")
-    assert flt.classify_score(25) == ("Risk-Off", "favor shorts")
-    assert flt.classify_score(100) == ("Risk-Off", "favor shorts")
+    assert flt.classify_score(14) == ("Neutral", "balanced")
+    assert flt.classify_score(15) == ("Risk-On", "favor longs")
+    assert flt.classify_score(100) == ("Risk-On", "favor longs")
+
+
+def test_rescale_extremes_and_sign():
+    high_stress = [{"status": "ok", "signed_z_winsorized": 3.0} for _ in range(6)]
+    low_stress = [{"status": "ok", "signed_z_winsorized": -3.0} for _ in range(6)]
+    c_off = flt.compute_composite(high_stress)
+    c_on = flt.compute_composite(low_stress)
+    assert c_off is not None and c_off["score"] == -100 and c_off["band"] == "Risk-Off" and c_off["lean"] == "favor shorts"
+    assert c_on is not None and c_on["score"] == 100 and c_on["band"] == "Risk-On" and c_on["lean"] == "favor longs"
 
 
 def test_insufficient_history_excluded():
@@ -354,6 +363,10 @@ def test_no_bet_or_grading_copy_in_ticker_script_or_ui():
     assert "border-radius: 12px" in desktop_css
     assert "width: 100vw" in mobile_css
     assert "border-radius: 0" in mobile_css
+    assert ".lt-risk-on { color: #34d399; }" in desktop_css
+    assert ".lt-risk-off { color: #f87171; }" in desktop_css
+    assert "s >= 15" in js_m.group(0)
+    assert "s <= -15" in js_m.group(0)
 
 
 def test_tests_never_touch_real_site_data():
