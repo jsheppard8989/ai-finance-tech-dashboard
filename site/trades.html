@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paper-Trade Record</title>
+  <meta name="description" content="Every paper trade we have closed and every one still open, with timed marks, P&amp;L as a percent of max loss, and the fill math behind each number.">
+  <meta property="og:title" content="Paper-Trade Record">
+  <meta property="og:description" content="Every paper trade we have closed and every one still open, with timed marks, P&amp;L as a percent of max loss, and the fill math behind each number.">
+  <meta property="og:url" content="https://jsheppard8989.github.io/ai-finance-tech-dashboard/trades.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://jsheppard8989.github.io/ai-finance-tech-dashboard/img/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@MrsDogood1722">
+  <meta name="twitter:title" content="Paper-Trade Record">
+  <meta name="twitter:description" content="Every paper trade we have closed and every one still open, with timed marks, P&amp;L as a percent of max loss, and the fill math behind each number.">
+  <meta name="twitter:image" content="https://jsheppard8989.github.io/ai-finance-tech-dashboard/img/og-default.jpg">
+  <link rel="icon" href="data:,">
+  <style>
+    :root{--bg:#05070d;--panel:#0c111b;--ink:#e8edf3;--mut:#9aa7b6;--line:#1d2635;--acc:#5cc8ff;--signup-max:1100px}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    a{color:var(--acc);overflow-wrap:anywhere}
+    .site-nav{display:flex;flex-wrap:wrap;gap:1rem 1.25rem;justify-content:center;align-items:center;padding:0.65rem 1rem;background:rgba(0,0,0,0.28);border-bottom:1px solid var(--line)}
+    .site-nav a{color:#00d4ff;text-decoration:none;font-size:0.95rem;font-weight:500}
+    .site-nav a:hover{text-decoration:underline}
+    .hero{padding:48px 5vw 24px;border-bottom:1px solid var(--line);background:radial-gradient(1200px 400px at 20% 0%,#0f2238 0%,var(--bg) 70%)}
+    .kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--acc);margin:0 0 8px}
+    h1{font-size:clamp(28px,4.4vw,46px);line-height:1.15;margin:0 0 12px;max-width:900px}
+    .sub{color:var(--mut);margin:0;max-width:780px}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px 20px 8px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1rem 1.15rem;margin:0 0 1rem}
+    footer{max-width:1100px;margin:0 auto;padding:20px 20px 48px;border-top:1px solid var(--line);color:var(--mut);font-size:13px}
+    .sb-alert{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .9rem;margin:.8rem 0 0;padding:.6rem .8rem;border-radius:10px;border:1px solid rgba(0,212,255,.3);background:rgba(0,212,255,.06)}
+    .sb-alert p{margin:0;font-size:.88rem;font-weight:600;color:#e6f1ff;flex:1 1 220px}
+    .sb-alert form{display:flex;flex-wrap:wrap;gap:.45rem;flex:1 1 300px}
+    .sb-alert input[type=email]{flex:1 1 180px;min-height:40px;padding:.45rem .65rem;border-radius:8px;border:1px solid rgba(255,255,255,.2);background:rgba(0,0,0,.3);color:var(--ink);font:inherit;font-size:.9rem}
+    .sb-alert button{min-height:40px;padding:.45rem 1rem;border:0;border-radius:8px;background:#00d4ff;color:#04121c;font:inherit;font-weight:700;font-size:.9rem;cursor:pointer}
+    .sb-alert button:hover{background:#5ce1ff}
+    .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+    .method h2{margin:0 0 .5rem;font-size:1.05rem;color:#00d4ff}
+    .method dl{margin:0;display:grid;grid-template-columns:minmax(150px,220px) 1fr;gap:.45rem 1rem;font-size:.88rem;line-height:1.5}
+    .method dt{font-weight:700;color:#e2e8f0}
+    .method dd{margin:0;color:#c3ccd8}
+    @media(max-width:640px){.method dl{grid-template-columns:1fr}.method dd{margin-bottom:.45rem}}
+    .sb-gen{font-size:.75rem;color:var(--mut);margin:.6rem 0 0}
+    main ~ #signup.signup-card{max-width:1060px}
+  </style>
+  <link rel="stylesheet" href="./css/signup-card.css">
+</head>
+<body>
+  <nav class="site-nav" aria-label="Site sections">
+    <a href="index.html">Home</a>
+    <div class="nav-research" data-research-menu><noscript><a href="power-bottleneck.html">Who Owns the Energized Megawatt?</a> · <a href="compute-thesis.html">Who Keeps the Profit from the AI Compute Shortage</a> · <a href="healthcare.html">Healthcare Abundance</a> · <a href="qqq-filter.html">The Nasdaq-100 Is a Filter, Not a Stock Picker</a> · <a href="https://jsheppard8989.github.io/spacex-path/">SpaceX Model</a></noscript></div>
+    <div class="nav-trades" data-trades-menu><noscript><a href="trades.html">Paper-Trade Record</a> · <a href="lrcx-paid-to-wait.html">Lam Research: Paid to Wait (closed Nov 5)</a> · <a href="mu-memory-cycle.html">Micron and the Memory Cycle</a></noscript></div>
+    <a href="archive.html">Archive</a>
+    <a href="debait.html">Long &amp; Short</a>
+    <a href="https://x.com/MrsDogood1722">Follow @MrsDogood1722</a>
+  </nav>
+  <header class="hero">
+    <p class="kicker">Paper trades</p>
+    <h1>Paper-Trade Record</h1>
+    <p class="sub">Every paper trade we have closed and every one still open. Winners and losers, each priced with the same fill rule, each with its math one click away. Paper only. Not investment advice.</p>
+  </header>
+  <main class="wrap">
+    <section id="scoreboard" class="card" data-scoreboard="full" aria-labelledby="scoreboard-heading">
+      <div class="sb-h">
+        <h2 id="scoreboard-heading">The record</h2>
+        <span class="sb-pill">PAPER ONLY</span>
+      </div>
+      <div data-sb="headline"><noscript>Turn on JavaScript to load the trade record from <a href="data/scoreboard.json">data/scoreboard.json</a>.</noscript></div>
+      <div class="sb-alert">
+        <p>Get every open and close by email, free.</p>
+        <form action="https://app.kit.com/forms/10236979/subscriptions" method="post" accept-charset="utf-8" data-sv-form="10236979" data-uid="7ac38e24ff" data-kit-tag="trades">
+          <label class="visually-hidden" for="alert-email-top">Email address</label>
+          <input id="alert-email-top" type="email" name="email_address" autocomplete="email" placeholder="Email address" required>
+          <button type="submit">Get trade alerts</button>
+        </form>
+      </div>
+      <div data-sb="park"></div>
+      <h3 class="sb-sub">Open trades</h3>
+      <div data-sb="open"></div>
+      <h3 class="sb-sub">Closed trades</h3>
+      <div data-sb="closed"></div>
+      <p class="sb-gen" data-sb="generated"></p>
+    </section>
+  </main>
+  <section id="signup" class="signup-card" aria-labelledby="signup-heading">
+    <h2 id="signup-heading">Trade alerts by email</h2>
+    <p class="signup-dek">Every paper trade we open or close, with its entry, max loss and what would prove it wrong. Free. Email only, unsubscribe anytime.</p>
+    <form class="signup-form" action="https://app.kit.com/forms/10236979/subscriptions" method="post" accept-charset="utf-8" data-sv-form="10236979" data-uid="7ac38e24ff" data-kit-tag="trades">
+      <label class="signup-label" for="signup-email">Email Address</label>
+      <input id="signup-email" type="email" name="email_address" autocomplete="email" required>
+      <button type="submit" class="signup-submit">Get trade alerts</button>
+    </form>
+    <p class="signup-note">We won't send you spam. Unsubscribe at any time.</p>
+  </section>
+  <div class="wrap">
+    <section class="card sb" data-scoreboard-curve aria-labelledby="curve-heading">
+      <h2 id="curve-heading" style="margin:0 0 .3rem;font-size:1.05rem;color:#00d4ff">$100,000 paper book vs SPY since the Nov 15 reset</h2>
+      <div data-sb="curve"></div>
+    </section>
+    <section class="card method" id="methodology" aria-labelledby="method-heading">
+      <h2 id="method-heading">How these numbers are made</h2>
+      <dl>
+        <dt>Paper only</dt>
+        <dd>No real money and no orders. Robinhood is used only to read quotes.</dd>
+        <dt>Fill rule</dt>
+        <dd>A buy fills at the ask minus a third of the bid-ask spread; a sell fills at the bid plus a third. Entries use the quote read at the time of the trade.</dd>
+        <dt>Marks</dt>
+        <dd>Open trades are valued at what they would fetch if closed, using the same rule on the closing side, from regular-session quotes only. Each mark shows its time and turns red once it is older than 1 trading day.</dd>
+        <dt>% of max loss</dt>
+        <dd>Every row shows P&amp;L as a percent of the trade's max loss, the most it could lose. For debit spreads and stock baskets that is the amount paid. For the LRCX short put it is the $21,000 cash set aside minus the $556.67 credit, or $20,443.33. The headline average is the simple average of those percents across closed trades.</dd>
+        <dt>The Nov 15 reset</dt>
+        <dd>On Nov 15, 2026 the three trades still open (TSAT, MU and GEV) were closed at the Fri Nov 13, 2:59:59 PM CT bid and ask, and a new $100,000 paper book started. Every trade from before the reset stays in the closed record.</dd>
+        <dt>Official trades vs the cash park</dt>
+        <dd>The book takes at most one official trade a week, approved before it is booked. Cash waiting for the next trade sits in STRC preferred shares. That park is shown on its own line and is left out of the win and loss counts, the realized P&amp;L and the averages.</dd>
+        <dt>Owner-stated exit</dt>
+        <dd>The LRCX put was bought back at $16.00 on Nov 5. That price was stated by the trade's owner, not computed from a recorded quote.</dd>
+        <dt>Older entries</dt>
+        <dd>Some trades from before the reset were booked as modeled fills without the leg quotes. Their "Show the math" panels say so.</dd>
+        <dt>Wrong if</dt>
+        <dd>The condition, set when the trade was opened, that would show its idea was wrong.</dd>
+      </dl>
+    </section>
+  </div>
+  <footer>
+    Paper only. Fills and marks use the one-third-of-the-spread rule described above. This page is not investment advice.
+  </footer>
+  <script src="./js/scoreboard.js"></script>
+  <script src="./js/research-nav.js"></script>
+</body>
+</html>

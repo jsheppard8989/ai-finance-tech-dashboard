@@ -53,6 +53,10 @@ PAGES = {
         "Why owning the sieve beats guessing the gold nugget",
         "article",
     ),
+    "trades.html": (
+        "Every paper trade we have closed and every one still open, with timed marks, P&L as a percent of max loss, and the fill math behind each number.",
+        "website",
+    ),
 }
 
 

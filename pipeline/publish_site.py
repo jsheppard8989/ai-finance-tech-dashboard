@@ -139,15 +139,6 @@ def run_export() -> None:
     generate_website_js()
     import export_commentary  # Market Commentary -> site/data/commentary/latest.json
     export_commentary.main([])
-    try:
-        import pull_scoreboard_quotes
-        import build_scoreboard
-
-        book_path = pull_scoreboard_quotes.resolve_book_path(None)
-        if book_path.is_file():
-            build_scoreboard.main([])
-    except Exception as e:
-        print(f"⚠ Scoreboard export skipped: {e}")
 
 
 def main() -> int:

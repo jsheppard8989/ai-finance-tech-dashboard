@@ -39,6 +39,10 @@ def _required_pages():
     return pages
 
 
+TRADES_COPY = "Trade alerts by email"
+TRADES_DEK = "Every paper trade we open or close"
+
+
 def _assert_native_kit_card(source: str, name: str) -> None:
     assert 'id="signup"' in source, name
     assert CSS_HREF in source, name
@@ -47,8 +51,13 @@ def _assert_native_kit_card(source: str, name: str) -> None:
     assert 'name="email_address"' in source, name
     assert 'data-sv-form="10236979"' in source, name
     assert 'data-uid="7ac38e24ff"' in source, name
-    assert SIGNUP_COPY in source, name
-    assert "New pieces and trade updates. Email only, unsubscribe anytime." in source, name
+    if name == "trades.html":
+        # Trades page: trade-alert copy, and every Kit form carries the "trades" tag hook.
+        assert TRADES_COPY in source and TRADES_DEK in source, name
+        assert source.count('data-kit-tag="trades"') == source.count(KIT_ACTION) == 2, name
+    else:
+        assert SIGNUP_COPY in source, name
+        assert "New pieces and trade updates. Email only, unsubscribe anytime." in source, name
     assert KIT_SCRIPT not in source, name
     assert KIT_EMBED not in source, name
 

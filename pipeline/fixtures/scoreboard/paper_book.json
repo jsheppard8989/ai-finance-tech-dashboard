@@ -1,0 +1,355 @@
+{
+ "as_of_ct": "2026-11-23T09:17:00-06:00",
+ "paper_only": true,
+ "mark_rule": "Opening fills: buys at ask \u2212 (ask\u2212bid)/3, sells at bid + (ask\u2212bid)/3. Dollar totals keep full precision until rounded to the nearest cent. Whole shares only on the STRC park.",
+ "book": {
+  "starting_cash": 100000.0,
+  "cash": 353.98,
+  "open_positions": 3,
+  "allocated": 99646.02
+ },
+ "prior_book_inception_realized_pnl": 2167.2,
+ "prior_book_starting_capital": 40817.34,
+ "prior_book_value_at_closeouts": 42984.54,
+ "wins_losses": {
+  "closed_wins": 3,
+  "closed_losses": 5,
+  "open": 2
+ },
+ "open": [
+  {
+   "id": "strc-park",
+   "ticker": "STRC",
+   "structure": "Long shares (cash park, not an official weekly trade)",
+   "name": "Strategy Variable Rate Series A Perpetual Stretch Preferred",
+   "opened": "2026-11-16",
+   "opened_at_ct": "2026-11-16T09:32:01-06:00",
+   "shares": 805,
+   "bid": 99.31,
+   "ask": 99.35,
+   "spread": 0.04,
+   "spread_pct_of_mid": 0.0403,
+   "last_trade": 99.321,
+   "quote_bid_ask_at": "2026-11-16T09:32:01-06:00",
+   "quote_last_trade_at": "2026-11-16T09:32:02-06:00",
+   "fill": 99.336667,
+   "fill_rule": "ask \u2212 (ask\u2212bid)/3",
+   "cost": 79966.02,
+   "value_at_entry": 79966.02,
+   "unrealized_at_entry": 0.0,
+   "max_loss": 79966.02,
+   "cash_after": 20033.98
+  },
+  {
+   "id": "scout-1117-googl",
+   "ticker": "GOOGL",
+   "owner": "Scout",
+   "structure": "Call debit spread 300/340 x6",
+   "name": "GOOGL Mar 19, 2027 300/340 call debit spread",
+   "official_weekly_trade": true,
+   "opened": "2026-11-20",
+   "opened_at_ct": "2026-11-20T09:17:00-06:00",
+   "quote_at_ct": "2026-11-20T09:15:00-06:00",
+   "expiry": "2027-03-19",
+   "strikes": "300/340",
+   "contracts": 6,
+   "legs_quote": {
+    "300C": [
+     16.2,
+     16.7
+    ],
+    "340C": [
+     5.6,
+     6.0
+    ]
+   },
+   "legs": {
+    "300C": {
+     "side": "buy",
+     "contracts": 6,
+     "bid": 16.2,
+     "ask": 16.7,
+     "mid": 16.45,
+     "spread_pct_of_mid": 3.0,
+     "oi": 6490,
+     "volume_today": 1043,
+     "fill": 16.533333
+    },
+    "340C": {
+     "side": "sell",
+     "contracts": 6,
+     "bid": 5.6,
+     "ask": 6.0,
+     "mid": 5.8,
+     "spread_pct_of_mid": 6.9,
+     "oi": 5697,
+     "volume_today": 13,
+     "fill": 5.733333
+    }
+   },
+   "fill_rule": "buys ask \u2212 (ask\u2212bid)/3, sells bid + (ask\u2212bid)/3",
+   "fill_per_share": {
+    "300C_buy": 16.533333,
+    "340C_sell": 5.733333,
+    "net_debit": 10.8
+   },
+   "debit_per_spread": 10.8,
+   "cost": 6480.0,
+   "value_at_entry": 6480.0,
+   "unrealized_at_entry": 0.0,
+   "max_loss": 6480.0,
+   "max_gain": 17520.0,
+   "breakeven": 310.8,
+   "stop": "None; held to expiry with no target or stop",
+   "cash_after": 13553.98
+  },
+  {
+   "id": "ric-1123-tlt",
+   "ticker": "TLT",
+   "owner": "Ric",
+   "structure": "Call debit spread 81/88 x90",
+   "name": "TLT Jan 15, 2027 81/88 call debit spread",
+   "official_weekly_trade": true,
+   "week_of": "2026-11-23",
+   "opened": "2026-11-23",
+   "opened_at_ct": "2026-11-23T09:17:00-06:00",
+   "quote_at_ct": "2026-11-23T09:16:35-06:00",
+   "expiry": "2027-01-15",
+   "strikes": "81/88",
+   "contracts": 90,
+   "underlying_quote": {
+    "last": 81.405,
+    "bid": 81.4,
+    "ask": 81.41,
+    "prior_close_2026_11_20": 81.45,
+    "last_at_ct": "2026-11-23T09:16:35-06:00",
+    "bid_ask_at_ct": "2026-11-23T09:16:35-06:00"
+   },
+   "legs_quote": {
+    "81C": [
+     1.61,
+     1.64
+    ],
+    "88C": [
+     0.16,
+     0.17
+    ]
+   },
+   "legs": {
+    "81C": {
+     "side": "buy",
+     "contracts": 90,
+     "instrument_id": "b5a974df-705b-4254-a22b-a26e248e8123",
+     "bid": 1.61,
+     "ask": 1.64,
+     "mid": 1.625,
+     "spread_pct_of_mid": 1.8,
+     "oi": 22320,
+     "volume_today": 551,
+     "quote_updated_at_ct": "2026-11-23T09:16:34-06:00",
+     "fill": 1.63
+    },
+    "88C": {
+     "side": "sell",
+     "contracts": 90,
+     "instrument_id": "9e61ff0f-7500-4877-ad3e-c2f7662ea878",
+     "bid": 0.16,
+     "ask": 0.17,
+     "mid": 0.165,
+     "spread_pct_of_mid": 6.1,
+     "oi": 290145,
+     "volume_today": 38,
+     "quote_updated_at_ct": "2026-11-23T09:16:29-06:00",
+     "fill": 0.163333
+    }
+   },
+   "fill_rule": "buys ask \u2212 (ask\u2212bid)/3, sells bid + (ask\u2212bid)/3",
+   "fill_per_share": {
+    "81C_buy": 1.63,
+    "88C_sell": 0.163333,
+    "net_debit": 1.466667
+   },
+   "debit_per_spread": 1.466667,
+   "cost": 13200.0,
+   "value_at_entry": 13200.0,
+   "unrealized_at_entry": 0.0,
+   "max_loss": 13200.0,
+   "max_gain": 49800.0,
+   "breakeven": 82.466667,
+   "breakeven_nearest_cent": 82.47,
+   "payoff_ratio": 3.77,
+   "stop": "None; held to expiry with no target or stop",
+   "proved_wrong": "TLT closes at or below $82.47 on Jan 15, 2027",
+   "ex_dividend_dates": [
+    "2026-12-01",
+    "2026-12-18"
+   ],
+   "cash_after": 353.98
+  }
+ ],
+ "closed": [
+  {
+   "id": "asts-q3",
+   "ticker": "ASTS",
+   "structure": "Put debit spread 43/37 x7",
+   "opened": "2026-10-29",
+   "closed": "2026-11-13",
+   "cost": 1670.67,
+   "exit_value": 4200.0,
+   "realized": 2529.33,
+   "exit": "Expiry, official close $32.60, full $6 width",
+   "price_type": "official"
+  },
+  {
+   "id": "frmi-q3",
+   "ticker": "FRMI",
+   "structure": "Put debit spread 3.00/2.50 x60",
+   "opened": "2026-10-29",
+   "closed": "2026-11-13",
+   "cost": 1500.0,
+   "exit_value": 2340.0,
+   "realized": 840.0,
+   "exit": "Expiry, official close $2.61, stock-intrinsic $0.39",
+   "price_type": "official close, stock-intrinsic"
+  },
+  {
+   "id": "healthcare-five",
+   "ticker": "Basket",
+   "structure": "5-stock long basket, $1,000 each",
+   "opened": "2026-09-18",
+   "closed": "2026-11-09",
+   "cost": 5000.0,
+   "exit_value": 4942.87,
+   "realized": -57.13,
+   "exit": "Stop: HIMS Q3 subscribers 2.788M < 2.891M",
+   "price_type": "modeled session closes"
+  },
+  {
+   "id": "ceg-q3",
+   "ticker": "CEG",
+   "structure": "Call debit spread 260/290 x1",
+   "opened": "2026-11-02",
+   "closed": "2026-11-05",
+   "cost": 1176.67,
+   "exit_value": 461.66,
+   "realized": -715.01,
+   "exit": "Stop: CEG closed $239.65 < $242.64",
+   "price_type": "modeled late-day quotes"
+  },
+  {
+   "id": "lrcx-put",
+   "ticker": "LRCX",
+   "structure": "Short put 210 x1 (cash-secured $21,000)",
+   "opened": "2026-11-02",
+   "closed": "2026-11-05",
+   "cost": 21000.0,
+   "exit_value": 19956.67,
+   "realized": -1043.33,
+   "exit": "Stop: traded through $200 at open; bought back at $16.00",
+   "price_type": "owner-stated paper fill"
+  },
+  {
+   "id": "tsat-notes",
+   "ticker": "TSAT",
+   "structure": "Put debit spread 40/30 x5",
+   "opened": "2026-10-29",
+   "closed": "2026-11-13",
+   "booked": "2026-11-15",
+   "cost": 1583.33,
+   "exit_value": 966.67,
+   "realized": -616.66,
+   "exit": "Fair close at Fri Nov 13 2:59:59 PM CT last bid/ask, closing fill rule",
+   "price_type": "last regular-session bid/ask, not OCC settlement",
+   "legs_quote": {
+    "40P": [
+     4.6,
+     5.3
+    ],
+    "30P": [
+     2.5,
+     3.1
+    ]
+   },
+   "fill_per_share": {
+    "40P_sell": 4.833333,
+    "30P_buy": 2.9,
+    "net": 1.933333
+   }
+  },
+  {
+   "id": "mu-cycle",
+   "ticker": "MU",
+   "structure": "Put debit spread 700/500 x1",
+   "opened": "2026-10-29",
+   "closed": "2026-11-13",
+   "booked": "2026-11-15",
+   "cost": 7466.67,
+   "exit_value": 9110.0,
+   "realized": 1643.33,
+   "exit": "Fair close at Fri Nov 13 2:59:59 PM CT last bid/ask, closing fill rule",
+   "price_type": "last regular-session bid/ask, not OCC settlement",
+   "legs_quote": {
+    "700P": [
+     167.85,
+     178.7
+    ],
+    "500P": [
+     72.0,
+     84.55
+    ]
+   },
+   "fill_per_share": {
+    "700P_sell": 171.466667,
+    "500P_buy": 80.366667,
+    "net": 91.1
+   }
+  },
+  {
+   "id": "gev-power",
+   "ticker": "GEV",
+   "structure": "Call debit spread 860/900 x1",
+   "opened": "2026-11-05",
+   "closed": "2026-11-13",
+   "booked": "2026-11-15",
+   "cost": 1420.0,
+   "exit_value": 1006.67,
+   "realized": -413.33,
+   "exit": "Fair close at Fri Nov 13 2:59:59 PM CT last bid/ask, closing fill rule",
+   "price_type": "last regular-session bid/ask, not OCC settlement",
+   "legs_quote": {
+    "860C": [
+     42.5,
+     48.8
+    ],
+    "900C": [
+     32.0,
+     35.8
+    ]
+   },
+   "fill_per_share": {
+    "860C_sell": 44.6,
+    "900C_buy": 34.533333,
+    "net": 10.066667
+   }
+  }
+ ],
+ "cumulative_realized": [
+  {
+   "date": "2026-11-05",
+   "value": -1758.34
+  },
+  {
+   "date": "2026-11-09",
+   "value": -1815.47
+  },
+  {
+   "date": "2026-11-13",
+   "value": 1553.86
+  },
+  {
+   "date": "2026-11-15",
+   "value": 2167.2
+  }
+ ],
+ "fixture_note": "Sanitized copy of /workspace/cos/paper_book/2026-11-23_book.json for tests: numbers unchanged, private notes removed."
+}
