@@ -305,6 +305,33 @@ def test_unit_price_formatter_examples():
     assert text == "$1.74" and rounded is False
 
 
+def test_leg_fill_math_uses_4dp_when_uneven():
+    # TLT mark legs: /3 is not even
+    assert bs.leg_fill_math({"side": "sell to close", "bid": 1.93, "ask": 1.98}) == (
+        "1.93 + (1.98 - 1.93)/3 = 1.9467"
+    )
+    assert bs.leg_fill_math({"side": "buy to close", "bid": 0.20, "ask": 0.21}) == (
+        "0.21 - (0.21 - 0.20)/3 = 0.2067"
+    )
+    # GOOGL entry legs
+    assert bs.leg_fill_math({"side": "buy", "bid": 16.20, "ask": 16.70}) == (
+        "16.70 - (16.70 - 16.20)/3 = 16.5333"
+    )
+    assert bs.leg_fill_math({"side": "sell", "bid": 5.60, "ask": 6.00}) == (
+        "5.60 + (6.00 - 5.60)/3 = 5.7333"
+    )
+    # Even /3 stays at 2 decimals (TLT entry long, STRC mark, GEV entry)
+    assert bs.leg_fill_math({"side": "buy", "bid": 1.61, "ask": 1.64}) == (
+        "1.64 - (1.64 - 1.61)/3 = 1.63"
+    )
+    assert bs.leg_fill_math({"side": "sell to close", "bid": 97.68, "ask": 97.83}) == (
+        "97.68 + (97.83 - 97.68)/3 = 97.73"
+    )
+    assert bs.leg_fill_math({"side": "buy", "bid": 42.00, "ask": 48.00}) == (
+        "48.00 - (48.00 - 42.00)/3 = 46.00"
+    )
+
+
 def _check_row_displays(row: dict, *, options_qty: int | None, shares: int | None) -> list[str]:
     """Return a list of (label, before-not-used) — actually just assert; called per row."""
     rid = row["id"]
@@ -374,6 +401,42 @@ def _check_row_displays(row: dict, *, options_qty: int | None, shares: int | Non
                 _assert_product(price, qty, dollars, chunk_rounded, f"{rid} audit.{section} {m.group(0)}")
                 if chunk_rounded:
                     assert bs.r2(price * qty) != dollars
+        for i, leg in enumerate(block.get("legs") or []):
+            if "bid" in leg and "ask" in leg:
+                _assert_leg_fill(leg, f"{rid} audit.{section}.legs[{i}]")
+
+
+_LEG_MATH = re.compile(
+    r"([\d.]+)\s*([+-])\s*\(([\d.]+)\s*-\s*([\d.]+)\)/3\s*=\s*([\d.]+)"
+)
+
+
+def _assert_leg_fill(leg: dict, label: str) -> None:
+    """Displayed fill must equal the bid/ask fill-rule result at 4dp; 2dp only if even."""
+    math = leg.get("math") or ""
+    m = _LEG_MATH.search(math)
+    assert m, f"{label}: no fill-rule formula in {math!r}"
+    bid, ask = float(leg["bid"]), float(leg["ask"])
+    buy_side = str(leg.get("side") or "").lower().startswith("buy")
+    expected = bs.buy_fill(bid, ask) if buy_side else bs.sell_fill(bid, ask)
+    shown = float(m.group(5))
+    assert bs._rn(shown, 4) == bs._rn(expected, 4), (
+        f"{label}: displayed {shown} != fill-rule {expected} at 4dp ({math})"
+    )
+    even = bs._rn(expected, 4) == bs._rn(expected, 2)
+    places = 2 if even else 4
+    want = f"{bs._rn(expected, places):.{places}f}"
+    assert m.group(5) == want, f"{label}: showed {m.group(5)}, expected {want} ({math})"
+    if buy_side:
+        assert m.group(2) == "-", f"{label}: buy leg should subtract the /3 ({math})"
+        assert float(m.group(1)) == bs._rn(ask, 2)
+        assert float(m.group(3)) == bs._rn(ask, 2)
+        assert float(m.group(4)) == bs._rn(bid, 2)
+    else:
+        assert m.group(2) == "+", f"{label}: sell leg should add the /3 ({math})"
+        assert float(m.group(1)) == bs._rn(bid, 2)
+        assert float(m.group(3)) == bs._rn(ask, 2)
+        assert float(m.group(4)) == bs._rn(bid, 2)
 
 
 def _qty_of(row: dict) -> tuple[int | None, int | None]:

@@ -197,19 +197,27 @@ def format_single_fill_product(price: float, multiplier: float, dollars: float, 
     return f"{body} = {money(dollars)}" + rounded_suffix(rounded)
 
 
-def leg_fill_math(leg: dict[str, Any], places: int) -> str:
-    bid, ask, fill = float(leg["bid"]), float(leg["ask"]), float(leg["fill"])
+def choose_leg_places(fill: float) -> int:
+    """2 decimals only when the /3 fill comes out even at 2 dp; otherwise 4."""
+    return 2 if _rn(fill, 4) == _rn(fill, 2) else 4
+
+
+def leg_fill_math(leg: dict[str, Any]) -> str:
+    """Show the bid/ask fill-rule result. Independent of the net/unit 2-or-4 tie rule."""
+    bid, ask = float(leg["bid"]), float(leg["ask"])
     buy_side = str(leg.get("side") or "").lower().startswith("buy")
-    result = f"{_rn(fill, places):.{places}f}"
+    raw = buy_fill(bid, ask) if buy_side else sell_fill(bid, ask)
+    places = choose_leg_places(raw)
+    result = f"{_rn(raw, places):.{places}f}"
     if buy_side:
         return f"{ask:.2f} - ({ask:.2f} - {bid:.2f})/3 = {result}"
     return f"{bid:.2f} + ({ask:.2f} - {bid:.2f})/3 = {result}"
 
 
-def apply_leg_math(legs: list[dict[str, Any]], places: int) -> None:
+def apply_leg_math(legs: list[dict[str, Any]]) -> None:
     for leg in legs:
         if "bid" in leg and "ask" in leg and "fill" in leg:
-            leg["math"] = leg_fill_math(leg, places)
+            leg["math"] = leg_fill_math(leg)
 
 def _structure_label(pos: dict[str, Any]) -> str:
     s = str(pos.get("name") or pos.get("structure") or pos.get("ticker") or "")
@@ -299,7 +307,7 @@ def _mark_open_position(
             "fill": round(mark, 6),
             "source": q.get("source"),
         }]
-        apply_leg_math(legs, n)
+        apply_leg_math(legs)
         return {
             "per_unit": round(mark, 6),
             "value": value,
@@ -335,7 +343,7 @@ def _mark_open_position(
     value = r2(net * contracts * 100.0)
     fills = [float(l["fill"]) for l in out_legs]
     n, _ = choose_net_places(fills, contracts, value)
-    apply_leg_math(out_legs, n)
+    apply_leg_math(out_legs)
     return {
         "per_unit": round(net, 6),
         "value": value,
@@ -361,7 +369,7 @@ def _entry_audit_open(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
         n, _ = choose_unit_places(f, cost, shares)
         legs = [{"leg": f"{pos.get('ticker')} shares", "side": "buy", "bid": bid, "ask": ask,
                  "fill": round(f, 6)}]
-        apply_leg_math(legs, n)
+        apply_leg_math(legs)
         return {
             "at_label": pq.format_ct_label(entry_ts),
             "legs": legs,
@@ -383,7 +391,7 @@ def _entry_audit_open(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
     cost = r2(net * contracts * 100.0)
     fills = [float(l["fill"]) for l in legs]
     n, _ = choose_net_places(fills, contracts, cost)
-    apply_leg_math(legs, n)
+    apply_leg_math(legs)
     if abs(cost - float(pos["cost"])) > TOL:
         errs.append(f"{pid}: cost {pos['cost']} != {cost}")
     if pos.get("max_loss") is not None and abs(float(pos["max_loss"]) - cost) > TOL:
@@ -511,14 +519,14 @@ def _closed_audit(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
             if abs(credit - 556.67) > TOL:
                 errs.append(f"{pid}: entry credit {credit} != 556.67")
             n, _ = choose_unit_places(-net, credit, 100.0)
-            apply_leg_math(legs, n)
+            apply_leg_math(legs)
             math = format_single_fill_product(-net, 100.0, credit) + f" credit on {money(cost)} cash collateral"
         else:
             if abs(total - cost) > TOL:
                 errs.append(f"{pid}: entry legs give {total}, book cost {cost}")
             fills = [float(l["fill"]) for l in legs]
             n, _ = choose_net_places(fills, spec["contracts"], total)
-            apply_leg_math(legs, n)
+            apply_leg_math(legs)
             math = format_option_product(fills, spec["contracts"], total)
         audit["entry"] = {"at_label": spec["at"], "source": spec["source"], "legs": legs, "math": math}
     else:
@@ -542,7 +550,7 @@ def _closed_audit(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
             errs.append(f"{pid}: exit legs give {total}, book exit {exit_val}")
         fills = [float(l["fill"]) for l in legs]
         n, _ = choose_net_places(fills, contracts, total)
-        apply_leg_math(legs, n)
+        apply_leg_math(legs)
         audit["exit"] = {"at_label": "Fri Nov 13, 2026, 2:59:59 PM CT (last regular-session bid/ask)",
                          "source": "Robinhood read-only quote", "legs": legs,
                          "math": format_option_product(fills, contracts, total)}
