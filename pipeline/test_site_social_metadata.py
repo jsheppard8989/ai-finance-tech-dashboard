@@ -107,7 +107,9 @@ def test_every_site_page_has_static_social_metadata_and_ordered_nav():
             ("https://x.com/MrsDogood1722", "Follow @MrsDogood1722"),
         ]
         assert top_level == expected
-        assert nav.index("data-research-menu") < nav.index('href="archive.html"')
+        assert nav.index("data-research-menu") < nav.index("data-trades-menu")
+        assert nav.index("data-trades-menu") < nav.index('href="archive.html"')
+        assert nav.index("data-research-menu") < nav.index('href="debait.html"')
         if filename == "index.html":
             assert 'href="debait.html" id="home-debate-listen"' in nav
 

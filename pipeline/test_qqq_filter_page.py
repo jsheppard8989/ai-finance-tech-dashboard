@@ -60,5 +60,5 @@ def test_qqq_charts_nav_and_index_link():
         assert re.search(r'<a class="chart-full" href="charts/qqq/0%d\.png" data-lightbox[^>]*>\s*<img src="charts/qqq/0%d\.png"' % (n, n), s), n
         assert (SITE / "charts" / "qqq" / ("0%d.png" % n)).is_file(), n
     assert "label: '%s', href: 'qqq-filter.html'" % TITLE in (SITE / "js" / "research-nav.js").read_text(encoding="utf-8")
-    for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html", "mu-memory-cycle.html", "qqq-filter.html"):
+    for page in ("index.html", "healthcare.html", "dc-buildout.html", "compute-thesis.html", "mu-memory-cycle.html", "qqq-filter.html", "archive.html", "debait.html"):
         assert '<a href="qqq-filter.html">%s</a>' % TITLE in (SITE / page).read_text(encoding="utf-8"), page
