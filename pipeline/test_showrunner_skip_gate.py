@@ -338,3 +338,96 @@ def test_process_transcript_file_consults_the_gate(tmp_path, monkeypatch):
     assert result is None
     assert calls, "skip gate was not consulted"
     assert calls[0]["rss_guid"] == "guid-low"
+
+
+# ---- snapshot freshness (Nov 25, 2026: ep 729 scored 26 at 9:18 PM, Mac still
+# had the Nov 24 snapshot, so it published) ----
+
+def _ct(y, mo, d, h, mi=0):
+    return gate.datetime(y, mo, d, h, mi, tzinfo=gate.CT)
+
+
+def _snapshot(path, exported_at, rows=None):
+    path.write_text(json.dumps({
+        "schema": gate.SCHEMA,
+        "exported_at": exported_at,
+        "episode_count": len(rows or []),
+        "episodes": rows or [],
+    }), encoding="utf-8")
+
+
+def test_latest_due_pass_respects_grace_window():
+    assert gate.latest_due_pass(_ct(2026, 11, 25, 22, 8)) == _ct(2026, 11, 25, 21, 0)
+    # 9:30 PM: the 9 PM pass is not due yet (45 min grace) -> 1 PM pass
+    assert gate.latest_due_pass(_ct(2026, 11, 25, 21, 30)) == _ct(2026, 11, 25, 13, 0)
+    # 6 AM morning run -> previous evening's pass
+    assert gate.latest_due_pass(_ct(2026, 11, 26, 6, 0)) == _ct(2026, 11, 25, 21, 0)
+
+
+def test_nov25_mac_snapshot_is_stale_at_evening_run(tmp_path):
+    scores = tmp_path / "showrunner_scores.json"
+    _snapshot(scores, "2026-11-24T21:41:00-06:00", [_row()])
+    st = gate.snapshot_status(scores, now=_ct(2026, 11, 25, 22, 8))
+    assert st["stale"] is True
+    assert st["latest_due_pass"].startswith("2026-11-25T21:00")
+    assert gate.stale_warning(st) and "STALE" in gate.stale_warning(st)
+
+
+def test_fresh_snapshot_after_evening_pass_is_not_stale(tmp_path):
+    scores = tmp_path / "showrunner_scores.json"
+    _snapshot(scores, "2026-11-25T21:19:00-06:00", [_row()])
+    st = gate.snapshot_status(scores, now=_ct(2026, 11, 25, 22, 8))
+    assert st["stale"] is False
+    assert gate.stale_warning(st) is None
+    assert 0.8 < st["age_hours"] < 0.9
+
+
+def test_missing_snapshot_status_is_problem(tmp_path):
+    st = gate.snapshot_status(tmp_path / "nope.json", now=_ct(2026, 11, 25, 22, 8))
+    assert st["problem"] == "missing" and st["stale"] is True
+
+
+def test_status_cli_exit_codes(tmp_path, capsys):
+    scores = tmp_path / "showrunner_scores.json"
+    _snapshot(scores, "2020-01-01T00:00:00-06:00", [_row()])
+    assert gate.main(["status", "--scores", str(scores)]) == 1
+    _snapshot(scores, gate.now_ct().isoformat(), [_row()])
+    assert gate.main(["status", "--scores", str(scores)]) == 0
+    assert "exported_at" in capsys.readouterr().out
+
+
+def test_stale_snapshot_alerts_but_still_fails_open_and_still_skips(tmp_path, monkeypatch, capsys):
+    scores = tmp_path / "showrunner_scores.json"
+    alerts = tmp_path / "logs" / "alerts.log"
+    _snapshot(scores, "2020-01-01T00:00:00-06:00", [_row(total_score=25)])
+    monkeypatch.setenv("SHOWRUNNER_SCORES_PATH", str(scores))
+    monkeypatch.setenv("SHOWRUNNER_SKIP_LOG_PATH", str(tmp_path / "skip_log.jsonl"))
+    monkeypatch.delenv("SHOWRUNNER_LEDGER_PATH", raising=False)
+    monkeypatch.setattr(gate, "DEFAULT_ALERTS_LOG_PATH", alerts)
+    gate.reset_cache()
+    try:
+        # unknown episode: processes (fail open) but says so
+        assert gate.should_skip_and_log({"rss_guid": "new-ep", "title": "New one"}) is False
+        # a scored <30 episode in the stale snapshot is still skipped
+        assert gate.should_skip_and_log({"rss_guid": "guid-low"}) is True
+    finally:
+        gate.reset_cache()
+    out = capsys.readouterr().out
+    assert "STALE" in out
+    assert "no score for 'New one'" in out
+    assert "ALERT showrunner gate" in alerts.read_text()
+
+
+def test_ep729_metadata_is_skipped_with_fresh_snapshot():
+    idx = _index([_row(
+        guid="01a214b9-5541-7a74-8098-e2b949bce219",
+        url="https://podcasts.beehiiv.com/x/01a214d7-cbb8-79f1-a627-087a38d098e9.mp3",
+        feed_name="Latent Space: The AI Engineer Podcast",
+        title="The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+        total_score=26.0, decision="SKIP", published_summary_id=None,
+    )])
+    d = gate.evaluate_episode({
+        "rss_guid": "01a214b9-5541-7a74-8098-e2b949bce219",
+        "podcast_name": "Latent Space: The AI Engineer Podcast",
+    }, idx)
+    assert d.skip is True and d.score == 26.0
