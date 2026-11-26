@@ -93,7 +93,9 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     # 2. Fresh worktree from origin/<base>; the checkout at --repo is never switched.
-    run(["git", "-C", str(args.repo), "fetch", "-q", "origin", args.base])
+    # explicit refspec: the box clone only tracks main by default
+    run(["git", "-C", str(args.repo), "fetch", "-q", "origin",
+         f"+refs/heads/{args.base}:refs/remotes/origin/{args.base}"])
     wt = WORK_ROOT / f"wt-{ts}"
     if wt.exists():
         run(["git", "-C", str(args.repo), "worktree", "remove", "--force", str(wt)], check=False)
