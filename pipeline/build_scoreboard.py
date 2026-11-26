@@ -171,29 +171,40 @@ def rounded_suffix(rounded: bool) -> str:
     return " (rounded)" if rounded else ""
 
 
+def format_displayed_fill(fill: float) -> str:
+    """The same 2-or-4 places a leg fill uses in the math row."""
+    n = choose_leg_places(fill)
+    return f"{_rn(fill, n):.{n}f}"
+
+
 def format_share_product(shares: float, price: float, dollars: float) -> str:
-    n, rounded = choose_unit_places(price, dollars, shares)
-    return f"{int(shares)} sh × {_rn(price, n):.{n}f} = {money(dollars)}" + rounded_suffix(rounded)
+    """Product uses the same displayed fill as the share leg above it."""
+    shown = format_displayed_fill(price)
+    rounded = not _cents_equal(float(shown) * float(shares), r2(dollars))
+    return f"{int(shares)} sh × {shown} = {money(dollars)}" + rounded_suffix(rounded)
 
 
 def format_option_product(fills: list[float], contracts: float, dollars: float) -> str:
-    n, rounded = choose_net_places(fills, contracts, dollars)
-    shown = [_rn(f, n) for f in fills]
-    if len(shown) == 1:
-        body = f"{shown[0]:.{n}f} × {int(contracts)} × 100"
+    """Product operands are the displayed leg fills, not a separately rounded net."""
+    texts = [format_displayed_fill(f) for f in fills]
+    shown = [float(s) for s in texts]
+    net = shown[0] - sum(shown[1:]) if len(shown) > 1 else shown[0]
+    rounded = not _cents_equal(net * float(contracts) * 100.0, r2(dollars))
+    if len(texts) == 1:
+        body = f"{texts[0]} × {int(contracts)} × 100"
     else:
-        body = f"({' - '.join(f'{f:.{n}f}' for f in shown)}) × {int(contracts)} × 100"
+        body = f"({' - '.join(texts)}) × {int(contracts)} × 100"
     return f"{body} = {money(dollars)}" + rounded_suffix(rounded)
 
 
 def format_single_fill_product(price: float, multiplier: float, dollars: float, *, leading: str = "") -> str:
     """e.g. 5.5667 × 100 = $556.67 or $16.00 × 100 = $1,600.00."""
-    n, rounded = choose_unit_places(price, dollars, multiplier)
-    p = _rn(price, n)
+    shown = format_displayed_fill(price)
+    rounded = not _cents_equal(float(shown) * float(multiplier), r2(dollars))
     if leading.startswith("$"):
-        body = f"{leading}{p:.{n}f} × {int(multiplier)}"
+        body = f"{leading}{shown} × {int(multiplier)}"
     else:
-        body = f"{p:.{n}f} × {int(multiplier)}"
+        body = f"{shown} × {int(multiplier)}"
     return f"{body} = {money(dollars)}" + rounded_suffix(rounded)
 
 

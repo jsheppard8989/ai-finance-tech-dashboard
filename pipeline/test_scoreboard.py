@@ -332,6 +332,21 @@ def test_leg_fill_math_uses_4dp_when_uneven():
     )
 
 
+def test_option_product_uses_displayed_leg_fills():
+    # TLT mark: product must use the 4-dec leg fills, and they do tie to $15,660.00
+    assert bs.format_option_product([1.946667, 0.206667], 90, 15660.0) == (
+        "(1.9467 - 0.2067) × 90 × 100 = $15,660.00"
+    )
+    # TLT entry: mixed 2-and-4 displayed fills, does not tie
+    assert bs.format_option_product([1.63, 0.163333], 90, 13200.0) == (
+        "(1.63 - 0.1633) × 90 × 100 = $13,200.00 (rounded)"
+    )
+    # GOOGL entry: 4-dec legs that still tie
+    assert bs.format_option_product([16.533333, 5.733333], 6, 6480.0) == (
+        "(16.5333 - 5.7333) × 6 × 100 = $6,480.00"
+    )
+
+
 def _check_row_displays(row: dict, *, options_qty: int | None, shares: int | None) -> list[str]:
     """Return a list of (label, before-not-used) — actually just assert; called per row."""
     rid = row["id"]
@@ -376,18 +391,30 @@ def _check_row_displays(row: dict, *, options_qty: int | None, shares: int | Non
             continue
         rounded = math.endswith(_ROUNDED.strip()) or math.rstrip().endswith("rounded)")
         if m := _OPTION_PRODUCT.search(math):
-            fills = [float(x.strip()) for x in m.group(1).split("-")]
+            fill_texts = [x.strip() for x in m.group(1).split("-")]
+            fills = [float(x) for x in fill_texts]
             contracts = int(m.group(2))
             dollars = _cents(m.group(3))
             net = fills[0] - sum(fills[1:])
             _assert_product(net, contracts * 100, dollars, rounded, f"{rid} audit.{section} {math}")
             if rounded:
                 assert bs.r2(net * contracts * 100) != dollars
+            leg_texts = _displayed_leg_fill_texts(block)
+            if leg_texts:
+                assert fill_texts == leg_texts, (
+                    f"{rid} audit.{section}: product operands {fill_texts} != displayed legs {leg_texts}"
+                )
         elif m := _SHARE_PRODUCT.search(math):
-            sh, price, dollars = int(m.group(1)), float(m.group(2)), _cents(m.group(3))
+            sh, price_text, dollars = int(m.group(1)), m.group(2), _cents(m.group(3))
+            price = float(price_text)
             _assert_product(price, sh, dollars, rounded, f"{rid} audit.{section} {math}")
             if rounded:
                 assert bs.r2(price * sh) != dollars
+            leg_texts = _displayed_leg_fill_texts(block)
+            if leg_texts:
+                assert price_text == leg_texts[0], (
+                    f"{rid} audit.{section}: product price {price_text} != displayed leg {leg_texts[0]}"
+                )
         elif m := _WORTH_PRODUCT.search(math):
             price, contracts, dollars = float(m.group(1)), int(m.group(2)), _cents(m.group(3))
             _assert_product(price, contracts * 100, dollars, rounded, f"{rid} audit.{section} {math}")
@@ -395,12 +422,20 @@ def _check_row_displays(row: dict, *, options_qty: int | None, shares: int | Non
                 assert bs.r2(price * contracts * 100) != dollars
         elif m := _SINGLE_PRODUCT.search(math):
             # first match might be later in a compound sentence (LRCX exit has two products)
-            for m in _SINGLE_PRODUCT.finditer(math):
-                price, qty, dollars = float(m.group(1)), int(m.group(2)), _cents(m.group(3))
+            for idx, m in enumerate(_SINGLE_PRODUCT.finditer(math)):
+                price_text, qty, dollars = m.group(1), int(m.group(2)), _cents(m.group(3))
+                price = float(price_text)
                 chunk_rounded = "(rounded)" in math[m.start():m.end()+12]
                 _assert_product(price, qty, dollars, chunk_rounded, f"{rid} audit.{section} {m.group(0)}")
                 if chunk_rounded:
                     assert bs.r2(price * qty) != dollars
+                leg_texts = _displayed_leg_fill_texts(block)
+                # One-leg entry products (LRCX credit) must match the displayed fill.
+                # Exit lines like "$16.00 × 100" have no fill-rule legs.
+                if len(leg_texts) == 1 and idx == 0:
+                    assert price_text == leg_texts[0], (
+                        f"{rid} audit.{section}: product price {price_text} != displayed leg {leg_texts[0]}"
+                    )
         for i, leg in enumerate(block.get("legs") or []):
             if "bid" in leg and "ask" in leg:
                 _assert_leg_fill(leg, f"{rid} audit.{section}.legs[{i}]")
@@ -409,6 +444,15 @@ def _check_row_displays(row: dict, *, options_qty: int | None, shares: int | Non
 _LEG_MATH = re.compile(
     r"([\d.]+)\s*([+-])\s*\(([\d.]+)\s*-\s*([\d.]+)\)/3\s*=\s*([\d.]+)"
 )
+
+
+def _displayed_leg_fill_texts(block: dict) -> list[str]:
+    out = []
+    for leg in block.get("legs") or []:
+        m = _LEG_MATH.search(leg.get("math") or "")
+        if m:
+            out.append(m.group(5))
+    return out
 
 
 def _assert_leg_fill(leg: dict, label: str) -> None:
