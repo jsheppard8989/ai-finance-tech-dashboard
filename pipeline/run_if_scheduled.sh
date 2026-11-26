@@ -44,4 +44,9 @@ if [ -f "$MARKER" ]; then
 fi
 
 echo "$(date -Iseconds) run_if_scheduled: in window, running pipeline"
+# Show Runner scores snapshot freshness (log + alerts only; the gate stays fail-open).
+if ! ( cd "$PIPELINE" && python3 showrunner_skip_gate.py status ); then
+  echo "$(date -Iseconds) run_if_scheduled: WARNING Show Runner scores snapshot is stale or missing; under-30 SKIPs from the latest pass will not hold"
+  echo "$(date -Iseconds) ALERT showrunner gate: snapshot stale or missing at pipeline start" >> "${LOG_DIR}/alerts.log"
+fi
 "${PIPELINE}/run_evening_pipeline.sh" 120

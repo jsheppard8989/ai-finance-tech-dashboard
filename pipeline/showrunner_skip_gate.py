@@ -34,7 +34,7 @@ import sqlite3
 import sys
 import warnings
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable, Optional
 
@@ -51,6 +51,17 @@ SKIP_SCORE_THRESHOLD = 30.0
 DEFAULT_SCORES_PATH = STATE_DIR / "showrunner_scores.json"
 ALT_SCORES_PATH = PIPELINE_DIR / "data" / "showrunner_scores.json"
 DEFAULT_SKIP_LOG_PATH = STATE_DIR / "skip_log.jsonl"
+DEFAULT_ALERTS_LOG_PATH = PIPELINE_DIR / "logs" / "alerts.log"
+
+# Ditka's scoring passes (CT). A pass counts as "due" on the Mac once
+# PASS_GRACE_MINUTES have passed since it started; by then its snapshot should
+# have been copied to pipeline/state/. A snapshot exported before the latest
+# due pass is stale: new episodes from that pass have no score and fail open.
+# (Nov 25, 2026: the 9:15 PM pass scored ep 729 at 26 but the Mac still had
+# the Nov 24 9:42 PM snapshot, so it published.) Staleness only warns and
+# alerts; the gate stays fail-open per Jared's Nov 23 rule.
+SCORING_PASSES_CT = ((13, 0), (21, 0))
+PASS_GRACE_MINUTES = 45
 
 LEDGER_QUERY = """
 SELECT guid, url, feed_name, title, published_at, total_score, decision,
@@ -380,6 +391,99 @@ def evaluate_episode(meta: dict, index: Optional[ScoreIndex], *, load_warning: O
     )
 
 
+def _parse_exported_at(value: Any) -> Optional[datetime]:
+    if not value:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(value).strip().replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=CT)
+    return dt
+
+
+def latest_due_pass(now: Optional[datetime] = None) -> datetime:
+    """Start time (CT) of the most recent scoring pass whose copy should have landed."""
+    now = (now or now_ct()).astimezone(CT)
+    grace = timedelta(minutes=PASS_GRACE_MINUTES)
+    candidates = []
+    for days_back in range(0, 3):
+        day = (now - timedelta(days=days_back)).date()
+        for hh, mm in SCORING_PASSES_CT:
+            start = datetime(day.year, day.month, day.day, hh, mm, tzinfo=CT)
+            if start + grace <= now:
+                candidates.append(start)
+    return max(candidates)
+
+
+def snapshot_status(scores_path: Optional[Path] = None, now: Optional[datetime] = None) -> dict:
+    """Describe the Mac-side scores snapshot: exported_at, age, and whether it is stale."""
+    now = (now or now_ct()).astimezone(CT)
+    if scores_path is None:
+        json_path, sqlite_path, _w = _resolve_source_paths()
+        if sqlite_path is not None:
+            return {"source": str(sqlite_path), "kind": "ledger", "stale": False, "problem": None}
+        scores_path = json_path
+    path = Path(scores_path) if scores_path is not None else DEFAULT_SCORES_PATH
+    due = latest_due_pass(now)
+    status: dict[str, Any] = {
+        "source": str(path),
+        "kind": "json",
+        "checked_at": now.isoformat(),
+        "latest_due_pass": due.isoformat(),
+        "exported_at": None,
+        "episode_count": None,
+        "age_hours": None,
+        "stale": True,
+        "problem": None,
+    }
+    if not path.exists():
+        status["problem"] = "missing"
+        return status
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as e:
+        status["problem"] = f"unreadable: {type(e).__name__}: {e}"
+        return status
+    exported = _parse_exported_at(data.get("exported_at")) if isinstance(data, dict) else None
+    if exported is None:
+        # Fall back to file mtime so a hand-built snapshot still gets checked.
+        exported = datetime.fromtimestamp(path.stat().st_mtime, tz=CT)
+        status["exported_at_source"] = "mtime"
+    if isinstance(data, dict):
+        status["episode_count"] = data.get("episode_count")
+    status["exported_at"] = exported.astimezone(CT).isoformat()
+    status["age_hours"] = round((now - exported).total_seconds() / 3600.0, 2)
+    status["stale"] = exported < due
+    if status["stale"]:
+        status["problem"] = "older than latest scoring pass"
+    return status
+
+
+def stale_warning(status: dict) -> Optional[str]:
+    if status.get("kind") != "json" or not status.get("stale"):
+        return None
+    if status.get("problem") == "missing":
+        return None  # load_score_index already warns about a missing file
+    return (
+        f"Show Runner scores snapshot is STALE ({status.get('source')}: exported "
+        f"{status.get('exported_at')}, latest scoring pass {status.get('latest_due_pass')}). "
+        "New episodes have no score and will be analyzed/published (fail open). "
+        "Copy /workspace/cos/showrunner/runs/showrunner_scores.json from the box."
+    )
+
+
+def append_alert(message: str, alerts_log: Optional[Path] = None) -> None:
+    path = Path(alerts_log) if alerts_log is not None else DEFAULT_ALERTS_LOG_PATH
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("a", encoding="utf-8") as f:
+            f.write(f"{now_ct().isoformat()} ALERT showrunner gate: {message}\n")
+    except OSError:
+        pass
+
+
 def skip_log_path(path: Optional[Path] = None) -> Path:
     if path is not None:
         return Path(path)
@@ -447,12 +551,29 @@ def log_skip(decision: SkipDecision, log_path: Optional[Path] = None) -> bool:
 
 _WARNED_LOAD = False
 _INDEX_CACHE: tuple[Optional[ScoreIndex], Optional[str]] | None = None
+_SNAPSHOT_STALE = False
 
 
 def reset_cache() -> None:
-    global _WARNED_LOAD, _INDEX_CACHE
+    global _WARNED_LOAD, _INDEX_CACHE, _SNAPSHOT_STALE
     _WARNED_LOAD = False
     _INDEX_CACHE = None
+    _SNAPSHOT_STALE = False
+
+
+def _check_snapshot_freshness() -> None:
+    """Warn loudly (log + alerts.log) once per process when the snapshot is stale."""
+    global _SNAPSHOT_STALE
+    try:
+        status = snapshot_status()
+    except Exception as e:  # never let the check break the pipeline
+        print(f"    ⚠ Show Runner snapshot freshness check failed: {type(e).__name__}: {e}")
+        return
+    msg = stale_warning(status)
+    if msg:
+        _SNAPSHOT_STALE = True
+        print(f"    ⚠ {msg}")
+        append_alert(msg)
 
 
 def _cached_index() -> tuple[Optional[ScoreIndex], Optional[str]]:
@@ -463,6 +584,8 @@ def _cached_index() -> tuple[Optional[ScoreIndex], Optional[str]]:
         if warning and not _WARNED_LOAD:
             print(f"    ⚠ {warning}")
             _WARNED_LOAD = True
+        if index is not None:
+            _check_snapshot_freshness()
     return _INDEX_CACHE
 
 
@@ -492,6 +615,11 @@ def should_skip_and_log(
             if decision.reason != "unreadable" or not use_process_cache:
                 if decision.warning and not (use_process_cache and decision.reason == "unreadable"):
                     print(f"    ⚠ {decision.warning}")
+        if decision.reason == "no_score" and _SNAPSHOT_STALE and use_process_cache:
+            print(
+                f"    ⚠ Show Runner: no score for '{(decision.title or '')[:60]}' "
+                "and the scores snapshot is stale; processing (fail open)"
+            )
         if decision.skip:
             wrote = log_skip(decision, log_path=log_path)
             score = f"{decision.score:.1f}" if decision.score is not None else "?"
@@ -576,6 +704,14 @@ def _cmd_dry_run(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_status(args: argparse.Namespace) -> int:
+    status = snapshot_status(Path(args.scores) if args.scores else None)
+    print(json.dumps(status, indent=2))
+    if status.get("kind") == "json" and (status.get("stale") or status.get("problem")):
+        return 1
+    return 0
+
+
 def main(argv: Optional[list[str]] = None) -> int:
     p = argparse.ArgumentParser(description="Show Runner pre-analysis skip gate")
     sp = p.add_subparsers(dest="cmd", required=True)
@@ -587,7 +723,11 @@ def main(argv: Optional[list[str]] = None) -> int:
     dr.add_argument("--ledger")
     dr.add_argument("--transcripts")
     dr.add_argument("--all-transcripts", action="store_true", help="Do not consult .processed markers")
+    st = sp.add_parser("status", help="Is the Mac scores snapshot fresh? Exit 1 if stale/missing")
+    st.add_argument("--scores")
     args = p.parse_args(argv)
+    if args.cmd == "status":
+        return _cmd_status(args)
     if args.cmd == "export":
         return _cmd_export(args)
     if args.cmd == "dry-run":
