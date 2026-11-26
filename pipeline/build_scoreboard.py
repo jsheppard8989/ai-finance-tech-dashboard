@@ -130,6 +130,87 @@ def money(x: float) -> str:
     return f"${x:,.2f}"
 
 
+def _rn(x: float, n: int) -> float:
+    return round(float(x) + 0.0, n)
+
+
+def _cents_equal(a: float, b: float) -> bool:
+    return r2(a) == r2(b)
+
+
+def choose_unit_places(price: float, dollars: float, multiplier: float) -> tuple[int, bool]:
+    """2 decimals if that price × multiplier ties to dollars; else 4; else 4 + rounded."""
+    dollars = r2(dollars)
+    for n in (2, 4):
+        if _cents_equal(_rn(price, n) * multiplier, dollars):
+            return n, False
+    return 4, True
+
+
+def choose_net_places(fills: list[float], contracts: float, dollars: float) -> tuple[int, bool]:
+    """Same rule for a debit net (first fill minus the rest) × contracts × 100."""
+    dollars = r2(dollars)
+    mult = float(contracts) * 100.0
+    for n in (2, 4):
+        shown = [_rn(f, n) for f in fills]
+        net = shown[0] - sum(shown[1:])
+        if _cents_equal(net * mult, dollars):
+            return n, False
+    return 4, True
+
+
+def format_unit_price(price: float, dollars: float, multiplier: float, *, currency: bool = True) -> tuple[str, bool]:
+    """Display a per-share / per-contract price. Returns (text, rounded_label)."""
+    n, rounded = choose_unit_places(price, dollars, multiplier)
+    p = _rn(price, n)
+    text = f"${p:,.{n}f}" if currency else f"{p:.{n}f}"
+    return text, rounded
+
+
+def rounded_suffix(rounded: bool) -> str:
+    return " (rounded)" if rounded else ""
+
+
+def format_share_product(shares: float, price: float, dollars: float) -> str:
+    n, rounded = choose_unit_places(price, dollars, shares)
+    return f"{int(shares)} sh × {_rn(price, n):.{n}f} = {money(dollars)}" + rounded_suffix(rounded)
+
+
+def format_option_product(fills: list[float], contracts: float, dollars: float) -> str:
+    n, rounded = choose_net_places(fills, contracts, dollars)
+    shown = [_rn(f, n) for f in fills]
+    if len(shown) == 1:
+        body = f"{shown[0]:.{n}f} × {int(contracts)} × 100"
+    else:
+        body = f"({' - '.join(f'{f:.{n}f}' for f in shown)}) × {int(contracts)} × 100"
+    return f"{body} = {money(dollars)}" + rounded_suffix(rounded)
+
+
+def format_single_fill_product(price: float, multiplier: float, dollars: float, *, leading: str = "") -> str:
+    """e.g. 5.5667 × 100 = $556.67 or $16.00 × 100 = $1,600.00."""
+    n, rounded = choose_unit_places(price, dollars, multiplier)
+    p = _rn(price, n)
+    if leading.startswith("$"):
+        body = f"{leading}{p:.{n}f} × {int(multiplier)}"
+    else:
+        body = f"{p:.{n}f} × {int(multiplier)}"
+    return f"{body} = {money(dollars)}" + rounded_suffix(rounded)
+
+
+def leg_fill_math(leg: dict[str, Any], places: int) -> str:
+    bid, ask, fill = float(leg["bid"]), float(leg["ask"]), float(leg["fill"])
+    buy_side = str(leg.get("side") or "").lower().startswith("buy")
+    result = f"{_rn(fill, places):.{places}f}"
+    if buy_side:
+        return f"{ask:.2f} - ({ask:.2f} - {bid:.2f})/3 = {result}"
+    return f"{bid:.2f} + ({ask:.2f} - {bid:.2f})/3 = {result}"
+
+
+def apply_leg_math(legs: list[dict[str, Any]], places: int) -> None:
+    for leg in legs:
+        if "bid" in leg and "ask" in leg and "fill" in leg:
+            leg["math"] = leg_fill_math(leg, places)
+
 def _structure_label(pos: dict[str, Any]) -> str:
     s = str(pos.get("name") or pos.get("structure") or pos.get("ticker") or "")
     if pos.get("contracts") and f"x{pos['contracts']}" not in s and f"×{pos['contracts']}" not in s:
@@ -210,18 +291,21 @@ def _mark_open_position(
         mark = sell_fill(q["bid"], q["ask"])
         shares = float(pos["shares"])
         ts = pq.parse_ct_timestamp(q.get("quote_time_ct"))
+        value = r2(shares * mark)
+        n, _ = choose_unit_places(mark, value, shares)
+        legs = [{
+            "leg": f"{sym} shares", "side": "sell to close", "bid": q["bid"], "ask": q["ask"],
+            "quote_time_ct": q.get("quote_time_ct"), "quote_label": pq.format_ct_label(ts),
+            "fill": round(mark, 6),
+            "source": q.get("source"),
+        }]
+        apply_leg_math(legs, n)
         return {
             "per_unit": round(mark, 6),
-            "value": r2(shares * mark),
+            "value": value,
             "time": ts,
-            "legs": [{
-                "leg": f"{sym} shares", "side": "sell to close", "bid": q["bid"], "ask": q["ask"],
-                "quote_time_ct": q.get("quote_time_ct"), "quote_label": pq.format_ct_label(ts),
-                "fill": round(mark, 6),
-                "math": f"{q['bid']:.2f} + ({q['ask']:.2f} - {q['bid']:.2f})/3 = {mark:.4f}",
-                "source": q.get("source"),
-            }],
-            "math": f"{int(shares)} sh × {mark:.4f} = {money(r2(shares * mark))}",
+            "legs": legs,
+            "math": format_share_product(shares, mark, value),
         }, []
     legs = pos.get("legs") or {}
     contracts = float(pos.get("contracts") or 0)
@@ -249,13 +333,15 @@ def _mark_open_position(
     if errs or not out_legs or contracts <= 0:
         return None, errs or [f"{pid}: no legs to mark"]
     value = r2(net * contracts * 100.0)
-    signs = " - ".join(f"{l['fill']:.4f}" for l in out_legs)
+    fills = [float(l["fill"]) for l in out_legs]
+    n, _ = choose_net_places(fills, contracts, value)
+    apply_leg_math(out_legs, n)
     return {
         "per_unit": round(net, 6),
         "value": value,
         "time": min(times),  # a spread is only as fresh as its oldest leg
         "legs": out_legs,
-        "math": f"({signs}) × {int(contracts)} × 100 = {money(value)}",
+        "math": format_option_product(fills, contracts, value),
     }, []
 
 
@@ -272,11 +358,14 @@ def _entry_audit_open(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
             errs.append(f"{pid}: entry fill {pos.get('fill')} != {f:.6f}")
         if abs(cost - float(pos["cost"])) > TOL:
             errs.append(f"{pid}: cost {pos['cost']} != {cost}")
+        n, _ = choose_unit_places(f, cost, shares)
+        legs = [{"leg": f"{pos.get('ticker')} shares", "side": "buy", "bid": bid, "ask": ask,
+                 "fill": round(f, 6)}]
+        apply_leg_math(legs, n)
         return {
             "at_label": pq.format_ct_label(entry_ts),
-            "legs": [{"leg": f"{pos.get('ticker')} shares", "side": "buy", "bid": bid, "ask": ask,
-                      "fill": round(f, 6), "math": f"{ask:.2f} - ({ask:.2f} - {bid:.2f})/3 = {f:.4f}"}],
-            "math": f"{int(shares)} sh × {f:.4f} = {money(cost)}",
+            "legs": legs,
+            "math": format_share_product(shares, f, cost),
             "source": "Robinhood read-only quote",
         }, errs
     contracts = float(pos.get("contracts") or 0)
@@ -290,10 +379,11 @@ def _entry_audit_open(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
             errs.append(f"{pid} {label}: entry fill {info['fill']} != {f:.6f}")
         net += f if is_buy else -f
         legs.append({"leg": label, "side": "buy" if is_buy else "sell", "bid": bid, "ask": ask,
-                     "fill": round(f, 6),
-                     "math": (f"{ask:.2f} - ({ask:.2f} - {bid:.2f})/3 = {f:.4f}" if is_buy
-                              else f"{bid:.2f} + ({ask:.2f} - {bid:.2f})/3 = {f:.4f}")})
+                     "fill": round(f, 6)})
     cost = r2(net * contracts * 100.0)
+    fills = [float(l["fill"]) for l in legs]
+    n, _ = choose_net_places(fills, contracts, cost)
+    apply_leg_math(legs, n)
     if abs(cost - float(pos["cost"])) > TOL:
         errs.append(f"{pid}: cost {pos['cost']} != {cost}")
     if pos.get("max_loss") is not None and abs(float(pos["max_loss"]) - cost) > TOL:
@@ -308,11 +398,10 @@ def _entry_audit_open(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
         mg = r2((width - net) * contracts * 100.0)
         if abs(mg - float(pos["max_gain"])) > TOL:
             errs.append(f"{pid}: max_gain {pos['max_gain']} != {mg}")
-    fills = " - ".join(f"{l['fill']:.4f}" for l in legs)
     return {
         "at_label": pq.format_ct_label(entry_ts),
         "legs": legs,
-        "math": f"({fills}) × {int(contracts)} × 100 = {money(cost)}",
+        "math": format_option_product(fills, contracts, cost),
         "source": "Robinhood read-only quote",
     }, errs
 
@@ -331,11 +420,18 @@ def _open_row(pos: dict[str, Any], quotes: dict[str, Any], saved_legs: list[dict
     pnl = r2(mark["value"] - cost)
     fresh = _freshness(mark["time"], now)
     if pos.get("shares"):
-        entry_text = f"{int(pos['shares'])} sh at {money(float(pos['fill']))}"
-        mark_text = money(mark["per_unit"])
+        shares = float(pos["shares"])
+        entry_p, entry_r = format_unit_price(float(pos["fill"]), cost, shares)
+        mark_p, mark_r = format_unit_price(mark["per_unit"], mark["value"], shares)
+        entry_text = f"{int(shares)} sh at {entry_p}" + rounded_suffix(entry_r)
+        mark_text = mark_p + rounded_suffix(mark_r)
     else:
-        entry_text = f"{money(float(pos['debit_per_spread']))} debit"
-        mark_text = money(mark["per_unit"])
+        contracts = float(pos.get("contracts") or 0)
+        mult = contracts * 100.0
+        entry_p, entry_r = format_unit_price(float(pos["debit_per_spread"]), cost, mult)
+        mark_p, mark_r = format_unit_price(mark["per_unit"], mark["value"], mult)
+        entry_text = f"{entry_p} debit" + rounded_suffix(entry_r)
+        mark_text = mark_p + rounded_suffix(mark_r)
     row = {
         "id": pid,
         "ticker": str(pos.get("ticker") or "").upper(),
@@ -408,19 +504,22 @@ def _closed_audit(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
         for label, side, bid, ask in spec["legs"]:
             f = buy_fill(bid, ask) if side == "buy" else sell_fill(bid, ask)
             net += f if side == "buy" else -f
-            legs.append({"leg": label, "side": side, "bid": bid, "ask": ask, "fill": round(f, 6),
-                         "math": (f"{ask:.2f} - ({ask:.2f} - {bid:.2f})/3 = {f:.4f}" if side == "buy"
-                                  else f"{bid:.2f} + ({ask:.2f} - {bid:.2f})/3 = {f:.4f}")})
+            legs.append({"leg": label, "side": side, "bid": bid, "ask": ask, "fill": round(f, 6)})
         total = r2(net * spec["contracts"] * 100.0)
         if pid == "lrcx-put":
             credit = -total
             if abs(credit - 556.67) > TOL:
                 errs.append(f"{pid}: entry credit {credit} != 556.67")
-            math = f"{-net:.4f} × 100 = {money(credit)} credit on {money(cost)} cash collateral"
+            n, _ = choose_unit_places(-net, credit, 100.0)
+            apply_leg_math(legs, n)
+            math = format_single_fill_product(-net, 100.0, credit) + f" credit on {money(cost)} cash collateral"
         else:
             if abs(total - cost) > TOL:
                 errs.append(f"{pid}: entry legs give {total}, book cost {cost}")
-            math = f"({' - '.join(format(l['fill'], '.4f') for l in legs)}) × {spec['contracts']} × 100 = {money(total)}"
+            fills = [float(l["fill"]) for l in legs]
+            n, _ = choose_net_places(fills, spec["contracts"], total)
+            apply_leg_math(legs, n)
+            math = format_option_product(fills, spec["contracts"], total)
         audit["entry"] = {"at_label": spec["at"], "source": spec["source"], "legs": legs, "math": math}
     else:
         audit["entry"] = {"at_label": fmt_date(pos.get("opened"), True), "source": "modeled fill",
@@ -437,15 +536,16 @@ def _closed_audit(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
             f = sell_fill(bid, ask) if is_long else buy_fill(bid, ask)
             net += f if is_long else -f
             legs.append({"leg": label, "side": "sell to close" if is_long else "buy to close", "bid": bid, "ask": ask,
-                         "fill": round(f, 6),
-                         "math": (f"{bid:.2f} + ({ask:.2f} - {bid:.2f})/3 = {f:.4f}" if is_long
-                                  else f"{ask:.2f} - ({ask:.2f} - {bid:.2f})/3 = {f:.4f}")})
+                         "fill": round(f, 6)})
         total = r2(net * contracts * 100.0)
         if abs(total - exit_val) > TOL:
             errs.append(f"{pid}: exit legs give {total}, book exit {exit_val}")
+        fills = [float(l["fill"]) for l in legs]
+        n, _ = choose_net_places(fills, contracts, total)
+        apply_leg_math(legs, n)
         audit["exit"] = {"at_label": "Fri Nov 13, 2026, 2:59:59 PM CT (last regular-session bid/ask)",
                          "source": "Robinhood read-only quote", "legs": legs,
-                         "math": f"({' - '.join(format(l['fill'], '.4f') for l in legs)}) × {contracts} × 100 = {money(total)}"}
+                         "math": format_option_product(fills, contracts, total)}
     elif pid in EXPIRY_EXITS:
         e = EXPIRY_EXITS[pid]
         long_k, short_k, s = e["long"], e["short"], e["settle"]
@@ -453,17 +553,20 @@ def _closed_audit(pos: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
         total = r2(per * e["contracts"] * 100.0)
         if abs(total - exit_val) > TOL:
             errs.append(f"{pid}: expiry value {total} != book exit {exit_val}")
+        n, rounded = choose_unit_places(per, total, e["contracts"] * 100.0)
+        worth = f"${_rn(per, n):.{n}f}"
         audit["exit"] = {"at_label": fmt_date(pos.get("closed"), True) + " expiry", "source": "official close",
                          "legs": [],
                          "math": (f"Close ${s:.2f}: {_k(long_k, short_k)}/{_k(short_k, long_k)} put spread worth "
-                                  f"${per:.2f} × {e['contracts']} × 100 = {money(total)}")}
+                                  f"{worth} × {e['contracts']} × 100 = {money(total)}" + rounded_suffix(rounded))}
     elif pid == "lrcx-put":
         total = r2(LRCX_BUYBACK * 100.0)
         realized = r2(556.67 - total)
         if abs(realized - float(pos["realized"])) > TOL:
             errs.append(f"{pid}: realized {pos['realized']} != {realized}")
+        buyback = format_single_fill_product(LRCX_BUYBACK, 100.0, total, leading="$")
         audit["exit"] = {"at_label": "Nov 5, 2026 (stop)", "source": "owner-stated paper fill", "legs": [],
-                         "math": f"Bought back at $16.00 × 100 = {money(total)}; $556.67 credit - $1,600.00 = {money(realized) if realized >= 0 else '-' + money(-realized)}"}
+                         "math": f"Bought back at {buyback}; $556.67 credit - $1,600.00 = {money(realized) if realized >= 0 else '-' + money(-realized)}"}
     else:
         audit["exit"] = {"at_label": fmt_date(pos.get("closed"), True), "source": str(pos.get("price_type") or ""),
                          "legs": [], "math": f"Exit value {money(exit_val)} ({pos.get('price_type')})."}

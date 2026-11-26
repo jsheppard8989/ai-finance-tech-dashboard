@@ -104,6 +104,10 @@
   }
   function money(x) { return (x < 0 ? '\u2212$' : '$') + num(Math.abs(x), 2); }
   function smoney(x) { return (x > 0 ? '+$' : x < 0 ? '\u2212$' : '$') + num(Math.abs(x), 2); }
+  // Unit prices (entry, mark, audit fills) are preformatted by build_scoreboard.py:
+  // 2 decimals when that price × qty ties to the dollar figure, else 4, else 4 + " (rounded)".
+  // Never run them through money(), which would re-round to 2 decimals.
+  function unitPrice(text) { return esc(text); }
   function spct(x, d) {
     if (x == null) return '\u2014';
     d = d == null ? 1 : d;
@@ -132,18 +136,18 @@
       legs.map(function (l) {
         return '<tr><td>' + esc(l.leg) + (l.quote_label ? '<div class="sb-mut">' + esc(l.quote_label) + '</div>' : '') +
           '</td><td>' + esc(l.side) + '</td><td>' + num(l.bid, 2) + '</td><td>' + num(l.ask, 2) +
-          '</td><td class="sb-math">' + esc(l.math) + '</td></tr>';
+          '</td><td class="sb-math">' + unitPrice(l.math) + '</td></tr>';
       }).join('') + '</tbody></table>';
   }
   function auditHtml(a, closed) {
     var e = a.entry || {}, x = closed ? (a.exit || {}) : (a.mark || {});
     return '<div class="sb-aud">' +
       '<div><h4>Entry \u00b7 ' + esc(e.at_label || '') + '</h4>' + legTable(e.legs) +
-        '<div class="sb-math">' + esc(e.math || '') + '</div>' +
+        '<div class="sb-math">' + unitPrice(e.math || '') + '</div>' +
         (e.source ? '<div class="sb-mut">Source: ' + esc(e.source) + '</div>' : '') + '</div>' +
       '<div><h4>' + (closed ? 'Exit \u00b7 ' + esc(x.at_label || '') : 'Mark (closing side)') + '</h4>' + legTable(x.legs) +
-        '<div class="sb-math">' + esc(x.math || '') + '</div>' +
-        (x.pnl_math ? '<div class="sb-math">' + esc(x.pnl_math) + '</div>' : '') +
+        '<div class="sb-math">' + unitPrice(x.math || '') + '</div>' +
+        (x.pnl_math ? '<div class="sb-math">' + unitPrice(x.pnl_math) + '</div>' : '') +
         (x.source ? '<div class="sb-mut">Source: ' + esc(x.source) + '</div>' : '') + '</div>' +
       '</div>';
   }
@@ -182,7 +186,7 @@
     var p = d.cash_park, b = d.book;
     if (!p) return '';
     return '<div class="sb-park"><div><span class="sb-park-t">Cash park, not a trade: ' + esc(p.ticker) + '</span> \u00b7 ' +
-      esc(p.entry_text) + ' (' + money(p.cost) + ') \u00b7 mark ' + esc(p.mark_text) + ' = ' + money(p.value) + ' \u00b7 <span class="' + cls(p.pnl) + '">' +
+      unitPrice(p.entry_text) + ' (' + money(p.cost) + ') \u00b7 mark ' + unitPrice(p.mark_text) + ' = ' + money(p.value) + ' \u00b7 <span class="' + cls(p.pnl) + '">' +
       smoney(p.pnl) + ' (' + spct(p.pnl_pct_max_loss, 2) + ' of cost)</span></div>' +
       '<div class="sb-asof">' + asOf(p.mark_label, p.stale_after_ct, p.is_stale) + '</div>' +
       '<div class="sb-park-r">' + esc(p.park_rule || '') + ' It is left out of the trade record above.</div></div>' +
@@ -200,9 +204,9 @@
           '<td class="sb-first"><span class="sb-tk">' + esc(r.ticker) + '</span>' + (r.owner ? '<span class="sb-own">' + esc(r.owner) + '</span>' : '') +
             '<div class="sb-st">' + esc(r.structure) + '</div>' + toggleBtn(r.id) + '</td>' +
           '<td data-l="Opened"><span class="sb-v">' + esc(r.opened_label) + '</span></td>' +
-          '<td class="n" data-l="Entry"><span class="sb-v">' + esc(r.entry_text) + '</span></td>' +
+          '<td class="n" data-l="Entry"><span class="sb-v">' + unitPrice(r.entry_text) + '</span></td>' +
           '<td class="n" data-l="Max loss"><span class="sb-v">' + money(r.max_loss) + '</span></td>' +
-          '<td class="n" data-l="Mark"><span class="sb-v">' + esc(r.mark_text) + ' = ' + money(r.value) +
+          '<td class="n" data-l="Mark"><span class="sb-v">' + unitPrice(r.mark_text) + ' = ' + money(r.value) +
             '<div class="sb-sm">' + asOf(r.mark_label, r.stale_after_ct, r.is_stale) + '</div></span></td>' +
           '<td class="n ' + cls(r.pnl) + '" data-l="P&amp;L"><span class="sb-v">' + smoney(r.pnl) + '</span></td>' +
           '<td class="n ' + cls(r.pnl) + '" data-l="% of max loss"><span class="sb-v">' + spct(r.pnl_pct_max_loss, 2) + '</span></td>' +

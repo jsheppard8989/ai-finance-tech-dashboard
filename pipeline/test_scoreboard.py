@@ -151,13 +151,13 @@ def test_audit_rows(book, saved):
     sb, _ = _build(book, saved)
     tlt = next(r for r in sb["open"] if r["id"] == "ric-1123-tlt")
     assert [l["leg"] for l in tlt["audit"]["entry"]["legs"]] == ["81C", "88C"]
-    assert tlt["audit"]["entry"]["math"].endswith("$13,200.00")
-    assert tlt["audit"]["mark"]["math"].endswith("$15,660.00")
+    assert "$13,200.00" in tlt["audit"]["entry"]["math"]
+    assert "$15,660.00" in tlt["audit"]["mark"]["math"]
     mu = next(r for r in sb["closed"] if r["id"] == "mu-cycle")
-    assert mu["audit"]["entry"]["math"].endswith("$7,466.67")
-    assert mu["audit"]["exit"]["math"].endswith("$9,110.00")
+    assert "$7,466.67" in mu["audit"]["entry"]["math"]
+    assert "$9,110.00" in mu["audit"]["exit"]["math"]
     asts = next(r for r in sb["closed"] if r["id"] == "asts-q3")
-    assert asts["audit"]["exit"]["math"].endswith("$4,200.00")
+    assert "$4,200.00" in asts["audit"]["exit"]["math"]
 
 
 def test_writeups(book, saved):
@@ -258,3 +258,148 @@ def test_home_summary():
 def test_scoreboard_js_has_no_todays_label():
     js = (SITE / "js" / "scoreboard.js").read_text()
     assert "Today's" not in js and "Mark as of" in js
+
+# --------------------------------------------------------------------------- displayed price × qty ties to dollars
+
+_ROUNDED = " (rounded)"
+_DOLLAR = re.compile(r"\$([\d,]+(?:\.\d+)?)")
+_OPTION_PRODUCT = re.compile(
+    r"\(([\d.]+(?:\s*-\s*[\d.]+)*)\)\s*×\s*(\d+)\s*×\s*100\s*=\s*\$([\d,]+(?:\.\d+)?)(?:\s*\(rounded\))?"
+)
+_SHARE_PRODUCT = re.compile(
+    r"(\d+)\s+sh\s+×\s*([\d.]+)\s*=\s*\$([\d,]+(?:\.\d+)?)(?:\s*\(rounded\))?"
+)
+_SINGLE_PRODUCT = re.compile(
+    r"\$?([\d.]+)\s*×\s*(\d+)\s*=\s*\$([\d,]+(?:\.\d+)?)(?:\s*\(rounded\))?"
+)
+_WORTH_PRODUCT = re.compile(
+    r"worth\s+\$([\d.]+)\s*×\s*(\d+)\s*×\s*100\s*=\s*\$([\d,]+(?:\.\d+)?)(?:\s*\(rounded\))?"
+)
+
+
+def _cents(s: str) -> float:
+    return bs.r2(float(s.replace(",", "")))
+
+
+def _assert_product(price: float, qty: float, dollars: float, rounded: bool, label: str) -> None:
+    got = bs.r2(price * qty)
+    dollars = bs.r2(dollars)
+    if rounded:
+        assert got != dollars, f"{label}: labeled rounded but {price} × {qty} already equals {dollars}"
+        return
+    assert got == dollars, f"{label}: {price} × {qty} = {got}, expected {dollars}"
+
+
+def test_unit_price_formatter_examples():
+    # TLT entry: 2 and 4 decimal prices do not reproduce $13,200.00
+    text, rounded = bs.format_unit_price(1.466667, 13200.0, 9000)
+    assert text == "$1.4667" and rounded is True
+    # GOOGL mark
+    text, rounded = bs.format_unit_price(9.416667, 5650.0, 600)
+    assert text == "$9.4167" and rounded is True
+    # GOOGL entry ties at 2 decimals
+    text, rounded = bs.format_unit_price(10.80, 6480.0, 600)
+    assert text == "$10.80" and rounded is False
+    # TLT mark ties at 2 decimals
+    text, rounded = bs.format_unit_price(1.74, 15660.0, 9000)
+    assert text == "$1.74" and rounded is False
+
+
+def _check_row_displays(row: dict, *, options_qty: int | None, shares: int | None) -> list[str]:
+    """Return a list of (label, before-not-used) — actually just assert; called per row."""
+    rid = row["id"]
+    if options_qty:
+        mult = options_qty * 100
+        if row.get("entry_text"):
+            rounded = _ROUNDED in row["entry_text"]
+            m = _DOLLAR.search(row["entry_text"])
+            assert m, f"{rid} entry_text has no price: {row['entry_text']!r}"
+            _assert_product(_cents(m.group(1)), mult, row["cost"], rounded, f"{rid} entry_text")
+            if rounded:
+                # confirm 2 and 4 don't tie using the raw debit implied by cost would need book;
+                # check against displayed 4-dec price not equaling cost.
+                assert bs.r2(_cents(m.group(1)) * mult) != bs.r2(row["cost"]), f"{rid} entry labeled rounded but ties"
+        if row.get("mark_text"):
+            rounded = _ROUNDED in row["mark_text"]
+            m = _DOLLAR.search(row["mark_text"])
+            assert m, f"{rid} mark_text has no price: {row['mark_text']!r}"
+            _assert_product(_cents(m.group(1)), mult, row["value"], rounded, f"{rid} mark_text")
+            if rounded:
+                assert bs.r2(_cents(m.group(1)) * mult) != bs.r2(row["value"]), f"{rid} mark labeled rounded but ties"
+    if shares:
+        if row.get("entry_text"):
+            rounded = _ROUNDED in row["entry_text"]
+            m = _DOLLAR.search(row["entry_text"])
+            assert m, f"{rid} entry_text has no price: {row['entry_text']!r}"
+            _assert_product(_cents(m.group(1)), shares, row["cost"], rounded, f"{rid} entry_text")
+            if rounded:
+                assert bs.r2(_cents(m.group(1)) * shares) != bs.r2(row["cost"])
+        if row.get("mark_text"):
+            rounded = _ROUNDED in row["mark_text"]
+            m = _DOLLAR.search(row["mark_text"])
+            assert m, f"{rid} mark_text has no price: {row['mark_text']!r}"
+            _assert_product(_cents(m.group(1)), shares, row["value"], rounded, f"{rid} mark_text")
+            if rounded:
+                assert bs.r2(_cents(m.group(1)) * shares) != bs.r2(row["value"])
+    audit = row.get("audit") or {}
+    for section in ("entry", "mark", "exit"):
+        block = audit.get(section) or {}
+        math = block.get("math") or ""
+        if not math:
+            continue
+        rounded = math.endswith(_ROUNDED.strip()) or math.rstrip().endswith("rounded)")
+        if m := _OPTION_PRODUCT.search(math):
+            fills = [float(x.strip()) for x in m.group(1).split("-")]
+            contracts = int(m.group(2))
+            dollars = _cents(m.group(3))
+            net = fills[0] - sum(fills[1:])
+            _assert_product(net, contracts * 100, dollars, rounded, f"{rid} audit.{section} {math}")
+            if rounded:
+                assert bs.r2(net * contracts * 100) != dollars
+        elif m := _SHARE_PRODUCT.search(math):
+            sh, price, dollars = int(m.group(1)), float(m.group(2)), _cents(m.group(3))
+            _assert_product(price, sh, dollars, rounded, f"{rid} audit.{section} {math}")
+            if rounded:
+                assert bs.r2(price * sh) != dollars
+        elif m := _WORTH_PRODUCT.search(math):
+            price, contracts, dollars = float(m.group(1)), int(m.group(2)), _cents(m.group(3))
+            _assert_product(price, contracts * 100, dollars, rounded, f"{rid} audit.{section} {math}")
+            if rounded:
+                assert bs.r2(price * contracts * 100) != dollars
+        elif m := _SINGLE_PRODUCT.search(math):
+            # first match might be later in a compound sentence (LRCX exit has two products)
+            for m in _SINGLE_PRODUCT.finditer(math):
+                price, qty, dollars = float(m.group(1)), int(m.group(2)), _cents(m.group(3))
+                chunk_rounded = "(rounded)" in math[m.start():m.end()+12]
+                _assert_product(price, qty, dollars, chunk_rounded, f"{rid} audit.{section} {m.group(0)}")
+                if chunk_rounded:
+                    assert bs.r2(price * qty) != dollars
+
+
+def _qty_of(row: dict) -> tuple[int | None, int | None]:
+    if row.get("id") == "strc-park" or (row.get("is_cash_park") and "sh at" in (row.get("entry_text") or "")):
+        m = re.search(r"(\d+)\s+sh", row.get("entry_text") or "")
+        return None, int(m.group(1)) if m else 805
+    st = row.get("structure") or ""
+    m = re.search(r"[×x](\d+)", st)
+    if m:
+        return int(m.group(1)), None
+    return None, None
+
+
+def test_displayed_prices_tie_out_on_build(book, saved):
+    sb, held = _build(book, saved)
+    assert held == []
+    rows = list(sb["open"]) + list(sb["closed"]) + ([sb["cash_park"]] if sb.get("cash_park") else [])
+    for row in rows:
+        opt, sh = _qty_of(row)
+        _check_row_displays(row, options_qty=opt, shares=sh)
+
+
+def test_displayed_prices_tie_out_on_committed_scoreboard():
+    sb = json.loads((SITE / "data" / "scoreboard.json").read_text())
+    rows = list(sb["open"]) + list(sb["closed"]) + ([sb["cash_park"]] if sb.get("cash_park") else [])
+    for row in rows:
+        opt, sh = _qty_of(row)
+        _check_row_displays(row, options_qty=opt, shares=sh)
+
