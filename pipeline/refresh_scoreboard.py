@@ -14,8 +14,9 @@ Modes
   --mode preview  commit onto an existing branch (--base) and push it (pre-launch: updates
                   the draft PR / preview only; nothing reaches main)
   --mode pr       new branch data/scoreboard-<ts> from origin/<base>, push, open a PR, no merge
-  --mode merge    as pr, then merge and dispatch deploy.yml (only after Jared's go-live yes
-                  AND his yes to auto-merging scoreboard data PRs)
+  --mode merge    as pr, then merge and dispatch deploy.yml. After go-live, daily quote
+                  data PRs auto-merge (Jared, 2026-11-26 1:47 PM CT). After-hours quotes
+                  stay rejected.
 
 A row that does not tie to the book is held by build_scoreboard.py; with any held row the
 refresh stops before committing and exits 2.

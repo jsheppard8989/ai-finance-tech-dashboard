@@ -61,6 +61,10 @@ PAGES = {
         "TLT Jan 15, 2027 81/88 call spread ×90, opened Mon Nov 23, 2026",
         "article",
     ),
+    "googl-call-spread.html": (
+        "GOOGL Mar 19, 2027 300/340 call spread ×6, opened Fri Nov 20, 2026",
+        "article",
+    ),
 }
 
 

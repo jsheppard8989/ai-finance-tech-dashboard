@@ -166,7 +166,7 @@ def test_writeups(book, saved):
     assert urls["mu-cycle"] == "mu-memory-cycle.html"
     assert urls["lrcx-put"] == "lrcx-paid-to-wait.html"
     assert urls["ric-1123-tlt"] == "tlt-call-spread.html"
-    assert urls["scout-1117-googl"] is None
+    assert urls["scout-1117-googl"] == "googl-call-spread.html"
     for u in filter(None, urls.values()):
         assert (SITE / u).is_file(), u
 

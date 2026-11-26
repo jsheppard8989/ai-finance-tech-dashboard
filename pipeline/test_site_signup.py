@@ -25,6 +25,7 @@ ALWAYS_PAGES = [
     "lrcx-paid-to-wait.html",
     "mu-memory-cycle.html",
     "tlt-call-spread.html",
+    "googl-call-spread.html",
 ]
 SKIP_PAGES = [
     "dc-buildout.html",  # live but out of nav (WIP hold)

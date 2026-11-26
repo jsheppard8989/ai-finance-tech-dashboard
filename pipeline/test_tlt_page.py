@@ -1,4 +1,4 @@
-"""Checks for site/tlt-call-spread.html (Ric's TLT note, copied verbatim)."""
+"""Checks for site/tlt-call-spread.html (Ric's TLT note, verbatim except public line swaps)."""
 import re
 from pathlib import Path
 
@@ -7,6 +7,8 @@ PAGE = SITE / "tlt-call-spread.html"
 NOTE = Path("/workspace/cos/trade_notes/TLT_2026-11-23.md")
 TITLE = "TLT Jan 15, 2027 81/88 call spread ×90, opened Mon Nov 23, 2026"
 NAV_LABEL = "TLT Jan 15, 2027 81/88 call spread ×90"
+PUBLIC_OWNER = "Owner: Ric Rations · Id: RIC-1123-TLT · Paper only · Booked Nov 23, 2026, 9:15 AM CT"
+PUBLIC_SOURCES = "Sources: entry quotes taken Nov 23, 2026, 9:16 AM CT (Robinhood, read-only); fills per the scoreboard fill rule."
 
 
 def _src():
@@ -28,7 +30,12 @@ def test_tlt_page_copies_the_note_verbatim():
     for line in lines:
         expected = line[2:].strip() if line.startswith("# ") else line
         expected = expected.replace("**", "")
+        if expected.startswith("Owner:"):
+            expected = PUBLIC_OWNER
+        elif expected.startswith("Sources:"):
+            expected = PUBLIC_SOURCES
         assert expected in page_text, expected
+    assert "/workspace" not in src and "paper_book" not in src
     assert f"<title>{TITLE}</title>" in src
     assert f"<h1>{TITLE}</h1>" in src
 
@@ -50,6 +57,7 @@ def test_tlt_page_nav_and_writeup_link():
         "power-bottleneck.html",
         "trades.html",
         "tlt-call-spread.html",
+        "googl-call-spread.html",
     ):
         html = (SITE / page).read_text(encoding="utf-8")
         assert f'<a href="tlt-call-spread.html">{NAV_LABEL}</a>' in html, page
