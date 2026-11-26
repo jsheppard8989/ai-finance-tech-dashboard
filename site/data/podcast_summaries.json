@@ -1,5 +1,23 @@
 [
   {
+    "id": 729,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "The Revolution vs The Renaissance \u2014 Thariq Shihipar, OpenAI",
+    "episode_date": "2026-11-25",
+    "summary": "Tariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
+    "key_takeaways": [
+      "Tariq Shihipar says the bottleneck is \u201cways of working with the model,\u201d not intelligence or tokens.",
+      "Tariq Shihipar says the experience of building his game is disorienting because he \u201cjust have[s] no idea what\u2019s happening.\u201d",
+      "Tariq Shihipar says Claude simulations showed that in his game setup \u201cyou always want just economic victory.\u201d",
+      "Tariq Shihipar says decision models sit between hard-coded behavior and full inference loops and can make AI actions more predictable.",
+      "Tariq Shihipar says \u201c2026\u201d is the year of software factories, but the next phase is a \u201crenaissance of software\u201d focused on iterative quality.",
+      "Tariq Shihipar says RSI will shift technical research work toward automation, while humans still allocate compute and decide objectives.",
+      "Tariq Shihipar says adoption will look gradual rather than like an abrupt takeoff, and maybe in five years households will have robots doing chores."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that the most valuable AI tooling will improve developer workflow, interpretability, and decision routing rather than simply adding more model intelligence.",
+    "key_tickers": null
+  },
+  {
     "id": 728,
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #560 Daniel Lacalle: \u201cThe European ER AH Situation\u2026\u201d",
