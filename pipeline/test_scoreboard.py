@@ -121,8 +121,82 @@ def test_calendar():
     assert not mc.is_trading_day(datetime(2026, 11, 26).date())
     assert mc.session_close(datetime(2026, 11, 27).date()).hour == 12
     assert mc.stale_after(datetime(2026, 11, 24, 14, 59, tzinfo=CT)).isoformat() == "2026-11-25T15:00:00-06:00"
-    assert mc.in_regular_session(datetime(2026, 11, 25, 15, 14, 59, tzinfo=CT))
-    assert not mc.in_regular_session(datetime(2026, 11, 25, 19, 0, tzinfo=CT))
+    assert mc.in_regular_session(datetime(2026, 11, 25, 15, 14, 59, tzinfo=CT), "option")
+    assert not mc.in_regular_session(datetime(2026, 11, 25, 15, 14, 59, tzinfo=CT), "share")
+    assert not mc.in_regular_session(datetime(2026, 11, 25, 19, 0, tzinfo=CT), "option")
+    assert not mc.in_regular_session(datetime(2026, 11, 25, 19, 0, tzinfo=CT), "share")
+
+
+def _ct(y, mo, d, h, mi, s=0):
+    return datetime(y, mo, d, h, mi, s, tzinfo=CT)
+
+
+def test_quote_cutoff_boundaries():
+    # Regular session: shares through 15:00:00, options through 15:15:00 (inclusive).
+    d = datetime(2026, 11, 25).date()
+    assert mc.quote_cutoff(d, "share") == _ct(2026, 11, 25, 15, 0, 0)
+    assert mc.quote_cutoff(d, "option") == _ct(2026, 11, 25, 15, 15, 0)
+    assert mc.in_regular_session(_ct(2026, 11, 25, 15, 0, 0), "share")
+    assert not mc.in_regular_session(_ct(2026, 11, 25, 15, 0, 1), "share")
+    assert mc.in_regular_session(_ct(2026, 11, 25, 15, 15, 0), "option")
+    assert not mc.in_regular_session(_ct(2026, 11, 25, 15, 15, 1), "option")
+    # A 15:14:59 option quote (TLT) is in session; the same stamp is not a share mark.
+    assert mc.in_regular_session(_ct(2026, 11, 25, 15, 14, 59), "option")
+    assert not mc.in_regular_session(_ct(2026, 11, 25, 15, 14, 59), "share")
+    # Half day (Fri Nov 27, 2026): shares 12:00 PM CT, options 12:15 PM CT.
+    hd = datetime(2026, 11, 27).date()
+    assert hd in mc.NYSE_EARLY_CLOSES
+    assert mc.quote_cutoff(hd, "share") == _ct(2026, 11, 27, 12, 0, 0)
+    assert mc.quote_cutoff(hd, "option") == _ct(2026, 11, 27, 12, 15, 0)
+    assert mc.in_regular_session(_ct(2026, 11, 27, 12, 0, 0), "share")
+    assert not mc.in_regular_session(_ct(2026, 11, 27, 12, 0, 1), "share")
+    assert mc.in_regular_session(_ct(2026, 11, 27, 12, 15, 0), "option")
+    assert not mc.in_regular_session(_ct(2026, 11, 27, 12, 15, 1), "option")
+    assert not mc.in_regular_session(_ct(2026, 11, 27, 12, 14, 59), "share")
+    assert mc.in_regular_session(_ct(2026, 11, 27, 12, 14, 59), "option")
+
+
+def _assert_mark_at_or_before_cutoff(row: dict, kind: str, label: str) -> None:
+    ts = pq.parse_ct_timestamp(row.get("mark_time_ct"))
+    assert ts is not None, f"{label}: missing mark_time_ct"
+    local = ts.astimezone(CT)
+    cutoff = mc.quote_cutoff(local.date(), kind)
+    assert local <= cutoff, f"{label}: mark {local.isoformat()} is after the {kind} cutoff {cutoff.isoformat()}"
+    for i, leg in enumerate(((row.get("audit") or {}).get("mark") or {}).get("legs") or []):
+        lts = pq.parse_ct_timestamp(leg.get("quote_time_ct"))
+        if lts is None:
+            continue
+        ll = lts.astimezone(CT)
+        lcut = mc.quote_cutoff(ll.date(), kind)
+        assert ll <= lcut, (
+            f"{label} audit.mark.legs[{i}]: {ll.isoformat()} is after the {kind} cutoff {lcut.isoformat()}"
+        )
+
+
+def test_displayed_option_marks_not_after_option_close(book, saved):
+    sb, held = _build(book, saved)
+    assert held == []
+    rows = [r for r in sb["open"] if not r.get("is_cash_park") and not r.get("shares")]
+    assert rows, "expected open option rows"
+    for row in rows:
+        _assert_mark_at_or_before_cutoff(row, "option", row["id"])
+    committed = json.loads((SITE / "data" / "scoreboard.json").read_text())
+    for row in committed["open"]:
+        if row.get("is_cash_park") or row.get("shares"):
+            continue
+        _assert_mark_at_or_before_cutoff(row, "option", f"committed {row['id']}")
+    # TLT's 3:14:59 PM CT mark stays accepted under the 3:15 option close.
+    tlt = next(r for r in committed["open"] if r["id"] == "ric-1123-tlt")
+    assert tlt["mark_time_ct"] == "2026-11-25T15:14:59-06:00"
+
+
+def test_displayed_share_marks_not_after_share_close(book, saved):
+    sb, held = _build(book, saved)
+    assert held == []
+    park = sb["cash_park"]
+    _assert_mark_at_or_before_cutoff(park, "share", park["id"])
+    committed = json.loads((SITE / "data" / "scoreboard.json").read_text())
+    _assert_mark_at_or_before_cutoff(committed["cash_park"], "share", "committed cash_park")
 
 
 def test_row_that_does_not_tie_is_held(book, saved):
@@ -246,6 +320,9 @@ def test_trades_page():
     assert html.count("app.kit.com/forms/10236979/subscriptions") == 2
     assert "Today's" not in html and not re.search(r"\bbet\b", html, re.I)
     assert 'id="methodology"' in html and "Owner-stated exit" in html and "Nov 15 reset" in html
+    assert ("Option marks use the last regular-session quote at or before the 3:15 PM CT "
+            "option close; share marks use the last quote at or before the 3:00 PM CT close. "
+            "After-hours quotes are never used.") in html
     assert "./js/scoreboard.js" in html
 
 

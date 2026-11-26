@@ -10,9 +10,9 @@ What this module does:
   * parse raw Robinhood tool output (the saved file may be wrapped in a fence; the
     first JSON object in the file is used),
   * keep only quotes that a closing-side mark can use: two-sided, not wider than 50%
-    of mid, and stamped inside a regular session (8:30 AM to 3:00 PM CT, 12:00 PM CT
-    on early-close days, plus 15 minutes for ETF options). After-hours stock bid/ask
-    is NOT used for marks,
+    of mid, and stamped inside a regular session (shares and ETF underlyings: 8:30 AM
+    to 3:00 PM CT, 12:00 PM CT on early-close days; options: through 3:15 PM CT, or
+    12:15 PM CT on early-close days). After-hours bid/ask is NOT used for marks,
   * pick, per instrument, the newest usable quote across the live pull and every
     dated /workspace/cos/quotes/YYYY-MM-DD.csv read,
   * record a live pull: append rows to the dated CSV (same columns the three-a-day
@@ -147,9 +147,16 @@ def quote_problems(label: str, q: dict[str, Any] | None) -> list[str]:
     ts = parse_ct_timestamp(q.get("quote_time_ct"))
     if ts is None:
         out.append(f"{label}: quote has no timestamp")
-    elif not mc.in_regular_session(ts):
+    elif not mc.in_regular_session(ts, quote_kind(q)):
         out.append(f"{label}: quote stamped outside the regular session ({format_ct_label(ts)})")
     return out
+
+
+def quote_kind(q: dict[str, Any] | None) -> str:
+    """'option' when the quote is an option contract; otherwise 'share' (stock or ETF)."""
+    if q and str(q.get("instrument_id") or "").strip():
+        return "option"
+    return "share"
 
 
 def find_newest_dated_file(directory: Path, pattern: str) -> Path | None:

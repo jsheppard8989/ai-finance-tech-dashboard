@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """US equity/options session calendar in Central Time, for scoreboard freshness.
 
-Regular session: 8:30 AM to 3:00 PM CT (12:00 PM CT on early-close days).
+Share session: 8:30 AM to 3:00 PM CT (12:00 PM CT on early-close days).
+Option session: 8:30 AM to 3:15 PM CT (12:15 PM CT on early-close days).
 Holidays and early closes are the NYSE published lists for 2026 and 2027.
 Extend NYSE_HOLIDAYS / NYSE_EARLY_CLOSES before 2028.
 """
@@ -30,8 +31,8 @@ NYSE_EARLY_CLOSES: frozenset[date] = frozenset(
 SESSION_OPEN = time(8, 30)
 SESSION_CLOSE = time(15, 0)
 EARLY_CLOSE = time(12, 0)
-# Index/ETF options (e.g. TLT) quote until 15 minutes after the stock close.
-QUOTE_GRACE = timedelta(minutes=15)
+# Options trade 15 minutes after the share close (3:15 PM CT, or 12:15 PM CT on half days).
+OPTION_CLOSE_OFFSET = timedelta(minutes=15)
 
 
 def is_trading_day(d: date) -> bool:
@@ -39,8 +40,21 @@ def is_trading_day(d: date) -> bool:
 
 
 def session_close(d: date) -> datetime:
+    """Share/ETF session close: 3:00 PM CT, or 12:00 PM CT on early-close days."""
     t = EARLY_CLOSE if d in NYSE_EARLY_CLOSES else SESSION_CLOSE
     return datetime.combine(d, t, tzinfo=CT)
+
+
+def option_session_close(d: date) -> datetime:
+    """Option session close: 15 minutes after the share close that day."""
+    return session_close(d) + OPTION_CLOSE_OFFSET
+
+
+def quote_cutoff(d: date, kind: str = "share") -> datetime:
+    """Last acceptable quote stamp for this instrument type on date d (inclusive)."""
+    if str(kind).lower().startswith("option"):
+        return option_session_close(d)
+    return session_close(d)
 
 
 def session_open(d: date) -> datetime:
@@ -61,13 +75,19 @@ def previous_trading_day(d: date) -> date:
     return n
 
 
-def in_regular_session(ts: datetime, grace: timedelta = QUOTE_GRACE) -> bool:
-    """True when a quote timestamp falls inside a regular session (plus a short grace)."""
+def in_regular_session(ts: datetime, kind: str = "share") -> bool:
+    """True when a quote timestamp is inside the regular session for this instrument type.
+
+    Shares and ETF underlyings: 8:30 AM CT through the share close (3:00 PM CT,
+    or 12:00 PM CT on early-close days). Options: 8:30 AM CT through the option
+    close (3:15 PM CT, or 12:15 PM CT on early-close days). The cutoff second is
+    included. After-hours quotes and non-trading days are rejected.
+    """
     local = ts.astimezone(CT)
     d = local.date()
     if not is_trading_day(d):
         return False
-    return session_open(d) <= local <= session_close(d) + grace
+    return session_open(d) <= local <= quote_cutoff(d, kind)
 
 
 def stale_after(mark_ts: datetime) -> datetime:
