@@ -1,5 +1,23 @@
 [
   {
+    "id": 733,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Replay: From Swipe to Scale: How Tinder Became #1 (2024)",
+    "episode_date": "2026-11-27",
+    "summary": "Sean Rad and Andrew Chen frame Tinder as a product built around reducing rejection anxiety, not as a conventional dating app. Rad says the core insight was to use a matchmaker so users could signal interest without direct messaging, and that Tinder deliberately avoided the word \u201cdating\u201d because it was loaded and \u201cnot cool\u201d early on.\n\nA major theme is growth strategy for network products: Tinder focused on local density, starting with college campuses and Greek life rather than broad marketing. Rad describes early organic tactics like texting friends, creating campus echo chambers, and even avoiding celebrity-driven distribution because random users would weaken the network effects.\n\nRad also emphasizes product discipline and culture. He says a lot of startups put marketing ahead of product, and that with network products you need product-market fit before scale because otherwise user feedback is low quality. He credits Tinder\u2019s culture of radical honesty and openness with making it easier to kill features that did not work and to keep learning quickly.\n\nThe conversation also touches on press and controversy. Rad says Tinder initially leaned into press attention, but later caring about it became a distraction; letting go of that narrative focus unlocked creativity because what matters most is the relationship with users. The episode includes Rad\u2019s earlier founder history, including Adley\u2019s scale and his claim that he built what is now Apple Analytics after working with a Test Flight team.",
+    "key_takeaways": [
+      "Sean Rad says Tinder\u2019s root thesis was to reduce rejection anxiety by introducing a matchmaker so users did not have to directly message people they liked.",
+      "Sean Rad says Tinder intentionally avoided calling itself a dating product in the early days and instead framed it as an introduction platform or social discovery product.",
+      "Sean Rad says Tinder grew by creating density in local networks, especially college campuses and Greek life, rather than by broad mass marketing.",
+      "Sean Rad says a lot of startups put marketing ahead of product, but for network products product-market fit has to come first or the feedback is low quality.",
+      "Sean Rad says Tinder\u2019s culture of radical honesty and openness helped the team kill features that did not work and avoid ego-driven decisions.",
+      "Sean Rad says he and the team initially leaned into press and controversy, but later letting go of that attention unlocked more creativity because user relationships mattered more.",
+      "Sean Rad says Adley had 5,000 brands and 10,000 creators, and that they brokered relationships and tracked analytics."
+    ],
+    "investment_thesis": "Network products should prioritize density and product-market fit before broad marketing, or they risk weakening engagement and getting poor feedback.",
+    "key_tickers": null
+  },
+  {
     "id": 732,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Thanksgiving Special: The Moments That Almost Ended Us (And Why We\u2019re Grateful) | EP #316",
