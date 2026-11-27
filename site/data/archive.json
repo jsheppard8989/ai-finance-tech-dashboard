@@ -1,6 +1,68 @@
 {
   "insights": [
     {
+      "id": 744,
+      "title": "WarTalk: Why China Lost the Gunpowder Age",
+      "source_type": "podcast",
+      "source_name": "ChinaTalk",
+      "source_date": "2026-11-27",
+      "summary": "The episode centers on Honeo Draude\u2019s argument in The Gunpowder Age that military effectiveness is best understood through comparative proxies, especially the proliferation of gunpowder weapons, because direct measurement is only visible when two sides collide in war. He says gunpowder history is not a simple story of invention, but of centuries of experimentation in which fire was only the early use and the real breakthrough was kinetic projectile power.\n\nA major thread is that Chinese military innovation rose and fell with political structure and threat environment. Honeo Draude argues that periods of fragmentation and intense warfare pushed experimentation, while later Qing stability reduced incentives to integrate new technology; he cites flintlocks being given as gifts but not absorbed into Qing units. He also says Ming forces rapidly adapted Portuguese cannon technology and redeployed those guns 2,500 miles to the northern border, showing how active threat can force adoption.\n\nThe conversation extends that logic to modern conflicts, especially Ukraine, as an example of battlefield-driven innovation with small units adapting commercial technologies quickly. one host links that to the idea that modern military advantage may depend less on inventing entirely new weapons than on institutional speed, machine shops, and precision manufacturing systems that let states absorb and scale new technologies.\n\nThe discussion also distinguishes between tactical innovation and system-level modernization. Honeo Draude says the late 19th century introduced a \u201cscience technology or super complex\u201d that changed everything, implying that catching up requires industrial capacity, machine tools, and institutions, not just purchasing weapons. The hosts also raise a contemporary parallel about the PRC, suggesting that regime stability and internal purges may shape innovation incentives alongside geopolitical competition.",
+      "key_takeaway": "The episode\u2019s core claim is that military advantage comes from system-level adaptation capacity\u2014industrial, institutional, and battlefield feedback loops\u2014more than from acquiring individual weapons.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-11-27",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 734,
+      "notable_quotes": [
+        {
+          "speaker": "Honeo Draude",
+          "quote": "It really, the only time you can really measure the military effectiveness is when two sort of entities collide, right?"
+        },
+        {
+          "speaker": "Honeo Draude",
+          "quote": "So the proliferation and development of gunpowder weapons, which you can trace in historical records, seem to me kind of a good proxy for understanding military effectiveness at some level, right?"
+        },
+        {
+          "speaker": "Honeo Draude",
+          "quote": "But what is even more interesting to me is that very quickly, having recognized how effective these Portuguese guns were, they move them up, 2,500 miles to the northern border, so that these kinds of guns are bristling from the Great Wall, right?"
+        }
+      ]
+    },
+    {
+      "id": 745,
+      "title": "Replay: From Swipe to Scale: How Tinder Became #1 (2024)",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-11-27",
+      "summary": "Sean Rad and Andrew Chen frame Tinder as a product built around reducing rejection anxiety, not as a conventional dating app. Rad says the core insight was to use a matchmaker so users could signal interest without direct messaging, and that Tinder deliberately avoided the word \u201cdating\u201d because it was loaded and \u201cnot cool\u201d early on.\n\nA major theme is growth strategy for network products: Tinder focused on local density, starting with college campuses and Greek life rather than broad marketing. Rad describes early organic tactics like texting friends, creating campus echo chambers, and even avoiding celebrity-driven distribution because random users would weaken the network effects.\n\nRad also emphasizes product discipline and culture. He says a lot of startups put marketing ahead of product, and that with network products you need product-market fit before scale because otherwise user feedback is low quality. He credits Tinder\u2019s culture of radical honesty and openness with making it easier to kill features that did not work and to keep learning quickly.\n\nThe conversation also touches on press and controversy. Rad says Tinder initially leaned into press attention, but later caring about it became a distraction; letting go of that narrative focus unlocked creativity because what matters most is the relationship with users. The episode includes Rad\u2019s earlier founder history, including Adley\u2019s scale and his claim that he built what is now Apple Analytics after working with a Test Flight team.",
+      "key_takeaway": "Network products should prioritize density and product-market fit before broad marketing, or they risk weakening engagement and getting poor feedback.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-11-27",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 733,
+      "notable_quotes": [
+        {
+          "speaker": "Sean Rad",
+          "quote": "And the root of Tinder was, well, what if we could take that away by introducing this a femoral matchmaker? I don't need to tell the person I like them."
+        },
+        {
+          "speaker": "Sean Rad",
+          "quote": "A lot of startups put marketing ahead of product.\nIf you don't have product markets fit before you do that, you're not actually getting quality feedback."
+        },
+        {
+          "speaker": "Sean Rad",
+          "quote": "We let it go at a certain point in that unlocked a lot of creativity because really what matters is your relationship with your users."
+        }
+      ]
+    },
+    {
       "id": 742,
       "title": "Replay: On Food as Medicine (2020)",
       "source_type": "podcast",
@@ -245,7 +307,7 @@
         "GS"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-11-24",
       "archived_date": null,
@@ -17658,8 +17720,8 @@
       "term": "Second",
       "description": "The personal AI layer from First Person Labs that models a person\u2019s context, preferences, and priorities, then makes that context portable across tools and agents. It is described as a context store, not an agent by itself.",
       "first_detected_date": "2026-11-18",
-      "last_mentioned_date": "2026-11-26",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-11-27",
+      "mention_count": 36,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "If this category works, it could become the infrastructure layer for agent interoperability, persistent personalization, and recurring enterprise or consumer AI workflows.",
@@ -17668,8 +17730,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 693,
       "first_detected_speaker": "Ken Liu",
-      "last_mentioned_episode_id": 732,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 734,
+      "last_mentioned_speaker": "Honeo Draude"
     },
     {
       "id": 342,
@@ -17742,6 +17804,24 @@
       "first_detected_speaker": "Demis Hassabis, Paul Christiano, Will Marshall",
       "last_mentioned_episode_id": 702,
       "last_mentioned_speaker": "Dylan Patel"
+    },
+    {
+      "id": 361,
+      "term": "Network effects",
+      "description": "A product becomes more valuable as more users join and connect to it. In the episode, the telephone's value grows nonlinearly as the network expands.",
+      "first_detected_date": "2026-11-14",
+      "last_mentioned_date": "2026-11-27",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Important for evaluating platform and infrastructure businesses where adoption scale can create compounding advantages.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 681,
+      "first_detected_speaker": "James Gleick",
+      "last_mentioned_episode_id": 733,
+      "last_mentioned_speaker": "Sean Rad"
     },
     {
       "id": 347,
@@ -18270,8 +18350,8 @@
       "term": "floor",
       "description": "for digital production by making it easier for anyone to create, but it does not automatically raise the \"ceiling\" of quality; humans still raise the ceiling through boldness, craft, and novel point o",
       "first_detected_date": "2026-10-20",
-      "last_mentioned_date": "2026-11-25",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-11-27",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": null,
@@ -18280,8 +18360,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 592,
       "first_detected_speaker": "Karan Singhal",
-      "last_mentioned_episode_id": 728,
-      "last_mentioned_speaker": "Daniel Lacalle"
+      "last_mentioned_episode_id": 733,
+      "last_mentioned_speaker": "Sean Rad"
     },
     {
       "id": 314,
@@ -19152,8 +19232,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-11-09",
-      "mention_count": 50,
+      "last_mentioned_date": "2026-11-27",
+      "mention_count": 51,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -19162,8 +19242,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 705,
-      "last_mentioned_speaker": "Chris McGuire"
+      "last_mentioned_episode_id": 734,
+      "last_mentioned_speaker": "Honeo Draude"
     },
     {
       "id": 265,
