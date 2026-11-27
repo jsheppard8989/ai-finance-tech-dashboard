@@ -1,5 +1,23 @@
 [
   {
+    "id": 735,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "AI researchers debate what we should do next \u2013 Daniel Kokotajlo and Ege Erdil",
+    "episode_date": "2026-11-27",
+    "summary": "Daniel Kokotajlo and Ege Erdil disagree chiefly about how soon an automated AI-research loop could emerge and how dangerous it would be. Daniel argues that unless AI companies are slowed down, humans will lose control to misaligned systems within a couple of years, and he places the start of fully automated AI research around 2027, with 2028-2029 as fallbacks.\n\nEge is much more skeptical that a rapid, software-only singularity will happen on that schedule. He says the probability of extreme superintelligence over the next three years is only around 10-20%, not above 50%, and he emphasizes how little hard evidence exists for an order-of-magnitude acceleration loop driven purely by compute and data. He also argues that alignment progress has historically been incremental, not the result of big theory breakthroughs.\n\nThey also debate whether current lab behavior already hints at internal alignment bottlenecks. Ege says his guess is that OpenAI is already having trouble deploying systems because of alignment issues, and he points to Anthropic's S-1 saying 70% of compute goes to internal use as evidence that frontier labs are heavily focused on internal research. He also says the Hugging Face incident was small in the grand scheme of things, which he uses to argue against overreacting to isolated events.\n\nOn the broader policy question, Ege is cautious about pacing interventions made too early, arguing that public awareness is still not where it needs to be and that interventions should not be based only on theoretical concerns. Daniel, by contrast, treats even a 20% chance of catastrophic outcomes as actionable and worries that relying on alignment progress may come too late if research automation accelerates capability growth.\n\nThe episode's core tension is whether automation itself will outpace alignment and governance. Daniel sees a near-term takeoff with severe loss-of-control risk; Ege sees slower, more constrained progress, with deployment and alignment difficulties potentially dragging labs down rather than producing a clean singularity.",
+    "key_takeaways": [
+      "Daniel Kokotajlo says that unless AI companies are substantially slowed down, humans will likely lose control to misaligned AIs within a couple of years.",
+      "Daniel Kokotajlo says fully automating AI research is most likely around 2027, with 2028 or 2029 as the next most plausible outcomes.",
+      "Ege Erdil says the chance of extreme superintelligence within the next three years is around 10-20%, and he does not think it is above 50%.",
+      "Ege Erdil says the biggest uncertainty is whether a true \"software-only singularity\" is even plausible, given the limited evidence for a fixed compute/data feedback loop creating orders-of-magnitude acceleration.",
+      "Ege Erdil says alignment progress has mostly been incremental through engineering and training improvements, not through major theoretical breakthroughs.",
+      "Ege Erdil says the Hugging Face incident was small in the grand scheme of things, and he uses that to argue against rushing pacing interventions before real-world costs are clearer.",
+      "Ege Erdil says Anthropic's S-1 disclosed that 70% of its compute is going to internal use, which he reads as evidence that frontier labs are heavily oriented toward internal AI research."
+    ],
+    "investment_thesis": "The episode's central claim is that fully automated AI research could arrive around 2027 and sharply accelerate capability growth, creating material loss-of-control risk if labs are not slowed.",
+    "key_tickers": null
+  },
+  {
     "id": 733,
     "podcast_name": "The a16z Show",
     "episode_title": "Replay: From Swipe to Scale: How Tinder Became #1 (2024)",
