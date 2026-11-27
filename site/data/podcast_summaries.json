@@ -1,5 +1,22 @@
 [
   {
+    "id": 732,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Thanksgiving Special: The Moments That Almost Ended Us (And Why We\u2019re Grateful) | EP #316",
+    "episode_date": "2026-11-26",
+    "summary": "This Thanksgiving-themed roundtable focused on gratitude, origin stories, and how setbacks shaped each host\u2019s path. One host described a career pivot after being rejected from an MIT summer research program, saying the rejection pushed him away from pure AI during the AI winter and into nanotechnology and the physical/digital interface. One host recounted building PubSub, watching it implode, then moving into Yahoo and later seeing that effort collapse when Microsoft tried to buy Yahoo. Dave Blundin described a startup path defined by Walmart as his biggest customer, Amazon\u2019s silence, board anxiety, and a lawsuit between Walmart and Amazon that nearly led to his ouster before a later liquidity event.\n\nHe said the eventual match was a woman who had sold Telecom Technologies for $1.3 billion and later became central to the spaceflight effort. The point of the story was that persistence plus luck, timing, and the right backer eventually turned a moonshot into a real venture.\n\nThe health segment turned to early detection and longevity. One host said Fountain Life\u2019s member data showed 3.3% of members who thought they were healthy actually had cancer detected, and that the group uses full-body MRI. The framing was that catching cancer earlier raises cure odds, while late detection leaves people exposed to avoidable mortality. The discussion also referenced a broader claim that 150,000 people die every day and that better screening could materially reduce that burden.\n\nThe episode closed on a strongly optimistic view of technological acceleration. Alex Wissner-Gross said he expects bulk in silico work for substantially every disease, perhaps top 5,000 diseases, within the next year or two, with some cases taking up to a decade to translate into practice. Other claims touched on Google\u2019s internal success heuristics around severe adversity, foreign-born tech CEO overrepresentation, autonomous software development claims from Blitzi, and a provocative aside about adversity shaping character.",
+    "key_takeaways": [
+      "One host said a rejection from an MIT summer research program redirected him away from pure AI and toward nanotechnology, which shaped his later interdisciplinary work.",
+      "One host described PubSub\u2019s collapse, then said he ended up at Yahoo, where the incubator effort later fell apart when Microsoft tried to buy Yahoo.",
+      "Dave Blundin said his company had Walmart as its biggest customer, then Amazon went quiet, the board got nervous, and a Walmart-Amazon lawsuit created major uncertainty before a later liquidity event.",
+      "One host said Fountain Life\u2019s member database shows 3.3% of people who think they are healthy actually have cancer detected, reinforcing the episode\u2019s early-detection thesis.",
+      "Alex Wissner-Gross said he is confident that within the next year or two there will be bulk in silico work for substantially every disease, including the top 5,000 diseases.",
+      "One host said Google\u2019s survey logic points to severe early adversity overcome as a key predictor of later success, while another comment framed adversity in an intentionally provocative way."
+    ],
+    "investment_thesis": "The episode\u2019s central claim is that AI, screening, and computational biology will soon make early detection and disease modeling dramatically more effective, creating major opportunities in health and software.",
+    "key_tickers": null
+  },
+  {
     "id": 731,
     "podcast_name": "The a16z Show",
     "episode_title": "Replay: On Food as Medicine (2020)",
