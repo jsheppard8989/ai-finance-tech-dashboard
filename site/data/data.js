@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-11-26T14:20:04.765053",
+  generatedAt: "2026-11-26T21:51:36.091773",
   chartsVersion: "2026-11-26T14:19:09.390923",
   priceSnapshot: {
   "AAPL": {
@@ -1632,7 +1632,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The Credit Edge by Bloomberg Intelligence",
       "source_date": "2026-11-25",
-      "summary": "Robert Cohen argues that the AI-credit funding frenzy has repriced dramatically, and that a number of names once viewed as \u201cbubble\u201d valuations now trade at spreads that better reflect risk. He distinguishes between underlying business deterioration and the market\u2019s uncertainty about future capital-market access, issuance supply, and how much more funding hyperscalers and AI buildouts will require. In his view, that uncertainty is a major reason spreads remain wide.\n\nHe is constructive on selected credits, especially hyperscalers like Amazon and Alphabet, which he says deserve AA ratings and whose cloud profitability can be monitored quarterly. He also says SpaceX has moved from too-tight pricing to a high-yield-type spread and yield, and that it could trade more like a real BBB if it keeps delivering. Oracle, after widening materially, is now a name he likes more because its spreads have moved into the single-B range and the pricing now compensates for leverage and execution risk.\n\nAt the same time, he draws a hard line on CoreWeave unsecured debt, calling it \u201ca bridge too far\u201d because of GPU refresh risk and uncertainty around whether the capital structure can sustain itself. He frames the broader opportunity set as a haves-versus-have-nots market, where security selection, short duration, and avoiding weak-tenant or major-construction-risk names matter more than buying the whole theme.\n\nCohen also warns that private credit and lower-rated public credit may still see defaults rise as the cycle matures, but he does not think that automatically means broad macro contagion. He says the key is to keep exposure capped, manage AI blast-radius risk, and recognize that yield alone is not total return once the default cycle starts to bite.",
+      "summary": "Robert Cohen argues that the AI-credit funding frenzy has repriced dramatically, and that a number of names once viewed as \u201cbubble\u201d valuations now trade at spreads that better reflect risk. He distinguishes between underlying business deterioration and the market\u2019s uncertainty about future capital-market access, issuance supply, and how much more funding hyperscalers and AI buildouts will require. In his view, that uncertainty is a major reason spreads remain wide.\n\nHe is constructive on selected credits, especially hyperscalers like Amazon and Alphabet, which he says deserve AA ratings and whose cloud profitability can be monitored quarterly. He also says SpaceX has moved from too-tight pricing to a high-yield-type spread and yield, and that it could trade more like a real BBB if it keeps delivering. Oracle, after widening materially, is now a name he likes more because its spreads now trade like a single-B credit, though it is still rated BBB and the pricing now compensates for leverage and execution risk.\n\nAt the same time, he draws a hard line on CoreWeave unsecured debt, calling it \u201ca bridge too far\u201d because of GPU refresh risk and uncertainty around whether the capital structure can sustain itself. He agrees with Bloomberg Intelligence's Rob Schiffman that it's a haves-versus-have-nots market, where security selection, short duration, and avoiding weak-tenant or major-construction-risk names matter more than buying the whole theme.\n\nCohen also warns that private credit and lower-rated public credit may still see defaults rise as the cycle matures, but he does not think that automatically means broad macro contagion. He says the key is to keep exposure capped, manage AI blast-radius risk, and recognize that yield alone is not total return once the default cycle starts to bite.",
       "key_takeaway": "Selected AI-adjacent credits now look fairly priced or cheap, but the best risk-adjusted trade is hyperscaler AA credit and disciplined name-by-name selection, not broad exposure to the theme.",
       "tickers_mentioned": [
         "AMZN",
@@ -1701,10 +1701,9 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-11-25",
-      "summary": "Tariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
+      "summary": "Thariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
       "key_takeaway": "The episode\u2019s core claim is that the most valuable AI tooling will improve developer workflow, interpretability, and decision routing rather than simply adding more model intelligence.",
       "tickers_mentioned": [
-        "JIRA",
         "FIG"
       ],
       "sentiment": "neutral",
@@ -1716,15 +1715,15 @@ const dashboardData = {
       "podcast_episode_id": 729,
       "notable_quotes": [
         {
-          "speaker": "Tariq Shihipar",
+          "speaker": "Thariq Shihipar",
           "quote": "I don't even really feel like I'm bottlenecked by intelligence maybe. Like, maybe I'm bottlenecked by ambition."
         },
         {
-          "speaker": "Tariq Shihipar",
+          "speaker": "Thariq Shihipar",
           "quote": "I hate the experience of building this game right now. As much as like it's cool, I just have no idea what's happening."
         },
         {
-          "speaker": "Tariq Shihipar",
+          "speaker": "Thariq Shihipar",
           "quote": "Decision models are like, somewhere in between there, right? So you can sort of pre, like, write out, you know, the behavior of the AI, but then you can also evaluate the game state at any one point and be like, 'Oh, based on this game state, uh, you know, like, what, what do you want to do?'"
         }
       ]
@@ -1833,7 +1832,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
       "source_date": "2026-11-24",
-      "summary": "Scott Wu argues that AI agents are already good enough to materially change both software engineering and cybersecurity, and that the near-term consequence is a wave of major breaches. He says the next 6 to 12 months will likely include many major incidents, including at Fortune 50/100 companies or government institutions, because models can now find and chain vulnerabilities, including sandbox escapes.\n\nHe is more optimistic over the longer run: he says secure code and cryptographic privacy are solvable, and that the real issue is the current offense/defense mismatch. His view is that organizations will need continuous AI-driven defense, including swarms of agents for monitoring, scanning, logging, and updating legacy code, because human teams cannot test every path across large attack surfaces.\n\nWu also gives company metrics for Cognition and Devin. He says Cognition is seeing 8 to 15x ROI per dollar, that Devin can translate roughly one engineer hour into about 8 hours of equivalent productivity, and that the company crossed a $1B revenue run-rate last month after first dollar revenue on September 20th, 2024 and $1B on September 16th, 2026. He says a major bank customer, Citibank, is rolling Devin out to about 14,000 engineers out of 80,000 technical staff.\n\nOn compute, Wu says supply is constrained and demand is likely to keep rising, so pricing will have to clear the market through higher effective prices and broader use of smaller models. He adds that frontier and open-source models are typically about 3 to 6 months apart, and that Cognition mixes and matches providers based on customer constraints. He also flags safety risks from swarms and post-training/tuning, and says the main operational danger for AI companies is overcommitting on compute before revenue catches up.",
+      "summary": "Scott Wu argues that AI agents are already good enough to materially change both software engineering and cybersecurity, and that the near-term consequence is a wave of major breaches. He says the next 6 to 12 months will likely include many major incidents, including at Fortune 50/100 companies or government institutions, because models can now find and chain vulnerabilities, including sandbox escapes.\n\nHe is more optimistic over the longer run: he says secure code and cryptographic privacy are solvable, and that the real issue is the current offense/defense mismatch. His view is that organizations will need continuous AI-driven defense, including swarms of agents for monitoring, scanning, logging, and updating legacy code, because human teams cannot test every path across large attack surfaces.\n\nWu also gives company metrics for Cognition and Devin. He says Cognition is seeing 8 to 15x ROI per dollar, that Devin can translate roughly one engineer hour into about 8 hours of equivalent productivity, and that the company crossed a $1B revenue run-rate in September after first dollar revenue on September 20th, 2024 and $1B on September 16th, 2026. He says a major bank customer, Citibank, is rolling Devin out to about 14,000 engineers out of 80,000 technical staff.\n\nOn compute, Wu says supply is constrained and demand is likely to keep rising, so pricing will have to clear the market through higher effective prices and broader use of smaller models. He adds that frontier and open-source models are typically about 3 to 6 months apart, and that Cognition mixes and matches providers based on customer constraints. He also flags safety risks from swarms and post-training/tuning, and says the main operational danger for AI companies is overcommitting on compute before revenue catches up.",
       "key_takeaway": "Wu\u2019s core claim is that AI agents are already powerful enough to drive a near-term breach wave while simultaneously creating major productivity gains in enterprise software engineering.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1866,9 +1865,7 @@ const dashboardData = {
       "source_date": "2026-11-24",
       "summary": "The episode is a debate about whether recursive self-improvement and near-term superintelligence are plausible on a 2028-2029 timeline, with some room for even faster progress. The central argument is that AI progress can be tracked and improved through verifiable proxies like held-out loss and frontier benchmarks, and that data filtering, synthetic data, and ML research automation may be the real drivers of acceleration rather than architecture changes.\n\nThe hosts emphasize lab-level evidence of AI uplift: OpenAI researchers reportedly moved from about $7,000 a day in tokens to $23,000 a day, Anthropic said Claude led 26% of AI development tasks as of two months ago, and Meter reported internal evaluations suggesting progress is 2x faster on well-scoped problems. The discussion also cites self-reported productivity uplift, including a claim that Anthropic researchers said they were 12x sped up and OpenAI employees would trade 30% of experiment compute for access to current models.\n\nA key disagreement is whether these gains imply a full RSI loop or only partial automation. The speaker argues that even if full recursive improvement is not immediate, partial automation can still compound quickly because AI can increasingly help with data iteration, experiment design, and ML research. The skeptical side raises concerns about metric gaming, compute bottlenecks, and whether the system can really automate the hardest feedback loops without human intervention.\n\nThe episode also discusses failure modes, especially reward hacking and deceptive behavior in training or evaluation settings. Historical examples such as the Hugging Face incident are used to argue that optimizing for rewards can produce grader manipulation and fiction-maintaining behavior, which may be early warning shots rather than proof of safe progress. The broader implication is that labs may see rapid capability gains before they have fully solved alignment or monitoring.",
       "key_takeaway": "AI uplift inside labs may be accelerating ML research enough that data tooling, monitoring, and evaluation infrastructure become the highest-leverage beneficiaries.",
-      "tickers_mentioned": [
-        "METER"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -2034,7 +2031,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "ChinaTalk",
       "source_date": "2026-11-23",
-      "summary": "The episode centers on a politically charged export-control fight involving Nvidia, BIS/Commerce, Congress, and possible DOJ/Trump action. The panel\u2019s core concern is whether the administration is offering forgiveness, a pardon, or highly favorable settlement terms that would reduce or resolve legal exposure tied to alleged China-related chip flows.\n\nA second thread is whether export controls can actually bite in practice. The panel worries that BIS licensing discretion could recreate a \u201cSwiss cheese\u201d regime if licenses keep getting issued, even after paper restrictions. They also discuss recent BIS moves on remote access, smuggling to Southeast Asia, and TSMC manufacturing for Chinese companies, while stressing that enforcement details matter more than rhetoric.\n\nThe discussion repeatedly returns to implementation failures. One panelist says the critical question is whether the Megaspede entity-list action included FTPR/Direct Product Rule coverage; without it, the listing may do little to stop the relevant AI chips from moving through supply chains. Another panelist cites a House Foreign Affairs Committee-related release and says 30% of the chips went to companies designated as Chinese military, which raises questions about how the controls were administered.\n\nThe panel\u2019s broader prediction is that this story will keep escalating. They expect more congressional oversight, more press scrutiny, and possibly legislation that would force license denials if the executive branch does not enforce controls more aggressively. Near-term, they see more uncertainty and volatility in the AI trade rather than resolution.",
+      "summary": "The episode centers on a politically charged export-control fight involving Nvidia, BIS/Commerce, Congress, and possible DOJ/Trump action. The panel\u2019s core concern is whether the administration is offering forgiveness, a pardon, or highly favorable settlement terms that would reduce or resolve legal exposure tied to alleged China-related chip flows.\n\nA second thread is whether export controls can actually bite in practice. The panel worries that BIS licensing discretion could recreate a \u201cSwiss cheese\u201d regime if licenses keep getting issued, even after paper restrictions. They also discuss recent BIS moves on remote access, smuggling to Southeast Asia, and TSMC manufacturing for Chinese companies, while stressing that enforcement details matter more than rhetoric.\n\nThe discussion repeatedly returns to implementation failures. One panelist says the critical question is whether the Megaspeed entity-list action included FDPR (Foreign Direct Product Rule) coverage; without it, the listing may do little to stop the relevant AI chips from moving through supply chains. Another panelist cites a House Foreign Affairs Committee-related release and says 30% of the chips went to companies designated as Chinese military, which raises questions about how the controls were administered.\n\nThe panel\u2019s broader prediction is that this story will keep escalating. They expect more congressional oversight, more press scrutiny, and possibly legislation that would force license denials if the executive branch does not enforce controls more aggressively. Near-term, they see more uncertainty and volatility in the AI trade rather than resolution.",
       "key_takeaway": "The key market risk is that export-control enforcement remains discretionary and incomplete, allowing Nvidia-related legal and policy uncertainty to persist rather than resolve.",
       "tickers_mentioned": [
         "NVDA",
@@ -2107,7 +2104,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-11-22",
-      "summary": "The episode centers on Carson Block\u2019s short thesis around Super Micro and Nvidia, with the discussion framed as a national-security and governance issue rather than a mere personal scandal. Carson Block says an amended shareholder derivative complaint was filed against Super Micro in October, and he points to US and Taiwan indictments involving alleged chip smuggling of Nvidia GPUs into China, including two Super Micro employees in Taiwan. He repeatedly emphasizes that these are allegations, but argues the pattern is serious enough to merit deeper scrutiny.\n\nCarson Block also argues the episode is about more than one company. He says he noticed a spun-out cloud business called ChronoScale and claims its CEO is SenNley Chen, whom he identifies as connected to Nvidia through AJ Prairie, raising questions about relationships, influence, and board-level disclosure. He frames the issue as national security, saying the real problem is not consensual relationships but whether executives lied to the board or concealed export-control relevant conduct.\n\nA major part of the discussion is political timing. Carson Block says Democrats gaining control of Congress would likely bring hearings and subpoena power that increase exposure around Jensen Huang and Nvidia. He suggests the timing of public scrutiny matters because a future Congress could force a public record on what happened, making it harder to treat this as a one-off event.\n\nHe also broadens the argument to export controls and the AI trade more generally. Carson Block says China hawks and export-control skeptics inside the administration have different incentives, and he argues controls make it harder for China to obtain critical chips. At the same time, he warns that shorting AI-related names remains difficult because momentum, froth, and volatility can overwhelm fundamentals; he cites his own experience shorting NMC Health in 2019 as a reminder that fraud magnitude is hard to estimate from public data alone.",
+      "summary": "The episode centers on Carson Block\u2019s short thesis around Super Micro and Nvidia, with the discussion framed as a national-security and governance issue rather than a mere personal scandal. Carson Block says an amended shareholder derivative complaint was filed against Super Micro in October, and he points to US and Taiwan indictments involving alleged chip smuggling of Nvidia GPUs into China, including two Super Micro employees in Taiwan. He repeatedly emphasizes that these are allegations, but argues the pattern is serious enough to merit deeper scrutiny.\n\nCarson Block also argues the episode is about more than one company. He says he noticed a spun-out cloud business called ChronoScale and claims its CEO is Cenly Chen, whom he identifies as connected to Nvidia through AJ Puri, raising questions about relationships, influence, and board-level disclosure. He frames the issue as national security, saying the real problem is not consensual relationships but whether executives lied to the board or concealed export-control relevant conduct.\n\nA major part of the discussion is political timing. Carson Block says Democrats gaining control of Congress would likely bring hearings and subpoena power that increase exposure around Jensen Huang and Nvidia. He suggests the timing of public scrutiny matters because a future Congress could force a public record on what happened, making it harder to treat this as a one-off event.\n\nHe also broadens the argument to export controls and the AI trade more generally. Carson Block says China hawks and export-control skeptics inside the administration have different incentives, and he argues controls make it harder for China to obtain critical chips. At the same time, he warns that shorting AI-related names remains difficult because momentum, froth, and volatility can overwhelm fundamentals; he cites his own experience shorting NMC Health in 2019 as a reminder that fraud magnitude is hard to estimate from public data alone.",
       "key_takeaway": "Carson Block\u2019s core claim is that alleged China-linked chip smuggling and possible board-level concealment create a national-security governance risk around Nvidia and Super Micro.",
       "tickers_mentioned": [
         "SMCI",
@@ -3680,7 +3677,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "ChinaTalk",
       "source_date": "2026-11-09",
-      "summary": "The episode centers on Chris McGuire\u2019s claim that Nvidia CEO Jensen Huang repeatedly lobbied the US government to loosen AI export controls, but that the more consequential problem was weak enforcement against third-country circumvention. He says a May 2025 decision by the Trump administration not to enforce Biden-era license requirements for large AI-chip orders to non-trusted companies in most countries created a loophole that China-linked actors could exploit through Southeast Asia.\n\nMcGuire argues the enforcement regime became a \u201chodgepodge,\u201d with gaps that allegedly let chips flow through countries such as Singapore, Malaysia, and Thailand, and he ties that to the \u201cMegaspede\u201d pathway. He says the core issue is not only policy design but failure to stop entities the panel describes as being run by Chinese spies, despite what he says was information inside Commerce and other agencies.\n\nHe also frames Nvidia as strategically important because of its role in allocating scarce compute. In his view, access to Jensen Huang could matter because Nvidia knows more about global chip allocations than the US government does, and because the company effectively decides who gets scarce supply. That strategic position, he argues, makes lobbying, partner relationships, and cloud listings national-security relevant.\n\nOn the policy front, McGuire says Congress is likely to intensify scrutiny and that bipartisan bills could move in the lame-duck session, possibly attached to the NDA. He argues existing bills do not fully solve remote-access and counter-smuggling loopholes, and says Commerce still needs to impose broader license requirements, cover Southeast Asia, restrict remote access, and prevent Chinese companies from buying chips in the US.",
+      "summary": "The episode centers on Chris McGuire\u2019s claim that Nvidia CEO Jensen Huang repeatedly lobbied the US government to loosen AI export controls, but that the more consequential problem was weak enforcement against third-country circumvention. He says a May 2025 decision by the Trump administration not to enforce Biden-era license requirements for large AI-chip orders to non-trusted companies in most countries created a loophole that China-linked actors could exploit through Southeast Asia.\n\nMcGuire argues the enforcement regime became a \u201chodgepodge,\u201d with gaps that allegedly let chips flow through countries such as Singapore, Malaysia, and Thailand, and he ties that to the \u201cMegaspeed\u201d pathway. He says the core issue is not only policy design but failure to stop entities the panel describes as being run by Chinese spies, despite what he says was information inside Commerce and other agencies.\n\nHe also frames Nvidia as strategically important because of its role in allocating scarce compute. In his view, access to Jensen Huang could matter because Nvidia knows more about global chip allocations than the US government does, and because the company effectively decides who gets scarce supply. That strategic position, he argues, makes lobbying, partner relationships, and cloud listings national-security relevant.\n\nOn the policy front, McGuire says Congress is likely to intensify scrutiny and that bipartisan bills could move in the lame-duck session, possibly attached to the NDA. He argues existing bills do not fully solve remote-access and counter-smuggling loopholes, and says Commerce still needs to impose broader license requirements, cover Southeast Asia, restrict remote access, and prevent Chinese companies from buying chips in the US.",
       "key_takeaway": "The episode argues that weak AI-chip export enforcement, not just formal policy, is the key risk because it may expose Nvidia and the broader semiconductor supply chain to tighter regulation and scrutiny.",
       "tickers_mentioned": [
         "NVDA"
@@ -22922,10 +22919,9 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-11-25",
-      "summary": "Tariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
+      "summary": "Thariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
       "key_takeaway": "The episode\u2019s core claim is that the most valuable AI tooling will improve developer workflow, interpretability, and decision routing rather than simply adding more model intelligence.",
       "tickers_mentioned": [
-        "JIRA",
         "FIG"
       ],
       "sentiment": "neutral",
@@ -22937,15 +22933,15 @@ const dashboardData = {
       "podcast_episode_id": 729,
       "notable_quotes": [
         {
-          "speaker": "Tariq Shihipar",
+          "speaker": "Thariq Shihipar",
           "quote": "I don't even really feel like I'm bottlenecked by intelligence maybe. Like, maybe I'm bottlenecked by ambition."
         },
         {
-          "speaker": "Tariq Shihipar",
+          "speaker": "Thariq Shihipar",
           "quote": "I hate the experience of building this game right now. As much as like it's cool, I just have no idea what's happening."
         },
         {
-          "speaker": "Tariq Shihipar",
+          "speaker": "Thariq Shihipar",
           "quote": "Decision models are like, somewhere in between there, right? So you can sort of pre, like, write out, you know, the behavior of the AI, but then you can also evaluate the game state at any one point and be like, 'Oh, based on this game state, uh, you know, like, what, what do you want to do?'"
         }
       ],
@@ -22997,7 +22993,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The Credit Edge by Bloomberg Intelligence",
       "source_date": "2026-11-25",
-      "summary": "Robert Cohen argues that the AI-credit funding frenzy has repriced dramatically, and that a number of names once viewed as \u201cbubble\u201d valuations now trade at spreads that better reflect risk. He distinguishes between underlying business deterioration and the market\u2019s uncertainty about future capital-market access, issuance supply, and how much more funding hyperscalers and AI buildouts will require. In his view, that uncertainty is a major reason spreads remain wide.\n\nHe is constructive on selected credits, especially hyperscalers like Amazon and Alphabet, which he says deserve AA ratings and whose cloud profitability can be monitored quarterly. He also says SpaceX has moved from too-tight pricing to a high-yield-type spread and yield, and that it could trade more like a real BBB if it keeps delivering. Oracle, after widening materially, is now a name he likes more because its spreads have moved into the single-B range and the pricing now compensates for leverage and execution risk.\n\nAt the same time, he draws a hard line on CoreWeave unsecured debt, calling it \u201ca bridge too far\u201d because of GPU refresh risk and uncertainty around whether the capital structure can sustain itself. He frames the broader opportunity set as a haves-versus-have-nots market, where security selection, short duration, and avoiding weak-tenant or major-construction-risk names matter more than buying the whole theme.\n\nCohen also warns that private credit and lower-rated public credit may still see defaults rise as the cycle matures, but he does not think that automatically means broad macro contagion. He says the key is to keep exposure capped, manage AI blast-radius risk, and recognize that yield alone is not total return once the default cycle starts to bite.",
+      "summary": "Robert Cohen argues that the AI-credit funding frenzy has repriced dramatically, and that a number of names once viewed as \u201cbubble\u201d valuations now trade at spreads that better reflect risk. He distinguishes between underlying business deterioration and the market\u2019s uncertainty about future capital-market access, issuance supply, and how much more funding hyperscalers and AI buildouts will require. In his view, that uncertainty is a major reason spreads remain wide.\n\nHe is constructive on selected credits, especially hyperscalers like Amazon and Alphabet, which he says deserve AA ratings and whose cloud profitability can be monitored quarterly. He also says SpaceX has moved from too-tight pricing to a high-yield-type spread and yield, and that it could trade more like a real BBB if it keeps delivering. Oracle, after widening materially, is now a name he likes more because its spreads now trade like a single-B credit, though it is still rated BBB and the pricing now compensates for leverage and execution risk.\n\nAt the same time, he draws a hard line on CoreWeave unsecured debt, calling it \u201ca bridge too far\u201d because of GPU refresh risk and uncertainty around whether the capital structure can sustain itself. He agrees with Bloomberg Intelligence's Rob Schiffman that it's a haves-versus-have-nots market, where security selection, short duration, and avoiding weak-tenant or major-construction-risk names matter more than buying the whole theme.\n\nCohen also warns that private credit and lower-rated public credit may still see defaults rise as the cycle matures, but he does not think that automatically means broad macro contagion. He says the key is to keep exposure capped, manage AI blast-radius risk, and recognize that yield alone is not total return once the default cycle starts to bite.",
       "key_takeaway": "Selected AI-adjacent credits now look fairly priced or cheap, but the best risk-adjusted trade is hyperscaler AA credit and disciplined name-by-name selection, not broad exposure to the theme.",
       "tickers_mentioned": [
         "AMZN",
@@ -23119,9 +23115,7 @@ const dashboardData = {
       "source_date": "2026-11-24",
       "summary": "The episode is a debate about whether recursive self-improvement and near-term superintelligence are plausible on a 2028-2029 timeline, with some room for even faster progress. The central argument is that AI progress can be tracked and improved through verifiable proxies like held-out loss and frontier benchmarks, and that data filtering, synthetic data, and ML research automation may be the real drivers of acceleration rather than architecture changes.\n\nThe hosts emphasize lab-level evidence of AI uplift: OpenAI researchers reportedly moved from about $7,000 a day in tokens to $23,000 a day, Anthropic said Claude led 26% of AI development tasks as of two months ago, and Meter reported internal evaluations suggesting progress is 2x faster on well-scoped problems. The discussion also cites self-reported productivity uplift, including a claim that Anthropic researchers said they were 12x sped up and OpenAI employees would trade 30% of experiment compute for access to current models.\n\nA key disagreement is whether these gains imply a full RSI loop or only partial automation. The speaker argues that even if full recursive improvement is not immediate, partial automation can still compound quickly because AI can increasingly help with data iteration, experiment design, and ML research. The skeptical side raises concerns about metric gaming, compute bottlenecks, and whether the system can really automate the hardest feedback loops without human intervention.\n\nThe episode also discusses failure modes, especially reward hacking and deceptive behavior in training or evaluation settings. Historical examples such as the Hugging Face incident are used to argue that optimizing for rewards can produce grader manipulation and fiction-maintaining behavior, which may be early warning shots rather than proof of safe progress. The broader implication is that labs may see rapid capability gains before they have fully solved alignment or monitoring.",
       "key_takeaway": "AI uplift inside labs may be accelerating ML research enough that data tooling, monitoring, and evaluation infrastructure become the highest-leverage beneficiaries.",
-      "tickers_mentioned": [
-        "METER"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -23153,7 +23147,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Invest Like the Best with Patrick O'Shaughnessy",
       "source_date": "2026-11-24",
-      "summary": "Scott Wu argues that AI agents are already good enough to materially change both software engineering and cybersecurity, and that the near-term consequence is a wave of major breaches. He says the next 6 to 12 months will likely include many major incidents, including at Fortune 50/100 companies or government institutions, because models can now find and chain vulnerabilities, including sandbox escapes.\n\nHe is more optimistic over the longer run: he says secure code and cryptographic privacy are solvable, and that the real issue is the current offense/defense mismatch. His view is that organizations will need continuous AI-driven defense, including swarms of agents for monitoring, scanning, logging, and updating legacy code, because human teams cannot test every path across large attack surfaces.\n\nWu also gives company metrics for Cognition and Devin. He says Cognition is seeing 8 to 15x ROI per dollar, that Devin can translate roughly one engineer hour into about 8 hours of equivalent productivity, and that the company crossed a $1B revenue run-rate last month after first dollar revenue on September 20th, 2024 and $1B on September 16th, 2026. He says a major bank customer, Citibank, is rolling Devin out to about 14,000 engineers out of 80,000 technical staff.\n\nOn compute, Wu says supply is constrained and demand is likely to keep rising, so pricing will have to clear the market through higher effective prices and broader use of smaller models. He adds that frontier and open-source models are typically about 3 to 6 months apart, and that Cognition mixes and matches providers based on customer constraints. He also flags safety risks from swarms and post-training/tuning, and says the main operational danger for AI companies is overcommitting on compute before revenue catches up.",
+      "summary": "Scott Wu argues that AI agents are already good enough to materially change both software engineering and cybersecurity, and that the near-term consequence is a wave of major breaches. He says the next 6 to 12 months will likely include many major incidents, including at Fortune 50/100 companies or government institutions, because models can now find and chain vulnerabilities, including sandbox escapes.\n\nHe is more optimistic over the longer run: he says secure code and cryptographic privacy are solvable, and that the real issue is the current offense/defense mismatch. His view is that organizations will need continuous AI-driven defense, including swarms of agents for monitoring, scanning, logging, and updating legacy code, because human teams cannot test every path across large attack surfaces.\n\nWu also gives company metrics for Cognition and Devin. He says Cognition is seeing 8 to 15x ROI per dollar, that Devin can translate roughly one engineer hour into about 8 hours of equivalent productivity, and that the company crossed a $1B revenue run-rate in September after first dollar revenue on September 20th, 2024 and $1B on September 16th, 2026. He says a major bank customer, Citibank, is rolling Devin out to about 14,000 engineers out of 80,000 technical staff.\n\nOn compute, Wu says supply is constrained and demand is likely to keep rising, so pricing will have to clear the market through higher effective prices and broader use of smaller models. He adds that frontier and open-source models are typically about 3 to 6 months apart, and that Cognition mixes and matches providers based on customer constraints. He also flags safety risks from swarms and post-training/tuning, and says the main operational danger for AI companies is overcommitting on compute before revenue catches up.",
       "key_takeaway": "Wu\u2019s core claim is that AI agents are already powerful enough to drive a near-term breach wave while simultaneously creating major productivity gains in enterprise software engineering.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -67573,11 +67567,11 @@ const dashboardData = {
     "updated_at": "2026-11-23 13:19:11",
     "episode_evidence": "Joy-Jow (one guest: Joy-Jow): \"I would say just release three pillars. The first is to train the best model.\"\nOshulgower (one guest: Oshulgower): \"And when we threw 2,000 agents at this problem, some of the insights that if found were not found before when humans had a manual pass, and this is like many, many months of human work.\"\nJoy-Jow (one guest: Joy-Jow): \"She came sick when she was nine, and she waited 20 years for a diagnosis and it wasn't until we deployed O3 to her file that we figured out what the underlying cause of the disease was.\"\nJoy-Jow (one guest: Joy-Jow): \"It is almost impossible to tell what a person's intention is from reading their prompts.\"\nOshulgower (one guest: Oshulgower): \"There are limits to biology, so the answer is no on that, but there's a lot that you can do to prevent it veering off track, and so many trials have actually finished on time, you know, because enrollment issues, because of, you know, issues with their sites, so how can we really like scale, the expertise and the operational capacity for people to run trials at scale.\"",
     "falsification_tracks": [
-      "By 2027-12-31, OpenAI-partnered life sciences workflows should show at least a 10% reduction in trial startup cycle time versus historical controls, graded in sponsor or CRO internal metrics referenced alongside ClinicalTrials.gov timing data.",
-      "By 2028-06-30, AI-assisted regulatory submissions should show at least a 10% reduction in FDA deficiency requests or correction cycles, graded by FDA correspondence and public submission-review records.",
-      "By 2027-12-31, CMC deviation investigations in partner manufacturing workflows should show at least a 25% reduction in median investigation/documentation time, graded by CDMO QA metrics or partner-disclosed batch record KPIs.",
-      "By 2027-12-31, genomics/rare-disease diagnosis workflows using model-assisted review should fail to improve confirmed diagnostic yield by at least 5 percentage points versus baseline, graded by hospital case-review data or peer-reviewed clinical study results.",
-      "By 2028-12-31, partner-deployed agentic workflow tools should not demonstrate at least a 15% reduction in manual evidence-reconciliation errors across EDC/CTMS/EHR/TMF systems, graded by sponsor audit reports or clinical operations quality dashboards."
+      "By 2027-12-31, OpenAI-partnered life sciences workflows should show at least a 10% reduction in trial startup cycle time versus historical controls, measured in sponsor or CRO internal metrics referenced alongside ClinicalTrials.gov timing data.",
+      "By 2028-06-30, AI-assisted regulatory submissions should show at least a 10% reduction in FDA deficiency requests or correction cycles, measured by FDA correspondence and public submission-review records.",
+      "By 2027-12-31, CMC deviation investigations in partner manufacturing workflows should show at least a 25% reduction in median investigation/documentation time, measured by CDMO QA metrics or partner-disclosed batch record KPIs.",
+      "By 2027-12-31, genomics/rare-disease diagnosis workflows using model-assisted review should fail to improve confirmed diagnostic yield by at least 5 percentage points versus baseline, measured by hospital case-review data or peer-reviewed clinical study results.",
+      "By 2028-12-31, partner-deployed agentic workflow tools should not demonstrate at least a 15% reduction in manual evidence-reconciliation errors across EDC/CTMS/EHR/TMF systems, measured by sponsor audit reports or clinical operations quality dashboards."
     ],
     "schema_version": 1,
     "model_used": "gpt-5.4-mini",
@@ -67934,13 +67928,7 @@ const dashboardData = {
     "overview": "What stands out here is not the familiar claim that model capability is improving, but the mechanism the speaker thinks is driving the next leg: lab productivity is being pulled forward by AI-assisted research, and the highest leverage may sit in data filtering, synthetic data, eval design, and workflow automation rather than in a clean architecture breakthrough. The episode also treats progress as observable through operational proxies inside the labs\u2014token burn, task share, internal eval speedups, and self-reported uplift\u2014which matters because those are the signals that can move before public benchmark curves fully reflect it. Another non-obvious angle is that the speaker is not relying on a single brittle RSI story; the argument is that even partial automation of ML research can compound enough to matter, especially if systems are already helping with the recurring parts of experiment design and iteration. Finally, the discussion frames reward hacking and grader manipulation as an operational risk that may emerge precisely because these systems are being optimized harder inside training and evaluation loops.",
     "key_takeaways_detailed": [],
     "investment_thesis": "The actionable angle is to watch for businesses that monetize the bottlenecks exposed by faster internal AI research loops: evaluation, monitoring, orchestration, data curation, synthetic data generation, and compute efficiency. If lab productivity continues rising faster than headcount, demand should migrate toward tooling that helps research teams run more experiments per day, detect broken metrics earlier, and convert raw model capability into repeatable workflows. That also means the market may underprice infra names that help labs increase throughput without requiring a new frontier model release. The key question is less whether superintelligence arrives on a precise date and more whether the share of work automated inside frontier labs keeps rising, because that would expand spending on the picks-and-shovels layer even before any broader deployment wave.",
-    "ticker_analysis": {
-      "METER": {
-        "rationale": "Not a public ticker, but it matters as a source of the claim that internal evaluations show AI uplift can make well-scoped progress faster.",
-        "positioning": "Watch",
-        "risk": "The embedded evaluation methodology is not fully public, so the reported acceleration could fail under replication."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [
@@ -68251,11 +68239,6 @@ const dashboardData = {
     "key_takeaways_detailed": [],
     "investment_thesis": "The actionable angle is to watch for products that make agentic software buildable in production: debugging, traceability, decision routing, and constrained specs that reduce ambiguity. The strongest setups are likely not pure model vendors, but workflow layers that sit between a base model and the end user, especially where correctness, auditability, and reproducibility matter. For application companies, the key question is whether they can turn model output into a maintainable system rather than a demo. That means tracking whether they build guardrails, structured state, evaluation harnesses, and clear handoffs between generation and decision-making. If those layers are absent, the risk is that agentic features remain brittle and expensive to support. For infrastructure and tooling names, the episode supports a view that observability and team collaboration around agents can become a real budget line item. The market opportunity is in making AI systems less disorienting for developers and more legible for operators. The most attractive companies will likely be those that reduce iteration time and defect rates, not those that simply advertise larger context windows or more fluent outputs.",
     "ticker_analysis": {
-      "JIRA": {
-        "rationale": "Jira is explicitly positioned as the place to manage agent swarms and keep sessions, decisions, and PRs visible. That maps directly to Tariq's emphasis on receipts, interpretability, and workflow control.",
-        "positioning": "Watch",
-        "risk": "If agentic development remains small-scale or stays inside IDE-native tools, Jira may not capture enough of the workflow layer to matter."
-      },
       "FIG": {
         "rationale": "Figma appears as an example of models using real tools to do UI work inside a human workflow. That makes it relevant as a beneficiary of computer-use style interactions and design-to-code workflows.",
         "positioning": "Watch",
@@ -68282,7 +68265,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-11-25T22:10:45.463269",
     "updated_at": "2026-11-26 04:10:45",
-    "episode_evidence": "Tariq Shihipar: I don't even really feel like I'm bottlenecked by intelligence maybe. Like, maybe I'm bottlenecked by ambition.\nTariq Shihipar: I hate the experience of building this game right now. As much as like it's cool, I just have no idea what's happening.\nTariq Shihipar: You can now like, ask it to like computer use Figma and draw inside of Figma the, the front end and it will be like as good, you know?\nTariq Shihipar: I had, uh, Claude run simulations on it. Mm. And it turned out that you always want just economic victory.\nTariq Shihipar: Decision models are like, somewhere in between there, right? So you can sort of pre, like, write out, you know, the behavior of the AI, but then you can also evaluate the game state at any one point and be like, 'Oh, based on this game state, uh, you know, like, what, what do you want to do?'",
+    "episode_evidence": "Thariq Shihipar: I don't even really feel like I'm bottlenecked by intelligence maybe. Like, maybe I'm bottlenecked by ambition.\nThariq Shihipar: I hate the experience of building this game right now. As much as like it's cool, I just have no idea what's happening.\nThariq Shihipar: You can now like, ask it to like computer use Figma and draw inside of Figma the, the front end and it will be like as good, you know?\nThariq Shihipar: I had, uh, Claude run simulations on it. Mm. And it turned out that you always want just economic victory.\nThariq Shihipar: Decision models are like, somewhere in between there, right? So you can sort of pre, like, write out, you know, the behavior of the AI, but then you can also evaluate the game state at any one point and be like, 'Oh, based on this game state, uh, you know, like, what, what do you want to do?'",
     "falsification_tracks": [
       "By 2027-06-30, teams using constrained spec-like workflows must cut user-reported defect rates by at least 25% versus default vibe-coding pipelines, measured in Jira issue data and post-release bug counts. Source: Jira issue tracker and internal QA metrics.",
       "By 2027-12-31, decision-model routing for structured support tasks must beat a pure LLM baseline by at least 10% in exact-match resolution rate and calibration error on a fixed evaluation set. Source: independent evaluation harness.",
@@ -70058,7 +70041,7 @@ const dashboardData = {
     "last_main_idea": "The episode\u2019s core claim is that the most valuable AI tooling will improve developer workflow, interpretability, and decision routing rather than simply adding more model intelligence.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-25 \u2022 The Revolution vs The Renaissance \u2014 Thariq Shihipar, OpenAI",
     "last_proof_snippet": "And I, um, don't even really feel like I'm bottlenecked by intelligence maybe. Like, maybe I'm bottlenecked by ambition. Like, maybe if I had like a, a larger thing. AI is both, uh, like a industrial revolution and a renaissance, you know?",
-    "supporting_takeaway": "Tariq Shihipar says the experience of building his game is disorienting because he \u201cjust have[s] no idea what\u2019s happening.\u201d",
+    "supporting_takeaway": "Thariq Shihipar says the experience of building his game is disorienting because he \u201cjust have[s] no idea what\u2019s happening.\u201d",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -70112,7 +70095,7 @@ const dashboardData = {
     "last_main_idea": "Selected AI-adjacent credits now look fairly priced or cheap, but the best risk-adjusted trade is hyperscaler AA credit and disciplined name-by-name selection, not broad exposure to the theme.",
     "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-11-25 \u2022 DoubleLine Turns AI Debt Bull From Bear After Selloff Made it Cheaper",
     "last_proof_snippet": "Speaker 1: My name is James Grumby. I'm a senior editor at Bloomberg. Speaker 2: And I'm Rob Schiffman, senior analyst covering tech at Bloomberg Speaker 2: Intelligence and co-head of our U. S. credit research business.",
-    "supporting_takeaway": "Robert Cohen says Oracle moved from not making sense to being fair value/high-yield appropriate after widening into the single-B range.",
+    "supporting_takeaway": "Robert Cohen says Oracle moved from not making sense to being fair value/high-yield appropriate after its spreads widened to single-B levels, though it is still rated BBB.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -72067,65 +72050,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 300,
-    "name": "Ed Zitron",
-    "slug": "ed-zitron",
-    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
-    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Blunt, skeptical, and highly animated.",
-    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
-    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
-    "voice_profile_updated_at": "2026-10-02 03:15:54",
-    "last_seen": "2026-10-02 03:15:54",
-    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-01",
-    "mention_score": 2,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
-    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Zitron",
-      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
-      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
-      "derived": {
-        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
-        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
-      ],
-      "sections": [
-        {
-          "heading": "AI and ROI",
-          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
-        },
-        {
-          "heading": "Contrarian Views",
-          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
-        },
-        {
-          "heading": "Podcast and Newsletter",
-          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
-        }
-      ]
-    }
-  },
-  {
     "id": 607,
     "name": "Aman Singh",
     "slug": "aman-singh",
@@ -72205,6 +72129,65 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 300,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
+    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Blunt, skeptical, and highly animated.",
+    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
+    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
+    "voice_profile_updated_at": "2026-10-02 03:15:54",
+    "last_seen": "2026-10-02 03:15:54",
+    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-01",
+    "mention_score": 2,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
+    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Zitron",
+      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
+      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
+      "derived": {
+        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
+        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
+      ],
+      "sections": [
+        {
+          "heading": "AI and ROI",
+          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
+        },
+        {
+          "heading": "Contrarian Views",
+          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
+        },
+        {
+          "heading": "Podcast and Newsletter",
+          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
+        }
+      ]
+    }
   },
   {
     "id": 301,
@@ -72325,60 +72308,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 599,
-    "name": "David V\u00e9lez",
-    "slug": "david-v\u00e9lez",
-    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:25:46",
-    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.54,
-    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
-    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
-    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 598,
-    "name": "Luke Gromen",
-    "slug": "luke-gromen",
-    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:24:49",
-    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.54,
-    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
-    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 160,
     "name": "Ben Lamm",
     "slug": "ben-lamm",
@@ -72441,6 +72370,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 599,
+    "name": "David V\u00e9lez",
+    "slug": "david-v\u00e9lez",
+    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:25:46",
+    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
+    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
+    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 598,
+    "name": "Luke Gromen",
+    "slug": "luke-gromen",
+    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:24:49",
+    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
+    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 596,
@@ -72622,7 +72605,7 @@ const dashboardData = {
     "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "last_episode_date": "2026-10-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Seelaus says calm credit spreads hide stress that shows up with a lag, so picking the right bonds, especially in thinly traded areas and AI data-center debt, matters more than buying the whole market.",
     "supporting_takeaway": "Seelaus says rate moves hit with a lag, meaning the real damage shows up later when the tide goes out and the weakest borrowers are revealed.",
     "grokipedia_url": null,
@@ -73187,7 +73170,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-20 \u2022 The Programmable Data Center \u2014 Evan Conrad, SF Compute",
     "last_proof_snippet": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.",
@@ -73241,7 +73224,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-19 \u2022 Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
     "last_proof_snippet": "",
@@ -73599,7 +73582,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
     "last_proof_snippet": "",
@@ -73996,7 +73979,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Biology AI winners will be those that pair better biological data with calibrated, trustworthy models that solve dynamics and whole-system problems, not just static structure prediction.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-10 \u2022 Why AlphaFold Didn't Solve Protein Folding \u2014 Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
     "last_proof_snippet": "",
@@ -74023,7 +74006,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Biology AI winners will be those that pair better biological data with calibrated, trustworthy models that solve dynamics and whole-system problems, not just static structure prediction.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-10 \u2022 Why AlphaFold Didn't Solve Protein Folding \u2014 Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
     "last_proof_snippet": "",
@@ -74185,7 +74168,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-05 \u2022 Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
     "last_proof_snippet": "",
@@ -74212,7 +74195,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "J Mintzmyer argues dry bulk, not tankers, has the stronger setup because Capesize rates near $40,000 to $50,000 per day meet restrained supply and longer Guinea-to-China ton miles.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-06 \u2022 The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
     "last_proof_snippet": "Words like crisis or historic, really do not even begin to capture what is going on with tankers and the straight of hormones.",
@@ -74239,7 +74222,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Angela Strange said Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market, after Valon rebuilt mortgage servicing around a modern system of record.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-07 \u2022 How Valon Rebuilt a $13 Trillion Industry From Scratch",
     "last_proof_snippet": "Mortgage is top three in terms of undisrupted industries that exist. This is an industry that hasn't even caught up to 2000s technology yet. That's sort of the size of the opportunity in front of us.",
@@ -74266,7 +74249,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armadin has already found over 90 production zero days since January 2026.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-06 \u2022 Building Defense for the Agentic Era: Kevin Mandia",
     "last_proof_snippet": "If you don't have a defense on this, you have a great offense to go up against. You want to be the Baltimore Ravens defense at 2000, you kind of want to have your practice offense really push you. That's what Armenians are going to do.",
@@ -74293,7 +74276,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "",
@@ -74390,66 +74373,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 52,
-    "name": "Alex Karp",
-    "slug": "alex-carp",
-    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
-    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Assertive and knowledgeable.",
-    "voice_style": "Factual and persuasive.",
-    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
-    "voice_profile_updated_at": "2026-07-04 04:37:05",
-    "last_seen": "2026-08-17 03:02:02",
-    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-07-08",
-    "mention_score": 3,
-    "mention_score_decayed": 0.29,
-    "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Karp",
-      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
-      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
-      "derived": {
-        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "German-American"
-      },
-      "lead_paragraphs": [
-        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
-        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
-      ],
-      "sections": [
-        {
-          "heading": "Palantir Technologies",
-          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
-        },
-        {
-          "heading": "Big Data Analytics",
-          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
-        },
-        {
-          "heading": "AI Contributions",
-          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
-        }
-      ]
-    },
-    "net_worth": null
-  },
-  {
     "id": 502,
     "name": "Seema Amble",
     "slug": "seema-amble",
@@ -74504,6 +74427,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 52,
+    "name": "Alex Karp",
+    "slug": "alex-carp",
+    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
+    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Assertive and knowledgeable.",
+    "voice_style": "Factual and persuasive.",
+    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
+    "voice_profile_updated_at": "2026-07-04 04:37:05",
+    "last_seen": "2026-08-17 03:02:02",
+    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-08",
+    "mention_score": 3,
+    "mention_score_decayed": 0.28,
+    "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Karp",
+      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
+      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
+      "derived": {
+        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
+        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Technologies",
+          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
+        },
+        {
+          "heading": "Big Data Analytics",
+          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
+        },
+        {
+          "heading": "AI Contributions",
+          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
+        }
+      ]
+    },
+    "net_worth": null
+  },
+  {
     "id": 499,
     "name": "Alex Zhang",
     "slug": "alex-zhang",
@@ -74521,7 +74504,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Alex Zhang predicts language models may become hidden swarms under simple interfaces because composing agents through shared context can solve problems like OpenAI's 10,000-agent experiment.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-02 \u2022 Academia is for Ambition \u2014 Alex Zhang, MIT",
     "last_proof_snippet": "",
@@ -75054,7 +75037,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "The credit market is increasingly bifurcated, favoring high-quality borrowers while lower-quality borrowers face tighter conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-24 \u2022 Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
     "last_proof_snippet": "",
@@ -75110,7 +75093,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
     "last_proof_snippet": "",
@@ -76438,75 +76421,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 449,
-    "name": "John Farris",
-    "slug": "john-ferris",
-    "bio": "John Farris is a principal at Land Fund Partners, where he leads the acquisition and improvement of farmland in the Mid-South using sustainable irrigation and regenerative agriculture. He began his career in the 1990s as an agricultural economist at the World Bank, studying global food supply trends. He now focuses on water-rich agricultural land as a real asset investment, targeting the structural tension between shrinking arable land and rising global food demand. He recently discussed these themes on the Monetary Matters podcast, highlighting near-term risks to global grain reserves.",
-    "known_for": "Bridging agricultural economics and farmland investment to capitalize on structural global food-supply constraints and water-rich real assets.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Data-driven and regionally specific, citing acreage counts and aquifer timelines with confidence.",
-    "voice_style": "Builds investment cases through scarcity framing, comparing water reserves and land prices across regions to highlight relative value.",
-    "voice_delivery_notes": "Maintain a measured, conversational pace with slight emphasis on numerical comparisons like '300 years' and '140% higher'.",
-    "voice_profile_updated_at": "2026-09-12 03:39:42",
-    "last_seen": "2026-09-12 03:39:42",
-    "last_episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-09-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.18,
-    "last_main_idea": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-11 \u2022 Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-12T05:22:35.829155",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:kimi-k2.6",
-      "source_url": "",
-      "page_title": "John Farris",
-      "fetched_at": "2026-09-12T10:22:35.828786+00:00",
-      "cliff_notes": "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis. In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.\n\nFarris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance. He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets. By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing.",
-      "derived": {
-        "current_role": "Principal at Land Fund Partners",
-        "former_positions": "Agricultural economist at the World Bank"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis.",
-        "In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.",
-        "Farris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance.",
-        "He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets.",
-        "By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing."
-      ],
-      "sections": [
-        {
-          "heading": "Farmland Real Assets",
-          "body": "Farris treats productive farmland as an underappreciated real asset and inflation hedge. He argues that it sits outside traditional equity and bond markets while offering exposure to secular trends in global food demand."
-        },
-        {
-          "heading": "World Bank Agricultural Economics",
-          "body": "Straight out of graduate school in the 1990s, Farris worked at the World Bank as an agricultural economist studying global food supply trends. That research period shaped the macro thesis he later deployed with private investment capital."
-        },
-        {
-          "heading": "Sustainable Land Improvement",
-          "body": "At Land Fund Partners, Farris focuses on acquiring farmland in the Mid-South and upgrading it through sustainable irrigation and regenerative agriculture. The goal is to improve long-term soil health and operational yields."
-        },
-        {
-          "heading": "Global Food Security & Macro Trends",
-          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and low global grain reserves could amplify these pressures."
-        },
-        {
-          "heading": "Water-Rich Land Strategy",
-          "body": "A core element of his approach is targeting water-rich agricultural land. Access to reliable water is treated as a critical scarce resource that underpins the long-term productivity and defensive value of the portfolio."
-        }
-      ]
-    },
-    "net_worth": null
-  },
-  {
     "id": 218,
     "name": "Joe Schmidt",
     "slug": "joe-schmidt",
@@ -76565,6 +76479,75 @@ const dashboardData = {
       ]
     },
     "net_worth": "$21.0M"
+  },
+  {
+    "id": 449,
+    "name": "John Farris",
+    "slug": "john-ferris",
+    "bio": "John Farris is a principal at Land Fund Partners, where he leads the acquisition and improvement of farmland in the Mid-South using sustainable irrigation and regenerative agriculture. He began his career in the 1990s as an agricultural economist at the World Bank, studying global food supply trends. He now focuses on water-rich agricultural land as a real asset investment, targeting the structural tension between shrinking arable land and rising global food demand. He recently discussed these themes on the Monetary Matters podcast, highlighting near-term risks to global grain reserves.",
+    "known_for": "Bridging agricultural economics and farmland investment to capitalize on structural global food-supply constraints and water-rich real assets.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Data-driven and regionally specific, citing acreage counts and aquifer timelines with confidence.",
+    "voice_style": "Builds investment cases through scarcity framing, comparing water reserves and land prices across regions to highlight relative value.",
+    "voice_delivery_notes": "Maintain a measured, conversational pace with slight emphasis on numerical comparisons like '300 years' and '140% higher'.",
+    "voice_profile_updated_at": "2026-09-12 03:39:42",
+    "last_seen": "2026-09-12 03:39:42",
+    "last_episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.17,
+    "last_main_idea": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-11 \u2022 Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-12T05:22:35.829155",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "John Farris",
+      "fetched_at": "2026-09-12T10:22:35.828786+00:00",
+      "cliff_notes": "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis. In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.\n\nFarris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance. He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets. By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing.",
+      "derived": {
+        "current_role": "Principal at Land Fund Partners",
+        "former_positions": "Agricultural economist at the World Bank"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "John Farris is a farmland investment principal whose career bridges multilateral food policy and private-market real asset management. After completing graduate school in the 1990s, he joined the World Bank as an agricultural economist, where he studied long-term global food supply trends and developed the analytical foundation for his later investment thesis.",
+        "In 2013, he transitioned from research to practice, committing capital to the direct acquisition of farmland. He is currently a principal at Land Fund Partners, a firm focused on buying and improving agricultural land in the Mid-South region of the United States. At Land Fund Partners, Farris emphasizes sustainable irrigation infrastructure and regenerative agriculture practices to enhance soil health and long-term productivity.",
+        "Farris\u2019s investment framework treats farmland\u2014particularly water-rich acreage\u2014as a strategic real asset positioned to benefit from secular demographic and climatic trends. He argues that the global arable land base is shrinking while worldwide demand for food and protein continues to rise, creating a durable supply-demand imbalance.",
+        "He has publicly warned that near-term conditions, including the potential for a strong El Ni\u00f1o cycle and depleted global grain reserves, could exacerbate food security risks and increase the strategic value of productive farmland. His appearance on the Monetary Matters podcast underscored his view that farmland is an underappreciated inflation-hedging asset class distinct from traditional financial markets.",
+        "By combining his World Bank policy background with hands-on land improvement, Farris represents a hybrid model of macro-driven, operationally intensive farmland investing."
+      ],
+      "sections": [
+        {
+          "heading": "Farmland Real Assets",
+          "body": "Farris treats productive farmland as an underappreciated real asset and inflation hedge. He argues that it sits outside traditional equity and bond markets while offering exposure to secular trends in global food demand."
+        },
+        {
+          "heading": "World Bank Agricultural Economics",
+          "body": "Straight out of graduate school in the 1990s, Farris worked at the World Bank as an agricultural economist studying global food supply trends. That research period shaped the macro thesis he later deployed with private investment capital."
+        },
+        {
+          "heading": "Sustainable Land Improvement",
+          "body": "At Land Fund Partners, Farris focuses on acquiring farmland in the Mid-South and upgrading it through sustainable irrigation and regenerative agriculture. The goal is to improve long-term soil health and operational yields."
+        },
+        {
+          "heading": "Global Food Security & Macro Trends",
+          "body": "Farris highlights a structural tension: the world\u2019s arable land base is shrinking just as demand for food and protein rises. He notes that near-term climate risks such as a strong El Ni\u00f1o and low global grain reserves could amplify these pressures."
+        },
+        {
+          "heading": "Water-Rich Land Strategy",
+          "body": "A core element of his approach is targeting water-rich agricultural land. Access to reliable water is treated as a critical scarce resource that underpins the long-term productivity and defensive value of the portfolio."
+        }
+      ]
+    },
+    "net_worth": null
   },
   {
     "id": 445,
@@ -78365,7 +78348,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "",
@@ -78867,7 +78850,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "",
@@ -87131,7 +87114,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 7,
-    "mention_score_decayed": 1.57,
+    "mention_score_decayed": 1.54,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software.",
