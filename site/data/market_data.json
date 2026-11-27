@@ -1,6 +1,6 @@
 {
   "_comment": "First-class market data objects for the idea radar (Compute Forward spot and curve).",
-  "_updated": "2026-11-26",
+  "_updated": "2026-11-27",
   "_data_status": "live",
   "schema_version": 1,
   "data_fetch_status": {
@@ -12,14 +12,14 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-11-26T21:39:55.953351",
+    "last_fetched": "2026-11-27T07:05:43.413436",
     "h100": {
       "daily_date": "Nov 27, 2026",
       "daily_date_iso": "2026-11-27",
       "composite_index": {
-        "display": "$3.46",
+        "display": "$3.47",
         "type": "single",
-        "value": 3.46
+        "value": 3.47
       },
       "contract_period": "Oct 2026",
       "1y_contract": {
@@ -48,21 +48,21 @@
       ],
       "daily_trend": {
         "data_points": 1143,
-        "latest_value": 3.46,
+        "latest_value": 3.47,
         "latest_date": "Nov 27, 2026",
         "short_term": {
-          "change_pct": 0.3,
+          "change_pct": 0.6,
           "comparison_date": "Nov 20, 2026",
           "comparison_value": 3.45,
           "days_back": 7
         },
         "long_term": {
-          "change_pct": 2.1,
+          "change_pct": 2.4,
           "anchor_date": "Oct 28, 2026",
           "anchor_value": 3.39,
           "days_back": 30
         },
-        "change_pct": 0.3,
+        "change_pct": 0.6,
         "comparison_date": "Nov 20, 2026"
       },
       "contract_trend": {
@@ -116,9 +116,9 @@
     "b200": {
       "daily_date": "Nov 27, 2026",
       "composite_index": {
-        "display": "$6.31",
+        "display": "$6.32",
         "type": "single",
-        "value": 6.31
+        "value": 6.32
       }
     },
     "a100": {
@@ -692,7 +692,7 @@
         3.52,
         3.5,
         3.5,
-        3.46
+        3.47
       ],
       "b200": [
         4.75,
@@ -877,7 +877,7 @@
         6.25,
         6.27,
         6.33,
-        6.31
+        6.32
       ]
     },
     "history_summary": {
@@ -921,23 +921,23 @@
     "_api_url": "https://aicomputetracker.com/forward-curves.json",
     "_settles_on": "Ornn Compute Price Index (OCPI)",
     "_license": "AI Compute Tracker (aicomputetracker.com), CC BY 4.0; third-party terms apply to data from Kalshi (KalshiEX LLC)",
-    "as_of": "2026-11-27T00:37:42.415Z",
+    "as_of": "2026-11-27T06:38:05.156Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-11-26T21:39:56.357061",
+    "last_fetched": "2026-11-27T07:05:43.782886",
     "b200": {
       "points": [
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 9.72,
+          "price": 9.71,
           "quality": "thin",
           "identified": false
         },
         {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 9.65,
+          "price": 9.69,
           "quality": "quality-passed",
           "identified": true
         },
@@ -962,7 +962,7 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 9.72,
+          "price": 9.71,
           "quality": "thin",
           "identified": false
         },
@@ -974,8 +974,8 @@
           "identified": false
         }
       ],
-      "two_sided_markets": 36,
-      "liquidity_usd": 14195,
+      "two_sided_markets": 35,
+      "liquidity_usd": 14353,
       "kalshi_series": "KXB200MS",
       "last_trade_at": "2026-11-25T00:51:01.073Z"
     },
@@ -991,14 +991,14 @@
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 6.58,
+          "price": 6.14,
           "quality": "thin",
           "identified": false
         },
         {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 7.83,
+          "price": 7.88,
           "quality": "thin",
           "identified": false
         }
@@ -1023,13 +1023,13 @@
         {
           "tenor_key": "2027-01",
           "tenor": "Jan '27",
-          "price": 7.83,
+          "price": 7.88,
           "quality": "thin",
           "identified": false
         }
       ],
       "two_sided_markets": 53,
-      "liquidity_usd": 7565,
+      "liquidity_usd": 7438,
       "kalshi_series": "KXH200MS",
       "last_trade_at": "2026-11-13T01:26:12.192Z"
     },
@@ -1041,11 +1041,17 @@
           "price": 3.12,
           "quality": "thin",
           "identified": false
+        },
+        {
+          "tenor_key": "2027-01",
+          "tenor": "Jan '27",
+          "price": 3.13,
+          "quality": "thin",
+          "identified": false
         }
       ],
       "placeholders_dropped": [
         "2026-12",
-        "2027-01",
         "2027-02",
         "2027-03",
         "2027-04",
@@ -1064,7 +1070,7 @@
         }
       ],
       "two_sided_markets": 24,
-      "liquidity_usd": 7504,
+      "liquidity_usd": 5532,
       "kalshi_series": "KXH100MS",
       "last_trade_at": "2026-11-13T01:17:27.841Z"
     },
@@ -1073,14 +1079,14 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 1.12,
+          "price": 1.13,
           "quality": "thin",
           "identified": false
         },
         {
           "tenor_key": "2026-12",
           "tenor": "Dec '26",
-          "price": 1.08,
+          "price": 1.07,
           "quality": "thin",
           "identified": false
         },
@@ -1117,7 +1123,7 @@
         {
           "tenor_key": "2026-11",
           "tenor": "Nov '26",
-          "price": 1.12,
+          "price": 1.13,
           "quality": "thin",
           "identified": false
         },
@@ -1129,43 +1135,43 @@
           "identified": false
         }
       ],
-      "two_sided_markets": 7,
-      "liquidity_usd": 3578,
+      "two_sided_markets": 5,
+      "liquidity_usd": 3317,
       "kalshi_series": "KXA100MS",
       "last_trade_at": "2026-11-13T00:53:09.876Z"
     }
   },
   "compute_outlook": {
-    "line": "B200 rising, H100 rising, A100 dropping.",
-    "explanation": "demand strong for B200 and H100, supply catching up on older ones.",
+    "line": "B200 rising, H100 steady, A100 dropping.",
+    "explanation": "demand strong for the newest chips, supply catching up on older ones.",
     "chips": {
       "b200": {
-        "spot": 6.31,
-        "spot_30d_pct": -6.4,
-        "spot_90d_pct": 14.3,
-        "forward_vs_spot_pct": 17.6,
-        "score": 8.5,
+        "spot": 6.32,
+        "spot_30d_pct": -6.2,
+        "spot_90d_pct": 14.5,
+        "forward_vs_spot_pct": 17.7,
+        "score": 8.7,
         "trend": "rising"
       },
       "h100": {
-        "spot": 3.46,
-        "spot_30d_pct": 2.1,
-        "spot_90d_pct": 7.5,
-        "forward_vs_spot_pct": null,
-        "score": 4.8,
-        "trend": "rising"
+        "spot": 3.47,
+        "spot_30d_pct": 2.4,
+        "spot_90d_pct": 7.8,
+        "forward_vs_spot_pct": -9.8,
+        "score": 0.1,
+        "trend": "steady"
       },
       "a100": {
         "spot": 1.65,
         "spot_30d_pct": -5.2,
         "spot_90d_pct": -8.3,
-        "forward_vs_spot_pct": -29.8,
-        "score": -14.4,
+        "forward_vs_spot_pct": -30.0,
+        "score": -14.5,
         "trend": "dropping"
       }
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
     "as_of": "2026-11-27",
-    "generated_at": "2026-11-26T21:39:56"
+    "generated_at": "2026-11-27T07:05:43"
   }
 }
