@@ -1,5 +1,24 @@
 [
   {
+    "id": 736,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Inside the AI Training Data Market \u2014 Gabe Greenberg, G2i",
+    "episode_date": "2026-11-27",
+    "summary": "The episode is a deep dive into the AI training-data market with Gabe Greenberg, CEO of G2I, who describes G2I as building human data and computer-use infrastructure for frontier labs. He says the company is profitable, did about 15 million last year, and will do about 100 million this year without VC backing. He also says the customer base is still narrow, with only frontier labs buying this kind of work and only about 5\u20136 customers at the moment.\n\nA central argument is that data tasks have to be calibrated carefully: they need to be hard enough to move models forward, but not so hard that they become evals instead of training signals. Greenberg says benchmark quality and instructions have become more important as models improve, citing SWE-bench and SWE-bench Pro as examples where early instructions were bad and later iteration helped. He frames the current market as moving beyond raw volume and correctness toward partners who can identify gaps, behavior, and taste.\n\nHe also argues that data buyers are shifting from price-first procurement to quality-first procurement. In his view, a 20% price savings matters less than superior data quality, and procurement for frontier labs is fast and pilot-driven, unlike enterprise processes that can take 6\u201312 months or more. He says labs increasingly want partners rather than simple vendors, and he ties that to rising security, IP, and supply-chain concerns around data leakage and competition.\n\nLooking ahead, Greenberg highlights robotics, 3D world models, and engineering domains like CAD and mechanical engineering as growth areas, alongside post-training data and RL environments. He says human-data spend may rise from about 2% to 3% of compute budget to about 4% to 6%, and he suggests efforts to cut inference by 50% with about 1% data loss will become a major focus next year.",
+    "key_takeaways": [
+      "Gabe Greenberg says G2I does human data and computer use infrastructure for labs, and is expanding into 3D, STEM, and mechanical engineering.",
+      "Gabe Greenberg says G2I did 15 million last year and will do about 100 million this year, with no VC backing.",
+      "Gabe Greenberg says the current market is still mostly frontier labs, with only about 5\u20136 customers at the moment.",
+      "Gabe Greenberg says training tasks must be \"just hard enough\" to be trainable and efficiently trainable; if they are too hard, they become evals.",
+      "Gabe Greenberg says labs have shifted from wanting volume and raw correctness to wanting partners who can find gaps, behavior, and taste.",
+      "Gabe Greenberg says quality data matters more than a 20% price savings, so vendors compete by saying \"this is better\" rather than just undercutting price.",
+      "Gabe Greenberg says human-data spend could rise from about 2%\u20133% of compute to about 4%\u20136%, and that post-training is consuming more compute.",
+      "Gabe Greenberg says robotics and 3D are likely growth areas, and that six-month contracts are possible there now."
+    ],
+    "investment_thesis": "AI data spend is shifting from cheap volume to higher-quality post-training, robotics, and 3D data, with frontier labs paying for partners that can deliver harder, better-calibrated tasks.",
+    "key_tickers": null
+  },
+  {
     "id": 735,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "AI researchers debate what we should do next \u2013 Daniel Kokotajlo and Ege Erdil",
