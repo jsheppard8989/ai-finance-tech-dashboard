@@ -380,7 +380,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-23",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "The market is mispricing AI semicapex because it is missing open-source and on-prem economics that could keep returns and demand rising longer than expected.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-23 \u2022 Gavin Baker: The AI Capex Cycle Will Be Longer Than the Market Thinks | Jensen, Nvidia, and Gavin's Best AI Bear Case",
     "last_proof_snippet": "This very important conversation with leading tech and semiconductor investor Gavin Baker of a Trades was recorded on November 18th at the tomorrow ex summit after Nvidia's earnings, but before Nvidia's board reinstated Jensen Huang as CEO.",
@@ -697,70 +697,6 @@
     "net_worth": null
   },
   {
-    "id": 91,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
-    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "net_worth_usd": 19000000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
-    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
-    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
-    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
-    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
-    "voice_profile_updated_at": "2026-03-20 03:11:05",
-    "last_seen": "2026-11-16 20:16:12",
-    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-11-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.59,
-    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
-    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brett Adcock",
-      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
-      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
-      "derived": {
-        "current_role": "Entrepreneur and Investor"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
-        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Robotics",
-          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
-        },
-        {
-          "heading": "Neural Nets",
-          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
-        },
-        {
-          "heading": "Autonomous Manufacturing",
-          "body": "Adcock"
-        },
-        {
-          "heading": "Market Potential",
-          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
-        }
-      ]
-    },
-    "net_worth": "$19.00B"
-  },
-  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -823,6 +759,70 @@
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 91,
+    "name": "Brett Adcock",
+    "slug": "brett-adcock",
+    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
+    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
+    "net_worth_usd": 19000000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
+    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
+    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
+    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
+    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
+    "voice_profile_updated_at": "2026-03-20 03:11:05",
+    "last_seen": "2026-11-16 20:16:12",
+    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-11-16",
+    "mention_score": 2,
+    "mention_score_decayed": 1.55,
+    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
+    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brett Adcock",
+      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
+      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
+      "derived": {
+        "current_role": "Entrepreneur and Investor"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
+        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Robotics",
+          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
+        },
+        {
+          "heading": "Neural Nets",
+          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
+        },
+        {
+          "heading": "Autonomous Manufacturing",
+          "body": "Adcock"
+        },
+        {
+          "heading": "Market Potential",
+          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
+        }
+      ]
+    },
+    "net_worth": "$19.00B"
   },
   {
     "id": 81,
@@ -1250,7 +1250,7 @@
     "id": 720,
     "name": "Sean Rad",
     "slug": "sean-rad",
-    "bio": "Tinder founder and entrepreneur who discusses the company\u2019s origin, growth strategy, and product philosophy. He also references earlier ventures including Adley and his work that he says led to what is now Apple Analytics.",
+    "bio": "Tinder founder and entrepreneur who discusses the company\u2019s origin, growth strategy, and product philosophy. He also references earlier ventures including Adly and his work that he says led to what is now Apple Analytics.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -1427,8 +1427,8 @@
   },
   {
     "id": 715,
-    "name": "Tariq Shihipar",
-    "slug": "tariq-shihipar",
+    "name": "Thariq Shihipar",
+    "slug": "thariq-shihipar",
     "bio": "Most recently of Anthropic and announced as joining OpenAI. He focuses on agents, tooling, and decision-model concepts, and discussed his own game-building workflow as an example.",
     "known_for": null,
     "net_worth_usd": null,
@@ -1737,33 +1737,6 @@
     }
   },
   {
-    "id": 701,
-    "name": "Steve Jervitson",
-    "slug": "steve-jervitson",
-    "bio": "Venture capitalist and long-time investor associated with SpaceX, Tesla, and early internet companies. He discusses hard-tech investing, frontier AI, and long-term space and industrial themes.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-21 20:04:14",
-    "last_episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-11-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-21 \u2022 Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
-    "last_proof_snippet": "And we have a full house today. Listen, guys, I am so excited to have Steve with Jervitson on the pod today.",
-    "supporting_takeaway": "One host said SpaceX is adding roughly 500 megawatts of AI compute each month, using about 220,000 GP300 chips, and expects to pass one gigawatt a month by the end of 2027.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -1829,6 +1802,33 @@
         }
       ]
     }
+  },
+  {
+    "id": 701,
+    "name": "Steve Jervitson",
+    "slug": "steve-jervitson",
+    "bio": "Venture capitalist and long-time investor associated with SpaceX, Tesla, and early internet companies. He discusses hard-tech investing, frontier AI, and long-term space and industrial themes.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-21 20:04:14",
+    "last_episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-11-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-21 \u2022 Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+    "last_proof_snippet": "And we have a full house today. Listen, guys, I am so excited to have Steve with Jervitson on the pod today.",
+    "supporting_takeaway": "One host said SpaceX is adding roughly 500 megawatts of AI compute each month, using about 220,000 GP300 chips, and expects to pass one gigawatt a month by the end of 2027.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 700,
@@ -1902,7 +1902,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The key claim is that agent-first software will favor Linux and open models over traditional desktop platforms and closed AI stacks.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-20 \u2022 Why the Agent Era Needs a New Operating System | DHH",
     "last_proof_snippet": "Mac OS and Windows are just unfit for the age of agents.",
@@ -2367,7 +2367,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The key claim is that SEC reforms expanding ATM and offering access for smaller issuers could materially improve OTC capital formation and trading demand.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-14 \u2022 The Case for Public Markets | Cromwell Coulson on Small-Cap Capital Formation, Disclosure, and SEC Offering Reform",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it.",
@@ -2394,7 +2394,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Network effects, regulatory classification, and research-lab structure can create outsized winners in communications, but monopolies also attract disruption and regulatory pushback.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-14 \u2022 From the Telephone to Modern Computing | James Gleick",
     "last_proof_snippet": "People always dreamed of being able to communicate across long distances, but there was no practical way to do that until the telegraph arrived.",
@@ -2475,7 +2475,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-11-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Uranium is structurally under-supplied, and the market is still mispricing that deficit because investors are focused on AI-driven sentiment rather than contracting reality.",
     "last_proof_cite": "Macro Voices \u2022 2026-11-12 \u2022 MacroVoices #558 Mike Alkin: Uranium at a Crossroads",
     "last_proof_snippet": "There is not enough economically viable uranium to satisfy the world's existing reactor fleet of 440 operating reactors of which a little over 420 are actually producing electricity and the pipeline of aiding new reactors coming online.",
@@ -2691,7 +2691,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "AI will expand software opportunity by making startups faster and cheaper to build while leaving durable value in workflow-centric products like HubSpot rather than frontier-lab replacements.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-10 \u2022 HubSpot\u2019s Co-Founder on Finding Your Next Startup Idea",
     "last_proof_snippet": "Chad, G-P-T, and Claude Colworth, they're effectively the new OS. There's plenty of room to build software outside the path the frontier AI labs are racing down. Since then, HubSpot's been busy.",
@@ -3446,7 +3446,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "AI infrastructure is increasingly a liquidity trade: financing stress, not demand, is the main near-term risk, while top-tier credits remain funded first.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-01 \u2022 The Fed Has AI\u2019s Back | Dan Krausz on \u201cLiquidity Trap Door\u201d In AI Infrastructure and Why Policymakers Are Inclined to Support Financial Conditions",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it. I'm here with Dan Krauss of Blutore Asset Management. Dan, great to see you again.",
@@ -3454,65 +3454,6 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 300,
-    "name": "Ed Zitron",
-    "slug": "ed-zitron",
-    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
-    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Blunt, skeptical, and highly animated.",
-    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
-    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
-    "voice_profile_updated_at": "2026-10-02 03:15:54",
-    "last_seen": "2026-10-02 03:15:54",
-    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-01",
-    "mention_score": 2,
-    "mention_score_decayed": 0.55,
-    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
-    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Zitron",
-      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
-      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
-      "derived": {
-        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
-        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
-      ],
-      "sections": [
-        {
-          "heading": "AI and ROI",
-          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
-        },
-        {
-          "heading": "Contrarian Views",
-          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
-        },
-        {
-          "heading": "Podcast and Newsletter",
-          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
-        }
-      ]
-    }
   },
   {
     "id": 607,
@@ -3594,6 +3535,65 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 300,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
+    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Blunt, skeptical, and highly animated.",
+    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
+    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
+    "voice_profile_updated_at": "2026-10-02 03:15:54",
+    "last_seen": "2026-10-02 03:15:54",
+    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-01",
+    "mention_score": 2,
+    "mention_score_decayed": 0.54,
+    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
+    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Zitron",
+      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
+      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
+      "derived": {
+        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
+        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
+      ],
+      "sections": [
+        {
+          "heading": "AI and ROI",
+          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
+        },
+        {
+          "heading": "Contrarian Views",
+          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
+        },
+        {
+          "heading": "Podcast and Newsletter",
+          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
+        }
+      ]
+    }
   },
   {
     "id": 301,
@@ -3714,60 +3714,6 @@
     "pundit_profile": null
   },
   {
-    "id": 599,
-    "name": "David V\u00e9lez",
-    "slug": "david-v\u00e9lez",
-    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:25:46",
-    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
-    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
-    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 598,
-    "name": "Luke Gromen",
-    "slug": "luke-gromen",
-    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:24:49",
-    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
-    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 160,
     "name": "Ben Lamm",
     "slug": "ben-lamm",
@@ -3830,6 +3776,60 @@
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 599,
+    "name": "David V\u00e9lez",
+    "slug": "david-v\u00e9lez",
+    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:25:46",
+    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
+    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
+    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 598,
+    "name": "Luke Gromen",
+    "slug": "luke-gromen",
+    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:24:49",
+    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
+    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 596,
@@ -4576,7 +4576,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-20 \u2022 The Programmable Data Center \u2014 Evan Conrad, SF Compute",
     "last_proof_snippet": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.",
@@ -4630,7 +4630,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-19 \u2022 Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
     "last_proof_snippet": "",
@@ -4988,7 +4988,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
     "last_proof_snippet": "",
@@ -5682,7 +5682,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "",
@@ -6071,7 +6071,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -6098,7 +6098,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -7184,7 +7184,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
     "last_proof_snippet": "",
@@ -8517,7 +8517,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -8578,7 +8578,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation.",
@@ -8606,7 +8606,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation.",
@@ -8634,7 +8634,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "",
@@ -9944,7 +9944,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "",
@@ -12975,7 +12975,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Clarion Partners manages over $70 billion in real estate assets, with a significant portion in industrial logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "",
@@ -18520,7 +18520,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 7,
-    "mention_score_decayed": 1.54,
+    "mention_score_decayed": 1.5,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software.",

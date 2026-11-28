@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-11-27T14:02:42.570552",
+  generatedAt: "2026-11-27T21:45:53.724663",
   chartsVersion: "2026-11-27T14:02:00.732705",
   priceSnapshot: {
   "AAPL": {
@@ -1615,7 +1615,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-27",
-      "summary": "Sean Rad and Andrew Chen frame Tinder as a product built around reducing rejection anxiety, not as a conventional dating app. Rad says the core insight was to use a matchmaker so users could signal interest without direct messaging, and that Tinder deliberately avoided the word \u201cdating\u201d because it was loaded and \u201cnot cool\u201d early on.\n\nA major theme is growth strategy for network products: Tinder focused on local density, starting with college campuses and Greek life rather than broad marketing. Rad describes early organic tactics like texting friends, creating campus echo chambers, and even avoiding celebrity-driven distribution because random users would weaken the network effects.\n\nRad also emphasizes product discipline and culture. He says a lot of startups put marketing ahead of product, and that with network products you need product-market fit before scale because otherwise user feedback is low quality. He credits Tinder\u2019s culture of radical honesty and openness with making it easier to kill features that did not work and to keep learning quickly.\n\nThe conversation also touches on press and controversy. Rad says Tinder initially leaned into press attention, but later caring about it became a distraction; letting go of that narrative focus unlocked creativity because what matters most is the relationship with users. The episode includes Rad\u2019s earlier founder history, including Adley\u2019s scale and his claim that he built what is now Apple Analytics after working with a Test Flight team.",
+      "summary": "Sean Rad and Andrew Chen frame Tinder as a product built around reducing rejection anxiety, not as a conventional dating app. Rad says the core insight was to use a matchmaker so users could signal interest without direct messaging, and that Tinder deliberately avoided the word \u201cdating\u201d because it was loaded and \u201cnot cool\u201d early on.\n\nA major theme is growth strategy for network products: Tinder focused on local density, starting with college campuses and Greek life rather than broad marketing. Rad describes early organic tactics like texting friends, creating campus echo chambers, and even avoiding celebrity-driven distribution because random users would weaken the network effects.\n\nRad also emphasizes product discipline and culture. He says a lot of startups put marketing ahead of product, and that with network products you need product-market fit before scale because otherwise user feedback is low quality. He credits Tinder\u2019s culture of radical honesty and openness with making it easier to kill features that did not work and to keep learning quickly.\n\nThe conversation also touches on press and controversy. Rad says Tinder initially leaned into press attention, but later caring about it became a distraction; letting go of that narrative focus unlocked creativity because what matters most is the relationship with users. The episode includes Rad\u2019s earlier founder history, including Adly, his earlier company and his claim that he built what is now Apple Analytics after working with a TestFlight team.",
       "key_takeaway": "Network products should prioritize density and product-market fit before broad marketing, or they risk weakening engagement and getting poor feedback.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1680,7 +1680,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-26",
-      "summary": "The episode argues that \u201cfood as medicine\u201d is compelling because food shares several properties people want from medicines: it can be safer, more effective in some settings, more affordable, and easier to sustain because people eat multiple times per day. The discussion centers on medically tailored meals, voucher programs, and healthier food benefits as tools for chronic disease and food-insecure populations.\n\nA major theme is scaling: speakers say the main bottlenecks are delivery, access, and payment/reimbursement. They describe the need to connect food benefits to insurer payment systems and to existing benefit programs like SNAP and WIC, while also using technology and digital ordering to make healthier choices easier in the checkout flow. The episode also frames the consumer \u201cfood environment\u201d as a lever for changing purchases without relying only on willpower.\n\nAndrea Feinberg points to real-world experience at Geisinger, where patients with diabetes received healthy food, education, and social support. She says they saw dramatic HbA1c improvements and about 60-plus percent lower healthcare costs, with very sick patients cutting costs by two-thirds. The episode also says food insecurity raises annual household healthcare costs by about 15% for mild insecurity, 30% for moderate insecurity, and upwards of 70% for severe insecurity.\n\nThe conversation closes with a systems-level argument: clinicians get very little nutrition training, so adoption will require curriculum changes, and a public-health-style infrastructure may eventually embed nutrition interventions into utilities in the same way fluoride is embedded in water. The episode\u2019s tone is optimistic but still acknowledges evidence-quality and reimbursement hurdles.",
+      "summary": "The episode argues that \u201cfood as medicine\u201d is compelling because food shares several properties people want from medicines: it can be safer, more effective in some settings, more affordable, and easier to sustain because people eat multiple times per day. The discussion centers on medically tailored meals (meals prescribed for a patient's condition), voucher programs, and healthier food benefits as tools for chronic disease and food-insecure populations.\n\nA major theme is scaling: speakers say the main bottlenecks are delivery, access, and payment/reimbursement. They describe the need to connect food benefits to insurer payment systems and to existing benefit programs like SNAP (food stamps) and WIC (the women, infants, and children food program), while also using technology and digital ordering to make healthier choices easier in the checkout flow. The episode also frames the consumer \u201cfood environment\u201d as a lever for changing purchases without relying only on willpower.\n\nAndrea Feinberg points to real-world experience at Geisinger, where patients with diabetes received healthy food, education, and social support. She says they saw dramatic HbA1c (a 3-month blood-sugar average) improvements and about 60-plus percent lower healthcare costs, with very sick patients cutting costs by two-thirds. The episode also says food insecurity raises annual household healthcare costs by about 15% for mild insecurity, 30% for moderate insecurity, and upwards of 70% for severe insecurity.\n\nThe conversation closes with a systems-level argument: clinicians get very little nutrition training, so adoption will require curriculum changes, and a public-health-style infrastructure may eventually embed nutrition interventions into utilities in the same way fluoride is embedded in water. The episode\u2019s tone is optimistic but still acknowledges evidence-quality and reimbursement hurdles.",
       "key_takeaway": "Food-as-medicine could cut chronic-disease costs and improve outcomes, but only if delivery, reimbursement, and benefit systems are integrated at scale.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1711,13 +1711,12 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-11-26",
-      "summary": "This Thanksgiving-themed roundtable focused on gratitude, origin stories, and how setbacks shaped each host\u2019s path. One host described a career pivot after being rejected from an MIT summer research program, saying the rejection pushed him away from pure AI during the AI winter and into nanotechnology and the physical/digital interface. One host recounted building PubSub, watching it implode, then moving into Yahoo and later seeing that effort collapse when Microsoft tried to buy Yahoo. Dave Blundin described a startup path defined by Walmart as his biggest customer, Amazon\u2019s silence, board anxiety, and a lawsuit between Walmart and Amazon that nearly led to his ouster before a later liquidity event.\n\nHe said the eventual match was a woman who had sold Telecom Technologies for $1.3 billion and later became central to the spaceflight effort. The point of the story was that persistence plus luck, timing, and the right backer eventually turned a moonshot into a real venture.\n\nThe health segment turned to early detection and longevity. One host said Fountain Life\u2019s member data showed 3.3% of members who thought they were healthy actually had cancer detected, and that the group uses full-body MRI. The framing was that catching cancer earlier raises cure odds, while late detection leaves people exposed to avoidable mortality. The discussion also referenced a broader claim that 150,000 people die every day and that better screening could materially reduce that burden.\n\nThe episode closed on a strongly optimistic view of technological acceleration. Alex Wissner-Gross said he expects bulk in silico work for substantially every disease, perhaps top 5,000 diseases, within the next year or two, with some cases taking up to a decade to translate into practice. Other claims touched on Google\u2019s internal success heuristics around severe adversity, foreign-born tech CEO overrepresentation, autonomous software development claims from Blitzi, and a provocative aside about adversity shaping character.",
+      "summary": "This Thanksgiving-themed roundtable focused on gratitude, origin stories, and how setbacks shaped each host\u2019s path. One host described a career pivot after being rejected from an MIT summer research program, saying the rejection pushed him away from pure AI during the AI winter and into nanotechnology and the physical/digital interface. One host recounted building PubSub, watching it implode, then moving into Yahoo and later seeing that effort collapse when Microsoft tried to buy Yahoo. Dave Blundin described a startup path defined by Walmart as his biggest customer, Amazon\u2019s silence, board anxiety, and a lawsuit between Walmart and Amazon that nearly led to his ouster before a later liquidity event.\n\nHe said the eventual match was a woman who had sold Telecom Technologies for $1.3 billion and later became central to the spaceflight effort. The point of the story was that persistence plus luck, timing, and the right backer eventually turned a moonshot into a real venture.\n\nThe health segment turned to early detection and longevity. One host said Fountain Life\u2019s member data showed 3.3% of members who thought they were healthy actually had cancer detected, and that the group uses full-body MRI. The framing was that catching cancer earlier raises cure odds, while late detection leaves people exposed to avoidable mortality. The discussion also referenced a broader claim that 150,000 people die every day and that better screening could materially reduce that burden.\n\nThe episode closed on a strongly optimistic view of technological acceleration. Alex Wissner-Gross said he expects bulk in silico (computer-modeled) work for substantially every disease, perhaps top 5,000 diseases, within the next year or two, with some cases taking up to a decade to translate into practice. Other claims touched on Google\u2019s internal success heuristics around severe adversity, foreign-born tech CEO overrepresentation, autonomous software development claims from Blitzy, and a provocative aside about adversity shaping character.",
       "key_takeaway": "The episode\u2019s central claim is that AI, screening, and computational biology will soon make early detection and disease modeling dramatically more effective, creating major opportunities in health and software.",
       "tickers_mentioned": [
         "AMZN",
         "WMT",
-        "GOOGL",
-        "MDRX"
+        "GOOGL"
       ],
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -1847,7 +1846,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-11-25",
-      "summary": "Thariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
+      "summary": "Thariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI (recursive self-improvement) as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
       "key_takeaway": "The episode\u2019s core claim is that the most valuable AI tooling will improve developer workflow, interpretability, and decision routing rather than simply adding more model intelligence.",
       "tickers_mentioned": [
         "FIG"
@@ -1880,7 +1879,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-11-25",
-      "summary": "Kenneth Tay of Funda argues that AI demand could hit an enterprise \"air pocket\" around 2027 because the wave of coding-led usage in 2026 may not translate fast enough into broader enterprise deployment. He says Funda\u2019s surveys and channel checks found 2027 spend expectations were \"not high enough,\" and that the build-out would need much more growth to justify ongoing investment.\n\nHe ties that caution to deployment friction inside enterprises. Tay points to rising demand for deploy engineers and says it is a sign AI is harder to operationalize than expected because of compliance, reliability, and enterprise process constraints. He also cites public information on Anthropic, saying its quarter-over-quarter growth slowed to about 40% from Q3 to Q2, as evidence that coding alone may not be enough to sustain the needed growth rate.\n\nOn supply, Tay says token prices should keep falling because semiconductor and compute advances are forcing costs down, while volumes rise. But he also says the near-term AI supply chain remains tight, with memory and substrates the main bottlenecks. He references DRAM/NAND tightness, earlier shortages and price increases, and even laser shortages, as examples of the broader constraint set.\n\nTay also raises regulatory risk around remote access and licensing. He says changes could redirect GPU and data-center demand toward non-China Southeast Asia, but could also create a \"hiccup phase\" for data-center demand there and complicate financing and approvals. Despite the caution, he says long-term AI remains bullish, and that positioning may already be washed out enough that 2027 expectations could reset lower with some upside surprise potential.",
+      "summary": "Kenneth Tay of Funda argues that AI demand could hit an enterprise \"air pocket\" around 2027 because the wave of coding-led usage in 2026 may not translate fast enough into broader enterprise deployment. He says Funda\u2019s surveys and channel checks found 2027 spend expectations were \"not high enough,\" and that the build-out would need much more growth to justify ongoing investment.\n\nHe ties that caution to deployment friction inside enterprises. Tay points to rising demand for deploy engineers and says it is a sign AI is harder to operationalize than expected because of compliance, reliability, and enterprise process constraints. Jack Farley cites public information that Anthropic's quarter-over-quarter growth slowed to a little over 40% in Q3, as evidence that coding alone may not be enough to sustain the needed growth rate.\n\nOn supply, Tay says token prices should keep falling because semiconductor and compute advances are forcing costs down, while volumes rise. But he also says the near-term AI supply chain remains tight, with memory and substrates the main bottlenecks. He references DRAM/NAND tightness, earlier shortages and price increases, and even laser shortages, as examples of the broader constraint set.\n\nTay also raises regulatory risk around remote access and licensing. He says changes could redirect GPU and data-center demand toward non-China Southeast Asia, but could also create a \"hiccup phase\" for data-center demand there and complicate financing and approvals. Despite the caution, he says long-term AI remains bullish, and that positioning may already be washed out enough that 2027 expectations could reset lower with some upside surprise potential.",
       "key_takeaway": "Kenneth Tay\u2019s core claim is that enterprise AI demand may not scale fast enough by 2027 to justify today\u2019s investment expectations, despite long-term AI strength.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -1963,11 +1962,11 @@ const dashboardData = {
       "podcast_episode_id": 722,
       "notable_quotes": [
         {
-          "speaker": "one host",
+          "speaker": "George Kurtz",
           "quote": "Now, you would say, okay, the aha moment was it's end end autonomous attack. I don't think that's the aha moment. I think the aha moment is really the fact that the defenders didn't have frontier level capabilities in their own models to be able to understand what was happening."
         },
         {
-          "speaker": "one host",
+          "speaker": "George Kurtz",
           "quote": "even if there were zero vulnerabilities we had perfect code everywhere the entire world had perfect code you'd still have breaches and I think a lot of people look at it okay we're just gonna rush to patch everything and we're gonna be good that's not the case."
         }
       ]
@@ -19721,7 +19720,7 @@ const dashboardData = {
       "first_detected_episode_id": 643,
       "first_detected_speaker": "Zach Lloyd",
       "last_mentioned_episode_id": 729,
-      "last_mentioned_speaker": "Tariq Shihipar"
+      "last_mentioned_speaker": "Thariq Shihipar"
     },
     {
       "id": 332,
@@ -20261,7 +20260,7 @@ const dashboardData = {
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
       "last_mentioned_episode_id": 729,
-      "last_mentioned_speaker": "Tariq Shihipar"
+      "last_mentioned_speaker": "Thariq Shihipar"
     },
     {
       "id": 295,
@@ -21683,7 +21682,7 @@ const dashboardData = {
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 729,
-      "last_mentioned_speaker": "Tariq Shihipar"
+      "last_mentioned_speaker": "Thariq Shihipar"
     },
     {
       "id": 162,
@@ -23070,7 +23069,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-27",
-      "summary": "Sean Rad and Andrew Chen frame Tinder as a product built around reducing rejection anxiety, not as a conventional dating app. Rad says the core insight was to use a matchmaker so users could signal interest without direct messaging, and that Tinder deliberately avoided the word \u201cdating\u201d because it was loaded and \u201cnot cool\u201d early on.\n\nA major theme is growth strategy for network products: Tinder focused on local density, starting with college campuses and Greek life rather than broad marketing. Rad describes early organic tactics like texting friends, creating campus echo chambers, and even avoiding celebrity-driven distribution because random users would weaken the network effects.\n\nRad also emphasizes product discipline and culture. He says a lot of startups put marketing ahead of product, and that with network products you need product-market fit before scale because otherwise user feedback is low quality. He credits Tinder\u2019s culture of radical honesty and openness with making it easier to kill features that did not work and to keep learning quickly.\n\nThe conversation also touches on press and controversy. Rad says Tinder initially leaned into press attention, but later caring about it became a distraction; letting go of that narrative focus unlocked creativity because what matters most is the relationship with users. The episode includes Rad\u2019s earlier founder history, including Adley\u2019s scale and his claim that he built what is now Apple Analytics after working with a Test Flight team.",
+      "summary": "Sean Rad and Andrew Chen frame Tinder as a product built around reducing rejection anxiety, not as a conventional dating app. Rad says the core insight was to use a matchmaker so users could signal interest without direct messaging, and that Tinder deliberately avoided the word \u201cdating\u201d because it was loaded and \u201cnot cool\u201d early on.\n\nA major theme is growth strategy for network products: Tinder focused on local density, starting with college campuses and Greek life rather than broad marketing. Rad describes early organic tactics like texting friends, creating campus echo chambers, and even avoiding celebrity-driven distribution because random users would weaken the network effects.\n\nRad also emphasizes product discipline and culture. He says a lot of startups put marketing ahead of product, and that with network products you need product-market fit before scale because otherwise user feedback is low quality. He credits Tinder\u2019s culture of radical honesty and openness with making it easier to kill features that did not work and to keep learning quickly.\n\nThe conversation also touches on press and controversy. Rad says Tinder initially leaned into press attention, but later caring about it became a distraction; letting go of that narrative focus unlocked creativity because what matters most is the relationship with users. The episode includes Rad\u2019s earlier founder history, including Adly, his earlier company and his claim that he built what is now Apple Analytics after working with a TestFlight team.",
       "key_takeaway": "Network products should prioritize density and product-market fit before broad marketing, or they risk weakening engagement and getting poor feedback.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -23104,13 +23103,12 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-11-26",
-      "summary": "This Thanksgiving-themed roundtable focused on gratitude, origin stories, and how setbacks shaped each host\u2019s path. One host described a career pivot after being rejected from an MIT summer research program, saying the rejection pushed him away from pure AI during the AI winter and into nanotechnology and the physical/digital interface. One host recounted building PubSub, watching it implode, then moving into Yahoo and later seeing that effort collapse when Microsoft tried to buy Yahoo. Dave Blundin described a startup path defined by Walmart as his biggest customer, Amazon\u2019s silence, board anxiety, and a lawsuit between Walmart and Amazon that nearly led to his ouster before a later liquidity event.\n\nHe said the eventual match was a woman who had sold Telecom Technologies for $1.3 billion and later became central to the spaceflight effort. The point of the story was that persistence plus luck, timing, and the right backer eventually turned a moonshot into a real venture.\n\nThe health segment turned to early detection and longevity. One host said Fountain Life\u2019s member data showed 3.3% of members who thought they were healthy actually had cancer detected, and that the group uses full-body MRI. The framing was that catching cancer earlier raises cure odds, while late detection leaves people exposed to avoidable mortality. The discussion also referenced a broader claim that 150,000 people die every day and that better screening could materially reduce that burden.\n\nThe episode closed on a strongly optimistic view of technological acceleration. Alex Wissner-Gross said he expects bulk in silico work for substantially every disease, perhaps top 5,000 diseases, within the next year or two, with some cases taking up to a decade to translate into practice. Other claims touched on Google\u2019s internal success heuristics around severe adversity, foreign-born tech CEO overrepresentation, autonomous software development claims from Blitzi, and a provocative aside about adversity shaping character.",
+      "summary": "This Thanksgiving-themed roundtable focused on gratitude, origin stories, and how setbacks shaped each host\u2019s path. One host described a career pivot after being rejected from an MIT summer research program, saying the rejection pushed him away from pure AI during the AI winter and into nanotechnology and the physical/digital interface. One host recounted building PubSub, watching it implode, then moving into Yahoo and later seeing that effort collapse when Microsoft tried to buy Yahoo. Dave Blundin described a startup path defined by Walmart as his biggest customer, Amazon\u2019s silence, board anxiety, and a lawsuit between Walmart and Amazon that nearly led to his ouster before a later liquidity event.\n\nHe said the eventual match was a woman who had sold Telecom Technologies for $1.3 billion and later became central to the spaceflight effort. The point of the story was that persistence plus luck, timing, and the right backer eventually turned a moonshot into a real venture.\n\nThe health segment turned to early detection and longevity. One host said Fountain Life\u2019s member data showed 3.3% of members who thought they were healthy actually had cancer detected, and that the group uses full-body MRI. The framing was that catching cancer earlier raises cure odds, while late detection leaves people exposed to avoidable mortality. The discussion also referenced a broader claim that 150,000 people die every day and that better screening could materially reduce that burden.\n\nThe episode closed on a strongly optimistic view of technological acceleration. Alex Wissner-Gross said he expects bulk in silico (computer-modeled) work for substantially every disease, perhaps top 5,000 diseases, within the next year or two, with some cases taking up to a decade to translate into practice. Other claims touched on Google\u2019s internal success heuristics around severe adversity, foreign-born tech CEO overrepresentation, autonomous software development claims from Blitzy, and a provocative aside about adversity shaping character.",
       "key_takeaway": "The episode\u2019s central claim is that AI, screening, and computational biology will soon make early detection and disease modeling dramatically more effective, creating major opportunities in health and software.",
       "tickers_mentioned": [
         "AMZN",
         "WMT",
-        "GOOGL",
-        "MDRX"
+        "GOOGL"
       ],
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -23143,7 +23141,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-11-26",
-      "summary": "The episode argues that \u201cfood as medicine\u201d is compelling because food shares several properties people want from medicines: it can be safer, more effective in some settings, more affordable, and easier to sustain because people eat multiple times per day. The discussion centers on medically tailored meals, voucher programs, and healthier food benefits as tools for chronic disease and food-insecure populations.\n\nA major theme is scaling: speakers say the main bottlenecks are delivery, access, and payment/reimbursement. They describe the need to connect food benefits to insurer payment systems and to existing benefit programs like SNAP and WIC, while also using technology and digital ordering to make healthier choices easier in the checkout flow. The episode also frames the consumer \u201cfood environment\u201d as a lever for changing purchases without relying only on willpower.\n\nAndrea Feinberg points to real-world experience at Geisinger, where patients with diabetes received healthy food, education, and social support. She says they saw dramatic HbA1c improvements and about 60-plus percent lower healthcare costs, with very sick patients cutting costs by two-thirds. The episode also says food insecurity raises annual household healthcare costs by about 15% for mild insecurity, 30% for moderate insecurity, and upwards of 70% for severe insecurity.\n\nThe conversation closes with a systems-level argument: clinicians get very little nutrition training, so adoption will require curriculum changes, and a public-health-style infrastructure may eventually embed nutrition interventions into utilities in the same way fluoride is embedded in water. The episode\u2019s tone is optimistic but still acknowledges evidence-quality and reimbursement hurdles.",
+      "summary": "The episode argues that \u201cfood as medicine\u201d is compelling because food shares several properties people want from medicines: it can be safer, more effective in some settings, more affordable, and easier to sustain because people eat multiple times per day. The discussion centers on medically tailored meals (meals prescribed for a patient's condition), voucher programs, and healthier food benefits as tools for chronic disease and food-insecure populations.\n\nA major theme is scaling: speakers say the main bottlenecks are delivery, access, and payment/reimbursement. They describe the need to connect food benefits to insurer payment systems and to existing benefit programs like SNAP (food stamps) and WIC (the women, infants, and children food program), while also using technology and digital ordering to make healthier choices easier in the checkout flow. The episode also frames the consumer \u201cfood environment\u201d as a lever for changing purchases without relying only on willpower.\n\nAndrea Feinberg points to real-world experience at Geisinger, where patients with diabetes received healthy food, education, and social support. She says they saw dramatic HbA1c (a 3-month blood-sugar average) improvements and about 60-plus percent lower healthcare costs, with very sick patients cutting costs by two-thirds. The episode also says food insecurity raises annual household healthcare costs by about 15% for mild insecurity, 30% for moderate insecurity, and upwards of 70% for severe insecurity.\n\nThe conversation closes with a systems-level argument: clinicians get very little nutrition training, so adoption will require curriculum changes, and a public-health-style infrastructure may eventually embed nutrition interventions into utilities in the same way fluoride is embedded in water. The episode\u2019s tone is optimistic but still acknowledges evidence-quality and reimbursement hurdles.",
       "key_takeaway": "Food-as-medicine could cut chronic-disease costs and improve outcomes, but only if delivery, reimbursement, and benefit systems are integrated at scale.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -23177,7 +23175,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-11-25",
-      "summary": "Kenneth Tay of Funda argues that AI demand could hit an enterprise \"air pocket\" around 2027 because the wave of coding-led usage in 2026 may not translate fast enough into broader enterprise deployment. He says Funda\u2019s surveys and channel checks found 2027 spend expectations were \"not high enough,\" and that the build-out would need much more growth to justify ongoing investment.\n\nHe ties that caution to deployment friction inside enterprises. Tay points to rising demand for deploy engineers and says it is a sign AI is harder to operationalize than expected because of compliance, reliability, and enterprise process constraints. He also cites public information on Anthropic, saying its quarter-over-quarter growth slowed to about 40% from Q3 to Q2, as evidence that coding alone may not be enough to sustain the needed growth rate.\n\nOn supply, Tay says token prices should keep falling because semiconductor and compute advances are forcing costs down, while volumes rise. But he also says the near-term AI supply chain remains tight, with memory and substrates the main bottlenecks. He references DRAM/NAND tightness, earlier shortages and price increases, and even laser shortages, as examples of the broader constraint set.\n\nTay also raises regulatory risk around remote access and licensing. He says changes could redirect GPU and data-center demand toward non-China Southeast Asia, but could also create a \"hiccup phase\" for data-center demand there and complicate financing and approvals. Despite the caution, he says long-term AI remains bullish, and that positioning may already be washed out enough that 2027 expectations could reset lower with some upside surprise potential.",
+      "summary": "Kenneth Tay of Funda argues that AI demand could hit an enterprise \"air pocket\" around 2027 because the wave of coding-led usage in 2026 may not translate fast enough into broader enterprise deployment. He says Funda\u2019s surveys and channel checks found 2027 spend expectations were \"not high enough,\" and that the build-out would need much more growth to justify ongoing investment.\n\nHe ties that caution to deployment friction inside enterprises. Tay points to rising demand for deploy engineers and says it is a sign AI is harder to operationalize than expected because of compliance, reliability, and enterprise process constraints. Jack Farley cites public information that Anthropic's quarter-over-quarter growth slowed to a little over 40% in Q3, as evidence that coding alone may not be enough to sustain the needed growth rate.\n\nOn supply, Tay says token prices should keep falling because semiconductor and compute advances are forcing costs down, while volumes rise. But he also says the near-term AI supply chain remains tight, with memory and substrates the main bottlenecks. He references DRAM/NAND tightness, earlier shortages and price increases, and even laser shortages, as examples of the broader constraint set.\n\nTay also raises regulatory risk around remote access and licensing. He says changes could redirect GPU and data-center demand toward non-China Southeast Asia, but could also create a \"hiccup phase\" for data-center demand there and complicate financing and approvals. Despite the caution, he says long-term AI remains bullish, and that positioning may already be washed out enough that 2027 expectations could reset lower with some upside surprise potential.",
       "key_takeaway": "Kenneth Tay\u2019s core claim is that enterprise AI demand may not scale fast enough by 2027 to justify today\u2019s investment expectations, despite long-term AI strength.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -23211,7 +23209,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-11-25",
-      "summary": "Thariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
+      "summary": "Thariq Shihipar argues that the real bottleneck in AI-assisted software building is not model intelligence or token count, but the \u201cways of working with the model\u201d: tooling, guardrails, scripting, and being able to understand what the system is doing. He says the current \u201cvibe coding\u201d experience is disorienting because developers cannot predict the model\u2019s assumptions, and that a constrained scripting/spec-like layer can restore a usable feedback loop.\n\nHe contrasts today\u2019s software factory phase with what he calls a coming \u201crenaissance\u201d phase, where software creation becomes more iterative, personalized, and quality-focused. In his own game-building workflow, he says he used Claude to run simulations on thousands of games and found that \u201cyou always want just economic victory,\u201d illustrating how models can help surface behavior, but also how the human still needs clearer control and interpretability.\n\nShihipar also pushes decision models, or \u201csystem one\u201d models, as a practical middle ground between hard-coded systems and open-ended generation. He says they can route decisions more reliably, separate routing from expensive generation, and may not be as \u201cdumb\u201d as people assume because the computation can be concentrated in the weights for a one-forward-pass decision.\n\nLooking forward, he frames RSI (recursive self-improvement) as increasingly automated technical work paired with human \u201cknowledge work\u201d around objectives, compute allocation, and buy-in. His view is gradual diffusion, not abrupt disruption: he suggests adoption will look more like phones spreading over time, and that even with better AI and robotics, human problems and operational constraints will remain.",
       "key_takeaway": "The episode\u2019s core claim is that the most valuable AI tooling will improve developer workflow, interpretability, and decision routing rather than simply adding more model intelligence.",
       "tickers_mentioned": [
         "FIG"
@@ -23973,7 +23971,7 @@ const dashboardData = {
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 729,
-      "last_mentioned_speaker": "Tariq Shihipar",
+      "last_mentioned_speaker": "Thariq Shihipar",
       "novelty_score": 0.4522,
       "overton_score": 0.4522,
       "resonance_pct": 43,
@@ -24261,7 +24259,7 @@ const dashboardData = {
       "first_detected_episode_id": 643,
       "first_detected_speaker": "Zach Lloyd",
       "last_mentioned_episode_id": 729,
-      "last_mentioned_speaker": "Tariq Shihipar",
+      "last_mentioned_speaker": "Thariq Shihipar",
       "novelty_score": 1.6606,
       "overton_score": 1.6606,
       "resonance_pct": 72,
@@ -68018,7 +68016,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-11-24T12:24:34.483710",
     "updated_at": "2026-11-24 18:24:34",
-    "episode_evidence": "one host: We are in glass swing and daybreak. Those are the two trusted access programs that both anthropic and open-AI have, and we have been working with them.\none host: Now, you would say, okay, the aha moment was it's end end autonomous attack. I don't think that's the aha moment. I think the aha moment is really the fact that the defenders didn't have frontier level capabilities in their own models to be able to understand what was happening.\none host: just this year, we've found 25% of all the CV ease for the entire entirety of finding CV ease, right? Think about that.\none host: in less than three hours of targeting you have a complete compromise of a company in less than three hours\none host: even if there were zero vulnerabilities we had perfect code everywhere the entire world had perfect code you'd still have breaches and I think a lot of people look at it okay we're just gonna rush to patch everything and we're gonna be good that's not the case.",
+    "episode_evidence": "George Kurtz: We are in Glasswing and Daybreak. Those are the two trusted access programs that both anthropic and open-AI have, and we have been working with them.\nGeorge Kurtz: Now, you would say, okay, the aha moment was it's end end autonomous attack. I don't think that's the aha moment. I think the aha moment is really the fact that the defenders didn't have frontier level capabilities in their own models to be able to understand what was happening.\none host: just this year, we've found 25% of all the CV ease for the entire entirety of finding CV ease, right? Think about that.\nGeorge Kurtz: in less than three hours of targeting you have a complete compromise of a company in less than three hours\nGeorge Kurtz: even if there were zero vulnerabilities we had perfect code everywhere the entire world had perfect code you'd still have breaches and I think a lot of people look at it okay we're just gonna rush to patch everything and we're gonna be good that's not the case.",
     "falsification_tracks": [
       "By 2027-01-31, independent incident forensics in MSRC disclosures or credible third-party postmortems should still show that the cited Microsoft-style outage cases were primarily infrastructure failures, not attacker compromise, with at least 0 verified intrusion-based root causes in those specific incidents.",
       "By 2027-02-28, NVD or CVE.org monthly counts should show that the claimed acceleration in vulnerability discovery has slowed materially, with monthly new CVE growth below 10% for three straight months.",
@@ -68402,7 +68400,7 @@ const dashboardData = {
     "id": 735,
     "insight_id": 740,
     "podcast_episode_id": 729,
-    "overview": "The non-obvious shift in this episode is that Tariq treats AI development as a workflow design problem, not a model-capability problem. What stands out is not just that he wants better tooling, but that he is actively restructuring the interface between human intent and model behavior: spec-like layers, linting, constrained scripting, and explicit state/evaluation hooks. That is a different thesis from the common view that progress mainly comes from bigger models or more tokens.\n\nA second subtle point is that he is not arguing for full autonomy as the end state. He is describing a future in which the most productive systems are those that can be inspected, partially scripted, and guided through narrow decision points. The practical implication is that the valuable layer may sit above foundation models: observability, routing logic, workflow control, and editable abstractions that preserve human understanding. That favors teams that can translate open-ended model capability into controlled product behavior.\n\nHe also hints that AI may raise the value of taste and objective-setting rather than just execution. In his framing, the scarce input is not raw intelligence but the ability to define the right goal, pick the right compute allocation, and keep the system legible enough to improve. That makes this episode especially relevant for tooling, agent orchestration, and developer-experience stacks rather than for frontier model benchmarks alone.",
+    "overview": "The non-obvious shift in this episode is that Thariq treats AI development as a workflow design problem, not a model-capability problem. What stands out is not just that he wants better tooling, but that he is actively restructuring the interface between human intent and model behavior: spec-like layers, linting, constrained scripting, and explicit state/evaluation hooks. That is a different thesis from the common view that progress mainly comes from bigger models or more tokens.\n\nA second subtle point is that he is not arguing for full autonomy as the end state. He is describing a future in which the most productive systems are those that can be inspected, partially scripted, and guided through narrow decision points. The practical implication is that the valuable layer may sit above foundation models: observability, routing logic, workflow control, and editable abstractions that preserve human understanding. That favors teams that can translate open-ended model capability into controlled product behavior.\n\nHe also hints that AI may raise the value of taste and objective-setting rather than just execution. In his framing, the scarce input is not raw intelligence but the ability to define the right goal, pick the right compute allocation, and keep the system legible enough to improve. That makes this episode especially relevant for tooling, agent orchestration, and developer-experience stacks rather than for frontier model benchmarks alone.",
     "key_takeaways_detailed": [],
     "investment_thesis": "The actionable angle is to watch for products that make agentic software buildable in production: debugging, traceability, decision routing, and constrained specs that reduce ambiguity. The strongest setups are likely not pure model vendors, but workflow layers that sit between a base model and the end user, especially where correctness, auditability, and reproducibility matter. For application companies, the key question is whether they can turn model output into a maintainable system rather than a demo. That means tracking whether they build guardrails, structured state, evaluation harnesses, and clear handoffs between generation and decision-making. If those layers are absent, the risk is that agentic features remain brittle and expensive to support. For infrastructure and tooling names, the episode supports a view that observability and team collaboration around agents can become a real budget line item. The market opportunity is in making AI systems less disorienting for developers and more legible for operators. The most attractive companies will likely be those that reduce iteration time and defect rates, not those that simply advertise larger context windows or more fluent outputs.",
     "ticker_analysis": {
@@ -68507,7 +68505,7 @@ const dashboardData = {
     "podcast_episode_id": 731,
     "overview": "The non-obvious signal in this episode is not simply that nutrition can improve health, but that the commercial bottleneck is much closer to claims processing and benefit design than to consumer demand. The conversation repeatedly points to a world where food interventions become administrable only when they can be routed through insurer payment rails, benefit eligibility systems, and digital ordering flows that reduce friction at the point of choice. That makes the opportunity look less like a standalone meal business and more like an infrastructure layer spanning payer adjudication, ordering software, benefits administration, and delivery logistics.\n\nAnother underappreciated angle is the mismatch between the size of the economic prize and the evidence standard currently available. The episode treats chronic-disease cost reduction as a payer problem, but the argument depends on translating observational or quasi-real-world results into something that can survive reimbursement scrutiny. That creates a wedge for platforms that can generate auditable utilization and outcome data, not just meals. The discussion also suggests that the strongest early adoption may come from high-cost, diet-responsive cohorts where ROI is easiest to prove, rather than broad consumer wellness markets.",
     "key_takeaways_detailed": [],
-    "investment_thesis": "The practical watchpoint is whether food-as-medicine programs can become reimbursable benefit products rather than grant-funded pilots. The most investable path appears to be companies that can prove three things at once: lower total cost of care in narrowly defined cohorts, operationally reliable delivery, and integration with insurer, Medicaid, Medicare Advantage, SNAP, or WIC workflows. That points toward a two-layer stack: distribution companies that can fulfill tailored nutrition at low variable cost, and software or services companies that make eligibility, ordering, and claims processing tractable. What matters next is not broad category enthusiasm but evidence of repeatable unit economics and payer adoption. The highest-conviction setup would be a program that shows measurable clinical improvement in one condition, a clean claims-based savings story, and a reimbursement pathway that survives beyond a single pilot. If those elements do not converge, the category stays in the realm of good outcomes with poor scalability. The more actionable market lens is to watch which incumbents in managed care, digital health, grocery, and benefits administration become distribution partners for these programs, because they may capture value even if standalone food-as-medicine brands struggle.",
+    "investment_thesis": "The practical watchpoint is whether food-as-medicine programs can become reimbursable benefit products rather than grant-funded pilots. The most investable path appears to be companies that can prove three things at once: lower total cost of care in narrowly defined cohorts, operationally reliable delivery, and integration with insurer, Medicaid, Medicare Advantage, SNAP (food stamps), or WIC (the women, infants, and children food program) workflows. That points toward a two-layer stack: distribution companies that can fulfill tailored nutrition at low variable cost, and software or services companies that make eligibility, ordering, and claims processing tractable. What matters next is not broad category enthusiasm but evidence of repeatable unit economics and payer adoption. The highest-conviction setup would be a program that shows measurable clinical improvement in one condition, a clean claims-based savings story, and a reimbursement pathway that survives beyond a single pilot. If those elements do not converge, the category stays in the realm of good outcomes with poor scalability. The more actionable market lens is to watch which incumbents in managed care, digital health, grocery, and benefits administration become distribution partners for these programs, because they may capture value even if standalone food-as-medicine brands struggle.",
     "ticker_analysis": {},
     "positioning_guidance": "",
     "risk_factors": [],
@@ -68551,7 +68549,7 @@ const dashboardData = {
     "id": 738,
     "insight_id": 743,
     "podcast_episode_id": 732,
-    "overview": "The non-obvious throughline is that the episode is less about inspiration than about how seemingly negative events create optionality in technically hard markets. The rejection stories are not just color: they show repeated redirection into adjacent fields, and that pattern matters because the episode keeps returning to domains where timing and evidence barriers are unusually high\u2014health screening, autonomous software, and computational biology. The health section is especially notable because the claim is not merely that earlier detection is good, but that a non-trivial share of self-perceived healthy members already harbor cancer, which implies the addressable market is people who do not yet think they need care. On the software side, the sponsor claims point to a shift from code assistance to partial autonomous delivery, which, if true, changes the economics of enterprise engineering more than generic copilots do. The deeper implication is that several of the episode\u2019s moonshots depend on measurement discipline: if screening metrics, autonomy metrics, and in silico translational metrics do not converge to hard outcomes, the enthusiasm collapses quickly.",
+    "overview": "The non-obvious throughline is that the episode is less about inspiration than about how seemingly negative events create optionality in technically hard markets. The rejection stories are not just color: they show repeated redirection into adjacent fields, and that pattern matters because the episode keeps returning to domains where timing and evidence barriers are unusually high\u2014health screening, autonomous software, and computational biology. The health section is especially notable because the claim is not merely that earlier detection is good, but that a non-trivial share of self-perceived healthy members already harbor cancer, which implies the addressable market is people who do not yet think they need care. On the software side, the sponsor claims point to a shift from code assistance to partial autonomous delivery, which, if true, changes the economics of enterprise engineering more than generic copilots do. The deeper implication is that several of the episode\u2019s moonshots depend on measurement discipline: if screening metrics, autonomy metrics, and in silico (computer-modeled) translational metrics do not converge to hard outcomes, the enthusiasm collapses quickly.",
     "key_takeaways_detailed": [],
     "investment_thesis": "This episode points toward a practical screen for capital allocation: favor businesses that can convert abstract model performance into audited outcome data. In health, that means screening or diagnostic platforms that can show stage shift, follow-up compliance, and fewer late-stage diagnoses rather than just more scans. In software, it means platforms that can prove cycle-time compression, defect control, and repeatable autonomy in real enterprise workflows. In computational biology, the relevant question is not whether simulations are impressive, but whether they generate preclinical or clinical wins on a defined timeline. The episode also highlights a second-order theme: founder persistence can matter, but only when paired with a credible distribution partner, customer reference, or scientific validation path. That makes the best opportunities those where technical ambition is matched by a verifiable adoption funnel.",
     "ticker_analysis": {
@@ -68569,11 +68567,6 @@ const dashboardData = {
         "rationale": "Google is tied to two themes: internal heuristics about success under adversity, and Google for Startups/DeepMind deployment guidance for generative media.",
         "positioning": "Watch",
         "risk": "The risk is conflating internal cultural anecdotes with scalable product advantage; the deployment-guide claim does not automatically translate into broad monetization."
-      },
-      "MDRX": {
-        "rationale": "Not explicitly named in the extraction, but the health discussion maps to the diagnostic and preventive-care category where full-body MRI and early cancer detection are the investable angle.",
-        "positioning": "Watch",
-        "risk": "Clinical utility, false positives, and reimbursement remain the core risk; without robust outcomes data, the category can over-penetrate before proving value."
       }
     },
     "positioning_guidance": "",
@@ -68581,12 +68574,12 @@ const dashboardData = {
     "contrarian_signals": [
       "If screening expands faster than follow-up capacity, the false-positive burden could outpace the clinical benefit.",
       "If AI coding tools require heavy human rework, claimed autonomy may be more marketing than operational leverage.",
-      "If in silico disease modeling advances faster than wet-lab or clinical translation, the gap between simulation and care will remain wide.",
+      "If in silico (computer-modeled) disease modeling advances faster than wet-lab or clinical translation, the gap between simulation and care will remain wide.",
       "If the strongest signal from the health segment is affluent self-selection rather than broad population utility, the business model may stay niche.",
       "If founder-origin stories continue to dominate while measured outcomes stay weak, narrative premium could outrun fundamentals."
     ],
     "catalysts": [
-      "Publication of translational benchmarks for broad in silico disease modeling over the next 1-2 years.",
+      "Publication of translational benchmarks for broad in silico (computer-modeled) disease modeling over the next 1-2 years.",
       "More public evidence on reimbursement and utilization patterns for premium preventive screening services.",
       "Any major partnership or acquisition that validates the distribution path for advanced diagnostics or autonomous development tools."
     ],
@@ -68601,7 +68594,7 @@ const dashboardData = {
       "By 2027-12-31, if peer-reviewed clinical data do not show that full-body MRI screening in comparable cohorts materially improves stage at diagnosis by at least 20% versus standard screening, the early-detection thesis weakens; source: peer-reviewed registry study or RCT publication.",
       "By 2027-11-30, if the observed cancer detection rate in self-reported healthy members falls below 1.5% in a larger Fountain Life cohort, the 3.3% claim looks inflated; source: Fountain Life outcomes report or audited member database summary.",
       "By 2027-12-31, if enterprise pilots of autonomous coding platforms do not demonstrate at least 2x engineering velocity improvement after integration overhead, the 5x claim fails; source: customer engineering KPI reports or third-party audit.",
-      "By 2028-06-30, if there is no validated translational result for at least 1,000 disease programs in published in silico pipelines, the claim of broad near-term disease coverage is wrong; source: peer-reviewed translational biology literature or FDA/EMA-linked evidence.",
+      "By 2028-06-30, if there is no validated translational result for at least 1,000 disease programs in published in silico (computer-modeled) pipelines, the claim of broad near-term disease coverage is wrong; source: peer-reviewed translational biology literature or FDA/EMA-linked evidence.",
       "By 2027-12-31, if public reporting or filings do not corroborate a settlement-linked liquidity event within about 1.5 years of the described Walmart/Amazon dispute, the causal story around that company\u2019s turnaround is weakened; source: company filings, court records, or major press coverage."
     ],
     "schema_version": 1,
@@ -69399,7 +69392,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-23",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "The market is mispricing AI semicapex because it is missing open-source and on-prem economics that could keep returns and demand rising longer than expected.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-23 \u2022 Gavin Baker: The AI Capex Cycle Will Be Longer Than the Market Thinks | Jensen, Nvidia, and Gavin's Best AI Bear Case",
     "last_proof_snippet": "This very important conversation with leading tech and semiconductor investor Gavin Baker of a Trades was recorded on November 18th at the tomorrow ex summit after Nvidia's earnings, but before Nvidia's board reinstated Jensen Huang as CEO.",
@@ -69716,70 +69709,6 @@ const dashboardData = {
     "net_worth": null
   },
   {
-    "id": 91,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
-    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "net_worth_usd": 19000000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
-    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
-    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
-    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
-    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
-    "voice_profile_updated_at": "2026-03-20 03:11:05",
-    "last_seen": "2026-11-16 20:16:12",
-    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-11-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.59,
-    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
-    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
-    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brett Adcock",
-      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
-      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
-      "derived": {
-        "current_role": "Entrepreneur and Investor"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
-        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Robotics",
-          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
-        },
-        {
-          "heading": "Neural Nets",
-          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
-        },
-        {
-          "heading": "Autonomous Manufacturing",
-          "body": "Adcock"
-        },
-        {
-          "heading": "Market Potential",
-          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
-        }
-      ]
-    },
-    "net_worth": "$19.00B"
-  },
-  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -69842,6 +69771,70 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 91,
+    "name": "Brett Adcock",
+    "slug": "brett-adcock",
+    "bio": "Founder and operator of Figure AI, discussing the company\u2019s home and commercial robotics strategy, compute scaling, and deployment approach.",
+    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
+    "net_worth_usd": 19000000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
+    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
+    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
+    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
+    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
+    "voice_profile_updated_at": "2026-03-20 03:11:05",
+    "last_seen": "2026-11-16 20:16:12",
+    "last_episode_title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-11-16",
+    "mention_score": 2,
+    "mention_score_decayed": 1.55,
+    "last_main_idea": "Figure\u2019s view is that scalable home robotics will come from better hands, larger models, and massive compute, not from flashy demos or teleoperated tricks.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-16 \u2022 How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+    "last_proof_snippet": "As you think about competition, is it Tesla and China, is that the way you see it in the world right now? I personally have seen it much at a Tesla in two or three years. I've seen China do a lot of dancing.",
+    "supporting_takeaway": "Brett Adcock says the main bottleneck is intelligence for long-horizon manipulation and generalization, not just safety or integration.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brett Adcock",
+      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
+      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
+      "derived": {
+        "current_role": "Entrepreneur and Investor"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
+        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Robotics",
+          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
+        },
+        {
+          "heading": "Neural Nets",
+          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
+        },
+        {
+          "heading": "Autonomous Manufacturing",
+          "body": "Adcock"
+        },
+        {
+          "heading": "Market Potential",
+          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
+        }
+      ]
+    },
+    "net_worth": "$19.00B"
   },
   {
     "id": 81,
@@ -70269,7 +70262,7 @@ const dashboardData = {
     "id": 720,
     "name": "Sean Rad",
     "slug": "sean-rad",
-    "bio": "Tinder founder and entrepreneur who discusses the company\u2019s origin, growth strategy, and product philosophy. He also references earlier ventures including Adley and his work that he says led to what is now Apple Analytics.",
+    "bio": "Tinder founder and entrepreneur who discusses the company\u2019s origin, growth strategy, and product philosophy. He also references earlier ventures including Adly and his work that he says led to what is now Apple Analytics.",
     "known_for": null,
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -70446,8 +70439,8 @@ const dashboardData = {
   },
   {
     "id": 715,
-    "name": "Tariq Shihipar",
-    "slug": "tariq-shihipar",
+    "name": "Thariq Shihipar",
+    "slug": "thariq-shihipar",
     "bio": "Most recently of Anthropic and announced as joining OpenAI. He focuses on agents, tooling, and decision-model concepts, and discussed his own game-building workflow as an example.",
     "known_for": null,
     "net_worth_usd": null,
@@ -70756,33 +70749,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 701,
-    "name": "Steve Jervitson",
-    "slug": "steve-jervitson",
-    "bio": "Venture capitalist and long-time investor associated with SpaceX, Tesla, and early internet companies. He discusses hard-tech investing, frontier AI, and long-term space and industrial themes.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-21 20:04:14",
-    "last_episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-11-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-21 \u2022 Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
-    "last_proof_snippet": "And we have a full house today. Listen, guys, I am so excited to have Steve with Jervitson on the pod today.",
-    "supporting_takeaway": "One host said SpaceX is adding roughly 500 megawatts of AI compute each month, using about 220,000 GP300 chips, and expects to pass one gigawatt a month by the end of 2027.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -70848,6 +70814,33 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 701,
+    "name": "Steve Jervitson",
+    "slug": "steve-jervitson",
+    "bio": "Venture capitalist and long-time investor associated with SpaceX, Tesla, and early internet companies. He discusses hard-tech investing, frontier AI, and long-term space and industrial themes.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-21 20:04:14",
+    "last_episode_title": "Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-11-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "The episode\u2019s central claim is that AI compute and infrastructure are now the strategic bottleneck, with SpaceX, Anthropic, and Google competing on speed, cost, and scale.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-11-21 \u2022 Steve Jurvetson on the SpaceX Deal That Almost Didn\u2019t Happen | EP #314",
+    "last_proof_snippet": "And we have a full house today. Listen, guys, I am so excited to have Steve with Jervitson on the pod today.",
+    "supporting_takeaway": "One host said SpaceX is adding roughly 500 megawatts of AI compute each month, using about 220,000 GP300 chips, and expects to pass one gigawatt a month by the end of 2027.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 700,
@@ -70921,7 +70914,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The key claim is that agent-first software will favor Linux and open models over traditional desktop platforms and closed AI stacks.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-20 \u2022 Why the Agent Era Needs a New Operating System | DHH",
     "last_proof_snippet": "Mac OS and Windows are just unfit for the age of agents.",
@@ -71386,7 +71379,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The key claim is that SEC reforms expanding ATM and offering access for smaller issuers could materially improve OTC capital formation and trading demand.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-14 \u2022 The Case for Public Markets | Cromwell Coulson on Small-Cap Capital Formation, Disclosure, and SEC Offering Reform",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it.",
@@ -71413,7 +71406,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Network effects, regulatory classification, and research-lab structure can create outsized winners in communications, but monopolies also attract disruption and regulatory pushback.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-14 \u2022 From the Telephone to Modern Computing | James Gleick",
     "last_proof_snippet": "People always dreamed of being able to communicate across long distances, but there was no practical way to do that until the telegraph arrived.",
@@ -71494,7 +71487,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-11-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Uranium is structurally under-supplied, and the market is still mispricing that deficit because investors are focused on AI-driven sentiment rather than contracting reality.",
     "last_proof_cite": "Macro Voices \u2022 2026-11-12 \u2022 MacroVoices #558 Mike Alkin: Uranium at a Crossroads",
     "last_proof_snippet": "There is not enough economically viable uranium to satisfy the world's existing reactor fleet of 440 operating reactors of which a little over 420 are actually producing electricity and the pipeline of aiding new reactors coming online.",
@@ -71710,7 +71703,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "AI will expand software opportunity by making startups faster and cheaper to build while leaving durable value in workflow-centric products like HubSpot rather than frontier-lab replacements.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-10 \u2022 HubSpot\u2019s Co-Founder on Finding Your Next Startup Idea",
     "last_proof_snippet": "Chad, G-P-T, and Claude Colworth, they're effectively the new OS. There's plenty of room to build software outside the path the frontier AI labs are racing down. Since then, HubSpot's been busy.",
@@ -72465,7 +72458,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "AI infrastructure is increasingly a liquidity trade: financing stress, not demand, is the main near-term risk, while top-tier credits remain funded first.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-01 \u2022 The Fed Has AI\u2019s Back | Dan Krausz on \u201cLiquidity Trap Door\u201d In AI Infrastructure and Why Policymakers Are Inclined to Support Financial Conditions",
     "last_proof_snippet": "Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it. I'm here with Dan Krauss of Blutore Asset Management. Dan, great to see you again.",
@@ -72473,65 +72466,6 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
-  },
-  {
-    "id": 300,
-    "name": "Ed Zitron",
-    "slug": "ed-zitron",
-    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
-    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Blunt, skeptical, and highly animated.",
-    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
-    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
-    "voice_profile_updated_at": "2026-10-02 03:15:54",
-    "last_seen": "2026-10-02 03:15:54",
-    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-10-01",
-    "mention_score": 2,
-    "mention_score_decayed": 0.55,
-    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
-    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Zitron",
-      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
-      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
-      "derived": {
-        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
-        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
-      ],
-      "sections": [
-        {
-          "heading": "AI and ROI",
-          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
-        },
-        {
-          "heading": "Contrarian Views",
-          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
-        },
-        {
-          "heading": "Podcast and Newsletter",
-          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
-        }
-      ]
-    }
   },
   {
     "id": 607,
@@ -72613,6 +72547,65 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 300,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": "Ed Zitron is the host of the Better Offline podcast and writer of the Where's Your Ed newsletter. In this episode he analyzed leaked Anthropic S-1 details, OpenAI financial disclosures, and debt financing behind AI data centers.",
+    "known_for": "Critical reporting and analysis on AI company economics, cloud counterparty risk, and technology industry hype cycles.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Blunt, skeptical, and highly animated.",
+    "voice_style": "He combines detailed numerical claims with confrontational language, analogies, and rapid challenges to prevailing AI narratives.",
+    "voice_delivery_notes": "Use fast pacing, strong emphasis on numbers, and a sharp tone when delivering criticisms.",
+    "voice_profile_updated_at": "2026-10-02 03:15:54",
+    "last_seen": "2026-10-02 03:15:54",
+    "last_episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-10-01",
+    "mention_score": 2,
+    "mention_score_decayed": 0.54,
+    "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "last_proof_snippet": "Anthropic, at least in 2025, was a worse business than OpenAI.",
+    "supporting_takeaway": "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Zitron",
+      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
+      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
+      "derived": {
+        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
+        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
+      ],
+      "sections": [
+        {
+          "heading": "AI and ROI",
+          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
+        },
+        {
+          "heading": "Contrarian Views",
+          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
+        },
+        {
+          "heading": "Podcast and Newsletter",
+          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
+        }
+      ]
+    }
   },
   {
     "id": 301,
@@ -72733,60 +72726,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 599,
-    "name": "David V\u00e9lez",
-    "slug": "david-v\u00e9lez",
-    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:25:46",
-    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
-    "last_episode_date": "2026-10-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
-    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
-    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
-    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 598,
-    "name": "Luke Gromen",
-    "slug": "luke-gromen",
-    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 03:24:49",
-    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
-    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
-    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
-    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 160,
     "name": "Ben Lamm",
     "slug": "ben-lamm",
@@ -72849,6 +72788,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 599,
+    "name": "David V\u00e9lez",
+    "slug": "david-v\u00e9lez",
+    "bio": "Co-founder and leader of Nubank, focused on digital banking, AI-driven credit, and financial-system transformation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:25:46",
+    "last_episode_title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_podcast_name": "Invest Like the Best with Patrick O'Shaughnessy",
+    "last_episode_date": "2026-10-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "Nubank\u2019s proprietary data scale and AI foundation model create a durable cost and underwriting advantage that can accelerate market-share gains as banking digitizes.",
+    "last_proof_cite": "Invest Like the Best with Patrick O'Shaughnessy \u2022 2026-10-13 \u2022 David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+    "last_proof_snippet": "Ramp is the only platform built to make your finance team leaner, faster, and better. Saving businesses 5% annually on average, so you can stay focused on growth. Ramp just opened for business in the United Kingdom.",
+    "supporting_takeaway": "David V\u00e9lez says Nubank has close to 120 million customers in Brazil, around 65% of the adult population, and about 60% of customers use it as their primary bank account.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 598,
+    "name": "Luke Gromen",
+    "slug": "luke-gromen",
+    "bio": "Founder of Forest for the Trees (FFTT), where he aggregates public data to identify macroeconomic bottlenecks and policy constraints.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 03:24:49",
+    "last_episode_title": "MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "AI-driven white-collar job losses could create a large, underpriced consumer-credit shock that stresses U.S. bank equity and favors bearish exposure to lenders like Capital One.",
+    "last_proof_cite": "Macro Voices \u2022 2026-10-29 \u2022 MacroVoices #556 Luke Gromen: US Midterms & Beyond",
+    "last_proof_snippet": "There's only one buyer, it's the Fed. Fed's gonna have the print money and buy treas, and they will say, we're not monetizing the debt, and we're not monetizing the debt, and then it's at a all-beable crap.",
+    "supporting_takeaway": "Gromen argues the world has already used much of its easy oil buffer, so the inflationary and supply effects may show up later rather than immediately.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 596,
@@ -73595,7 +73588,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Physical settlement is the key prerequisite for a liquid, financeable GPU-compute forwards market because it embeds real delivery constraints and avoids manipulable cash-index pricing.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-20 \u2022 The Programmable Data Center \u2014 Evan Conrad, SF Compute",
     "last_proof_snippet": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.",
@@ -73649,7 +73642,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "AI will commoditize production, but durable value accrues to workflow-heavy software with superior design, trust, and UX, not to raw model output alone.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-19 \u2022 Dylan Field: Is AI Replacing Designers?, Design is the New Code & Democratizing Creativity",
     "last_proof_snippet": "",
@@ -74007,7 +74000,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Dyna\u2019s edge, per Jason Ma, is that world-action pretraining plus deployment-driven full-stack robotics can deliver durable real-world autonomy faster than pilot-only robot companies.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-13 \u2022 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
     "last_proof_snippet": "",
@@ -74701,7 +74694,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "",
@@ -75090,7 +75083,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -75117,7 +75110,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
     "last_proof_snippet": "",
@@ -76203,7 +76196,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
     "last_proof_snippet": "",
@@ -77536,7 +77529,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -77597,7 +77590,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation.",
@@ -77625,7 +77618,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation.",
@@ -77653,7 +77646,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "",
@@ -78963,7 +78956,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "",
@@ -81994,7 +81987,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Clarion Partners manages over $70 billion in real estate assets, with a significant portion in industrial logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "",
@@ -87539,7 +87532,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 7,
-    "mention_score_decayed": 1.54,
+    "mention_score_decayed": 1.5,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software.",
