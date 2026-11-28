@@ -3,1561 +3,1561 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-11-27T22:23:15.822301",
-  chartsVersion: "2026-11-27T22:22:35.635673",
+  generatedAt: "2026-11-27T23:55:56.108515",
+  chartsVersion: "2026-11-27T23:55:19.691146",
   priceSnapshot: {
   "AAPL": {
     "price": 358.54,
     "change_pct": 2.24,
     "name": "Apple Inc.",
-    "updated_at": "2026-11-27T22:21:26.514663",
+    "updated_at": "2026-11-27T23:54:16.353160",
     "price_14d_ago": 350.69
   },
   "AEP": {
     "price": 127.67,
     "change_pct": -0.51,
     "name": "American Electric Power Company",
-    "updated_at": "2026-11-27T22:21:26.928730",
+    "updated_at": "2026-11-27T23:54:16.762336",
     "price_14d_ago": 128.33
   },
   "AMD": {
     "price": 424.54,
     "change_pct": -16.52,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-11-27T22:21:27.528413",
+    "updated_at": "2026-11-27T23:54:17.320471",
     "price_14d_ago": 508.58
   },
   "AMGN": {
     "price": 474.08,
     "change_pct": 1.9,
     "name": "Amgen Inc.",
-    "updated_at": "2026-11-27T22:21:27.735842",
+    "updated_at": "2026-11-27T23:54:17.523124",
     "price_14d_ago": 465.23
   },
   "AMZN": {
     "price": 254.12,
     "change_pct": -4.8,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-11-27T22:21:28.126668",
+    "updated_at": "2026-11-27T23:54:17.904214",
     "price_14d_ago": 266.93
   },
   "APO": {
     "price": 122.97,
     "change_pct": 0.63,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-11-27T22:21:29.073734",
+    "updated_at": "2026-11-27T23:54:18.922455",
     "price_14d_ago": 122.2
   },
   "APTV": {
     "price": 38.09,
     "change_pct": -4.56,
     "name": "Aptiv PLC",
-    "updated_at": "2026-11-27T22:21:29.261575",
+    "updated_at": "2026-11-27T23:54:19.108700",
     "price_14d_ago": 39.91
   },
   "AVGO": {
     "price": 312.34,
     "change_pct": -2.23,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-11-27T22:21:30.220366",
+    "updated_at": "2026-11-27T23:54:20.051757",
     "price_14d_ago": 319.48
   },
   "BA": {
     "price": 167.24,
     "change_pct": -2.98,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-11-27T22:21:30.791722",
+    "updated_at": "2026-11-27T23:54:20.622777",
     "price_14d_ago": 172.38
   },
   "BABA": {
     "price": 89.68,
     "change_pct": -14.9,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-11-27T22:21:30.983587",
+    "updated_at": "2026-11-27T23:54:20.807001",
     "price_14d_ago": 105.38
   },
   "BAC": {
     "price": 49.07,
     "change_pct": -2.93,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-11-27T22:21:31.203870",
+    "updated_at": "2026-11-27T23:54:21.026340",
     "price_14d_ago": 50.55
   },
   "BAM": {
     "price": 53.56,
     "change_pct": -1.14,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-11-27T22:21:31.403149",
+    "updated_at": "2026-11-27T23:54:21.211461",
     "price_14d_ago": 54.18
   },
   "BIDU": {
     "price": 63.49,
     "change_pct": -21.65,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-11-27T22:21:32.206834",
+    "updated_at": "2026-11-27T23:54:21.993283",
     "price_14d_ago": 81.03
   },
   "BP": {
     "price": 43.25,
     "change_pct": -3.01,
     "name": "BP p.l.c.",
-    "updated_at": "2026-11-27T22:21:32.802497",
+    "updated_at": "2026-11-27T23:54:22.587301",
     "price_14d_ago": 44.59
   },
   "BTC": {
-    "price": 59997.03,
-    "change_pct": -8.13,
+    "price": 59731.37,
+    "change_pct": -8.53,
     "name": "Bitcoin USD",
-    "updated_at": "2026-11-27T22:21:32.983939",
+    "updated_at": "2026-11-27T23:54:22.783850",
     "price_14d_ago": 65305.06
   },
   "BTC-USD": {
-    "price": 59997.03,
-    "change_pct": -8.13,
+    "price": 59731.37,
+    "change_pct": -8.53,
     "name": "Bitcoin USD",
-    "updated_at": "2026-11-27T22:21:33.167736",
+    "updated_at": "2026-11-27T23:54:22.969407",
     "price_14d_ago": 65305.06
   },
   "BX": {
     "price": 121.96,
     "change_pct": -1.68,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-11-27T22:21:33.544917",
+    "updated_at": "2026-11-27T23:54:23.350822",
     "price_14d_ago": 124.05
   },
   "BYD": {
     "price": 79.11,
     "change_pct": 1.61,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-11-27T22:21:33.745158",
+    "updated_at": "2026-11-27T23:54:23.542399",
     "price_14d_ago": 77.86
   },
   "CAT": {
     "price": 561.74,
     "change_pct": -6.2,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-11-27T22:21:34.368861",
+    "updated_at": "2026-11-27T23:54:24.128817",
     "price_14d_ago": 598.88
   },
   "CCJ": {
     "price": 63.97,
     "change_pct": -15.13,
     "name": "Cameco Corporation",
-    "updated_at": "2026-11-27T22:21:34.637768",
+    "updated_at": "2026-11-27T23:54:24.331296",
     "price_14d_ago": 75.37
   },
   "CEG": {
     "price": 238.1,
     "change_pct": -13.76,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-11-27T22:21:34.823840",
+    "updated_at": "2026-11-27T23:54:24.520019",
     "price_14d_ago": 276.09
   },
   "COIN": {
     "price": 107.04,
     "change_pct": -21.35,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-11-27T22:21:36.003289",
+    "updated_at": "2026-11-27T23:54:25.702377",
     "price_14d_ago": 136.1
   },
   "COPPER": {
     "price": 5.6,
     "change_pct": -11.5,
     "name": "Copper",
-    "updated_at": "2026-11-27T22:21:36.185303",
+    "updated_at": "2026-11-27T23:54:25.876465",
     "price_14d_ago": 6.33
   },
   "CORN": {
     "price": 17.47,
     "change_pct": 1.81,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-11-27T22:21:36.368903",
+    "updated_at": "2026-11-27T23:54:26.056534",
     "price_14d_ago": 17.16
   },
   "CRM": {
     "price": 198.21,
     "change_pct": -7.78,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-11-27T22:21:36.742301",
+    "updated_at": "2026-11-27T23:54:26.415011",
     "price_14d_ago": 214.94
   },
   "CROWD": {
     "price": 217.2,
     "change_pct": -4.98,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-11-27T22:21:36.923930",
+    "updated_at": "2026-11-27T23:54:26.589198",
     "price_14d_ago": 228.58
   },
   "DBC": {
     "price": 29.55,
     "change_pct": -4.62,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-11-27T22:21:38.052840",
+    "updated_at": "2026-11-27T23:54:27.722230",
     "price_14d_ago": 30.98
   },
   "DELL": {
     "price": 316.96,
     "change_pct": -8.48,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-11-27T22:21:38.431564",
+    "updated_at": "2026-11-27T23:54:28.095889",
     "price_14d_ago": 346.31
   },
   "DIS": {
     "price": 127.24,
     "change_pct": 6.82,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-11-27T22:21:38.865959",
+    "updated_at": "2026-11-27T23:54:28.507404",
     "price_14d_ago": 119.12
   },
   "DOCS": {
     "price": 29.6,
     "change_pct": -9.95,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-11-27T22:21:39.241022",
+    "updated_at": "2026-11-27T23:54:28.877787",
     "price_14d_ago": 32.87
   },
   "DVN": {
     "price": 42.84,
     "change_pct": 1.04,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-11-27T22:21:39.631271",
+    "updated_at": "2026-11-27T23:54:29.271912",
     "price_14d_ago": 42.4
   },
   "EBAY": {
     "price": 113.33,
     "change_pct": -6.32,
     "name": "eBay Inc.",
-    "updated_at": "2026-11-27T22:21:39.828574",
+    "updated_at": "2026-11-27T23:54:29.462980",
     "price_14d_ago": 120.97
   },
   "ETH-USD": {
-    "price": 1664.47,
-    "change_pct": -9.32,
+    "price": 1655.39,
+    "change_pct": -9.81,
     "name": "Ethereum USD",
-    "updated_at": "2026-11-27T22:21:40.468113",
+    "updated_at": "2026-11-27T23:54:30.008758",
     "price_14d_ago": 1835.5
   },
   "F": {
     "price": 12.33,
     "change_pct": -1.52,
     "name": "Ford Motor Company",
-    "updated_at": "2026-11-27T22:21:40.686691",
+    "updated_at": "2026-11-27T23:54:30.221353",
     "price_14d_ago": 12.52
   },
   "FB": {
     "price": 43.86,
     "change_pct": -1.46,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-11-27T22:21:40.876404",
+    "updated_at": "2026-11-27T23:54:30.402835",
     "price_14d_ago": 44.51
   },
   "FCX": {
     "price": 50.77,
     "change_pct": -18.55,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-11-27T22:21:41.081870",
+    "updated_at": "2026-11-27T23:54:30.605826",
     "price_14d_ago": 62.33
   },
   "FSK": {
     "price": 11.6,
     "change_pct": -2.03,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-11-27T22:21:42.637516",
+    "updated_at": "2026-11-27T23:54:32.213176",
     "price_14d_ago": 11.84
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-11-27T22:21:43.191396",
+    "updated_at": "2026-11-27T23:54:32.753576",
     "price_14d_ago": null
   },
   "GD": {
     "price": 363.36,
     "change_pct": 0.36,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-11-27T22:21:43.418381",
+    "updated_at": "2026-11-27T23:54:32.968408",
     "price_14d_ago": 362.07
   },
   "GE": {
     "price": 323.94,
     "change_pct": -3.46,
     "name": "GE Aerospace",
-    "updated_at": "2026-11-27T22:21:43.643322",
+    "updated_at": "2026-11-27T23:54:33.195077",
     "price_14d_ago": 335.54
   },
   "GLD": {
     "price": 334.4,
     "change_pct": -11.89,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-11-27T22:21:43.826286",
+    "updated_at": "2026-11-27T23:54:33.381861",
     "price_14d_ago": 379.53
   },
   "GME": {
     "price": 26.34,
     "change_pct": 2.93,
     "name": "GameStop Corporation",
-    "updated_at": "2026-11-27T22:21:44.020178",
+    "updated_at": "2026-11-27T23:54:33.569573",
     "price_14d_ago": 25.59
   },
   "GOLD": {
     "price": 3668.5,
     "change_pct": -10.84,
     "name": "Gold",
-    "updated_at": "2026-11-27T22:21:44.199028",
+    "updated_at": "2026-11-27T23:54:33.752052",
     "price_14d_ago": 4114.5
   },
   "GOOG": {
     "price": 272.44,
     "change_pct": -4.74,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-11-27T22:21:44.399884",
+    "updated_at": "2026-11-27T23:54:33.938492",
     "price_14d_ago": 286.01
   },
   "GOOGL": {
     "price": 274.96,
     "change_pct": -4.58,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-11-27T22:21:44.586180",
+    "updated_at": "2026-11-27T23:54:34.128063",
     "price_14d_ago": 288.15
   },
   "GS": {
     "price": 812.87,
     "change_pct": -10.3,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-11-27T22:21:44.785288",
+    "updated_at": "2026-11-27T23:54:34.333954",
     "price_14d_ago": 906.22
   },
   "Gold": {
     "price": 40.2,
     "change_pct": 4.85,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-11-27T22:21:44.988118",
+    "updated_at": "2026-11-27T23:54:34.522825",
     "price_14d_ago": 38.34
   },
   "HFGM": {
     "price": 26.73,
     "change_pct": -6.78,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-11-27T22:21:45.175071",
+    "updated_at": "2026-11-27T23:54:34.703777",
     "price_14d_ago": 28.68
   },
   "HG": {
     "price": 38.8,
     "change_pct": 3.85,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-11-27T22:21:45.365041",
+    "updated_at": "2026-11-27T23:54:34.887826",
     "price_14d_ago": 37.36
   },
   "IBM": {
     "price": 248.08,
     "change_pct": 0.8,
     "name": "International Business Machines",
-    "updated_at": "2026-11-27T22:21:46.758423",
+    "updated_at": "2026-11-27T23:54:36.339196",
     "price_14d_ago": 246.11
   },
   "IEF": {
     "price": 91.66,
     "change_pct": -0.15,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-11-27T22:21:46.957589",
+    "updated_at": "2026-11-27T23:54:36.541131",
     "price_14d_ago": 91.8
   },
   "INDA": {
     "price": 52.77,
     "change_pct": 2.65,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-11-27T22:21:47.340215",
+    "updated_at": "2026-11-27T23:54:36.921988",
     "price_14d_ago": 51.41
   },
   "INFY": {
     "price": 13.07,
     "change_pct": 5.49,
     "name": "Infosys Limited",
-    "updated_at": "2026-11-27T22:21:47.729337",
+    "updated_at": "2026-11-27T23:54:37.303872",
     "price_14d_ago": 12.39
   },
   "INTC": {
     "price": 57.4,
     "change_pct": -3.32,
     "name": "Intel Corporation",
-    "updated_at": "2026-11-27T22:21:47.934544",
+    "updated_at": "2026-11-27T23:54:37.511018",
     "price_14d_ago": 59.37
   },
   "IWD": {
     "price": 257.96,
     "change_pct": -1.77,
     "name": "iShares Russell 1000 Value Inde",
-    "updated_at": "2026-11-27T22:21:48.135072",
+    "updated_at": "2026-11-27T23:54:37.723941",
     "price_14d_ago": 262.61
   },
   "IWF": {
     "price": 109.31,
     "change_pct": -4.96,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-11-27T22:21:48.435134",
+    "updated_at": "2026-11-27T23:54:37.926245",
     "price_14d_ago": 115.01
   },
   "IWM": {
     "price": 273.79,
     "change_pct": -3.09,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-11-27T22:21:48.640776",
+    "updated_at": "2026-11-27T23:54:38.128144",
     "price_14d_ago": 282.51
   },
   "JNJ": {
     "price": 275.51,
     "change_pct": -2.34,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-11-27T22:21:48.865887",
+    "updated_at": "2026-11-27T23:54:38.352178",
     "price_14d_ago": 282.11
   },
   "JPM": {
     "price": 322.96,
     "change_pct": -5.59,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-11-27T22:21:49.067701",
+    "updated_at": "2026-11-27T23:54:38.562922",
     "price_14d_ago": 342.08
   },
   "KKR": {
     "price": 95.78,
     "change_pct": -2.35,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-11-27T22:21:49.264526",
+    "updated_at": "2026-11-27T23:54:38.756404",
     "price_14d_ago": 98.09
   },
   "LLY": {
     "price": 1392.38,
     "change_pct": -1.39,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-11-27T22:21:50.112446",
+    "updated_at": "2026-11-27T23:54:39.528846",
     "price_14d_ago": 1411.95
   },
   "LMT": {
     "price": 605.88,
     "change_pct": 3.01,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-11-27T22:21:50.374259",
+    "updated_at": "2026-11-27T23:54:39.753253",
     "price_14d_ago": 588.19
   },
   "LYFT": {
     "price": 17.85,
     "change_pct": 6.5,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-11-27T22:21:51.391474",
+    "updated_at": "2026-11-27T23:54:40.687727",
     "price_14d_ago": 16.76
   },
   "META": {
     "price": 628.96,
     "change_pct": -1.93,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-11-27T22:21:52.405924",
+    "updated_at": "2026-11-27T23:54:41.680684",
     "price_14d_ago": 641.37
   },
   "MGM": {
     "price": 35.29,
     "change_pct": 7.23,
     "name": "MGM Resorts International",
-    "updated_at": "2026-11-27T22:21:52.784218",
+    "updated_at": "2026-11-27T23:54:42.056791",
     "price_14d_ago": 32.91
   },
   "MINE": {
     "price": 1.88,
     "change_pct": -25.6,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-11-27T22:21:52.974593",
+    "updated_at": "2026-11-27T23:54:42.231507",
     "price_14d_ago": 2.52
   },
   "MRK": {
     "price": 141.32,
     "change_pct": -5.0,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-11-27T22:21:53.562848",
+    "updated_at": "2026-11-27T23:54:42.802554",
     "price_14d_ago": 148.76
   },
   "MRNA": {
     "price": 228.64,
     "change_pct": -15.0,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-11-27T22:21:53.751277",
+    "updated_at": "2026-11-27T23:54:42.981799",
     "price_14d_ago": 269.0
   },
   "MS": {
     "price": 170.88,
     "change_pct": -8.67,
     "name": "Morgan Stanley",
-    "updated_at": "2026-11-27T22:21:53.966851",
+    "updated_at": "2026-11-27T23:54:43.184939",
     "price_14d_ago": 187.1
   },
   "MSFT": {
     "price": 492.85,
     "change_pct": -9.6,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-11-27T22:21:54.168673",
+    "updated_at": "2026-11-27T23:54:43.383116",
     "price_14d_ago": 545.18
   },
   "MSTR": {
     "price": 81.62,
     "change_pct": -35.01,
     "name": "Strategy Inc",
-    "updated_at": "2026-11-27T22:21:54.344744",
+    "updated_at": "2026-11-27T23:54:43.570032",
     "price_14d_ago": 125.59
   },
   "MU": {
     "price": 646.95,
     "change_pct": -11.76,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-11-27T22:21:54.541607",
+    "updated_at": "2026-11-27T23:54:43.769982",
     "price_14d_ago": 733.15
   },
   "NEE": {
     "price": 84.95,
     "change_pct": -2.2,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-11-27T22:21:55.314134",
+    "updated_at": "2026-11-27T23:54:44.532194",
     "price_14d_ago": 86.86
   },
   "NFLX": {
     "price": 60.93,
     "change_pct": -4.72,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-11-27T22:21:55.690785",
+    "updated_at": "2026-11-27T23:54:44.902809",
     "price_14d_ago": 63.95
   },
   "NKE": {
     "price": 37.32,
     "change_pct": -6.42,
     "name": "Nike, Inc.",
-    "updated_at": "2026-11-27T22:21:56.255638",
+    "updated_at": "2026-11-27T23:54:45.474921",
     "price_14d_ago": 39.88
   },
   "NOC": {
     "price": 561.47,
     "change_pct": 4.16,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-11-27T22:21:56.475319",
+    "updated_at": "2026-11-27T23:54:45.683240",
     "price_14d_ago": 539.07
   },
   "NVDA": {
     "price": 150.49,
     "change_pct": -15.77,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-11-27T22:21:56.854249",
+    "updated_at": "2026-11-27T23:54:46.121151",
     "price_14d_ago": 178.67
   },
   "NVS": {
     "price": 154.08,
     "change_pct": -5.87,
     "name": "Novartis AG",
-    "updated_at": "2026-11-27T22:21:57.235789",
+    "updated_at": "2026-11-27T23:54:46.498235",
     "price_14d_ago": 163.69
   },
   "Nasdaq": {
     "price": 650.99,
     "change_pct": -4.17,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-11-27T22:21:57.454034",
+    "updated_at": "2026-11-27T23:54:46.693399",
     "price_14d_ago": 679.35
   },
   "OKLO": {
     "price": 20.85,
     "change_pct": -22.32,
     "name": "Oklo Inc.",
-    "updated_at": "2026-11-27T22:21:58.004975",
+    "updated_at": "2026-11-27T23:54:47.269098",
     "price_14d_ago": 26.84
   },
   "ORCL": {
     "price": 107.13,
     "change_pct": -10.57,
     "name": "Oracle Corporation",
-    "updated_at": "2026-11-27T22:21:58.565998",
+    "updated_at": "2026-11-27T23:54:47.857587",
     "price_14d_ago": 119.79
   },
   "PALL": {
     "price": 16.15,
     "change_pct": -14.14,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-11-27T22:21:59.134821",
+    "updated_at": "2026-11-27T23:54:48.422609",
     "price_14d_ago": 18.81
   },
   "PANW": {
     "price": 366.76,
     "change_pct": 10.84,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-11-27T22:21:59.339242",
+    "updated_at": "2026-11-27T23:54:48.607162",
     "price_14d_ago": 330.89
   },
   "PBR": {
     "price": 16.84,
     "change_pct": -8.23,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-11-27T22:21:59.532517",
+    "updated_at": "2026-11-27T23:54:48.803794",
     "price_14d_ago": 18.35
   },
   "PFE": {
     "price": 28.52,
     "change_pct": -2.43,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-11-27T22:21:59.922865",
+    "updated_at": "2026-11-27T23:54:49.198711",
     "price_14d_ago": 29.23
   },
   "PLTM": {
     "price": 12.7,
     "change_pct": -15.73,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-11-27T22:22:00.364421",
+    "updated_at": "2026-11-27T23:54:49.566032",
     "price_14d_ago": 15.07
   },
   "PLTR": {
     "price": 172.17,
     "change_pct": 1.76,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-11-27T22:22:00.552956",
+    "updated_at": "2026-11-27T23:54:49.749197",
     "price_14d_ago": 169.2
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-11-27T22:22:01.019166",
+    "updated_at": "2026-11-27T23:54:50.136167",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 27.19,
     "change_pct": -3.27,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-11-27T22:22:01.205900",
+    "updated_at": "2026-11-27T23:54:50.316460",
     "price_14d_ago": 28.11
   },
   "PSBD": {
     "price": 9.45,
     "change_pct": -4.35,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-11-27T22:22:01.393516",
+    "updated_at": "2026-11-27T23:54:50.503120",
     "price_14d_ago": 9.88
   },
   "PYPL": {
     "price": 59.14,
     "change_pct": -1.52,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-11-27T22:22:01.576602",
+    "updated_at": "2026-11-27T23:54:50.688863",
     "price_14d_ago": 60.05
   },
   "QQQ": {
     "price": 650.99,
     "change_pct": -4.17,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-11-27T22:22:02.161702",
+    "updated_at": "2026-11-27T23:54:51.276263",
     "price_14d_ago": 679.35
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-11-27T22:22:02.425846",
+    "updated_at": "2026-11-27T23:54:51.457406",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 57.38,
     "change_pct": 11.2,
     "name": "Roblox Corporation",
-    "updated_at": "2026-11-27T22:22:02.799846",
+    "updated_at": "2026-11-27T23:54:51.827845",
     "price_14d_ago": 51.6
   },
   "RKLB": {
     "price": 50.88,
     "change_pct": -13.56,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-11-27T22:22:03.787450",
+    "updated_at": "2026-11-27T23:54:52.882942",
     "price_14d_ago": 58.86
   },
   "Russell": {
     "price": 273.79,
     "change_pct": -3.09,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-11-27T22:22:04.907878",
+    "updated_at": "2026-11-27T23:54:53.987311",
     "price_14d_ago": 282.51
   },
   "S&P": {
     "price": 7297.49,
     "change_pct": -3.34,
     "name": "S&P 500",
-    "updated_at": "2026-11-27T22:22:05.088103",
+    "updated_at": "2026-11-27T23:54:54.164256",
     "price_14d_ago": 7549.94
   },
   "S&P 500": {
     "price": 7297.49,
     "change_pct": -3.34,
     "name": "S&P 500",
-    "updated_at": "2026-11-27T22:22:05.270482",
+    "updated_at": "2026-11-27T23:54:54.347316",
     "price_14d_ago": 7549.94
   },
   "SAMSUNG ELECTRONICS": {
     "price": 179100.0,
     "change_pct": -9.95,
     "name": "SamsungElec",
-    "updated_at": "2026-11-27T22:22:05.466947",
+    "updated_at": "2026-11-27T23:54:54.544240",
     "price_14d_ago": 198900.0
   },
   "SAP": {
     "price": 213.65,
     "change_pct": -10.01,
     "name": "SAP  SE",
-    "updated_at": "2026-11-27T22:22:05.668352",
+    "updated_at": "2026-11-27T23:54:54.736194",
     "price_14d_ago": 237.42
   },
   "SF": {
     "price": 68.93,
     "change_pct": -5.85,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-11-27T22:22:05.879211",
+    "updated_at": "2026-11-27T23:54:54.938260",
     "price_14d_ago": 73.21
   },
   "SK HYNIX": {
     "price": 1110000.0,
     "change_pct": -8.42,
     "name": "SK hynix",
-    "updated_at": "2026-11-27T22:22:06.887289",
+    "updated_at": "2026-11-27T23:54:55.884076",
     "price_14d_ago": 1212000.0
   },
   "SLB": {
     "price": 49.62,
     "change_pct": -1.51,
     "name": "SLB Limited",
-    "updated_at": "2026-11-27T22:22:07.104246",
+    "updated_at": "2026-11-27T23:54:56.093920",
     "price_14d_ago": 50.38
   },
   "SMH": {
     "price": 440.06,
     "change_pct": -9.71,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-11-27T22:22:07.487537",
+    "updated_at": "2026-11-27T23:54:56.471166",
     "price_14d_ago": 487.41
   },
   "SMR": {
     "price": 3.48,
     "change_pct": -36.03,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-11-27T22:22:07.677641",
+    "updated_at": "2026-11-27T23:54:56.654811",
     "price_14d_ago": 5.44
   },
   "SNAP": {
     "price": 5.19,
     "change_pct": 2.77,
     "name": "Snap Inc.",
-    "updated_at": "2026-11-27T22:22:07.859962",
+    "updated_at": "2026-11-27T23:54:56.933493",
     "price_14d_ago": 5.05
   },
   "SNWGF": {
     "price": 8.88,
     "change_pct": -19.07,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-11-27T22:22:08.231760",
+    "updated_at": "2026-11-27T23:54:57.319187",
     "price_14d_ago": 10.97
   },
   "SOYB": {
     "price": 26.52,
     "change_pct": 5.15,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-11-27T22:22:08.415203",
+    "updated_at": "2026-11-27T23:54:57.503485",
     "price_14d_ago": 25.22
   },
   "SPCE": {
     "price": 1.14,
     "change_pct": -60.28,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-11-27T22:22:08.603841",
+    "updated_at": "2026-11-27T23:54:57.687926",
     "price_14d_ago": 2.87
   },
   "SPX": {
     "price": 7297.49,
     "change_pct": -3.34,
     "name": "S&P 500",
-    "updated_at": "2026-11-27T22:22:09.150798",
+    "updated_at": "2026-11-27T23:54:58.230253",
     "price_14d_ago": 7549.94
   },
   "SPY": {
     "price": 728.32,
     "change_pct": -3.24,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-11-27T22:22:09.358873",
+    "updated_at": "2026-11-27T23:54:58.431821",
     "price_14d_ago": 752.69
   },
   "SQQQ": {
     "price": 45.76,
     "change_pct": 6.94,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-11-27T22:22:09.563525",
+    "updated_at": "2026-11-27T23:54:58.626969",
     "price_14d_ago": 42.79
   },
   "SQUARE": {
     "price": 77.68,
     "change_pct": -12.29,
     "name": "Block, Inc.",
-    "updated_at": "2026-11-27T22:22:09.746852",
+    "updated_at": "2026-11-27T23:54:58.808045",
     "price_14d_ago": 88.56
   },
   "Semiconductors": {
     "price": 440.06,
     "change_pct": -9.71,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-11-27T22:22:10.166037",
+    "updated_at": "2026-11-27T23:54:59.179546",
     "price_14d_ago": 487.41
   },
   "T": {
     "price": 23.21,
     "change_pct": 6.47,
     "name": "AT&T Inc.",
-    "updated_at": "2026-11-27T22:22:10.390601",
+    "updated_at": "2026-11-27T23:54:59.392948",
     "price_14d_ago": 21.8
   },
   "TDOC": {
     "price": 8.0,
     "change_pct": -10.91,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-11-27T22:22:10.778081",
+    "updated_at": "2026-11-27T23:54:59.795262",
     "price_14d_ago": 8.98
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": -50.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-11-27T22:22:11.325665",
+    "updated_at": "2026-11-27T23:55:00.321515",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 81.27,
     "change_pct": -0.84,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-11-27T22:22:11.540831",
+    "updated_at": "2026-11-27T23:55:00.550851",
     "price_14d_ago": 81.96
   },
   "TSLA": {
     "price": 400.0,
     "change_pct": 5.81,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-11-27T22:22:11.724356",
+    "updated_at": "2026-11-27T23:55:00.730621",
     "price_14d_ago": 378.05
   },
   "TSM": {
     "price": 353.34,
     "change_pct": -9.08,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-11-27T22:22:11.925605",
+    "updated_at": "2026-11-27T23:55:00.931020",
     "price_14d_ago": 388.62
   },
   "UBER": {
     "price": 66.63,
     "change_pct": -6.38,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-11-27T22:22:12.494407",
+    "updated_at": "2026-11-27T23:55:01.471623",
     "price_14d_ago": 71.17
   },
   "UNG": {
     "price": 9.84,
     "change_pct": -2.38,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-11-27T22:22:12.676862",
+    "updated_at": "2026-11-27T23:55:01.650593",
     "price_14d_ago": 10.08
   },
   "URANIUM": {
     "price": 29.17,
     "change_pct": -15.06,
     "name": "Uranium ETF",
-    "updated_at": "2026-11-27T22:22:13.053821",
+    "updated_at": "2026-11-27T23:55:02.026134",
     "price_14d_ago": 34.34
   },
   "USD": {
     "price": 41.88,
     "change_pct": -26.16,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-11-27T22:22:13.273621",
+    "updated_at": "2026-11-27T23:55:02.238708",
     "price_14d_ago": 56.72
   },
   "USDX": {
     "price": 25.59,
     "change_pct": -0.31,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-11-27T22:22:13.458454",
+    "updated_at": "2026-11-27T23:55:02.424662",
     "price_14d_ago": 25.67
   },
   "USO": {
     "price": 137.77,
     "change_pct": -3.43,
     "name": "United States Oil Fund",
-    "updated_at": "2026-11-27T22:22:13.640464",
+    "updated_at": "2026-11-27T23:55:02.608955",
     "price_14d_ago": 142.66
   },
   "UTHR": {
     "price": 597.72,
     "change_pct": 2.62,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-11-27T22:22:13.831259",
+    "updated_at": "2026-11-27T23:55:02.797837",
     "price_14d_ago": 582.46
   },
   "UUU": {
     "price": 5.29,
     "change_pct": 0.0,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-11-27T22:22:14.024315",
+    "updated_at": "2026-11-27T23:55:02.980957",
     "price_14d_ago": null
   },
   "V": {
     "price": 429.56,
     "change_pct": 1.75,
     "name": "Visa Inc.",
-    "updated_at": "2026-11-27T22:22:14.402097",
+    "updated_at": "2026-11-27T23:55:03.361483",
     "price_14d_ago": 422.16
   },
   "VEEV": {
     "price": 271.6,
     "change_pct": -11.36,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-11-27T22:22:14.954880",
+    "updated_at": "2026-11-27T23:55:03.903345",
     "price_14d_ago": 306.4
   },
   "VIX": {
     "price": 23.81,
     "change_pct": 22.35,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-11-27T22:22:15.712194",
+    "updated_at": "2026-11-27T23:55:04.637709",
     "price_14d_ago": 19.46
   },
   "VLO": {
     "price": 329.39,
     "change_pct": -7.67,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-11-27T22:22:15.926298",
+    "updated_at": "2026-11-27T23:55:04.839549",
     "price_14d_ago": 356.75
   },
   "VRTX": {
     "price": 534.57,
     "change_pct": -2.96,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-11-27T22:22:16.113313",
+    "updated_at": "2026-11-27T23:55:05.020473",
     "price_14d_ago": 550.87
   },
   "WFC": {
     "price": 82.28,
     "change_pct": -3.75,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-11-27T22:22:16.337551",
+    "updated_at": "2026-11-27T23:55:05.233563",
     "price_14d_ago": 85.49
   },
   "WIT": {
     "price": 2.21,
     "change_pct": 3.27,
     "name": "Wipro Limited",
-    "updated_at": "2026-11-27T22:22:16.725104",
+    "updated_at": "2026-11-27T23:55:05.612948",
     "price_14d_ago": 2.14
   },
   "WMT": {
     "price": 133.13,
     "change_pct": 5.94,
     "name": "Walmart Inc.",
-    "updated_at": "2026-11-27T22:22:17.124427",
+    "updated_at": "2026-11-27T23:55:06.009257",
     "price_14d_ago": 125.66
   },
   "WTBN": {
     "price": 24.23,
     "change_pct": -0.79,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-11-27T22:22:17.500527",
+    "updated_at": "2026-11-27T23:55:06.387172",
     "price_14d_ago": 24.42
   },
   "WTI": {
     "price": 83.08,
     "change_pct": -4.34,
     "name": "WTI Crude",
-    "updated_at": "2026-11-27T22:22:17.687890",
+    "updated_at": "2026-11-27T23:55:06.569670",
     "price_14d_ago": 86.85
   },
   "WTI CRUDE OIL": {
     "price": 83.08,
     "change_pct": -4.34,
     "name": "WTI Crude",
-    "updated_at": "2026-11-27T22:22:17.870278",
+    "updated_at": "2026-11-27T23:55:06.748947",
     "price_14d_ago": 86.85
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-11-27T22:22:18.415536",
+    "updated_at": "2026-11-27T23:55:07.293339",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 160.18,
     "change_pct": -2.76,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-11-27T22:22:19.051258",
+    "updated_at": "2026-11-27T23:55:07.918588",
     "price_14d_ago": 164.73
   },
   "ZIM": {
     "price": 30.62,
     "change_pct": 7.4,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-11-27T22:22:19.419759",
+    "updated_at": "2026-11-27T23:55:08.288105",
     "price_14d_ago": 28.51
   },
   "HIMS": {
     "price": 15.0,
     "change_pct": -34.61,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-11-27T22:22:19.980389",
+    "updated_at": "2026-11-27T23:55:08.902579",
     "price_14d_ago": 22.94
   },
   "GDRX": {
     "price": 2.4,
     "change_pct": -34.25,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-11-27T22:22:20.167872",
+    "updated_at": "2026-11-27T23:55:09.079612",
     "price_14d_ago": 3.65
   },
   "TEM": {
     "price": 55.91,
     "change_pct": -33.79,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-11-27T22:22:20.352015",
+    "updated_at": "2026-11-27T23:55:09.260487",
     "price_14d_ago": 84.44
   },
   "GH": {
     "price": 156.04,
     "change_pct": -1.73,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-11-27T22:22:20.536643",
+    "updated_at": "2026-11-27T23:55:09.436085",
     "price_14d_ago": 158.79
   },
   "ABT": {
     "price": 108.07,
     "change_pct": -2.21,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-11-27T22:22:20.746938",
+    "updated_at": "2026-11-27T23:55:09.657110",
     "price_14d_ago": 110.51
   },
   "ARM": {
     "price": 171.55,
     "change_pct": -7.92,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-11-27T22:21:29.828455",
+    "updated_at": "2026-11-27T23:54:19.660089",
     "price_14d_ago": 186.3
   },
   "HOOD": {
     "price": 67.92,
     "change_pct": -18.48,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-11-27T22:21:45.771008",
+    "updated_at": "2026-11-27T23:54:35.292577",
     "price_14d_ago": 83.32
   },
   "SPOT": {
     "price": 620.38,
     "change_pct": 1.85,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-11-27T22:22:08.787073",
+    "updated_at": "2026-11-27T23:54:57.865016",
     "price_14d_ago": 609.1
   },
   "CRWV": {
     "price": 44.15,
     "change_pct": -9.86,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-11-27T22:21:37.474448",
+    "updated_at": "2026-11-27T23:54:27.142387",
     "price_14d_ago": 48.98
   },
   "LENS": {
     "price": 39.2,
     "change_pct": -7.38,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-11-27T22:21:49.449312",
+    "updated_at": "2026-11-27T23:54:38.943339",
     "price_14d_ago": 42.32
   },
   "TCEHY": {
     "price": 45.29,
     "change_pct": -14.84,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-11-27T22:22:10.598318",
+    "updated_at": "2026-11-27T23:54:59.617507",
     "price_14d_ago": 53.18
   },
   "SHOP": {
     "price": 141.78,
     "change_pct": -6.76,
     "name": "Shopify Inc.",
-    "updated_at": "2026-11-27T22:22:06.066370",
+    "updated_at": "2026-11-27T23:54:55.130399",
     "price_14d_ago": 152.06
   },
   "BWET": {
     "price": 839.8,
     "change_pct": 44.04,
     "name": "Breakwave Tanker Shipping ETF",
-    "updated_at": "2026-11-27T22:21:33.352103",
+    "updated_at": "2026-11-27T23:54:23.153433",
     "price_14d_ago": 583.03
   },
   "CRWD": {
     "price": 217.2,
     "change_pct": -4.98,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-11-27T22:21:37.288600",
+    "updated_at": "2026-11-27T23:54:26.959304",
     "price_14d_ago": 228.58
   },
   "DHT": {
     "price": 21.83,
     "change_pct": 6.18,
     "name": "DHT Holdings, Inc.",
-    "updated_at": "2026-11-27T22:21:38.641435",
+    "updated_at": "2026-11-27T23:54:28.289813",
     "price_14d_ago": 20.56
   },
   "ECO": {
     "price": 81.12,
     "change_pct": -1.33,
     "name": "Okeanis Eco Tankers Corp.",
-    "updated_at": "2026-11-27T22:21:40.030201",
+    "updated_at": "2026-11-27T23:54:29.644487",
     "price_14d_ago": 82.21
   },
   "FMCC": {
     "price": 3.9,
     "change_pct": -5.8,
     "name": "Freddie Mac",
-    "updated_at": "2026-11-27T22:21:41.840445",
+    "updated_at": "2026-11-27T23:54:31.361375",
     "price_14d_ago": 4.14
   },
   "FNMA": {
     "price": 4.19,
     "change_pct": -10.85,
     "name": "Fannie Mae",
-    "updated_at": "2026-11-27T22:21:42.050332",
+    "updated_at": "2026-11-27T23:54:31.558563",
     "price_14d_ago": 4.7
   },
   "FRO": {
     "price": 47.66,
     "change_pct": 7.61,
     "name": "Frontline Plc",
-    "updated_at": "2026-11-27T22:21:42.444373",
+    "updated_at": "2026-11-27T23:54:31.950241",
     "price_14d_ago": 44.29
   },
   "FTNT": {
     "price": 139.48,
     "change_pct": 13.89,
     "name": "Fortinet, Inc.",
-    "updated_at": "2026-11-27T22:21:43.003553",
+    "updated_at": "2026-11-27T23:54:32.573939",
     "price_14d_ago": 122.47
   },
   "QLYS": {
     "price": 206.33,
     "change_pct": 1.91,
     "name": "Qualys, Inc.",
-    "updated_at": "2026-11-27T22:22:01.963146",
+    "updated_at": "2026-11-27T23:54:51.073128",
     "price_14d_ago": 202.46
   },
   "RITM": {
     "price": 9.0,
     "change_pct": -4.66,
     "name": "Rithm Capital Corp.",
-    "updated_at": "2026-11-27T22:22:03.604750",
+    "updated_at": "2026-11-27T23:54:52.702649",
     "price_14d_ago": 9.44
   },
   "RPD": {
     "price": 17.07,
     "change_pct": 14.03,
     "name": "Rapid7, Inc.",
-    "updated_at": "2026-11-27T22:22:04.347340",
+    "updated_at": "2026-11-27T23:54:53.430531",
     "price_14d_ago": 14.97
   },
   "AMAT": {
     "price": 322.04,
     "change_pct": -13.09,
     "name": "Applied Materials, Inc.",
-    "updated_at": "2026-11-27T22:21:27.347101",
+    "updated_at": "2026-11-27T23:54:17.141545",
     "price_14d_ago": 370.55
   },
   "LRCX": {
     "price": 192.69,
     "change_pct": -12.93,
     "name": "Lam Research Corporation",
-    "updated_at": "2026-11-27T22:21:50.841374",
+    "updated_at": "2026-11-27T23:54:40.122825",
     "price_14d_ago": 221.31
   },
   "HUBS": {
     "price": 207.45,
     "change_pct": 0.74,
     "name": "HubSpot, Inc.",
-    "updated_at": "2026-11-27T22:21:45.953227",
+    "updated_at": "2026-11-27T23:54:35.473976",
     "price_14d_ago": 205.93
   },
   "MCD": {
     "price": 282.62,
     "change_pct": 0.42,
     "name": "McDonald's Corporation",
-    "updated_at": "2026-11-27T22:21:52.026734",
+    "updated_at": "2026-11-27T23:54:41.307318",
     "price_14d_ago": 281.44
   },
   "CART": {
     "price": 57.6,
     "change_pct": -1.47,
     "name": "Maplebear Inc.",
-    "updated_at": "2026-11-27T22:21:34.110169",
+    "updated_at": "2026-11-27T23:54:23.904978",
     "price_14d_ago": 58.46
   },
   "VGS": {
     "price": 0,
     "change_pct": 0,
     "name": "VGS",
-    "updated_at": "2026-11-27T22:22:15.341760",
+    "updated_at": "2026-11-27T23:55:04.270295",
     "price_14d_ago": null
   },
   "LEU": {
     "price": 85.43,
     "change_pct": -27.19,
     "name": "Centrus Energy Corp.",
-    "updated_at": "2026-11-27T22:21:49.638103",
+    "updated_at": "2026-11-27T23:54:39.138129",
     "price_14d_ago": 117.34
   },
   "AMP": {
     "price": 507.12,
     "change_pct": -2.16,
     "name": "Ameriprise Financial, Inc.",
-    "updated_at": "2026-11-27T22:21:27.942232",
+    "updated_at": "2026-11-27T23:54:17.719176",
     "price_14d_ago": 518.3
   },
   "ANTH": {
     "price": 0.0,
     "change_pct": 0.0,
     "name": "ANTHERA PHARMACEUTICALS INC",
-    "updated_at": "2026-11-27T22:21:28.692876",
+    "updated_at": "2026-11-27T23:54:18.454260",
     "price_14d_ago": 0.0
   },
   "DB": {
     "price": 33.32,
     "change_pct": -8.89,
     "name": "Deutsche Bank AG",
-    "updated_at": "2026-11-27T22:21:37.857999",
+    "updated_at": "2026-11-27T23:54:27.527763",
     "price_14d_ago": 36.57
   },
   "FSLR": {
     "price": 149.77,
     "change_pct": -21.84,
     "name": "First Solar, Inc.",
-    "updated_at": "2026-11-27T22:21:42.820280",
+    "updated_at": "2026-11-27T23:54:32.390870",
     "price_14d_ago": 191.61
   },
   "NASA": {
     "price": 18.91,
     "change_pct": -10.42,
     "name": "Tema Space Innovators ETF",
-    "updated_at": "2026-11-27T22:21:54.905528",
+    "updated_at": "2026-11-27T23:54:44.133034",
     "price_14d_ago": 21.11
   },
   "ASML": {
     "price": 1325.82,
     "change_pct": -12.39,
     "name": "ASML Holding N.V. - New York Re",
-    "updated_at": "2026-11-27T22:21:30.028197",
+    "updated_at": "2026-11-27T23:54:19.851251",
     "price_14d_ago": 1513.25
   },
   "NET": {
     "price": 296.79,
     "change_pct": 1.03,
     "name": "Cloudflare, Inc.",
-    "updated_at": "2026-11-27T22:21:55.499448",
+    "updated_at": "2026-11-27T23:54:44.716856",
     "price_14d_ago": 293.75
   },
   "BOX": {
     "price": 46.78,
     "change_pct": 12.32,
     "name": "Box, Inc.",
-    "updated_at": "2026-11-27T22:21:32.577981",
+    "updated_at": "2026-11-27T23:54:22.358550",
     "price_14d_ago": 41.65
   },
   "CRSR": {
     "price": 12.28,
     "change_pct": 0.9,
     "name": "Corsair Gaming, Inc.",
-    "updated_at": "2026-11-27T22:21:37.105251",
+    "updated_at": "2026-11-27T23:54:26.775462",
     "price_14d_ago": 12.16
   },
   "CRL": {
     "price": 337.39,
     "change_pct": -4.51,
     "name": "Charles River Laboratories Inte",
-    "updated_at": "2026-11-27T22:21:36.555363",
+    "updated_at": "2026-11-27T23:54:26.236729",
     "price_14d_ago": 353.34
   },
   "BDC": {
     "price": 103.16,
     "change_pct": -3.51,
     "name": "Belden Inc",
-    "updated_at": "2026-11-27T22:21:31.774666",
+    "updated_at": "2026-11-27T23:54:21.591438",
     "price_14d_ago": 106.91
   },
   "CMBS": {
     "price": 47.74,
     "change_pct": -0.17,
     "name": "iShares CMBS Bond ETF",
-    "updated_at": "2026-11-27T22:21:35.425794",
+    "updated_at": "2026-11-27T23:54:25.107537",
     "price_14d_ago": 47.82
   },
   "DBX": {
     "price": 37.14,
     "change_pct": 14.0,
     "name": "Dropbox, Inc.",
-    "updated_at": "2026-11-27T22:21:38.238449",
+    "updated_at": "2026-11-27T23:54:27.901916",
     "price_14d_ago": 32.58
   },
   "HY": {
     "price": 17.93,
     "change_pct": -38.41,
     "name": "Hyster-Yale, Inc.",
-    "updated_at": "2026-11-27T22:21:46.337371",
+    "updated_at": "2026-11-27T23:54:35.923700",
     "price_14d_ago": 29.11
   },
   "IG": {
     "price": 19.77,
     "change_pct": -0.41,
     "name": "Principal Investment Grade Corp",
-    "updated_at": "2026-11-27T22:21:47.150768",
+    "updated_at": "2026-11-27T23:54:36.729984",
     "price_14d_ago": 19.85
   },
   "REIT": {
     "price": 29.92,
     "change_pct": -1.16,
     "name": "ALPS Active REIT ETF",
-    "updated_at": "2026-11-27T22:22:02.994654",
+    "updated_at": "2026-11-27T23:54:52.106173",
     "price_14d_ago": 30.27
   },
   "RAMP": {
     "price": 38.5,
     "change_pct": 0.0,
     "name": "LiveRamp Holdings, Inc.",
-    "updated_at": "2026-11-27T22:22:02.613609",
+    "updated_at": "2026-11-27T23:54:51.641221",
     "price_14d_ago": null
   },
   "DJI": {
     "price": 0,
     "change_pct": 0,
     "name": "DJI",
-    "updated_at": "2026-11-27T22:21:39.051817",
+    "updated_at": "2026-11-27T23:54:28.685089",
     "price_14d_ago": null
   },
   "HON": {
     "price": 228.48,
     "change_pct": -0.23,
     "name": "Honeywell International Inc.",
-    "updated_at": "2026-11-27T22:21:45.587195",
+    "updated_at": "2026-11-27T23:54:35.111626",
     "price_14d_ago": 229.0
   },
   "MAR": {
     "price": 421.01,
     "change_pct": 0.92,
     "name": "Marriott International",
-    "updated_at": "2026-11-27T22:21:51.794240",
+    "updated_at": "2026-11-27T23:54:41.079955",
     "price_14d_ago": 417.16
   },
   "COF": {
     "price": 184.93,
     "change_pct": -6.87,
     "name": "Capital One Financial Corporati",
-    "updated_at": "2026-11-27T22:21:35.814713",
+    "updated_at": "2026-11-27T23:54:25.525673",
     "price_14d_ago": 198.58
   },
   "HYG": {
     "price": 76.61,
     "change_pct": -1.16,
     "name": "iShares iBoxx $ High Yield Corp",
-    "updated_at": "2026-11-27T22:21:46.529564",
+    "updated_at": "2026-11-27T23:54:36.118720",
     "price_14d_ago": 77.51
   },
   "SNOW": {
     "price": 276.29,
     "change_pct": -5.1,
     "name": "Snowflake Inc.",
-    "updated_at": "2026-11-27T22:22:08.040984",
+    "updated_at": "2026-11-27T23:54:57.121559",
     "price_14d_ago": 291.14
   },
   "DOCU": {
     "price": 80.71,
     "change_pct": 3.81,
     "name": "DocuSign, Inc.",
-    "updated_at": "2026-11-27T22:21:39.426727",
+    "updated_at": "2026-11-27T23:54:29.065836",
     "price_14d_ago": 77.75
   },
   "FIG": {
     "price": 17.73,
     "change_pct": -8.61,
     "name": "Figma, Inc.",
-    "updated_at": "2026-11-27T22:21:41.451924",
+    "updated_at": "2026-11-27T23:54:30.986447",
     "price_14d_ago": 19.4
   },
   "MPC": {
     "price": 359.8,
     "change_pct": -7.72,
     "name": "Marathon Petroleum Corporation",
-    "updated_at": "2026-11-27T22:21:53.342793",
+    "updated_at": "2026-11-27T23:54:42.586918",
     "price_14d_ago": 389.88
   },
   "NU": {
     "price": 12.91,
     "change_pct": 4.45,
     "name": "Nu Holdings Ltd.",
-    "updated_at": "2026-11-27T22:21:56.659741",
+    "updated_at": "2026-11-27T23:54:45.924923",
     "price_14d_ago": 12.36
   },
   "AXON": {
     "price": 363.48,
     "change_pct": 19.89,
     "name": "Axon Enterprise, Inc.",
-    "updated_at": "2026-11-27T22:21:30.399096",
+    "updated_at": "2026-11-27T23:54:20.230365",
     "price_14d_ago": 303.18
   },
   "RNG": {
     "price": 71.36,
     "change_pct": -1.95,
     "name": "Ringcentral, Inc.",
-    "updated_at": "2026-11-27T22:22:03.969395",
+    "updated_at": "2026-11-27T23:54:53.065734",
     "price_14d_ago": 72.78
   },
   "TWLO": {
     "price": 185.61,
     "change_pct": -10.18,
     "name": "Twilio Inc.",
-    "updated_at": "2026-11-27T22:22:12.107827",
+    "updated_at": "2026-11-27T23:55:01.112910",
     "price_14d_ago": 206.64
   },
   "ANT": {
     "price": 91.88,
     "change_pct": -5.44,
     "name": "Anthropic, PBC",
-    "updated_at": "2026-11-27T22:21:28.502279",
+    "updated_at": "2026-11-27T23:54:18.272255",
     "price_14d_ago": null
   },
   "SRUUF": {
     "price": 18.17,
     "change_pct": -3.56,
     "name": "Sprott Physical Uranium Trust",
-    "updated_at": "2026-11-27T22:22:09.925717",
+    "updated_at": "2026-11-27T23:54:58.989800",
     "price_14d_ago": 18.84
   },
   "OTCM": {
     "price": 50.36,
     "change_pct": -4.53,
     "name": "OTC Markets Group Inc.",
-    "updated_at": "2026-11-27T22:21:58.761960",
+    "updated_at": "2026-11-27T23:54:48.053573",
     "price_14d_ago": 52.75
   },
   "ZIP": {
     "price": 6.38,
     "change_pct": 48.72,
     "name": "ZipRecruiter, Inc.",
-    "updated_at": "2026-11-27T22:22:19.609626",
+    "updated_at": "2026-11-27T23:55:08.467010",
     "price_14d_ago": 4.29
   },
   "BHP": {
     "price": 73.66,
     "change_pct": -11.1,
     "name": "BHP Group Limited",
-    "updated_at": "2026-11-27T22:21:32.019741",
+    "updated_at": "2026-11-27T23:54:21.809839",
     "price_14d_ago": 82.86
   },
   "FNV": {
     "price": 259.55,
     "change_pct": -1.48,
     "name": "Franco-Nevada Corporation",
-    "updated_at": "2026-11-27T22:21:42.243273",
+    "updated_at": "2026-11-27T23:54:31.752863",
     "price_14d_ago": 263.46
   },
   "RGLD": {
     "price": 253.22,
     "change_pct": -10.42,
     "name": "Royal Gold, Inc.",
-    "updated_at": "2026-11-27T22:22:03.200124",
+    "updated_at": "2026-11-27T23:54:52.302305",
     "price_14d_ago": 282.66
   },
   "RIO": {
     "price": 76.47,
     "change_pct": -11.48,
     "name": "Rio Tinto Plc",
-    "updated_at": "2026-11-27T22:22:03.408558",
+    "updated_at": "2026-11-27T23:54:52.513234",
     "price_14d_ago": 86.39
   },
   "WPM": {
     "price": 131.02,
     "change_pct": -8.98,
     "name": "Wheaton Precious Metals Corp",
-    "updated_at": "2026-11-27T22:22:17.317114",
+    "updated_at": "2026-11-27T23:55:06.196763",
     "price_14d_ago": 143.94
   },
   "AGIO": {
     "price": 32.09,
     "change_pct": 2.26,
     "name": "Agios Pharmaceuticals, Inc.",
-    "updated_at": "2026-11-27T22:21:27.111423",
+    "updated_at": "2026-11-27T23:54:16.945565",
     "price_14d_ago": 31.38
   },
   "CL": {
     "price": 99.76,
     "change_pct": 1.86,
     "name": "Colgate-Palmolive Company",
-    "updated_at": "2026-11-27T22:21:35.232201",
+    "updated_at": "2026-11-27T23:54:24.912680",
     "price_14d_ago": 97.94
   },
   "QCOM": {
     "price": 179.27,
     "change_pct": 4.55,
     "name": "QUALCOMM Incorporated",
-    "updated_at": "2026-11-27T22:22:01.781449",
+    "updated_at": "2026-11-27T23:54:50.889292",
     "price_14d_ago": 171.47
   },
   "SI": {
     "price": 21.82,
     "change_pct": 1.68,
     "name": "Shoulder Innovations, Inc.",
-    "updated_at": "2026-11-27T22:22:06.246619",
+    "updated_at": "2026-11-27T23:54:55.312711",
     "price_14d_ago": 21.46
   },
   "SITM": {
     "price": 413.31,
     "change_pct": -9.57,
     "name": "SiTime Corporation",
-    "updated_at": "2026-11-27T22:22:06.617024",
+    "updated_at": "2026-11-27T23:54:55.679177",
     "price_14d_ago": 457.05
   },
   "XLB": {
     "price": 52.15,
     "change_pct": -1.49,
     "name": "State Street Materials Select S",
-    "updated_at": "2026-11-27T22:22:18.626089",
+    "updated_at": "2026-11-27T23:55:07.497139",
     "price_14d_ago": 52.94
   },
   "XLE": {
     "price": 61.67,
     "change_pct": -0.44,
     "name": "State Street Energy Select Sect",
-    "updated_at": "2026-11-27T22:22:18.829366",
+    "updated_at": "2026-11-27T23:55:07.698699",
     "price_14d_ago": 61.94
   },
   "SMCI": {
     "price": 23.76,
     "change_pct": -16.92,
     "name": "Super Micro Computer, Inc.",
-    "updated_at": "2026-11-27T22:22:07.286529",
+    "updated_at": "2026-11-27T23:54:56.279802",
     "price_14d_ago": 28.6
   },
   "MA": {
     "price": 666.96,
     "change_pct": 1.7,
     "name": "Mastercard Incorporated",
-    "updated_at": "2026-11-27T22:21:51.587532",
+    "updated_at": "2026-11-27T23:54:40.877225",
     "price_14d_ago": 655.81
   },
   "ANET": {
     "price": 174.73,
     "change_pct": -6.14,
     "name": "Arista Networks, Inc.",
-    "updated_at": "2026-11-27T22:21:28.313097",
+    "updated_at": "2026-11-27T23:54:18.086245",
     "price_14d_ago": 186.17
   },
   "OKTA": {
     "price": 207.46,
     "change_pct": 16.83,
     "name": "Okta, Inc.",
-    "updated_at": "2026-11-27T22:21:58.188964",
+    "updated_at": "2026-11-27T23:54:47.447686",
     "price_14d_ago": 177.57
   },
   "MDRX": {
@@ -1571,7 +1571,7 @@ const dashboardData = {
     "price": 0,
     "change_pct": 0,
     "name": "OAI",
-    "updated_at": "2026-11-27T22:21:57.635005",
+    "updated_at": "2026-11-27T23:54:46.899154",
     "price_14d_ago": null
   }
 },
@@ -68850,7 +68850,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 127205,
+    "id": 127297,
     "name": "Ray Dalio (2019)",
     "slug": "ray-dalio-2019",
     "bio": null,
@@ -68862,7 +68862,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127206,
+    "id": 127298,
     "name": "Jennifer Bailey (2024)",
     "slug": "jennifer-bailey-2024",
     "bio": null,
@@ -68874,7 +68874,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127207,
+    "id": 127299,
     "name": "OpenAI Life Sciences",
     "slug": "openai-life-sciences",
     "bio": null,
@@ -68886,7 +68886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127208,
+    "id": 127300,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -68898,7 +68898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127209,
+    "id": 127301,
     "name": "Carson Block",
     "slug": "carson-block",
     "bio": "Carson Block is the founder of Muddy Waters Research, a short seller known for exposing accounting frauds in global equities.",
@@ -68910,7 +68910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127211,
+    "id": 127303,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -68922,7 +68922,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 127210,
+    "id": 127302,
     "name": "Rick Rule",
     "slug": "rick-rule",
     "bio": null,
@@ -68934,7 +68934,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127212,
+    "id": 127304,
     "name": "David Shapiro",
     "slug": "david-shapiro",
     "bio": null,
@@ -68946,7 +68946,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127213,
+    "id": 127305,
     "name": "Recursive Self-Improvement",
     "slug": "recursive-self-improvement",
     "bio": null,
@@ -68958,7 +68958,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127214,
+    "id": 127306,
     "name": "Keller Cliffton",
     "slug": "keller-cliffton",
     "bio": null,
@@ -68970,7 +68970,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127215,
+    "id": 127307,
     "name": "James Gleick",
     "slug": "james-gleick",
     "bio": null,
@@ -68982,7 +68982,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127216,
+    "id": 127308,
     "name": "Zach Reitano",
     "slug": "zach-reitano",
     "bio": null,
@@ -68994,7 +68994,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127217,
+    "id": 127309,
     "name": "Mike Volpi",
     "slug": "mike-volpi",
     "bio": null,
@@ -69006,7 +69006,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127218,
+    "id": 127310,
     "name": "David Orr",
     "slug": "david-orr",
     "bio": null,
@@ -69018,7 +69018,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127219,
+    "id": 127311,
     "name": "Justin Mares",
     "slug": "justin-mares",
     "bio": null,
@@ -69030,7 +69030,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127220,
+    "id": 127312,
     "name": "Jamin Ball",
     "slug": "deep-dive",
     "bio": null,
@@ -69042,7 +69042,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127221,
+    "id": 127313,
     "name": "John Somorjai",
     "slug": "john-somorjai",
     "bio": null,
@@ -69054,7 +69054,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127222,
+    "id": 127314,
     "name": "Russell Clark",
     "slug": "russell-clark",
     "bio": null,
@@ -69066,7 +69066,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 127223,
+    "id": 127315,
     "name": "Josh Gruenstein",
     "slug": "josh-gruenstein",
     "bio": null,
@@ -69078,7 +69078,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127224,
+    "id": 127316,
     "name": "Luca Ferrari",
     "slug": "luca-ferrari",
     "bio": null,
@@ -69109,7 +69109,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-22",
     "mention_score": 3,
-    "mention_score_decayed": 2.74,
+    "mention_score_decayed": 2.67,
     "last_main_idea": "Carson Block\u2019s core claim is that alleged China-linked chip smuggling and possible board-level concealment create a national-security governance risk around Nvidia and Super Micro.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-22 \u2022 Why Nvidia\u2019s China Problems May Go Beyond Jensen Huang | Carson Block",
     "last_proof_snippet": "I can't overstate this, how important this is as a theme to understanding US politics, geopolitics, in this age.",
@@ -69653,7 +69653,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-11-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.7,
+    "mention_score_decayed": 1.66,
     "last_main_idea": "Commodity prices may be setting up for another rally because positioning has washed out, while refined-product tightness and ongoing electrification still support the longer-term bull case.",
     "last_proof_cite": "Macro Voices \u2022 2026-11-19 \u2022 MacroVoices #559 Ole Hansen: What\u2019s Next After The spec Washout in Commodities",
     "last_proof_snippet": "we are probably actually in a process of setting up the next run higher in commodities, simply because what is so driving commodities is a great part of it is positioning.",
@@ -69715,7 +69715,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-11-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.7,
+    "mention_score_decayed": 1.66,
     "last_main_idea": "Bostrom\u2019s core claim is that AI development should be slowed only briefly when safety lags, because the right balance may be months or a few years, not an open-ended pause.",
     "last_proof_cite": "The a16z Show \u2022 2026-11-19 \u2022 How Fast Should We Build Superintelligence? | Nick Bostrom",
     "last_proof_snippet": "Humanity as a whole will need to actually make a decision about what future we want. A comet that you made earlier, it could be really bad for humanity if we don't develop superintelligence and really advanced systems.",
@@ -69934,7 +69934,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-17",
     "mention_score": 4,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "CoreWeave\u2019s selloff reflects refinancing and spread risk, not a collapse in AI compute demand, because power and GPU scarcity still support the broader infrastructure trade.",
     "supporting_takeaway": "David Sacks argued CoreWeave\u2019s fixed-price contract structure means upside from higher spot pricing is limited because capacity has already been pre-sold.",
     "grokipedia_url": null,
@@ -70535,7 +70535,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Kenneth Tay\u2019s core claim is that enterprise AI demand may not scale fast enough by 2027 to justify today\u2019s investment expectations, despite long-term AI strength.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-25 \u2022 \u201cAir Pocket for AI Demand in 2027\u201d | Funda.AI\u2019s Kenneth Tay on Near-Term Headwinds for Enterprise AI Demand (Recorded at TomorrowX Summit)",
     "last_proof_snippet": "We are here at the tomorrow ex summit. I am joined by Kenneth Tay, head of content for Funda. Can great to see you.",
@@ -71058,87 +71058,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 689,
-    "name": "Cristina Cordova",
-    "slug": "cristina-cordova",
-    "bio": "COO of Linear since joining about 3 to 3.5 years ago. Previously led platform APIs, partnerships, and self-serve growth initiatives at Notion, and earlier spent about 7.5 years at Stripe.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-20 04:33:18",
-    "last_episode_title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-11-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Linear\u2019s core idea is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-19 \u2022 Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
-    "last_proof_snippet": "Kari writing this blog post, like issue tracking is dead. Yeah. So like how do you explain to your customers that like, \"Hey, you know, our entire business was issue tracking before, and now our CEO just wrote this blog post\"?",
-    "supporting_takeaway": "Cristina Cordova says Linear launched its MCP server in 2025 and that over 50% of issues created on Linear are now created by agents, within about a year and a half.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 686,
-    "name": "Huang Resigns",
-    "slug": "huang-resigns",
-    "bio": null,
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-20 04:31:21",
-    "last_episode_title": "Jensen Huang Resigns: NVIDIA's Succession Crisis and the Fate of the AI Supply Chain",
-    "last_podcast_name": "The Circuit",
-    "last_episode_date": "2026-11-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Jensen Huang's exit could weaken NVIDIA's financing and allocation power, shifting leverage toward hyperscalers and alternatives while testing the economics of neocloud AI infrastructure.",
-    "last_proof_cite": "The Circuit \u2022 2026-11-12 \u2022 Jensen Huang Resigns: NVIDIA's Succession Crisis and the Fate of the AI Supply Chain",
-    "last_proof_snippet": "one host argues that without Jensen Huang, a major NVIDIA-led platform deal may not proceed because there is internal resistance and the deal was only a press release, not a finalized term sheet.",
-    "supporting_takeaway": "one host argues that without Jensen Huang, a major NVIDIA-led platform deal may not proceed because there is internal resistance and the deal was only a press release, not a finalized term sheet.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 684,
-    "name": "Kevin Magid",
-    "slug": "kevin-magid",
-    "bio": "CEO of Audax Private Debt since its inception in 2000. He discusses Audax\u2019s middle-market lending approach, credit discipline, and views on AI and rates.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-20 04:28:14",
-    "last_episode_title": "\u2018Fear Is Making a Comeback,\u2019 Says Audax Private Debt\u2019s CEO",
-    "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
-    "last_episode_date": "2026-11-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Audax\u2019s edge is disciplined middle-market cash-flow underwriting that avoids ARR/forward-revenue exposure and may limit losses even as AI and rate fears shake credit sentiment.",
-    "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-11-19 \u2022 \u2018Fear Is Making a Comeback,\u2019 Says Audax Private Debt\u2019s CEO",
-    "last_proof_snippet": "Speaker 1: My name is James Crombie. I'm a senior editor at Bloomberg. Speaker 2: And I'm David Havens, a senior analyst at Bloomberg Intelligence.",
-    "supporting_takeaway": "Kevin Magid says Audax has made zero ARR loans and underwrites software loans backward from latest-12-month EBITDA.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 180,
     "name": "Amjad Masad",
     "slug": "amjad-masad",
@@ -71197,6 +71116,87 @@ const dashboardData = {
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 689,
+    "name": "Cristina Cordova",
+    "slug": "cristina-cordova",
+    "bio": "COO of Linear since joining about 3 to 3.5 years ago. Previously led platform APIs, partnerships, and self-serve growth initiatives at Notion, and earlier spent about 7.5 years at Stripe.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-20 04:33:18",
+    "last_episode_title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-11-19",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "Linear\u2019s core idea is that agentic workflows embedded inside the product, not just external orchestration, will replace manual issue tracking and drive adoption, especially after its 2025 enterprise push.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-19 \u2022 Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+    "last_proof_snippet": "Kari writing this blog post, like issue tracking is dead. Yeah. So like how do you explain to your customers that like, \"Hey, you know, our entire business was issue tracking before, and now our CEO just wrote this blog post\"?",
+    "supporting_takeaway": "Cristina Cordova says Linear launched its MCP server in 2025 and that over 50% of issues created on Linear are now created by agents, within about a year and a half.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 686,
+    "name": "Huang Resigns",
+    "slug": "huang-resigns",
+    "bio": null,
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-20 04:31:21",
+    "last_episode_title": "Jensen Huang Resigns: NVIDIA's Succession Crisis and the Fate of the AI Supply Chain",
+    "last_podcast_name": "The Circuit",
+    "last_episode_date": "2026-11-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "Jensen Huang's exit could weaken NVIDIA's financing and allocation power, shifting leverage toward hyperscalers and alternatives while testing the economics of neocloud AI infrastructure.",
+    "last_proof_cite": "The Circuit \u2022 2026-11-12 \u2022 Jensen Huang Resigns: NVIDIA's Succession Crisis and the Fate of the AI Supply Chain",
+    "last_proof_snippet": "one host argues that without Jensen Huang, a major NVIDIA-led platform deal may not proceed because there is internal resistance and the deal was only a press release, not a finalized term sheet.",
+    "supporting_takeaway": "one host argues that without Jensen Huang, a major NVIDIA-led platform deal may not proceed because there is internal resistance and the deal was only a press release, not a finalized term sheet.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 684,
+    "name": "Kevin Magid",
+    "slug": "kevin-magid",
+    "bio": "CEO of Audax Private Debt since its inception in 2000. He discusses Audax\u2019s middle-market lending approach, credit discipline, and views on AI and rates.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-20 04:28:14",
+    "last_episode_title": "\u2018Fear Is Making a Comeback,\u2019 Says Audax Private Debt\u2019s CEO",
+    "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
+    "last_episode_date": "2026-11-19",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "Audax\u2019s edge is disciplined middle-market cash-flow underwriting that avoids ARR/forward-revenue exposure and may limit losses even as AI and rate fears shake credit sentiment.",
+    "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-11-19 \u2022 \u2018Fear Is Making a Comeback,\u2019 Says Audax Private Debt\u2019s CEO",
+    "last_proof_snippet": "Speaker 1: My name is James Crombie. I'm a senior editor at Bloomberg. Speaker 2: And I'm David Havens, a senior analyst at Bloomberg Intelligence.",
+    "supporting_takeaway": "Kevin Magid says Audax has made zero ARR loans and underwrites software loans backward from latest-12-month EBITDA.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 681,
@@ -71351,7 +71351,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Black Forest Labs believes one multimodal model can extend from images to video, action, and robotics, with controllability and data quality as the key bottlenecks.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-16 \u2022 Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Black Forest Labs",
     "last_proof_snippet": "Happy to bring to you our episode with Black Forest Labs.",
@@ -71378,7 +71378,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Black Forest Labs believes one multimodal model can extend from images to video, action, and robotics, with controllability and data quality as the key bottlenecks.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-16 \u2022 Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Black Forest Labs",
     "last_proof_snippet": "Happy to bring to you our episode with Black Forest Labs.",
@@ -71567,7 +71567,7 @@ const dashboardData = {
     "last_podcast_name": "The Credit Edge by Bloomberg Intelligence",
     "last_episode_date": "2026-11-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "SilverRock\u2019s edge is complexity-driven private credit, especially primary financing and selective bank-asset purchases where modest discounts and careful structuring can produce attractive risk-adjusted returns.",
     "last_proof_cite": "The Credit Edge by Bloomberg Intelligence \u2022 2026-11-12 \u2022 Banks Are Trying to Offload a Large Pile of AI-Related Loans",
     "last_proof_snippet": "Speaker 1: My name is James Crombie. I'm a senior editor at Bloomberg. Speaker 2: And I'm Nagisa Baluku, a senior analyst at Bloomberg Intelligence.",
@@ -71783,7 +71783,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Resend's edge is becoming infrastructure ownership and deliverability observability, which could turn developer preference into durable platform adoption.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-10 \u2022 Designing for Agents \u2014 Zeno Rocha, Resend",
     "last_proof_snippet": "It's like, oh my gosh, how are we ever gonna beat SendGrid? It's im- just impossible. And then earlier this year, we crossed a number of, uh, downloads from SendGrid, and I was like, \"That's insane,\" and now we're more than double.",
@@ -71837,7 +71837,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Structural index pinning from heavy December put positioning can coexist with a fat left tail, but the most actionable move is still selective convexity rather than outright long volatility.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-09 \u2022 Structural Flows Will Support Stocks Until the U.S. Treasury Crisis in 2027 | Cem Karsan & Noel Smith | Kai Asset Management",
     "last_proof_snippet": "I'll believe Hank Palson shows up, 45 minutes with Bloomberg to declare nonstop for 45 minutes. There's a coming treasury crisis and we need to prepare a facility to backstop it. That's weird.",
@@ -71945,7 +71945,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-11-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "AI-native software stacks will shift value toward context engineering, verification, and agentic workflow platforms while making code review and security the main adoption bottlenecks.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-11-08 \u2022 [One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering \u2014 Mihail Eric, Monaco",
     "last_proof_snippet": "Okay, this is a pretty special episode because we're celebrating one million subscribers on the AIU Code, uh, AI, AI Engineer YouTube channel.",
@@ -71972,7 +71972,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-11-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Private credit\u2019s retail liquidity mismatch and delayed loss recognition will expose hidden deterioration first in data-center and direct-lending exposures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-08 \u2022 Following the Private Credit Loan Books | Laks Ganapathi",
     "last_proof_snippet": "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, Lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to Tangibles. Learn more at Sarmayaetf.",
@@ -72210,33 +72210,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 622,
-    "name": "Andy Constan",
-    "slug": "andy-constan",
-    "bio": "Macro investor and analyst from Damp Spring Advisors. He focuses on bonds, fiscal policy, and cross-asset implications of growth, supply, and capital allocation.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-11-06 05:54:33",
-    "last_episode_title": "Growth Expectations Are Probably Too High | Andy Constan on Post-Midterms Macro View, Bond Supply Issue, and QRA (Quarterly Refunding Announcement)",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-11-04",
-    "mention_score": 1,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Growth expectations are too high for the next 3\u20136 months, while Treasury buybacks and net equity supply shifts are becoming more important to cross-asset pricing.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-04 \u2022 Growth Expectations Are Probably Too High | Andy Constan on Post-Midterms Macro View, Bond Supply Issue, and QRA (Quarterly Refunding Announcement)",
-    "last_proof_snippet": "There's Sarmaya Thematic ETF built for a return to Tangibles. Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it.",
-    "supporting_takeaway": "Constan\u2019s base case is not recession, but a 3\u20136 month period of disappointment versus currently elevated growth expectations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 267,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
@@ -72294,6 +72267,33 @@ const dashboardData = {
       ]
     },
     "net_worth": null
+  },
+  {
+    "id": 622,
+    "name": "Andy Constan",
+    "slug": "andy-constan",
+    "bio": "Macro investor and analyst from Damp Spring Advisors. He focuses on bonds, fiscal policy, and cross-asset implications of growth, supply, and capital allocation.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-11-06 05:54:33",
+    "last_episode_title": "Growth Expectations Are Probably Too High | Andy Constan on Post-Midterms Macro View, Bond Supply Issue, and QRA (Quarterly Refunding Announcement)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-11-04",
+    "mention_score": 1,
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Growth expectations are too high for the next 3\u20136 months, while Treasury buybacks and net equity supply shifts are becoming more important to cross-asset pricing.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-11-04 \u2022 Growth Expectations Are Probably Too High | Andy Constan on Post-Midterms Macro View, Bond Supply Issue, and QRA (Quarterly Refunding Announcement)",
+    "last_proof_snippet": "There's Sarmaya Thematic ETF built for a return to Tangibles. Learn more at Sarmayaetf. com and see the show notes for disclosures. Let's get into it.",
+    "supporting_takeaway": "Constan\u2019s base case is not recession, but a 3\u20136 month period of disappointment versus currently elevated growth expectations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 621,
@@ -72806,33 +72806,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 600,
-    "name": "Will Ahmed",
-    "slug": "will-ahmed",
-    "bio": "CEO and founder of WHOOP, the wearable health and performance subscription company. He discusses the company\u2019s data scale, AI roadmap, regulatory issues, and product strategy.",
-    "known_for": null,
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-10-30 05:00:12",
-    "last_episode_title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-10-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-29 \u2022 WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
-    "last_proof_snippet": "On average, a [WHOOP] member wears [WHOOP] 23.6 hours a day, we have just over 50 billion hours of continuous physiological data. So it's one of the largest health data sets in the world.",
-    "supporting_takeaway": "Ahmed says WHOOP reached 1 million members after about 12 years, then scaled to 2 million in roughly 18 months and to around 3 million in about six months.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
     "id": 160,
     "name": "Ben Lamm",
     "slug": "ben-lamm",
@@ -72895,6 +72868,33 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.90B"
+  },
+  {
+    "id": 600,
+    "name": "Will Ahmed",
+    "slug": "will-ahmed",
+    "bio": "CEO and founder of WHOOP, the wearable health and performance subscription company. He discusses the company\u2019s data scale, AI roadmap, regulatory issues, and product strategy.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-30 05:00:12",
+    "last_episode_title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "WHOOP\u2019s best long-term moat is its massive subscription-driven physiological dataset, which Ahmed says is enabling AI models that can predict health signals and eventually guide earlier intervention.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-29 \u2022 WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+    "last_proof_snippet": "On average, a [WHOOP] member wears [WHOOP] 23.6 hours a day, we have just over 50 billion hours of continuous physiological data. So it's one of the largest health data sets in the world.",
+    "supporting_takeaway": "Ahmed says WHOOP reached 1 million members after about 12 years, then scaled to 2 million in roughly 18 months and to around 3 million in about six months.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 599,
@@ -74026,7 +74026,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-10-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Billy Evans argues that Raman-based diagnostics can become far cheaper and more widely deployed than current lab instruments, creating a new sensing platform for biology and AI data.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-10-15 \u2022 Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
     "last_proof_snippet": "",
@@ -74861,7 +74861,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Richard Socher claims AI can deliver a century of scientific breakthroughs in the next decade by automating hypothesis, experiment, data, and theory across the full scientific stack.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-03 \u2022 Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
     "last_proof_snippet": "In various weak forms, we already have RSI. We're not quite there yet, but we're very close.",
@@ -75682,7 +75682,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
     "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging.",
@@ -76246,7 +76246,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
     "last_proof_snippet": "Dario Amodei, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Monday, President Trump called it a hoax and China called it a cold war trick.",
@@ -78993,7 +78993,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Rahm Emanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "last_proof_snippet": "",
@@ -82879,6 +82879,67 @@ const dashboardData = {
     }
   },
   {
+    "id": 73,
+    "name": "Sam Altman",
+    "slug": "sam-altman",
+    "bio": null,
+    "known_for": "His leadership at OpenAI and his revised views on AI's impact on jobs and the future of work.",
+    "net_worth_usd": 2100000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
+    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-30 18:36:25",
+    "last_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-30",
+    "mention_score": 2,
+    "mention_score_decayed": 0.03,
+    "last_main_idea": "Reassess AI investment strategies based on evolving job market narratives.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "last_proof_snippet": "",
+    "supporting_takeaway": "Reassess AI investment strategies based on evolving job market narratives.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-30T13:36:34.383434",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sam Altman",
+      "fetched_at": "2026-05-30T18:36:34.383095+00:00",
+      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time. Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society.",
+      "derived": {
+        "current_role": "President of OpenAI",
+        "education": "Stanford University; dropout"
+      },
+      "infobox": {
+        "Born": "1985",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time.",
+        "Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at OpenAI",
+          "body": "Sam Altman serves as the President of OpenAI, where he leads the development and deployment of artificial general intelligence with a focus on ensuring its benefits are widely distributed."
+        },
+        {
+          "heading": "Views on AI and Jobs",
+          "body": "Initially warning about the potential for AI to displace white-collar jobs, Altman has since revised his views, suggesting that the so-called job apocalypse may not occur as predicted."
+        },
+        {
+          "heading": "Influence in AI Community",
+          "body": "Altman's leadership and public statements have made him a prominent voice in the AI community, influencing discussions on the ethical and societal implications of AI advancements."
+        }
+      ]
+    },
+    "net_worth": "$2.10B"
+  },
+  {
     "id": 298,
     "name": "Jim Chanos",
     "slug": "jim-chanos",
@@ -82896,7 +82957,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "AI's broader economic impact may not match market expectations, drawing parallels to the internet boom.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "",
@@ -82961,7 +83022,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "AI's broader economic impact may not match market expectations, drawing parallels to the internet boom.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "",
@@ -83005,67 +83066,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 73,
-    "name": "Sam Altman",
-    "slug": "sam-altman",
-    "bio": null,
-    "known_for": "His leadership at OpenAI and his revised views on AI's impact on jobs and the future of work.",
-    "net_worth_usd": 2100000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
-    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-05-30 18:36:25",
-    "last_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-30",
-    "mention_score": 2,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Reassess AI investment strategies based on evolving job market narratives.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-    "last_proof_snippet": "",
-    "supporting_takeaway": "Reassess AI investment strategies based on evolving job market narratives.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-30T13:36:34.383434",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sam Altman",
-      "fetched_at": "2026-05-30T18:36:34.383095+00:00",
-      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time. Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society.",
-      "derived": {
-        "current_role": "President of OpenAI",
-        "education": "Stanford University; dropout"
-      },
-      "infobox": {
-        "Born": "1985",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time.",
-        "Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at OpenAI",
-          "body": "Sam Altman serves as the President of OpenAI, where he leads the development and deployment of artificial general intelligence with a focus on ensuring its benefits are widely distributed."
-        },
-        {
-          "heading": "Views on AI and Jobs",
-          "body": "Initially warning about the potential for AI to displace white-collar jobs, Altman has since revised his views, suggesting that the so-called job apocalypse may not occur as predicted."
-        },
-        {
-          "heading": "Influence in AI Community",
-          "body": "Altman's leadership and public statements have made him a prominent voice in the AI community, influencing discussions on the ethical and societal implications of AI advancements."
-        }
-      ]
-    },
-    "net_worth": "$2.10B"
   },
   {
     "id": 297,
