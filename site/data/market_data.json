@@ -1,6 +1,6 @@
 {
   "_comment": "First-class market data objects for the idea radar (Compute Forward spot and curve).",
-  "_updated": "2026-11-27",
+  "_updated": "2026-11-28",
   "_data_status": "live",
   "schema_version": 1,
   "data_fetch_status": {
@@ -12,7 +12,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-11-27T21:20:34.998865",
+    "last_fetched": "2026-11-28T06:19:24.627937",
     "h100": {
       "daily_date": "Nov 28, 2026",
       "daily_date_iso": "2026-11-28",
@@ -116,9 +116,9 @@
     "b200": {
       "daily_date": "Nov 28, 2026",
       "composite_index": {
-        "display": "$6.27",
+        "display": "$6.29",
         "type": "single",
-        "value": 6.27
+        "value": 6.29
       }
     },
     "a100": {
@@ -877,7 +877,7 @@
         6.27,
         6.33,
         6.32,
-        6.27
+        6.29
       ]
     },
     "history_summary": {
@@ -924,7 +924,7 @@
     "as_of": "2026-11-28T00:37:43.764Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v2+unsmoothed-v1",
-    "last_fetched": "2026-11-27T21:20:35.236759",
+    "last_fetched": "2026-11-28T06:19:24.916477",
     "b200": {
       "points": [
         {
@@ -1146,11 +1146,11 @@
     "explanation": "demand strong for the newest chips, supply catching up on older ones.",
     "chips": {
       "b200": {
-        "spot": 6.27,
-        "spot_30d_pct": -5.9,
-        "spot_90d_pct": 13.6,
-        "forward_vs_spot_pct": 17.3,
-        "score": 8.3,
+        "spot": 6.29,
+        "spot_30d_pct": -5.6,
+        "spot_90d_pct": 13.9,
+        "forward_vs_spot_pct": 16.9,
+        "score": 8.4,
         "trend": "rising"
       },
       "h100": {
@@ -1172,6 +1172,6 @@
     },
     "rule": "mean of spot 30d %, spot 90d % and forward avg vs today %; >+3% rising, <-3% dropping, else steady",
     "as_of": "2026-11-28",
-    "generated_at": "2026-11-27T21:20:35"
+    "generated_at": "2026-11-28T06:19:24"
   }
 }
